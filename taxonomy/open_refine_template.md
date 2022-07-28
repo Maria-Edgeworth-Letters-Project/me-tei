@@ -6,10 +6,6 @@
 #### Prefix
 
 ```
-```
-####Body
-
-```
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
@@ -45,12 +41,24 @@
         </fileDesc>
         <encodingDesc>
             <classDecl>
-                <taxonomy xml:id="people">
+            <taxonomy xml:id="people">
                     <bibl>People</bibl>
                     <category>
-                    {{}}
-                    </category>
-                </taxonomy>
+                
+  
+```
+####Body
+
+```  
+{{if(isBlank(cells['ID'].value), '', '<catDesc xml:id="' + cells['ID'].value + '">' + cells['Term'].value + if(isBlank(cells['LoC_URI'].value), '', '<ref type="naf">' + cells['LoC_URI'].value +'</ref>') + if(isBlank(cells['VIAF URI'].value), '', '<ref type="viaf">' + cells['VIAF URI'].value +'</ref>') + '</catDesc>')}}
+
+```
+
+#### Suffix
+
+```
+                  </category>
+               </taxonomy> 
             </classDecl>
         </encodingDesc>
     </teiHeader>
@@ -60,11 +68,5 @@
         </body>
     </text>
 </TEI>
-
-```
-
-#### Suffix
-
-```
 
 ```
