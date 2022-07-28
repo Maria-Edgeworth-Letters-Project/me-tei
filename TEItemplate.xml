@@ -6,7 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Letter from Maria Edgeworth to <!-- Recipient Name, Month Day, YYYY--></title>
+            <title>Letter from Maria Edgeworth to <!--Recipient Name, Month Day, YYYY--></title>
             <author>Maria Edgeworth</author>
             <editor ref="Id_who">
                <!--Editor on the Maria Edgeworth Letters Project overseeing the coding of this particular letter: FirstName LastName -->
@@ -43,7 +43,7 @@
          </editionStmt>
          <publicationStmt>
             <authority>Maria Edgeworth Letters Project</authority>
-            <date>2013</date>
+            <date>2022</date>
             <availability>
                <!--Uncomment the appropriate line, based on the archive that holds the physical copy of this letter, 
                   and delete the other comment line(s).-->
@@ -54,18 +54,7 @@
                <licence>Distributed under a Creative Commons Attribution-ShareAlike 3.0 Unported
                   License</licence>
             </availability>
-            
             <idno><!--SendertoReceiverDate--></idno> 
-            
-            
-            <!--FROM LAURA: I moved this identifcation of the TEI document itself, the digital surrogate,
-               out of the title statement to the publicationStmt.
-               
-               It is helpful if this id is the same as the filename. So this current document would be saved
-               as MEtoMordecai1816.xml, and the web page will be MEtoMordecai1816.html -->
-               
-            
-            
          </publicationStmt>
          <seriesStmt>
             <title>Maria Edgeworth Letters Project</title>
@@ -74,12 +63,9 @@
             <msDesc xml:lang="en">
                <!-- This section of the header identifies the original manuscript source. -->
                <msIdentifier>
-                  <repository>University of North Carolina at Chapel Hill</repository>
-                  <collection>Mordecai Family Papers, 1649-1947, Southern Historical Collection, The
-                     Wilson Library</collection>
-                  <!-- Change to reflect correct ms. collection. -->
-                  <idno/>
-                  <!--Consult library or WorldCat for this info-->
+                  <repository>ORGANIZATION NAME</repository>
+                  <collection><!-- Enter specific archival collection if applicable--></collection>
+                  <idno><!--Consult library or WorldCat for this info--></idno>
                </msIdentifier>
                
                <!-- FROM LAURA: it's here (below) in the head that I added the full information about the author,
@@ -92,9 +78,8 @@
                         <idno type="VIAF">71477273</idno>
                         <idno type="SNAC">62567029</idno>
                      </persName>
-                   to Rachel Mordecai, <placeName>Edgeworthstown,
-                     Ireland</placeName>, 
-                  <date when="1816-08-04">August 4, 1816</date>
+                   to <persName><!--Recipient Name--></persName>, <placeName><!--Location where letter was sent--></placeName>, 
+                  <date when="1111-01-01">Month, Day YYYY</date>
                </head>
                <physDesc>
                   <!-- optional physical description of the letter goes here: paper size and condition, seal, postmarks, etc.-->
@@ -105,9 +90,8 @@
                ask TEI List whether it should be in the sourceDesc or elsewhere? -->
             
             <bibl>In addition to our edited version, this letter was previously published in
-               <!--complete bibiographical info if letter was published in a book here-->
+               <!--complete bibiographical info if letter was published in a book here - if not delete-->
             </bibl>
-            
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
@@ -120,9 +104,6 @@
                word is split at the end of a line and the beginning of the next in a manuscript. The
                long s and ligatured forms are silently emended.</p>
          </editorialDecl>
-         
-         <!-- Meredith's additions for classifying this document -->
-         
          <classDecl>
             <taxonomy xml:id="relators">
                <bibl>Marc Relators</bibl>
