@@ -6,20 +6,10 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <!-- The next 6 lines are the title statement.-->
-            
-            
-            <title>Letter to Rachel Mordecai 1816</title>
+            <title>Letter from Maria Edgeworth to <!-- Recipient Name, Month Day, YYYY--></title>
             <author>Maria Edgeworth</author>
-            
-            <!--FROM LAURA: I have stripped the above of tags. The titleStmt here refers to the digital edition.
-               I recommend putting all the author info. only in one place, in sourceDesc/msDesc as below, which
-               I realized works best after our meeting -->
-            
-            
-            
             <editor ref="Id_who">
-               <!--Editor on the Maria Edgeworth Letters Project overseeing the coding of this particular letter: First Name Last Name -->
+               <!--Editor on the Maria Edgeworth Letters Project overseeing the coding of this particular letter: FirstName LastName -->
             </editor>
             <sponsor>
                <orgName>Maria Edgeworth Letters Project</orgName>
@@ -29,16 +19,13 @@
             <principal>Jessica Richard, Hilary Havens, Robin Runia, Susan Egenolf</principal>
             <respStmt>
                <resp>Transcription and coding by</resp>
-               <persName ref="Id_who"><!--name here-->
+               <persName ref="Id_who"><!--FirstName LastName-->
                </persName>
                <!-- List all transcribers or coders here, editors and students alike, <persName> by <persName>.-->
-               <persName ref="Id_who"><!--name here--></persName>
+               <persName ref="Id_who"><!--FirstName LastName--></persName>
                <!-- If you're the last person interacting with the file, enter your name last on the list -->
             </respStmt>
          </titleStmt>
-         
-         <!-- FROM LAURA: I changed the editionStmt below to make it validate -->
-         
          <editionStmt>
             <edition>First digital edition in TEI, date: <date when="2022-01-01">
                   <!--enter the date on which the first coder created and saved this XML file in google drive-->
@@ -46,7 +33,7 @@
             </edition>
             <respStmt>
                <orgName ref="Id_who">
-                  <!--who took the photo or gave us permission for the photos?-->
+                  <!--who took digitized the letter or gave us permission for to use the file?-->
                </orgName>
                <resp> photos include:
                   <!-- Make a comma-separated list of each .jpg photo file name associated with your letter. 
@@ -54,8 +41,6 @@
                </resp>
             </respStmt>
          </editionStmt>
-         
-         
          <publicationStmt>
             <authority>Maria Edgeworth Letters Project</authority>
             <date>2013</date>
@@ -70,7 +55,7 @@
                   License</licence>
             </availability>
             
-            <idno>MEtoMordecai1816</idno> 
+            <idno><!--SendertoReceiverDate--></idno> 
             
             
             <!--FROM LAURA: I moved this identifcation of the TEI document itself, the digital surrogate,
@@ -259,26 +244,18 @@
                   <catDesc xml:id="CranfordI">Cranford, Ireland<idno type="getty">tgn/7901042</idno></catDesc>
                   <catDesc xml:id="Kettering">Kettering, UK<idno type="getty">tgn/7010904</idno></catDesc>
                </category>
-            </taxonomy>
-            <taxonomy xml:id="period">
-               <bibl>Period</bibl>
-               <category>
-                  <catDesc>xx</catDesc>
-               </category>
-            </taxonomy>
+            </taxonomy> 
          </classDecl>
-         
       </encodingDesc>
       <profileDesc>
          <correspDesc>
             <correspAction type="sent">
-               <persName>SENDER NAME</persName>
+               <persName><!--SENDER NAME--></persName>
             </correspAction>
             <correspAction type="received">
-               <persName>RECIPIENT NAME</persName>
+               <persName><!--RECIPIENT NAME--></persName>
             </correspAction>
          </correspDesc>
-         
          <textClass>
             <keywords scheme="">
                <list type="simple">
@@ -322,26 +299,8 @@
                <pb n="2" facs="image2.jpg"/>
             </p>
             <p><!--More body paragraphs as needed.--></p>
-            
             <closer>
                <!--include linebreaks, if used. example: <closer> Yours<lb/> Very sincerely<lb/> -->
-               
-               
-           <!-- FROM LAURA: you can put the role attribute into name or persName tags In the first instance, 
-              there is no Role taxonomy in the header, but if all the specified roles are marc relators, then 
-              the metadata is here. In the second instance, the taxonomy of roles is included in the header, as 
-              indicated by the hash tag. Any names that occur throughout the body of the letter can have roles 
-              as well, if that's interesting? -->    
-               
-               
-               <persName role="AUT"> Maria Edgeworth</persName>
-               
-               <persName role="#AUT">Maria Edgeworth</persName>
-               
-               
-               
-               
-               
             </closer>
             <postscript>
                <p><!--A postscript goes here, outside the <closer>. --></p>
