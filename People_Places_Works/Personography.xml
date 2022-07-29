@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Maria Edgeworth Letters Project Personography</title>
+                <author>Meredith Hale</author>
+                <sponsor>Wake Forest University, University of Tennessee, Xavier University, Texas
+                    A&amp;M University</sponsor>
+                <respStmt>
+                    <resp>Contributors include:</resp>
+                    <persName>Jessica Richard</persName>
+                    <persName>Hilary Havens</persName>
+                    <persName>Robin Runia</persName>
+                    <persName>Susan Egenolf</persName>
+                    <persName>Eliza Wilcox</persName>
+                    <persName>Jamie Kramer</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Maria Edgeworth Letters Project</authority>
+                <availability>
+                    <licence>Distributed under a Creative Commons Attribution-ShareAlike 3.0
+                        Unported License</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Personal names and identifiers are derived from the Virtal International
+                    Authority File (VIAF) and the Library of Congress Name Authority File
+                    (LCNAF).</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p>This is a personography that defines people associated with the Maria Edgeworth
+                Letters project.</p>
+            <listPerson>
+                <person xml:id="AshbX1">
+                    <persName>Ashburner, Dr.</persName>
+                </person>
+                <person xml:id="BabbC1">
+                    <persName>Babbage, Charles, 1791-1871</persName>
+                    <idno type="NAF">http://id.loc.gov/authorities/names/n50031102</idno>
+                    <idno type="VIAF">http://viaf.org/viaf/4963723</idno>
+                </person>
+                <person xml:id="BarbA1">
+                    <persName>Barbauld, Mrs. (Anna Letitia), 1743-1825</persName>
+                    <idno type="NAF">http://id.loc.gov/authorities/names/n84136092</idno>
+                    <idno type="VIAF">http://viaf.org/viaf/9896232</idno>
+                </person>
+                <person xml:id="BeauF1">
+                    <persName>Beaufort, Francis, Sir, 1774-1857</persName>
+                    <idno type="VIAF">http://viaf.org/viaf/42580519</idno>
+                </person>
+                <person xml:id="BeauH1">
+                    <persName>Beaufort, Honora 1791-1858</persName>
+                    <idno type="VIAF">http://viaf.org/viaf/315621595</idno>
+                </person>
+                <person xml:id="BentR1">
+                    <persName>Bentley, Richard</persName>
+                </person>
+                <person xml:id="BrewD1">
+                    <persName>Brewster, David, 1781-1868</persName>
+                    <idno type="NAF">http://id.loc.gov/authorities/names/n84239125</idno>
+                    <idno type="VIAF">http://viaf.org/viaf/2774127</idno>
+                </person>
+                <person xml:id="ButlX1">
+                    <persName>Butler, Mr.</persName>
+                </person>
+                <person xml:id="CarrF1">
+                    <persName>Carr, Frances, Mrs., 1765-1836</persName>
+                </person>
+                <person xml:id="CartX1">
+                    <persName>Carter, Mrs.</persName>
+                </person>
+                <person xml:id="ChatX1">
+                    <persName>Chaters, Mr.</persName>
+                </person>
+                <person xml:id="CoweX1">
+                    <persName>Cowen, Mr.</persName>
+                </person>
+                <person xml:id="CrewX1">
+                    <persName>Crewe, Mr.</persName>
+                </person>
+                <person xml:id="EdgeA1">
+                    <persName>Edgeworth, Abbe</persName>
+                </person>
+                <person xml:id="EdgeC1">
+                    <persName>Edgeworth, C. Sneyd</persName>
+                    <idno type="NAF">http://id.loc.gov/authorities/names/no98071794</idno>
+                    <idno type="VIAF">http://viaf.org/viaf/47115638</idno>
+                </person>
+                <person xml:id="EdgeF2">
+                    <persName>Edgeworth, Frances Anne, 1769-1865</persName>
+                    <idno type="NAF">http://id.loc.gov/authorities/names/no2019164463</idno>
+                    <idno type="VIAF">http://viaf.org/viaf/315632809</idno>
+                </person>
+                <person xml:id="EdgeF1">
+                    <persName>Edgeworth, Francis Beaufort, 1809-1846</persName>
+                    <idno type="NAF">http://id.loc.gov/authorities/names/no2021014583</idno>
+                    <idno type="VIAF">http://viaf.org/viaf/6944161332388652420006</idno>
+                </person>
+                <person xml:id="EdgeM1">
+                    <persName>Edgeworth, Maria, 1768-1849</persName>
+                    <idno type="NAF">http://id.loc.gov/authorities/names/n79061006</idno>
+                    <idno type="VIAF">http://viaf.org/viaf/71477273</idno>
+                </person>
+                <person xml:id="EdgeR1">
+                    <persName>Edgeworth, Richard Lovell, 1744-1817</persName>
+                    <idno type="NAF">http://id.loc.gov/authorities/names/n79061007</idno>
+                    <idno type="VIAF">http://viaf.org/viaf/66511092</idno>
+                </person>
+                <person xml:id="EdgeR2">
+                    <persName>Edgeworth, Rosa Florentina Eroles</persName>
+                </person>
+                <person xml:id="EdgeW1">
+                    <persName>Edgeworth, William</persName>
+                </person>
+                <person xml:id="ErolY1">
+                    <persName>Eroles, Ysidro</persName>
+                </person>
+                <person xml:id="FarrX1">
+                    <persName>Farrell, Mrs.</persName>
+                </person>
+                <person xml:id="FoxC1">
+                    <persName>Fox, C.J.</persName>
+                </person>
+                <person xml:id="FrisX1">
+                    <persName>Frisbie, Professor</persName>
+                </person>
+                <person xml:id="GodlX1">
+                    <persName>Godley, Captain</persName>
+                </person>
+                <person xml:id="GranX1">
+                    <persName>Granard, Lady</persName>
+                </person>
+                <person xml:id="HamiX1">
+                    <persName>Hamilton, Mrs. </persName>
+                </person>
+
+                <person xml:id="HillX1">
+                    <persName>Hill, Mr.</persName>
+                </person>
+                <person xml:id="HoarF1">
+                    <persName>Hoare, Frances (Robinson)</persName>
+                </person>
+                <person xml:id="HoarX1">
+                    <persName>Hoare, Mr.</persName>
+                </person>
+                <person xml:id="HollX1">
+                    <persName>Hollingshead</persName>
+                </person>
+                <person xml:id="HuntX1">
+                    <persName>Hunter, Mr.</persName>
+                </person>
+                <person xml:id="InchE1">
+                    <persName>Inchbald, Elizabeth, 1753-1821</persName>
+                    <idno type="NAF">http://id.loc.gov/authorities/names/n50039098</idno>
+                    <idno type="VIAF">http://viaf.org/viaf/59084053</idno>
+                </person>
+                <person xml:id="IndeX1">
+                    <persName>Indes, Mr. </persName>
+                </person>
+                <person xml:id="Anon1">
+                    <persName>18th-c author, dictionary compiler</persName>
+                </person>
+                <person xml:id="JohnS1">
+                    <persName>Johnson, Samuel</persName>
+                </person>
+                <person xml:id="KateH1">
+                    <persName>Kater, Henry, 1777-1835</persName>
+                    <idno type="NAF">http://id.loc.gov/authorities/names/n87136231</idno>
+                    <idno type="VIAF">http://viaf.org/viaf/77095011</idno>
+                </person>
+                <person xml:id="KateM1">
+                    <persName>Kater, Mary Frances Kater</persName>
+                </person>
+
+                <person xml:id="Lock1">
+                    <persName>Lockhart, Mr.</persName>
+                </person>
+                <person xml:id="Long1">
+                    <persName>Longford, Lord</persName>
+                </person>
+                <person xml:id="LowtR1">
+                    <persName>Lowth, Robert</persName>
+                </person>
+                <person xml:id="MartR1">
+                    <persName>Martin, Richard</persName>
+                    <idno type="NAF">http://id.loc.gov/authorities/names/n86077546</idno>
+                    <idno type="VIAF">http://viaf.org/viaf/17096430</idno>
+                </person>
+                <person xml:id="McGrJ1">
+                    <persName>McGrigor, James, Sir, 1771-1858</persName>
+                    <idno type="NAF">http://id.loc.gov/authorities/names/no2001046668</idno>
+                    <idno type="VIAF">http://viaf.org/viaf/74223678</idno>
+                </person>
+                <person xml:id="McInJ1">
+                    <persName>McIntosh, Sir James</persName>
+                </person>
+                <person xml:id="Mile2">
+                    <persName>Miles, Mr.</persName>
+                </person>
+                <person xml:id="MileX1">
+                    <persName>Miles, Mrs.</persName>
+                </person>
+                <person xml:id="MoirX1">
+                    <persName>Moira, Lord</persName>
+                </person>
+                <person xml:id="MorgS1">
+                    <persName>Morgan, Lady (Sydney), 1783-1859</persName>
+                    <idno type="NAF">http://id.loc.gov/authorities/names/n79090070</idno>
+                    <idno type="VIAF">http://viaf.org/viaf/107533016</idno>
+                </person>
+                <person xml:id="MoutX2">
+                    <persName>Moutray, Miss</persName>
+                </person>
+                <person xml:id="MoutX1">
+                    <persName>Moutray, Mrs.</persName>
+                </person>
+                <person xml:id="NelsH1">
+                    <persName>Nelson, Horatio Nelson, Viscount, 1758-1805</persName>
+                    <idno type="NAF">http://id.loc.gov/authorities/names/n80066193</idno>
+                    <idno type="VIAF">http://viaf.org/viaf/76324981</idno>
+                </person>
+                <person xml:id="NortX1">
+                    <persName>Norton, Professor</persName>
+                </person>
+                <person xml:id="OConD1">
+                    <persName>O'Connor, Don</persName>
+                </person>
+                <person xml:id="ParnT1">
+                    <persName>Parnell, Thomas, 1679-1718</persName>
+                    <idno type="NAF">http://id.loc.gov/authorities/names/n50050777</idno>
+                    <idno type="VIAF">http://viaf.org/viaf/32041540</idno>
+                </person>
+                <person xml:id="ParsL1">
+                    <persName>Lawrence Parsons, Second Earl of Rosse</persName>
+                    <idno type="VIAF">http://viaf.org/viaf/284596004</idno>
+                </person>
+                <person xml:id="RandX1">
+                    <persName>Randolph, Mr.</persName>
+                </person>
+                <person xml:id="RawdC1">
+                    <persName>Rawdon, Charlotte, Lady</persName>
+                </person>
+                <person xml:id="RipoG1">
+                    <persName>Ripon, George Frederick Samuel Robinson, marquess of,
+                        1827-1909</persName>
+                    <idno type="NAF">http://id.loc.gov/authorities/names/n83035672</idno>
+                    <idno type="VIAF">http://viaf.org/viaf/62916116</idno>
+                </person>
+                <person xml:id="RolfX1">
+                    <persName>Rolfe, Mr</persName>
+                </person>
+                <person xml:id="RushR1">
+                    <persName>Rush, Richard, 1780-1859</persName>
+                    <idno type="NAF">http://id.loc.gov/authorities/names/n85137020</idno>
+                    <idno type="VIAF">http://viaf.org/viaf/17595732</idno>
+                </person>
+                <person xml:id="RussJ1">
+                    <persName>Russell, John Russell, Earl, 1792-1878</persName>
+                    <idno type="NAF">http://id.loc.gov/authorities/names/n50022415</idno>
+                    <idno type="VIAF">http://viaf.org/viaf/4139159820944514000003</idno>
+                </person>
+                <person xml:id="RuxtM1">
+                    <persName>Ruxton, Margaret</persName>
+                    <idno type="VIAF">http://viaf.org/viaf/291606018</idno>
+                </person>
+                <person xml:id="RuxtS1">
+                    <persName>Ruxton, Sophy, 1776-1837</persName>
+                    <idno type="VIAF">http://viaf.org/viaf/315670544</idno>
+                </person>
+                <person xml:id="ScotW1">
+                    <persName>Scott, Sir Walter</persName>
+                </person>
+                <person xml:id="SherF1">
+                    <persName>Sheridan, Frances</persName>
+                </person>
+                <person xml:id="SibtC1">
+                    <persName>Sibthorp, Charles de Laet Waldo, 1783-1855</persName>
+                    <idno type="NAF">http://id.loc.gov/authorities/names/nb2008019398</idno>
+                    <idno type="VIAF">http://viaf.org/viaf/26599208</idno>
+                </person>
+                <person xml:id="SingT1">
+                    <persName>Singleton, Thomas, 1783-1842</persName>
+                    <idno type="NAF">http://id.loc.gov/authorities/names/n88125085</idno>
+                    <idno type="VIAF">http://viaf.org/viaf/70481471</idno>
+                </person>
+                <person xml:id="SmitA1">
+                    <persName>Smith, Adam</persName>
+                </person>
+                <person xml:id="SmitC1">
+                    <persName>Smith, Culling Eardley, Sir, 1805-1863</persName>
+                </person>
+                <person xml:id="SmitI1">
+                    <persName>Smith, Isabella Eardley, 1804-1860</persName>
+                    <idno type="VIAF">http://viaf.org/viaf/6171158006005702100007</idno>
+                </person>
+                <person xml:id="SmitS1">
+                    <persName>Smith, Sydney</persName>
+                </person>
+                <person xml:id="TalfT1">
+                    <persName>Talfourd, Thomas</persName>
+                    <idno type="NAF">http://id.loc.gov/authorities/names/no89020435</idno>
+                    <idno type="VIAF">http://viaf.org/viaf/61904095</idno>
+                </person>
+                <person xml:id="TaylW1">
+                    <persName>Taylor, W.</persName>
+                </person>
+                <person xml:id="TickG1">
+                    <persName>Tickenor, George</persName>
+                </person>
+                <person xml:id="WardX1">
+                    <persName>Ward, Mr. </persName>
+                </person>
+                <person xml:id="WedgS1">
+                    <persName>Wedgwood, Sarah, 1734-1815</persName>
+                    <idno type="NAF">http://id.loc.gov/authorities/names/no2013078591</idno>
+                    <idno type="VIAF">http://viaf.org/viaf/305042097</idno>
+                </person>
+                <person xml:id="WhitE1">
+                    <persName>Whitbread, Lady Elizabeth, d. 1846</persName>
+                </person>
+                <person xml:id="WilsL1">
+                    <persName>Wilson, Lestock</persName>
+                    <idno type="NAF">http://id.loc.gov/authorities/names/nr93044335</idno>
+                    <idno type="VIAF">http://viaf.org/viaf/312896454 </idno>
+                </person>
+            </listPerson>
+        </body>
+    </text>
+</TEI>
