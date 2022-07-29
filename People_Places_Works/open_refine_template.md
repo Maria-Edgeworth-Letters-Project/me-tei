@@ -14,12 +14,12 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Maria Edgeworth Letters Project Taxonomy</title>
+                <title>Maria Edgeworth Letters Project Personography</title>
+                <author>Meredith Hale</author>
                 <sponsor>Wake Forest University, University of Tennessee, Xavier University, Texas
                     A&amp;M University</sponsor>
                 <respStmt>
                     <resp>Contributors include:</resp>
-                    <persName>Meredith Hale</persName>
                     <persName>Jessica Richard</persName>
                     <persName>Hilary Havens</persName>
                     <persName>Robin Runia</persName>
@@ -35,36 +35,29 @@
                 </availability>
             </publicationStmt>
             <sourceDesc>
-                <p>Taxonomy terms and identifiers are derived from the Virtal International Authority File (VIAF), the Library of Congress Name Authority File
-                (LCNAF), Wikidata, and the Getty's Thesaurus of Geographic Names (TGN).</p>
+                <p>Personal names and identifiers are derived from the Virtal International Authority File (VIAF) and the Library of Congress Name Authority File
+                (LCNAF).</p>
             </sourceDesc>
         </fileDesc>
-        <encodingDesc>
-            <classDecl>
-            <taxonomy xml:id="people">
-                    <bibl>People</bibl>
-                    <category>
+    </teiHeader>
+    <text>
+        <body>
+        <p>This is a personography that defines people associated with the Maria Edgeworth Letters project.</p>
+            <listPerson>
                 
   
 ```
 ####Body
 
 ```  
-{{if(isBlank(cells['ID'].value), '', '<catDesc xml:id="' + cells['ID'].value + '">' + cells['Term'].value + if(isBlank(cells['LoC_URI'].value), '', '<ref type="naf">' + cells['LoC_URI'].value +'</ref>') + if(isBlank(cells['VIAF URI'].value), '', '<ref type="viaf">' + cells['VIAF URI'].value +'</ref>') + '</catDesc>')}}
+{{if(isBlank(cells['ID'].value), '', '<person xml:id="' + cells['ID'].value + '">' + '<persName>' + cells['Term'].value + '</persName>' + if(isBlank(cells['LoC_URI'].value), '', '<idno type="NAF">' + cells['LoC_URI'].value + '</idno>') + if(isBlank(cells['VIAF URI'].value), '', '<idno type="VIAF">' + cells['VIAF URI'].value + '</idno>') + '</person>')}}
 
 ```
 
 #### Suffix
 
 ```
-                  </category>
-               </taxonomy> 
-            </classDecl>
-        </encodingDesc>
-    </teiHeader>
-    <text>
-        <body>
-            <p>This is a taxonomy that defines people, places, works, and contributing organizations for the Maria Edgeworth Letters project.</p>
+		     </listPerson>
         </body>
     </text>
 </TEI>
