@@ -10,6 +10,7 @@
             <author>Maria Edgeworth</author>
             <editor ref="Id_who">
                <!--Editor on the Maria Edgeworth Letters Project overseeing the coding of this particular letter: FirstName LastName -->
+            Hilary Havens
             </editor>
             <sponsor>
                <orgName>Maria Edgeworth Letters Project</orgName>
@@ -19,25 +20,25 @@
             <principal>Jessica Richard, Hilary Havens, Robin Runia, Susan Egenolf</principal>
             <respStmt>
                <resp>Transcription and coding by</resp>
-               <persName ref="Id_who"><!--FirstName LastName-->
-               </persName>
                <!-- List all transcribers or coders here, editors and students alike, <persName> by <persName>.-->
-               <persName ref="Id_who"><!--FirstName LastName--></persName>
+               <persName ref="Id_who">Hilary Havens</persName>
                <!-- If you're the last person interacting with the file, enter your name last on the list -->
             </respStmt>
          </titleStmt>
          <editionStmt>
             <edition>First digital edition in TEI, date: <date when="2022-01-01">
-                  <!--enter the date on which the first coder created and saved this XML file in google drive-->
+                  2022-07-28<!--enter the date on which the first coder created and saved this XML file in google drive-->
                </date>
             </edition>
             <respStmt>
-               <orgName type="naf" ref="Id_who">
-                  <!--who digitized the letter or gave us permission for to use the file?-->
+               <orgName ref="Id_who">
+                  <!--who took digitized the letter or gave us permission for to use the file?-->
+                  <orgName ref="Id_who">Rosenbach Museum &amp; Library</orgName>
                </orgName>
                <resp> photos include:
                   <!-- Make a comma-separated list of each .jpg photo file name associated with your letter. 
                      For example: DSCF9476.jpg, DSCF9477.jpg, DSCF9478.jpg-->
+                  Edgeworth_Rosenbach_1826-09-29_page01.jpg, Edgeworth_Rosenbach_1826-09-29_page02.jpg, Edgeworth_Rosenbach_1826-09-29_page03.jpg
                </resp>
             </respStmt>
          </editionStmt>
@@ -47,14 +48,14 @@
             <availability>
                <!--Uncomment the appropriate line, based on the archive that holds the physical copy of this letter, 
                   and delete the other comment line(s).-->
-               <p><!--Reproduced by courtesy of the <orgName ref="#ReadingCL">Reading Central Library</orgName>.-->
-                  <!--or -->
-                  <!--Courtesy of <orgName ref="#Rylands">The University of Manchester</orgName>.-->
+               <p>
+                  <!--Courtesy of <orgName ref="#Rosenbach">Rosenbach Museum</orgName>.-->
+                  Courtesy of <orgName ref="#Rosenbach">Rosenbach Museum &amp; Library</orgName>.
                </p>
                <licence>Distributed under a Creative Commons Attribution-ShareAlike 3.0 Unported
                   License</licence>
             </availability>
-            <idno><!--Change to match the file name and current naming standards, i.e. "Edgeworth_Beinecke_330_1817_01_24" if file name is "Edgeworth_Beinecke_330_1817_01_24.xml"--></idno> 
+            <idno><!--SendertoReceiverDate-->Edgeworth_Rosenbach_1826-09-29_page01</idno> 
          </publicationStmt>
          <seriesStmt>
             <title>Maria Edgeworth Letters Project</title>
@@ -63,9 +64,9 @@
             <msDesc xml:lang="en">
                <!-- This section of the header identifies the original manuscript source. -->
                <msIdentifier>
-                  <repository>ORGANIZATION NAME</repository>
+                  <repository>Rosenbach Museum &amp; Library</repository>
                   <collection><!-- Enter specific archival collection if applicable--></collection>
-                  <idno><!--Consult library or WorldCat for this info--></idno>
+                  <idno type="LOC">n81113404</idno>
                </msIdentifier>
                
                <!-- FROM LAURA: it's here (below) in the head that I added the full information about the author,
@@ -78,8 +79,8 @@
                         <idno type="VIAF">71477273</idno>
                         <idno type="SNAC">62567029</idno>
                      </persName>
-                   to <persName><!--Recipient Name--></persName>, <placeName><!--Location where letter was sent--></placeName>, 
-                  <date when="1111-01-01">Month, Day YYYY</date>
+                  to <persName><!--Recipient Name-->M. Carey</persName>, <placeName><!--Location where letter was sent-->Philadelphia, PA</placeName>, 
+                  <date when="1111-01-01">M1826-09-29</date>
                </head>
                <physDesc>
                   <!-- optional physical description of the letter goes here: paper size and condition, seal, postmarks, etc.-->
@@ -88,10 +89,7 @@
             
             <!-- FROM LAURA: where to put the following information in <bibl> is still a question: 
                ask TEI List whether it should be in the sourceDesc or elsewhere? -->
-            
-            <bibl>In addition to our edited version, this letter was previously published in
-               <!--complete bibiographical info if letter was published in a book here - if not delete-->
-            </bibl>
+           
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
@@ -231,10 +229,10 @@
       <profileDesc>
          <correspDesc>
             <correspAction type="sent">
-               <persName><!--SENDER NAME--></persName>
+               <persName><!--SENDER NAME-->Maria Edgeworth</persName>
             </correspAction>
             <correspAction type="received">
-               <persName><!--RECIPIENT NAME--></persName>
+               <persName><!--RECIPIENT NAME-->M. Carey</persName>
             </correspAction>
          </correspDesc>
          <textClass>
@@ -257,45 +255,101 @@
    <text>
       <body>
          <div type="letter">
-            <pb n="1" facs="image1.jpg"/>
+            <pb n="1" facs="Edgeworth_Rosenbach_1826-09-29_page02.jpg"/>
             <!--filenames for photos associated with this letter. Example: <pb n="1" facs="image1.jpg image2.jpg image3.jpg"/> -->
             <opener>
                <dateline><!--If there's no date line, omit this element. Record in the order in which it is written on the letter.-->
                   <name type="place" ref="Id_where"/>
-                  <date when="1816-08-04"/>August 4, 1816. </dateline>
+                  Black Castle<lb/>
+                  Navan<lb/>
+                  <date when="1826-09-29"/>Sep<hi rend="superscript">r</hi>. 29<hi rend="superscript">h</hi>. 1826</dateline>
+               <note place="bottom">[LibNote] Rec[superscript]d[/superscript] Nov 30
+                  Ans[superscript]d[/superscript] April 20</note>
                <salute>
                   <persName>
                      <!-- Use if letter has a saluation ("Dear Sir," for example). If not, delete this line.-->
+                     Dear Sir
                   </persName>
                </salute>
             </opener>
-            <p><!-- Begin transcibing the body of the letter here. -->
+            <p>You must not be surprised with my not being<lb/>
+               able to keep up a <add>regular</add> correspondance - I really<lb/>
+               have so much to do that I cannot -<lb/>
+               I am much obliged by your letter - and thank<lb/>
+               you for your essay on Emigration which<lb/>
+               I will send to the principal bookseller in<lb/>
+               Dublin as you wish it to be reprinted here -<lb/>
+               - But further I cannot undertake - <choice><orig>Booksel
+                  lers</orig><reg>Booksellers</reg></choice> both here and in <placeName>London</placeName> are at present<lb/>
+               disinclined to enter on new publications <add>without being paid for them</add><lb/>
+               such <hi rend="underline">has</hi> been &amp; is the general distress in 
+               their line of business as in others -<lb/>
+               I have been sometime time away from home<lb/>
+               &amp; much engaged by the marriage of one<lb/>
+               of my sisters - your Essay reached <choice><orig>Edge-<lb/>
+               worths</orig><reg>Edgeworths</reg></choice> town at a moment when it was <choice><orig>ab-<lb/>
+               solutely</orig><reg>absolutely</reg></choice> out of my power to read it - As soon<lb/>
+               as I return home, I shall read it with<lb/>
+               attention - I am at this moment reading<lb/>
+               <del>at this <unclear>time</unclear></del> the volume of <title>evidence on<lb/>
+               Emigration from Ireland to the Canadas<lb/>
+               &amp; to various parts of America</title> which<lb/>
+               was given before the Committee of the<lb/>
+               English house of Commons last year -<lb/>
+               Emigration is the natural &amp; best<lb/>
+               remedy for a redundant population - But<lb/>
+               the evils in <placeName>Ireland</placeName> arise not so much<lb/>
             </p>
+            <pb n="2" facs="Edgeworth_Rosenbach_1826-09-29_page03.jpg"/>
             <p>
-               <!--More body paragraphs as needed.--></p>
-            <p>
-               <!--More body paragraphs as needed.-->
-               <!--Where there's a page break record it inside the relevant body paragraph like this, 
-                  with the self-closing page-break element. n="2" indicates the START of the second page.-->
-               <pb n="2" facs="image2.jpg"/>
+               from a <hi rend="underline">redundant</hi> as from an <hi rend="underline">unemployed</hi><lb/>
+               population - The remedy here wanted<lb/>
+               is <hi rend="underline">employment</hi> - <hi rend="underline">demand</hi> for industry<lb/>
+               &amp; <hi rend="underline">higher wages for industry</hi> -<lb/></p>
+            <p>The instances of national <choice><orig>ingra-<lb/>
+               titude</orig><reg>ingratitude</reg></choice> you mention in your last letter<lb/>
+               are very striking - I regret that they
+               should have occurred in <placeName>America</placeName> -<lb/></p>
+               <p>I had admired her gratitude to<lb/>
+               <persName>La Fayette</persName> - But this contrasts sadly<lb/>
+               with her penuriousness to <persName>Jefferson</persName> - From<lb/>
+               this I am afraid there was some love<lb/>
+               of <del>theatric</del> display &amp; effect in the <choice><orig>recep<lb/>
+               tion</orig><reg>reception</reg></choice> of <persName>La Fayette</persName> which <add>had</add>] appeared to<lb/>
+               me at first the genuine feeling of<lb/>
+               enthusiasm honorable to your national<lb/>
+               character -<lb/>
+               </p>
+               <p>
+               Do not blame me my dear Sir for<lb/>
+               not getting your books republished in<lb/>
+               <placeName>Ireland</placeName> - It is not from indolence<lb/>
+               but from its being totally out of my<lb/>
+               power - I thank you for your <choice><orig>perse<lb/>
+                  vering</orig><reg>persevering</reg></choice> attention to me - And <del>y</del> admire<lb/>
+               your persevering benevolence &amp; love of<lb/>
+               your country<lb/>
             </p>
-            <p><!--More body paragraphs as needed.--></p>
             <closer>
                <!--include linebreaks, if used. example: <closer> Yours<lb/> Very sincerely<lb/> -->
+               I am truly your obliged<lb/>
+               <persName>Maria Edgeworth</persName>   
             </closer>
             <postscript>
-               <p><!--A postscript goes here, outside the <closer>. --></p>
+               <p>I thank you for the Sketches of America which<lb/>
+                  I have just received -</p>
             </postscript>
             <!--You can include a <pb/> here, or inside the postScript.-->
             <!-- Format for postscripts. 
                Postscripts do NOT go inside closer tags. Adjust to take into account the order in your letter. 
                Sometimes the signature is on page three, the address on page four, then the postscript follows back on the top of page one, for example.-->
+            <pb n="3" facs="Edgeworth_Rosenbach_1826-09-29_page01.jpg"/>
             <closer><!--Use the <closer> element again to hold Address Leaf information.-->
                <address>
                   <!--Include any text written on the address leaf; use a separate "addrLine" for each line and indicate line breaks. -->
-                  <addrLine/>
-                  <addrLine/>
-                  <addrLine/>
+                  <addrLine/><persName>M Carey Esq<hi rend="superscript">re</hi></persName>
+                  <addrLine/><placeName>Philadelphia</placeName>
+                  <addrLine><note>[LibNote]JM Morton</note></addrLine>
                </address>
             </closer>
          </div>
