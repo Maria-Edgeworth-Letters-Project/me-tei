@@ -1,4 +1,4 @@
-# Open Refine Template for Taxonomy Creation
+# Open Refine Template for Personography Creation
 
 
 ## Template
