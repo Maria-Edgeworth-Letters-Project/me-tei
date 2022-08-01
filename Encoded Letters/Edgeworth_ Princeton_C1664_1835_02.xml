@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from Maria Edgeworth to Unknown, February 16, 1835--></title>
+            <author>Maria Edgeworth</author>
+            <editor ref="Id_who">
+               Jamie Kramer
+            </editor>
+            <sponsor>
+               <orgName>Maria Edgeworth Letters Project</orgName>
+            </sponsor>
+            <sponsor>Wake Forest University, University of Tennessee, Xavier University, Texas
+               A&amp;M University</sponsor>
+            <principal>Jessica Richard, Hilary Havens, Robin Runia, Susan Egenolf</principal>
+            <respStmt>
+               <resp>Transcription and coding by</resp>
+               <persName ref="Id_who">Jessica Richard
+               </persName>
+               <persName ref="Id_who">Jamie Kramer</persName>
+               <!-- If you're the last person interacting with the file, enter your name last on the list -->
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>First digital edition in TEI, date: <date when="2022-07-28">
+               </date>
+            </edition>
+            <respStmt>
+               <orgName ref="Id_who">Princeton University. Firestone Library
+               </orgName>
+               <resp> photos include: Edgeworth_ Princeton_C1664_1835_02_page01.jpg, Edgeworth_ Princeton_C1664_1835_02_page02.jpg,
+                  Edgeworth_ Princeton_C1664_1835_02_page03.jpg, Edgeworth_ Princeton_C1664_1835_02_page01.jpg
+               </resp>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Maria Edgeworth Letters Project</authority>
+            <date>2022</date>
+            <availability>
+               <p>Reproduced by courtesy of the <orgName ref="#Princeton">Princeton University. Firestone Library</orgName>.
+               </p>
+               <licence>Distributed under a Creative Commons Attribution-ShareAlike 3.0 Unported
+                  License</licence>
+            </availability>
+            <idno>Edgeworth_ Princeton_C1664_1835_02</idno> 
+         </publicationStmt>
+         <seriesStmt>
+            <title>Maria Edgeworth Letters Project</title>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <repository>Princeton University. Firestone Library</repository>
+                  <collection>Manuscripts Division, Department of Special Collections</collection>
+                  <idno>Letters from Maria Edgeworth; Maria Edgeworth Papers, C1664, Manuscripts Division, Department of Special Collections, Princeton University Library
+                     Storage Note:
+                     Firestone Library (hsvm): Box 2
+                     System Identifier:
+                     /repositories/5/archival_objects/1446389
+                  </idno>
+               </msIdentifier>
+     
+               <head>Letter from 
+                     <persName xml:id="ME" from="1768" to="1849">
+                        <forename>Maria</forename>
+                        <surname>Edgworth</surname>
+                        <date>1768-1849</date>
+                        <idno type="VIAF">71477273</idno>
+                        <idno type="SNAC">62567029</idno>
+                     </persName>
+                   to <persName>unknown</persName>, <placeName><!--Location where letter was sent--></placeName>, 
+                  <date when="1835-02-16">February, 16 1835</date>
+               </head>
+               <physDesc>
+                  <!-- optional physical description of the letter goes here: paper size and condition, seal, postmarks, etc.-->
+               </physDesc>
+            </msDesc>
+            
+            <!-- FROM LAURA: where to put the following information in <bibl> is still a question: 
+               ask TEI List whether it should be in the sourceDesc or elsewhere? -->
+            
+            <bibl>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <!--Where Edgeworth uses nonstandard spelling and hyphenation of words, transcriber-coders 
+               should use TEI elements “choice," “sic," and “reg" to encode both Edgeworth’s 
+               spelling and the regular international standard of Oxford English spelling, 
+               following the first listed spelling in the Oxford English Dictionary. -->
+            <p>Edgeworth’s spelling and punctuation are retained in transcription, except where a
+               word is split at the end of a line and the beginning of the next in a manuscript. The
+               long s and ligatured forms are silently emended.</p>
+         </editorialDecl>
+         <classDecl>
+            <taxonomy xml:id="relators">
+               <bibl>Marc Relators</bibl>
+               <category xml:id="aut">
+                  <catDesc>Author</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="lcsh">
+               <bibl>Subjects</bibl>
+               <category>
+                  <catDesc xml:id="AntislaveryMovements">Antislavery movements
+                     <idno type="loc">sh85123315</idno>
+                  </catDesc>
+                  <catDesc xml:id="Birth">Birth
+                     <idno type="loc">sh86004053</idno>
+                  </catDesc>
+                  <catDesc xml:id="Death">Death
+                     <idno type="loc">sh85036085</idno>
+                  </catDesc>
+                  <catDesc xml:id="Education">Education
+                     <idno type="loc">sh85040989</idno>
+                  </catDesc>
+                  <catDesc xml:id="Imperialism">Imperialism
+                     <idno type="loc">sh85064628</idno>
+                  </catDesc>
+                  <catDesc xml:id="FictitiousCharacters">Fictitious characters
+                     <idno type="loc">sh99004183</idno>
+                  </catDesc>
+                  <catDesc xml:id="Marriage">Marriage
+                     <idno type="loc">sh85081416</idno>
+                  </catDesc>
+                  <catDesc xml:id="Nationalism">Nationalism
+                     <idno type="loc">sh85090150</idno>
+                  </catDesc>
+                  <catDesc xml:id="PoliticsAndCulture">Politics and culture
+                     <idno type="loc">sh85104468</idno>
+                  </catDesc>
+                  <catDesc xml:id="Race">Race  
+                     <idno type="loc">sh85110232</idno>
+                  </catDesc>
+                  <catDesc xml:id="Religion">Religion
+                     <idno type="loc">sh85112549</idno>
+                  </catDesc>
+                  <catDesc xml:id="Science">Science
+                     <idno type="loc">sh85118553</idno>
+                  </catDesc>
+                  <catDesc xml:id="Technology">Technology
+                     <idno type="loc">sh85133147</idno>
+                  </catDesc>
+                  <catDesc xml:id="Slavery">Slavery
+                     <idno type="loc">sh85123314</idno>
+                  </catDesc>
+                  <catDesc xml:id="Travel">Travel
+                     <idno type="loc">sh85137149</idno>
+                  </catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="works">
+               <bibl>Works</bibl>
+               <category>
+                  <catDesc xml:id="w1">Belinda</catDesc>
+                  <catDesc xml:id="w2">Castle Rackrent</catDesc>
+                  <catDesc xml:id="w3">Comic Dramas, in Three Acts</catDesc>
+                  <catDesc xml:id="w4">Early Lessons</catDesc>
+                  <catDesc xml:id="w5">Essay on Irish Bulls</catDesc>
+                  <catDesc xml:id="w6">Frank: a Sequel to Frank in Early Lessons</catDesc>
+                  <catDesc xml:id="w7">Harrington, a Tale; and Ormond, a Tale</catDesc>
+                  <catDesc xml:id="w8">Harry and Lucy Concluded</catDesc>
+                  <catDesc xml:id="w9">Leonora</catDesc>
+                  <catDesc xml:id="w10">Letters for Literary Ladies</catDesc>
+                  <catDesc xml:id="w11">Moral Tales for Young People</catDesc>
+                  <catDesc xml:id="w12">Moral Tales</catDesc>
+                  <catDesc xml:id="w13">Patronage</catDesc>
+                  <catDesc xml:id="w14">Popular Tales</catDesc>
+                  <catDesc xml:id="w15">Practical Education</catDesc>
+                  <catDesc xml:id="w16">Readings on Poetry</catDesc>
+                  <catDesc xml:id="w17">Ormond</catDesc>
+                  <catDesc xml:id="w18">The Absentee</catDesc>
+                  <catDesc xml:id="w19">Tales of Fashionable Life</catDesc>
+                  <catDesc xml:id="w20">The Contrast</catDesc>
+                  <catDesc xml:id="w21">The Modern Griselda; a Tale</catDesc>
+                  <catDesc xml:id="w22">The Parent's Assistant</catDesc>
+                  <catDesc xml:id="w23">Tomorrow; or the Dangers of Delay</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="people">
+               <bibl>People</bibl>
+               <category>
+                  <catDesc xml:id="BabbageCharles">Babbage, Charles, 1791-1871
+                     <idno type="loc">n50031102</idno>
+                  </catDesc>
+                  <catDesc xml:id="BarbauldAL">Barbauld, Mrs. (Anna Letitia), 1743-1825
+                     <idno type="loc">n84136092</idno>
+                  </catDesc>
+                  <catDesc xml:id="EdgeworthRL">Edgeworth, Richard Lovell, 1744-1817
+                     <idno type="loc">n79061007</idno>
+                  </catDesc>
+                  <catDesc xml:id="EdgeworthM">Edgeworth, Maria, 1768-1849
+                     <idno type="loc">n79061006</idno>
+                     <date>1768-1849</date>
+                     <idno type="VIAF">71477273</idno>
+                     <idno type="SNAC">62567029</idno>
+                  </catDesc>
+                  <catDesc xml:id="RobinsonM">Robinson, Mary, 1758-1800
+                     <idno type="loc">n83122576</idno>
+                     <idno type="VIAF">9888105</idno>
+                     <idno type="SNAC">32125250</idno>
+                  </catDesc>
+                  <catDesc xml:id="BurneyF">Burney, Fanny, 1752-1840
+                     <idno type="loc">n80075853</idno>
+                  </catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="places">
+               <bibl>Places</bibl>
+               <category>
+                  <catDesc xml:id="EdgeworthsTown">Edgeworths' Town<idno type="getty">tgn/1042937</idno></catDesc>
+                  <catDesc xml:id="Peterborough">Peterborough, UK<idno type="getty">tgn/7026520</idno></catDesc>
+                  <catDesc xml:id="CranfordI">Cranford, Ireland<idno type="getty">tgn/7901042</idno></catDesc>
+                  <catDesc xml:id="Kettering">Kettering, UK<idno type="getty">tgn/7010904</idno></catDesc>
+               </category>
+            </taxonomy> 
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords scheme="">
+               <list type="simple">
+                  <item>English literature</item>
+                  <item>History</item>
+               </list>
+            </keywords>
+            <catRef target="#f7" scheme="#f"/>
+            <catRef target="#hist #el" scheme="locSUB"/>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-01-01" who="Id_who">
+            <!--Brief description of what you did here.-->
+         </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <pb n="1" facs="Edgeworth_ Princeton_1835-02_page01.jpg"/>
+            <opener>
+               <dateline>
+                  <name type="place" ref="Id_where"/> Edgeworth town
+                  <date when="1835-02-16"/>Feb <hi rend = "superscript"> y </hi> 16 <hi rend = "superscript">th</hi> 1835</dateline>
+               <salute>
+                  <persName>
+                     Gentlemen
+                  </persName>
+               </salute>
+            </opener>
+            <p>Your having directed your letter and <lb/>
+               parcel of books to <unclear>Jn</unclear> <hi rend = "superscript">t</hi>  Butlers <unclear>Trim</unclear>instead<lb/>
+               of to my usual place of residence must<lb/>
+               unavoidably occasion delay in your<lb/>
+               receiving my answer -- your letter I have<lb/>
+               this morning received: the parcel of books<lb/>
+               has not yet been forwarded to me -- And<lb/>
+               as you desire that if I cannot comply<lb/>
+               with your request I should return<lb/>
+               the volume by the cheapest conveyance<lb/>
+               to <unclear>Mcfs</unclear>.<hi rend = "superscript"><unclear>n</unclear></hi> Curry &amp; C<hi rend = "superscript">o</hi> Dublin I have desired<lb/>
+               my brother in law <persName>Mr Butler</persName> to have<lb/>
+               this done --<lb/>
+            </p>
+            <p>
+               I have declined all proposals<lb/>
+               to revise or edite works, <del>and to give opinions</del><lb/>
+               <del>as to the publishing <add>or republishing</add> of books,</del> <del><unclear></unclear></del><lb/>
+               or (,<del>to use your expression</del> <hi rend = "underline">to stand</hi><lb/>
+               "<hi rend = "underline">godmother</hi>" to any other persons works,<lb/>
+               feeling it quite sufficient responsibility<lb/>
+               to answer for my own. This being my<lb/>
+               <hi rend = "underline">general</hi>and <hi rend = "underline">fixed</hi> principle I think it<lb/>
+               best to say so, <add>to you</add>without looking at the <choice><orig>parti-<lb/>
+                  -cular </orig><reg>particular</reg></choice>works in question, because its merits<lb/>
+            </p>
+               <pb n="2" facs="Edgeworth_ Princeton_1835-02_page02.jpg"/>
+            <p>could not induce me to change my<lb/>
+               determination; and my declining your<lb/>
+               proposal for these peculiar reasons of my<lb/>
+               own cannot give any offence to the authors<lb/>
+               or damp the ardor of your scheme<lb/>
+            </p>
+            <p><del>In which <unclear></unclear>project I wish you</del><lb/>
+               <del><unclear></unclear></del><add>I not only wish you success but think</add> think it very likely you will<lb/>
+               both succeed and deserve to succeed <add>so</add> from<lb/>
+               several specimens I have seen of American<lb/>
+               books for children, <add>many of</add> which are ingenious<lb/>
+               and interesting from the novelty of<lb/>
+               the scenes &amp; manners &amp; from the simplicity<lb/>
+               of the stories-- <add> Gentlemen<lb/>
+               You apologise for writing to me without a<lb/>
+                  regular introduction but that was unnecessary to</add><lb/>
+               You may be assured <del><unclear></unclear></del><lb/>
+               that far from being offended by your<lb/>
+               application, I am gratified by your<lb/>
+               thinking my judgment or my literary<lb/>
+               name sufficiently good to make it worth<lb/>
+               your while to give yourself this trouble<lb/>
+            </p>
+            <p>Regretting that I cannot comply with
+               your request</p>
+            <closer>
+               I am Gentlemen<lb/>
+               Your obed<hi rend = "superscript">t</hi> Servant<lb/>
+               Maria Edgeworth<lb/>
+            </closer>
+            <postscript>
+             <p>I am <del>much</del> obliged for your present of one of<lb/>
+                the other books<title>"The Young Christian"</title> -- which<lb/>
+                I have desired to be reserved for me as if I under   <lb/>
+                
+            <pb n="3" facs="Edgeworth_ Princeton_1835-02_page03.jpg"/>
+                stand rightly you meant that at all events I<lb/>
+                should keep that-<lb/></p>
+               <p>If you publish "<unclear>The weekday day book</unclear>"<lb/>
+                  I beg to be a purchaser and that you would<lb/>
+                  whenever it is published send a copy for<lb/>
+                  me to N<hi rend = "superscript">o</hi>. 1 North Audley Street - to the care<lb/>
+                  of M<hi rend = "superscript">rs</hi>. <persName xml:id="WilsL1">
+                     <forename>Lestock</forename>
+                     <surname>Wilson</surname></persName><unclear>(my sister</unclear><lb/>
+               </p>
+            </postscript>
+            <pb n="4" facs="Edgeworth_ Princeton_1835-02_page04.jpg"/>
+            <note place="bottom">1835
+               Feb 16<lb/>
+               Copy of ME's<lb/>
+               answer<lb/>
+               to M<hi rend = "superscript">r</hi> <unclear>Sulby</unclear><lb/></note>
+         </div>
+      </body>
+      <back> </back>
+   </text>
+</TEI>
