@@ -239,17 +239,17 @@
                     <dateline><!--If there's no date line, omit this element. Record in the order in which it is written on the letter.-->
                         <name type="place" ref="Id_where"/>
                         <date when="1812-02-20"/>February 20, 1812</dateline>
-                    <salute> To <persName>Mrs. Miles</persName>
+                    <salute> To <persName xml:id="MileX1">Mrs. Miles</persName>
                     </salute>
                 </opener>
                 <pb n="2" facs="Edgeworth_Beinecke_330_1812_07_22_page02.jpg"/>           
                 <p><persName>Miss Edgeworths</persName> Compliments<lb/>
-                    to <persName>M<hi rend="superscript">rs</hi> Miles</persName> she begs she will<lb/>
+                    to <persName xml:id="MileX1">M<hi rend="superscript">rs</hi> Miles</persName> she begs she will<lb/>
                     be so good to deliver the two<lb/>
                     black lace gowns made into<lb/>
                     as small &amp; neat a parcel in<lb/>
                     thin paper as may be conve<lb/>
-                    nient, to <persName>M<hi rend="superscript">rs</hi>. Hamilton</persName>, <del>who</del><lb/>
+                    nient, to <persName xml:id="HamiX1">M<hi rend="superscript">rs</hi>. Hamilton</persName>, <del>who</del><lb/>
                     <del>is a</del> who will bring them<lb/>
                     over to <placeName>Ireland</placeName>.</p><lb/>
                 <closer>
@@ -263,7 +263,7 @@
                 <closer><!--Use the <closer> element again to hold Address Leaf information.-->
                     <address>
                         <pb n="1" facs="Edgeworth_Beinecke_330_1812_02_20_page01.jpg"/>
-                        <persName>M<hi rend="superscript">rs</hi> Miles</persName><addrLine/>
+                        <persName xml:id="MileX1">M<hi rend="superscript">rs</hi> Miles</persName><addrLine/>
                         <persName>Johnson &amp; C<hi rend="superscript">o</hi>.</persName><addrLine/>
                         <placeName>S<hi rend="superscript">t</hi>. Pauls Church Yard
                             London</placeName><addrLine/>
