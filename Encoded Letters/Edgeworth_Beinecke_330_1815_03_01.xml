@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter from Maria Edgeworth to Mrs. Miles March 01, 1815</title>
+                <author>Maria Edgeworth</author>
+                <editor ref="Id_who">
+                    <persName ref="Id_who">Eliza Wilcox</persName>
+                </editor>
+                <sponsor>
+                    <orgName>Maria Edgeworth Letters Project</orgName>
+                </sponsor>
+                <sponsor>Wake Forest University, University of Tennessee, Xavier University, Texas
+                    A&amp;M University</sponsor>
+                <principal>Jessica Richard, Hilary Havens, Robin Runia, Susan Egenolf</principal>
+                <respStmt>
+                    <resp>Transcription and coding by</resp>
+                    <persName ref="Id_who">Eliza Wilcox </persName>
+                    <!-- List all transcribers or coders here, editors and students alike, <persName> by <persName>.-->
+                    <persName ref="Id_who"><!--FirstName LastName--></persName>
+                    <!-- If you're the last person interacting with the file, enter your name last on the list -->
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>First digital edition in TEI, date: <date when="2022-08-03"> 2022-08-03 </date>
+                </edition>
+                <respStmt>
+                    <orgName ref="Id_who"> Beinecke </orgName>
+                    <resp> photos include: Edgeworth_Beinecke_330_1815_03_01_page01
+                        Edgeworth_Beinecke_330_1815_03_01_page02
+                        Edgeworth_Beinecke_330_1815_03_01_page03
+                    </resp>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <authority>Maria Edgeworth Letters Project</authority>
+                <date>2022</date>
+                <availability>
+                    <p>Reproduced by courtesy of the <orgName ref="#Beinecke">Beinecke Rare Book and Manuscript Library</orgName>.--> </p>
+                    <licence>Distributed under a Creative Commons Attribution-ShareAlike 3.0 Unported
+                        License</licence>
+                </availability>
+                <idno>Edgeworth_Beinecke_330_1815_03_01/idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Maria Edgeworth Letters Project</title>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc xml:lang="en">
+                    <msIdentifier>
+                        <repository>Beinecke Rare Book and Manuscript Library</repository>
+                        <collection>Maria Edgeworth Collection</collection>
+                        <idno><!--Consult library or WorldCat for this info--></idno>
+                    </msIdentifier>
+                    
+                    <!-- FROM LAURA: it's here (below) in the head that I added the full information about the author,
+                  and you could add full information about the addressee as well. -->
+                    <head>Letter from <persName xml:id="ME" from="1768" to="1849">
+                        <forename>Maria</forename>
+                        <surname>Edgworth</surname>
+                        <date>1768-1849</date>
+                        <idno type="VIAF">71477273</idno>
+                        <idno type="SNAC">62567029</idno>
+                    </persName> to <persName>Mrs. Miles</persName>,
+                        <placeName><!--Location where letter was sent--></placeName>, <date
+                            when="1815-03-01">March 01, 1815</date>
+                    </head>
+                    <physDesc>
+                        <!-- optional physical description of the letter goes here: paper size and condition, seal, postmarks, etc.-->
+                    </physDesc>
+                </msDesc>
+                
+                <!-- FROM LAURA: where to put the following information in <bibl> is still a question: 
+               ask TEI List whether it should be in the sourceDesc or elsewhere? -->
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <!--Where Edgeworth uses nonstandard spelling and hyphenation of words, transcriber-coders 
+               should use TEI elements “choice," “sic," and “reg" to encode both Edgeworth’s 
+               spelling and the regular international standard of Oxford English spelling, 
+               following the first listed spelling in the Oxford English Dictionary. -->
+                <p>Edgeworth’s spelling and punctuation are retained in transcription, except where a
+                    word is split at the end of a line and the beginning of the next in a manuscript. The
+                    long s and ligatured forms are silently emended.</p>
+            </editorialDecl>
+            <classDecl>
+                <taxonomy xml:id="relators">
+                    <bibl>Marc Relators</bibl>
+                    <category xml:id="aut">
+                        <catDesc>Author</catDesc>
+                    </category>
+                </taxonomy>
+                <taxonomy xml:id="lcsh">
+                    <bibl>Subjects</bibl>
+                    <category>
+                        <catDesc xml:id="AntislaveryMovements">Antislavery movements <idno type="loc"
+                            >sh85123315</idno>
+                        </catDesc>
+                        <catDesc xml:id="Birth">Birth <idno type="loc">sh86004053</idno>
+                        </catDesc>
+                        <catDesc xml:id="Death">Death <idno type="loc">sh85036085</idno>
+                        </catDesc>
+                        <catDesc xml:id="Education">Education <idno type="loc">sh85040989</idno>
+                        </catDesc>
+                        <catDesc xml:id="Imperialism">Imperialism <idno type="loc">sh85064628</idno>
+                        </catDesc>
+                        <catDesc xml:id="FictitiousCharacters">Fictitious characters <idno type="loc"
+                            >sh99004183</idno>
+                        </catDesc>
+                        <catDesc xml:id="Marriage">Marriage <idno type="loc">sh85081416</idno>
+                        </catDesc>
+                        <catDesc xml:id="Nationalism">Nationalism <idno type="loc">sh85090150</idno>
+                        </catDesc>
+                        <catDesc xml:id="PoliticsAndCulture">Politics and culture <idno type="loc"
+                            >sh85104468</idno>
+                        </catDesc>
+                        <catDesc xml:id="Race">Race <idno type="loc">sh85110232</idno>
+                        </catDesc>
+                        <catDesc xml:id="Religion">Religion <idno type="loc">sh85112549</idno>
+                        </catDesc>
+                        <catDesc xml:id="Science">Science <idno type="loc">sh85118553</idno>
+                        </catDesc>
+                        <catDesc xml:id="Technology">Technology <idno type="loc">sh85133147</idno>
+                        </catDesc>
+                        <catDesc xml:id="Slavery">Slavery <idno type="loc">sh85123314</idno>
+                        </catDesc>
+                        <catDesc xml:id="Travel">Travel <idno type="loc">sh85137149</idno>
+                        </catDesc>
+                    </category>
+                </taxonomy>
+                <taxonomy xml:id="works">
+                    <bibl>Works</bibl>
+                    <category>
+                        <catDesc xml:id="w1">Belinda</catDesc>
+                        <catDesc xml:id="w2">Castle Rackrent</catDesc>
+                        <catDesc xml:id="w3">Comic Dramas, in Three Acts</catDesc>
+                        <catDesc xml:id="w4">Early Lessons</catDesc>
+                        <catDesc xml:id="w5">Essay on Irish Bulls</catDesc>
+                        <catDesc xml:id="w6">Frank: a Sequel to Frank in Early Lessons</catDesc>
+                        <catDesc xml:id="w7">Harrington, a Tale; and Ormond, a Tale</catDesc>
+                        <catDesc xml:id="w8">Harry and Lucy Concluded</catDesc>
+                        <catDesc xml:id="w9">Leonora</catDesc>
+                        <catDesc xml:id="w10">Letters for Literary Ladies</catDesc>
+                        <catDesc xml:id="w11">Moral Tales for Young People</catDesc>
+                        <catDesc xml:id="w12">Moral Tales</catDesc>
+                        <catDesc xml:id="w13">Patronage</catDesc>
+                        <catDesc xml:id="w14">Popular Tales</catDesc>
+                        <catDesc xml:id="w15">Practical Education</catDesc>
+                        <catDesc xml:id="w16">Readings on Poetry</catDesc>
+                        <catDesc xml:id="w17">Ormond</catDesc>
+                        <catDesc xml:id="w18">The Absentee</catDesc>
+                        <catDesc xml:id="w19">Tales of Fashionable Life</catDesc>
+                        <catDesc xml:id="w20">The Contrast</catDesc>
+                        <catDesc xml:id="w21">The Modern Griselda; a Tale</catDesc>
+                        <catDesc xml:id="w22">The Parent's Assistant</catDesc>
+                        <catDesc xml:id="w23">Tomorrow; or the Dangers of Delay</catDesc>
+                    </category>
+                </taxonomy>
+                <taxonomy xml:id="people">
+                    <bibl>People</bibl>
+                    <category>
+                        <catDesc xml:id="BabbageCharles">Babbage, Charles, 1791-1871 <idno type="loc"
+                            >n50031102</idno>
+                        </catDesc>
+                        <catDesc xml:id="BarbauldAL">Barbauld, Mrs. (Anna Letitia), 1743-1825 <idno
+                            type="loc">n84136092</idno>
+                        </catDesc>
+                        <catDesc xml:id="EdgeworthRL">Edgeworth, Richard Lovell, 1744-1817 <idno
+                            type="loc">n79061007</idno>
+                        </catDesc>
+                        <catDesc xml:id="EdgeworthM">Edgeworth, Maria, 1768-1849 <idno type="loc"
+                            >n79061006</idno>
+                            <date>1768-1849</date>
+                            <idno type="VIAF">71477273</idno>
+                            <idno type="SNAC">62567029</idno>
+                        </catDesc>
+                        <catDesc xml:id="RobinsonM">Robinson, Mary, 1758-1800 <idno type="loc"
+                            >n83122576</idno>
+                            <idno type="VIAF">9888105</idno>
+                            <idno type="SNAC">32125250</idno>
+                        </catDesc>
+                        <catDesc xml:id="BurneyF">Burney, Fanny, 1752-1840 <idno type="loc"
+                            >n80075853</idno>
+                        </catDesc>
+                    </category>
+                </taxonomy>
+                <taxonomy xml:id="places">
+                    <bibl>Places</bibl>
+                    <category>
+                        <catDesc xml:id="EdgeworthsTown">Edgeworths' Town<idno type="getty"
+                            >tgn/1042937</idno></catDesc>
+                        <catDesc xml:id="Peterborough">Peterborough, UK<idno type="getty"
+                            >tgn/7026520</idno></catDesc>
+                        <catDesc xml:id="CranfordI">Cranford, Ireland<idno type="getty"
+                            >tgn/7901042</idno></catDesc>
+                        <catDesc xml:id="Kettering">Kettering, UK<idno type="getty"
+                            >tgn/7010904</idno></catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName>Maria Edgeworth</persName>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Mrs. Miles</persName>
+                </correspAction>
+            </correspDesc>
+            <textClass>
+                <keywords scheme="">
+                    <list type="simple">
+                        <item>English literature</item>
+                        <item>History</item>
+                    </list>
+                </keywords>
+                <catRef target="#f7" scheme="#f"/>
+                <catRef target="#hist #el" scheme="locSUB"/>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2021-01-01" who="Id_who">
+                <!--Brief description of what you did here.-->
+            </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="letter">
+                <pb n="1" facs="Edgeworth_Beinecke_330_1815_03_01_page01.jpg"/>
+                <!--filenames for photos associated with this letter. Example: <pb n="1" facs="image1.jpg image2.jpg image3.jpg"/> -->
+                <opener>
+                    <dateline><!--If there's no date line, omit this element. Record in the order in which it is written on the letter.-->
+                        <name type="place" ref="Id_where"/>15 Baggot Street<lb/>
+                        Dublin<lb/>
+                        <date when="1815-03-01"/>March 01, 1815<lb/></dateline>
+                    <salute> My dear Madam<lb/>
+                    </salute>
+                </opener>
+                <p>
+                    Enclosed are two drafts amounting<lb/>
+                    to £37 which I believe is the amount<lb/>
+                    of my debt to you - I have received<lb/>
+                    all your bills &amp; receipts &amp; I thank<lb/>
+                    you for your kind punctuality<lb/></p>
+                <p> The box containing all our <choice><orig>trea<lb/>
+                    sures</orig><reg>treasures</reg>/choice> has not yet arrived; but I have<lb/>
+                    this very day heard that it was safe<lb/>
+                    at <placeName>Holyhead</placeName> &amp; that it would be put<lb/>
+                    on Board the Henrietta the 27<hi rend="superscript">th</hi>. So that<lb/>
+                    I trust it will soon be here &amp; we shall<lb/>
+                    shine forth in the lace &amp; satin you<lb/>
+                    have been so kind to cause for us -<lb/></p>
+                <p> I regret very much that we have<lb/>
+                    now closed our concerns with <persName xml:id="MileX1">M<hi rend="superscript">rs</hi>. Miles</persName><lb/>
+                    but I trust that we shall not become<lb/>
+                    strangers to each other - We depend upon<lb/>
+                    your keeping your promise &amp; coming<lb/>
+                <pb n="2" facs="Edgeworth_Beinecke_330_1815_03_01_page02.jpg"/>
+                    next summer to <placeName xml:id="EdgeworthsTown">Edgeworth's Town</placeName><lb/></p>
+             <closer> 
+                 I am Dear Madam,<lb/>
+                 Your obliged Serv<hi rend="superscript">t</hi>.<lb/>
+                 <persName xml:id="EdgeM1">Maria Edgeworth</persName><lb/>
+                </closer>
+                <postscript>
+                    <p>I trust that if there is any thing<lb/>
+                    remaining due to you my dear<lb/>
+                    madam which is not included<lb/>
+                    in your bills or accts you will<lb/>
+                    let me know<lb/></p>
+                <pb n="3" facs="Edgeworth_Beinecke_330_1815_03_01_page03.jpg"/>    
+                    <p><persName xml:id="GodlX1">Capt<hi rend="superscript">n</hi>. Godley's</persName> address<lb/>
+                    in <placeName>India</placeName> - I have written<lb/>
+                    to try to obtain the direction<lb/>
+                    to <persName xml:id="McCaX1">M<hi rend="superscript">r</hi>. M<hi rend="superscript">c</hi>Cann</persName> but fear it<lb/>
+                    will be too late<lb/>
+                    tell <persName>M<hi rend="superscript">r</hi>. Hu<unclear></unclear></persName> ask for<lb/>
+                        <persName xml:id="MileX1">M<hi rend="superscript">rs</hi>. Miles</persName> <lb/></p>
+                </postscript>
+                <!--You can include a <pb/> here, or inside the postScript.-->
+                <closer><!--Use the <closer> element again to hold Address Leaf information.-->
+                    <address>
+                        <!--Include any text written on the address leaf; use a separate "addrLine" for each line and indicate line breaks. -->
+                        <addrLine/>
+                        <addrLine/>
+                        <addrLine/>
+                    </address>
+                </closer>
+            </div>
+        </body>
+        <back> </back>
+    </text>
+</TEI>
+
