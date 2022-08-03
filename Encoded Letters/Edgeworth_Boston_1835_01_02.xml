@@ -6,20 +6,10 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <!-- The next 6 lines are the title statement.-->
-            
-            
-            <title>Letter to Thomas Singleton, October 14, 1829</title>
+            <title>Letter from Maria Edgeworth to <!--Recipient Name, Month Day, YYYY--></title>
             <author>Maria Edgeworth</author>
-            
-            <!--FROM LAURA: I have stripped the above of tags. The titleStmt here refers to the digital edition.
-               I recommend putting all the author info. only in one place, in sourceDesc/msDesc as below, which
-               I realized works best after our meeting -->
-            
-            
-            
             <editor ref="Id_who">
-               Hilary Havens
+               <!--Editor on the Maria Edgeworth Letters Project overseeing the coding of this particular letter: FirstName LastName -->
             </editor>
             <sponsor>
                <orgName>Maria Edgeworth Letters Project</orgName>
@@ -29,57 +19,44 @@
             <principal>Jessica Richard, Hilary Havens, Robin Runia, Susan Egenolf</principal>
             <respStmt>
                <resp>Transcription and coding by</resp>
-               <persName ref="Id_who">Hilary Havens
+               <persName ref="Id_who"><!--FirstName LastName-->
+                  Hilary Havens
                </persName>
                <!-- List all transcribers or coders here, editors and students alike, <persName> by <persName>.-->
-               <persName ref="Id_who"><!--name here--></persName>
+               <persName ref="Id_who"><!--FirstName LastName-->Hilary Havens</persName>
                <!-- If you're the last person interacting with the file, enter your name last on the list -->
             </respStmt>
          </titleStmt>
-         
-         <!-- FROM LAURA: I changed the editionStmt below to make it validate -->
-         
          <editionStmt>
-            <edition>First digital edition in TEI, date: <date when="2022-07-14">
+            <edition>First digital edition in TEI, date: <date when="2022-08-03">
                   <!--enter the date on which the first coder created and saved this XML file in google drive-->
-               </date>
+               August 3, 2022   
+            </date>
             </edition>
             <respStmt>
                <orgName ref="Id_who">
-                  Ohio University. Libraries
+                  <!--who took digitized the letter or gave us permission for to use the file?-->
+                  Boston College. John J. Burns Library
                </orgName>
                <resp> photos include:
-                  Edgeworth_OhioU_1829-10-14_page01.jpg, Edgeworth_OhioU_1829-10-14_page02.jpg
                   <!-- Make a comma-separated list of each .jpg photo file name associated with your letter. 
                      For example: DSCF9476.jpg, DSCF9477.jpg, DSCF9478.jpg-->
+                  Edgeworth_Boston_1835-01-02_page01.jpg, Edgeworth_Boston_1835-01-02_page02.jpg, Edgeworth_Boston_1835-01-02_page03.jpg
                </resp>
             </respStmt>
          </editionStmt>
-         
-         
          <publicationStmt>
             <authority>Maria Edgeworth Letters Project</authority>
-            <date>2013</date>
+            <date>2022</date>
             <availability>
                <!--Uncomment the appropriate line, based on the archive that holds the physical copy of this letter, 
                   and delete the other comment line(s).-->
-               <p>Courtesy of <orgName ref="#ManhCenter">Ohio University</orgName>.
+               <p>Courtesy of <orgName ref="#Boston">Boston College</orgName>.-->
                </p>
                <licence>Distributed under a Creative Commons Attribution-ShareAlike 3.0 Unported
                   License</licence>
             </availability>
-            
-            <idno>Edgeworth_OhioU_1829-10-14</idno> 
-            
-            
-            <!--FROM LAURA: I moved this identifcation of the TEI document itself, the digital surrogate,
-               out of the title statement to the publicationStmt.
-               
-               It is helpful if this id is the same as the filename. So this current document would be saved
-               as MEtoMordecai1816.xml, and the web page will be MEtoMordecai1816.html -->
-               
-            
-            
+            <idno><!--SendertoReceiverDate-->Edgeworth_Boston_1835_01_02</idno> 
          </publicationStmt>
          <seriesStmt>
             <title>Maria Edgeworth Letters Project</title>
@@ -88,36 +65,30 @@
             <msDesc xml:lang="en">
                <!-- This section of the header identifies the original manuscript source. -->
                <msIdentifier>
-                  <repository>Ohio University. Libraries</repository>
-                  <collection>Mss 406, Ohio University Library. Dept. of Archives &amp; Special Collections</collection>
-                  <!-- Change to reflect correct ms. collection. -->
-                  <idno type="OCLC">12986752</idno>
-                  <idno type="NAF">n2003039990</idno>
-                  <!--Consult library or WorldCat for this info-->
+                  <repository>Boston College. John J. Burns Library</repository>
+                  <collection><!-- Enter specific archival collection if applicable--></collection>
+                  <idno type="NAF"><!--Consult library or WorldCat for this info-->n87935714</idno>
                </msIdentifier>
                
                <!-- FROM LAURA: it's here (below) in the head that I added the full information about the author,
                   and you could add full information about the addressee as well. -->
                <head>Letter from 
-                  <persName ref="./Personography.xml#EdgeM1" from="1768" to="1849">
+                  <persName xml:id="EdgeM1" from="1768" to="1849">
                         <forename>Maria</forename>
                         <surname>Edgeworth</surname>
                         <date>1768-1849</date>
                         <idno type="VIAF">71477273</idno>
                         <idno type="SNAC">62567029</idno>
-                     </persName> to                   
-                  <persName ref="./Personography.xml#SingT1" from="1783" to="1842">
-                        <forename>Thomas</forename>
-                        <surname>Singleton</surname>
-                        <date>1783–1842</date>
-                        <idno type="VIAF">70481471</idno>
-                  </persName>
-                  <placeName>Edgeworthstown,
-                     Ireland</placeName>, 
-                  <date when="1829-10-14">October 14, 1829</date>
+                     </persName>
+                  to <persName xml:id="McGrJ1" from="1771" to="1858">
+                      <forename>Sir James</forename>
+                   <surname>McGrigor</surname>
+                   </persName>, <placeName><!--Location where letter was sent--></placeName>, 
+                  <date when="1835-01-02">January 2, 1835</date>
                </head>
                <physDesc>
                   <!-- optional physical description of the letter goes here: paper size and condition, seal, postmarks, etc.-->
+                  <p>Edgeworth_Boston_1835-01-02_page01.jpg seems to be a wrapper and was not included in the transcription/encoding.</p>
                </physDesc>
             </msDesc>
             
@@ -125,9 +96,8 @@
                ask TEI List whether it should be in the sourceDesc or elsewhere? -->
             
             <bibl>In addition to our edited version, this letter was previously published in
-               <!--complete bibiographical info if letter was published in a book here-->
+               <!--complete bibiographical info if letter was published in a book here - if not delete-->
             </bibl>
-            
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
@@ -140,9 +110,6 @@
                word is split at the end of a line and the beginning of the next in a manuscript. The
                long s and ligatured forms are silently emended.</p>
          </editorialDecl>
-         
-         <!-- Meredith's additions for classifying this document -->
-         
          <classDecl>
             <taxonomy xml:id="relators">
                <bibl>Marc Relators</bibl>
@@ -264,26 +231,18 @@
                   <catDesc xml:id="CranfordI">Cranford, Ireland<idno type="getty">tgn/7901042</idno></catDesc>
                   <catDesc xml:id="Kettering">Kettering, UK<idno type="getty">tgn/7010904</idno></catDesc>
                </category>
-            </taxonomy>
-            <taxonomy xml:id="period">
-               <bibl>Period</bibl>
-               <category>
-                  <catDesc>xx</catDesc>
-               </category>
-            </taxonomy>
+            </taxonomy> 
          </classDecl>
-         
       </encodingDesc>
       <profileDesc>
          <correspDesc>
             <correspAction type="sent">
-               <persName>Maria Edgeworth</persName>
+               <persName><!--SENDER NAME-->Maria Edgeworth</persName>
             </correspAction>
             <correspAction type="received">
-               <persName>Thomas Singleton</persName>
+               <persName><!--RECIPIENT NAME-->Sir James McGrigor</persName>
             </correspAction>
          </correspDesc>
-         
          <textClass>
             <keywords scheme="">
                <list type="simple">
@@ -304,29 +263,40 @@
    <text>
       <body>
          <div type="letter">
-            <pb n="1" facs="Edgeworth_OhioU_1829-10-14_page01.jpg"/>
-            <p><note place = "bottom"><persName>Miss Edgeworth</persName><lb/>
-            <hi rend="underline">Autograph</hi></note><lb/>
-            <persName>Archdeacon Singleton</persName><lb/></p>
-            <pb n="2" facs="Edgeworth_OhioU_1829-10-14_page02.jpg"/> 
-            <p><!-- Begin transcibing the body of the letter here. -->
-               <persName>Miss Edgeworth</persName> is afraid she<lb/>
-               is trespassing too frequently<lb/>
-               upon Archdeacon Singleton<unclear>'s</unclear><lb/>
-               politeness and most obliging<lb/>
-               offer to frank packets for<lb/>
-               her - The Enclosed is a <choice><orig>mat<lb/>
-               ter</orig><reg>matter</reg></choice> of business of some <choice><orig>conse-<lb/>
-               quence</orig><reg>consequence</reg></choice> &amp; she ventures to<lb/>
-               beg he will have the goodness<lb/>
-               to forward it and not to be<lb/>
-               quite out of patience with her<lb/>
+            <pb n="1" facs="Edgeworth_Boston_1835-01_page02.jpg"/>
+            <!--filenames for photos associated with this letter. Example: <pb n="1" facs="image1.jpg image2.jpg image3.jpg"/> -->
+            <opener>
+               <salute>
+                  Private
+               </salute>
+            </opener>
+            <p>
+               <persName>Miss Edgeworth</persName> begs to present<lb/>
+               her compliments and thanks<lb/>
+               to <persName>Sir James M<hi rend = "superscript">c</hi>Grigor</persName><lb/>
+               - She was much gratified<lb/>
+               by his polite recollection of<lb/>
+               her and if she might be <choice><orig>per-<lb/>
+               mitted</orig><reg>permitted</reg></choice> to think that she<lb/>
+               had any influence in <choice><orig>ob-<lb/>
+               taining</orig><reg>obtaining</reg></choice> in <persName>James McGrigors</persName><lb/>
+               attention to <persName>M<hi rend = "superscript">r.</hi> Cowen's</persName> <choice><orig>ap-<lb/>
+               plication</orig><reg>application</reg></choice> for service she<lb/>
+               must express her sense of the<lb/>
+               obligation. - She has every<lb/>
+               reason to believe that <persName>M<hi rend = "superscript">r.</hi><lb/>
+               Cowen</persName> will do credit to his<lb/>
+               
+               <pb n="2" facs="Edgeworth_Boston_1835-01_page03.jpg"/>
+               education &amp; to his patron -<lb/> 
             </p>
             <closer>
-            <placeName>Edgeworths Town</placeName><lb/>
-               <dateline><!--If there's no date line, omit this element. Record in the order in which it is written on the letter.-->
-                  <name type="place" ref="Id_where"/>
-                  <date when="1816-08-04"/>Oct 14<hi rend="superscript">th</hi>. 1829 </dateline>
+               <address>
+                  <!--Include any text written on the address leaf; use a separate "addrLine" for each line and indicate line breaks. -->
+                  <addrLine><placeName>Edgeworthtown</placeName></addrLine>
+                  <addrLine>Jan.<hi rend = "superscript">y</hi> 2<unclear>d</unclear> 1835</addrLine>
+                  <addrLine/>
+               </address>
             </closer>
          </div>
       </body>
