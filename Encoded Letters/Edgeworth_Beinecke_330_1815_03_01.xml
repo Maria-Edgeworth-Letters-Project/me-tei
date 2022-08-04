@@ -56,16 +56,10 @@
                         <collection>Maria Edgeworth Collection</collection>
                         <idno><!--Consult library or WorldCat for this info--></idno>
                     </msIdentifier>
-                    
-                    <!-- FROM LAURA: it's here (below) in the head that I added the full information about the author,
-                  and you could add full information about the addressee as well. -->
-                    <head>Letter from <persName xml:id="ME" from="1768" to="1849">
+                    <head>Letter from <persName ref="./Personography.xml#EdgeM1">
                         <forename>Maria</forename>
-                        <surname>Edgworth</surname>
-                        <date>1768-1849</date>
-                        <idno type="VIAF">71477273</idno>
-                        <idno type="SNAC">62567029</idno>
-                    </persName> to <persName>Mrs. Miles</persName>,
+                        <surname>Edgeworth</surname>
+                    </persName> to <persName ref="./Personography.xml#MileX1">Mrs. Miles</persName>,
                         <placeName><!--Location where letter was sent--></placeName>, <date
                             when="1815-03-01">March 01, 1815</date>
                     </head>
@@ -161,34 +155,6 @@
                         <catDesc xml:id="w23">Tomorrow; or the Dangers of Delay</catDesc>
                     </category>
                 </taxonomy>
-                <taxonomy xml:id="people">
-                    <bibl>People</bibl>
-                    <category>
-                        <catDesc xml:id="BabbageCharles">Babbage, Charles, 1791-1871 <idno type="loc"
-                            >n50031102</idno>
-                        </catDesc>
-                        <catDesc xml:id="BarbauldAL">Barbauld, Mrs. (Anna Letitia), 1743-1825 <idno
-                            type="loc">n84136092</idno>
-                        </catDesc>
-                        <catDesc xml:id="EdgeworthRL">Edgeworth, Richard Lovell, 1744-1817 <idno
-                            type="loc">n79061007</idno>
-                        </catDesc>
-                        <catDesc xml:id="EdgeworthM">Edgeworth, Maria, 1768-1849 <idno type="loc"
-                            >n79061006</idno>
-                            <date>1768-1849</date>
-                            <idno type="VIAF">71477273</idno>
-                            <idno type="SNAC">62567029</idno>
-                        </catDesc>
-                        <catDesc xml:id="RobinsonM">Robinson, Mary, 1758-1800 <idno type="loc"
-                            >n83122576</idno>
-                            <idno type="VIAF">9888105</idno>
-                            <idno type="SNAC">32125250</idno>
-                        </catDesc>
-                        <catDesc xml:id="BurneyF">Burney, Fanny, 1752-1840 <idno type="loc"
-                            >n80075853</idno>
-                        </catDesc>
-                    </category>
-                </taxonomy>
                 <taxonomy xml:id="places">
                     <bibl>Places</bibl>
                     <category>
@@ -207,10 +173,10 @@
         <profileDesc>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName>Maria Edgeworth</persName>
+                    <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
                 </correspAction>
                 <correspAction type="received">
-                    <persName>Mrs. Miles</persName>
+                    <persName ref="./Personography.xml#MileX1">Mrs. Miles</persName>
                 </correspAction>
             </correspDesc>
             <textClass>
@@ -258,7 +224,7 @@
                     shine forth in the lace &amp; satin you<lb/>
                     have been so kind to cause for us -<lb/></p>
                 <p> I regret very much that we have<lb/>
-                    now closed our concerns with <persName xml:id="MileX1">M<hi rend="superscript">rs</hi>. Miles</persName><lb/>
+                    now closed our concerns with <persName ref="./Personography.xml#MileX1">M<hi rend="superscript">rs</hi>. Miles</persName><lb/>
                     but I trust that we shall not become<lb/>
                     strangers to each other - We depend upon<lb/>
                     your keeping your promise &amp; coming<lb/>
@@ -267,7 +233,7 @@
              <closer> 
                  I am Dear Madam,<lb/>
                  Your obliged Serv<hi rend="superscript">t</hi>.<lb/>
-                 <persName xml:id="EdgeM1">Maria Edgeworth</persName><lb/>
+                 <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName><lb/>
                 </closer>
                 <postscript>
                     <p>I trust that if there is any thing<lb/>
@@ -276,13 +242,13 @@
                     in your bills or accts you will<lb/>
                     let me know<lb/></p>
                 <pb n="3" facs="Edgeworth_Beinecke_330_1815_03_01_page03.jpg"/>    
-                    <p><persName xml:id="GodlX1">Capt<hi rend="superscript">n</hi>. Godley's</persName> address<lb/>
+                    <p><persName ref="./Personography.xml#GodlX1">Capt<hi rend="superscript">n</hi>. Godley's</persName> address<lb/>
                     in <placeName>India</placeName> - I have written<lb/>
                     to try to obtain the direction<lb/>
-                    to <persName xml:id="McCaX1">M<hi rend="superscript">r</hi>. M<hi rend="superscript">c</hi>Cann</persName> but fear it<lb/>
+                        to <persName ref="./Personography.xml#McCaX1">M<hi rend="superscript">r</hi>. M<hi rend="superscript">c</hi>Cann</persName> but fear it<lb/>
                     will be too late<lb/>
                     tell <persName>M<hi rend="superscript">r</hi>. Hu<unclear></unclear></persName> ask for<lb/>
-                        <persName xml:id="MileX1">M<hi rend="superscript">rs</hi>. Miles</persName> <lb/></p>
+                        <persName ref="./Personography.xml#MileX1">M<hi rend="superscript">rs</hi>. Miles</persName> <lb/></p>
                 </postscript>
                 <!--You can include a <pb/> here, or inside the postScript.-->
                 <closer><!--Use the <closer> element again to hold Address Leaf information.-->
@@ -298,4 +264,3 @@
         <back> </back>
     </text>
 </TEI>
-

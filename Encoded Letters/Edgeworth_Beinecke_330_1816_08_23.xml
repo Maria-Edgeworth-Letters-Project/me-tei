@@ -63,22 +63,14 @@
                   <collection><!-- Enter specific archival collection if applicable-->Maria Edgeworth Collection</collection>
                   <idno type="NAF"><!--Consult library or WorldCat for this info-->n80097790</idno>
                </msIdentifier>
-               
-               <!-- FROM LAURA: it's here (below) in the head that I added the full information about the author,
-                  and you could add full information about the addressee as well. -->
                <head>Letter from 
-                  <persName ref="./Personography.xml#BarbA1" from="1743" to="1825">
+                  <persName ref="./Personography.xml#BarbA1">
                         <forename>Anna Laetitia</forename>
                         <surname>Barbauld</surname>
-                        <date>1743-1825</date>
-                        <idno type="VIAF">9896232</idno>
                      </persName>
-                  to <persName ref="./Personography.xml#EdgeM1" from="1768" to="1849"><!--Recipient Name-->
+                  to <persName ref="./Personography.xml#EdgeM1"><!--Recipient Name-->
                      <forename>Maria</forename>
                       <surname>Edgeworth</surname>
-                      <date>1768-1849</date>
-                      <idno type="VIAF">71477273</idno>
-                      <idno type="SNAC">62567029</idno>
                    </persName>, <placeName><!--Location where letter was sent--></placeName>, 
                   <date when="1816-08-23">August 23, 1816</date>
                </head>
@@ -190,34 +182,6 @@
                   <catDesc xml:id="w23">Tomorrow; or the Dangers of Delay</catDesc>
                </category>
             </taxonomy>
-            <taxonomy xml:id="people">
-               <bibl>People</bibl>
-               <category>
-                  <catDesc xml:id="BabbageCharles">Babbage, Charles, 1791-1871
-                     <idno type="loc">n50031102</idno>
-                  </catDesc>
-                  <catDesc xml:id="BarbauldAL">Barbauld, Mrs. (Anna Laetitia), 1743-1825
-                     <idno type="loc">n84136092</idno>
-                  </catDesc>
-                  <catDesc xml:id="EdgeworthRL">Edgeworth, Richard Lovell, 1744-1817
-                     <idno type="loc">n79061007</idno>
-                  </catDesc>
-                  <catDesc xml:id="EdgeworthM">Edgeworth, Maria, 1768-1849
-                     <idno type="loc">n79061006</idno>
-                     <date>1768-1849</date>
-                     <idno type="VIAF">71477273</idno>
-                     <idno type="SNAC">62567029</idno>
-                  </catDesc>
-                  <catDesc xml:id="RobinsonM">Robinson, Mary, 1758-1800
-                     <idno type="loc">n83122576</idno>
-                     <idno type="VIAF">9888105</idno>
-                     <idno type="SNAC">32125250</idno>
-                  </catDesc>
-                  <catDesc xml:id="BurneyF">Burney, Fanny, 1752-1840
-                     <idno type="loc">n80075853</idno>
-                  </catDesc>
-               </category>
-            </taxonomy>
             <taxonomy xml:id="places">
                <bibl>Places</bibl>
                <category>
@@ -232,10 +196,10 @@
       <profileDesc>
          <correspDesc>
             <correspAction type="sent">
-               <persName><!--SENDER NAME-->Anna Laetitia Barbauld</persName>
+               <persName ref="./Personography.xml#BarbA1><!--SENDER NAME-->Anna Laetitia Barbauld</persName>
             </correspAction>
             <correspAction type="received">
-               <persName><!--RECIPIENT NAME-->Maria Edgeworth</persName>
+               <persName ref="./Personography.xml#EdgeM1><!--RECIPIENT NAME-->Maria Edgeworth</persName>
             </correspAction>
          </correspDesc>
          <textClass>
@@ -286,8 +250,8 @@
                &amp; my brain feels dry, - "<hi rend = "underline">as the remaining biscuit</hi> -<lb/>
                <hi rend = "underline">after a voyage</hi>". With regard to yourself, tho longing to write, I<lb/>
                doubt if I should have had the courage, but for a hint communi-<lb/>
-               cated by <persName>M[superscript]rs[/superscript] Baillie</persName> intimating that I might have taken amiss not<lb/>
-               seeing more of you <add>when you were in <placeName>London</placeName></add>. Oh my dear <persName>Miss Edgeworth</persName>, I cannot<lb/>
+               cated by <persName ref="./Personography.xml#BailJ1">M[superscript]rs[/superscript] Baillie</persName> intimating that I might have taken amiss not<lb/>
+               seeing more of you <add>when you were in <placeName>London</placeName></add>. Oh my dear <persName ref="./Personography.xml#EdgeM1">Miss Edgeworth</persName>, I cannot<lb/>
                bear you should think so for a moment. Much as I value<lb/>
                your<lb/>
                <pb n="2" facs="Edgeworth_Beinecke_330_1816_08_23_page02.jpg"/>
@@ -303,7 +267,7 @@
                <p>
                I should ask you if could resist the general spirit of migration &amp; stay<lb/>
                   at home when <placeName>England</placeName> is pouring itself over the continent, if I did<lb/>
-                  not hear, &amp; very sorry I am to hear it, that <persName>M<hi rend = "superscript">r</hi>Edgeworth's</persName> state of health<lb/>
+                  not hear, &amp; very sorry I am to hear it, that <persName ref="./Personography.xml#EdgeR1">M<hi rend = "superscript">r</hi>Edgeworth's</persName> state of health<lb/>
                   is such as must prevent your leaving him. I tremble to think what <unclear>tours</unclear><lb/>
                must be preparing for the press, what sweeping characters of nations will be<lb/>
                given by the traveller who has dined two or three times at a table d'hôte,<lb/>
@@ -325,14 +289,14 @@
                   seen my <persName>Brother's</persName> <title><hi rend = "underline">Annals</hi></title> &amp; tho necessarily somewhat dry from the<lb/>
                   necessary compression of such an eventful period, I think you will have<lb/>
                   been pleased with the fairness &amp; impartiality with which they are<lb/>
-                  written.<unclear></unclear> My neice, <persName>Miss Aikin</persName>, has made some progress in <unclear></unclear><lb/>
+                  written.<unclear></unclear> My neice, <persName ref="./Personography.xml#AikiL1">Miss Aikin</persName>, has made some progress in <unclear></unclear><lb/>
                   <hi rend = "underline">Memoirs of the reign of Elizabeth</hi>. She is taking great <unclear>pains with</unclear><lb/>
                   it &amp; I hope it will answer her expectation &amp; her friends' - We are<lb/>
                   expecting every day another Canto of <hi rend = "underline"><title>Child Harold</title></hi>, but I apprehend the<lb/>
-                  <persName>Author</persName> has lost too much of the public favour by his late cruel behaviour to<lb/>
-                  <persName>his wife</persName> to be as popular as he has been. I have now upon my table the<lb/>
-                  strangest Poem - <persName>Wilson's</persName> <hi rend = "underline"><title>City of the Plague</title></hi>, a heap of horrors natural &amp;<lb/>
-                  moral - and <hi rend = "underline"><persName>Lee Hunt's</persName> <title>Rimini</title></hi>, the most fantastic. Thus it is when<lb/>
+                  <persName ref="./Personography.xml#ByroG1">Author</persName> has lost too much of the public favour by his late cruel behaviour to<lb/>
+                  <persName ref="./Personography.xml#ByroA1">his wife</persName> to be as popular as he has been. I have now upon my table the<lb/>
+                  strangest Poem - <persName ref="./Personography.xml#WilsJ1">Wilson's</persName> <hi rend = "underline"><title>City of the Plague</title></hi>, a heap of horrors natural &amp;<lb/>
+                  moral - and <hi rend = "underline"><persName ref="./Personography.xml#HuntL1">Lee Hunt's</persName> <title>Rimini</title></hi>, the most fantastic. Thus it is when<lb/>
                   the natural &amp; easy has become a beaten path &amp; the intellectual taste<lb/>
                   wants excitement, as the sensitive by more pungent relishes the originally<lb/>
                   disagreeable - My dear Madam have I not tired you? Will<lb/>
@@ -348,7 +312,7 @@
             <closer>
                <!--include linebreaks, if used. example: <closer> Yours<lb/> Very sincerely<lb/> -->
                Your ever obliged<lb/>
-               <persName>A L Barbauld</persName>
+               <persName ref="./Personography.xml#BarbA1">A L Barbauld</persName>
             </closer>
             <postscript>
                <p><!--A postscript goes here, outside the <closer>. --></p>
@@ -360,7 +324,7 @@
             <closer><!--Use the <closer> element again to hold Address Leaf information.-->
                <address>
                   <!--Include any text written on the address leaf; use a separate "addrLine" for each line and indicate line breaks. -->
-                  <addrLine/><persName>Miss Edgeworth</persName>
+                  <addrLine/><persName ref="./Personography.xml#EdgeM">Miss Edgeworth</persName>
                   <addrLine/><placeName>Edgeworth Town</placeName>
                   <addrLine/><placeName>Ireland</placeName>
                </address>

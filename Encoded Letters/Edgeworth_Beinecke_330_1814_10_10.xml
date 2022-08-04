@@ -57,16 +57,10 @@
                         <collection>Maria Edgeworth Collection</collection>
                         <idno><!--Consult library or WorldCat for this info--></idno>
                     </msIdentifier>
-                    
-                    <!-- FROM LAURA: it's here (below) in the head that I added the full information about the author,
-                  and you could add full information about the addressee as well. -->
-                    <head>Letter from <persName xml:id="ME" from="1768" to="1849">
+                    <head>Letter from <persName ref="./Personography.xml#EdgeM1">
                         <forename>Maria</forename>
-                        <surname>Edgworth</surname>
-                        <date>1768-1849</date>
-                        <idno type="VIAF">71477273</idno>
-                        <idno type="SNAC">62567029</idno>
-                    </persName> to <persName>Mrs. Miles</persName>,
+                        <surname>Edgeworth</surname>
+                    </persName> to <persName ref="./Personography.xml#MileX1">Mrs. Miles</persName>,
                         <placeName><!--Location where letter was sent--></placeName>, <date
                             when="1814-10-10">October 10, 1814</date>
                     </head>
@@ -162,34 +156,6 @@
                         <catDesc xml:id="w23">Tomorrow; or the Dangers of Delay</catDesc>
                     </category>
                 </taxonomy>
-                <taxonomy xml:id="people">
-                    <bibl>People</bibl>
-                    <category>
-                        <catDesc xml:id="BabbageCharles">Babbage, Charles, 1791-1871 <idno type="loc"
-                            >n50031102</idno>
-                        </catDesc>
-                        <catDesc xml:id="BarbauldAL">Barbauld, Mrs. (Anna Letitia), 1743-1825 <idno
-                            type="loc">n84136092</idno>
-                        </catDesc>
-                        <catDesc xml:id="EdgeworthRL">Edgeworth, Richard Lovell, 1744-1817 <idno
-                            type="loc">n79061007</idno>
-                        </catDesc>
-                        <catDesc xml:id="EdgeworthM">Edgeworth, Maria, 1768-1849 <idno type="loc"
-                            >n79061006</idno>
-                            <date>1768-1849</date>
-                            <idno type="VIAF">71477273</idno>
-                            <idno type="SNAC">62567029</idno>
-                        </catDesc>
-                        <catDesc xml:id="RobinsonM">Robinson, Mary, 1758-1800 <idno type="loc"
-                            >n83122576</idno>
-                            <idno type="VIAF">9888105</idno>
-                            <idno type="SNAC">32125250</idno>
-                        </catDesc>
-                        <catDesc xml:id="BurneyF">Burney, Fanny, 1752-1840 <idno type="loc"
-                            >n80075853</idno>
-                        </catDesc>
-                    </category>
-                </taxonomy>
                 <taxonomy xml:id="places">
                     <bibl>Places</bibl>
                     <category>
@@ -208,10 +174,10 @@
         <profileDesc>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName>Maria Edgeworth</persName>
+                    <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
                 </correspAction>
                 <correspAction type="received">
-                    <persName>Mrs. Miles</persName>
+                    <persName ref="./Personography.xml#MileX1">Mrs. Miles</persName>
                 </correspAction>
             </correspDesc>
             <textClass>
@@ -247,7 +213,7 @@
                     for ten pounds - Out of<lb/>
                     which I should be much<lb/>
                     obliged to you if you would<lb/>
-                    pay <persName xml:id="FarrX1">>Miss Farrell</persName> the amount<lb/>
+                    pay <persName ref="./Personography.xml#FarrX1">>Miss Farrell</persName> the amount<lb/>
                     of her account enclosed and<lb/>
                     take a <hi rend="underline">settled</hi> at the bottom of<lb/>
                     her account - Give her also<lb/>
@@ -261,13 +227,13 @@
                     in the future.<lb/></p>
                 <p> The balance of the ten pound<lb/>
                     Which will remain after<lb/>
-                    <persName xml:id="FarrX1">Miss Farrell</persName> is paid I request<lb/>
+                    <persName ref="./Personography.xml#FarrX1">Miss Farrell</persName> is paid I request<lb/>
                <pb n="2" facs="Edgeworth_Beinecke_330_1814_10_10_page02.jpg"/>                      
-                    My dear <persName xml:id="MileX1">Madam</persName> you will<lb/>
+                    My dear <persName ref="./Personography.xml#MileX1">Madam</persName> you will<lb/>
                     be so kind to keep in your<lb/>
                     hands to pay for any <choice><orig>commis<lb/>
                         sions</orig><reg>commissions</reg></choice>with which I may trouble<lb/>
-                    you - Though <persName xml:id="Mile2">Mr. Miles</persName> is so<lb/>
+                    you - Though <persName ref="./Personography.xml#MileX2">Mr. Miles</persName> is so<lb/>
                     very obliging to me, or rather<lb/>
                     <hi rend="underline">because</hi> he is so obliging to me<lb/>
                     I wish to avoid calling upon<lb/>
@@ -276,9 +242,9 @@
                         close</orig><reg>inclose</reg></choice>with many thanks a<lb/>
                     draft for the £2..14..0. which<lb/>
                     Line out of place<lb/>
-                    he paid <persName xml:id="MoutX1">M<hi rend="superscript">rs</hi>. Moutray</persName> for me<lb/></p>
+                    he paid <persName ref="./Personography.xml#MoutX1">M<hi rend="superscript">rs</hi>. Moutray</persName> for me<lb/></p>
                 <p> I regret that he was not in<lb/>
-                    the way when <persName xml:id="MoutX1">M<hi rend="superscript">rs</hi>. Moutray</persName> &amp;<lb/>
+                    the way when <persName ref="./Personography.xml#MoutX1">M<hi rend="superscript">rs</hi>. Moutray</persName> &amp;<lb/>
                     her daughter called as they<lb/>
                     are two of the most amiable<lb/>
                     &amp; charming of our friends, whom<lb/>
@@ -298,7 +264,7 @@
                     may be as I want it for sashes<lb/>
                     for my <unclear>sasnet</unclear> gown of this color<lb/></p>
                 <p> I rejoice to hear that you<lb/>
-                    like the continuation of <title xml:id="w4">Early Lessons</title><lb/>
+                    like the continuation of <title ref="#w4">Early Lessons</title><lb/>
                     the most agreeable compliments<lb/>
                     we ever have or ever shall receive<lb/>
                     are those which we are sometimes<lb/>
@@ -307,21 +273,21 @@
                     upon the education of their children<lb/></p>
                 <p> Pray if the <title><hi rend="underline">Robins petition</hi></title> or the<lb/>
                     songs in the <title><hi rend="underline">Knapsack</hi></title> have been set to<lb/>
-                    music make <persName xml:id="MileX1">M<hi rend="superscript">rs</hi>. Miles</persName> sent them to<lb/>
+                    music make <persName ref="./Personography.xml#MileX1">M<hi rend="superscript">rs</hi>. Miles</persName> sent them to<lb/>
                     me as a Christmas box for one of my<lb/>
-                    little sisters <persName xml:id="RuxtS1">(Sophy)</persName> who has an agreeable<lb/>
+                    little sisters <persName ref="./Personography.xml#RuxtS1">(Sophy)</persName> who has an agreeable<lb/>
                     voice &amp; will take pleasure &amp; pride in<lb/>
-                    singing them to my <persName xml:id="EdgeR1">father</persName><lb/></p>
+                    singing them to my <persName ref="./Personography.xml#EdgeR1">father</persName><lb/></p>
                 <closer> 
                     I am dear Madam<lb/>
                     Sincerely yours<lb/>
-                    <persName xml:id="EdgeM1">Maria Edgeworth</persName><lb/>
+                    <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName><lb/>
                     Excuse my mistake<lb/>
                         in tearing this paper<lb/>
                 </closer>
                 <postscript>
                     <pb n="4" facs="Edgeworth_Beinecke_330_1814_10_10_page04.jpg"/>
-                    <p><persName xml:id="MileX1">M<hi rend="superscript">rs</hi>. Miles</persName><lb/>
+                    <p><persName ref="./Personography.xml#MileX1">M<hi rend="superscript">rs</hi>. Miles</persName><lb/>
                     I will further trouble you to<lb/>
                     buy for me a dozen gilt <hi rend="underline">clothes</hi><lb/>
                     such as are used for bracelets or<lb/>
@@ -330,7 +296,7 @@
                     they will fasten it within side<lb/>
                     so that I shall think more of the<lb/>
                     goodness of the <hi rend="underline">catch</hi> than of the beauty<lb/>
-                    - <persName xml:id="MileX1">M<hi rend="superscript">rs</hi>. Miles</persName> will soon send a packet<lb/>
+                        - <persName ref="./Personography.xml#MileX1">M<hi rend="superscript">rs</hi>. Miles</persName> will soon send a packet<lb/>
                     under a government frank but<lb/>
                     do <hi rend="underline">not</hi> send them in that because I<lb/>
                     have promised not to do so - wait till<lb/>
@@ -352,4 +318,3 @@
         <back> </back>
     </text>
 </TEI>
-
