@@ -69,18 +69,12 @@
                   <collection><!-- Enter specific archival collection if applicable--></collection>
                   <idno type="NAF"><!--Consult library or WorldCat for this info-->n87935714</idno>
                </msIdentifier>
-               
-               <!-- FROM LAURA: it's here (below) in the head that I added the full information about the author,
-                  and you could add full information about the addressee as well. -->
                <head>Letter from 
-                  <persName xml:id="EdgeM1" from="1768" to="1849">
+                  <persName ref="./Personography.xml#EdgeM1">
                         <forename>Maria</forename>
                         <surname>Edgeworth</surname>
-                        <date>1768-1849</date>
-                        <idno type="VIAF">71477273</idno>
-                        <idno type="SNAC">62567029</idno>
                      </persName>
-                  to <persName xml:id="McGrJ1" from="1771" to="1858">
+                  to <persName ref="./Personography.xml#McGrJ1">
                       <forename>Sir James</forename>
                    <surname>McGrigor</surname>
                    </persName>, <placeName><!--Location where letter was sent--></placeName>, 
@@ -195,34 +189,6 @@
                   <catDesc xml:id="w23">Tomorrow; or the Dangers of Delay</catDesc>
                </category>
             </taxonomy>
-            <taxonomy xml:id="people">
-               <bibl>People</bibl>
-               <category>
-                  <catDesc xml:id="BabbageCharles">Babbage, Charles, 1791-1871
-                     <idno type="loc">n50031102</idno>
-                  </catDesc>
-                  <catDesc xml:id="BarbauldAL">Barbauld, Mrs. (Anna Letitia), 1743-1825
-                     <idno type="loc">n84136092</idno>
-                  </catDesc>
-                  <catDesc xml:id="EdgeworthRL">Edgeworth, Richard Lovell, 1744-1817
-                     <idno type="loc">n79061007</idno>
-                  </catDesc>
-                  <catDesc xml:id="EdgeworthM">Edgeworth, Maria, 1768-1849
-                     <idno type="loc">n79061006</idno>
-                     <date>1768-1849</date>
-                     <idno type="VIAF">71477273</idno>
-                     <idno type="SNAC">62567029</idno>
-                  </catDesc>
-                  <catDesc xml:id="RobinsonM">Robinson, Mary, 1758-1800
-                     <idno type="loc">n83122576</idno>
-                     <idno type="VIAF">9888105</idno>
-                     <idno type="SNAC">32125250</idno>
-                  </catDesc>
-                  <catDesc xml:id="BurneyF">Burney, Fanny, 1752-1840
-                     <idno type="loc">n80075853</idno>
-                  </catDesc>
-               </category>
-            </taxonomy>
             <taxonomy xml:id="places">
                <bibl>Places</bibl>
                <category>
@@ -237,10 +203,10 @@
       <profileDesc>
          <correspDesc>
             <correspAction type="sent">
-               <persName><!--SENDER NAME-->Maria Edgeworth</persName>
+               <persName ref="./Personography.xml#EdgeM1"><!--SENDER NAME-->Maria Edgeworth</persName>
             </correspAction>
             <correspAction type="received">
-               <persName><!--RECIPIENT NAME-->Sir James McGrigor</persName>
+               <persName ref="./Personography.xml#McGrJ1"><!--RECIPIENT NAME-->Sir James McGrigor</persName>
             </correspAction>
          </correspDesc>
          <textClass>
@@ -271,20 +237,20 @@
                </salute>
             </opener>
             <p>
-               <persName>Miss Edgeworth</persName> begs to present<lb/>
+               <persName ref="./Personography.xml#EdgeM1">Miss Edgeworth</persName> begs to present<lb/>
                her compliments and thanks<lb/>
-               to <persName>Sir James M<hi rend = "superscript">c</hi>Grigor</persName><lb/>
+               to <persName ref="./Personography.xml#McGrJ1">Sir James M<hi rend = "superscript">c</hi>Grigor</persName><lb/>
                - She was much gratified<lb/>
                by his polite recollection of<lb/>
                her and if she might be <choice><orig>per-<lb/>
                mitted</orig><reg>permitted</reg></choice> to think that she<lb/>
                had any influence in <choice><orig>ob-<lb/>
-               taining</orig><reg>obtaining</reg></choice> in <persName>James McGrigors</persName><lb/>
-               attention to <persName>M<hi rend = "superscript">r.</hi> Cowen's</persName> <choice><orig>ap-<lb/>
+                  taining</orig><reg>obtaining</reg></choice> in <persName ref="./Personography.xml#McGrJ1">James McGrigors</persName><lb/>
+               attention to <persName ref="./Personography.xml#CoweX1">M<hi rend = "superscript">r.</hi> Cowen's</persName> <choice><orig>ap-<lb/>
                plication</orig><reg>application</reg></choice> for service she<lb/>
                must express her sense of the<lb/>
                obligation. - She has every<lb/>
-               reason to believe that <persName>M<hi rend = "superscript">r.</hi><lb/>
+               reason to believe that <persName ref="./Personography.xml#CoweX1">M<hi rend = "superscript">r.</hi><lb/>
                Cowen</persName> will do credit to his<lb/>
                
                <pb n="2" facs="Edgeworth_Boston_1835-01_page03.jpg"/>

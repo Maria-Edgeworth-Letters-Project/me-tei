@@ -59,18 +59,12 @@
                   <collection>Manuscripts Division, Department of Special Collections</collection>
                   <idno>n82003163</idno>
                </msIdentifier>
-               
-               <!-- FROM LAURA: it's here (below) in the head that I added the full information about the author,
-                  and you could add full information about the addressee as well. -->
                <head>Letter from 
-                  <persName xml:id="ME" from="1768" to="1849">
+                  <persName ref="./Personography.xml#EdgeM1">
                      <forename>Maria</forename>
                      <surname>Edgeworth</surname>
-                     <date>1768-1849</date>
-                     <idno type="VIAF">71477273</idno>
-                     <idno type="SNAC">62567029</idno>
                   </persName>
-                  to <persName xml:id="RogeX1"> <abbr type="title">Mr.</abbr> Rogers</persName>, <placeName><!--Location where letter was sent--></placeName>, 
+                  to <persName ref="./Personography.xml#RogeX1"> <abbr type="title">Mr.</abbr> Rogers</persName>, <placeName><!--Location where letter was sent--></placeName>, 
                   <date>unknown</date>
                </head>
                <physDesc>
@@ -202,7 +196,7 @@
          <div type="letter">
             <pb n="1" facs="Edgeworth_Princeton_C1664_unknown_02_page01.jpg"/>
             <opener>
-               <salute> Dear <persName> <abbr type="title">Mr.</abbr> Rogers</persName>
+               <salute> Dear <persName ref="./Personography.xml#RogeX1"> <abbr type="title">Mr.</abbr> Rogers</persName>
                   <persName>
                   </persName>
                </salute>
@@ -219,7 +213,7 @@
                -mine</orig><reg>determine</reg></choice> whether they be such as are <choice><orig>deem<lb/>
                -ed</orig><reg>deemed</reg></choice> exclusively Irish consequently vulgar,<lb/>
                or whether though they may not be<lb/>
-               sanctioned by <persName>Johnson</persName> or <persName>Lowth</persName><lb/>
+                  sanctioned by <persName ref="./Personography.xml#JohnS1">Johnson</persName> or <persName ref="./Personography.xml#LowtR1">Lowth</persName><lb/>
                nor by any grammar nor any <choice><orig>diction<lb/>
                -ary </orig><reg>dictionary</reg></choice>they may be thought naturalized<lb/>
                in England by long use among well-<lb/>
@@ -273,7 +267,7 @@
                of reference. -<lb/></p>
             <p>The parties <del>it is to be understood</del> it is<lb/>
                to be observed did not get to such high<lb/>
-               words as did <persName xml:id="SibtC1"> <choice><orig>Col<hi rend = "superscript">l</hi></orig><reg> <roleName type="honorific" full="abb"> Col.</roleName></reg></choice>Sibthorpe</persName> &amp; the <persName xml:id="RussJ1"><roleName type ="honorific">Lord</roleName><lb/>
+               words as did <persName ref="./Personography.xml#SibtC1"> <choice><orig>Col<hi rend = "superscript">l</hi></orig><reg> <roleName type="honorific" full="abb"> Col.</roleName></reg></choice>Sibthorpe</persName> &amp; the <persName xml:id="RussJ1"><roleName type ="honorific">Lord</roleName><lb/>
                John Russell</persName> in a late debate in the<lb/>
                <placeName>House of Commons</placeName>. The objector did<lb/>
                not absolutely declare that the phrase<lb/>
@@ -298,14 +292,14 @@
                as well as writing the English language<lb/>
                they with perfect respect both equally<lb/>
                bow down --<lb/></p>
-            <p><persName>M<hi rend = "superscript">r</hi> Rogers</persName>' decision is impatiently<lb/>
+            <p><persName ref="./Personography.xml#RogeX1">M<hi rend = "superscript">r</hi> Rogers</persName>' decision is impatiently<lb/>
                though humbly awaited by the parties<lb/>
                who mean while refrain from touching<lb/>
                upon the question of bell ringing &amp; abstain<lb/>
                from the use of the word <hi rend = "underline">did</hi> altogether.<lb/></p>
             <closer>
                Signed by order for her Self &amp; company<lb/>
-               <persName>ME</persName><lb/>
+               <persName ref="./Personography.xml#EdgeM1">ME</persName><lb/>
             </closer>
             <postscript>
                <p>PS. When bickering hot<lb/>
@@ -321,7 +315,7 @@
                   sober certainty or existing only in<lb/>
                   the brain of those who are engaged in<lb/>
                   pushing about the forum --<lb/>
-                  <persName>M E</persName><lb/></p>
+                  <persName ref="./Personography.xml#EdgeM1">M E</persName><lb/></p>
             </postscript>
          </div>
       </body>
