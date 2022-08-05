@@ -50,7 +50,7 @@
                <licence>Distributed under a Creative Commons Attribution-ShareAlike 3.0 Unported
                   License</licence>
             </availability>
-            <idno><!--SendertoReceiverDate-->Edgeworth_Beinecke_330_1816_08_23</idno> 
+            <idno><!--SendertoReceiverDate-->Edgeworth_Beinecke_330_1816_08_23</idno>
          </publicationStmt>
          <seriesStmt>
             <title>Maria Edgeworth Letters Project</title>
@@ -65,23 +65,21 @@
                </msIdentifier>
                <head>Letter from 
                   <persName ref="./Personography.xml#BarbA1">
-                        <forename>Anna Laetitia</forename>
-                        <surname>Barbauld</surname>
-                     </persName>
+                     <forename>Anna Laetitia</forename>
+                     <surname>Barbauld</surname>
+                  </persName>
                   to <persName ref="./Personography.xml#EdgeM1"><!--Recipient Name-->
                      <forename>Maria</forename>
-                      <surname>Edgeworth</surname>
-                   </persName>, <placeName><!--Location where letter was sent--></placeName>, 
+                     <surname>Edgeworth</surname>
+                  </persName>, <placeName><!--Location where letter was sent--></placeName>, 
                   <date when="1816-08-23">August 23, 1816</date>
                </head>
                <physDesc>
                   <!-- optional physical description of the letter goes here: paper size and condition, seal, postmarks, etc.-->
                </physDesc>
             </msDesc>
-            
             <!-- FROM LAURA: where to put the following information in <bibl> is still a question: 
                ask TEI List whether it should be in the sourceDesc or elsewhere? -->
-            
             <bibl>In addition to our edited version, this letter was previously published in
                <!--complete bibiographical info if letter was published in a book here - if not delete-->
             </bibl>
@@ -97,101 +95,6 @@
                word is split at the end of a line and the beginning of the next in a manuscript. The
                long s and ligatured forms are silently emended.</p>
          </editorialDecl>
-         <classDecl>
-            <taxonomy xml:id="relators">
-               <bibl>Marc Relators</bibl>
-               <category xml:id="aut">
-                  <catDesc>Author</catDesc>
-               </category>
-            </taxonomy>
-            <taxonomy xml:id="lcsh">
-               <bibl>Subjects</bibl>
-               <category>
-                  <catDesc xml:id="AntislaveryMovements">Antislavery movements
-                     <idno type="loc">sh85123315</idno>
-                  </catDesc>
-                  <catDesc xml:id="Birth">Birth
-                     <idno type="loc">sh86004053</idno>
-                  </catDesc>
-                  <catDesc xml:id="Death">Death
-                     <idno type="loc">sh85036085</idno>
-                  </catDesc>
-                  <catDesc xml:id="Education">Education
-                     <idno type="loc">sh85040989</idno>
-                  </catDesc>
-                  <catDesc xml:id="Imperialism">Imperialism
-                     <idno type="loc">sh85064628</idno>
-                  </catDesc>
-                  <catDesc xml:id="FictitiousCharacters">Fictitious characters
-                     <idno type="loc">sh99004183</idno>
-                  </catDesc>
-                  <catDesc xml:id="Marriage">Marriage
-                     <idno type="loc">sh85081416</idno>
-                  </catDesc>
-                  <catDesc xml:id="Nationalism">Nationalism
-                     <idno type="loc">sh85090150</idno>
-                  </catDesc>
-                  <catDesc xml:id="PoliticsAndCulture">Politics and culture
-                     <idno type="loc">sh85104468</idno>
-                  </catDesc>
-                  <catDesc xml:id="Race">Race  
-                     <idno type="loc">sh85110232</idno>
-                  </catDesc>
-                  <catDesc xml:id="Religion">Religion
-                     <idno type="loc">sh85112549</idno>
-                  </catDesc>
-                  <catDesc xml:id="Science">Science
-                     <idno type="loc">sh85118553</idno>
-                  </catDesc>
-                  <catDesc xml:id="Technology">Technology
-                     <idno type="loc">sh85133147</idno>
-                  </catDesc>
-                  <catDesc xml:id="Slavery">Slavery
-                     <idno type="loc">sh85123314</idno>
-                  </catDesc>
-                  <catDesc xml:id="Travel">Travel
-                     <idno type="loc">sh85137149</idno>
-                  </catDesc>
-               </category>
-            </taxonomy>
-            <taxonomy xml:id="works">
-               <bibl>Works</bibl>
-               <category>
-                  <catDesc xml:id="w1">Belinda</catDesc>
-                  <catDesc xml:id="w2">Castle Rackrent</catDesc>
-                  <catDesc xml:id="w3">Comic Dramas, in Three Acts</catDesc>
-                  <catDesc xml:id="w4">Early Lessons</catDesc>
-                  <catDesc xml:id="w5">Essay on Irish Bulls</catDesc>
-                  <catDesc xml:id="w6">Frank: a Sequel to Frank in Early Lessons</catDesc>
-                  <catDesc xml:id="w7">Harrington, a Tale; and Ormond, a Tale</catDesc>
-                  <catDesc xml:id="w8">Harry and Lucy Concluded</catDesc>
-                  <catDesc xml:id="w9">Leonora</catDesc>
-                  <catDesc xml:id="w10">Letters for Literary Ladies</catDesc>
-                  <catDesc xml:id="w11">Moral Tales for Young People</catDesc>
-                  <catDesc xml:id="w12">Moral Tales</catDesc>
-                  <catDesc xml:id="w13">Patronage</catDesc>
-                  <catDesc xml:id="w14">Popular Tales</catDesc>
-                  <catDesc xml:id="w15">Practical Education</catDesc>
-                  <catDesc xml:id="w16">Readings on Poetry</catDesc>
-                  <catDesc xml:id="w17">Ormond</catDesc>
-                  <catDesc xml:id="w18">The Absentee</catDesc>
-                  <catDesc xml:id="w19">Tales of Fashionable Life</catDesc>
-                  <catDesc xml:id="w20">The Contrast</catDesc>
-                  <catDesc xml:id="w21">The Modern Griselda; a Tale</catDesc>
-                  <catDesc xml:id="w22">The Parent's Assistant</catDesc>
-                  <catDesc xml:id="w23">Tomorrow; or the Dangers of Delay</catDesc>
-               </category>
-            </taxonomy>
-            <taxonomy xml:id="places">
-               <bibl>Places</bibl>
-               <category>
-                  <catDesc xml:id="EdgeworthsTown">Edgeworths' Town<idno type="getty">tgn/1042937</idno></catDesc>
-                  <catDesc xml:id="Peterborough">Peterborough, UK<idno type="getty">tgn/7026520</idno></catDesc>
-                  <catDesc xml:id="CranfordI">Cranford, Ireland<idno type="getty">tgn/7901042</idno></catDesc>
-                  <catDesc xml:id="Kettering">Kettering, UK<idno type="getty">tgn/7010904</idno></catDesc>
-               </category>
-            </taxonomy> 
-         </classDecl>
       </encodingDesc>
       <profileDesc>
          <correspDesc>
@@ -202,16 +105,6 @@
                <persName ref="./Personography.xml#EdgeM1"><!--RECIPIENT NAME-->Maria Edgeworth</persName>
             </correspAction>
          </correspDesc>
-         <textClass>
-            <keywords scheme="">
-               <list type="simple">
-                  <item>English literature</item>
-                  <item>History</item>
-               </list>
-            </keywords>
-            <catRef target="#f7" scheme="#f"/>
-            <catRef target="#hist #el" scheme="locSUB"/>
-         </textClass>
       </profileDesc>
       <revisionDesc>
          <change when="2021-01-01" who="Id_who">
@@ -227,7 +120,7 @@
             <opener>
                <dateline><!--If there's no date line, omit this element. Record in the order in which it is written on the letter.-->
                   <placeName ref="http://vocab.getty.edu/tgn/7011788">Stoke Newington</placeName>
-                  <date when="1816-08-23"/>August 23<hi rend = "superscript">d</hi>. 1816</dateline>
+                  <date when="1816-08-23"/>August 23<hi rend="superscript">d</hi>. 1816</dateline>
                <salute>
                   <persName>
                      <!-- Use if letter has a saluation ("Dear Sir," for example). If not, delete this line.-->
@@ -240,18 +133,21 @@
                I am that I have neglected the advantage &amp; the honour of that<lb/>
                intercourse by letter which my heart all the while acknowledged in<lb/>
                its fullest extent. What an excellent &amp; what a cruel piece is your<lb/>
-               <title ref="https://www.wikidata.org/wiki/Q80225042"><hi rend ="underline">To Morrow</hi></title>! How you could enter so well into feelings which your<lb/>
+               <title ref="https://www.wikidata.org/wiki/Q80225042">
+                  <hi rend="underline">To Morrow</hi>
+               </title>! How you could enter so well into feelings which your<lb/>
                activity &amp; strength of mind must have hindered you from partaking<lb/>
                I cannot imagine, but to me it has given many a twinge of<lb/>
                conscience, &amp; most particularly in the affair of letter writing which, if<lb/>
                I have happenned to delay a little too long, always becomes difficult to me<lb/>
                beyond imagination. Days pass, &amp; the more honour &amp; esteem I have for my<lb/>
                correspondent, the more I feel that I have nothing worth communicating<lb/>
-               &amp; my brain feels dry, - "<hi rend = "underline">as the remaining biscuit</hi> -<lb/>
-               <hi rend = "underline">after a voyage</hi>". With regard to yourself, tho longing to write, I<lb/>
+               &amp; my brain feels dry, - "<hi rend="underline">as the remaining biscuit</hi> -<lb/>
+               <hi rend="underline">after a voyage</hi>". With regard to yourself, tho longing to write, I<lb/>
                doubt if I should have had the courage, but for a hint communi-<lb/>
                cated by <persName ref="./Personography.xml#BailJ1">M[superscript]rs[/superscript] Baillie</persName> intimating that I might have taken amiss not<lb/>
-               seeing more of you <add>when you were in <placeName ref="http://vocab.getty.edu/tgn/7011781">London</placeName></add>. Oh my dear <persName ref="./Personography.xml#EdgeM1">Miss Edgeworth</persName>, I cannot<lb/>
+               seeing more of you <add>when you were in <placeName ref="http://vocab.getty.edu/tgn/7011781">London</placeName>
+               </add>. Oh my dear <persName ref="./Personography.xml#EdgeM1">Miss Edgeworth</persName>, I cannot<lb/>
                bear you should think so for a moment. Much as I value<lb/>
                your<lb/>
                <pb n="2" facs="Edgeworth_Beinecke_330_1816_08_23_page02.jpg"/>
@@ -263,12 +159,14 @@
                as having received them from your hands. Long may you continue<lb/>
                to delight the world with livelier wit &amp; humour than those who write<lb/>
                merely for amusement, &amp; with juster &amp; more impressive sentiments of<lb/>
-               morality than most of those who write merely for instruction -<lb/></p>
-               <p>
+               morality than most of those who write merely for instruction -<lb/>
+            </p>
+            <p>
                I should ask you if could resist the general spirit of migration &amp; stay<lb/>
                   at home when <placeName ref="http://vocab.getty.edu/tgn/7002445">England</placeName> is pouring itself over the continent, if I did<lb/>
-                  not hear, &amp; very sorry I am to hear it, that <persName ref="./Personography.xml#EdgeR1">M<hi rend = "superscript">r</hi>Edgeworth's</persName> state of health<lb/>
-                  is such as must prevent your leaving him. I tremble to think what <unclear>tours</unclear><lb/>
+                  not hear, &amp; very sorry I am to hear it, that <persName ref="./Personography.xml#EdgeR1">M<hi rend="superscript">r</hi>Edgeworth's</persName> state of health<lb/>
+                  is such as must prevent your leaving him. I tremble to think what <unclear>tours</unclear>
+               <lb/>
                must be preparing for the press, what sweeping characters of nations will be<lb/>
                given by the traveller who has dined two or three times at a table d'hôte,<lb/>
                   &amp; how after we shall be sick between <placeName ref="http://vocab.getty.edu/tgn/7011554">Dover</placeName> &amp; <placeName ref="http://vocab.getty.edu/tgn/7009002">Calais</placeName> - I am wishing to<lb/>
@@ -286,28 +184,46 @@
                   dreainess of a solitary house. Writing <del>any</del> any thing I have not<lb/>
                   felt equal to, &amp; reading has at times been a task to me, but at present<lb/>
                   I feel better. Everyone here has not been so idle, Perhaps you have<lb/>
-                  seen my <persName ref="./Personography.xml#AikiJ1">Brother's</persName> <title><hi rend = "underline">Annals</hi></title> &amp; tho necessarily somewhat dry from the<lb/>
+                  seen my <persName ref="./Personography.xml#AikiJ1">Brother's</persName>
+               <title>
+                  <hi rend="underline">Annals</hi>
+               </title> &amp; tho necessarily somewhat dry from the<lb/>
                   necessary compression of such an eventful period, I think you will have<lb/>
                   been pleased with the fairness &amp; impartiality with which they are<lb/>
-                  written.<unclear></unclear> My neice, <persName ref="./Personography.xml#AikiL1">Miss Aikin</persName>, has made some progress in <unclear></unclear><lb/>
-                  <title ref="https://www.wikidata.org/wiki/Q80224914"><hi rend = "underline">Memoirs of the reign of Elizabeth</hi></title>. She is taking great <unclear>pains with</unclear><lb/>
+                  written.<unclear/> My neice, <persName ref="./Personography.xml#AikiL1">Miss Aikin</persName>, has made some progress in <unclear/>
+               <lb/>
+               <title ref="https://www.wikidata.org/wiki/Q80224914">
+                  <hi rend="underline">Memoirs of the reign of Elizabeth</hi>
+               </title>. She is taking great <unclear>pains with</unclear>
+               <lb/>
                   it &amp; I hope it will answer her expectation &amp; her friends' - We are<lb/>
-                  expecting every day another Canto of <hi rend = "underline"><title ref="https://www.wikidata.org/wiki/Q1072741">Child Harold</title></hi>, but I apprehend the<lb/>
-                  <persName ref="./Personography.xml#ByroG1">Author</persName> has lost too much of the public favour by his late cruel behaviour to<lb/>
-                  <persName ref="./Personography.xml#ByroA1">his wife</persName> to be as popular as he has been. I have now upon my table the<lb/>
-                  strangest Poem - <persName ref="./Personography.xml#WilsJ1">Wilson's</persName> <hi rend = "underline"><title ref="https://www.loc.gov/item/29024281/">City of the Plague</title></hi>, a heap of horrors natural &amp;<lb/>
-                  moral - and <hi rend = "underline"><persName ref="./Personography.xml#HuntL1">Lee Hunt's</persName> <title ref="https://www.wikidata.org/wiki/Q7766791">Rimini</title></hi>, the most fantastic. Thus it is when<lb/>
+                  expecting every day another Canto of <hi rend="underline">
+                  <title ref="https://www.wikidata.org/wiki/Q1072741">Child Harold</title>
+               </hi>, but I apprehend the<lb/>
+               <persName ref="./Personography.xml#ByroG1">Author</persName> has lost too much of the public favour by his late cruel behaviour to<lb/>
+               <persName ref="./Personography.xml#ByroA1">his wife</persName> to be as popular as he has been. I have now upon my table the<lb/>
+                  strangest Poem - <persName ref="./Personography.xml#WilsJ1">Wilson's</persName>
+               <hi rend="underline">
+                  <title ref="https://www.loc.gov/item/29024281/">City of the Plague</title>
+               </hi>, a heap of horrors natural &amp;<lb/>
+                  moral - and <hi rend="underline">
+                  <persName ref="./Personography.xml#HuntL1">Lee Hunt's</persName>
+                  <title ref="https://www.wikidata.org/wiki/Q7766791">Rimini</title>
+               </hi>, the most fantastic. Thus it is when<lb/>
                   the natural &amp; easy has become a beaten path &amp; the intellectual taste<lb/>
                   wants excitement, as the sensitive by more pungent relishes the originally<lb/>
                   disagreeable - My dear Madam have I not tired you? Will<lb/>
                   you forgive me? Will you love me, little as I may deserve it<lb/>
-                  will<lb/> 
-                  <pb n="4" facs="Edgeworth_Beinecke_330_1816_08_23_page04.jpg"/>
-                  Will you convey my respectful Compliments to <persName ref="./Personography.xml#EdgeR1">M<hi rend = "superscript">r</hi></persName> &amp; <persName ref="./Personography.xml#EdgeF2">M<hi rend = "superscript">rs</hi> Edgeworth</persName><lb/>
+                  will<lb/>
+               <pb n="4" facs="Edgeworth_Beinecke_330_1816_08_23_page04.jpg"/>
+                  Will you convey my respectful Compliments to <persName ref="./Personography.xml#EdgeR1">M<hi rend="superscript">r</hi>
+               </persName> &amp; <persName ref="./Personography.xml#EdgeF2">M<hi rend="superscript">rs</hi> Edgeworth</persName>
+               <lb/>
                   &amp; best wishes for all your family, &amp; will you believe me with<lb/>
                   the highest esteem &amp; most affectionate good wishes,<lb/>
                   I beg you to believe that I have written this<lb/>
-                  upon the <hi rend = "underline">knees</hi> of my <hi rend = "underline">heart</hi><lb/>
+                  upon the <hi rend="underline">knees</hi> of my <hi rend="underline">heart</hi>
+               <lb/>
             </p>
             <closer>
                <!--include linebreaks, if used. example: <closer> Yours<lb/> Very sincerely<lb/> -->
@@ -324,9 +240,12 @@
             <closer><!--Use the <closer> element again to hold Address Leaf information.-->
                <address>
                   <!--Include any text written on the address leaf; use a separate "addrLine" for each line and indicate line breaks. -->
-                  <addrLine/><persName ref="./Personography.xml#EdgeM">Miss Edgeworth</persName>
-                  <addrLine/><placeName ref="http://vocab.getty.edu/tgn/1042937">Edgeworth Town</placeName>
-                  <addrLine/><placeName ref="http://vocab.getty.edu/tgn/7001181">Ireland</placeName>
+                  <addrLine/>
+                  <persName ref="./Personography.xml#EdgeM">Miss Edgeworth</persName>
+                  <addrLine/>
+                  <placeName ref="http://vocab.getty.edu/tgn/1042937">Edgeworth Town</placeName>
+                  <addrLine/>
+                  <placeName ref="http://vocab.getty.edu/tgn/7001181">Ireland</placeName>
                </address>
             </closer>
          </div>

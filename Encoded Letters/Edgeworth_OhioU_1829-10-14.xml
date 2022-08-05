@@ -7,17 +7,11 @@
       <fileDesc>
          <titleStmt>
             <!-- The next 6 lines are the title statement.-->
-            
-            
             <title>Letter to Thomas Singleton, October 14, 1829</title>
             <author>Maria Edgeworth</author>
-            
             <!--FROM LAURA: I have stripped the above of tags. The titleStmt here refers to the digital edition.
                I recommend putting all the author info. only in one place, in sourceDesc/msDesc as below, which
                I realized works best after our meeting -->
-            
-            
-            
             <editor ref="Id_who">
                Hilary Havens
             </editor>
@@ -36,9 +30,7 @@
                <!-- If you're the last person interacting with the file, enter your name last on the list -->
             </respStmt>
          </titleStmt>
-         
          <!-- FROM LAURA: I changed the editionStmt below to make it validate -->
-         
          <editionStmt>
             <edition>First digital edition in TEI, date: <date when="2022-07-14">
                   <!--enter the date on which the first coder created and saved this XML file in google drive-->
@@ -55,8 +47,6 @@
                </resp>
             </respStmt>
          </editionStmt>
-         
-         
          <publicationStmt>
             <authority>Maria Edgeworth Letters Project</authority>
             <date>2013</date>
@@ -68,18 +58,12 @@
                <licence>Distributed under a Creative Commons Attribution-ShareAlike 3.0 Unported
                   License</licence>
             </availability>
-            
-            <idno>Edgeworth_OhioU_1829-10-14</idno> 
-            
-            
+            <idno>Edgeworth_OhioU_1829-10-14</idno>
             <!--FROM LAURA: I moved this identifcation of the TEI document itself, the digital surrogate,
                out of the title statement to the publicationStmt.
                
                It is helpful if this id is the same as the filename. So this current document would be saved
                as MEtoMordecai1816.xml, and the web page will be MEtoMordecai1816.html -->
-               
-            
-            
          </publicationStmt>
          <seriesStmt>
             <title>Maria Edgeworth Letters Project</title>
@@ -97,12 +81,12 @@
                </msIdentifier>
                <head>Letter from 
                   <persName ref="./Personography.xml#EdgeM1">
-                        <forename>Maria</forename>
-                        <surname>Edgeworth</surname>
-                     </persName> to                   
+                     <forename>Maria</forename>
+                     <surname>Edgeworth</surname>
+                  </persName> to                   
                   <persName ref="./Personography.xml#SingT1">
-                        <forename>Thomas</forename>
-                        <surname>Singleton</surname>
+                     <forename>Thomas</forename>
+                     <surname>Singleton</surname>
                   </persName>
                   <placeName>Edgeworthstown,
                      Ireland</placeName>, 
@@ -112,14 +96,11 @@
                   <!-- optional physical description of the letter goes here: paper size and condition, seal, postmarks, etc.-->
                </physDesc>
             </msDesc>
-            
             <!-- FROM LAURA: where to put the following information in <bibl> is still a question: 
                ask TEI List whether it should be in the sourceDesc or elsewhere? -->
-            
             <bibl>In addition to our edited version, this letter was previously published in
                <!--complete bibiographical info if letter was published in a book here-->
             </bibl>
-            
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
@@ -132,111 +113,7 @@
                word is split at the end of a line and the beginning of the next in a manuscript. The
                long s and ligatured forms are silently emended.</p>
          </editorialDecl>
-         
          <!-- Meredith's additions for classifying this document -->
-         
-         <classDecl>
-            <taxonomy xml:id="relators">
-               <bibl>Marc Relators</bibl>
-               <category xml:id="aut">
-                  <catDesc>Author</catDesc>
-               </category>
-            </taxonomy>
-            <taxonomy xml:id="lcsh">
-               <bibl>Subjects</bibl>
-               <category>
-                  <catDesc xml:id="AntislaveryMovements">Antislavery movements
-                     <idno type="loc">sh85123315</idno>
-                  </catDesc>
-                  <catDesc xml:id="Birth">Birth
-                     <idno type="loc">sh86004053</idno>
-                  </catDesc>
-                  <catDesc xml:id="Death">Death
-                     <idno type="loc">sh85036085</idno>
-                  </catDesc>
-                  <catDesc xml:id="Education">Education
-                     <idno type="loc">sh85040989</idno>
-                  </catDesc>
-                  <catDesc xml:id="Imperialism">Imperialism
-                     <idno type="loc">sh85064628</idno>
-                  </catDesc>
-                  <catDesc xml:id="FictitiousCharacters">Fictitious characters
-                     <idno type="loc">sh99004183</idno>
-                  </catDesc>
-                  <catDesc xml:id="Marriage">Marriage
-                     <idno type="loc">sh85081416</idno>
-                  </catDesc>
-                  <catDesc xml:id="Nationalism">Nationalism
-                     <idno type="loc">sh85090150</idno>
-                  </catDesc>
-                  <catDesc xml:id="PoliticsAndCulture">Politics and culture
-                     <idno type="loc">sh85104468</idno>
-                  </catDesc>
-                  <catDesc xml:id="Race">Race  
-                     <idno type="loc">sh85110232</idno>
-                  </catDesc>
-                  <catDesc xml:id="Religion">Religion
-                     <idno type="loc">sh85112549</idno>
-                  </catDesc>
-                  <catDesc xml:id="Science">Science
-                     <idno type="loc">sh85118553</idno>
-                  </catDesc>
-                  <catDesc xml:id="Technology">Technology
-                     <idno type="loc">sh85133147</idno>
-                  </catDesc>
-                  <catDesc xml:id="Slavery">Slavery
-                     <idno type="loc">sh85123314</idno>
-                  </catDesc>
-                  <catDesc xml:id="Travel">Travel
-                     <idno type="loc">sh85137149</idno>
-                  </catDesc>
-               </category>
-            </taxonomy>
-            <taxonomy xml:id="works">
-               <bibl>Works</bibl>
-               <category>
-                  <catDesc xml:id="w1">Belinda</catDesc>
-                  <catDesc xml:id="w2">Castle Rackrent</catDesc>
-                  <catDesc xml:id="w3">Comic Dramas, in Three Acts</catDesc>
-                  <catDesc xml:id="w4">Early Lessons</catDesc>
-                  <catDesc xml:id="w5">Essay on Irish Bulls</catDesc>
-                  <catDesc xml:id="w6">Frank: a Sequel to Frank in Early Lessons</catDesc>
-                  <catDesc xml:id="w7">Harrington, a Tale; and Ormond, a Tale</catDesc>
-                  <catDesc xml:id="w8">Harry and Lucy Concluded</catDesc>
-                  <catDesc xml:id="w9">Leonora</catDesc>
-                  <catDesc xml:id="w10">Letters for Literary Ladies</catDesc>
-                  <catDesc xml:id="w11">Moral Tales for Young People</catDesc>
-                  <catDesc xml:id="w12">Moral Tales</catDesc>
-                  <catDesc xml:id="w13">Patronage</catDesc>
-                  <catDesc xml:id="w14">Popular Tales</catDesc>
-                  <catDesc xml:id="w15">Practical Education</catDesc>
-                  <catDesc xml:id="w16">Readings on Poetry</catDesc>
-                  <catDesc xml:id="w17">Ormond</catDesc>
-                  <catDesc xml:id="w18">The Absentee</catDesc>
-                  <catDesc xml:id="w19">Tales of Fashionable Life</catDesc>
-                  <catDesc xml:id="w20">The Contrast</catDesc>
-                  <catDesc xml:id="w21">The Modern Griselda; a Tale</catDesc>
-                  <catDesc xml:id="w22">The Parent's Assistant</catDesc>
-                  <catDesc xml:id="w23">Tomorrow; or the Dangers of Delay</catDesc>
-               </category>
-            </taxonomy>
-            <taxonomy xml:id="places">
-               <bibl>Places</bibl>
-               <category>
-                  <catDesc xml:id="EdgeworthsTown">Edgeworths' Town<idno type="getty">tgn/1042937</idno></catDesc>
-                  <catDesc xml:id="Peterborough">Peterborough, UK<idno type="getty">tgn/7026520</idno></catDesc>
-                  <catDesc xml:id="CranfordI">Cranford, Ireland<idno type="getty">tgn/7901042</idno></catDesc>
-                  <catDesc xml:id="Kettering">Kettering, UK<idno type="getty">tgn/7010904</idno></catDesc>
-               </category>
-            </taxonomy>
-            <taxonomy xml:id="period">
-               <bibl>Period</bibl>
-               <category>
-                  <catDesc>xx</catDesc>
-               </category>
-            </taxonomy>
-         </classDecl>
-         
       </encodingDesc>
       <profileDesc>
          <correspDesc>
@@ -247,17 +124,6 @@
                <persName ref="./Personography.xml#SingT1">Thomas Singleton</persName>
             </correspAction>
          </correspDesc>
-         
-         <textClass>
-            <keywords scheme="">
-               <list type="simple">
-                  <item>English literature</item>
-                  <item>History</item>
-               </list>
-            </keywords>
-            <catRef target="#f7" scheme="#f"/>
-            <catRef target="#hist #el" scheme="locSUB"/>
-         </textClass>
       </profileDesc>
       <revisionDesc>
          <change when="2021-01-01" who="Id_who">
@@ -269,25 +135,43 @@
       <body>
          <div type="letter">
             <pb n="1" facs="Edgeworth_OhioU_1829-10-14_page01.jpg"/>
-            <p><note place = "bottom"><persName ref="./Personography.xml#EdgeM1">Miss Edgeworth</persName><lb/>
-            <hi rend="underline">Autograph</hi></note><lb/>
-               <persName ref="./Personography.xml#SingT1"><roleName>Archdeacon</roleName> Singleton</persName><lb/></p>
-            <pb n="2" facs="Edgeworth_OhioU_1829-10-14_page02.jpg"/> 
+            <p>
+               <note place="bottom">
+                  <persName ref="./Personography.xml#EdgeM1">Miss Edgeworth</persName>
+                  <lb/>
+                  <hi rend="underline">Autograph</hi>
+               </note>
+               <lb/>
+               <persName ref="./Personography.xml#SingT1">
+                  <roleName>Archdeacon</roleName> Singleton</persName>
+               <lb/>
+            </p>
+            <pb n="2" facs="Edgeworth_OhioU_1829-10-14_page02.jpg"/>
             <p><!-- Begin transcibing the body of the letter here. -->
                <persName ref="./Personography.xml#EdgeM1">Miss Edgeworth</persName> is afraid she<lb/>
                is trespassing too frequently<lb/>
-               upon <persName ref="./Personography.xml#SingT1"><roleName>Archdeacon</roleName> Singleton</persName><unclear>'s</unclear><lb/>
+               upon <persName ref="./Personography.xml#SingT1">
+                  <roleName>Archdeacon</roleName> Singleton</persName>
+               <unclear>'s</unclear>
+               <lb/>
                politeness and most obliging<lb/>
                offer to frank packets for<lb/>
-               her - The Enclosed is a <choice><orig>mat<lb/>
-               ter</orig><reg>matter</reg></choice> of business of some <choice><orig>conse-<lb/>
-               quence</orig><reg>consequence</reg></choice> &amp; she ventures to<lb/>
+               her - The Enclosed is a <choice>
+                  <orig>mat<lb/>
+               ter</orig>
+                  <reg>matter</reg>
+               </choice> of business of some <choice>
+                  <orig>conse-<lb/>
+               quence</orig>
+                  <reg>consequence</reg>
+               </choice> &amp; she ventures to<lb/>
                beg he will have the goodness<lb/>
                to forward it and not to be<lb/>
                quite out of patience with her<lb/>
             </p>
             <closer>
-               <placeName ref="http://vocab.getty.edu/tgn/1042937">Edgeworths Town</placeName><lb/>
+               <placeName ref="http://vocab.getty.edu/tgn/1042937">Edgeworths Town</placeName>
+               <lb/>
                <dateline><!--If there's no date line, omit this element. Record in the order in which it is written on the letter.-->
                   <name type="place" ref="Id_where"/>
                   <date when="1816-08-04"/>Oct 14<hi rend="superscript">th</hi>. 1829 </dateline>

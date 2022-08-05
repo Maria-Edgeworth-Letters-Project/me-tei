@@ -7,17 +7,11 @@
       <fileDesc>
          <titleStmt>
             <!-- The next 6 lines are the title statement.-->
-
-
             <title>Letter to Elizabeth Inchbald, May 17, 1817</title>
             <author>Maria Edgeworth</author>
-
             <!--FROM LAURA: I have stripped the above of tags. The titleStmt here refers to the digital edition.
                I recommend putting all the author info. only in one place, in sourceDesc/msDesc as below, which
                I realized works best after our meeting -->
-
-
-
             <editor ref="Id_who"> Hilary Havens
                <!--Editor on the Maria Edgeworth Letters Project overseeing the coding of this particular letter: First Name Last Name -->
             </editor>
@@ -36,9 +30,7 @@
                <!-- If you're the last person interacting with the file, enter your name last on the list -->
             </respStmt>
          </titleStmt>
-
          <!-- FROM LAURA: I changed the editionStmt below to make it validate -->
-
          <editionStmt>
             <edition>First digital edition in TEI, date: <date when="2021-01-20">
                   <!--enter the date on which the first coder created and saved this XML file in google drive-->
@@ -53,8 +45,6 @@
                </resp>
             </respStmt>
          </editionStmt>
-
-
          <publicationStmt>
             <authority>Maria Edgeworth Letters Project</authority>
             <date>2013</date>
@@ -65,18 +55,12 @@
                <licence>Distributed under a Creative Commons Attribution-ShareAlike 3.0 Unported
                   License</licence>
             </availability>
-
             <idno>Edgeworth_Beinecke_330_1817_05_17</idno>
-
-
             <!--FROM LAURA: I moved this identifcation of the TEI document itself, the digital surrogate,
                out of the title statement to the publicationStmt.
                
                It is helpful if this id is the same as the filename. So this current document would be saved
                as MEtoMordecai1816.xml, and the web page will be MEtoMordecai1816.html -->
-
-
-
          </publicationStmt>
          <seriesStmt>
             <title>Maria Edgeworth Letters Project</title>
@@ -96,7 +80,7 @@
                <head>Letter from <persName ref="./Personography.xml#EdgeM1">
                      <forename>Maria</forename>
                      <surname>Edgeworth</surname>
-               </persName> to <persName ref="./Personography.xml#InchE1">
+                  </persName> to <persName ref="./Personography.xml#InchE1">
                      <forename>Elizabeth</forename>
                      <surname>Inchbald</surname>
                   </persName>
@@ -107,15 +91,11 @@
                   <!-- optional physical description of the letter goes here: paper size and condition, seal, postmarks, etc.-->
                </physDesc>
             </msDesc>
-
             <!-- FROM LAURA: where to put the following information in <bibl> is still a question: 
                ask TEI List whether it should be in the sourceDesc or elsewhere? -->
-
-            <bibl>In addition to our edited version, this letter was previously published in <hi
-                  rend="italic">A Study of Maria Edgeworth: With Notices of Her Father and
+            <bibl>In addition to our edited version, this letter was previously published in <hi rend="italic">A Study of Maria Edgeworth: With Notices of Her Father and
                   Friends</hi>, ed. Grace Atkinson Oliver (Boston: A. Williams and Company, 1882),
                pp. 309-10. </bibl>
-
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
@@ -128,103 +108,7 @@
                word is split at the end of a line and the beginning of the next in a manuscript. The
                long s and ligatured forms are silently emended.</p>
          </editorialDecl>
-
          <!-- Meredith's additions for classifying this document -->
-
-         <classDecl>
-            <taxonomy xml:id="relators">
-               <bibl>Marc Relators</bibl>
-               <category xml:id="aut">
-                  <catDesc>Author</catDesc>
-               </category>
-            </taxonomy>
-            <taxonomy xml:id="lcsh">
-               <bibl>Subjects</bibl>
-               <category>
-                  <catDesc xml:id="AntislaveryMovements">Antislavery movements <idno type="loc"
-                        >sh85123315</idno>
-                  </catDesc>
-                  <catDesc xml:id="Birth">Birth <idno type="loc">sh86004053</idno>
-                  </catDesc>
-                  <catDesc xml:id="Death">Death <idno type="loc">sh85036085</idno>
-                  </catDesc>
-                  <catDesc xml:id="Education">Education <idno type="loc">sh85040989</idno>
-                  </catDesc>
-                  <catDesc xml:id="Imperialism">Imperialism <idno type="loc">sh85064628</idno>
-                  </catDesc>
-                  <catDesc xml:id="FictitiousCharacters">Fictitious characters <idno type="loc"
-                        >sh99004183</idno>
-                  </catDesc>
-                  <catDesc xml:id="Marriage">Marriage <idno type="loc">sh85081416</idno>
-                  </catDesc>
-                  <catDesc xml:id="Nationalism">Nationalism <idno type="loc">sh85090150</idno>
-                  </catDesc>
-                  <catDesc xml:id="PoliticsAndCulture">Politics and culture <idno type="loc"
-                        >sh85104468</idno>
-                  </catDesc>
-                  <catDesc xml:id="Race">Race <idno type="loc">sh85110232</idno>
-                  </catDesc>
-                  <catDesc xml:id="Religion">Religion <idno type="loc">sh85112549</idno>
-                  </catDesc>
-                  <catDesc xml:id="Science">Science <idno type="loc">sh85118553</idno>
-                  </catDesc>
-                  <catDesc xml:id="Technology">Technology <idno type="loc">sh85133147</idno>
-                  </catDesc>
-                  <catDesc xml:id="Slavery">Slavery <idno type="loc">sh85123314</idno>
-                  </catDesc>
-                  <catDesc xml:id="Travel">Travel <idno type="loc">sh85137149</idno>
-                  </catDesc>
-               </category>
-            </taxonomy>
-            <taxonomy xml:id="works">
-               <bibl>Works</bibl>
-               <category>
-                  <catDesc xml:id="w1">Belinda</catDesc>
-                  <catDesc xml:id="w2">Castle Rackrent</catDesc>
-                  <catDesc xml:id="w3">Comic Dramas, in Three Acts</catDesc>
-                  <catDesc xml:id="w4">Early Lessons</catDesc>
-                  <catDesc xml:id="w5">Essay on Irish Bulls</catDesc>
-                  <catDesc xml:id="w6">Frank: a Sequel to Frank in Early Lessons</catDesc>
-                  <catDesc xml:id="w7">Harrington, a Tale; and Ormond, a Tale</catDesc>
-                  <catDesc xml:id="w8">Harry and Lucy Concluded</catDesc>
-                  <catDesc xml:id="w9">Leonora</catDesc>
-                  <catDesc xml:id="w10">Letters for Literary Ladies</catDesc>
-                  <catDesc xml:id="w11">Moral Tales for Young People</catDesc>
-                  <catDesc xml:id="w12">Moral Tales</catDesc>
-                  <catDesc xml:id="w13">Patronage</catDesc>
-                  <catDesc xml:id="w14">Popular Tales</catDesc>
-                  <catDesc xml:id="w15">Practical Education</catDesc>
-                  <catDesc xml:id="w16">Readings on Poetry</catDesc>
-                  <catDesc xml:id="w17">Ormond</catDesc>
-                  <catDesc xml:id="w18">The Absentee</catDesc>
-                  <catDesc xml:id="w19">Tales of Fashionable Life</catDesc>
-                  <catDesc xml:id="w20">The Contrast</catDesc>
-                  <catDesc xml:id="w21">The Modern Griselda; a Tale</catDesc>
-                  <catDesc xml:id="w22">The Parent's Assistant</catDesc>
-                  <catDesc xml:id="w23">Tomorrow; or the Dangers of Delay</catDesc>
-               </category>
-            </taxonomy>
-            <taxonomy xml:id="places">
-               <bibl>Places</bibl>
-               <category>
-                  <catDesc xml:id="EdgeworthsTown">Edgeworths' Town<idno type="getty"
-                        >tgn/1042937</idno></catDesc>
-                  <catDesc xml:id="Peterborough">Peterborough, UK<idno type="getty"
-                        >tgn/7026520</idno></catDesc>
-                  <catDesc xml:id="CranfordI">Cranford, Ireland<idno type="getty"
-                     >tgn/7901042</idno></catDesc>
-                  <catDesc xml:id="Kettering">Kettering, UK<idno type="getty"
-                     >tgn/7010904</idno></catDesc>
-               </category>
-            </taxonomy>
-            <taxonomy xml:id="period">
-               <bibl>Period</bibl>
-               <category>
-                  <catDesc>xx</catDesc>
-               </category>
-            </taxonomy>
-         </classDecl>
-
       </encodingDesc>
       <profileDesc>
          <correspDesc>
@@ -235,17 +119,6 @@
                <persName ref="./Personography.xml#InchE1">Elizabeth Inchbald</persName>
             </correspAction>
          </correspDesc>
-
-         <textClass>
-            <keywords scheme="">
-               <list type="simple">
-                  <item>English literature</item>
-                  <item>History</item>
-               </list>
-            </keywords>
-            <catRef target="#f7" scheme="#f"/>
-            <catRef target="#hist #el" scheme="locSUB"/>
-         </textClass>
       </profileDesc>
       <revisionDesc>
          <change when="2022-07-17" who="Hilary_Havens">
@@ -260,15 +133,21 @@
             <!--filenames for photos associated with this letter. Example: <pb n="1" facs="image1.jpg image2.jpg image3.jpg"/> -->
             <opener>
                <dateline><!--If there's no date line, omit this element. Record in the order in which it is written on the letter.-->
-                  <placeName ref="http://vocab.getty.edu/tgn/1042937"><choice>
+                  <placeName ref="http://vocab.getty.edu/tgn/1042937">
+                     <choice>
                         <orig>Edgeworth's Town</orig>
                         <reg>Edgeworthstown</reg>
-                     </choice></placeName>
+                     </choice>
+                  </placeName>
                   <date when="1817-05-17"/>May 17<hi rend="superscript">th</hi>. 1817. </dateline>
                <salute>
                      <!-- Use if letter has a saluation ("Dear Sir," for example). If not, delete this line.-->
-                  My dear <persName ref="./Personography.xml#InchE1"><choice><orig>M<hi rend="superscript">rs</hi>. Inchbald</orig>
-                     <reg>Elizabeth Inchbald</reg></choice></persName>- 
+                  My dear <persName ref="./Personography.xml#InchE1">
+                     <choice>
+                        <orig>M<hi rend="superscript">rs</hi>. Inchbald</orig>
+                        <reg>Elizabeth Inchbald</reg>
+                     </choice>
+                  </persName>- 
                </salute>
             </opener>
             <p>I am really anxious to<lb/> hear your opinion of my<lb/> little <title ref="https://www.wikidata.org/wiki/Q78219472">Comic
@@ -276,30 +155,43 @@
                world who <hi rend="underline">can</hi> form a <choice>
                   <orig>de-<lb/> cided</orig>
                   <reg>decided</reg>
-               </choice> opinion &amp; who <hi rend="underline">will</hi><lb/> have the courage to
-               tell the truth to an author. –<lb/></p>
+               </choice> opinion &amp; who <hi rend="underline">will</hi>
+               <lb/> have the courage to
+               tell the truth to an author. –<lb/>
+            </p>
             <p>Let me request then my<lb/> dear madam that <del>you<lb/> will</del> as soon as
-               you<lb/> have read these dramatic <hi rend="underline">attempts</hi><lb/> you will
+               you<lb/> have read these dramatic <hi rend="underline">attempts</hi>
+               <lb/> you will
                write to me–<lb/> One of your truly original<lb/> &amp; entertaining letters
-               will<lb/> gratify us independently<lb/> of all selfish considerations.<lb/></p>
-            <p><persName ref="./Personography.xml#EdgeR1"><choice>
-                  <orig>My fathers</orig>
-                  <reg>Richard Lovell Edgeworth's</reg>
-            </choice></persName> health continues<lb/> to be very precarious – His <choice>
+               will<lb/> gratify us independently<lb/> of all selfish considerations.<lb/>
+            </p>
+            <p>
+               <persName ref="./Personography.xml#EdgeR1">
+                  <choice>
+                     <orig>My fathers</orig>
+                     <reg>Richard Lovell Edgeworth's</reg>
+                  </choice>
+               </persName> health continues<lb/> to be very precarious – His <choice>
                   <orig>plea- sures</orig>
                   <reg>pleasures</reg>
-               </choice> all now depend on his<lb/></p>
+               </choice> all now depend on his<lb/>
+            </p>
             <pb n="2" facs="Edgeworth_Beinecke_330_1817_05_17_page02.jpg"/>
             <p>taste for literature and on<lb/> the affection of his friends –<lb/> He is fortunate
                in having<lb/> excellent correspondents<lb/> among the wisest and best people now
-               living<lb/></p>
-            <p>You will not consider it<lb/> as an idle or a <hi rend="underline"
-               >propitiatory</hi><lb/> compliment if I assure you<lb/> that he is now more
-               anxious<lb/> for a letter from <persName ref="./Personography.xml#InchE1"><choice>
+               living<lb/>
+            </p>
+            <p>You will not consider it<lb/> as an idle or a <hi rend="underline">propitiatory</hi>
+               <lb/> compliment if I assure you<lb/> that he is now more
+               anxious<lb/> for a letter from <persName ref="./Personography.xml#InchE1">
+                  <choice>
                      <orig>M<hi rend="superscript">rs</hi>. Inchbald</orig>
                      <reg>Elizabeth Inchbald</reg>
-                  </choice></persName><lb/> 
-               than from any person in <placeName ref="http://vocab.getty.edu/tgn/7002445">England</placeName>.<lb/></p>
+                  </choice>
+               </persName>
+               <lb/> 
+               than from any person in <placeName ref="http://vocab.getty.edu/tgn/7002445">England</placeName>.<lb/>
+            </p>
             <closer>
                <!--include linebreaks, if used. example: <closer> Yours<lb/> Very sincerely<lb/> -->
                <!-- FROM LAURA: you can put the role attribute into name or persName tags In the first instance, 
@@ -317,7 +209,6 @@
             <!-- Format for postscripts. 
                Postscripts do NOT go inside closer tags. Adjust to take into account the order in your letter. 
                Sometimes the signature is on page three, the address on page four, then the postscript follows back on the top of page one, for example.-->
-
          </div>
       </body>
       <back> </back>

@@ -55,7 +55,7 @@
                <licence>Distributed under a Creative Commons Attribution-ShareAlike 3.0 Unported
                   License</licence>
             </availability>
-            <idno><!--SendertoReceiverDate-->Edgeworth_Rosenbach_1826-09-29</idno> 
+            <idno><!--SendertoReceiverDate-->Edgeworth_Rosenbach_1826-09-29</idno>
          </publicationStmt>
          <seriesStmt>
             <title>Maria Edgeworth Letters Project</title>
@@ -70,9 +70,9 @@
                </msIdentifier>
                <head>Letter from 
                   <persName ref="./Personography.xml#EdgeM1">
-                        <forename>Maria</forename>
-                        <surname>Edgeworth</surname>
-                     </persName>
+                     <forename>Maria</forename>
+                     <surname>Edgeworth</surname>
+                  </persName>
                   to <persName ref="./Personography.xml#CareM1"><!--Recipient Name-->Mathew Carey</persName>, <placeName ref="http://vocab.getty.edu/tgn/7014406"><!--Location where letter was sent-->Philadelphia, PA</placeName>, 
                   <date when="1826-09-29">M1826-09-29</date>
                </head>
@@ -80,10 +80,8 @@
                   <!-- optional physical description of the letter goes here: paper size and condition, seal, postmarks, etc.-->
                </physDesc>
             </msDesc>
-            
             <!-- FROM LAURA: where to put the following information in <bibl> is still a question: 
                ask TEI List whether it should be in the sourceDesc or elsewhere? -->
-           
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
@@ -96,101 +94,6 @@
                word is split at the end of a line and the beginning of the next in a manuscript. The
                long s and ligatured forms are silently emended.</p>
          </editorialDecl>
-         <classDecl>
-            <taxonomy xml:id="relators">
-               <bibl>Marc Relators</bibl>
-               <category xml:id="aut">
-                  <catDesc>Author</catDesc>
-               </category>
-            </taxonomy>
-            <taxonomy xml:id="lcsh">
-               <bibl>Subjects</bibl>
-               <category>
-                  <catDesc xml:id="AntislaveryMovements">Antislavery movements
-                     <idno type="loc">sh85123315</idno>
-                  </catDesc>
-                  <catDesc xml:id="Birth">Birth
-                     <idno type="loc">sh86004053</idno>
-                  </catDesc>
-                  <catDesc xml:id="Death">Death
-                     <idno type="loc">sh85036085</idno>
-                  </catDesc>
-                  <catDesc xml:id="Education">Education
-                     <idno type="loc">sh85040989</idno>
-                  </catDesc>
-                  <catDesc xml:id="Imperialism">Imperialism
-                     <idno type="loc">sh85064628</idno>
-                  </catDesc>
-                  <catDesc xml:id="FictitiousCharacters">Fictitious characters
-                     <idno type="loc">sh99004183</idno>
-                  </catDesc>
-                  <catDesc xml:id="Marriage">Marriage
-                     <idno type="loc">sh85081416</idno>
-                  </catDesc>
-                  <catDesc xml:id="Nationalism">Nationalism
-                     <idno type="loc">sh85090150</idno>
-                  </catDesc>
-                  <catDesc xml:id="PoliticsAndCulture">Politics and culture
-                     <idno type="loc">sh85104468</idno>
-                  </catDesc>
-                  <catDesc xml:id="Race">Race  
-                     <idno type="loc">sh85110232</idno>
-                  </catDesc>
-                  <catDesc xml:id="Religion">Religion
-                     <idno type="loc">sh85112549</idno>
-                  </catDesc>
-                  <catDesc xml:id="Science">Science
-                     <idno type="loc">sh85118553</idno>
-                  </catDesc>
-                  <catDesc xml:id="Technology">Technology
-                     <idno type="loc">sh85133147</idno>
-                  </catDesc>
-                  <catDesc xml:id="Slavery">Slavery
-                     <idno type="loc">sh85123314</idno>
-                  </catDesc>
-                  <catDesc xml:id="Travel">Travel
-                     <idno type="loc">sh85137149</idno>
-                  </catDesc>
-               </category>
-            </taxonomy>
-            <taxonomy xml:id="works">
-               <bibl>Works</bibl>
-               <category>
-                  <catDesc xml:id="w1">Belinda</catDesc>
-                  <catDesc xml:id="w2">Castle Rackrent</catDesc>
-                  <catDesc xml:id="w3">Comic Dramas, in Three Acts</catDesc>
-                  <catDesc xml:id="w4">Early Lessons</catDesc>
-                  <catDesc xml:id="w5">Essay on Irish Bulls</catDesc>
-                  <catDesc xml:id="w6">Frank: a Sequel to Frank in Early Lessons</catDesc>
-                  <catDesc xml:id="w7">Harrington, a Tale; and Ormond, a Tale</catDesc>
-                  <catDesc xml:id="w8">Harry and Lucy Concluded</catDesc>
-                  <catDesc xml:id="w9">Leonora</catDesc>
-                  <catDesc xml:id="w10">Letters for Literary Ladies</catDesc>
-                  <catDesc xml:id="w11">Moral Tales for Young People</catDesc>
-                  <catDesc xml:id="w12">Moral Tales</catDesc>
-                  <catDesc xml:id="w13">Patronage</catDesc>
-                  <catDesc xml:id="w14">Popular Tales</catDesc>
-                  <catDesc xml:id="w15">Practical Education</catDesc>
-                  <catDesc xml:id="w16">Readings on Poetry</catDesc>
-                  <catDesc xml:id="w17">Ormond</catDesc>
-                  <catDesc xml:id="w18">The Absentee</catDesc>
-                  <catDesc xml:id="w19">Tales of Fashionable Life</catDesc>
-                  <catDesc xml:id="w20">The Contrast</catDesc>
-                  <catDesc xml:id="w21">The Modern Griselda; a Tale</catDesc>
-                  <catDesc xml:id="w22">The Parent's Assistant</catDesc>
-                  <catDesc xml:id="w23">Tomorrow; or the Dangers of Delay</catDesc>
-               </category>
-            </taxonomy>
-            <taxonomy xml:id="places">
-               <bibl>Places</bibl>
-               <category>
-                  <catDesc xml:id="EdgeworthsTown">Edgeworths' Town<idno type="getty">tgn/1042937</idno></catDesc>
-                  <catDesc xml:id="Peterborough">Peterborough, UK<idno type="getty">tgn/7026520</idno></catDesc>
-                  <catDesc xml:id="CranfordI">Cranford, Ireland<idno type="getty">tgn/7901042</idno></catDesc>
-                  <catDesc xml:id="Kettering">Kettering, UK<idno type="getty">tgn/7010904</idno></catDesc>
-               </category>
-            </taxonomy> 
-         </classDecl>
       </encodingDesc>
       <profileDesc>
          <correspDesc>
@@ -201,16 +104,6 @@
                <persName ref="./Personography.xml#CareM1"><!--RECIPIENT NAME-->Mathew Carey</persName>
             </correspAction>
          </correspDesc>
-         <textClass>
-            <keywords scheme="">
-               <list type="simple">
-                  <item>English literature</item>
-                  <item>History</item>
-               </list>
-            </keywords>
-            <catRef target="#f7" scheme="#f"/>
-            <catRef target="#hist #el" scheme="locSUB"/>
-         </textClass>
       </profileDesc>
       <revisionDesc>
          <change when="2021-01-01" who="Id_who">
@@ -227,7 +120,8 @@
                <dateline><!--If there's no date line, omit this element. Record in the order in which it is written on the letter.-->
                   <placeName ref="http://vocab.getty.edu/tgn/7900256">
                   Black Castle<lb/>
-                     Navan<lb/></placeName>
+                     Navan<lb/>
+                  </placeName>
                   <date when="1826-09-29"/>Sep<hi rend="superscript">r</hi>. 29<hi rend="superscript">h</hi>. 1826</dateline>
                <note place="bottom">[LibNote] Rec[superscript]d[/superscript] Nov 30<lb/>
                   Ans[superscript]d[/superscript] April 20</note>
@@ -245,21 +139,34 @@
                you for your <title ref="https://lccn.loc.gov/05020165">essay on Emigration</title> which<lb/>
                I will send to the principal bookseller in<lb/>
                <placeName ref="http://vocab.getty.edu/tgn/7001306">Dublin</placeName> as you wish it to be reprinted here -<lb/>
-               - But further I cannot undertake - <choice><orig>Booksel
-                  lers</orig><reg>Booksellers</reg></choice> both here and in <placeName ref="http://vocab.getty.edu/tgn/7011781">London</placeName> are at present<lb/>
-               disinclined to enter on new publications <add>without being paid for them</add><lb/>
+               - But further I cannot undertake - <choice>
+                  <orig>Booksel
+                  lers</orig>
+                  <reg>Booksellers</reg>
+               </choice> both here and in <placeName ref="http://vocab.getty.edu/tgn/7011781">London</placeName> are at present<lb/>
+               disinclined to enter on new publications <add>without being paid for them</add>
+               <lb/>
                such <hi rend="underline">has</hi> been &amp; is the general distress in 
                their line of business as in others -<lb/>
                I have been sometime time away from home<lb/>
                &amp; much engaged by the marriage of one<lb/>
-               of my sisters - your Essay reached <choice><orig>Edge-<lb/>
-               worths</orig><reg>Edgeworths</reg></choice> town at a moment when it was <choice><orig>ab-<lb/>
-               solutely</orig><reg>absolutely</reg></choice> out of my power to read it - As soon<lb/>
+               of my sisters - your Essay reached <choice>
+                  <orig>Edge-<lb/>
+               worths</orig>
+                  <reg>Edgeworths</reg>
+               </choice> town at a moment when it was <choice>
+                  <orig>ab-<lb/>
+               solutely</orig>
+                  <reg>absolutely</reg>
+               </choice> out of my power to read it - As soon<lb/>
                as I return home, I shall read it with<lb/>
                attention - I am at this moment reading<lb/>
-               <del>at this <unclear>time</unclear></del> the volume of <title>evidence on<lb/>
-                  Emigration from <placeName ref="http://vocab.getty.edu/tgn/7001181">Ireland</placeName> to the <placeName ref="http://vocab.getty.edu/tgn/7005685">Canadas</placeName><lb/>
-                  &amp; to various parts of <placeName ref="http://vocab.getty.edu/tgn/7012149">America</placeName></title> which<lb/>
+               <del>at this <unclear>time</unclear>
+               </del> the volume of <title>evidence on<lb/>
+                  Emigration from <placeName ref="http://vocab.getty.edu/tgn/7001181">Ireland</placeName> to the <placeName ref="http://vocab.getty.edu/tgn/7005685">Canadas</placeName>
+                  <lb/>
+                  &amp; to various parts of <placeName ref="http://vocab.getty.edu/tgn/7012149">America</placeName>
+               </title> which<lb/>
                was given before the Committee of the<lb/>
                English house of Commons last year -<lb/>
                Emigration is the natural &amp; best<lb/>
@@ -268,38 +175,50 @@
             </p>
             <pb n="2" facs="Edgeworth_Rosenbach_1826-09-29_page03.jpg"/>
             <p>
-               from a <hi rend="underline">redundant</hi> as from an <hi rend="underline">unemployed</hi><lb/>
+               from a <hi rend="underline">redundant</hi> as from an <hi rend="underline">unemployed</hi>
+               <lb/>
                population - The remedy here wanted<lb/>
                is <hi rend="underline">employment</hi> - <hi rend="underline">demand</hi> for industry<lb/>
-               &amp; <hi rend="underline">higher wages for industry</hi> -<lb/></p>
-            <p>The instances of national <choice><orig>ingra-<lb/>
-               titude</orig><reg>ingratitude</reg></choice> you mention in your last letter<lb/>
+               &amp; <hi rend="underline">higher wages for industry</hi> -<lb/>
+            </p>
+            <p>The instances of national <choice>
+                  <orig>ingra-<lb/>
+               titude</orig>
+                  <reg>ingratitude</reg>
+               </choice> you mention in your last letter<lb/>
                are very striking - I regret that they
-               should have occurred in <placeName ref="http://vocab.getty.edu/tgn/7012149">America</placeName> -<lb/></p>
-               <p>I had admired her gratitude to<lb/>
-                  <persName ref="./Personography.xml#LaFaG1">La Fayette</persName> - But this contrasts sadly<lb/>
+               should have occurred in <placeName ref="http://vocab.getty.edu/tgn/7012149">America</placeName> -<lb/>
+            </p>
+            <p>I had admired her gratitude to<lb/>
+               <persName ref="./Personography.xml#LaFaG1">La Fayette</persName> - But this contrasts sadly<lb/>
                   with her penuriousness to <persName ref="./Personography.xml#JeffT1">Jefferson</persName> - From<lb/>
                this I am afraid there was some love<lb/>
-               of <del>theatric</del> display &amp; effect in the <choice><orig>recep<lb/>
-                  tion</orig><reg>reception</reg></choice> of <persName ref="./Personography.xml#LaFaG1">La Fayette</persName> which <add>had</add>] appeared to<lb/>
+               of <del>theatric</del> display &amp; effect in the <choice>
+                  <orig>recep<lb/>
+                  tion</orig>
+                  <reg>reception</reg>
+               </choice> of <persName ref="./Personography.xml#LaFaG1">La Fayette</persName> which <add>had</add>] appeared to<lb/>
                me at first the genuine feeling of<lb/>
                enthusiasm honorable to your national<lb/>
                character -<lb/>
-               </p>
-               <p>
+            </p>
+            <p>
                Do not blame me my dear Sir for<lb/>
                not getting your books republished in<lb/>
-                  <placeName ref="http://vocab.getty.edu/tgn/7001181">Ireland</placeName> - It is not from indolence<lb/>
+               <placeName ref="http://vocab.getty.edu/tgn/7001181">Ireland</placeName> - It is not from indolence<lb/>
                but from its being totally out of my<lb/>
-               power - I thank you for your <choice><orig>perse<lb/>
-                  vering</orig><reg>persevering</reg></choice> attention to me - And <del>y</del> admire<lb/>
+               power - I thank you for your <choice>
+                  <orig>perse<lb/>
+                  vering</orig>
+                  <reg>persevering</reg>
+               </choice> attention to me - And <del>y</del> admire<lb/>
                your persevering benevolence &amp; love of<lb/>
                your country<lb/>
             </p>
             <closer>
                <!--include linebreaks, if used. example: <closer> Yours<lb/> Very sincerely<lb/> -->
                I am truly your obliged<lb/>
-               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>   
+               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
             </closer>
             <postscript>
                <p>I thank you for the Sketches of <placeName ref="http://vocab.getty.edu/tgn/7012149">America</placeName> which<lb/>
@@ -313,11 +232,20 @@
             <closer><!--Use the <closer> element again to hold Address Leaf information.-->
                <address>
                   <!--Include any text written on the address leaf; use a separate "addrLine" for each line and indicate line breaks. -->
-                  <addrLine/><persName ref="./Personography.xml#CareM1">M Carey Esq<hi rend="superscript">re</hi></persName>
-                  <addrLine/><placeName ref="http://vocab.getty.edu/tgn/7014406">Philadelphia</placeName>
-                  <addrLine><note>[another hand]JM Morton</note></addrLine>
-                  <addrLine><note>[LibNote]Maria Edgeworth</note></addrLine>
-                  <addrLine><note>[LibNote]Sept. 29. 1826</note></addrLine>
+                  <addrLine/>
+                  <persName ref="./Personography.xml#CareM1">M Carey Esq<hi rend="superscript">re</hi>
+                  </persName>
+                  <addrLine/>
+                  <placeName ref="http://vocab.getty.edu/tgn/7014406">Philadelphia</placeName>
+                  <addrLine>
+                     <note>[another hand]JM Morton</note>
+                  </addrLine>
+                  <addrLine>
+                     <note>[LibNote]Maria Edgeworth</note>
+                  </addrLine>
+                  <addrLine>
+                     <note>[LibNote]Sept. 29. 1826</note>
+                  </addrLine>
                </address>
             </closer>
          </div>

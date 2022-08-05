@@ -44,7 +44,7 @@
                <licence>Distributed under a Creative Commons Attribution-ShareAlike 3.0 Unported
                   License</licence>
             </availability>
-            <idno>Edgeworth_Princeton_C0079_1833_08_06</idno> 
+            <idno>Edgeworth_Princeton_C0079_1833_08_06</idno>
          </publicationStmt>
          <seriesStmt>
             <title>Maria Edgeworth Letters Project</title>
@@ -59,23 +59,21 @@
                   </collection>
                   <idno>n82003163</idno>
                </msIdentifier>
-               
                <head>Letter from 
                   <persName ref="./Personography.xml#EdgeM1">
                      <forename>Maria</forename>
                      <surname>Edgeworth</surname>
                   </persName>
-                  to <persName ref= "./Personography.xml#RushR1" from="1780" to="1859">
+                  to <persName ref="./Personography.xml#RushR1" from="1780" to="1859">
                      <forename>Richard</forename>
                      <surname>Rush</surname>
                   </persName>
                   <date>1780-1859</date>, 
-                     <date when="1833-08-06">Aug 6<hi rend = "superscript">th</hi> 1833</date>
+                     <date when="1833-08-06">Aug 6<hi rend="superscript">th</hi> 1833</date>
                </head>
                <physDesc>
                </physDesc>
             </msDesc>
-            
             <!-- FROM LAURA: where to put the following information in <bibl> is still a question: 
                ask TEI List whether it should be in the sourceDesc or elsewhere? -->
          </sourceDesc>
@@ -86,113 +84,8 @@
                word is split at the end of a line and the beginning of the next in a manuscript. The
                long s and ligatured forms are silently emended.</p>
          </editorialDecl>
-         <classDecl>
-            <taxonomy xml:id="relators">
-               <bibl>Marc Relators</bibl>
-               <category xml:id="aut">
-                  <catDesc>Author</catDesc>
-               </category>
-            </taxonomy>
-            <taxonomy xml:id="lcsh">
-               <bibl>Subjects</bibl>
-               <category>
-                  <catDesc xml:id="AntislaveryMovements">Antislavery movements
-                     <idno type="loc">sh85123315</idno>
-                  </catDesc>
-                  <catDesc xml:id="Birth">Birth
-                     <idno type="loc">sh86004053</idno>
-                  </catDesc>
-                  <catDesc xml:id="Death">Death
-                     <idno type="loc">sh85036085</idno>
-                  </catDesc>
-                  <catDesc xml:id="Education">Education
-                     <idno type="loc">sh85040989</idno>
-                  </catDesc>
-                  <catDesc xml:id="Imperialism">Imperialism
-                     <idno type="loc">sh85064628</idno>
-                  </catDesc>
-                  <catDesc xml:id="FictitiousCharacters">Fictitious characters
-                     <idno type="loc">sh99004183</idno>
-                  </catDesc>
-                  <catDesc xml:id="Marriage">Marriage
-                     <idno type="loc">sh85081416</idno>
-                  </catDesc>
-                  <catDesc xml:id="Nationalism">Nationalism
-                     <idno type="loc">sh85090150</idno>
-                  </catDesc>
-                  <catDesc xml:id="PoliticsAndCulture">Politics and culture
-                     <idno type="loc">sh85104468</idno>
-                  </catDesc>
-                  <catDesc xml:id="Race">Race  
-                     <idno type="loc">sh85110232</idno>
-                  </catDesc>
-                  <catDesc xml:id="Religion">Religion
-                     <idno type="loc">sh85112549</idno>
-                  </catDesc>
-                  <catDesc xml:id="Science">Science
-                     <idno type="loc">sh85118553</idno>
-                  </catDesc>
-                  <catDesc xml:id="Technology">Technology
-                     <idno type="loc">sh85133147</idno>
-                  </catDesc>
-                  <catDesc xml:id="Slavery">Slavery
-                     <idno type="loc">sh85123314</idno>
-                  </catDesc>
-                  <catDesc xml:id="Travel">Travel
-                     <idno type="loc">sh85137149</idno>
-                  </catDesc>
-               </category>
-            </taxonomy>
-            <taxonomy xml:id="works">
-               <bibl>Works</bibl>
-               <category>
-                  <catDesc xml:id="w1">Belinda</catDesc>
-                  <catDesc xml:id="w2">Castle Rackrent</catDesc>
-                  <catDesc xml:id="w3">Comic Dramas, in Three Acts</catDesc>
-                  <catDesc xml:id="w4">Early Lessons</catDesc>
-                  <catDesc xml:id="w5">Essay on Irish Bulls</catDesc>
-                  <catDesc xml:id="w6">Frank: a Sequel to Frank in Early Lessons</catDesc>
-                  <catDesc xml:id="w7">Harrington, a Tale; and Ormond, a Tale</catDesc>
-                  <catDesc xml:id="w8">Harry and Lucy Concluded</catDesc>
-                  <catDesc xml:id="w9">Leonora</catDesc>
-                  <catDesc xml:id="w10">Letters for Literary Ladies</catDesc>
-                  <catDesc xml:id="w11">Moral Tales for Young People</catDesc>
-                  <catDesc xml:id="w12">Moral Tales</catDesc>
-                  <catDesc xml:id="w13">Patronage</catDesc>
-                  <catDesc xml:id="w14">Popular Tales</catDesc>
-                  <catDesc xml:id="w15">Practical Education</catDesc>
-                  <catDesc xml:id="w16">Readings on Poetry</catDesc>
-                  <catDesc xml:id="w17">Ormond</catDesc>
-                  <catDesc xml:id="w18">The Absentee</catDesc>
-                  <catDesc xml:id="w19">Tales of Fashionable Life</catDesc>
-                  <catDesc xml:id="w20">The Contrast</catDesc>
-                  <catDesc xml:id="w21">The Modern Griselda; a Tale</catDesc>
-                  <catDesc xml:id="w22">The Parent's Assistant</catDesc>
-                  <catDesc xml:id="w23">Tomorrow; or the Dangers of Delay</catDesc>
-               </category>
-            </taxonomy>
-            <taxonomy xml:id="places">
-               <bibl>Places</bibl>
-               <category>
-                  <catDesc xml:id="EdgeworthsTown">Edgeworths' Town<idno type="getty">tgn/1042937</idno></catDesc>
-                  <catDesc xml:id="Peterborough">Peterborough, UK<idno type="getty">tgn/7026520</idno></catDesc>
-                  <catDesc xml:id="CranfordI">Cranford, Ireland<idno type="getty">tgn/7901042</idno></catDesc>
-                  <catDesc xml:id="Kettering">Kettering, UK<idno type="getty">tgn/7010904</idno></catDesc>
-               </category>
-            </taxonomy>
-         </classDecl>
       </encodingDesc>
       <profileDesc>
-         <textClass>
-            <keywords scheme="">
-               <list type="simple">
-                  <item>English literature</item>
-                  <item>History</item>
-               </list>
-            </keywords>
-            <catRef target="#f7" scheme="#f"/>
-            <catRef target="#hist #el" scheme="locSUB"/>
-         </textClass>
       </profileDesc>
       <revisionDesc>
          <change when="2021-01-01" who="Id_who">
@@ -214,29 +107,45 @@
                of the republic of letters<lb/>
                that the individuals may<lb/>
                be supposed to be known<lb/>
-               to each other - and I <hi rend="underline">will</hi><lb/>
+               to each other - and I <hi rend="underline">will</hi>
+               <lb/>
                flatter myself (being an<lb/>
-               Irish woman) that <persName ref="./Personography.xml#RushR1">M<hi rend = "superscript">r</hi>Rush</persName><lb/>
+               Irish woman) that <persName ref="./Personography.xml#RushR1">M<hi rend="superscript">r</hi>Rush</persName>
+               <lb/>
                may be acquainted with<lb/>
                <persName ref="./Personography.xmlEdgeM1">Maria Edgeworth</persName> - I have<lb/>
                received so much kindness<lb/>
                and so many testimonies<lb/>
-               of regard from his <choice><orig>country<lb/>
-               -men</orig><reg>countrymen</reg></choice> and country women<lb/>
+               of regard from his <choice>
+                  <orig>country<lb/>
+               -men</orig>
+                  <reg>countrymen</reg>
+               </choice> and country women<lb/>
                that I feel I am better known<lb/>
-               there than in my own <choice><orig>coun<lb/>
-               try </orig><reg>country</reg></choice>(meaning <placeName>Ireland</placeName>).<lb/></p>
-            
-               <p>Let me hope therefore that<lb/>
-               you will not think <add>me</add> <choice><orig>presump<lb/>
-               tuous</orig><reg>presumptuous</reg></choice> in intruding thus<lb/>
-               upon you with my <hi rend="underline">homage</hi><lb/>
-                  - this not French <hi rend="underline">hommage</hi><lb/>
-                  
-            <pb n="2" facs="Edgeworth_Princeton_C0079_1833_08_06_page02.jpg"/>
+               there than in my own <choice>
+                  <orig>coun<lb/>
+               try </orig>
+                  <reg>country</reg>
+               </choice>(meaning <placeName>Ireland</placeName>).<lb/>
+            </p>
+            <p>Let me hope therefore that<lb/>
+               you will not think <add>me</add>
+               <choice>
+                  <orig>presump<lb/>
+               tuous</orig>
+                  <reg>presumptuous</reg>
+               </choice> in intruding thus<lb/>
+               upon you with my <hi rend="underline">homage</hi>
+               <lb/>
+                  - this not French <hi rend="underline">hommage</hi>
+               <lb/>
+               <pb n="2" facs="Edgeworth_Princeton_C0079_1833_08_06_page02.jpg"/>
                but perfectly sincere plain<lb/>
-               English esteem and <choice><orig>admi<lb/>
-               ration </orig><reg>admiration</reg></choice>-- <hi rend="underline">We</hi> meaning<lb/>
+               English esteem and <choice>
+                  <orig>admi<lb/>
+               ration </orig>
+                  <reg>admiration</reg>
+               </choice>-- <hi rend="underline">We</hi> meaning<lb/>
                a large literary family<lb/>
                have been this last week<lb/>
                   reading <persName ref="./Personography.xml#RushR1">Rush</persName>'s account<lb/>
@@ -246,11 +155,15 @@
                In the first place, it is<lb/>
                exceedingly entertaining and<lb/>
                interesting merely considered<lb/>
-               as a book for <del>be read by the</del><lb/>
+               as a book for <del>be read by the</del>
+               <lb/>
                general readers --<lb/>
                In the next place it is the<lb/>
-               best and most honest <choice><orig>diplo-<lb/>
-               matic </orig><reg>diplomatic</reg></choice>book I ever read --<lb/>
+               best and most honest <choice>
+                  <orig>diplo-<lb/>
+               matic </orig>
+                  <reg>diplomatic</reg>
+               </choice>book I ever read --<lb/>
                The must intelligible, and<lb/>
                the most honorable to the<lb/>
                diplomatic corps - showing<lb/>
@@ -258,46 +171,64 @@
                shortest line between <add>any</add> two points,<lb/>
                and that honesty even in<lb/>
                diplomacy <hi rend="underline">is</hi> the best policy<lb/>
-            <pb n="3" facs="Edgeworth_Princeton_C0079_1833_08_06_page03.jpg"/>
+               <pb n="3" facs="Edgeworth_Princeton_C0079_1833_08_06_page03.jpg"/>
                <persName ref="./Personography.xml#RipoG1">M<hi rend="superscript">r</hi>. Robinson</persName> (the present<lb/>
                <persName ref="./Personography.xml#RipoG1">Lord Rippon</persName>) made an<lb/>
                opening of the budget as<lb/>
                a financier some years<lb/>
                ago so clear in laying down<lb/>
                the principles of taxation &amp;<lb/>
-               the intricacy of national <choice><orig>ac<lb/>
-               counts </orig><reg>accounts</reg></choice>that I considered it<lb/>
+               the intricacy of national <choice>
+                  <orig>ac<lb/>
+               counts </orig>
+                  <reg>accounts</reg>
+               </choice>that I considered it<lb/>
                at the time &amp; find it has since<lb/>
                been considered as marking<lb/>
-               a new era in <hi rend="underline">fiscal speaking</hi><lb/>
+               a new era in <hi rend="underline">fiscal speaking</hi>
+               <lb/>
                I consider your books in<lb/>
                the same light as to diplomacy<lb/>
                But in a still higher<lb/>
                point of view I value this<lb/>
                work as certain to produce<lb/>
                salutory effect between<lb/>
-               these countries and <placeName ref="http://vocab.getty.edu/tgn/7012149">America</placeName><lb/>
+               these countries and <placeName ref="http://vocab.getty.edu/tgn/7012149">America</placeName>
+               <lb/>
                -- It is written in such a<lb/>
-               mild liberal candid <hi rend= "underline">just</hi><lb/>
-               spirit so full of <del>natural</del><lb/>
+               mild liberal candid <hi rend="underline">just</hi>
+               <lb/>
+               spirit so full of <del>natural</del>
+               <lb/>
                true love for country &amp;<lb/>
                so free from that national<lb/>
-               egoism &amp; <del><unclear></unclear></del> <choice><orig>osten<lb/>
-               tatious</orig><reg>ostentatious</reg></choice> feeling for <placeName ref="http://vocab.getty.edu/tgn/7012149">America</placeName><lb/>
-               <hi rend="underline">exclusively</hi><lb/>
-            <pb n="4" facs="Edgeworth_Princeton_C0079_1833_08_06_page04.jpg"/>
+               egoism &amp; <del>
+                  <unclear/>
+               </del>
+               <choice>
+                  <orig>osten<lb/>
+               tatious</orig>
+                  <reg>ostentatious</reg>
+               </choice> feeling for <placeName ref="http://vocab.getty.edu/tgn/7012149">America</placeName>
+               <lb/>
+               <hi rend="underline">exclusively</hi>
+               <lb/>
+               <pb n="4" facs="Edgeworth_Princeton_C0079_1833_08_06_page04.jpg"/>
                <hi rend="underline">before the Old World</hi> that it<lb/>
                is in itself the best possible<lb/>
                answer to the attacks that<lb/>
                have been made on this<lb/>
-               <hi rend= "underline">count</hi> upon Americans<lb/>
-               It is the best <hi rend= "underline">evidence</hi> that<lb/>
+               <hi rend="underline">count</hi> upon Americans<lb/>
+               It is the best <hi rend="underline">evidence</hi> that<lb/>
                in the higher ranks of mind in<lb/>
                all countries men are<lb/>
                the same in genuine<lb/>
                politeness of manner &amp;<lb/>
-               well bred spirit <choice><orig>indepen<lb/>
-               dent</orig><reg>independent</reg></choice> of all form -<lb/>
+               well bred spirit <choice>
+                  <orig>indepen<lb/>
+               dent</orig>
+                  <reg>independent</reg>
+               </choice> of all form -<lb/>
                It would highly gratify<lb/>
                me to hear from you that<lb/>
                you do not think I set an<lb/>
@@ -311,16 +242,21 @@
                that we had not another to<lb/>
                open -- I am Sir with just respect<lb/>
             </p>
-               <closer>Your obliged reader<lb/>
-                  <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName><lb/>
-               </closer>
+            <closer>Your obliged reader<lb/>
+               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
+               <lb/>
+            </closer>
             <pb n="5" facs="Edgeworth_Princeton_C0079_1833_08_06_page05.jpg"/>
             <closer>
                <address>
                   <addrLine>
-                     <persName ref="./Personography.xml#RushR1">Rich<hi rend="superscript">d</hi> Rush Esq<hi rend="superscript">re</hi></persName><lb/></addrLine>
-                  <note place= "bottom">' The Memoranda '<lb/>
-                     Miss Edgeworth.<lb/></note>
+                     <persName ref="./Personography.xml#RushR1">Rich<hi rend="superscript">d</hi> Rush Esq<hi rend="superscript">re</hi>
+                     </persName>
+                     <lb/>
+                  </addrLine>
+                  <note place="bottom">' The Memoranda '<lb/>
+                     Miss Edgeworth.<lb/>
+                  </note>
                </address>
             </closer>
          </div>

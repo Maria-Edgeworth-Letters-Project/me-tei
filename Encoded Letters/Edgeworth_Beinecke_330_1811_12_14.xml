@@ -3,215 +3,119 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>Letter from Maria Edgeworth to Mrs. Miles December 14, 1811</title>
-                <author>Maria Edgeworth</author>
-                <editor ref="Id_who">
-                    <persName ref="Id_who">Eliza Wilcox</persName>
-                </editor>
-                <sponsor>
-                    <orgName>Maria Edgeworth Letters Project</orgName>
-                </sponsor>
-                <sponsor>Wake Forest University, University of Tennessee, Xavier University, Texas
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from Maria Edgeworth to Mrs. Miles December 14, 1811</title>
+            <author>Maria Edgeworth</author>
+            <editor ref="Id_who">
+               <persName ref="Id_who">Eliza Wilcox</persName>
+            </editor>
+            <sponsor>
+               <orgName>Maria Edgeworth Letters Project</orgName>
+            </sponsor>
+            <sponsor>Wake Forest University, University of Tennessee, Xavier University, Texas
                     A&amp;M University</sponsor>
-                <principal>Jessica Richard, Hilary Havens, Robin Runia, Susan Egenolf</principal>
-                <respStmt>
-                    <resp>Transcription and coding by</resp>
-                    <persName ref="Id_who">Eliza Wilcox</persName>
-                    <!-- List all transcribers or coders here, editors and students alike, <persName> by <persName>.-->
-                    <persName ref="Id_who"><!--FirstName LastName--></persName>
-                    <!-- If you're the last person interacting with the file, enter your name last on the list -->
-                </respStmt>
-            </titleStmt>
-            <editionStmt>
-                <edition>First digital edition in TEI, date: <date when="2022-08-02"> 2022-08-02 </date>
-                </edition>
-                <respStmt>
-                    <orgName ref="http://id.loc.gov/authorities/names/n80097790">Beinecke Rare Book and Manuscript Library</orgName>
-                    <resp> photos include: Edgeworth_Beinecke_330_1811_12_14_page01,
+            <principal>Jessica Richard, Hilary Havens, Robin Runia, Susan Egenolf</principal>
+            <respStmt>
+               <resp>Transcription and coding by</resp>
+               <persName ref="Id_who">Eliza Wilcox</persName>
+               <!-- List all transcribers or coders here, editors and students alike, <persName> by <persName>.-->
+               <persName ref="Id_who"><!--FirstName LastName--></persName>
+               <!-- If you're the last person interacting with the file, enter your name last on the list -->
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>First digital edition in TEI, date: <date when="2022-08-02"> 2022-08-02 </date>
+            </edition>
+            <respStmt>
+               <orgName ref="http://id.loc.gov/authorities/names/n80097790">Beinecke Rare Book and Manuscript Library</orgName>
+               <resp> photos include: Edgeworth_Beinecke_330_1811_12_14_page01,
                         Edgeworth_Beinecke_330_1811_12_14_page02,
                         Edgeworth_Beinecke_330_1811_12_14_page03,
                         Edgeworth_Beinecke_330_1811_12_14_page04
                     </resp>
-                </respStmt>
-            </editionStmt>
-            <publicationStmt>
-                <authority>Maria Edgeworth Letters Project</authority>
-                <date>2022</date>
-                <availability>
-                    <p>Reproduced by courtesy of the <orgName ref="http://id.loc.gov/authorities/names/n80097790">Beinecke Rare Book and Manuscript Library</orgName>. </p>
-                    <licence>Distributed under a Creative Commons Attribution-ShareAlike 3.0 Unported
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Maria Edgeworth Letters Project</authority>
+            <date>2022</date>
+            <availability>
+               <p>Reproduced by courtesy of the <orgName ref="http://id.loc.gov/authorities/names/n80097790">Beinecke Rare Book and Manuscript Library</orgName>. </p>
+               <licence>Distributed under a Creative Commons Attribution-ShareAlike 3.0 Unported
                         License</licence>
-                </availability>
-                <idno>Edgeworth_Beinecke_330_1811_12_14</idno>
-            </publicationStmt>
-            <seriesStmt>
-                <title>Maria Edgeworth Letters Project</title>
-            </seriesStmt>
-            <sourceDesc>
-                <msDesc xml:lang="en">
-                    <msIdentifier>
-                        <repository>Beinecke Rare Book and Manuscript Library</repository>
-                        <collection>Maria Edgeworth Collection</collection>
-                        <idno><!--Consult library or WorldCat for this info--></idno>
-                    </msIdentifier>
-                    <head>Letter from <persName ref="./Personography.xml#EdgeM1">
-                        <forename>Maria</forename>
-                        <surname>Edgeworth</surname>
-                    </persName> to <persName ref="./Personography.xml#MileX1">Mrs. Miles</persName>,
+            </availability>
+            <idno>Edgeworth_Beinecke_330_1811_12_14</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Maria Edgeworth Letters Project</title>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <repository>Beinecke Rare Book and Manuscript Library</repository>
+                  <collection>Maria Edgeworth Collection</collection>
+                  <idno><!--Consult library or WorldCat for this info--></idno>
+               </msIdentifier>
+               <head>Letter from <persName ref="./Personography.xml#EdgeM1">
+                     <forename>Maria</forename>
+                     <surname>Edgeworth</surname>
+                  </persName> to <persName ref="./Personography.xml#MileX1">Mrs. Miles</persName>,
                         <date when="1811-12-14">December 14, 1811</date>
-                    </head>
-                    <physDesc>
+               </head>
+               <physDesc>
                         <!-- optional physical description of the letter goes here: paper size and condition, seal, postmarks, etc.-->
                     </physDesc>
-                </msDesc>
-                
-                <!-- FROM LAURA: where to put the following information in <bibl> is still a question: 
+            </msDesc>
+            <!-- FROM LAURA: where to put the following information in <bibl> is still a question: 
                ask TEI List whether it should be in the sourceDesc or elsewhere? -->
-            </sourceDesc>
-        </fileDesc>
-        <encodingDesc>
-            <editorialDecl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
                 <!--Where Edgeworth uses nonstandard spelling and hyphenation of words, transcriber-coders 
                should use TEI elements “choice," “sic," and “reg" to encode both Edgeworth’s 
                spelling and the regular international standard of Oxford English spelling, 
                following the first listed spelling in the Oxford English Dictionary. -->
-                <p>Edgeworth’s spelling and punctuation are retained in transcription, except where a
+            <p>Edgeworth’s spelling and punctuation are retained in transcription, except where a
                     word is split at the end of a line and the beginning of the next in a manuscript. The
                     long s and ligatured forms are silently emended.</p>
-            </editorialDecl>
-            <classDecl>
-                <taxonomy xml:id="relators">
-                    <bibl>Marc Relators</bibl>
-                    <category xml:id="aut">
-                        <catDesc>Author</catDesc>
-                    </category>
-                </taxonomy>
-                <taxonomy xml:id="lcsh">
-                    <bibl>Subjects</bibl>
-                    <category>
-                        <catDesc xml:id="AntislaveryMovements">Antislavery movements <idno type="loc"
-                            >sh85123315</idno>
-                        </catDesc>
-                        <catDesc xml:id="Birth">Birth <idno type="loc">sh86004053</idno>
-                        </catDesc>
-                        <catDesc xml:id="Death">Death <idno type="loc">sh85036085</idno>
-                        </catDesc>
-                        <catDesc xml:id="Education">Education <idno type="loc">sh85040989</idno>
-                        </catDesc>
-                        <catDesc xml:id="Imperialism">Imperialism <idno type="loc">sh85064628</idno>
-                        </catDesc>
-                        <catDesc xml:id="FictitiousCharacters">Fictitious characters <idno type="loc"
-                            >sh99004183</idno>
-                        </catDesc>
-                        <catDesc xml:id="Marriage">Marriage <idno type="loc">sh85081416</idno>
-                        </catDesc>
-                        <catDesc xml:id="Nationalism">Nationalism <idno type="loc">sh85090150</idno>
-                        </catDesc>
-                        <catDesc xml:id="PoliticsAndCulture">Politics and culture <idno type="loc"
-                            >sh85104468</idno>
-                        </catDesc>
-                        <catDesc xml:id="Race">Race <idno type="loc">sh85110232</idno>
-                        </catDesc>
-                        <catDesc xml:id="Religion">Religion <idno type="loc">sh85112549</idno>
-                        </catDesc>
-                        <catDesc xml:id="Science">Science <idno type="loc">sh85118553</idno>
-                        </catDesc>
-                        <catDesc xml:id="Technology">Technology <idno type="loc">sh85133147</idno>
-                        </catDesc>
-                        <catDesc xml:id="Slavery">Slavery <idno type="loc">sh85123314</idno>
-                        </catDesc>
-                        <catDesc xml:id="Travel">Travel <idno type="loc">sh85137149</idno>
-                        </catDesc>
-                    </category>
-                </taxonomy>
-                <taxonomy xml:id="works">
-                    <bibl>Works</bibl>
-                    <category>
-                        <catDesc xml:id="w1">Belinda</catDesc>
-                        <catDesc xml:id="w2">Castle Rackrent</catDesc>
-                        <catDesc xml:id="w3">Comic Dramas, in Three Acts</catDesc>
-                        <catDesc xml:id="w4">Early Lessons</catDesc>
-                        <catDesc xml:id="w5">Essay on Irish Bulls</catDesc>
-                        <catDesc xml:id="w6">Frank: a Sequel to Frank in Early Lessons</catDesc>
-                        <catDesc xml:id="w7">Harrington, a Tale; and Ormond, a Tale</catDesc>
-                        <catDesc xml:id="w8">Harry and Lucy Concluded</catDesc>
-                        <catDesc xml:id="w9">Leonora</catDesc>
-                        <catDesc xml:id="w10">Letters for Literary Ladies</catDesc>
-                        <catDesc xml:id="w11">Moral Tales for Young People</catDesc>
-                        <catDesc xml:id="w12">Moral Tales</catDesc>
-                        <catDesc xml:id="w13">Patronage</catDesc>
-                        <catDesc xml:id="w14">Popular Tales</catDesc>
-                        <catDesc xml:id="w15">Practical Education</catDesc>
-                        <catDesc xml:id="w16">Readings on Poetry</catDesc>
-                        <catDesc xml:id="w17">Ormond</catDesc>
-                        <catDesc xml:id="w18">The Absentee</catDesc>
-                        <catDesc xml:id="w19">Tales of Fashionable Life</catDesc>
-                        <catDesc xml:id="w20">The Contrast</catDesc>
-                        <catDesc xml:id="w21">The Modern Griselda; a Tale</catDesc>
-                        <catDesc xml:id="w22">The Parent's Assistant</catDesc>
-                        <catDesc xml:id="w23">Tomorrow; or the Dangers of Delay</catDesc>
-                    </category>
-                </taxonomy>
-                <taxonomy xml:id="places">
-                    <bibl>Places</bibl>
-                    <category>
-                        <catDesc xml:id="EdgeworthsTown">Edgeworths' Town<idno type="getty"
-                            >tgn/1042937</idno></catDesc>
-                        <catDesc xml:id="Peterborough">Peterborough, UK<idno type="getty"
-                            >tgn/7026520</idno></catDesc>
-                        <catDesc xml:id="CranfordI">Cranford, Ireland<idno type="getty"
-                            >tgn/7901042</idno></catDesc>
-                        <catDesc xml:id="Kettering">Kettering, UK<idno type="getty"
-                            >tgn/7010904</idno></catDesc>
-                    </category>
-                </taxonomy>
-            </classDecl>
-        </encodingDesc>
-        <profileDesc>
-            <correspDesc>
-                <correspAction type="sent">
-                    <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
-                </correspAction>
-                <correspAction type="received">
-                    <persName ref="./Personography.xml#MileX1">Mrs. Miles</persName>
-                </correspAction>
-            </correspDesc>
-            <textClass>
-                <keywords scheme="">
-                    <list type="simple">
-                        <item>English literature</item>
-                        <item>History</item>
-                    </list>
-                </keywords>
-                <catRef target="#f7" scheme="#f"/>
-                <catRef target="#hist #el" scheme="locSUB"/>
-            </textClass>
-        </profileDesc>
-        <revisionDesc>
-            <change when="2021-01-01" who="Id_who">
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="./Personography.xml#MileX1">Mrs. Miles</persName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-01-01" who="Id_who">
                 <!--Brief description of what you did here.-->
             </change>
-        </revisionDesc>
-</teiHeader>
+      </revisionDesc>
+   </teiHeader>
    <text>
       <body>
          <div type="letter">
             <pb n="1" facs="Edgeworth_Beinecke_330_1811_12_14_page01.jpg"/>
             <!--filenames for photos associated with this letter. Example: <pb n="1" facs="image1.jpg image2.jpg image3.jpg"/> -->
             <opener>
-               <salute> To <persName ref="./Personography.xml#MileX1">M<hi rend="superscript">rs</hi>. Miles</persName><lb/>
+               <salute> To <persName ref="./Personography.xml#MileX1">M<hi rend="superscript">rs</hi>. Miles</persName>
+                  <lb/>
                </salute>
             </opener>
             <pb n="2" facs="Edgeworth_Beinecke_330_1811_12_14_page02.jpg"/>
             <p>
-               <persName>Miss Edgeworth's</persName> compliments<lb/> to <persName ref="./Personography.xml#MileX1">M<hi
-                     rend="superscript">rs</hi>. Miles</persName> and though a<lb/> stranger to her
+               <persName>Miss Edgeworth's</persName> compliments<lb/> to <persName ref="./Personography.xml#MileX1">M<hi rend="superscript">rs</hi>. Miles</persName> and though a<lb/> stranger to her
                she takes the liberty<lb/> of begging the favor of her to do<lb/> a commission for
-               her &amp; for M<hi rend="superscript">rs</hi>.<lb/></p>
-            <p>The present riots at <placeName ref="http://vocab.getty.edu/tgn/7012006">Nottingham</placeName><lb/> make them think that the
+               her &amp; for M<hi rend="superscript">rs</hi>.<lb/>
+            </p>
+            <p>The present riots at <placeName ref="http://vocab.getty.edu/tgn/7012006">Nottingham</placeName>
+               <lb/> make them think that the
                price<lb/> of <add>British</add> lace will rise considerably &amp;<lb/> suddenly in
                   <placeName ref="http://vocab.getty.edu/tgn/7002445">England</placeName> &amp; before<lb/> this take place they wish to<lb/>
                buy 2 black pattinette gowns<lb/>
@@ -221,33 +125,39 @@
                <pb n="2" facs="Edgeworth_Beinecke_330_1811_12_14_page03.jpg"/> as to undertake this
                commission M<hi rend="superscript">rs</hi>.<lb/> &amp; Miss E beg <del>s</del>] that
                she will be good<lb/> enough to buy what will make<lb/> 2 gowns with trains and long
-               sleeves<lb/> for two women about five feet high<lb/></p>
+               sleeves<lb/> for two women about five feet high<lb/>
+            </p>
             <p>The patterns to<lb/> be a small sprig or leaf something<lb/> like the enclosed - that
                is to say<lb/> not a large <hi rend="underline">sprawling</hi> pattern<lb/> or with
-               any borders which they<lb/> think vulgar - they wish to have<lb/> the <hi
-                  rend="underline">ground</hi> of the <unclear>not</unclear> very fine &amp;<lb/>
+               any borders which they<lb/> think vulgar - they wish to have<lb/> the <hi rend="underline">ground</hi> of the <unclear>not</unclear> very fine &amp;<lb/>
                clear as that makes all the difference<lb/> in their appearances - They do not<lb/>
                care whether the gowns are exactly<lb/> the same pattern or not so that<lb/> the
-               pattern of both be small -<lb/> E<lb/></p>
+               pattern of both be small -<lb/> E<lb/>
+            </p>
             <pb n="2" facs="Edgeworth_Beinecke_330_1811_12_14_page04.jpg"/>
             <lb/>
             <p>M<hi rend="superscript">rs</hi>. They beg to have also real<lb/> black
-                  <del>about</del> lace of not more than inch &amp; <add>half</add><lb/> breadth
-               sufficient for the bosoms<lb/> of both gowns and narrow <hi rend="underline">to</hi><lb/>
+                  <del>about</del> lace of not more than inch &amp; <add>half</add>
+               <lb/> breadth
+               sufficient for the bosoms<lb/> of both gowns and narrow <hi rend="underline">to</hi>
+               <lb/>
                <hi rend="underline">match</hi> for the sleeves. -<lb/>
-               <persName>M<hi rend="superscript">rs</hi></persName>. and <persName>Miss
-                  Edgeworth</persName><lb/> hope <persName ref="./Personography.xml#MileX1">M<hi rend="superscript">rs</hi>.
+               <persName>M<hi rend="superscript">rs</hi>
+               </persName>. and <persName>Miss
+                  Edgeworth</persName>
+               <lb/> hope <persName ref="./Personography.xml#MileX1">M<hi rend="superscript">rs</hi>.
                   Miles</persName> will excuse<lb/>
             </p>
             <closer>
-               <placeName ref="http://vocab.getty.edu/tgn/1042937">Edgeworth Town</placeName><lb/> Dec<hi rend="superscript">r</hi>. 14<hi
-                  rend="superscript">th</hi>. 1811<lb/>
+               <placeName ref="http://vocab.getty.edu/tgn/1042937">Edgeworth Town</placeName>
+               <lb/> Dec<hi rend="superscript">r</hi>. 14<hi rend="superscript">th</hi>. 1811<lb/>
             </closer>
             <postscript>
                <p>We are not in the least hurry<lb/> to have these gowns sent over<lb/> to Ireland
                   but merely wish to<lb/> have them <hi rend="underline">bought</hi> before the<lb/>
                   price rises - In spring we will<lb/> desire a friend to call for them &amp; bring
-                  them over<lb/></p>
+                  them over<lb/>
+               </p>
             </postscript>
             <!--You can include a <pb/> here, or inside the postScript.-->
             <!-- Format for postscripts. 

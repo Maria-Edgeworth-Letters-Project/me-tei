@@ -47,7 +47,7 @@
                <licence>Distributed under a Creative Commons Attribution-ShareAlike 3.0 Unported
                   License</licence>
             </availability>
-            <idno>Edgeworth_Princeton_RTC01_1814_01_01</idno> 
+            <idno>Edgeworth_Princeton_RTC01_1814_01_01</idno>
          </publicationStmt>
          <seriesStmt>
             <title>Maria Edgeworth Letters Project</title>
@@ -71,13 +71,12 @@
                      <forename>Sarah</forename>
                      <surname>Wedgworth</surname>
                   </persName>
-                     <date>1734-1815</date>, <placeName>Etruria</placeName>, <placeName>Staffordshire</placeName>, 
-                     <date when="1814-01-01">Jan<hi rend = "superscript">y</hi> 1<hi rend = "superscript">st</hi> 1814</date>
+                  <date>1734-1815</date>, <placeName>Etruria</placeName>, <placeName>Staffordshire</placeName>, 
+                     <date when="1814-01-01">Jan<hi rend="superscript">y</hi> 1<hi rend="superscript">st</hi> 1814</date>
                </head>
                <physDesc>
                </physDesc>
             </msDesc>
-            
             <!-- FROM LAURA: where to put the following information in <bibl> is still a question: 
                ask TEI List whether it should be in the sourceDesc or elsewhere? -->
          </sourceDesc>
@@ -88,104 +87,8 @@
                word is split at the end of a line and the beginning of the next in a manuscript. The
                long s and ligatured forms are silently emended.</p>
          </editorialDecl>
-         <classDecl>
-            <taxonomy xml:id="relators">
-               <bibl>Marc Relators</bibl>
-               <category xml:id="aut">
-                  <catDesc>Author</catDesc>
-               </category>
-            </taxonomy>
-            <taxonomy xml:id="lcsh">
-               <bibl>Subjects</bibl>
-               <category>
-                  <catDesc xml:id="AntislaveryMovements">Antislavery movements
-                     <idno type="loc">sh85123315</idno>
-                  </catDesc>
-                  <catDesc xml:id="Birth">Birth
-                     <idno type="loc">sh86004053</idno>
-                  </catDesc>
-                  <catDesc xml:id="Death">Death
-                     <idno type="loc">sh85036085</idno>
-                  </catDesc>
-                  <catDesc xml:id="Education">Education
-                     <idno type="loc">sh85040989</idno>
-                  </catDesc>
-                  <catDesc xml:id="Imperialism">Imperialism
-                     <idno type="loc">sh85064628</idno>
-                  </catDesc>
-                  <catDesc xml:id="FictitiousCharacters">Fictitious characters
-                     <idno type="loc">sh99004183</idno>
-                  </catDesc>
-                  <catDesc xml:id="Marriage">Marriage
-                     <idno type="loc">sh85081416</idno>
-                  </catDesc>
-                  <catDesc xml:id="Nationalism">Nationalism
-                     <idno type="loc">sh85090150</idno>
-                  </catDesc>
-                  <catDesc xml:id="PoliticsAndCulture">Politics and culture
-                     <idno type="loc">sh85104468</idno>
-                  </catDesc>
-                  <catDesc xml:id="Race">Race  
-                     <idno type="loc">sh85110232</idno>
-                  </catDesc>
-                  <catDesc xml:id="Religion">Religion
-                     <idno type="loc">sh85112549</idno>
-                  </catDesc>
-                  <catDesc xml:id="Science">Science
-                     <idno type="loc">sh85118553</idno>
-                  </catDesc>
-                  <catDesc xml:id="Technology">Technology
-                     <idno type="loc">sh85133147</idno>
-                  </catDesc>
-                  <catDesc xml:id="Slavery">Slavery
-                     <idno type="loc">sh85123314</idno>
-                  </catDesc>
-                  <catDesc xml:id="Travel">Travel
-                     <idno type="loc">sh85137149</idno>
-                  </catDesc>
-               </category>
-            </taxonomy>
-            <taxonomy xml:id="works">
-               <bibl>Works</bibl>
-               <category>
-                  <catDesc xml:id="w1">Belinda</catDesc>
-                  <catDesc xml:id="w2">Castle Rackrent</catDesc>
-                  <catDesc xml:id="w3">Comic Dramas, in Three Acts</catDesc>
-                  <catDesc xml:id="w4">Early Lessons</catDesc>
-                  <catDesc xml:id="w5">Essay on Irish Bulls</catDesc>
-                  <catDesc xml:id="w6">Frank: a Sequel to Frank in Early Lessons</catDesc>
-                  <catDesc xml:id="w7">Harrington, a Tale; and Ormond, a Tale</catDesc>
-                  <catDesc xml:id="w8">Harry and Lucy Concluded</catDesc>
-                  <catDesc xml:id="w9">Leonora</catDesc>
-                  <catDesc xml:id="w10">Letters for Literary Ladies</catDesc>
-                  <catDesc xml:id="w11">Moral Tales for Young People</catDesc>
-                  <catDesc xml:id="w12">Moral Tales</catDesc>
-                  <catDesc xml:id="w13">Patronage</catDesc>
-                  <catDesc xml:id="w14">Popular Tales</catDesc>
-                  <catDesc xml:id="w15">Practical Education</catDesc>
-                  <catDesc xml:id="w16">Readings on Poetry</catDesc>
-                  <catDesc xml:id="w17">Ormond</catDesc>
-                  <catDesc xml:id="w18">The Absentee</catDesc>
-                  <catDesc xml:id="w19">Tales of Fashionable Life</catDesc>
-                  <catDesc xml:id="w20">The Contrast</catDesc>
-                  <catDesc xml:id="w21">The Modern Griselda; a Tale</catDesc>
-                  <catDesc xml:id="w22">The Parent's Assistant</catDesc>
-                  <catDesc xml:id="w23">Tomorrow; or the Dangers of Delay</catDesc>
-               </category>
-            </taxonomy>
-         </classDecl>
       </encodingDesc>
       <profileDesc>
-         <textClass>
-            <keywords scheme="">
-               <list type="simple">
-                  <item>English literature</item>
-                  <item>History</item>
-               </list>
-            </keywords>
-            <catRef target="#f7" scheme="#f"/>
-            <catRef target="#hist #el" scheme="locSUB"/>
-         </textClass>
       </profileDesc>
       <revisionDesc>
          <change when="2021-01-01" who="Id_who">
@@ -201,32 +104,52 @@
             <opener>
                <dateline><!--If there's no date line, omit this element. Record in the order in which it is written on the letter.-->
                   <name type="place" ref="Id_where"/>Edgeworth's Town
-                  <date when="1814-01-01">Jan<hi rend = "superscript">y</hi> 1<hi rend = "superscript">st</hi> 1814</date>
+                  <date when="1814-01-01">Jan<hi rend="superscript">y</hi> 1<hi rend="superscript">st</hi> 1814</date>
                </dateline>
             </opener>
             <p><!-- Begin transcibing the body of the letter here. -->
             </p>
             <p>
-               A happy new year to you my dear M<hi rend = "superscript">rs</hi>. <persName ref="WedgS1"><choice><orig>Wedgewood</orig><reg>Wedgwood</reg></choice></persName><lb/>
-               -- to you and yours -- <add>&amp; as a new years gift</add> I have written to <unclear><persName xml:id="Mile2"></persName>Miles</unclear><lb/>
+               A happy new year to you my dear M<hi rend="superscript">rs</hi>. <persName ref="WedgS1">
+                  <choice>
+                     <orig>Wedgewood</orig>
+                     <reg>Wedgwood</reg>
+                  </choice>
+               </persName>
+               <lb/>
+               -- to you and yours -- <add>&amp; as a new years gift</add> I have written to <unclear>
+                  <persName xml:id="Mile2"/>Miles</unclear>
+               <lb/>
                our bookseller to desire that he would forward<lb/>
-               before it is published a set of the new Early <choice><orig>Les<lb/>
-               sons</orig><reg>Lessons</reg></choice> for your little people. I am anxious to<lb/>
+               before it is published a set of the new Early <choice>
+                  <orig>Les<lb/>
+               sons</orig>
+                  <reg>Lessons</reg>
+               </choice> for your little people. I am anxious to<lb/>
                offer you as soon as possible this proof that<lb/>
                your maternal praise and your maternal<lb/>
                eagerness to have more of what you flattered<lb/>
-               us had been useful to your children &amp; <choice><orig>real<lb/>
-               ly</orig><reg>really</reg></choice> operated upon us as a strong motive<lb/>
-               The continuation of <del><unclear></unclear></del> <persName>Rosamond</persName><lb/>
+               us had been useful to your children &amp; <choice>
+                  <orig>real<lb/>
+               ly</orig>
+                  <reg>really</reg>
+               </choice> operated upon us as a strong motive<lb/>
+               The continuation of <del>
+                  <unclear/>
+               </del>
+               <persName>Rosamond</persName>
+               <lb/>
                was begun the day after we reached home<lb/>
                -- I was diverted by your little girls hope<lb/>
-               that <hi rend = "underline">"it would not be just the same thing<lb/>
+               that <hi rend="underline">"it would not be just the same thing<lb/>
                over again".</hi> I trust you will find that it<lb/>
-               is not -- but I rather fear that <del><unclear></unclear></del> as these<lb/>
+               is not -- but I rather fear that <del>
+                  <unclear/>
+               </del> as these<lb/>
                lessons are two or three a steps higher than<lb/>
                the last she will complain of their being<lb/>
-               too difficult - and that she will say to><lb/>
-            <pb n="2" facs="Edgeworth_Princeton_RTC01_1814_01_01_page02.jpg"/>
+               too difficult - and that she will say to&gt;<lb/>
+               <pb n="2" facs="Edgeworth_Princeton_RTC01_1814_01_01_page02.jpg"/>
                me as one of the little <persName>Pakenham</persName>s once said<lb/>
                "Maria E why did you write Rosamond so difficult?"--<lb/>
                Pray if you ever read prefaces, read my<lb/>
@@ -236,98 +159,173 @@
                understand it -- It is quite true that each<lb/>
                Experiment mentioned was tried before<lb/>
                the children of this family &amp; none were<lb/>
-               inserted that were not completely understood<lb/></p>
-               <p>Will you desire my friend in <placeName>London</placeName><lb/>
-               to call for these tiny volumes as perhaps <persName ref="Mile2">Miles</persName><lb/>
+               inserted that were not completely understood<lb/>
+            </p>
+            <p>Will you desire my friend in <placeName>London</placeName>
+               <lb/>
+               to call for these tiny volumes as perhaps <persName ref="Mile2">Miles</persName>
+               <lb/>
                may scruple to send these to you by the<lb/>
-               coach &amp; at the same time <name ref="Mile2"></name><rs>he</rs> will deliver<lb/>
+               coach &amp; at the same time <name ref="Mile2"/>
+               <rs>he</rs> will deliver<lb/>
                to your friend a copy of the second Edition<lb/>
-                  of <hi rend = "underline"><tag source="w15"> Professional Education</tag></hi> which I wish you <lb/>
-               would <del><unclear></unclear></del>present with my respects to<lb/>
-                  <roleName type="nobility"> Sir </roleName><persName ref="McInJ1"> <forename>James</forename> <surname><choice><orig>M<hi rend="superscript">c</hi>Intosh</orig><reg>McIntosh</reg></choice></surname></persName>. I am particularly <choice><orig>an<lb/>
-               -xious</orig><reg>anxious</reg></choice> that <rs>he</rs> should see the second edition<lb/>
+                  of <hi rend="underline">
+                  <tag source="w15"> Professional Education</tag>
+               </hi> which I wish you <lb/>
+               would <del>
+                  <unclear/>
+               </del>present with my respects to<lb/>
+               <roleName type="nobility"> Sir </roleName>
+               <persName ref="McInJ1">
+                  <forename>James</forename>
+                  <surname>
+                     <choice>
+                        <orig>M<hi rend="superscript">c</hi>Intosh</orig>
+                        <reg>McIntosh</reg>
+                     </choice>
+                  </surname>
+               </persName>. I am particularly <choice>
+                  <orig>an<lb/>
+               -xious</orig>
+                  <reg>anxious</reg>
+               </choice> that <rs>he</rs> should see the second edition<lb/>
                of this book because three chapters of it were<lb/>
-                  entirely rewritten &amp; I hope improved - <persName ref= "./Personography.xml#McInJ1">Sir <lb/>
+                  entirely rewritten &amp; I hope improved - <persName ref="./Personography.xml#McInJ1">Sir <lb/>
                James M<hi rend="superscript">c</hi>Intosh</persName> gratified us highly when<lb/>
                 were in London by what he said of the first<lb/>
-            <pb n="3" facs="Edgeworth_Princeton_RTC01_1814_01_01_page03.jpg"/>
-               book which he <add>told us he had</add> seen in <placeName ref= "http://vocab.getty.edu/tgn/7000198">India</placeName> - and I cannot<lb/>
+               <pb n="3" facs="Edgeworth_Princeton_RTC01_1814_01_01_page03.jpg"/>
+               book which he <add>told us he had</add> seen in <placeName ref="http://vocab.getty.edu/tgn/7000198">India</placeName> - and I cannot<lb/>
                help wishing that if <rs>he</rs> allows it a place in<lb/>
                <rs>his</rs> library it should <del>at least</del>be in its least<lb/>
                imperfect state - Indeed it is presuming<lb/>
                a great deal to hope that one whose mind<lb/>
                is so full &amp; whose time is so incessantly<lb/>
                occupied with objects of the first magnitude<lb/>
-               should ever recur to a book like this <del>which</del><lb/>
+               should ever recur to a book like this <del>which</del>
+               <lb/>
                after it had once been read &amp; judged - But<lb/>
                I think perhaps your friendly care may<lb/>
                find some happy moment when to put it<lb/>
-               into his hands open at the chapter <hi rend= "underline"><choice><orig>Educa-<lb/>
-               tion</orig><reg>Education</reg></choice> of men intended for public life</hi> - this &amp;<lb/>
-               the first two chapters in the book on the <choice><orig>ques<lb/>
-               tion</orig><reg>question</reg></choice> of genius are those which were <choice><orig>rewrit-<lb/>
-               ten</orig><reg>rewritten</reg></choice> &amp; to which I wish to direct his attention<lb/></p>
-            <p><persName>Bernadette</persName>'s letter to <persName>Baron <unclear>Caderhead </unclear></persName><lb/>
+               into his hands open at the chapter <hi rend="underline">
+                  <choice>
+                     <orig>Educa-<lb/>
+               tion</orig>
+                     <reg>Education</reg>
+                  </choice> of men intended for public life</hi> - this &amp;<lb/>
+               the first two chapters in the book on the <choice>
+                  <orig>ques<lb/>
+               tion</orig>
+                  <reg>question</reg>
+               </choice> of genius are those which were <choice>
+                  <orig>rewrit-<lb/>
+               ten</orig>
+                  <reg>rewritten</reg>
+               </choice> &amp; to which I wish to direct his attention<lb/>
+            </p>
+            <p>
+               <persName>Bernadette</persName>'s letter to <persName>Baron <unclear>Caderhead </unclear>
+               </persName>
+               <lb/>
                <rs>his</rs> son's preceptor which we have just<lb/>
-               read in to day's paper recalled <title ref= "#Proff1">Prof Ed </title><hi rend= "superscript">n</hi> <lb/>
-               to my mind - as there are so many <choice><orig>sen<lb/>
-               timents</orig><reg>sentiments</reg></choice> in which my father has the<lb/>
+               read in to day's paper recalled <title ref="#Proff1">Prof Ed </title>
+               <hi rend="superscript">n</hi>
+               <lb/>
+               to my mind - as there are so many <choice>
+                  <orig>sen<lb/>
+               timents</orig>
+                  <reg>sentiments</reg>
+               </choice> in which my father has the<lb/>
                honor -- &amp; a real honor it is, to agree with<lb/>
                this great Prince &amp; wise father -- I wish<lb/>
-               that <persName ref= "./Personography.xml#McInJ1">Sir James M<hi rend="superscript">c</hi></persName> had reviewed<lb/>
-             <pb n="4" facs="Edgeworth_Princeton_RTC01_1814_01_01_page04.jpg"/>
-               <title ref= "#Proff1"><hi rend = "underline">Professional Education</hi></title> instead of <persName ref= "./Personography.xml#SmitS1">Sidney Smith</persName><lb/>
-               who in truth did not <hi rend= "underline">review</hi> it in the least<lb/>
-               but merely gave the poor book a <hi rend= "underline">cut or two</hi><lb/>
-               &amp; then went on retailing in an essay of <rs>his</rs><lb/>
+               that <persName ref="./Personography.xml#McInJ1">Sir James M<hi rend="superscript">c</hi>
+               </persName> had reviewed<lb/>
+               <pb n="4" facs="Edgeworth_Princeton_RTC01_1814_01_01_page04.jpg"/>
+               <title ref="#Proff1">
+                  <hi rend="underline">Professional Education</hi>
+               </title> instead of <persName ref="./Personography.xml#SmitS1">Sidney Smith</persName>
+               <lb/>
+               who in truth did not <hi rend="underline">review</hi> it in the least<lb/>
+               but merely gave the poor book a <hi rend="underline">cut or two</hi>
+               <lb/>
+               &amp; then went on retailing in an essay of <rs>his</rs>
+               <lb/>
                own all that my father had said on Classical<lb/>
                literature - Did you ever see this epigram?<lb/>
-               "<persName ref= "./Personography.xml#SmitS1">Sidney Smith</persName>, who reviews by abusing &amp; lying<lb/>
-               "Says this work is <choice><orig>n't</orig><reg>not</reg></choice> worth either borrowing or buying<lb/> 
+               "<persName ref="./Personography.xml#SmitS1">Sidney Smith</persName>, who reviews by abusing &amp; lying<lb/>
+               "Says this work is <choice>
+                  <orig>n't</orig>
+                  <reg>not</reg>
+               </choice> worth either borrowing or buying<lb/> 
                "But the world buys the book &amp; finds out to his sorrow<lb/>
-               "That he's eager to <hi rend= "underline">steal</hi> what he scruples to <hi rend= "underline">borrow</hi><lb/></p>
-               <p><del>Now</del> We did not &amp; do not want the<lb/>
+               "That he's eager to <hi rend="underline">steal</hi> what he scruples to <hi rend="underline">borrow</hi>
+               <lb/>
+            </p>
+            <p>
+               <del>Now</del> We did not &amp; do not want the<lb/>
                book to be praised beyond its deserts or puffed<lb/>
                in any way - but fairly criticised - Then<lb/>
-               we should have profited by its faults <unclear></unclear><lb/>
-               &amp; certainly should have endeavored to <choice><orig>rec<lb/>
-               tify</orig><reg>rectify</reg></choice> <add>them</add> - But we have never had &amp; unless<lb/>
+               we should have profited by its faults <unclear/>
+               <lb/>
+               &amp; certainly should have endeavored to <choice>
+                  <orig>rec<lb/>
+               tify</orig>
+                  <reg>rectify</reg>
+               </choice>
+               <add>them</add> - But we have never had &amp; unless<lb/>
                there should be a new Review of a second<lb/>
-               edition never can have this fair <choice><orig>opportu<lb/>
-               nity</orig><reg>opportunity</reg></choice> of shewing candor &amp; deference for<lb/>
-                  just criticism - If <persName ref= "./Personography.xml#McInJ1">Sir James</persName> has any fair<lb/>
+               edition never can have this fair <choice>
+                  <orig>opportu<lb/>
+               nity</orig>
+                  <reg>opportunity</reg>
+               </choice> of shewing candor &amp; deference for<lb/>
+                  just criticism - If <persName ref="./Personography.xml#McInJ1">Sir James</persName> has any fair<lb/>
                opportunity of expressing <rs>his</rs> sentiments on<lb/>
                any parts of this book, particularly on those<lb/>
                which have been rewritten I do not scruple<lb/>
                to ask <rs>him</rs> in direct terms to do so - not as<lb/>
                a favor - but as an act of justice; in which<lb/>
                I think he would take pride &amp; pleasure<lb/>
-            <pb n="5" facs="Edgeworth_Princeton_RTC01_1814_01_01_page05.jpg"/>
+               <pb n="5" facs="Edgeworth_Princeton_RTC01_1814_01_01_page05.jpg"/>
                -- Give my love to your happy family &amp;<lb/>
-               be assured that if ever we come to <placeName ref="http://vocab.getty.edu/tgn/7002445">England</placeName><lb/>
+               be assured that if ever we come to <placeName ref="http://vocab.getty.edu/tgn/7002445">England</placeName>
+               <lb/>
                again we shall visit you &amp; we trust that<lb/>
                if any of your family come to <placeName ref="http://vocab.getty.edu/tgn/7001181">Ireland </placeName>they
                will carry on the old family &amp; friendship<lb/>
-               <persName ref= "./Personography.xml#EdgeR1"> My father</persName> &amp; <persName ref= "./Personography.xml#EdgeF2">M<hi rend= "superscript">rs</hi>. Edgeworth</persName> &amp; <persName ref= "./Personography.xml#SneyC1">Sneyd</persName> join<lb/>
-               in all I say - <persName ref= "./Personography.xml#SneyC1">Sneyd</persName> is as happy <add>as man can be</add> with his<lb/>
+               <persName ref="./Personography.xml#EdgeR1"> My father</persName> &amp; <persName ref="./Personography.xml#EdgeF2">M<hi rend="superscript">rs</hi>. Edgeworth</persName> &amp; <persName ref="./Personography.xml#SneyC1">Sneyd</persName> join<lb/>
+               in all I say - <persName ref="./Personography.xml#SneyC1">Sneyd</persName> is as happy <add>as man can be</add> with his<lb/>
                bride - I should say with his wife - for the<lb/>
                wife is dearer than the bride -<lb/>
             </p>
             <closer>
                Yours affectionately<lb/>
-               <persName ref= "./Personography.xml#EdgeM1">  Maria Edgeworth</persName><lb/> 
+               <persName ref="./Personography.xml#EdgeM1">  Maria Edgeworth</persName>
+               <lb/>
             </closer>
             <pb n="6" facs="Edgeworth_Princeton_RTC01_1814_01_01_page06.jpg"/>
             <closer>
                <address>
-                  <addrLine>Longford January Six</addrLine><lb/>
-                  <addrLine>1814</addrLine><lb/>
-                  <addrLine><hi rend = "underline">To</hi></addrLine><lb/>
-                  <addrLine><persName ref= "./Personography.xml#WedgS1">M<hi rend = "superscript">rs</hi> Jos. Wedgewood</persName></addrLine><lb/>
-                  <addrLine>Etruria</addrLine><lb/>
-                  <addrLine>Staffordshire</addrLine><lb/>
-                  <addrLine><hi rend = "underline">Forbes</hi></addrLine><lb/>
-                  <note place= "bottom">Miss Edgeworth</note>
+                  <addrLine>Longford January Six</addrLine>
+                  <lb/>
+                  <addrLine>1814</addrLine>
+                  <lb/>
+                  <addrLine>
+                     <hi rend="underline">To</hi>
+                  </addrLine>
+                  <lb/>
+                  <addrLine>
+                     <persName ref="./Personography.xml#WedgS1">M<hi rend="superscript">rs</hi> Jos. Wedgewood</persName>
+                  </addrLine>
+                  <lb/>
+                  <addrLine>Etruria</addrLine>
+                  <lb/>
+                  <addrLine>Staffordshire</addrLine>
+                  <lb/>
+                  <addrLine>
+                     <hi rend="underline">Forbes</hi>
+                  </addrLine>
+                  <lb/>
+                  <note place="bottom">Miss Edgeworth</note>
                </address>
             </closer>
          </div>

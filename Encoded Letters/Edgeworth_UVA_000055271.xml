@@ -57,7 +57,7 @@
                   License</licence>
             </availability>
             <idno><!--Change to match the file name and current naming standards, i.e. "Edgeworth_Beinecke_330_1817_01_24" if file name is "Edgeworth_Beinecke_330_1817_01_24.xml"-->
-               Edgeworth_UVA_000055271</idno> 
+               Edgeworth_UVA_000055271</idno>
          </publicationStmt>
          <seriesStmt>
             <title>Maria Edgeworth Letters Project</title>
@@ -70,7 +70,6 @@
                   <collection><!-- Enter specific archival collection if applicable--></collection>
                   <idno type="NAF"><!--Consult library or WorldCat for this info-->nr2002025275</idno>
                </msIdentifier>
-               
                <!-- FROM LAURA: it's here (below) in the head that I added the full information about the author,
                   and you could add full information about the addressee as well. -->
                <head>Letter from 
@@ -81,8 +80,10 @@
                      <idno type="VIAF">71477273</idno>
                      <idno type="SNAC">62567029</idno>
                   </persName>
-                  to <persName ref="./Personography.xml#TalfT1"><forename>Thomas</forename>
-                  <surname>Talfourd</surname></persName>, 
+                  to <persName ref="./Personography.xml#TalfT1">
+                     <forename>Thomas</forename>
+                     <surname>Talfourd</surname>
+                  </persName>, 
                   <placeName><!--Location where letter was sent-->Vicarage Town</placeName>, 
                   <date when="1111-01-01"><!-- Transcribe the date as it appears on the letter itself. Enter a numeric standardized date value in @when. --></date>
                </head>
@@ -90,10 +91,8 @@
                   <!-- optional physical description of the letter goes here: paper size and condition, seal, postmarks, etc.-->
                </physDesc>
             </msDesc>
-            
             <!-- FROM LAURA: where to put the following information in <bibl> is still a question: 
                ask TEI List whether it should be in the sourceDesc or elsewhere? -->
-            
             <bibl>In addition to our edited version, this letter was previously published in
                <!--complete bibiographical info if letter was published in a book here - if not delete-->
             </bibl>
@@ -109,92 +108,6 @@
                word is split at the end of a line and the beginning of the next in a manuscript. The
                long s and ligatured forms are silently emended.</p>
          </editorialDecl>
-         <classDecl>
-            <taxonomy xml:id="relators">
-               <bibl>Marc Relators</bibl>
-               <category xml:id="aut">
-                  <catDesc>Author</catDesc>
-               </category>
-            </taxonomy>
-            <taxonomy xml:id="lcsh">
-               <bibl>Subjects</bibl>
-               <category>
-                  <catDesc xml:id="AntislaveryMovements">Antislavery movements
-                     <idno type="loc">sh85123315</idno>
-                  </catDesc>
-                  <catDesc xml:id="Birth">Birth
-                     <idno type="loc">sh86004053</idno>
-                  </catDesc>
-                  <catDesc xml:id="Death">Death
-                     <idno type="loc">sh85036085</idno>
-                  </catDesc>
-                  <catDesc xml:id="Education">Education
-                     <idno type="loc">sh85040989</idno>
-                  </catDesc>
-                  <catDesc xml:id="Imperialism">Imperialism
-                     <idno type="loc">sh85064628</idno>
-                  </catDesc>
-                  <catDesc xml:id="FictitiousCharacters">Fictitious characters
-                     <idno type="loc">sh99004183</idno>
-                  </catDesc>
-                  <catDesc xml:id="Marriage">Marriage
-                     <idno type="loc">sh85081416</idno>
-                  </catDesc>
-                  <catDesc xml:id="Nationalism">Nationalism
-                     <idno type="loc">sh85090150</idno>
-                  </catDesc>
-                  <catDesc xml:id="PoliticsAndCulture">Politics and culture
-                     <idno type="loc">sh85104468</idno>
-                  </catDesc>
-                  <catDesc xml:id="Race">Race  
-                     <idno type="loc">sh85110232</idno>
-                  </catDesc>
-                  <catDesc xml:id="Religion">Religion
-                     <idno type="loc">sh85112549</idno>
-                  </catDesc>
-                  <catDesc xml:id="Science">Science
-                     <idno type="loc">sh85118553</idno>
-                  </catDesc>
-                  <catDesc xml:id="Technology">Technology
-                     <idno type="loc">sh85133147</idno>
-                  </catDesc>
-                  <catDesc xml:id="Slavery">Slavery
-                     <idno type="loc">sh85123314</idno>
-                  </catDesc>
-                  <catDesc xml:id="Travel">Travel
-                     <idno type="loc">sh85137149</idno>
-                  </catDesc>
-               </category>
-            </taxonomy>
-            <taxonomy xml:id="works">
-               <bibl>Works</bibl>
-               <category>
-                  <catDesc xml:id="w1">Belinda</catDesc>
-                  <catDesc xml:id="w2">Castle Rackrent</catDesc>
-                  <catDesc xml:id="w3">Comic Dramas, in Three Acts</catDesc>
-                  <catDesc xml:id="w4">Early Lessons</catDesc>
-                  <catDesc xml:id="w5">Essay on Irish Bulls</catDesc>
-                  <catDesc xml:id="w6">Frank: a Sequel to Frank in Early Lessons</catDesc>
-                  <catDesc xml:id="w7">Harrington, a Tale; and Ormond, a Tale</catDesc>
-                  <catDesc xml:id="w8">Harry and Lucy Concluded</catDesc>
-                  <catDesc xml:id="w9">Leonora</catDesc>
-                  <catDesc xml:id="w10">Letters for Literary Ladies</catDesc>
-                  <catDesc xml:id="w11">Moral Tales for Young People</catDesc>
-                  <catDesc xml:id="w12">Moral Tales</catDesc>
-                  <catDesc xml:id="w13">Patronage</catDesc>
-                  <catDesc xml:id="w14">Popular Tales</catDesc>
-                  <catDesc xml:id="w15">Practical Education</catDesc>
-                  <catDesc xml:id="w16">Readings on Poetry</catDesc>
-                  <catDesc xml:id="w17">Ormond</catDesc>
-                  <catDesc xml:id="w18">The Absentee</catDesc>
-                  <catDesc xml:id="w19">Tales of Fashionable Life</catDesc>
-                  <catDesc xml:id="w20">The Contrast</catDesc>
-                  <catDesc xml:id="w21">The Modern Griselda; a Tale</catDesc>
-                  <catDesc xml:id="w22">The Parent's Assistant</catDesc>
-                  <catDesc xml:id="w23">Tomorrow; or the Dangers of Delay</catDesc>
-               </category>
-            </taxonomy>
-         </classDecl>
       </encodingDesc>
       <profileDesc>
          <correspDesc>
@@ -205,16 +118,6 @@
                <persName><!--RECIPIENT NAME-->Thomas Talfourd</persName>
             </correspAction>
          </correspDesc>
-         <textClass>
-            <keywords scheme="">
-               <list type="simple">
-                  <item>English literature</item>
-                  <item>History</item>
-               </list>
-            </keywords>
-            <catRef target="#f7" scheme="#f"/>
-            <catRef target="#hist #el" scheme="locSUB"/>
-         </textClass>
       </profileDesc>
       <revisionDesc>
          <change when="2021-01-01" who="Id_who">
@@ -246,13 +149,16 @@
                to lie flat - It was while<lb/>
                I was in this condition that I<lb/>
                received your most kind &amp;<lb/>
-               valuable present - all the <choice><orig>pre-<lb/>
-               cautions</orig><reg>precautions</reg></choice> you took to ensure<lb/>
+               valuable present - all the <choice>
+                  <orig>pre-<lb/>
+               cautions</orig>
+                  <reg>precautions</reg>
+               </choice> you took to ensure<lb/>
                its reaching me safely &amp; free<lb/>
-               perfectly succeeded and I <hi rend = "underline">was</hi><lb/>
+               perfectly succeeded and I <hi rend="underline">was</hi>
+               <lb/>
                and am much flattered by<lb/>
                your attention and obliged by your<lb/>
-               
                <pb n="2" facs="Edgeworth_UVA_000055271_page02.jpg"/>
                Memorial of Kindness from the<lb/>
                Author - I like the <title ref="https://www.wikidata.org/wiki/Q110355491">Athenian<lb/>
@@ -264,8 +170,11 @@
                I am particularly obliged<lb/>
                by your intention to introduce<lb/>
                my name by hook or by crook<lb/>
-               among your grateful <choice><orig>corres<lb/>
-               pondents</orig><reg>correspondents</reg></choice> - and I am sure<lb/>
+               among your grateful <choice>
+                  <orig>corres<lb/>
+               pondents</orig>
+                  <reg>correspondents</reg>
+               </choice> - and I am sure<lb/>
                that whatever way you do it<lb/>
                will be best and therefore I beg<lb/>
                you to say what you please, of<lb/>
@@ -278,37 +187,35 @@
                interest in copy copyright as I have not<lb/>
                sold that of <title ref="https://www.wikidata.org/wiki/Q16385982">Helen</title> - but I have given<lb/>
                leave to <persName ref="./Personography.xml#BentR1">Bentley</persName> to print a stereotype<lb/>
-               Ed<hi rend = "superscript">n</hi>. &amp; I think that comes pretty<lb/>
+               Ed<hi rend="superscript">n</hi>. &amp; I think that comes pretty<lb/>
                nearly to the same thing - I only<lb/>
-               
                <pb n="3" facs="Edgeworth_UVA_000055271_page03.jpg"/>   
                mention this for accuracy's sake<lb/>
                - that you may if you think it<lb/>
                worth while frame your sentence<lb/>
                so as to assert that <persName ref="./Personography.xml#EdgeM1">Miss E</persName> has<lb/>
-               <hi rend = "underline">little or no</hi> personal interest<lb/>
+               <hi rend="underline">little or no</hi> personal interest<lb/>
                in the matter -<lb/>
             </p>
-               <p>
+            <p>
                   I am so shamefully ignorant as<lb/>
                   to my own business concerning<lb/>
                   copyright (which was always<lb/>
                   managed for me by <persName ref="./Personography.xml#EdgeR1">my father</persName> while<lb/>
                   he lived) that I have at last resolved<lb/>
                   to write to my old publisher poor<lb/>
-                  <persName>Hunter Johnsons</persName> nephew to ask<lb/>
+               <persName>Hunter Johnsons</persName> nephew to ask<lb/>
                   him to inform me how the<lb/>
                   matter stands as far as he can<lb/>
                   recollect or find out by his papers<lb/>
-               </p>
+            </p>
             <p>
                The inclosed letter, which I<lb/>
                take the liberty to beg you will<lb/>
-               have put with the 2<hi rend = "superscript">d</hi> post for me<lb/>
+               have put with the 2<hi rend="superscript">d</hi> post for me<lb/>
                is to ask these questions &amp; if I<lb/>
                find that any good comes of them<lb/>
                for<lb/>
-               
                <pb n="4" facs="Edgeworth_UVA_000055271_page04.jpg"/>     
                me I shall presume so far upon<lb/>
                your kind interest as to let<lb/>
@@ -324,18 +231,22 @@
                <!--include linebreaks, if used. example: <closer> Yours<lb/> Very sincerely<lb/> -->
                Dear Sir<lb/>
                Yours gratefully<lb/>
-               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName><lb/>
+               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
+               <lb/>
             </closer>
             <postscript>
                <p><!--A postscript goes here, outside the <closer>. -->
-                  <hi rend = "underline"><placeName>Vicarage Town</placeName></hi><lb/>
-                  <persName ref="./Personography.xml#ButlX1">M<hi rend = "superscript">r</hi>. Butler</persName>, my brother in law,<lb/>
+                  <hi rend="underline">
+                     <placeName>Vicarage Town</placeName>
+                  </hi>
+                  <lb/>
+                  <persName ref="./Personography.xml#ButlX1">M<hi rend="superscript">r</hi>. Butler</persName>, my brother in law,<lb/>
                   from whose house I write<lb/>
                   was a school fellow of<lb/>
                   yours at <placeName ref="http://vocab.getty.edu/tgn/7011918">Reading</placeName> and<lb/>
                   hopes (&amp; so do I) that you<lb/>
                   remember him - He is<lb/>
-                  naturally proud of you<lb/>               
+                  naturally proud of you<lb/>
                </p>
             </postscript>
             <!--You can include a <pb/> here, or inside the postScript.-->
