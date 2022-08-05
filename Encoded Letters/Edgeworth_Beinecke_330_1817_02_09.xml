@@ -6,7 +6,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Letter from Maria Edgeworth to Mrs. Miles February 09, 1817</title>
+                <title>Letter from Maria Edgeworth to Mrs. Miles February 19, 1817</title>
                 <author>Maria Edgeworth</author>
                 <editor ref="Id_who">
                     <persName ref="Id_who">Eliza Wilcox</persName>
@@ -26,12 +26,12 @@
                 </respStmt>
             </titleStmt>
             <editionStmt>
-                <edition>First digital edition in TEI, date: <date when="2022-08-04"> 2022-08-04 </date>
+                <edition>First digital edition in TEI, date: <date when="2022-08-02"> 2022-08-02 </date>
                 </edition>
                 <respStmt>
                     <orgName ref="http://id.loc.gov/authorities/names/n80097790">Beinecke Rare Book and Manuscript Library</orgName>
-                    <resp> photos include: Edgeworth_Beinecke_330_1817_02_09_page01
-                        Edgeworth_Beinecke_1817_02_09_page02
+                    <resp> photos include: Edgeworth_Beinecke_330_1817_02_19_page01,
+                        Edgeworth_Beinecke_330_1817_02_19_page02
                     </resp>
                 </respStmt>
             </editionStmt>
@@ -39,11 +39,11 @@
                 <authority>Maria Edgeworth Letters Project</authority>
                 <date>2022</date>
                 <availability>
-                    <p>Reproduced by courtesy of the <orgName ref="http://id.loc.gov/authorities/names/n80097790">Beinecke Rare Book and Manuscript Library</orgName></p>
+                    <p>Reproduced by courtesy of the <orgName ref="http://id.loc.gov/authorities/names/n80097790">Beinecke Rare Book and Manuscript Library</orgName>. </p>
                     <licence>Distributed under a Creative Commons Attribution-ShareAlike 3.0 Unported
                         License</licence>
                 </availability>
-                <idno>Edgeworth_Beinecke_330_1817_02_09</idno>
+                <idno>Edgeworth_Beinecke_330_1817_02_19</idno>
             </publicationStmt>
             <seriesStmt>
                 <title>Maria Edgeworth Letters Project</title>
@@ -55,17 +55,11 @@
                         <collection>Maria Edgeworth Collection</collection>
                         <idno><!--Consult library or WorldCat for this info--></idno>
                     </msIdentifier>
-                    
-                    <!-- FROM LAURA: it's here (below) in the head that I added the full information about the author,
-                  and you could add full information about the addressee as well. -->
-                    <head>Letter from <persName xml:id="ME" from="1768" to="1849">
+                    <head>Letter from <persName ref="./Personography.xml#EdgeM1">
                         <forename>Maria</forename>
-                        <surname>Edgworth</surname>
-                        <date>1768-1849</date>
-                        <idno type="VIAF">71477273</idno>
-                        <idno type="SNAC">62567029</idno>
-                    </persName> to <persName>Mrs. Miles</persName>
-                    <date when="1817-02-09">February 09, 1817</date>
+                        <surname>Edgeworth</surname>
+                    </persName> to <persName ref="./Personography.xml#MileX1">Mrs. Miles</persName>,
+                        <date when="1817-02-19">February 19, 1817</date>
                     </head>
                     <physDesc>
                         <!-- optional physical description of the letter goes here: paper size and condition, seal, postmarks, etc.-->
@@ -159,34 +153,6 @@
                         <catDesc xml:id="w23">Tomorrow; or the Dangers of Delay</catDesc>
                     </category>
                 </taxonomy>
-                <taxonomy xml:id="people">
-                    <bibl>People</bibl>
-                    <category>
-                        <catDesc xml:id="BabbageCharles">Babbage, Charles, 1791-1871 <idno type="loc"
-                            >n50031102</idno>
-                        </catDesc>
-                        <catDesc xml:id="BarbauldAL">Barbauld, Mrs. (Anna Letitia), 1743-1825 <idno
-                            type="loc">n84136092</idno>
-                        </catDesc>
-                        <catDesc xml:id="EdgeworthRL">Edgeworth, Richard Lovell, 1744-1817 <idno
-                            type="loc">n79061007</idno>
-                        </catDesc>
-                        <catDesc xml:id="EdgeworthM">Edgeworth, Maria, 1768-1849 <idno type="loc"
-                            >n79061006</idno>
-                            <date>1768-1849</date>
-                            <idno type="VIAF">71477273</idno>
-                            <idno type="SNAC">62567029</idno>
-                        </catDesc>
-                        <catDesc xml:id="RobinsonM">Robinson, Mary, 1758-1800 <idno type="loc"
-                            >n83122576</idno>
-                            <idno type="VIAF">9888105</idno>
-                            <idno type="SNAC">32125250</idno>
-                        </catDesc>
-                        <catDesc xml:id="BurneyF">Burney, Fanny, 1752-1840 <idno type="loc"
-                            >n80075853</idno>
-                        </catDesc>
-                    </category>
-                </taxonomy>
                 <taxonomy xml:id="places">
                     <bibl>Places</bibl>
                     <category>
@@ -238,7 +204,7 @@
                         <name type="place" ref="Id_where"/>Edgeworthstown
                         <date when="1817-02-19"/>Feb<hi rend="superscript">y</hi> 19, 1817<lb/></dateline>
                     <salute>
-                        My dear <persName xml:id="MileX1">M<hi rend="superscript">rs</hi>. Miles</persName><lb/>
+                        My dear <persName ref="./Personography#MileX1">M<hi rend="superscript">rs</hi>. Miles</persName><lb/>
                     </salute>
                 </opener>
                 <p> I am very much obliged<lb/>
@@ -248,7 +214,7 @@
                     which I received this morning<lb/>
                     &amp; I think that the porter who<lb/>
                     carried it from the hands<lb/>
-                    of your messenger to <persName xml:id="CrewX1">M<hi rend="superscript">r</hi>.<lb/>
+                    of your messenger to <persName ref="./Personography#CrewX1">M<hi rend="superscript">r</hi>.<lb/>
                         Crewe</persName>, must have it, or else<lb/>
                     perhaps your messenger.<lb/></p>
                 <p> I think by standing out<lb/>
@@ -258,11 +224,11 @@
                     think it was lost between<lb/>
                     <pb n="2" facs="Edgeworth_Beinecke_330_1817_02_19_page02.jpg"/> 
                     the door of the Advance<lb/>
-                    office &amp; <persName xml:id="CrewX1">M<hi rend="superscript">r</hi>. Crewe</persName> -<lb/></p>
+                    office &amp; <persName ref="./Personography#CrewX1">M<hi rend="superscript">r</hi>. Crewe</persName> -<lb/></p>
              <closer> 
                  I am dear Madam -<lb/>
                  your obliged &amp; faithful<lb/>
-                 <persName xml:id="EdgeM1">Maria <hi rend="underline">Edgeworth</hi></persName><lb/>
+                 <persName ref="./Personography#EdgeM1">Maria <hi rend="underline">Edgeworth</hi></persName><lb/>
                 </closer>
                 <postscript>
                     <p>PS. I received your letter<lb/>
