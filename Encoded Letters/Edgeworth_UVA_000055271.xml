@@ -74,14 +74,14 @@
                <!-- FROM LAURA: it's here (below) in the head that I added the full information about the author,
                   and you could add full information about the addressee as well. -->
                <head>Letter from 
-                  <persName xml:id="EdgeM1" from="1768" to="1849">
+                  <persName ref="./Personography.xml#EdgeM1">
                      <forename>Maria</forename>
                      <surname>Edgeworth</surname>
                      <date>1768-1849</date>
                      <idno type="VIAF">71477273</idno>
                      <idno type="SNAC">62567029</idno>
                   </persName>
-                  to <persName xml:id="TalfT1" from="1795" to="1854"><forename>Thomas</forename>
+                  to <persName ref="./Personography.xml#TalfT1"><forename>Thomas</forename>
                   <surname>Talfourd</surname></persName>, 
                   <placeName><!--Location where letter was sent-->Vicarage Town</placeName>, 
                   <date when="1111-01-01"><!-- Transcribe the date as it appears on the letter itself. Enter a numeric standardized date value in @when. --></date>
@@ -255,7 +255,7 @@
                
                <pb n="2" facs="Edgeworth_UVA_000055271_page02.jpg"/>
                Memorial of Kindness from the<lb/>
-               Author - I like the <title>Athenian<lb/>
+               Author - I like the <title ref="https://www.wikidata.org/wiki/Q110355491">Athenian<lb/>
                Capture</title> very much - and<lb/>
                hope you will keep the copyright<lb/>
                to yourself.<lb/>
@@ -276,8 +276,8 @@
                as to the exact truth of the matter<lb/>
                that I have some little scrap of<lb/>
                interest in copy copyright as I have not<lb/>
-               sold that of <title>Helen</title> - but I have given<lb/>
-               leave to <persName>Bentley</persName> to print a stereotype<lb/>
+               sold that of <title ref="https://www.wikidata.org/wiki/Q16385982">Helen</title> - but I have given<lb/>
+               leave to <persName ref="./Personography.xml#BentR1">Bentley</persName> to print a stereotype<lb/>
                Ed<hi rend = "superscript">n</hi>. &amp; I think that comes pretty<lb/>
                nearly to the same thing - I only<lb/>
                
@@ -285,7 +285,7 @@
                mention this for accuracy's sake<lb/>
                - that you may if you think it<lb/>
                worth while frame your sentence<lb/>
-               so as to assert that <persName>Miss E</persName> has<lb/>
+               so as to assert that <persName ref="./Personography.xml#EdgeM1">Miss E</persName> has<lb/>
                <hi rend = "underline">little or no</hi> personal interest<lb/>
                in the matter -<lb/>
             </p>
@@ -293,7 +293,7 @@
                   I am so shamefully ignorant as<lb/>
                   to my own business concerning<lb/>
                   copyright (which was always<lb/>
-                  managed for me by <persName>my father</persName> while<lb/>
+                  managed for me by <persName ref="./Personography.xml#EdgeR1">my father</persName> while<lb/>
                   he lived) that I have at last resolved<lb/>
                   to write to my old publisher poor<lb/>
                   <persName>Hunter Johnsons</persName> nephew to ask<lb/>
@@ -324,15 +324,15 @@
                <!--include linebreaks, if used. example: <closer> Yours<lb/> Very sincerely<lb/> -->
                Dear Sir<lb/>
                Yours gratefully<lb/>
-               <persName>Maria Edgeworth</persName><lb/>
+               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName><lb/>
             </closer>
             <postscript>
                <p><!--A postscript goes here, outside the <closer>. -->
                   <hi rend = "underline"><placeName>Vicarage Town</placeName></hi><lb/>
-                  <persName>M<hi rend = "superscript">r</hi>. Butler</persName>, my brother in law,<lb/>
+                  <persName ref="./Personography.xml#ButlX1">M<hi rend = "superscript">r</hi>. Butler</persName>, my brother in law,<lb/>
                   from whose house I write<lb/>
                   was a school fellow of<lb/>
-                  yours at <placeName>Reading</placeName> and<lb/>
+                  yours at <placeName ref="http://vocab.getty.edu/tgn/7011918">Reading</placeName> and<lb/>
                   hopes (&amp; so do I) that you<lb/>
                   remember him - He is<lb/>
                   naturally proud of you<lb/>               
