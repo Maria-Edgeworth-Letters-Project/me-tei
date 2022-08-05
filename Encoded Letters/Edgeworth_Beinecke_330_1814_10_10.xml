@@ -204,9 +204,9 @@
                 <!--filenames for photos associated with this letter. Example: <pb n="1" facs="image1.jpg image2.jpg image3.jpg"/> -->
                 <opener>
                     <dateline><!--If there's no date line, omit this element. Record in the order in which it is written on the letter.-->
-                        <name type="place" ref="EdgeworthsTown"/>Edgeworth's Town<lb/>
+                        <name type="place" ref="http://vocab.getty.edu/tgn/1042937"/>Edgeworth's Town<lb/>
                         <date when="1814-10-10"/>October 10, 1814<lb/></dateline>
-                    <salute> Dear Madam,<lb/>
+                    <salute> Dear <persName ref="./Personography.xml#MileX1">Madam</persName>,<lb/>
                     </salute>
                 </opener>
                 <p> Inclosed I send a draft<lb/>
@@ -220,7 +220,7 @@
                     the enclosed note which I<lb/>
                     have written expressly to <choice><orig>re<lb/>
                         proach</orig><reg>reproach</reg></choice> her with sending the<lb/>
-                    dresses in a box to <placeName>Ireland in</placeName><lb/>
+                    dresses in a box to <placeName ref="http://vocab.getty.edu/tgn/7001181">Ireland in</placeName><lb/>
                     stead of sending them to you as<lb/>
                     had been desired &amp; I have <choice><orig>request<lb/>
                         ed</orig><reg>requested</reg></choice>that she will never do so<lb/>
@@ -264,15 +264,15 @@
                     may be as I want it for sashes<lb/>
                     for my <unclear>sasnet</unclear> gown of this color<lb/></p>
                 <p> I rejoice to hear that you<lb/>
-                    like the continuation of <title ref="#w4">Early Lessons</title><lb/>
+                    like the continuation of <title ref="https://www.wikidata.org/wiki/Q80031478">Early Lessons</title><lb/>
                     the most agreeable compliments<lb/>
                     we ever have or ever shall receive<lb/>
                     are those which we are sometimes<lb/>
                     so fortunate to hear from really<lb/>
                     good mothers who are interestd<lb/>
                     upon the education of their children<lb/></p>
-                <p> Pray if the <title><hi rend="underline">Robins petition</hi></title> or the<lb/>
-                    songs in the <title><hi rend="underline">Knapsack</hi></title> have been set to<lb/>
+                <p> Pray if the <title ref="https://www.wikidata.org/wiki/Q80031478"><hi rend="underline">Robins petition</hi></title> or the<lb/>
+                    songs in the <title ref="https://www.wikidata.org/wiki/Q80031478"><hi rend="underline">Knapsack</hi></title> have been set to<lb/>
                     music make <persName ref="./Personography.xml#MileX1">M<hi rend="superscript">rs</hi>. Miles</persName> sent them to<lb/>
                     me as a Christmas box for one of my<lb/>
                     little sisters <persName ref="./Personography.xml#RuxtS1">(Sophy)</persName> who has an agreeable<lb/>
