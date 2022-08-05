@@ -59,7 +59,7 @@
                         <forename>Maria</forename>
                         <surname>Edgeworth</surname>
                     </persName> to <persName ref="./Personography.xml#MileX1">Mrs. Miles</persName>,
-                        <placeName>St. Paul's Churchyard, London</placeName>, <date
+                        <placeName ref="https://www.geonames.org/7117502/st-paul-s-churchyard.html">St. Paul's Churchyard, London</placeName>, <date
                             when="1812-02-20">February 20, 1812</date>
                     </head>
                     <physDesc>
@@ -204,7 +204,7 @@
                     <dateline><!--If there's no date line, omit this element. Record in the order in which it is written on the letter.-->
                         <name type="place" ref="Id_where"/>
                         <date when="1812-02-20"/>February 20, 1812</dateline>
-                    <salute> To <persName xml:id="MileX1">Mrs. Miles</persName>
+                    <salute> To <persName ref="./Personography#MileX1">Mrs. Miles</persName>
                     </salute>
                 </opener>
                 <pb n="2" facs="Edgeworth_Beinecke_330_1812_07_22_page02.jpg"/>           
@@ -216,9 +216,9 @@
                     thin paper as may be conve<lb/>
                     nient, to <persName ref="./Personography.xml#HamiX1">M<hi rend="superscript">rs</hi>. Hamilton</persName>, <del>who</del><lb/>
                     <del>is a</del> who will bring them<lb/>
-                    over to <placeName>Ireland</placeName>.</p><lb/>
+                    over to <placeName ref="http://vocab.getty.edu/tgn/7001181">Ireland</placeName>.</p><lb/>
                 <closer>
-                    Edgeworth Town<lb/>
+                    <placeName ref="http://vocab.getty.edu/tgn/1042937">Edgeworth Town<lb/>
                     Feb[superscript]r[/superscript]: 20[superscript]th[/superscript].1812<lb/>
                 </closer>
                 <!--You can include a <pb/> here, or inside the postScript.-->
@@ -230,7 +230,7 @@
                         <pb n="1" facs="Edgeworth_Beinecke_330_1812_02_20_page01.jpg"/>
                         <persName ref="./Personography.xml#MileX1">M<hi rend="superscript">rs</hi> Miles</persName><addrLine/>
                         <persName>Johnson &amp; C<hi rend="superscript">o</hi>.</persName><addrLine/>
-                        <placeName>S<hi rend="superscript">t</hi>. Pauls Church Yard
+                        <placeName ref="https://www.geonames.org/7117502/st-paul-s-churchyard.html">S<hi rend="superscript">t</hi>. Pauls Church Yard
                             London</placeName><addrLine/>
                     </address>
                 </closer>
