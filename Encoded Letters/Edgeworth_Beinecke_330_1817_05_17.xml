@@ -100,7 +100,7 @@
                      <forename>Elizabeth</forename>
                      <surname>Inchbald</surname>
                   </persName>
-                  <placeName>Edgeworthstown, Ireland</placeName>, <date when="1817-05-17">May 17,
+                  <placeName ref="http://vocab.getty.edu/tgn/1042937">Edgeworthstown, Ireland</placeName>, <date when="1817-05-17">May 17,
                      1817</date>
                </head>
                <physDesc>
@@ -260,21 +260,18 @@
             <!--filenames for photos associated with this letter. Example: <pb n="1" facs="image1.jpg image2.jpg image3.jpg"/> -->
             <opener>
                <dateline><!--If there's no date line, omit this element. Record in the order in which it is written on the letter.-->
-                  <name type="place" ref="Id_where"><choice>
+                  <placeName ref="http://vocab.getty.edu/tgn/1042937"><choice>
                         <orig>Edgeworth's Town</orig>
                         <reg>Edgeworthstown</reg>
-                     </choice></name>
+                     </choice></placeName>
                   <date when="1817-05-17"/>May 17<hi rend="superscript">th</hi>. 1817. </dateline>
                <salute>
-                  <persName>
                      <!-- Use if letter has a saluation ("Dear Sir," for example). If not, delete this line.-->
-                     My dear <choice>
-                        <orig>M<hi rend="superscript">rs</hi>. Inchbald</orig>
-                        <reg>Elizabeth Inchbald</reg>
-                     </choice> - </persName>
+                  My dear <persName ref="./Personography.xml#InchE1"><choice><orig>M<hi rend="superscript">rs</hi>. Inchbald</orig>
+                     <reg>Elizabeth Inchbald</reg></choice></persName>- 
                </salute>
             </opener>
-            <p>I am really anxious to<lb/> hear your opinion of my<lb/> little <title>Comic
+            <p>I am really anxious to<lb/> hear your opinion of my<lb/> little <title ref="https://www.wikidata.org/wiki/Q78219472">Comic
                   dramas</title> – because<lb/> you are one of the very few persons in the<lb/>
                world who <hi rend="underline">can</hi> form a <choice>
                   <orig>de-<lb/> cided</orig>
@@ -302,7 +299,7 @@
                      <orig>M<hi rend="superscript">rs</hi>. Inchbald</orig>
                      <reg>Elizabeth Inchbald</reg>
                   </choice></persName><lb/> 
-               than from any person in <placeName>England</placeName>.<lb/></p>
+               than from any person in <placeName ref="http://vocab.getty.edu/tgn/7002445">England</placeName>.<lb/></p>
             <closer>
                <!--include linebreaks, if used. example: <closer> Yours<lb/> Very sincerely<lb/> -->
                <!-- FROM LAURA: you can put the role attribute into name or persName tags In the first instance, 
