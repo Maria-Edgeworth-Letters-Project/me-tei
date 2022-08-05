@@ -26,7 +26,7 @@
                 </respStmt>
             </titleStmt>
             <editionStmt>
-                <edition>First digital edition in TEI, date: <date when="2022-01-01"> 2022-07-28 </date>
+                <edition>First digital edition in TEI, date: <date when="2022-07-28"> 2022-07-28 </date>
                 </edition>
                 <respStmt>
                     <orgName ref="http://id.loc.gov/authorities/names/n80097790">Beinecke Rare Book and Manuscript Library</orgName>
@@ -215,7 +215,7 @@
                     that the first time <persName>M<hi rend="superscript">rs</hi>.<lb/>
                         Edgeworth</persName> or I have any<lb/>
                     dress commission to execute<lb/>
-                    in <placeName>London</placeName> we shall<lb/>
+                    in <placeName ref="http://vocab.getty.edu/tgn/7011781">London</placeName> we shall<lb/>
                     <hi rend="underline">have pleasure in <choice><orig>troubl<lb/>
                 <pb n="2" facs="Edgeworth_Beinecke_330_1812_10_30_page02.jpg"/>
                         ing</orig><reg>troubling</reg></choice></hi>you -- But indeed<lb/>
@@ -225,7 +225,7 @@
                     express it <hi rend="underline"><quote>in <del>a</del> robes of<lb/>
                         thin woven air"[/underline]</quote></hi> till<lb/>
                     spring, when we shall<lb/>
-                    (I am told) be in <placeName>London</placeName><lb/>
+                    (I am told) be in <placeName ref="http://vocab.getty.edu/tgn/7011781">London</placeName><lb/>
                 </p>
                 <closer>In the meantime<lb/>
                     I am Dear Madam<lb/>
@@ -233,7 +233,7 @@
                     <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName><lb/>
                 </closer>
                 <postscript>
-                    <p><placeName>Edgeworthstown</placeName><lb/>
+                    <p><placeName ref="http://vocab.getty.edu/tgn/1042937">Edgeworthstown</placeName><lb/>
                         Oct<hi rend="superscript">r</hi>. 30<hi rend="superscript">h</hi> 1812<lb/></p>
                 </postscript>
                 <!--You can include a <pb/> here, or inside the postScript.-->
