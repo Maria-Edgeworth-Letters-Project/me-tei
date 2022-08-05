@@ -73,7 +73,7 @@
                         <forename>Maria</forename>
                         <surname>Edgeworth</surname>
                      </persName>
-                  to <persName ref="./Personography.xml#CareM1"><!--Recipient Name-->Mathew Carey</persName>, <placeName><!--Location where letter was sent-->Philadelphia, PA</placeName>, 
+                  to <persName ref="./Personography.xml#CareM1"><!--Recipient Name-->Mathew Carey</persName>, <placeName ref="http://vocab.getty.edu/tgn/7014406"><!--Location where letter was sent-->Philadelphia, PA</placeName>, 
                   <date when="1826-09-29">M1826-09-29</date>
                </head>
                <physDesc>
@@ -198,7 +198,7 @@
                <persName ref="./Personography.xml#EdgeM1"><!--SENDER NAME-->Maria Edgeworth</persName>
             </correspAction>
             <correspAction type="received">
-               <persName ref="./Personography.xml#CareM1"><!--RECIPIENT NAME-->M. Carey</persName>
+               <persName ref="./Personography.xml#CareM1"><!--RECIPIENT NAME-->Mathew Carey</persName>
             </correspAction>
          </correspDesc>
          <textClass>
@@ -225,9 +225,9 @@
             <!--filenames for photos associated with this letter. Example: <pb n="1" facs="image1.jpg image2.jpg image3.jpg"/> -->
             <opener>
                <dateline><!--If there's no date line, omit this element. Record in the order in which it is written on the letter.-->
-                  <name type="place" ref="Id_where"/>
+                  <placeName ref="http://vocab.getty.edu/tgn/7900256">
                   Black Castle<lb/>
-                  Navan<lb/>
+                     Navan<lb/></placeName>
                   <date when="1826-09-29"/>Sep<hi rend="superscript">r</hi>. 29<hi rend="superscript">h</hi>. 1826</dateline>
                <note place="bottom">[LibNote] Rec[superscript]d[/superscript] Nov 30<lb/>
                   Ans[superscript]d[/superscript] April 20</note>
@@ -242,11 +242,11 @@
                able to keep up a <add>regular</add> correspondance - I really<lb/>
                have so much to do that I cannot -<lb/>
                I am much obliged by your letter - and thank<lb/>
-               you for your <title>essay on Emigration</title> which<lb/>
+               you for your <title ref="https://lccn.loc.gov/05020165">essay on Emigration</title> which<lb/>
                I will send to the principal bookseller in<lb/>
-               Dublin as you wish it to be reprinted here -<lb/>
+               <placeName ref="http://vocab.getty.edu/tgn/7001306">Dublin</placeName> as you wish it to be reprinted here -<lb/>
                - But further I cannot undertake - <choice><orig>Booksel
-                  lers</orig><reg>Booksellers</reg></choice> both here and in <placeName>London</placeName> are at present<lb/>
+                  lers</orig><reg>Booksellers</reg></choice> both here and in <placeName ref="http://vocab.getty.edu/tgn/7011781">London</placeName> are at present<lb/>
                disinclined to enter on new publications <add>without being paid for them</add><lb/>
                such <hi rend="underline">has</hi> been &amp; is the general distress in 
                their line of business as in others -<lb/>
@@ -258,13 +258,13 @@
                as I return home, I shall read it with<lb/>
                attention - I am at this moment reading<lb/>
                <del>at this <unclear>time</unclear></del> the volume of <title>evidence on<lb/>
-               Emigration from Ireland to the Canadas<lb/>
-               &amp; to various parts of America</title> which<lb/>
+                  Emigration from <placeName ref="http://vocab.getty.edu/tgn/7001181">Ireland</placeName> to the <placeName ref="http://vocab.getty.edu/tgn/7005685">Canadas</placeName><lb/>
+                  &amp; to various parts of <placeName ref="http://vocab.getty.edu/tgn/7012149">America</placeName></title> which<lb/>
                was given before the Committee of the<lb/>
                English house of Commons last year -<lb/>
                Emigration is the natural &amp; best<lb/>
                remedy for a redundant population - But<lb/>
-               the evils in <placeName>Ireland</placeName> arise not so much<lb/>
+               the evils in <placeName ref="http://vocab.getty.edu/tgn/7001181">Ireland</placeName> arise not so much<lb/>
             </p>
             <pb n="2" facs="Edgeworth_Rosenbach_1826-09-29_page03.jpg"/>
             <p>
@@ -275,13 +275,13 @@
             <p>The instances of national <choice><orig>ingra-<lb/>
                titude</orig><reg>ingratitude</reg></choice> you mention in your last letter<lb/>
                are very striking - I regret that they
-               should have occurred in <placeName>America</placeName> -<lb/></p>
+               should have occurred in <placeName ref="http://vocab.getty.edu/tgn/7012149">America</placeName> -<lb/></p>
                <p>I had admired her gratitude to<lb/>
-               <persName>La Fayette</persName> - But this contrasts sadly<lb/>
-                  with her penuriousness to <persName ref="./Personography.xml#JeffX1">Jefferson</persName> - From<lb/>
+                  <persName ref="./Personography.xml#LaFaG1">La Fayette</persName> - But this contrasts sadly<lb/>
+                  with her penuriousness to <persName ref="./Personography.xml#JeffT1">Jefferson</persName> - From<lb/>
                this I am afraid there was some love<lb/>
                of <del>theatric</del> display &amp; effect in the <choice><orig>recep<lb/>
-                  tion</orig><reg>reception</reg></choice> of <persName ref="./Personography.xml#LaFaX1">La Fayette</persName> which <add>had</add>] appeared to<lb/>
+                  tion</orig><reg>reception</reg></choice> of <persName ref="./Personography.xml#LaFaG1">La Fayette</persName> which <add>had</add>] appeared to<lb/>
                me at first the genuine feeling of<lb/>
                enthusiasm honorable to your national<lb/>
                character -<lb/>
@@ -289,7 +289,7 @@
                <p>
                Do not blame me my dear Sir for<lb/>
                not getting your books republished in<lb/>
-               <placeName>Ireland</placeName> - It is not from indolence<lb/>
+                  <placeName ref="http://vocab.getty.edu/tgn/7001181">Ireland</placeName> - It is not from indolence<lb/>
                but from its being totally out of my<lb/>
                power - I thank you for your <choice><orig>perse<lb/>
                   vering</orig><reg>persevering</reg></choice> attention to me - And <del>y</del> admire<lb/>
@@ -302,7 +302,7 @@
                <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>   
             </closer>
             <postscript>
-               <p>I thank you for the Sketches of America which<lb/>
+               <p>I thank you for the Sketches of <placeName ref="http://vocab.getty.edu/tgn/7012149">America</placeName> which<lb/>
                   I have just received -</p>
             </postscript>
             <!--You can include a <pb/> here, or inside the postScript.-->
@@ -313,8 +313,8 @@
             <closer><!--Use the <closer> element again to hold Address Leaf information.-->
                <address>
                   <!--Include any text written on the address leaf; use a separate "addrLine" for each line and indicate line breaks. -->
-                  <addrLine/><persName>M Carey Esq<hi rend="superscript">re</hi></persName>
-                  <addrLine/><placeName>Philadelphia</placeName>
+                  <addrLine/><persName ref="./Personography.xml#CareM1">M Carey Esq<hi rend="superscript">re</hi></persName>
+                  <addrLine/><placeName ref="http://vocab.getty.edu/tgn/7014406">Philadelphia</placeName>
                   <addrLine><note>[another hand]JM Morton</note></addrLine>
                   <addrLine><note>[LibNote]Maria Edgeworth</note></addrLine>
                   <addrLine><note>[LibNote]Sept. 29. 1826</note></addrLine>
