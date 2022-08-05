@@ -26,7 +26,7 @@
                 </respStmt>
             </titleStmt>
             <editionStmt>
-                <edition>First digital edition in TEI, date: <date when="2022-01-01"> 2022-07-28 </date>
+                <edition>First digital edition in TEI, date: <date when="2022-07-28"> 2022-07-28 </date>
                 </edition>
                 <respStmt>
                     <orgName ref="http://id.loc.gov/authorities/names/n80097790">Beinecke Rare Book and Manuscript Library</orgName>
@@ -202,9 +202,9 @@
                 <!--filenames for photos associated with this letter. Example: <pb n="1" facs="image1.jpg image2.jpg image3.jpg"/> -->
                 <opener>
                     <dateline><!--If there's no date line, omit this element. Record in the order in which it is written on the letter.-->
-                        <name type="place" ref="Id_where"/>Edgeworths Town<lb/>
+                        <name type="place" ref="http://vocab.getty.edu/tgn/1042937"/>Edgeworths Town<lb/>
                         <date when="1812-07-22"/>August 14, 1812<lb/></dateline>
-                    <salute> Dear Madam,<lb/>
+                    <salute> Dear <persName ref="./Personography.xml#MileX1">Madam</persName>,<lb/>
                     </salute>
                 </opener>
                 <p> I felt <choice><orig>unwil-<lb/>
