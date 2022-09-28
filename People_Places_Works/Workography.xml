@@ -1,0 +1,459 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Maria Edgeworth Letters Project Workography</title>
+            <author>Meredith Hale</author>
+            <sponsor>Wake Forest University, University of Tennessee, Xavier University, Texas
+                    A&amp;M University</sponsor>
+            <respStmt>
+               <resp>Contributors include:</resp>
+               <persName>Jessica Richard</persName>
+               <persName>Hilary Havens</persName>
+               <persName>Robin Runia</persName>
+               <persName>Susan Egenolf</persName>
+               <persName>Eliza Wilcox</persName>
+               <persName>Jamie Kramer</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Maria Edgeworth Letters Project</authority>
+            <availability>
+               <licence>Distributed under a Creative Commons Attribution-ShareAlike 3.0
+                        Unported License</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>The form of the titles shared are established by Wikidata or transcribed from the letters of Maria Edgeworth.</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p>This is a workography that defines literary works associated with the Maria Edgeworth
+                Letters project.</p>
+         <listBibl>
+            <bibl xml:id="Adela1">
+               <title>Adelaide and Theodore, or Letters on Education</title>
+               <title>
+                  <foreign>Adèle et Théodore, ou Lettres sur l'Education</foreign>
+               </title>
+               <author>
+                  <persName>Genlis, Stéphanie Félicité, comtesse de, 1746-1830</persName>
+                  <idno type="VIAF">http://viaf.org/viaf/71391471</idno>
+               </author>
+            </bibl>
+            <bibl xml:id="Anecd1">
+               <title>
+                  <foreign>Anecdotes Historiques, Militaires et Politiques de l'Europe</foreign>
+               </title>
+               <author>
+                  <persName>Raynal, abbé (Guillaume-Thomas-François), 1713-1796</persName>
+                  <idno type="VIAF">http://viaf.org/viaf/89354395</idno>
+               </author>
+            </bibl>
+            <bibl xml:id="Annal1">
+               <title>Annals of the Reign of King George the Third</title>
+               <author>
+                  <persName>Aikin, John, 1747-1822</persName>
+                  <idno type="VIAF">http://viaf.org/viaf/59180443</idno>
+               </author>
+            </bibl>
+            <bibl xml:id="Arabi1">
+               <title>Arabian Tales</title>
+               <idno>https://www.wikidata.org/wiki/Q110214248</idno>
+            </bibl>
+            <bibl xml:id="Belin1">
+               <title>Belinda</title>
+               <idno>https://www.wikidata.org/wiki/Q2894491</idno>
+               <author>
+                  <persName>Edgeworth, Maria, 1768-1849</persName>
+                  <idno type="VIAF">http://viaf.org/viaf/71477273</idno>
+               </author>
+            </bibl>
+            <bibl xml:id="Castl1">
+               <title>Castle Rackrent</title>
+               <idno>https://www.wikidata.org/wiki/Q5050238</idno>
+               <author>
+                  <persName>Edgeworth, Maria, 1768-1849</persName>
+                  <idno type="VIAF">http://viaf.org/viaf/71477273</idno>
+               </author>
+            </bibl>
+            <bibl xml:id="Child1">
+               <title>Childe Harold's Pilgrimage</title>
+               <idno>https://www.wikidata.org/wiki/Q1072741</idno>
+               <author>
+                  <persName>Byron, George Gordon Byron, Baron, 1788-1824</persName>
+                  <idno type="VIAF">http://viaf.org/viaf/95230688</idno>
+               </author>
+            </bibl>
+            <bibl xml:id="Cityo1">
+               <title>City of the Plague</title>
+               <idno>https://www.loc.gov/item/29024281/</idno>
+               <author>
+                  <persName>Wilson, John, 1785-1854</persName>
+                  <idno type="VIAF">http://viaf.org/viaf/47566585</idno>
+               </author>
+            </bibl>
+            <bibl xml:id="Comic1">
+               <title>Comic Dramas, in Three Acts</title>
+               <idno>https://www.wikidata.org/wiki/Q78219472</idno>
+               <author>
+                  <persName>Edgeworth, Maria, 1768-1849</persName>
+                  <idno type="VIAF">http://viaf.org/viaf/71477273</idno>
+               </author>
+            </bibl>
+            <bibl xml:id="Early2">
+               <title>Continuation of Early Lessons</title>
+               <idno>https://www.wikidata.org/wiki/Q80031478</idno>
+               <author>
+                  <persName>Edgeworth, Maria, 1768-1849</persName>
+                  <idno type="VIAF">http://viaf.org/viaf/71477273</idno>
+               </author>
+            </bibl>
+            <bibl xml:id="Circo1">
+               <title>
+                  <foreign>Des Circonstances Actuelles qui Peuvent Terminer la Révolution et des Principes qui Doivent Fonder la République en France</foreign>
+               </title>
+               <author>
+                  <persName>Staël, Madame de (Anne-Louise-Germaine), 1766-1817</persName>
+                  <idno type="VIAF">http://viaf.org/viaf/89204033</idno>
+               </author>
+            </bibl>
+            <bibl xml:id="Early1">
+               <title>Early Lessons</title>
+               <idno>https://www.wikidata.org/wiki/Q80031478</idno>
+               <author>
+                  <persName>Edgeworth, Maria, 1768-1849</persName>
+                  <idno type="VIAF">http://viaf.org/viaf/71477273</idno>
+               </author>
+            </bibl>
+            <bibl xml:id="Essay1">
+               <title>Essay on Irish Bulls</title>
+               <idno>https://www.wikidata.org/wiki/Q80225011</idno>
+               <author>
+                  <persName>Edgeworth, Maria, 1768-1849</persName>
+                  <idno type="VIAF">http://viaf.org/viaf/71477273</idno>
+               </author>
+            </bibl>
+            <bibl xml:id="Frank1">
+               <title>Frank: a Sequel to Frank in Early Lessons</title>
+               <idno>https://www.wikidata.org/wiki/Q80225013</idno>
+               <author>
+                  <persName>Edgeworth, Maria, 1768-1849</persName>
+                  <idno type="VIAF">http://viaf.org/viaf/71477273</idno>
+               </author>
+            </bibl>
+            <bibl xml:id="Frien1">
+               <title>Friendship's Offering</title>
+               <idno>https://id.loc.gov/resources/works/5914795</idno>
+               <author>
+                  <persName>Hervey, Thomas Kibble, 1799-1859</persName>
+                  <idno type="VIAF">http://viaf.org/viaf/25028752</idno>
+               </author>
+            </bibl>
+            <bibl xml:id="Glena1">
+               <title>Glenavon</title>
+            </bibl>
+            <bibl xml:id="Harri1">
+               <title>Harrington, a Tale; and Ormond, a Tale</title>
+               <idno>https://www.wikidata.org/wiki/Q16385930</idno>
+               <author>
+                  <persName>Edgeworth, Maria, 1768-1849</persName>
+                  <idno type="VIAF">http://viaf.org/viaf/71477273</idno>
+               </author>
+            </bibl>
+            <bibl xml:id="Harry1">
+               <title>Harry and Lucy Concluded</title>
+               <idno>https://www.wikidata.org/wiki/Q80225018</idno>
+               <author>
+                  <persName>Edgeworth, Maria, 1768-1849</persName>
+                  <idno type="VIAF">http://viaf.org/viaf/71477273</idno>
+               </author>
+            </bibl>
+            <bibl xml:id="Helen1">
+               <title>Helen</title>
+               <idno>https://www.wikidata.org/wiki/Q16385982</idno>
+               <author>
+                  <persName>Edgeworth, Maria, 1768-1849</persName>
+                  <idno type="VIAF">http://viaf.org/viaf/71477273</idno>
+               </author>
+            </bibl>
+            <bibl xml:id="Janus1">
+               <title>Janus; or, Edinburgh Literary Review</title>
+               <idno>https://lccn.loc.gov/20008548</idno>
+               <author>
+                  <persName>Lockhart, J. G. (John Gibson), 1794-1854</persName>
+                  <idno type="VIAF">http://viaf.org/viaf/32120479</idno>
+               </author>
+            </bibl>
+            <bibl xml:id="Julia1">
+               <title>Julia de Roubigné, a Sentimental Novel. In a Series of Letters.</title>
+               <idno>https://www.wikidata.org/wiki/Q110364540</idno>
+               <author>
+                  <persName>Mackenzie, Henry, 1745-1831</persName>
+                  <idno type="VIAF">http://viaf.org/viaf/12354244</idno>
+               </author>
+            </bibl>
+            <bibl xml:id="Karam1">
+               <title>Karamania Or A Brief Description of the South Coast of Asia-Minor and of 1818</title>
+               <author>
+                  <persName>Beaufort, Francis, Sir, 1774-1857</persName>
+                  <idno type="VIAF">http://viaf.org/viaf/42580519</idno>
+               </author>
+            </bibl>
+            <bibl xml:id="Ladys1">
+               <title>Lady's Remembrancer</title>
+            </bibl>
+            <bibl xml:id="Leono1">
+               <title>Leonora</title>
+               <idno>https://www.wikidata.org/wiki/Q6526682</idno>
+               <author>
+                  <persName>Edgeworth, Maria, 1768-1849</persName>
+                  <idno type="VIAF">http://viaf.org/viaf/71477273</idno>
+               </author>
+            </bibl>
+            <bibl xml:id="Annal2">
+               <title>
+                  <foreign>Les Annales de la Vertu</foreign>
+               </title>
+               <author>
+                  <persName>Genlis, Stéphanie Félicité, comtesse de, 1746-1830</persName>
+                  <idno type="VIAF">http://viaf.org/viaf/71391471</idno>
+               </author>
+            </bibl>
+            <bibl xml:id="Dange1">
+               <title>
+                  <foreign>Les Dangers du Monde</foreign>
+               </title>
+               <author>
+                  <persName>Genlis, Stéphanie Félicité, comtesse de, 1746-1830</persName>
+                  <idno type="VIAF">http://viaf.org/viaf/71391471</idno>
+               </author>
+            </bibl>
+            <bibl xml:id="Lette1">
+               <title>Letters for Literary Ladies</title>
+               <idno>https://www.wikidata.org/wiki/Q80225019</idno>
+               <author>
+                  <persName>Edgeworth, Maria, 1768-1849</persName>
+                  <idno type="VIAF">http://viaf.org/viaf/71477273</idno>
+               </author>
+            </bibl>
+            <bibl xml:id="Macbe1">
+               <title>Macbeth</title>
+               <idno>https://www.wikidata.org/wiki/Q130283</idno>
+               <author>
+                  <persName>Shakespeare, William, 1564-1616</persName>
+                  <idno type="VIAF">http://viaf.org/viaf/96994048</idno>
+               </author>
+            </bibl>
+            <bibl xml:id="Memoi1">
+               <title>Memoirs of Richard Lovell Edgeworth</title>
+               <author>
+                  <persName>Edgeworth, Maria, 1768-1849</persName>
+                  <idno type="VIAF">http://viaf.org/viaf/71477273</idno>
+               </author>
+            </bibl>
+            <bibl xml:id="Memoi2">
+               <title>Memoirs of the Court of Queen Elizabeth</title>
+               <idno>https://www.wikidata.org/wiki/Q80224914</idno>
+            </bibl>
+            <bibl xml:id="Memoi3">
+               <title>Memoirs of the Life and Writings of Victor Alfieri</title>
+            </bibl>
+            <bibl xml:id="Moral2">
+               <title>Moral Tales</title>
+               <idno>https://www.wikidata.org/wiki/Q80225021</idno>
+               <author>
+                  <persName>Edgeworth, Maria, 1768-1849</persName>
+                  <idno type="VIAF">http://viaf.org/viaf/71477273</idno>
+               </author>
+            </bibl>
+            <bibl xml:id="Moral3">
+               <title>Moral Tales</title>
+               <title>
+                  <foreign>Contes Moreaux</foreign>
+               </title>
+               <author>
+                  <persName>Marmontel, Jean-François, 1723-1799</persName>
+                  <idno type="VIAF">http://viaf.org/viaf/7393886</idno>
+               </author>
+            </bibl>
+            <bibl xml:id="Moral1">
+               <title>Moral Tales for Young People</title>
+               <idno>https://www.wikidata.org/wiki/Q80225023</idno>
+               <author>
+                  <persName>Edgeworth, Maria, 1768-1849</persName>
+                  <idno type="VIAF">http://viaf.org/viaf/71477273</idno>
+               </author>
+            </bibl>
+            <bibl xml:id="Ormon1">
+               <title>Ormond</title>
+               <idno>https://www.wikidata.org/wiki/Q7103428</idno>
+               <author>
+                  <persName>Edgeworth, Maria, 1768-1849</persName>
+                  <idno type="VIAF">http://viaf.org/viaf/71477273</idno>
+               </author>
+            </bibl>
+            <bibl xml:id="Patro1">
+               <title>Patronage</title>
+               <idno>https://www.wikidata.org/wiki/Q7148133</idno>
+               <author>
+                  <persName>Edgeworth, Maria, 1768-1849</persName>
+                  <idno type="VIAF">http://viaf.org/viaf/71477273</idno>
+               </author>
+            </bibl>
+            <bibl xml:id="Popul1">
+               <title>Popular Tales</title>
+               <idno>https://www.wikidata.org/wiki/Q80225026</idno>
+               <author>
+                  <persName>Edgeworth, Maria, 1768-1849</persName>
+                  <idno type="VIAF">http://viaf.org/viaf/71477273</idno>
+               </author>
+            </bibl>
+            <bibl xml:id="Pract1">
+               <title>Practical Education</title>
+               <idno>https://www.wikidata.org/wiki/Q7237318</idno>
+               <author>
+                  <persName>Edgeworth, Maria, 1768-1849</persName>
+                  <idno type="VIAF">http://viaf.org/viaf/71477273</idno>
+               </author>
+            </bibl>
+            <bibl xml:id="Proff1">
+               <title>Professional Education</title>
+               <author>
+                  <persName>Edgeworth, Richard Lovell, 1744-1817</persName>
+                  <idno type="VIAF">http://viaf.org/viaf/66511092</idno>
+               </author>
+               <author>
+                  <persName>Edgeworth, Maria, 1768-1849</persName>
+                  <idno type="VIAF">http://viaf.org/viaf/71477273</idno>
+               </author>
+            </bibl>
+            <bibl xml:id="Readi1">
+               <title>Readings on Poetry</title>
+               <idno>https://www.wikidata.org/wiki/Q80225028</idno>
+               <author>
+                  <persName>Edgeworth, Maria, 1768-1849</persName>
+                  <idno type="VIAF">http://viaf.org/viaf/71477273</idno>
+               </author>
+            </bibl>
+            <bibl xml:id="Refle1">
+               <title>Reflections on the Subject of Emigration from Europe</title>
+               <author>
+                  <persName>Carey, Mathew, 1760-1839</persName>
+                  <idno type="VIAF">http://viaf.org/viaf/2526487</idno>
+               </author>
+            </bibl>
+            <bibl xml:id="Rimin1">
+               <title>Rimini</title>
+               <idno>https://www.wikidata.org/wiki/Q7766791</idno>
+               <author>
+                  <persName>Hunt, Leigh, 1784-1859</persName>
+                  <idno type="VIAF">http://viaf.org/viaf/54166412</idno>
+               </author>
+            </bibl>
+            <bibl xml:id="Taleo1">
+               <title>Tales of Fashionable Life</title>
+               <idno>https://www.wikidata.org/wiki/Q80225034</idno>
+               <author>
+                  <persName>Edgeworth, Maria, 1768-1849</persName>
+                  <idno type="VIAF">http://viaf.org/viaf/71477273</idno>
+               </author>
+            </bibl>
+            <bibl xml:id="Absen1">
+               <title>The Absentee</title>
+               <idno>https://www.wikidata.org/wiki/Q7712149</idno>
+               <author>
+                  <persName>Edgeworth, Maria, 1768-1849</persName>
+                  <idno type="VIAF">http://viaf.org/viaf/71477273</idno>
+               </author>
+            </bibl>
+            <bibl xml:id="Ancie1">
+               <title>The Ancient history of the Egyptians, Carthaginians, Assyrians, Babylonians, Medes &amp; Persians, Macedonians and Grecians, translated from the French in seven volumes</title>
+            </bibl>
+            <bibl xml:id="Athen1">
+               <title>The Athentian Captive</title>
+               <idno>https://www.wikidata.org/wiki/Q110355491</idno>
+               <author>
+                  <persName>Talfourd, Thomas Noon, 1795-1854</persName>
+                  <idno type="VIAF">http://viaf.org/viaf/61904095</idno>
+               </author>
+            </bibl>
+            <bibl xml:id="Contr1">
+               <title>The Contrast</title>
+               <idno>https://www.wikidata.org/wiki/Q80225037</idno>
+               <author>
+                  <persName>Edgeworth, Maria, 1768-1849</persName>
+                  <idno type="VIAF">http://viaf.org/viaf/71477273</idno>
+               </author>
+            </bibl>
+            <bibl xml:id="Lordo1">
+               <title>The Lord of the Isles</title>
+               <author>
+                  <persName>Scott, Walter, 1771-1832</persName>
+                  <idno type="VIAF">http://viaf.org/viaf/95207079</idno>
+               </author>
+            </bibl>
+            <bibl xml:id="Moder1">
+               <title>The Modern Griselda; a Tale</title>
+               <idno>https://www.wikidata.org/wiki/Q80225039</idno>
+               <author>
+                  <persName>Edgeworth, Maria, 1768-1849</persName>
+                  <idno type="VIAF">http://viaf.org/viaf/71477273</idno>
+               </author>
+            </bibl>
+            <bibl xml:id="Paren1">
+               <title>The Parent's Assistant</title>
+               <idno>https://www.wikidata.org/wiki/Q3522169</idno>
+               <author>
+                  <persName>Edgeworth, Maria, 1768-1849</persName>
+                  <idno type="VIAF">http://viaf.org/viaf/71477273</idno>
+               </author>
+            </bibl>
+            <bibl xml:id="Theat1">
+               <title>The Theater of Education</title>
+               <title>
+                  <foreign>Le Théâtre d'Éducation au XVIIIe Siècle</foreign>
+               </title>
+               <idno>https://www.wikidata.org/wiki/Q80225006</idno>
+               <author>
+                  <persName>Genlis, Stéphanie Félicité, comtesse de, 1746-1830</persName>
+                  <idno type="VIAF">http://viaf.org/viaf/71391471</idno>
+               </author>
+            </bibl>
+            <bibl xml:id="Theor1">
+               <title>The Theory of Moral Sentiments</title>
+               <idno>https://www.wikidata.org/wiki/Q1438448</idno>
+               <author>
+                  <persName>Smith, Adam, 1723-1790</persName>
+                  <idno type="VIAF">http://viaf.org/viaf/49231791</idno>
+               </author>
+            </bibl>
+            <bibl xml:id="Young1">
+               <title>The Young Christian</title>
+            </bibl>
+            <bibl xml:id="Tomor1">
+               <title>Tomorrow; or the Dangers of Delay</title>
+               <idno>https://www.wikidata.org/wiki/Q80225042</idno>
+               <author>
+                  <persName>Edgeworth, Maria, 1768-1849</persName>
+                  <idno type="VIAF">http://viaf.org/viaf/71477273</idno>
+               </author>
+            </bibl>
+            <bibl xml:id="Waver1">
+               <title>Waverley</title>
+               <idno>https://www.wikidata.org/wiki/Q678251</idno>
+               <author>
+                  <persName>Scott, Walter, 1771-1832</persName>
+                  <idno type="VIAF">http://viaf.org/viaf/95207079</idno>
+               </author>
+            </bibl>
+         </listBibl>
+      </body>
+   </text>
+</TEI>
