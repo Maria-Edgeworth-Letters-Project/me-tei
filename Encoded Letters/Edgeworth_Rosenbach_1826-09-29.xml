@@ -116,7 +116,7 @@
             <!--filenames for photos associated with this letter. Example: <pb n="1" facs="image1.jpg image2.jpg image3.jpg"/> -->
             <opener>
                <dateline><!--If there's no date line, omit this element. Record in the order in which it is written on the letter.-->
-                  <placeName ref="http://vocab.getty.edu/tgn/7900256">
+                  <placeName ref="./Placeography.xml#Black-Castle_IE">
                   Black Castle<lb/>
                      Navan<lb/>
                   </placeName>
@@ -134,14 +134,14 @@
                able to keep up a <add>regular</add> correspondance - I really<lb/>
                have so much to do that I cannot -<lb/>
                I am much obliged by your letter - and thank<lb/>
-               you for your <title ref="https://lccn.loc.gov/05020165">essay on Emigration</title> which<lb/>
+               you for your <title ref="./Workography.xml#Refle1">essay on Emigration</title> which<lb/>
                I will send to the principal bookseller in<lb/>
-               <placeName ref="http://vocab.getty.edu/tgn/7001306">Dublin</placeName> as you wish it to be reprinted here -<lb/>
+               <placeName ref="./Placeography.xml#Dublin_IE">Dublin</placeName> as you wish it to be reprinted here -<lb/>
                - But further I cannot undertake - <choice>
                   <orig>Booksel
                   lers</orig>
                   <reg>Booksellers</reg>
-               </choice> both here and in <placeName ref="http://vocab.getty.edu/tgn/7011781">London</placeName> are at present<lb/>
+               </choice> both here and in <placeName ref="./Placeography.xml#London_ENK">London</placeName> are at present<lb/>
                disinclined to enter on new publications <add>without being paid for them</add>
                <lb/>
                such <hi rend="underline">has</hi> been &amp; is the general distress in 
@@ -161,15 +161,15 @@
                attention - I am at this moment reading<lb/>
                <del>at this <unclear>time</unclear>
                </del> the volume of <title>evidence on<lb/>
-                  Emigration from <placeName ref="http://vocab.getty.edu/tgn/7001181">Ireland</placeName> to the <placeName ref="http://vocab.getty.edu/tgn/7005685">Canadas</placeName>
+                  Emigration from <placeName ref="./Placeography.xml#IE">Ireland</placeName> to the <placeName ref="./Placeography#XXC">Canadas</placeName>
                   <lb/>
-                  &amp; to various parts of <placeName ref="http://vocab.getty.edu/tgn/7012149">America</placeName>
+                  &amp; to various parts of <placeName ref="./Placeography.xml#US">America</placeName>
                </title> which<lb/>
                was given before the Committee of the<lb/>
                English house of Commons last year -<lb/>
                Emigration is the natural &amp; best<lb/>
                remedy for a redundant population - But<lb/>
-               the evils in <placeName ref="http://vocab.getty.edu/tgn/7001181">Ireland</placeName> arise not so much<lb/>
+               the evils in <placeName ref="./Placeography.xml#IE">Ireland</placeName> arise not so much<lb/>
             </p>
             <pb n="2" facs="Edgeworth_Rosenbach_1826-09-29_page03.jpg"/>
             <p>
@@ -185,7 +185,7 @@
                   <reg>ingratitude</reg>
                </choice> you mention in your last letter<lb/>
                are very striking - I regret that they
-               should have occurred in <placeName ref="http://vocab.getty.edu/tgn/7012149">America</placeName> -<lb/>
+               should have occurred in <placeName ref="./Placeography.xml#US">America</placeName> -<lb/>
             </p>
             <p>I had admired her gratitude to<lb/>
                <persName ref="./Personography.xml#LaFaG1">La Fayette</persName> - But this contrasts sadly<lb/>
@@ -203,7 +203,7 @@
             <p>
                Do not blame me my dear Sir for<lb/>
                not getting your books republished in<lb/>
-               <placeName ref="http://vocab.getty.edu/tgn/7001181">Ireland</placeName> - It is not from indolence<lb/>
+               <placeName ref="./Placeography.xml#IE">Ireland</placeName> - It is not from indolence<lb/>
                but from its being totally out of my<lb/>
                power - I thank you for your <choice>
                   <orig>perse<lb/>
@@ -219,7 +219,7 @@
                <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
             </closer>
             <postscript>
-               <p>I thank you for the Sketches of <placeName ref="http://vocab.getty.edu/tgn/7012149">America</placeName> which<lb/>
+               <p>I thank you for the Sketches of <placeName ref="./Placeography#US">America</placeName> which<lb/>
                   I have just received -</p>
             </postscript>
             <!--You can include a <pb/> here, or inside the postScript.-->
@@ -234,7 +234,7 @@
                   <persName ref="./Personography.xml#CareM1">M Carey Esq<hi rend="superscript">re</hi>
                   </persName>
                   <addrLine/>
-                  <placeName ref="http://vocab.getty.edu/tgn/7014406">Philadelphia</placeName>
+                  <placeName ref="./Placeography.xml#Philadelphia_PA_US">Philadelphia</placeName>
                   <addrLine>
                      <note>[another hand]JM Morton</note>
                   </addrLine>
