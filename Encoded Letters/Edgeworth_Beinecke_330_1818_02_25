@@ -229,7 +229,7 @@
                   <date when="1818-02-25"/>Feb<hi rend="superscript">y</hi></dateline>
                <salute>
                   <persName>
-                     My dear M<hi rend="superscript">rs</hi>. Miles<!-- Use if letter has a saluation ("Dear Sir," for example). If not, delete this line.-->
+                     My dear <persName ref="./Personography.xml#MileX1">M<hi rend="superscript">rs</hi>. Miles</persName><!-- Use if letter has a saluation ("Dear Sir," for example). If not, delete this line.-->
                   </persName>
                </salute>
             </opener>
@@ -267,23 +267,34 @@
             directions - If you are not tired of buying<lb/>
             Shawls &amp; are not afraid of again suffering<lb/>
             anxiety, I will begin the business over<lb/>
-            again, thus, Buy me a Crimson or a<lb/>
+            again, thus, Buy me a Crimson or a<lb/></p>
 
             <pb n="4" facs="Edgeworth_Beinecke_330_1818_02_25_page04.jpg"/>
-            
-            <!-- Begin transcibing the body of the letter here. -->
-            </p>
-            <p>
-               <!--More body paragraphs as needed.--></p>
-            <p>
-               <!--More body paragraphs as needed.-->
-               <!--Where there's a page break record it inside the relevant body paragraph like this, 
-                  with the self-closing page-break element. n="2" indicates the START of the second page.-->
-               <pb n="2" facs="image2.jpg"/>
-            </p>
-            <p><!--More body paragraphs as needed.--></p>
+            <p>Morone Colour, the border narrow, the border<lb/>
+            of the first white shawl you sent me, was<lb/>
+            elegant, &amp; well put on, the border of the last<lb/>
+            Green Shawl, was ill put on &amp; the corners<lb/>
+            ill turned down, so that it betrayed it to be<lb/>
+            an imitation - I think more of the <unclear></unclear><lb/>
+            of the colour &amp; of the elegance of the border than<lb/>
+            the size, the white shawl was quite large<lb/>
+            enough. As to the price, I don't limit<lb/>
+            you, for I can pinch it <add>out</add> of of anything else<lb/>
+            as I wish to have the Shawl for my Aunt<lb/>
+            handsome and elegant -<lb/></p>
+
+            <p>Do pray tell me something of the Man<lb/>
+            who is going out to <placeName ref="./Placeography.xml#II">India</placeName> to improve the<lb/>
+            <unclear></unclear> there? I have the great pleasure<lb/>
+            to tell you that my <persName ref="./Personography.xml#EdgeR1">father</persName> has been consider<lb/>
+            ably better for the last two or three days.<lb/>
+            I hope this may find <persName ref="./Personography.xml#MileX2">M<hi rend="superscript">r.</hi> Miles</persName> as well<lb/>
+            as we wish him to be. I hope you received<lb/>
+            the draught for £6..10..0 - <lb/></p>
             <closer>
-               <!--include linebreaks, if used. example: <closer> Yours<lb/> Very sincerely<lb/> -->
+            I am dear<lb/>
+            Madam <add>your</add> obliged and troublesome Servant<lb/>
+            <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName><lb/><!--include linebreaks, if used. example: <closer> Yours<lb/> Very sincerely<lb/> -->
             </closer>
             <postscript>
                <p><!--A postscript goes here, outside the <closer>. --></p>
@@ -294,10 +305,10 @@
                Sometimes the signature is on page three, the address on page four, then the postscript follows back on the top of page one, for example.-->
             <closer><!--Use the <closer> element again to hold Address Leaf information.-->
                <address>
-                  <!--Include any text written on the address leaf; use a separate "addrLine" for each line and indicate line breaks. -->
-                  <addrLine/>
-                  <addrLine/>
-                  <addrLine/>
+                <pb n="1" facs="Edgeworth_Beinecke_330_1818_02_25_page01.jpg"/>  <!--Include any text written on the address leaf; use a separate "addrLine" for each line and indicate line breaks. -->
+                  <addrLine/><persName ref="./Personography.xml#MileX1">M<hi rend="superscript">rs</hi>. Miles</persName>
+                  <addrLine/><placeName ref="./Personography.xml#West-End-Hampstead_ENK">West End
+                  <addrLine/>Hampstead</placeName>
                </address>
             </closer>
          </div>
