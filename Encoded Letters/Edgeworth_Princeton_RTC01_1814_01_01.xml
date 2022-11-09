@@ -69,9 +69,9 @@
                   </persName>
                   to <persName ref="./Personography.xml#WedgS1">
                      <forename>Sarah</forename>
-                     <surname>Wedgworth</surname>
+                     <surname>Wedgwood</surname>
                   </persName>
-                  <date>1734-1815</date>, <placeName>Etruria</placeName>, <placeName>Staffordshire</placeName>, 
+                  <date>1734-1815</date>, <name type="place" ref="./Placeography.xml#Etruria_ENK">Etruria</name>, <name type="place" ref="./Placeography.xml#Staffordshire_ENK">Staffordshire</name>, 
                      <date when="1814-01-01">Jan<hi rend="superscript">y</hi> 1<hi rend="superscript">st</hi> 1814</date>
                </head>
                <physDesc>
@@ -103,14 +103,14 @@
             <!--filenames for photos associated with this letter. Example: <pb n="1" facs="image1.jpg image2.jpg image3.jpg"/> -->
             <opener>
                <dateline><!--If there's no date line, omit this element. Record in the order in which it is written on the letter.-->
-                  <name type="place" ref="Id_where"/>Edgeworth's Town
+                  <name type="place" ref="./Placeography.xml#Edgeworthstown_IE">Edgeworth's Town</name>
                   <date when="1814-01-01">Jan<hi rend="superscript">y</hi> 1<hi rend="superscript">st</hi> 1814</date>
                </dateline>
             </opener>
             <p><!-- Begin transcibing the body of the letter here. -->
             </p>
             <p>
-               A happy new year to you my dear M<hi rend="superscript">rs</hi>. <persName ref="WedgS1">
+               A happy new year to you my dear M<hi rend="superscript">rs</hi>. <persName ref="./Personography.xml#WedgS1">
                   <choice>
                      <orig>Wedgewood</orig>
                      <reg>Wedgwood</reg>
@@ -137,7 +137,7 @@
                The continuation of <del>
                   <unclear/>
                </del>
-               <persName>Rosamond</persName>
+               <name type= "wprk" ref= "./Workography.xml#">Rosamond</name>
                <lb/>
                was begun the day after we reached home<lb/>
                -- I was diverted by your little girls hope<lb/>
@@ -150,11 +150,11 @@
                the last she will complain of their being<lb/>
                too difficult - and that she will say to&gt;<lb/>
                <pb n="2" facs="Edgeworth_Princeton_RTC01_1814_01_01_page02.jpg"/>
-               me as one of the little <persName>Pakenham</persName>s once said<lb/>
+               me as one of the little <name type= "person" ref= "./Personography.xml#PakeX1">Pakenham</name>s once said<lb/>
                "Maria E why did you write Rosamond so difficult?"--<lb/>
                Pray if you ever read prefaces, read my<lb/>
-               fathers warning preface to these Early Lessons<lb/>
-               &amp; keep back the continuation of Harry and Lucy<lb/>
+               fathers warning preface to these <name type= "wprk" ref= "./Workography.xml#">Early Lessons</name><lb/>
+               &amp; keep back the continuation of <name type= "wprk" ref= "./Workography.xml#">Harry and Lucy</name><lb/>
                from your little ones till they are able to<lb/>
                understand it -- It is quite true that each<lb/>
                Experiment mentioned was tried before<lb/>
@@ -170,13 +170,13 @@
                <rs>he</rs> will deliver<lb/>
                to your friend a copy of the second Edition<lb/>
                   of <hi rend="underline">
-                  <tag source="w15"> Professional Education</tag>
+                     <name type= "work" ref= "./Workography.xml#Proff1">Professional Education</name>
                </hi> which I wish you <lb/>
                would <del>
                   <unclear/>
                </del>present with my respects to<lb/>
                <roleName type="nobility"> Sir </roleName>
-               <persName ref="McInJ1">
+               <name type= "person" ref="./Personography.xml#McInJ1">
                   <forename>James</forename>
                   <surname>
                      <choice>
@@ -184,7 +184,7 @@
                         <reg>McIntosh</reg>
                      </choice>
                   </surname>
-               </persName>. I am particularly <choice>
+               </name>. I am particularly <choice>
                   <orig>an<lb/>
                -xious</orig>
                   <reg>anxious</reg>
@@ -192,7 +192,7 @@
                of this book because three chapters of it were<lb/>
                   entirely rewritten &amp; I hope improved - <persName ref="./Personography.xml#McInJ1">Sir <lb/>
                James M<hi rend="superscript">c</hi>Intosh</persName> gratified us highly when<lb/>
-                were in London by what he said of the first<lb/>
+               were in <name type="place" ref= "./Placeography.xml#London_ENK">London</name> by what he said of the first<lb/>
                <pb n="3" facs="Edgeworth_Princeton_RTC01_1814_01_01_page03.jpg"/>
                book which he <add>told us he had</add> seen in <placeName ref="./Placeography.xml#II">India</placeName> - and I cannot<lb/>
                help wishing that if <rs>he</rs> allows it a place in<lb/>
@@ -223,7 +223,7 @@
                </choice> &amp; to which I wish to direct his attention<lb/>
             </p>
             <p>
-               <persName>Bernadette</persName>'s letter to <persName>Baron <unclear>Caderhead </unclear>
+               <persName>Bernadette</persName>'s letter to <persName ref= "./Personography.xml#CadeX1">Baron <unclear>Caderhead </unclear>
                </persName>
                <lb/>
                <rs>his</rs> son's preceptor which we have just<lb/>
@@ -317,9 +317,9 @@
                      <persName ref="./Personography.xml#WedgS1">M<hi rend="superscript">rs</hi> Jos. Wedgewood</persName>
                   </addrLine>
                   <lb/>
-                  <addrLine>Etruria</addrLine>
+                  <addrLine><name type="place" ref="./Placeography.xml#Etruria_ENK">Etruria</name></addrLine>
                   <lb/>
-                  <addrLine>Staffordshire</addrLine>
+                  <addrLine><name type="place" ref="./Placeography.xml#Staffordshire_ENK">Staffordshire</name></addrLine>
                   <lb/>
                   <addrLine>
                      <hi rend="underline">Forbes</hi>
