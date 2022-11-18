@@ -50,7 +50,7 @@
 ####Body
 
 ```  
-{{if(isBlank(cells['ID'].value), '', '<person xml:id="' + cells['ID'].value + '">' + '<persName>' + cells['Term'].value + '</persName>' + if(isBlank(cells['LoC_URI'].value), '', '<idno type="NAF">' + cells['LoC_URI'].value + '</idno>') + if(isBlank(cells['VIAF URI'].value), '', '<idno type="VIAF">' + cells['VIAF URI'].value + '</idno>') + '</person>')}}
+{{if(isBlank(cells['ID'].value), '', '<person xml:id="' + cells['ID'].value + '">' + '<persName>' + cells['Term'].value + '</persName>' + if(isBlank(cells['VIAF URI'].value), '', '<idno type="VIAF">' + cells['VIAF URI'].value + '</idno>') + '</person>')}}
 
 ```
 
