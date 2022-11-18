@@ -6,10 +6,10 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Letter from Maria Edgeworth to Unknown, February 16, 1835</title>
+            <title>Letter from Maria Edgeworth to Lady Darnley<!--Recipient Name, Month Day, YYYY--></title>
             <author>Maria Edgeworth</author>
             <editor ref="Id_who">
-               Jamie Kramer
+               <!--Editor on the Maria Edgeworth Letters Project overseeing the coding of this particular letter: FirstName LastName -->
             </editor>
             <sponsor>
                <orgName>Maria Edgeworth Letters Project</orgName>
@@ -19,21 +19,27 @@
             <principal>Jessica Richard, Hilary Havens, Robin Runia, Susan Egenolf</principal>
             <respStmt>
                <resp>Transcription and coding by</resp>
-               <persName ref="Id_who">Jessica Richard
+               <persName ref="Id_who">
                </persName>
-               <persName ref="Id_who">Jamie Kramer</persName>
+               <!-- List all transcribers or coders here, editors and students alike, <persName> by <persName>.-->
+               <persName ref="Id_who">Eliza Wilcox</persName>
                <!-- If you're the last person interacting with the file, enter your name last on the list -->
             </respStmt>
          </titleStmt>
          <editionStmt>
-            <edition>First digital edition in TEI, date: <date when="2022-07-28">
+            <edition>First digital edition in TEI, date: <date when="2022-10-25">
+                  October 25, 2022<!--enter the date on which the first coder created and saved this XML file in google drive-->
                </date>
             </edition>
             <respStmt>
-               <orgName ref="http://id.loc.gov/authorities/names/n82003163">Princeton University. Firestone Library
+               <orgName type="naf" ref="Id_who">
+                  Beinecke Rare Book and Manuscript Library<!--who digitized the letter or gave us permission for to use the file?-->
                </orgName>
-               <resp> photos include: Edgeworth_ Princeton_C1664_1835_02_page01.jpg, Edgeworth_ Princeton_C1664_1835_02_page02.jpg,
-                  Edgeworth_ Princeton_C1664_1835_02_page03.jpg, Edgeworth_ Princeton_C1664_1835_02_page01.jpg
+               <resp> photos include:
+                  Edgeworth_Beinecke_330_unknown_01_page01.jpg,
+                  Edgeworth_Beinecke_330_unknown_01_page02.jpg,
+                <!-- Make a comma-separated list of each .jpg photo file name associated with your letter. 
+                     For example: DSCF9476.jpg, DSCF9477.jpg, DSCF9478.jpg-->
                </resp>
             </respStmt>
          </editionStmt>
@@ -41,42 +47,53 @@
             <authority>Maria Edgeworth Letters Project</authority>
             <date>2022</date>
             <availability>
-               <p>Reproduced by courtesy of the <orgName ref="http://id.loc.gov/authorities/names/n82003163">Princeton University. Firestone Library</orgName>. 
+               <!--Uncomment the appropriate line, based on the archive that holds the physical copy of this letter, 
+                  and delete the other comment line(s).-->
+               <p><!--Reproduced by courtesy of the <orgName ref="#ReadingCL">Reading Central Library</orgName>.-->
+                  Beinecke Rare Book and Manuscript Library<!--or -->
+                  <!--Courtesy of <orgName ref="#Rylands">The University of Manchester</orgName>.-->
                </p>
                <licence>Distributed under a Creative Commons Attribution-ShareAlike 3.0 Unported
                   License</licence>
             </availability>
-            <idno>Edgeworth_ Princeton_C1664_1835_02</idno>
+            <idno><!--Change to match the file name and current naming standards, i.e. "Edgeworth_Beinecke_330_1817_01_24" if file name is "Edgeworth_Beinecke_330_1817_01_24.xml"--></idno> 
          </publicationStmt>
          <seriesStmt>
             <title>Maria Edgeworth Letters Project</title>
          </seriesStmt>
          <sourceDesc>
             <msDesc xml:lang="en">
+               <!-- This section of the header identifies the original manuscript source. -->
                <msIdentifier>
-                  <repository>Princeton University. Firestone Library</repository>
-                  <collection>Manuscripts Division, Department of Special Collections</collection>
-                  <idno>Letters from Maria Edgeworth; Maria Edgeworth Papers, C1664, Manuscripts Division, Department of Special Collections, Princeton University Library
-                     Storage Note:
-                     Firestone Library (hsvm): Box 2
-                     System Identifier:
-                     /repositories/5/archival_objects/1446389
-                  </idno>
+                  <repository>Beinecke Rare Book and Manuscript Library</repository>
+                  <collection><!-- Enter specific archival collection if applicable--></collection>
+                  <idno><!--Consult library or WorldCat for this info--></idno>
                </msIdentifier>
+               
+               <!-- FROM LAURA: it's here (below) in the head that I added the full information about the author,
+                  and you could add full information about the addressee as well. -->
                <head>Letter from 
-                  <persName ref="./Personography.xml#EdgeM1">
-                     <forename>Maria</forename>
-                     <surname>Edgeworth</surname>
-                  </persName>
-                   to <persName>unknown</persName>, <placeName><!--Location where letter was sent--></placeName>, 
-                  <date when="1835-02-16">February 16, 1835</date>
+                     <persName xml:id="EdgeM1" from="1768" to="1849">
+                        <forename>Maria</forename>
+                        <surname>Edgeworth</surname>
+                        <date>1768-1849</date>
+                        <idno type="VIAF">71477273</idno>
+                        <idno type="SNAC">62567029</idno>
+                     </persName>
+                   to <persName ref="./Personography.xml#DarnX1">Lady Darnley</persName>, <placeName><!--Location where letter was sent--></placeName>, 
+                  <date when="1111-01-01"><!-- Transcribe the date as it appears on the letter itself. Enter a numeric standardized date value in @when. --></date>
                </head>
                <physDesc>
                   <!-- optional physical description of the letter goes here: paper size and condition, seal, postmarks, etc.-->
                </physDesc>
             </msDesc>
+            
             <!-- FROM LAURA: where to put the following information in <bibl> is still a question: 
                ask TEI List whether it should be in the sourceDesc or elsewhere? -->
+            
+            <bibl>In addition to our edited version, this letter was previously published in
+               <!--complete bibiographical info if letter was published in a book here - if not delete-->
+            </bibl>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
@@ -176,6 +193,26 @@
             </taxonomy>
          </classDecl>
       </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName><!--SENDER NAME--></persName>
+            </correspAction>
+            <correspAction type="received">
+               <persName><!--RECIPIENT NAME--></persName>
+            </correspAction>
+         </correspDesc>
+         <textClass>
+            <keywords scheme="">
+               <list type="simple">
+                  <item>English literature</item>
+                  <item>History</item>
+               </list>
+            </keywords>
+            <catRef target="#f7" scheme="#f"/>
+            <catRef target="#hist #el" scheme="locSUB"/>
+         </textClass>
+      </profileDesc>
       <revisionDesc>
          <change when="2021-01-01" who="Id_who">
             <!--Brief description of what you did here.-->
@@ -185,125 +222,67 @@
    <text>
       <body>
          <div type="letter">
-            <pb n="1" facs="Edgeworth_ Princeton_1835-02_page01.jpg"/>
+            <pb n="1" facs="Edgeworth_Beinecke_330_unknown_01_page01.jpg"/>
+            <!--filenames for photos associated with this letter. Example: <pb n="1" facs="image1.jpg image2.jpg image3.jpg"/> -->
             <opener>
-               <dateline>
-                  <placeName ref="./Placeography.xml#Edgeworthstown_IE">Edgeworthstown</placeName>
-                  <date when="1835-02-16"/>Feb <hi rend="superscript"> y </hi> 16 <hi rend="superscript">th</hi> 1835</dateline>
+               <dateline><!--If there's no date line, omit this element. Record in the order in which it is written on the letter.-->
+                  <name type="place" ref="Id_where"/>
+                  <date when="0000-00-00"/></dateline>
                <salute>
-                     Gentlemen
+                  <persName ref="./Personography.xml#DarnX1">
+                     my dear Lady Darnley<!-- Use if letter has a saluation ("Dear Sir," for example). If not, delete this line.-->
+                  </persName>
                </salute>
             </opener>
-            <p>Your having directed your letter and <lb/>
-               parcel of books to <persName ref="./Personography.xml#ButlX1">
-                  <unclear>Jn</unclear>
-                  <hi rend="superscript">t</hi>Butlers </persName>
-               <unclear>Trim</unclear>instead<lb/>
-               of to my usual place of residence must<lb/>
-               unavoidably occasion delay in your<lb/>
-               receiving my answer -- your letter I have<lb/>
-               this morning received: the parcel of books<lb/>
-               has not yet been forwarded to me -- And<lb/>
-               as you desire that if I cannot comply<lb/>
-               with your request I should return<lb/>
-               the volume by the cheapest conveyance<lb/>
-               to <unclear>Mcfs</unclear>.<hi rend="superscript">
-                  <unclear>n</unclear>
-               </hi> Curry &amp; C<hi rend="superscript">o</hi>
-               <placeName ref="./Placeography.xml#Dublin_IE">Dublin</placeName>I have desired<lb/>
-               my brother in law <persName ref="./Personography.xml#ButlX1">Mr Butler</persName> to have<lb/>
-               this done --<lb/>
-            </p>
             <p>
-               I have declined all proposals<lb/>
-               to revise or edite works, <del>and to give opinions</del>
-               <lb/>
-               <del>as to the publishing <add>or republishing</add> of books,</del>
-               <del>
-                  <unclear/>
-               </del>
-               <lb/>
-               or (,<del>to use your expression</del>
-               <hi rend="underline">to stand</hi>
-               <lb/>
-               "<hi rend="underline">godmother</hi>" to any other persons works,<lb/>
-               feeling it quite sufficient responsibility<lb/>
-               to answer for my own. This being my<lb/>
-               <hi rend="underline">general</hi>and <hi rend="underline">fixed</hi> principle I think it<lb/>
-               best to say so, <add>to you</add>without looking at the <choice>
-                  <orig>parti-<lb/>
-                  -cular </orig>
-                  <reg>particular</reg>
-               </choice>works in question, because its merits<lb/>
-            </p>
-            <pb n="2" facs="Edgeworth_ Princeton_1835-02_page02.jpg"/>
-            <p>could not induce me to change my<lb/>
-               determination; and my declining your<lb/>
-               proposal for these peculiar reasons of my<lb/>
-               own cannot give any offence to the authors<lb/>
-               or damp the ardor of your scheme<lb/>
-            </p>
-            <p>
-               <del>In which <unclear/>project I wish you</del>
-               <lb/>
-               <del>
-                  <unclear/>
-               </del>
-               <add>I not only wish you success but think</add> think it very likely you will<lb/>
-               both succeed and deserve to succeed <add>so</add> from<lb/>
-               several specimens I have seen of American<lb/>
-               books for children, <add>many of</add> which are ingenious<lb/>
-               and interesting from the novelty of<lb/>
-               the scenes &amp; manners &amp; from the simplicity<lb/>
-               of the stories-- <add> Gentlemen<lb/>
-               You apologise for writing to me without a<lb/>
-               regular introduction but that was unnecessary to</add>
-               <lb/>
-               You may be assured <del>
-                  <unclear/>
-               </del>
-               <lb/>
-               that far from being offended by your<lb/>
-               application, I am gratified by your<lb/>
-               thinking my judgment or my literary<lb/>
-               name sufficiently good to make it worth<lb/>
-               your while to give yourself this trouble<lb/>
-            </p>
-            <p>Regretting that I cannot comply with
-               your request</p>
+            that I have given you<lb/>
+            trouble by enclosing<lb/>
+            the worthless heath in<lb/>
+            the same box with the<lb/>
+            Botany-bay-palm - But<lb/>
+            may I beg the favor of<lb/>
+            you to order your<lb/>
+            gardener to have it<lb/>
+            sent to Town to<lb/>
+            N<hi rend="superscript">o</hi>. 51. Manchester S<hi rend="superscript">t</hi>.<lb/>
+            for <persName ref="./Personography.xml#BeauX1">Capt<hi rend="superscript">n</hi>. Beaufort</persName>,<lb/>
+            and if your <persName ref="./Personography.xml#DarnX1">Ladyship</persName><lb/>
+            will have the goodness<lb/>
+            to ask <persName ref="./Personography.xml#ClifX1">Lord Clifton</persName> to<lb/>
+            frank &amp; forward the<lb/>
+            enclosed note it will<lb/>
+            inform him of the cause<lb/>
+            of the delay -<lb/></p>
+            <p>It will give me pleasure<lb/>
+            <pb n="2" facs="Edgeworth_Beinecke_330_unknown01_page02.jpg"/>
+            <del></del> I am now at<lb/>
+            <placeName ref="/.Placeography.xml#Black-Castle_IE">Black Castle</placeName> with <persName ref="./Personography.xml#BuxtX1">M<hi rend="superscript">r<lb/>
+            Buxton</persName> who desires<lb/>
+            to be kindly remembered<lb/>
+            to your Ladyship<lb/></p>
             <closer>
-               I am Gentlemen<lb/>
-               Your obed<hi rend="superscript">t</hi> Servant<lb/>
-               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
-               <lb/>
+            With best Compliments<lb/>
+            to <persName ref="./Personography.xml#DarnX2">Lord Darnley</persName> and<lb/>
+            to <persName ref="./Personography.xml#BligX1">Lady E Bligh</persName><lb/>
+            I am<lb/>
+            My dear <persName ref="./Personography.xml#DarnX1">Lady Darnley<persName><lb/>
+            your Ladyships<lb/>
+            Affec<hi rend="superscript">e</hi> Servant<lb/>
+            <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName><lb/>
             </closer>
             <postscript>
-               <p>I am <del>much</del> obliged for your present of one of<lb/>
-                  the other books<title ref= "./Workography.xml#Young1">"The Young Christian"</title> -- which<lb/>
-                I have desired to be reserved for me as if I under<lb/>
-                  <pb n="3" facs="Edgeworth_ Princeton_1835-02_page03.jpg"/>
-                stand rightly you meant that at all events I<lb/>
-                should keep that-<lb/>
-               </p>
-               <p>If you publish "<unclear>The weekday day book</unclear>"<lb/>
-                  I beg to be a purchaser and that you would<lb/>
-                  whenever it is published send a copy for<lb/>
-                  me to N<hi rend="superscript">o</hi>. 1 North Audley Street - to the care<lb/>
-                  of <persName ref="./Personography.xml#EdgeF3">M<hi rend="superscript">rs</hi>. 
-                    Lestock Wilson</persName>
-                  <unclear>(my sister</unclear>
-                  <lb/>
-               </p>
+               <p><!--A postscript goes here, outside the <closer>. --></p>
             </postscript>
-            <pb n="4" facs="Edgeworth_ Princeton_1835-02_page04.jpg"/>
-            <note place="bottom">1835
-               Feb 16<lb/>
-               Copy of ME's<lb/>
-               answer<lb/>
-               to M<hi rend="superscript">r</hi>
-               <unclear>Sulby</unclear>
-               <lb/>
-            </note>
+            <!--You can include a <pb/> here, or inside the postScript.-->
+            <!-- Format for postscripts. 
+               Postscripts do NOT go inside closer tags. Adjust to take into account the order in your letter. 
+               Sometimes the signature is on page three, the address on page four, then the postscript follows back on the top of page one, for example.-->
+            <closer><!--Use the <closer> element again to hold Address Leaf information.-->
+               <address>
+                  <addrLine/>
+                  <addrLine/>
+               </address>
+            </closer>
          </div>
       </body>
       <back> </back>
