@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter from Maria Edgeworth to Signora Majorie, April 10, 1830<!--Recipient Name, Month Day, YYYY--></title>
+                <author>Maria Edgeworth</author>
+                <editor ref="Id_who">
+                    Eliza Wilcox<!--Editor on the Maria Edgeworth Letters Project overseeing the coding of this particular letter: FirstName LastName -->
+                </editor>
+                <sponsor>
+                    <orgName>Maria Edgeworth Letters Project</orgName>
+                </sponsor>
+                <sponsor>Wake Forest University, University of Tennessee, Xavier University, Texas
+                    A&amp;M University</sponsor>
+                <principal>Jessica Richard, Hilary Havens, Robin Runia, Susan Egenolf</principal>
+                <respStmt>
+                    <resp>Transcription and coding by</resp>
+                    <persName ref="Id_who">Eliza Wilcox<!--FirstName LastName-->
+                    </persName>
+                    <!-- List all transcribers or coders here, editors and students alike, <persName> by <persName>.-->
+                    <persName ref="Id_who"><!--FirstName LastName--></persName>
+                    <!-- If you're the last person interacting with the file, enter your name last on the list -->
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>First digital edition in TEI, date: November 22, 2022<date when="2022-11-22">
+                    <!--enter the date on which the first coder created and saved this XML file in google drive-->
+                </date>
+                </edition>
+                <respStmt>
+                    <orgName type="naf" ref="Id_who">
+                        University of Birmingham Library<!--who digitized the letter or gave us permission for to use the file?-->
+                    </orgName>
+                    <resp> photos include:
+                        Edgeworth_Birmingham_1830_04_10_page01.jpg
+                        Edgeworth_Birmingham_1830_04_10_page02.jpg
+                        Edgeworth_Birmingham_1830_04_10_page03.jpg
+                        Edgeworth_Brimingham_1830_04_10_page04.jpg
+                        <!-- Make a comma-separated list of each .jpg photo file name associated with your letter. 
+                     For example: DSCF9476.jpg, DSCF9477.jpg, DSCF9478.jpg-->
+                    </resp>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <authority>Maria Edgeworth Letters Project</authority>
+                <date>2022</date>
+                <availability>
+                    <!--Uncomment the appropriate line, based on the archive that holds the physical copy of this letter, 
+                  and delete the other comment line(s).-->
+                    <p><!--Reproduced by courtesy of the <orgName ref="#ReadingCL">Reading Central Library</orgName>.-->
+                        <!--or -->
+                        Reproduced by courtesy of the <orgName ref="http://id.loc.gov/authorities/names/n83137759">University of Birmingham, Cadbury Research Library</orgName>
+                    </p>
+                    <licence>Distributed under a Creative Commons Attribution-ShareAlike 3.0 Unported
+                        License</licence>
+                </availability>
+                <idno>Edgeworth_Birmingham_1830_04_10<!--Change to match the file name and current naming standards, i.e. "Edgeworth_Beinecke_330_1817_01_24" if file name is "Edgeworth_Beinecke_330_1817_01_24.xml"--></idno> 
+            </publicationStmt>
+            <seriesStmt>
+                <title>Maria Edgeworth Letters Project</title>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc xml:lang="en">
+                    <!-- This section of the header identifies the original manuscript source. -->
+                    <msIdentifier>
+                        <repository>University of Birmingham, Cadbury Research Library</repository>
+                        <collection>Special Collections<!-- Enter specific archival collection if applicable--></collection>
+                        <idno><!--Consult library or WorldCat for this info--></idno>
+                    </msIdentifier>
+                    
+                    <!-- FROM LAURA: it's here (below) in the head that I added the full information about the author,
+                  and you could add full information about the addressee as well. -->
+                    <head>Letter from 
+                        <persName xml:id="EdgeM1" from="1768" to="1849">
+                            <forename>Maria</forename>
+                            <surname>Edgeworth</surname>
+                            <date>1768-1849</date>
+                            <idno type="VIAF">71477273</idno>
+                            <idno type="SNAC">62567029</idno>
+                        </persName>
+                        to <persName>Signora Majorie<!--Recipient Name--></persName>, <placeName>Palazzo Balbi, Italy<!--Location where letter was sent--></placeName>, 
+                        <date when="1830-04-10">April 10th, 1830<!-- Transcribe the date as it appears on the letter itself. Enter a numeric standardized date value in @when. --></date>
+                    </head>
+                    <physDesc>
+                        <!-- optional physical description of the letter goes here: paper size and condition, seal, postmarks, etc.-->
+                    </physDesc>
+                </msDesc>
+                
+                <!-- FROM LAURA: where to put the following information in <bibl> is still a question: 
+               ask TEI List whether it should be in the sourceDesc or elsewhere? -->
+                
+                <bibl>In addition to our edited version, this letter was previously published in
+                    <!--complete bibiographical info if letter was published in a book here - if not delete-->
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <!--Where Edgeworth uses nonstandard spelling and hyphenation of words, transcriber-coders 
+               should use TEI elements “choice," “sic," and “reg" to encode both Edgeworth’s 
+               spelling and the regular international standard of Oxford English spelling, 
+               following the first listed spelling in the Oxford English Dictionary. -->
+                <p>Edgeworth’s spelling and punctuation are retained in transcription, except where a
+                    word is split at the end of a line and the beginning of the next in a manuscript. The
+                    long s and ligatured forms are silently emended.</p>
+            </editorialDecl>
+            <classDecl>
+                <taxonomy xml:id="relators">
+                    <bibl>Marc Relators</bibl>
+                    <category xml:id="aut">
+                        <catDesc>Author</catDesc>
+                    </category>
+                </taxonomy>
+                <taxonomy xml:id="lcsh">
+                    <bibl>Subjects</bibl>
+                    <category>
+                        <catDesc xml:id="AntislaveryMovements">Antislavery movements
+                            <idno type="loc">sh85123315</idno>
+                        </catDesc>
+                        <catDesc xml:id="Birth">Birth
+                            <idno type="loc">sh86004053</idno>
+                        </catDesc>
+                        <catDesc xml:id="Death">Death
+                            <idno type="loc">sh85036085</idno>
+                        </catDesc>
+                        <catDesc xml:id="Education">Education
+                            <idno type="loc">sh85040989</idno>
+                        </catDesc>
+                        <catDesc xml:id="Imperialism">Imperialism
+                            <idno type="loc">sh85064628</idno>
+                        </catDesc>
+                        <catDesc xml:id="FictitiousCharacters">Fictitious characters
+                            <idno type="loc">sh99004183</idno>
+                        </catDesc>
+                        <catDesc xml:id="Marriage">Marriage
+                            <idno type="loc">sh85081416</idno>
+                        </catDesc>
+                        <catDesc xml:id="Nationalism">Nationalism
+                            <idno type="loc">sh85090150</idno>
+                        </catDesc>
+                        <catDesc xml:id="PoliticsAndCulture">Politics and culture
+                            <idno type="loc">sh85104468</idno>
+                        </catDesc>
+                        <catDesc xml:id="Race">Race  
+                            <idno type="loc">sh85110232</idno>
+                        </catDesc>
+                        <catDesc xml:id="Religion">Religion
+                            <idno type="loc">sh85112549</idno>
+                        </catDesc>
+                        <catDesc xml:id="Science">Science
+                            <idno type="loc">sh85118553</idno>
+                        </catDesc>
+                        <catDesc xml:id="Technology">Technology
+                            <idno type="loc">sh85133147</idno>
+                        </catDesc>
+                        <catDesc xml:id="Slavery">Slavery
+                            <idno type="loc">sh85123314</idno>
+                        </catDesc>
+                        <catDesc xml:id="Travel">Travel
+                            <idno type="loc">sh85137149</idno>
+                        </catDesc>
+                    </category>
+                </taxonomy>
+                <taxonomy xml:id="works">
+                    <bibl>Works</bibl>
+                    <category>
+                        <catDesc xml:id="w1">Belinda</catDesc>
+                        <catDesc xml:id="w2">Castle Rackrent</catDesc>
+                        <catDesc xml:id="w3">Comic Dramas, in Three Acts</catDesc>
+                        <catDesc xml:id="w4">Early Lessons</catDesc>
+                        <catDesc xml:id="w5">Essay on Irish Bulls</catDesc>
+                        <catDesc xml:id="w6">Frank: a Sequel to Frank in Early Lessons</catDesc>
+                        <catDesc xml:id="w7">Harrington, a Tale; and Ormond, a Tale</catDesc>
+                        <catDesc xml:id="w8">Harry and Lucy Concluded</catDesc>
+                        <catDesc xml:id="w9">Leonora</catDesc>
+                        <catDesc xml:id="w10">Letters for Literary Ladies</catDesc>
+                        <catDesc xml:id="w11">Moral Tales for Young People</catDesc>
+                        <catDesc xml:id="w12">Moral Tales</catDesc>
+                        <catDesc xml:id="w13">Patronage</catDesc>
+                        <catDesc xml:id="w14">Popular Tales</catDesc>
+                        <catDesc xml:id="w15">Practical Education</catDesc>
+                        <catDesc xml:id="w16">Readings on Poetry</catDesc>
+                        <catDesc xml:id="w17">Ormond</catDesc>
+                        <catDesc xml:id="w18">The Absentee</catDesc>
+                        <catDesc xml:id="w19">Tales of Fashionable Life</catDesc>
+                        <catDesc xml:id="w20">The Contrast</catDesc>
+                        <catDesc xml:id="w21">The Modern Griselda; a Tale</catDesc>
+                        <catDesc xml:id="w22">The Parent's Assistant</catDesc>
+                        <catDesc xml:id="w23">Tomorrow; or the Dangers of Delay</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName><!--SENDER NAME--></persName>
+                </correspAction>
+                <correspAction type="received">
+                    <persName><!--RECIPIENT NAME--></persName>
+                </correspAction>
+            </correspDesc>
+            <textClass>
+                <keywords scheme="">
+                    <list type="simple">
+                        <item>English literature</item>
+                        <item>History</item>
+                    </list>
+                </keywords>
+                <catRef target="#f7" scheme="#f"/>
+                <catRef target="#hist #el" scheme="locSUB"/>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2021-01-01" who="Id_who">
+                <!--Brief description of what you did here.-->
+            </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="letter">
+                <pb n="1" facs="Edgeworth_Birmingham_1830_04_10_page01.jpg"/>
+                <!--filenames for photos associated with this letter. Example: <pb n="1" facs="image1.jpg image2.jpg image3.jpg"/> -->
+                <opener>
+                    <dateline><!--If there's no date line, omit this element. Record in the order in which it is written on the letter.-->
+                        <name type="place" ref="Id_where"/><placeName ref="./Placeography.xml#Edgeworthstown_IE">Edgeworth's Town</lb>
+                       Ireland</placeName></lb>
+                        <date when="1830-04-10"/>April 10<hi rend="superscript">th</hi>, 1830</dateline>
+                </opener>
+                <p>I wish that I could write to you my dear<lb/>
+                    Madam in your own delightful language<lb/>
+                    which expresses in such a melodious, <choice><orig>grace<lb/
+                    -ful</orig><reg>graceful</reg></choice>and natural manner all that is<lb/>
+                    grateful and pleasing to the heart and<lb/>
+                    to the ear - But Alas! what your letter<lb/>
+                    made me feel so agreeably, mine can<lb/>
+                    never convey to you - unless indeed you<lb/>
+                    are so kind to translate me into Italian<lb/>
+                    as you read - And certainly this would<lb/>
+                    cost you no trouble, as I may judge by<lb/>
+                    what I see of <title ref="./Workography.xml#Early1">"Early Lessons"</title>Early - Frank <choice><orig>ap
+                    -pears</orig><reg>appears</reg></choice> to me much more agreeable in Italian<lb/>
+                    than in English. And if a foreigner may judge he<lb/>
+                    speaks that language with so much purity<lb/>
+                    and facility that I can scarcely help think<lb/>
+                    =ing it his native tongue. - Even his very<lb/>
+                    name in Italy - <hi rend="underline">Benedetto</hi> - sounds <choice><orig>auspi<lb/>
+                    -cious</orig><reg>auspicious</reg></choice>, more conciliating &amp; (pardon a pun)<lb/>
+                   <hi rend="underline">more blessed</hi> than his English apellation.<lb/>
+                    
+                    Accept dear Madam my most sincere and<lb/>
+                    warm thanks for the service and the kindness<lb/>
+                    you have done me - I hope you are an author?<lb/>
+                    and that you may some time experience similar<lb/>
+                    pleasure and as high gratification from seeing<lb/>
+                    what you have written so graced by good <choic><orig>trasnla-<lb/>
+                    -tion</orig><reg>translation</reg></choic>Unless you have been so fortunate, (and<lb/>
+                    that is not probable,) you cannot from your<lb/>
+                    own feelings judge now much I feel obliged<lb/>
+                    It is delightful to me to think that my little<lb/>
+                    <title ref="./Workography.xml#Early1">Early Lessons</title>will in future be read with <choice><orig>plea-<lb/>
+                    sure</orig><reg>pleasure</reg></choice> by a rising generation of Italian children<lb/>
+                    and that children yet unborn may bless<lb/>
+                    me, through your means, for easy Early read-
+                    ing -<lb/>
+                    Miss Smith with whom I understand<lb/>
+                    you are well acquainted informs me that<lb/>
+                    you were for some time in London - I am sorry<lb/>
+                    I was not there at that time as it would have<lb/>
+                    gratified me to have made your acquaintance<lb/>
+                    - If you should ever return to <placeName ref="./Placeography.xml#ENK">England</placeName> I flatter<lb/>
+                    myself you will do me the pleasure and the<lb/>
+                    justice to allow me an opportunity of offering<lb/>
+                    
+                    my thanks to you in person - and of enjoying as much<lb/>
+                    of your company as you could afford me -<lb/>
+                    It is scarcely to be hoped that you should think<lb/>
+                    of a visit to <placeName ref="./Placeography.xml#IE">Ireland</placeName>? Foreigners I fear have<lb/>
+                    a terrible idea of this country and imagine<lb/>
+                    that they could not live a day or sleep a<lb/>
+                    night here in peace - But believe me this is<lb/>
+                    a false notion; I have lived here <add>almost</add> all my life -<lb/>
+                    a life of upwards of 60 years ; and have had<lb/>
+                    no reason to complain, but much reason to<lb/>
+                    love and pity my countrymen - The reasons<lb/>
+                    for pity have been, Thank God! every year<lb/>
+                    diminishing - the last year most - <lb/>
+                    now that religious and civil liberty <unclear>have</unclear><lb/>
+                    been added to the blessings of a fertile soil of<lb/>
+                    warm hearts, good heads &amp; ingenious<lb/>
+                    and (without exaggeration I may say of<lb/>
+                    <hi rend="underline">industrious</hi> hands we may hence forward<lb/>
+                    expect the Irish will rise in the scale of <choice><orig>na-<lb/>
+                    -tions</orig><reg>nations</reg></choice>. They will shew that they can bear prosperity<lb/>
+                    as well, - better, than they have endured <choice><orig>adver-<lb/>
+                        -sity</orig><reg>adversity</reg></choice> - Among the prosperous circumstances<lb/>
+                    to which I look forward for Ireland now that<lb/>
+                    
+                    security &amp; peace are established here, I count on<lb/>
+                    the increase of foreign visitors - May I<lb/>
+                    then hope that La Signora Majone will some<lb/>
+                    time be of that number? perhaps not while<lb/>
+                    I live - but these Edgeworths are a numerous<lb/>
+                    and united family, and some of them<lb/>
+                    will long I trust continue to reside at this<lb/>
+                    their family-home &amp; will always be happy<lb/>
+                    to receive one who has been so serviceable<lb/>
+                    &amp; so obliging as you dear Madam have been to<lb/>
+                    <!-- Begin transcibing the body of the letter here. -->
+                </p>
+                <p>
+                    <!--More body paragraphs as needed.--></p>
+                <p>
+                    <!--More body paragraphs as needed.-->
+                    <!--Where there's a page break record it inside the relevant body paragraph like this, 
+                  with the self-closing page-break element. n="2" indicates the START of the second page.-->
+                    <pb n="2" facs="image2.jpg"/>
+                </p>
+                <p><!--More body paragraphs as needed.--></p>
+                <closer>
+                    grateful servant
+                    Maria Edgeworth
+                    
+                    [unclear]fo[/unclear] frontiere
+                    [unclear]dl[/unclear] Signora,
+                    Signora Majone
+                    Palazzo Balbi
+                    Strada Balbi-. 
+                    [underline][unclear]NB[/unclear][/underline] Gene.<!--include linebreaks, if used. example: <closer> Yours<lb/> Very sincerely<lb/> -->
+                </closer>
+                <postscript>
+                    <p><!--A postscript goes here, outside the <closer>. --></p>
+                </postscript>
+                <!--You can include a <pb/> here, or inside the postScript.-->
+                <!-- Format for postscripts. 
+               Postscripts do NOT go inside closer tags. Adjust to take into account the order in your letter. 
+               Sometimes the signature is on page three, the address on page four, then the postscript follows back on the top of page one, for example.-->
+                <closer><!--Use the <closer> element again to hold Address Leaf information.-->
+                    <address>
+                        <!--Include any text written on the address leaf; use a separate "addrLine" for each line and indicate line breaks. -->
+                        <addrLine/>
+                        <addrLine/>
+                        <addrLine/>
+                    </address>
+                </closer>
+            </div>
+        </body>
+        <back> </back>
+    </text>
+</TEI>
+
