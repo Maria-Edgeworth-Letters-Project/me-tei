@@ -6,10 +6,10 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Letter from Maria Edgeworth to <!--Recipient Name, Month Day, YYYY--></title>
+                <title>Letter from Richard Bentley to Frances Maria Edgeworth, February 11, 1834<!--Recipient Name, Month Day, YYYY--></title>
                 <author>Maria Edgeworth</author>
                 <editor ref="Id_who">
-                    <!--Editor on the Maria Edgeworth Letters Project overseeing the coding of this particular letter: FirstName LastName -->
+                    Eliza Wilcox<!--Editor on the Maria Edgeworth Letters Project overseeing the coding of this particular letter: FirstName LastName -->
                 </editor>
                 <sponsor>
                     <orgName>Maria Edgeworth Letters Project</orgName>
@@ -19,7 +19,7 @@
                 <principal>Jessica Richard, Hilary Havens, Robin Runia, Susan Egenolf</principal>
                 <respStmt>
                     <resp>Transcription and coding by</resp>
-                    <persName ref="Id_who"><!--FirstName LastName-->
+                    <persName ref="Id_who">Eliza Wilcox<!--FirstName LastName-->
                     </persName>
                     <!-- List all transcribers or coders here, editors and students alike, <persName> by <persName>.-->
                     <persName ref="Id_who"><!--FirstName LastName--></persName>
@@ -27,7 +27,7 @@
                 </respStmt>
             </titleStmt>
             <editionStmt>
-                <edition>First digital edition in TEI, date: <date when="2022-01-01">
+                <edition>First digital edition in TEI, date: December 4, 2022<date when="2022-12-04">
                     <!--enter the date on which the first coder created and saved this XML file in google drive-->
                 </date>
                 </edition>
@@ -36,6 +36,9 @@
                         <!--who digitized the letter or gave us permission for to use the file?-->
                     </orgName>
                     <resp> photos include:
+                        Edgeworth_Princeton_1834_07_page01.jpg,
+                        Edgeworth_Princeton_1834_07_page02.jpg,
+                        Edgeworth_Princeton_1834_07_page03.jpg
                         <!-- Make a comma-separated list of each .jpg photo file name associated with your letter. 
                      For example: DSCF9476.jpg, DSCF9477.jpg, DSCF9478.jpg-->
                     </resp>
@@ -47,14 +50,14 @@
                 <availability>
                     <!--Uncomment the appropriate line, based on the archive that holds the physical copy of this letter, 
                   and delete the other comment line(s).-->
-                    <p><!--Reproduced by courtesy of the <orgName ref="#ReadingCL">Reading Central Library</orgName>.-->
+                    <p>Reproduced by courtesy of the <orgName ref="http://id.loc.gov/authorities/names/n82003163">Princeton University Library</orgName><!--Reproduced by courtesy of the <orgName ref="#ReadingCL">Reading Central Library</orgName>.-->
                         <!--or -->
                         <!--Courtesy of <orgName ref="#Rylands">The University of Manchester</orgName>.-->
                     </p>
                     <licence>Distributed under a Creative Commons Attribution-ShareAlike 3.0 Unported
                         License</licence>
                 </availability>
-                <idno><!--Change to match the file name and current naming standards, i.e. "Edgeworth_Beinecke_330_1817_01_24" if file name is "Edgeworth_Beinecke_330_1817_01_24.xml"--></idno> 
+                <idno>Edgeworth_Princeton_1834_07<!--Change to match the file name and current naming standards, i.e. "Edgeworth_Beinecke_330_1817_01_24" if file name is "Edgeworth_Beinecke_330_1817_01_24.xml"--></idno> 
             </publicationStmt>
             <seriesStmt>
                 <title>Maria Edgeworth Letters Project</title>
@@ -63,7 +66,7 @@
                 <msDesc xml:lang="en">
                     <!-- This section of the header identifies the original manuscript source. -->
                     <msIdentifier>
-                        <repository>ORGANIZATION NAME</repository>
+                        <repository>Princeton University Library</repository>
                         <collection><!-- Enter specific archival collection if applicable--></collection>
                         <idno><!--Consult library or WorldCat for this info--></idno>
                     </msIdentifier>
@@ -71,15 +74,11 @@
                     <!-- FROM LAURA: it's here (below) in the head that I added the full information about the author,
                   and you could add full information about the addressee as well. -->
                     <head>Letter from 
-                        <persName xml:id="ME" from="1768" to="1849">
-                            <forename>Maria</forename>
-                            <surname>Edgeworth</surname>
-                            <date>1768-1849</date>
-                            <idno type="VIAF">71477273</idno>
-                            <idno type="SNAC">62567029</idno>
+                        <persName>
+                        Unknown
                         </persName>
-                        to <persName><!--Recipient Name--></persName>, <placeName><!--Location where letter was sent--></placeName>, 
-                        <date when="1111-01-01"><!-- Transcribe the date as it appears on the letter itself. Enter a numeric standardized date value in @when. --></date>
+                        to <persName>Unknown</persName>, <placeName><!--Location where letter was sent--></placeName>, 
+                        <date when="1834-02-11">February 11, 1834<!-- Transcribe the date as it appears on the letter itself. Enter a numeric standardized date value in @when. --></date>
                     </head>
                     <physDesc>
                         <!-- optional physical description of the letter goes here: paper size and condition, seal, postmarks, etc.-->
@@ -194,10 +193,10 @@
         <profileDesc>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName><!--SENDER NAME--></persName>
+                    <persName>Unknown</persName>
                 </correspAction>
                 <correspAction type="received">
-                    <persName><!--RECIPIENT NAME--></persName>
+                    <persName>Unknown</persName>
                 </correspAction>
             </correspDesc>
             <textClass>
@@ -220,29 +219,41 @@
     <text>
         <body>
             <div type="letter">
-                <pb n="1" facs="image1.jpg"/>
+                <pb n="1" facs="Edgeworth_Princeton_1834_07_page01,jpg"/>
                 <!--filenames for photos associated with this letter. Example: <pb n="1" facs="image1.jpg image2.jpg image3.jpg"/> -->
                 <opener>
                     <dateline><!--If there's no date line, omit this element. Record in the order in which it is written on the letter.-->
-                        <name type="place" ref="Id_where"/>
-                        <date when="1816-08-04"/>August 4, 1816. </dateline>
+                        <name type="place" ref="Id_where"/><placeName ref="./Placeography.xml#New-Burlington-Street_XX">New Burlington Street</placeName>
+                        <date when="1834-02-11"/>Feby 11. 1834</dateline>
                     <salute>
                         <persName>
                             <!-- Use if letter has a saluation ("Dear Sir," for example). If not, delete this line.-->
                         </persName>
                     </salute>
                 </opener>
-                <p><!-- Begin transcibing the body of the letter here. -->
-                </p>
-                <p>
-                    <!--More body paragraphs as needed.--></p>
-                <p>
-                    <!--More body paragraphs as needed.-->
-                    <!--Where there's a page break record it inside the relevant body paragraph like this, 
-                  with the self-closing page-break element. n="2" indicates the START of the second page.-->
-                    <pb n="2" facs="image2.jpg"/>
-                </p>
-                <p><!--More body paragraphs as needed.--></p>
+                <p><persName ref="./Personography.xml#BentR1">M Bentley</persName> presents his <choice><orig>Compli-<lb/>
+                    ments</orig><reg>Compliments</reg></choice> to <persName ref="./Personography.xml#EdgeF3">Mrs. Lestock Wilson</persName><lb/>
+                    &amp; herewith forwards according<lb/>
+                    to her request Six more<lb/>
+                    Copies of <persName ref="./Personography.xml#EdgeM1">Miss Edgeworths</persName><lb/>
+                    new Work<lb/></p>
+                 <p>As respects the copies now<lb/>
+                    sent in compliance with<lb/>
+                    <persName ref="./Personography.xml#EdgeF3">Mrs Lestock Wilson's</persName> and<lb/>
+                 <pb n="2" facs="Edgeworth_Princeton_1834_07_page02.jpg"/>   
+                    <persName ref="./Personography.xml#EdgeM1">Miss Edgeworth's</persName> wishes <persName ref="./Personography.xml#BentR1">Mr<lb/>
+                        Bentley</persName> begs to say that<lb/>
+                    he has much pleasure<lb/>
+                    in presenting 12 Copies<lb/>
+                    of her book to the Authoress,<lb/>
+                    but requests to know to<lb/>
+                    whom he is to charge the<lb/>
+                    remaining copies viz 22<lb/>
+                    (twenty-two). Perhaps <persName ref="./Personography.xml#EdgeF3">Mrs<lb/>
+                        Lestock Wilson</persName> will, when she<lb/>
+                    <pb n="3" facs="Edgeworth_Princeton_1834_07_page03.jpg"/>     
+                    writes to <persName ref="./Personography.xml#EdgeM1">Miss Edgeworth</persName> <choice><orig>ar-<lb/>
+                        range</orig><reg>arrange</reg></choice> this print for <persName ref="./Personography.xml#BentR1">Mr Bentley</persName><lb/></p>
                 <closer>
                     <!--include linebreaks, if used. example: <closer> Yours<lb/> Very sincerely<lb/> -->
                 </closer>
@@ -255,7 +266,8 @@
                Sometimes the signature is on page three, the address on page four, then the postscript follows back on the top of page one, for example.-->
                 <closer><!--Use the <closer> element again to hold Address Leaf information.-->
                     <address>
-                        <!--Include any text written on the address leaf; use a separate "addrLine" for each line and indicate line breaks. -->
+                        To <persName ref="./Personography.xml#EdgeF3">Mrs Lestock Wilson</persName><lb></lb>
+                <!--Include any text written on the address leaf; use a separate "addrLine" for each line and indicate line breaks. -->
                         <addrLine/>
                         <addrLine/>
                         <addrLine/>
