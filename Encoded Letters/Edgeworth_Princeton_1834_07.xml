@@ -6,10 +6,10 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Letter from James Ballantyne to Maria Edgeworth, November 10, 1814 <!--Recipient Name, Month Day, YYYY--></title>
+                <title>Letter from Maria Edgeworth to <!--Recipient Name, Month Day, YYYY--></title>
                 <author>Maria Edgeworth</author>
                 <editor ref="Id_who">
-                    Eliza Wilcox<!--Editor on the Maria Edgeworth Letters Project overseeing the coding of this particular letter: FirstName LastName -->
+                    <!--Editor on the Maria Edgeworth Letters Project overseeing the coding of this particular letter: FirstName LastName -->
                 </editor>
                 <sponsor>
                     <orgName>Maria Edgeworth Letters Project</orgName>
@@ -19,7 +19,7 @@
                 <principal>Jessica Richard, Hilary Havens, Robin Runia, Susan Egenolf</principal>
                 <respStmt>
                     <resp>Transcription and coding by</resp>
-                    <persName ref="Id_who">Eliza Wilcox<!--FirstName LastName-->
+                    <persName ref="Id_who"><!--FirstName LastName-->
                     </persName>
                     <!-- List all transcribers or coders here, editors and students alike, <persName> by <persName>.-->
                     <persName ref="Id_who"><!--FirstName LastName--></persName>
@@ -27,7 +27,7 @@
                 </respStmt>
             </titleStmt>
             <editionStmt>
-                <edition>First digital edition in TEI, date: December 4, 2022<date when="2022-12-04">
+                <edition>First digital edition in TEI, date: <date when="2022-01-01">
                     <!--enter the date on which the first coder created and saved this XML file in google drive-->
                 </date>
                 </edition>
@@ -36,10 +36,6 @@
                         <!--who digitized the letter or gave us permission for to use the file?-->
                     </orgName>
                     <resp> photos include:
-                        Edgeworth_NLS_23130_1814_11_10_page01.jpg,
-                        Edgeworth_NLS_23130_1814_11_10_page02.jpg,
-                        Edgeworth_NLS_23130_1814_11_10_page03.jpg,
-                        Edgeworth_NLS_23130_1814_11_10_page04.jpg
                         <!-- Make a comma-separated list of each .jpg photo file name associated with your letter. 
                      For example: DSCF9476.jpg, DSCF9477.jpg, DSCF9478.jpg-->
                     </resp>
@@ -51,14 +47,14 @@
                 <availability>
                     <!--Uncomment the appropriate line, based on the archive that holds the physical copy of this letter, 
                   and delete the other comment line(s).-->
-                    <p>Reproduced by courtesy of the <orgName ref="http://id.loc.gov/authorities/names/n80044899">National Library of Scotland</orgName><!--Reproduced by courtesy of the <orgName ref="#ReadingCL">Reading Central Library</orgName>.-->
+                    <p><!--Reproduced by courtesy of the <orgName ref="#ReadingCL">Reading Central Library</orgName>.-->
                         <!--or -->
                         <!--Courtesy of <orgName ref="#Rylands">The University of Manchester</orgName>.-->
                     </p>
                     <licence>Distributed under a Creative Commons Attribution-ShareAlike 3.0 Unported
                         License</licence>
                 </availability>
-                <idno>Edgeworth_NLS_23130_1814_11_10<!--Change to match the file name and current naming standards, i.e. "Edgeworth_Beinecke_330_1817_01_24" if file name is "Edgeworth_Beinecke_330_1817_01_24.xml"--></idno> 
+                <idno><!--Change to match the file name and current naming standards, i.e. "Edgeworth_Beinecke_330_1817_01_24" if file name is "Edgeworth_Beinecke_330_1817_01_24.xml"--></idno> 
             </publicationStmt>
             <seriesStmt>
                 <title>Maria Edgeworth Letters Project</title>
@@ -67,7 +63,7 @@
                 <msDesc xml:lang="en">
                     <!-- This section of the header identifies the original manuscript source. -->
                     <msIdentifier>
-                        <repository>National Library of Scotland</repository>
+                        <repository>ORGANIZATION NAME</repository>
                         <collection><!-- Enter specific archival collection if applicable--></collection>
                         <idno><!--Consult library or WorldCat for this info--></idno>
                     </msIdentifier>
@@ -75,19 +71,15 @@
                     <!-- FROM LAURA: it's here (below) in the head that I added the full information about the author,
                   and you could add full information about the addressee as well. -->
                     <head>Letter from 
-                        <persName>
-                            <forename>James</forename>
-                            <surname>Ballantyne</surname>
-                        </persName>
-                        to <persName xml:id="ME" from="1768" to="1849">
+                        <persName xml:id="ME" from="1768" to="1849">
                             <forename>Maria</forename>
                             <surname>Edgeworth</surname>
                             <date>1768-1849</date>
                             <idno type="VIAF">71477273</idno>
                             <idno type="SNAC">62567029</idno>
                         </persName>
-                        <placeName><!--Location where letter was sent--></placeName> 
-                        <date when="1814-11-10">10 November 1814<!-- Transcribe the date as it appears on the letter itself. Enter a numeric standardized date value in @when. --></date>
+                        to <persName><!--Recipient Name--></persName>, <placeName><!--Location where letter was sent--></placeName>, 
+                        <date when="1111-01-01"><!-- Transcribe the date as it appears on the letter itself. Enter a numeric standardized date value in @when. --></date>
                     </head>
                     <physDesc>
                         <!-- optional physical description of the letter goes here: paper size and condition, seal, postmarks, etc.-->
@@ -202,10 +194,10 @@
         <profileDesc>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName>James Ballantyne</persName>
+                    <persName><!--SENDER NAME--></persName>
                 </correspAction>
                 <correspAction type="received">
-                    <persName>Maria Edgeworth</persName>
+                    <persName><!--RECIPIENT NAME--></persName>
                 </correspAction>
             </correspDesc>
             <textClass>
@@ -228,7 +220,7 @@
     <text>
         <body>
             <div type="letter">
-                <pb n="1" facs="Edgeworth_NLS_23130_1814_11_10_page01.jpg/>
+                <pb n="1" facs="image1.jpg"/>
                 <!--filenames for photos associated with this letter. Example: <pb n="1" facs="image1.jpg image2.jpg image3.jpg"/> -->
                 <opener>
                     <dateline><!--If there's no date line, omit this element. Record in the order in which it is written on the letter.-->
@@ -236,81 +228,23 @@
                         <date when="1816-08-04"/>August 4, 1816. </dateline>
                     <salute>
                         <persName>
-                            <placeName ref="./Placeography.xml#Edinburgh_STK">Edin</placeName> - 10th November,
-                            1814.
-                            <persName ref="./Personography.xml#EdgeM1">Madam,</persName><lb/><!-- Use if letter has a saluation ("Dear Sir," for example). If not, delete this line.-->
+                            <!-- Use if letter has a saluation ("Dear Sir," for example). If not, delete this line.-->
                         </persName>
                     </salute>
                 </opener>
+                <p><!-- Begin transcibing the body of the letter here. -->
+                </p>
                 <p>
-                    I am desired by the <persName ref="./Personography.xml#ScotW1">Author</persName> of <title ref="./Workography.xml#Waver1">Waverley</title> to<lb/>
-                    acknowledge, in his name, the honour you have done him by your most<lb/>
-                    flattering approbation of his work: <del>a</del> distinction which <add>he</add> receives as one<lb/>
-                    of the highest that could be paid him, and which he would have been<lb/>
-                    proud to have himself stated his sense of, only that being <hi rend="underline">impersonal</hi>,<lb/>
-                    he thought it more respectful to require my assistance, than to write<lb/>
-                    an anonymous letter.<lb/></p>
-                <p> There are very few who have had the opportunities<lb/>
-                    that have been presented to me, of knowing how very elevated is the<lb/>
-                    admiration entertained by the <persName ref="./Personography.xml#ScotW1">Author</persName> of <title ref="./Workography.xml#Waver1">Waverley</title>, for the genius of<lb/>
-                    <persName ref="./Personography.xml#EdgeM1">Miss Edgeworth.</persName> <del>During</del> From the intercourse that took place betwixt us<lb/>
-                    while the work was going through my press, <hi rend="underline">I know</hi> that the<lb/>
-                    exquisite truth and power of your characters operated in his mind<lb/>
-                    at once to excite and subdue it. He felt that the success of his<lb/>
-                    book was to depend upon the character much more than upon the<lb/>
-                    story,<lb/>
-                  <pb n="2" facs="Edgeworth_NLS_23130_1814_11_10_page02.jpg"/>  
-                    story; and he entertained so just and so high an opinion of your <choice><orig>emi-<lb/>
-                        nence</orig><reg>eminence</reg></choice> in the management of both, as to have strong apprehensions of<lb/>
-                    any comparison which might be initiated betwixt his pictures and story<lb/>
-                    &amp; yours; besides, that there is a richness and naivete in Irish character<lb/>
-                    <del>in which</del> and humour, in which the Scotch are certainly defective,<lb/>
-                    and which could hardly fail, as he thought, to render his delineations<lb/>
-                    cold and tame by the contrast. <quote>"If I could but hit <persName ref="./Personography.xml#EdgeM1">Miss Edgeworth's</persName><lb/>
-                        wonderful power of vivifying all her persons, and making them live<lb/>
-                        as rich beings in your mind, I should not be affraid."</quote> Often has<lb/>
-                    the <persName ref="./Personography.xml#ScotW1">Author</persName> of <title ref="./Workography.xml#Waver1">Waverley</title> used such language to me: and I knew that<lb/>
-                    I gratified him most when I could say. <quote>"Positively, this <hi rend="underline">is</hi> equal<lb/>
-                        to Miss Edgeworth."</quote> You will thus judge, <persName ref="./Personography.xml#EdgeM1">Madam</persName>, how deeply he<lb/>
-                    must feel such praise as you have bestowed upon his efforts.<lb/></p>
-                
-                <p> I believe he himself thinks the Baron the best<lb/>
-                    drawn character in his book - I mean the Baillie - honest Baillie<lb/>
-                    Macwheeble. He protests it is the most true, though from many<lb/>
-                    causes he did not expect it to be the most popular. It appears to<lb/>
-                    me, that amongst so many splendid portraits, all drawn with such<lb/>
-                    strength and truth, it is more <del></del> easy to say which is your<lb/>
-                    favourite than which is best. - <persName ref="./Personography.xml#MackH1">Mr. Henry Mackenzie</persName> agrees with<lb/>
-                    you in your objection to the resemblances to <persName ref=",/Personography.xml#FielH1">Fielding.</persName> He says,<lb/>
-                    you should never be forced to recollect, maugre all its internal evidence<lb/>
-                    to the contrary, that such a work is a work of fiction, and all<lb/>
-                    <hi rend="underline">its</hi><lb/>
-                 <pb n="3" facs="Edgeworth_NLS_23130_1814_11_10_page03.jpg"/>   
-                    its fine creations but of air. The character of Rose is less finished than<lb/>
-                    the author had at one period intended; but I believe the characters of<lb/>
-                    humour grew upon his liking, to the prejudice, in some degree, of those of<lb/>
-                    a more elevated and sentimental kind. But what can surpass Flora<lb/>
-                    and her gallant brother!<lb/></p>
-                    
-                <p>  I am not authorized to say, but I will not resist my<lb/>
-                    impulse to say to <persName ref="./Personography.xml#EdgeM1">Miss Edgeworth</persName>, that another novel, descriptive of<lb/>
-                    more ancient manners still, may be expected ere long from the <persName ref="./Personography.xml#ScotW1">Author</persName><lb/>
-                    of <title ref="./Workography.xml#Waver1">Waverley</title>. But I request him to observe, that I say this in strict<lb/>
-                    confidence - not, certainly, meaning to exclude from the knowledge of<lb/>
-                    what will give them pleasure, her respectable family.<lb/></p>
-                    
-                <p><persName ref="./Personography.xml#ScotW1">Mr. Scott's</persName> poem, <title ref="./Workography.xml#Lordo1">The Lord of the Isles</title>, promises fully<lb/>
-                    to equal the most admired of his productions. It is, I think, equally<lb/>
-                    powerful, and certainly more uniformly polished &amp; sustained. I have<lb/>
-                    seen three Cantos. It will consist of six.<lb/>
-                   
-            </p>
+                    <!--More body paragraphs as needed.--></p>
+                <p>
+                    <!--More body paragraphs as needed.-->
+                    <!--Where there's a page break record it inside the relevant body paragraph like this, 
+                  with the self-closing page-break element. n="2" indicates the START of the second page.-->
+                    <pb n="2" facs="image2.jpg"/>
+                </p>
+                <p><!--More body paragraphs as needed.--></p>
                 <closer>
-                    I have the honour to be, <persName ref="./Personography.xml#EdgeM1">Madam</persName>, with the utmost<lb/>
-                    admiration and respect,<lb/>
-                    Your Most obedient<lb/>
-                    And most humble Servant,<lb/>
-                    <persName ref="./Personography.xmlBallJ1">James Ballantyne</persName><lb/><!--include linebreaks, if used. example: <closer> Yours<lb/> Very sincerely<lb/> -->
+                    <!--include linebreaks, if used. example: <closer> Yours<lb/> Very sincerely<lb/> -->
                 </closer>
                 <postscript>
                     <p><!--A postscript goes here, outside the <closer>. --></p>
@@ -321,14 +255,6 @@
                Sometimes the signature is on page three, the address on page four, then the postscript follows back on the top of page one, for example.-->
                 <closer><!--Use the <closer> element again to hold Address Leaf information.-->
                     <address>
-                        <pb n="4" facs="Edgeworth_NLS_23130_1814_11_10_page04.jpg"/>
-                        <note place="bottom"><persName ref="./Personography.xmlBallJ1">M Ballantyne<lb/></persName>
-                            to<lb/>
-                            <persName ref="./Personography.xml#EdgeM1">M.E.</persName> - Nov. 1814<lb/>
-                            In reply to her letter<lb/>
-                            on reading <title ref="./Workography.xml#Waver1">Waverley</title></note><lb/>
-                        <persName ref="./Personography.xml#BallJ1">M<hi rend="superscript">r</hi> Ballantyne</persName><lb/>
-                        Nov<hi rend="superscript">r</hi>. 1814 -<lb/>
                         <!--Include any text written on the address leaf; use a separate "addrLine" for each line and indicate line breaks. -->
                         <addrLine/>
                         <addrLine/>
