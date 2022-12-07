@@ -22,11 +22,12 @@
                <persName ref="Id_who">Jamie Kramer
                </persName>
                <persName ref="Id_who">Jessica Richard</persName>
+               <persName ref="Id_who">Eliza Wilcox</persName>
                <!-- If you're the last person interacting with the file, enter your name last on the list -->
             </respStmt>
          </titleStmt>
          <editionStmt>
-            <edition>First digital edition in TEI, date: <date when="2022-08-01">
+            <edition>First digital edition in TEI, date: August 08, 2022<date when="2022-08-01">
             </date>
             </edition>
             <respStmt>
@@ -174,10 +175,18 @@
          </classDecl>
       </encodingDesc>
       <profileDesc>
+         <correspDesc> 
+            <correspAction type="sent"> 
+               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth<!--SENDER NAME--></persName> 
+            </correspAction> 
+            <correspAction type="received"> 
+               <persName ref="./Personography.xml#RogeX1">Mr. Rogers<!--RECIPIENT NAME--></persName> 
+            </correspAction> 
+         </correspDesc>
       </profileDesc>
       <revisionDesc>
-         <change when="2021-01-01" who="Id_who">
-            <!--Brief description of what you did here.-->
+         <change when="2022-12-07" who="Id_who">
+            Added a correspDesc element to the profileDesc - Eliza Wilcox<!--Brief description of what you did here.-->
          </change>
       </revisionDesc>
    </teiHeader>
