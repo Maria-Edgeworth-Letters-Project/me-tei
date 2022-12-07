@@ -103,7 +103,7 @@
             <!--filenames for photos associated with this letter. Example: <pb n="1" facs="image1.jpg image2.jpg image3.jpg"/> -->
             <opener>
                <dateline><!--If there's no date line, omit this element. Record in the order in which it is written on the letter.-->
-                  <name type="place" ref="./Placeography.xml#Edgeworthstown_IE">Edgeworth's Town</name>
+                  <placeName ref="./Placeography.xml#Edgeworthstown_IE">Edgeworth's Town</placeName>
                   <date when="1814-01-01">Jan<hi rend="superscript">y</hi> 1<hi rend="superscript">st</hi> 1814</date>
                </dateline>
             </opener>
@@ -153,8 +153,8 @@
                me as one of the little <name type= "person" ref= "./Personography.xml#PakeX1">Pakenham</name>s once said<lb/>
                "Maria E why did you write Rosamond so difficult?"--<lb/>
                Pray if you ever read prefaces, read my<lb/>
-               fathers warning preface to these <name type= "wprk" ref= "./Workography.xml#">Early Lessons</name><lb/>
-               &amp; keep back the continuation of <name type= "wprk" ref= "./Workography.xml#">Harry and Lucy</name><lb/>
+               fathers warning preface to these <title> ref= "./Workography.xml#Early1">Early Lessons</title><lb/>
+               &amp; keep back the continuation of <title> ref= "./Workography.xml#Harry1">Harry and Lucy</title><lb/>
                from your little ones till they are able to<lb/>
                understand it -- It is quite true that each<lb/>
                Experiment mentioned was tried before<lb/>
@@ -170,13 +170,13 @@
                <rs>he</rs> will deliver<lb/>
                to your friend a copy of the second Edition<lb/>
                   of <hi rend="underline">
-                     <name type= "work" ref= "./Workography.xml#Proff1">Professional Education</name>
+                     <title ref= "./Workography.xml#Proff1">Professional Education</title>
                </hi> which I wish you <lb/>
                would <del>
                   <unclear/>
                </del>present with my respects to<lb/>
                <roleName type="nobility"> Sir </roleName>
-               <name type= "person" ref="./Personography.xml#McInJ1">
+               <persname ref="./Personography.xml#McInJ1">
                   <forename>James</forename>
                   <surname>
                      <choice>
@@ -184,7 +184,7 @@
                         <reg>McIntosh</reg>
                      </choice>
                   </surname>
-               </name>. I am particularly <choice>
+               </persname>. I am particularly <choice>
                   <orig>an<lb/>
                -xious</orig>
                   <reg>anxious</reg>
@@ -192,7 +192,7 @@
                of this book because three chapters of it were<lb/>
                   entirely rewritten &amp; I hope improved - <persName ref="./Personography.xml#McInJ1">Sir <lb/>
                James M<hi rend="superscript">c</hi>Intosh</persName> gratified us highly when<lb/>
-               were in <name type="place" ref= "./Placeography.xml#London_ENK">London</name> by what he said of the first<lb/>
+               were in <placeName ref= "./Placeography.xml#London_ENK">London</placeName> by what he said of the first<lb/>
                <pb n="3" facs="Edgeworth_Princeton_RTC01_1814_01_01_page03.jpg"/>
                book which he <add>told us he had</add> seen in <placeName ref="./Placeography.xml#II">India</placeName> - and I cannot<lb/>
                help wishing that if <rs>he</rs> allows it a place in<lb/>
