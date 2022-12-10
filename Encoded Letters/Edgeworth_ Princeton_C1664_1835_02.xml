@@ -22,6 +22,7 @@
                <persName ref="Id_who">Jessica Richard
                </persName>
                <persName ref="Id_who">Jamie Kramer</persName>
+               <persName ref="Id_who">Eliza Wilcox</persName>
                <!-- If you're the last person interacting with the file, enter your name last on the list -->
             </respStmt>
          </titleStmt>
@@ -176,9 +177,21 @@
             </taxonomy>
          </classDecl>
       </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth<!--SENDER NAME--></persName>
+            </correspAction>
+            <correspAction type="received">
+               <persName>Unknown<!--RECIPIENT NAME--></persName>
+            </correspAction>
+         </correspDesc>
       <revisionDesc>
-         <change when="2021-01-01" who="Id_who">
-            <!--Brief description of what you did here.-->
+         <change when="2022-12-10" who="Id_who">
+            Added correspDesc - Eliza Wilcox
+         </change>
+         <change when="2022-01-01" who="Id_who">
+            <!--Describe changes here.-->
          </change>
       </revisionDesc>
    </teiHeader>
