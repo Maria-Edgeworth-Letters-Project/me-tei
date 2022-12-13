@@ -19,7 +19,7 @@
                 <principal>Jessica Richard, Hilary Havens, Robin Runia, Susan Egenolf</principal>
                 <respStmt>
                     <resp>Transcription and coding by</resp>
-                    <persName ref="Id_who"><!--FirstName LastName-->
+                    <persName ref="Id_who">Eliza Wilcox<!--FirstName LastName-->
                     </persName>
                     <!-- List all transcribers or coders here, editors and students alike, <persName> by <persName>.-->
                     <persName ref="Id_who"><!--FirstName LastName--></persName>
@@ -27,16 +27,19 @@
                 </respStmt>
             </titleStmt>
             <editionStmt>
-                <edition>First digital edition in TEI, date: <date when="2022-01-01">
+                <edition>First digital edition in TEI, date: December 13, 2022 <date when="2022-12-13">
                     <!--enter the date on which the first coder created and saved this XML file in google drive-->
                 </date>
                 </edition>
                 <respStmt>
                     <orgName type="naf" ref="Id_who">
-                        <!--who digitized the letter or gave us permission for to use the file?-->
+                        Beinecke Rare Book and Manuscript Library<!--who digitized the letter or gave us permission for to use the file?-->
                     </orgName>
                     <resp> photos include:
-                        <!-- Make a comma-separated list of each .jpg photo file name associated with your letter. 
+                        Edgeworth_Beinecke_330_1839_12_24_page01.jpg,
+                        Edgeworth_Beinecke_330_1839_12_24_page02.jpg,
+                        Edgeworth_Beinecke_330_1839_12_24_page03.jpg,
+                        Edgeworth_Beinecke_330_1839_12_24_page04.jpg<!-- Make a comma-separated list of each .jpg photo file name associated with your letter. 
                      For example: DSCF9476.jpg, DSCF9477.jpg, DSCF9478.jpg-->
                     </resp>
                 </respStmt>
@@ -47,14 +50,14 @@
                 <availability>
                     <!--Uncomment the appropriate line, based on the archive that holds the physical copy of this letter, 
                   and delete the other comment line(s).-->
-                    <p><!--Reproduced by courtesy of the <orgName ref="#ReadingCL">Reading Central Library</orgName>.-->
+                    <p>Reproduced by courtesy of the <orgName ref="http://id.loc.gov/authorities/names/n80097790">Beinecke Rare Book and Manuscript Library</orgName><!--Reproduced by courtesy of the <orgName ref="#ReadingCL">Reading Central Library</orgName>.-->
                         <!--or -->
                         <!--Courtesy of <orgName ref="#Rylands">The University of Manchester</orgName>.-->
                     </p>
                     <licence>Distributed under a Creative Commons Attribution-ShareAlike 3.0 Unported
                         License</licence>
                 </availability>
-                <idno><!--Change to match the file name and current naming standards, i.e. "Edgeworth_Beinecke_330_1817_01_24" if file name is "Edgeworth_Beinecke_330_1817_01_24.xml"--></idno> 
+                <idno>Edgeworth_Beinecke_330_1839_12_24<!--Change to match the file name and current naming standards, i.e. "Edgeworth_Beinecke_330_1817_01_24" if file name is "Edgeworth_Beinecke_330_1817_01_24.xml"--></idno> 
             </publicationStmt>
             <seriesStmt>
                 <title>Maria Edgeworth Letters Project</title>
@@ -63,7 +66,7 @@
                 <msDesc xml:lang="en">
                     <!-- This section of the header identifies the original manuscript source. -->
                     <msIdentifier>
-                        <repository>ORGANIZATION NAME</repository>
+                        <repository>Beinecke Rare Book and Manuscript Library</repository>
                         <collection><!-- Enter specific archival collection if applicable--></collection>
                         <idno><!--Consult library or WorldCat for this info--></idno>
                     </msIdentifier>
@@ -78,8 +81,8 @@
                             <idno type="VIAF">71477273</idno>
                             <idno type="SNAC">62567029</idno>
                         </persName>
-                        to <persName><!--Recipient Name--></persName>, <placeName><!--Location where letter was sent--></placeName>, 
-                        <date when="1111-01-01"><!-- Transcribe the date as it appears on the letter itself. Enter a numeric standardized date value in @when. --></date>
+                        to <persName ref="./Personography.xml#BentR1">Richard Bentley<!--Recipient Name--></persName>, <placeName ref="./Placeography.xml#Old-Burlington-Street_ENK">Old Burlington Street<!--Location where letter was sent--></placeName>, 
+                        <date when="1839-12-24">December 24, 1839<!-- Transcribe the date as it appears on the letter itself. Enter a numeric standardized date value in @when. --></date>
                     </head>
                     <physDesc>
                         <!-- optional physical description of the letter goes here: paper size and condition, seal, postmarks, etc.-->
@@ -194,10 +197,10 @@
         <profileDesc>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName><!--SENDER NAME--></persName>
+                    <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth<!--SENDER NAME--></persName>
                 </correspAction>
                 <correspAction type="received">
-                    <persName><!--RECIPIENT NAME--></persName>
+                    <persName ref="./Personography.xml#BentR1">Richard Bentley<!--RECIPIENT NAME--></persName>
                 </correspAction>
             </correspDesc>
             <textClass>
@@ -225,80 +228,80 @@
                 <opener>
                     <dateline><!--If there's no date line, omit this element. Record in the order in which it is written on the letter.-->
                         <name type="place" ref="Id_where"/>
-                        <date when="1816-08-04"/>Dec[superscript]r[/superscript] 24[superscript]h[/superscript] 1839</dateline>
+                        <date when="1816-08-04"/>Dec<hi rend="superscript">r</hi> 24<hi rend="superscript">th</hi> 1839</dateline>
                     <salute>
                         <persName>
-                            D[superscript]r[/superscript]. Sir<!-- Use if letter has a saluation ("Dear Sir," for example). If not, delete this line.-->
+                            <persName ref="./Personography.xml#BentR1">D<hi rend="superscript">r</hi>. Sir</persName><!-- Use if letter has a saluation ("Dear Sir," for example). If not, delete this line.-->
                         </persName>
                     </salute>
                 </opener>
-                <p>I am very much obliged to
-                    you for your present of M[superscript]r[/superscript]
-                    Murrays travels, which I had
-                    read and liked and wished
-                    to possess - The book is very
-                    gentlemanlike both in style
-                    and feeling - and free from
-                    national prejudice, for or
-                    against - How very striking
-                    the contrast between M[superscript]r[/superscript] Murray
-                    past life in America and
-                    present life at Court must be
-                    and what an amusing picture
-                    he could make of this - [underline]if[/underline] - </p>
+                <p>I am very much obliged to<lb/>
+                    you for your present of <persName ref="./Personography.xml#MurrJ1">M<hi rend="superscript">r</hi><lb/>
+                        Murrays</persName> travels, which I had<lb/>
+                    read and liked and wished<lb/>
+                    to possess - The book is very<lb/>
+                    gentlemanlike both in style<lb/>
+                    and feeling - and free from<lb/>
+                    national prejudice, for or<lb/>
+                    against - How very striking<lb/>
+                    the contrast between <persName ref="./Personography.xml#MurrJ1">M<hi rend="superscript">r</hi> Murray</persName><lb/>
+                    past life in <placeName ref="./Placeography.xml#US">America</placeName> and<lb/>
+                    present life at Court must be<lb/>
+                    and what an amusing picture<lb/>
+                    he could make of this - <hi rend="underline">if</hi> - <lb/></p>
                     
-              <p>      Some of M[superscript] r [/superscript] Murray's connections
-                    M[superscript]rs[/superscript] Harman King (formerly Miss Johnstone)
-                    now married to a son of Lord [unclear]Lortons[/unclear]
-                    and his sister Miss Johnstone live
-                    in our county of Longford
-                    and in our neighbourhood
-                    and we have lately made their
-                    acquaintance &amp; found them
-                    very agreeable highly cultivated
-                    persons - They first put M[superscript]r[/superscript] [unclear]Murrays[/unclear]
+                <p>      Some of <persName ref="./Personography.xml#MurrJ1">M<hi rend="superscript">r</hi> Murray's</persName> connections<lb/>
+                    <persName ref="./Personography.xml#KingM1">M<hi rend="superscript">rs</hi> Harman King (formerly Miss Johnstone)</persName><lb/>
+                    now married to a son of <persName ref="./Personography.xml#KingR1">Lord <unclear>Lortons</unclear></persName><lb/>
+                    and his sister <persName ref="./Personography.xml#JohnM1">Miss Johnstone</persName> live<lb/>
+                    in our county of <placeName ref="./Placeography.xml#Longford_IE">Longford</placeName><lb/>
+                    and in our neighbourhood<lb/>
+                    and we have lately made their<lb/>
+                    acquaintance &amp; found them<lb/>
+                    very agreeable highly cultivated<lb/>
+                    persons - They first put <persName ref="./Personography.xml#MurrJ1">M<hi rend="superscript">r</hi> Murrays</persName><lb/>
                    
                    <pb n="2" facs="Edgeworth_Beinecke_330_1839_12_24_page02.jpg"/>
                    
-                    book into my hands and I
-                    was glad to be able to tell
-                    them without any flattery
-                    or authors compliments how
-                    sincerely I like it </p>
+                   book into my hands and I<lb/>
+                    was glad to be able to tell<lb/>
+                    them without any flattery<lb/>
+                    or authors compliments how<lb/>
+                    sincerely I like it <lb/></p>
                    
                  
-                 <p>   Can you tell me who is
-                    the author of [underline]"The Woman of[/underline]
-                    [underline]"the World[/underline]? - I see it is published
-                    by Colburn - It must be written
-                    by some one perfectly well
-                    acquainted with the World
-                    at home and abroad - And
-                    born &amp; bred in [unclear]high[/unclear] life - the
-                    manners are so well painted
-                    and yet without any of that
-                    ostentation of knowledge of
-                    fashionable life which [underline]preten[/underline]
-                    ders or those new to these
-                    things are apt to betray
-                    - And there is a spirit of
-                    virtuous indignation a fresh
+                <p>   Can you tell me who is<lb/>
+                    the <persName ref="./Personography.xml#GoreC1">author</persName> of <title ref="./Workography.xml#Woman1"><hi rend="underline">The Woman of[/underline]<lb/>
+                        [underline]"the World</hi></title>? - I see it is published<lb/>
+                    by <persName ref="./Personography.xml#ColbH1">Colburn</persName> - It must be written<lb/>
+                    by some one perfectly well<lb/>
+                    acquainted with the World<lb/>
+                    at home and abroad - And<lb/>
+                    born &amp; bred in <unclear>high</unclear> life - the<lb/>
+                    manners are so well painted<lb/>
+                    and yet without any of that<lb/>
+                    ostentation of knowledge of<lb/>
+                    fashionable life which <choice><orig>preten<lb/>
+                        ders</orig><reg><hi rend="underline">pretenders</hi></reg></choice> or those new to these<lb/>
+                    things are apt to betray<lb/>
+                    - And there is a spirit of<lb/>
+                    virtuous indignation a fresh<lb/>
                    
                      <pb n="3" facs="Edgeworth_Beinecke_330_1839_12_24_page03.jpg"/>
                    
-                    ness of mind in the whole quite
-                    wonderful &amp; admirable in
-                    one who must have seen
-                    &amp; lived with so many of
-                    the corrupt and heartless.
-                    - The book is full of Wit -
-                    most refined &amp; easy - &amp; various </p>
+                   ness of mind in the whole quite<lb/>
+                    wonderful &amp; admirable in<lb/>
+                    one who must have seen<lb/>
+                    &amp; lived with so many of<lb/>
+                    the corrupt and heartless.<lb/>
+                    - The book is full of Wit -<lb/>
+                    most refined &amp; easy - &amp; various <lb/></p>
                     
-                <p>    Pray write a line to tell
-                    me the name of the author</p>
+                <p> Pray write a line to tell<lb/>
+                    me the name of the author<lb/></p>
                 <closer>
-                    I am D[superscript]r[/superscript] Sir Your obliged,
-                    Maria Edgeworth<!--include linebreaks, if used. example: <closer> Yours<lb/> Very sincerely<lb/> -->
+                    I am <persName ref="./Personography.xml#BentR1">D<hi rend="superscript">r</hi> Sir</persName> Your obliged,<lb/>
+                    <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName><lb/><!--include linebreaks, if used. example: <closer> Yours<lb/> Very sincerely<lb/> -->
                 </closer>
                 <postscript>
                     <p><!--A postscript goes here, outside the <closer>. --></p>
@@ -310,8 +313,8 @@
                 <closer><!--Use the <closer> element again to hold Address Leaf information.-->
                     <address>
                         <pb n="4" facs="Edgeworth_Beinecke_330_1839_12_24_page04.jpg"/><!--Include any text written on the address leaf; use a separate "addrLine" for each line and indicate line breaks. -->
-                        Richard Bentley Esq[superscript]re[/superscript]<addrLine/>
-                        Old Burlington Street<addrLine/>
+                        <persName ref="./Personography.xml#BentR1">Richard Bentley Esq<hi rend="superscript">re</hi></persName><addrLine/>
+                        <placeName ref="./Placeography.xml#Old-Burlington-Street_ENK">Old Burlington Street</placeName><addrLine/>
                         <addrLine/>
                     </address>
                 </closer>
