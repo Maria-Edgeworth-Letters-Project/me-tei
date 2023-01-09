@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from Maria Edgeworth and Richard Edgeworth to Francis Beaufort, May 23, 1817<!--Recipient Name, Month Day, YYYY--></title>
+            <author>Maria Edgeworth</author>
+            <editor ref="Id_who">
+               Eliza Wilcox<!--Editor on the Maria Edgeworth Letters Project overseeing the coding of this particular letter: FirstName LastName -->
+            </editor>
+            <sponsor>
+               <orgName>Maria Edgeworth Letters Project</orgName>
+            </sponsor>
+            <sponsor>Wake Forest University, University of Tennessee, Xavier University, Texas
+               A&amp;M University</sponsor>
+            <principal>Jessica Richard, Hilary Havens, Robin Runia, Susan Egenolf</principal>
+            <respStmt>
+               <resp>Transcription and coding by</resp>
+               <persName ref="Id_who">Eliza Wilcox<!--FirstName LastName-->
+               </persName>
+               <!-- List all transcribers or coders here, editors and students alike, <persName> by <persName>.-->
+               <persName ref="Id_who"><!--FirstName LastName--></persName>
+               <!-- If you're the last person interacting with the file, enter your name last on the list -->
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>First digital edition in TEI, date: January 9, 2023<date when="2023-01-09">
+                  <!--enter the date on which the first coder created and saved this XML file in google drive-->
+               </date>
+            </edition>
+            <respStmt>
+               <orgName type="naf" ref="Id_who">
+                  Henry E. Huntington Library and Art Gallery<!--who digitized the letter or gave us permission for to use the file?-->
+               </orgName>
+               <resp> photos include:
+                  Edgeworth_Huntington_XXXX_1817_05_23_page01.jpg,
+                   Edgeworth_Huntington_XXXX_1817_05_23_page02.jpg,
+                   Edgeworth_Huntington_XXXX_1817_05_23_page03.jpg<!-- Make a comma-separated list of each .jpg photo file name associated with your letter. 
+                     For example: DSCF9476.jpg, DSCF9477.jpg, DSCF9478.jpg-->
+               </resp>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Maria Edgeworth Letters Project</authority>
+            <date>2022</date>
+            <availability>
+               <!--Uncomment the appropriate line, based on the archive that holds the physical copy of this letter, 
+                  and delete the other comment line(s).-->
+                <p>Reproduced by the courtesy of the <orgName ref="http://id.loc.gov/authorities/names/n79049138">Henry E. Huntington Library and Art Gallery</orgName><!--Reproduced by courtesy of the <orgName ref="#ReadingCL">Reading Central Library</orgName>.-->
+                  <!--or -->
+                  <!--Courtesy of <orgName ref="#Rylands">The University of Manchester</orgName>.-->
+               </p>
+               <licence>Distributed under a Creative Commons Attribution-ShareAlike 3.0 Unported
+                  License</licence>
+            </availability>
+            <idno>Edgeworth_Huntington_XXXX_1817_05_23<!--Change to match the file name and current naming standards, i.e. "Edgeworth_Beinecke_330_1817_01_24" if file name is "Edgeworth_Beinecke_330_1817_01_24.xml"--></idno> 
+         </publicationStmt>
+         <seriesStmt>
+            <title>Maria Edgeworth Letters Project</title>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <!-- This section of the header identifies the original manuscript source. -->
+               <msIdentifier>
+                  <repository>Henry E. Huntington Library and Art Gallery</repository>
+                  <collection><!-- Enter specific archival collection if applicable--></collection>
+                  <idno><!--Consult library or WorldCat for this info--></idno>
+               </msIdentifier>
+               
+               <!-- FROM LAURA: it's here (below) in the head that I added the full information about the author,
+                  and you could add full information about the addressee as well. -->
+               <head>Letter from 
+                     <persName xml:id="EdgeM1" from="1768" to="1849">
+                        <forename>Maria</forename>
+                        <surname>Edgeworth</surname>
+                        <date>1768-1849</date>
+                        <idno type="VIAF">71477273</idno>
+                        <idno type="SNAC">62567029</idno>
+                     </persName>
+                   <persName ref="./Personography.xml#EdgeR1"> Richard Edgeworth</persName>
+                   to <persName ref="./Personography.xml#BeauF1">Francis Beaufort<!--Recipient Name--></persName>, <placeName ref="./Placeography.xml#31-Harley-Street_ENK">31 Harley Street<!--Location where letter was sent--></placeName>, 
+                  <date when="1111-01-01"><!-- Transcribe the date as it appears on the letter itself. Enter a numeric standardized date value in @when. --></date>
+               </head>
+               <physDesc>
+                  <!-- optional physical description of the letter goes here: paper size and condition, seal, postmarks, etc.-->
+               </physDesc>
+            </msDesc>
+            
+            <!-- FROM LAURA: where to put the following information in <bibl> is still a question: 
+               ask TEI List whether it should be in the sourceDesc or elsewhere? -->
+            
+            <bibl>In addition to our edited version, this letter was previously published in
+               <!--complete bibiographical info if letter was published in a book here - if not delete-->
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <!--Where Edgeworth uses nonstandard spelling and hyphenation of words, transcriber-coders 
+               should use TEI elements “choice," “sic," and “reg" to encode both Edgeworth’s 
+               spelling and the regular international standard of Oxford English spelling, 
+               following the first listed spelling in the Oxford English Dictionary. -->
+            <p>Edgeworth’s spelling and punctuation are retained in transcription, except where a
+               word is split at the end of a line and the beginning of the next in a manuscript. The
+               long s and ligatured forms are silently emended.</p>
+         </editorialDecl>
+         <classDecl>
+            <taxonomy xml:id="relators">
+               <bibl>Marc Relators</bibl>
+               <category xml:id="aut">
+                  <catDesc>Author</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="lcsh">
+               <bibl>Subjects</bibl>
+               <category>
+                  <catDesc xml:id="AntislaveryMovements">Antislavery movements
+                     <idno type="loc">sh85123315</idno>
+                  </catDesc>
+                  <catDesc xml:id="Birth">Birth
+                     <idno type="loc">sh86004053</idno>
+                  </catDesc>
+                  <catDesc xml:id="Death">Death
+                     <idno type="loc">sh85036085</idno>
+                  </catDesc>
+                  <catDesc xml:id="Education">Education
+                     <idno type="loc">sh85040989</idno>
+                  </catDesc>
+                  <catDesc xml:id="Imperialism">Imperialism
+                     <idno type="loc">sh85064628</idno>
+                  </catDesc>
+                  <catDesc xml:id="FictitiousCharacters">Fictitious characters
+                     <idno type="loc">sh99004183</idno>
+                  </catDesc>
+                  <catDesc xml:id="Marriage">Marriage
+                     <idno type="loc">sh85081416</idno>
+                  </catDesc>
+                  <catDesc xml:id="Nationalism">Nationalism
+                     <idno type="loc">sh85090150</idno>
+                  </catDesc>
+                  <catDesc xml:id="PoliticsAndCulture">Politics and culture
+                     <idno type="loc">sh85104468</idno>
+                  </catDesc>
+                  <catDesc xml:id="Race">Race  
+                     <idno type="loc">sh85110232</idno>
+                  </catDesc>
+                  <catDesc xml:id="Religion">Religion
+                     <idno type="loc">sh85112549</idno>
+                  </catDesc>
+                  <catDesc xml:id="Science">Science
+                     <idno type="loc">sh85118553</idno>
+                  </catDesc>
+                  <catDesc xml:id="Technology">Technology
+                     <idno type="loc">sh85133147</idno>
+                  </catDesc>
+                  <catDesc xml:id="Slavery">Slavery
+                     <idno type="loc">sh85123314</idno>
+                  </catDesc>
+                  <catDesc xml:id="Travel">Travel
+                     <idno type="loc">sh85137149</idno>
+                  </catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="works">
+               <bibl>Works</bibl>
+               <category>
+                  <catDesc xml:id="w1">Belinda</catDesc>
+                  <catDesc xml:id="w2">Castle Rackrent</catDesc>
+                  <catDesc xml:id="w3">Comic Dramas, in Three Acts</catDesc>
+                  <catDesc xml:id="w4">Early Lessons</catDesc>
+                  <catDesc xml:id="w5">Essay on Irish Bulls</catDesc>
+                  <catDesc xml:id="w6">Frank: a Sequel to Frank in Early Lessons</catDesc>
+                  <catDesc xml:id="w7">Harrington, a Tale; and Ormond, a Tale</catDesc>
+                  <catDesc xml:id="w8">Harry and Lucy Concluded</catDesc>
+                  <catDesc xml:id="w9">Leonora</catDesc>
+                  <catDesc xml:id="w10">Letters for Literary Ladies</catDesc>
+                  <catDesc xml:id="w11">Moral Tales for Young People</catDesc>
+                  <catDesc xml:id="w12">Moral Tales</catDesc>
+                  <catDesc xml:id="w13">Patronage</catDesc>
+                  <catDesc xml:id="w14">Popular Tales</catDesc>
+                  <catDesc xml:id="w15">Practical Education</catDesc>
+                  <catDesc xml:id="w16">Readings on Poetry</catDesc>
+                  <catDesc xml:id="w17">Ormond</catDesc>
+                  <catDesc xml:id="w18">The Absentee</catDesc>
+                  <catDesc xml:id="w19">Tales of Fashionable Life</catDesc>
+                  <catDesc xml:id="w20">The Contrast</catDesc>
+                  <catDesc xml:id="w21">The Modern Griselda; a Tale</catDesc>
+                  <catDesc xml:id="w22">The Parent's Assistant</catDesc>
+                  <catDesc xml:id="w23">Tomorrow; or the Dangers of Delay</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="./Personography.xml#EdgeR1">Richard Edgeworth<!--SENDER NAME--></persName>
+                <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="./Personography.xml#BeauF1">Francis Beaufort<!--RECIPIENT NAME--></persName>
+            </correspAction>
+         </correspDesc>
+         <textClass>
+            <keywords scheme="">
+               <list type="simple">
+                  <item>English literature</item>
+                  <item>History</item>
+               </list>
+            </keywords>
+            <catRef target="#f7" scheme="#f"/>
+            <catRef target="#hist #el" scheme="locSUB"/>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-01-01" who="Id_who">
+            <!--Brief description of what you did here.-->
+         </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <pb n="1" facs="Edgeworth_Huntington_XXXX_1817_05_23_page01.jpg"/>
+            <!--filenames for photos associated with this letter. Example: <pb n="1" facs="image1.jpg image2.jpg image3.jpg"/> -->
+            <opener>
+               <dateline><!--If there's no date line, omit this element. Record in the order in which it is written on the letter.-->
+                  <name type="place" ref="Id_where"/>
+                  <date when="1816-08-04"/>August 4, 1816. </dateline>
+               <salute>
+                  <persName>
+                     <!-- Use if letter has a saluation ("Dear Sir," for example). If not, delete this line.-->
+                  </persName>
+               </salute>
+            </opener>
+             <p><note><hi rend="underline">Copy of R L E's letter to Hunter</hi></note>
+                 Dear Sir <add>Some</add> <title ref="./Workography.xml#Comic1">Comic Dramas</title> <del>sometimes</del> inculcate<lb/>
+                 useful lessons - for instance <hi rend="underline">"Three weeks after<lb/>
+                     marriage"</hi> pointed out to me so strongly the folly<lb/>
+                 of explanations and recriminations that I have<lb/>
+                 avoided them not only with my wife but<lb/>
+                 with my friends - I shall therefore say no<lb/>
+                 more about your misapprehension with <choice><orig>res-<lb/>
+                     -pect</orig><reg>respect</reg></choice> to the time of your publishing <title ref="./Workography.xml#Ormon1">Ormond</title><lb/>
+                 except to point out that I from time <add>to time</add> told you<lb/>
+                 the manuscript would be shortly sent to you<lb/>
+                 And that I distinctly told you that <persName ref="./Personography.xml#EdgeM1">Maria</persName> had<lb/>
+                 written 1200 pages in three months. Could it be<lb/>
+                 supposed she worked so hard, deprived herself<lb/>
+                 of all amusement and hazarded her health<lb/>
+                 for the purpose of having a manuscript in <persName ref="./Personography.xml#BriaX1">M<hi rend="superscript">r</hi>.<lb/>
+                     Briars</persName> hands for six months before it was to be<lb/>
+                 published?<lb/></p>
+               
+             <p>We are however perfectly satisfied that this<lb/>
+                 was only a dull misapprehension on your<lb/>
+                 part and that you did not mean to treat<lb/>
+                 <persName ref="./Personography.xml#EdgeM1">Maria</persName> as a hireling. We entirely accede<lb/>
+                 to <persName ref="./Personography.xml#BeauF1">Captain Beauforts</persName> arrangements -viz - that<lb/>
+                 the printer shall work double tides. Indeed it<lb/>
+                 will be as much your interest as it is our<lb/>
+                 pleasure that you should hasten the printing<lb/></p>
+               
+             <p>I shall now answer your former letter<lb/>
+                 relative to our money transactions.<lb/>
+                 In the first place I reiterate for the third time <add>my </add> <unclear>request</unclear><lb/>
+                 that the small account which exists between us<lb/>
+                 may be sent to use - We have ordered books and <choice><orig>var-<lb/>
+                   rious</orig><reg>various</reg></choice> articles and these small matter should not
+                 be<lb/>
+               
+               mixed with a large account.<lb/></p>
+             
+             <pb n="2" facs="Edgeworth_Huntington_XXXX_1817_05_23_page02.jpg"/>  
+             
+             <p> <hi rend="underline">Secondly</hi> the time of payment of <title ref="./Workography.xml#Comic1">Comic Dramas</title> not<lb/>
+                 having been mentioned between us we shall state to<lb/>
+                 be the seventh of next may - being a year after <choice><orig>pub-<lb/>
+                     -lication</orig><reg>publication</reg></choice><lb/></p>
+               
+             <p><hi rend="underline">Thirdl</hi> - With respect to the three volumes of tales<lb/>
+                 I propose that one third should be paid at the <choice><orig>expi-<lb/>
+                     -ration</orig><reg>expiration</reg></choice> of six months after its publication - Another<lb/>
+                 third at the expiration of a year - and the <choice><orig>remain<lb/>
+                     -der</orig><reg>remainder</reg></choice> at the expiration of a year and a half -<lb/>
+                 I think these payments will press more lightly upon<lb/>
+                 you than the disbursement of a large sum at one<lb/>
+                 time. But if you prefer paying the whole at the end<lb/>
+                 of one year we shall most willingly agree to that <choice><orig>ar-<lb/>
+                     rangement.<reg>arrangement</reg></orig></choice><lb/></p>
+               
+             <p>    <hi rend="underline">Fourthly</hi> I will defray the expense of cancelling the<lb/>
+                 two sheet <unclear></unclear> Harrington which were at my <unclear>desire</unclear><lb/>
+                 improvi<unclear>de</unclear>ntly cut off from the first volume<lb/></p>
+               
+             <p>      <hi rend="underline">Fifthly</hi> We desire that ten guineas may be given<lb/>
+                 to <persName ref="./Personography.xml#ChurX1">M<hi rend="superscript">r</hi>. Churchill</persName> when the tales are finished.<lb/></p>
+          <p>     
+              We thank you for your handsome &amp;<lb/>
+              manly letter. And I do assure you that I am as<lb/>
+              little disposed to take offence, as you can be to give it<lb/></p>
+            <closer>
+                I am dear Sir, your Obed<hi rend="superscript">r</hi>. Servant<lb/>
+                <persName ref="./EdgeR1">R. L. Edgeworth</persName><lb/> -<!--include linebreaks, if used. example: <closer> Yours<lb/> Very sincerely<lb/> -->
+            </closer>
+            <postscript>
+                <p>You have not sent us <persName ref="./Personography.xml#WebbS1">M<hi rend="superscript">r</hi>. Webbe's</persName> music<lb/></p>
+                  
+                <p>And now my dear <persName ref="./Personography.xml#BeauF1">Francis</persName> accept<lb/>
+                    <persName ref="./Personography.xml#EdgeM1">Maria's</persName> own heartfelt thanks - you have by the<lb/>
+                    admirably able hand &amp; successful manner in<lb/>
+                    which you have managed this business relieved<lb/>
+                    me from a state of anxiety which I can describe to<lb/>
+                    you only by saying that <hi rend="underline">you have taken my mind<lb/>
+                        off the rack</hi> - And now I feel &amp; thank you for the<lb/>
+                    delight of seeing my father perfectly satisfied &amp; happy<lb/>
+                    &amp; all smooth again with poor Hunter - my father<lb/>
+             <pb n="3" facs="Edgeworth_Huntington_XXXX_1817_05_23_page03.jpg"/>     
+                    when I requested to add a line from myself to his letter<lb/>
+                    to <persName ref="./Personography.xml#HuntX1">Hunter</persName> desired that I should not do so. - Indeed I <choice><orig>for-<lb/>
+                        bear</orig><reg>forbear</reg></choice> with the less reluctance because I am so convinced<lb/>
+                    of the mischief I have done &amp; the misapprehension I<lb/>
+                    created in <persName ref="./Personography.xml#HuntX1">Hunters</persName> mind by the foolish note I wrote<lb/>
+                    about <persName ref="./Personography.xml#HarrX1">Harrington</persName> - However good the intentions with<lb/>
+                    which it was written it has I see done mischief and<lb/>
+                    I will interfere no more - You may conceive what<lb/>
+                    I should have suffered if I had been the cause of a total<lb/>
+                    <hi rend="underline">break up</hi> with a person who was doing all he could<lb/>
+                    to oblige me - From this you have saved me &amp; I<lb/>
+                    leave it to you to judge how much I feel obliged<lb/>
+                    <persName ref="./Personograph.xml#EdgeM1">Maria Edgeworth</persName><lb/></p>
+               
+                <p>  My dear <persName ref="./Personography.xml#BeauF1">Francis</persName> after all the Compliments you have received<lb/>
+                    from these distinguished authors what can my mite of praise be<lb/>
+                    worth - ? But I must have the satisfaction of saying that you have<lb/>
+                    managed the Hunterian controversy <hi rend="underline">perfectly</hi>- and that you have done the<lb/>
+                    very thing I not only wished but expected. Telling dear <persName ref="./Personography.xml#BeauA1">Alicia</persName> that<lb/>
+                    she shall hear from me by the twopenny post - and in the mean time<lb/>
+                    thank her for her very cheerful and pleasant letter and give her my love<lb/>
+                    Your <title ref="./Workography.xml#Karam1">Karamania</title> is beautifull - tho' the plates are not as delicate as on the Indian paper F E.<lb/>
+                    <persName ref="./Personography.xml#EdgeM1">Maria</persName> is quite charmed with what<lb/>
+                    <persName ref="./Personography.xml#BeauA1">Alicia</persName> says of the little dramas - it is<lb/>
+                    just what she wished but did not dare<lb/>
+                    to hope to hear from her readers - We<lb/>
+                    are all curious to know which is liked<lb/>
+                    by who - which by she &amp; which by you<!--A postscript goes here, outside the <closer>. --><lb/></p>
+            </postscript>
+            <!--You can include a <pb/> here, or inside the postScript.-->
+            <!-- Format for postscripts. 
+               Postscripts do NOT go inside closer tags. Adjust to take into account the order in your letter. 
+               Sometimes the signature is on page three, the address on page four, then the postscript follows back on the top of page one, for example.-->
+            <closer><!--Use the <closer> element again to hold Address Leaf information.-->
+               <address>
+                   <persName ref="./Personography.xml#BeauF1">Captain Beaufort</persName> <addrLine/>
+                  31 Harley Street<addrLine/>
+                  London<addrLine/>
+                  Hunter<addrLine/>
+                  [unclear][/unclear]MY 23<addrLine/>
+                  1817<addrLine/>
+               </address>
+            </closer>
+         </div>
+      </body>
+      <back> </back>
+   </text>
+</TEI>
+
