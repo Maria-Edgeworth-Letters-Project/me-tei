@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+            <titleStmt>
+               <title>Letter from William Edgeworth to Sir Francis Beaufort, 6/11/1816	
+                [Includes addition from Maria Edgeworth to Sir Francis Beaufort] </title>
+               <author>William Edgeworth</author>
+               <editor ref="Id_who">
+                  Jamie Kramer<!--Editor on the Maria Edgeworth Letters Project overseeing the coding of this particular letter: FirstName LastName -->
+               </editor>
+               <sponsor>
+                  <orgName>Maria Edgeworth Letters Project</orgName>
+               </sponsor>
+               <sponsor>Wake Forest University, University of Tennessee, Xavier University, Texas
+                  A&amp;M University</sponsor>
+               <principal>Jessica Richard, Hilary Havens, Robin Runia, Susan Egenolf</principal>
+               <respStmt>
+                  <resp>Transcription and coding by</resp>
+                  <persName ref="Id_who">Jamie Kramer<!--FirstName LastName-->
+                  </persName>
+                  <!-- List all transcribers or coders here, editors and students alike, <persName> by <persName>.-->
+                  <persName ref="Id_who"><!--FirstName LastName--></persName>
+                  <!-- If you're the last person interacting with the file, enter your name last on the list -->
+               </respStmt>
+            </titleStmt>
+         <editionStmt>
+            <edition>First digital edition in TEI, date: <date when="2023-02-11">
+               </date>
+            </edition>
+            <respStmt>
+               <orgName type="naf" ref="http://id.loc.gov/authorities/names/n79049138">
+                  Henry E. Huntington Library and Art Gallery
+               </orgName>
+               <resp> photos include: Edgeworth_Huntington_FB1243_1816_06_11_page01.jpg, Edgeworth_Huntington_FB1243_1816_06_11_page02.jpg,
+                  Edgeworth_Huntington_FB1243_1816_06_11_page03.jpg, Edgeworth_Huntington_FB1243_1816_06_11_page04.jpg
+               </resp>
+            </respStmt>
+         </editionStmt>
+         
+         
+         <publicationStmt>
+            <authority>Maria Edgeworth Letters Project</authority>
+            <date>2023</date>
+            <availability>
+               <p>Reproduced by courtesy of the <orgName ref="http://id.loc.gov/authorities/names/n79049138">
+                  Henry E. Huntington Library and Art Gallery</orgName>. 
+               </p>
+               <licence>Distributed under a Creative Commons Attribution-ShareAlike 3.0 Unported
+                  License</licence>
+            </availability>
+            
+            <idno>Edgeworth_Huntington_FB1243_1816_06_11</idno> 
+         </publicationStmt>
+         <seriesStmt>
+            <title>Maria Edgeworth Letters Project</title>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <repository>Henry E. Huntington Library and Art Gallery</repository>
+                  <collection>Manuscripts, Huntington Digital Library, call number mssFB 1209, Sir Francis Beaufort papers, 1710-1953 (bulk 1780-1890). Sytem Identifier: 	
+                     622783, https://hdl.huntington.org/digital/collection/p15150coll7/id/55219</collection>
+                  <idno/>
+                  <!--Consult library or WorldCat for this info-->
+               </msIdentifier>
+               
+               <head>Letter from 
+                  <persName ref="./Personography.xml#EdgeW1">William Edgeworth</persName>
+                  to <persName ref="./Personography.xml#BeauF1">Sir Francis Beaufort</persName>
+                  <placeName ref="./Placeography.xml#Edgeworthstown_IE">Edgeworthstown</placeName>,
+                  <date when="1816-06-11">June 11, 1816</date>
+               </head>
+               <physDesc>
+               </physDesc>
+            </msDesc>
+            <bibl>In addition to our edited version, this letter was previously published in
+               <!--complete bibiographical info if letter was published in a book here-->
+            </bibl>
+            
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <!--Where Edgeworth uses nonstandard spelling and hyphenation of words, transcriber-coders 
+               should use TEI elements “choice," “sic," and “reg" to encode both Edgeworth’s 
+               spelling and the regular international standard of Oxford English spelling, 
+               following the first listed spelling in the Oxford English Dictionary. -->
+            <p>Edgeworth’s spelling and punctuation are retained in transcription, except where a
+               word is split at the end of a line and the beginning of the next in a manuscript. The
+               long s and ligatured forms are silently emended.</p>
+         </editorialDecl>
+         
+         <classDecl>
+            <taxonomy xml:id="relators">
+               <bibl>Marc Relators</bibl>
+               <category xml:id="aut">
+                  <catDesc>Author</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="lcsh">
+               <bibl>Subjects</bibl>
+               <category>
+                  <catDesc xml:id="AntislaveryMovements">Antislavery movements
+                     <idno type="loc">sh85123315</idno>
+                  </catDesc>
+                  <catDesc xml:id="Birth">Birth
+                     <idno type="loc">sh86004053</idno>
+                  </catDesc>
+                  <catDesc xml:id="Death">Death
+                     <idno type="loc">sh85036085</idno>
+                  </catDesc>
+                  <catDesc xml:id="Education">Education
+                     <idno type="loc">sh85040989</idno>
+                  </catDesc>
+                  <catDesc xml:id="Imperialism">Imperialism
+                     <idno type="loc">sh85064628</idno>
+                  </catDesc>
+                  <catDesc xml:id="FictitiousCharacters">Fictitious characters
+                     <idno type="loc">sh99004183</idno>
+                  </catDesc>
+                  <catDesc xml:id="Marriage">Marriage
+                     <idno type="loc">sh85081416</idno>
+                  </catDesc>
+                  <catDesc xml:id="Nationalism">Nationalism
+                     <idno type="loc">sh85090150</idno>
+                  </catDesc>
+                  <catDesc xml:id="PoliticsAndCulture">Politics and culture
+                     <idno type="loc">sh85104468</idno>
+                  </catDesc>
+                  <catDesc xml:id="Race">Race  
+                     <idno type="loc">sh85110232</idno>
+                  </catDesc>
+                  <catDesc xml:id="Religion">Religion
+                     <idno type="loc">sh85112549</idno>
+                  </catDesc>
+                  <catDesc xml:id="Science">Science
+                     <idno type="loc">sh85118553</idno>
+                  </catDesc>
+                  <catDesc xml:id="Technology">Technology
+                     <idno type="loc">sh85133147</idno>
+                  </catDesc>
+                  <catDesc xml:id="Slavery">Slavery
+                     <idno type="loc">sh85123314</idno>
+                  </catDesc>
+                  <catDesc xml:id="Travel">Travel
+                     <idno type="loc">sh85137149</idno>
+                  </catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="works">
+               <bibl>Works</bibl>
+               <category>
+                  <catDesc xml:id="w1">Belinda</catDesc>
+                  <catDesc xml:id="w2">Castle Rackrent</catDesc>
+                  <catDesc xml:id="w3">Comic Dramas, in Three Acts</catDesc>
+                  <catDesc xml:id="w4">Early Lessons</catDesc>
+                  <catDesc xml:id="w5">Essay on Irish Bulls</catDesc>
+                  <catDesc xml:id="w6">Frank: a Sequel to Frank in Early Lessons</catDesc>
+                  <catDesc xml:id="w7">Harrington, a Tale; and Ormond, a Tale</catDesc>
+                  <catDesc xml:id="w8">Harry and Lucy Concluded</catDesc>
+                  <catDesc xml:id="w9">Leonora</catDesc>
+                  <catDesc xml:id="w10">Letters for Literary Ladies</catDesc>
+                  <catDesc xml:id="w11">Moral Tales for Young People</catDesc>
+                  <catDesc xml:id="w12">Moral Tales</catDesc>
+                  <catDesc xml:id="w13">Patronage</catDesc>
+                  <catDesc xml:id="w14">Popular Tales</catDesc>
+                  <catDesc xml:id="w15">Practical Education</catDesc>
+                  <catDesc xml:id="w16">Readings on Poetry</catDesc>
+                  <catDesc xml:id="w17">Ormond</catDesc>
+                  <catDesc xml:id="w18">The Absentee</catDesc>
+                  <catDesc xml:id="w19">Tales of Fashionable Life</catDesc>
+                  <catDesc xml:id="w20">The Contrast</catDesc>
+                  <catDesc xml:id="w21">The Modern Griselda; a Tale</catDesc>
+                  <catDesc xml:id="w22">The Parent's Assistant</catDesc>
+                  <catDesc xml:id="w23">Tomorrow; or the Dangers of Delay</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="people">
+               <bibl>People</bibl>
+               <category>
+                  <catDesc xml:id="BabbageCharles">Babbage, Charles, 1791-1871
+                     <idno type="loc">n50031102</idno>
+                  </catDesc>
+                  <catDesc xml:id="BarbauldAL">Barbauld, Mrs. (Anna Letitia), 1743-1825
+                     <idno type="loc">n84136092</idno>
+                  </catDesc>
+                  <catDesc xml:id="EdgeworthRL">Edgeworth, Richard Lovell, 1744-1817
+                     <idno type="loc">n79061007</idno>
+                  </catDesc>
+                  <catDesc xml:id="EdgeworthM">Edgeworth, Maria, 1768-1849
+                     <idno type="loc">n79061006</idno>
+                     <date>1768-1849</date>
+                     <idno type="VIAF">71477273</idno>
+                     <idno type="SNAC">62567029</idno>
+                  </catDesc>
+                  <catDesc xml:id="RobinsonM">Robinson, Mary, 1758-1800
+                     <idno type="loc">n83122576</idno>
+                     <idno type="VIAF">9888105</idno>
+                     <idno type="SNAC">32125250</idno>
+                  </catDesc>
+                  <catDesc xml:id="BurneyF">Burney, Fanny, 1752-1840
+                     <idno type="loc">n80075853</idno>
+                  </catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="places">
+               <bibl>Places</bibl>
+               <category>
+                  <catDesc xml:id="EdgeworthsTown">Edgeworths' Town<idno type="getty">tgn/1042937</idno></catDesc>
+                  <catDesc xml:id="Peterborough">Peterborough, UK<idno type="getty">tgn/7026520</idno></catDesc>
+                  <catDesc xml:id="CranfordI">Cranford, Ireland<idno type="getty">tgn/7901042</idno></catDesc>
+                  <catDesc xml:id="Kettering">Kettering, UK<idno type="getty">tgn/7010904</idno></catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="period">
+               <bibl>Period</bibl>
+               <category>
+                  <catDesc>xx</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+         
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="./Personography.xml#BeauF1">Sir Francis Beaufort</persName>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="./Personography.xml#EdgeF2"> Frances Anne (Edgeworth) Beaufort</persName> <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
+            </correspAction>
+         </correspDesc>
+         
+         <textClass>
+            <keywords scheme="">
+               <list type="simple">
+                  <item>English literature</item>
+                  <item>History</item>
+               </list>
+            </keywords>
+            <catRef target="#f7" scheme="#f"/>
+            <catRef target="#hist #el" scheme="locSUB"/>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-01-01" who="Id_who">
+            <!--Brief description of what you did here.-->
+         </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <pb n="1" facs="Edgeworth_Huntington_FB1243_1816_06_11_page01.jpg"/>
+            <opener>
+               <dateline>
+                  <placeName ref="./Placeography.xml#Edgeworthstown_IE">EdgeworthsTown</placeName> <date when="1816-06-11"/>June 11<hi rend="superscript">th</hi>. 16<lb/></dateline>  
+
+               <salute>My dear <persName ref="./Personography.xml#BeauF1">Francis</persName></salute></opener>
+
+               I trust you will not</lb>
+               think my interference</lb>
+               troublesome but I cannot help saying that for</lb>
+               your sake and for William &amp; the public's I wish</lb>
+               that your letter to M[superscript]r[/superscript]. Croker were published-</lb>
+               and I request you will tell me whether [deletion]suppos[/deletion]</lb>
+               [deletion]ing Mr Croker[/deletion] you would have any objection to</lb>
+               it being published if M[superscript]r.[/superscript] Croker wished it as much</lb>
+               as I do- Maria Edgeworth</lb>
+
+            
+            <p>My dear <persName ref="./Personography.xml#BeauF1">Francis</persName></lb>
+                 I am glad that I have received the copy</lb>
+              of your letter to M[superscript]r[/superscript] Croker, before my fathers</lb>
+              return home, that I might have it in my</lb>
+              power to write to you, before I hear the opinions</lb>
+              of the higher Powers. I must [insertion]say[/insertion] if you will</lb>
+              allow of your [unclear]servants[/unclear] praise, that I think the</lb>
+              letter most clear, modest, yet manly and dis-</lb>
+              interested. And the arguments, for combining</lb>
+              the Coast with the interior survey of this kingdom,</lb>
+              unanswerable. And much as it thwarts my</lb>
+              interest or rather my ambition, yet I must ac-</lb>
+              -knowledge that the military surveyors, are the</lb>
+              proper body to be employed.</lb>
+              However, I think if it was suggested to,[unclear]Mudge[/unclear]</lb>
+            
+          
+          that two active companies might be formed</lb>
+              out of the present body, now employed in</lb>
+              Scotland, that he or rather government, would</lb>
+              catch eagerly at the idea, for all they want</lb>
+              are situations in which they can place the un-</lb>
+              employed officers, without the appearance of</lb>
+              jobbing. And it is clear that an accurate</lb>
+              Survey of Ireland, is called for on all sides</lb>
+              By the Admiralty, the military and by</lb>
+              the new grand Jury bill.</lb>
+              As to instruments the expense of an entire</lb>
+              new set is a trifle compared to the expense</lb>
+              of the whole work, And in the next theodolite</lb>
+              they will improve upon the last.</lb>
+              No time need be lost, for I am sure they have</lb>
+              instruments sufficient, for selecting their stations</lb>
+              and laying out the ground for their [underline]base[/underline]</lb>
+              [underline]lines[/underline]. It is wonderful since Gen. Roy's time</lb>
+              and with all the experience that they have had,</lb>
+              if two men are not to be found under Mudge</lb>
+              Who are capable of carrying on separately, a</lb>
+              distinct survey. The [unclear]cumulation[/unclear] that will</lb>
+              
+              necessarily be exited will be advantageous to</lb>
+              both companies, and to the survey of the two</lb>
+              countries. Then we shall have a chance of their</lb>
+              attempting some improvements.</lb>
+              The Ed. review will drive them to something new</lb>
+              in the Scotch mountains. I do not in this plan</lb>
+              look forward to being employed under this new</lb>
+              Corps, because without I was well paid it would</lb>
+              lead me entirely into one branch of my profession</lb>
+              This is what you said originally about my [deletion]being[/deletion]</lb>
+              employment with you. And now I must</lb>
+              tell you that I am as little disappointed as</lb>
+              the [unclear][/unclear] of a [underline]philosopher[/underline] and not of a [underline]Genius[/underline]</lb>
+              ought to be. And the chief cause of any sorrow</lb>
+              that I may feel, is from my not being likely to</lb>
+              see you, busy in Ireland. I fear that I</lb>
+              shall be long enough tied here, from various</lb>
+              disappointments, Roscommon [insertion]maps[/insertion] can not be finished</lb>
+              for two years more. Most fortunately the three</lb>
+              months that you [insertion]so promptly[/insertion] allowed me, induced Major Taylor</lb>
+              to have my name put in the Engineers warrant</lb>
+              from the Post Masters General, for laying out two</lb>
+              new lines of road chiefly thro' Roscommon and</lb>
+              Longford. This work, will not take up the whole</lb>
+              
+              of the summer, and as the Engineer is paid</lb>
+              2 Gs. a mile, it will just support me till I</lb>
+              have finished the drawing of Roscommon. Can you</lb>
+              find out for me as [unclear]this[/unclear] young drawer, who would look</lb>
+              forward like myself to good payment by his advance-</lb>
+              -ment in life? All I want is a boy who can draw</lb>
+              neat lines, I will give from 5 to 10 shillings a day.</lb>
+              Now my dear <persName ref="./Personography.xml#BeauF1">Francis</persName> let me thank you, and with just</lb>
+                 The same feelings of Gratitude, as if we were first beginning</lb>
+              work together. Thank you for the Fatherly determination</lb>
+              with which you have managed my interests, and tho' I am</lb>
+              not to be employed, I am convinced, that the manner in</lb>
+              which you combined my employment, with yours, must</lb>
+              have been of the highest service to me in London. And I</lb>
+              have myself received proofs of a friendship, that I know not</lb>
+              how I have earned but I hope I may</lb>
+              always deserve to profess. </p> <closer>I am</lb>
+Your most affectionate<lb/>
+               W Edgeworth<lb/>
+             
+                  <address>              
+                     <addrLine/> <persName ref="./Personography.xml#BeauF1">Captain Beaufort RN</persName>
+                     <addrLine/><street>31 Harley Street</street>
+                     <addrLine/><placeName ref="./Placeography.xml#London_ENK">London</placeName>
+                  </address>
+              </closer>
+         </div>
+      </body>
+      <back> </back>
+   </text>
+</TEI>
