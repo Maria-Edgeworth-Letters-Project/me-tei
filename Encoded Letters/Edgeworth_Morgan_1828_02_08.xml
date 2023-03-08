@@ -6,7 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Letter from Maria Edgeworth to <!--Recipient Name, Month Day, YYYY--></title>
+            <title>Letter from Maria Edgeworth to <!--Unknown Recipient, February 8, 1828--></title>
             <author>Maria Edgeworth</author>
             <editor ref="Id_who">
                <!--Editor on the Maria Edgeworth Letters Project overseeing the coding of this particular letter: FirstName LastName -->
@@ -20,23 +20,23 @@
             <principal>Jessica Richard, Hilary Havens, Robin Runia, Susan Egenolf</principal>
             <respStmt>
                <resp>Transcription and coding by</resp>
-               <persName ref="Id_who"><!--FirstName LastName-->
+               <persName ref="Id_who"><!--Autumn Hall-->
                </persName>
                <!-- List all transcribers or coders here, editors and students alike, <persName> by <persName>.-->
-               <persName ref="Id_who"><!--FirstName LastName--></persName>
+               <persName ref="Id_who"><!--name here--></persName>
                <!-- If you're the last person interacting with the file, enter your name last on the list -->
             </respStmt>
          </titleStmt>
          <editionStmt>
-            <edition>First digital edition in TEI, date: <date when="2022-01-01">
-                  <!--enter the date on which the first coder created and saved this XML file in google drive-->
+            <edition>First digital edition in TEI, date: <date when="2023-03-06"/>
+                  <!--enter the date on which the first coder created and saved this XML file in google drive--> 
                </date>
             </edition>
             <respStmt>
-               <orgName type="naf" ref="Id_who">
+               <orgName ref= The Morgan Library &amp; museum/>
                   <!--who digitized the letter or gave us permission for to use the file?-->
                </orgName>
-               <resp> photos include:
+               <resp> photos include: 
                   <!-- Make a comma-separated list of each .jpg photo file name associated with your letter. 
                      For example: DSCF9476.jpg, DSCF9477.jpg, DSCF9478.jpg-->
                </resp>
@@ -44,11 +44,11 @@
          </editionStmt>
          <publicationStmt>
             <authority>Maria Edgeworth Letters Project</authority>
-            <date>2022</date>
+            <date>2023</date>
             <availability>
                <!--Uncomment the appropriate line, based on the archive that holds the physical copy of this letter, 
                   and delete the other comment line(s).-->
-               <p><!--Reproduced by courtesy of the <orgName ref="#ReadingCL">Reading Central Library</orgName>.-->
+               <p><!--Reproduced by courtesy of the <orgName>The Morgan Library &amp; Museum</orgName>.-->
                   <!--or -->
                   <!--Courtesy of <orgName ref="#Rylands">The University of Manchester</orgName>.-->
                </p>
@@ -79,7 +79,7 @@
                         <idno type="VIAF">71477273</idno>
                         <idno type="SNAC">62567029</idno>
                      </persName>
-                   to <persName><!--Recipient Name--></persName>, <placeName><!--Location where letter was sent--></placeName>, 
+                   to <persName><!--Unknown Recipient--></persName>, <placeName><!--Location where letter was sent--></placeName>, 
                   <date when="1111-01-01"><!-- Transcribe the date as it appears on the letter itself. Enter a numeric standardized date value in @when. --></date>
                </head>
                <physDesc>
