@@ -28,9 +28,7 @@
             </respStmt>
          </titleStmt>
          <editionStmt>
-            <edition>First digital edition in TEI, date: <date when="2023-03-06"/>
-                  <!--enter the date on which the first coder created and saved this XML file in google drive--> 
-               <date>
+            <edition>First digital edition in TEI, date: <date when="2023-03-06"> 2023-03-06 </date>
             </edition>
             <respStmt>
                <orgName>
@@ -235,7 +233,7 @@
                </salute>
             </opener>
               <placeName type="place" ref="./Placeography.xml#Black-Castle_IE">Black Castle</placeName>near<lb/>
-               <hirend="underline"><placeName type="place" ref="./Placeography.xml#Navan_IE">Navan<placeName></hi><lb/>
+               <hi rend="underline"><placeName type="place" ref="./Placeography.xml#Navan_IE">Navan<placeName></hi><lb/>
                
               <p>It is impossible that any<lb/>
                black marks I can make<lb/>
@@ -247,8 +245,8 @@
                Lansdowne that I feel but
                for <placeName type="place" ref="./Placeography.xml#IE">Ireland</placeName> — the loss of place<lb/>
                and power may for aught<lb/>
-               I know may be again of happi-<lb/>
-               ness to you both — But the<lb/>
+               I know may be again of <choice><orig>happi-<lb/>
+               ness</orig><reg>happiness</reg></choice> to you both — But the<lb/>
                loss to <placeName type="place" ref="./Placeography.xml#IE">Ireland</placeName> of such friends<lb/>
                in power is I fear irremedia<lb/>
                'ble — I have much that I wish<lb/>
@@ -264,7 +262,7 @@
                may press down &amp; [underline]keep[/underline] down<lb/>
                a nation if that hand be strong<lb/>
                enough — But the hand must<lb/>
-               [deletion]be[/deletion] in that case [underline]never be removed[/underline]<lb/>
+               <del>be</del> in that case <hi rend="underline">never be removed</hi><lb/>
                &amp; must never relax —<lb/>
                To the conqueror of Waterloo<lb/>
                The [underline]reco[/underline]nquest of <placeName type="place" ref="./Placeography.xml#IE">Ireland</placeName> would<lb/>
