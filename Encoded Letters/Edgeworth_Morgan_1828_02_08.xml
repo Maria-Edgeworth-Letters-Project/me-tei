@@ -33,9 +33,9 @@
             <respStmt>
                <orgName>
                   The Morgan Library &amp; Museum<!--who digitized the letter or gave us permission for to use the file?-->
-               <orgName>
+               </orgName>
                <resp>
-                 > photos include:
+                  photos include:
                   Edgeworth_Morgan_422597_1828-02_page01.jpg,
                   Edgeworth_Morgan_422597_1828-02_page02.jpg,
                   Edgeworth_Morgan_422597_1828-02_page03.jpg,
@@ -58,7 +58,7 @@
                <licence>Distributed under a Creative Commons Attribution-ShareAlike 3.0 Unported
                   License</licence>
             </availability>
-            <idno><Edgeworth_Morgan_1828_02_08</idno> 
+            <idno>Edgeworth_Morgan_1828_02_08</idno> 
          </publicationStmt>
          <seriesStmt>
             <title>Maria Edgeworth Letters Project</title>
@@ -237,8 +237,8 @@
                   </persName>
                </salute>
             </opener>
-              <placeName ref="./Placeography.xml#Black-Castle_IE">Black Castle</placeName>near<lb/>
-               <hi rend="underline"><placeName ref="./Placeography.xml#Navan_IE">Navan<placeName></hi><lb/>
+             <p><placeName ref="./Placeography.xml#Black-Castle_IE">Black Castle</placeName>near<lb/>
+               <hi rend="underline"><placeName ref="./Placeography.xml#Navan_IE">Navan</placeName></hi><lb/></p>
                
               <p>It is impossible that any<lb/>
                black marks I can make<lb/>
@@ -300,7 +300,7 @@
                <p>You were so very kind to<lb/>
                my brother <persName ref="./Personography.xml#EdgeW1">William</persName>— another<lb/>
                brother of mine — <hi rend="underline"><persName type="person" ref="./Personography.xml#EdgeC1">Sneyd</persName></hi>E —<lb/>
-               now begs me to recal him</lb> 
+               now begs me to recal him<lb/> 
                to your memory — These are<lb/>
                his words<lb/></p>
             
@@ -333,23 +333,12 @@
                many people who ask favors<lb/>
                <hi rend="underline">can promise</hi> or at least more<lb/>
                than they are often found to per<lb/>
-               form<lb/></p>
-               
-               <p>I am Yours very sincerely<lb/>
+               form<lb/></p>                             
+         <closer>
+            I am Yours very sincerely<lb/>
                <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
                <date>Feb 8<hi rend="superscript">th</hi>1828</date>
-               MA3038.3
-               
-               
-            <p>
-               <!--More body paragraphs as needed.-->
-               <!--Where there's a page break record it inside the relevant body paragraph like this, 
-                  with the self-closing page-break element. n="2" indicates the START of the second page.-->
-               <pb n="2" facs="image2.jpg"/>
-            </p>
-            <p><!--More body paragraphs as needed.--></p>
-            <closer>
-               <!--include linebreaks, if used. example: <closer> Yours<lb/> Very sincerely<lb/> -->
+              
             </closer>
             <postscript>
                <p><!--A postscript goes here, outside the <closer>. --></p>
