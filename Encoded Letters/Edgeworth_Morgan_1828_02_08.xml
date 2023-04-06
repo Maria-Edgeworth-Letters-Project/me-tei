@@ -20,7 +20,7 @@
             <principal>Jessica Richard, Hilary Havens, Robin Runia, Susan Egenolf</principal>
             <respStmt>
                <resp>Transcription and coding by</resp>
-               <persName ref="Id_who"><!--Autumn Hall-->
+               <persName ref="Id_who">Autumn Hall
                </persName>
                <!-- List all transcribers or coders here, editors and students alike, <persName> by <persName>.-->
                <persName ref="Id_who"><!--name here--></persName>
@@ -227,19 +227,15 @@
             <pb n="1" facs="image1.jpg"/>
             <!--filenames for photos associated with this letter. Example: <pb n="1" facs="image1.jpg image2.jpg image3.jpg"/> -->
             <opener>
-               <dateline><!--If there's no date line, omit this element. Record in the order in which it is written on the letter.-->
-                  <name ref="./Placeography.xml#Black-Castle_IE">Black Castle</name>
-                  <date></date></dateline>
+               <placeName ref="./Placeography.xml#Black-Castle_IE">Black Castle near<lb/>
+                  <hi rend="underline">Navan</hi><lb/></placeName>
                <salute>
                   <persName>
                      <!-- Use if letter has a saluation ("Dear Sir," for example). If not, delete this line.-->
                      My dear Sir
                   </persName>
                </salute>
-            </opener>
-             <p><placeName ref="./Placeography.xml#Black-Castle_IE">Black Castle</placeName>near<lb/>
-               <hi rend="underline"><placeName ref="./Placeography.xml#Navan_IE">Navan</placeName></hi><lb/></p>
-               
+            </opener>           
               <p>It is impossible that any<lb/>
                black marks I can make<lb/>
                upon paper can convey to<lb/>
