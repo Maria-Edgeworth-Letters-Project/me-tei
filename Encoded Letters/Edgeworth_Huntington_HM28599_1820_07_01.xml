@@ -1,0 +1,586 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from Maria Edgeworth to Sir Francis Beaufort, 7/1/1820</title>
+            <author>Maria Edgeworth</author>
+            <editor ref="Id_who">
+               Jamie Kramer<!--Editor on the Maria Edgeworth Letters Project overseeing the coding of this particular letter: FirstName LastName -->
+            </editor>
+            <sponsor>
+               <orgName>Maria Edgeworth Letters Project</orgName>
+            </sponsor>
+            <sponsor>Wake Forest University, University of Tennessee, Xavier University, Texas
+               A&amp;M University</sponsor>
+            <principal>Jessica Richard, Hilary Havens, Robin Runia, Susan Egenolf</principal>
+            <respStmt>
+               <resp>Transcription and coding by</resp>
+               <persName ref="Id_who">Jamie Kramer<!--FirstName LastName-->
+               </persName>
+               <!-- List all transcribers or coders here, editors and students alike, <persName> by <persName>.-->
+               <persName ref="Id_who"><!--FirstName LastName--></persName>
+               <!-- If you're the last person interacting with the file, enter your name last on the list -->
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>First digital edition in TEI, date: <date when="2023-05-24">
+            </date>
+            </edition>
+            <respStmt>
+               <orgName type="naf" ref="http://id.loc.gov/authorities/names/n79049138">
+                  Henry E. Huntington Library and Art Gallery
+               </orgName>
+               <resp> photos include: Edgeworth_Huntington_HM28599_1820_07_01_page01.jpg,
+                  Edgeworth_Huntington_HM28599_1820_07_01_page02.jpg,
+                  Edgeworth_Huntington_HM28599_1820_07_01_page03.jpg,
+                  Edgeworth_Huntington_HM28599_1820_07_01_page04.jpg,
+                  Edgeworth_Huntington_HM28599_1820_07_01_page05.jpg,
+                  Edgeworth_Huntington_HM28599_1820_07_01_page06.jpg,
+                  Edgeworth_Huntington_HM28599_1820_07_01_page07.jpg,
+                  Edgeworth_Huntington_HM28599_1820_07_01_page08.jpg
+               </resp>
+            </respStmt>
+         </editionStmt>
+         
+         
+         <publicationStmt>
+            <authority>Maria Edgeworth Letters Project</authority>
+            <date>2023</date>
+            <availability>
+               <p>Reproduced by courtesy of the <orgName ref="http://id.loc.gov/authorities/names/n79049138">
+                  Henry E. Huntington Library and Art Gallery</orgName>. 
+               </p>
+               <licence>Distributed under a Creative Commons Attribution-ShareAlike 3.0 Unported
+                  License</licence>
+            </availability>
+            
+            <idno>Edgeworth_Huntington_HM28599_1820_07_01</idno> 
+         </publicationStmt>
+         <seriesStmt>
+            <title>Maria Edgeworth Letters Project</title>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <repository>Henry E. Huntington Library and Art Gallery</repository>
+                  <collection>Manuscripts, Huntington Digital Library, call number mssHM 28599, 	
+                     Manuscripts, Huntington Digital Library. System Identifier: 	
+                     622923, https://hdl.huntington.org/digital/collection/p15150coll7/id/55203</collection>
+                  <idno/>
+                  <!--Consult library or WorldCat for this info-->
+               </msIdentifier>
+               
+               <head>Letter from 
+                  <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName> 
+                  to <persName ref="./Personography.xml#BeauF1">Sir Francis Beaufort</persName>
+                  <placeName ref="./Placeography.xml#Edgeworthstown_IE">Edgeworthstown</placeName>,
+                  <date when="1820-07-01">July 1, 1820</date>
+               </head>
+               <physDesc>
+               </physDesc>
+            </msDesc>
+            <bibl>In addition to our edited version, this letter was previously published in
+               <!--complete bibiographical info if letter was published in a book here-->
+            </bibl>
+            
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <!--Where Edgeworth uses nonstandard spelling and hyphenation of words, transcriber-coders 
+               should use TEI elements “choice," “sic," and “reg" to encode both Edgeworth’s 
+               spelling and the regular international standard of Oxford English spelling, 
+               following the first listed spelling in the Oxford English Dictionary. -->
+            <p>Edgeworth’s spelling and punctuation are retained in transcription, except where a
+               word is split at the end of a line and the beginning of the next in a manuscript. The
+               long s and ligatured forms are silently emended.</p>
+         </editorialDecl>
+         
+         <classDecl>
+            <taxonomy xml:id="relators">
+               <bibl>Marc Relators</bibl>
+               <category xml:id="aut">
+                  <catDesc>Author</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="lcsh">
+               <bibl>Subjects</bibl>
+               <category>
+                  <catDesc xml:id="AntislaveryMovements">Antislavery movements
+                     <idno type="loc">sh85123315</idno>
+                  </catDesc>
+                  <catDesc xml:id="Birth">Birth
+                     <idno type="loc">sh86004053</idno>
+                  </catDesc>
+                  <catDesc xml:id="Death">Death
+                     <idno type="loc">sh85036085</idno>
+                  </catDesc>
+                  <catDesc xml:id="Education">Education
+                     <idno type="loc">sh85040989</idno>
+                  </catDesc>
+                  <catDesc xml:id="Imperialism">Imperialism
+                     <idno type="loc">sh85064628</idno>
+                  </catDesc>
+                  <catDesc xml:id="FictitiousCharacters">Fictitious characters
+                     <idno type="loc">sh99004183</idno>
+                  </catDesc>
+                  <catDesc xml:id="Marriage">Marriage
+                     <idno type="loc">sh85081416</idno>
+                  </catDesc>
+                  <catDesc xml:id="Nationalism">Nationalism
+                     <idno type="loc">sh85090150</idno>
+                  </catDesc>
+                  <catDesc xml:id="PoliticsAndCulture">Politics and culture
+                     <idno type="loc">sh85104468</idno>
+                  </catDesc>
+                  <catDesc xml:id="Race">Race  
+                     <idno type="loc">sh85110232</idno>
+                  </catDesc>
+                  <catDesc xml:id="Religion">Religion
+                     <idno type="loc">sh85112549</idno>
+                  </catDesc>
+                  <catDesc xml:id="Science">Science
+                     <idno type="loc">sh85118553</idno>
+                  </catDesc>
+                  <catDesc xml:id="Technology">Technology
+                     <idno type="loc">sh85133147</idno>
+                  </catDesc>
+                  <catDesc xml:id="Slavery">Slavery
+                     <idno type="loc">sh85123314</idno>
+                  </catDesc>
+                  <catDesc xml:id="Travel">Travel
+                     <idno type="loc">sh85137149</idno>
+                  </catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="works">
+               <bibl>Works</bibl>
+               <category>
+                  <catDesc xml:id="w1">Belinda</catDesc>
+                  <catDesc xml:id="w2">Castle Rackrent</catDesc>
+                  <catDesc xml:id="w3">Comic Dramas, in Three Acts</catDesc>
+                  <catDesc xml:id="w4">Early Lessons</catDesc>
+                  <catDesc xml:id="w5">Essay on Irish Bulls</catDesc>
+                  <catDesc xml:id="w6">Frank: a Sequel to Frank in Early Lessons</catDesc>
+                  <catDesc xml:id="w7">Harrington, a Tale; and Ormond, a Tale</catDesc>
+                  <catDesc xml:id="w8">Harry and Lucy Concluded</catDesc>
+                  <catDesc xml:id="w9">Leonora</catDesc>
+                  <catDesc xml:id="w10">Letters for Literary Ladies</catDesc>
+                  <catDesc xml:id="w11">Moral Tales for Young People</catDesc>
+                  <catDesc xml:id="w12">Moral Tales</catDesc>
+                  <catDesc xml:id="w13">Patronage</catDesc>
+                  <catDesc xml:id="w14">Popular Tales</catDesc>
+                  <catDesc xml:id="w15">Practical Education</catDesc>
+                  <catDesc xml:id="w16">Readings on Poetry</catDesc>
+                  <catDesc xml:id="w17">Ormond</catDesc>
+                  <catDesc xml:id="w18">The Absentee</catDesc>
+                  <catDesc xml:id="w19">Tales of Fashionable Life</catDesc>
+                  <catDesc xml:id="w20">The Contrast</catDesc>
+                  <catDesc xml:id="w21">The Modern Griselda; a Tale</catDesc>
+                  <catDesc xml:id="w22">The Parent's Assistant</catDesc>
+                  <catDesc xml:id="w23">Tomorrow; or the Dangers of Delay</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="people">
+               <bibl>People</bibl>
+               <category>
+                  <catDesc xml:id="BabbageCharles">Babbage, Charles, 1791-1871
+                     <idno type="loc">n50031102</idno>
+                  </catDesc>
+                  <catDesc xml:id="BarbauldAL">Barbauld, Mrs. (Anna Letitia), 1743-1825
+                     <idno type="loc">n84136092</idno>
+                  </catDesc>
+                  <catDesc xml:id="EdgeworthRL">Edgeworth, Richard Lovell, 1744-1817
+                     <idno type="loc">n79061007</idno>
+                  </catDesc>
+                  <catDesc xml:id="EdgeworthM">Edgeworth, Maria, 1768-1849
+                     <idno type="loc">n79061006</idno>
+                     <date>1768-1849</date>
+                     <idno type="VIAF">71477273</idno>
+                     <idno type="SNAC">62567029</idno>
+                  </catDesc>
+                  <catDesc xml:id="RobinsonM">Robinson, Mary, 1758-1800
+                     <idno type="loc">n83122576</idno>
+                     <idno type="VIAF">9888105</idno>
+                     <idno type="SNAC">32125250</idno>
+                  </catDesc>
+                  <catDesc xml:id="BurneyF">Burney, Fanny, 1752-1840
+                     <idno type="loc">n80075853</idno>
+                  </catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="places">
+               <bibl>Places</bibl>
+               <category>
+                  <catDesc xml:id="EdgeworthsTown">Edgeworths' Town<idno type="getty">tgn/1042937</idno></catDesc>
+                  <catDesc xml:id="Peterborough">Peterborough, UK<idno type="getty">tgn/7026520</idno></catDesc>
+                  <catDesc xml:id="CranfordI">Cranford, Ireland<idno type="getty">tgn/7901042</idno></catDesc>
+                  <catDesc xml:id="Kettering">Kettering, UK<idno type="getty">tgn/7010904</idno></catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="period">
+               <bibl>Period</bibl>
+               <category>
+                  <catDesc>xx</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+         
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName> 
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="./Personography.xml#BeauF1">Sir Francis Beaufort</persName>
+            </correspAction>
+         </correspDesc>
+         
+         <textClass>
+            <keywords scheme="">
+               <list type="simple">
+                  <item>English literature</item>
+                  <item>History</item>
+               </list>
+            </keywords>
+            <catRef target="#f7" scheme="#f"/>
+            <catRef target="#hist #el" scheme="locSUB"/>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-01-01" who="Id_who">
+            <!--Brief description of what you did here.-->
+         </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <pb n="1" facs="Edgeworth_Huntington_HM28599_1820_07_01_page01.jpg"/>
+            <opener>
+               <dateline>
+                  <placeName ref="./Placeography.xml#Palais_Bourbon_FR">Place Bourbon</placeName>lb/> 
+                  <date when="1820-07-01"/>July 1<hi rend="superscript">st</hi>. 1820<lb/></dateline>  
+            </opener>
+            <note>this appears upside-down in the top left corner of Page 1 of the letter, but it is a continuation of Maria's postscript on Page 8.</note>
+            <p>I heard from your dear<lb/>
+               <persName ref="./Personography.xml#BeauM1">mother</persName> yesterday &amp; hers<lb/>
+               &amp; your <persName ref="./Personography.xml#BeauD1">fathers</persName> opinion<lb/>
+               of the memory were<lb/>
+               balm to my heart<lb/></p>
+            
+            <p>What a happiness, what a blessing it is<lb/>
+               to our whole family my dear <persName ref="./Personography.xml#BeauF1">Francis</persName><lb/>
+               to have such a friend as you <choice><orig>especial<lb/>
+               ly</orig><reg>especially </reg></choice> in the present circumstances. You<lb/>
+               have done most prudently to warn<lb/>
+               dear <persName ref="./Personography.xml#EdgeF3">Fanny</persName> not to let her hopes be<lb/>
+               raised too high by this flattering<lb/>
+               amendment. I take it for granted<lb/>
+               that you have used the same <choice><orig>precau<lb/>
+               -tion</orig><reg>precaution</reg></choice> where it is far more necessary -<lb/>
+               with <persName ref="./Personography.xml#BeauH1">Honora</persName> and my <persName ref="./Personography.xml#EdgeF1">mother</persName> - <del>Toward</del><lb/></p>
+               <p>As to my self I am still more inclined<lb/>
+               to fear than hope - But I will not <choice><orig>de-<lb/>
+               tail</orig><reg>detail</reg></choice> my causes of apprehension - they<lb/>
+               must have all occurred to your mind<lb/>
+               &amp; you will I am sure weigh all<lb/>
+               things well in every step that is taken<lb/>
+               - I must however mention one thing<lb/>
+               of which perhaps you have not been<lb/>
+                  apprized sufficiently that <persName ref="./Personography.xml#XxxxL1"> <hi rend = "underline">L</hi></persName>'s mind<lb/>
+               is liable to <del>a</del> dangerous susceptibility<lb/>
+               <del>on</del> that he was very nervous this time<lb/>
+               last year - so much so as to think it <choice><orig>necessa<lb/>
+                ry</orig><reg>necessary</reg></choice> to consult <persName ref="./Personography.xml#MxxxX1">D<hi rend = "superscript">r</hi>. M</persName> - On the subject of<lb/>
+                <persName ref="./Personography.xml#XxxxW1"> W</persName> - he must be from previous associations<lb/>
+               <pb n="2" facs="Edgeworth_Huntington_HM28599_1820_07_01_page02.jpg"/>
+               particularly irritable - and the danger of<lb/>
+               their meeting must be reciprocally great<lb/>
+               - To this trial however it must come <choice><orig>soon-<lb/>
+                  er</orig><reg>sooner</reg></choice> or later unless - which I forbode - the<lb/>
+               malady with fresh paroxysms returns<lb/>
+               - you will be surprised perhaps<lb/>
+               shocked at me my dear friend when<lb/>
+               I tell you that considering the chances<lb/>
+               of evil to all the family from partial<lb/>
+               amendment I do not feel any <choice><orig>plea-<lb/>
+                  sure</orig><reg>pleasure</reg></choice> from this gleam of hope - Any thing<lb/>
+               short of perfect sound restoration such<lb/>
+               as should enable him to pursue his<lb/>
+               profession, live in his own country &amp;<lb/>
+               with his family without danger to<lb/>
+               himself &amp; to them I <del>should</del> consider<lb/>
+               as an increase rather than a <choice><orig>diminu<lb/>
+                  tion</orig><reg>diminuition</reg></choice> of the evil. - If I could look forward<lb/>
+               to such a complete recovery - But<lb/>
+               <hi rend = "underline">I cannot</hi> - The more I fear <add>for our family</add>, the more<lb/>
+               strongly I feel the advantage of having<lb/>
+               in such circumstances a friend at once<lb/>
+               judicious, courageous &amp; affectionate<lb/>
+               - attached to them all &amp; to the sufferer<lb/>
+               <del>more than any</del> as much as any one<lb/>
+               now living can be -<lb/></p>
+               <p>I have written to L &amp; my <persName ref="./Personography.xml#EdgeF1">mother</persName><lb/>
+               <pb n="3" facs="Edgeworth_Huntington_HM28599_1820_07_01_page03.jpg"/>
+referring to your account of W. and <choice><orig>de-<lb/>
+   siring</orig><reg>desiring</reg></choice> to know their <del></del> wishes<lb/>
+               as to our returning home directly<lb/>
+               or proceeding to <placeName ref="./Placeography.xml#Geneva_SZ">Geneva</placeName> as I had <choice><orig>pro-<lb/>
+               posed</orig><reg>proposed</reg></choice> to do on the 20<hi rend = "superscript">th</hi>. of this month.<lb/>
+               - I thought that perhaps my <persName ref="./Personography.xml#EdgeF1">mother</persName> or<lb/>
+               <persName ref="./Personography.xml#EdgeL2">Lovell</persName> might wish to go to <placeName ref="./Placeography.xml#ENK">England</placeName><lb/>
+                  <del>this</del> before the autumn to see <persName ref="./Personography.xml#XxxxW1">W.</persName><lb/>
+               - I shall not stir from <placeName ref="./Placeography.xml#Paris_FR">Paris</placeName> or <hi rend = "underline">its vici</hi><lb/>
+               <hi rend = "underline">nity</hi> (meaning the distance of a few<lb/>
+                  hours drive) till I hear from M<hi rend = "superscript">rs</hi> <persName ref="./Personography.xml#ExxxX2">E</persName><lb/>
+               and I need not tell you that we shall<lb/>
+               be guided implicitly by her wishes.<lb/></p>
+               <p><persName ref="./Personography.xml#EdgeF3">Fanny</persName> and <persName ref="./Personography.xml#BeauH2">Harriet</persName> continue to<lb/>
+               be pleased and to please at <placeName ref="./Placeography.xml#Paris_FR">Paris</placeName> -<lb/>
+               - Whenever I think of telling you any<lb/>
+               thing of what we see &amp; hear so much &amp;<lb/>
+               such variety crowd upon my mind<lb/>
+               that I know not where to begin or end<lb/>
+               To go no farther back than the two <add>or 3</add> last<lb/>
+                  days - Thursday - We went to the <placeName ref="./Placeography.xml#Bibliotheque-nationale-de-France_FR"><choice><orig>nation-<lb/>
+               al</orig><reg>national</reg></choice> or as it is now the fashion to call it<lb/>
+                     the royal library</placeName> - where <persName ref="./Personography.xml#LangL1">M Langles</persName><choice><orig>devot<lb/>
+               -ed</orig><reg>devoted</reg></choice> two hours of his time to shewing us<lb/>
+                the manuscript letters of <persName ref="./Personography.xml#Henry4">Henry the 4<hi rend = "superscript">th</hi></persName>. <persName ref="./Personography.xml#Francis1">Francis<lb/>
+                1<hi rend = "superscript">st</hi></persName>. <persName ref="./Personography.xml#Loui14">Louis 14<hi rend = "superscript">th</hi></persName>. and various celebrated people<lb/>
+               and from the 500,000 volumes of which it is said<lb/>
+               this magnificent library consists directed our<lb/>
+               attention to what was best worth our seeing<lb/>
+                  - Through the whole changes of the revolution <persName ref="./Personography.xml#LangL1"><choice><orig>Lan<lb/>
+                  gles</orig><reg>Langles</reg></choice></persName> has kept his place as librarian but once was<lb/>
+               very near losing it when upon <persName ref="./Personography.xml#BonaN1">Bonaparte</persName>s <choice><orig>send-<lb/>
+                  ing</orig><reg>sending</reg></choice> him some books &amp; <choice><orig>Mss</orig><reg>manuscripts</reg></choice> pillaged from <placeName ref="./Placeography.xml#SP">Spain</placeName> &amp;<lb/>
+               <pb n="4" facs="Edgeworth_Huntington_HM28599_1820_07_01_page04.jpg"/>
+                  and <placeName ref="./Placeography.xml#IT">Italy</placeName> - he observed that it would be a great<lb/>
+               deal of <add>waste</add> trouble to put them into the catalogue<lb/>
+               for that he was sure they would be afterwards<lb/>
+               restored to their own countries - In fact 8000<lb/>
+               volumes were restored at the peace of the Allies<lb/></p>
+               <p>After seeing the library we dined with<lb/>
+               an amiable agreeable family of <hi rend = "underline">Creeds</hi> (Scotch)<lb/>
+               he is here employed to arrange if possible<lb/>
+               the national debt between France &amp; <placeName ref="./Placeography.xml#ENK">England</placeName><lb/>
+               - We dined with his family under the<lb/>
+               trees in their garden and between 9 &amp; <unclear>10</unclear><lb/>
+                  went to see <persName ref="./Personography.xml#JordC1">Camille <choice><orig>Jourdan</orig><reg>Jordan</reg></choice></persName> &amp; took with<lb/>
+               us <persName ref="./Personography.xml#CreeX1">M.<hi rend = "superscript">r</hi> Creed</persName> &amp; <persName ref="./Personography.xml#MaltT1">Malthus</persName>  who is now at<lb/>
+               <placeName ref="./Placeography.xml#Paris_FR">Paris</placeName> - Both had much wished to be made<lb/>
+                  acquainted with <persName ref="./Personography.xml#JordC1">Camille</persName> - whose talents<lb/>
+               and honorable conduct entitle him to the<lb/>
+               large share of public esteem he enjoys - He is<lb/>
+               now so much out of health that he is obliged<lb/>
+               to lie on a sofa most of the day in the <choice><orig>inter<lb/>
+                  vals</orig><reg>intervals</reg></choice> of public exertion - At his house we saw<lb/>
+               assembled almost all the distinguished people<lb/>
+               of the moderate liberales - And there was<lb/>
+               <persName ref="./Personography.xml#RecaJ1">Madame Recamier</persName> - a much happier woman<lb/>
+               now she has lost her fortune &amp; has a few<lb/>
+               real friends attached to her by her own<lb/>
+               good qualities than she was in the blaze<lb/>
+               of her wealth &amp; beauty - <persName ref="./Personography.xml#MaltT1">Malthus</persName> enjoyed<lb/>
+               himself much - One of the greatest pleasures<lb/>
+               which I have had at <placeName ref="./Placeography.xml#Paris_FR">Paris</placeName> has been in <choice><orig>in-<lb/>
+               -troducing</orig><reg>introducing</reg></choice> <add>some of our</add> friends to each other who had<lb/>
+               long desired to meet -<lb/></p>
+            <p>After <persName ref="./Personography.xml#JordC1">Camille <choice><orig>Jourdan</orig><reg>Jordan</reg></choice></persName>'s we ended<lb/>
+               the evening at the <persName ref="./Personography.xml#ClerA1">Duchesse de Clermont <choice><orig>Ton-<lb/>
+                  -nerre</orig><reg>Tonnerre</reg></choice></persName>s <add>all her society</add> - Ultras - very entertaining contrast<lb/>
+               <add> <persName ref="./Personography.xml#BxxxL1"><unclear>L</unclear>B</persName> French fashionable nonsense </add>delightful ice - &amp; fine music here -<lb/></p>
+               <p>Another day - Morning between 11 &amp; 1 -<lb/>
+               <persName ref="./Personography.xml#MaltT1"> M.<hi rend = "superscript">r</hi> Malthus</persName> - <persName ref="./Personography.xml#CreeX1">M.<hi rend = "superscript">r</hi> Creed</persName> &amp; <persName ref="./Personography.xml#BregA1">Breguet</persName> - <persName ref="./Personography.xml#BregA1">Breguet</persName><lb/>
+               explains on mechanical subjects as well as all<lb/>
+               those do <add>&amp; only those</add> who perfectly understand them - talked<lb/>
+                  with <persName ref="./Personography.xml#EdgeF3"><unclear>Fanny</unclear></persName> of <persName ref="./Personography.xml#BrowS1">Brown</persName>'s iron chain bridge - <del>last</del> went<lb/>
+               <pb n="5" facs="Edgeworth_Huntington_HM28599_1820_07_01_page05.jpg"/>
+                  to meet us at the <placeName ref="./Placeography.xml#Paris-Observatory_FR">observatory</placeName>, to introduce us<lb/>
+               to <hi rend = "underline"><persName ref="./Personography.xml#AragF1">Arrago</persName></hi>the astronomer. - <persName ref="./Personography.xml#AragF1">Arrago</persName> has <choice><orig>some<lb/>
+                - thing</orig><reg>something</reg></choice> in the simplicity <del>of his</del> &amp; cordiality<lb/>
+               of his manner &amp; in his way of going straight<lb/>
+               forward to the business of science like<lb/>
+               our own dear D.<hi rend = "superscript">r</hi> <persName ref="./Personography.xml#BrinJ1">Brinkley</persName> - He spoke of<lb/>
+               D.<hi rend = "superscript">r</hi> <persName ref="./Personography.xml#BrinJ1">Brinkley</persName> with the highest esteem - <unclear> Thinking</unclear><lb/>
+                  him far superior to <persName ref="./Personography.xml#PondJ1">Pond</persName> in abilities &amp;<lb/>
+               science - yet on the question of the parallax<lb/>
+                  thinks <persName ref="./Personography.xml#BrinJ1">Brinkley</persName> wrong &amp; <persName ref="./Personography.xml#PondJ1">Pond</persName> right &amp;<lb/>
+               admires the ingenious mode of proof<lb/>
+               <persName ref="./Personography.xml#PondJ1">Pond</persName> has devised - It was great pleasure<lb/>
+               to me to see <persName ref="./Personography.xml#EdgeF3">Fanny</persName> enjoy all that she saw<lb/>
+               &amp; heard at this <placeName ref="./Placeography.xml#Paris-Observatory_FR">observatory</placeName> &amp; to perceive<lb/>
+                that she was appreciated - But poor <persName ref="./Personography.xml#XxxxW1">W</persName> -<lb/>
+               could not but be present to our minds<lb/>
+               with deep regret -<lb/></p>
+               <p><persName ref="./Personography.xml#BregA1">Breguet</persName> has all the simplicity of<lb/>
+               a man of great talents - He remembers<lb/>
+               my <persName ref="./Personography.xml#EdgeR1">father</persName> well &amp; speaks of him &amp; of my<lb/>
+               <persName ref="./Personography.xml#EdgeF1">mother</persName> with respect I might almost say<lb/>
+               with affection <del>that</del> <persName ref="./Personography.xml#EdgeF3">Fanny</persName> &amp; <persName ref="./Personography.xml#BeauH2">Harriet</persName><lb/>
+               interest him much - we dine with him<lb/>
+               the day after tomorrow &amp; he has invited<lb/>
+               <persName ref="./Personography.xml#PronG1"><unclear>Prony</unclear></persName> &amp; others of the first scientific talent<lb/>
+               to meet us - My dear <persName ref="./Personography.xml#BeauF1">Francis</persName> I wish you<lb/>
+               were here - <del>I feel as if I was taking up the place</del><lb/></p>
+            <p>After returning from the <placeName ref="./Placeography.xml#Paris-Observatory_FR">Observatory</placeName> we<lb/>
+               dined at <placeName ref="./Placeography.xml#Ivry-sur-Seine_FR">Ivry</placeName> a few miles from <placeName ref="./Placeography.xml#Paris_FR">Paris</placeName><lb/>
+               where the <persName ref="./Personography.xml#BourL1">Duchess Dowager of Orleans</persName> lives<lb/>
+               - (She <del>with</del> whom <persName ref="./Personography.xml#GenlS1"> Madame <add>de</add> Genlis</persName> plagued)<lb/>
+               - She is a benevolent dignified old lady<lb/>
+               her countenance is said to resemble <persName ref="./Personography.xml#Loui14">Lewis <unclear>14ths </unclear></persName><lb/>
+               <unclear>Her</unclear> dame d'honneur <persName ref="./Personography.xml#CastX1">Madame de Casteras</persName><lb/>
+               a spanish lady who followed her in all her<lb/>
+                  
+               <pb n="6" facs="Edgeworth_Huntington_HM28599_1820_07_01_page06.jpg"/>
+               misfortunes &amp; who is a person of strong<lb/>
+               character &amp; warm indignation interested<lb/>
+               as much by the <del>strength</del> originality of her<lb/>
+               observations &amp; force of her expressions -<lb/>
+               <add>While</add> an <persName ref="./Personography.xml#CoucJ1">Archbishop of Rheims</persName> &amp;c &amp;c played<lb/>
+               at whist after dinner this lady <add>conversed delightfully</add> and a<lb/>
+               <del>Prussian</del> French officer (name unknown)<lb/>
+               gave us an account of the Russian <choice><orig>cam-<lb/>
+               paign</orig><reg>campaign</reg></choice> &amp; of his own sufferings - I asked <choice><orig>whe-<lb/>
+                  -ther</orig><reg>whether</reg></choice> <persName ref="./Personography.xml#BeauL1">La <unclear>Beaume's</unclear></persName> is an exaggerated <choice><orig>ac-<lb/>
+               count</orig><reg>account</reg></choice> - Not at all -<lb/></p>
+            <p>After returning from the <persName ref="./Personography.xml#BourL1">Duchesse<lb/>
+               d'Orleans</persName> went to <persName ref="./Personography.xml#GuerM1">Madame d'<unclear>Houssonville</unclear></persName><lb/>
+               &amp; enjoyed the cool breeze in the gardens<lb/>
+               at the back of her beautiful house till <choice><orig>be-<lb/>
+               ween</orig><reg>between</reg></choice> eleven &amp; 12 - Agreeable <choice><orig>conversa-<lb/>
+               -tion</orig><reg>conversation</reg></choice> except from a woman who has written<lb/>
+               4 quartos on "The happiness of Nations" &amp;<lb/>
+               who was conceited &amp; tiresome -<lb/></p>
+            <p>The next day we went to <placeName ref="./Placeography.xml#Chateau-de-Champlatreux_FR"><choice><orig>Champla-<lb/>
+               treux</orig><reg>Champlâtreux</reg></choice></placeName> - the country house of <persName ref="./Personography.xml#MoleL1">Comte Molé</persName><lb/>
+               the descendant of <persName ref="./Personography.xml#MoleM1">President Molé</persName>. His <choice><orig>fa-<lb/>
+               ther</orig><reg>father</reg></choice> was guillotined - their very large property<lb/>
+               &amp; magnificent chateau seized as national<lb/>
+               property - &amp; for some <del>years</del> time the present <persName ref="./Personography.xml#MoleL1">Count<lb/>
+               Molé</persName> was in prison &amp; afterward supported<lb/>
+               his <persName ref="./Personography.xml#MoleM2">mother</persName> &amp; <persName ref="./Personography.xml#MoleM3">sister</persName> <del>by</del> as he told me by the<lb/>
+               hard work of his hands - he cooked for them<lb/>
+               <del>&amp; often</del> the very little they had to eat &amp; often<lb/>
+               went to bed so hungry himself that he c<hi rend = "superscript">d</hi> not<lb/>
+               sleep - This was when he was about 15 -<lb/>
+               - His property was restored <add>by a decree of the convention</add> after <persName ref="./Personography.xml#RobeM1">Robespierre</persName>s<lb/>
+               death as was the property of almost all<lb/>
+               those who had not emigrated - his house how<lb/>
+               ever he found only bare walls - the magnificent<lb/>
+                  
+               <pb n="7" facs="Edgeworth_Huntington_HM28599_1820_07_01_page07.jpg"/>
+               tapestry - glasses - <hi rend = "underline">books</hi> - all destroyed - To<lb/>
+               speak according to their mode of describing<lb/>
+               the house had formerly forty <hi rend = "underline">lits de maitre</hi><lb/>
+               he has restored 15 excellent bed chambers<lb/>
+               - The principal sitting room about 40 feet<lb/>
+               long is fitted up with every English <choice><orig>com<lb/>
+               fort</orig><reg>comfort</reg></choice> &amp; luxury - a round library table<lb/>
+               in the centre - plenty of tables with books<lb/>
+               inkstands &amp;c a piano forte - and all<lb/>
+               things well arranged in every part<lb/>
+               of the house so as to unite French taste<lb/>
+               &amp; English comfort- We have spent 4 days<lb/>
+               at two different visits in this house <del>&amp;</del><lb/>
+               we were very glad to see the style of<lb/>
+               a French country house &amp; the mode<lb/>
+               of living - They all breakfast together<lb/>
+               as we do - and their children breakfasted<lb/>
+               and dined with them - When I said<lb/>
+               that I had heard that French families<lb/>
+               usually took coffee in their own rooms<lb/>
+               instead of breakfasting en famille, <persName ref="./Personography.xml#VintA1"><choice><orig>Ma-<lb/>
+                  dame</orig><reg>Madame</reg></choice> de Vintimille</persName> a lady between<lb/>
+               50 &amp; 60 assured me that from her childhood<lb/>
+               in all the houses where she had been<lb/>
+               intimate (the custom had always been<lb/>
+               to breakfast together - Excepting <add>at</add> the <persName ref="./Personography.xml#ChoiE1"> Duc de<lb/>
+                  Choiseul</persName>'s - when he was in the country<lb/>
+               &amp; in his famous banishment the crowds<lb/>
+               of people at his court used to <add>order</add> breakfast <del>and</del> <add>dinner</add><lb/>
+               their own apartments <add>or in public as they pleased</add> - NB in the palace<lb/>
+               were a milliners shop from which the<lb/>
+               ladies might send for whatever they<lb/>
+               liked - letters - washing - <unclear>horses</unclear> - servants<lb/>
+               all paid for - this lasted 4 years - Every<lb/>
+                  
+                  
+               <pb n="8" facs="Edgeworth_Huntington_HM28599_1820_07_01_page08.jpg"/>
+               person who went there inscribed their names<lb/>
+               on marble tables - in a temple - which<lb/>
+               were turned inside out afterwards in<lb/>
+               the time of the republic -<lb/>
+               But I must now stop abruptly<lb/>
+               for two people are waiting for me to go to<lb/>
+               hear mass at <placeName ref="./Placeography.xml#la-Chapelle-du-Roy_FR">la chapelle du Roi</placeName>.<lb/>
+               Am I in your debt dear <persName ref="./Personography.xml#BeauF1">Francis</persName><lb/>
+               - tell me for I do not clearly know?<lb/></p>                        
+            <closer>
+               Ever affectionately <choice><orig>yrs.</orig><reg>yours</reg></choice><lb/>
+               <persName ref="./Personography.xml#EdgeM1">Maria E.</persName><lb/></closer>      
+            <postscript>
+               <p>The translation of the mem.<hi rend = "superscript">r</hi> is going on - &amp; going on <hi rend = "underline">well</hi><lb/>
+               we cannot <hi rend = "underline">yet</hi> answer your question<lb/>
+               about <title ref= "./Workography.xml#Karam1">Karamania</title> - but at <persName ref="./Personography.xml#BregA1">Briguet</persName>'s dinner<lb/>
+               shall know.<lb/>
+               I have recommended dialogues on Botany<lb/>
+               to many here &amp; a lady is going to translate<lb/>
+               it - send me any corrections or orders about it.<lb/></p>             
+               <p>&amp; <unclear>notworthstanding</unclear> the confusion<lb/>
+               &amp; haste visible in this letter<lb/>
+               depend upon it I will find<lb/>
+               time to execute your commands<lb/>
+               punctually and carefully as you do <unclear>for me</unclear></p><lb/>
+ 
+               <p>Monday morning<lb/>
+                9 o'clock -<lb/></p>
+               <p>As this letter has been detained a day<lb/>
+               or two I <add>can</add> add two or three of the 1000<lb/>
+               things I wish to tell you.<lb/>
+               <placeName ref="./Placeography.xml#Paris_FR">Paris</placeName> <del>is</del> <add>appears</add> perfectly quiet since the<lb/>
+               law of election <unclear>has p</unclear>ast - But the<lb/>
+               causes of disco<unclear>ntent re</unclear>maining &amp; are<lb/>
+               no more<unclear>tre</unclear> <unclear></unclear><unclear>ust</unclear> than the<lb/>
+               interval of silen<unclear></unclear> Volcano -<lb/></p>
+                  
+               <p>The altern<unclear>ate</unclear> <unclear></unclear>of the spirit of<lb/>
+               insurrection &amp; <unclear>frivolity</unclear> is striking<lb/>
+               - One moment we hear a Frenchman<lb/>
+               expressing his regret that his country<lb/>
+               cannot be free as <placeName ref="./Placeography.xml#ENK">England</placeName> is - The<lb/>
+               next moment we hear him say he<lb/>
+               is au desespoir because he cannot<lb/>
+               make his neat cloth sit like an<lb/>
+               Englishman's - <del></del> without <choice><orig>in-<lb/>
+               serting</orig><reg>inserting</reg></choice> some stiffening collar<lb/>
+               which I am told spoils the effect<lb/>
+               &amp; is considered as a national<lb/>
+               misfortune -<lb/></p>
+                  
+               <p>I begged my <persName ref="./Personography.xml#EdgeF1">mother</persName> to transmit<lb/>
+               to you <unclear>Lorevet's</unclear> last words &amp; what<lb/>
+               he said on his trial - As well as I <choice><orig>recol<lb/>
+               -lect</orig><reg>recollect</reg></choice> one remarkable expression was<lb/>
+               ommitted - He said the night before his execution<lb/>
+               "People may think it is an easy matter<lb/>
+               to <del></del> <add>poignard</add> a man - But I can tell them that between<lb/>
+               " the <del>time of</del> drawing the dagger &amp; plunging<lb/>
+               " it in is an hour of horror &amp; difficulty<lb/>
+               "that no man can conceive beforehand"<lb/></p>
+               <p>How near this comes to <persName ref="./Personography.xml#ShakW1">Shakespeare</persName>'s<lb/>
+               <title ref= "./Workography.xml#Macbe1">Macbeth</title><lb/>
+               " Between the thinking &amp; the acting of a dreadful deed &amp;c</p><lb/>
+            </postscript>
+         </div>
+      </body>
+      <back> </back>
+   </text>
+</TEI>
