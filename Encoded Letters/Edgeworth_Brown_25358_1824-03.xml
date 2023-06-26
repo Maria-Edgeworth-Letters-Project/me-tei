@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from Maria Edgeworth to Unknown, March 4th, 1824</title>
+            <author>Maria Edgeworth</author>
+            <editor ref="Id_who">
+               Jamie Kramer
+            </editor>
+            <sponsor>
+               <orgName>Maria Edgeworth Letters Project</orgName>
+            </sponsor>
+            <sponsor>Wake Forest University, University of Tennessee, Xavier University, Texas
+               A&amp;M University</sponsor>
+            <principal>Jessica Richard, Hilary Havens, Robin Runia, Susan Egenolf</principal>
+            <respStmt>
+               <resp>Transcription and coding by</resp>
+               <persName ref="Id_who">Jamie Kramer</persName>
+               <!-- If you're the last person interacting with the file, enter your name last on the list -->
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>First digital edition in TEI, date: <date when="2023-06-25">
+               </date>
+            </edition>
+            <respStmt>
+               <orgName ref= "http://id.loc.gov/authorities/names/n81029638">
+                  Brown University. Library
+               </orgName>
+               <resp> photos include: Edgeworth_Brown_25358_1824-03_page01.jpg,
+                  Edgeworth_Brown_25358_1824-03_page02.jpg,
+                  Edgeworth_Brown_25358_1824-03_page03.jpg,
+                  Edgeworth_Brown_25358_1824-03_page04.jpg
+               </resp>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Maria Edgeworth Letters Project</authority>
+            <date>2022</date>
+            <availability>
+               <p>Reproduced by courtesy of the <orgName ref= "http://id.loc.gov/authorities/names/n81029638">
+                  Brown University. Library
+               </orgName>. 
+               </p>
+               <licence>Distributed under a Creative Commons Attribution-ShareAlike 3.0 Unported
+                  License</licence>
+            </availability>
+            <idno>Edgeworth_Brown_25358_1824-03</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Maria Edgeworth Letters Project</title>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <repository>Brown University. Library</repository>
+                  <collection>Harry Lyman Koopman Collection</collection>
+                  <idno>                 
+                  </idno>
+               </msIdentifier>
+               <head>Letter from 
+                  <persName ref="./Personography.xml#EdgeM1">
+                     <forename>Maria</forename>
+                     <surname>Edgeworth</surname>
+                  </persName>
+                  to unknown,
+                  <placeName ref="./Placeography.xml#Philadelphia_PA_US">Philadelphia</placeName>
+                  <date when="1824-03-04">March 4, 1824</date>
+               </head>
+               <physDesc>
+                  <!-- optional physical description of the letter goes here: paper size and condition, seal, postmarks, etc.-->
+               </physDesc>
+            </msDesc>
+            <!-- FROM LAURA: where to put the following information in <bibl> is still a question: 
+               ask TEI List whether it should be in the sourceDesc or elsewhere? -->
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <!--Where Edgeworth uses nonstandard spelling and hyphenation of words, transcriber-coders 
+               should use TEI elements “choice," “sic," and “reg" to encode both Edgeworth’s 
+               spelling and the regular international standard of Oxford English spelling, 
+               following the first listed spelling in the Oxford English Dictionary. -->
+            <p>Edgeworth’s spelling and punctuation are retained in transcription, except where a
+               word is split at the end of a line and the beginning of the next in a manuscript. The
+               long s and ligatured forms are silently emended.</p>
+         </editorialDecl>
+         <classDecl>
+            <taxonomy xml:id="relators">
+               <bibl>Marc Relators</bibl>
+               <category xml:id="aut">
+                  <catDesc>Author</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="lcsh">
+               <bibl>Subjects</bibl>
+               <category>
+                  <catDesc xml:id="AntislaveryMovements">Antislavery movements
+                     <idno type="loc">sh85123315</idno>
+                  </catDesc>
+                  <catDesc xml:id="Birth">Birth
+                     <idno type="loc">sh86004053</idno>
+                  </catDesc>
+                  <catDesc xml:id="Death">Death
+                     <idno type="loc">sh85036085</idno>
+                  </catDesc>
+                  <catDesc xml:id="Education">Education
+                     <idno type="loc">sh85040989</idno>
+                  </catDesc>
+                  <catDesc xml:id="Imperialism">Imperialism
+                     <idno type="loc">sh85064628</idno>
+                  </catDesc>
+                  <catDesc xml:id="FictitiousCharacters">Fictitious characters
+                     <idno type="loc">sh99004183</idno>
+                  </catDesc>
+                  <catDesc xml:id="Marriage">Marriage
+                     <idno type="loc">sh85081416</idno>
+                  </catDesc>
+                  <catDesc xml:id="Nationalism">Nationalism
+                     <idno type="loc">sh85090150</idno>
+                  </catDesc>
+                  <catDesc xml:id="PoliticsAndCulture">Politics and culture
+                     <idno type="loc">sh85104468</idno>
+                  </catDesc>
+                  <catDesc xml:id="Race">Race  
+                     <idno type="loc">sh85110232</idno>
+                  </catDesc>
+                  <catDesc xml:id="Religion">Religion
+                     <idno type="loc">sh85112549</idno>
+                  </catDesc>
+                  <catDesc xml:id="Science">Science
+                     <idno type="loc">sh85118553</idno>
+                  </catDesc>
+                  <catDesc xml:id="Technology">Technology
+                     <idno type="loc">sh85133147</idno>
+                  </catDesc>
+                  <catDesc xml:id="Slavery">Slavery
+                     <idno type="loc">sh85123314</idno>
+                  </catDesc>
+                  <catDesc xml:id="Travel">Travel
+                     <idno type="loc">sh85137149</idno>
+                  </catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="works">
+               <bibl>Works</bibl>
+               <category>
+                  <catDesc xml:id="w1">Belinda</catDesc>
+                  <catDesc xml:id="w2">Castle Rackrent</catDesc>
+                  <catDesc xml:id="w3">Comic Dramas, in Three Acts</catDesc>
+                  <catDesc xml:id="w4">Early Lessons</catDesc>
+                  <catDesc xml:id="w5">Essay on Irish Bulls</catDesc>
+                  <catDesc xml:id="w6">Frank: a Sequel to Frank in Early Lessons</catDesc>
+                  <catDesc xml:id="w7">Harrington, a Tale; and Ormond, a Tale</catDesc>
+                  <catDesc xml:id="w8">Harry and Lucy Concluded</catDesc>
+                  <catDesc xml:id="w9">Leonora</catDesc>
+                  <catDesc xml:id="w10">Letters for Literary Ladies</catDesc>
+                  <catDesc xml:id="w11">Moral Tales for Young People</catDesc>
+                  <catDesc xml:id="w12">Moral Tales</catDesc>
+                  <catDesc xml:id="w13">Patronage</catDesc>
+                  <catDesc xml:id="w14">Popular Tales</catDesc>
+                  <catDesc xml:id="w15">Practical Education</catDesc>
+                  <catDesc xml:id="w16">Readings on Poetry</catDesc>
+                  <catDesc xml:id="w17">Ormond</catDesc>
+                  <catDesc xml:id="w18">The Absentee</catDesc>
+                  <catDesc xml:id="w19">Tales of Fashionable Life</catDesc>
+                  <catDesc xml:id="w20">The Contrast</catDesc>
+                  <catDesc xml:id="w21">The Modern Griselda; a Tale</catDesc>
+                  <catDesc xml:id="w22">The Parent's Assistant</catDesc>
+                  <catDesc xml:id="w23">Tomorrow; or the Dangers of Delay</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <change when="2021-01-01" who="Id_who">
+            <!--Brief description of what you did here.-->
+         </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <pb n="1" facs="Edgeworth_Brown_25358_1824-03_page01.jpg"/>
+            <opener>
+               <dateline> 
+                  <placeName ref="./Placeography.xml#Edgeworthstown_IE">Edgeworthstown</placeName><lb/>
+                  <date when="1824-03-04"/>March 4<hi rend="superscript">h</hi>. 1824</dateline><lb/>
+            </opener>
+            <p>You have obliged me much by the<lb/>
+               present you have made me, Sir, of your<lb/>
+               travels in Europe - Though they could<lb/>
+               not contain so much positive novelty<lb/>
+               for us as they do for the Americans<lb/>
+               yet they will not be less interesting<lb/>
+               to the old than to the new World<lb/></p>
+            <p>. The interest of curiosity may not be<lb/>
+               so great but that of self love is still<lb/>
+               greater. We are anxious to see how<lb/>
+               European things and persons strike<lb/>
+               Americans - It happens that you<lb/>
+               have given accounts of persons and<lb/>
+               things in <placeName ref="./Placeography.xml#ENK">England</placeName>, <placeName ref="./Placeography.xml#STK">Scotland</placeName>, <placeName ref="./Placeography.xml#FR">France</placeName><lb/>
+               <placeName ref="./Placeography.xml#Geneva_SZ">Geneva</placeName>, and <placeName ref="./Placeography.xml#SZ"><choice><orig>Swisserland</orig><reg>Switzerland</reg></choice></placeName>, which my sisters<lb/>
+               <add>&amp; I</add> have recently visited - And many of the<lb/>
+               persons whom you mention are our<lb/>
+               particular friends. To the justice and<lb/>
+               spirit of all the delineations of what<lb/>
+               we have seen we can bear full testimony<lb/>
+               and from these we are reasonably led to<lb/>
+               infer<lb/>
+               <pb n="2" facs="Edgeworth_Brown_25358_1824-03_page02.jpg"/>
+            that all your representations of what<lb/>
+            we have not seen are equally accurate.<lb/></p>
+            <p>Your account of the Manufactures<lb/>
+               of the <unclear>Hield</unclear> for one instance, gives as<lb/>
+               much information as possible in a small<lb/><lb/>
+               compass &amp; must therefore be valuable<lb/>
+               to foreigners who are <add>most</add> curious to know<lb/>
+               how the toys in the great Toy shop of<lb/>
+               Europe are produced with such celerity<lb/>
+               and perfection - I am sorry you did not see<lb/>
+               <placeName ref="./Placeography.xml#Birmingham_ENK">Birmingham</placeName> - and <persName ref="./Personography.xml#WattJ1"> <hi rend="underline">Watts</hi></persName> |-<lb/>
+               Your work has reached me but<lb/> 
+               a few days and I have not yet <choice><orig>finish<lb/>
+                  ed</orig><reg>finished</reg></choice> reading it; but as I have an <choice><orig>oppor-<lb/>
+                     -tunity</orig><reg>opportunity</reg></choice> of <del>writing</del> sending this letter<lb/>
+               by a person who is going to <placeName ref="./Placeography.xml#Philadelphia_PA_US"><choice><orig>Philadel-<lb/>
+                  -phia</orig></choice><reg>Philadelphia</reg></placeName> I cannot delay to offer you my<lb/>
+               acknowledgements though they must<lb/>
+               be insufficient as I have not yet<lb/>
+               seen the extent of my obligation<lb/>
+               I have seen enough however to<lb/>
+               judge of the spirit of candor and <choice><orig>li-<lb/>
+                  berality</orig><reg>liberality</reg></choice> and the freedom from <choice><orig>na-<lb/>
+                     <pb n="3" facs="Edgeworth_Brown_25358_1824-03_page03.jpg"/>
+                     tional</orig><reg>national</reg></choice> jealousy evinced in your work<lb/>
+               - I wish that this spirit which does<lb/><lb/>
+               so much honor to the character of <del>the</del><lb/>
+               <add>each</add> individual &amp; which is the true policy<lb/>
+               of every nation, were more general<lb/>
+               between <placeName ref="./Placeography.xml#US">America</placeName> and <placeName ref="./Placeography.xml#ENK">England</placeName>-<lb/>
+               It is now becoming <hi rend="underline">fashionable</hi><lb/>
+               indeed in <placeName ref="./Placeography.xml#London_ENK">London</placeName> to <hi rend="underline">speak</hi> well of<lb/>
+               Americans &amp; I hope the fashion of<lb/>
+               writing with liberality will follow in<lb/>
+               among our best authors &amp; yours.<lb/>
+               <persName ref="./Personography.xml#IrviW1">Washington <choice><orig>Irvine</orig><reg>Irving</reg></choice></persName> has set an <choice><orig>ex-<lb/>
+                  cellent</orig><reg>excellent</reg></choice> example - In others of your<lb/>
+               writers &amp; of panegyrists of their<lb/>
+               country I have regretted to observe<lb/>
+               the talents they individually possess<lb/>
+               and the grand facts they had to <choice><orig>pro-<lb/>
+                  duce</orig><reg>produce</reg></choice> in favor of <placeName ref="./Placeography.xml#US">America</placeName> marred<lb/>
+               and disgraced by this sort of national<lb/>
+               spirit of monopoly <del>&amp;<unclear>depreciation</unclear></del><lb/>
+               Let them raise &amp; glorify their country<lb/>
+               &amp; exult in her talents &amp; triumphs in<lb/>
+               arts &amp; sciences as much as they will<lb/>
+               <pb n="4" facs="Edgeworth_Brown_25358_1824-03_page04.jpg"/>
+               in this they may be sure of the concurrence<lb/>
+               of the wise and the sympathy of the<lb/>
+               good, and the indulgence of all. Even<lb/>
+               if they exaggerate a little in favor<lb/>
+               of their country it is an amicable <choice><orig>weak-<lb/>
+               ness</orig><reg>weakness</reg></choice> for which there should be, &amp; <hi rend="underline">is</hi>, a<lb/>
+               <choice><orig>give=and=take=charter</orig><reg>give-and-take charter</reg></choice> granted by <add>the common</add> custom,<lb/>
+               more powerful than the <choice><orig>common-<lb/>
+                  law</orig><reg>common law</reg></choice> of nations - But the moment<lb/>
+               any one nation or one world begins<lb/>
+               to depreciate the other, indulgence<lb/>
+               &amp; sympathy cease - &amp; the just informer<lb/>
+               is that those who attempt to knock<lb/>
+               down others that they may raise <choice><orig>them-<lb/>
+                  -selves</orig><reg>themselves</reg></choice> upon the fallen bodies are <choice><orig>consci-<lb/>
+                     ous</orig><reg>conscious</reg></choice> that they <del>can not <unclear></unclear></del> are inferior<lb/></p>
+            <p>May this insidious and degrading<lb/>
+               spirit cease on both sides the Atlantic! Let us all<lb/>
+               try to raise ourselves without <choice><orig>lower<lb/>
+                  -ing</orig><reg>lowering</reg></choice> others! - May public esteem be<lb/>
+               the <add>just</add> reward of every writer, who acts<lb/>
+               this laudable example &amp; who <choice><orig>pre-<lb/>
+                  serves</orig><reg>preserves</reg></choice>, temper &amp; candor even when<lb/>
+               goaded by illiberal criticism or<lb/>
+               tempted by vulgar example!<lb/></p>
+            <closer>
+               I am Sir your obliged Serv<hi rend="superscript">t</hi><lb/>
+               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName><lb/>
+               <lb/>
+            </closer>
+         </div>
+      </body>
+      <back> </back>
+   </text>
+</TEI>
