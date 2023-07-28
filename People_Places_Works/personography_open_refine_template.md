@@ -26,6 +26,12 @@
                     <persName>Susan Egenolf</persName>
                     <persName>Eliza Wilcox</persName>
                     <persName>Jamie Kramer</persName>
+                    <persName>Ivy Kiernan</persName>
+                    <persName>Ziona Kocher</persName>
+                    <persName>Katie Haire</persName>
+                    <persName>Seolha Lee</persName>
+                    <persName>Autumn Hall</persName>
+                    <persName>Savannah Payne</persName>
                 </respStmt>
             </titleStmt>
             <publicationStmt>
