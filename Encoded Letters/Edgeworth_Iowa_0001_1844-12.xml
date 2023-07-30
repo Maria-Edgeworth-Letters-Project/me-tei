@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from Maria Edgeworth to Unknown, December 18th, 1844</title>
+            <author>Maria Edgeworth</author>
+            <editor ref="Id_who">
+               Jamie Kramer
+            </editor>
+            <sponsor>
+               <orgName>Maria Edgeworth Letters Project</orgName>
+            </sponsor>
+            <sponsor>Wake Forest University, University of Tennessee, Xavier University, Texas
+               A&amp;M University</sponsor>
+            <principal>Jessica Richard, Hilary Havens, Robin Runia, Susan Egenolf</principal>
+            <respStmt>
+               <resp>Transcription and coding by</resp>
+               <persName ref="Id_who">Jamie Kramer</persName>
+               <!-- If you're the last person interacting with the file, enter your name last on the list -->
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>First digital edition in TEI, date: <date when="2023-07-29">
+            </date>
+            </edition>
+            <respStmt>
+               <orgName ref="http://id.loc.gov/authorities/names/n85303271">University of Iowa. Libraries. Special Collections Department</orgName>
+               <resp> photos include: Edgeworth_Iowa_0001_1844-12_page01.jpg, 
+                  Edgeworth_Iowa_0001_1844-12_page02.jpg,
+                  Edgeworth_Iowa_0001_1844-12_page03.jpg, 
+                  Edgeworth_Iowa_0001_1844-12_page04.jpg
+               </resp>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Maria Edgeworth Letters Project</authority>
+            <date>2022</date>
+            <availability>
+               <p>Reproduced by courtesy of the <orgName ref="http://id.loc.gov/authorities/names/n85303271">University of Iowa. Libraries. Special Collections Department</orgName>. 
+               </p>
+               <licence>Distributed under a Creative Commons Attribution-ShareAlike 3.0 Unported
+                  License</licence>
+            </availability>
+            <idno>Edgeworth_Iowa_0001_1844-12</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Maria Edgeworth Letters Project</title>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <repository>University of Iowa. Libraries. Special Collections Department</repository>
+                  <collection>Department of Manuscripts, MsL E23 1844 </collection>
+                  <idno>122400115                   
+                  </idno>
+               </msIdentifier>
+               <head>Letter from 
+                  <persName ref="./Personography.xml#EdgeM1">
+                     <forename>Maria</forename>
+                     <surname>Edgeworth</surname>
+                  </persName>
+                  to Unknown, 
+                  <date when="1844-12-18">December 18, 1844</date>
+               </head>
+               <physDesc>
+                  <!-- optional physical description of the letter goes here: paper size and condition, seal, postmarks, etc.-->
+               </physDesc>
+            </msDesc>
+            <!-- FROM LAURA: where to put the following information in <bibl> is still a question: 
+               ask TEI List whether it should be in the sourceDesc or elsewhere? -->
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <!--Where Edgeworth uses nonstandard spelling and hyphenation of words, transcriber-coders 
+               should use TEI elements “choice," “sic," and “reg" to encode both Edgeworth’s 
+               spelling and the regular international standard of Oxford English spelling, 
+               following the first listed spelling in the Oxford English Dictionary. -->
+            <p>Edgeworth’s spelling and punctuation are retained in transcription, except where a
+               word is split at the end of a line and the beginning of the next in a manuscript. The
+               long s and ligatured forms are silently emended.</p>
+         </editorialDecl>
+         <classDecl>
+            <taxonomy xml:id="relators">
+               <bibl>Marc Relators</bibl>
+               <category xml:id="aut">
+                  <catDesc>Author</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="lcsh">
+               <bibl>Subjects</bibl>
+               <category>
+                  <catDesc xml:id="AntislaveryMovements">Antislavery movements
+                     <idno type="loc">sh85123315</idno>
+                  </catDesc>
+                  <catDesc xml:id="Birth">Birth
+                     <idno type="loc">sh86004053</idno>
+                  </catDesc>
+                  <catDesc xml:id="Death">Death
+                     <idno type="loc">sh85036085</idno>
+                  </catDesc>
+                  <catDesc xml:id="Education">Education
+                     <idno type="loc">sh85040989</idno>
+                  </catDesc>
+                  <catDesc xml:id="Imperialism">Imperialism
+                     <idno type="loc">sh85064628</idno>
+                  </catDesc>
+                  <catDesc xml:id="FictitiousCharacters">Fictitious characters
+                     <idno type="loc">sh99004183</idno>
+                  </catDesc>
+                  <catDesc xml:id="Marriage">Marriage
+                     <idno type="loc">sh85081416</idno>
+                  </catDesc>
+                  <catDesc xml:id="Nationalism">Nationalism
+                     <idno type="loc">sh85090150</idno>
+                  </catDesc>
+                  <catDesc xml:id="PoliticsAndCulture">Politics and culture
+                     <idno type="loc">sh85104468</idno>
+                  </catDesc>
+                  <catDesc xml:id="Race">Race  
+                     <idno type="loc">sh85110232</idno>
+                  </catDesc>
+                  <catDesc xml:id="Religion">Religion
+                     <idno type="loc">sh85112549</idno>
+                  </catDesc>
+                  <catDesc xml:id="Science">Science
+                     <idno type="loc">sh85118553</idno>
+                  </catDesc>
+                  <catDesc xml:id="Technology">Technology
+                     <idno type="loc">sh85133147</idno>
+                  </catDesc>
+                  <catDesc xml:id="Slavery">Slavery
+                     <idno type="loc">sh85123314</idno>
+                  </catDesc>
+                  <catDesc xml:id="Travel">Travel
+                     <idno type="loc">sh85137149</idno>
+                  </catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="works">
+               <bibl>Works</bibl>
+               <category>
+                  <catDesc xml:id="w1">Belinda</catDesc>
+                  <catDesc xml:id="w2">Castle Rackrent</catDesc>
+                  <catDesc xml:id="w3">Comic Dramas, in Three Acts</catDesc>
+                  <catDesc xml:id="w4">Early Lessons</catDesc>
+                  <catDesc xml:id="w5">Essay on Irish Bulls</catDesc>
+                  <catDesc xml:id="w6">Frank: a Sequel to Frank in Early Lessons</catDesc>
+                  <catDesc xml:id="w7">Harrington, a Tale; and Ormond, a Tale</catDesc>
+                  <catDesc xml:id="w8">Harry and Lucy Concluded</catDesc>
+                  <catDesc xml:id="w9">Leonora</catDesc>
+                  <catDesc xml:id="w10">Letters for Literary Ladies</catDesc>
+                  <catDesc xml:id="w11">Moral Tales for Young People</catDesc>
+                  <catDesc xml:id="w12">Moral Tales</catDesc>
+                  <catDesc xml:id="w13">Patronage</catDesc>
+                  <catDesc xml:id="w14">Popular Tales</catDesc>
+                  <catDesc xml:id="w15">Practical Education</catDesc>
+                  <catDesc xml:id="w16">Readings on Poetry</catDesc>
+                  <catDesc xml:id="w17">Ormond</catDesc>
+                  <catDesc xml:id="w18">The Absentee</catDesc>
+                  <catDesc xml:id="w19">Tales of Fashionable Life</catDesc>
+                  <catDesc xml:id="w20">The Contrast</catDesc>
+                  <catDesc xml:id="w21">The Modern Griselda; a Tale</catDesc>
+                  <catDesc xml:id="w22">The Parent's Assistant</catDesc>
+                  <catDesc xml:id="w23">Tomorrow; or the Dangers of Delay</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <change when="2021-01-01" who="Id_who">
+            <!--Brief description of what you did here.-->
+         </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <pb n="1" facs="Edgeworth_Iowa_0001_1844-12_page01.jpg"/>
+            <opener><note>MSL E23 1844</note>
+               <dateline>
+                  <placeName ref="./Placeography.xml#Edgeworthstown_IE">Edgeworths Town</placeName><lb/>
+                  <date when="1844-12-18"/>Dec<hi rend="superscript">r</hi>. 18<hi rend="superscript">th</hi>. 1844<lb/></dateline>
+               <salute>
+                  Dear Sir<lb/>
+               </salute>
+            </opener>
+            <p>
+               I am truly obliged by your<lb/>
+               taking the trouble to write to<lb/>
+               me on my business in the midst<lb/>
+               of all your own pressure of<lb/>
+               business -<lb/></p>
+               <p>I have written again to<lb/>
+                  my bankers <persName ref="./Personography.xml#HoarC1"> Mess<hi rend="superscript">rs</hi>. Hoare</persName> to<lb/>
+               request them to make fresh<lb/>
+               search as I have a rec<hi rend="superscript">t</hi> from<lb/>
+                  them dated Dec - 33 for a <placeName ref="./Placeography.xml#Liverpool_ENK"><choice><orig>Liver<lb/>
+                     pool</orig><reg>Liverpool</reg></choice></placeName> &amp; <placeName ref="./Placeography.xml#Manchester_ENK"><choice><orig>Man<hi rend="superscript">r</hi>.</orig><reg>Manchester</reg></choice></placeName> share - Till I <choice><orig>re<lb/>
+                     eive</orig><reg>receive</reg></choice> <persName ref="./Personography.xml#HoarC1"> Mess<hi rend="superscript">rs</hi>. Hoare</persName>s reply I will<lb/>
+               not trouble you to send me a form<lb/>
+               of affidavit of the loss of the <unclear>Scrip</unclear><lb/>
+               - But so soon as I am assured of the<lb/>
+               loss I will write again to you -<lb/></p>
+               <p>In the mean time I should<lb/>
+               be glad to sell the £40 new share<lb/>
+               which you mention to me; I was<lb/>
+               aware that I possessed it; but I<lb/>
+               did not purpose transferring it<lb/>
+               with the whole share to M<hi rend="superscript">r</hi><lb/>
+               <pb n="2" facs="Edgeworth_Iowa_0001_1844-12_page02.jpg"/>
+               <persName ref="./Personography.xml#EdgeF1">Francis Edgeworth</persName><lb/></p>
+               <p>I do wish to sell it - since it<lb/>
+               is saleable as you tell me for<lb/>
+               about £34 -<lb/></p>
+               <p>Be the same more or less <del>I <choice><orig>sh<hi rend="superscript">d</hi>.</orig><reg>should</reg></choice></del><lb/>
+               within a few shillings or so<lb/>
+               I request you will have the<lb/>
+               goodness to sell it for me<lb/>
+               and either pay the proceeds to<lb/>
+               my account at <persName ref="./Personography.xml#HoarC1">Hoares</persName> Bank,<lb/>
+                  <placeName ref="./Placeography.xml#37-Fleet-Street_ENK">Fleet Street London</placeName> or send<lb/>
+               it to me by post in half Bank<lb/>
+               note - or notes.<lb/></p>
+               <p>I suppose it is not necessary to<lb/>
+               produce any scrip for this <choice><orig>pur-<lb/>
+                  pose</orig><reg>purpose</reg></choice> - I dont believe that I ever<lb/>
+               had any -<lb/></p>
+               <p>Will you be so kind to <choice><orig>remem<lb/>
+                  -ber</orig><reg>remember</reg></choice> me in the kindest manner<lb/>
+                  to <persName ref="./Personography.xml#LawrX1">M<hi rend="superscript">r</hi>. Lawrence</persName>. I have now<lb/>
+               recovered from illness sufficiently<lb/>
+               to be allowed to come down to<lb/>
+               <pb n="3" facs="Edgeworth_Iowa_0001_1844-12_page03.jpg"/>
+               <hi rend="underline">the Library</hi> our common sitting<lb/>
+               room &amp; I have been permitted<lb/>
+               the use of pen and ink. But<lb/>
+               I am charged to be abstemious<lb/>
+               in their use<lb/></p>
+               <p>I cannot however refrain<lb/>
+               from mentioning to <persName ref="./Personography.xml#LawrX1">M<hi rend="superscript">r</hi>. Lawrence</persName><lb/>
+               that we have been much pleased<lb/>
+               by a novel we have just read<lb/>
+                  which <persName ref="./Personography.xml#BentR1">Bentley</persName> sent to me to<lb/>
+               learn my opinion of<lb/>
+                  <title ref="./Workography.xml#Const1">"Constancy &amp; Contrition"</title> 2 stories<lb/></p>
+               <p>I like Contrition much<lb/>
+               the best and think it shows<lb/>
+               great power - real genius<lb/>
+               - and could have been written<lb/>
+               only by a really good person<lb/></p>
+               <p>The good characters being<lb/>
+               so truly amiable generous &amp;<lb/>
+               engaging - not at all <hi rend="underline">stupid</hi><lb/>
+               good people - I am told that<lb/>
+               this book is written by a very<lb/>
+               young <del>Lady</del> Miss <persName ref="./Personography.xml#GoodX1">Goodrick</persName> of <placeName ref="./Placeography.xml#Beaufort_Cheltenham_ENK"><choice><orig>Beau-<lb/>
+               fort</orig><reg>Beaufort</reg></choice> House</placeName> <placeName ref="./Placeography.xml#Cheltenham_ENK">Cheltenham</placeName> - Does <persName ref="./Personography.xml#LawrX1">M<hi rend="superscript">rs</hi>. L</persName><lb/>
+
+                  <pb n="4" facs="Edgeworth_Iowa_0001_1844-12_page04.jpg"/>
+               know any thing about her? I Pray tell me. I am go<lb/>
+               to write to her as I can do so<lb/>
+               with pleasure having heartfelt<lb/>
+               praise to offer - I never <hi rend="underline">can</hi><lb/>
+               give or offer any other - Indeed<lb/>
+               I think those who give <hi rend="underline">insincere</hi><lb/>
+               or false praise knowing it to be<lb/>
+               false debase their own coin<lb/>
+               and make their praise of no value<lb/>
+               and render themselves of<lb/>
+               worse than no value - <choice><orig>con<lb/>
+                  temptible</orig><reg>contemptible</reg></choice><lb/></p>
+               <p>You will perceive that<lb/>
+               these 2 last pages <unclear>on</unclear> are not for<lb/>
+                  your reading but for <persName ref="./Personography.xml#LawrX1">M<hi rend="superscript">rs</hi>. Lawrence</persName><lb/></p>
+               <p>Excuse my Novellist habits<lb/>
+               and believe me Dear Sir<lb/>
+               nevertheless a woman of business<lb/></p>
+            <closer>
+               &amp; very truly<lb/>
+               Your obliged <choice><orig>Ser<hi rend="superscript">t</hi>.</orig><reg>Servant</reg></choice><lb/>
+               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName><lb/>
+               <lb/>
+            </closer>
+         </div>
+      </body>
+      <back> </back>
+   </text>
+</TEI>
