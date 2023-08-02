@@ -1,0 +1,536 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from Maria Edgeworth to William Jacob, June 13th, 1824</title>
+            <author>Maria Edgeworth</author>
+            <editor ref="Id_who"> Jessica Richards </editor>
+            <editor ref="Id_who">Robin Runia<!--Editor on the Maria Edgeworth Letters Project overseeing the coding of this particular letter: FirstName LastName -->
+            </editor>
+            <sponsor>
+               <orgName>Maria Edgeworth Letters Project</orgName>
+            </sponsor>
+            <sponsor>Wake Forest University, University of Tennessee, Xavier University, Texas
+               A&amp;M University</sponsor>
+            <principal>Jessica Richard, Hilary Havens, Robin Runia, Susan Egenolf</principal>
+            <respStmt>
+               <resp>Transcription and coding by</resp>
+               <persName ref="Id_who">Aryaam Hashi<!--FirstName LastName-->
+               </persName>
+               <persName>Jamie Kramer</persName>
+               <!-- List all transcribers or coders here, editors and students alike, <persName> by <persName>.-->
+               <persName ref="Id_who"><!--FirstName LastName--></persName>
+               <!-- If you're the last person interacting with the file, enter your name last on the list -->
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>First digital edition in TEI, date: <date when="2023-06-28">
+                  <!--enter the date on which the first coder created and saved this XML file in google drive-->
+               </date>
+            </edition>
+            <respStmt>
+               <orgName type="naf" ref="https://id.loc.gov/authorities/names/n78095799.html">Pierpont Morgan Library
+                  <!--who digitized the letter or gave us permission for to use the file?-->
+               </orgName>
+               <resp> photos include: Edgeworth_Morgan_157569_1824_06_13_page01.jpg, Edgeworth_Morgan_157569_1824_06_13_page02.jpg, Edgeworth_Morgan_157569_1824_06_13_page03.jpg, Edgeworth_Morgan_157569_1824_06_13_page04.jpg, Edgeworth_Morgan_157569_1824_06_13_page05.jpg, Edgeworth_Morgan_157569_1824_06_13_page06.jpg
+                  <!-- Make a comma-separated list of each .jpg photo file name associated with your letter. 
+                     For example: DSCF9476.jpg, DSCF9477.jpg, DSCF9478.jpg-->
+               </resp>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Maria Edgeworth Letters Project</authority>
+            <date>2022</date>
+            <availability>
+               <!--Uncomment the appropriate line, based on the archive that holds the physical copy of this letter, 
+                  and delete the other comment line(s).-->
+               <p>Reproduced by courtesy of the <orgName ref="#ReadingCL">Pierpont Morgan Library</orgName>.<!--Reproduced by courtesy of the <orgName ref="#ReadingCL">Reading Central Library</orgName>.-->
+                  <!--or -->
+                  <!--Courtesy of <orgName ref="#Rylands">The University of Manchester</orgName>.-->
+               </p>
+               <licence>Distributed under a Creative Commons Attribution-ShareAlike 3.0 Unported
+                  License</licence>
+            </availability>
+            <idno>Edgeworth_Morgan_157569_1824_06_13</idno> 
+         </publicationStmt>
+         <seriesStmt>
+            <title>Maria Edgeworth Letters Project</title>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <!-- This section of the header identifies the original manuscript source. -->
+               <msIdentifier>
+                  <repository>Pierpont Morgan Library</repository>
+                  <collection><!-- Enter specific archival collection if applicable--></collection>
+                  <idno><!--Consult library or WorldCat for this info--></idno>
+               </msIdentifier>
+               
+               <!-- FROM LAURA: it's here (below) in the head that I added the full information about the author,
+                  and you could add full information about the addressee as well. -->
+               <head>Letter from 
+                     <persName xml:id="EdgeM1" from="1768" to="1849">
+                        <forename>Maria</forename>
+                        <surname>Edgeworth</surname>
+                        <date>1768-1849</date>
+                        <idno type="VIAF">71477273</idno>
+                        <idno type="SNAC">62567029</idno>
+                     </persName>
+                  to <persName ref= "./Personography.xml#JacoW1">William Jacob</persName>, <placeName ref="./Placeography.xml#ENK">London</placeName>, 
+                  <date when="1824-06-13"></date>
+               </head>
+               <physDesc>
+                  <!-- optional physical description of the letter goes here: paper size and condition, seal, postmarks, etc.-->
+               </physDesc>
+            </msDesc>
+            
+            <!-- FROM LAURA: where to put the following information in <bibl> is still a question: 
+               ask TEI List whether it should be in the sourceDesc or elsewhere? -->
+            
+            <bibl>In addition to our edited version, this letter was previously published in
+               <!--complete bibiographical info if letter was published in a book here - if not delete-->
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <!--Where Edgeworth uses nonstandard spelling and hyphenation of words, transcriber-coders 
+               should use TEI elements “choice," “sic," and “reg" to encode both Edgeworth’s 
+               spelling and the regular international standard of Oxford English spelling, 
+               following the first listed spelling in the Oxford English Dictionary. -->
+            <p>Edgeworth’s spelling and punctuation are retained in transcription, except where a
+               word is split at the end of a line and the beginning of the next in a manuscript. The
+               long s and ligatured forms are silently emended.</p>
+         </editorialDecl>
+         <classDecl>
+            <taxonomy xml:id="relators">
+               <bibl>Marc Relators</bibl>
+               <category xml:id="aut">
+                  <catDesc>Author</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="lcsh">
+               <bibl>Subjects</bibl>
+               <category>
+                  <catDesc xml:id="AntislaveryMovements">Antislavery movements
+                     <idno type="loc">sh85123315</idno>
+                  </catDesc>
+                  <catDesc xml:id="Birth">Birth
+                     <idno type="loc">sh86004053</idno>
+                  </catDesc>
+                  <catDesc xml:id="Death">Death
+                     <idno type="loc">sh85036085</idno>
+                  </catDesc>
+                  <catDesc xml:id="Education">Education
+                     <idno type="loc">sh85040989</idno>
+                  </catDesc>
+                  <catDesc xml:id="Imperialism">Imperialism
+                     <idno type="loc">sh85064628</idno>
+                  </catDesc>
+                  <catDesc xml:id="FictitiousCharacters">Fictitious characters
+                     <idno type="loc">sh99004183</idno>
+                  </catDesc>
+                  <catDesc xml:id="Marriage">Marriage
+                     <idno type="loc">sh85081416</idno>
+                  </catDesc>
+                  <catDesc xml:id="Nationalism">Nationalism
+                     <idno type="loc">sh85090150</idno>
+                  </catDesc>
+                  <catDesc xml:id="PoliticsAndCulture">Politics and culture
+                     <idno type="loc">sh85104468</idno>
+                  </catDesc>
+                  <catDesc xml:id="Race">Race  
+                     <idno type="loc">sh85110232</idno>
+                  </catDesc>
+                  <catDesc xml:id="Religion">Religion
+                     <idno type="loc">sh85112549</idno>
+                  </catDesc>
+                  <catDesc xml:id="Science">Science
+                     <idno type="loc">sh85118553</idno>
+                  </catDesc>
+                  <catDesc xml:id="Technology">Technology
+                     <idno type="loc">sh85133147</idno>
+                  </catDesc>
+                  <catDesc xml:id="Slavery">Slavery
+                     <idno type="loc">sh85123314</idno>
+                  </catDesc>
+                  <catDesc xml:id="Travel">Travel
+                     <idno type="loc">sh85137149</idno>
+                  </catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="works">
+               <bibl>Works</bibl>
+               <category>
+                  <catDesc xml:id="w1">Belinda</catDesc>
+                  <catDesc xml:id="w2">Castle Rackrent</catDesc>
+                  <catDesc xml:id="w3">Comic Dramas, in Three Acts</catDesc>
+                  <catDesc xml:id="w4">Early Lessons</catDesc>
+                  <catDesc xml:id="w5">Essay on Irish Bulls</catDesc>
+                  <catDesc xml:id="w6">Frank: a Sequel to Frank in Early Lessons</catDesc>
+                  <catDesc xml:id="w7">Harrington, a Tale; and Ormond, a Tale</catDesc>
+                  <catDesc xml:id="w8">Harry and Lucy Concluded</catDesc>
+                  <catDesc xml:id="w9">Leonora</catDesc>
+                  <catDesc xml:id="w10">Letters for Literary Ladies</catDesc>
+                  <catDesc xml:id="w11">Moral Tales for Young People</catDesc>
+                  <catDesc xml:id="w12">Moral Tales</catDesc>
+                  <catDesc xml:id="w13">Patronage</catDesc>
+                  <catDesc xml:id="w14">Popular Tales</catDesc>
+                  <catDesc xml:id="w15">Practical Education</catDesc>
+                  <catDesc xml:id="w16">Readings on Poetry</catDesc>
+                  <catDesc xml:id="w17">Ormond</catDesc>
+                  <catDesc xml:id="w18">The Absentee</catDesc>
+                  <catDesc xml:id="w19">Tales of Fashionable Life</catDesc>
+                  <catDesc xml:id="w20">The Contrast</catDesc>
+                  <catDesc xml:id="w21">The Modern Griselda; a Tale</catDesc>
+                  <catDesc xml:id="w22">The Parent's Assistant</catDesc>
+                  <catDesc xml:id="w23">Tomorrow; or the Dangers of Delay</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref= "./Personography.xml#JacoW1">William Jacob</persName>
+            </correspAction>
+         </correspDesc>
+         <textClass>
+            <keywords scheme="/">
+               <list type="simple">
+                  <item>English literature</item>
+                  <item>History</item>
+               </list>
+            </keywords>
+            <catRef target="#f7" scheme="#f"/>
+            <catRef target="#hist #el" scheme="locSUB"/>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2023-08-01" who="Jamie Kramer">
+           proofread for github upload
+         </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <pb n="1" facs="Edgeworth_Morgan_157569_1824_06_13_page01.jpg"/>
+            <!--filenames for photos associated with this letter. Example: <pb n="1" facs="image1.jpg image2.jpg image3.jpg"/> -->
+            
+            <opener>
+               I wish you<lb/>
+               would<lb/>
+               tell me as<lb/>
+               soon as you<lb/>
+               know who<lb/>
+               are to be<lb/>
+               The <choice><orig>Commis<lb/>
+               sioners</orig><reg>Commissioners</reg></choice> of <choice><orig>Edu<lb/>
+               cation</orig><reg>Education</reg></choice> who<lb/>
+               are to come<lb/>
+               over to <placeName ref="./Placeography.xml#IE"/><choice><orig>Ire-<lb/>
+                  land</orig><reg>Ireland</reg></choice> to <choice><orig>re<lb/>
+                     -port</orig><reg>report</reg></choice> on the
+               Irish schools.<lb/>
+               <dateline><!--If there's no date line, omit this element. Record in the order in which it is written on the letter.-->
+                  <name type="place" ref="./Placeography.xml#Black-Castle_IE"/>Black Castle<lb/>
+                  <date when="1824-06-13"/> June 13th, 1824. </dateline> <lb/>
+                  
+               <salute>
+                  <persName>
+                     My dear <persName ref="./Personography.xml#JacoW1">Sir</persName><lb/> <!-- Use if letter has a saluation ("Dear Sir," for example). If not, delete this line.-->
+                  </persName>
+               </salute>
+            </opener>
+            
+            <p>
+               If you have had any communication<lb/>
+               lately with <persName ref="./Personography.xml#BeauF1">Captain Beaufort</persName> you have<lb/>
+               heard probably of the loss we have had<lb/>
+               if you will not have been surprised by<lb/>
+               my silence -<lb/>
+            </p>
+            <p>
+               Thank you for the pamphlet and<lb/>
+               the article in the <title ref= "./Workography.xml#Quart1">Quarterly review</title> which<lb/>
+               you were so good to send me. I am not<lb/>
+               surprised that the pamphlet should have<lb/>
+               made a great sensation in <placeName ref="./Placeography.xml#London_ENK"/>London.<lb/>
+               It is very well written &amp; full of good <choice><orig>rea-<lb/>
+                  soning</orig><reg>reasoning</reg></choice> .- Of the points of law, of course, I<lb/>
+               can be no judge; but taking it for <choice><orig>grant<lb/>
+                  ed</orig><reg>granted</reg></choice> that the cases and precedents are<lb/>
+               as your son states them his arguments<lb/>
+               <add>respecting injunctions</add><lb/>
+               appear unanswerable, and the <choice><orig>dispas<lb/>
+                  sionate</orig><reg>dispassionate</reg></choice> tone maintained does great<lb/>
+               credit to the taste and judgment of<lb/>
+               the writer - I do not feel convinced how<lb/>
+               ever by the reasoning in the latter pages<lb/>
+               of this pamphlet - from 34 to the end -<lb/>
+               - I do not accede to the assertion that a Lawyer<lb/>
+               Judge, or Chancellor is better qualified<lb/>
+               to decide in the first instance of the <choice><orig>im<lb/>
+                  moral</orig><reg>immoral</reg></choice> tendency of any book than a jury<lb/>
+               of merchants tradesmen, yeomen &amp; squires<lb/>
+               
+               <pb n="2" facs="Edgeworth_Morgan_157569_1824_06_13_page02.jpg"/>
+               - Therefore till this assertion be established<lb/>
+               I cannot accede to the argument founded<lb/>
+               upon it, for departing in this instance<lb/>
+               from the spirit &amp; usage of the British <choice><orig>consti<lb/>
+                  tution</orig><reg>constitution</reg></choice> &amp; leaving it to the Judge instead of<lb/>
+               a jury to decide at first &amp; at once, <add>both of the <unclear>Cause</unclear> &amp; the fact</add> without<lb/>
+               any hearing of the parties or of their <choice><orig>coun-<lb/>
+                  sel</orig><reg>counsel</reg></choice> - That the Chancellor has been trusted<lb/>
+               with the power of committing to prison for<lb/>
+               contempt of their authority &amp; that they have<lb/>
+               not abused it &amp; that therefore they may<lb/>
+               be safely trusted <del>with</del> to judge in the case<lb/>
+               of a book or an author where their own<lb/>
+               passions cannot be immediately <choice><orig>concern<lb/>
+               ed</orig><reg>concerned</reg></choice> does not appear to me conclusive <choice><orig>ar-<lb/>
+               gument</orig><reg>argument</reg></choice> - It is the sort of argument <choice><orig>wh<hi rend="superscript">h</hi>.</orig><reg>which</reg></choice><lb/>
+               is used for despotic power when all of others<lb/>
+               fail that the despot may be a good despot<lb/>
+               &amp; therefore may be safely trusted - &amp; that the<lb/>
+               trusting him is most convenient, <choice><orig>expedi-<lb/>
+                  tious</orig><reg>expeditious</reg></choice> &amp; consequently expedient - As to the<lb/>
+               remedy which the author may have against<lb/>
+               injustice - &amp; the answer to the fear of <choice><orig>insol<lb/>
+               vency</orig><reg>insolvency</reg></choice> (page 36) that "Poverty &amp; insolvency are evils<lb/>
+               'Which it is not in the power of the law to cure"<lb/>
+            </p>
+            <p>
+               This is not a fair answer in this <choice><orig>particu<lb/>
+               lar</orig><reg>particular</reg></choice> case because the rule in question exposes<lb/>
+               the <del>sufferer</del> <add>plaintiff</add>to a chance of suffering by <choice><orig>insol<lb/>
+                  vency</orig></choice> without any imprudence of his own<lb/>
+               - In other cases the creditor who has trusted an<lb/>
+               insolvent has voluntarily run the risk - in<lb/>
+               this case it is involuntary -<lb/>
+               <pb n="3" facs="Edgeworth_Morgan_157569_1824_06_13_page03.jpg"/>
+            </p>
+            <p>
+               - The concluding argument page 40 concerning<lb/>
+               The <del>effect</del> comparitive <del>effects</del> evil of permitting<lb/>
+               the increased circulation of a few books of<lb/>
+               mischievous tendency &amp; the good of <choice><orig>discou<lb/>
+                  raging</orig><reg>discouraging</reg></choice> <del>the</del> <add>a</add> number of similar publications<lb/>
+               appears to me also doubtful - But it would<lb/>
+               lead beyond the compass of a letter &amp; probably<lb/>
+               beyond my reach to argue this question<lb/>
+               fully - I may <del>only</del> observe however in <choice><orig>ge-<lb/>
+                  neral</orig><reg>general</reg></choice> that all prohibatory laws against<lb/>
+               smuggled books as against all other <choice><orig>smug-<lb/>
+                  gled</orig><reg>smuggled</reg></choice> articles have tended rather to encrease<lb/>
+               than diminish the trade &amp; the demand -<lb/>
+               In this case it is peculiarly the object of the<lb/>
+               moral legislator to diminish the demand<lb/>
+               to extinguish the wish to read <del>im</del>immoral books<lb/>
+            </p>
+            <p>
+               <del>From</del> All the experience of childhood,<lb/>
+               youth and age I <del>fear</del> apprehend are against<lb/>
+               the prohibitory system as to reading - In <placeName ref="./Placeography.xml#FR"/>France<lb/>
+               les livres defendus were disseminated &amp;<lb/>
+               fashionable formerly in proportion to the risk<lb/>
+               &amp; the price - Nothing is effectual but good<lb/>
+               principles &amp; good taste in extinguishing the<lb/>
+               wish and demand for pernicious books<lb/>
+               - with the demand the production ceases -<lb/>
+               exactly upon your sons own argument<lb/>
+               that the persons who produce such trash<lb/>
+               are influenced in spite of shame &amp; all other<lb/>
+               motives prudential <add>moral</add> &amp; religious by the hope of<lb/>
+               gain - then to increase good taste &amp; strengthen<lb/>
+               principle must be the object &amp; is not this<lb/>
+               most likely to be effected by permitting that<lb/>
+               freedom of the press which ensures free <choice><orig>discus<lb/>
+                  sion</orig><reg>discussion</reg></choice> on literary taste &amp; moral principle &amp;<lb/>
+               which diffuses with the blessings of education<lb/>
+               the knowledge of truth &amp; the power of discerning what<lb/>
+               is<lb/>
+               
+               <pb n="4" facs="Edgeworth_Morgan_157569_1824_06_13_page04.jpg"/>
+               false - How much public taste <add>for literature</add> has been improved<lb/>
+               within our own memory by <add>the Ed<hi rend="superscript">n</hi> &amp; <title ref= "./Workography.xml#Quart1">Quarterly Review</title> </add><lb/>
+               which act in the best way as Censors of the press<lb/>
+               making it a censorship of opinion not of law<lb/>
+               merely - Among the vast encreased number<lb/>
+               of readers which these reviews have created<lb/>
+               how small is the proportion of those who have<lb/>
+               a taste for the pernicious books alluded to<lb/>
+               The very fact of the extensive sale of the <choice><orig>re-<lb/>
+                  views</orig><reg>reviews</reg></choice> shews the improved taste of the public<lb/>
+               - However we may differ in opinion <choice><orig>concern-<lb/>
+                  ing</orig><reg>concerning</reg></choice> the rival reviews &amp; rival articles still we must<lb/>
+               agree that this is wholesome respectable reading<lb/>
+               compared with the immoral trash<add> for</add> which you<lb/>
+               justly desire to diminish the taste &amp; the demand<lb/>
+            </p>
+            <p>
+               .- Your article on <placeName ref="./Placeography.xml#MX"/>Mexico is extremely<lb/>
+               interesting, and has all the charm of novelty<lb/>
+               joined to accurate information - To your<lb/>
+               sly inferences slid in in favor of the <choice><orig>continu<lb/>
+                  ance</orig><reg>continuance</reg></choice> of negro slavery observe I do not accede<lb/>
+               - But I dare not launch out on that boundless<lb/>
+               sea of argument - If ever we meet you will<lb/>
+               convince me in conversation - if you can -
+               <lb/>
+            </p>
+            <p>
+               I have no thoughts of being in <placeName ref="./Placeography.xml#ENK"/>England<lb/>
+               this summer. The only or at least the chief<lb/>
+               motive I had for thinking of leaving home was<lb/>
+               to have taken my sister <persName ref="./Personography.xml#EdgeF3">Fanny</persName>there and<lb/>
+               this object is much better accomplished<lb/>
+               by her going to pass some months with her<lb/>
+               young married <persName ref="./Personography.xml#EdgeS1">sister</persName> &amp; kind <persName ref="./Personography.xml#FoxB1">brother in law</persName><lb/>
+               <add><persName ref="./Personography.xml#FoxB1">M<hi rend="superscript">r</hi>.</persName> &amp; <persName ref="./Personography.xml#EdgeS1">M<hi rend="superscript">rs</hi>. Fox</persName></add> who have invited her to do so - They are<lb/>
+               at <placeName ref="./Placeography.xml#Cheltenham_ENK"/>Cheltenham where she will join them in<lb/>
+               the course of a fortnight <add>&amp; then go to some place on the sea coast</add> I hope - <del>and</del> Under<lb/>
+               their kind &amp; quiet care, with a proper <choice><orig>mix-<lb/>
+                  ture</orig><reg>mixture</reg></choice> of air excercise, rest &amp; society she will<lb/>
+               I trust recover strength &amp; health - She is far<lb/>
+               from well at present - yet nothing alarming<lb/>
+               <pb n="5" facs="Edgeworth_Morgan_157569_1824_06_13_page05.jpg"/>
+               
+            </p>
+            <p>
+               My <persName ref="./Personography.xml#BuxtH1">aunt</persName> and <persName ref="./Personography.xml#BuxtF1">uncle Buxton</persName> and all at <placeName ref="./Placeography.xml#Black-Castle_IE">Black<lb/>
+                  -Castle</placeName> are much gratified by your kind <choice><orig>remem<lb/>
+                     brance</orig><reg>remembrance</reg></choice> of them and of your visit here - <persName ref="./Personography.xml#BuxtH1">My aunt<lb/>
+               Buxton</persName> bids me tell you that in your travels in <placeName ref="./Placeography.xml#SP"/>Spain she<lb/>
+               found an account of a picture by <persName ref="./Personography.xml#CampP1"> Peatro di Campria</persName> in <placeName ref="./Placeography.xml#Seville_SP"/>Seville<lb/>
+               of the taking down from the cross - from which she has an<lb/>
+               engraving in her dining room - She had long admired the<lb/>
+               composition of the piece &amp; rejoiced to find the name of the artist<lb/>
+               and your account of the picture - wh<hi rend="superscript">h</hi>. she has transcribed on the back of<lb/>
+               the print - My friend M<hi rend="superscript">rs</hi>. <persName ref="./Personography.xml#MarcJ1">Marcet</persName> mentions a<lb/>
+               sort of novel <add>in French</add> which she has been reading called <title ref= "./Workography.xml#Alonzo1">Alonzo</title><lb/>
+               - which though a bad imitation of <persName ref="./Personography.xml#ScotW1"/>Scott gives a curious<lb/>
+               view of the manners of <placeName ref="./Placeography.xml#SP"/>Spain during the revolution<lb/>
+               - Do you know the book &amp; what do you think of it -<lb/>
+               Are you acquainted with M<hi rend="superscript">rs</hi>. <persName ref="./Personography.xml#MarcJ1">Marcet</persName>? or would you wish for an introduction - She is to<lb/>
+               spend next winter in <placeName ref="./Placeography.xml#London_ENK"/>London - I am sure you would like her -<lb/>
+               I have been much entertained with<lb/>
+               <title ref= "./Workography.xml#Adven1">Haggi Baba</title> which I think beautifully written &amp; in<lb/>
+               which the Persian customs are so well introduced<lb/>
+               - There <add>is a</add> vein of harmless <add>wit &amp;</add> well bred saillery, - I can hardly<lb/>
+               call it satire through the whole, which delights &amp;<lb/>
+               never goes against my conscience - I have never to<lb/>
+               say to myself "I ought not to have smiled at that" -<lb/>
+               Not so with Capt<hi rend="superscript">n</hi>. Rock - There is a work of <choice><orig>pro-<lb/>
+                  digious</orig><reg>prodigious</reg></choice> talent! - Yet I wish it had never been<lb/>
+               published - I do not however wish that it had<lb/>
+               been stopped, <add>for a time</add> by an injunction - for it would have<lb/>
+               been doubly desired as a prohibited book- Now it<lb/>
+               is open to fair criticism - &amp; to the counteractive affects<lb/>
+               of public opinion - Of the numbers who read it &amp;<lb/>
+               who admire the wit, learning, eloquence in which<lb/>
+               it abounds almost <del></del> nine in ten of, whom I have<lb/>
+               heard speak of it agree in blaming the <hi rend="underline">publication</hi> -<lb/>
+               
+            </p>
+            <p>
+               The length of the book will counteract the strength<lb/>
+               M<hi rend="superscript">r</hi>. <persName ref="./Personography.xml#HumeD1">Hume</persName> is very ill informed respecting <choice><orig>plura<lb/>
+                  -lities</orig><reg>pluralities</reg></choice> in <placeName ref="./Placeography.xml#IE"/>Ireland - He has made some gross &amp; laughable<lb/>
+               mistakes - But I suppose they are by this time detected<lb/>
+               &amp; exposed - if not I could tell you a few -<lb/>
+               
+            </p>
+            <p>
+               I recollect some excellent observations of yours<lb/>
+               in one of your letters last year on the causes which<lb/>
+               prevent <add>the redundancy</add><hi rend="underline">English</hi> capital from flowing over to <placeName ref="./Placeography.xml#IE"/>Ireland - <lb/>
+               - <hi rend="underline">Insecure</hi> - chiefly - This we may hope is <choice><orig>diminish<lb/>
+               -ing</orig><reg>diminishing</reg></choice> - &amp; in the best way, in consequence of the more <choice><orig>ac<lb/>
+               curate</orig><reg>accurate</reg></choice> knowledge &amp; more just views <placeName ref="./Placeography.xml#ENK"/>England has <choice><orig><lb/>
+               tained</orig><reg>obtained</reg></choice> of the state of this country &amp; the consequent <choice><orig>de-<lb/>
+                        sire</orig><reg>desire</reg></choice> of government to enforce impartial <choice><orig>administra<lb/>
+                           tion</orig><reg>administration</reg></choice> of the laws and to discourage party oppression &amp;<lb/>
+               party vengeance on both sides - The examinations before<lb/>
+               the Committees of the house of Commons have done much<lb/>
+               good - The fact is made clear that wherever the people<lb/>
+               in <placeName ref="./Placeography.xml#IE"/>Ireland have obtained employment their disposition to<lb/>
+               disturbance has diminished if not ceased altogether -<lb/>
+               This single fact is of inestimable value - Then how to give<lb/>
+               employment is the next pressing question - Nothing can come of<lb/>
+               nothing - The Irish landlords <del>cannot</del> have not capital - English<lb/>
+               Capitalists are afraid - But there is an old adage - Nothing<lb/>
+               hazard nothing have - The hazard here is not equal to the<lb/>
+               probability of gain (putting all benevolent motives out of view)<lb/>
+               the fact above established proves this - viz - the disturbances<lb/>
+               ceasing with the employment given - I am not sure that I have<lb/>
+               
+               <pb n="6" facs="Edgeworth_Morgan_157569_1824_06_13_page06.jpg"/>
+               made my meaning clear - but your clear head will make<lb/>
+               it out -<lb/>
+            </p>
+            <p>
+               There are a variety of mining companies &amp; speculating<lb/>
+               insurance companies opening in <placeName ref="./Placeography.xml#Dublin_IE"/>Dublin - I fear <unclear>this</unclear><lb/>
+               will not be ultimately beneficial - To give regular<lb/>
+               habits of industry is what is wanted in this country &amp;<lb/>
+               this must follow from regular demand &amp; supply<lb/>
+               - not from the uncertain excitation of speculations<lb/>
+               - gambling in short - The indolence &amp; despair which<lb/>
+               succeeds to disappointed exertion have been too often<lb/>
+               seen in <placeName ref="./Placeography.xml#IE"/>Ireland - The failure of <persName ref="./Personography.xml#BrooR1">Brooke of <hi rend="underline">Prosperous</hi></persName><lb/>
+               - the failure of <persName ref="./Personography.xml#AndeJ1">Anderson of Fermoy</persName> - were much<lb/>
+               greater misfortunes to <placeName ref="./Placeography.xml#IE"/>Ireland than the failure of<lb/>
+               <add><unclear></unclear></add>two individuals could have been in <placeName ref="./Placeography.xml#ENK"/>England -<lb/>
+               Because the impression left on the public mind was<lb/>
+               "See how vain it is for public spirited people to lay<lb/>
+               "out their money in manufactures or great establish<lb/>
+               "ments in <placeName ref="./Placeography.xml#IE"/>Ireland" -<lb/>
+               If the Irish <add>speculators</add> could but be taught to look before they leap!<lb/>
+               You English certainly do look well before they leap<lb/>
+               - therefore they leap safely - The Scotch look too long<lb/>
+               before they leap - <lb/>
+               I am not sure whether I have written to you since<lb/>
+               our excursion to <placeName ref="./Placeography.xml#STK"/>Scotland - In one word I was delight<lb/>
+               ed with it - and most of all with our 3 weeks visit<lb/>
+               at <placeName ref="./Placeography.xml#Abbotsfsord-House_STK"/>Abbotsford - <persName ref="./Personography.xml#ScotW1">Scott</persName> is equal to his writings in conversation<lb/>
+               As far as I can judge from the statements in the papers<lb/>
+               <persName ref="./Personography.xml#MooreT1">Moore</persName> has behaved nobly about <persName ref="./Personography.xml#Byro_J1">Lord Byron</persName> life - But from<lb/>
+               what private letters from <placeName ref="./Placeography.xml#London_ENK"/>London hint I began to fear there<lb/>
+               is something which I do not know &amp; should be sorry to hear<lb/>
+               - I am told <persName ref="./Personography.xml#MooreT1">Moore</persName> has not gained much in public opinion<lb/>
+               by the transaction - how can that be when he has sacrificed Â£2000<lb/>
+               to the wish not to give pain to <persName ref="./Personography.xml#ByroG1">Lord Byron</persName>'s <persName ref="./Personography.xml#ByroA1">wife</persName>, <persName ref="./Personography.xml#LeigA1"/> sister &amp; family and<lb/>
+               to his desire not to publish what might be injurious -<lb/>
+               <persName ref="./Personography.xml#BuxtX2">Miss Buxton</persName> desires to be very kindly remembered<lb/>
+               to you though your promised <del></del>improvement<lb/>
+               in Irish leather has never to her knowledge been<lb/>
+               accomplished -<lb/>
+               Remember me Dear Sir to all of your family<lb/>
+               who care for me &amp; continue your letters &amp;<lb/>
+               kindness to
+            </p>
+            <closer>
+               your obliged <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName><lb/>
+
+               <address>
+                  <!--Include any text written on the address leaf; use a separate "addrLine" for each line and indicate line breaks. -->
+                  <addrLine><persName ref="./Personography.xml#JacoW1">W. Jacob Esq<hi rend="superscript">re</hi></persName></addrLine><lb/>
+                  <addrLine>Receiver of Corn returns</addrLine><lb/>
+                  <addrLine><placeName ref="./Placeography.xml#Regents-Street_ENK"/>Regents Street </addrLine><lb/>
+                  <addrLine><placeName ref="./Placeography.xml#ENK"/>London</addrLine><lb/>
+               </address>
+            </closer>
+         </div>
+      </body>
+      <back> </back>
+   </text>
+</TEI>
