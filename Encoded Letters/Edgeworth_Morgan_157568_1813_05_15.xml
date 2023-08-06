@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from Maria Edgeworth to Fanny Burney, May 15th, 1813</title>
+            <author>Maria Edgeworth</author>
+            <editor ref="Id_who">
+               <!--Jessica Richard -->
+            </editor>   <!--Robin Runia -->
+            <sponsor>
+               <orgName>Maria Edgeworth Letters Project</orgName>
+            </sponsor>
+            <sponsor>Wake Forest University, University of Tennessee, Xavier University, Texas
+               A&amp;M University</sponsor>
+            <principal>Jessica Richard, Hilary Havens, Robin Runia, Susan Egenolf</principal>
+            <respStmt>
+               <resp>Transcription and coding by</resp>
+               <persName ref="Id_who">Youma Diabira
+               </persName>
+               <persName ref="Id_who">Jamie Kramer</persName>
+               <!-- If you're the last person interacting with the file, enter your name last on the list -->
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>First digital edition in TEI, date: <date when="2023-06-15">
+               </date>
+            </edition>
+            <respStmt>
+               <orgName type="naf" ref="https://id.loc.gov/authorities/names/n78095799.html">Pierpont Morgan Library
+               </orgName>
+               <resp> photos include:
+                  Edgeworth_Morgan_157568_1813_05_15_page01.jpg, Edgeworth_Morgan_157568_1813_05_15_page02.jpg, Edgeworth_Morgan_157568_1813_05_15_page03.jpg, Edgeworth_Morgan_157568_1813_05_15_page04.jpg
+               </resp>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Maria Edgeworth Letters Project</authority>
+            <date>2022</date>
+            <availability>
+               <!--Uncomment the appropriate line, based on the archive that holds the physical copy of this letter, 
+                  and delete the other comment line(s).-->
+               <p>Reproduced by courtesy of the <orgName ref="#">Pierpont Morgan Library</orgName>.
+               </p>
+               <licence>Distributed under a Creative Commons Attribution-ShareAlike 3.0 Unported
+                  License</licence>
+            </availability>
+            <idno>Edgeworth_Morgan_157568_1813_05_15</idno> 
+         </publicationStmt>
+         <seriesStmt>
+            <title>Maria Edgeworth Letters Project</title>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <repository>Pierpoint Morgan Library</repository>
+                  <collection><!-- Enter specific archival collection if applicable--></collection>
+                  <idno><!--Consult library or WorldCat for this info--></idno>
+               </msIdentifier>
+             
+               <head>Letter from 
+                     <persName xml:id="EdgeM1" from="1768" to="1849">
+                        <forename>Maria</forename>
+                        <surname>Edgeworth</surname>
+                        <date>1768-1849</date>
+                        <idno type="VIAF">71477273</idno>
+                        <idno type="SNAC">62567029</idno>
+                     </persName>
+                  to <persName ref="./Personography.xml#BurnF1">Fanny Burney</persName>, <placeName ref="./Placeography.xml#23-Chinies-Street_ENK">23 Chinies Street</placeName>, 
+                  <date when="1813-05-15">Saturday [May 15, 1813]</date>
+               </head>
+               <physDesc>
+                  <!-- optional physical description of the letter goes here: paper size and condition, seal, postmarks, etc.-->
+               </physDesc>
+            </msDesc>
+            
+            <!-- FROM LAURA: where to put the following information in <bibl> is still a question: 
+               ask TEI List whether it should be in the sourceDesc or elsewhere? -->
+            
+            <bibl>In addition to our edited version, this letter was previously published in
+               <!--complete bibiographical info if letter was published in a book here - if not delete-->
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <!--Where Edgeworth uses nonstandard spelling and hyphenation of words, transcriber-coders 
+               should use TEI elements “choice," “sic," and “reg" to encode both Edgeworth’s 
+               spelling and the regular international standard of Oxford English spelling, 
+               following the first listed spelling in the Oxford English Dictionary. -->
+            <p>Edgeworth’s spelling and punctuation are retained in transcription, except where a
+               word is split at the end of a line and the beginning of the next in a manuscript. The
+               long s and ligatured forms are silently emended.</p>
+         </editorialDecl>
+         <classDecl>
+            <taxonomy xml:id="relators">
+               <bibl>Marc Relators</bibl>
+               <category xml:id="aut">
+                  <catDesc>Author</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="lcsh">
+               <bibl>Subjects</bibl>
+               <category>
+                  <catDesc xml:id="AntislaveryMovements">Antislavery movements
+                     <idno type="loc">sh85123315</idno>
+                  </catDesc>
+                  <catDesc xml:id="Birth">Birth
+                     <idno type="loc">sh86004053</idno>
+                  </catDesc>
+                  <catDesc xml:id="Death">Death
+                     <idno type="loc">sh85036085</idno>
+                  </catDesc>
+                  <catDesc xml:id="Education">Education
+                     <idno type="loc">sh85040989</idno>
+                  </catDesc>
+                  <catDesc xml:id="Imperialism">Imperialism
+                     <idno type="loc">sh85064628</idno>
+                  </catDesc>
+                  <catDesc xml:id="FictitiousCharacters">Fictitious characters
+                     <idno type="loc">sh99004183</idno>
+                  </catDesc>
+                  <catDesc xml:id="Marriage">Marriage
+                     <idno type="loc">sh85081416</idno>
+                  </catDesc>
+                  <catDesc xml:id="Nationalism">Nationalism
+                     <idno type="loc">sh85090150</idno>
+                  </catDesc>
+                  <catDesc xml:id="PoliticsAndCulture">Politics and culture
+                     <idno type="loc">sh85104468</idno>
+                  </catDesc>
+                  <catDesc xml:id="Race">Race  
+                     <idno type="loc">sh85110232</idno>
+                  </catDesc>
+                  <catDesc xml:id="Religion">Religion
+                     <idno type="loc">sh85112549</idno>
+                  </catDesc>
+                  <catDesc xml:id="Science">Science
+                     <idno type="loc">sh85118553</idno>
+                  </catDesc>
+                  <catDesc xml:id="Technology">Technology
+                     <idno type="loc">sh85133147</idno>
+                  </catDesc>
+                  <catDesc xml:id="Slavery">Slavery
+                     <idno type="loc">sh85123314</idno>
+                  </catDesc>
+                  <catDesc xml:id="Travel">Travel
+                     <idno type="loc">sh85137149</idno>
+                  </catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="works">
+               <bibl>Works</bibl>
+               <category>
+                  <catDesc xml:id="w1">Belinda</catDesc>
+                  <catDesc xml:id="w2">Castle Rackrent</catDesc>
+                  <catDesc xml:id="w3">Comic Dramas, in Three Acts</catDesc>
+                  <catDesc xml:id="w4">Early Lessons</catDesc>
+                  <catDesc xml:id="w5">Essay on Irish Bulls</catDesc>
+                  <catDesc xml:id="w6">Frank: a Sequel to Frank in Early Lessons</catDesc>
+                  <catDesc xml:id="w7">Harrington, a Tale; and Ormond, a Tale</catDesc>
+                  <catDesc xml:id="w8">Harry and Lucy Concluded</catDesc>
+                  <catDesc xml:id="w9">Leonora</catDesc>
+                  <catDesc xml:id="w10">Letters for Literary Ladies</catDesc>
+                  <catDesc xml:id="w11">Moral Tales for Young People</catDesc>
+                  <catDesc xml:id="w12">Moral Tales</catDesc>
+                  <catDesc xml:id="w13">Patronage</catDesc>
+                  <catDesc xml:id="w14">Popular Tales</catDesc>
+                  <catDesc xml:id="w15">Practical Education</catDesc>
+                  <catDesc xml:id="w16">Readings on Poetry</catDesc>
+                  <catDesc xml:id="w17">Ormond</catDesc>
+                  <catDesc xml:id="w18">The Absentee</catDesc>
+                  <catDesc xml:id="w19">Tales of Fashionable Life</catDesc>
+                  <catDesc xml:id="w20">The Contrast</catDesc>
+                  <catDesc xml:id="w21">The Modern Griselda; a Tale</catDesc>
+                  <catDesc xml:id="w22">The Parent's Assistant</catDesc>
+                  <catDesc xml:id="w23">Tomorrow; or the Dangers of Delay</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="./Personography.xml#BurnF1">Fanny Burney</persName>
+            </correspAction>
+         </correspDesc>
+         <textClass>
+            <keywords scheme="/">
+               <list type="simple">
+                  <item>English literature</item>
+                  <item>History</item>
+               </list>
+            </keywords>
+            <catRef target="#f7" scheme="#f"/>
+            <catRef target="#hist #el" scheme="locSUB"/>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2023-08-06" who="Jamie Kramer">
+         revisions before Github upload
+         </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <pb n="1" facs="Edgeworth_Morgan_157568_1813_05_15_page01.jpg"/>
+            <opener>
+            <address>
+               <addrLine> 17 MY</addrLine>
+               <addrLine> 1813 EN <unclear></unclear></addrLine>
+               <addrLine> To</addrLine>
+               <addrLine> <persName ref="./Personography.xml#BurnF1">Madame d'Arblay</persName></addrLine>
+               <addrLine><placeName ref="./Placeography.xml#23-Chinies-Street">23. Chinies Street</placeName></addrLine>
+               <addrLine> Totenham Court Road</addrLine>
+            </address>
+           [note]MA 22838<lb/>
+               Removed 1925 from Burney Correspondence[/note]<lb/>
+            </opener>
+            
+            <pb n="2" facs="Edgeworth_Morgan_157568_1813_05_15_page02.jpg"/>
+            
+            <p><persName ref="./Personography.xml#EdgeR1">M<hi rend="superscript">r</hi>.</persName> &amp; <persName ref="./Personography.xml#EdgeF2">M<hi rend="superscript">rs</hi>.</persName> &amp; <persName ref="./Personography.xml#EdgeM1">Miss Edgeworth</persName><lb/>
+               were flattered some time<lb/>
+               ago by a message from <persName ref="./Personography.xml#BurnF1">Madame<lb/>
+               d'Arblay</persName> intimating that<lb/>
+               she should wish to make their<lb/>
+               acquaintance -<persName ref="./Personography.xml#EdgeF2">M<hi rend="superscript">rs</hi>.</persName> &amp; <persName ref="./Personography.xml#EdgeM1">Miss E</persName><lb/>
+               will wait upon <persName ref="./Personography.xml#BurnF1"> Madame <choice><orig>d'Ar<lb/>
+               -blay</orig><reg>d'Arblay</reg></choice></persName> any morning she appoints<lb/>
+               or if it suits <persName ref="./Personography.xml#BurnF1">Madame d'Arblay</persName>'s<lb/>
+               convenience they would be<lb/>
+               particularly gratified by seeing<lb/>
+               <persName ref="./Personography.xml#BurnF1">Madame d'Arblay</persName>at <choice><orig>break<lb/>
+               -fast</orig><reg>breakfast</reg></choice>- at 10 o'clock any day<lb/>
+               except Monday or Wednesday<lb/>
+
+               <pb n="3" facs="Edgeworth_Morgan_157568_1813_05_15_page03.jpg"/>
+               
+               when they are engaged - <persName ref="./Personography.xml#EdgeM1">Miss<lb/>
+               E</persName> mentions <hi rend="underline">breakfast</hi> because<lb/>
+               it is the only time when they<lb/>
+               are sure of being at home &amp;<lb/>
+               they would not on any account<lb/>
+               <del>give</del> <add>let</add> <persName ref="./Personography.xml#BurnF1">Madame d'Arblay</persName><lb/>
+               waste her precious time by<lb/>
+               coming merely to leave a<lb/>
+               <hi rend="underline">ticket</hi>.
+</p>
+            <closer>Saturday - <placeName ref="./Placeography.xml#10-Hollis-Street_ENK">10 Hollis Street</placeName> </closer>
+         </div>
+      </body>
+      <back> </back>
+   </text>
+</TEI>
