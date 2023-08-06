@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from Maria Edgeworth to Thomas Spring-Rice, March 9th, 1825</title>
+            <author>Maria Edgeworth</author>
+            <editor ref="Id_who"> Jessica Richards </editor>
+            <editor ref="Id_who">Robin Runia<!--Editor on the Maria Edgeworth Letters Project overseeing the coding of this particular letter: FirstName LastName -->
+            </editor>
+            <sponsor>
+               <orgName>Maria Edgeworth Letters Project</orgName>
+            </sponsor>
+            <sponsor>Wake Forest University, University of Tennessee, Xavier University, Texas
+               A&amp;M University</sponsor>
+            <principal>Jessica Richard, Hilary Havens, Robin Runia, Susan Egenolf</principal>
+            <respStmt>
+               <resp>Transcription and coding by</resp>
+               <persName ref="Id_who">Aryaam Hashi<!--FirstName LastName-->
+               </persName>
+               <!-- List all transcribers or coders here, editors and students alike, <persName> by <persName>.-->
+               <persName ref="Id_who">Jamie Kramer</persName>
+               <!-- If you're the last person interacting with the file, enter your name last on the list -->
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>First digital edition in TEI, date: <date when="2023-06-21">
+               </date>
+            </edition>
+            <respStmt>
+               <orgName type="naf" ref="https://id.loc.gov/authorities/names/n78095799.html">Pierpont Morgan Library
+               </orgName>
+               <resp> photos include: 
+                  Edgeworth_Morgan_422593_1825-03-09_page01.jpg, Edgeworth_Morgan_422593_1825-03-09_page02.jpg,Edgeworth_Morgan_422593_1825-03-09_page03.jpg,Edgeworth_Morgan_422593_1825-03-09_page04.jpg
+               </resp>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Maria Edgeworth Letters Project</authority>
+            <date>2022</date>
+            <availability>
+               <!--Uncomment the appropriate line, based on the archive that holds the physical copy of this letter, 
+                  and delete the other comment line(s).-->
+               <p>Reproduced by courtesy of the <orgName ref="#ReadingCL">Pierpont Morgan Library</orgName>.<!--Reproduced by courtesy of the <orgName ref="#ReadingCL">Reading Central Library</orgName>.-->
+                  <!--or -->
+                  <!--Courtesy of <orgName ref="#Rylands">The University of Manchester</orgName>.-->
+               </p>
+               <licence>Distributed under a Creative Commons Attribution-ShareAlike 3.0 Unported
+                  License</licence>
+            </availability>
+            <idno>Edgeworth_Morgan_422593_1825-03-09</idno> 
+         </publicationStmt>
+         <seriesStmt>
+            <title>Maria Edgeworth Letters Project</title>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <repository>Pierpont Morgan Library</repository>
+                  <collection><!-- Enter specific archival collection if applicable--></collection>
+                  <idno><!--Consult library or WorldCat for this info--></idno>
+               </msIdentifier>
+               
+               <!-- FROM LAURA: it's here (below) in the head that I added the full information about the author,
+                  and you could add full information about the addressee as well. -->
+               <head>Letter from 
+                     <persName xml:id="EdgeM1" from="1768" to="1849">
+                        <forename>Maria</forename>
+                        <surname>Edgeworth</surname>
+                        <date>1768-1849</date>
+                        <idno type="VIAF">71477273</idno>
+                        <idno type="SNAC">62567029</idno>
+                     </persName>
+                  to <persName ref="./Personography.xml#SpriT1">Thomas Spring-Rice</persName>, 
+                  <date when="1825-03-09"> March 9<hi rend="superscript">h</hi>. 1825 </date>
+               </head>
+               <physDesc>
+                  <!-- optional physical description of the letter goes here: paper size and condition, seal, postmarks, etc.-->
+               </physDesc>
+            </msDesc>
+            
+            <!-- FROM LAURA: where to put the following information in <bibl> is still a question: 
+               ask TEI List whether it should be in the sourceDesc or elsewhere? -->
+            
+            <bibl>In addition to our edited version, this letter was previously published in
+               <!--complete bibiographical info if letter was published in a book here - if not delete-->
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <!--Where Edgeworth uses nonstandard spelling and hyphenation of words, transcriber-coders 
+               should use TEI elements “choice," “sic," and “reg" to encode both Edgeworth’s 
+               spelling and the regular international standard of Oxford English spelling, 
+               following the first listed spelling in the Oxford English Dictionary. -->
+            <p>Edgeworth’s spelling and punctuation are retained in transcription, except where a
+               word is split at the end of a line and the beginning of the next in a manuscript. The
+               long s and ligatured forms are silently emended.</p>
+         </editorialDecl>
+         <classDecl>
+            <taxonomy xml:id="relators">
+               <bibl>Marc Relators</bibl>
+               <category xml:id="aut">
+                  <catDesc>Author</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="lcsh">
+               <bibl>Subjects</bibl>
+               <category>
+                  <catDesc xml:id="AntislaveryMovements">Antislavery movements
+                     <idno type="loc">sh85123315</idno>
+                  </catDesc>
+                  <catDesc xml:id="Birth">Birth
+                     <idno type="loc">sh86004053</idno>
+                  </catDesc>
+                  <catDesc xml:id="Death">Death
+                     <idno type="loc">sh85036085</idno>
+                  </catDesc>
+                  <catDesc xml:id="Education">Education
+                     <idno type="loc">sh85040989</idno>
+                  </catDesc>
+                  <catDesc xml:id="Imperialism">Imperialism
+                     <idno type="loc">sh85064628</idno>
+                  </catDesc>
+                  <catDesc xml:id="FictitiousCharacters">Fictitious characters
+                     <idno type="loc">sh99004183</idno>
+                  </catDesc>
+                  <catDesc xml:id="Marriage">Marriage
+                     <idno type="loc">sh85081416</idno>
+                  </catDesc>
+                  <catDesc xml:id="Nationalism">Nationalism
+                     <idno type="loc">sh85090150</idno>
+                  </catDesc>
+                  <catDesc xml:id="PoliticsAndCulture">Politics and culture
+                     <idno type="loc">sh85104468</idno>
+                  </catDesc>
+                  <catDesc xml:id="Race">Race  
+                     <idno type="loc">sh85110232</idno>
+                  </catDesc>
+                  <catDesc xml:id="Religion">Religion
+                     <idno type="loc">sh85112549</idno>
+                  </catDesc>
+                  <catDesc xml:id="Science">Science
+                     <idno type="loc">sh85118553</idno>
+                  </catDesc>
+                  <catDesc xml:id="Technology">Technology
+                     <idno type="loc">sh85133147</idno>
+                  </catDesc>
+                  <catDesc xml:id="Slavery">Slavery
+                     <idno type="loc">sh85123314</idno>
+                  </catDesc>
+                  <catDesc xml:id="Travel">Travel
+                     <idno type="loc">sh85137149</idno>
+                  </catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="works">
+               <bibl>Works</bibl>
+               <category>
+                  <catDesc xml:id="w1">Belinda</catDesc>
+                  <catDesc xml:id="w2">Castle Rackrent</catDesc>
+                  <catDesc xml:id="w3">Comic Dramas, in Three Acts</catDesc>
+                  <catDesc xml:id="w4">Early Lessons</catDesc>
+                  <catDesc xml:id="w5">Essay on Irish Bulls</catDesc>
+                  <catDesc xml:id="w6">Frank: a Sequel to Frank in Early Lessons</catDesc>
+                  <catDesc xml:id="w7">Harrington, a Tale; and Ormond, a Tale</catDesc>
+                  <catDesc xml:id="w8">Harry and Lucy Concluded</catDesc>
+                  <catDesc xml:id="w9">Leonora</catDesc>
+                  <catDesc xml:id="w10">Letters for Literary Ladies</catDesc>
+                  <catDesc xml:id="w11">Moral Tales for Young People</catDesc>
+                  <catDesc xml:id="w12">Moral Tales</catDesc>
+                  <catDesc xml:id="w13">Patronage</catDesc>
+                  <catDesc xml:id="w14">Popular Tales</catDesc>
+                  <catDesc xml:id="w15">Practical Education</catDesc>
+                  <catDesc xml:id="w16">Readings on Poetry</catDesc>
+                  <catDesc xml:id="w17">Ormond</catDesc>
+                  <catDesc xml:id="w18">The Absentee</catDesc>
+                  <catDesc xml:id="w19">Tales of Fashionable Life</catDesc>
+                  <catDesc xml:id="w20">The Contrast</catDesc>
+                  <catDesc xml:id="w21">The Modern Griselda; a Tale</catDesc>
+                  <catDesc xml:id="w22">The Parent's Assistant</catDesc>
+                  <catDesc xml:id="w23">Tomorrow; or the Dangers of Delay</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="./Personography.xml#SpriT1">Thomas Spring-Rice</persName>
+            </correspAction>
+         </correspDesc>
+         <textClass>
+            <keywords scheme="/">
+               <list type="simple">
+                  <item>English literature</item>
+                  <item>History</item>
+               </list>
+            </keywords>
+            <catRef target="#f7" scheme="#f"/>
+            <catRef target="#hist #el" scheme="locSUB"/>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2023-08-06" who="Jamie Kramer">
+            revisions for github upload
+         </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <pb n="1" facs="Edgeworth_Morgan_422593_1825-03-09_page01.jpg"/>
+            <!--filenames for photos associated with this letter. Example: <pb n="1" facs="image1.jpg image2.jpg image3.jpg"/> -->
+            <opener>
+               <dateline><!--If there's no date line, omit this element. Record in the order in which it is written on the letter.-->
+                  <name type="place" ref="Id_where"/>
+                  <date when="1825-03-09"/> March 9<hi rend="superscript">h</hi>. 1825 </dateline>
+               <salute>
+                  <persName>
+                     Dear <persName ref="./Personography.xml#SpriT1">Sir</persName><!-- Use if letter has a saluation ("Dear Sir," for example). If not, delete this line.-->
+                  </persName>
+               </salute>
+            </opener>
+            <p>
+               This horrible affair at <placeName ref="./Placeography.xml#Eton_ENK">Eton</placeName><lb/>
+               has I am convinced filled<lb/>
+               your head &amp; heart as it<lb/>
+               has ours - Even in the<lb/>
+               midst of the Business of<lb/>
+               the nation you are so good<lb/>
+               a father that I am certain<lb/>
+               it would for some hours<lb/>
+               at least prevent you from<lb/>
+               thinking of any thing else<lb/>
+            </p>
+            <p>
+               I wish every parent who<lb/>
+               has a son at <placeName ref="./Placeography.xml#Eton_ENK">Eton</placeName> would<lb/>
+               send for him home at<lb/>
+               once till some reform<lb/>
+               is made<lb/>
+              </p>
+            <p>
+               Surely some good will<lb/>
+               be brought from this great<lb/>
+               evil by - who? - Ask<lb/>
+               yourself - by such men<lb/>
+               as you who have power<lb/>
+               to raise your voice in the<lb/>
+               cause of helpless youth<lb/>
+               
+            </p>
+            <p>
+               A Master of <placeName ref="./Placeography.xml#Eton_ENK">Eton</placeName> standing<lb/>
+               <pb n="2" facs="Edgeworth_Morgan_422593_1825-03-09_page02.jpg"/>
+               by while this barbarous<lb/>
+               deed was done - was<lb/>
+               doing for two hours! -<lb/></p>
+               <p>A boy of 15! - set on <del>&amp;</del><lb/>
+               <unclear>betted</unclear> upon by his <choice><orig>compa-<lb/>
+                  nions</orig><reg>companions</reg></choice> - as if he were a<lb/>
+               game cock - his offer to<lb/>
+               make it up forbidden<lb/>
+               by those who betted <hi rend="underline">upon</hi><lb/>
+               his life - Drenched with<lb/>
+               brandy! - an incredible<lb/>
+               quantity! Enough to<lb/>
+               have killed him without<lb/>
+               a blow - Oh if he was<lb/>
+               not murdered what is<lb/>
+               murder? - There was no<lb/>
+               malice - no - but there was<lb/>
+               death ensuing <del>from</del> &amp;<lb/>
+               caused from being <choice><orig>engag<lb/>
+                  ed</orig><reg>engaged</reg></choice> in an unlawful<lb/>
+               act - <lb/>
+               </p>
+            <p>
+               Gambling - <choice><orig>drunken-<lb/>
+                  ness</orig><reg>drunkenness</reg></choice> - cruelty - what<lb/>
+               a complication of vice<lb/>
+               <pb n="3" facs="Edgeworth_Morgan_422593_1825-03-09_page03.jpg"/>
+               and how could any<lb/>
+               <del>brother</del> man any <choice><orig>mas-<lb/>
+                  ter</orig><reg>master</reg></choice> any brother stand<lb/>
+               by for 2 hours &amp; see<lb/>
+               this brutal savage scene<lb/>
+               - How could human<lb/>
+               nature stand it? -<lb/>
+               And these are the sights<lb/>
+               which M<hi rend="superscript">r</hi>. <persName ref="./Personography.xml#WyndW1">Wyndham</persName><lb/>
+               thought good for the<lb/>
+               courage of the British<lb/>
+               nation -<lb/>
+            </p>
+            <p>
+               If I do not much <choice><orig>mis-<lb/>
+                  take</orig><reg>mistake</reg></choice> your character &amp;<lb/>
+               your power you will<lb/>
+               not let this horrid act<lb/>
+               rest as a disgrace upon<lb/>
+               <placeName ref="./Placeography.xml#ENK"/>England in the eyes of the<lb/>
+               whole civilised world<lb/>
+               as it must unless some<lb/>
+               public of indignation be<lb/>
+               raised against it<lb/>
+               
+            </p>
+            <p>
+               <del>Howsay</del> This poor<lb/>
+               youths death may lead<lb/>
+               <pb n="4" facs="Edgeworth_Morgan_422593_1825-03-09_page04.jpg"/>
+               to a great good, if good &amp;<lb/>
+               wise men exert <choice><orig>them-<lb/>
+                  selves</orig><reg>themselves</reg></choice> - now - <hi rend="underline">now</hi>! When<lb/>
+               all hearts are melted<lb/>
+               by pity or fired with <choice><orig>indig<lb/>
+                  nation</orig><reg>indignation</reg></choice> - Oh do not let the<lb/>
+               moment for making an<lb/>
+               impression pass - This<lb/>
+               may lead to the reform<lb/>
+               of this horrible system in<lb/>
+               public schools - Think<lb/>
+               of your own sons - It<lb/>
+               will some time be their<lb/>
+               turns to go to them -<lb/>
+            </p>
+            <p>
+               There is one fortunate<lb/>
+               circumstance in this horrid<lb/>
+               affair that both the young<lb/>
+               men are -<hi rend="underline">were</hi> <add>sons of</add> men of<lb/>
+               family &amp; consequence<lb/>
+            </p>
+            <p>
+               My dear <persName ref="./Personography.xml#SpriT1">Sir</persName> pray write<lb/>
+               to me &amp; confirm my belief<lb/>
+               that your feelings &amp; <choice><orig>indigna<lb/>
+                  tion</orig><reg>indignation</reg></choice> have been roused as<lb/>
+               strongly as our own<lb/>
+            </p>
+            <closer>
+               <!--include linebreaks, if used. example: <closer> Yours<lb/> Very sincerely<lb/> -->
+               Ever sincerely y<hi rend="superscript">s</hi><lb/>
+               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName><lb/>
+            </closer>
+         </div>
+      </body>
+      <back> </back>
+   </text>
+</TEI>
