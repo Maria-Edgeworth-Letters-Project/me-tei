@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from Maria Edgeworth (recommending) John McLaughlin, May 11th, 1829</title>
+            <author>Maria Edgeworth</author>
+            <editor ref="Id_who">
+               Jessica Richard
+            </editor>
+            <editor>Robin Runia</editor>
+            <sponsor>
+               <orgName>Maria Edgeworth Letters Project</orgName>
+            </sponsor>
+            <sponsor>Wake Forest University, University of Tennessee, Xavier University, Texas
+               A&amp;M University</sponsor>
+            <principal>Jessica Richard, Hilary Havens, Robin Runia, Susan Egenolf</principal>
+            <respStmt>
+               <resp>Transcription and coding by</resp>
+               <persName ref="Id_who">Micah Cook
+               </persName>
+               <persName ref="Id_who">Jamie Kramer</persName>
+               <!-- If you're the last person interacting with the file, enter your name last on the list -->
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>First digital edition in TEI, date: <date when="2023-08-03">
+               </date>
+            </edition>
+            <respStmt>
+               <orgName type="naf" ref="https://id.loc.gov/authorities/names/n78095799.html">
+                  Piermont Morgan Library
+               </orgName>
+               <resp> photos include:
+                  Edgeworth_Morgan_196281_1829_05_11_page01.jpg,
+                  Edgeworth_Morgan_196281_1829_05_11_page02.jpg,
+                  Edgeworth_Morgan_196281_1829_05_11_page03.jpg
+               </resp>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Maria Edgeworth Letters Project</authority>
+            <date>2022</date>
+            <availability>
+               <!--Uncomment the appropriate line, based on the archive that holds the physical copy of this letter, 
+                  and delete the other comment line(s).-->
+               <p>Reproduced by courtesy of the <orgName ref="#OrgName">Piermont Morgan Library</orgName>
+               </p>
+               <licence>Distributed under a Creative Commons Attribution-ShareAlike 3.0 Unported
+                  License</licence>
+            </availability>
+            <idno>Edgeworth_Morgan_196281_1829_05_11</idno> 
+         </publicationStmt>
+         <seriesStmt>
+            <title>Maria Edgeworth Letters Project</title>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <!-- This section of the header identifies the original manuscript source. -->
+               <msIdentifier>
+                  <repository>Piermont Morgan Library</repository>
+                  <collection><!-- Enter specific archival collection if applicable--></collection>
+                  <idno><!--Consult library or WorldCat for this info--></idno>
+               </msIdentifier>
+               
+               <!-- FROM LAURA: it's here (below) in the head that I added the full information about the author,
+                  and you could add full information about the addressee as well. -->
+               <head>Letter from 
+                     <persName xml:id="EdgeM1" from="1768" to="1849">
+                        <forename>Maria</forename>
+                        <surname>Edgeworth</surname>
+                        <date>1768-1849</date>
+                        <idno type="VIAF">71477273</idno>
+                        <idno type="SNAC">62567029</idno>
+                     </persName>
+                  to <persName ref="./Personography.xml#McLaJ1">John M<hi rend="superscript">c</hi>Laughlin</persName>, <placeName ref="./Placeography.xml#US">America</placeName>, 
+                  <date when="1829-05-11">May 11<hi rend="superscript">th</hi> 1829 [/note]<lb/></date>
+               </head>
+               <physDesc>
+                  <!-- optional physical description of the letter goes here: paper size and condition, seal, postmarks, etc.-->
+               </physDesc>
+            </msDesc>
+            
+            <!-- FROM LAURA: where to put the following information in <bibl> is still a question: 
+               ask TEI List whether it should be in the sourceDesc or elsewhere? -->
+            
+            <bibl>In addition to our edited version, this letter was previously published in
+               <!--complete bibiographical info if letter was published in a book here - if not delete-->
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <!--Where Edgeworth uses nonstandard spelling and hyphenation of words, transcriber-coders 
+               should use TEI elements “choice," “sic," and “reg" to encode both Edgeworth’s 
+               spelling and the regular international standard of Oxford English spelling, 
+               following the first listed spelling in the Oxford English Dictionary. -->
+            <p>Edgeworth’s spelling and punctuation are retained in transcription, except where a
+               word is split at the end of a line and the beginning of the next in a manuscript. The
+               long s and ligatured forms are silently emended.</p>
+         </editorialDecl>
+         <classDecl>
+            <taxonomy xml:id="relators">
+               <bibl>Marc Relators</bibl>
+               <category xml:id="aut">
+                  <catDesc>Author</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="lcsh">
+               <bibl>Subjects</bibl>
+               <category>
+                  <catDesc xml:id="AntislaveryMovements">Antislavery movements
+                     <idno type="loc">sh85123315</idno>
+                  </catDesc>
+                  <catDesc xml:id="Birth">Birth
+                     <idno type="loc">sh86004053</idno>
+                  </catDesc>
+                  <catDesc xml:id="Death">Death
+                     <idno type="loc">sh85036085</idno>
+                  </catDesc>
+                  <catDesc xml:id="Education">Education
+                     <idno type="loc">sh85040989</idno>
+                  </catDesc>
+                  <catDesc xml:id="Imperialism">Imperialism
+                     <idno type="loc">sh85064628</idno>
+                  </catDesc>
+                  <catDesc xml:id="FictitiousCharacters">Fictitious characters
+                     <idno type="loc">sh99004183</idno>
+                  </catDesc>
+                  <catDesc xml:id="Marriage">Marriage
+                     <idno type="loc">sh85081416</idno>
+                  </catDesc>
+                  <catDesc xml:id="Nationalism">Nationalism
+                     <idno type="loc">sh85090150</idno>
+                  </catDesc>
+                  <catDesc xml:id="PoliticsAndCulture">Politics and culture
+                     <idno type="loc">sh85104468</idno>
+                  </catDesc>
+                  <catDesc xml:id="Race">Race  
+                     <idno type="loc">sh85110232</idno>
+                  </catDesc>
+                  <catDesc xml:id="Religion">Religion
+                     <idno type="loc">sh85112549</idno>
+                  </catDesc>
+                  <catDesc xml:id="Science">Science
+                     <idno type="loc">sh85118553</idno>
+                  </catDesc>
+                  <catDesc xml:id="Technology">Technology
+                     <idno type="loc">sh85133147</idno>
+                  </catDesc>
+                  <catDesc xml:id="Slavery">Slavery
+                     <idno type="loc">sh85123314</idno>
+                  </catDesc>
+                  <catDesc xml:id="Travel">Travel
+                     <idno type="loc">sh85137149</idno>
+                  </catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="works">
+               <bibl>Works</bibl>
+               <category>
+                  <catDesc xml:id="w1">Belinda</catDesc>
+                  <catDesc xml:id="w2">Castle Rackrent</catDesc>
+                  <catDesc xml:id="w3">Comic Dramas, in Three Acts</catDesc>
+                  <catDesc xml:id="w4">Early Lessons</catDesc>
+                  <catDesc xml:id="w5">Essay on Irish Bulls</catDesc>
+                  <catDesc xml:id="w6">Frank: a Sequel to Frank in Early Lessons</catDesc>
+                  <catDesc xml:id="w7">Harrington, a Tale; and Ormond, a Tale</catDesc>
+                  <catDesc xml:id="w8">Harry and Lucy Concluded</catDesc>
+                  <catDesc xml:id="w9">Leonora</catDesc>
+                  <catDesc xml:id="w10">Letters for Literary Ladies</catDesc>
+                  <catDesc xml:id="w11">Moral Tales for Young People</catDesc>
+                  <catDesc xml:id="w12">Moral Tales</catDesc>
+                  <catDesc xml:id="w13">Patronage</catDesc>
+                  <catDesc xml:id="w14">Popular Tales</catDesc>
+                  <catDesc xml:id="w15">Practical Education</catDesc>
+                  <catDesc xml:id="w16">Readings on Poetry</catDesc>
+                  <catDesc xml:id="w17">Ormond</catDesc>
+                  <catDesc xml:id="w18">The Absentee</catDesc>
+                  <catDesc xml:id="w19">Tales of Fashionable Life</catDesc>
+                  <catDesc xml:id="w20">The Contrast</catDesc>
+                  <catDesc xml:id="w21">The Modern Griselda; a Tale</catDesc>
+                  <catDesc xml:id="w22">The Parent's Assistant</catDesc>
+                  <catDesc xml:id="w23">Tomorrow; or the Dangers of Delay</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
+            </correspAction>
+            <correspAction type="received">
+               <persName><!--RECIPIENT NAME--></persName>
+            </correspAction>
+         </correspDesc>
+         <textClass>
+            <keywords scheme="/">
+               <list type="simple">
+                  <item>English literature</item>
+                  <item>History</item>
+               </list>
+            </keywords>
+            <catRef target="#f7" scheme="#f"/>
+            <catRef target="#hist #el" scheme="locSUB"/>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2023-08-07" who="Id_who">
+         Jamie Kramer: revisions before Github upload
+         </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <pb n="1" facs="Edgeworth_Morgan_196281_1829_05_11_page01.jpg"/>
+            
+            <opener>
+               <dateline>
+                  <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
+                  <name type="place" ref="./Placeography.xml#Edgeworthstown_IE"/>Edgeworths Town
+                  <date when="1829-11-05"/>May 11<hi rend="superscript">th</hi>, 1829.
+               </dateline>   
+            </opener>
+            <p>The bearer, <persName ref="./Personography.xml#McLaJ1">John M<hi rend="superscript">c</hi>Laughlin</persName> has<lb/>
+               been employed by the Edgeworth family<lb/>
+               as a laborer for many years-- He is<lb/>
+               a good groom -- a <hi rend="underline">very</hi> good groom -- He is<lb/> 
+               honest, industrious, and for the<lb/>
+               <hi rend="underline">last four years sober as our our steward assures me</hi><lb/>
+               We have had many opportunities<lb/>
+               of judging of his honesty, because he<lb/>
+               he has been trusted in every room in<lb/>
+               this house when it was painting &amp;<lb/>
+               when he had no watch over him<lb/>
+               but his own honesty - Nothing was<lb/>
+               ever missed - At another time when<lb/>
+               this house was on fire he distinguished<lb/>
+               himself by his zeal, courage &amp; presence<lb/>
+               of mind -<lb/></p>
+               <p>His fellow workmen are all<lb/>
+               sorry he is going away; We all wish<lb/>
+               that he may improve his own condition<lb/>
+               by going to <placeName ref="./Placeography.xml#US">America</placeName> &amp; in this hope I give<lb/>
+
+            <pb n="2" facs="Edgeworth_Morgan_196281_1829_05_11_page02.jpg"/>
+
+               him this character- which I trust may<lb/>
+               procure him employment as I am<lb/>
+               told has been the consequence of some<lb/>
+               characters which have been given by me<lb/>
+               to persons going to <placeName ref="./Placeography.xml#US">America</placeName> - <add>This I chiefly attribute to</add> my never<lb/>
+               putting my name to any <choice><orig>recommen-<lb/>
+               dation</orig><reg>recommendation</reg></choice> <del>which</del> but what I seriously<lb/>
+               believe to be true &amp; just -<lb/></p>
+            <closer>
+               May 11<hi rend="superscript">th</hi>. 1829<lb/>
+               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName><lb/>
+
+
+               <pb n="3" facs="Edgeworth_Morgan_196281_1829_05_11_page03.jpg"/>
+               [note]<persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>'s letter<lb/>
+               recommending <persName ref="./Personography.xml#McLaJ1">John <choice><orig>M<hi rend="superscript">c</hi>Glaughlin</orig><reg>M<hi rend="superscript">c</hi>Laughlin</reg></choice></persName><lb/>
+                  <placeName ref="./Placeography.xml#Edgeworthstown_IE">Edgeworthtown Ireland</placeName><lb/>
+                  May 11<hi rend="superscript">th</hi> 1829 [/note]<lb/>
+            </closer>
+         </div>
+      </body>
+      <back> </back>
+   </text>
+</TEI>
