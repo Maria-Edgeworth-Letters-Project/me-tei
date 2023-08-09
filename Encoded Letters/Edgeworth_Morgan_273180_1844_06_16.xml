@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from Maria Edgeworth to [Elizabeth Agnew], June 16th, 1844</title>
+            <author>Maria Edgeworth</author>
+            <editor ref="Id_who"> Jessica Richard
+               <!--Editor on the Maria Edgeworth Letters Project overseeing the coding of this particular letter: FirstName LastName -->
+            </editor>
+            <editor ref="Id_who"> Robin Runia
+               <!--Editor on the Maria Edgeworth Letters Project overseeing the coding of this particular letter: FirstName LastName -->
+            </editor>
+            <sponsor>
+               <orgName>Maria Edgeworth Letters Project</orgName>
+            </sponsor>
+            <sponsor>Wake Forest University, University of Tennessee, Xavier University, Texas
+               A&amp;M University</sponsor>
+            <principal>Jessica Richard, Hilary Havens, Robin Runia, Susan Egenolf</principal>
+            <respStmt>
+               <resp>Transcription and coding by</resp>
+               <persName ref="Id_who">Mary Outland
+               </persName>
+               <!-- List all transcribers or coders here, editors and students alike, <persName> by <persName>.-->
+               <persName ref="Id_who">Jamie Kramer</persName>
+               <!-- If you're the last person interacting with the file, enter your name last on the list -->
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>First digital edition in TEI, date: <date when="2023-06-12">
+                  <!--enter the date on which the first coder created and saved this XML file in google drive-->
+               </date>
+            </edition>
+            <respStmt>
+               <orgName type="naf" ref="https://id.loc.gov/authorities/names/n78095799">
+                  Pierpont Morgan Library
+               </orgName>
+               <resp> photos include: Edgeworth_Morgan_273180_1844_06_16_page01.jpg, Edgeworth_Morgan_273180_1844_06_16_page02.jpg, Edgeworth_Morgan_273180_1844_06_16_page03.jpg,  Edgeworth_Morgan_273180_1844_06_16_page04.jpg
+               </resp>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Maria Edgeworth Letters Project</authority>
+            <date>2022</date>
+            <availability>
+               <!--Uncomment the appropriate line, based on the archive that holds the physical copy of this letter, 
+                  and delete the other comment line(s).-->
+               <p>Reproduced by courtesy of the <orgName ref="https://id.loc.gov/authorities/names/n78095799">Pierpont Morgan Library</orgName>
+               </p>
+               <licence>Distributed under a Creative Commons Attribution-ShareAlike 3.0 Unported
+                  License</licence>
+            </availability>
+            <idno>Edgeworth_Morgan_273180_1844_06_16</idno> 
+         </publicationStmt>
+         <seriesStmt>
+            <title>Maria Edgeworth Letters Project</title>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <!-- This section of the header identifies the original manuscript source. -->
+               <msIdentifier>
+                  <repository>Pierpont Morgan Library</repository>
+                  <collection><!-- Enter specific archival collection if applicable--></collection>
+                  <idno><!--Consult library or WorldCat for this info--></idno>
+               </msIdentifier>
+               
+               <!-- FROM LAURA: it's here (below) in the head that I added the full information about the author,
+                  and you could add full information about the addressee as well. -->
+               <head>Letter from 
+                     <persName xml:id="EdgeM1" from="1768" to="1849">
+                        <forename>Maria</forename>
+                        <surname>Edgeworth</surname>
+                        <date>1768-1849</date>
+                        <idno type="VIAF">71477273</idno>
+                        <idno type="SNAC">62567029</idno>
+                     </persName>
+                  to <persName ref= "./Personography.xml#AgneE1">Elizabeth Agnew</persName>, 
+                  <date when="1844-06-16">June 16 <hi rend="superscript">th</hi>1844 </date>
+               </head>
+               <physDesc>
+                  <!-- optional physical description of the letter goes here: paper size and condition, seal, postmarks, etc.-->
+               </physDesc>
+            </msDesc>
+            
+            <!-- FROM LAURA: where to put the following information in <bibl> is still a question: 
+               ask TEI List whether it should be in the sourceDesc or elsewhere? -->
+            
+            <bibl>In addition to our edited version, this letter was previously published in
+               <!--complete bibiographical info if letter was published in a book here - if not delete-->
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <!--Where Edgeworth uses nonstandard spelling and hyphenation of words, transcriber-coders 
+               should use TEI elements “choice," “sic," and “reg" to encode both Edgeworth’s 
+               spelling and the regular international standard of Oxford English spelling, 
+               following the first listed spelling in the Oxford English Dictionary. -->
+            <p>Edgeworth’s spelling and punctuation are retained in transcription, except where a
+               word is split at the end of a line and the beginning of the next in a manuscript. The
+               long s and ligatured forms are silently emended.</p>
+         </editorialDecl>
+         <classDecl>
+            <taxonomy xml:id="relators">
+               <bibl>Marc Relators</bibl>
+               <category xml:id="aut">
+                  <catDesc>Author</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="lcsh">
+               <bibl>Subjects</bibl>
+               <category>
+                  <catDesc xml:id="AntislaveryMovements">Antislavery movements
+                     <idno type="loc">sh85123315</idno>
+                  </catDesc>
+                  <catDesc xml:id="Birth">Birth
+                     <idno type="loc">sh86004053</idno>
+                  </catDesc>
+                  <catDesc xml:id="Death">Death
+                     <idno type="loc">sh85036085</idno>
+                  </catDesc>
+                  <catDesc xml:id="Education">Education
+                     <idno type="loc">sh85040989</idno>
+                  </catDesc>
+                  <catDesc xml:id="Imperialism">Imperialism
+                     <idno type="loc">sh85064628</idno>
+                  </catDesc>
+                  <catDesc xml:id="FictitiousCharacters">Fictitious characters
+                     <idno type="loc">sh99004183</idno>
+                  </catDesc>
+                  <catDesc xml:id="Marriage">Marriage
+                     <idno type="loc">sh85081416</idno>
+                  </catDesc>
+                  <catDesc xml:id="Nationalism">Nationalism
+                     <idno type="loc">sh85090150</idno>
+                  </catDesc>
+                  <catDesc xml:id="PoliticsAndCulture">Politics and culture
+                     <idno type="loc">sh85104468</idno>
+                  </catDesc>
+                  <catDesc xml:id="Race">Race  
+                     <idno type="loc">sh85110232</idno>
+                  </catDesc>
+                  <catDesc xml:id="Religion">Religion
+                     <idno type="loc">sh85112549</idno>
+                  </catDesc>
+                  <catDesc xml:id="Science">Science
+                     <idno type="loc">sh85118553</idno>
+                  </catDesc>
+                  <catDesc xml:id="Technology">Technology
+                     <idno type="loc">sh85133147</idno>
+                  </catDesc>
+                  <catDesc xml:id="Slavery">Slavery
+                     <idno type="loc">sh85123314</idno>
+                  </catDesc>
+                  <catDesc xml:id="Travel">Travel
+                     <idno type="loc">sh85137149</idno>
+                  </catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="works">
+               <bibl>Works</bibl>
+               <category>
+                  <catDesc xml:id="w1">Belinda</catDesc>
+                  <catDesc xml:id="w2">Castle Rackrent</catDesc>
+                  <catDesc xml:id="w3">Comic Dramas, in Three Acts</catDesc>
+                  <catDesc xml:id="w4">Early Lessons</catDesc>
+                  <catDesc xml:id="w5">Essay on Irish Bulls</catDesc>
+                  <catDesc xml:id="w6">Frank: a Sequel to Frank in Early Lessons</catDesc>
+                  <catDesc xml:id="w7">Harrington, a Tale; and Ormond, a Tale</catDesc>
+                  <catDesc xml:id="w8">Harry and Lucy Concluded</catDesc>
+                  <catDesc xml:id="w9">Leonora</catDesc>
+                  <catDesc xml:id="w10">Letters for Literary Ladies</catDesc>
+                  <catDesc xml:id="w11">Moral Tales for Young People</catDesc>
+                  <catDesc xml:id="w12">Moral Tales</catDesc>
+                  <catDesc xml:id="w13">Patronage</catDesc>
+                  <catDesc xml:id="w14">Popular Tales</catDesc>
+                  <catDesc xml:id="w15">Practical Education</catDesc>
+                  <catDesc xml:id="w16">Readings on Poetry</catDesc>
+                  <catDesc xml:id="w17">Ormond</catDesc>
+                  <catDesc xml:id="w18">The Absentee</catDesc>
+                  <catDesc xml:id="w19">Tales of Fashionable Life</catDesc>
+                  <catDesc xml:id="w20">The Contrast</catDesc>
+                  <catDesc xml:id="w21">The Modern Griselda; a Tale</catDesc>
+                  <catDesc xml:id="w22">The Parent's Assistant</catDesc>
+                  <catDesc xml:id="w23">Tomorrow; or the Dangers of Delay</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref= "./Personography.xml#AgneE1">Elizabeth Agnew</persName>
+            </correspAction>
+         </correspDesc>
+         <textClass>
+            <keywords scheme="/">
+               <list type="simple">
+                  <item>English literature</item>
+                  <item>History</item>
+               </list>
+            </keywords>
+            <catRef target="#f7" scheme="#f"/>
+            <catRef target="#hist #el" scheme="locSUB"/>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2023-08-08" who="Id_who">
+            <persName>Jamie Kramer</persName>- revisions for github upload
+         </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <pb n="1" facs="Edgeworth_Morgan_273180_1844_06_16_page01.jpg"/>
+            
+            <opener>
+               <dateline>
+                  <date when="1844-06-16"/>June 16 <hi rend="superscript">th</hi>1844 </dateline>
+               [note] To <persName ref="./Personography.xml#AgneE1">Elizabeth Agnew</persName><lb/>
+               (Lis<unclear>g</unclear>).[/note]<lb/>
+               <salute>
+                  Dear <persName ref="./Personography.xml#AgneE1">Madam</persName>
+               </salute>
+            </opener>
+            <p>I have been for this month<lb/>
+               past dangerously ill of<lb/>
+               Erosepilas - otherwise you<lb/> 
+               should have heard from me<lb/>
+               and should have received<lb/>
+               my most sincere thanks<lb/>
+               for the beautiful, <choice><orig>impur-<lb/>
+                  chaseable</orig><reg>impurchaseable</reg></choice> present you have<lb/>
+               made me, and for the<lb/>
+               Inscription so adding to
+               its value and so <choice><orig>peculiar<lb/>
+                  -ly</orig><reg>peculiarly</reg></choice> gratifying to me -<lb/>
+            </p>
+            <p>
+               I presume not to praise<lb/>
+               your talents for drawing<lb/>
+               and for writing have been<lb/>
+               so felt and so expressed<lb/>
+               by the best judges and by<lb/>
+               the public in general, that<lb/>
+               
+            <pb n="2" facs="Edgeworth_Morgan_273180_1844_06_16_page02.jpg"/>
+               
+               the tribute of praise from<lb/>
+               any individual were not<lb/>
+               only superfluous but<lb/>
+               must appear rather <choice><orig>imper<lb/>
+               -tinent</orig><reg>impertinent</reg></choice> -<lb/></p>
+               <p>- Allow me to say<lb/>
+               that what I have heard of<lb/>
+               you from your own family<lb/>
+               with whom I have had the<lb/>
+               pleasure of becoming <choice><orig>acquaint<lb/>
+               ed</orig><reg>acquainted</reg></choice>, and the character of<lb/>
+               your mind which I have<lb/>
+               gathered from your works<lb/>
+               and from your conduct<lb/>
+               from your sacrifices to <del><unclear></unclear></del><lb/>
+               your sense of duty and<lb/>
+               aspirations after The <choice><orig>great-<lb/>
+                  est</orig><reg>greatest</reg></choice> good, are altogether<lb/>
+               what have interested me.<lb/>
+               For you my dear<persName ref="./Personography.xml#AgneE1">Madam</persName><lb/>
+               far above that admiration<lb/>
+               which your talents excite<lb/>
+            </p>
+            
+            <pb n="3" facs="Edgeworth_Morgan_273180_1844_06_16_page03.jpg"/>
+               
+               <p>- However we may differ<lb/>
+               in opinion, I rejoice, in<lb/>
+               feeling that no exclusive<lb/>
+               belief separates us from<lb/>
+               each other - The last of<lb/>
+               those amiable lines which<lb/>
+               you have addressed to me<lb/>
+               I consider as not only <choice><orig>ho-<lb/>
+               norable</orig><reg>honorable</reg></choice> to your own <choice><orig>cha-<lb/>
+               ritable</orig><reg>charitable</reg></choice> and liberal Faith<lb/>
+               but as doing honor and<lb/>
+               justice to the religion which<lb/>
+               you have embraced -<lb/>
+               your hope that we may<lb/>
+               meet hereafter in happiness<lb/>
+               proven to me that the <add>Roman</add> Catholic<lb/>
+               faith does not preclude this<lb/>
+               belief, and I rejoice <del/>for<lb/>
+               in this conviction to which<lb/>
+               I had before been inclined<lb/>
+               by the assertions of some well<lb/>
+                  informed <choice><orig>R</orig><reg>Roman</reg></choice> Catholics and<lb/>
+                  
+            <pb n="4" facs="Edgeworth_Morgan_273180_1844_06_16_page04.jpg"/>
+                  
+               in which I am most happy<lb/>
+               to be thus confirmed by<lb/>
+               you<lb/>
+              
+            </p>
+            <closer>
+               Believe me dear<persName ref="./Personography.xml#AgneE1"><choice><orig>Ma<lb/>
+                  dam</orig><reg>Madam</reg></choice></persName><lb/>
+               Your much obliged<lb/>
+               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
+            </closer>
+         </div>
+      </body>
+      <back> </back>
+   </text>
+</TEI>
