@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from Maria Edgeworth to Sir Francis Beaufort, May 1825</title>
+            <author>Richard Lovell Edgeworth</author>
+            <editor ref="Id_who">
+               Jamie Kramer
+            </editor>
+            <sponsor>
+               <orgName>Maria Edgeworth Letters Project</orgName>
+            </sponsor>
+            <sponsor>Wake Forest University, University of Tennessee, Xavier University, Texas
+               A&amp;amp;M University</sponsor>
+            <principal>Jessica Richard, Hilary Havens, Robin Runia, Susan Egenolf</principal>
+            <respStmt>
+               <resp>Transcription and coding by</resp>
+               <persName ref="Id_who">Jamie Kramer
+               </persName>
+               <!-- List all transcribers or coders here, editors and students alike, <persName> by <persName>.-->
+               <persName ref="Id_who"><!--FirstName LastName--></persName>
+               <!-- If you're the last person interacting with the file, enter your name last on the list -->
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>First digital edition in TEI, date: <date when="2023-08-09">
+            </date>
+            </edition>
+            <respStmt>
+               <orgName type="naf" ref="http://id.loc.gov/authorities/names/n79049138">
+                  Henry E. Huntington Library and Art Gallery
+               </orgName>
+               <resp> photos include: Edgeworth_Huntington_HM28602_1825_05_xx_page01.jpg, Edgeworth_Huntington_HM28602_1825_05_xx_page02.jpg
+               </resp>
+            </respStmt>
+         </editionStmt>
+         
+         
+         <publicationStmt>
+            <authority>Maria Edgeworth Letters Project</authority>
+            <date>2023</date>
+            <availability>
+               <p>Reproduced by courtesy of the <orgName ref="http://id.loc.gov/authorities/names/n79049138">
+                  Henry E. Huntington Library and Art Gallery</orgName>. 
+               </p>
+               <licence>Distributed under a Creative Commons Attribution-ShareAlike 3.0 Unported
+                  License</licence>
+            </availability>
+            
+            <idno>Edgeworth_Huntington_HM28602_1825_05_xx</idno> 
+         </publicationStmt>
+         <seriesStmt>
+            <title>Maria Edgeworth Letters Project</title>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <repository>Henry E. Huntington Library and Art Gallery</repository>
+                  <collection>Manuscripts, Huntington Digital Library, call number mssHM 28602, 	
+                     Manuscripts, Huntington Digital Library. System Identifier: 	
+                     622946, https://hdl.huntington.org/digital/collection/p15150coll7/id/55318</collection>
+                  <idno/>
+                  <!--Consult library or WorldCat for this info-->
+               </msIdentifier>
+               
+               <head>Letter from 
+                  <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
+                  to <persName ref="./Personography.xml#BeauF1">Sir Francis Beaufort</persName>
+                  <date when="1825-05">May 1825</date>
+               </head>
+               <physDesc>
+               </physDesc>
+            </msDesc>
+            <bibl>In addition to our edited version, this letter was previously published in
+               <!--complete bibiographical info if letter was published in a book here-->
+            </bibl>
+            
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <!--Where Edgeworth uses nonstandard spelling and hyphenation of words, transcriber-coders 
+               should use TEI elements “choice," “sic," and “reg" to encode both Edgeworth’s 
+               spelling and the regular international standard of Oxford English spelling, 
+               following the first listed spelling in the Oxford English Dictionary. -->
+            <p>Edgeworth’s spelling and punctuation are retained in transcription, except where a
+               word is split at the end of a line and the beginning of the next in a manuscript. The
+               long s and ligatured forms are silently emended.</p>
+         </editorialDecl>
+         
+         <classDecl>
+            <taxonomy xml:id="relators">
+               <bibl>Marc Relators</bibl>
+               <category xml:id="aut">
+                  <catDesc>Author</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="lcsh">
+               <bibl>Subjects</bibl>
+               <category>
+                  <catDesc xml:id="AntislaveryMovements">Antislavery movements
+                     <idno type="loc">sh85123315</idno>
+                  </catDesc>
+                  <catDesc xml:id="Birth">Birth
+                     <idno type="loc">sh86004053</idno>
+                  </catDesc>
+                  <catDesc xml:id="Death">Death
+                     <idno type="loc">sh85036085</idno>
+                  </catDesc>
+                  <catDesc xml:id="Education">Education
+                     <idno type="loc">sh85040989</idno>
+                  </catDesc>
+                  <catDesc xml:id="Imperialism">Imperialism
+                     <idno type="loc">sh85064628</idno>
+                  </catDesc>
+                  <catDesc xml:id="FictitiousCharacters">Fictitious characters
+                     <idno type="loc">sh99004183</idno>
+                  </catDesc>
+                  <catDesc xml:id="Marriage">Marriage
+                     <idno type="loc">sh85081416</idno>
+                  </catDesc>
+                  <catDesc xml:id="Nationalism">Nationalism
+                     <idno type="loc">sh85090150</idno>
+                  </catDesc>
+                  <catDesc xml:id="PoliticsAndCulture">Politics and culture
+                     <idno type="loc">sh85104468</idno>
+                  </catDesc>
+                  <catDesc xml:id="Race">Race  
+                     <idno type="loc">sh85110232</idno>
+                  </catDesc>
+                  <catDesc xml:id="Religion">Religion
+                     <idno type="loc">sh85112549</idno>
+                  </catDesc>
+                  <catDesc xml:id="Science">Science
+                     <idno type="loc">sh85118553</idno>
+                  </catDesc>
+                  <catDesc xml:id="Technology">Technology
+                     <idno type="loc">sh85133147</idno>
+                  </catDesc>
+                  <catDesc xml:id="Slavery">Slavery
+                     <idno type="loc">sh85123314</idno>
+                  </catDesc>
+                  <catDesc xml:id="Travel">Travel
+                     <idno type="loc">sh85137149</idno>
+                  </catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="works">
+               <bibl>Works</bibl>
+               <category>
+                  <catDesc xml:id="w1">Belinda</catDesc>
+                  <catDesc xml:id="w2">Castle Rackrent</catDesc>
+                  <catDesc xml:id="w3">Comic Dramas, in Three Acts</catDesc>
+                  <catDesc xml:id="w4">Early Lessons</catDesc>
+                  <catDesc xml:id="w5">Essay on Irish Bulls</catDesc>
+                  <catDesc xml:id="w6">Frank: a Sequel to Frank in Early Lessons</catDesc>
+                  <catDesc xml:id="w7">Harrington, a Tale; and Ormond, a Tale</catDesc>
+                  <catDesc xml:id="w8">Harry and Lucy Concluded</catDesc>
+                  <catDesc xml:id="w9">Leonora</catDesc>
+                  <catDesc xml:id="w10">Letters for Literary Ladies</catDesc>
+                  <catDesc xml:id="w11">Moral Tales for Young People</catDesc>
+                  <catDesc xml:id="w12">Moral Tales</catDesc>
+                  <catDesc xml:id="w13">Patronage</catDesc>
+                  <catDesc xml:id="w14">Popular Tales</catDesc>
+                  <catDesc xml:id="w15">Practical Education</catDesc>
+                  <catDesc xml:id="w16">Readings on Poetry</catDesc>
+                  <catDesc xml:id="w17">Ormond</catDesc>
+                  <catDesc xml:id="w18">The Absentee</catDesc>
+                  <catDesc xml:id="w19">Tales of Fashionable Life</catDesc>
+                  <catDesc xml:id="w20">The Contrast</catDesc>
+                  <catDesc xml:id="w21">The Modern Griselda; a Tale</catDesc>
+                  <catDesc xml:id="w22">The Parent's Assistant</catDesc>
+                  <catDesc xml:id="w23">Tomorrow; or the Dangers of Delay</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="people">
+               <bibl>People</bibl>
+               <category>
+                  <catDesc xml:id="BabbageCharles">Babbage, Charles, 1791-1871
+                     <idno type="loc">n50031102</idno>
+                  </catDesc>
+                  <catDesc xml:id="BarbauldAL">Barbauld, Mrs. (Anna Letitia), 1743-1825
+                     <idno type="loc">n84136092</idno>
+                  </catDesc>
+                  <catDesc xml:id="EdgeworthRL">Edgeworth, Richard Lovell, 1744-1817
+                     <idno type="loc">n79061007</idno>
+                  </catDesc>
+                  <catDesc xml:id="EdgeworthM">Edgeworth, Maria, 1768-1849
+                     <idno type="loc">n79061006</idno>
+                     <date>1768-1849</date>
+                     <idno type="VIAF">71477273</idno>
+                     <idno type="SNAC">62567029</idno>
+                  </catDesc>
+                  <catDesc xml:id="RobinsonM">Robinson, Mary, 1758-1800
+                     <idno type="loc">n83122576</idno>
+                     <idno type="VIAF">9888105</idno>
+                     <idno type="SNAC">32125250</idno>
+                  </catDesc>
+                  <catDesc xml:id="BurneyF">Burney, Fanny, 1752-1840
+                     <idno type="loc">n80075853</idno>
+                  </catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="places">
+               <bibl>Places</bibl>
+               <category>
+                  <catDesc xml:id="EdgeworthsTown">Edgeworths' Town<idno type="getty">tgn/1042937</idno></catDesc>
+                  <catDesc xml:id="Peterborough">Peterborough, UK<idno type="getty">tgn/7026520</idno></catDesc>
+                  <catDesc xml:id="CranfordI">Cranford, Ireland<idno type="getty">tgn/7901042</idno></catDesc>
+                  <catDesc xml:id="Kettering">Kettering, UK<idno type="getty">tgn/7010904</idno></catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="period">
+               <bibl>Period</bibl>
+               <category>
+                  <catDesc>xx</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+         
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="./Personography.xml#BeauF1">Sir Francis Beaufort</persName>
+            </correspAction>
+         </correspDesc>
+         
+         <textClass>
+            <keywords scheme="">
+               <list type="simple">
+                  <item>English literature</item>
+                  <item>History</item>
+               </list>
+            </keywords>
+            <catRef target="#f7" scheme="#f"/>
+            <catRef target="#hist #el" scheme="locSUB"/>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-01-01" who="Id_who">
+            <!--Brief description of what you did here.-->
+         </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <pb n="1" facs="Edgeworth_Huntington_HM28602_1825_05_xx_page01.jpg"/>
+
+            <p>	- I have written to <persName ref="./Personography.xml#RopeR1">Lord Rope</persName> and have desired<lb/>
+               him to request <persName ref="./Personography.xml#ParsW1">Lord Oxmantown</persName> will <choice><orig>commu-<lb/>
+                  nicate</orig><reg>communicate</reg></choice> his answer to you - <note>May 1825</note><lb/></p>
+            <p>- I have also written to <persName ref="./Personography.xml#FostJ1">Leslie Foster</persName> desiring<lb/>
+               him to do ditto - Both gentlemen ought I<lb/>
+               think and will I hope be gratified &amp; obliged<lb/>
+               by your application - I told <persName ref="./Personography.xml#FxxxL1">L F</persName> that if he did<lb/>
+               not chuse to give his reasons publickly for not<lb/>
+               liking your company they should not go <choice><orig>far-<lb/>
+                  ther</orig><reg>farther</reg></choice> than to you if he trusts them to me - But<lb/>
+               I think there must be some mistake about<lb/>
+               his disapproval -<lb/>
+               <hi rend="underline"><persName ref="./Personography.xml#BellJ1">Bellamy</persName>'s <title ref= "./Workography.xml#HolyB1">bible</title></hi> - I enclose a draft for ten <choice><orig>gui-<lb/>
+                  neas</orig><reg>guineas</reg></choice> - most willingly Dear <persName ref="./Personography.xml#BeauF1">Francis</persName> to forward<lb/>
+               any wish of yours and thank you for <choice><orig>mak-<lb/>
+                  -ing</orig><reg>making</reg></choice> known to me your wish - But my name<lb/>
+               I cannot put down to this subscription - I do<lb/>
+               not approve of the thing <hi rend="underline">as far as I know</hi> - &amp; I<lb/>
+               do not know enough <add>to decide</add> <del>to</del> I think with you that<lb/>
+               the <title ref= "./Workography.xml#Quart1">Quarterly <choice><orig>Rev.</orig><reg>Review</reg></choice></title> has been very intemperate &amp;<lb/>
+               shews a dogmatic unchristian spirit - and I<lb/>
+               should be sorry that M<hi rend="superscript">r</hi>. <persName ref="./Personography.xml#BellJ1">Bellamy</persName> were put down<lb/>
+               by such unfair means - But as <persName ref="./Personography.xml#JohnS1">D<hi rend="superscript">r</hi>. J.</persName> said no<lb/>
+               man can be written down in <placeName ref="./Placeography.xml#ENK">England</placeName> by any<lb/>
+               one <hi rend="underline">but himself</hi> - If M<hi rend="superscript">r</hi>. <persName ref="./Personography.xml#BellJ1">Bellamy</persName> be right <title ref= "./Workography.xml#HolyB1">his<lb/>
+               book</title> will sell without a subscription - if wrong<lb/>
+               it will never sell with it - As far as I have been<lb/>
+               informed the first assertion in M<hi rend="superscript">r</hi>. <persName ref="./Personography.xml#BellJ1">B</persName>'s prospectus<lb/>
+               viz "that no translation from the Original Hebrew<lb/>
+               (bible) has been made since the 128<hi rend="superscript">h</hi>. year of Christ is false -<lb/></p>
+               <p>The Commissioners in the reign of <persName ref="./Personography.xml#James1">K <del></del> James</persName> com-<lb/>
+               pared the then translation with the Hebrew rectifying<lb/>
+               whatever they thought errors and retaining only the old<lb/>
+               language where they thought it gave the correct sense -<lb/>
+               - This is tantamount to a complete translation - &amp; you<lb/>
+               cannot call this consecrating error - They might err &amp;<lb/>
+               so may M<hi rend="superscript">r</hi>. <persName ref="./Personography.xml#BellJ1">Bellamy</persName> at this day - But they took nothing<lb/>
+               for granted as far as their judgement went - As to the addi<lb/>
+
+               <pb n="2" facs="Edgeworth_Huntington_HM28602_1825_05_xx_page02.jpg"/>
+               
+               tional means in the present times of understanding Hebrew<lb/>
+               <del>in our days</del> whence do they come? - the new means<lb/>
+               of improving in Greek are from the variety of new<lb/>
+               editions of classical books lexicons &amp;c -<lb/></p>
+               <p>M<hi rend="superscript">r</hi>. <persName ref="./Personography.xml#BellJ1">Bellamy</persName> touches most important points -<lb/>
+               - &amp; you will say is it not right to hear compare &amp;<lb/>
+               judge? - Yes if I could judge or compare after I<lb/>
+               have heard - But I have no means of doing so - It<lb/>
+               must be all between hebrew scholar &amp; hebrew scholar<lb/>
+               as far as human judgment goes - <del>and</del> assertion<lb/>
+               against assertion - all former scholars it appears<lb/>
+               are against M<hi rend="superscript">r</hi>. <persName ref="./Personography.xml#BellJ1">Bellamy</persName> - &amp; who are to be his judges<lb/>
+               now? - Not I - that is all of which I am clear -<lb/></p>
+               <p>But setting aside all these considerations<lb/>
+               even supposing that I were convinced that I had<lb/>
+               a probability of <add><persName ref="./Personography.xml#DarwC1">Darwins</persName></add> important advantage from the<lb/>
+               book I would not publish my name as a <choice><orig>sub-<lb/>
+                  scriber</orig><reg>subscriber</reg></choice> - for this reason - It has been, ever since<lb/>
+               we became authors, <persName ref="./Personography.xml#EdgeR1">my father</persName>'s declared <choice><orig>princi<lb/>
+                  ple</orig><reg>principle</reg></choice> and mine not to take any part in any<lb/>
+               religious controversy - not in any way to <choice><orig>med-<lb/>
+                  dle</orig><reg>meddle</reg></choice> with the subject <add>of religion</add> - This was done with my<lb/>
+               own will &amp; from my own belief that it was<lb/>
+               right during the many years when I wrote<lb/>
+               with <persName ref="./Personography.xml#EdgeR1">my father</persName> - No change has taken place<lb/>
+               in my opinions - To make a change in my<lb/>
+               practice, now that he is no more would be<lb/>
+               most base - It would leave the false inference<lb/>
+               open that I acted under influence and that<lb/>
+               now that influence <add>has</add> ceased my conduct changes<lb/></p>
+               <p>- Supposing that my opinions had changed<lb/>
+               I would not do this - No mortal has a right to<lb/>
+               ask what they are - that is an affair between me<lb/>
+               &amp; my God - But no <del>worldly</del> motive could induce<lb/>
+               me to bend to the side on which I <unclear>see</unclear> my <choice><orig>world-<lb/>
+                  ly</orig><reg>worldly</reg></choice> interest &amp; to which my conscience and<lb/>
+               understanding do not justify me in bending<lb/></p>
+               <p>I need not say my dear friend that all this<lb/>
+               is for you alone - <note>Maria E May 1825</note><lb/>
+            </p>
+         </div>
+      </body>
+      <back> </back>
+   </text>
+</TEI>
