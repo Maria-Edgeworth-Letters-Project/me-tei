@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from Maria Edgeworth to Sir Francis Beaufort, 2/1827</title>
+            <author><persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName></author>
+            <editor ref="Id_who">
+               Jamie Kramer<!--Editor on the Maria Edgeworth Letters Project overseeing the coding of this particular letter: FirstName LastName -->
+            </editor>
+            <sponsor>
+               <orgName>Maria Edgeworth Letters Project</orgName>
+            </sponsor>
+            <sponsor>Wake Forest University, University of Tennessee, Xavier University, Texas
+               A&amp;amp;amp;M University</sponsor>
+            <principal>Jessica Richard, Hilary Havens, Robin Runia, Susan Egenolf</principal>
+            <respStmt>
+               <resp>Transcription and coding by</resp>
+               <persName ref="Id_who">Jamie Kramer<!--FirstName LastName-->
+               </persName>
+               <!-- List all transcribers or coders here, editors and students alike, <persName> by <persName>.-->
+               <persName ref="Id_who"><!--FirstName LastName--></persName>
+               <!-- If you're the last person interacting with the file, enter your name last on the list -->
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>First digital edition in TEI, date: <date when="2023-08-10">
+            </date>
+            </edition>
+            <respStmt>
+               <orgName type="naf" ref="http://id.loc.gov/authorities/names/n79049138">
+                  Henry E. Huntington Library and Art Gallery
+               </orgName>
+               <resp> photos include: 
+                  Edgeworth_Huntington_HM28608_1826_02_xx_page01.jpg,
+                  Edgeworth_Huntington_HM28608_1826_02_xx_page02.jpg,
+                  Edgeworth_Huntington_HM28608_1826_02_xx_page03.jpg,
+                  Edgeworth_Huntington_HM28608_1826_02_xx_page04.jpg
+               </resp>
+            </respStmt>
+         </editionStmt>
+         
+         
+         <publicationStmt>
+            <authority>Maria Edgeworth Letters Project</authority>
+            <date>2023</date>
+            <availability>
+               <p>Reproduced by courtesy of the <orgName ref="http://id.loc.gov/authorities/names/n79049138">
+                  Henry E. Huntington Library and Art Gallery</orgName>. 
+               </p>
+               <licence>Distributed under a Creative Commons Attribution-ShareAlike 3.0 Unported
+                  License</licence>
+            </availability>
+            
+            <idno>Edgeworth_Huntington_HM28608_1826_02_xx</idno> 
+         </publicationStmt>
+         <seriesStmt>
+            <title>Maria Edgeworth Letters Project</title>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <repository>Henry E. Huntington Library and Art Gallery</repository>
+                  <collection>Manuscripts, Huntington Digital Library, call number 	
+                     mssHM 28608, 	
+                     Manuscripts, Huntington Digital Library. System Identifier: 	
+                     622986, https://hdl.huntington.org/digital/collection/p15150coll7/id/55210</collection>
+                  <idno/>
+                  <!--Consult library or WorldCat for this info-->
+               </msIdentifier>
+               
+               <head>Letter from 
+                  <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
+                  to <persName ref="./Personography.xml#BeauF1">Sir Francis Beaufort</persName>, 
+                  <date when="1827-02">Feb. 1827</date>
+                  <placeName ref="./Placeography.xml#London_ENK">London</placeName>
+               </head>
+               <physDesc>
+               </physDesc>
+            </msDesc>
+            <bibl>In addition to our edited version, this letter was previously published in
+               <!--complete bibiographical info if letter was published in a book here-->
+            </bibl>
+            
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <!--Where Edgeworth uses nonstandard spelling and hyphenation of words, transcriber-coders 
+               should use TEI elements “choice," “sic," and “reg" to encode both Edgeworth’s 
+               spelling and the regular international standard of Oxford English spelling, 
+               following the first listed spelling in the Oxford English Dictionary. -->
+            <p>Edgeworth’s spelling and punctuation are retained in transcription, except where a
+               word is split at the end of a line and the beginning of the next in a manuscript. The
+               long s and ligatured forms are silently emended.</p>
+         </editorialDecl>
+         
+         <classDecl>
+            <taxonomy xml:id="relators">
+               <bibl>Marc Relators</bibl>
+               <category xml:id="aut">
+                  <catDesc>Author</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="lcsh">
+               <bibl>Subjects</bibl>
+               <category>
+                  <catDesc xml:id="AntislaveryMovements">Antislavery movements
+                     <idno type="loc">sh85123315</idno>
+                  </catDesc>
+                  <catDesc xml:id="Birth">Birth
+                     <idno type="loc">sh86004053</idno>
+                  </catDesc>
+                  <catDesc xml:id="Death">Death
+                     <idno type="loc">sh85036085</idno>
+                  </catDesc>
+                  <catDesc xml:id="Education">Education
+                     <idno type="loc">sh85040989</idno>
+                  </catDesc>
+                  <catDesc xml:id="Imperialism">Imperialism
+                     <idno type="loc">sh85064628</idno>
+                  </catDesc>
+                  <catDesc xml:id="FictitiousCharacters">Fictitious characters
+                     <idno type="loc">sh99004183</idno>
+                  </catDesc>
+                  <catDesc xml:id="Marriage">Marriage
+                     <idno type="loc">sh85081416</idno>
+                  </catDesc>
+                  <catDesc xml:id="Nationalism">Nationalism
+                     <idno type="loc">sh85090150</idno>
+                  </catDesc>
+                  <catDesc xml:id="PoliticsAndCulture">Politics and culture
+                     <idno type="loc">sh85104468</idno>
+                  </catDesc>
+                  <catDesc xml:id="Race">Race  
+                     <idno type="loc">sh85110232</idno>
+                  </catDesc>
+                  <catDesc xml:id="Religion">Religion
+                     <idno type="loc">sh85112549</idno>
+                  </catDesc>
+                  <catDesc xml:id="Science">Science
+                     <idno type="loc">sh85118553</idno>
+                  </catDesc>
+                  <catDesc xml:id="Technology">Technology
+                     <idno type="loc">sh85133147</idno>
+                  </catDesc>
+                  <catDesc xml:id="Slavery">Slavery
+                     <idno type="loc">sh85123314</idno>
+                  </catDesc>
+                  <catDesc xml:id="Travel">Travel
+                     <idno type="loc">sh85137149</idno>
+                  </catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="works">
+               <bibl>Works</bibl>
+               <category>
+                  <catDesc xml:id="w1">Belinda</catDesc>
+                  <catDesc xml:id="w2">Castle Rackrent</catDesc>
+                  <catDesc xml:id="w3">Comic Dramas, in Three Acts</catDesc>
+                  <catDesc xml:id="w4">Early Lessons</catDesc>
+                  <catDesc xml:id="w5">Essay on Irish Bulls</catDesc>
+                  <catDesc xml:id="w6">Frank: a Sequel to Frank in Early Lessons</catDesc>
+                  <catDesc xml:id="w7">Harrington, a Tale; and Ormond, a Tale</catDesc>
+                  <catDesc xml:id="w8">Harry and Lucy Concluded</catDesc>
+                  <catDesc xml:id="w9">Leonora</catDesc>
+                  <catDesc xml:id="w10">Letters for Literary Ladies</catDesc>
+                  <catDesc xml:id="w11">Moral Tales for Young People</catDesc>
+                  <catDesc xml:id="w12">Moral Tales</catDesc>
+                  <catDesc xml:id="w13">Patronage</catDesc>
+                  <catDesc xml:id="w14">Popular Tales</catDesc>
+                  <catDesc xml:id="w15">Practical Education</catDesc>
+                  <catDesc xml:id="w16">Readings on Poetry</catDesc>
+                  <catDesc xml:id="w17">Ormond</catDesc>
+                  <catDesc xml:id="w18">The Absentee</catDesc>
+                  <catDesc xml:id="w19">Tales of Fashionable Life</catDesc>
+                  <catDesc xml:id="w20">The Contrast</catDesc>
+                  <catDesc xml:id="w21">The Modern Griselda; a Tale</catDesc>
+                  <catDesc xml:id="w22">The Parent's Assistant</catDesc>
+                  <catDesc xml:id="w23">Tomorrow; or the Dangers of Delay</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="people">
+               <bibl>People</bibl>
+               <category>
+                  <catDesc xml:id="BabbageCharles">Babbage, Charles, 1791-1871
+                     <idno type="loc">n50031102</idno>
+                  </catDesc>
+                  <catDesc xml:id="BarbauldAL">Barbauld, Mrs. (Anna Letitia), 1743-1825
+                     <idno type="loc">n84136092</idno>
+                  </catDesc>
+                  <catDesc xml:id="EdgeworthRL">Edgeworth, Richard Lovell, 1744-1817
+                     <idno type="loc">n79061007</idno>
+                  </catDesc>
+                  <catDesc xml:id="EdgeworthM">Edgeworth, Maria, 1768-1849
+                     <idno type="loc">n79061006</idno>
+                     <date>1768-1849</date>
+                     <idno type="VIAF">71477273</idno>
+                     <idno type="SNAC">62567029</idno>
+                  </catDesc>
+                  <catDesc xml:id="RobinsonM">Robinson, Mary, 1758-1800
+                     <idno type="loc">n83122576</idno>
+                     <idno type="VIAF">9888105</idno>
+                     <idno type="SNAC">32125250</idno>
+                  </catDesc>
+                  <catDesc xml:id="BurneyF">Burney, Fanny, 1752-1840
+                     <idno type="loc">n80075853</idno>
+                  </catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="places">
+               <bibl>Places</bibl>
+               <category>
+                  <catDesc xml:id="EdgeworthsTown">Edgeworths' Town<idno type="getty">tgn/1042937</idno></catDesc>
+                  <catDesc xml:id="Peterborough">Peterborough, UK<idno type="getty">tgn/7026520</idno></catDesc>
+                  <catDesc xml:id="CranfordI">Cranford, Ireland<idno type="getty">tgn/7901042</idno></catDesc>
+                  <catDesc xml:id="Kettering">Kettering, UK<idno type="getty">tgn/7010904</idno></catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="period">
+               <bibl>Period</bibl>
+               <category>
+                  <catDesc>xx</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+         
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="./Personography.xml#BeauF1">Sir Francis Beaufort</persName>
+            </correspAction>
+         </correspDesc>
+         
+         <textClass>
+            <keywords scheme="">
+               <list type="simple">
+                  <item>English literature</item>
+                  <item>History</item>
+               </list>
+            </keywords>
+            <catRef target="#f7" scheme="#f"/>
+            <catRef target="#hist #el" scheme="locSUB"/>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-01-01" who="Id_who">
+            <!--Brief description of what you did here.-->
+         </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <pb n="1" facs="Edgeworth_Huntington_HM28608_1826_02_xx_page01.jpg"/>
+            <p>I am weary of waiting for an answer from<lb/>
+               <persName ref="./Personography.xml#LockJ1">M<hi rend= "superscript">r</hi>. Lockhart</persName> - I enclose a note to <persName ref="./Personography.xml#LockS1">M<hi rend= "superscript">rs</hi>. <choice><orig>Lock-<lb/>
+                  -hart</orig><reg>Lockhart</reg></choice></persName> who is a kind creature &amp; I have <choice><orig>commis<lb/>
+                     sioned</orig><reg>commissioned</reg></choice> her to shake the table on which her<lb/>
+               husband is writing or to take his darling<lb/>
+               boy from him till he has penned an<lb/>
+               answer to my letter - She will by these<lb/>
+               or some other means get it done -<lb/></p>
+               <p>Will you have the note delivered<lb/>
+                  at their house in <placeName ref="./Placeography.xml#London_ENK">Town</placeName> - or if they <choice><abbr>sh<hi rend= "superscript">d</hi></abbr><reg>should</reg></choice><lb/>
+                  be out of <placeName ref="./Placeography.xml#London_ENK">Town</placeName> have it directed &amp; forward<lb/>
+               ed to wherever they are-<lb/></p>
+            <p>If you <choice><abbr>sh.<hi rend= "superscript">d</hi></abbr><reg>should</reg></choice> wish to be introduced to<lb/>
+                  <persName ref="./Personography.xml#LockJ1">M<hi rend= "superscript">r</hi> Lockhart</persName> &amp; to settle the business <unclear></unclear><lb/>
+               let me know &amp; I will pen you a note<lb/>
+               introductory - But remember I do<lb/>
+               not press or <hi rend="underline">advise</hi> it - I always say<lb/>
+               plainly whether I think persons would<lb/>
+               suit who are about to be introduced;<lb/>
+                  &amp; I do not think you &amp; <persName ref="./Personography.xml#LockJ1">M<hi rend= "superscript">r</hi>. L</persName> would<lb/>
+               suit each other - But in this I may<lb/>
+               be quite wrong - I <choice><abbr>sh<hi rend= "superscript">d</hi></abbr><reg>should</reg></choice> have said the same<lb/>
+               of <persName ref="./Personography.xml#EdgeW1">William E</persName> &amp; <persName ref="./Personography.xml#LockJ1">M<hi rend= "superscript">r</hi>. L</persName> - yet they agreed<lb/>
+               wondrous well &amp; liked each other for <hi rend="underline">two</hi><lb/>
+               <hi rend="underline">whole</hi> days at <placeName ref="./Placeography.xml#Killarney_IE"></placeName>Killarney!! -<lb/></p>
+               <p>I wish you would be pleased to answer<lb/>
+               me about my own affair of <choice><orig>Chilian</orig><reg>Chilean</reg></choice> bonds<lb/>
+                  - I sent you <persName ref="./Personography.xml#MoilJ1">Moilliet</persName>s urgent letter to me advising<lb/>
+               immediate sale even at the expense of<lb/>
+               
+               <pb n="2" facs="Edgeworth_Huntington_HM28608_1826_02_xx_page02.jpg"/>
+               
+               losing half my 900£ - I told you moreover or<lb/>
+                  sent you <add>the prescient</add> M<hi rend= "superscript">r</hi>. <persName ref="./Personography.xml#RicaD1">Ricardo</persName>'s information respecting<lb/>
+                  <placeName ref="./Placeography.xml#CL"><choice><orig>Chilian</orig><reg>Chilean</reg></choice></placeName> funds - viz that the stoppage in paying<lb/>
+                  the <choice><orig>div<hi rend= "superscript">ds</hi>.</orig><reg>dividends</reg></choice> arises from a quarrel between the<lb/>
+                  merchants who supplied the loan to the <placeName ref="./Placeography.xml#CL"><choice><orig>Chilian</orig><reg>Chilean</reg></choice></placeName> <choice><abbr>Gov<hi rend= "superscript">t</hi></abbr><reg>Government</reg></choice><lb/>
+                  &amp; the <choice><abbr>Gov<hi rend= "superscript">t</hi>.</abbr><reg>Government</reg></choice> - <choice><abbr>The Gov<hi rend= "superscript">t</hi>.</abbr><reg>Government</reg></choice> had promised them certain<lb/>
+               commercial privileges which have not been granted<lb/>
+                  &amp; they in consequence withhold money for <choice><orig>div<hi rend= "superscript">ds</hi>.</orig><reg>dividends</reg></choice> till<lb/>
+               they are granted - If this be fact - there would be<lb/>
+               reasonable hope that the quarrel might be settled<lb/>
+                  &amp; the <choice><orig>div<hi rend= "superscript">ds</hi>.</orig><reg>dividends</reg></choice> paid in time &amp; it would be imprudent<lb/>
+               in me to sell now at great loss - On the other hand<lb/>
+               if the above story be only a stock exchange humbug<lb/>
+               the sooner I sell the better because it is better to lose<lb/>
+               half than the whole - I want you to tell me if any<lb/>
+               further information has been or can be obtained - I do<lb/>
+               not want to rack you to extort an opinion if you<lb/>
+               cannot give one - but an answer you <hi rend="underline">can</hi> give &amp; pray do</p><lb/>
+               <closer>
+                  ever affect<hi rend= "superscript">ly</hi> <persName ref="./Personography.xml#EdgeM1">ME</persName><lb/>
+
+            <address>
+               <addrLine><persName ref="./Personography.xml#BeauF1">Capt<hi rend= "superscript">n</hi>.. Beaufort</persName>R.N.</addrLine>
+               <addrLine><placeName ref="./Placeography.xml#Manchester-Street_ENK">Manchester S<hi rend= "superscript">t</hi></placeName></addrLine>
+               <addrLine><placeName ref="./Placeography.xml#London_ENK">London</placeName></addrLine>
+            </address>
+
+<note>Edgw<hi rend= "superscript">h</hi>. Affair<lb/>
+                  Feb. 1827</note><lb/>
+
+            </closer>
+         </div>
+      </body>
+      <back> </back>
+   </text>
+</TEI>
