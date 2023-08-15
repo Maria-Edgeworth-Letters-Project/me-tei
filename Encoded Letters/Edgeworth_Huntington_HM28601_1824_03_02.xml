@@ -1,0 +1,439 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+            <titleStmt>
+               <title>Letter from Maria Edgeworth to Sir Francis Beaufort, 3/2/1824</title>
+               <author><persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName></author>
+               <editor ref="Id_who">
+                  Jamie Kramer
+               </editor>
+               <sponsor>
+                  <orgName>Maria Edgeworth Letters Project</orgName>
+               </sponsor>
+               <sponsor>Wake Forest University, University of Tennessee, Xavier University, Texas
+                  A&amp;amp;M University</sponsor>
+               <principal>Jessica Richard, Hilary Havens, Robin Runia, Susan Egenolf</principal>
+               <respStmt>
+                  <resp>Transcription and coding by</resp>
+                  <persName ref="Id_who">Jamie Kramer<!--FirstName LastName-->
+                  </persName>
+                  <!-- List all transcribers or coders here, editors and students alike, <persName> by <persName>.-->
+                  <persName ref="Id_who"><!--FirstName LastName--></persName>
+                  <!-- If you're the last person interacting with the file, enter your name last on the list -->
+               </respStmt>
+            </titleStmt>
+         <editionStmt>
+            <edition>First digital edition in TEI, date: <date when="2023-01-12">
+               </date>
+            </edition>
+            <respStmt>
+               <orgName type="naf" ref="http://id.loc.gov/authorities/names/n79049138">
+                  Henry E. Huntington Library and Art Gallery
+               </orgName>
+               <resp> photos include: 
+                  Edgeworth_Huntington_HM28601_1824_03_02_page01.jpg,
+                  Edgeworth_Huntington_HM28601_1824_03_02_page02.jpg,
+                  Edgeworth_Huntington_HM28601_1824_03_02_page03.jpg,
+                  Edgeworth_Huntington_HM28601_1824_03_02_page04.jpg,
+                  Edgeworth_Huntington_HM28601_1824_03_02_page05.jpg,
+                  Edgeworth_Huntington_HM28601_1824_03_02_page06.jpg,
+                  Edgeworth_Huntington_HM28601_1824_03_02_page07.jpg,
+                  Edgeworth_Huntington_HM28601_1824_03_02_page08.jpg
+               </resp>
+            </respStmt>
+         </editionStmt>
+         
+         
+         <publicationStmt>
+            <authority>Maria Edgeworth Letters Project</authority>
+            <date>2023</date>
+            <availability>
+               <p>Reproduced by courtesy of the <orgName ref="http://id.loc.gov/authorities/names/n79049138">
+                  Henry E. Huntington Library and Art Gallery</orgName>. 
+               </p>
+               <licence>Distributed under a Creative Commons Attribution-ShareAlike 3.0 Unported
+                  License</licence>
+            </availability>
+            
+            <idno>Edgeworth_Huntington_HM28601_1824_03_02</idno> 
+         </publicationStmt>
+         <seriesStmt>
+            <title>Maria Edgeworth Letters Project</title>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <repository>Henry E. Huntington Library and Art Gallery</repository>
+                  <collection>Manuscripts, Huntington Digital Library, 
+                     call number mssHM 28601, 
+                     System Identifier: 622937
+                     https://hdl.huntington.org/digital/collection/p15150coll7/id/55289
+                  </collection>
+                  <idno/>
+                  <!--Consult library or WorldCat for this info-->
+               </msIdentifier>
+               
+               <head>Letter from 
+                  <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
+                  to <persName ref="./Personography.xml#BeauF1">Sir Francis Beaufort</persName>
+                  <date when="1824-03-02">March 2 1824</date>
+               </head>
+               <physDesc>
+               </physDesc>
+            </msDesc>
+            <bibl>In addition to our edited version, this letter was previously published in
+               <!--complete bibiographical info if letter was published in a book here-->
+            </bibl>
+            
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <!--Where Edgeworth uses nonstandard spelling and hyphenation of words, transcriber-coders 
+               should use TEI elements “choice," “sic," and “reg" to encode both Edgeworth’s 
+               spelling and the regular international standard of Oxford English spelling, 
+               following the first listed spelling in the Oxford English Dictionary. -->
+            <p>Edgeworth’s spelling and punctuation are retained in transcription, except where a
+               word is split at the end of a line and the beginning of the next in a manuscript. The
+               long s and ligatured forms are silently emended.</p>
+         </editorialDecl>
+         
+         <classDecl>
+            <taxonomy xml:id="relators">
+               <bibl>Marc Relators</bibl>
+               <category xml:id="aut">
+                  <catDesc>Author</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="lcsh">
+               <bibl>Subjects</bibl>
+               <category>
+                  <catDesc xml:id="AntislaveryMovements">Antislavery movements
+                     <idno type="loc">sh85123315</idno>
+                  </catDesc>
+                  <catDesc xml:id="Birth">Birth
+                     <idno type="loc">sh86004053</idno>
+                  </catDesc>
+                  <catDesc xml:id="Death">Death
+                     <idno type="loc">sh85036085</idno>
+                  </catDesc>
+                  <catDesc xml:id="Education">Education
+                     <idno type="loc">sh85040989</idno>
+                  </catDesc>
+                  <catDesc xml:id="Imperialism">Imperialism
+                     <idno type="loc">sh85064628</idno>
+                  </catDesc>
+                  <catDesc xml:id="FictitiousCharacters">Fictitious characters
+                     <idno type="loc">sh99004183</idno>
+                  </catDesc>
+                  <catDesc xml:id="Marriage">Marriage
+                     <idno type="loc">sh85081416</idno>
+                  </catDesc>
+                  <catDesc xml:id="Nationalism">Nationalism
+                     <idno type="loc">sh85090150</idno>
+                  </catDesc>
+                  <catDesc xml:id="PoliticsAndCulture">Politics and culture
+                     <idno type="loc">sh85104468</idno>
+                  </catDesc>
+                  <catDesc xml:id="Race">Race  
+                     <idno type="loc">sh85110232</idno>
+                  </catDesc>
+                  <catDesc xml:id="Religion">Religion
+                     <idno type="loc">sh85112549</idno>
+                  </catDesc>
+                  <catDesc xml:id="Science">Science
+                     <idno type="loc">sh85118553</idno>
+                  </catDesc>
+                  <catDesc xml:id="Technology">Technology
+                     <idno type="loc">sh85133147</idno>
+                  </catDesc>
+                  <catDesc xml:id="Slavery">Slavery
+                     <idno type="loc">sh85123314</idno>
+                  </catDesc>
+                  <catDesc xml:id="Travel">Travel
+                     <idno type="loc">sh85137149</idno>
+                  </catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="works">
+               <bibl>Works</bibl>
+               <category>
+                  <catDesc xml:id="w1">Belinda</catDesc>
+                  <catDesc xml:id="w2">Castle Rackrent</catDesc>
+                  <catDesc xml:id="w3">Comic Dramas, in Three Acts</catDesc>
+                  <catDesc xml:id="w4">Early Lessons</catDesc>
+                  <catDesc xml:id="w5">Essay on Irish Bulls</catDesc>
+                  <catDesc xml:id="w6">Frank: a Sequel to Frank in Early Lessons</catDesc>
+                  <catDesc xml:id="w7">Harrington, a Tale; and Ormond, a Tale</catDesc>
+                  <catDesc xml:id="w8">Harry and Lucy Concluded</catDesc>
+                  <catDesc xml:id="w9">Leonora</catDesc>
+                  <catDesc xml:id="w10">Letters for Literary Ladies</catDesc>
+                  <catDesc xml:id="w11">Moral Tales for Young People</catDesc>
+                  <catDesc xml:id="w12">Moral Tales</catDesc>
+                  <catDesc xml:id="w13">Patronage</catDesc>
+                  <catDesc xml:id="w14">Popular Tales</catDesc>
+                  <catDesc xml:id="w15">Practical Education</catDesc>
+                  <catDesc xml:id="w16">Readings on Poetry</catDesc>
+                  <catDesc xml:id="w17">Ormond</catDesc>
+                  <catDesc xml:id="w18">The Absentee</catDesc>
+                  <catDesc xml:id="w19">Tales of Fashionable Life</catDesc>
+                  <catDesc xml:id="w20">The Contrast</catDesc>
+                  <catDesc xml:id="w21">The Modern Griselda; a Tale</catDesc>
+                  <catDesc xml:id="w22">The Parent's Assistant</catDesc>
+                  <catDesc xml:id="w23">Tomorrow; or the Dangers of Delay</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="people">
+               <bibl>People</bibl>
+               <category>
+                  <catDesc xml:id="BabbageCharles">Babbage, Charles, 1791-1871
+                     <idno type="loc">n50031102</idno>
+                  </catDesc>
+                  <catDesc xml:id="BarbauldAL">Barbauld, Mrs. (Anna Letitia), 1743-1825
+                     <idno type="loc">n84136092</idno>
+                  </catDesc>
+                  <catDesc xml:id="EdgeworthRL">Edgeworth, Richard Lovell, 1744-1817
+                     <idno type="loc">n79061007</idno>
+                  </catDesc>
+                  <catDesc xml:id="EdgeworthM">Edgeworth, Maria, 1768-1849
+                     <idno type="loc">n79061006</idno>
+                     <date>1768-1849</date>
+                     <idno type="VIAF">71477273</idno>
+                     <idno type="SNAC">62567029</idno>
+                  </catDesc>
+                  <catDesc xml:id="RobinsonM">Robinson, Mary, 1758-1800
+                     <idno type="loc">n83122576</idno>
+                     <idno type="VIAF">9888105</idno>
+                     <idno type="SNAC">32125250</idno>
+                  </catDesc>
+                  <catDesc xml:id="BurneyF">Burney, Fanny, 1752-1840
+                     <idno type="loc">n80075853</idno>
+                  </catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="places">
+               <bibl>Places</bibl>
+               <category>
+                  <catDesc xml:id="EdgeworthsTown">Edgeworths' Town<idno type="getty">tgn/1042937</idno></catDesc>
+                  <catDesc xml:id="Peterborough">Peterborough, UK<idno type="getty">tgn/7026520</idno></catDesc>
+                  <catDesc xml:id="CranfordI">Cranford, Ireland<idno type="getty">tgn/7901042</idno></catDesc>
+                  <catDesc xml:id="Kettering">Kettering, UK<idno type="getty">tgn/7010904</idno></catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="period">
+               <bibl>Period</bibl>
+               <category>
+                  <catDesc>xx</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+         
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="./Personography.xml#BeauF1">Sir Francis Beaufort</persName>
+            </correspAction>
+         </correspDesc>
+         
+         <textClass>
+            <keywords scheme="">
+               <list type="simple">
+                  <item>English literature</item>
+                  <item>History</item>
+               </list>
+            </keywords>
+            <catRef target="#f7" scheme="#f"/>
+            <catRef target="#hist #el" scheme="locSUB"/>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-01-01" who="Id_who">
+            <!--Brief description of what you did here.-->
+         </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <pb n="1" facs="Edgeworth_Huntington_HM28601_1824_03_02_page01.jpg"/>
+            
+            <opener>
+
+               <dateline>
+                  <placeName ref="./Placeography.xml#Edgeworthstown_IE">Edgeworths Town</placeName><lb/>
+                  <date when="1824-03-02"/>March 2 1824<lb/></dateline>  
+               <salute>My dear <persName ref="./Personography.xml#BeauF1">Francis</persName><lb/>
+               </salute></opener>
+            <p> <persName ref="./Personography.xml#EdgeW1">William</persName> having answered<lb/>
+               you about the Atlas I<lb/>
+               need not say or do any<lb/>
+               more on that subject-.<lb/></p>
+            <p>
+               For <title ref="./Workography.xml#Works1"><hi rend="underline">Parks</hi> Edition of<lb/>
+               the poets</title> - read<lb/>
+               Sharpes Ed<hi rend="superscript">n</hi> of the poets<lb/></p>
+            <p><persName ref="./Personography.xml#EdgeH1">Harriet</persName> had by mistake<lb/>
+               written <hi rend="underline">Parks</hi> on your list<lb/>
+                  - I think <persName ref="./Personography.xml#EdgeS1">Sophy</persName> would<lb/>
+               prefer <title ref="./Workography.xml#Works1">Sharpe's Ed<hi rend="superscript">n</hi></title> to any<lb/>
+               other because that is the<lb/>
+               Ed<hi rend="superscript">n</hi>. <persName ref="./Personography.xml#EdgeR1">her father</persName> gave <persName ref="./Personography.xml#EdgeH1">Harriet</persName><lb/>
+               and they have read the<lb/>
+               books together &amp; learned<lb/>
+               passages in them together<lb/>
+
+               <pb n="2" facs="Edgeworth_Huntington_HM28601_1824_03_02_page02.jpg"/>
+               
+               &amp; might like to refer to<lb/>
+               the old marked passages<lb/>
+               &amp;c - But if it should<lb/>
+               not be easily to be procured<lb/>
+               or if you see cause to<lb/>
+               buy any other you are<lb/>
+               requested to use your<lb/>
+               own discretion -<lb/></p>
+               <p>Add to periodical<lb/>
+               works in your list<lb/>
+                  <title ref="./Workography.xml#Mirro1">The Mirror</title> &amp; <title ref="./Workography.xml#Loung1">the Lounger</title><lb/>
+               which I think will be<lb/>
+               particularly<lb/>
+                  acceptable to <persName ref="./Personography.xml#EdgeS1">Sophy</persName> &amp; since<lb/>
+               her acquaintance with<lb/>
+                  <persName ref="./Personography.xml#Janus1">Edinburgh</persName><lb/></p>
+               <p>Can you think of any<lb/>
+               works within our compass<lb/>
+
+               <pb n="3" facs="Edgeworth_Huntington_HM28601_1824_03_02_page03.jpg"/>
+               
+               as to price which would<lb/>
+                  serve instead of <title ref="./Workography.xml#Cyclo1">Rees</title> or<lb/>
+                  <title ref="./Workography.xml#Edinb1">Brewsters Encyclopedia</title><lb/>
+               for a book of reference<lb/>
+                  <choice><abbr>Q<hi rend="superscript">n</hi>.</abbr><reg>Question</reg></choice> Old <title ref="./Workography.xml#Chamb1">Chambers</title>? -<lb/>
+               I suppose a few plays<lb/>
+               might be agreeable - but<lb/>
+               it is very difficult to get<lb/>
+               a good selection.<lb/></p>
+               <p>Now I am going to<lb/>
+               plague you upon quite<lb/>
+               another subject - and<lb/>
+               you may take your own<lb/>
+               time for what follows<lb/></p>
+               <p>The last travelling<lb/>
+               carriage which I hired from<lb/>
+                  <placeName ref="./Placeography.xml#Halton_ENK">Halton</placeName> had two seats - one<lb/>
+               before for my sisters - the<lb/>
+
+               <pb n="4" facs="Edgeworth_Huntington_HM28601_1824_03_02_page04.jpg"/>
+               
+               other behind for a servant<lb/></p>
+               <p>We found this very conve<lb/>
+               nient especially when we<lb/>
+               were staying at houses where<lb/>
+               the young people liked to<lb/>
+               drive out with us - . But<lb/>
+               there is one objection to the<lb/>
+               baruche seat in front, that<lb/>
+               those within the carriage<lb/>
+               have their view obstructed<lb/>
+               even when the baruche seat<lb/>
+               is <hi rend="underline">empty</hi> - When it is filled<lb/>
+               they must submit - But<lb/>
+               when empty why should<lb/>
+               not the baruche seat be<lb/>
+               made so as to be easily<lb/>
+               removed?<lb/>
+                  1<hi rend="superscript">st</hi>.. <choice><abbr>Q<hi rend="superscript">n</hi></abbr><reg>Question</reg></choice>- Is any baruche seat<lb/>
+               now made for this purpose<lb/>
+                  2<hi rend="superscript">d</hi>. <choice><abbr>Q<hi rend="superscript">n</hi></abbr><reg>Question</reg></choice> - Could a <add>light</add> seat be made<lb/>
+                  of cane like what <persName ref="./Personography.xml#EdgeR1">my<lb/>
+               Father</persName> formerly had<lb/>
+
+               <pb n="5" facs="Edgeworth_Huntington_HM28601_1824_03_02_page05.jpg"/>
+               
+               had) which was fastened<lb/>
+               to the <hi rend="underline">body</hi> of the carriage<lb/>
+               - Could this light seat<lb/>
+               instead of being <choice><orig>perma-<lb/>
+                  nently</orig><reg>permanently</reg></choice> fastened to the<lb/>
+               body be hooked on staples<lb/>
+               - and when not used as<lb/>
+               a seat be unhooked &amp;<lb/>
+               lowered till <del>the</del> it no longer<lb/>
+               interferes with the view<lb/>
+               from the chaise windows<lb/>
+               &amp; then hook it on other<lb/>
+               staples &amp; strap it below<lb/>
+                  <choice><abbr>Q<hi rend="superscript">n</hi></abbr><reg>Question</reg></choice> 3<hi rend="superscript">d</hi>. If staples &amp; hooks<lb/>
+               are objectionable - could<lb/>
+               the seat be hinged at<lb/>
+               back<lb/>
+
+               <pb n="6" facs="Edgeworth_Huntington_HM28601_1824_03_02_page06.jpg"/>
+               
+               with stout hinges to<lb/>
+               the body of the carriage<lb/>
+               &amp; be supported when<lb/>
+               up by irons such as -<lb/>
+               support disks fastened<lb/>
+               to a wall; which irons<lb/>
+               turn on a ring at one end<lb/>
+               &amp; hook into a staple in<lb/>
+               the under part of the board<lb/>
+               - the irons fall down out<lb/>
+               of the way when not used<lb/>
+               &amp; in this case behind<lb/>
+               hidden by the seat letting<lb/>
+               down like a leaf before<lb/>
+               them would be no <choice><orig>dis-<lb/>
+                  sight</orig><reg>dissight</reg></choice>-<lb/></p>
+               <p>Could the seat be<lb/>
+               pushed up by spiral<lb/>
+               iron springs like those used<lb/>
+               
+               <pb n="7" facs="Edgeworth_Huntington_HM28601_1824_03_02_page07.jpg"/>
+               
+               in carriage lamps to push<lb/>
+               up the candles?<lb/></p>
+               <p>I am aware that the<lb/>
+               expense of executing<lb/>
+               any thing new in<lb/>
+               a carriage is consider<lb/>
+               able - and am not<lb/>
+               going my dear friend<lb/>
+               to plunge into any<lb/>
+               folly of this sort - But<lb/>
+               I should like to know<lb/>
+               from you &amp; any coach-<lb/>
+               maker you depend upon<lb/>
+               whether such a plan<lb/>
+                  <orig><abbr>w<hi rend="superscript">d</hi>.</abbr><reg>would</reg></orig> be feasible.
+              </p><lb/>
+            <closer>yr affec<hi rend="superscript">ly</hi> <persName ref="./Personography.xml#EdgeM1">M E</persName><lb/>
+            </closer>
+
+            <pb n="8" facs="Edgeworth_Huntington_HM28601_1824_03_02_page08.jpg"/>
+            
+            <closer>
+               <note><persName ref="./Personography.xml#EdgeM1">Maria Edg.</persName><lb/>
+               2 Mr. -/24<lb/>
+               Partic. of her Carriage</note><lb/>
+               
+                  <address>              
+                     <addrLine/> <persName ref="./Personography.xml#BeauF1">Capt<hi rend="superscript">n</hi>. Beaufort Ret.</persName>
+                  </address>
+               
+               </closer> 
+         </div>
+      </body>
+      <back> </back>
+   </text>
+</TEI>
