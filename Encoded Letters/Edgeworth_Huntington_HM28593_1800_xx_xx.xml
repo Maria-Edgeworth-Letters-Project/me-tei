@@ -1,0 +1,415 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+            <titleStmt>
+               <title>
+                  Letter from Maria Edgeworth to "My dear little boy", 1800
+               </title>
+               <author>Maria Edgeworth</author>
+               <editor ref="Id_who">
+                  Jamie Kramer
+               </editor>
+               <sponsor>
+                  <orgName>Maria Edgeworth Letters Project</orgName>
+               </sponsor>
+               <sponsor>Wake Forest University, University of Tennessee, Xavier University, Texas
+                  A&amp;amp;amp;M University</sponsor>
+               <principal>Jessica Richard, Hilary Havens, Robin Runia, Susan Egenolf</principal>
+               <respStmt>
+                  <resp>Transcription and coding by</resp>
+                  <persName ref="Id_who">Jamie Kramer<!--FirstName LastName-->
+                  </persName>
+                  <!-- List all transcribers or coders here, editors and students alike, <persName> by <persName>.-->
+                  <persName ref="Id_who"><!--FirstName LastName--></persName>
+                  <!-- If you're the last person interacting with the file, enter your name last on the list -->
+               </respStmt>
+            </titleStmt>
+         <editionStmt>
+            <edition>First digital edition in TEI, date: <date when="2023-08-18">
+               </date>
+            </edition>
+            <respStmt>
+               <orgName type="naf" ref="http://id.loc.gov/authorities/names/n79049138">
+                  Henry E. Huntington Library and Art Gallery
+               </orgName>
+               <resp> photos include: 
+                  Edgeworth_Huntington_HM28593_1800_xx_xx_page01.jpg, 
+                  Edgeworth_Huntington_HM28593_1800_xx_xx_page02.jpg, 
+                  Edgeworth_Huntington_HM28593_1800_xx_xx_page03.jpg, 
+                  Edgeworth_Huntington_HM28593_1800_xx_xx_page04.jpg
+               </resp>
+            </respStmt>
+         </editionStmt>
+         
+         
+         <publicationStmt>
+            <authority>Maria Edgeworth Letters Project</authority>
+            <date>2023</date>
+            <availability>
+               <p>Reproduced by courtesy of the <orgName ref="http://id.loc.gov/authorities/names/n79049138">
+                  Henry E. Huntington Library and Art Gallery</orgName>. 
+               </p>
+               <licence>Distributed under a Creative Commons Attribution-ShareAlike 3.0 Unported
+                  License</licence>
+            </availability>
+            
+            <idno>
+               Edgeworth_Huntington_HM28593_1800_xx_xx
+            </idno> 
+         </publicationStmt>
+         <seriesStmt>
+            <title>Maria Edgeworth Letters Project</title>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <repository>Henry E. Huntington Library and Art Gallery</repository>
+                  <collection>Manuscripts, Huntington Digital Library, 
+                     Call Number	
+                     mssHM 28593,
+                     System Identifier: 	
+                     622898, 
+                     https://hdl.huntington.org/digital/collection/p15150coll7/id/55188
+                  </collection>
+                  <idno/>
+                  <!--Consult library or WorldCat for this info-->
+               </msIdentifier>
+               
+               <head>Letter from 
+                  <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
+                  to unknown: "My dear little boy,"
+                  <date when="1824-10-24">Oct<hi rend="superscript">r</hi>. 24<hi rend="superscript">h</hi>. 1824</date>
+               </head>
+               <physDesc>
+               </physDesc>
+            </msDesc>
+            <bibl>In addition to our edited version, this letter was previously published in
+               <!--complete bibiographical info if letter was published in a book here-->
+            </bibl>
+            
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <!--Where Edgeworth uses nonstandard spelling and hyphenation of words, transcriber-coders 
+               should use TEI elements “choice," “sic," and “reg" to encode both Edgeworth’s 
+               spelling and the regular international standard of Oxford English spelling, 
+               following the first listed spelling in the Oxford English Dictionary. -->
+            <p>Edgeworth’s spelling and punctuation are retained in transcription, except where a
+               word is split at the end of a line and the beginning of the next in a manuscript. The
+               long s and ligatured forms are silently emended.</p>
+         </editorialDecl>
+         
+         <classDecl>
+            <taxonomy xml:id="relators">
+               <bibl>Marc Relators</bibl>
+               <category xml:id="aut">
+                  <catDesc>Author</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="lcsh">
+               <bibl>Subjects</bibl>
+               <category>
+                  <catDesc xml:id="AntislaveryMovements">Antislavery movements
+                     <idno type="loc">sh85123315</idno>
+                  </catDesc>
+                  <catDesc xml:id="Birth">Birth
+                     <idno type="loc">sh86004053</idno>
+                  </catDesc>
+                  <catDesc xml:id="Death">Death
+                     <idno type="loc">sh85036085</idno>
+                  </catDesc>
+                  <catDesc xml:id="Education">Education
+                     <idno type="loc">sh85040989</idno>
+                  </catDesc>
+                  <catDesc xml:id="Imperialism">Imperialism
+                     <idno type="loc">sh85064628</idno>
+                  </catDesc>
+                  <catDesc xml:id="FictitiousCharacters">Fictitious characters
+                     <idno type="loc">sh99004183</idno>
+                  </catDesc>
+                  <catDesc xml:id="Marriage">Marriage
+                     <idno type="loc">sh85081416</idno>
+                  </catDesc>
+                  <catDesc xml:id="Nationalism">Nationalism
+                     <idno type="loc">sh85090150</idno>
+                  </catDesc>
+                  <catDesc xml:id="PoliticsAndCulture">Politics and culture
+                     <idno type="loc">sh85104468</idno>
+                  </catDesc>
+                  <catDesc xml:id="Race">Race  
+                     <idno type="loc">sh85110232</idno>
+                  </catDesc>
+                  <catDesc xml:id="Religion">Religion
+                     <idno type="loc">sh85112549</idno>
+                  </catDesc>
+                  <catDesc xml:id="Science">Science
+                     <idno type="loc">sh85118553</idno>
+                  </catDesc>
+                  <catDesc xml:id="Technology">Technology
+                     <idno type="loc">sh85133147</idno>
+                  </catDesc>
+                  <catDesc xml:id="Slavery">Slavery
+                     <idno type="loc">sh85123314</idno>
+                  </catDesc>
+                  <catDesc xml:id="Travel">Travel
+                     <idno type="loc">sh85137149</idno>
+                  </catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="works">
+               <bibl>Works</bibl>
+               <category>
+                  <catDesc xml:id="w1">Belinda</catDesc>
+                  <catDesc xml:id="w2">Castle Rackrent</catDesc>
+                  <catDesc xml:id="w3">Comic Dramas, in Three Acts</catDesc>
+                  <catDesc xml:id="w4">Early Lessons</catDesc>
+                  <catDesc xml:id="w5">Essay on Irish Bulls</catDesc>
+                  <catDesc xml:id="w6">Frank: a Sequel to Frank in Early Lessons</catDesc>
+                  <catDesc xml:id="w7">Harrington, a Tale; and Ormond, a Tale</catDesc>
+                  <catDesc xml:id="w8">Harry and Lucy Concluded</catDesc>
+                  <catDesc xml:id="w9">Leonora</catDesc>
+                  <catDesc xml:id="w10">Letters for Literary Ladies</catDesc>
+                  <catDesc xml:id="w11">Moral Tales for Young People</catDesc>
+                  <catDesc xml:id="w12">Moral Tales</catDesc>
+                  <catDesc xml:id="w13">Patronage</catDesc>
+                  <catDesc xml:id="w14">Popular Tales</catDesc>
+                  <catDesc xml:id="w15">Practical Education</catDesc>
+                  <catDesc xml:id="w16">Readings on Poetry</catDesc>
+                  <catDesc xml:id="w17">Ormond</catDesc>
+                  <catDesc xml:id="w18">The Absentee</catDesc>
+                  <catDesc xml:id="w19">Tales of Fashionable Life</catDesc>
+                  <catDesc xml:id="w20">The Contrast</catDesc>
+                  <catDesc xml:id="w21">The Modern Griselda; a Tale</catDesc>
+                  <catDesc xml:id="w22">The Parent's Assistant</catDesc>
+                  <catDesc xml:id="w23">Tomorrow; or the Dangers of Delay</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="people">
+               <bibl>People</bibl>
+               <category>
+                  <catDesc xml:id="BabbageCharles">Babbage, Charles, 1791-1871
+                     <idno type="loc">n50031102</idno>
+                  </catDesc>
+                  <catDesc xml:id="BarbauldAL">Barbauld, Mrs. (Anna Letitia), 1743-1825
+                     <idno type="loc">n84136092</idno>
+                  </catDesc>
+                  <catDesc xml:id="EdgeworthRL">Edgeworth, Richard Lovell, 1744-1817
+                     <idno type="loc">n79061007</idno>
+                  </catDesc>
+                  <catDesc xml:id="EdgeworthM">Edgeworth, Maria, 1768-1849
+                     <idno type="loc">n79061006</idno>
+                     <date>1768-1849</date>
+                     <idno type="VIAF">71477273</idno>
+                     <idno type="SNAC">62567029</idno>
+                  </catDesc>
+                  <catDesc xml:id="RobinsonM">Robinson, Mary, 1758-1800
+                     <idno type="loc">n83122576</idno>
+                     <idno type="VIAF">9888105</idno>
+                     <idno type="SNAC">32125250</idno>
+                  </catDesc>
+                  <catDesc xml:id="BurneyF">Burney, Fanny, 1752-1840
+                     <idno type="loc">n80075853</idno>
+                  </catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="places">
+               <bibl>Places</bibl>
+               <category>
+                  <catDesc xml:id="EdgeworthsTown">Edgeworths' Town<idno type="getty">tgn/1042937</idno></catDesc>
+                  <catDesc xml:id="Peterborough">Peterborough, UK<idno type="getty">tgn/7026520</idno></catDesc>
+                  <catDesc xml:id="CranfordI">Cranford, Ireland<idno type="getty">tgn/7901042</idno></catDesc>
+                  <catDesc xml:id="Kettering">Kettering, UK<idno type="getty">tgn/7010904</idno></catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="period">
+               <bibl>Period</bibl>
+               <category>
+                  <catDesc>xx</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+         
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="./Personography.xml#BeauF1">Sir Francis Beaufort</persName>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="./Personography.xml#EdgeF2"> Frances Anne (Edgeworth) Beaufort</persName> <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
+            </correspAction>
+         </correspDesc>
+         
+         <textClass>
+            <keywords scheme="">
+               <list type="simple">
+                  <item>English literature</item>
+                  <item>History</item>
+               </list>
+            </keywords>
+            <catRef target="#f7" scheme="#f"/>
+            <catRef target="#hist #el" scheme="locSUB"/>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-01-01" who="Id_who">
+            <!--Brief description of what you did here.-->
+         </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <pb n="1" facs="Edgeworth_Huntington_HM28593_1800_xx_xx_page01.jpg"/>
+            
+            <opener>
+               <salute>
+                  My dear little boy<lb/>
+               </salute></opener>
+              
+            <p> 
+               I did not receive your letter till late yesterday evening<lb/>
+               or I should have answerd it sooner. Perhaps often when the post has come in<lb/>
+               you have said "Is there no letter for me? No letter from that <persName ref="./Personography.xml#EdgeM1">Miss Edgeworth</persName><lb/>
+               She will never write to me! I was very foolish to write to her"<lb/>
+               No, I hope this was not what you said or thought [ ] I hope that you<lb/>
+               were more patient &amp; that you said She will write to me by &amp; by: I suppose<lb/>
+               she has not received my letter" Maybe she lives a great way off<lb/>
+               yes she does; do you know how far off? Take a map of <placeName ref="./Placeography.xml#IE">Ireland</placeName> and<lb/>
+               put it on the table before you, Now look for the county of <placeName ref="./Placeography.xml#Longford_IE">Longford</placeName>. It<lb/>
+               is just in the middle of the map, and now look in the midle of the<lb/>
+               County. and there you will see printed in little letters <placeName ref="./Placeography.xml#Edgeworthstown_IE"><choice><orig>Edgworthtown</orig><reg>Edgeworthstown</reg></choice></placeName><lb/>
+               and that is the place at which I live. You live at <placeName ref="./Placeography.xml#Macclesfield_ENK">Macclesfield</placeName> as I<lb/>
+               see by the date of your letter. I have just looked into the map of <placeName ref="./Placeography.xml#ENK">England</placeName><lb/>
+               for <placeName ref="./Placeography.xml#Macclesfield_ENK">Macclesfield</placeName> and I find <add>that</add> it is in <placeName ref="./Placeography.xml#Cheshire_ENK">Cheshire</placeName> so your letter must have<lb/>
+                  travelled a great way before it reached me. You directed it to <placeName ref="./Placeography.xml#St-Pauls-Churchyard_ENK">St Pauls Church<lb/>
+                     yard</placeName> <placeName ref="./Placeography.xml#London_ENK">London</placeName>, first it went from <placeName ref="./Placeography.xml#Macclesfield_ENK">Macclesfield</placeName> to <placeName ref="./Placeography.xml#London_ENK">London</placeName> that is 171 miles<lb/>
+               <del>then from</del> Then from <placeName ref="./Placeography.xml#London_ENK">London</placeName> to <placeName ref="./Placeography.xml#Holyhead_WLK">Holyhead</placeName> 300 miles then across the<lb/>
+               sea from <placeName ref="./Placeography.xml#Holyhead_WLK">Holyhead</placeName> to <placeName ref="./Placeography.xml#Dublin_IE">Ireland</placeName> which you know is 20 leagues, that is<lb/>
+               60 miles, then from <placeName ref="./Placeography.xml#Dublin_IE">Ireland</placeName> to <placeName ref="./Placeography.xml#Edgeworthstown_IE">Edgworths town</placeName> is sixty miles more<lb/>
+               and add them together you will find that they will make <add> 171
+               300
+               20
+               60
+               60
+                  <hi rend="underline">611</hi></add>six<lb/>
+               hundred &amp; eleven miles! So you must perceive that <hi rend="underline">if</hi> all the post men<lb/>
+               had galloped as hard as they could and all the horses in all the mail<lb/>
+               coaches had been driven as fast as possible if the wind also had blown as<lb/>
+               hard as it could blow &amp; as fair to fill the sails of the Ship which carried your<lb/>
+               letter to this country yet I could not have received it till several days after<lb/>
+               you <del><unclear></unclear> written </del> wrote &amp; if I had written the moment I had read your<lb/>
+               letter yet you could not have received my answer the next day<lb/>
+               You can consider &amp; calculate all these things will never be so <choice><orig>un-<lb/>
+               reasonable</orig><reg>unreasonable</reg></choice> as some impatient little boys who at the bottom of their<lb/>
+               letters write<lb/>
+               "I shall expect an answer by return of post <del></del><lb/>
+               without fail"<lb/>
+               even though you wait a few weeks for an answer, it is not agreeable<lb/>
+               to be able to tell your thoughts to a person who is at 611 miles distance<lb/>
+               I think it is; - for your letter gave me a <add>great</add> deal of pleasure and<lb/>
+               I thank you for writing it too; - Your letter not only pleased me<lb/>
+               but several of my brothers &amp; sisters and <persName ref="./Personography.xml#EdgeR1">my father</persName> &amp; <persName ref="./Personography.xml#EdgeF2">mother</persName> &amp; aunts<lb/>   
+               who were present when I read <add>out</add> it. I received it at supper time<lb/>
+
+               <pb n="2" facs="Edgeworth_Huntington_HM28593_1800_xx_xx_page02.jpg"/>
+               
+               and read it aloud &amp; every body smiled &amp; liked what I read<lb/>
+               I read it again at breakfast next morning to some of my brother<lb/>
+               &amp; sisters who had been in bed at supper time, &amp; they liked it -<lb/>
+               Your "good Mamma" told you very truley that you should<lb/>
+               write letters as you would speak to the persons to whom you were<lb/>
+               writing; you did so - &amp; therefore your letter was agreable; We all<lb/>
+               think you are very fond of your Mother and that she is very kind to<lb/>
+               you; - are we mistaken? and we think the brother who took the<lb/>
+               trouble of copying your letter, is a very good brother - and that<lb/>
+               you must be fond of him too, Are we mistaken? and we think<lb/>
+               you are a happy little boy since you have a good mother &amp; a good<lb/>
+               brother, and a good friend, Are we mistaken? -<lb/></p>
+               <p>Is your friend Roscoe any relation to the <persName ref="./Personography.xml#RoscW1">M<hi rend="superscript">r</hi> Roscoe</persName> who<lb/>
+               wrote <title ref="./Workography.xml#LifeL1">the life of Lorenzo de Medici</title> which entertain'd us so<lb/>
+               much -?<lb/></p>
+               <p>I am glad you had as good a friend as little <title ref="./Workography.xml#">Dominick</title><lb/>
+               had but I hope you do not find it as difficult as poor little <title ref="./Workography.xml#"><choice><orig>Dom<lb/>
+                  inick</orig><reg>Dominich</reg></choice></title> found it to learn the lattin grammar. I can assure you<lb/>
+               that it is much more difficult to people to learn it after they<lb/>
+               grow old than whilst they are young. (After I had grown up quite<lb/>
+               that is as much as ever I could grow (which is very little <persName ref="./Personography.xml#EdgeR1">my<lb/>
+               father</persName> desired me to try to learn latin because he found several<lb/>
+               mistakes in my writings which arose from my not having<lb/>
+               been taught grammar well when I was a child; I tried &amp; tried<lb/>
+               as much as I cou'd to learn the latin grammar for I always wish'd<lb/>
+               to do what  <persName ref="./Personography.xml#EdgeR1">my father</persName> desired as much as I suppose you wish to do<lb/>
+               what your mother desires; but tho I said the verbs &amp; pronouns over<lb/>
+               to myself evening &amp; morning and though I wrote them out to make<lb/>
+               myself <unclear>remember</unclear> them better, yet I found it extreemly difficult to<lb/>
+               get them by heart and all the while I saw my little brother <persName ref="./Personography.xml#EdgeW1">William</persName><lb/>
+               who was but eight years old learn them with the greatest ease<lb/></p>
+               <p>I am not surprised that you could not understand the essay on<lb/>
+               bulls and I am glad that you do not like to read what you do not <choice><orig>com<lb/>
+                  prehend</orig><reg>comprehend</reg></choice>; that book was not written for young people and many old people<lb/>
+               find it difficult to understand &amp; do not like it.<lb/></p>
+               <p>I am glad the Story of the contrast entertain'd you. We like it the<lb/>
+               best of popular tales When I read the note at the end of it, to one<lb/>
+               
+               <pb n="3" facs="Edgeworth_Huntington_HM28593_1800_xx_xx_page03.jpg"/>
+               
+               of my brothers before it was printed he said suppose some Body will write<lb/>
+               to you" Some body has, and I am glad that I inserted that note - because<lb/>
+               it has been the cause of your writing to me. But I must explain the<lb/>
+               meaning of that note to you; It was meant to <del>explain</del> ridicule those<lb/>
+               who give long descriptions of wedding clothes &amp; fine coats &amp;c as if they thoug<add>ht</add><lb/>
+               such things make people happy. When I was in <placeName ref="./Placeography.xml#London_ENK">London</placeName> about two years<lb/>
+               ago I saw hanging up in a mantua makers room, some of the gowns of<lb/>
+               a Lady who was to have forty wedding gowns &amp; the Mantua mak<unclear></unclear><lb/>
+               told me that She had lain awake all night &amp; had puzzled herself<lb/>
+               to invent different fashions &amp; trimmings for these gowns, one of which<lb/>
+               cost 100 <del>gowns</del> <add>guineas</add>. Yet as I was informed by a sensible person the Lady to<lb/>
+               whom all these fine things belonged was not likely to be very happy<lb/>
+               for she was going to be married to a man who did not love her, &amp; who <choice><orig>mar<lb/>
+                  ried</orig><reg>married</reg></choice> her only because she was rich. I do not know how many gowns <title ref="./Workography.xml#">Patty</title><lb/>
+               and <title ref="./Workography.xml#">Fanny Franklin</title> had I believe they wore white gowns the day<lb/>
+               they were married, but whether their husbands wore blue green, brown or red Coats<lb/>
+               I cannot tell &amp; I do not think they cared. All I am certain is that they<lb/>
+               were very clean, &amp; very likely to be happy because they were good &amp; loved<lb/>
+               one another</p><lb/>
+            <p>As to <title ref="./Workography.xml#">the old father</title> you know that his gray hair was comb'd very smooth<lb/>
+               by his <del><unclear>father</unclear></del> daughter <title ref="./Workography.xml#">Patty</title> and that his cravat was perfectly clean &amp; white<lb/>
+               I dare say that it was washed &amp; iron'd by his daughter <title ref="./Workography.xml#">Patty</title> who<lb/>
+                  you know could wash &amp; iron so as to please even <title ref="./Workography.xml#">M<hi rend="superscript">rs</hi> Crump</title> -</p><lb/>
+               <p>I have gone on writing as you did to me, as if I was talking, but<lb/><lb/>
+               now I must stop for I have heard that <hi rend="underline">Women</hi> may talk too much<lb/>
+               I had intended to send you a little play which I have just written<lb/>
+               but it is fifty pages &amp; that is too much to copy, beside it will<lb/>
+               be easier to you to read when it is printed; in the mean time<lb/>
+               <persName ref="./Personography.xml#EdgeR1">my father</persName> sends you a <add>little</add> book of <hi rend="underline">his</hi> writing you will see that it<lb/>
+               is French on one side &amp; english on the other &amp; if you are <choice><orig>lear<lb/>
+                  ning</orig><reg>learning</reg></choice> french it will be very useful to you. I think you will be<lb/>
+                  entertain'd with <title ref="./Workography.xml#">the history of Harry &amp; <del>Judy</del> <add>Lucy</add></title>, tho' they are younger<lb/>
+               than you are: this is only the history of a few days of their lives<lb/>
+               in two different years: but I hope <persName ref="./Personography.xml#EdgeR1">my father</persName> will finish it Some<lb/>
+     
+               <pb n="4" facs="Edgeworth_Huntington_HM28593_1800_xx_xx_page04.jpg"/>
+               
+               time or other.<lb/>
+               If you like to write to me again, I shall be very glad to hear from<lb/>
+               you, but do not write if you do not like it &amp; next time you<lb/>
+               need not pay the postage of your letters<lb/></p>
+               <closer>Farewell my dear little boy -<lb/>
+               Yours affectionately<lb/>
+               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName><lb/>
+               
+               Direct to me<lb/>
+               <placeName ref="./Placeography.xml#Edgeworthstown_IE">Edgeworthstown</placeName><lb/>
+               <placeName ref="./Placeography.xml#IE">Ireland</placeName><lb/>
+            </closer>
+         </div>
+      </body>
+      <back> </back>
+   </text>
+</TEI>
