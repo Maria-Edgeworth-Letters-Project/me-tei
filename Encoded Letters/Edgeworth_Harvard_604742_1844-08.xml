@@ -1,0 +1,635 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>
+                    Letter from Maria Edgeworth to [UNKNOWN], August 16th,1844
+                   </title>
+                <author>Maria Edgeworth</author>
+                <editor ref="Id_who">
+                    Jamie Kramer
+                </editor>
+                <sponsor>
+                    <orgName>Maria Edgeworth Letters Project</orgName>
+                </sponsor>
+                <sponsor>Wake Forest University, University of Tennessee, Xavier University, Texas
+                    A&amp;M University</sponsor>
+                <principal>Jessica Richard, Hilary Havens, Robin Runia, Susan Egenolf</principal>
+                <respStmt>
+                    <resp>Transcription and coding by</resp>
+                    <persName ref="Id_who">Jamie Kramer
+                    </persName>
+                    <!-- List all transcribers or coders here, editors and students alike, <persName> by <persName>.-->
+                    <persName ref="Id_who"><!--FirstName LastName--></persName>
+                    <!-- If you're the last person interacting with the file, enter your name last on the list -->
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>First digital edition in TEI, date: <date when="2023-08-28">
+
+                </date>
+                </edition>
+                <respStmt>
+                    <orgName type="naf" ref="http://id.loc.gov/authorities/names/n80097499">
+                        Harvard University, Houghton Library<!--who digitized the letter or gave us permission for to use the file?-->
+                    </orgName>
+                    <resp> photos include:
+                        Edgeworth_Harvard_604742_1844-08_page01.jpg,
+                        Edgeworth_Harvard_604742_1844-08_page02.jpg,
+                        Edgeworth_Harvard_604742_1844-08_page03.jpg,
+                        Edgeworth_Harvard_604742_1844-08_page04.jpg,
+                        Edgeworth_Harvard_604742_1844-08_page05.jpg,
+                        Edgeworth_Harvard_604742_1844-08_page06.jpg,
+                        Edgeworth_Harvard_604742_1844-08_page07.jpg,
+                        Edgeworth_Harvard_604742_1844-08_page08.jpg,
+                        Edgeworth_Harvard_604742_1844-08_page09.jpg,
+                        Edgeworth_Harvard_604742_1844-08_page10.jpg
+                    </resp>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <authority>Maria Edgeworth Letters Project</authority>
+                <date>2022</date>
+                <availability>
+                    <!--Uncomment the appropriate line, based on the archive that holds the physical copy of this letter, 
+                  and delete the other comment line(s).-->
+                    <p>Reproduced by coutesty of <orgName ref="http://id.loc.gov/authorities/names/n80097499">Harvard University, Houghton Library</orgName><!--Reproduced by courtesy of the <orgName ref="#ReadingCL">Reading Central Library</orgName>.-->
+                        <!--or -->
+                        <!--Courtesy of <orgName ref="#Rylands">The University of Manchester</orgName>.-->
+                    </p>
+                    <licence>Distributed under a Creative Commons Attribution-ShareAlike 3.0 Unported
+                        License</licence>
+                </availability>
+                <idno>
+                    Edgeworth_Harvard_604742_1844-08
+                </idno> 
+            </publicationStmt>
+            <seriesStmt>
+                <title>Maria Edgeworth Letters Project</title>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc xml:lang="en">
+                    <!-- This section of the header identifies the original manuscript source. -->
+                    <msIdentifier>
+                        <repository>Harvard University, Houghton Library</repository>
+                        <collection><!-- Enter specific archival collection if applicable--></collection>
+                        <idno><!--Consult library or WorldCat for this info--></idno>
+                    </msIdentifier>
+                    
+                    <!-- FROM LAURA: it's here (below) in the head that I added the full information about the author,
+                  and you could add full information about the addressee as well. -->
+                    <head>Letter from 
+                        <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
+                        to 
+                        <persName ref="./Personography.xml#MackJ1">Mr. [James Townsend] Mackay</persName>
+                        <date when="1829-12-23">Dec. 23<hi rend="superscript">d</hi> 1829</date>
+                    </head>
+                    <physDesc>
+                        <!-- optional physical description of the letter goes here: paper size and condition, seal, postmarks, etc.-->
+                    </physDesc>
+                </msDesc>
+                
+                <!-- FROM LAURA: where to put the following information in <bibl> is still a question: 
+               ask TEI List whether it should be in the sourceDesc or elsewhere? -->
+                
+                <bibl>In addition to our edited version, this letter was previously published in
+                    <!--complete bibiographical info if letter was published in a book here - if not delete-->
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <!--Where Edgeworth uses nonstandard spelling and hyphenation of words, transcriber-coders 
+               should use TEI elements “choice," “sic," and “reg" to encode both Edgeworth’s 
+               spelling and the regular international standard of Oxford English spelling, 
+               following the first listed spelling in the Oxford English Dictionary. -->
+                <p>Edgeworth’s spelling and punctuation are retained in transcription, except where a
+                    word is split at the end of a line and the beginning of the next in a manuscript. The
+                    long s and ligatured forms are silently emended.</p>
+            </editorialDecl>
+            <classDecl>
+                <taxonomy xml:id="relators">
+                    <bibl>Marc Relators</bibl>
+                    <category xml:id="aut">
+                        <catDesc>Author</catDesc>
+                    </category>
+                </taxonomy>
+                <taxonomy xml:id="lcsh">
+                    <bibl>Subjects</bibl>
+                    <category>
+                        <catDesc xml:id="AntislaveryMovements">Antislavery movements
+                            <idno type="loc">sh85123315</idno>
+                        </catDesc>
+                        <catDesc xml:id="Birth">Birth
+                            <idno type="loc">sh86004053</idno>
+                        </catDesc>
+                        <catDesc xml:id="Death">Death
+                            <idno type="loc">sh85036085</idno>
+                        </catDesc>
+                        <catDesc xml:id="Education">Education
+                            <idno type="loc">sh85040989</idno>
+                        </catDesc>
+                        <catDesc xml:id="Imperialism">Imperialism
+                            <idno type="loc">sh85064628</idno>
+                        </catDesc>
+                        <catDesc xml:id="FictitiousCharacters">Fictitious characters
+                            <idno type="loc">sh99004183</idno>
+                        </catDesc>
+                        <catDesc xml:id="Marriage">Marriage
+                            <idno type="loc">sh85081416</idno>
+                        </catDesc>
+                        <catDesc xml:id="Nationalism">Nationalism
+                            <idno type="loc">sh85090150</idno>
+                        </catDesc>
+                        <catDesc xml:id="PoliticsAndCulture">Politics and culture
+                            <idno type="loc">sh85104468</idno>
+                        </catDesc>
+                        <catDesc xml:id="Race">Race  
+                            <idno type="loc">sh85110232</idno>
+                        </catDesc>
+                        <catDesc xml:id="Religion">Religion
+                            <idno type="loc">sh85112549</idno>
+                        </catDesc>
+                        <catDesc xml:id="Science">Science
+                            <idno type="loc">sh85118553</idno>
+                        </catDesc>
+                        <catDesc xml:id="Technology">Technology
+                            <idno type="loc">sh85133147</idno>
+                        </catDesc>
+                        <catDesc xml:id="Slavery">Slavery
+                            <idno type="loc">sh85123314</idno>
+                        </catDesc>
+                        <catDesc xml:id="Travel">Travel
+                            <idno type="loc">sh85137149</idno>
+                        </catDesc>
+                    </category>
+                </taxonomy>
+                <taxonomy xml:id="works">
+                    <bibl>Works</bibl>
+                    <category>
+                        <catDesc xml:id="w1">Belinda</catDesc>
+                        <catDesc xml:id="w2">Castle Rackrent</catDesc>
+                        <catDesc xml:id="w3">Comic Dramas, in Three Acts</catDesc>
+                        <catDesc xml:id="w4">Early Lessons</catDesc>
+                        <catDesc xml:id="w5">Essay on Irish Bulls</catDesc>
+                        <catDesc xml:id="w6">Frank: a Sequel to Frank in Early Lessons</catDesc>
+                        <catDesc xml:id="w7">Harrington, a Tale; and Ormond, a Tale</catDesc>
+                        <catDesc xml:id="w8">Harry and Lucy Concluded</catDesc>
+                        <catDesc xml:id="w9">Leonora</catDesc>
+                        <catDesc xml:id="w10">Letters for Literary Ladies</catDesc>
+                        <catDesc xml:id="w11">Moral Tales for Young People</catDesc>
+                        <catDesc xml:id="w12">Moral Tales</catDesc>
+                        <catDesc xml:id="w13">Patronage</catDesc>
+                        <catDesc xml:id="w14">Popular Tales</catDesc>
+                        <catDesc xml:id="w15">Practical Education</catDesc>
+                        <catDesc xml:id="w16">Readings on Poetry</catDesc>
+                        <catDesc xml:id="w17">Ormond</catDesc>
+                        <catDesc xml:id="w18">The Absentee</catDesc>
+                        <catDesc xml:id="w19">Tales of Fashionable Life</catDesc>
+                        <catDesc xml:id="w20">The Contrast</catDesc>
+                        <catDesc xml:id="w21">The Modern Griselda; a Tale</catDesc>
+                        <catDesc xml:id="w22">The Parent's Assistant</catDesc>
+                        <catDesc xml:id="w23">Tomorrow; or the Dangers of Delay</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="./Personography.xml#EdgeM1">Mariah Edgeworth</persName>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="./Personography.xml#MackJ1">James Townsend Mackay</persName>
+                </correspAction>
+            </correspDesc>
+            <textClass>
+                <keywords scheme="">
+                    <list type="simple">
+                        <item>English literature</item>
+                        <item>History</item>
+                    </list>
+                </keywords>
+                <catRef target="#f7" scheme="#f"/>
+                <catRef target="#hist #el" scheme="locSUB"/>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2021-01-01" who="Id_who">
+                <!--Brief description of what you did here.-->
+            </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="letter">
+                <pb n="1" facs="Edgeworth_Harvard_604742_1829-12_page01.jpg"/>
+                <p>Edgeworths Town
+Aug[superscript]s[/superscript]. 16th 1844
+My dear Doctor Sprague -
+You have reason to think me the most
+ungrateful of beings - Yet from your
+benevolent indulgence I feel assured
+that you do not condemn me utterly
+unheard - I received your last kind
+letter dated Nov[superscript]r[/superscript]. 1[superscript]st[/superscript] first 43 many
+months ago - but I did not receive
+the books [unclear]Turnbulls[/unclear] life and the [unclear]N[superscript]os[/superscript].[/unclear]
+of the Journal of Science for some time
+afterwards - I was in London with
+my sister Mrs. Lestock Wilson; staying
+the winter and spring of the ensuing
+year with her and being in a whirl-
+-wind or a whirlpool all the time I
+was in Town I absolutely had not
+an hour or half an hour in which
+I could write a rational letter - The
+answers to notes of invitation and
+letters home and visit and the necessity
+of eating drinking and sleeping absolutely
+took up every moment - Then I was
+travelling to various places in the country
+in England and I did not reach home
+till May (5[superscript]th[/superscript]) I found your books and
+[deletion][unclear][/unclear] and[/deletion] was going to write to you
+when I was taken ill - with Eresipelas
+	I forgot to tell you that I had a very
+
+serious illness the year before as the
+newspaper truly informed you -
+[deletion]But[/deletion] The Eresipelas [insertion]which I had in May last[/insertion] though not so dan-
+gerous as the previous attack [insertion]in 43[/insertion] was
+alarming enough my pulse being above
+100 [deletion]considerably[/deletion] - Providentially however
+by good nursing and care & skill of a
+good physician (Sir Henry Marsh of Dublin
+I [deletion]was[/deletion] recovered - One of my sisters [insertion]nursed me[/insertion] One
+who never had the pleasure of your
+acquaintance & whose name Harriet
+Butler wife of the Rev[superscript]d[/superscript] Richard Butler
+of Trim may perhaps never have reached
+you - The most amiable and the
+most highly informed among our
+sex are often those whose names are
+unknown to fame.
+	But instead of writing you this
+eulogy on my dear sister Harriet I
+had better finish my own exculpation
+I have only to add that I was [deletion]so[/deletion] long
+after this illness forbidden the use
+of my pen and I am but just now
+permitted the free use of it - free use
+I can hardly yet say - for I am often called
+upon before I have been half an hour
+with pen in hand called upon by my
+guardian angels desiring me to lay
+it down and not to tire myself to [underline]death[/underline]
+- My friends are really too careful of
+me - but I am not killed with kindness
+
+I am only vexed that I cannot write to
+thank my absent and distant friends
+for favors - I have never [insertion]since my illness[/insertion] written one
+line yet of what I had begun to write
+before - I have written only letters and
+scarcely any letters except to my own family
+or the particular friends in London
+who were urgent for replies to their
+inquiries about my health -
+`Joanna Baillie and M[superscript]rs[/superscript]. Marcet for
+instance and Dr. Hollands wife
+Sidney Smith's daughter
+	Must I name Sidney Smith to an
+American? Yes surely as you are not
+one of the Repudiators you probably
+are not offended by the truth or by
+the wit and humor of his remarks
+	I saw something of him [deletion]and[/deletion] [underline]behind[/underline]
+the scenes, as I may say, during my visit
+to London - I saw him at his daughters
+quite at his ease - not playing Wit
+and then he was peculiarly agreeable
+I think him a very amiable affection
+ate and truly benevolent man
+And at his own residence, [insertion][unclear]Coomb Flowry[/unclear][/insertion] & in his own
+parish he is I am assured quite adored
+	And the person who last told me so
+was one worthy of credit and one able
+to judge herself a most amiable woman
+Lady Bell - widow of the celebrated Sir
+Charles Bell the Surgeon - [insertion]whose man[superscript][unclear][/unclear][/superscript] are just re-
+[unclear]embarked[/unclear] by her 
+May Read than[/insertion]
+	I think you are too severe upon
+(Col[superscript]l[/superscript] Turnbulls Memoirs - M.[superscript]rs[/superscript]. Edgeworth and
+I have found many parts of them very
+
+4
+interesting - all those parts of his personal
+narratives in London & Paris, and
+every where when he describes dramatic
+ally and from the life truly and exactly
+what he saw and heard of the various
+characters he met with - especially in
+revolutionary France - [deletion]The[/deletion] [unclear]facts[/unclear] are always
+interesting to human creatures & as part
+of the history of human nature Facts that
+illustrate the characters of celebrated indiv
+-duals are always valuable & valued
+	Even the most trivial words and actions
+for instance of such persons as Talleyrand
+Madame de Staël [unclear]Duvret[/unclear] &c - [insertion][unclear]long[/unclear][/insertion] posterity will
+read with curiosity [unclear]while[/unclear] all the long letters
+and pious justifi[unclear][/unclear] touching only by gone
+politics or private intrigues of diplomatists are
+useless & tiresome and the [unclear]exercise[/unclear] of the books there
+remain [unclear]unread even[/unclear] by the present generation &
+may [deletion]prevent[/deletion] by the size & weight how much they
+Twill the volume prevent its going to posterity
+- The beautiful sketches with which the book
+is ornamented will do much however to preserve
+it in the houses and libraries of every person of any
+taste for the Arts -
+Thank you my dear Sir for sending me the
+Book which has amused me more than I
+could have expected when first I saw its bulk
+& [deletion][unclear][/unclear][/deletion] felt its weight - Your American books
+are in general heavier than ours of the same sizes
+probably from the paper being the [unclear][/unclear] - you print
+beautifully when you chuse so to do - And most
+shabbily & on vile paper when are only looking to
+cheapness & supplying the [unclear]amusement[/unclear] of the day & hours
+	I have An American copy of Helen which is on
+the worst paper conceivable & squeezed into the smallest
+compass and [unclear]worst[/unclear] type - But still I am thankful
+that the Americans republished it at all -
+	You ask me about a forthcoming novel
+There is no [underline]Forthcoming[/underline] Novel by Maria E - I am writing a tale
+[insertion]but I have been so interrupted by illness - London - &c &c &c
+[unclear] I know not[/unclear] whether it will ever be finished -[/insertion]
+[underline]of which[/underline] you say the newspaper assure - I believe
+that paragraph must have been put in to newspaper
+by Bentley who has just [underline]re[/underline]published in one volume
+my father's memoirs which I have cut down to
+one volume, by taking out all that I thought su-
+perfluous in the volume which [underline]I[/underline] wrote - I have not
+touched my fathers part - Exactly upon the principle
+which I suggested w[superscript]d[/superscript] be advantageous to Col[superscript]l[/superscript] Turnbull
+
+
+5
+Memoirs, I left in my fathers all that was person
+al narrative and which I felt was interesting
+and had been assured the public [unclear]so found[/unclear] -
+	Bentley was not anxious to publish my abridg-
+ment of these Memoirs fearing there would not be
+demand for them at the present day - and
+he made an effort to engage me to promise
+him "[underline]a for[/underline]thcoming novel" were his very words
+which he understood he said I was writing
+	I told him that I had no novel ready to
+come out and that I never bargained for any
+work till it was completed - and that I would
+not enter into any engagement for what I am
+writing or bind myself in any way to finish
+it or to give it to him - But that when finished
+I would give him the first offer of the book or
+that if I die & consent to be published my execu
+tor should give him the first offer - I have
+[underline]bored[/underline] you with this long story because you
+have persuaded me that you are so much
+interested for me and [insertion]all[/insertion] my doings, and [unclear]works[/unclear]
+that I felt irresistibly tempted to bore you
+through and through -
+	I send you a huge packet of auto
+graphs which I hope will cost you nothing
+else they will cost you more than they
+are worth - At your suggestion I have sent
+you some papers (de trop) of the story which
+I am now writing and while I had [unclear][/unclear]
+- I have now cut the pages into slips for
+your convenience of giving away to your
+autograph lovers - and I have written my
+name and the date of the year at the bottom
+of each for I was anxious to do whatever you
+wish in this small matter - the only opportu
+nity I have [deletion]for[/deletion] of shewing my sense of your
+continued attentions and really valuable
+gifts to me [insertion](and among the most valuable I count y[superscript]r[/superscript]
+time in writing to me - You who have
+so much of correspondence to do for so many[/insertion]
+Your account of the Associations of Young
+Men for mutual improvement is highly
+creditable to your part of the country and
+will no doubt operate happily upon [insertion]literary[/insertion] society
+and on moral conduct in the succeeding
+
+
+6
+generations - I heard much of "[underline]Young England[/underline]"
+when I was in London - I do not know
+how to explain or define to you what is
+meant by young England - M[superscript]r[/superscript]. Milne a
+young [underline]fashionable[/underline] [unclear]&[/unclear] poet in London - a diner
+out And a speaker in parliament who has
+obtained [insertion]early[/insertion] celebrity or at least notoriety in all
+these lines of life is at the head or thinks
+himself at the head of Young England -
+They profess to be moral, religious, honorable
+and chivalrous - not to be [underline]utilitarians[/underline] (those
+are their particular detastation - Not to be
+high Churchmen - quite - but to support
+Church & State - not to be P[unclear][/unclear] ites -
+- quite - but to be liberal & not too liberal
+to [unclear]P[/unclear] liberal to Catholics also - but
+[unclear][/unclear] to Catholics
+[underline]If[/underline] they could keep their enthusiasm &
+conduct up to the high tone of morality
+they profess and if they could stand steady
+on the broad stone of honor without
+antics or bravadoing & [underline]if[/underline] they could keep
+clear of party spirit, affectation & [underline]puppyism[/underline]
+they would do a wonderful deal of good
+& would deserve the highest honors
+of their country - But here are many
+ifs, and difficulties which not one
+[unclear][/unclear] said of "Young [underline]England - it is[/underline]" ever
+thought of when they adopted the apella-
+-tion and above all), - the dress -.
+How would you Young England know England
+[deletion][unclear][/unclear][/deletion]
+Why by his open breast or open shirt collar
+[deletion][unclear][/unclear][/deletion]
+-collar to this says in truth he must have none - but
+[deletion][unclear][/unclear][/deletion]
+his shirt must turn down at the neck which school boys
+or I am told, in imitation of the ancient
+[underline]Romans[/underline] (who had no shirts) - If the gentle
+man does not chuse to bare his neck and
+shews himself like Lord Byrons picture
+if he will wear a neck kerchief cravat or
+
+7
+by whatever name it should be called it must
+be [underline]white[/underline] - "Down with Black Collars" as it was
+cried by the Paris mob to your Col[superscript]l[/superscript]. Turnbull
+in 97 - when he ran from them & wisely
+tore off his coat & burned it rather than
+be mobbed - [deletion][unclear][/unclear][/deletion]
+Benites the white neck cloth or bare neck
+Young England is to be known by his long
+hair streaming over his face and shoulders
+- curled or uncurled - Black Brown or Red
+so it must be worn - natural or false so
+it must be or you cannot be a young England
+- much of their strength is in their hair -
+	But I am writing upon them much
+more of my paper than I can afford
+	I am sorry to hear of burglaries in
+your city - In spite of your intellectual
+improvements - How is this? Does moral
+conduct not follow from intellectual cultivation
+	The subject [unclear][/unclear] question interests me
+much - The object of the tale I am now
+writing or thinking of writing is to shew
+that those who attempt to improve the
+education and condition of the [underline]poor[/underline]
+([unclear][/unclear] we [underline]have[/underline] poor in our country)
+or of the lower classes in any country
+must take special care that the moral
+education keeps pace with the intellectual
+else they do more good than harm to society
+and do not increase the real happiness of
+the individuals - my heroine is to be raised
+from Town life - and the [underline]benevolent[/underline] lady
+[deletion][unclear][/unclear][/deletion] gives her all manner of
+accomplishments but forgets principles
+and does not prepare her temper for the
+trials she must meet with in her sudden
+rise in life - nor does she [deletion][/deletion] teach
+her the self-control whicn in her motherless
+state is peculiarly necessary to enable her
+to resist the temptations to which a young
+beauty parvenue is exposed -
+As far as concerns my heroine [insertion]& her patroness[/insertion] only you
+cannot except for my sake my dear Sir be
+much interested in all this - But perhaps your
+daughter [insertion]or Mrs Sprague[/insertion] may & may have heard of facts and
+
+8
+examples that would be useful to me to know
+-	I mean in the course of the story (if I can to
+shew that unless great precautions are taken
+in the preparation of the individual raised
+[underline]per saltem[/underline] in life, there is a bad chance of
+the rise in condition being for their happiness
+	I shall touch upon the cure that ought
+to be taken by patrons & patronesses of charita
+ble schools both to keep the moral ed.[superscript]n[/superscript] equal
+to the intellectual and also to make the
+motives for industry and for the acquirement
+of knowledge, pure and good - not connected
+with envy as emulation is to apt to be
+- and not [insertion]merely[/insertion] springing from [underline]avarice[/underline] or [underline]worldly[/underline]
+[underline]ambition[/underline] - Those motives are subject to
+great disappointments & to lead at all
+times to heart burnings if nothing worse
+and to unhappiness within if not in out-
+ward circumstances or appearances.
+[deletion]My [unclear][/unclear][/deletion] I was called away
+as I was writing this to go to see a show
+on the Green at the end of the village -
+a show of Elephant & horses and horseman
+ship - and M[superscript]rs[/superscript]. E whom you know, and
+another M[superscript]rs[/superscript]. E whom you dont know, my
+brother Francis's wife, a Spanish lady [deletion]who not[/deletion]
+who has now five children who form the
+whole family at Edgeworths town [insertion]& all[/insertion] went to
+see the show - The children all have the hooping
+cough but the entertainment [deletion][unclear][/unclear][/deletion] operated
+so powerfully that they never once hooped during
+the hour we were there - I was never better
+entertained tho I have seen [insertion]fine[/insertion] exhibitions of
+horsemanship in Dublin & London - I was
+surprised to see in the first place the size &
+magnificence of the Tent - One hundred & forty
+feet circumference! Seats all round the
+circus raised four rows & covered with painted
+cloth like carpets We saw [deletion]two[/deletion] [insertion]a[/insertion] most graceful
+and active youth ride two horses abreast -
+one foot on one the other foot on the other
+horse round & round the center pole of the
+tent - then four in hand - Then two young
+men full canter [deletion][unclear][/unclear][/deletion] - One standing on the
+others shoulder! & waiving hands & arms
+	A large village audience had assembled and
+among those [insertion]of the upper class[/insertion]were the protestant clergyman &
+
+clergyman & his sister who went with us - and the Catholic
+priest - I was very glad to see them both sitting on the
+same bench and enjoying & sanctioning these innocent
+diversions - Several pretty young girls were there
+and I am sure enjoyed as much real pleasure
+as if they had been finely dressed and raised
+from their [deletion]rank[/deletion] humble stations to be young
+ladies in high life & sitting at a grand
+theatre in London - perhaps envious or jealous
+of the dress or beauty or high birth of somebody
+opposite to them or in the same box -
+	The elephant was as good at Edgeworths town as in London
+and ran his rational recreations over as well as
+if he were exhibiting at the Tower or the
+Zoological Gardens -
+	And now my dear D[superscript]r[/superscript]. Sprague I
+think you will say I have written enough and
+very glad shall I be if you think that I have made
+up for long silence & ingratitude
+	I really am your grateful and much obliged
+Maria Edgeworth
+I continue to find Sillimans journal a most interesting
+book - Doctor Robinson professor of astronomy and
+Astronomer Royal, Armagh and one of our first men of science and of
+genius much admires this American Journal &
+I have the pleasure of lending it to him - He is married
+to my sister Lucy - married her last year - a marriage
+in which all her family rejoiced - she had been for years
+in bad health confined by a spine complaint - which
+she bore with exemplary fortitude & sweet patience
+- She is now in the [unclear]enjoyment[/unclear] of as perfect happiness
+and health as can be -
+	I have said nothing of the books we
+have been reading - I should have told you that we have been reading
+Prescott Conquest of Mexico - the most interesting book
+I have seen this century - I am now hearing it read for the
+second time - I read it during my convalescence & immediately
+on my return home found my brother is reading it [insertion]& I Sharing it[/insertion] over again with
+the greatest delight
+
+
+
+1 3/4 oz
+The Rev[superscript]d[/superscript] Doctor Sprague
+Albany
+New York Sep 19
+
+                    
+                    <pb n="3" facs="Edgeworth_Harvard_604742_1829-12_page03.jpg"/>
+
+
+                <address>
+                    <addrLine>No. 1</addrLine>
+                    <addrLine><persName ref="./Personography.xml#MackJ1">Mr. Mackay</persName></addrLine>
+                    <addrLine><placeName ref="./Placeography.xml#Ballsbridge_IE">College Botanics Garden</placeName></addrLine>
+                </address>
+                </closer>
+            </div>
+        </body>
+        <back> </back>
+    </text>
+</TEI>
+
+
