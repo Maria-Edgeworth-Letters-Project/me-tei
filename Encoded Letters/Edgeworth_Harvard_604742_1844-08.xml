@@ -8,7 +8,7 @@
             <titleStmt>
                 <title>
                     Letter from Maria Edgeworth to Rev. William B. Sprague, August 16th, 1844
-                   </title>
+                </title>
                 <author>Maria Edgeworth</author>
                 <editor ref="Id_who">
                     Jamie Kramer
@@ -30,7 +30,7 @@
             </titleStmt>
             <editionStmt>
                 <edition>First digital edition in TEI, date: <date when="2023-08-30">
-
+                    
                 </date>
                 </edition>
                 <respStmt>
@@ -86,13 +86,12 @@
                         <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
                         to 
                         <persName ref="./Personography.xml#SpraW1">Rev. William B. Sprague</persName>
-                        <date when="1844-08-16">Aug<hi rend="superscript">s</hi>. 16th 1844</date>
+                        <date when="1844-08-16"><choice><abbr>Aug<hi rend="superscript">s</hi>.</abbr><reg>August</reg></choice> 16th 1844</date>
                     </head>
                     <physDesc>
                         <!-- optional physical description of the letter goes here: paper size and condition, seal, postmarks, etc.-->
                     </physDesc>
                 </msDesc>
-                
                 <!-- FROM LAURA: where to put the following information in <bibl> is still a question: 
                ask TEI List whether it should be in the sourceDesc or elsewhere? -->
                 
@@ -235,13 +234,13 @@
                     </salute>
                 </opener>
                 <p>You have reason to think me the most<lb/>
-                   ungrateful of beings - Yet from your<lb/>
-                   benevolent indulgence I feel assured<lb/>
-                   that you do not condemn me utterly<lb/>
-                   unheard - I received your last kind<lb/>
+                    ungrateful of beings - Yet from your<lb/>
+                    benevolent indulgence I feel assured<lb/>
+                    that you do not condemn me utterly<lb/>
+                    unheard - I received your last kind<lb/>
                     letter dated <choice><abbr>Nov<hi rend="superscript">r</hi>.</abbr><reg>November</reg></choice> 1<hi rend="superscript">st</hi> first 43 many<lb/>
                     months ago - but I did not receive<lb/>
-                    the books <title ref="./Workography.xml#Memoi7"><persName ref="./Personography.xml#TurnG1"><unclear>Turnbulls</unclear></persName></title> life and the <unclear><choice><abbr>N<hi rend="superscript">os</hi>.</abbr><reg>Numbers</reg></choice></unclear><lb/>
+                    the books <title ref="./Workography.xml#Memoi7"><persName ref="./Personography.xml#TurnG1"><unclear>Turnbulls</unclear></persName> life</title> and the <choice><abbr><unclear>N<hi rend="superscript">os</hi>.</unclear></abbr><reg>Numbers</reg></choice><lb/>
                     of the <title ref="./Workography.xml#Ameri1">Journal of Science</title> for some time<lb/>
                     afterwards - I was in <placeName ref="./Placeography.xml#London_ENK">London</placeName> with<lb/>
                     my sister <persName ref="./Personography.xml#EdgeF3">Mrs. Lestock Wilson</persName>; staying<lb/>
@@ -256,388 +255,393 @@
                     of eating drinking and sleeping absolutely<lb/>
                     took up every moment - Then I was<lb/>
                     travelling to various places in the country<lb/>
-                    in <placeName ref="./Placeography.xml#ENK">England</placeName> and I did not reach home<lb/>
+                        in <placeName ref="./Placeography.xml#ENK">England</placeName> and I did not reach home<lb/>
                     till May (5<hi rend="superscript">th</hi>) I found your books and<lb/>
                     <del><unclear></unclear> and</del> was going to write to you<lb/>
                     when I was taken ill - with Eresipelas<lb/></p>
-	               <p>I forgot to tell you that I had a very<lb/>
-
-       <pb n="2" facs="Edgeworth_Harvard_604742_1844-08_page02.jpg"/>
-                    
+                    <p>I forgot to tell you that I had a very<lb/>
+                        
+                        <pb n="2" facs="Edgeworth_Harvard_604742_1844-08_page02.jpg"/>
+                        
                     serious illness the year before as the<lb/>
                     newspaper truly informed you -<lb/>
                     <del>But</del> The Eresipelas <add>which I had in May last</add> though not so <choice><orig>dan-<lb/>
-                    gerous</orig><reg>dangerous</reg></choice> as the previous attack <add>in 43</add> was<lb/>
+                        gerous</orig><reg>dangerous</reg></choice> as the previous attack <add>in 43</add> was<lb/>
                     alarming enough my pulse being above<lb/>
                     100 <del>considerably</del> - Providentially however<lb/>
                     by good nursing and care &amp; skill of a<lb/>
-	                   good physician (<persName ref="./Personography.xml#MarshH1">Sir Henry Marsh</persName> of <placeName ref="./Placeography.xml#Dublin_IE">Dublin</placeName><lb/>
+                    good physician (<persName ref="./Personography.xml#MarshH1">Sir Henry Marsh</persName> of <placeName ref="./Placeography.xml#Dublin_IE">Dublin</placeName><lb/>
                     I <del>was</del> recovered - One of my sisters <add>nursed me</add> One<lb/>
                     who never had the pleasure of your<lb/>
-	                       acquaintance &amp; whose name <persName ref="./Personography.xml#EdgeH1">Harriet<lb/>
-	                           Butler</persName> wife of the <persName ref="./Personography.xml#ButlR1">Rev<hi rend="superscript">d</hi> Richard Butler</persName><lb/>
-	                       of <placeName ref="./Placeography.xml#Trim_IE">Trim</placeName> may perhaps never have reached<lb/>
-                           you - The most amiable and the<lb/>
-                           most highly informed among our<lb/>
-                            sex are often those whose names are<lb/>
-                            unknown to fame.<lb/></p>
-                        	<p>But instead of writing you this<lb/>
-                        	    eulogy on my dear sister <persName ref="./Personography.xml#EdgeH1">Harriet</persName> I<lb/>
-                            had better finish my own exculpation<lb/>
-                            I have only to add that I was <del>so</del> long<lb/>
-                            after this illness forbidden the use<lb/>
-                            of my pen and I am but just now<lb/>
-                            permitted the free use of it - free use<lb/>
-                            I can hardly yet say - for I am often called<lb/>
-                            upon before I have been half an hour<lb/>
-                            with pen in hand called upon by my<lb/>
-                            guardian angels desiring me to lay<lb/>
-                            it down and not to tire myself to <hi rend="underline">death</hi><lb/>
-                            - My friends are really too careful of<lb/>
-                            me - but I am not killed with kindness<lb/>
+                    acquaintance &amp; whose name <persName ref="./Personography.xml#EdgeH1">Harriet<lb/>
+                        Butler</persName> wife of the <persName ref="./Personography.xml#ButlR1">Rev<hi rend="superscript">d</hi> Richard Butler</persName><lb/>
+                    of <placeName ref="./Placeography.xml#Trim_IE">Trim</placeName> may perhaps never have reached<lb/>
+                    you - The most amiable and the<lb/>
+                    most highly informed among our<lb/>
+                    sex are often those whose names are<lb/>
+                    unknown to fame.<lb/></p>
+                    <p>But instead of writing you this<lb/>
+                eulogy on my dear sister <persName ref="./Personography.xml#EdgeH1">Harriet</persName> I<lb/>
+                    had better finish my own exculpation<lb/>
+                    I have only to add that I was <del>so</del> long<lb/>
+                    after this illness forbidden the use<lb/>
+                    of my pen and I am but just now<lb/>
+                    permitted the free use of it - free use<lb/>
+                    I can hardly yet say - for I am often called<lb/>
+                    upon before I have been half an hour<lb/>
+                    with pen in hand called upon by my<lb/>
+                    guardian angels desiring me to lay<lb/>
+                    it down and not to tire myself to <hi rend="underline">death</hi><lb/>
+                    - My friends are really too careful of<lb/>
+                    me - but I am not killed with kindness<lb/>
 
-<pb n="3" facs="Edgeworth_Harvard_604742_1844-08_page03.jpg"/>
-
-                            I am only vexed that I cannot write to<lb/>
-                            thank my absent and distant friends<lb/>
-                            for favors - I have never <add>since my illness</add> written one<lb/>
-                            line yet of what I had begun to write<lb/>
-                            before - I have written only letters and<lb/>
-                            scarcely any letters except to my own family<lb/>
-                            or the particular friends in <placeName ref="./Placeography.xml#London_ENK">London</placeName><lb/>
-                            who were urgent for replies to their<lb/>
-                            inquiries about my health -<lb/>
-                        	    <persName ref="./Personography.xml#BailJ1">Joanna Baillie</persName> and <persName ref="./Personography.xml#MarcJ1">M<hi rend="superscript">rs</hi>. Marcet</persName> for<lb/>
-                        	    instance and <persName ref="./Personography.xml#HollaP1">Dr. Holland</persName>s <persName ref="./Personography.xml#HollaS1">wife</persName><lb/>
-                        	    <persName ref="./Personography.xml#SmitS1">Sidney Smith</persName>'s <persName ref="./Personography.xml#HollaS1">daughter</persName><lb/></p>
-                        	    <p>Must I name <persName ref="./Personography.xml#SmitS1">Sidney Smith</persName> to an<lb/>
-                                American? Yes surely as you are not<lb/>
-                                one of the Repudiators you probably<lb/>
-                                are not offended by the truth or by<lb/>
-                                the wit and humor of his remarks<lb/></p>
-	                            <p>I saw something of him <del>and</del> <hi rend="underline">behind</hi><lb/>
-                                the scenes, as I may say, during my visit<lb/>
-	                                to <placeName ref="./Placeography.xml#London_ENK">London</placeName> - I saw him at <persName ref="./Personography.xml#HollaS1">his daughter</persName>s<lb/>
-                                quite at his ease - not playing Wit<lb/>
-                                and then he was peculiarly agreeable<lb/>
-                                I think him a very amiable <choice><orig>affection<lb/>
-                                    ate</orig><reg>affectionate</reg></choice> and truly benevolent man<lb/>
-	                                And at his own residence, <add><placeName ref="./Placeography.xml#Combe-Florey_IE"><choice><orig><unclear>Coomb Flowry</unclear></orig><reg>Combe Florey</reg></choice></placeName></add> &amp; in his own<lb/>
-                                    parish he is I am assured quite adored<lb/></p>
-                                	<p>And the person who last told me so<lb/>
-                                    was one worthy of credit and one able<lb/>
-                                    to judge herself a most amiable woman<lb/>
-                                	    <persName ref="./Personography.xml#BellM1">Lady Bell</persName> - widow of the celebrated <persName ref="./Personography.xml#BellC1">Sir<lb/>
-                                	    Charles Bell</persName> the Surgeon - <add>whose man<hi rend="superscript"><unclear></unclear></hi> are just re-<lb/>
-<unclear>embarked</unclear> by her<lb/>
-May Read than</add><lb/></p>
-	<p>I think you are too severe upon<lb/>
-	    (<persName ref="./Personography.xml#TurnG1">Col<hi rend="superscript">l</hi> Turnbulls</persName> <title ref="./Workography.xml#Memoi7">Memoirs</title> - <persName ref="./Personography.xml#EdgeF2">M.<hi rend="superscript">rs</hi>. Edgeworth</persName> and<lb/>
-I have found many parts of them very<lb/>
-
-                    <pb n="4" facs="Edgeworth_Harvard_604742_1844-08_page04.jpg"/>
-
-4<lb/>
-interesting - all those parts of his personal<lb/>
-narratives in <placeName ref="./Placeography.xml#London_ENK">London</placeName> &amp; <placeName ref="./Placeography.xml#Paris_FR">Paris</placeName>, and<lb/>
-every where when he describes dramatic<lb/>
-ally and from the life truly and exactly<lb/>
-what he saw and heard of the various<lb/>
-characters he met with - especially in<lb/>
-	    revolutionary <placeName ref="./Placeography.xml#FR">France</placeName> - <del>The</del> <unclear>facts</unclear> are always<lb/>
-interesting to human creatures &amp; as part<lb/>
-of the history of human nature Facts that<lb/>
-illustrate the characters of celebrated <choice><orig>indiv<lb/>
-    -duals</orig><reg>individuals</reg></choice> are always valuable &amp; valued<lb/></p>
-	                   <p>Even the most trivial words and actions<lb/>
-	                    for instance of such persons as <persName ref="./Personography.xml#TallC1">Talleyrand</persName><lb/>
-	                   <persName ref="./Personography.xml#StaeA1">Madame de Staël</persName> <persName ref="./Personography.xml#DuvrX1"><unclear>Duvret</unclear></persName> &amp;c - <add><unclear>long</unclear></add> posterity will<lb/>
-                        read with curiosity <unclear>while</unclear> all the long letters<lb/>
-                        and pious justifi<unclear></unclear> touching only by gone<lb/>
-                        politics or private intrigues of diplomatists are<lb/>
-                        useless &amp; tiresome and the <unclear>exercise</unclear> of the books there<lb/>
-                        remain <unclear>unread even</unclear> by the present generation &amp;<lb/>
-                        may <del>prevent</del> by the size &amp; weight how much they<lb/>
-                        Twill the volume prevent its going to posterity<lb/>
-                        - The beautiful sketches with which the book<lb/>
-                        is ornamented will do much however to preserve<lb/>
-                        it in the houses and libraries of every person of any<lb/>
-                        taste for the Arts -<lb/>
-                        Thank you my dear Sir for sending me the<lb/>
-	                       <title ref="./Workography.xml#Memoi7">Book</title> which has amused me more than I<lb/>
-                        could have expected when first I saw its bulk<lb/>
-                         &amp; <del><unclear></unclear></del> felt its weight - Your American books<lb/>
-                        are in general heavier than ours of the same sizes<lb/>
-                        probably from the paper being the <unclear></unclear> - you print<lb/>
-                        beautifully when you chuse so to do - And most<lb/>
-                        shabbily &amp; on vile paper when are only looking to<lb/>
-                        cheapness &amp; supplying the <unclear>amusement</unclear> of the day &amp; hours<lb/></p>
-                <p>I have An American copy of <title ref="./Workography.xml#Helen1">Helen</title> which is on<lb/>
-                        the worst paper conceivable &amp; squeezed into the smallest<lb/>
-                        compass and <unclear>worst</unclear> type - But still I am thankful<lb/>
-                        that the Americans republished it at all -<lb/></p>
-                    	<p>You ask me about a forthcoming novel<lb/>
-                    	    There is no <hi rend="underline">Forthcoming</hi> Novel by <persName ref="./Personography.xml#EdgeM1">Maria E</persName> - I am writing a tale<lb/>
-                            <add>but I have been so interrupted by illness - <placeName ref="./Placeography.xml#London_ENK">London</placeName> - &amp;c &amp;c &amp;c<lb/>
-                            <unclear> I know not</unclear> whether it will ever be finished -</add><lb/>
-                            <hi rend="underline">of which</hi> you say the newspaper assure - I believe<lb/>
-                            that paragraph must have been put in to newspaper<lb/>
-                    	    by <persName ref="./Personography.xml#BentR1">Bentley</persName> who has just <hi rend="underline">re</hi>published in one volume<lb/>
-                    	    my <persName ref="./Personography.xml#EdgeR1">father</persName>'s <title ref="./Workography.xml#Memoi1">memoirs</title> which I have cut down to<lb/>
-                            one volume, by taking out all that I thought <choice><orig>su-<lb/>
-                            perfluous</orig><reg>superfluous</reg></choice> in the volume which <hi rend="underline">I</hi> wrote - I have not<lb/>
-                            touched my <persName ref="./Personography.xml#EdgeR1">father</persName>s part - Exactly upon the principle<lb/>
-                    	    which I suggested <choice><abbr>w<hi rend="superscript">d</hi></abbr><reg>would</reg></choice> be advantageous to <persName ref="./Personography.xml#TurnG1">Col<hi rend="superscript">l</hi> Turnbull</persName><lb/>
+                        <pb n="3" facs="Edgeworth_Harvard_604742_1844-08_page03.jpg"/>
+                        
+                    I am only vexed that I cannot write to<lb/>
+                    thank my absent and distant friends<lb/>
+                    for favors - I have never <add>since my illness</add> written one<lb/>
+                    line yet of what I had begun to write<lb/>
+                    before - I have written only letters and<lb/>
+                    scarcely any letters except to my own family<lb/>
+                    or the particular friends in <placeName ref="./Placeography.xml#London_ENK">London</placeName><lb/>
+                    who were urgent for replies to their<lb/>
+                    inquiries about my health -<lb/>
+                    <persName ref="./Personography.xml#BailJ1">Joanna Baillie</persName> and <persName ref="./Personography.xml#MarcJ1">M<hi rend="superscript">rs</hi>. Marcet</persName> for<lb/>
+                        instance and <persName ref="./Personography.xml#HollaP1">Dr. Holland</persName>s <persName ref="./Personography.xml#HollaS1">wife</persName><lb/>
+                        <persName ref="./Personography.xml#SmitS1">Sidney Smith</persName>'s <persName ref="./Personography.xml#HollaS1">daughter</persName><lb/></p>
+                    <p>Must I name <persName ref="./Personography.xml#SmithS1">Sidney Smith</persName> to an<lb/>
+                    American? Yes surely as you are not<lb/>
+                    one of the Repudiators you probably<lb/>
+                    are not offended by the truth or by<lb/>
+                    the wit and humor of his remarks<lb/>
+                    I saw something of him <del>and</del> <hi rend="underline">behind</hi><lb/>
+                    the scenes, as I may say, during my visit<lb/>
+                        to <placeName ref="./Placeography.xml#London_ENK">London</placeName> - I saw him at <persName ref="./Personography.xml#HollaS1">his daughter</persName>s<lb/>
+                    quite at his ease - not playing Wit<lb/>
+                    and then he was peculiarly agreeable<lb/>
+                    I think him a very amiable <choice><orig>affection<lb/>
+                        ate</orig><reg>affectionate</reg></choice> and truly benevolent man<lb/>
+                        And at his own residence, <add><placeName ref="./Placeography.xml#Combe-Florey_IE"><choice><orig><unclear>Coomb Flowry</unclear></orig><reg>Combe Florey</reg></choice></placeName></add> &amp; in his own<lb/>
+                    parish he is I am assured quite adored<lb/></p>
+                    <p>And the person who last told me so<lb/>
+                    was one worthy of credit and one able<lb/>
+                    to judge herself a most amiable woman<lb/>
+                        <persName ref="./Personography.xml#BellM1">Lady Bell</persName> - widow of the celebrated <persName ref="./Personography.xml#BellC1">Sir<lb/>
+                            Charles Bell</persName> the Surgeon - <add>whose man<hi rend="superscript"><unclear></unclear></hi> are just re-<lb/>
+                    <unclear>embarked</unclear> by her<lb/>
+                                May Read than<lb/></add></p>
+                    <p>I think you are too severe upon<lb/>
+                    (<persName ref="./Personography.xml#TurnG1">Col<hi rend="superscript">l</hi> Turnbull</persName>s <title ref="./Workography.xml#Memoi7">Memoirs</title> - <persName ref="./Personography.xml#EdgeF2">M.<hi rend="superscript">rs</hi>. Edgeworth</persName> and<lb/>
+                    I have found many parts of them very<lb/>
+                    
+                        <pb n="4" facs="Edgeworth_Harvard_604742_1844-08_page04.jpg"/>
+                    
+                    4<lb/>
+                    interesting - all those parts of his personal<lb/>
+                    narratives in <placeName ref="./Placeography.xml#London_ENK">London</placeName> &amp; <placeName ref="./Placeography.xml#Paris_FR">Paris</placeName>, and<lb/>
+                    every where when he describes <choice><orig>dramatic<lb/>
+                        ally</orig><reg>dramatically</reg></choice> and from the life truly and exactly<lb/>
+                    what he saw and heard of the various<lb/>
+                    characters he met with - especially in<lb/>
+                    revolutionary <placeName ref="./Placeography.xml#FR">France</placeName> - <del>The</del> <unclear>facts</unclear> are always<lb/>
+                    interesting to human creatures &amp; as part<lb/>
+                    of the history of human nature Facts that<lb/>
+                    illustrate the characters of celebrated <choice><orig>indiv<lb/>
+                        -duals</orig><reg>individuals</reg></choice> are always valuable &amp; valued<lb/></p>
+                <p>Even the most trivial words and actions<lb/>
+                    for instance of such persons as <persName ref="./Personography.xml#TallC1">Talleyrand</persName><lb/>
+                    <persName ref="./Personography.xml#StaeA1">Madame de Staël</persName> <unclear>David</unclear> &amp;c - <add><unclear>long</unclear></add> posterity will<lb/>
+                    read with curiosity <unclear>while</unclear> all the long letters<lb/>
+                    and pious justifi<unclear></unclear> touching only by gone<lb/>
+                    politics or private intrigues of diplomatists are<lb/>
+                    useless &amp; tiresome and the <unclear>exercise</unclear> of the books there<lb/>
+                    remain <unclear>unread even</unclear> by the present generation &amp;<lb/>
+                    may <del>prevent</del> by the size &amp; weight how much they<lb/>
+                    Twill the volume prevent its going to posterity<lb/>
+                    - The beautiful sketches with which the book<lb/>
+                    is ornamented will do much however to preserve<lb/>
+                    it in the houses and libraries of every person of any<lb/>
+                    taste for the Arts -<lb/>
+                    Thank you my dear <persName ref="./Personography.xml#SpraW1">Sir</persName> for sending me the<lb/>
+                    <title ref="./Workography.xml#Memoi7">Book</title> which has amused me more than I<lb/>
+                    could have expected when first I saw its bulk<lb/>
+                    &amp; <del><unclear></unclear></del> felt its weight - Your American books<lb/>
+                    are in general heavier than ours of the same sizes
+                    probably from the paper being the <unclear></unclear> - you print
+                    beautifully when you chuse so to do - And most
+                    shabbily &amp; on vile paper when are only looking to
+                    cheapness &amp; supplying the <unclear>amusement</unclear> of the day &amp; hours<lb/></p>
+                    <p>I have An American copy of <title ref="./Workography.xml#Helen1">Helen</title> which is on<lb/>
+                    the worst paper conceivable &amp; squeezed into the smallest<lb/>
+                    compass and <unclear>worst</unclear> type - But still I am thankful<lb/>
+                    that the Americans republished it at all -<lb/></p>
+                    <p>You ask me about a forthcoming novel<lb/>
+                    There is no <hi rend="underline">Forthcoming</hi> Novel by <persName ref="./Personography.xml#EdgeM1">Maria E</persName> - I am writing a tale<lb/>
+                    <add>but I have been so interrupted by illness - <placeName ref="./Placeography.xml#London_ENK">London</placeName> - &amp;c &amp;c &amp;c
+                    <unclear> I know not</unclear> whether it will ever be finished -</add>
+                    <hi rend="underline">of which</hi> you say the newspaper assure - I believe
+                    that paragraph must have been put in to newspaper<lb/>
+                    by <persName ref="./Personography.xml#BentR1">Bentley</persName> who has just <hi rend="underline">re</hi>published in one volume<lb/>
+                    my <persName ref="./Personography.xml#EdgeR1">father</persName>'s <title ref="./Workography.xml#Memoi1">memoirs</title> which I have cut down to<lb/>
+                    one volume, by taking out all that I thought <choice><orig>su-<lb/>
+                        perfluous</orig><reg>superfluous</reg></choice> in the volume which <hi rend="underline">I</hi> wrote - I have not<lb/>
+                    touched my <persName ref="./Personography.xml#EdgeR1">father</persName>s part - Exactly upon the principle<lb/>
+                    which I suggested <choice><abbr>w<hi rend="superscript">d</hi></abbr><reg>would</reg></choice> be advantageous to <persName ref="./Personography.xml#TurnG1">Col<hi rend="superscript">l</hi> Turnbull</persName><lb/>
 
                     <pb n="5" facs="Edgeworth_Harvard_604742_1844-08_page05.jpg"/>
-
-                        5<lb/>
-                    	    <title ref="./Workography.xml#Memoi7">Memoirs</title>, I left in my <persName ref="./Personography.xml#EdgeR1">father</persName>s all that was <choice><orig>person<lb/>
-                    	        al</orig><reg>personal</reg></choice> narrative and which I felt was interesting<lb/>
-                                and had been assured the public <unclear>so found</unclear> -<lb/></p>
-                <p><persName ref="./Personography.xml#BentR1">Bentley</persName> was not anxious to publish my <choice><orig>abridg-<lb/>
-                    ment</orig><reg>abridgement</reg></choice> of these <title ref="./Workography.xml#Memoi1">Memoirs</title> fearing there would not be<lb/>
-                                demand for them at the present day - and<lb/>
-                                he made an effort to engage me to promise<lb/>
-                                him "<hi rend="underline">a for</hi>thcoming novel" were his very words<lb/>
-                                which he understood he said I was writing<lb/></p>
-	                           <p>I told him that I had no novel ready to<lb/>
-                                come out and that I never bargained for any<lb/>
-                               work till it was completed - and that I would<lb/>
-                                not enter into any engagement for what I am<lb/>
-                                writing or bind myself in any way to finish<lb/>
-                                it or to give it to him - But that when finished<lb/>
-                                I would give him the first offer of the book or<lb/>
-                                that if I die &amp; consent to be published my <choice><orig>execu<lb/>
-                                    tor</orig><reg>executor</reg></choice> should give him the first offer - I have<lb/>
-                                <hi rend="underline">bored</hi> you with this long story because you<lb/>
-                                have persuaded me that you are so much<lb/>
-                                interested for me and <add>all</add> my doings, and <unclear>works</unclear><lb/>
-                                that I felt irresistibly tempted to bore you<lb/>
-                                through and through -<lb/></p>
-	                            <p>I send you a huge packet of <choice><orig>auto<lb/>
-	                                graphs</orig><reg>autographs</reg></choice> which I hope will cost you nothing<lb/>
-                                    else they will cost you more than they<lb/>
-                                    are worth - At your suggestion I have sent<lb/>
-                                    you some papers (de trop) of the story which<lb/>
-                                    I am now writing and while I had <unclear></unclear><lb/>
-                                    - I have now cut the pages into slips for<lb/>
-                                    your convenience of giving away to your<lb/>
-                                    autograph lovers - and I have written my<lb/>
-                                    name and the date of the year at the bottom<lb/>
-                                    of each for I was anxious to do whatever you<lb/>
-                                    wish in this small matter - the only <choice><orig>opportu<lb/>
-                                        nity</orig><reg>opportunity</reg></choice> I have <del>for</del> of shewing my sense of your<lb/>
-                                        continued attentions and really valuable<lb/>
-	                                gifts to me <add>(and among the most valuable I count <choice><orig>y<hi rend="superscript">r</hi></orig><reg>your</reg></choice><lb/>
-                                    time in writing to me - You who have<lb/>
-                                    so much of correspondence to do for so many</add><lb/>
-                                    Your account of the Associations of Young<lb/>
-                                    Men for mutual improvement is highly<lb/>
-                                    creditable to your part of the country and<lb/>
-                                    will no doubt operate happily upon <add>literary</add> society<lb/>
-                                    and on moral conduct in the succeeding<lb/>
-
+                    
+                    5<lb/>
+                    <title ref="./Workography.xml#Memoi7">Memoirs</title>, I left in my <persName ref="./Personography.xml#EdgeR1">father</persName>s all that was <choice><orig>person<lb/>
+                        al</orig><reg>personal</reg></choice> narrative and which I felt was interesting<lb/>
+                    and had been assured the public <unclear>so found</unclear> -</p>
+                    <p><persName ref="./Personography.xml#BentR1">Bentley</persName> was not anxious to publish my <choice><orig>abridg-<lb/>
+                        ment</orig><reg>abridgment</reg></choice> of these <title ref="./Workography.xml#Memoi1">Memoirs</title> fearing there would not be<lb/>
+                    demand for them at the present day - and<lb/>
+                    he made an effort to engage me to promise<lb/>
+                    him "<hi rend="underline">a for</hi>thcoming novel" were his very words<lb/>
+                    which he understood he said I was writing<lb/></p>
+                    <p>I told him that I had no novel ready to<lb/>
+                    come out and that I never bargained for any<lb/>
+                    work till it was completed - and that I would<lb/>
+                    not enter into any engagement for what I am<lb/>
+                    writing or bind myself in any way to finish<lb/>
+                    it or to give it to him - But that when finished<lb/>
+                    I would give him the first offer of the book or<lb/>
+                    that if I die &amp; consent to be published my execu<lb/>
+                    tor should give him the first offer - I have<lb/>
+                    <hi rend="underline">bored</hi> you with this long story because you<lb/>
+                    have persuaded me that you are so much<lb/>
+                    interested for me and <add>all</add> my doings, and <unclear>works</unclear><lb/>
+                    that I felt irresistibly tempted to bore you<lb/>
+                    through and through -<lb/></p>
+                    <p>I send you a huge packet of <choice><orig>auto<lb/>
+                        graphs</orig><reg>autographs</reg></choice> which I hope will cost you nothing<lb/>
+                    else they will cost you more than they<lb/>
+                    are worth - At your suggestion I have sent<lb/>
+                    you some papers (de trop) of the story which<lb/>
+                    I am now writing and while I had <unclear></unclear><lb/>
+                    - I have now cut the pages into slips for<lb/>
+                    your convenience of giving away to your<lb/>
+                    autograph lovers - and I have written my<lb/>
+                    name and the date of the year at the bottom<lb/>
+                    of each for I was anxious to do whatever you<lb/>
+                    wish in this small matter - the only <choice><orig>opportu<lb/>
+                        nity</orig><reg>opportunity</reg></choice> I have <del>for</del> of shewing my sense of your<lb/>
+                    continued attentions and really valuable<lb/>
+                    gifts to me <add>(and among the most valuable I count <choice><abbr>y<hi rend="superscript">r</hi></abbr><reg>your</reg></choice><lb/>
+                    time in writing to me - You who have<lb/>
+                    so much of correspondence to do for so many</add><lb/>
+                    Your account of the Associations of Young<lb/>
+                    Men for mutual improvement is highly<lb/>
+                    creditable to your part of the country and<lb/>
+                    will no doubt operate happily upon <add>literary</add> society<lb/>
+                    and on moral conduct in the succeeding<lb/>
+                    
                     <pb n="6" facs="Edgeworth_Harvard_604742_1844-08_page06.jpg"/>
                     
-6
-generations - I heard much of "<hi rend="underline">Young <placeName ref="./Placeography.xml#ENK">England</placeName></hi>"
-when I was in <placeName ref="./Placeography.xml#London_ENK">London</placeName> - I do not know
-how to explain or define to you what is
-meant by young <placeName ref="./Placeography.xml#ENK">England</placeName> - M<hi rend="superscript">r</hi>. Milne a
-young <hi rend="underline">fashionable</hi> <unclear>&amp;</unclear> poet in <placeName ref="./Placeography.xml#London_ENK">London</placeName> - a diner
-out And a speaker in parliament who has
-obtained <add>early</add> celebrity or at least notoriety in all
-these lines of life is at the head or thinks
-himself at the head of Young <placeName ref="./Placeography.xml#ENK">England</placeName> -
-They profess to be moral, religious, honorable
-and chivalrous - not to be <hi rend="underline">utilitarians</hi> (those
-are their particular detastation - Not to be
-high Churchmen - quite - but to support
-Church &amp; State - not to be P<unclear></unclear> ites -
-- quite - but to be liberal &amp; not too liberal
-to <unclear>P</unclear> liberal to Catholics also - but
-<unclear></unclear> to Catholics
-<hi rend="underline">If</hi> they could keep their enthusiasm &amp;
-conduct up to the high tone of morality
-they profess and if they could stand steady
-on the broad stone of honor without
-antics or bravadoing &amp; <hi rend="underline">if</hi> they could keep
-clear of party spirit, affectation &amp; <hi rend="underline">puppyism</hi>
-they would do a wonderful deal of good
-&amp; would deserve the highest honors
-of their country - But here are many
-ifs, and difficulties which not one
-<unclear></unclear> said of "Young <hi rend="underline"><placeName ref="./Placeography.xml#ENK">England</placeName> - it is</hi>" ever
-thought of when they adopted the apella-
--tion and above all), - the dress -.
-How would you Young <placeName ref="./Placeography.xml#ENK">England</placeName> know <placeName ref="./Placeography.xml#ENK">England</placeName>
-<del><unclear></unclear></del>
-Why by his open breast or open shirt collar
-<del><unclear></unclear></del>
--collar to this says in truth he must have none - but
-<del><unclear></unclear></del>
-his shirt must turn down at the neck which school boys
-or I am told, in imitation of the ancient
-<hi rend="underline">Romans</hi> (who had no shirts) - If the gentle
-man does not chuse to bare his neck and
-shews himself like Lord Byrons picture
-if he will wear a neck kerchief cravat or
-
+                    6<lb/>
+                    generations - I heard much of "<hi rend="underline">Young <placeName ref="./Placeography.xml#ENK">England</placeName></hi>"<lb/>
+                    when I was in <placeName ref="./Placeography.xml#London_ENK">London</placeName> - I do not know<lb/>
+                    how to explain or define to you what is<lb/>
+                    meant by young <placeName ref="./Placeography.xml#ENK">England</placeName> - <persName ref="./Personography.xml#MilnR1">M<hi rend="superscript">r</hi>. <choice><orig>Milne</orig><reg>Milnes</reg></choice></persName> a<lb/>
+                    young <hi rend="underline">fashionable</hi> <unclear>&amp;</unclear> poet in <placeName ref="./Placeography.xml#London_ENK">London</placeName> - a diner<lb/>
+                    out And a speaker in <placeName ref="./Placeography.xml#Houses-of-Parliament_ENK">parliament</placeName> who has<lb/>
+                    obtained <add>early</add> celebrity or at least notoriety in all<lb/>
+                    these lines of life is at the head or thinks<lb/>
+                    himself at the head of Young <placeName ref="./Placeography.xml#ENK">England</placeName> -<lb/>
+                    They profess to be moral, religious, honorable<lb/>
+                    and chivalrous - not to be <hi rend="underline">utilitarians</hi> (those<lb/>
+                    are their particular detastation - Not to be<lb/>
+                    high Churchmen - quite - but to support<lb/>
+                    Church &amp; State - not to be P<unclear></unclear> ites -<lb/>
+                    - quite - but to be liberal &amp; not too liberal<lb/>
+                    to <unclear>P</unclear> liberal to Catholics also - but<lb/>
+                    <unclear></unclear> to Catholics<lb/>
+                    <hi rend="underline">If</hi> they could keep their enthusiasm &amp;<lb/>
+                    conduct up to the high tone of morality<lb/>
+                    they profess and if they could stand steady<lb/>
+                    on the broad stone of honor without<lb/>
+                    antics or bravadoing &amp; <hi rend="underline">if</hi> they could keep<lb/>
+                    clear of party spirit, affectation &amp; <hi rend="underline">puppyism</hi><lb/>
+                    they would do a wonderful deal of good<lb/>
+                    &amp; would deserve the highest honors<lb/>
+                    of their country - But here are many<lb/>
+                    ifs, and difficulties which not one<lb/>
+                    <unclear></unclear> said of "Young <hi rend="underline"><placeName ref="./Placeography.xml#ENK">England</placeName> - it is</hi>" ever<lb/>
+                    thought of when they adopted the <choice><orig>apella-<lb/>
+                        -tion</orig><reg>appellation</reg></choice> and above all), - the dress -.<lb/>
+                    How would you Young <placeName ref="./Placeography.xml#ENK">England</placeName> know <placeName ref="./Placeography.xml#ENK">England</placeName><lb/>
+                    <del><unclear></unclear></del><lb/>
+                    Why by his open breast or open shirt collar<lb/>
+                    <del><unclear></unclear></del><lb/>
+                    -collar to this says in truth he must have none - but<lb/>
+                    <del><unclear></unclear></del><lb/>
+                    his shirt must turn down at the neck which school boys<lb/>
+                    or I am told, in imitation of the ancient<lb/>
+                    <hi rend="underline">Romans</hi> (who had no shirts) - If the gentle<lb/>
+                    man does not chuse to bare his neck and<lb/>
+                    shews himself like <persName ref="./Personography.xml#ByroG1">Lord Byron</persName>s picture<lb/>
+                    if he will wear a neck kerchief cravat or<lb/>
+                    
                     <pb n="7" facs="Edgeworth_Harvard_604742_1844-08_page07.jpg"/>
                     
-7
-by whatever name it should be called it must
-be <hi rend="underline">white</hi> - "Down with Black Collars" as it was
-cried by the <placeName ref="./Placeography.xml#Paris_FR">Paris</placeName> mob to your Col<hi rend="superscript">l</hi>. Turnbull
-in 97 - when he ran from them &amp; wisely
-tore off his coat &amp; burned it rather than
-be mobbed - <del><unclear></unclear></del>
-Benites the white neck cloth or bare neck
-Young <placeName ref="./Placeography.xml#ENK">England</placeName> is to be known by his long
-hair streaming over his face and shoulders
-- curled or uncurled - Black Brown or Red
-so it must be worn - natural or false so
-it must be or you cannot be a young <placeName ref="./Placeography.xml#ENK">England</placeName>
-- much of their strength is in their hair -
-	But I am writing upon them much
-more of my paper than I can afford
-	I am sorry to hear of burglaries in
-your city - In spite of your intellectual
-improvements - How is this? Does moral
-conduct not follow from intellectual cultivation
-	The subject <unclear></unclear> question interests me
-much - The object of the tale I am now
-writing or thinking of writing is to shew
-that those who attempt to improve the
-education and condition of the <hi rend="underline">poor</hi>
-(<unclear></unclear> we <hi rend="underline">have</hi> poor in our country)
-or of the lower classes in any country
-must take special care that the moral
-education keeps pace with the intellectual
-else they do more good than harm to society
-and do not increase the real happiness of
-the individuals - my heroine is to be raised
-from Town life - and the <hi rend="underline">benevolent</hi> lady
-<del><unclear></unclear></del> gives her all manner of
-accomplishments but forgets principles
-and does not prepare her temper for the
-trials she must meet with in her sudden
-rise in life - nor does she <del></del> teach
-her the self-control whicn in her motherless
-state is peculiarly necessary to enable her
-to resist the temptations to which a young
-beauty parvenue is exposed -
-As far as concerns my heroine <add>&amp; her patroness</add> only you
-cannot except for my sake my dear Sir be
-much interested in all this - But perhaps your
-daughter <add>or Mrs Sprague</add> may &amp; may have heard of facts and
-
+                    7<lb/>
+                    by whatever name it should be called it must<lb/>
+                    be <hi rend="underline">white</hi> - "Down with Black Collars" as it was<lb/>
+                    cried by the Paris mob to your <persName ref="./Personography.xml#TurnG1">Col<hi rend="superscript">l</hi>. Turnbull</persName><lb/>
+                    in 97 - when he ran from them &amp; wisely<lb/>
+                    tore off his coat &amp; burned it rather than<lb/>
+                    be mobbed - <del><unclear></unclear></del><lb/>
+                    Benites the white neck cloth or bare neck<lb/>
+                    Young <placeName ref="./Placeography.xml#ENK">England</placeName> is to be known by his long<lb/>
+                    hair streaming over his face and shoulders<lb/>
+                    - curled or uncurled - Black Brown or Red<lb/>
+                    so it must be worn - natural or false so<lb/>
+                    it must be or you cannot be a young <placeName ref="./Placeography.xml#ENK">England</placeName><lb/>
+                    - much of their strength is in their hair -<lb/></p>
+                    <p>But I am writing upon them much<lb/>
+                    more of my paper than I can afford<lb/></p>
+                    <p>I am sorry to hear of burglaries in<lb/>
+                    your city - In spite of your intellectual<lb/>
+                    improvements - How is this? Does moral<lb/>
+                    conduct not follow from intellectual cultivation<lb/></p>
+                    <p>The subject <unclear></unclear> question interests me<lb/>
+                    much - The object of the tale I am now<lb/>
+                    writing or thinking of writing is to shew<lb/>
+                    that those who attempt to improve the<lb/>
+                    education and condition of the <hi rend="underline">poor</hi><lb/>
+                    (<unclear></unclear> we <hi rend="underline">have</hi> poor in our country)<lb/>
+                    or of the lower classes in any country<lb/>
+                    must take special care that the moral<lb/>
+                    education keeps pace with the intellectual<lb/>
+                    else they do more good than harm to society<lb/>
+                    and do not increase the real happiness of<lb/>
+                    the individuals - my heroine is to be raised<lb/>
+                    from Town life - and the <hi rend="underline">benevolent</hi> lady<lb/>
+                    <del><unclear></unclear></del> gives her all manner of<lb/>
+                    accomplishments but forgets principles<lb/>
+                    and does not prepare her temper for the<lb/>
+                    trials she must meet with in her sudden<lb/>
+                    rise in life - nor does she <del></del> teach<lb/>
+                    her the self-control whicn in her motherless<lb/>
+                    state is peculiarly necessary to enable her<lb/>
+                    to resist the temptations to which a young<lb/>
+                    beauty parvenue is exposed -<lb/>
+                    As far as concerns my heroine <add>&amp; her patroness</add> only you<lb/>
+                    cannot except for my sake my dear Sir be<lb/>
+                    much interested in all this - But perhaps <persName ref="./Personography.xml#SpraC1">your<lb/>
+                        daughter</persName> <add>or <persName ref="./Personography.xml#SpraH1">Mrs Sprague</persName></add> may &amp; may have heard of facts and<lb/>
+                    
                     <pb n="8" facs="Edgeworth_Harvard_604742_1844-08_page08.jpg"/>
-
-8
-examples that would be useful to me to know
--	I mean in the course of the story (if I can to
-shew that unless great precautions are taken
-in the preparation of the individual raised
-<hi rend="underline">per saltem</hi> in life, there is a bad chance of
-the rise in condition being for their happiness
-	I shall touch upon the cure that ought
-to be taken by patrons &amp; patronesses of charita
-ble schools both to keep the moral ed.<hi rend="superscript">n</hi> equal
-to the intellectual and also to make the
-motives for industry and for the acquirement
-of knowledge, pure and good - not connected
-with envy as emulation is to apt to be
-- and not <add>merely</add> springing from <hi rend="underline">avarice</hi> or <hi rend="underline">worldly</hi>
-<hi rend="underline">ambition</hi> - Those motives are subject to
-great disappointments &amp; to lead at all
-times to heart burnings if nothing worse
-and to unhappiness within if not in out-
-ward circumstances or appearances.
-<del>My <unclear></unclear></del> I was called away
-as I was writing this to go to see a show
-on the Green at the end of the village -
-a show of Elephant &amp; horses and horseman
-ship - and M<hi rend="superscript">rs</hi>. E whom you know, and
-another M<hi rend="superscript">rs</hi>. E whom you dont know, my
-brother Francis's wife, a Spanish lady <del>who not</del>
-who has now five children who form the
-whole family at Edgeworths town <add>&amp; all</add> went to
-see the show - The children all have the hooping
-cough but the entertainment <del><unclear></unclear></del> operated
-so powerfully that they never once hooped during
-the hour we were there - I was never better
-entertained tho I have seen <add>fine</add> exhibitions of
-horsemanship in Dublin &amp; <placeName ref="./Placeography.xml#London_ENK">London</placeName> - I was
-surprised to see in the first place the size &amp;
-magnificence of the Tent - One hundred &amp; forty
-feet circumference! Seats all round the
-circus raised four rows &amp; covered with painted
-cloth like carpets We saw <del>two</del> <add>a</add> most graceful
-and active youth ride two horses abreast -
-one foot on one the other foot on the other
-horse round &amp; round the center pole of the
-tent - then four in hand - Then two young
-men full canter <del><unclear></unclear></del> - One standing on the
-others shoulder! &amp; waiving hands &amp; arms
-	A large village audience had assembled and
-among those <add>of the upper class</add>were the protestant clergyman &amp;
-
+                    
+                    8<lb/>
+                    examples that would be useful to me to know<lb/></p>
+                    <p>-	I mean in the course of the story (if I can to<lb/>
+                    shew that unless great precautions are taken<lb/>
+                    in the preparation of the individual raised<lb/>
+                    <hi rend="underline">per saltem</hi> in life, there is a bad chance of<lb/>
+                    the rise in condition being for their happiness<lb/></p>
+                    <p>I shall touch upon the cure that ought<lb/>
+                    to be taken by patrons &amp; patronesses of <choice><orig>charita<lb/>
+                        ble</orig><reg>charitable</reg></choice> schools both to keep the moral <choice><abbr>ed.<hi rend="superscript">n</hi></abbr><reg>education</reg></choice> equal<lb/>
+                    to the intellectual and also to make the<lb/>
+                    motives for industry and for the acquirement<lb/>
+                    of knowledge, pure and good - not connected<lb/>
+                    with envy as emulation is to apt to be<lb/>
+                    - and not <add>merely</add> springing from <hi rend="underline">avarice</hi> or <hi rend="underline">worldly</hi><lb/>
+                    <hi rend="underline">ambition</hi> - Those motives are subject to<lb/>
+                    great disappointments &amp; to lead at all<lb/>
+                    times to heart burnings if nothing worse<lb/>
+                    and to unhappiness within if not in <choice><orig>out-<lb/>
+                        ward</orig><reg>outward</reg></choice> circumstances or appearances.<lb/>
+                    <del>My <unclear></unclear></del> I was called away<lb/>
+                    as I was writing this to go to see a show<lb/>
+                    on the Green at the end of the <placeName ref="./Placeography.xml#Edgeworthstown_IE">village</placeName> -<lb/>
+                    a show of Elephant &amp; horses and <choice><orig>horseman<lb/>
+                        ship</orig><reg>horsemanship</reg></choice> - and <persName ref="./Personography.xml#EdgeF2">M<hi rend="superscript">rs</hi>. E</persName> whom you know, and
+                    another M<hi rend="superscript">rs</hi>. E whom you dont know, my
+                    brother <persName ref="./Personography.xml#EdgeF1">Francis</persName>'s <persName ref="./Personography.xml#EdgeR2">wife</persName>, a Spanish lady <del>who not</del><lb/>
+                    who has now five children who form the<lb/>
+                    whole family at <placeName ref="./Placeography.xml#Edgeworthstown_IE">Edgeworths town</placeName> <add>&amp; all</add> went to<lb/>
+                    see the show - The children all have the hooping<lb/>
+                    cough but the entertainment <del><unclear></unclear></del> operated<lb/>
+                    so powerfully that they never once hooped during<lb/>
+                    the hour we were there - I was never better<lb/>
+                    entertained tho I have seen <add>fine</add> exhibitions of<lb/>
+                    horsemanship in <placeName ref="./Placeography.xml#Dublin_IE">Dublin</placeName> &amp; <placeName ref="./Placeography.xml#London_ENK">London</placeName> - I was<lb/>
+                    surprised to see in the first place the size &amp;<lb/>
+                    magnificence of the Tent - One hundred &amp; forty<lb/>
+                    feet circumference! Seats all round the<lb/>
+                    circus raised four rows &amp; covered with painted<lb/>
+                    cloth like carpets We saw <del>two</del> <add>a</add> most graceful<lb/>
+                    and active youth ride two horses abreast -<lb/>
+                    one foot on one the other foot on the other<lb/>
+                    horse round &amp; round the center pole of the<lb/>
+                    tent - then four in hand - Then two young<lb/>
+                    men full canter <del><unclear></unclear></del> - One standing on the<lb/>
+                    others shoulder! &amp; waiving hands &amp; arms<lb/></p>
+                    <p>A large village audience had assembled and<lb/>
+                    among those <add>of the upper class</add>were the <choice><orig>protestant</orig><reg>Protestant</reg></choice> clergyman &amp;<lb/>
+                    
                     <pb n="9" facs="Edgeworth_Harvard_604742_1844-08_page09.jpg"/>
                     
-clergyman &amp; his sister who went with us - and the Catholic
-priest - I was very glad to see them both sitting on the
-same bench and enjoying &amp; sanctioning these innocent
-diversions - Several pretty young girls were there
-and I am sure enjoyed as much real pleasure
-as if they had been finely dressed and raised
-from their <del>rank</del> humble stations to be young
-ladies in high life &amp; sitting at a grand
-theatre in <placeName ref="./Placeography.xml#London_ENK">London</placeName> - perhaps envious or jealous
-of the dress or beauty or high birth of somebody
-opposite to them or in the same box -
-	The elephant was as good at Edgeworths town as in <placeName ref="./Placeography.xml#London_ENK">London</placeName>
-and ran his rational recreations over as well as
-if he were exhibiting at the Tower or the
-Zoological Gardens -
-	And now my dear D<hi rend="superscript">r</hi>. Sprague I
-think you will say I have written enough and
-very glad shall I be if you think that I have made
-up for long silence &amp; ingratitude</p>
-<closer>
-	I really am your grateful and much obliged
-	Maria Edgeworth
-</closer>
-                <postscript>
-<p>I continue to find Sillimans journal a most interesting
-book - Doctor Robinson professor of astronomy and
-Astronomer Royal, Armagh and one of our first men of science and of
-genius much admires this American Journal &amp;
-I have the pleasure of lending it to him - He is married
-to my sister Lucy - married her last year - a marriage
-in which all her family rejoiced - she had been for years
-in bad health confined by a spine complaint - which
-she bore with exemplary fortitude &amp; sweet patience
-- She is now in the <unclear>enjoyment</unclear> of as perfect happiness
-and health as can be -
-	I have said nothing of the books we
-have been reading - I should have told you that we have been reading
-Prescott Conquest of Mexico - the most interesting book
-I have seen this century - I am now hearing it read for the
-second time - I read it during my convalescence &amp; immediately
-on my return home found my brother is reading it <add>&amp; I Sharing it</add> over again with
-the greatest delight</p>
-            </postscript>
+                    clergyman &amp; his sister who went with us - and the Catholic<lb/>
+                    priest - I was very glad to see them both sitting on the<lb/>
+                    same bench and enjoying &amp; sanctioning these innocent<lb/>
+                    diversions - Several pretty young girls were there<lb/>
+                    and I am sure enjoyed as much real pleasure<lb/>
+                    as if they had been finely dressed and raised<lb/>
+                    from their <del>rank</del> humble stations to be young<lb/>
+                    ladies in high life &amp; sitting at a grand<lb/>
+                    theatre in <placeName ref="./Placeography.xml#London_ENK">London</placeName> - perhaps envious or jealous<lb/>
+                    of the dress or beauty or high birth of somebody<lb/>
+                    opposite to them or in the same box -<lb/></p>
+                    <p>The elephant was as good at <placeName ref="./Placeography.xml#Edgeworthstown_IE">Edgeworths town</placeName> as in <placeName ref="./Placeography.xml#London_ENK">London</placeName><lb/>
+                    and ran his rational recreations over as well as<lb/>
+                    if he were exhibiting at the <placeName ref="./Placeography.xml#Tower-of-London_ENK">Tower</placeName> or the<lb/>
+                    <placeName ref="./Placeography.xml#Regents-Park_ENK">Zoological Gardens</placeName> -<lb/></p>
+                        <p>And now my dear <persName ref="./Personography.xml#SpraW1">D<hi rend="superscript">r</hi>. Sprague</persName> I<lb/>
+                    think you will say I have written enough and<lb/>
+                    very glad shall I be if you think that I have made<lb/>
+                    up for long silence &amp; ingratitude<lb/></p>
+                    <closer>
+                    I really am your grateful and much obliged<lb/>
+                        <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName><lb/>
+                    </closer>
+                    <postscript>
+                        <p>I continue to find <title ref="./Workography.xml#Ameri1">Sillimans journal</title> a most interesting<lb/>
+                            book - <persName ref="./Personography.xml#RobiJ1">Doctor Robinson</persName> professor of astronomy and<lb/>
+                            Astronomer Royal, <placeName ref="./Placeography.xml#Armagh_IE">Armagh</placeName> and one of our first men of science and of<lb/>
+                            genius much admires this <title ref="./Workography.xml#Ameri1">American Journal</title> &amp;<lb/>
+                    I have the pleasure of lending it to him - He is married<lb/>
+                            to my sister <persName ref="./Personography.xml#EdgeL1">Lucy</persName> - married her last year - a marriage<lb/>
+                    in which all her family rejoiced - she had been for years<lb/>
+                    in bad health confined by a spine complaint - which<lb/>
+                    she bore with exemplary fortitude &amp; sweet patience<lb/>
+                    - She is now in the <unclear>enjoyment</unclear> of as perfect happiness<lb/>
+                    and health as can be -<lb/></p>
+                    <p>I have said nothing of the books we<lb/>
+                    have been reading - I should have told you that we have been reading<lb/>
+                        <persName ref="./Personography.xml#PressW1">Prescott</persName> <title ref="./Workography.xml#Histo1">Conquest of Mexico</title> - the most interesting book<lb/>
+                    I have seen this century - I am now hearing it read for the<lb/>
+                    second time - I read it during my convalescence &amp; immediately<lb/>
+                        on my return home found <persName ref="./Personography.xml#EdgeF1">my brother</persName> is reading it <add>&amp; I Sharing it</add> over again with<lb/>
+                    the greatest delight<lb/>
+                </p>
+                </postscript>
+
+                    
                     <pb n="10" facs="Edgeworth_Harvard_604742_1844-08_page10.jpg"/>
 <closer>
-                    <stamp>1 3/4 oz</stamp>
+                <stamp>1 3/4 oz</stamp><lb/>
                 <address>
+                    <addrLine>No. 1</addrLine>
                     <addrLine><persName ref="./Personography.xml#SpraW1">The Rev<hi rend="superscript">d</hi> Doctor Sprague</persName></addrLine>
                     <addrLine><placeName ref="./Placeography.xml#Albany_US">Albany</placeName></addrLine>
                 </address>
-    <stamp><placeName ref="./Placeography.xml#New-York_US">New York</placeName> Sep 19</stamp>
-</closer>
+    <stamp><placeName ref="./Placeography.xml#New-York_US">NEW YORK</placeName> SEP 19</stamp>
+                    </closer>
+
             </div>
         </body>
         <back> </back>
