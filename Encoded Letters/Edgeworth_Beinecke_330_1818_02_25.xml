@@ -201,16 +201,6 @@
                <persName ref="./Personography.xml#MileX1">Mrs. Miles<!--RECIPIENT NAME--></persName>
             </correspAction>
          </correspDesc>
-         <textClass>
-            <keywords scheme="">
-               <list type="simple">
-                  <item>English literature</item>
-                  <item>History</item>
-               </list>
-            </keywords>
-            <catRef target="#f7" scheme="#f"/>
-            <catRef target="#hist #el" scheme="locSUB"/>
-         </textClass>
       </profileDesc>
       <revisionDesc>
          <change when="2021-01-01" who="Id_who">
@@ -236,7 +226,7 @@
             <p>I have received a note this day from<lb/>
             Mr Ward, which assures me of his entire<lb/>
             confidence in his chief <hi rend="underline">messengers honesty<lb/>
-            &amp; accuracy</hi>. <quote>"I cannot doubt" says he "that<lb/>
+            &amp; accuracy</hi>. "I cannot doubt" says he "that<lb/>
             <persName ref="./Personography.xml#CrewX1">M<hi rend="superscript">r</hi> Crewe</persName> franked it upon his recollection<lb/>
             but the messenger cannot remember, whether<lb/>
             the packet was delivered to the man who<lb/>
@@ -250,10 +240,10 @@
             <pb n="3" facs="Edgeworth_Beinecke_330_1818_02_25_page03.jpg"/>
             Post office. My only remaining chance<lb/>
             is to your having it to your own messenger or<lb/>
-            to his own immaculate messenger -- <lb/> 
+            to his own immaculate messenger -- <lb/></p> 
 
             <p>If as I believe that shawl cannot be <choice><orig>re<lb/>
-            covered</orig><reg>recovered</choice> I must set the loss down to the <unclear></unclear><lb/>
+            covered</orig><reg>recovered</reg></choice> I must set the loss down to the <unclear></unclear><lb/>
             of my own childish impatience &amp; after<lb/>
             this severe guinea check resolve to be wiser<lb/>
             in future &amp; save the money on something<lb/>
@@ -307,8 +297,8 @@
                <address>
                 <pb n="1" facs="Edgeworth_Beinecke_330_1818_02_25_page01.jpg"/>  <!--Include any text written on the address leaf; use a separate "addrLine" for each line and indicate line breaks. -->
                   <addrLine/><persName ref="./Personography.xml#MileX1">M<hi rend="superscript">rs</hi>. Miles</persName>
-                  <addrLine/><placeName ref="./Personography.xml#West-End-Hampstead_ENK">West End
-                  <addrLine/>Hampstead</placeName>
+                  <addrLine/><placeName ref="./Personography.xml#West-End-Hampstead_ENK">West End<lb/>
+                  Hampstead</placeName>
                </address>
             </closer>
          </div>
