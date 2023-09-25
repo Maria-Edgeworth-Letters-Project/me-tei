@@ -204,16 +204,6 @@
                     <persName><!--RECIPIENT NAME--></persName>
                 </correspAction>
             </correspDesc>
-            <textClass>
-                <keywords scheme="">
-                    <list type="simple">
-                        <item>English literature</item>
-                        <item>History</item>
-                    </list>
-                </keywords>
-                <catRef target="#f7" scheme="#f"/>
-                <catRef target="#hist #el" scheme="locSUB"/>
-            </textClass>
         </profileDesc>
         <revisionDesc>
             <change when="2021-01-01" who="Id_who">
@@ -227,14 +217,15 @@
                 <pb n="1" facs="Edgeworth_Birmingham_1830_04_10_page01.jpg"/>
                 <!--filenames for photos associated with this letter. Example: <pb n="1" facs="image1.jpg image2.jpg image3.jpg"/> -->
                 <opener>
-                    <dateline><!--If there's no date line, omit this element. Record in the order in which it is written on the letter.-->
-                        <name type="place" ref="Id_where"/><placeName ref="./Placeography.xml#Edgeworthstown_IE">Edgeworth's Town</lb>
-                       Ireland</placeName></lb>
-                        <date when="1830-04-10"/>April 10<hi rend="superscript">th</hi>, 1830</dateline>
+                    <dateline>
+                        <name type="place" ref="Id_where"/><placeName ref="./Placeography.xml#Edgeworthstown_IE">Edgeworth's Town
+                            Ireland</placeName>
+                        <date when="1830-04-10"/>April 10<hi rend="superscript">th</hi>, 1830
+                    </dateline>
                 </opener>
                 <p>I wish that I could write to you my dear<lb/>
                     Madam in your own delightful language<lb/>
-                    which expresses in such a melodious, <choice><orig>grace<lb/
+                    which expresses in such a melodious, <choice><orig>grace<lb/>
                     -ful</orig><reg>graceful</reg></choice>and natural manner all that is<lb/>
                     grateful and pleasing to the heart and<lb/>
                     to the ear - But Alas! what your letter<lb/>
@@ -258,8 +249,8 @@
                     you have done me - I hope you are an author?<lb/>
                     and that you may some time experience similar<lb/>
                     pleasure and as high gratification from seeing<lb/>
-                    what you have written so graced by good <choic><orig>trasnla-<lb/>
-                    -tion</orig><reg>translation</reg></choic>Unless you have been so fortunate, (and<lb/>
+                    what you have written so graced by good <choice><orig>trasnla-<lb/>
+                    -tion</orig><reg>translation</reg></choice>Unless you have been so fortunate, (and<lb/>
                     that is not probable,) you cannot from your<lb/>
                     own feelings judge now much I feel obliged<lb/>
                     It is delightful to me to think that my little<lb/>
