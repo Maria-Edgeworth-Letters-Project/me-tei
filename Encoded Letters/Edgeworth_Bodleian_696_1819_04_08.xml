@@ -203,16 +203,6 @@
                     <persName ref="./Personography.xml#EdgeF2">Frances Ann Edgeworth<!--RECIPIENT NAME--></persName>
                 </correspAction>
             </correspDesc>
-            <textClass>
-                <keywords scheme="">
-                    <list type="simple">
-                        <item>English literature</item>
-                        <item>History</item>
-                    </list>
-                </keywords>
-                <catRef target="#f7" scheme="#f"/>
-                <catRef target="#hist #el" scheme="locSUB"/>
-            </textClass>
         </profileDesc>
         <revisionDesc>
             <change when="2021-01-01" who="Id_who">
@@ -319,14 +309,6 @@
                     memory - all a mistake. <persName ref="./Personography.xml#BeauF1">Francis</persName> says he
                     has money on that account and has torn
                     my draft -</p>
-                    </closer>
-                <postscript>
-                    <p><!--A postscript goes here, outside the <closer>. --></p>
-                </postscript>
-                <!--You can include a <pb/> here, or inside the postScript.-->
-                <!-- Format for postscripts. 
-               Postscripts do NOT go inside closer tags. Adjust to take into account the order in your letter. 
-               Sometimes the signature is on page three, the address on page four, then the postscript follows back on the top of page one, for example.-->
                 <closer><!--Use the <closer> element again to hold Address Leaf information.-->
                     <address>
                         <pb n="4" facs="Edgeworth_Bodleian_1819_04_08_page04.jpg"/>
@@ -342,4 +324,3 @@
         <back> </back>
     </text>
 </TEI>
-s
