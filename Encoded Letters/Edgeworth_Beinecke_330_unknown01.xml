@@ -202,16 +202,6 @@
                <persName><!--RECIPIENT NAME--></persName>
             </correspAction>
          </correspDesc>
-         <textClass>
-            <keywords scheme="">
-               <list type="simple">
-                  <item>English literature</item>
-                  <item>History</item>
-               </list>
-            </keywords>
-            <catRef target="#f7" scheme="#f"/>
-            <catRef target="#hist #el" scheme="locSUB"/>
-         </textClass>
       </profileDesc>
       <revisionDesc>
          <change when="2021-01-01" who="Id_who">
@@ -225,9 +215,6 @@
             <pb n="1" facs="Edgeworth_Beinecke_330_unknown_01_page01.jpg"/>
             <!--filenames for photos associated with this letter. Example: <pb n="1" facs="image1.jpg image2.jpg image3.jpg"/> -->
             <opener>
-               <dateline><!--If there's no date line, omit this element. Record in the order in which it is written on the letter.-->
-                  <name type="place" ref="Id_where"/>
-                  <date when="0000-00-00"/></dateline>
                <salute>
                   <persName ref="./Personography.xml#DarnX1">
 			  my dear <persName ref="./Personography.xml#DarnE1">Lady Darnley</persName><!-- Use if letter has a saluation ("Dear Sir," for example). If not, delete this line.-->
@@ -256,7 +243,7 @@
             <p>It will give me pleasure<lb/>
             <pb n="2" facs="Edgeworth_Beinecke_330_unknown01_page02.jpg"/>
             <del></del> I am now at<lb/>
-            <placeName ref="/.Placeography.xml#Black-Castle_IE">Black Castle</placeName> with <persName ref="./Personography.xml#BuxtX1">M<hi rend="superscript">r<lb/>
+            <placeName ref="/.Placeography.xml#Black-Castle_IE">Black Castle</placeName> with <persName ref="./Personography.xml#BuxtX1">M<hi rend="superscript">r</hi><lb/>
             Buxton</persName> who desires<lb/>
             to be kindly remembered<lb/>
             to your Ladyship<lb/></p>
@@ -265,23 +252,10 @@
             to <persName ref="./Personography.xml#DarnJ1">Lord Darnley</persName> and<lb/>
             to <persName ref="./Personography.xml#BligX1">Lady E Bligh</persName><lb/>
             I am<lb/>
-            My dear <persName ref="./Personography.xml#DarnE1">Lady Darnley<persName><lb/>
+            My dear <persName ref="./Personography.xml#DarnE1">Lady Darnley</persName><lb/>
             your Ladyships<lb/>
             Affec<hi rend="superscript">e</hi> Servant<lb/>
             <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName><lb/>
-            </closer>
-            <postscript>
-               <p><!--A postscript goes here, outside the <closer>. --></p>
-            </postscript>
-            <!--You can include a <pb/> here, or inside the postScript.-->
-            <!-- Format for postscripts. 
-               Postscripts do NOT go inside closer tags. Adjust to take into account the order in your letter. 
-               Sometimes the signature is on page three, the address on page four, then the postscript follows back on the top of page one, for example.-->
-            <closer><!--Use the <closer> element again to hold Address Leaf information.-->
-               <address>
-                  <addrLine/>
-                  <addrLine/>
-               </address>
             </closer>
          </div>
       </body>
