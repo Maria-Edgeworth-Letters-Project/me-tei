@@ -203,16 +203,6 @@
                <persName><!--RECIPIENT NAME--></persName>
             </correspAction>
          </correspDesc>
-         <textClass>
-            <keywords scheme="">
-               <list type="simple">
-                  <item>English literature</item>
-                  <item>History</item>
-               </list>
-            </keywords>
-            <catRef target="#f7" scheme="#f"/>
-            <catRef target="#hist #el" scheme="locSUB"/>
-         </textClass>
       </profileDesc>
       <revisionDesc>
          <change when="2021-01-01" who="Id_who">
@@ -226,9 +216,6 @@
             <pb n="2" facs="Edgeworth_Beinecke_330_unknown_04_page02.jpg"/>
             <!--filenames for photos associated with this letter. Example: <pb n="1" facs="image1.jpg image2.jpg image3.jpg"/> -->
             <opener>
-               <dateline><!--If there's no date line, omit this element. Record in the order in which it is written on the letter.-->
-                  <name type="place" ref="Id_where"/>
-                  <date when="0000-00-00"/></dateline>
                <salute>
                   <persName ref="./Personography.xml#EdgeM1">
                      Dear Madam,<!-- Use if letter has a saluation ("Dear Sir," for example). If not, delete this line.-->
@@ -246,7 +233,7 @@
                 This I think may be<lb/>
                 ventured between the<lb/>
                 leaves of the next proof<lb/>
-                of <title ref="./Workography.xml#Harry1">Harry & Lucy</title> wrapped<lb/>
+                of <title ref="./Workography.xml#Harry1">Harry &amp; Lucy</title> wrapped<lb/>
                 in silver paper <lb/></p>
                 <pb n="3" facs="Edgeworth_Beinecke_330_unknown_04_page03.jpg"/>
                 <p>send between the leaves<lb/>
@@ -256,7 +243,7 @@
                 to you if you would add<lb/>
                 3 yards of nett about<lb/>
                 this breadth<lb/>
-                and 18 & 1/2 yard valencienne<lb/>
+                and 18 &amp; 1/2 yard valencienne<lb/>
                 edgings about this<lb/>
                 breadth<lb/></p>
                 <pb n="4" facs="Edgeworth_Beinecke_330_unknown_04_page04.jpg"/>
@@ -276,16 +263,7 @@
             <p><!--More body paragraphs as needed.--></p>
             <closer>
                Y<hi rend="superscript">s</hi> truly
-                <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>!--include linebreaks, if used. example: <closer> Yours<lb/> Very sincerely<lb/> -->
-            </closer>
-            <postscript>
-               <p><!--A postscript goes here, outside the <closer>. --></p>
-            </postscript>
-            <!--You can include a <pb/> here, or inside the postScript.-->
-            <!-- Format for postscripts. 
-               Postscripts do NOT go inside closer tags. Adjust to take into account the order in your letter. 
-               Sometimes the signature is on page three, the address on page four, then the postscript follows back on the top of page one, for example.-->
-            <closer><!--Use the <closer> element again to hold Address Leaf information.-->
+                <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
                <address>
                   <pb n="1" facs="Edgeworth_Beinecke_330_unknown_04_page01.jpg"/>
                   <addrLine/><persName ref="./Personography.xml#EdgeM1">M<hi rend="superscript">rs</hi>. Miles</persName>
