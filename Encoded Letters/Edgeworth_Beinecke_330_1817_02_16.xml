@@ -234,6 +234,7 @@
                         <persName>
                             My dear <persName ref="./Personography.xml#MileX1">M<hi rend="superscript">rs</hi>. Miles</persName>,
                             <!-- Use if letter has a saluation ("Dear Sir," for example). If not, delete this line.-->
+                        </persName>
                     </salute>
                 </opener>
                 <p> The Green Shawl has arrived quite<lb/>
@@ -289,10 +290,10 @@
                 <closer><!--Use the <closer> element again to hold Address Leaf information.-->
                     <pb n="1" facs="Edgeworth_Beinecke_330_1817_02_16_page01.jpg"/>
                     <address>
-                        <addrLine/><persName ref="./Personography.xml#MileX1">M<hi rend="superscript">rs</hi>. Miles.</persName><lb/>
-                        <addrLine/><placeName ref="./Placeography.xml#West-End-Hampstead_ENK">West End</placeName><lb/>
-                        <addrLine/>Hampstead<lb/>
-                        <addrLine/>England<lb/>
+                        <addrLine><persName ref="./Personography.xml#MileX1">M<hi rend="superscript">rs</hi>. Miles.</persName><lb/>
+                        <placeName ref="./Placeography.xml#West-End-Hampstead_ENK">West End</placeName><lb/>
+                        Hampstead<lb/>
+                        England</addrLine><lb/>
                     </address>
                 </closer>
             </div>
