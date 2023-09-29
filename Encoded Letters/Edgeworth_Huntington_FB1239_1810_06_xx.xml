@@ -349,20 +349,17 @@
                Sometimes the signature is on page three, the address on page four, then the postscript follows back on the top of page one, for example.-->
                 <closer><!--Use the <closer> element again to hold Address Leaf information.-->
                     <address>
-                        <persName ref="./Personography.xml#BeauF1">Capt<hi rend="superscript">n</hi>. Beaufort</persName>
-                        H: M Sloop<lb/>
-                        R. N<lb/>
-                        <del>Mess<hi rend="superscript">r</hi> Brummany &amp; Dence</del><lb/>
-                        - Blossom Cecil Street<lb/>
-                        <placeName ref="./Placeography.xml#London_ENK">London</placeName><lb/>
-                        Portsmouth<lb/>
-                        Edgew<hi rend="superscript">h</hi>. 1810<lb/>
-                        Congratulations from<lb/>
-                        All hands<lb/><!--Include any text written on the address leaf; use a separate "addrLine" for each line and indicate line breaks. -->
-                        <addrLine/>
-                        <addrLine/>
-                        <addrLine/>
+                        <addrLine><persName ref="./Personography.xml#BeauF1">Capt<hi rend="superscript">n</hi>. Beaufort</persName></addrLine>
+                        <addrLine>H: M Sloop</addrLine>
+                        <addrLine>R. N</addrLine>
+                        <addrLine><del>Mess<hi rend="superscript">r</hi> Brummany &amp; Dence</del></addrLine>
+                        <addrLine>- Blossom Cecil Street</addrLine>
+                        <addrLine><placeName ref="./Placeography.xml#London_ENK">London</placeName></addrLine>
+                        <addrLine>Portsmouth</addrLine>
                     </address>
+                    Edgew<hi rend="superscript">h</hi>. 1810<lb/>
+                    Congratulations from<lb/>
+                    All hands<lb/>
                 </closer>
             </div>
         </body>

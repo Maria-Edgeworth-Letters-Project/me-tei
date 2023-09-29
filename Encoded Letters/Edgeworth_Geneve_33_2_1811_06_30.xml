@@ -205,16 +205,6 @@
                     <persName ref="./Personography.xml#EdgeM1">Étienne Dumont</persName>
                 </correspAction>
             </correspDesc>
-            <textClass>
-                <keywords scheme="">
-                    <list type="simple">
-                        <item>English literature</item>
-                        <item>History</item>
-                    </list>
-                </keywords>
-                <catRef target="#f7" scheme="#f"/>
-                <catRef target="#hist #el" scheme="locSUB"/>
-            </textClass>
         </profileDesc>
         <revisionDesc>
             <change when="2021-01-01" who="Id_who">
@@ -311,30 +301,21 @@
                     Your obliged<lb/>
                     <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName><lb/><!--include linebreaks, if used. example: <closer> Yours<lb/> Very sincerely<lb/> -->
                 </closer>
-                <postscript>
-                    <p><!--A postscript goes here, outside the <closer>. --></p>
-                </postscript>
-                <!--You can include a <pb/> here, or inside the postScript.-->
-                <!-- Format for postscripts. 
-               Postscripts do NOT go inside closer tags. Adjust to take into account the order in your letter. 
-               Sometimes the signature is on page three, the address on page four, then the postscript follows back on the top of page one, for example.-->
                 <closer><!--Use the <closer> element again to hold Address Leaf information.-->
                     <address>
                         <pb n="4" facs="Edgeworth_Geneve_33_2_1811_06_30_page04.jpg"/>
-                        Tunbridge<addrLine/>
-                        <del>Wells</del><addrLine/>
-                        July seventh<addrLine/>
-                        <del>Dumont Esqr</del><addrLine/>
-                        <persName ref="./Personography.xml#DumoE1">E. Dumont Esq.</persName><addrLine/>
-                        <placeName ref="./Placeography.xml#19-Haymarket_STK">19. Haymarket<addrLine/>
-                        Lansdowne<addrLine/>
-                            London</placeName><addrLine/><!--Include any text written on the address leaf; use a separate "addrLine" for each line and indicate line breaks. -->
+                        <addrLine>Tunbridge</addrLine>
+                        <addrLine><del>Wells</del></addrLine>
+                        <addrLine>July seventh</addrLine>
+                        <addrLine><del>Dumont Esqr</del></addrLine>
+                        <addrLine><persName ref="./Personography.xml#DumoE1">E. Dumont Esq.</persName></addrLine>
+                        <addrLine><placeName ref="./Placeography.xml#19-Haymarket_STK">19. Haymarket</placeName></addrLine>
+                        <addrLine>Lansdowne</addrLine>
+                        <addrLine>London</addrLine>
                     </address>
                 </closer>
             </div>
         </body>
-        <back> </back>
     </text>
 </TEI>
-s
 
