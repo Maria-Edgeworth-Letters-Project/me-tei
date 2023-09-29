@@ -76,7 +76,7 @@
                         <persName ref="./Personography.xml#ScotW1">Walter Scott</persName>
                         to <persName xml:id="ME" from="1768" to="1849">
                             <forename>Maria</forename>
-                            <surname>Edgeworth</surname>
+                            <surname>Edgeworth</surname></persName>
                             <date>1768-1849</date>
                             <idno type="VIAF">71477273</idno>
                             <idno type="SNAC">62567029</idno>, <placeName><!--Location where letter was sent--></placeName>, 
@@ -282,11 +282,11 @@
                 <closer><!--Use the <closer> element again to hold Address Leaf information.-->
                     <address>
                         <pb n="3" facs="Edgeworth_NLS_23130_1819_07_20_page03.jpg"/>
-                        <persName ref="./Personography.xml#EdgeM1">Miss Edgeworth</persName><lb/>
+                        <addrLine><persName ref="./Personography.xml#EdgeM1">Miss Edgeworth</persName><lb/>
                         <del>Forward by Cornel Walter Scott</del><lb/>
                         <del>18th <unclear>Hussars</unclear></del> Care of <persName ref="./Personography.xml#NesbX1">L<hi rend="superscript">t</hi>Nesbit</persName><lb/>
                         <persName ref="./Personography.xml#NesbX1">Mr. Nesbit</persName><lb/>
-                        1819<lb/></p><!--Include any text written on the address leaf; use a separate "addrLine" for each line and indicate line breaks. -->
+                        1819</addrLine><lb/><!--Include any text written on the address leaf; use a separate "addrLine" for each line and indicate line breaks. -->
                         <addrLine/>
                         <addrLine/>
                         <addrLine/>
@@ -297,4 +297,3 @@
         <back> </back>
     </text>
 </TEI>
-s
