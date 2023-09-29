@@ -32,7 +32,7 @@
                 </date>
                 </edition>
                 <respStmt>
-                    <orgName type="naf" ref="Id_who">
+                    <orgName type="naf" ref="http://id.loc.gov/authorities/names/n79049138">
                         Henry E. Huntington Library and Art Gallery<!--who digitized the letter or gave us permission for to use the file?-->
                     </orgName>
                     <resp> photos include:
@@ -83,7 +83,7 @@
                         </persName>
                         <persName ref="./Personography.xml#EdgeR1">Richard Edgeworth</persName>, <persName ref="./Personography.xml#EdgeF3">Frances Beaufort Edgeworth</persName>, <persName ref="./Personography.xml#BeauH2">Henrietta Beaufort</persName>, <persName ref="./Personography.xml#SneyM1">Mary Sneyd</persName>, and <persName ref="./Personography.xml#EdgeC1">Charles Sneyd</persName>
                         to <persName ref="./Personography.xml#BeauF1">Sir Francis Beaufort<!--Recipient Name--></persName>, <placeName ref="./Placeography.xml#London_ENK">London<!--Location where letter was sent--></placeName>, 
-                        <date when="1810-06-xx">June 1810<!-- Transcribe the date as it appears on the letter itself. Enter a numeric standardized date value in @when. --></date>
+                        <date when="1810-06">June 1810<!-- Transcribe the date as it appears on the letter itself. Enter a numeric standardized date value in @when. --></date>
                     </head>
                     <physDesc>
                         <!-- optional physical description of the letter goes here: paper size and condition, seal, postmarks, etc.-->
@@ -209,16 +209,6 @@
                     <persName ref="./Personography.xml#BeauF1">Francis Beaufort<!--RECIPIENT NAME--></persName>
                 </correspAction>
             </correspDesc>
-            <textClass>
-                <keywords scheme="">
-                    <list type="simple">
-                        <item>English literature</item>
-                        <item>History</item>
-                    </list>
-                </keywords>
-                <catRef target="#f7" scheme="#f"/>
-                <catRef target="#hist #el" scheme="locSUB"/>
-            </textClass>
         </profileDesc>
         <revisionDesc>
             <change when="2021-01-01" who="Id_who">
@@ -317,7 +307,7 @@
                     -ments</orig><reg>sentiments</reg></choice>&amp; feelings my dear <persName ref="./Personography.xml#BeauF1">Cap<hi rend="superscript">t</hi> Beaufort</persName>
                    than dear <persName ref="./Personography.xml#SneyM1">Mary</persName> has used to which with
                     all my heart <hi rend="underline">I sub scribe</hi>
-                   <persName ref="./Personography.xml#EdgeC1">C Sneyd</persName> <p>
+                   <persName ref="./Personography.xml#EdgeC1">C Sneyd</persName> </p>
                     
                <p>  My father has said for me and in the best man-
                     ner every thing that I could say for myself -
@@ -343,10 +333,10 @@
                     good news - I think you have in store a solid
                     fund of <add>self</add>satisfaction in the thoughts of the
                     good you have done that young man - And in
-                    this &amp; every source of happiness to you I rejoice<lb/>
+                    this &amp; every source of happiness to you I rejoice<lb/></p>
                 <closer>
                     Your sincere friend
-                    <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName></p><!--include linebreaks, if used. example: <closer> Yours<lb/> Very sincerely<lb/> -->
+                    <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName><!--include linebreaks, if used. example: <closer> Yours<lb/> Very sincerely<lb/> -->
                 </closer>
                 <postscript>
                     <pb n="4" facs="Edgeworth_Huntington_FB1239_1817_06_xx_page04.jpg"/>
