@@ -289,8 +289,8 @@
                Sometimes the signature is on page three, the address on page four, then the postscript follows back on the top of page one, for example.-->
                 <closer><!--Use the <closer> element again to hold Address Leaf information.-->
                     <address>
-                        To<addrLine/>
-                        <persName ref="./Personography.xml#DumoE1">S. Dumont Esq<hi rend="superscript">r</hi></persName>.<addrLine/><!--Include any text written on the address leaf; use a separate "addrLine" for each line and indicate line breaks. -->
+                        <addrLine>To</addrLine>
+                        <addrLine><persName ref="./Personography.xml#DumoE1">S. Dumont Esq<hi rend="superscript">r</hi>.</persName></addrLine>
                     </address>
                 </closer>
             </div>
@@ -298,4 +298,3 @@
         <back> </back>
     </text>
 </TEI>
-s
