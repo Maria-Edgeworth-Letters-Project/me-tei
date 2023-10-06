@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from Maria Edgeworth to <!--Recipient Name, Month Day, YYYY--></title>
+            <author>Maria Edgeworth</author>
+            <editor ref="Id_who">
+               <!--Editor on the Maria Edgeworth Letters Project overseeing the coding of this particular letter: FirstName LastName -->
+            </editor>
+            <sponsor>
+               <orgName>Maria Edgeworth Letters Project</orgName>
+            </sponsor>
+            <sponsor>Wake Forest University, University of Tennessee, Xavier University, Texas
+               A&amp;M University</sponsor>
+            <principal>Jessica Richard, Hilary Havens, Robin Runia, Susan Egenolf</principal>
+            <respStmt>
+               <resp>Transcription and coding by</resp>
+               <persName ref="Id_who"><!--FirstName LastName-->
+               </persName>
+               <!-- List all transcribers or coders here, editors and students alike, <persName> by <persName>.-->
+               <persName ref="Id_who"><!--FirstName LastName--></persName>
+               <!-- If you're the last person interacting with the file, enter your name last on the list -->
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>First digital edition in TEI, date: <date when="2022-01-01">
+                  <!--enter the date on which the first coder created and saved this XML file in google drive-->
+               </date>
+            </edition>
+            <respStmt>
+               <orgName type="naf" ref="Id_who">
+                  <!--who digitized the letter or gave us permission for to use the file?-->
+               </orgName>
+               <resp> photos include:
+                  <!-- Make a comma-separated list of each .jpg photo file name associated with your letter. 
+                     For example: DSCF9476.jpg, DSCF9477.jpg, DSCF9478.jpg-->
+               </resp>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Maria Edgeworth Letters Project</authority>
+            <date>2022</date>
+            <availability>
+               <!--Uncomment the appropriate line, based on the archive that holds the physical copy of this letter, 
+                  and delete the other comment line(s).-->
+               <p><!--Reproduced by courtesy of the <orgName ref="#ReadingCL">Reading Central Library</orgName>.-->
+                  <!--or -->
+                  <!--Courtesy of <orgName ref="#Rylands">The University of Manchester</orgName>.-->
+               </p>
+               <licence>Distributed under a Creative Commons Attribution-ShareAlike 3.0 Unported
+                  License</licence>
+            </availability>
+            <idno><!--Change to match the file name and current naming standards, i.e. "Edgeworth_Beinecke_330_1817_01_24" if file name is "Edgeworth_Beinecke_330_1817_01_24.xml"--></idno> 
+         </publicationStmt>
+         <seriesStmt>
+            <title>Maria Edgeworth Letters Project</title>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <!-- This section of the header identifies the original manuscript source. -->
+               <msIdentifier>
+                  <repository>ORGANIZATION NAME</repository>
+                  <collection><!-- Enter specific archival collection if applicable--></collection>
+                  <idno><!--Consult library or WorldCat for this info--></idno>
+               </msIdentifier>
+               
+               <!-- FROM LAURA: it's here (below) in the head that I added the full information about the author,
+                  and you could add full information about the addressee as well. -->
+               <head>Letter from 
+                     <persName xml:id="EdgeM1" from="1768" to="1849">
+                        <forename>Maria</forename>
+                        <surname>Edgeworth</surname>
+                        <date>1768-1849</date>
+                        <idno type="VIAF">71477273</idno>
+                        <idno type="SNAC">62567029</idno>
+                     </persName>
+                   to <persName><!--Recipient Name--></persName>, <placeName><!--Location where letter was sent--></placeName>, 
+                  <date when="1111-01-01"><!-- Transcribe the date as it appears on the letter itself. Enter a numeric standardized date value in @when. --></date>
+               </head>
+               <physDesc>
+                  <!-- optional physical description of the letter goes here: paper size and condition, seal, postmarks, etc.-->
+               </physDesc>
+            </msDesc>
+            
+            <!-- FROM LAURA: where to put the following information in <bibl> is still a question: 
+               ask TEI List whether it should be in the sourceDesc or elsewhere? -->
+            
+            <bibl>In addition to our edited version, this letter was previously published in
+               <!--complete bibiographical info if letter was published in a book here - if not delete-->
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <!--Where Edgeworth uses nonstandard spelling and hyphenation of words, transcriber-coders 
+               should use TEI elements “choice," “sic," and “reg" to encode both Edgeworth’s 
+               spelling and the regular international standard of Oxford English spelling, 
+               following the first listed spelling in the Oxford English Dictionary. -->
+            <p>Edgeworth’s spelling and punctuation are retained in transcription, except where a
+               word is split at the end of a line and the beginning of the next in a manuscript. The
+               long s and ligatured forms are silently emended.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName><!--SENDER NAME--></persName>
+            </correspAction>
+            <correspAction type="received">
+               <persName><!--RECIPIENT NAME--></persName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-01-01" who="Id_who">
+            <!--Brief description of what you did here.-->
+         </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <pb n="1" facs="image1.jpg"/>
+            <!--filenames for photos associated with this letter. Example: <pb n="1" facs="image1.jpg image2.jpg image3.jpg"/> -->
+            <opener>
+               <dateline><!--If there's no date line, omit this element. Record in the order in which it is written on the letter.-->
+                  <name type="place" ref="Id_where"/>
+                  <date when="1816-08-04"/>August 4, 1816. </dateline>
+               <salute>
+                  <persName>
+                     <!-- Use if letter has a saluation ("Dear Sir," for example). If not, delete this line.-->
+                  </persName>
+               </salute>
+            </opener>
+            <p><!-- 27 Jan[superscript]y[/superscript]. [unclear]18??[/unclear]
+Dear Sir
+I have just received yours
+of the 20[superscript]th[/superscript]. inst - I am sorry
+that the battery goes on so slowly
+- my having followed this parsi
+-monious plan has cost us both
+monious plan has cost us both
+much trouble -- At Bristol it
+plagued me more than I chose
+to complain of -
+I know that I could have all
+the types that are immediately
+wanting for £5 & I
+think if I can find a moments
+[unclear]languor???[/unclear] & next week when I go
+to Dublin to attend [unclear]Castl[superscript]l[/superscript][/unclear] that
+I can have them cast & sent
+to you to print Harry & Lucy
+& Frank
+Observe - Take Notice - NB -
+[figure] I never said that I thought
+
+Papas & Mamas would be at
+the trouble to learn to teach I al-
+ways feared they would not &
+therefore I refused to be paid for
+the Book till it had actually
+succeeded - But I did & do say
+that it is an excellent improve
+-ment in the art of teaching to read
+though I say it that sh[superscript]d[/superscript] not say it.
+I feel so many qualms about
+mixing new & old in the Parents
+Assistant that I must beg - nay
+insist that all the old [unclear]may??[/unclear]
+[insertion]without any mixing of new[/insertion]
+finish in the month [unclear][/unclear] March
+[insertion]if you can put them all in March -[/insertion]
+[insertion]or [unclear][/unclear] [unclear]fact[/unclear] of volumes if they will fill them[/insertion]
+if the Barney [unclear][/unclear] is known
+[unclear]aside[/unclear] we dont care - but we are
+convinced that the Public [unclear]&c.[/unclear] will
+be better pleased to have a
+new series
+Moral Tales being a new series
+of the Parents Assistant
+by Miss E &c. —
+She has lately written two or
+
+three beautiful things - some of
+them dramatic for [deletion]Children[/deletion] [insertion]young people[/insertion]
+One that I almost prefer to
+Lazy Lawrence - If you are
+good, & tractable about the arrange
+-ment above mentioned you shall
+have them!!! —
+I understand that Lovell is to
+offer you a translation of Berquins
+Bibliotheque de village — the
+original is excellent & I know that
+the translators are fully equal to a
+far more arduous task —
+When you write please to
+make your clerk send an account
+of the Books sent to us since we
+left England - for [insertion]all[/insertion] your accounts have
+not reached us & we do not know
+what Books we ought to have —
+- N[superscript]o[/superscript]. 3 of one of the sets of Anderson is
+wanting - please to put it
+in your memorandum book -
+[deletion]Please to send us to M[superscript]r[/superscript]. Dugdale bookseller[/deletion]
+We [underline]desire[/underline] to have the vol of the
+Bibliotheque Brittanique which
+translates part of Prac Ed — we
+want to correct our stile by seeing
+its crookedness reflected in another language
+
+Lovell wrote to us to say that he thought
+[underline]Rivuletta[/underline] should not be thrown away
+upon [underline]Early Lessons[/underline] that it should be kept
+for a new Edition of Prac Ed - We agree with
+him in this opinion & request you will
+take out of [underline]Rosamond[/underline] the few pages which
+[underline]relate[/underline] to it - they will leave no Hiatus —
+We shall send for books in future by Dugdale
+Copy to Johnson
+Jan[superscript]y[/superscript] 28[superscript]th[/superscript] 1800 -->
+            </p>
+            <p>
+               <!--More body paragraphs as needed.--></p>
+            <p>
+               <!--More body paragraphs as needed.-->
+               <!--Where there's a page break record it inside the relevant body paragraph like this, 
+                  with the self-closing page-break element. n="2" indicates the START of the second page.-->
+               <pb n="2" facs="image2.jpg"/>
+            </p>
+            <p><!--More body paragraphs as needed.--></p>
+            <closer>
+               <!--include linebreaks, if used. example: <closer> Yours<lb/> Very sincerely<lb/> -->
+            </closer>
+            <postscript>
+               <p><!--A postscript goes here, outside the <closer>. --></p>
+            </postscript>
+            <!--You can include a <pb/> here, or inside the postScript.-->
+            <!-- Format for postscripts. 
+               Postscripts do NOT go inside closer tags. Adjust to take into account the order in your letter. 
+               Sometimes the signature is on page three, the address on page four, then the postscript follows back on the top of page one, for example.-->
+            <closer><!--Use the <closer> element again to hold Address Leaf information.-->
+               <address>
+                  <!--Include any text written on the address leaf; use a separate "addrLine" for each line and indicate line breaks. -->
+                  <addrLine/>
+                  <addrLine/>
+                  <addrLine/>
+               </address>
+            </closer>
+         </div>
+      </body>
+      <back> </back>
+   </text>
+</TEI>
