@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter from Maria Edgeworth to Susan Sophia Cavendish, Lady Dacre, March 31, 1844<!--Recipient Name, Month Day, YYYY--></title>
+                <author>Maria Edgeworth</author>
+                <editor ref="Id_who">
+                    Eliza Alexander Wilcox<!--Editor on the Maria Edgeworth Letters Project overseeing the coding of this particular letter: FirstName LastName -->
+                </editor>
+                <sponsor>
+                    <orgName>Maria Edgeworth Letters Project</orgName>
+                </sponsor>
+                <sponsor>Wake Forest University, University of Tennessee, Xavier University, Texas
+                    A&amp;M University</sponsor>
+                <principal>Jessica Richard, Hilary Havens, Robin Runia, Susan Egenolf</principal>
+                <respStmt>
+                    <resp>Transcription and coding by</resp>
+                    <persName ref="Id_who">Eliza Alexander Wilcox<!--FirstName LastName-->
+                    </persName>
+                    <!-- List all transcribers or coders here, editors and students alike, <persName> by <persName>.-->
+                    <persName ref="Id_who"><!--FirstName LastName--></persName>
+                    <!-- If you're the last person interacting with the file, enter your name last on the list -->
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>First digital edition in TEI, date: October 9, 2023<date when="2023-10-09">
+                    <!--enter the date on which the first coder created and saved this XML file in google drive-->
+                </date>
+                </edition>
+                <respStmt>
+                    <orgName type="naf" ref="http://id.loc.gov/authorities/names/n82003163">
+                        Princeton University Library<!--who digitized the letter or gave us permission for to use the file?-->
+                    </orgName>
+                    <resp> photos include:
+                        Edgeworth_Princeton_1844-03_page01
+                        Edgeworth_Princeton_1844-03_page02
+                        Edgeworth_Princeton_1844-03_page03
+                        Edgeworth_Princeton_1844-03_page04<!-- Make a comma-separated list of each .jpg photo file name associated with your letter. 
+                     For example: DSCF9476.jpg, DSCF9477.jpg, DSCF9478.jpg-->
+                    </resp>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <authority>Maria Edgeworth Letters Project</authority>
+                <date>2022</date>
+                <availability>
+                    <!--Uncomment the appropriate line, based on the archive that holds the physical copy of this letter, 
+                  and delete the other comment line(s).-->
+                    <p>Reproduced by the courtesty of <orgName ref="http://id.loc.gov/authorities/names/n82003163">Princeton University Library</orgName><!--Reproduced by courtesy of the <orgName ref="#ReadingCL">Reading Central Library</orgName>.-->
+                        <!--or -->
+                        <!--Courtesy of <orgName ref="#Rylands">The University of Manchester</orgName>.-->
+                    </p>
+                    <licence>Distributed under a Creative Commons Attribution-ShareAlike 3.0 Unported
+                        License</licence>
+                </availability>
+                <idno>Edgeworth_Princeton_1844-03<!--Change to match the file name and current naming standards, i.e. "Edgeworth_Beinecke_330_1817_01_24" if file name is "Edgeworth_Beinecke_330_1817_01_24.xml"--></idno> 
+            </publicationStmt>
+            <seriesStmt>
+                <title>Maria Edgeworth Letters Project</title>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc xml:lang="en">
+                    <!-- This section of the header identifies the original manuscript source. -->
+                    <msIdentifier>
+                        <repository>Princeton University Library</repository>
+                        <collection><!-- Enter specific archival collection if applicable--></collection>
+                        <idno><!--Consult library or WorldCat for this info--></idno>
+                    </msIdentifier>
+                    
+                    <!-- FROM LAURA: it's here (below) in the head that I added the full information about the author,
+                  and you could add full information about the addressee as well. -->
+                    <head>Letter from 
+                        <persName xml:id="EdgeM1" from="1768" to="1849">
+                            <forename>Maria</forename>
+                            <surname>Edgeworth</surname>
+                            <date>1768-1849</date>
+                            <idno type="VIAF">71477273</idno>
+                            <idno type="SNAC">62567029</idno>
+                        </persName>
+                        to <persName ref="./Personography.xml#CaveS1">Susan Sophia Cavendish<!--Recipient Name--></persName>, <placeName ref="./Placeography.xml#1-North-Audley-Street_ENK">1 North Audley Street<!--Location where letter was sent--></placeName>, 
+                        <date when="1844-03-31">March 31 1844<!-- Transcribe the date as it appears on the letter itself. Enter a numeric standardized date value in @when. --></date>
+                    </head>
+                    <physDesc>
+                        <!-- optional physical description of the letter goes here: paper size and condition, seal, postmarks, etc.-->
+                    </physDesc>
+                </msDesc>
+                
+                <!-- FROM LAURA: where to put the following information in <bibl> is still a question: 
+               ask TEI List whether it should be in the sourceDesc or elsewhere? -->
+                
+                <bibl>In addition to our edited version, this letter was previously published in
+                    <!--complete bibiographical info if letter was published in a book here - if not delete-->
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <!--Where Edgeworth uses nonstandard spelling and hyphenation of words, transcriber-coders 
+               should use TEI elements “choice," “sic," and “reg" to encode both Edgeworth’s 
+               spelling and the regular international standard of Oxford English spelling, 
+               following the first listed spelling in the Oxford English Dictionary. -->
+                <p>Edgeworth’s spelling and punctuation are retained in transcription, except where a
+                    word is split at the end of a line and the beginning of the next in a manuscript. The
+                    long s and ligatured forms are silently emended.</p>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="./Personography.xml#CaveS1">Susan Sophia Cavendish, Lady Dacre<!--RECIPIENT NAME--></persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2021-01-01" who="Id_who">
+                <!--Brief description of what you did here.-->
+            </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="letter">
+                <pb n="2" facs="Edgeworth_Princeton_1844-03_page02.jpg"/>
+                <!--filenames for photos associated with this letter. Example: <pb n="1" facs="image1.jpg image2.jpg image3.jpg"/> -->
+                <opener>
+                    <dateline><!--If there's no date line, omit this element. Record in the order in which it is written on the letter.-->
+                        <name type="place" ref="Id_where"/>1 North Audley Street<lb/>
+                        Sunday Night<lb/>
+                        <date when="1844-03-31"/>Mar 31<hi rend="superscript">st</hi> <unclear>44</unclear></dateline><lb/>
+                    <salute>
+                        <persName>
+                            <!-- Use if letter has a saluation ("Dear Sir," for example). If not, delete this line.-->
+                        </persName>
+                    </salute>
+                </opener>
+                <p>[<hi rend="underline">Alas!</hi> my dear <persName ref="./Personography.xml#CaveS1">Lady Dacre</persName><lb/>
+                    -- I need say no more --<lb/>
+                    for the moment you see<lb/>
+                    that one word Alas! you<lb/>
+                    know all the rest.<lb/>
+                    It is impossible that I<lb/>
+                    can avail myself of that<lb/>
+                    most gratifying and<lb/>
+                    tempting invitation to the<lb/>
+                    <unclear>Hooo</unclear> which your Ladyship<lb/>
+                    and <persName ref="./Personography.xml#BranT1">Lord Dacre</persName> so kindly<lb/>
+                    as well as so politely gave<lb/>
+                    <pb n="3" facs="Edgeworth_Princeton_1844-03_page03.jpg"/>
+                    me -- Time! Time! Time!<lb/>
+                    I cannot command --<lb/>
+                    -- nor can I snatch at<lb/>
+                    a pleasure for myself<lb/>
+                    at the expense of us all<lb/>
+                    I told you &amp; that you were<lb/>
+                    so good to listen to &amp; I<lb/>
+                    trust to believe -- It was<lb/>
+                    all out of <unclear>reels</unclear> and<lb/>
+                    perhaps shewed both<lb/>
+                    manque d'esprit and<lb/>
+                    manque d'usage to lay<lb/>
+                    before <persName ref="./Personography.xml#CaveS1">Lady Dacre</persName> and<lb/>
+                    <persName ref="./Personography.xml#BranT1">Lord Dacre</persName> too my letter<lb/>
+                    <pb n="4" facs="Edgeworth_Princeton_1844-03_page04.jpg"/> 
+                    domestic <unclear>true</unclear> reasons<lb/>
+                    but I am much <choice><orig>>mista<lb/>
+                        -ken</orig><reg>mistaken</reg></choice> if either of them<lb/>
+                    think the worse of me<lb/>
+                    for this sincerity and<lb/>
+                    for confiding in their<lb/>
+                    indulgence</p><lb/>
+                <closer>
+                    My sister <persName ref="./Personography.xml#EdgeF3">Wilson</persName> begs<lb/>
+                    her respects -- &amp; Believe<lb/>
+                    me my dear <persName ref="./Personography.xml#CaveS1">Lady Dacre</persName><lb/>
+                    Your obliged<lb/>
+                    <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName><lb/><!--include linebreaks, if used. example: <closer> Yours<lb/> Very sincerely<lb/> -->
+                </closer>
+                <postscript>
+                    <p><!--A postscript goes here, outside the <closer>. --></p>
+                </postscript>
+                <!--You can include a <pb/> here, or inside the postScript.-->
+                <!-- Format for postscripts. 
+               Postscripts do NOT go inside closer tags. Adjust to take into account the order in your letter. 
+               Sometimes the signature is on page three, the address on page four, then the postscript follows back on the top of page one, for example.-->
+                <closer><!--Use the <closer> element again to hold Address Leaf information.-->
+                    <address>
+                        <!--Include any text written on the address leaf; use a separate "addrLine" for each line and indicate line breaks. -->
+                        <addrLine/>
+                        <addrLine/>
+                        <addrLine/>
+                    </address>
+                </closer>
+            </div>
+        </body>
+        <back> </back>
+    </text>
+</TEI>
+
