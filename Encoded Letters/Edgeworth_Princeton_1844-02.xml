@@ -25,10 +25,7 @@
             <edition>First digital edition in TEI, date: <date when="2023-10-06"></date>
             </edition>
             <respStmt>
-               <orgName type="naf" ref="Id_who">
-                  <!--who digitized the letter or gave us permission for to use the file?-->
-                  <!--Princeton not listed in archive sheet-->
-               </orgName>
+               <orgName ref="http://id.loc.gov/authorities/names/n82003163">Princeton University Library</orgName>
                <resp> photos include: Edgeworth_Princeton_1844-02_page01.jpg</resp>
             </respStmt>
          </editionStmt>
@@ -36,12 +33,7 @@
             <authority>Maria Edgeworth Letters Project</authority>
             <date>2022</date>
             <availability>
-               <!--Uncomment the appropriate line, based on the archive that holds the physical copy of this letter, 
-                  and delete the other comment line(s).-->
-               <p><!--Reproduced by courtesy of the <orgName ref="#ReadingCL">Reading Central Library</orgName>.-->
-                  <!--or -->
-                  <!--Courtesy of <orgName ref="#Rylands">The University of Manchester</orgName>.-->
-               </p>
+               <p>Reproduced by courtesy of <orgName ref="http://id.loc.gov/authorities/names/n82003163">Princeton University Library</orgName>.</p>
                <licence>Distributed under a Creative Commons Attribution-ShareAlike 3.0 Unported
                   License</licence>
             </availability>
@@ -52,9 +44,8 @@
          </seriesStmt>
          <sourceDesc>
             <msDesc xml:lang="en">
-               <!-- This section of the header identifies the original manuscript source. -->
                <msIdentifier>
-                  <repository>ORGANIZATION NAME</repository>
+                  <repository>Princeton University Library</repository>
                   <collection><!-- Enter specific archival collection if applicable--></collection>
                   <idno><!--Consult library or WorldCat for this info--></idno>
                </msIdentifier>
@@ -101,9 +92,10 @@
             </correspAction>
          </correspDesc>
       </profileDesc>
-      <revisionDesc>
+      <revisionDesc> <!--What is my XML ID to list below?-->
          <change when="2023-10-06" who="Id_who">Created XML file; saved to GitHub</change>
          <change when="2023-10-09" who="Id_who">Began to fill out TEI template for letter and encoded letter</change>
+         <change when="2023-10-13" who="Id_who">Continued to edit TEI template and fill in gaps of information</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -117,27 +109,26 @@
                </dateline>
                <salute>
                   <persName>
-                    Sir
+                    Sir<lb/>
                   </persName>
                </salute>
             </opener>
-            <p>I have this day recd a letter
-               from <persName ref="./Personography.xml#NortA1">Professor Norton</persName> of
-               <placeName ref="./Placeography.xml#Cambridge_MA_US">Cambridge America</placeName>
-               informing me that he has
-               sent a book to your care
-               for me -- A work on The Gospels
-               I beg you will have the
-               goodness, whenever you have
-               occasion to send to this
-               part of the Town, to forward
-               this book to your humble Serv<hi rend="superscript">t</hi>
-               <!--Unsure if the information below is included in the letter proper or in the closer or address line below; have included in both places for now-->
-               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
-               Directed for <persName ref="./Personography.xml#EdgeM1">Miss Edgeworth</persName>
-               at <persName ref="./Personography.xml#WilsL1">L. P. Wilson</persName> <unclear>E</unclear>
-               <placeName ref="./Placeography.xml#1-North-Audley-Street_ENK">1 North Audley St. Grovnor Square</placeName>
-               <unclear>h. h</unclear>
+            <p>I have this day recd a letter<lb/>
+               from <persName ref="./Personography.xml#NortA1">Professor Norton</persName> of<lb/>
+               <placeName ref="./Placeography.xml#Cambridge_MA_US">Cambridge America</placeName><lb/>
+               informing me that he has<lb/>
+               sent a book to your care<lb/>
+               for me -- A work on The Gospels<lb/>
+               I beg you will have the<lb/>
+               goodness, whenever you have<lb/>
+               occasion to send to this<lb/>
+               part of the Town, to forward<lb/>
+               this book to your humble Serv<hi rend="superscript">t</hi><lb/>
+               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName><lb/>
+               Directed for <persName ref="./Personography.xml#EdgeM1">Miss Edgeworth</persName><lb/>
+               at <persName ref="./Personography.xml#WilsL1">L. P. Wilson</persName> <unclear>E</unclear><lb/>
+               <placeName ref="./Placeography.xml#1-North-Audley-Street_ENK">1 North Audley St. Grovnor Square</placeName><lb/>
+               <unclear>h. h</unclear><lb/>
             </p>
             <closer>
                <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
@@ -149,10 +140,7 @@
             <closer><!--Use the <closer> element again to hold Address Leaf information.-->
                <address>
                   <!--Include any text written on the address leaf; use a separate "addrLine" for each line and indicate line breaks. -->
-                  <addrLine>Directed for <persName ref="./Personography.xml#EdgeM1">Miss Edgeworth</persName></addrLine>
-                  <addrLine>at <persName ref="./Personography.xml#WilsL1">L. P. Wilson <unclear>E</unclear></persName></addrLine>
-                  <addrLine><placeName ref="./Placeography.xml#1-North-Audley-Street_ENK">1 North Audley St. Grovnor Square</placeName></addrLine>
-                  <addrLine><unclear>h. h</unclear></addrLine>
+                  <addrLine></addrLine>
                </address>
             </closer>
          </div>
