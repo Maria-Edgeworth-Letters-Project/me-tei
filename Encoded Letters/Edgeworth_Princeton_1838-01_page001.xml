@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from Maria Edgeworth to Unknown, January 15, 1838</title>
+            <author>Maria Edgeworth</author>
+            <editor ref="Id_who">Alexandra LaGrand</editor><!--What is my XML ID to include here?-->
+            <sponsor>
+               <orgName>Maria Edgeworth Letters Project</orgName>
+            </sponsor>
+            <sponsor>Wake Forest University, University of Tennessee, Xavier University, Texas
+               A&amp;M University</sponsor>
+            <principal>Jessica Richard, Hilary Havens, Robin Runia, Susan Egenolf</principal>
+            <respStmt>
+               <resp>Transcription and coding by</resp>
+               <persName ref="Id_who">Alexandra LaGrand</persName>
+               <persName ref="Id_who"><!--FirstName LastName--></persName>
+               <!-- If you're the last person interacting with the file, enter your name last on the list -->
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>First digital edition in TEI, date: <date when="2022-10-13">
+               </date>
+            </edition>
+            <respStmt>
+               <orgName ref="http://id.loc.gov/authorities/names/n82003163">Princeton University Library</orgName>
+               <resp> photos include: Edgeworth_Princeton_1838-01_page001.jpg, Edgeworth_Princeton_1838-01_page002.jpg</resp>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Maria Edgeworth Letters Project</authority>
+            <date>2022</date>
+            <availability>
+               <!--Uncomment the appropriate line, based on the archive that holds the physical copy of this letter, 
+                  and delete the other comment line(s).-->
+               <p>Reproduced by courtesy of <orgName ref="http://id.loc.gov/authorities/names/n82003163">Princeton University Library</orgName></p>
+               <licence>Distributed under a Creative Commons Attribution-ShareAlike 3.0 Unported
+                  License</licence>
+            </availability>
+            <idno>Edgeworth_Princeton_1838-01_page001</idno> 
+         </publicationStmt>
+         <seriesStmt>
+            <title>Maria Edgeworth Letters Project</title>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <repository>Princeton University Library</repository>
+                  <collection><!-- Enter specific archival collection if applicable--></collection>
+                  <idno><!--Consult library or WorldCat for this info--></idno>
+               </msIdentifier>
+               
+               <!-- FROM LAURA: it's here (below) in the head that I added the full information about the author,
+                  and you could add full information about the addressee as well. -->
+               <head>Letter from 
+                     <persName xml:id="EdgeM1" from="1768" to="1849">
+                        <forename>Maria</forename>
+                        <surname>Edgeworth</surname>
+                        <date>1768-1849</date>
+                        <idno type="VIAF">71477273</idno>
+                        <idno type="SNAC">62567029</idno>
+                     </persName>
+                   to <persName>Unknown</persName>, <placeName><!--Location where letter was sent--></placeName>, 
+                  <date when="1838-01-15"></date>
+               </head>
+               <physDesc></physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <!--Where Edgeworth uses nonstandard spelling and hyphenation of words, transcriber-coders 
+               should use TEI elements “choice," “sic," and “reg" to encode both Edgeworth’s 
+               spelling and the regular international standard of Oxford English spelling, 
+               following the first listed spelling in the Oxford English Dictionary. -->
+            <p>Edgeworth’s spelling and punctuation are retained in transcription, except where a
+               word is split at the end of a line and the beginning of the next in a manuscript. The
+               long s and ligatured forms are silently emended.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName>Maria Edgeworth</persName>
+            </correspAction>
+            <correspAction type="received">
+               <persName>Unknown</persName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2023-10-13" who="Id_who">Created file for letter and began to fill out TEI template</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <pb n="1" facs="Edgeworth_Princeton_1838-01_page001.jpg"/>
+            <opener>
+               <dateline>
+                  <name type="place" ref="Edgeworthstown_IE"/>Edgeworthstown
+                  <date when="1816-08-04"/>January 15th. 1838. </dateline>
+            </opener>
+            <p>It is wonderful to me to feel<lb/>
+               that I have so much left to love<lb/>
+               after having lost so much and <lb/>
+               often as I feel this with gra<lb/>
+               titude to Heaven never did<lb/>
+               I feel is more than on read<lb/>
+               ing your most kind letter<lb/>
+               dearest child, sister and friend<lb/></p>
+               <p>Well might my father say<lb/>
+               Well did he prophecy, that<lb/>
+               you dear <unclear></unclear> <unclear></unclear> as<lb/>
+               then you were would be one<lb/>
+               of the greatest blessings of my<lb/>
+               life if prolonged to age -<lb/>
+               God bless and preserve you<lb/>
+               My dearest -- not <hi rend="underline">merely</hi> sel<lb/>
+               fishly do I breathe this prayer<lb/>
+               -- <persName ref="./Personography.xml#EdgeL1">Lucy's</persName> account &amp; <persName ref="./Personography.xml#WilsL1">Lestocks</persName> her<lb/>
+               opinion of you are good and<lb/>
+               for this I am thankful &amp; hopeful<lb/>
+            </p>
+            <p>
+               <pb n="2" facs="Edgeworth_Princeton_1838-01_page002.jpg"/>
+               I am glad you will not each<lb/>
+               yourself by driving or being<lb/>
+               driven out till the weather is<lb/>
+               finer and you stronger.<lb/></p>
+               <p>What a dreadful fire - The<lb/>
+               200 year old <placeName ref="./Placeography.xml#Royal-Exchange_ENK">Gresham Exchange</placeName><lb/>
+               gone in a few hours - contents<lb/>
+               of the iron chest and all!<lb/>
+               I hope <persName ref="./Personography.xml#WilsL1">Lestock</persName> and his partners<lb/>
+               will not suffer by it <del></del><lb/>
+               either in Insurance or any<lb/>
+               other way - I do not like to write<lb/>
+               to trouble him with inquiries or<lb/>
+               condolence -- I trust we shall hear<lb/>
+               from you all that concerns him<lb/>
+               -- He is to be with you on the 27<hi rend="superscript">h</hi><lb/>
+               I think-you need not plague<lb/>
+               him with any question about<lb/>
+               that old 13 draft - your mother<lb/>
+               has had <persName ref="./Personography.xml#HoarX1">Hoare's</persName> account this<lb/>
+               morning which has settled the<lb/>
+               point no more about that -<lb/></p>
+               <p>I have gathered together all<lb/>
+               the letters received since my last<lb/>
+               Envoie which I think could<lb/>
+               Interest you my dear &amp; if those<lb/>          
+            </p>
+            <closer>
+               <!--include linebreaks, if used. example: <closer> Yours<lb/> Very sincerely<lb/> -->
+            </closer>
+            <postscript>
+               <p><!--A postscript goes here, outside the <closer>. --></p>
+            </postscript>
+            <!--You can include a <pb/> here, or inside the postScript.-->
+            <!-- Format for postscripts. 
+               Postscripts do NOT go inside closer tags. Adjust to take into account the order in your letter. 
+               Sometimes the signature is on page three, the address on page four, then the postscript follows back on the top of page one, for example.-->
+            <closer><!--Use the <closer> element again to hold Address Leaf information.-->
+               <address>
+                  <addrLine/>
+                  <addrLine/>
+                  <addrLine/>
+               </address>
+            </closer>
+         </div>
+      </body>
+      <back> </back>
+   </text>
+</TEI>
