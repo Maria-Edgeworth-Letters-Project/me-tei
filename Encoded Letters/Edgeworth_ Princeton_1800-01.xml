@@ -19,7 +19,7 @@
             <principal>Jessica Richard, Hilary Havens, Robin Runia, Susan Egenolf</principal>
             <respStmt>
                <resp>Transcription and coding by</resp>
-               <persName ref="Lindsey Jones"><!--FirstName LastName-->
+               <persName ref="Lindsey Jones">
                </persName>
                <!-- List all transcribers or coders here, editors and students alike, <persName> by <persName>.-->
                <persName ref="Id_who"><!--FirstName LastName--></persName>
@@ -108,7 +108,7 @@
       <profileDesc>
          <correspDesc>
             <correspAction type="sent">
-               <persName><!--SENDER NAME--></persName>
+               <persName>Maria Edgeworth</persName>
             </correspAction>
             <correspAction type="received">
                <persName><!--RECIPIENT NAME--></persName>
@@ -121,6 +121,9 @@
          </change>
          <change when="2023-10-13" who="Lindsey Jones">
             Edited XML document to follow MELP TEI guidelines.
+         </change>
+         <change when="2023-10-15" who="Lindsey Jones">
+            Continued editing of XML document to follow MELP TEI guidelines.
          </change>
          <change when="2021-01-01" who="Id_who">
             <!--Brief description of what you did here.-->
@@ -137,16 +140,14 @@
                   <name type="place" ref="Id_where"/>
                   <date when="1800-01-27"/>January 27, 18XX. </dateline>
                <salute>
-                  <persName>
-                     Dear Sir,
-                  </persName>
+                  Dear Sir,
                </salute>
             </opener>
             <p>
                <!--<pb n="1" facs="Edgeworth_ Princeton_1800-01_pageXX"/> 27 Jan<hi rend="superscript">y</hi>. <unclear>18??</unclear>
 Dear Sir<lb/>
 I have just received yours<lb/>
-of the 20<hi rend="superscript">th</hi>. inst - I am sorry<lb/>
+of the 20<hi rend="superscript">th</hi>. <choice><orig>inst</orig><reg>instant</reg></choice> - I am sorry<lb/>
 that the battery goes on so slowly<lb/>
 - my having followed this <choice><orig>parsi<lb/>
 -monious</orig><reg>parsimonious</reg></choice> plan has cost us both<lb/>
@@ -175,7 +176,7 @@ the Book till it had actually<lb/>
 succeeded - But I did &amp; do say<lb/>
 that it is an excellent <choice><orig>improve<lb/>
 -ment</orig><reg>improvement</reg></choice> in the art of teaching to read<lb/>
-though I say it that sh<hi rend="superscript">d</hi> not say it.<lb/></p>
+though I say it that <choice><orig>sh<hi rend="superscript">d</hi></orig><reg>should</reg></choice> not say it.<lb/></p>
 <p>I feel so many qualms about<lb/>
 mixing new &amp; old in the <title ref="./Workography.xml#Paren1">Parents<lb/>
 Assistant</title> that I must beg - nay<lb/>
@@ -215,11 +216,11 @@ of the Books sent to us since we<lb/>
 left <placeName ref=".Placeography.xml#ENK">England</placeName> - for <add>all</add> your accounts have<lb/>
 not reached us &amp; we do not know<lb/>
 what Books we ought to have —<lb/>
-- N<hi rend="superscript">o</hi>. 3 of one of the sets of Anderson is<lb/>
+- <choice><orig>N<hi rend="superscript">o</hi>.</orig><reg>Number</reg></choice> 3 of one of the sets of Anderson is<lb/>
 wanting - please to put it<lb/>
 in your memorandum book -<lb/></p>
 <p><del>Please to send us to M<hi rend="superscript">r</hi>. <persName ref="./Personography.xml#DugdX1">Dugdale</persName> bookseller></del><lb/>
-We <hi rend="underline">desire</hi> to have the vol of the<lb/>
+We <hi rend="underline">desire</hi> to have the <choice><orig>vol</orig><reg>volume</reg></choice> of the<lb/>
 <title ref="./Workography.xml#Bibli2"><foreign>Bibliotheque Brittanique</foreign></title> which<lb/>
 translates part of <title ref="./Workography.xml#Pract1"><choice><orig>Prac Ed</orig><reg>Practical Education</reg></choice></title> — we<lb/>
 want to correct our stile by seeing<lb/>
