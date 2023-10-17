@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from Maria Edgeworth to Unknown, April 1811</title>
+            <author>Maria Edgeworth</author>
+            <editor ref="Id_who">Alexandra LaGrand</editor>
+            <sponsor>
+               <orgName>Maria Edgeworth Letters Project</orgName>
+            </sponsor>
+            <sponsor>Wake Forest University, University of Tennessee, Xavier University, Texas
+               A&amp;M University</sponsor>
+            <principal>Jessica Richard, Hilary Havens, Robin Runia, Susan Egenolf</principal>
+            <respStmt>
+               <resp>Transcription and coding by</resp>
+               <persName ref="Id_who">Alexandra LaGrand</persName>
+               <!-- If you're the last person interacting with the file, enter your name last on the list -->
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>First digital edition in TEI, date: <date when="2023-10-17"></date>
+            </edition>
+            <respStmt>
+               <orgName ref="http://id.loc.gov/authorities/names/n82003163">Princeton University Library</orgName>
+               <resp> photos include: Edgeworth_Princeton_1811-04_page01.jpg, Edgeworth_Princeton_1811-04_page02.jpg, Edgeworth_Princeton_1811-04_page03.jpg</resp>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Maria Edgeworth Letters Project</authority>
+            <date>2022</date>
+            <availability>
+               <p>Reproduced by courtesy of <orgName ref="http://id.loc.gov/authorities/names/n82003163">Princeton University Library</orgName></p>
+               <licence>Distributed under a Creative Commons Attribution-ShareAlike 3.0 Unported
+                  License</licence>
+            </availability>
+            <idno>Edgeworth_Princeton_1811-04</idno> 
+         </publicationStmt>
+         <seriesStmt>
+            <title>Maria Edgeworth Letters Project</title>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <!-- This section of the header identifies the original manuscript source. -->
+               <msIdentifier>
+                  <repository>Princeton University Library</repository>
+                  <collection><!-- Enter specific archival collection if applicable--></collection>
+                  <idno><!--Consult library or WorldCat for this info--></idno>
+               </msIdentifier>
+               
+               <!-- FROM LAURA: it's here (below) in the head that I added the full information about the author,
+                  and you could add full information about the addressee as well. -->
+               <head>Letter from 
+                     <persName xml:id="EdgeM1" from="1768" to="1849">
+                        <forename>Maria</forename>
+                        <surname>Edgeworth</surname>
+                        <date>1768-1849</date>
+                        <idno type="VIAF">71477273</idno>
+                        <idno type="SNAC">62567029</idno>
+                     </persName>
+                   to <persName>Unknown</persName>, <placeName><!--Location where letter was sent--></placeName>, 
+                  <date when="1811-04-01"></date><!--This letter doesn't give a specific day-->
+               </head>
+               <physDesc>
+                  <!-- optional physical description of the letter goes here: paper size and condition, seal, postmarks, etc.-->
+               </physDesc>
+            </msDesc>
+          </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <!--Where Edgeworth uses nonstandard spelling and hyphenation of words, transcriber-coders 
+               should use TEI elements “choice," “sic," and “reg" to encode both Edgeworth’s 
+               spelling and the regular international standard of Oxford English spelling, 
+               following the first listed spelling in the Oxford English Dictionary. -->
+            <p>Edgeworth’s spelling and punctuation are retained in transcription, except where a
+               word is split at the end of a line and the beginning of the next in a manuscript. The
+               long s and ligatured forms are silently emended.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName>Maria Edgeworth</persName>
+            </correspAction>
+            <correspAction type="received">
+               <persName>Unknown</persName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2023-10-17" who="Id_who">Created file for letter, filled in TEI template, coded line breaks, personography, placeography</change><!--What is my XML ID to put here and elsewhere?-->
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <pb n="1" facs="Edgeworth_Princeton_1811-04_page01.jpg"/>
+            <opener>
+               <dateline>
+                  <name type="place" ref="Edgeworthstown_IE"/>Edgeworth Town
+                  <date when="1816-08-04"/>April 1811</dateline>
+            </opener>
+            <p>I am not quite sure whether my flattering correspon<lb/>
+               dents are in jest or earnest, but at all events, I will<lb/>
+               with pleasure satisfy, as far as I am able the curi<lb/>
+               osity they express. I am gratified to find that the<lb/>
+               Frankland Family have inspired so much in interest<lb/>
+               as to make the readers of their history take the trouble<lb/>
+               of enquiring about their wedding apparel. I have<lb/>
+               received various letters on the subject but none so<lb/>
+               complimentary and so urgent as that I am now<lb/>
+               answering...Very fortunately for the three brides<lb/>
+               it happened that there was a short time previous<lb/>
+               to their marriages a custom house officers sale in<lb/>
+               <placeName ref="./Placeography.xml#Monmouth_WLK">Monmouth</placeName> of <persName ref="./Personography.xml#TipsX1">Admiral Tipsey's</persName> smuggled goods.<lb/>
+               <persName ref="./Personography.xml#HungX2">M<hi rend="superscript">rs</hi> Hungersford</persName> presented to the three brides three<lb/>
+               gowns of French cambric purchased at this sale<lb/>
+               which were made up in the neatest manner<lb/>
+               possible by the best milliner in <placeName ref="./Placeography.xml#Monmouth_WLK">Monmouth</placeName> and<lb/>
+               trimmed with some of <persName ref="./Personography.xml#TipsX1">Admiral Tipsey's</persName> best satin<lb/>
+               <unclear></unclear> lace. The dress maker assured me that no<lb/>
+               thing could be <hi rend="underline">more</hi> becoming <hi rend="underline">than</hi> the <hi rend="underline">set</hi> of<lb/>
+               the vandyke collars about the necks.<lb/>
+               <persName ref="./Personography.xml#HungX2">M<hi rend="superscript">rs</hi> Hungersfords</persName> children provided French white<lb/>
+               gloves and French shoes, <persName ref="./Personography.xml#ClegX2">Mr Cleghorn</persName>, at <persName ref="./Personography.xml#TipsX1">Tipsey's</persName> sale,<lb/>
+               in which he was right glad he had no concern<lb/>
+               bought the very pretty veils of French manufacture<lb/>
+               which he presented to the brides Frank put them<lb/>
+            </p>
+            <p>
+               <pb n="2" facs="Edgeworth_Princeton_1811-04_page01.jpg"/>
+               on his sisters with so good a grace that <persName ref="./Personography.xml#ClegX2">M<hi rend="superscript">r</hi> Cleghorn</persName> begged he would also put on his<lb/>
+               daughter's veil, that she might look as well as<lb/>
+               the Franklands. <persName ref="./Personography.xml#CrumJ1">Mr Jos <unclear>Crumpe</unclear></persName> whose English<lb/>
+               blood could not bear the idea of the girls<lb/>
+               being Frenchified from <hi rend="underline">top</hi> to <hi rend="underline">toe</hi> insisted that<lb/>
+               at least they might have some thing English<lb/>
+               about them and accordingly presented each<lb/>
+               with half a dozen pair of such beautiful fine<lb/>
+               cotten stockings, as cannot be had for love or<lb/>
+               money now a days out of honest old <placeName ref="./Placeography.xml#ENK">England</placeName>.<lb/>
+               on the same principle he gave htem white <unclear>chip</unclear><lb/>
+               hats trimmed with <hi rend="underline">English</hi> <hi rend="underline">white</hi> ribbon "for<lb/>
+               say what you will of French white ribbon, what they<lb/>
+               call white is no more white than I am I declare"<lb/>
+               Gowns, hats, veils, gloves, shoes, stockings, nothing<lb/>
+               wanting but white <unclear></unclear> handkerchiefs, which<lb/>
+               old <persName ref="./Personography.xml#FranJ1">Frankland</persName>, who utterly detested shawls begged<lb/>
+               his girls would wear and <persName ref="./Personography.xml#ClegX1">Miss Cleghorn</persName> had<lb/>
+               also the complaisance to wear one, tho' she had<lb/>
+               a fine French shawl, which the <persName ref="./Personography.xml#TipsX1">Admiral</persName> forced<lb/>
+               upon her acceptance. I cannot learn that they<lb/>
+               had such necklaces, bracelets or baubles of any kind,<lb/>
+               but they certainly had prayer books neatly<lb/>
+               bound in morocco; the gift of young <persName ref="./Personography.xml#JoliX1">Mr <unclear>Jolingsby</unclear></persName><lb/>
+               so much for the Brides, now for the Bridegrooms<lb/>
+               who had first intended to be <unclear>dressed</unclear> alike but<lb/>
+               Frank objected, "lest it should look like an <unclear></unclear><lb/>
+               house uniform" so <persName ref="./Personography.xml#FranJ1">James Frankland</persName> to the <unclear></unclear><lb/>
+            </p>
+            <p>
+               <pb n="3" facs="Edgeworth_Princeton_1811-04_page03.jpg"/>
+               of the Biographers opinion, was in blue and<lb/>
+               sister's Bridegrooms wore brown. <hi rend="underline">All</hi> certainly<lb/>
+               had Cambric cravats presented by <persName ref="./Personography.xml#ClegX2">Mr Cleghorn.</persName><lb/>
+               <persName ref="./Personography.xml#BarlX1">M<hi rend="superscript">r</hi> Barlow</persName> provided each with a handsome<lb/>
+               watch, chain and <unclear>sils</unclear>. These are all the par<lb/>
+               ticulars I have been able to collect after a<lb/>
+               most dilligent search, inspecting the accoutre<lb/>
+               ments of the Frankland family, may I be per<lb/>
+               mitted to hold, tho' no questions I have <unclear></unclear><lb/>
+               on that point, that <persName ref="./Personography.xml#HungX2">Mrs Hungerford</persName> was dressed<lb/>
+               in an <unclear></unclear> <unclear></unclear> of Irish Jabbinet, so glossy<lb/>
+               htat now with not touching it, and who could<lb/>
+               presume to touch <persName ref="./Personography.xml#HungX2">Mrs Hungerford's</persName> dress? could<lb/>
+               believe it to be any thing but rich silk or satin.<lb/>
+               This admired Jabbinet was presented by <persName ref="./Personography.xml#EdgeM1">Miss E</persName><lb/>
+               who has the honour to be descended from a branch<lb/>
+               of that family. One other circumstance equally<lb/>
+               deserved to be recorded, that whent he young Miss<lb/>
+               Hungerfords had distributed handsome wedding<lb/>
+               favours, no power or persuasion could prevail<lb/>
+               on <persName ref="./Personography.xml#CrumJ1">Mr Jo<hi rend="superscript">s</hi> Crumpe</persName> to touch one because he <del>was</del> never<lb/>
+               had and by the blessing of Heaven "never would<lb/>
+               wear any thing French while he had English<lb/>
+               breath in his body". <unclear>Patty</unclear> whilst all the company<lb/>
+               who using different arguments made him<lb/>
+               a favour of English ribbon which he wore with<lb/>
+               great satisfaction and sent Patty in return<lb/>
+               some choice Irish India sweetmeats for the<lb/>
+               wedding dinner. And now my flattering corres<lb/>
+            </p>
+            <closer>
+               <!--include linebreaks, if used. example: <closer> Yours<lb/> Very sincerely<lb/> -->
+            </closer>
+            <postscript>
+               <p><!--A postscript goes here, outside the <closer>. --></p>
+            </postscript>
+            <!--You can include a <pb/> here, or inside the postScript.-->
+            <!-- Format for postscripts. 
+               Postscripts do NOT go inside closer tags. Adjust to take into account the order in your letter. 
+               Sometimes the signature is on page three, the address on page four, then the postscript follows back on the top of page one, for example.-->
+            <closer><!--Use the <closer> element again to hold Address Leaf information.-->
+               <address>
+                  <!--Include any text written on the address leaf; use a separate "addrLine" for each line and indicate line breaks. -->
+                  <addrLine/>
+                  <addrLine/>
+                  <addrLine/>
+               </address>
+            </closer>
+         </div>
+      </body>
+      <back> </back>
+   </text>
+</TEI>
