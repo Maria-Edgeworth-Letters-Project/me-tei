@@ -22,7 +22,7 @@
             </respStmt>
          </titleStmt>
          <editionStmt>
-            <edition>First digital edition in TEI, date: <date when="2023-10-15"></date>
+            <edition>First digital edition in TEI, date: <date when="2023-10-15">October 15, 2023</date>
             </edition>
             <respStmt>
                <orgName ref="http://id.loc.gov/authorities/names/n82003163">Princeton University Library</orgName>
@@ -63,7 +63,7 @@
                         <idno type="VIAF">71477273</idno>
                         <idno type="SNAC">62567029</idno>
                      </persName>, <placeName><!--Location where letter was sent--></placeName>, 
-                  <date when="1834-06-30"></date><!--What do I do if there are multiple dates? This letter features multiple letters in one that take place over a couple months-->
+                  <date when="1834-06-30">June 30, 1834</date><!--What do I do if there are multiple dates? This letter features multiple letters in one that take place over a couple months-->
                </head>
                <physDesc></physDesc>
             </msDesc>
@@ -92,6 +92,7 @@
       </profileDesc>
       <revisionDesc>
          <change when="2023-10-15" who="Id_who"> Created TEI template for letter and began to fill in information from letter</change>
+         <change when="2023-10-19" who="Id_who">Updated coding for letter based on suggested edits from EAW</change>
       </revisionDesc>
    </teiHeader>
    <text>

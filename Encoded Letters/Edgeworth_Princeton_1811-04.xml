@@ -22,7 +22,7 @@
             </respStmt>
          </titleStmt>
          <editionStmt>
-            <edition>First digital edition in TEI, date: <date when="2023-10-17"></date>
+            <edition>First digital edition in TEI, date: <date when="2023-10-17">October 17, 2023</date>
             </edition>
             <respStmt>
                <orgName ref="http://id.loc.gov/authorities/names/n82003163">Princeton University Library</orgName>
@@ -54,15 +54,12 @@
                <!-- FROM LAURA: it's here (below) in the head that I added the full information about the author,
                   and you could add full information about the addressee as well. -->
                <head>Letter from 
-                     <persName xml:id="EdgeM1" from="1768" to="1849">
+                     <persName ref="./Personography.xml#EdgeM1">
                         <forename>Maria</forename>
                         <surname>Edgeworth</surname>
-                        <date>1768-1849</date>
-                        <idno type="VIAF">71477273</idno>
-                        <idno type="SNAC">62567029</idno>
                      </persName>
                    to <persName>Unknown</persName>, <placeName><!--Location where letter was sent--></placeName>, 
-                  <date when="1811-04-01"></date><!--This letter doesn't give a specific day-->
+                  <date when="1811-04-01">April 1, 1811</date><!--This letter doesn't give a specific day-->
                </head>
                <physDesc>
                   <!-- optional physical description of the letter goes here: paper size and condition, seal, postmarks, etc.-->
@@ -93,6 +90,7 @@
       </profileDesc>
       <revisionDesc>
          <change when="2023-10-17" who="Id_who">Created file for letter, filled in TEI template, coded line breaks, personography, placeography</change><!--What is my XML ID to put here and elsewhere?-->
+         <change when="2023-10-19" who="Id_who">Updated encoding to reflect recommendations from EAW</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -102,7 +100,7 @@
             <opener>
                <dateline>
                   <name type="place" ref="Edgeworthstown_IE"/>Edgeworth Town
-                  <date when="1816-08-04"/>April 1811</dateline>
+                  <date when="1816-08-04"/>April 1811</dateline><!--How do we write the date if we only have the month and year?-->
             </opener>
             <p>I am not quite sure whether my flattering correspon<lb/>
                dents are in jest or earnest, but at all events, I will<lb/>
