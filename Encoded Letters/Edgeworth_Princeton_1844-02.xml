@@ -22,7 +22,7 @@
             </respStmt>
          </titleStmt>
          <editionStmt>
-            <edition>First digital edition in TEI, date: <date when="2023-10-06"></date>
+            <edition>First digital edition in TEI, date: <date when="2023-10-06">October 6, 2023</date>
             </edition>
             <respStmt>
                <orgName ref="http://id.loc.gov/authorities/names/n82003163">Princeton University Library</orgName>
@@ -50,20 +50,15 @@
                   <idno><!--Consult library or WorldCat for this info--></idno>
                </msIdentifier>
                <head>Letter from 
-                     <persName xml:id="EdgeM1" from="1768" to="1849">
+                  <persName ref="./Personography.xml#EdgeM1">
                         <forename>Maria</forename>
                         <surname>Edgeworth</surname>
-                        <date>1768-1849</date>
-                        <idno type="VIAF">71477273</idno>
-                        <idno type="SNAC">62567029</idno>
                      </persName>
-                   to <persName xml:id="BentR1" from="1794" to="1871">
-                      <forename>Richard</forename>
-                      <surname>Bentley</surname>
-                      <date>1794-1871</date>
-                      <idno type="VIAF">30279325</idno>
+                  to <persName ref="./Personography.xml#BentR1">
+                        <forename>Richard</forename>
+                        <surname>Bentley</surname>
                      </persName>, <placeName><!--Location where letter was sent--></placeName>, 
-                  <date when="1844-02-22"></date>
+                  <date when="1844-02-22">February 22, 1844</date>
                </head>
                <physDesc>
                   <p>Outline of paper watermark seen in top-left page corner.</p> 
@@ -97,6 +92,7 @@
          <change when="2023-10-09" who="Id_who">Began to fill out TEI template for letter and encoded letter</change>
          <change when="2023-10-13" who="Id_who">Continued to edit TEI template and fill in gaps of information</change>
          <change when="2023-10-15" who="Id_who">Double-checked letter template for necessary revisions</change>
+         <change when="2023-10-19" who="Id_who">Edited encoded letter based on suggested edits by EAW</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -119,20 +115,19 @@
                <placeName ref="./Placeography.xml#Cambridge_MA_US">Cambridge America</placeName><lb/>
                informing me that he has<lb/>
                sent a book to your care<lb/>
-               for me -- A work on The Gospels<lb/>
+               for me -- A work on <title ref="./Workography.xml#Trans1">The Gospels</title><lb/>
                I beg you will have the<lb/>
                goodness, whenever you have<lb/>
                occasion to send to this<lb/>
                part of the Town, to forward<lb/>
                this book to your humble Serv<hi rend="superscript">t</hi><lb/>
+            </p>
+            <closer>
                <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName><lb/>
                Directed for <persName ref="./Personography.xml#EdgeM1">Miss Edgeworth</persName><lb/>
                at <persName ref="./Personography.xml#WilsL1">L. P. Wilson</persName> <unclear>E</unclear><lb/>
                <placeName ref="./Placeography.xml#1-North-Audley-Street_ENK">1 North Audley St. Grovnor Square</placeName><lb/>
                <unclear>h. h</unclear><lb/>
-            </p>
-            <closer>
-               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
                <!--include linebreaks, if used. example: <closer> Yours<lb/> Very sincerely<lb/> -->
             </closer>
             <postscript>
