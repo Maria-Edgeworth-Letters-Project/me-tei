@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from Maria Edgeworth to Unknown, April 15, 1841<!--Recipient Name, Month Day, YYYY--></title>
+            <author>Maria Edgeworth</author>
+            <editor ref="Id_who">Alexandra LaGrand</editor>
+            <sponsor>
+               <orgName>Maria Edgeworth Letters Project</orgName>
+            </sponsor>
+            <sponsor>Wake Forest University, University of Tennessee, Xavier University, Texas
+               A&amp;M University</sponsor>
+            <principal>Jessica Richard, Hilary Havens, Robin Runia, Susan Egenolf</principal>
+            <respStmt>
+               <resp>Transcription and coding by</resp>
+               <persName ref="Id_who">Alexandra LaGrand</persName>
+               <!-- If you're the last person interacting with the file, enter your name last on the list -->
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>First digital edition in TEI, date: <date when="2023-10-23">October 23, 2023</date>
+            </edition>
+            <respStmt>
+               <orgName ref="http://id.loc.gov/authorities/names/n82003163">Princeton University Library</orgName>
+               <resp> photos include: Edgeworth_Princeton_1841-04_page01.jpg, Edgeworth_Princeton_1841-04_page02.jpg, Edgeworth_Princeton_1841-04_page03.jpg</resp>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Maria Edgeworth Letters Project</authority>
+            <date>2022</date>
+            <availability>
+               <p>Reproduced by courtesy of <orgName ref="http://id.loc.gov/authorities/names/n82003163">Princeton University Library</orgName></p>
+               <licence>Distributed under a Creative Commons Attribution-ShareAlike 3.0 Unported
+                  License</licence>
+            </availability>
+            <idno>Edgeworth_Princeton_1841-04</idno> 
+         </publicationStmt>
+         <seriesStmt>
+            <title>Maria Edgeworth Letters Project</title>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <!-- This section of the header identifies the original manuscript source. -->
+               <msIdentifier>
+                  <repository>Princeton University Library</repository>
+                  <collection><!-- Enter specific archival collection if applicable--></collection>
+                  <idno><!--Consult library or WorldCat for this info--></idno>
+               </msIdentifier>
+               
+               <!-- FROM LAURA: it's here (below) in the head that I added the full information about the author,
+                  and you could add full information about the addressee as well. -->
+               <head>Letter from 
+                  <persName ref="./Personography.xml#EdgeM1">
+                     <forename>Maria</forename>
+                     <surname>Edgeworth</surname>
+                  </persName>
+                   to <persName>Unknown</persName>, <placeName><!--Location where letter was sent--></placeName>, 
+                  <date when="1841-04-10">April 10th, 1841</date>
+               </head>
+               <physDesc>
+                  <!-- optional physical description of the letter goes here: paper size and condition, seal, postmarks, etc.-->
+               </physDesc>
+            </msDesc>
+            
+            <!-- FROM LAURA: where to put the following information in <bibl> is still a question: 
+               ask TEI List whether it should be in the sourceDesc or elsewhere? -->
+          </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <!--Where Edgeworth uses nonstandard spelling and hyphenation of words, transcriber-coders 
+               should use TEI elements “choice," “sic," and “reg" to encode both Edgeworth’s 
+               spelling and the regular international standard of Oxford English spelling, 
+               following the first listed spelling in the Oxford English Dictionary. -->
+            <p>Edgeworth’s spelling and punctuation are retained in transcription, except where a
+               word is split at the end of a line and the beginning of the next in a manuscript. The
+               long s and ligatured forms are silently emended.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName>Maria Edgeworth</persName>
+            </correspAction>
+            <correspAction type="received">
+               <persName>Unknown</persName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2023-10-23" who="Id_who">Created file for letter; encoded letter</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <pb n="2" facs="Edgeworth_Princeton_1841-04_page02.jpg"/>
+            <opener></opener>
+            <p><persName ref="./Personography.xml#EdgeM1">Miss Edgeworth</persName> ventures<lb/>
+               to hope that <persName ref="./Personography.xml#HoarC1">M<hi rend="superscript">r</hi>. C Hoare</persName><lb/>
+               may not have quite for<lb/>
+               gotten her though it is<lb/>
+               so many many years<lb/>
+               since she had the pleasure<lb/>
+               of being his &amp; <persName ref="./Personography.xml#HoarX2">M<hi rend="superscript">rs</hi>. C Hoares</persName> guest<lb/></p>
+            <p>She solicits his attention<lb/>
+               to the enclosed card and<lb/>
+               begs the honor &amp; favor<lb/>
+               of his vote and interest<lb/>
+               for <persName ref="./Personography.xml#HeweA1">Anne Hewett</persName> at the<lb/>
+               approaching election of<lb/>
+               candidates for admission<lb/>
+               into the noble Institution<lb/>
+               for the education of<lb/>
+            </p>
+            <p>
+               <pb n="3" facs="Edgeworth_Princeton_1841-04_page02.jpg"/>
+               adult orphans.<lb/></p>
+            <closer>
+               <persName ref="./Personography.xml#EdgeM1">Miss E</persName> begs her kind<lb/>
+               remembrance to<lb/>
+               <persName ref="./Personography.xml#HoarX2">M<hi rend="superscript">rs.</hi> C. Hoare</persName><lb/>
+               <placeName ref="./Placeography.xml#1-North-Audley-Street_ENK">1 North Audley Street</placeName><lb/>
+               April <unclear>10</unclear><hi rend="superscript">th</hi> 1841<lb/>
+            </closer>
+            <postscript>
+               <p><!--A postscript goes here, outside the <closer>. --></p>
+            </postscript>
+            <!--You can include a <pb/> here, or inside the postScript.-->
+            <!-- Format for postscripts. 
+               Postscripts do NOT go inside closer tags. Adjust to take into account the order in your letter. 
+               Sometimes the signature is on page three, the address on page four, then the postscript follows back on the top of page one, for example.-->
+            <closer><!--Use the <closer> element again to hold Address Leaf information.-->
+               <address>
+                  <!--Include any text written on the address leaf; use a separate "addrLine" for each line and indicate line breaks. -->
+                  <addrLine>375 -</addrLine><lb/>
+                  <addrLine>GAWA 05 <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName></addrLine><lb/>
+                  <addrLine><unclear></unclear></addrLine><lb/>
+                  <addrLine>Wilberforce</addrLine><lb/>
+                  <addrLine><unclear></unclear></addrLine><lb/>
+                  <addrLine>AM 2009 2vv9-112</addrLine><lb/>
+               </address>
+            </closer>
+         </div>
+      </body>
+      <back> </back>
+   </text>
+</TEI>
