@@ -9,7 +9,6 @@
             <title>Letter from Maria Edgeworth to R. Bentley, January 24, 1834</title>
             <author>Maria Edgeworth</author>
             <editor ref="Lindsey Jones">
-               <!--Editor on the Maria Edgeworth Letters Project overseeing the coding of this particular letter: FirstName LastName -->
             </editor>
             <sponsor>
                <orgName>Maria Edgeworth Letters Project</orgName>
@@ -36,7 +35,7 @@
                   Princeton University Library
                   <!--who digitized the letter or gave us permission for to use the file?-->
                </orgName>
-               <resp> photos include:
+               <resp> photos include: <!--NOTE FROM LJ: Where do you find these file names? They're not the "Edgeworth_Princeton_1834-01_page01.jpg" names-->
                   <!-- Make a comma-separated list of each .jpg photo file name associated with your letter. 
                      For example: DSCF9476.jpg, DSCF9477.jpg, DSCF9478.jpg-->
                </resp>
@@ -46,10 +45,7 @@
             <authority>Maria Edgeworth Letters Project</authority>
             <date>2022</date>
             <availability>
-               <!--Uncomment the appropriate line, based on the archive that holds the physical copy of this letter, 
-                  and delete the other comment line(s).-->
-               <p><!--Reproduced by courtesy of the <orgName ref="#ReadingCL">Reading Central Library</orgName>.-->
-                  <!--or -->
+               <p>
                   Courtesy of <orgName ref="#http://id.loc.gov/authorities/names/n82003163">Princeton University Library</orgName>.
                </p>
                <licence>Distributed under a Creative Commons Attribution-ShareAlike 3.0 Unported
@@ -64,7 +60,8 @@
             <msDesc xml:lang="en">
                <!-- This section of the header identifies the original manuscript source. -->
                <msIdentifier>
-                  <repository>ORGANIZATION NAME</repository>
+                  <repository>Princeton University Library</repository>
+                  <!--NOTE FROM LJ: Where do you find the info for the next two lines?-->
                   <collection><!-- Enter specific archival collection if applicable--></collection>
                   <idno><!--Consult library or WorldCat for this info--></idno>
                </msIdentifier>
@@ -120,6 +117,9 @@
          <change when="2023-10-15" who="Lindsey Jones">
             Created XML document.
          </change>
+         <change when="2023-10-22" who="Lindsey Jones">
+            Updated TEI to conform to MELP standards.
+         </change>
          <change when="2021-01-01" who="Id_who">
             <!--Brief description of what you did here.-->
          </change>
@@ -139,55 +139,37 @@
                </salute>
             </opener>
             <p>
-                <pb n="1" facs="Edgeworth_Princeton_1834-01_pageXX"/>
-<!--Sir<lb/>
-I approve of the title page<lb/>
-for <title ref="./Workography.xml#Pract1">Helen</title><lb/></p>
-<p>I beg you will send the<lb/>
-first copy you can have<lb/>
-stitched together to<lb/>
-<placeName ref=".Placeography.xml#1-North-Audley-Street_ENK"><choice><orig>N<hi rend="superscript">o</hi>.</orig><reg>Number</reg></choice> 1 North Audley Street</placeName><lb/>
-to <persName ref="./Personography.xml#EdgeF3">M<hi rend="superscript">rs</hi>. Lestock Wilson</persName><lb/></p>
-<p>Also I request that instead<lb/>
-of 9 copies as ordered in<lb/>
-my last to be sent to<lb/>
-<persName ref="./Personography.xml#EdgeF3">M<hi rend="superscript">rs</hi>. L Wilson</persName> you will<lb/>
-send her <hi rend="underline">ten</hi> - independent<lb/>
-of that stitched copy mentioned<lb/>
-above<lb/></p>
-<p>I am anxious that you<lb/>
-should send the <hi rend="underline">revises</hi> of<lb/>
-the last sheets to <persName ref="./Personography.xml#EdgeF3">M<hi rend="superscript">rs</hi>. L Wilson</persName><lb/></p>
-<closer>
-I am Sir<lb/>
-Your <choice><orig>Obed<hi rend="superscript">t</hi>.</orig><reg>Obedient</reg></choice> <choice><orig>Serv<hi rend="superscript">t</hi>.</orig><reg>Servant</reg></choice><lb/>
-<persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName><lb/>
-</closer>
-
-<pb n="4" facs="Edgeworth_Princeton_1834-01_pageXX"/>
-
-<closer>
-<address>
-<addrLine/>R Bentley Esq<hi rend="superscript">r</hi><lb/>
-</address>
-         </closer>-->
+               <pb n="1" facs="Edgeworth_Princeton_1834-01_page01.jpg"/>
+               Sir<lb/>
+               I approve of the title page<lb/>
+               for <title ref="./Workography.xml#Pract1">Helen</title><lb/></p>
+               <p>I beg you will send the<lb/>
+               first copy you can have<lb/>
+               stitched together to<lb/>
+               <placeName ref=".Placeography.xml#1-North-Audley-Street_ENK"><choice><orig>N<hi rend="superscript">o</hi>.</orig><reg>Number</reg></choice> 1 North Audley Street</placeName><lb/>
+               to <persName ref="./Personography.xml#EdgeF3">M<hi rend="superscript">rs</hi>. Lestock Wilson</persName><lb/></p>
+               <p>Also I request that instead<lb/>
+               of 9 copies as ordered in<lb/>
+               my last to be sent to<lb/>
+               <persName ref="./Personography.xml#EdgeF3">M<hi rend="superscript">rs</hi>. L Wilson</persName> you will<lb/>
+               send her <hi rend="underline">ten</hi> - independent<lb/>
+               of that stitched copy mentioned<lb/>
+               above<lb/></p>
+               <p>I am anxious that you<lb/>
+               should send the <hi rend="underline">revises</hi> of<lb/>
+               the last sheets to <persName ref="./Personography.xml#EdgeF3">M<hi rend="superscript">rs</hi>. L Wilson</persName><lb/>
             </p>
             <closer>
-               <!--include linebreaks, if used. example: <closer> Yours<lb/> Very sincerely<lb/> -->
+               I am Sir<lb/>
+               Your <choice><orig>Obed<hi rend="superscript">t</hi>.</orig><reg>Obedient</reg></choice> <choice><orig>Serv<hi rend="superscript">t</hi>.</orig><reg>Servant</reg></choice><lb/>
+               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName><lb/>
             </closer>
-            <postscript>
-               <p><!--A postscript goes here, outside the <closer>. --></p>
-            </postscript>
-            <!--You can include a <pb/> here, or inside the postScript.-->
-            <!-- Format for postscripts. 
-               Postscripts do NOT go inside closer tags. Adjust to take into account the order in your letter. 
-               Sometimes the signature is on page three, the address on page four, then the postscript follows back on the top of page one, for example.-->
-            <closer><!--Use the <closer> element again to hold Address Leaf information.-->
+            
+            <pb n="4" facs="Edgeworth_Princeton_1834-01_page02.jpg"/>
+            
+            <closer>
                <address>
-                  <!--Include any text written on the address leaf; use a separate "addrLine" for each line and indicate line breaks. -->
-                  <addrLine/>
-                  <addrLine/>
-                  <addrLine/>
+                  <addrLine>R Bentley Esq<hi rend="superscript">r</hi><lb/></addrLine>
                </address>
             </closer>
          </div>
