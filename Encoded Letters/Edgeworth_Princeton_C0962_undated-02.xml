@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from Maria Edgeworth to John Bowring [Unknown date]</title>
+            <author>Maria Edgeworth</author>
+            <editor ref="Id_who">Alexandra LaGrand</editor>
+            <sponsor>
+               <orgName>Maria Edgeworth Letters Project</orgName>
+            </sponsor>
+            <sponsor>Wake Forest University, University of Tennessee, Xavier University, Texas
+               A&amp;M University</sponsor>
+            <principal>Jessica Richard, Hilary Havens, Robin Runia, Susan Egenolf</principal>
+            <respStmt>
+               <resp>Transcription and coding by</resp>
+               <persName ref="Id_who">Alexandra LaGrand</persName>
+               <!-- If you're the last person interacting with the file, enter your name last on the list -->
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>First digital edition in TEI, date: <date when="2023-10-24">October 24, 2023</date>
+            </edition>
+            <respStmt>
+               <orgName ref="http://id.loc.gov/authorities/names/n82003163">Princeton University Library</orgName>
+               <resp> photos include: Edgeworth_Princeton_C0962_undated-02_page01.jpg, Edgeworth_Princeton_C0962_undated-02_page02.jpg, Edgeworth_Princeton_C0962_undated-02_page03.jpg</resp>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Maria Edgeworth Letters Project</authority>
+            <date>2022</date>
+            <availability>
+               <p>Reproduced by courtesy of <orgName ref="http://id.loc.gov/authorities/names/n82003163">Princeton University Library</orgName></p>
+               <licence>Distributed under a Creative Commons Attribution-ShareAlike 3.0 Unported
+                  License</licence>
+            </availability>
+            <idno>Edgeworth_Princeton_C0962_undated-02</idno> 
+         </publicationStmt>
+         <seriesStmt>
+            <title>Maria Edgeworth Letters Project</title>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <!-- This section of the header identifies the original manuscript source. -->
+               <msIdentifier>
+                  <repository>Princeton University Library</repository>
+                  <collection><!-- Enter specific archival collection if applicable--></collection>
+                  <idno><!--Consult library or WorldCat for this info--></idno>
+               </msIdentifier>
+               
+               <!-- FROM LAURA: it's here (below) in the head that I added the full information about the author,
+                  and you could add full information about the addressee as well. -->
+               <head>Letter from 
+                  <persName ref="./Personography.xml#EdgeM1">
+                     <forename>Maria</forename>
+                     <surname>Edgeworth</surname>
+                  </persName>
+                   to <persName ref="./Personography.xml#BowrJ1">John Bowring</persName>, <placeName><!--Location where letter was sent--></placeName>, 
+                  <date when="1111-01-01"><!-- Transcribe the date as it appears on the letter itself. Enter a numeric standardized date value in @when. --></date> <!--What do we do if we have an unknown date?-->
+               </head>
+               <physDesc><p>Page features watermarks that read "CWH 13"</p></physDesc>
+            </msDesc>
+            
+            <!-- FROM LAURA: where to put the following information in <bibl> is still a question: 
+               ask TEI List whether it should be in the sourceDesc or elsewhere? -->
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <!--Where Edgeworth uses nonstandard spelling and hyphenation of words, transcriber-coders 
+               should use TEI elements “choice," “sic," and “reg" to encode both Edgeworth’s 
+               spelling and the regular international standard of Oxford English spelling, 
+               following the first listed spelling in the Oxford English Dictionary. -->
+            <p>Edgeworth’s spelling and punctuation are retained in transcription, except where a
+               word is split at the end of a line and the beginning of the next in a manuscript. The
+               long s and ligatured forms are silently emended.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName>Maria Edgeworth</persName>
+            </correspAction>
+            <correspAction type="received">
+               <persName>John Bowring</persName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2023-10-24" who="Id_who">Created file for letter; encoded letter</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <pb n="2" facs="Edgeworth_Princeton_C0962_undated-02_page01.jpg"/>
+            <opener>
+               <salute>
+                  <persName>Dear Sir</persName>
+               </salute>
+            </opener>
+            <p>I return the topaz &amp; a note<lb/>
+               of <persName ref="./Personography.xml#HopeX1">M<hi rend="superscript">r</hi>. Hopes</persName> which will<lb/>
+               tell you the opinion of<lb/>
+               <persName ref="./Personography.xml#HopeP1">M<hi rend="superscript">r</hi>. Philip Henry Hope</persName> who<lb/>
+               is skilled on these subjects &amp;<lb/></p>
+            <p>I have shown it to D<hi rend="superscript">r</hi>. <persName ref="./Personography.xml#WollW1">Wollas<lb/>
+               ton</persName> who expressed <hi rend="underline">doubts</hi>. --<lb/>
+               He declined giving an opinion<lb/></p>
+               <p>Your Spanish carica<lb/>
+               tures have amazed &amp; edi<lb/>
+               fied all who have seen<lb/>
+               them and I thank you<lb/>
+               for trusting me with this<lb/>
+               valuable work.<lb/>
+            </p>
+            <closer>
+               I am D.<hi rend="superscript">r</hi> Sir with compli<lb/>
+               =ments &amp; kind remembran<lb/>
+               ces to <persName ref="./Personography.xml#BowrX1">M<hi rend="superscript">rs</hi>. Bowring</persName><lb/>
+               Yours sincerely<lb/>
+               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName><lb/>
+            </closer>
+            <postscript>
+               <p>8 Holles St.<lb/>
+                  Monday<lb/></p>
+            </postscript>
+            <!--You can include a <pb/> here, or inside the postScript.-->
+            <!-- Format for postscripts. 
+               Postscripts do NOT go inside closer tags. Adjust to take into account the order in your letter. 
+               Sometimes the signature is on page three, the address on page four, then the postscript follows back on the top of page one, for example.-->
+            <closer><!--Use the <closer> element again to hold Address Leaf information.-->
+               <address>
+                  <addrLine>4 May</addrLine>
+                  <addrLine>From R. Atkinson, London.</addrLine>
+                  <addrLine>March. 4, 1924</addrLine>
+                  <addrLine>Cost, 3/-= 66¢</addrLine>
+                  <addrLine>£ = $4.41 1/4 Apr. 4, 1920</addrLine>
+                  <addrLine>J. Bowring Esq<hi rend="superscript">u</hi></addrLine>
+                  <addrLine>Maria Edgeworth</addrLine><!--This line and the following line are on the reverse of the page with the above lines. Do these lines go here?-->
+                  <addrLine>4 May 1822</addrLine>
+               </address>
+            </closer>
+         </div>
+      </body>
+      <back> </back>
+   </text>
+</TEI>
