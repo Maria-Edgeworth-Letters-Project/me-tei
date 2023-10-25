@@ -127,66 +127,64 @@
     <text>
         <body>
             <div type="letter">
-                <pb n="1" facs="image1.jpg"/>
+                <pb n="1" facs="Edgeworth_NLS_23130_1818_05_15_page01.jpg"/>
                 <!--filenames for photos associated with this letter. Example: <pb n="1" facs="image1.jpg image2.jpg image3.jpg"/> -->
                 <opener>
                     <dateline><!--If there's no date line, omit this element. Record in the order in which it is written on the letter.-->
                         <name type="place" ref="Id_where"/>
-                        <date when="1816-08-04"/>August 4, 1816. </dateline>
+                        <date when="1818-05-15"/>15 May 1818</dateline>
                     <salute>
                         <persName>
                             <!-- Use if letter has a saluation ("Dear Sir," for example). If not, delete this line.-->
                         </persName>
                     </salute>
                 </opener>
-                <p>[page 1]
-                    15 May 1818
-                    [other hand](3)x[/other hand]
-                    I lost no time my dear Miss Edgeworth in complying with your
-                    wishes. But I regret to say that as yet I have not found Mr Edgeworths
+                <p> <note place="bottom">3x</note>
+                    I lost no time my dear <persName ref="./Personography.xml#EdgeM1">Miss Edgeworth</persName> in complying with your
+                    wishes. But I regret to say that as yet I have not found <persName ref="./Personography.xml#EdgeR1">Mr Edgeworths</persName>
                     favour on the subject you mention. It must be in existence as I am sure I
                     never would destroy any trace of a correspondence by which I esteem
                     myself so much honoured. I only arrived in town last night having
-                    received your letter amongst my infant woods at Abbotsford and com
-                    menced my researches this morning. My papers are but very imperfectly
+                    received your letter amongst my infant woods at <placeName ref="./Placeography.xml#Abbotsford-House_STK">Abbotsford</placeName> and <choice><orig>com
+                        menced</orig><reg>commenced</reg></choice> my researches this morning. My papers are but very imperfectly
                     arranged considering that I was bred to business but in 1811 I perceive
                     I had been already favoured with several letters from the late regretted
-                    Mr E. [deletion][/deletion] [insertion]three[/insertion] of which I inclose for the chance of their containing some
-                    thing interesting to your present labours of love. The letter concern
-                    ing Darwin must I think be among a mass of papers relating to
-                    Miss Sewards poems which I will make a thorough search amongst
-                    as soon as may be. I assure you dear Madam there is no person
-                    in the world of literature for whose name [unclear]I have[/unclear] more sincere respect
+                    <persName ref="./Personography.xml#EdgeR1">Mr. E</persName> <del></del> <add>three</add>of which I inclose for the chance of their containing <choice><orig>some
+                        thing</orig><reg>something</reg></choice> interesting to your present labours of love. The letter <choice><orig>concern
+                            ing</orig><reg>concerning</reg></choice> <persName ref="./Personography.xml#DarwE1">Darwin</persName> must I think be among a mass of papers relating to
+                    <persName ref="./Personography.xml#SeweA1">Miss Sewards</persName> poems which I will make a thorough search amongst
+                    as soon as may be. I assure you dear <persName ref="./Personography.xml#EdgeM1">Madam</persName> there is no person
+                    in the world of literature for whose name <unclear>I have</unclear> more sincere respect
                     or in whose regard I esteem myself more highly honoured, or whom I
-                    would have more pleasure in obliging. You have had a merit transcend
-                    dent in my eyes of raising your national character in the scale of
-                    public estimation and making the [unclear]men[/unclear] of the British empire acquainted
-                    with the peculiar and interesting character of a people too long neglec
-                    -ted and too severely oppressed. Public opinion though a slow is at
-                    length a sure [unclear]rebuffer[/unclear] of wrongs and when this in respect to Ireland
+                    would have more pleasure in obliging. You have had a merit <choice><orig>transcend
+                        dent</orig><reg>transcendent</reg></choice> in my eyes of raising your national character in the scale of
+                    public estimation and making the <unclear>men</unclear> of the British empire acquainted
+                    with the peculiar and interesting character of a people too long <choice><orig>neglec
+                        -ted</orig><reg>neglected</reg></choice> and too severely oppressed. Public opinion though a slow is at
+                    length a sure <unclear>rebuffer</unclear> of wrongs and when this in respect to <placeName ref="./Placeography.xml#IE">Ireland</placeName>
                     you have produced a strong and abiding affect and I trust that
                     notwithstanding all the unfavourable circumstances which seem
                     fated to restart the amelioration of Ireland I cannot help thinking
                     that writings which back its natives their force and their weakness
                     and shew to their fellow subjects there that value and worth must
-                    prepare both for a gradual but happy change. I do not rate the un
-                    -known author of our Scottish tales so high as to place him in the same [insertion]rank[/insertion]
-                    either of [unclear]Morel or utility[/unclear] and yet I think highly of many of his
+                    prepare both for a gradual but happy change. I do not rate the <choice><orig>un
+                        -known</orig><reg>unknown</reg></choice> author of our Scottish tales so high as to place him in the same <add>rank</add>
+                    either of <unclear>Morel or utility</unclear>and yet I think highly of many of his
                     works and expect to be gratified by those which are still promised
                     from the same abundant and concealed source. I do assure you
                     
-                    [page 2]
+                    <pb n="2" facs="Edgeworth_NLS_23130_1818_05_15_page02.jpg"/>
                     
-                    I am quite an impartial judge upon the occasion & that you do me
-                    too much honour in supposing that I have any interest in these nar
-                    -ratives. The whole story told (as Miss Baillie informed me) by a Sir
+                    I am quite an impartial judge upon the occasion &amp; that you do me
+                    too much honour in supposing that I have any interest in these <choice><orig>nar
+                        -ratives</orig><reg>narratives</reg></choice>. The whole story told (as <persName ref="./Personography.xml#BailJ1">Miss Baillie</persName> informed me) by a Sir
                     somebody Gordon about my having intimated to him any acquiescence
-                    in the report of my being the author of [deletion][/deletion] Antiquary is so absolutely
-                    false that I do not even know such a person I [underline]did[/underline] know Sir Alis[superscript]t[/superscript].
-                    Gordon who fell gloriously at Waterloo & I [underline]do[/underline] know Sir Alexander
+                    in the report of my being the author of <del></del> <title ref="./Workography.xml#Antiq1">Antiquary</title> is so absolutely
+                    false that I do not even know such a person I <hi rend="underline">did</hi> know Sir Alis[superscript]t[/superscript].
+                    Gordon who fell gloriously at Waterloo &amp; I <hi rend="underline">do</hi> know Sir Alexander
                     Gordon of [unclear]Hilvenum[/unclear] but no other of the name. So if the Knight swears
-                    by his honour that the pancakes are naught do you eat the pan
-                    cakes tout de meme & do not rashly suppose the Chevalier [unclear]forsworn[/unclear]
+                    by his honour that the pancakes are naught do you eat the <choice><orig>pan
+                        cakes</orig><reg>pancakes</reg></choice> tout de meme &amp; do not rashly suppose the Chevalier <unclear>forsworn</unclear>
                     if you should find them very good. All this however I wrote to M[superscript]rs[/superscript]
                     Baillie I should rather say to our dear Joanna whose talents and [unclear]heart[/unclear]
                     you I know hold as highly as I do; so that I suppose she has already
