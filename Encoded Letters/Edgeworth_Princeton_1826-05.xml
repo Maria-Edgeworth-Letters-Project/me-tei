@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from Maria Edgeworth to Major Edgeworth, May 1826</title>
+            <author>Maria Edgeworth</author>
+            <editor ref="Id_who">Alexandra LaGrand</editor>
+            <sponsor>
+               <orgName>Maria Edgeworth Letters Project</orgName>
+            </sponsor>
+            <sponsor>Wake Forest University, University of Tennessee, Xavier University, Texas
+               A&amp;M University</sponsor>
+            <principal>Jessica Richard, Hilary Havens, Robin Runia, Susan Egenolf</principal>
+            <respStmt>
+               <resp>Transcription and coding by</resp>
+               <persName ref="Id_who">Alexandra LaGrand</persName>
+               <!-- If you're the last person interacting with the file, enter your name last on the list -->
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>First digital edition in TEI, date: <date when="2023-10-27">October 27, 2023</date>
+            </edition>
+            <respStmt>
+               <orgName ref="http://id.loc.gov/authorities/names/n82003163">Princeton University Library</orgName>
+               <resp> photos include: Edgeworth_Princeton_1826-05_page01.jpg, Edgeworth_Princeton_1826-05_page02.jpg, Edgeworth_Princeton_1826-05_page03.jpg, Edgeworth_Princeton_1826-05_page04.jpg</resp>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Maria Edgeworth Letters Project</authority>
+            <date>2022</date>
+            <availability>
+               <p>Reproduced by courtesy of <orgName ref="http://id.loc.gov/authorities/names/n82003163">Princeton University Library</orgName></p>
+               <licence>Distributed under a Creative Commons Attribution-ShareAlike 3.0 Unported
+                  License</licence>
+            </availability>
+            <idno>Edgeworth_Princeton_1826-05</idno> 
+         </publicationStmt>
+         <seriesStmt>
+            <title>Maria Edgeworth Letters Project</title>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <repository>Princeton University Library</repository>
+                  <collection><!-- Enter specific archival collection if applicable--></collection>
+                  <idno><!--Consult library or WorldCat for this info--></idno>
+               </msIdentifier>
+               
+               <!-- FROM LAURA: it's here (below) in the head that I added the full information about the author,
+                  and you could add full information about the addressee as well. -->
+               <head>Letter from 
+                  <persName ref="./Personography.xml#EdgeM1">
+                     <forename>Maria</forename>
+                     <surname>Edgeworth</surname>
+                  </persName>
+                  to <persName ref="./Personography.xml#EdgeX1">Major Edgeworth</persName>, <placeName ref="./Placeography.xml#Edgeworthstown_IE">Edgeworths Town</placeName>, 
+                  <date when="1111-01-01">[May 1826]</date><!--No date is actually listed on the letter, but this is presumably the date according to metadata-->
+               </head>
+               <physDesc><p>Small hole where letter seal used to be.</p></physDesc>
+            </msDesc>
+            
+            <!-- FROM LAURA: where to put the following information in <bibl> is still a question: 
+               ask TEI List whether it should be in the sourceDesc or elsewhere? -->
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <!--Where Edgeworth uses nonstandard spelling and hyphenation of words, transcriber-coders 
+               should use TEI elements “choice," “sic," and “reg" to encode both Edgeworth’s 
+               spelling and the regular international standard of Oxford English spelling, 
+               following the first listed spelling in the Oxford English Dictionary. -->
+            <p>Edgeworth’s spelling and punctuation are retained in transcription, except where a
+               word is split at the end of a line and the beginning of the next in a manuscript. The
+               long s and ligatured forms are silently emended.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName>Maria Edgeworth</persName>
+            </correspAction>
+            <correspAction type="received">
+               <persName>Major Edgeworth</persName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2023-10-27" who="Id_who">Created file for letter, encoded letter</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <pb n="2" facs="Edgeworth_Princeton_1826-05_page02.jpg"/>
+            <opener>
+               <salute>
+                  <persName>My dear <hi rend="underline">Cousin</hi></persName>
+               </salute>
+            </opener>
+            <p>Now that you are <hi rend="underline">a great man at the head</hi><lb/>
+               of the <hi rend="underline">Paving Board</hi> of <hi rend="underline">all</hi> <placeName ref="./Placeography.xml#IE">Ireland</placeName> you may<lb/>
+               <hi rend="underline">guess</hi> without even being a born American<lb/>
+               that every one who can will claim cousin<lb/>
+               ship with you - Whether all will have their<lb/>
+               <add>claim</add> allowed or have as good a right to claim<lb/>
+               kindred I leave to your Honorable self as<lb/>
+               the head of the <choice><orig>Hon<hi rend="superscript">ble</hi></orig><reg>Honorable</reg></choice> paving board to <choice><orig>deter<lb/>
+               mine</orig><reg>determine</reg></choice><lb/></p>
+            <p>My present suit is in favour of a youth<lb/>
+               who is neither kith nor kin to me, and whom<lb/>
+               I have never seen and of whom I know<lb/>
+               nought excepting that he is nephew to a man<lb/>
+               of whom I know a great deal of good -<lb/>
+               viz <persName ref="./Personography.xml#KellJ1">James Kelly</persName> of <unclear>Gourte</unclear> &amp; Kilcoursey - one of<lb/><!--Unsure if Kilcoursey refers to a family barony name or actual location-->
+               our very best tenants - <persName ref="./Personography.xml#KellJ1">James Kelly</persName> entreats<lb/>
+               me to write to you in favor of a nephew of his<lb/>
+               <persName ref="./Personography.xml#JackR1">Mr. Richard Jackson</persName> - one of the Jacksons of<lb/>
+               <placeName ref="./Placeography.xml#Killogue_IE">Killogue</placeName> - This young man had a small <choice><orig>pro<lb/>
+               perty</orig><reg>property</reg></choice> but his affairs having become embarrassed<lb/>
+               (as affairs somehow or other are apt to do) he<lb/>
+               wishes - very naturally, to get into some good<lb/>
+            </p>
+            <p>
+              <pb n="3" facs="Edgeworth_Princeton_1826-05_page02.jpg"/>
+               little snug place or situation by which he<lb/>
+               could live; and he has a notion that in the<lb/>
+               paving board you could just <unclear>shuste</unclear> him -<lb/>
+               I have represented to my friend <persName ref="./Personography.xml#KellJ1">James Kelly</persName><lb/>
+               that I really cannot write a letter of <choice><orig><hi rend="underline">recommen<lb/>
+               dation</hi></orig><reg>recommendation</reg></choice> for a man of whose qualifications &amp; <choice><orig>cha<lb/>
+               racter</orig><reg>character</reg></choice> I know nothing - But that I am ready<lb/>
+               to give his nephew an introduction to you<lb/>
+               and <del>that</del> I advise <persName ref="./Personography.xml#KellJ1">Kelly</persName> to go up to <placeName ref="./Placeography.xml#Dublin_IE">Dublin</placeName><lb/>
+               &amp; vouch for his nephew himself to you -<lb/>
+               This he will do - and would set out to do this<lb/>
+               day but that a fair at which he must buy or<lb/>
+               sell comes in the way, and he could not set<lb/>
+               out for a day or two without great loss - <choice><orig>Mean<lb/>
+               time</orig><reg>Meantime</reg></choice> he wishes that you would be so kind<lb/>
+               to let his nephew see you that you may judge<lb/>
+               by examining him externally &amp; internally <choice><orig>whe<lb/>
+               =ther</orig><reg>whether</reg></choice> he is fit for any situation in which you<lb/>
+               could employ him - The young man is now<lb/>
+               in <placeName ref="./Placeography.xml#Dublin_IE">Dublin</placeName> &amp; every day at <persName ref="./Personography.xml#WebbX1">M<hi rend="superscript">r</hi>. Webbs</persName> office where<lb/>
+               <persName ref="./Personography.xml#KellJ1">Kelly</persName> thinks all the world must have business<lb/>
+               or may be likely to resort - By my counsel <choice><orig>how-<lb/>
+                  ever</orig><reg>however</reg></choice> <persName ref="./Personography.xml#KellJ1">Kelly</persName> writes to his nephew <persName ref="./Personography.xml#JackR1"><choice><orig>Rich<hi rend="superscript">d</hi></orig><reg>Richard</reg></choice> Jackson</persName> desir<lb/><!--How do we do a choice tag for a word that goes across two pages?-->                    
+            </p>
+            <p>
+               <pb n="4" facs="Edgeworth_Princeton_1826-05_page04.jpg"/>
+               ing him to call on <persName ref="./Personography.xml#EdgeX1">Major Edgeworth</persName> at the Paving<lb/>
+               Board -</p><lb/>
+            <p>Do what your conscience will allow you<lb/>
+               to do for him to oblige<lb/></p>
+            <closer>
+               Your affectionate cousin<lb/>
+               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName><lb/>
+            </closer>
+            <postscript>
+               <p><persName ref="./Personography.xml#KellJ1">Kelly</persName> will be in <placeName ref="./Placeography.xml#Edgeworthstown_IE">Town</placeName><note type="certainty">It is reasonable to believe that "Town" here is referring to Edgeworthstown.</note> in a few days &amp; will<lb/>
+                  wait upon you with his nephew in case<lb/>
+                  the youth should not have the courage to present<lb/>
+                  himself without an introduction. But he is<lb/>
+                  not a true-born Irishman if courage fails him<lb/>
+                  - so far - Pray do not give away all the<lb/>
+                  <unclear>multitude</unclear> of places which, (as <persName ref="./Personography.xml#KellJ1">Kelly</persName> <unclear>conceives</unclear><lb/>
+                  you have to give before he can reach <placeName ref="./Placeography.xml#Dublin_IE">Dublin</placeName><lb/>
+                  &amp; make his own representations for his nephew<lb/>
+                  - the most weighty of which is that he would<lb/>
+                  go security for him. I believe -<lb/></p>
+            </postscript>
+            <closer>
+               <address>
+                  <pb n="1" facs="Edgeworth_Princeton_1826-05_page01.jpg"/>
+                  <addrLine><persName ref="./Personography.xml#EdgeX1">Major Edgeworth</persName></addrLine><lb/>
+                  <addrLine>Paving = Board</addrLine><lb/>
+                  <addrLine><placeName ref="./Placeography.xml#Dublin_IE">Dublin</placeName></addrLine><lb/>
+               </address>
+            </closer>
+         </div>
+      </body>
+      <back> </back>
+   </text>
+</TEI>
