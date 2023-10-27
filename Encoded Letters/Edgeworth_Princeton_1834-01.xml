@@ -8,7 +8,7 @@
          <titleStmt>
             <title>Letter from Maria Edgeworth to R. Bentley, January 24, 1834</title>
             <author>Maria Edgeworth</author>
-            <editor ref="Lindsey Jones">
+            <editor ref="Id_who">Lindsey Jones
             </editor>
             <sponsor>
                <orgName>Maria Edgeworth Letters Project</orgName>
@@ -18,7 +18,7 @@
             <principal>Jessica Richard, Hilary Havens, Robin Runia, Susan Egenolf</principal>
             <respStmt>
                <resp>Transcription and coding by</resp>
-               <persName ref="Lindsey Jones">
+               <persName ref="Id_who">Lindsey Jones
                </persName>
                <!-- List all transcribers or coders here, editors and students alike, <persName> by <persName>.-->
                <persName ref="Id_who"><!--FirstName LastName--></persName>
@@ -35,7 +35,9 @@
                   Princeton University Library
                   <!--who digitized the letter or gave us permission for to use the file?-->
                </orgName>
-               <resp> photos include: <!--NOTE FROM LJ: Where do you find these file names? They're not the "Edgeworth_Princeton_1834-01_page01.jpg" names-->
+               <resp> photos include: 
+                  Edgeworth_Princeton_1834-01_page01.jpg,
+                  Edgeworth_Princeton_1834-01_page02.jpg
                   <!-- Make a comma-separated list of each .jpg photo file name associated with your letter. 
                      For example: DSCF9476.jpg, DSCF9477.jpg, DSCF9478.jpg-->
                </resp>
@@ -76,7 +78,7 @@
                         <idno type="VIAF">71477273</idno>
                         <idno type="SNAC">62567029</idno>
                      </persName>
-                   to <persName>R. Bentley</persName>, <placeName>Edgeworthtown</placeName>, 
+                  to <persName ref="./Personography.xml#BentR1">R. Bentley</persName>, <placeName ref="./Placeography.xml#Edgeworthstown_IE">Edgeworthtown</placeName>, 
                   <date when="1834-01-24">Jan<hi rend="superscript">y</hi> 24<hi rend="superscript">th</hi>. 1834</date>
                </head>
                <physDesc>
@@ -126,20 +128,20 @@
       </revisionDesc>
    </teiHeader>
    <text>
+      <pb n="1" facs="Edgeworth_Princeton_1834-01_page01.jpg"/>
       <body>
          <div type="letter">
             <pb n="1" facs="image1.jpg"/>
             <!--filenames for photos associated with this letter. Example: <pb n="1" facs="image1.jpg image2.jpg image3.jpg"/> -->
             <opener>
                <dateline>
-                  <name type="place" ref="Edgeworthtown"/>
+                  <name type="place" ref="./Placeography.xml#Edgeworthstown_IE">Edgeworthstown</name><lb/>
                   <date when="1816-08-04"/>January 24, 1834. </dateline>
                <salute>
                   Sir
                </salute>
             </opener>
             <p>
-               <pb n="1" facs="Edgeworth_Princeton_1834-01_page01.jpg"/>
                I approve of the title page<lb/>
                for <title ref="./Workography.xml#Pract1">Helen</title><lb/></p>
                <p>I beg you will send the<lb/>
@@ -163,10 +165,8 @@
                Your <choice><orig>Obed<hi rend="superscript">t</hi>.</orig><reg>Obedient</reg></choice> <choice><orig>Serv<hi rend="superscript">t</hi>.</orig><reg>Servant</reg></choice><lb/>
                <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName><lb/>
             </closer>
-            
-            <pb n="2" facs="Edgeworth_Princeton_1834-01_page02.jpg"/>
-            
             <closer>
+               <pb n="2" facs="Edgeworth_Princeton_1834-01_page02.jpg"/>
                <address>
                   <addrLine>R Bentley Esq<hi rend="superscript">r</hi><lb/></addrLine>
                </address>
