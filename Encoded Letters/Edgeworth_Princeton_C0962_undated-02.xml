@@ -91,6 +91,7 @@
       </profileDesc>
       <revisionDesc>
          <change when="2023-10-24" who="Id_who">Created file for letter; encoded letter</change>
+         <change when="2023-10-27" who="Id_who">Updated choice tags</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -107,20 +108,20 @@
                tell you the opinion of<lb/>
                <persName ref="./Personography.xml#HopeP1">M<hi rend="superscript">r</hi>. Philip Henry Hope</persName> who<lb/>
                is skilled on these subjects &amp;<lb/></p>
-            <p>I have shown it to D<hi rend="superscript">r</hi>. <persName ref="./Personography.xml#WollW1">Wollas<lb/>
-               ton</persName> who expressed <hi rend="underline">doubts</hi>. --<lb/>
+            <p>I have shown it to D<hi rend="superscript">r</hi>. <choice><orig><persName ref="./Personography.xml#WollW1">Wollas<lb/>
+               ton</persName></orig><reg>Wollaston</reg></choice> who expressed <hi rend="underline">doubts</hi>. --<lb/>
                He declined giving an opinion<lb/></p>
-               <p>Your Spanish carica<lb/>
-               tures have amazed &amp; edi<lb/>
-               fied all who have seen<lb/>
+               <p>Your Spanish <choice><orig>carica<lb/>
+               tures</orig><reg>caricatures</reg></choice> have amazed &amp; <choice><orig>edi<lb/>
+               fied</orig><reg>edified</reg></choice> all who have seen<lb/>
                them and I thank you<lb/>
                for trusting me with this<lb/>
                valuable work.<lb/>
             </p>
             <closer>
-               I am D.<hi rend="superscript">r</hi> Sir with compli<lb/>
-               =ments &amp; kind remembran<lb/>
-               ces to <persName ref="./Personography.xml#BowrX1">M<hi rend="superscript">rs</hi>. Bowring</persName><lb/>
+               I am D.<hi rend="superscript">r</hi> Sir with <choice><orig>compli<lb/>
+               =ments</orig><reg>compliments</reg></choice> &amp; kind <choice><orig>remembran<lb/>
+               ces</orig><reg>remembraces</reg></choice> to <persName ref="./Personography.xml#BowrX1">M<hi rend="superscript">rs</hi>. Bowring</persName><lb/>
                Yours sincerely<lb/>
                <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName><lb/>
             </closer>
