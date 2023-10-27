@@ -8,8 +8,8 @@
          <titleStmt>
             <title>Letter from Maria Edgeworth to Johnson, 27 January, 1800</title>
             <author>Maria Edgeworth</author>
-            <editor ref="Lindsey Jones">
-               <!--Editor on the Maria Edgeworth Letters Project overseeing the coding of this particular letter: FirstName LastName -->
+            <editor ref="Id_who">
+               Lindsey Jones<!--Editor on the Maria Edgeworth Letters Project overseeing the coding of this particular letter: FirstName LastName -->
             </editor>
             <sponsor>
                <orgName>Maria Edgeworth Letters Project</orgName>
@@ -19,7 +19,7 @@
             <principal>Jessica Richard, Hilary Havens, Robin Runia, Susan Egenolf</principal>
             <respStmt>
                <resp>Transcription and coding by</resp>
-               <persName ref="Lindsey Jones">
+               <persName ref="Id_who">Lindsey Jones
                </persName>
                <!-- List all transcribers or coders here, editors and students alike, <persName> by <persName>.-->
                <persName ref="Id_who"><!--FirstName LastName--></persName>
@@ -36,6 +36,10 @@
                   Princeton University Library<!--who digitized the letter or gave us permission for to use the file?-->
                </orgName>
                <resp> photos include:
+                  Edgeworth_ Princeton_1800-01_page01.jpg,
+                  Edgeworth_ Princeton_1800-01_page02.jpg,
+                  Edgeworth_ Princeton_1800-01_page03.jpg,
+                  Edgeworth_ Princeton_1800-01_page04.jpg
                   <!-- Make a comma-separated list of each .jpg photo file name associated with your letter. 
                      For example: DSCF9476.jpg, DSCF9477.jpg, DSCF9478.jpg-->
                </resp>
@@ -75,7 +79,7 @@
                         <idno type="VIAF">71477273</idno>
                         <idno type="SNAC">62567029</idno>
                      </persName>
-                   to <persName>Johnson</persName>, <placeName><!--Location where letter was sent--></placeName>, 
+                  to <persName ref="./Personography.xml#JohnJ1">Johnson</persName>, <placeName><!--Location where letter was sent--></placeName>, 
                   <date when="1800-01-27">27 January 1800.</date>
                </head>
                <physDesc>
@@ -131,6 +135,7 @@
       </revisionDesc>
    </teiHeader>
    <text>
+      <pb n="1" facs="Edgeworth_ Princeton_1800-01_page01.jpg"/>
       <body>
          <div type="letter">
             <pb n="1" facs="image1.jpg"/>
@@ -144,7 +149,7 @@
                </salute>
             </opener>
             <p>
-               <pb n="1" facs="Edgeworth_ Princeton_1800-01_page01.jpg"/> 27 Jan<hi rend="superscript">y</hi>. <unclear>18??</unclear>
+               27 Jan<hi rend="superscript">y</hi>. <unclear>18??</unclear>
                Dear Sir<lb/>
                I have just received yours<lb/>
                of the 20<hi rend="superscript">th</hi>. <choice><orig>inst</orig><reg>instant</reg></choice> - I am sorry<lb/>
