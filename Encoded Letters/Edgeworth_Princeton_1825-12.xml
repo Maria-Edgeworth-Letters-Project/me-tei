@@ -8,7 +8,7 @@
          <titleStmt>
             <title>Letter from Maria Edgeworth to <!--Recipient Name, Month Day, YYYY--></title>
             <author>Maria Edgeworth</author>
-            <editor ref="Lindsey Jones">
+            <editor ref="Id_who">Lindsey Jones
             </editor>
             <sponsor>
                <orgName>Maria Edgeworth Letters Project</orgName>
@@ -18,7 +18,7 @@
             <principal>Jessica Richard, Hilary Havens, Robin Runia, Susan Egenolf</principal>
             <respStmt>
                <resp>Transcription and coding by</resp>
-               <persName ref="Lindsey Jones"><!--FirstName LastName-->
+               <persName ref="Id_who">Lindsey Jones<!--FirstName LastName-->
                </persName>
                <!-- List all transcribers or coders here, editors and students alike, <persName> by <persName>.-->
                <persName ref="Id_who"><!--FirstName LastName--></persName>
@@ -26,7 +26,7 @@
             </respStmt>
          </titleStmt>
          <editionStmt>
-            <edition>First digital edition in TEI, date: <date when="2023-10-23">
+            <edition>First digital edition in TEI, date: October 23, 2023<date when="2023-10-23">
                   <!--enter the date on which the first coder created and saved this XML file in google drive-->
                </date>
             </edition>
@@ -36,6 +36,10 @@
                   <!--who digitized the letter or gave us permission for to use the file?-->
                </orgName>
                <resp> photos include:
+                  Edgeworth_Princeton_1825-12_page01.jpg,
+                  Edgeworth_Princeton_1825-12_page02.jpg,
+                  Edgeworth_Princeton_1825-12_page03.jpg,
+                  Edgeworth_Princeton_1825-12_page04.jpg
                   <!-- Make a comma-separated list of each .jpg photo file name associated with your letter. 
                      For example: DSCF9476.jpg, DSCF9477.jpg, DSCF9478.jpg-->
                </resp>
@@ -60,9 +64,9 @@
             <msDesc xml:lang="en">
                <!-- This section of the header identifies the original manuscript source. -->
                <msIdentifier>
-                  <repository>ORGANIZATION NAME</repository>
+                  <repository>Princeton University Library</repository>
                   <collection><!-- Enter specific archival collection if applicable--></collection>
-                  <idno><!--Consult library or WorldCat for this info--></idno>
+                  <idno>Edgeworth_Princeton_1825-12</idno>
                </msIdentifier>
                
                <!-- FROM LAURA: it's here (below) in the head that I added the full information about the author,
@@ -75,7 +79,7 @@
                         <idno type="VIAF">71477273</idno>
                         <idno type="SNAC">62567029</idno>
                      </persName>
-                   to <persName>L. Relfe</persName>, <placeName>Cornhill</placeName>, 
+                  to <persName ref="./Personography.xml#RelfL1">L. Relfe</persName>, <placeName ref="./Placeography.xml#Corn-Hill_XX">Cornhill</placeName>, 
                   <date when="1825-12-24">Dec<hi rend="superscript">r</hi> 24<hi rend="superscript">h</hi> 1825</date>
                </head>
                <physDesc>
@@ -122,13 +126,14 @@
       </revisionDesc>
    </teiHeader>
    <text>
+      <pb n="1" facs="Edgeworth_Princeton_1825-12_page01.jpg"/>
       <body>
          <div type="letter">
             <pb n="1" facs="image1.jpg"/>
             <!--filenames for photos associated with this letter. Example: <pb n="1" facs="image1.jpg image2.jpg image3.jpg"/> -->
             <opener>
                <dateline>Dec<hi rend="superscript">r</hi> 24<hi rend="superscript">h</hi> 1825
-                  <name type="place" ref="Edgeworths Town"/>
+                  <name type="place" ref="./Placeography.xml#Edgeworthstown_IE">Edgeworths Town</name><lb/>
                   <date when="1825-12-24"/>December 24, 1825.</dateline>
                <salute>
                   <persName>
@@ -137,63 +142,71 @@
                </salute>
             </opener>
             <p><!-- 
-               I have just seen an ad-
-vertisement in the Morn
-ing Chronicle of a new
-Pocket book called the
-Janus published I think
-in Edinburgh in which
-I see my [deletion]essay[/deletion] "Thoughts
-on Bores by a Bore is
-inserted - I wish you
-to know that I did not
-know till I saw that
-advertisement that
-this essay of mine was
-to appear in what you
-may consider as a
-rival publication - In
-truth I did not know
-the existence of this
-publication -
+               I have just seen an <choice><orig>ad-<lb/>
+               vertisement</orig><reg>advertisement</reg></choice> in the <title ref="./Workography.xml#Morni1"><choice><orig>Morn<lb/>
+               ing</orig><reg>Morning</reg><choice> Chronicle</title> of a new<lb/>
+               Pocket book called the<lb/>
+               <title ref="./Workography.xml#Janus1">Janus</title> published I think<lb/>
+               in <placeName ref="./Placeography.xml#Edinburgh_STK">Edinburgh</placeName> in which<lb/>
+               I see my <del>essay[</del> <title ref="./Workography.xml#Though1">"Thoughts<lb/>
+               on Bores by a Bore</title> is<lb/>
+               inserted - I wish you<lb/>
+               to know that I did not<lb/>
+               know till I saw that<lb/>
+               advertisement that<lb/>
+               this essay of mine was<lb/>
+               to appear in what you<lb/>
+               may consider as a<lb/>
+               rival publication - In<lb/>
+               truth I did not know<lb/>
+               the existence of this<lb/>
+               publication -<lb/></p>
+               
+               <pb n="2" facs="Edgeworth_Princeton_1825-12_page02.jpg"/>
 
-I am not so vain as to
-conceive that such a trifle
-as my contribution could
-be of any consequence
-one way or other to either
-of the Publications but
-I wish you to know that
-I meant you handsomely
-The friend to whom I
-gave the [underline]bores[/underline] disposed
-of them as he thought pro
-per -
-I am anxious to have
-back again the account
-I sent to your "Friendships
-offering" of the 4 Ex-Presidents
-of America if your editor
-has not inserted them -
-With good wishes for
-your success I am
-Sir
-very truly yours
-Maria Edgeworth
-If any thing of mine is
+               <p>I am not so vain as to<lb/>
+               conceive that such a trifle<lb/>
+               as my contribution could<lb/>
+               be of any consequence<lb/>
+               one way or other to either<lb/>
+               of the Publications but<lb/>
+               I wish you to know that<lb/>
+               I meant you handsomely<lb/></p>
+               <p>The friend to whom I<lb/>
+               gave the <hi rend="underline"><title ref="./Workography.xml#Though1">bores</title></hi> disposed<lb/>
+               of them as he thought <choice><orig>pro<lb/>
+               per</orig><reg>proper</reg></choice> -<lb/></p>
+               <p>I am anxious to have<lb/>
+               back again the account<lb/>
+               I sent to your <title ref="./Workography.xml#Frien1">"Friendships<lb/>
+               offering"</title> of the 4 Ex-Presidents<lb/>
+               of America if your editor<lb/>
+               has not inserted them -<lb/></p>
+            <closer>
+               With good wishes for<lb/>
+               your success I am<lb/>
+               Sir<lb/>
+               very truly yours<lb/>
+               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName><lb/>
+            </closer>
+            <postscript> *******PAUSED HERE 10/26/23*******
+              <p>If any thing of mine is<lb/>
+              
+              <pb n="3" facs="Edgeworth_Princeton_1825-12_page03.jpg"/>
 
-in your pocket book of
-this year & if you wish
-to send me one you
-can do so by enclosing
-it directed to
-Miss Edgeworth
-Edgeworths Town
-under cover to
-The Earl of Rosse
-Parson's Town
-Ireland.
-[LibNote]"Tales various" [unclear]London[/unclear][/LibNote]
+               in your pocket book of<lb/>
+               this year & if you wish<lb/>
+               to send me one you<lb/>
+               can do so by enclosing<lb/>
+               it directed to<lb/>
+               Miss Edgeworth<lb/>
+               Edgeworths Town<lb/>
+               under cover to<lb/>
+               The Earl of Rosse<lb/>
+               Parson's Town<lb/>
+               Ireland.<lb/>
+            </postscript>
+               [LibNote]"Tales various" [unclear]London[/unclear][/LibNote]<lb/>
             -->
             </p>
             <p>
@@ -216,6 +229,7 @@ Ireland.
                Postscripts do NOT go inside closer tags. Adjust to take into account the order in your letter. 
                Sometimes the signature is on page three, the address on page four, then the postscript follows back on the top of page one, for example.-->
             <closer><!--Use the <closer> element again to hold Address Leaf information.-->
+               <pb n="4" facs="Edgeworth_Princeton_1825-12_page04.jpg"/>
                <address>
                   <!--
                      <addrLine>M[superscript]r[/superscript] L. Relfe - Bookseller</addrLine><lb/>
