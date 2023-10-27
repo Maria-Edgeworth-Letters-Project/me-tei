@@ -6,9 +6,9 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Conversation between Maria Edgeworth and Richard Bentley, June-July 1834</title>
-            <author>Maria Edgeworth</author>
-            <editor ref="Id_who">Alexandra LaGrand</editor><!--What is my XML ID to include here?-->
+            <title>Letter from Richard Bentley to Maria Edgeworth, June 30, 1834</title>
+            <author>Richard Bentley</author>
+            <editor ref="Id_who">Alexandra LaGrand</editor>
             <sponsor>
                <orgName>Maria Edgeworth Letters Project</orgName>
             </sponsor>
@@ -18,15 +18,15 @@
             <respStmt>
                <resp>Transcription and coding by</resp>
                <persName ref="Id_who">Alexandra LaGrand</persName>
-               <!-- List all transcribers or coders here, editors and students alike, <persName> by <persName>.-->
+               <!-- If you're the last person interacting with the file, enter your name last on the list -->
             </respStmt>
          </titleStmt>
          <editionStmt>
-            <edition>First digital edition in TEI, date: <date when="2023-10-15">October 15, 2023</date>
+            <edition>First digital edition in TEI, date: <date when="2023-10-25">October 25, 2023</date>
             </edition>
             <respStmt>
                <orgName ref="http://id.loc.gov/authorities/names/n82003163">Princeton University Library</orgName>
-               <resp> photos include: Edgeworth_ Princeton_1834-06_page01.jpg, Edgeworth_ Princeton_1834-06_page02.jpg</resp>
+               <resp> photos include: Edgeworth_Princeton_1834-06_page001.jpg, Edgeworth_Princeton_1834-06_page002.jpg, Edgeworth_Princeton_1834-06_page003.jpg</resp>
             </respStmt>
          </editionStmt>
          <publicationStmt>
@@ -37,7 +37,7 @@
                <licence>Distributed under a Creative Commons Attribution-ShareAlike 3.0 Unported
                   License</licence>
             </availability>
-            <idno>Edgeworth_Princeton_1834-06</idno> 
+            <idno>Edgeworth_Princeton_1834-06_page001</idno> 
          </publicationStmt>
          <seriesStmt>
             <title>Maria Edgeworth Letters Project</title>
@@ -49,25 +49,19 @@
                   <collection><!-- Enter specific archival collection if applicable--></collection>
                   <idno><!--Consult library or WorldCat for this info--></idno>
                </msIdentifier>
-               <head>Conversation between<!--I included "Conversation between" here because it includes multiple letters in same document and that was how ALICE had labeled it; happy to change back to "Letter from" if needed-->
-                     <persName xml:id="BentR1" from="1768" to="1849">
-                        <forename>Richard</forename>
-                        <surname>Bentley</surname>
-                        <date>1794-1871</date>
-                        <idno type="VIAF">30279325</idno>
-                     </persName> and
-                     <persName xml:id="EdgeM1" from="1768" to="1849">
-                        <forename>Maria</forename>
-                        <surname>Edgeworth</surname>
-                        <date>1768-1849</date>
-                        <idno type="VIAF">71477273</idno>
-                        <idno type="SNAC">62567029</idno>
-                     </persName>, <placeName><!--Location where letter was sent--></placeName>, 
-                  <date when="1834-06-30">June 30, 1834</date><!--What do I do if there are multiple dates? This letter features multiple letters in one that take place over a couple months-->
+               
+               <!-- FROM LAURA: it's here (below) in the head that I added the full information about the author,
+                  and you could add full information about the addressee as well. -->
+               <head>Letter from 
+                  <persName ref="./Personography.xml#BentR1">Richard Bentley</persName> to <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>, <placeName ref="./Placeography.xml#New-Burlington-Street_ENK">New Burlington Street</placeName>, 
+                  <date when="1834-06-30">June 30. 1834</date>
                </head>
-               <physDesc></physDesc>
+               <physDesc><p>Letter includes red seal on address leaf</p></physDesc>
             </msDesc>
-         </sourceDesc>
+            
+            <!-- FROM LAURA: where to put the following information in <bibl> is still a question: 
+               ask TEI List whether it should be in the sourceDesc or elsewhere? -->
+          </sourceDesc>
       </fileDesc>
       <encodingDesc>
          <editorialDecl>
@@ -91,100 +85,65 @@
          </correspDesc>
       </profileDesc>
       <revisionDesc>
-         <change when="2023-10-15" who="Id_who"> Created TEI template for letter and began to fill in information from letter</change>
-         <change when="2023-10-19" who="Id_who">Updated coding for letter based on suggested edits from EAW</change>
+         <change when="2023-10-25" who="Id_who">Created file for letter; encoded letter</change>
+         <change when="2023-10-27" who="Id_who">Updated choice tags</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <div type="letter">
-            <pb n="1" facs="Edgeworth_ Princeton_1834-06_page01.jpg"/>
+            <pb n="2" facs="Edgeworth_Princeton_1834-06_page002.jpg"/>
             <opener>
-               <dateline>
-                  <name type="place" ref="New-Burlington-Street_ENK"/>
-                  <date when="1834-06-30"/>June 30, 1834.</dateline>
+               <dateline><!--If there's no date line, omit this element. Record in the order in which it is written on the letter.-->
+                  <placeName ref="./Placeography.xml#New-Burlington-Street_ENK"/>New Burlington Street
+                  <date when="1834-06-30"/>June 30. 1834 </dateline>
                <salute>
-                  <persName>Madam,</persName><!--Still a bit confused about the salute tags. Do I include the salute here as well as below?-->
+                  <persName>Madam</persName>
                </salute>
             </opener>
-            <p>Copy of <persName ref="./Personography.xml#BentR1">Bentley's</persName><lb/>
-               Madam,<lb/>
-               As I shall shortly approach the sale of the number of<lb/>
-               copies which would authorize me to transmit to you<lb/>
-               a further promissory note for the contingent <add>£</add>200<lb/>
-               contemplated in the agreement for the first Ed<hi rend="superscript">n</hi><lb/>
-               of <title ref="./Workography.xml#Helen1">"Helen"</title> I beg to say that I am ready to transmit<lb/>
-               such promissory note by post to you if you please<lb/>
-               or to hand the same to any agent in London whom<lb/>
-               you may authorize to receive it -<lb/></p>
-               <p>As I trust you will consider that the publication<lb/>
-               of this work has in my hands been followed<lb/>
-               up with zeal and activity and that your own<lb/>
-               wishes have been punctually fulfilled may I<lb/>
-               take occasion to say that I shall be most <hi rend="underline">happy</hi><lb/>
-               to be entrusted by you with the publication of<lb/>
-               the story called <hi rend="underline">"Granting for <unclear>Granted</unclear>"</hi> to which<lb/>
-               M<hi rend="superscript">r</hi> <persName ref="./Personography.xml#LockJ1">Lockhart</persName> alluded when I had the pleasure<lb/>
-               negotiating with him for <title ref="./Workography.xml#Helen1">Helen</title> - And to<lb/>
-               solicit the favor of your acquainting me at what<lb/>
-               time you intend to give your next novel to<lb/>
-               the world. I have the honor to be<lb/>
-               Madam with great respect<lb/>
-               your most good &amp; humble Ser<lb/>
-               <persName ref="./Personography.xml#BentR1">Richard Bentley</persName><lb/></p>
-               <p>Answer<lb/><!--Second letter within this letter begins here and is on the same page-->
-               July 1834<lb/>
-               Sir<lb/>
-               I am glad to hear that you approach the sale of<lb/>
-               the number of copies<add>of <title ref="./Workography.xml#Helen1">Helen</title></add> which enables you to transmit<lb/>
-               to me the <del>further</del> promissory <add>note</add> you mention for<lb/>
-               £200 - Whenever you are ready I beg you will<lb/>
-               give the note to my brother in law <persName ref="./Personography.xml#WilsL1">L. P. Wilson Esq</persName><hi rend="superscript">r</hi><lb/>
-               <placeName ref="./Placeography.xml#1-North-Audley-Street_ENK">N<hi rend="superscript">o</hi> 1 North Audley Street</placeName> or to my sister<lb/> <persName ref="./Personography.xml#EdgeF3">M<hi rend="superscript">rs</hi>.<lb/>
-               Wilson</persName> whichever of them happen to be at home<lb/>
-               - <del>they</del> <add>Either of them</add> will give you a receipt for me -<lb/></p>
-               <p>I have every reason to be satisfied with<lb/>
-               the manner in which you have brought out this<lb/>
-               book, and <del>to be</del> <add>am</add> obliged by the <del>and</del> <add>promptness</add> and <del></del> <add>care</add> <del>punc</del><lb/>
-               <del>quality</del> with which you have complied with my<lb/>
-               wishes as to presentation copies and on all other<lb/>
+            <p>As I shall shortly approach the<lb/>
+               sale of the number of copies which would <choice><orig>au-<lb/>
+               thorize</orig><reg>authorize</reg></choice> me to transmit to you a further<lb/>
+               promissory note for the contingent £200 <choice><orig>con-<lb/>
+               templated</orig><reg>contemplated</reg></choice> in the agreement for the first<lb/>
+               Edition of <title ref="./Workography.xml#Helen1">"Helen"</title>, I beg to say that I am<lb/>
+               ready to transmit such promissory note<lb/>
+               by post to you if you please, or to hand the<lb/>
+               same to any agent in <placeName ref="./Placeography.xml#London_ENK">London</placeName>. whom you<lb/>
+               may authorize to <del>you</del> receive it<lb/></p>
+            <p>As I trust that you will consider that<lb/>
             </p>
             <p>
-               <!--Where there's a page break record it inside the relevant body paragraph like this, 
-                  with the self-closing page-break element. n="2" indicates the START of the second page.-->
-               <pb n="2" facs="Edgeworth_ Princeton_1834-06_page02.jpg"/>
+               <pb n="3" facs="Edgeworth_Princeton_1834-06_page003.jpg"/>
             </p>
-            <p>points as well as with your punctuality in<lb/>
-               fulfilling your agreement as to money matters<lb/></p>
-               <p>I will let you know whenever I <del>think</del><lb/>
-               <del>of</del> I am again ready to go to press or to <del>make</del> <add>enter into</add><lb/>
-               any agreement for another work - But<lb/>
-               I make it a rule never to <del>make</del> <add>enter into</add> any agree<lb/>
-               ment or <add>give</add> any promise for a<del>ny</del> manuscript<lb/>
-               till it is absolutely finished - <del>And</del> I have<lb/>
-               none at present even approaching to that<lb/>
-               condition - Nor can I tell when I may be<lb/>
-               ready to publish again -<lb/>
-               I am Sir<lb/>
-               Your Obed<hi rend="superscript">t</hi> &amp; humble<lb/>
-               Serv<hi rend="superscript">t</hi><lb/>
-               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName><lb/></p>
+            <p>the publication of their Work has, in my hands,<lb/>
+               been followed up with zeal and activity, and<lb/>
+               that your own wishes have been punctually<lb/>
+               fulfilled, may I take occasion to say that I<lb/>
+               shall be most happy to be entrusted by<lb/>
+               you with the publication of the story<lb/>
+               called <title ref="./Workography.xml#Grant1">"Granting for granted,"</title> to which <persName ref="./Personography.xml#LockJ1">Mr<lb/>
+               Lockhart</persName> alluded when I had the <choice><orig>plea-<lb/>
+               sure</orig><reg>pleasure</reg></choice> of negotiating with him for <title ref="./Workography.xml#Helen1">"Helen"</title><lb/>
+               and to solicit the favor of you acquainting<lb/>
+               me at what time you intend to give your<lb/>
+               next novel to the World<lb/>
+               </p>
             <closer>
-               <!--include linebreaks, if used. example: <closer> Yours<lb/> Very sincerely<lb/> -->
+               I have the honor to be,<lb/>
+               Madam,<lb/>
+               with great respect,<lb/>
+               Your most <choice><orig>obed<hi rend="superscript">t</hi></orig><reg>obedient</reg></choice> servant,<lb/>
+               <persName ref="./Personography.xml#BentR1">Richard Bentley</persName>..<lb/>
             </closer>
-            <postscript>
-               <p><!--A postscript goes here, outside the <closer>. --></p>
-            </postscript>
-            <!--You can include a <pb/> here, or inside the postScript.-->
-            <!-- Format for postscripts. 
-               Postscripts do NOT go inside closer tags. Adjust to take into account the order in your letter. 
-               Sometimes the signature is on page three, the address on page four, then the postscript follows back on the top of page one, for example.-->
             <closer><!--Use the <closer> element again to hold Address Leaf information.-->
                <address>
-                  <!--Include any text written on the address leaf; use a separate "addrLine" for each line and indicate line breaks. -->
-                  <addrLine/>
-                  <addrLine/>
-                  <addrLine/>
+                  <addrLine><persName ref="./Personography.xml#EdgeM1">Miss Edgeworth</persName></addrLine><lb/>
+                  <addrLine><placeName ref="./Placeography.xml#Edgeworthstown_IE">Edgeworth Town</placeName></addrLine><lb/>
+                  <addrLine><placeName ref="./Placeography.xml#IE">Ireland</placeName></addrLine><lb/>
+                  <addrLine>1834</addrLine><lb/>
+                  <addrLine><persName ref="./Personography.xml#BentR1">M<hi rend="superscript">r</hi>. Bently</persName></addrLine><lb/>
+                  <addrLine>about <title ref="./Workography.xml#Helen1">Helen</title></addrLine><lb/>
                </address>
             </closer>
          </div>
