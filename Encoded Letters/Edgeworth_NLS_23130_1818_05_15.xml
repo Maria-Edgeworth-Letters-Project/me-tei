@@ -50,7 +50,7 @@
                 <availability>
                     <!--Uncomment the appropriate line, based on the archive that holds the physical copy of this letter, 
                   and delete the other comment line(s).-->
-                    <p><!--Reproduced by courtesy of the <orgName ref="#ReadingCL">Reading Central Library</orgName>.-->
+                    <p>Reproduced by the courtesy of the <orgName ref="http://id.loc.gov/authorities/names/n80044899">National Library of Scotland</orgName><!--Reproduced by courtesy of the <orgName ref="#ReadingCL">Reading Central Library</orgName>.-->
                         <!--or -->
                         <!--Courtesy of <orgName ref="#Rylands">The University of Manchester</orgName>.-->
                     </p>
@@ -74,15 +74,10 @@
                     <!-- FROM LAURA: it's here (below) in the head that I added the full information about the author,
                   and you could add full information about the addressee as well. -->
                     <head>Letter from 
-                        <persName xml:id="EdgeM1" from="1768" to="1849">
-                            <forename>Maria</forename>
-                            <surname>Edgeworth</surname>
-                            <date>1768-1849</date>
-                            <idno type="VIAF">71477273</idno>
-                            <idno type="SNAC">62567029</idno>
-                        </persName>
-                        to <persName><!--Recipient Name--></persName>, <placeName><!--Location where letter was sent--></placeName>, 
-                        <date when="1111-01-01"><!-- Transcribe the date as it appears on the letter itself. Enter a numeric standardized date value in @when. --></date>
+                        <persName ref="./Personography.xml#ScotW1">Walter Scott</persName>, <placeName ref="./Placeography.xml#Abbotsford-House_STK">Abbotsford</placeName>, 
+                        <date when="1818-05-15">May 15 1818<!-- Transcribe the date as it appears on the letter itself. Enter a numeric standardized date value in @when. --></date>
+                        to <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth<!--Recipient Name--></persName>, <placeName><!--Location where letter was sent--></placeName>, 
+                        <date when="1818-05-15">May 15 1818<!-- Transcribe the date as it appears on the letter itself. Enter a numeric standardized date value in @when. --></date>
                     </head>
                     <physDesc>
                         <!-- optional physical description of the letter goes here: paper size and condition, seal, postmarks, etc.-->
@@ -111,10 +106,10 @@
         <profileDesc>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName><!--SENDER NAME--></persName>
+                    <persName ref="./Personography.xml#ScotW1">Walter Scott</persName>
                 </correspAction>
                 <correspAction type="received">
-                    <persName><!--RECIPIENT NAME--></persName>
+                    <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
                 </correspAction>
             </correspDesc>
         </profileDesc>
@@ -140,153 +135,153 @@
                     </salute>
                 </opener>
                 <p> <note place="bottom">3x</note>
-                    I lost no time my dear <persName ref="./Personography.xml#EdgeM1">Miss Edgeworth</persName> in complying with your
-                    wishes. But I regret to say that as yet I have not found <persName ref="./Personography.xml#EdgeR1">Mr Edgeworths</persName>
-                    favour on the subject you mention. It must be in existence as I am sure I
-                    never would destroy any trace of a correspondence by which I esteem
-                    myself so much honoured. I only arrived in town last night having
-                    received your letter amongst my infant woods at <placeName ref="./Placeography.xml#Abbotsford-House_STK">Abbotsford</placeName> and <choice><orig>com
-                        menced</orig><reg>commenced</reg></choice> my researches this morning. My papers are but very imperfectly
-                    arranged considering that I was bred to business but in 1811 I perceive
-                    I had been already favoured with several letters from the late regretted
-                    <persName ref="./Personography.xml#EdgeR1">Mr. E</persName> <del></del> <add>three</add>of which I inclose for the chance of their containing <choice><orig>some
-                        thing</orig><reg>something</reg></choice> interesting to your present labours of love. The letter <choice><orig>concern
-                            ing</orig><reg>concerning</reg></choice> <persName ref="./Personography.xml#DarwE1">Darwin</persName> must I think be among a mass of papers relating to
-                    <persName ref="./Personography.xml#SeweA1">Miss Sewards</persName> poems which I will make a thorough search amongst
-                    as soon as may be. I assure you dear <persName ref="./Personography.xml#EdgeM1">Madam</persName> there is no person
-                    in the world of literature for whose name <unclear>I have</unclear> more sincere respect
-                    or in whose regard I esteem myself more highly honoured, or whom I
-                    would have more pleasure in obliging. You have had a merit <choice><orig>transcend
-                        dent</orig><reg>transcendent</reg></choice> in my eyes of raising your national character in the scale of
-                    public estimation and making the <unclear>men</unclear> of the British empire acquainted
-                    with the peculiar and interesting character of a people too long <choice><orig>neglec
-                        -ted</orig><reg>neglected</reg></choice> and too severely oppressed. Public opinion though a slow is at
-                    length a sure <unclear>rebuffer</unclear> of wrongs and when this in respect to <placeName ref="./Placeography.xml#IE">Ireland</placeName>
-                    you have produced a strong and abiding affect and I trust that
-                    notwithstanding all the unfavourable circumstances which seem
-                    fated to restart the amelioration of Ireland I cannot help thinking
-                    that writings which back its natives their force and their weakness
-                    and shew to their fellow subjects there that value and worth must
-                    prepare both for a gradual but happy change. I do not rate the <choice><orig>un
-                        -known</orig><reg>unknown</reg></choice> author of our Scottish tales so high as to place him in the same <add>rank</add>
-                    either of <unclear>Morel or utility</unclear>and yet I think highly of many of his
-                    works and expect to be gratified by those which are still promised
-                    from the same abundant and concealed source. I do assure you
+                    I lost no time my dear <persName ref="./Personography.xml#EdgeM1">Miss Edgeworth</persName> in complying with your<lb/>
+                    wishes. But I regret to say that as yet I have not found <persName ref="./Personography.xml#EdgeR1">Mr Edgeworths</persName><lb/>
+                    favour on the subject you mention. It must be in existence as I am sure I<lb/>
+                    never would destroy any trace of a correspondence by which I esteem<lb/>
+                    myself so much honoured. I only arrived in town last night having<lb/>
+                    received your letter amongst my infant woods at <placeName ref="./Placeography.xml#Abbotsford-House_STK">Abbotsford</placeName> and <choice><orig>com<lb/>
+                        menced</orig><reg>commenced</reg></choice> my researches this morning. My papers are but very imperfectly<lb/>
+                    arranged considering that I was bred to business but in 1811 I perceive<lb/>
+                    I had been already favoured with several letters from the late regretted<lb/>
+                    <persName ref="./Personography.xml#EdgeR1">Mr. E</persName> <del></del> <add>three</add>of which I inclose for the chance of their containing <choice><orig>some<lb/>
+                        thing</orig><reg>something</reg></choice> interesting to your present labours of love. The letter <choice><orig>concern<lb/>
+                            ing</orig><reg>concerning</reg></choice> <persName ref="./Personography.xml#DarwE1">Darwin</persName> must I think be among a mass of papers relating to<lb/>
+                    <persName ref="./Personography.xml#SeweA1">Miss Sewards</persName> poems which I will make a thorough search amongst<lb/>
+                    as soon as may be. I assure you dear <persName ref="./Personography.xml#EdgeM1">Madam</persName> there is no person<lb/>
+                    in the world of literature for whose name <unclear>I have</unclear> more sincere respect<lb/>
+                    or in whose regard I esteem myself more highly honoured, or whom I<lb/>
+                    would have more pleasure in obliging. You have had a merit <choice><orig>transcend<lb/>
+                        dent</orig><reg>transcendent</reg></choice> in my eyes of raising your national character in the scale of<lb/>
+                    public estimation and making the <unclear>men</unclear> of the British empire acquainted<lb/>
+                    with the peculiar and interesting character of a people too long <choice><orig>neglec<lb/>
+                        -ted</orig><reg>neglected</reg></choice> and too severely oppressed. Public opinion though a slow is at<lb/>
+                    length a sure <unclear>rebuffer</unclear> of wrongs and when this in respect to <placeName ref="./Placeography.xml#IE">Ireland</placeName><lb/>
+                    you have produced a strong and abiding affect and I trust that<lb/>
+                    notwithstanding all the unfavourable circumstances which seem<lb/>
+                    fated to restart the amelioration of Ireland I cannot help thinking<lb/>
+                    that writings which back its natives their force and their weakness<lb/>
+                    and shew to their fellow subjects there that value and worth must<lb/>
+                    prepare both for a gradual but happy change. I do not rate the <choice><orig>un<lb/>
+                        -known</orig><reg>unknown</reg></choice> author of our Scottish tales so high as to place him in the same <add>rank</add><lb/>
+                    either of <unclear>Morel or utility</unclear>and yet I think highly of many of his<lb/>
+                    works and expect to be gratified by those which are still promised<lb/>
+                    from the same abundant and concealed source. I do assure you<lb/>
                     
                     <pb n="2" facs="Edgeworth_NLS_23130_1818_05_15_page02.jpg"/>
                     
-                    I am quite an impartial judge upon the occasion &amp; that you do me
-                    too much honour in supposing that I have any interest in these <choice><orig>nar
-                        -ratives</orig><reg>narratives</reg></choice>. The whole story told (as <persName ref="./Personography.xml#BailJ1">Miss Baillie</persName> informed me) by a Sir
-                    somebody Gordon about my having intimated to him any acquiescence
-                    in the report of my being the author of <del></del> <title ref="./Workography.xml#Antiq1">Antiquary</title> is so absolutely
-                    false that I do not even know such a person I <hi rend="underline">did</hi> know Sir Alis[superscript]t[/superscript].
-                    Gordon who fell gloriously at Waterloo &amp; I <hi rend="underline">do</hi> know Sir Alexander
-                    Gordon of [unclear]Hilvenum[/unclear] but no other of the name. So if the Knight swears
-                    by his honour that the pancakes are naught do you eat the <choice><orig>pan
-                        cakes</orig><reg>pancakes</reg></choice> tout de meme &amp; do not rashly suppose the Chevalier <unclear>forsworn</unclear>
-                    if you should find them very good. All this however I wrote to M[superscript]rs[/superscript]
-                    Baillie I should rather say to our dear Joanna whose talents and [unclear]heart[/unclear]
-                    you I know hold as highly as I do; so that I suppose she has already
-                    written to you on that subject. [paragraph ends]
+                    I am quite an impartial judge upon the occasion &amp; that you do me<lb/>
+                    too much honour in supposing that I have any interest in these <choice><orig>nar<lb/>
+                        -ratives</orig><reg>narratives</reg></choice>. The whole story told (as <persName ref="./Personography.xml#BailJ1">Miss Baillie</persName> informed me) by a Sir<lb/>
+                    somebody Gordon about my having intimated to him any acquiescence<lb/>
+                    in the report of my being the author of <del></del> <title ref="./Workography.xml#Antiq1">Antiquary</title> is so absolutely<lb/>
+                    false that I do not even know such a person I <hi rend="underline">did</hi> know <persName ref="./Personography.xml#GordA1">Sir <unclear>Alex</unclear>.<lb/>
+                        Gordon</persName> who fell gloriously at Waterloo &amp; I <hi rend="underline">do</hi> know <persName ref="./Personography.xml#GordA2">Sir Alexander<lb/>
+                            Gordon</persName> of <unclear>Hilvenum</unclear> but no other of the name. So if the Knight swears<lb/>
+                    by his honour that the pancakes are naught do you eat the <choice><orig>pan<lb/>
+                        cakes</orig><reg>pancakes</reg></choice> tout de meme &amp; do not rashly suppose the Chevalier <unclear>forsworn</unclear><lb/>
+                    if you should find them very good. All this however I wrote to <persName ref="./Personography.xml#BailJ1">M<hi rend="superscript">rs</hi><lb/>
+                        Baillie</persName> I should rather say to our dear Joanna whose talents and [unclear]heart[/unclear]<lb/>
+                    you I know hold as highly as I do; so that I suppose she has already<lb/>
+                    written to you on that subject.<lb/></p>
                     
-                    Abbotsford 16 May 
-                    It was destined I was not to find the letter until I returned hither for
-                    an unfortunate partiality for little cabinets and great cabinets and
-                    all sort of concealments and pigeon-holes holes makes it very difficult for me
-                    to know where any particular paper may happen to be [unclear][/unclear] I regret that
-                    the delay this has occasioned may make me seem what I would most
-                    unwillingly be thought slack or careless in complying with your request
-                    The letter contains an excellent and animated defence of D[superscript]r[/superscript] Darwin written
-                    with the spirit and feeling which your late respected relative was most
-                    likely to have exerted in behalf of a freind. Still however it does not
-                    appear to me to shake the powerful evidence that the lines in dispute
-                    were claimed by Miss Seward during Doctor Darwins lifetime and pub
-                    lished as hers and with her name. After all I do not think the verses
-                    very much were worth struggling about. But the liberality of the letter does great
-                    honour (like everything thing he did) to Mr. E.s memory. I found in the same
-                    drawer a letter of my own to Mr. Edgeworth begun after my release from
-                    France and never finished: a memorial among too many others how
-                    often I am misled by an unfortunate habit of procrastination into beco
-                    ming indifferent to the kindness of my best friends. Latterly indeed that
-                    as for the last twelve months I have had very indifferent health to plead as
-                    an excuse for being an irregular correspondent. I begin within these
-                    two last months to feel like myself again so that I trust I shall not
-                    have that painful apology any longer.[paragraph ends]
+                <p><placeName ref="./Placeography.xml#Abbotsford-House_STK">Abbotsford</placeName> 16 May<lb/> 
+                    It was destined I was not to find the letter until I returned hither for<lb/>
+                    an unfortunate partiality for little cabinets and great cabinets and<lb/>
+                    all sort of concealments and pigeon-holes holes makes it very difficult for me<lb/>
+                    to know where any particular paper may happen to be <unclear></unclear> I regret that<lb/>
+                    the delay this has occasioned may make me seem what I would most<lb/>
+                    unwillingly be thought slack or careless in complying with your request<lb/>
+                    The letter contains an excellent and animated defence of <persName ref="./Personography.xml#DarwE1">D<hi rend="superscript">r</hi> Darwin</persName> written<lb/>
+                    with the spirit and feeling which your late respected relative was most<lb/>
+                    likely to have exerted in behalf of a freind. Still however it does not<lb/>
+                    appear to me to shake the powerful evidence that the lines in dispute<lb/>
+                    were claimed by <persName ref="./Personography.xml#SeweA1">Miss Seward</persName> during <persName ref="./Personography.xml#DarwE1">Doctor Darwins</persName> lifetime and pub<lb/>
+                    lished as hers and with her name. After all I do not think the verses<lb/>
+                    very much were worth struggling about. But the liberality of the letter does great<lb/>
+                    honour (like everything thing he did) to <persName ref="./Personography.xml#EdgeR1">Mr. E.s</persName> memory. I found in the same<lb/>
+                    drawer a letter of my own to <persName ref="./Personography.xml#EdgeR1">Mr. Edgeworth</persName> begun after my release from<lb/>
+                    <placeName ref="./Placeography.xml#FR">France</placeName> and never finished: a memorial among too many others how<lb/>
+                    often I am misled by an unfortunate habit of procrastination into <choice><orig>beco<lb/>
+                        ming</orig><reg>becoming</reg></choice> indifferent to the kindness of my best friends. Latterly indeed that<lb/>
+                    as for the last twelve months I have had very indifferent health to plead as<lb/>
+                    an excuse for being an irregular correspondent. I begin within these<lb/>
+                    two last months to feel like myself again so that I trust I shall not<lb/>
+                    have that painful apology any longer.<lb/></p>
                     
-                    [page 3] 
+                    <pb n="3" facs="Edgeworth_NLS_23130_1818_05_15_page03.jpg"/>
                     
-                    I am much obliged to you for thinking favourably of my attempts in poetry
-                    They have one title to indulgent compassion which is that they are a sort of or-
-                    phans for whom their ostich-parent cares most exceedingly little. In the earlier
-                    part of my literary life partly from temper partly from principle having observed
-                    how very unhappy library persons are made (not to say ridiculous into the bar-
-                    gain) by pitching their thoughts and happiness upon popular fame that I resolved
-                    to avoid at least that frailty & think as little about my poems when committed
-                    to the public as I well could. It is only when you Miss Edgeworth or a few others
-                    whose talents & candour rank high with me are kind enough to say that you
-                    receive pleasure from these poems that I ever think of them with satisfaction or
-                    indeed [insertion]think of them[/insertion] at all. I have not read one of them since they were printed excepting
-                    last year the Lady of the Lake which I liked better than I expected but not
-                    well enough to induce me to go through the rest so I may truly say with
-                    I am afraid to think of what I've done
-                    Macbeth
-                    I am afraid to think of what I've done
-                    Look out again I dare not -
-                    This much of Macbeth I recollect for that is not so easily forgotten that
-                    she was attempted from the existing person & character of a lady who is now
-                    no more. So that I am particularly flattered with your distinguishing it
-                    from the others which are in general mere shadows. [paragraph ends]
+                <p>I am much obliged to you for thinking favourably of my attempts in poetry<lb/>
+                    They have one title to indulgent compassion which is that they are a sort of <choice><orig>or-<lb/>
+                        phans</orig><reg>orphans</reg></choice> for whom their ostich-parent cares most exceedingly little. In the earlier<lb/>
+                    part of my literary life partly from temper partly from principle having observed<lb/>
+                    how very unhappy library persons are made (not to say ridiculous into the <choice><orig>bar-<lb/>
+                        gain</orig><reg>bargain</reg></choice>) by pitching their thoughts and happiness upon popular fame that I resolved<lb/>
+                    to avoid at least that frailty &amp; think as little about my poems when committed<lb/>
+                    to the public as I well could. It is only when you <persName ref="./Personography.xml#EdgeM1">Miss Edgeworth</persName> or a few others<lb/>
+                    whose talents &amp; candour rank high with me are kind enough to say that you<lb/>
+                    receive pleasure from these poems that I ever think of them with satisfaction or<lb/>
+                    indeed <add>think of them</add> at all. I have not read one of them since they were printed excepting<lb/>
+                    last year <title ref="./Workography.xml#Ladyo1">the Lady of the Lake</title> which I liked better than I expected but not<lb/>
+                    well enough to induce me to go through the rest so I may truly say with<lb/>
+                    I am afraid to think of what I've done<lb/>
+                    <title ref="./Workography.xml#Macbe1">Macbeth</title><lb/>
+                    I am afraid to think of what I've done<lb/>
+                    Look out again I dare not -<lb/>
+                    This much of <title ref="./Workography.xml#Macbe1">Macbeth</title> I recollect for that is not so easily forgotten that<lb/>
+                    she was attempted from the existing person &amp; character of a lady who is now<lb/>
+                    no more. So that I am particularly flattered with your distinguishing it<lb/>
+                    from the others which are in general mere shadows.<lb/></p>
                     
-                    Thus far [underline]have I written amidst the clank and clang produced by [/underline]
-                    two noisy young bachelors my son and a cousin who are wearing out a rainy
-                    day by fencing with their naked broadswords to the imminent peril of
-                    their own heads to animate which conflict a probationary piper is excercizing
-                    a new & not over well tuned pair of bagpipes - all this being literally the
-                    case I really hardly know whether I am writing sense or nonsense - At
-                    least I must be comforted with the idea that my family is making
-                    some noise in the world [paragraph ends]
+                <p>Thus far <hi rend="underline">have I written amidst the clank and clang produced by</hi><lb/>
+                    two noisy young bachelors my son and a cousin who are wearing out a rainy<lb/>
+                    day by fencing with their naked broadswords to the imminent peril of<lb/>
+                    their own heads to animate which conflict a probationary piper is excercizing<lb/>
+                    a new &amp; not over well tuned pair of bagpipes - all this being literally the<lb/>
+                    case I really hardly know whether I am writing sense or nonsense - At<lb/>
+                    least I must be comforted with the idea that my family is making<lb/>
+                    some noise in the world<lb/></p>
                     
-                    My rustic employments are so numerous and require so much of my
-                    own eye that I have no thoughts this season of quitting Scotland.
-                    If I can get away in winter I should like much to see Italy but I fear
-                    I cannot do this very conveniently. Ireland I trust I will one day visit
-                    but I must first get my dominions here put into some sort of orders
-                    I have of late been rather an extensive planter and incline in
-                    proportion to the extent of my property and these operations require
-                    a good deal of personal superintendence. [pagagraph ends]
+                  <p> My rustic employments are so numerous and require so much of my
+                      own eye that I have no thoughts this season of quitting <placeName ref="./Placeography.xml#STK">Scotland</placeName>.<lb/>
+                      If I can get away in winter I should like much to see <placeName ref="./Placeography.xml#IT">Italy</placeName>. but I fear<lb/>
+                      I cannot do this very conveniently. <placeName ref="./Placeography.xml#IE">Ireland</placeName>. I trust I will one day visit<lb/>
+                      but I must first get my dominions here put into some sort of orders<lb/>
+                      I have of late been rather an extensive planter and incline in<lb/>
+                      proportion to the extent of my property and these operations require<lb/>
+                      a good deal of personal superintendence.<lb/></p>
                     
-                    A clergyman in your neighbourhood by name a gallant Gra-
-                    ham applied to me some time since wishing to connect himself with
-                    the border tribe of that name & willing to forward so reasonable & lau-
-                    dable a request I did some time since communicate to him what
-                    information occured to my recollection concerning these [unclear]worthies[/unclear]
-                    
-                    He now writes to me that you wish to have a copy which (though I [unclear]should[/unclear]
-                    think it very uninteresting to you) is of course most humbly at your
-                    service. As however it was merely intended to gratify his own curiosity
-                    & by no times designed as a genealogical history for which I have neither
-                    time/ materials nor inclination - I hope the reverend gentleman will
-                    not take any means forgiving to the public such crude lucubrations,
-                    I do not know any thing of M[superscript]r [/superscript]Graham but I am always willing to
-                    return a civil answer to a gentleman of his profession who writes to me
-                    civilly; only I dont like to be hooked in for appearances on the
-                    public stage of which I have already made too many.</p>
+                <p> A clergyman in your neighbourhood by name a gallant <choice><orig>Gra-<lb/>
+                    ham</orig><reg><persName ref="./Personography.xml#GrahX1">Graham</persName></reg></choice> applied to me some time since wishing to connect himself with<lb/>
+                    the border tribe of that name &amp; willing to forward so reasonable &amp; <choice><orig>lau-<lb/>
+                        dable</orig><reg>laudable</reg></choice> a request I did some time since communicate to him what<lb/>
+                    information occured to my recollection concerning these <unclear>worthies</unclear><lb/>
+                    <pb n="4" facs="Edgeworth_NLS_23130_1818_05_15_page04.jpg"/>
+                    He now writes to me that you wish to have a copy which (though I <unclear>should</unclear><lb/>
+                    think it very uninteresting to you) is of course most humbly at your<lb/>
+                    service. As however it was merely intended to gratify his own curiosity<lb/>
+                    &amp; by no times designed as a genealogical history for which I have neither<lb/>
+                    time/ materials nor inclination - I hope the reverend gentleman will<lb/>
+                    not take any means forgiving to the public such crude lucubrations,<lb/>
+                    I do not know any thing of <persName ref="./Personography.xml#GrahX1">M<hi rend="superscript">r</hi>Graham</persName> but I am always willing to<lb/>
+                    return a civil answer to a gentleman of his profession who writes to me<lb/>
+                    civilly; only I dont like to be hooked in for appearances on the<lb/>
+                    public stage of which I have already made too many.<lb/></p>
                 <closer>
-                    Adieu my dear Miss Edgeworth My best wishes attend you
-                    in public & private & if we should never meet I trust you will still
-                    believe that you have not a more sincere friend and well wisher
-                    than Walter Scott.
+                    Adieu my dear <persName ref="./Personography.xml#EdgeM1">Miss Edgeworth</persName> My best wishes attend you<lb/>
+                    in public &amp; private &amp; if we should never meet I trust you will still<lb/>
+                    believe that you have not a more sincere friend and well wisher<lb/>
+                    than <persName ref="./Personography.xml#ScotW1">Walter Scott</persName><lb/>.
                     15 May 1818<!--include linebreaks, if used. example: <closer> Yours<lb/> Very sincerely<lb/> -->
                 </closer>
                 <postscript>
-                    I shall send these packet to my official friend Croker to be
-                    put under one of his omnipotent franks.
+                    <p>I shall send these packet to my official friend <persName ref="./Personography.xml#CrokX1">Croker</persName> to be<lb/>
+                        put under one of his omnipotent franks.<lb/>
                     
-                    [other hand]113. 15
-                    [underline]3[/underline]
-                    341 . 5
-                    W. Scott. May 15. 1818[/other hand]<p><!--A postscript goes here, outside the <closer>. --></p>
+                        <note>113. 15<lb/>
+                            <hi rend="underline">3<lb/></hi>
+                            341 . 5<lb/>
+                            W. Scott. May 15. 1818<lb/></note></p>
                 </postscript>
                 <!--You can include a <pb/> here, or inside the postScript.-->
                 <!-- Format for postscripts. 
