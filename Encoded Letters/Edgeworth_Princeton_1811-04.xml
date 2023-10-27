@@ -91,6 +91,7 @@
       <revisionDesc>
          <change when="2023-10-17" who="Id_who">Created file for letter, filled in TEI template, coded line breaks, personography, placeography</change><!--What is my XML ID to put here and elsewhere?-->
          <change when="2023-10-19" who="Id_who">Updated encoding to reflect recommendations from EAW</change>
+         <change when="2023-10-27" who="Id_who">Updated choice tags</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -102,10 +103,10 @@
                   <name type="place" ref="Edgeworthstown_IE"/>Edgeworth Town
                   <date when="1816-08-04"/>April 1811</dateline><!--How do we write the date if we only have the month and year?-->
             </opener>
-            <p>I am not quite sure whether my flattering correspon<lb/>
-               dents are in jest or earnest, but at all events, I will<lb/>
-               with pleasure satisfy, as far as I am able the curi<lb/>
-               osity they express. I am gratified to find that the<lb/>
+            <p>I am not quite sure whether my flattering <choice><orig>correspon<lb/>
+               dents</orig><reg>correspondents</reg></choice> are in jest or earnest, but at all events, I will<lb/>
+               with pleasure satisfy, as far as I am able the <choice><orig>curi<lb/>
+               osity</orig><reg>curiosity</reg></choice> they express. I am gratified to find that the<lb/>
                Frankland Family have inspired so much in interest<lb/>
                as to make the readers of their history take the trouble<lb/>
                of enquiring about their wedding apparel. I have<lb/>
@@ -166,14 +167,14 @@
                sister's Bridegrooms wore brown. <hi rend="underline">All</hi> certainly<lb/>
                had Cambric cravats presented by <persName ref="./Personography.xml#ClegX2">Mr Cleghorn.</persName><lb/>
                <persName ref="./Personography.xml#BarlX1">M<hi rend="superscript">r</hi> Barlow</persName> provided each with a handsome<lb/>
-               watch, chain and <unclear>sils</unclear>. These are all the par<lb/>
-               ticulars I have been able to collect after a<lb/>
-               most dilligent search, inspecting the accoutre<lb/>
-               ments of the Frankland family, may I be per<lb/>
-               mitted to hold, tho' no questions I have <unclear></unclear><lb/>
+               watch, chain and <unclear>sils</unclear>. These are all the <choice><orig>par<lb/>
+               ticulars</orig><reg>particulars</reg></choice> I have been able to collect after a<lb/>
+               most dilligent search, inspecting the <choice><orig>accoutre<lb/>
+               ments</orig><reg>accoutrements</reg></choice> of the Frankland family, may I be <choice><orig>per<lb/>
+               mitted</orig><reg>permitted</reg></choice> to hold, tho' no questions I have <unclear></unclear><lb/>
                on that point, that <persName ref="./Personography.xml#HungX2">Mrs Hungerford</persName> was dressed<lb/>
                in an <unclear></unclear> <unclear></unclear> of Irish Jabbinet, so glossy<lb/>
-               htat now with not touching it, and who could<lb/>
+               that now with not touching it, and who could<lb/>
                presume to touch <persName ref="./Personography.xml#HungX2">Mrs Hungerford's</persName> dress? could<lb/>
                believe it to be any thing but rich silk or satin.<lb/>
                This admired Jabbinet was presented by <persName ref="./Personography.xml#EdgeM1">Miss E</persName><lb/>
