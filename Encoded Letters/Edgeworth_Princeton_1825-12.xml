@@ -6,7 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Letter from Maria Edgeworth to <!--Recipient Name, Month Day, YYYY--></title>
+            <title>Letter from Maria Edgeworth to L. Relfe, December 24, 1825<!--Recipient Name, Month Day, YYYY--></title>
             <author>Maria Edgeworth</author>
             <editor ref="Id_who">Lindsey Jones
             </editor>
@@ -141,10 +141,10 @@
                   </persName>
                </salute>
             </opener>
-            <p><!-- 
+            <p> 
                I have just seen an <choice><orig>ad-<lb/>
                vertisement</orig><reg>advertisement</reg></choice> in the <title ref="./Workography.xml#Morni1"><choice><orig>Morn<lb/>
-               ing</orig><reg>Morning</reg><choice> Chronicle</title> of a new<lb/>
+               ing</orig><reg>Morning</reg></choice> Chronicle</title> of a new<lb/>
                Pocket book called the<lb/>
                <title ref="./Workography.xml#Janus1">Janus</title> published I think<lb/>
                in <placeName ref="./Placeography.xml#Edinburgh_STK">Edinburgh</placeName> in which<lb/>
@@ -189,55 +189,30 @@
                very truly yours<lb/>
                <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName><lb/>
             </closer>
-            <postscript> *******PAUSED HERE 10/26/23*******
+            <postscript>
               <p>If any thing of mine is<lb/>
               
               <pb n="3" facs="Edgeworth_Princeton_1825-12_page03.jpg"/>
 
                in your pocket book of<lb/>
-               this year & if you wish<lb/>
+               this year &amp; if you wish<lb/>
                to send me one you<lb/>
                can do so by enclosing<lb/>
                it directed to<lb/>
-               Miss Edgeworth<lb/>
-               Edgeworths Town<lb/>
+               <persName ref="./Personography.xml#EdgeM1">Miss Edgeworth</persName><lb/>
+               <placeName ref="./Placeography.xml#Edgeworthstown_IE">Edgeworths Town</placeName><lb/>
                under cover to<lb/>
-               The Earl of Rosse<lb/>
-               Parson's Town<lb/>
-               Ireland.<lb/>
+               <persName ref="./Personography.xml#ParsL1">The Earl of Rosse</persName><lb/>
+               <placeName ref="./Placeography.xml#Parsonstown-House_IE">Parson's Town<lb/>
+               Ireland</placeName>.<lb/></p>
             </postscript>
-               [LibNote]"Tales various" [unclear]London[/unclear][/LibNote]<lb/>
-            -->
-            </p>
-            <p>
-               <!--More body paragraphs as needed.--></p>
-            <p>
-               <!--More body paragraphs as needed.-->
-               <!--Where there's a page break record it inside the relevant body paragraph like this, 
-                  with the self-closing page-break element. n="2" indicates the START of the second page.-->
-               <pb n="2" facs="image2.jpg"/>
-            </p>
-            <p><!--More body paragraphs as needed.--></p>
-            <closer>
-               <!--include linebreaks, if used. example: <closer> Yours<lb/> Very sincerely<lb/> -->
-            </closer>
-            <postscript>
-               <p><!--A postscript goes here, outside the <closer>. --></p>
-            </postscript>
-            <!--You can include a <pb/> here, or inside the postScript.-->
-            <!-- Format for postscripts. 
-               Postscripts do NOT go inside closer tags. Adjust to take into account the order in your letter. 
-               Sometimes the signature is on page three, the address on page four, then the postscript follows back on the top of page one, for example.-->
+               <note place="bottom">"Tales various" <unclear>London</unclear></note><lb/>
             <closer><!--Use the <closer> element again to hold Address Leaf information.-->
                <pb n="4" facs="Edgeworth_Princeton_1825-12_page04.jpg"/>
                <address>
-                  <!--
-                     <addrLine>M[superscript]r[/superscript] L. Relfe - Bookseller</addrLine><lb/>
+                     <addrLine>M<hi rend="superscript">r</hi> L. Relfe - Bookseller</addrLine><lb/>
                      <addrLine>Cornhill</addrLine><lb/>
-                     Include any text written on the address leaf; use a separate "addrLine" for each line and indicate line breaks. -->
-                  <addrLine/>
-                  <addrLine/>
-                  <addrLine/>
+                  <!--Include any text written on the address leaf; use a separate "addrLine" for each line and indicate line breaks. -->
                </address>
             </closer>
          </div>
