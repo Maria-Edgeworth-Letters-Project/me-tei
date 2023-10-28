@@ -8,7 +8,7 @@
          <titleStmt>
             <title>Letter from Maria Edgeworth to M. Miles, January ??, 1816</title>
             <author>Maria Edgeworth</author>
-            <editor ref="Lindsey Jones">
+            <editor ref="Id_who">Lindsey Jones
             </editor>
             <sponsor>
                <orgName>Maria Edgeworth Letters Project</orgName>
@@ -18,7 +18,7 @@
             <principal>Jessica Richard, Hilary Havens, Robin Runia, Susan Egenolf</principal>
             <respStmt>
                <resp>Transcription and coding by</resp>
-               <persName ref="Lindsey Jones"><!--FirstName LastName-->
+               <persName ref="Id_who">Lindsey Jones<!--FirstName LastName-->
                </persName>
                <!-- List all transcribers or coders here, editors and students alike, <persName> by <persName>.-->
                <persName ref="Id_who"><!--FirstName LastName--></persName>
@@ -26,7 +26,7 @@
             </respStmt>
          </titleStmt>
          <editionStmt>
-            <edition>First digital edition in TEI, date: <date when="2023-10-22">
+            <edition>First digital edition in TEI, date: October 22, 2023<date when="2023-10-22">
                   <!--enter the date on which the first coder created and saved this XML file in google drive-->
                </date>
             </edition>
@@ -36,6 +36,8 @@
                   <!--who digitized the letter or gave us permission for to use the file?-->
                </orgName>
                <resp> photos include:
+                  Edgeworth_ Princeton_1816-01_page01.jpg,
+                  Edgeworth_ Princeton_1816-01_page02.jpg
                   <!-- Make a comma-separated list of each .jpg photo file name associated with your letter. 
                      For example: DSCF9476.jpg, DSCF9477.jpg, DSCF9478.jpg-->
                </resp>
@@ -122,6 +124,7 @@
       </revisionDesc>
    </teiHeader>
    <text>
+      <pb n="1" facs="Edgeworth_ Princeton_1816-01_page01.jpg"/>
       <body>
          <div type="letter">
             <pb n="1" facs="image1.jpg"/>
@@ -137,7 +140,6 @@
                </salute>
             </opener>
             <p>
-               <pb n="1" facs="Edgeworth_ Princeton_1816-01_page01.jpg"/>
                We thank you for your very<lb/>
                obliging letter of the <unclear>8nt<hi rend="superscript">h</hi></unclear><lb/></p>
             <p>We have been offered <del><unclear>three</unclear></del><add>four</add> hundred <choice><orig>gui<lb/>
@@ -153,21 +155,16 @@
             <p>Be so kind as to tell me your <choice><orig>opi-<lb/>
                nion</orig><reg>opinion</reg></choice> upon this subject.<lb/>
             </p>
-            <p>
-               <!--More body paragraphs as needed.-->
-               <!--Where there's a page break record it inside the relevant body paragraph like this, 
-                  with the self-closing page-break element. n="2" indicates the START of the second page.-->
-            </p>
             <closer>
                I am Dear Sir<lb/>
                Your <choice><orig>Obed<hi rend="superscript">t</hi>.</orig><reg>Obedient</reg></choice> <choice><orig>Serv<hi rend="superscript">t</hi>.</orig><reg>Servant</reg></choice><lb/>
             </closer>
             <!--You can include a <pb/> here, or inside the postScript.-->
-            <pb n="2" facs="Edgeworth_ Princeton_1816-01_page02.jpg"/>
             <closer><!--Use the <closer> element again to hold Address Leaf information.-->
+               <pb n="2" facs="Edgeworth_ Princeton_1816-01_page02.jpg"/>
                <address>
                   <addrLine>Copy to <persName ref="./Personography.xml#MileX2">M<hi rend="superscript">r.</hi> Miles</persName> Jan<hi rend="superscript">ry.</hi> 1816</addrLine><lb/>
-                  <addrLine>M<hi rend="superscript">r.</hi> <unclear>Chater</unclear></addrLine><lb/> <!--this name is unclear - could be Chater (not in the taxonomy), Charter, or Charters (the latter two of which are in the taxonomy but are unidentified)-->
+                  <addrLine>M<hi rend="superscript">r.</hi> Chater</addrLine><lb/>
                   <addrLine><placeName ref=".Placeography.xml#Corn-Hill_XX">11 Corn Hill</placeName> </addrLine><lb/>
                   <!--Include any text written on the address leaf; use a separate "addrLine" for each line and indicate line breaks. -->
                </address>
