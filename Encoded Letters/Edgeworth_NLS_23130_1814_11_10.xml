@@ -208,16 +208,6 @@
                     <persName>Maria Edgeworth</persName>
                 </correspAction>
             </correspDesc>
-            <textClass>
-                <keywords scheme="">
-                    <list type="simple">
-                        <item>English literature</item>
-                        <item>History</item>
-                    </list>
-                </keywords>
-                <catRef target="#f7" scheme="#f"/>
-                <catRef target="#hist #el" scheme="locSUB"/>
-            </textClass>
         </profileDesc>
         <revisionDesc>
             <change when="2021-01-01" who="Id_who">
@@ -228,8 +218,7 @@
     <text>
         <body>
             <div type="letter">
-                <pb n="1" facs="Edgeworth_NLS_23130_1814_11_10_page01.jpg/>
-                <!--filenames for photos associated with this letter. Example: <pb n="1" facs="image1.jpg image2.jpg image3.jpg"/> -->
+                <pb n="1" facs="Edgeworth_NLS_23130_1814_11_10_page01.jpg"/>
                 <opener>
                     <dateline><!--If there's no date line, omit this element. Record in the order in which it is written on the letter.-->
                         <name type="place" ref="Id_where"/>

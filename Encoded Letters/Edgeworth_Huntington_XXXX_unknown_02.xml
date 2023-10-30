@@ -7,7 +7,9 @@
       <fileDesc>
          <titleStmt>
             <title>Letter from Maria Edgeworth to Mrs. Alicia Beaufort, unknown date</title>
-            <author><persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName></author>
+            <author>
+               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
+            </author>
             <editor ref="Id_who">
             Jamie Kramer
             </editor>
@@ -40,8 +42,6 @@
                </resp>
             </respStmt>
          </editionStmt>
-         
-         
          <publicationStmt>
             <authority>Maria Edgeworth Letters Project</authority>
             <date>2023</date>
@@ -52,8 +52,7 @@
                <licence>Distributed under a Creative Commons Attribution-ShareAlike 3.0 Unported
                   License</licence>
             </availability>
-            
-            <idno>Edgeworth_Huntington_XXXX_unknown_02</idno> 
+            <idno>Edgeworth_Huntington_XXXX_unknown_02</idno>
          </publicationStmt>
          <seriesStmt>
             <title>Maria Edgeworth Letters Project</title>
@@ -66,7 +65,6 @@
                   <idno/>
                   <!--Consult library or WorldCat for this info-->
                </msIdentifier>
-               
                <head>Letter from 
                   <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
                   to <persName ref="./Personography.xml#BeauA1">Alicia Beaufort (Wilson)</persName>, 
@@ -78,7 +76,6 @@
             <bibl>In addition to our edited version, this letter was previously published in
                <!--complete bibiographical info if letter was published in a book here-->
             </bibl>
-            
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
@@ -91,7 +88,6 @@
                word is split at the end of a line and the beginning of the next in a manuscript. The
                long s and ligatured forms are silently emended.</p>
          </editorialDecl>
-         
          <classDecl>
             <taxonomy xml:id="relators">
                <bibl>Marc Relators</bibl>
@@ -208,10 +204,14 @@
             <taxonomy xml:id="places">
                <bibl>Places</bibl>
                <category>
-                  <catDesc xml:id="EdgeworthsTown">Edgeworths' Town<idno type="getty">tgn/1042937</idno></catDesc>
-                  <catDesc xml:id="Peterborough">Peterborough, UK<idno type="getty">tgn/7026520</idno></catDesc>
-                  <catDesc xml:id="CranfordI">Cranford, Ireland<idno type="getty">tgn/7901042</idno></catDesc>
-                  <catDesc xml:id="Kettering">Kettering, UK<idno type="getty">tgn/7010904</idno></catDesc>
+                  <catDesc xml:id="EdgeworthsTown">Edgeworths' Town<idno type="getty">tgn/1042937</idno>
+                  </catDesc>
+                  <catDesc xml:id="Peterborough">Peterborough, UK<idno type="getty">tgn/7026520</idno>
+                  </catDesc>
+                  <catDesc xml:id="CranfordI">Cranford, Ireland<idno type="getty">tgn/7901042</idno>
+                  </catDesc>
+                  <catDesc xml:id="Kettering">Kettering, UK<idno type="getty">tgn/7010904</idno>
+                  </catDesc>
                </category>
             </taxonomy>
             <taxonomy xml:id="period">
@@ -221,7 +221,6 @@
                </category>
             </taxonomy>
          </classDecl>
-
       </encodingDesc>
       <profileDesc>
          <correspDesc>
@@ -232,7 +231,6 @@
                <persName ref="./Personography.xml#BeauA1">Alicia Beaufort (Wilson)</persName>
             </correspAction>
          </correspDesc>
-         
          <textClass>
             <keywords scheme="">
                <list type="simple">
@@ -254,42 +252,63 @@
       <body>
          <div type="letter">
             <pb n="1" facs="Edgeworth_Huntington_XXXX_unknown_02_page01.jpg"/>
-
-<opener><salute>
-   My dear <persName ref="./Personography.xml#BeauA1">Alicia</persName></salute></opener><p> - I beg you will guess who<lb/>
+            <opener>
+               <salute>
+   My dear <persName ref="./Personography.xml#BeauA1">Alicia</persName>
+               </salute>
+            </opener>
+            <p> - I beg you will guess who<lb/>
       wrote in a letter to me what follows - I am<lb/>
       not sure that you ever saw the person who wrote it -<lb/>
-      "We are busy in this family reading Capt<hi rend="superscript">n</hi><lb/>
+      "We are busy in this family reading Capt<hi rend="superscript">n</hi>
+               <lb/>
       "Beaufort's Karamania and we all not only<lb/>
       "like, but admire it. I never read description so<lb/>
-      "clear, and so well given in <del><unclear>so</unclear></del> such few words<lb/>
+      "clear, and so well given in <del>
+                  <unclear>so</unclear>
+               </del> such few words<lb/>
       "I have frequently desired my nephew who is<lb/>
       "our reader to read a sentence over again in<lb/>
       "admiration of the many ideas comprised in it<lb/>
       "and the simple and elegant choice of words.<lb/>
       "-It was not without reason that in speaking to<lb/>
       "me of his extreme delicacy in mentioning him<lb/>
-      "self in his writings you said "He is qui<unclear></unclear><note>page torn</note><lb/>
-      "<hi rend="underline">prud<unclear></unclear></hi><note>page torn</note> in this respect" - We have as ye<unclear></unclear><note>page torn</note><lb/>
+      "self in his writings you said "He is qui<unclear/>
+               <note>page torn</note>
+               <lb/>
+      "<hi rend="underline">prud<unclear/>
+               </hi>
+               <note>page torn</note> in this respect" - We have as ye<unclear/>
+               <note>page torn</note>
+               <lb/>
       "read only to the middle of the book; he has<lb/>
       "made use of the pronoun <hi rend="underline">I</hi> only on two<lb/>
       "occasions; yet he has contrived to refrain with<lb/>
       "out any affectation &amp; without speaking of him,<lb/>
                "self in the second person a kind of sly modesty<lb/>
-      "which I dislike" -</p><lb/>
-               <closer><hi rend="underline">Short</hi> &amp; sweet - Yours affectionately<lb/>
-               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName><lb/>
-               </closer>
+      "which I dislike" -</p>
+            <lb/>
+            <closer>
+               <hi rend="underline">Short</hi> &amp; sweet - Yours affectionately<lb/>
+               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
+               <lb/>
+            </closer>
             <postscript>
-               <p><persName ref="./Personography.xml#BeauH1">Honora</persName> desires her love to you.<lb/></p>
+               <p>
+                  <persName ref="./Personography.xml#BeauH1">Honora</persName> desires her love to you.<lb/>
+               </p>
             </postscript>
-<closer>
-            <address>
-               <addrLine><persName ref="./Personography.xml#BeauF1">Capt<hi rend="superscript">n</hi>.. Beaufort. R. N</persName></addrLine>
-               <addrLine>Grove</addrLine>
-               <addrLine><placeName ref="./Placeography.xml#Epping_ENK">Epping</placeName></addrLine>
-            </address>
-         </closer> 
+            <closer>
+               <address>
+                  <addrLine>
+                     <persName ref="./Personography.xml#BeauF1">Capt<hi rend="superscript">n</hi>.. Beaufort. R. N</persName>
+                  </addrLine>
+                  <addrLine>Grove</addrLine>
+                  <addrLine>
+                     <placeName ref="./Placeography.xml#Epping_ENK">Epping</placeName>
+                  </addrLine>
+               </address>
+            </closer>
          </div>
       </body>
       <back> </back>

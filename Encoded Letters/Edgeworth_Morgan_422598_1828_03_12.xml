@@ -53,7 +53,7 @@
                <licence>Distributed under a Creative Commons Attribution-ShareAlike 3.0 Unported
                   License</licence>
             </availability>
-            <idno>Edgeworth_Morgan_422598_1828_03_12</idno> 
+            <idno>Edgeworth_Morgan_422598_1828_03_12</idno>
          </publicationStmt>
          <seriesStmt>
             <title>Maria Edgeworth Letters Project</title>
@@ -66,17 +66,16 @@
                   <collection><!-- Enter specific archival collection if applicable--></collection>
                   <idno><!--Consult library or WorldCat for this info--></idno>
                </msIdentifier>
-               
                <!-- FROM LAURA: it's here (below) in the head that I added the full information about the author,
                   and you could add full information about the addressee as well. -->
                <head>Letter from 
                      <persName xml:id="EdgeM1" from="1768" to="1849">
-                        <forename>Maria</forename>
-                        <surname>Edgeworth</surname>
-                        <date>1768-1849</date>
-                        <idno type="VIAF">71477273</idno>
-                        <idno type="SNAC">62567029</idno>
-                     </persName>
+                     <forename>Maria</forename>
+                     <surname>Edgeworth</surname>
+                     <date>1768-1849</date>
+                     <idno type="VIAF">71477273</idno>
+                     <idno type="SNAC">62567029</idno>
+                  </persName>
                   to <persName ref="./Personography.xml#SpriT1">Thomas Spring-Rice</persName>, 
                   <date when="1828-03-12">March 12<hi rend="superscript">th</hi>. 1828 </date>
                </head>
@@ -84,10 +83,8 @@
                   <!-- optional physical description of the letter goes here: paper size and condition, seal, postmarks, etc.-->
                </physDesc>
             </msDesc>
-            
             <!-- FROM LAURA: where to put the following information in <bibl> is still a question: 
                ask TEI List whether it should be in the sourceDesc or elsewhere? -->
-            
             <bibl>In addition to our edited version, this letter was previously published in
                <!--complete bibiographical info if letter was published in a book here - if not delete-->
             </bibl>
@@ -212,7 +209,7 @@
       </profileDesc>
       <revisionDesc>
          <change when="2023-08-08" who="Id_who">
-         <persName>Jamie Kramer</persName>-revisions for github upload
+            <persName>Jamie Kramer</persName>-revisions for github upload
          </change>
       </revisionDesc>
    </teiHeader>
@@ -222,18 +219,19 @@
             <pb n="1" facs="Edgeworth_Morgan_422598_1828_03_12_page01.jpg"/>
             <opener>
                <dateline><!--If there's no date line, omit this element. Record in the order in which it is written on the letter.-->
-                  <placeName ref="./Placeography.xml#Edgeworthstown_IE">Edgeworths Town</placeName><lb/>
-                  <date when="1828-03-12"/>March 12<hi rend="superscript">th</hi>. 1828 </dateline><lb/>
-               
+                  <placeName ref="./Placeography.xml#Edgeworthstown_IE">Edgeworths Town</placeName>
+                  <lb/>
+                  <date when="1828-03-12"/>March 12<hi rend="superscript">th</hi>. 1828 </dateline>
+               <lb/>
             </opener>
             <p>I hear with much regret<lb/>
                for <placeName ref="./Placeography.xml#IE">my country</placeName> and for<lb/>
                my own family, who had<lb/>
                hoped to cultivate his<lb/>
-               society that <persName ref="./Personography.xml#SpriT1">M<hi rend="superscript">r.</hi>Spring Rice</persName><lb/>
+               society that <persName ref="./Personography.xml#SpriT1">M<hi rend="superscript">r.</hi>Spring Rice</persName>
+               <lb/>
                is going to <placeName ref="./Placeography.xml#II">India</placeName>-<lb/>
             </p>
-             
             <p>Surely he will not - he<lb/>
                cannot go without at least<lb/>
                writing to me to tell me<lb/>
@@ -243,31 +241,34 @@
                console me for the loss we<lb/>
                in <placeName ref="./Placeography.xml#IE">Ireland</placeName> must sustain<lb/>
             </p>
-               
-            <p>He will write I am <choice><orig>per-<lb/>
-               suaded</orig><reg>persuaded</reg></choice> to tell me whether<lb/>
-               he is satisfied that the <choice><orig>sa-<lb/>
-                  crifice</orig><reg>sacrifice</reg></choice> he is making is<lb/>
-               
+            <p>He will write I am <choice>
+                  <orig>per-<lb/>
+               suaded</orig>
+                  <reg>persuaded</reg>
+               </choice> to tell me whether<lb/>
+               he is satisfied that the <choice>
+                  <orig>sa-<lb/>
+                  crifice</orig>
+                  <reg>sacrifice</reg>
+               </choice> he is making is<lb/>
                <pb n="2" facs="Edgeworth_Morgan_422598_1828_03_12_page02.jpg"/>
                
                necessary - Does he take<lb/>
                his family with him?<lb/>
             </p>
-              
             <p>He will feel that these<lb/>
                questions are from one<lb/>
                whose esteem &amp; regard<lb/>
                for him justify their<lb/>
                abruptness -<lb/>
-               </p>
-            
+            </p>
             <closer>
                his sincere friend<lb/>
-               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName><lb/>
-               <note>Miss Edgeworth</note><lb/>
+               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
+               <lb/>
+               <note>Miss Edgeworth</note>
+               <lb/>
             </closer>
-
          </div>
       </body>
       <back> </back>

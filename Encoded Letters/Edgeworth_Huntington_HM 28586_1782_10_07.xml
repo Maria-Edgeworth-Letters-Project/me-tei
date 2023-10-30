@@ -5,29 +5,29 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
-            <titleStmt>
-               <title>
+         <titleStmt>
+            <title>
                   Letter from Maria Edgeworth to Frances "Fanny" (Robinson) Hoare, 10/07/1782
                  </title>
-               <author>Maria Edgeworth</author>
-               <editor ref="Id_who">
+            <author>Maria Edgeworth</author>
+            <editor ref="Id_who">
                Jamie Kramer
                </editor>
-               <sponsor>
-                  <orgName>Maria Edgeworth Letters Project</orgName>
-               </sponsor>
-               <sponsor>Wake Forest University, University of Tennessee, Xavier University, Texas
+            <sponsor>
+               <orgName>Maria Edgeworth Letters Project</orgName>
+            </sponsor>
+            <sponsor>Wake Forest University, University of Tennessee, Xavier University, Texas
                   A&amp;M University</sponsor>
-               <principal>Jessica Richard, Hilary Havens, Robin Runia, Susan Egenolf</principal>
-               <respStmt>
-                  <resp>Transcription and coding by</resp>
-                  <persName ref="Id_who">Jamie Kramer<!--FirstName LastName-->
+            <principal>Jessica Richard, Hilary Havens, Robin Runia, Susan Egenolf</principal>
+            <respStmt>
+               <resp>Transcription and coding by</resp>
+               <persName ref="Id_who">Jamie Kramer<!--FirstName LastName-->
                   </persName>
-                  <!-- List all transcribers or coders here, editors and students alike, <persName> by <persName>.-->
-                  <persName ref="Id_who"><!--FirstName LastName--></persName>
-                  <!-- If you're the last person interacting with the file, enter your name last on the list -->
-               </respStmt>
-            </titleStmt>
+               <!-- List all transcribers or coders here, editors and students alike, <persName> by <persName>.-->
+               <persName ref="Id_who"><!--FirstName LastName--></persName>
+               <!-- If you're the last person interacting with the file, enter your name last on the list -->
+            </respStmt>
+         </titleStmt>
          <editionStmt>
             <edition>First digital edition in TEI, date: <date when="2023-08-19">
                </date>
@@ -44,8 +44,6 @@
                </resp>
             </respStmt>
          </editionStmt>
-         
-         
          <publicationStmt>
             <authority>Maria Edgeworth Letters Project</authority>
             <date>2023</date>
@@ -56,10 +54,9 @@
                <licence>Distributed under a Creative Commons Attribution-ShareAlike 3.0 Unported
                   License</licence>
             </availability>
-            
             <idno>
                Edgeworth_Huntington_HM 28586_1782_10_07
-            </idno> 
+            </idno>
          </publicationStmt>
          <seriesStmt>
             <title>Maria Edgeworth Letters Project</title>
@@ -79,7 +76,6 @@
                   <idno/>
                   <!--Consult library or WorldCat for this info-->
                </msIdentifier>
-               
                <head>Letter from 
                   <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
                   to <persName ref="./Personography.xml#HoarF1">Frances "Fanny" (Robinson) Hoare</persName>,
@@ -92,7 +88,6 @@
             <bibl>In addition to our edited version, this letter was previously published in
                <!--complete bibiographical info if letter was published in a book here-->
             </bibl>
-            
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
@@ -105,7 +100,6 @@
                word is split at the end of a line and the beginning of the next in a manuscript. The
                long s and ligatured forms are silently emended.</p>
          </editorialDecl>
-         
          <classDecl>
             <taxonomy xml:id="relators">
                <bibl>Marc Relators</bibl>
@@ -222,10 +216,14 @@
             <taxonomy xml:id="places">
                <bibl>Places</bibl>
                <category>
-                  <catDesc xml:id="EdgeworthsTown">Edgeworths' Town<idno type="getty">tgn/1042937</idno></catDesc>
-                  <catDesc xml:id="Peterborough">Peterborough, UK<idno type="getty">tgn/7026520</idno></catDesc>
-                  <catDesc xml:id="CranfordI">Cranford, Ireland<idno type="getty">tgn/7901042</idno></catDesc>
-                  <catDesc xml:id="Kettering">Kettering, UK<idno type="getty">tgn/7010904</idno></catDesc>
+                  <catDesc xml:id="EdgeworthsTown">Edgeworths' Town<idno type="getty">tgn/1042937</idno>
+                  </catDesc>
+                  <catDesc xml:id="Peterborough">Peterborough, UK<idno type="getty">tgn/7026520</idno>
+                  </catDesc>
+                  <catDesc xml:id="CranfordI">Cranford, Ireland<idno type="getty">tgn/7901042</idno>
+                  </catDesc>
+                  <catDesc xml:id="Kettering">Kettering, UK<idno type="getty">tgn/7010904</idno>
+                  </catDesc>
                </category>
             </taxonomy>
             <taxonomy xml:id="period">
@@ -235,7 +233,6 @@
                </category>
             </taxonomy>
          </classDecl>
-         
       </encodingDesc>
       <profileDesc>
          <correspDesc>
@@ -243,10 +240,9 @@
                <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
             </correspAction>
             <correspAction type="received">
-               <persName ref="./Personography.xml#HoarF1">Fanny Robinson [Frances Dorothea (née Robinson)]</persName> 
+               <persName ref="./Personography.xml#HoarF1">Fanny Robinson [Frances Dorothea (née Robinson)]</persName>
             </correspAction>
          </correspDesc>
-         
          <textClass>
             <keywords scheme="">
                <list type="simple">
@@ -269,12 +265,13 @@
          <div type="letter">
             <pb n="1" facs="Edgeworth_Huntington_HM 28586_1782_10_07_page01.jpg"/>
             <opener>
-
                <dateline>
-                  <placeName ref="./Placeography.xml#Edgeworthstown_IE">Edgeworth's Town</placeName> <lb/>
-                  <date when="1782-10-07">October the 7<hi rend="superscript">th</hi>. 1782.</date><lb/>
-               </dateline>  
-</opener>
+                  <placeName ref="./Placeography.xml#Edgeworthstown_IE">Edgeworth's Town</placeName>
+                  <lb/>
+                  <date when="1782-10-07">October the 7<hi rend="superscript">th</hi>. 1782.</date>
+                  <lb/>
+               </dateline>
+            </opener>
             <p> You tell me my dear <persName ref="./Personography.xml#HoarF1">Miss Robinson</persName> that you have been<lb/>
                obliged to drop all your correspondancies, I thank you for<lb/>
                reserving mine to be dropt <hi rend="underline">last</hi>. I own I feel some degree of self-<lb/>
@@ -283,83 +280,125 @@
                thought it a little imprudent in you to correspond with so<lb/>
                many Young Ladies; if you recollect I declined writing to any<lb/>
                one except yourself and in so doing I was considered by some<lb/>
-               proud, by others reserved and by all singular. I was <unclear>actuated</unclear><lb/>
+               proud, by others reserved and by all singular. I was <unclear>actuated</unclear>
+               <lb/>
                by different motives; the young ladies who were so obliging to request of<lb/>
                me to write to them would I doubt not have been very glad to hear from<lb/>
                me for a month or two, but when once a correspondace is begun, I<lb/>
                think it must be more agreeable to both the parties to carry it<lb/>
                on. Time becomes more valuable as we grow older and it<lb/>
-               requires a greater proportion of it to carry on a constant <choice><orig>corres-<lb/>
-                  -pondance</orig><reg>correspondance</reg></choice>, than I should wish to bestow on a mere <choice><orig>Acquain-<lb/>
-                     -tance</orig><reg>acquaintance</reg></choice>; I should think one must feel no small degree of<lb/>
+               requires a greater proportion of it to carry on a constant <choice>
+                  <orig>corres-<lb/>
+                  -pondance</orig>
+                  <reg>correspondance</reg>
+               </choice>, than I should wish to bestow on a mere <choice>
+                  <orig>Acquain-<lb/>
+                     -tance</orig>
+                  <reg>acquaintance</reg>
+               </choice>; I should think one must feel no small degree of<lb/>
                friendship for any one before one can always find something<lb/>
                to say to them, and what a task it is to be obliged to write to<lb/>
-               <unclear>one</unclear>when when one has nothing to say, I hope my Dear <persName ref="./Personography.xml#HoarF1">Fanny</persName><lb/>
+               <unclear>one</unclear>when when one has nothing to say, I hope my Dear <persName ref="./Personography.xml#HoarF1">Fanny</persName>
+               <lb/>
                this will never be the case with us, but if it ever should<lb/>
                I shall be sincere enough to tell you so, and let me request<lb/>
                the same sincerity from you, for surely it will be better for<lb/>
                both of us to stop, before we have compleatly tired each other<lb/>
-
                <pb n="2" facs="Edgeworth_Huntington_HM 28586_1782_10_07_page02.jpg"/>
                
                I hope what I have said will not lead you to suspect<lb/>
                that I am already tired of your correspondence for I assure<lb/>
                you I mean it should have a quite contrary Effect, I mean to<lb/>
                convince you that it is entirely through inclination I write to<lb/>
-               you.<lb/></p>
-            <p><persName ref="./Personography.xml#GoldX1">A Brother</persName> of <persName ref="./Personography.xml#GoldO1">Doctor Goldsmith</persName>'s was here a few days<lb/>
-               ago. I daresay you have read and admired <persName ref="./Personography.xml#GoldO1">The D<hi rend="superscript">r</hi></persName>'s <unclear></unclear><lb/>
+               you.<lb/>
+            </p>
+            <p>
+               <persName ref="./Personography.xml#GoldX1">A Brother</persName> of <persName ref="./Personography.xml#GoldO1">Doctor Goldsmith</persName>'s was here a few days<lb/>
+               ago. I daresay you have read and admired <persName ref="./Personography.xml#GoldO1">The D<hi rend="superscript">r</hi>
+               </persName>'s <unclear/>
+               <lb/>
                Works; we always are desirous to see any friend or relation<lb/>
                of an ingenious man, if Abilities could be left like Elisha's<lb/>
                Mantle to a successor their prejudice would be justifiable<lb/>
                But Alas! I fear the Heir or relation of a celebrated man<lb/>
-               <del></del><lb/>
+               <del/>
+               <lb/>
                seldom resembles him in any thing but a name or some<lb/>
-               external peculiarity; but I think another and a more <choice><orig>rea-<lb/>
-                  -sonable</orig><reg>reasonable</reg></choice> cause may be assigned for this desire, a wish to <choice><orig>disco-<lb/>
-                     -ver</orig><reg>discover</reg></choice> the private character of one whose writings have given<lb/>
+               external peculiarity; but I think another and a more <choice>
+                  <orig>rea-<lb/>
+                  -sonable</orig>
+                  <reg>reasonable</reg>
+               </choice> cause may be assigned for this desire, a wish to <choice>
+                  <orig>disco-<lb/>
+                     -ver</orig>
+                  <reg>discover</reg>
+               </choice> the private character of one whose writings have given<lb/>
                us pleasure, or whom we have admired in a public capacity<lb/>
                <unclear>which</unclear> may be more readily discovered from little anecdotes<lb/>
                in his domestic life, than can be expected <add>from</add> the faint portrait<lb/>
                Historians have given us of him - <persName ref="./Personography.xml#GoldX1">M<hi rend="superscript">r</hi>. G.</persName> is a Cabinet Maker<lb/>
                and is esteemed ingenious in <hi rend="underline">his line of life</hi>. I fancy he is in<lb/>
                easy circumstances, but still one cannot help feeling a kind<lb/>
-               of regret that a Brother of so <choice><orig>ingenious ingenious</orig><reg>ingenious</reg></choice> a Man should<lb/>
+               of regret that a Brother of so <choice>
+                  <orig>ingenious ingenious</orig>
+                  <reg>ingenious</reg>
+               </choice> a Man should<lb/>
                pass through life neglected and unknown we expect that<lb/>
-               one who was so nearly connected with <del></del> <add>him</add> who has <choice><orig>render-<lb/>
-                  -ed</orig><reg>rendered</reg></choice> himself deserving of fame and whom we have been <choice><orig>accus-<lb/>
-               -tomed</orig><reg>accustomed</reg></choice> to respect should share in that respect &amp; partake in<lb/>
-               the fame he has acquired. -<lb/></p>
-            <p><persName ref="./Personography.xml#VanhX1">M<hi rend="superscript">rs</hi>.. Vanhock</persName> and <persName ref="./Personography.xml#VanX1">Miss Van</persName> often used to speak<lb/>
+               one who was so nearly connected with <del/>
+               <add>him</add> who has <choice>
+                  <orig>render-<lb/>
+                  -ed</orig>
+                  <reg>rendered</reg>
+               </choice> himself deserving of fame and whom we have been <choice>
+                  <orig>accus-<lb/>
+               -tomed</orig>
+                  <reg>accustomed</reg>
+               </choice> to respect should share in that respect &amp; partake in<lb/>
+               the fame he has acquired. -<lb/>
+            </p>
+            <p>
+               <persName ref="./Personography.xml#VanhX1">M<hi rend="superscript">rs</hi>.. Vanhock</persName> and <persName ref="./Personography.xml#VanX1">Miss Van</persName> often used to speak<lb/>
                in high terms of a <persName ref="./Personography.xml#IrwiX2">M<hi rend="superscript">r</hi>.. Irwin</persName> &amp; of his account of his Travels<lb/>
                <persName ref="./Personography.xml#IrwiX1">M<hi rend="superscript">rs</hi>.. Irwin</persName> is our nearest Neighbour, she has a very pretty<lb/>
                <persName ref="./Personography.xml#IrwiX3">Sister</persName> - she <del>is</del> seems generally liked by all the Neighbourhood<lb/>
                I have not seen enough of her to form any opinion of her<lb/>
-
-                  <pb n="3" facs="Edgeworth_Huntington_HM 28586_1782_10_07_page03.jpg"/>
+               <pb n="3" facs="Edgeworth_Huntington_HM 28586_1782_10_07_page03.jpg"/>
                   
                myself, and even if I had, I should be very cautious of giving<lb/>
-               it, in <hi rend="underline">writing</hi> until I was fearfully convinced it was a <hi rend="underline">just</hi><lb/>
+               it, in <hi rend="underline">writing</hi> until I was fearfully convinced it was a <hi rend="underline">just</hi>
+               <lb/>
                one - A false fact may be asserted, a hasty character may be<lb/>
                given in <hi rend="underline">conversa</hi>tion and may be pardoned or at least<lb/>
                is soon forgotten, but a person's <hi rend="underline">writing</hi> always remains on<lb/>
                record and may be produced at any time against them<lb/>
-                  You will then do me the justice my d.<hi rend="superscript">r</hi> <persName ref="./Personography.xml#HoarF1">Miss Robinson</persName> <del></del><lb/>
+                  You will then do me the justice my d.<hi rend="superscript">r</hi>
+               <persName ref="./Personography.xml#HoarF1">Miss Robinson</persName>
+               <del/>
+               <lb/>
                whenever you think I am too reserved in my letters to you<lb/>
                to attribute it to motives of prudence - and not to any want<lb/>
                of friendship, or want of confidence in you. Reserve may<lb/>
                prevent a friendship <add>being</add> formed suddenly, but I am inclined<lb/>
-               to believe that I those friendships last longest which <del></del><lb/>
+               to believe that I those friendships last longest which <del/>
+               <lb/>
                <add>are</add> longest in forming and those friends are generally most<lb/>
-               worth <del></del> obtaining whose regard it requires most<lb/>
+               worth <del/> obtaining whose regard it requires most<lb/>
                pains to gain.<lb/>
-               <persName ref="./Personography.xml#InxxX1">M<hi rend="superscript">r</hi>. <unclear>In<gap></gap></unclear></persName> abroad at <placeName ref="./Placeography.xml#Mumbai_IN">Bombay</placeName> where it is probable he will <gap></gap><lb/>
-               my Brother - There are two <del></del> fine drawings at <persName ref="./Personography.xml#BroxX1">M<hi rend="superscript">rs</hi>. Bro<gap></gap></persName><lb/>
-               his Mother in law's, drawn by his directions.<lb/></p>
-            <p>I had a letter to day from <persName ref="./Personography.xml#PourX1">Miss Pourys</persName> she said <persName ref="./Personography.xml#SmythX1">Miss Smyth</persName><lb/>
+               <persName ref="./Personography.xml#InxxX1">M<hi rend="superscript">r</hi>. <unclear>In<gap/>
+                  </unclear>
+               </persName> abroad at <placeName ref="./Placeography.xml#Mumbai_IN">Bombay</placeName> where it is probable he will <gap/>
+               <lb/>
+               my Brother - There are two <del/> fine drawings at <persName ref="./Personography.xml#BroxX1">M<hi rend="superscript">rs</hi>. Bro<gap/>
+               </persName>
+               <lb/>
+               his Mother in law's, drawn by his directions.<lb/>
+            </p>
+            <p>I had a letter to day from <persName ref="./Personography.xml#PourX1">Miss Pourys</persName> she said <persName ref="./Personography.xml#SmythX1">Miss Smyth</persName>
+               <lb/>
                had drank tea with her lately, they were well, I am sure they<lb/>
                are very happy in having so good a friend.<lb/>
-               My eyes are not yet <hi rend="underline">well</hi> but I shall have a tooth drawn next<unclear></unclear><lb/>
+               My eyes are not yet <hi rend="underline">well</hi> but I shall have a tooth drawn next<unclear/>
+               <lb/>
                Week, pour un dernier resort, which I hope will be of more service<lb/>
                to me than any anything I have hitherto tried.<lb/>
                I must reproach you with having neglected to answer two questions<lb/>
@@ -368,11 +407,12 @@
                If you like political subjects I have a great deal to say to you<lb/>
                on them but I will by no means force you to hear me.<lb/>
                Do not fail to remember me kindly to all, or <hi rend="underline">any</hi> of my<lb/>
-               friends in <placeName ref="./Placeography.xml#Wimpole_ENK">Wimpole S<hi rend="superscript">t</hi>.</placeName> you may chance to meet. <persName ref="./Personography.xml#AmicX1">M<hi rend="superscript">r</hi>. <unclear>Amici</unclear></persName><lb/>
+               friends in <placeName ref="./Placeography.xml#Wimpole_ENK">Wimpole S<hi rend="superscript">t</hi>.</placeName> you may chance to meet. <persName ref="./Personography.xml#AmicX1">M<hi rend="superscript">r</hi>. <unclear>Amici</unclear>
+               </persName>
+               <lb/>
                gone over to <placeName ref="./Placeography.xml#IT">Italy</placeName>! well he will be happier there than in<lb/>
                <placeName ref="./Placeography.xml#London_ENK">London</placeName>, for with all his discernment &amp; good sense he<lb/>
-                  
-                  <pb n="4" facs="Edgeworth_Huntington_HM 28586_1782_10_07_page04.jpg"/>
+               <pb n="4" facs="Edgeworth_Huntington_HM 28586_1782_10_07_page04.jpg"/>
                
                appeared rather too strongly tinctured with partiality<lb/>
                for the manners &amp; customs of his Countrymen<lb/>
@@ -382,23 +422,30 @@
                   heard any thing of <persName ref="./Personography.xml#DevisE1">M<hi rend="superscript">rs</hi>. D</persName>'s health. <persName ref="./Personography.xml#PowyX1">Miss Powys</persName> says it has<lb/>
                been but indifferent for some time past.<lb/>
                I do not know whether I who am myself too much inclined<lb/>
-               to take no exercise can be allowed to observe that, <hi rend="underline">that</hi><lb/>
+               to take no exercise can be allowed to observe that, <hi rend="underline">that</hi>
+               <lb/>
                   may be one cause of <persName ref="./Personography.xml#DevisE1">M<hi rend="superscript">rs</hi>. Devis</persName>'s want of Health joined to<lb/>
                her application and the anxiety she feels for the improvement<lb/>
-                  and health of the Young Ladies under her care.<lb/>            
-               </p>
+                  and health of the Young Ladies under her care.<lb/>
+            </p>
             <closer>
                I am my dear <persName ref="./Personography.xml#HoarF1">Miss Robinson</persName>, very sincerely your Friend<lb/>
-                     <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName><lb/>
+               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
+               <lb/>
                <address>
-                  <addrLine><persName ref="./Personography.xml#HoarF1">Miss Robinson</persName></addrLine>
-                  <addrLine><placeName ref="./Placeography.xml#Cranford_ENK">Cranford</placeName></addrLine>
-                  <addrLine><placeName ref="./Placeography.xml#Kettering_ENK">Kettering</placeName></addrLine>
-                  <addrLine><placeName ref="./Placeography.xml#ENK">England</placeName>.</addrLine>
+                  <addrLine>
+                     <persName ref="./Personography.xml#HoarF1">Miss Robinson</persName>
+                  </addrLine>
+                  <addrLine>
+                     <placeName ref="./Placeography.xml#Cranford_ENK">Cranford</placeName>
+                  </addrLine>
+                  <addrLine>
+                     <placeName ref="./Placeography.xml#Kettering_ENK">Kettering</placeName>
+                  </addrLine>
+                  <addrLine>
+                     <placeName ref="./Placeography.xml#ENK">England</placeName>.</addrLine>
                </address>
-               </closer>
-
-
+            </closer>
          </div>
       </body>
       <back> </back>

@@ -9,7 +9,7 @@
             <title>Letter from Maria Edgeworth to W. Jacob, December 2nd, 1823</title>
             <author>Maria Edgeworth</author>
             <editor ref="Id_who"> Jessica Richards </editor>
-               <editor ref="Id_who">Robin Runia<!--Editor on the Maria Edgeworth Letters Project overseeing the coding of this particular letter: FirstName LastName -->
+            <editor ref="Id_who">Robin Runia<!--Editor on the Maria Edgeworth Letters Project overseeing the coding of this particular letter: FirstName LastName -->
             </editor>
             <sponsor>
                <orgName>Maria Edgeworth Letters Project</orgName>
@@ -49,7 +49,7 @@
                <licence>Distributed under a Creative Commons Attribution-ShareAlike 3.0 Unported
                   License</licence>
             </availability>
-            <idno>Edgeworth_Morgan_196289_1823_12_02</idno> 
+            <idno>Edgeworth_Morgan_196289_1823_12_02</idno>
          </publicationStmt>
          <seriesStmt>
             <title>Maria Edgeworth Letters Project</title>
@@ -61,17 +61,16 @@
                   <collection><!-- Enter specific archival collection if applicable--></collection>
                   <idno><!--Consult library or WorldCat for this info--></idno>
                </msIdentifier>
-               
                <!-- FROM LAURA: it's here (below) in the head that I added the full information about the author,
                   and you could add full information about the addressee as well. -->
                <head>Letter from 
                      <persName xml:id="EdgeM1" from="1768" to="1849">
-                        <forename>Maria</forename>
-                        <surname>Edgeworth</surname>
-                        <date>1768-1849</date>
-                        <idno type="VIAF">71477273</idno>
-                        <idno type="SNAC">62567029</idno>
-                     </persName>
+                     <forename>Maria</forename>
+                     <surname>Edgeworth</surname>
+                     <date>1768-1849</date>
+                     <idno type="VIAF">71477273</idno>
+                     <idno type="SNAC">62567029</idno>
+                  </persName>
                    to <persName>William Jacob</persName>,
                   <date when="1823-12-02">Dec<hi rend="superscript">r</hi> 2<hi rend="superscript">nd</hi>, 1823.</date>
                </head>
@@ -79,7 +78,6 @@
                   <!-- optional physical description of the letter goes here: paper size and condition, seal, postmarks, etc.-->
                </physDesc>
             </msDesc>
-            
             <!-- FROM LAURA: where to put the following information in <bibl> is still a question: 
                ask TEI List whether it should be in the sourceDesc or elsewhere? -->
          </sourceDesc>
@@ -224,30 +222,51 @@
             </opener>
             <p>
                Can you do me the favor<lb/>
-               to receive and <del>forward</del><lb/>
+               to receive and <del>forward</del>
+               <lb/>
                obtain Government franks<lb/>
                to forward for me two or<lb/>
                three packets containing<lb/>
-               about 20 pages each of <choice><orig>M<hi rend="superscript">s.</hi></orig><reg>manuscripts</reg></choice><lb/>
+               about 20 pages each of <choice>
+                  <orig>M<hi rend="superscript">s.</hi>
+                  </orig>
+                  <reg>manuscripts</reg>
+               </choice>
+               <lb/>
                which I wish to send to two<lb/>
                or three friends in <placeName ref="./Placeography.xml#ENK"/>England<lb/>
                to be corrected for me -<lb/>
-               The <choice><orig>M<hi rend="superscript">s.</hi></orig><reg>manuscript</reg></choice> is a sequel to <title ref= "./Workography.xml#Harry1">Harry<lb/> and Lucy</title>
+               The <choice>
+                  <orig>M<hi rend="superscript">s.</hi>
+                  </orig>
+                  <reg>manuscript</reg>
+               </choice> is a sequel to <title ref="./Workography.xml#Harry1">Harry<lb/> and Lucy</title>
                - the first packet<lb/>
-               I should want to send <choice><orig>w<hi rend="superscript">d</hi>.</orig><reg>would</reg></choice><lb/>
-               be to M<hi rend="superscript">r.</hi> <persName ref="./Personography.xml#StrutW1"> William Strutt</persName> of<lb/>
+               I should want to send <choice>
+                  <orig>w<hi rend="superscript">d</hi>.</orig>
+                  <reg>would</reg>
+               </choice>
+               <lb/>
+               be to M<hi rend="superscript">r.</hi>
+               <persName ref="./Personography.xml#StrutW1"> William Strutt</persName> of<lb/>
                S<hi rend="superscript">t.</hi> Helens near <placeName ref="./Placeography.xml#Derby_ENK"/>Derby to correct<lb/>
-               the account of a cotton <choice><orig>manu-<lb/>
-                  factory</orig><reg>manufactory</reg></choice> - This I should wish<lb/>
+               the account of a cotton <choice>
+                  <orig>manu-<lb/>
+                  factory</orig>
+                  <reg>manufactory</reg>
+               </choice> - This I should wish<lb/>
                him to return to you &amp; by<lb/>
                your means to have returned<lb/>
                to me - The other packets<lb/>
-               would<lb/> <pb n="2" facs="Edgeworth_Morgan_196289_1823_12_02_page02.jpg"/>
+               would<lb/>
+               <pb n="2" facs="Edgeworth_Morgan_196289_1823_12_02_page02.jpg"/>
                be addressed to persons in<lb/>
                <placeName ref="./Placeography.xml#London_ENK"/>London &amp; would not therefore<lb/>
                require any franks to forward<lb/>
                them - but they would require<lb/>
-               <add>you<hi rend="superscript">r</hi></add><lb/>
+               <add>you<hi rend="superscript">r</hi>
+               </add>
+               <lb/>
                franks to send them back to<lb/>
                me - Can you manage this for<lb/>
                me - I know it is a great favor<lb/>
@@ -265,18 +284,21 @@
             </p>
             <p>
                I wish I could by telling you<lb/>
-               anything interesting or <choice><orig>entertain<lb/>
-                  ing</orig><reg>entertaining</reg></choice> earn one of your valuable<lb/>
+               anything interesting or <choice>
+                  <orig>entertain<lb/>
+                  ing</orig>
+                  <reg>entertaining</reg>
+               </choice> earn one of your valuable<lb/>
                letters but alas I have nothing<lb/>
                to tell you but that I am with<lb/>
                affectionate remembrances to all<lb/>
                of your family I have the pleasure to be<lb/>
             </p>
-
             <closer>
 
                Your obliged<lb/>
-               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName><lb/>
+               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
+               <lb/>
             </closer>
             <postscript>
                <p>
@@ -285,43 +307,64 @@
                   astonished all the good<lb/>
                   people of <placeName ref="./Placeography.xml#Dublin_IE"/>Dublin - natives<lb/>
                   &amp; foreigners by riding thro'<lb/>
-                  the streets in full <choice><orig>regimen-<lb/>
-                     tal</orig><reg>regimental</reg></choice> uniform, with a sword<lb/>
+                  the streets in full <choice>
+                     <orig>regimen-<lb/>
+                     tal</orig>
+                     <reg>regimental</reg>
+                  </choice> uniform, with a sword<lb/>
                   by her side richly emblazoned<lb/>
-                  with jewels, and on <choice><orig>Bona-<lb/>
-                     partes</orig><reg><persName ref="./Personography.xml#BonaN1">Bonaparte</persName>s</reg></choice> own white charger<lb/>
-                  reviewing her <persName ref="./Personography.xml#VaneC1">husbands</persName><lb/>
+                  with jewels, and on <choice>
+                     <orig>Bona-<lb/>
+                     partes</orig>
+                     <reg>
+                        <persName ref="./Personography.xml#BonaN1">Bonaparte</persName>s</reg>
+                  </choice> own white charger<lb/>
+                  reviewing her <persName ref="./Personography.xml#VaneC1">husbands</persName>
+                  <lb/>
                   regiment in the park along<lb/>
-                  with his <persName ref="./Personography.xml#VaneC1">Lordship</persName><lb/>
+                  with his <persName ref="./Personography.xml#VaneC1">Lordship</persName>
+                  <lb/>
                   The force of female folly<lb/>
-                  cannot no further go! w<hi rend="superscript">th</hi><lb/>
-                  The officers of the reg<hi rend="superscript">t.</hi><add>10th</add><lb/>
+                  cannot no further go! w<hi rend="superscript">th</hi>
+                  <lb/>
+                  The officers of the reg<hi rend="superscript">t.</hi>
+                  <add>10th</add>
+                  <lb/>
                gave her a ball in the<lb/>
                evening and she danced<lb/>
                   under the happy weight<lb/>
                one hundred and eight<lb/>
                thousand pounds! -<lb/>
                Interest on this<lb/>
-               calculate!<lb/> </p>
-            <p> 
-               <pb n="4" facs="Edgeworth_Morgan_196289_1823_12_02_page04.jpg"/>
+               calculate!<lb/>
+               </p>
+               <p>
+                  <pb n="4" facs="Edgeworth_Morgan_196289_1823_12_02_page04.jpg"/>
                Will you have the goodness<lb/>
                to have the enclosed put<lb/>
-               into the 2<hi rend="superscript">d.</hi> post -- M<hi rend="superscript">r.</hi> <persName ref="./Personography.xml#StrickX2">Strickland</persName><lb/>
+               into the 2<hi rend="superscript">d.</hi> post -- M<hi rend="superscript">r.</hi>
+                  <persName ref="./Personography.xml#StrickX2">Strickland</persName>
+                  <lb/>
                to whom it is addressed is a<lb/>
                man you would like - He<lb/>
                has been in <placeName ref="./Placeography.xml#IE"/>Ireland 4 years<lb/>
                managing the great estates of<lb/>
-               <persName ref="./Personography.xml#DilloH1">Lord Dillon</persName> -<lb/>
-            </p>
-               
-              <p><note>Dec<hi rend="superscript">r.</hi> 2 1823<lb/>
-                 <persName ref="./Personography.xml#EdgeM1">M Edgeworth</persName></note><lb/>
-              </p>
-            </postscript>      
+                  <persName ref="./Personography.xml#DilloH1">Lord Dillon</persName> -<lb/>
+               </p>
+               <p>
+                  <note>Dec<hi rend="superscript">r.</hi> 2 1823<lb/>
+                     <persName ref="./Personography.xml#EdgeM1">M Edgeworth</persName>
+                  </note>
+                  <lb/>
+               </p>
+            </postscript>
             <closer><!--Use the <closer> element again to hold Address Leaf information.-->
                <address>
-                  <addrLine><persName ref="./Personography.xml#JacoW1">W. Jacob Esq<hi rend="superscript">re</hi></persName></addrLine><lb/>
+                  <addrLine>
+                     <persName ref="./Personography.xml#JacoW1">W. Jacob Esq<hi rend="superscript">re</hi>
+                     </persName>
+                  </addrLine>
+                  <lb/>
                </address>
             </closer>
          </div>

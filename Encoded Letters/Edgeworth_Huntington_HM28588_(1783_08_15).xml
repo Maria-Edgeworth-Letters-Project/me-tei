@@ -5,27 +5,27 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
-            <titleStmt>
-               <title>Letter from Maria Edgeworth to Frances "Fanny" (Robinson) Hoare, [>8/15/1783]</title>
-               <author>Maria Edgeworth</author>
-               <editor ref="Id_who">
+         <titleStmt>
+            <title>Letter from Maria Edgeworth to Frances "Fanny" (Robinson) Hoare, [&gt;8/15/1783]</title>
+            <author>Maria Edgeworth</author>
+            <editor ref="Id_who">
                   Jamie Kramer<!--Editor on the Maria Edgeworth Letters Project overseeing the coding of this particular letter: FirstName LastName -->
                </editor>
-               <sponsor>
-                  <orgName>Maria Edgeworth Letters Project</orgName>
-               </sponsor>
-               <sponsor>Wake Forest University, University of Tennessee, Xavier University, Texas
+            <sponsor>
+               <orgName>Maria Edgeworth Letters Project</orgName>
+            </sponsor>
+            <sponsor>Wake Forest University, University of Tennessee, Xavier University, Texas
                   A&amp;M University</sponsor>
-               <principal>Jessica Richard, Hilary Havens, Robin Runia, Susan Egenolf</principal>
-               <respStmt>
-                  <resp>Transcription and coding by</resp>
-                  <persName ref="Id_who">Jamie Kramer<!--FirstName LastName-->
+            <principal>Jessica Richard, Hilary Havens, Robin Runia, Susan Egenolf</principal>
+            <respStmt>
+               <resp>Transcription and coding by</resp>
+               <persName ref="Id_who">Jamie Kramer<!--FirstName LastName-->
                   </persName>
-                  <!-- List all transcribers or coders here, editors and students alike, <persName> by <persName>.-->
-                  <persName ref="Id_who"><!--FirstName LastName--></persName>
-                  <!-- If you're the last person interacting with the file, enter your name last on the list -->
-               </respStmt>
-            </titleStmt>
+               <!-- List all transcribers or coders here, editors and students alike, <persName> by <persName>.-->
+               <persName ref="Id_who"><!--FirstName LastName--></persName>
+               <!-- If you're the last person interacting with the file, enter your name last on the list -->
+            </respStmt>
+         </titleStmt>
          <editionStmt>
             <edition>First digital edition in TEI, date: <date when="2023-01-12">
                </date>
@@ -40,8 +40,6 @@
                </resp>
             </respStmt>
          </editionStmt>
-         
-         
          <publicationStmt>
             <authority>Maria Edgeworth Letters Project</authority>
             <date>2023</date>
@@ -52,8 +50,7 @@
                <licence>Distributed under a Creative Commons Attribution-ShareAlike 3.0 Unported
                   License</licence>
             </availability>
-            
-            <idno>Edgeworth_Huntington_HM28588_(1783_08_15)</idno> 
+            <idno>Edgeworth_Huntington_HM28588_(1783_08_15)</idno>
          </publicationStmt>
          <seriesStmt>
             <title>Maria Edgeworth Letters Project</title>
@@ -68,15 +65,14 @@
                   <idno/>
                   <!--Consult library or WorldCat for this info-->
                </msIdentifier>
-               
                <head>Letter from 
                      <persName xml:id="ME" from="1768" to="1849">
-                        <forename>Maria</forename>
-                        <surname>Edgworth</surname>
-                        <date>1768-1849</date>
-                        <idno type="VIAF">71477273</idno>
-                        <idno type="SNAC">62567029</idno>
-                     </persName>
+                     <forename>Maria</forename>
+                     <surname>Edgworth</surname>
+                     <date>1768-1849</date>
+                     <idno type="VIAF">71477273</idno>
+                     <idno type="SNAC">62567029</idno>
+                  </persName>
                   to <persName ref="./Personography.xml#HoarF1"> Fanny Robinson [Frances Dorothea (Robinson) Hoare]</persName>,
                   <placeName ref="./Placeography.xml#Edgeworthstown_IE">Edgeworthstown</placeName>
                   <date when="1783-08-15">August 15, 1783</date>
@@ -87,7 +83,6 @@
             <bibl>In addition to our edited version, this letter was previously published in
                <!--complete bibiographical info if letter was published in a book here-->
             </bibl>
-            
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
@@ -100,7 +95,6 @@
                word is split at the end of a line and the beginning of the next in a manuscript. The
                long s and ligatured forms are silently emended.</p>
          </editorialDecl>
-         
          <classDecl>
             <taxonomy xml:id="relators">
                <bibl>Marc Relators</bibl>
@@ -217,10 +211,14 @@
             <taxonomy xml:id="places">
                <bibl>Places</bibl>
                <category>
-                  <catDesc xml:id="EdgeworthsTown">Edgeworths' Town<idno type="getty">tgn/1042937</idno></catDesc>
-                  <catDesc xml:id="Peterborough">Peterborough, UK<idno type="getty">tgn/7026520</idno></catDesc>
-                  <catDesc xml:id="CranfordI">Cranford, Ireland<idno type="getty">tgn/7901042</idno></catDesc>
-                  <catDesc xml:id="Kettering">Kettering, UK<idno type="getty">tgn/7010904</idno></catDesc>
+                  <catDesc xml:id="EdgeworthsTown">Edgeworths' Town<idno type="getty">tgn/1042937</idno>
+                  </catDesc>
+                  <catDesc xml:id="Peterborough">Peterborough, UK<idno type="getty">tgn/7026520</idno>
+                  </catDesc>
+                  <catDesc xml:id="CranfordI">Cranford, Ireland<idno type="getty">tgn/7901042</idno>
+                  </catDesc>
+                  <catDesc xml:id="Kettering">Kettering, UK<idno type="getty">tgn/7010904</idno>
+                  </catDesc>
                </category>
             </taxonomy>
             <taxonomy xml:id="period">
@@ -230,7 +228,6 @@
                </category>
             </taxonomy>
          </classDecl>
-         
       </encodingDesc>
       <profileDesc>
          <correspDesc>
@@ -241,7 +238,6 @@
                <persName ref="./Personography.xml#HoarF1"> Fanny Robinson [Frances Dorothea (Robinson) Hoare]</persName>
             </correspAction>
          </correspDesc>
-         
          <textClass>
             <keywords scheme="">
                <list type="simple">
@@ -263,69 +259,125 @@
       <body>
          <div type="letter">
             <pb n="1" facs="Edgeworth_Huntington_HM28588_(1783_08_15)_page01.jpg"/>
-            <p>	Thank you my dear <persName ref="./Personography.xml#HoarF1">Miss Robinson</persName> for your <del>kind</del><lb/>
+            <p>	Thank you my dear <persName ref="./Personography.xml#HoarF1">Miss Robinson</persName> for your <del>kind</del>
+               <lb/>
                letter &amp; I am much obliged to you &amp; <persName ref="./Personography.xml#HoarF1">Lady Robinson</persName> for<lb/>
                your kind wish of seeing me at <placeName ref="./Placeography.xml#Cranford_ENK">Cranford</placeName>; if ever I<lb/>
                should go into that part of <placeName ref="./Placeography.xml#ENK">England</placeName>, which I fear<lb/>
                is highly improbable I should certainly not neglect<lb/>
                to pay my respects to her Ladyship or to renew my<lb/>
-               acquaintance <hi rend="underline">in person</hi> with her agreeable <choice><orig>daugh-<lb/>
-                  -ter </orig><reg>daughter</reg></choice>- I am going on though not with so much<lb/>
+               acquaintance <hi rend="underline">in person</hi> with her agreeable <choice>
+                  <orig>daugh-<lb/>
+                  -ter </orig>
+                  <reg>daughter</reg>
+               </choice>- I am going on though not with so much<lb/>
                alacrity with the work I have began, for the first<lb/>
                volume has been gone some time and we are afraid<lb/>
                as we have heard no news of it, that some accident<lb/>
-               has befallen it - Alas it would be a woeful <unclear>mischanc</unclear><lb/>
+               has befallen it - Alas it would be a woeful <unclear>mischanc</unclear>
+               <lb/>
                enough to discourage a poor scribbler at her first<lb/>
-               setting out - however I shall begin the <unclear>third</unclear> <choice><orig>vo-<lb/>
-                  -lume </orig><reg>volume</reg></choice>next week - how we are talking of<lb/>
-               Books pray have you read a new work of <persName ref="./Personography.xml#GenlS1"><choice><orig>Mad<hi rend="superscript">me</hi>..-<lb/>
-                  -de Genlis</orig><reg>Madame de Genlis</reg></choice></persName> the same lady who wrote <title ref= "./Workography.xml#Theat1"> Le theatre d'<choice><orig><unclear>Edu-</unclear><lb/>
-                     -cation </orig><reg>Education</reg></choice></title>which you used to be so fond of, the title<lb/>
-               of it is <title ref= "./Workography.xml#Adela1">Lettres sur L'Education</title> ? if you have what<lb/>
-            <pb n="2" facs="Edgeworth_Huntington_HM28588_(1783_08_15)_page02.jpg"/>
+               setting out - however I shall begin the <unclear>third</unclear>
+               <choice>
+                  <orig>vo-<lb/>
+                  -lume </orig>
+                  <reg>volume</reg>
+               </choice>next week - how we are talking of<lb/>
+               Books pray have you read a new work of <persName ref="./Personography.xml#GenlS1">
+                  <choice>
+                     <orig>Mad<hi rend="superscript">me</hi>..-<lb/>
+                  -de Genlis</orig>
+                     <reg>Madame de Genlis</reg>
+                  </choice>
+               </persName> the same lady who wrote <title ref="./Workography.xml#Theat1"> Le theatre d'<choice>
+                     <orig>
+                        <unclear>Edu-</unclear>
+                        <lb/>
+                     -cation </orig>
+                     <reg>Education</reg>
+                  </choice>
+               </title>which you used to be so fond of, the title<lb/>
+               of it is <title ref="./Workography.xml#Adela1">Lettres sur L'Education</title> ? if you have what<lb/>
+               <pb n="2" facs="Edgeworth_Huntington_HM28588_(1783_08_15)_page02.jpg"/>
                do you think of it? If you have not I think it very well<lb/>
                worth reading if you should have an opportunity -<lb/>
-               <title ref= "./Workography.xml#Annal2">Les Annales de la Vertu</title> 3 vol<hi rend="superscript">s</hi> are advertized I see in the<lb/>
+               <title ref="./Workography.xml#Annal2">Les Annales de la Vertu</title> 3 vol<hi rend="superscript">s</hi> are advertized I see in the<lb/>
                last papers by the same Author - I have not yet read<lb/>
                this last work - <persName ref="./Personography.xml#GenlS1">She</persName> is a very indefatigable &amp; a very<lb/>
                constant Writer for all her <del>her</del> works are on the same<lb/>
                subject - this is the least that can be said of her - the<lb/>
-               rest you will judge of yourself - I was very much <choice><orig>pleas-<lb/>
-               -ed </orig><reg>pleased</reg></choice>with a book I met with lately it is written by the<lb/>
-               celebrated <persName ref="./Personography.xml#RaynG1">Abbe Raynal</persName> the title of it is <title ref= "./Workography.xml#Anecd1">Anecdotes<lb/>
+               rest you will judge of yourself - I was very much <choice>
+                  <orig>pleas-<lb/>
+               -ed </orig>
+                  <reg>pleased</reg>
+               </choice>with a book I met with lately it is written by the<lb/>
+               celebrated <persName ref="./Personography.xml#RaynG1">Abbe Raynal</persName> the title of it is <title ref="./Workography.xml#Anecd1">Anecdotes<lb/>
                   historiques</title>  2 vols it contains a history of some very<lb/>
-               important <unclear>Revolutions</unclear>, of <placeName ref="./Placeography.xml#SE">Sweden</placeName>, under <persName ref="./Personography.xml#VasaG1"><choice><orig>Gusta-<lb/>
-                  -vus</orig><reg></reg></choice> Vasa</persName>, the reign of <persName ref="./Personography.xml#Charl5"> Charles the fifth</persName>, the <choice><orig>conspira-<lb/>
-                     -cy</orig><reg>conspiracy</reg></choice> of Fiesque in <placeName ref="./Placeography.xml#Genoa_IT">Genoa</placeName>, the divorce between <persName ref="./Personography.xml#Henry8">Henry<lb/>
+               important <unclear>Revolutions</unclear>, of <placeName ref="./Placeography.xml#SE">Sweden</placeName>, under <persName ref="./Personography.xml#VasaG1">
+                  <choice>
+                     <orig>Gusta-<lb/>
+                  -vus</orig>
+                     <reg/>
+                  </choice> Vasa</persName>, the reign of <persName ref="./Personography.xml#Charl5"> Charles the fifth</persName>, the <choice>
+                  <orig>conspira-<lb/>
+                     -cy</orig>
+                  <reg>conspiracy</reg>
+               </choice> of Fiesque in <placeName ref="./Placeography.xml#Genoa_IT">Genoa</placeName>, the divorce between <persName ref="./Personography.xml#Henry8">Henry<lb/>
                      the Eighth</persName> &amp; <persName ref="./Personography.xml#CathA1"> Catherine</persName> when the protestant religion<lb/>
                was established in <placeName ref="./Placeography.xml#ENK">England</placeName> this is the most <hi rend="underline">un</hi>in<lb/>
                teresting part of the Work - the revolution under<lb/>
                <persName ref="./Personography.xml#VasaG1">Gustavus Vasa</persName> &amp; the Conspiracies of Fiesque are<lb/>
                the <hi rend="underline">best</hi> part <add> of it</add> I think - I should think a very good<lb/>
-             <pb n="3" facs="Edgeworth_Huntington_HM28588_(1783_08_15)_page03.jpg"/>   
+               <pb n="3" facs="Edgeworth_Huntington_HM28588_(1783_08_15)_page03.jpg"/>   
                play might be founded <add>on</add>the conspiracy of Fiesque:<lb/>
-               <persName ref="./Personography.xml#FiesG1">the Count</persName> <del><unclear></unclear></del> is a fine, strongly marked, <choice><orig>enter<lb/>
-                  -prizing</orig><reg>enterprizing</reg></choice>, ambitious, character, <add><persName ref="./Personography.xml#CiboE1">his wife</persName></add> his brothers &amp; two of<lb/>
-               his friends would also form good theatrical <choice><orig>cha-<lb/>
-               -racters </orig><reg>characters</reg></choice>- the plot is simple &amp; the action would<lb/>
+               <persName ref="./Personography.xml#FiesG1">the Count</persName>
+               <del>
+                  <unclear/>
+               </del> is a fine, strongly marked, <choice>
+                  <orig>enter<lb/>
+                  -prizing</orig>
+                  <reg>enterprizing</reg>
+               </choice>, ambitious, character, <add>
+                  <persName ref="./Personography.xml#CiboE1">his wife</persName>
+               </add> his brothers &amp; two of<lb/>
+               his friends would also form good theatrical <choice>
+                  <orig>cha-<lb/>
+               -racters </orig>
+                  <reg>characters</reg>
+               </choice>- the plot is simple &amp; the action would<lb/>
                not exceed the usual limited time of a day &amp; a night<lb/>
                If it falls in your way, I should be glad to know your<lb/>
                opinion of it - You ask me if my Italian is flown<lb/>
-               over to <placeName ref="./Placeography.xml#ENK">Eng</placeName> &amp; <placeName ref="./Placeography.xml#IT">Italy</placeName> with <persName ref="./Personography.xml#AmicX1"> M<hi rend="superscript">r</hi>. Amici</persName>? - I shall have <choice><orig>lei-<lb/>
-               sure</orig><reg>leisure</reg></choice> to read &amp; study Italian next summer but at<lb/>
+               over to <placeName ref="./Placeography.xml#ENK">Eng</placeName> &amp; <placeName ref="./Placeography.xml#IT">Italy</placeName> with <persName ref="./Personography.xml#AmicX1"> M<hi rend="superscript">r</hi>. Amici</persName>? - I shall have <choice>
+                  <orig>lei-<lb/>
+               sure</orig>
+                  <reg>leisure</reg>
+               </choice> to read &amp; study Italian next summer but at<lb/>
                present I shall be very glad if I preserve what I know<lb/>
-               already - which in truth is very little - - -<lb/></p>
+               already - which in truth is very little - - -<lb/>
+            </p>
             <p>You have mentioned in several letters that you<lb/>
                were going to Balls - I have an odd question to ask you<lb/>
                Are you <hi rend="underline">happier</hi> at a Ball than anywhere else?<lb/>
-               You will laugh &amp; say to be sure I <del></del>am; &amp; perhaps you<lb/>
-               will ask me why I make such an uncommon <choice><orig>in-<lb/>
-                  -quiry</orig><reg>inquiry</reg></choice>? I will tell you why - because I am inclined<lb/>
-               to believe <del><unclear></unclear><unclear>what I have not need of my company</unclear></del><lb/>
-               that it is the preparations, the <unclear>Musick</unclear>, the <unclear>dress</unclear><lb/>
-             <pb n="4" facs="Edgeworth_Huntington_HM28588_(1783_08_15)_page04.jpg"/>  
-               <add>the praise &amp;</add> the bustle which constitute the charms of a Ball - <choice><orig>there-<lb/>
-                  -fore</orig><reg>therefore</reg></choice> will you my dear <persName ref="./Personography.xml#HoarF1">Miss Robinson</persName> favor me with<lb/>
+               You will laugh &amp; say to be sure I <del/>am; &amp; perhaps you<lb/>
+               will ask me why I make such an uncommon <choice>
+                  <orig>in-<lb/>
+                  -quiry</orig>
+                  <reg>inquiry</reg>
+               </choice>? I will tell you why - because I am inclined<lb/>
+               to believe <del>
+                  <unclear/>
+                  <unclear>what I have not need of my company</unclear>
+               </del>
+               <lb/>
+               that it is the preparations, the <unclear>Musick</unclear>, the <unclear>dress</unclear>
+               <lb/>
+               <pb n="4" facs="Edgeworth_Huntington_HM28588_(1783_08_15)_page04.jpg"/>
+               <add>the praise &amp;</add> the bustle which constitute the charms of a Ball - <choice>
+                  <orig>there-<lb/>
+                  -fore</orig>
+                  <reg>therefore</reg>
+               </choice> will you my dear <persName ref="./Personography.xml#HoarF1">Miss Robinson</persName> favor me with<lb/>
                an exact and clear answer to this question - but I must<lb/>
                beg you to deduct the <add>Degrees of</add>pleasure which arise from all<lb/>
                the things I have mentioned; if afterwards you find that<lb/>
@@ -333,51 +385,81 @@
                of those causes I wish you would find out what<lb/>
                it arises from &amp; let me know -. our tastes do not in<lb/>
                these respects, <hi rend="underline">I believe</hi>, agree but I see the obvious<lb/>
-               cause for their disagreeing - you have a very <choice><orig>agree-<lb/>
-               -able</orig><reg>agreeable</reg></choice> person, agreeable manner &amp; many external<lb/>
+               cause for their disagreeing - you have a very <choice>
+                  <orig>agree-<lb/>
+               -able</orig>
+                  <reg>agreeable</reg>
+               </choice> person, agreeable manner &amp; many external<lb/>
                accomplishments which I want ; you are active<lb/>
                nimble &amp; dance well, I am awkward &amp; dance very<lb/>
                ill, it is not therefore in the least surprizing that you<lb/>
-               should be happy in a ball room where you are <choice><orig>prais-<lb/>
-                  -ed</orig><reg>praised</reg></choice> &amp; at least equal <add>to</add> others in those qualifications<lb/>
+               should be happy in a ball room where you are <choice>
+                  <orig>prais-<lb/>
+                  -ed</orig>
+                  <reg>praised</reg>
+               </choice> &amp; at least equal <add>to</add> others in those qualifications<lb/>
                which shine most in publick Assemblies or that I on<lb/>
                the contrary with every <hi rend="underline">personal</hi>disadvantage<lb/>
-               &amp; others which arise from awkwardness &amp; <del></del><lb/>
-             <pb n="5" facs="Edgeworth_Huntington_HM28588_(1783_08_15)_page05.jpg"/>  
+               &amp; others which arise from awkwardness &amp; <del/>
+               <lb/>
+               <pb n="5" facs="Edgeworth_Huntington_HM28588_(1783_08_15)_page05.jpg"/>  
                Mauvaise <unclear>nouse</unclear> should feel myself much less at my ease<lb/>
                in company , than amongst friends who set little<lb/>
-               <hi rend="underline">comparitive</hi>value on such Qualifications - <choice><orig>><hi rend="underline">compari</hi><lb/>
-               -<hi rend="underline">tive</hi></orig><reg>comparative</reg></choice> value I said for because I want them myself I would<lb/>
+               <hi rend="underline">comparitive</hi>value on such Qualifications - <choice>
+                  <orig>&gt;<hi rend="underline">compari</hi>
+                     <lb/>
+               -<hi rend="underline">tive</hi>
+                  </orig>
+                  <reg>comparative</reg>
+               </choice> value I said for because I want them myself I would<lb/>
                not depreciate them in others; I know their value; for I know<lb/>
-               the want of them; &amp; the pain arising from that want is <choice><orig>cer-<lb/>
-                  -tainly</orig><reg>certainly</reg></choice> the most exact measure of their worth - You know<lb/>
+               the want of them; &amp; the pain arising from that want is <choice>
+                  <orig>cer-<lb/>
+                  -tainly</orig>
+                  <reg>certainly</reg>
+               </choice> the most exact measure of their worth - You know<lb/>
                I used to be laughed at for my definitions &amp; told that I<lb/>
                should sit up by a lamp like the philosophers of old; but<lb/>
                however I am not to be ridiculed out of a good thing<lb/>
-               a girl of fifteen &amp; a philosopher when joined sound <choice><orig>ridi<lb/>
-               -culous </orig><reg>ridiculous</reg></choice>to be sure: but if we attend to the thing &amp; not to the<del>m</del><lb/>
-             <pb n="6" facs="Edgeworth_Huntington_HM28588_(1783_08_15)_page06.jpg"/>   
+               a girl of fifteen &amp; a philosopher when joined sound <choice>
+                  <orig>ridi<lb/>
+               -culous </orig>
+                  <reg>ridiculous</reg>
+               </choice>to be sure: but if we attend to the thing &amp; not to the<del>m</del>
+               <lb/>
+               <pb n="6" facs="Edgeworth_Huntington_HM28588_(1783_08_15)_page06.jpg"/>   
                to despise what it either <hi rend="underline">does</hi> not or <hi rend="underline">will</hi> not understand<lb/>
                I think you did not say you had seen <persName ref="./Personography.xml#BurnF1"> Miss Burney</persName> yourself<lb/>
                I wish you had for I wish very much to know what kind of<lb/>
-               woman she is - Whenever you write to <placeName ref="./Placeography.xml#Wimpole_ENK"> Wimpole S<hi rend="superscript">t</hi></placeName>. remem<lb/>
+               woman she is - Whenever you write to <placeName ref="./Placeography.xml#Wimpole_ENK"> Wimpole S<hi rend="superscript">t</hi>
+               </placeName>. remem<lb/>
                -ber <add>me</add> to all my friends: you said <persName ref="./Personography.xml#VanX1"> Miss Van</persName> would probably be<lb/>
-               gone by the time you return how comes that?- -<lb/></p>
+               gone by the time you return how comes that?- -<lb/>
+            </p>
             <p>I beg you will give my love to all the young ladies I know<lb/>
                with whom you correspond - &amp; tell them that I have not<lb/>
                forgotten them - I believe in some of your musick-<lb/>
-               -books you have a song said to be written by <persName ref="./Personography.xml#LyttG1"> Lord <choice><orig>Little<lb/>
-                  -ton</orig><reg>Littleton</reg></choice></persName> on the death of <persName ref="./Personography.xml#LyttL1"> his wife</persName>, if it would not be giving<lb/>
+               -books you have a song said to be written by <persName ref="./Personography.xml#LyttG1"> Lord <choice>
+                     <orig>Little<lb/>
+                  -ton</orig>
+                     <reg>Littleton</reg>
+                  </choice>
+               </persName> on the death of <persName ref="./Personography.xml#LyttL1"> his wife</persName>, if it would not be giving<lb/>
                you a great deal of trouble to copy it I should ask the<lb/>
-               favor of you to send it me for I think the poetry is <choice><orig>re-<lb/>
-                  -markably</orig><reg>remarkably</reg></choice> elegant &amp; I have never been able to meet<lb/>
+               favor of you to send it me for I think the poetry is <choice>
+                  <orig>re-<lb/>
+                  -markably</orig>
+                  <reg>remarkably</reg>
+               </choice> elegant &amp; I have never been able to meet<lb/>
                with it since I left <persName ref="./Personography.xml#DeviE1"> M<hi rend="superscript">rs</hi>. Devis</persName>'s - the name of the<lb/>
-               lady is <persName ref="./Personography.xml#LyttL1"> Lucy</persName> - Adieu my dear <persName ref="./Personography.xml#HoarF1">Miss Robinson</persName><lb/>            
+               lady is <persName ref="./Personography.xml#LyttL1"> Lucy</persName> - Adieu my dear <persName ref="./Personography.xml#HoarF1">Miss Robinson</persName>
+               <lb/>
             </p>
-             <closer> 
+            <closer> 
                I am your's affectionately<lb/>
-                <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName><lb/>
-             </closer>
+               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
+               <lb/>
+            </closer>
          </div>
       </body>
       <back> </back>

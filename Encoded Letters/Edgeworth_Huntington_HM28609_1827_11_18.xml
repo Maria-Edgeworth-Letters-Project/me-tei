@@ -9,7 +9,9 @@
             <title>
                Letter from Maria Edgeworth to Sir Francis Beaufort, 11/18/1827
             </title>
-            <author><persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName></author>
+            <author>
+               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
+            </author>
             <editor ref="Id_who">
             Jamie Kramer
             </editor>
@@ -46,8 +48,6 @@
                </resp>
             </respStmt>
          </editionStmt>
-         
-         
          <publicationStmt>
             <authority>Maria Edgeworth Letters Project</authority>
             <date>2023</date>
@@ -58,10 +58,9 @@
                <licence>Distributed under a Creative Commons Attribution-ShareAlike 3.0 Unported
                   License</licence>
             </availability>
-            
             <idno>
                Edgeworth_Huntington_HM28609_1827_11_18
-            </idno> 
+            </idno>
          </publicationStmt>
          <seriesStmt>
             <title>Maria Edgeworth Letters Project</title>
@@ -79,7 +78,6 @@
                   <idno/>
                   <!--Consult library or WorldCat for this info-->
                </msIdentifier>
-               
                <head>Letter from 
                   <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
                   to <persName ref="./Personography.xml#BeauF1">Sir Francis Beaufort</persName>, 
@@ -91,7 +89,6 @@
             <bibl>In addition to our edited version, this letter was previously published in
                <!--complete bibiographical info if letter was published in a book here-->
             </bibl>
-            
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
@@ -104,7 +101,6 @@
                word is split at the end of a line and the beginning of the next in a manuscript. The
                long s and ligatured forms are silently emended.</p>
          </editorialDecl>
-         
          <classDecl>
             <taxonomy xml:id="relators">
                <bibl>Marc Relators</bibl>
@@ -221,10 +217,14 @@
             <taxonomy xml:id="places">
                <bibl>Places</bibl>
                <category>
-                  <catDesc xml:id="EdgeworthsTown">Edgeworths' Town<idno type="getty">tgn/1042937</idno></catDesc>
-                  <catDesc xml:id="Peterborough">Peterborough, UK<idno type="getty">tgn/7026520</idno></catDesc>
-                  <catDesc xml:id="CranfordI">Cranford, Ireland<idno type="getty">tgn/7901042</idno></catDesc>
-                  <catDesc xml:id="Kettering">Kettering, UK<idno type="getty">tgn/7010904</idno></catDesc>
+                  <catDesc xml:id="EdgeworthsTown">Edgeworths' Town<idno type="getty">tgn/1042937</idno>
+                  </catDesc>
+                  <catDesc xml:id="Peterborough">Peterborough, UK<idno type="getty">tgn/7026520</idno>
+                  </catDesc>
+                  <catDesc xml:id="CranfordI">Cranford, Ireland<idno type="getty">tgn/7901042</idno>
+                  </catDesc>
+                  <catDesc xml:id="Kettering">Kettering, UK<idno type="getty">tgn/7010904</idno>
+                  </catDesc>
                </category>
             </taxonomy>
             <taxonomy xml:id="period">
@@ -234,7 +234,6 @@
                </category>
             </taxonomy>
          </classDecl>
-         
       </encodingDesc>
       <profileDesc>
          <correspDesc>
@@ -245,7 +244,6 @@
                <persName ref="./Personography.xml#BeauF1">Sir Francis Beaufort</persName>
             </correspAction>
          </correspDesc>
-         
          <textClass>
             <keywords scheme="">
                <list type="simple">
@@ -269,10 +267,14 @@
             <pb n="1" facs="Edgeworth_Huntington_HM28609_1827_11_18_page01.jpg"/>
             <opener>
                <dateline>
-                  <placeName ref="./Placeography.xml#Edgeworthstown_IE">Edgeworths Town</placeName><lb/>
-                  <date when="1827-11-18">Nov.<hi rend="superscript">r</hi> 18.<hi rend="superscript">th</hi> 1827.</date></dateline><lb/>
+                  <placeName ref="./Placeography.xml#Edgeworthstown_IE">Edgeworths Town</placeName>
+                  <lb/>
+                  <date when="1827-11-18">Nov.<hi rend="superscript">r</hi> 18.<hi rend="superscript">th</hi> 1827.</date>
+               </dateline>
+               <lb/>
                <salute>
-                  My dear <persName ref="./Personography.xml#BeauF1">friend</persName><lb/>
+                  My dear <persName ref="./Personography.xml#BeauF1">friend</persName>
+                  <lb/>
                </salute>
             </opener>
             <p>I must trouble you to read the<lb/>
@@ -290,14 +292,14 @@
                I offered then to deduct from
                the copy right whatever he after
                the promised years experience
-               sh<hi rend="superscript">d </hi>find <add>or <hi rend="underline">think</hi></add> he had lost by the
+               sh<hi rend="superscript">d </hi>find <add>or <hi rend="underline">think</hi>
+               </add> he had lost by the
                book - His own answer <date when="1826-02-23">Feb 23<hi rend="superscript">d</hi>
                1826</date> - declines accepting my<lb/>
                proffered deduction &amp; only<lb/>
                accepts my offer of delaying<lb/>
                payment -<lb/>
                <date when="1826-12">Dec.<hi rend="superscript">r</hi> 1826</date> - he again asks me to<lb/>
-
                <pb n="2" facs="Edgeworth_Huntington_HM28609_1827_11_18_page02.jpg"/>
                
                delay the promised payment<lb/>
@@ -305,9 +307,11 @@
                even hinting that he had lost<lb/>
                by the publication - I acceded<lb/>
                to the delay - &amp; told him (of course)<lb/>
-               that I would not take the <unclear>int</unclear><lb/>
-               which he offered -<lb/></p>
-               <p>I make no doubt that<lb/>
+               that I would not take the <unclear>int</unclear>
+               <lb/>
+               which he offered -<lb/>
+            </p>
+            <p>I make no doubt that<lb/>
                his statements of <hi rend="underline">accounts</hi> are<lb/>
                true - but I think his losses<lb/>
                may in great measure arise<lb/>
@@ -324,8 +328,7 @@
                I leave the letter in your<lb/>
                hands to deliver or not as you<lb/>
                think proper - If you see any<lb/>
-
-                  <pb n="3" facs="Edgeworth_Huntington_HM28609_1827_11_18_page03.jpg"/>
+               <pb n="3" facs="Edgeworth_Huntington_HM28609_1827_11_18_page03.jpg"/>
                   
                thing in it that you as my friend<lb/>
                wish altered I am sure you<lb/>
@@ -334,47 +337,63 @@
                I have not pledged or spent any<lb/>
                part of this <unclear>100 £</unclear>- though I own<lb/>
                I depend on its payment as<lb/>
-               securely the ensuing <choice><abbr>Jan.<hi rend="superscript">y</hi></abbr><reg>January</reg></choice> as<lb/>
+               securely the ensuing <choice>
+                  <abbr>Jan.<hi rend="superscript">y</hi>
+                  </abbr>
+                  <reg>January</reg>
+               </choice> as<lb/>
                if it had been in bank - I had<lb/>
-               intended to have had the <choice><orig>plea-<lb/>
-                  sure</orig><reg>pleasure</reg></choice> of giving it and that is all<lb/>
-               I lose in reality -<lb/></p>
-               <p>When <persName ref="./Personography.xml#BrewD1">Doctor Brewster</persName> was<lb/>
+               intended to have had the <choice>
+                  <orig>plea-<lb/>
+                  sure</orig>
+                  <reg>pleasure</reg>
+               </choice> of giving it and that is all<lb/>
+               I lose in reality -<lb/>
+            </p>
+            <p>When <persName ref="./Personography.xml#BrewD1">Doctor Brewster</persName> was<lb/>
                here a few months ago he kindly<lb/>
                urged me to let him and a<lb/>
-               society of literary men at <placeName ref="./Placeography.xml#Edinburgh_STK"><choice><orig>Edin<lb/>
-                  burgh</orig><reg>Edinburgh</reg></choice></placeName> publish any future<lb/>
+               society of literary men at <placeName ref="./Placeography.xml#Edinburgh_STK">
+                  <choice>
+                     <orig>Edin<lb/>
+                  burgh</orig>
+                     <reg>Edinburgh</reg>
+                  </choice>
+               </placeName> publish any future<lb/>
                book for me - he assured me<lb/>
                that as they employ printers<lb/>
                without the <hi rend="underline">middleman</hi> called<lb/>
                a publisher they find they can<lb/>
                afford to give more copyright<lb/>
                than is usually given by publishers<lb/>
-               - When I told him what <persName ref="./Personography.xml#HuntX1">Hunter</persName><lb/>
+               - When I told him what <persName ref="./Personography.xml#HuntX1">Hunter</persName>
+               <lb/>
                was to give me for <title ref="./Workography.xml#Early2">H &amp; L</title> - he<lb/>
                said we could give you a third<lb/>
                more - When he spoke of a future<lb/>
-
-                  <pb n="4" facs="Edgeworth_Huntington_HM28609_1827_11_18_page04.jpg"/>
-                  
-               <del>publication</del> <add>book</add> which I had told him<lb/>
+               <pb n="4" facs="Edgeworth_Huntington_HM28609_1827_11_18_page04.jpg"/>
+               <del>publication</del>
+               <add>book</add> which I had told him<lb/>
                I was thinking of beginning to<lb/>
                write he urged me to consider<lb/>
                my own interest I replied that<lb/>
-               I felt myself engaged to <persName ref="./Personography.xml#HuntX1">Hunter</persName><lb/>
+               I felt myself engaged to <persName ref="./Personography.xml#HuntX1">Hunter</persName>
+               <lb/>
                and that whether engaged or<lb/>
                not I never would quit him<lb/>
                as long as he should continue<lb/>
-               to wish to publish for me -<lb/></p>
-               <p>But what he has now written<lb/>
+               to wish to publish for me -<lb/>
+            </p>
+            <p>But what he has now written<lb/>
                to me I think alters the case -<lb/>
                and as he assures me that he<lb/>
                is no gainer by my publications<lb/>
                do you not think I am now<lb/>
                right in telling him as I do in<lb/>
                my letter that all accounts are<lb/>
-               closed between us? -<lb/></p>
-               <p>You perceive that I have<lb/>
+               closed between us? -<lb/>
+            </p>
+            <p>You perceive that I have<lb/>
                not hinted to him anything<lb/>
                of my intention to write a new<lb/>
                work because I did not think<lb/>
@@ -383,42 +402,52 @@
                - but I am anxious to know<lb/>
                your opinion on this point for my<lb/>
                own satisfaction - I must<lb/>
-
-                  <pb n="5" facs="Edgeworth_Huntington_HM28609_1827_11_18_page05.jpg"/>
+               <pb n="5" facs="Edgeworth_Huntington_HM28609_1827_11_18_page05.jpg"/>
                   
                add my dear <persName ref="./Personography.xml#BeauF1">Francis</persName> for your satisfaction<lb/>
                that whatever little present mortification<lb/>
                I may feel in hearing that the sale of<lb/>
-               <title ref="./Workography.xml#Early2">Harry &amp; Lucy</title> is so <hi rend="underline">slow</hi>, is nothing in <choice><orig>compar-<lb/>
-                  ison</orig><reg>comparison</reg></choice> with the heartfelt pleasure I have in<lb/>
+               <title ref="./Workography.xml#Early2">Harry &amp; Lucy</title> is so <hi rend="underline">slow</hi>, is nothing in <choice>
+                  <orig>compar-<lb/>
+                  ison</orig>
+                  <reg>comparison</reg>
+               </choice> with the heartfelt pleasure I have in<lb/>
                knowing that those whom I consider as the<lb/>
-               <hi rend="underline">best</hi> judges approve of the book &amp; think it <choice><orig>wor-<lb/>
-                  -thy</orig><reg>worthy</reg></choice> of <title ref="./Workography.xml#Early2">the first part of H &amp; L</title> - I feel that the<lb/>
-               infinite pains which you &amp; my dear <persName ref= "./Personography.xml#BeauH1">Honora</persName><lb/>
-               and <persName ref= "./Personography.xml#EdgeF3">Fanny</persName> &amp; <persName ref= "./Personography.xml#EdgeW1">William</persName> bestowed upon it have<lb/>
+               <hi rend="underline">best</hi> judges approve of the book &amp; think it <choice>
+                  <orig>wor-<lb/>
+                  -thy</orig>
+                  <reg>worthy</reg>
+               </choice> of <title ref="./Workography.xml#Early2">the first part of H &amp; L</title> - I feel that the<lb/>
+               infinite pains which you &amp; my dear <persName ref="./Personography.xml#BeauH1">Honora</persName>
+               <lb/>
+               and <persName ref="./Personography.xml#EdgeF3">Fanny</persName> &amp; <persName ref="./Personography.xml#EdgeW1">William</persName> bestowed upon it have<lb/>
                not been thrown away - It has gained far more<lb/>
                credit in the literary world than I or I dare<lb/>
                say than you ever expected - But it was not<lb/>
                written either for fame or money - The object I had<lb/>
-               in view has been fully &amp; to me delightfully <choice><orig>ac-<lb/>
-                  complished</orig><reg>accomplished</reg></choice> - I would go over again all the<lb/>
+               in view has been fully &amp; to me delightfully <choice>
+                  <orig>ac-<lb/>
+                  complished</orig>
+                  <reg>accomplished</reg>
+               </choice> - I would go over again all the<lb/>
                labor to have this feeling; and what is more -<lb/>
                I would willingly again accept from you<lb/>
                my dear friend all your labor &amp; time &amp;<lb/>
                anxiety - I cannot more strongly express<lb/>
                the value of my self-satisfaction - a feeling<lb/>
                I hope distinct from either pride or vanity<lb/>
-            </p><lb/>
+            </p>
+            <lb/>
             <closer>
                I am most gratefully &amp; affectionately<lb/>
                Your obliged<lb/>
-               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName><lb/>
-               
+               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
+               <lb/>
                <pb n="6" facs="Edgeworth_Huntington_HM28609_1827_11_18_page06.jpg"/>
-
-            <address>
-               <addrLine><persName ref="./Personography.xml#BeauF1">Capt<hi rend="superscript">n</hi>. Beaufort</persName>R N.</addrLine>
-            </address>
+               <address>
+                  <addrLine>
+                     <persName ref="./Personography.xml#BeauF1">Capt<hi rend="superscript">n</hi>. Beaufort</persName>R N.</addrLine>
+               </address>
             </closer>
          </div>
       </body>

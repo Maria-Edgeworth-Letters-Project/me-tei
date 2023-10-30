@@ -7,7 +7,9 @@
       <fileDesc>
          <titleStmt>
             <title>Letter from Maria Edgeworth [and Frances Anne Edgeworth] to Sir Francis Beaufort, May 2, 1817</title>
-            <author><persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName></author>
+            <author>
+               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
+            </author>
             <editor ref="Id_who">
                Jamie Kramer
             </editor>
@@ -42,8 +44,6 @@
                </resp>
             </respStmt>
          </editionStmt>
-         
-         
          <publicationStmt>
             <authority>Maria Edgeworth Letters Project</authority>
             <date>2023</date>
@@ -54,8 +54,7 @@
                <licence>Distributed under a Creative Commons Attribution-ShareAlike 3.0 Unported
                   License</licence>
             </availability>
-            
-            <idno>Edgeworth_Huntington_XXXX_1817_05_02</idno> 
+            <idno>Edgeworth_Huntington_XXXX_1817_05_02</idno>
          </publicationStmt>
          <seriesStmt>
             <title>Maria Edgeworth Letters Project</title>
@@ -70,7 +69,6 @@
                   <idno/>
                   <!--Consult library or WorldCat for this info-->
                </msIdentifier>
-               
                <head>Letter from 
                   <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
                   and
@@ -85,7 +83,6 @@
             <bibl>In addition to our edited version, this letter was previously published in
                <!--complete bibiographical info if letter was published in a book here-->
             </bibl>
-            
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
@@ -98,7 +95,6 @@
                word is split at the end of a line and the beginning of the next in a manuscript. The
                long s and ligatured forms are silently emended.</p>
          </editorialDecl>
-         
          <classDecl>
             <taxonomy xml:id="relators">
                <bibl>Marc Relators</bibl>
@@ -215,10 +211,14 @@
             <taxonomy xml:id="places">
                <bibl>Places</bibl>
                <category>
-                  <catDesc xml:id="EdgeworthsTown">Edgeworths' Town<idno type="getty">tgn/1042937</idno></catDesc>
-                  <catDesc xml:id="Peterborough">Peterborough, UK<idno type="getty">tgn/7026520</idno></catDesc>
-                  <catDesc xml:id="CranfordI">Cranford, Ireland<idno type="getty">tgn/7901042</idno></catDesc>
-                  <catDesc xml:id="Kettering">Kettering, UK<idno type="getty">tgn/7010904</idno></catDesc>
+                  <catDesc xml:id="EdgeworthsTown">Edgeworths' Town<idno type="getty">tgn/1042937</idno>
+                  </catDesc>
+                  <catDesc xml:id="Peterborough">Peterborough, UK<idno type="getty">tgn/7026520</idno>
+                  </catDesc>
+                  <catDesc xml:id="CranfordI">Cranford, Ireland<idno type="getty">tgn/7901042</idno>
+                  </catDesc>
+                  <catDesc xml:id="Kettering">Kettering, UK<idno type="getty">tgn/7010904</idno>
+                  </catDesc>
                </category>
             </taxonomy>
             <taxonomy xml:id="period">
@@ -228,19 +228,17 @@
                </category>
             </taxonomy>
          </classDecl>
-         
       </encodingDesc>
       <profileDesc>
          <correspDesc>
             <correspAction type="sent">
                <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
-               <persName ref="./Personography.xml#EdgeF2">and Frances Anne Edgeworth</persName> 
+               <persName ref="./Personography.xml#EdgeF2">and Frances Anne Edgeworth</persName>
             </correspAction>
             <correspAction type="received">
                <persName ref="./Personography.xml#BeauF1">Sir Francis Beaufort</persName>
             </correspAction>
          </correspDesc>
-         
          <textClass>
             <keywords scheme="">
                <list type="simple">
@@ -265,7 +263,9 @@
             <opener>
                <dateline>
                   <date when="1817-05-02"/>May 2<hi rend="superscript">d</hi> 1817<lb/>
-                  <placeName ref="./Placeography.xml#Edgeworthstown_IE">Edgeworth's Town</placeName><lb/></dateline>
+                  <placeName ref="./Placeography.xml#Edgeworthstown_IE">Edgeworth's Town</placeName>
+                  <lb/>
+               </dateline>
                <salute>
                   My dear <persName ref="./Personography.xml#BeauF1">Francis</persName>, 
                </salute>
@@ -276,18 +276,49 @@
                Thank you - and to give you as little<lb/>
                further trouble I will answer shortly<lb/>
                and distinctly<lb/>
-               <choice><orig>1<hi rend= "superscript">st</hi></orig><reg>Firstly</reg></choice> <persName ref="./Personography.xml#EdgeR1">My father</persName> advises that I should<lb/>
-               not buy the annual register at <hi rend= "underline"><choice><orig>pres</orig><reg>present</reg></choice> and</hi><lb/>
-               <choice><orig>2<hi rend= "superscript">ly</hi></orig><reg>Secondly</reg></choice> I should like to have <title ref="./Workography.xml#Dicti1">Dic<hi rend= "superscript">y</hi> de l'Acad</title><lb/>
-               - last Edit 1814 hand-bound <hi rend= "underline">good and</hi><lb/>
-               <hi rend= "underline">almost</hi> new at <unclear>24<hi rend= "superscript">s</hi> 1/2 or 58 th<hi rend= "superscript">s</hi></unclear><lb/>
-               <choice><orig>3<hi rend= "superscript">ly</hi></orig><reg>Thirdly</reg></choice> I should like to have M<hi rend= "superscript">rs</hi>. <persName ref="./Personography.xml#InchE1">Inchbald</persName>s<lb/>
-               plays &amp; the farces In all the 53 <choice><orig>vol<hi rend= "superscript">s</hi></orig><reg>volumes</reg></choice><lb/>
-               unbound - because we pay an <choice><orig>enor<lb/>
-                  -mous</orig><reg>enormous</reg></choice> price <persName ref="./Personography.xml#EdgeR1">my father</persName> says for bring<lb/>
-               -ing over <hi rend= "underline">bound</hi> books<lb/></p>
-               <p>In looking over the list of M<hi rend= "superscript">rs</hi>. <persName ref="./Personography.xml#InchE1">Inchbalds</persName><lb/>
-
+               <choice>
+                  <orig>1<hi rend="superscript">st</hi>
+                  </orig>
+                  <reg>Firstly</reg>
+               </choice>
+               <persName ref="./Personography.xml#EdgeR1">My father</persName> advises that I should<lb/>
+               not buy the annual register at <hi rend="underline">
+                  <choice>
+                     <orig>pres</orig>
+                     <reg>present</reg>
+                  </choice> and</hi>
+               <lb/>
+               <choice>
+                  <orig>2<hi rend="superscript">ly</hi>
+                  </orig>
+                  <reg>Secondly</reg>
+               </choice> I should like to have <title ref="./Workography.xml#Dicti1">Dic<hi rend="superscript">y</hi> de l'Acad</title>
+               <lb/>
+               - last Edit 1814 hand-bound <hi rend="underline">good and</hi>
+               <lb/>
+               <hi rend="underline">almost</hi> new at <unclear>24<hi rend="superscript">s</hi> 1/2 or 58 th<hi rend="superscript">s</hi>
+               </unclear>
+               <lb/>
+               <choice>
+                  <orig>3<hi rend="superscript">ly</hi>
+                  </orig>
+                  <reg>Thirdly</reg>
+               </choice> I should like to have M<hi rend="superscript">rs</hi>. <persName ref="./Personography.xml#InchE1">Inchbald</persName>s<lb/>
+               plays &amp; the farces In all the 53 <choice>
+                  <orig>vol<hi rend="superscript">s</hi>
+                  </orig>
+                  <reg>volumes</reg>
+               </choice>
+               <lb/>
+               unbound - because we pay an <choice>
+                  <orig>enor<lb/>
+                  -mous</orig>
+                  <reg>enormous</reg>
+               </choice> price <persName ref="./Personography.xml#EdgeR1">my father</persName> says for bring<lb/>
+               -ing over <hi rend="underline">bound</hi> books<lb/>
+            </p>
+            <p>In looking over the list of M<hi rend="superscript">rs</hi>. <persName ref="./Personography.xml#InchE1">Inchbalds</persName>
+               <lb/>
                <pb n="2" facs="Edgeworth_Huntington_XXXX_1817_05_02_page02.jpg"/>
                
                collection of plays formerly, I could not<lb/>
@@ -295,66 +326,88 @@
                but I suppose I overlooked them, I<lb/>
                can hardly imagine they can be omitted<lb/>
                If there should be any plays of merit<lb/>
-               omitted or published since M<hi rend= "superscript">rs</hi>. <persName ref="./Personography.xml#InchE1">Inchbald</persName><lb/>
+               omitted or published since M<hi rend="superscript">rs</hi>. <persName ref="./Personography.xml#InchE1">Inchbald</persName>
+               <lb/>
                made up her collection will you be<lb/>
                so kind to add them for me to that<lb/>
                collection - <lb/>
-               Thank you for thinking of <title ref="./Workography.xml#WatTy1"><choice><orig>Watt</orig><reg>Wat</reg></choice> Tyler</title> &amp;<lb/>
-               <persName ref="./Personography.xml#Sout1">Southey</persName>s pamphlett. <persName ref="./Personography.xml#MurrX1">M<hi rend= "superscript">r</hi>. Murray</persName> with<lb/>
+               Thank you for thinking of <title ref="./Workography.xml#WatTy1">
+                  <choice>
+                     <orig>Watt</orig>
+                     <reg>Wat</reg>
+                  </choice> Tyler</title> &amp;<lb/>
+               <persName ref="./Personography.xml#Sout1">Southey</persName>s pamphlett. <persName ref="./Personography.xml#MurrX1">M<hi rend="superscript">r</hi>. Murray</persName> with<lb/>
                persevering civility has sent them<lb/>
                to me - But <persName ref="./Personography.xml#EdgeC1">Sneyd</persName> lost <title ref="./Workography.xml#WatTy1">Wat Tyler</title> in<lb/>
                <placeName ref="./Placeography.xml#Dublin_IE">Dublin</placeName> &amp; the pamphlet is no sense<lb/>
                to us without it - therefore I should be<lb/>
-               obliged by your sending it through <persName ref="./Personography.xml#MxxxE1">Sir E M</persName><lb/></p>
-               <p>-	Your concluding <hi rend= "underline">ray of hope</hi> was<lb/>
+               obliged by your sending it through <persName ref="./Personography.xml#MxxxE1">Sir E M</persName>
+               <lb/>
+            </p>
+            <p>-	Your concluding <hi rend="underline">ray of hope</hi> was<lb/>
                communicated only to <persName ref="./Personography.xml#EdgeR1">my father</persName> &amp;<lb/>
-               <persName ref="./Personography.xml#EdgeF2">M<hi rend= "superscript">rs</hi>. E</persName> - It delights them - <persName ref="./Personography.xml#EdgeR1">my father</persName> <choice><orig>de-<lb/>
-                  sires</orig><reg>desires</reg></choice> that I will <hi rend= "underline">only</hi> say that He knows<lb/>
+               <persName ref="./Personography.xml#EdgeF2">M<hi rend="superscript">rs</hi>. E</persName> - It delights them - <persName ref="./Personography.xml#EdgeR1">my father</persName>
+               <choice>
+                  <orig>de-<lb/>
+                  sires</orig>
+                  <reg>desires</reg>
+               </choice> that I will <hi rend="underline">only</hi> say that He knows<lb/>
                how to suppress curiosity even where he<lb/>
-               is most interested -<lb/></p>
-               <closer>
+               is most interested -<lb/>
+            </p>
+            <closer>
                Your sincerely affectionate<lb/>
                friend<lb/>
-               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName><lb/>
-               </closer>
-
+               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
+               <lb/>
+            </closer>
             <pb n="3" facs="Edgeworth_Huntington_XXXX_1817_05_02_page03.jpg"/>
-            
-               <postscript>
-                  <p>I leave <persName ref="./Personography.xml#EdgeF2">M<hi rend= "superscript">rs</hi>. E</persName> to give you an account of<lb/>
+            <postscript>
+               <p>I leave <persName ref="./Personography.xml#EdgeF2">M<hi rend="superscript">rs</hi>. E</persName> to give you an account of<lb/>
                   <persName ref="./Personography.xml#EdgeR1">my father</persName> because I can more safely<lb/>
                trust her imagination &amp; judgment<lb/>
                than my own upon this as upon all<lb/>
-               subjects -<lb/></p>
-               <p>My dear <persName ref="./Personography.xml#BeauF1">Brother</persName><lb/></p>
+               subjects -<lb/>
+               </p>
+               <p>My dear <persName ref="./Personography.xml#BeauF1">Brother</persName>
+                  <lb/>
+               </p>
                <p>I can say nothing favourable<lb/>
-                  <persName ref="./Personography.xml#EdgeR1">M<hi rend= "superscript">r</hi>. E</persName> has more fever - and less sickness<lb/>
+                  <persName ref="./Personography.xml#EdgeR1">M<hi rend="superscript">r</hi>. E</persName> has more fever - and less sickness<lb/>
                pulse at a 100 this morning - he is always<lb/>
                busy - but you may easily perceive<lb/>
                fever in his manner -<lb/>
-                  Adieu <persName ref="./Personography.xml#EdgeF2">F E</persName><lb/>
-               I thank God for your ray of hope -</p><lb/>
-               </postscript>
-
+                  Adieu <persName ref="./Personography.xml#EdgeF2">F E</persName>
+                  <lb/>
+               I thank God for your ray of hope -</p>
+               <lb/>
+            </postscript>
             <pb n="4" facs="Edgeworth_Huntington_XXXX_1817_05_02_page04.jpg"/>
-            
-<closer>
-               <persName ref="./Personography.xml#EdgeM1">M. E.</persName><lb/>
+            <closer>
+               <persName ref="./Personography.xml#EdgeM1">M. E.</persName>
+               <lb/>
                2 May 1817<lb/>
                
                MY 6<lb/>
-
-            <address>
-               <addrLine><persName ref="./Personography.xml#BeauF1">Capt<hi rend= "superscript">n</hi> Beaufort</persName></addrLine>
-               <addrLine>R N</addrLine>
-               <addrLine><placeName ref="./Placeography.xml#31-Harley-Street_ENK">31 Harley Street</placeName></addrLine>
-            </address>
-
-            <del></del><lb/>
-            <del></del><lb/>
-            <del></del><lb/>
-            <del></del><lb/>
-            <del></del><lb/>
+               <address>
+                  <addrLine>
+                     <persName ref="./Personography.xml#BeauF1">Capt<hi rend="superscript">n</hi> Beaufort</persName>
+                  </addrLine>
+                  <addrLine>R N</addrLine>
+                  <addrLine>
+                     <placeName ref="./Placeography.xml#31-Harley-Street_ENK">31 Harley Street</placeName>
+                  </addrLine>
+               </address>
+               <del/>
+               <lb/>
+               <del/>
+               <lb/>
+               <del/>
+               <lb/>
+               <del/>
+               <lb/>
+               <del/>
+               <lb/>
             </closer>
          </div>
       </body>

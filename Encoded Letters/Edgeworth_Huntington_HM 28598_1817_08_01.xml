@@ -9,7 +9,9 @@
             <title>
                Letter from Maria Edgeworth to Sir Francis Beaufort, 8/1/1817
             </title>
-            <author><persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName></author>
+            <author>
+               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
+            </author>
             <editor ref="Id_who">
             Jamie Kramer
             </editor>
@@ -44,8 +46,6 @@
                </resp>
             </respStmt>
          </editionStmt>
-         
-         
          <publicationStmt>
             <authority>Maria Edgeworth Letters Project</authority>
             <date>2023</date>
@@ -56,10 +56,9 @@
                <licence>Distributed under a Creative Commons Attribution-ShareAlike 3.0 Unported
                   License</licence>
             </availability>
-            
             <idno>
                Edgeworth_Huntington_HM 28598_1817_08_01
-            </idno> 
+            </idno>
          </publicationStmt>
          <seriesStmt>
             <title>Maria Edgeworth Letters Project</title>
@@ -77,7 +76,6 @@
                   <idno/>
                   <!--Consult library or WorldCat for this info-->
                </msIdentifier>
-               
                <head>Letter from 
                   <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
                   to <persName ref="./Personography.xml#BeauF1">Sir Francis Beaufort</persName>, 
@@ -89,7 +87,6 @@
             <bibl>In addition to our edited version, this letter was previously published in
                <!--complete bibiographical info if letter was published in a book here-->
             </bibl>
-            
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
@@ -102,7 +99,6 @@
                word is split at the end of a line and the beginning of the next in a manuscript. The
                long s and ligatured forms are silently emended.</p>
          </editorialDecl>
-         
          <classDecl>
             <taxonomy xml:id="relators">
                <bibl>Marc Relators</bibl>
@@ -219,10 +215,14 @@
             <taxonomy xml:id="places">
                <bibl>Places</bibl>
                <category>
-                  <catDesc xml:id="EdgeworthsTown">Edgeworths' Town<idno type="getty">tgn/1042937</idno></catDesc>
-                  <catDesc xml:id="Peterborough">Peterborough, UK<idno type="getty">tgn/7026520</idno></catDesc>
-                  <catDesc xml:id="CranfordI">Cranford, Ireland<idno type="getty">tgn/7901042</idno></catDesc>
-                  <catDesc xml:id="Kettering">Kettering, UK<idno type="getty">tgn/7010904</idno></catDesc>
+                  <catDesc xml:id="EdgeworthsTown">Edgeworths' Town<idno type="getty">tgn/1042937</idno>
+                  </catDesc>
+                  <catDesc xml:id="Peterborough">Peterborough, UK<idno type="getty">tgn/7026520</idno>
+                  </catDesc>
+                  <catDesc xml:id="CranfordI">Cranford, Ireland<idno type="getty">tgn/7901042</idno>
+                  </catDesc>
+                  <catDesc xml:id="Kettering">Kettering, UK<idno type="getty">tgn/7010904</idno>
+                  </catDesc>
                </category>
             </taxonomy>
             <taxonomy xml:id="period">
@@ -232,7 +232,6 @@
                </category>
             </taxonomy>
          </classDecl>
-         
       </encodingDesc>
       <profileDesc>
          <correspDesc>
@@ -243,7 +242,6 @@
                <persName ref="./Personography.xml#BeauF1">Sir Francis Beaufort</persName>
             </correspAction>
          </correspDesc>
-         
          <textClass>
             <keywords scheme="">
                <list type="simple">
@@ -267,17 +265,19 @@
             <pb n="1" facs="Edgeworth_Huntington_HM 28598_1817_08_01_page01.jpg"/>
             <opener>
                <dateline>
-                  <placeName>Edgeworth's Town</placeName><lb/>
-               <date when="1817-08-01">August 1<hi rend="superscript">st</hi>. 1817.</date></dateline><lb/>
+                  <placeName>Edgeworth's Town</placeName>
+                  <lb/>
+                  <date when="1817-08-01">August 1<hi rend="superscript">st</hi>. 1817.</date>
+               </dateline>
+               <lb/>
                <salute>
                   My dear <persName ref="./Personography.xml#BeauF1">friend</persName>,<lb/>
                </salute>
             </opener>
-
-
             <p>It is long since I have felt so much<lb/>
                satisfaction as I felt this morning<lb/>
-               from your letter. Both <persName ref="./Personography.xml#EdgeF2">M<hi rend="superscript">rs</hi>. Edgeworth</persName><lb/>
+               from your letter. Both <persName ref="./Personography.xml#EdgeF2">M<hi rend="superscript">rs</hi>. Edgeworth</persName>
+               <lb/>
                <add>my aunts</add> and I thought we might feel sure<lb/>
                <del>that</del> of what your opinion would<lb/>
                be, but to have that opinion so fully<lb/>
@@ -294,27 +294,33 @@
                - that no power but that which can<lb/>
                never more be exerted over my mind<lb/>
                could even if I were convinced it<lb/>
-               were right &amp; necessary <del></del> excite<lb/>
+               were right &amp; necessary <del/> excite<lb/>
                me at this time to such an attempt<lb/>
                - But the more I felt that your opinion<lb/>
-               
                <pb n="2" facs="Edgeworth_Huntington_HM 28598_1817_08_01_page02.jpg"/>
                
                had it been on the other side of the question<lb/>
                would have been inadequate to rouse<lb/>
-               me to exertion above my <del></del> powers<lb/>
+               me to exertion above my <del/> powers<lb/>
                the more I felt anxious that such<lb/>
                should not be the opinion of the<lb/>
                friend whose judgment I know <persName ref="./Personography.xml#EdgeR1">my<lb/>
                dear father</persName> valued above that of any<lb/>
                other of his friends and upon whose<lb/>
                personal attachment, knowledge of<lb/>
-               his character and regard for his <choice><orig>me-<lb/>
-               -mory</orig><reg>memory</reg></choice> he relied more than upon<lb/>
-               those of any other man living - <choice><orig>ex<lb/>
-               -cept</orig><reg>except</reg></choice> his own sons -<lb/>
+               his character and regard for his <choice>
+                  <orig>me-<lb/>
+               -mory</orig>
+                  <reg>memory</reg>
+               </choice> he relied more than upon<lb/>
+               those of any other man living - <choice>
+                  <orig>ex<lb/>
+               -cept</orig>
+                  <reg>except</reg>
+               </choice> his own sons -<lb/>
                I thank you particularly for stating<lb/>
-               all your reasons distinctly as <hi rend="underline">your</hi><lb/>
+               all your reasons distinctly as <hi rend="underline">your</hi>
+               <lb/>
                <hi rend="underline">own</hi>, without reference to my sentiments.<lb/>
                - I shall have to consult you probably<lb/>
                hereafter on many points - <del>and</del> so<lb/>
@@ -322,22 +328,26 @@
                never speak the truth to me too flatly<lb/>
                or too strongly - Consider I have been<lb/>
                used to it - and used to feel it the surest<lb/>
-               proof of friendship -<lb/></p>
-               <p>You have relieved me from all<lb/>
-               remaining <del>fear</del> <add>scruple</add> of dis-obeying that<lb/>
-               <hi rend="underline">injunction</hi> with which I never <hi rend="underline">promised </hi><lb/>
+               proof of friendship -<lb/>
+            </p>
+            <p>You have relieved me from all<lb/>
+               remaining <del>fear</del>
+               <add>scruple</add> of dis-obeying that<lb/>
+               <hi rend="underline">injunction</hi> with which I never <hi rend="underline">promised </hi>
+               <lb/>
                to comply - which it was dreadful to me<lb/>
-               to hear- and <hi rend="underline">to</hi> <hi rend="underline">recollect</hi> - still more dreadful.<lb/>
+               to hear- and <hi rend="underline">to</hi>
+               <hi rend="underline">recollect</hi> - still more dreadful.<lb/>
                - I am glad that you coolly &amp; at a distance<lb/>
                agree with <persName ref="./Personography.xml#EdgeF2">M<hi rend="superscript">rs</hi>. E</persName> and me that it was a feverish<lb/>
                feeling<lb/>
-               
                <pb n="3" facs="Edgeworth_Huntington_HM 28598_1817_08_01_page03.jpg"/>
                
                which dictated that letter to <persName ref="./Personography.xml#HuntX1">Hunter</persName> - How<lb/>
                I rejoice that I did not send it - and<lb/>
-               yet at the time I feared I was doing wrong<lb/></p>
-               <p>But as you say dear <persName ref="./Personography.xml#BeauF1">Francis</persName> I<lb/>
+               yet at the time I feared I was doing wrong<lb/>
+            </p>
+            <p>But as you say dear <persName ref="./Personography.xml#BeauF1">Francis</persName> I<lb/>
                must not ever more permit myself to<lb/>
                think of that injunction - I must emulate<lb/>
                "<hi rend="underline">his</hi> strength of resolution which rejected<lb/>
@@ -346,15 +356,19 @@
                that "Could he now look down upon<lb/>
                "the struggles of my heart he would<lb/>
                "cheer me on &amp; encourage me to do that<lb/>
-               "which in my conscience I judge most fit"<lb/></p>
-               <p>It seems as if you had looked<lb/>
+               "which in my conscience I judge most fit"<lb/>
+            </p>
+            <p>It seems as if you had looked<lb/>
                straight to the bottom of my heart for<lb/>
                this is the idea the question that<lb/>
                perpetually reccurs to me<lb/>
                "If he could look down upon<lb/>
                "me - could see me now what would<lb/>
-               "he think - would he approve or <choice><orig>disap-<lb/>
-                  "-prove</orig><reg>disprove</reg></choice>.? -<lb/>
+               "he think - would he approve or <choice>
+                  <orig>disap-<lb/>
+                  "-prove</orig>
+                  <reg>disprove</reg>
+               </choice>.? -<lb/>
                On the question touched upon in the<lb/>
                conclusion of your letter - should the<lb/>
                <title ref="./Workography.xml#Memoi1">Memoirs</title> be in his own person &amp; as<lb/>
@@ -362,19 +376,28 @@
                we shall have time &amp; time enough to<lb/>
                discuss this hereafter - we differ only<lb/>
                because you do not know the facts - and<lb/>
-               have not seen the <choice><abbr>M<hi rend="superscript">s</hi></abbr><reg>messages</reg></choice>- <persName ref="./Personography.xml#EdgeF2">M<hi rend="superscript">rs</hi>. E</persName> has read<lb/>
+               have not seen the <choice>
+                  <abbr>M<hi rend="superscript">s</hi>
+                  </abbr>
+                  <reg>messages</reg>
+               </choice>- <persName ref="./Personography.xml#EdgeF2">M<hi rend="superscript">rs</hi>. E</persName> has read<lb/>
                it all and agrees with me - I had never<lb/>
                had the courage to <del>read</del> open it till two days<lb/>
                ago when I felt the propriety the necessity<lb/>
                of my two aunts seeing it &amp; of hearing their<lb/>
-               opinion on the points that <hi rend="underline">peculiarly concern</hi><lb/>
-               
+               opinion on the points that <hi rend="underline">peculiarly concern</hi>
+               <lb/>
                <pb n="4" facs="Edgeworth_Huntington_HM 28598_1817_08_01_page04.jpg"/>
-               
                <hi rend="underline">their family</hi> before they should leave us -<lb/>
-               I could not <hi rend="underline">send</hi> the <choice><abbr>M<hi rend="superscript">s</hi>.</abbr><reg>messages</reg></choice> to them - Their<lb/>
+               I could not <hi rend="underline">send</hi> the <choice>
+                  <abbr>M<hi rend="superscript">s</hi>.</abbr>
+                  <reg>messages</reg>
+               </choice> to them - Their<lb/>
                eyes are both so bad that they could not<lb/>
-               read the <choice><abbr>M<hi rend="superscript">s</hi>.</abbr><reg>messages</reg></choice> to themselves - There was<lb/>
+               read the <choice>
+                  <abbr>M<hi rend="superscript">s</hi>.</abbr>
+                  <reg>messages</reg>
+               </choice> to themselves - There was<lb/>
                no alternative - I had the resolution to<lb/>
                begin to read it to them myself - An hour<lb/>
                every day they are to come to my room -<lb/>
@@ -388,25 +411,40 @@
                - As to the main point that it should be<lb/>
                <hi rend="underline">his own</hi> I have no doubt - If I find<lb/>
                any thing that I think or that you think<lb/>
-               right to be omitted I will <del><hi rend="underline">omit</hi></del> <hi rend="underline">expunge</hi><lb/>
-               but I will not <hi rend="underline">alter</hi> <del>a word</del> any passage<lb/>
+               right to be omitted I will <del>
+                  <hi rend="underline">omit</hi>
+               </del>
+               <hi rend="underline">expunge</hi>
+               <lb/>
+               but I will not <hi rend="underline">alter</hi>
+               <del>a word</del> any passage<lb/>
                or change any sentiment - <hi rend="underline">that</hi> I should<lb/>
                think a dereliction of my duty &amp; breaking<lb/>
-               a sacred trust -<lb/></p>
-               <p>But I will restrain myself from <choice><orig>en-<lb/>
-                  tering</orig><reg>entering</reg></choice> more into a question which we<lb/>
+               a sacred trust -<lb/>
+            </p>
+            <p>But I will restrain myself from <choice>
+                  <orig>en-<lb/>
+                  tering</orig>
+                  <reg>entering</reg>
+               </choice> more into a question which we<lb/>
                shall have time hereafter I hope to discuss<lb/>
                I entirely agree (I scarcely need say) I<lb/>
                agree with you as to the time of publication<lb/>
-               - Thank God - you think so<lb/></p>
-               <p>I employ myself &amp; have <choice><orig>em-<lb/>
-                  ployed</orig><reg>employed</reg></choice> myself unremittingly for some<lb/>
+               - Thank God - you think so<lb/>
+            </p>
+            <p>I employ myself &amp; have <choice>
+                  <orig>em-<lb/>
+                  ployed</orig>
+                  <reg>employed</reg>
+               </choice> myself unremittingly for some<lb/>
                hours every morning since I returned<lb/>
                home in reading over his incomparable<lb/>
-               letters <add>on public subjects</add> &amp; those of <persName ref="./Personography.xml#DayX2">M<hi rend="superscript">r</hi>. Day</persName> which he had <choice><orig>permiss-<lb/>
-                  ion</orig><reg>permission</reg></choice> to publish <del>&amp;</del> I have expunged all<lb/>
+               letters <add>on public subjects</add> &amp; those of <persName ref="./Personography.xml#DayX2">M<hi rend="superscript">r</hi>. Day</persName> which he had <choice>
+                  <orig>permiss-<lb/>
+                  ion</orig>
+                  <reg>permission</reg>
+               </choice> to publish <del>&amp;</del> I have expunged all<lb/>
                passages<lb/>
-               
                <pb n="5" facs="Edgeworth_Huntington_HM 28598_1817_08_01_page05.jpg"/>
                
                that ought to be expunged &amp; marked such<lb/>
@@ -416,33 +454,46 @@
                to die before I could <del>com</del> fulfil the trust<lb/>
                reposed in me, at least I shall have<lb/>
                done something towards it &amp; all that<lb/>
-               I could do -<lb/></p>
-               <p>Before poor <persName ref="./Personography.xml#StaeA1">Madame de Stael</persName><lb/>
+               I could do -<lb/>
+            </p>
+            <p>Before poor <persName ref="./Personography.xml#StaeA1">Madame de Stael</persName>
+               <lb/>
                lost her faculties it must have been<lb/>
                a delightful satisfaction to her that<lb/>
-               she had finished her life of <persName ref="./Personography.xml#NeckJ1">her father</persName><lb/>
+               she had finished her life of <persName ref="./Personography.xml#NeckJ1">her father</persName>
+               <lb/>
                - I am in excellent health and<lb/>
                not in the least apprehensive that my<lb/>
                health should fail - on the contrary<lb/>
-               I hav<gap></gap> felt it strengthen under the<lb/>
-               pre<gap></gap> which I sh.<hi rend="superscript">d</hi> sometime time ago<lb/>
+               I hav<gap/> felt it strengthen under the<lb/>
+               pre<gap/> which I sh.<hi rend="superscript">d</hi> sometime time ago<lb/>
                have thought would have overwhelmed<lb/>
-               it - But tho I am in good health <hi rend="underline">now</hi><lb/>
+               it - But tho I am in good health <hi rend="underline">now</hi>
+               <lb/>
                human life is so uncertain that I feel<lb/>
-               it <del>a</del><add>an <unclear>imperious</unclear></add> duty in this instance not to <choice><orig>procras-<lb/>
-                  -tinate</orig><reg>procrastinate</reg></choice> - &amp; all that I can do I will</p><lb/>
+               it <del>a</del>
+               <add>an <unclear>imperious</unclear>
+               </add> duty in this instance not to <choice>
+                  <orig>procras-<lb/>
+                  -tinate</orig>
+                  <reg>procrastinate</reg>
+               </choice> - &amp; all that I can do I will</p>
+            <lb/>
             <closer>
                I am your grateful friend<lb/>
                <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName> -<lb/>
-     
-                  <pb n="6" facs="Edgeworth_Huntington_HM 28598_1817_08_01_page06.jpg"/>
-
-            <address>
-               <addrLine><persName ref="./Personography.xml#BeauF1">Captain Beaufort</persName></addrLine>
-               <addrLine><placeName ref="./Placeography.xml#Epping_ENK">Epping</placeName></addrLine>
-               <addrLine><placeName ref="./Placeography.xml#Essex_ENK">Essex -</placeName></addrLine>
-            </address>
-
+               <pb n="6" facs="Edgeworth_Huntington_HM 28598_1817_08_01_page06.jpg"/>
+               <address>
+                  <addrLine>
+                     <persName ref="./Personography.xml#BeauF1">Captain Beaufort</persName>
+                  </addrLine>
+                  <addrLine>
+                     <placeName ref="./Placeography.xml#Epping_ENK">Epping</placeName>
+                  </addrLine>
+                  <addrLine>
+                     <placeName ref="./Placeography.xml#Essex_ENK">Essex -</placeName>
+                  </addrLine>
+               </address>
             </closer>
          </div>
       </body>

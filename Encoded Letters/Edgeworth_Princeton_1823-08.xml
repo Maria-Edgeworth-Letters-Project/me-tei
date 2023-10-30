@@ -55,7 +55,7 @@
                <licence>Distributed under a Creative Commons Attribution-ShareAlike 3.0 Unported
                   License</licence>
             </availability>
-            <idno>Edgeworth_Princeton_1823-08</idno> 
+            <idno>Edgeworth_Princeton_1823-08</idno>
          </publicationStmt>
          <seriesStmt>
             <title>Maria Edgeworth Letters Project</title>
@@ -68,17 +68,16 @@
                   <collection><!-- Enter specific archival collection if applicable--></collection>
                   <idno>Edgeworth_Princeton_1823-08</idno>
                </msIdentifier>
-               
                <!-- FROM LAURA: it's here (below) in the head that I added the full information about the author,
                   and you could add full information about the addressee as well. -->
                <head>Letter from 
                      <persName xml:id="EdgeM1" from="1768" to="1849">
-                        <forename>Maria</forename>
-                        <surname>Edgeworth</surname>
-                        <date>1768-1849</date>
-                        <idno type="VIAF">71477273</idno>
-                        <idno type="SNAC">62567029</idno>
-                     </persName>
+                     <forename>Maria</forename>
+                     <surname>Edgeworth</surname>
+                     <date>1768-1849</date>
+                     <idno type="VIAF">71477273</idno>
+                     <idno type="SNAC">62567029</idno>
+                  </persName>
                   to <persName ref="./Personography.xml#ConsA2">Archibald Constable</persName>, <placeName ref="./Placeography.xml#Glasgow_STK">Glasgow</placeName>, 
                   <date when="1823-08-13">Aug<hi rend="superscript">st</hi> 13<hi rend="superscript">th</hi> 1823</date>
                </head>
@@ -86,10 +85,8 @@
                   <!-- optional physical description of the letter goes here: paper size and condition, seal, postmarks, etc.-->
                </physDesc>
             </msDesc>
-            
             <!-- FROM LAURA: where to put the following information in <bibl> is still a question: 
                ask TEI List whether it should be in the sourceDesc or elsewhere? -->
-            
             <bibl>In addition to our edited version, this letter was previously published in
                <!--complete bibiographical info if letter was published in a book here - if not delete-->
             </bibl>
@@ -134,7 +131,11 @@
                   <date when="1823-08-13"/>August 13, 1823. </dateline>
                <salute>
                   <persName>
-                     <choice><orig>D<hi rend="superscropt">r</hi></orig><reg>Dear</reg></choice> Sir
+                     <choice>
+                        <orig>D<hi rend="superscropt">r</hi>
+                        </orig>
+                        <reg>Dear</reg>
+                     </choice> Sir
                      <!-- Use if letter has a saluation ("Dear Sir," for example). If not, delete this line.-->
                   </persName>
                </salute>
@@ -143,23 +144,29 @@
                You have gratified me<lb/>
                much by your polite<lb/>
                attention to my sisters<lb/>
-               - The present of the <add>proof</add> <choice><orig>engrav<lb/>
-               -ing</orig><reg>engraving</reg></choice> you have sent me<lb/>
+               - The present of the <add>proof</add>
+               <choice>
+                  <orig>engrav<lb/>
+               -ing</orig>
+                  <reg>engraving</reg>
+               </choice> you have sent me<lb/>
                is invaluable - the very<lb/>
                thing for which I had<lb/>
                wished and despaired<lb/>
-               of obtaining.<lb/></p>
-               <p>You talked of sending<lb/>
+               of obtaining.<lb/>
+            </p>
+            <p>You talked of sending<lb/>
                me a prospectus of <title ref="./Workography.xml#Encyc1">your<lb/>
                new Encyclopedia</title> - I wish<lb/>
                you could send it to me<lb/>
-               while I am in <placeName ref="./Placeography.xml#Glasgow_STK">Glasgow</placeName><lb/>
+               while I am in <placeName ref="./Placeography.xml#Glasgow_STK">Glasgow</placeName>
+               <lb/>
                - I shall be here till<lb/>
                monday or tuesday<lb/>
                next - if you have not<lb/>
-               <note place="bottom">10/16/-</note><lb/>
-               
-<pb n="1" facs="Edgeworth_Princeton_1823-08_page03.jpg"/>
+               <note place="bottom">10/16/-</note>
+               <lb/>
+               <pb n="1" facs="Edgeworth_Princeton_1823-08_page03.jpg"/>
 
                been able to procure the<lb/>
                review of books for young<lb/>
@@ -172,22 +179,26 @@
                the note of advice, you<lb/>
                proposed - send it to<lb/>
                me and I will enclose<lb/>
-               it in my own letter -<lb/></p>
-               <p>I rejoice that we had<lb/>
+               it in my own letter -<lb/>
+            </p>
+            <p>I rejoice that we had<lb/>
                the pleasure of meeting<lb/>
                you at <placeName ref="./Placeography.xml#Abbotsfsord-House_STK">Abbotsford</placeName> &amp; am<lb/>
                glad to owe this among<lb/>
                the numberless other<lb/>
                obligations I have to<lb/>
+               <pb n="1" facs="Edgeworth_Princeton_1823-08_page04.jpg"/>
 
-<pb n="1" facs="Edgeworth_Princeton_1823-08_page04.jpg"/>
-
-               the <hi rend="underline">great known</hi>.<lb/></p>
-               <p>Many may be, or<lb/>
+               the <hi rend="underline">great known</hi>.<lb/>
+            </p>
+            <p>Many may be, or<lb/>
                may seem, <hi rend="underline">great</hi> while<lb/>
                unknown; but few<lb/>
-               like him appear <choice><orig>great-<lb/>
-               er</orig><reg>greater</reg></choice> the more they are<lb/>
+               like him appear <choice>
+                  <orig>great-<lb/>
+               er</orig>
+                  <reg>greater</reg>
+               </choice> the more they are<lb/>
                known.<lb/>
             </p>
             <closer>

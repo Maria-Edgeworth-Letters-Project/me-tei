@@ -48,7 +48,7 @@
                <licence>Distributed under a Creative Commons Attribution-ShareAlike 3.0 Unported
                   License</licence>
             </availability>
-            <idno>Edgeworth_Morgan_422593_1825-03-09</idno> 
+            <idno>Edgeworth_Morgan_422593_1825-03-09</idno>
          </publicationStmt>
          <seriesStmt>
             <title>Maria Edgeworth Letters Project</title>
@@ -60,17 +60,16 @@
                   <collection><!-- Enter specific archival collection if applicable--></collection>
                   <idno><!--Consult library or WorldCat for this info--></idno>
                </msIdentifier>
-               
                <!-- FROM LAURA: it's here (below) in the head that I added the full information about the author,
                   and you could add full information about the addressee as well. -->
                <head>Letter from 
                      <persName xml:id="EdgeM1" from="1768" to="1849">
-                        <forename>Maria</forename>
-                        <surname>Edgeworth</surname>
-                        <date>1768-1849</date>
-                        <idno type="VIAF">71477273</idno>
-                        <idno type="SNAC">62567029</idno>
-                     </persName>
+                     <forename>Maria</forename>
+                     <surname>Edgeworth</surname>
+                     <date>1768-1849</date>
+                     <idno type="VIAF">71477273</idno>
+                     <idno type="SNAC">62567029</idno>
+                  </persName>
                   to <persName ref="./Personography.xml#SpriT1">Thomas Spring-Rice</persName>, 
                   <date when="1825-03-09"> March 9<hi rend="superscript">h</hi>. 1825 </date>
                </head>
@@ -78,10 +77,8 @@
                   <!-- optional physical description of the letter goes here: paper size and condition, seal, postmarks, etc.-->
                </physDesc>
             </msDesc>
-            
             <!-- FROM LAURA: where to put the following information in <bibl> is still a question: 
                ask TEI List whether it should be in the sourceDesc or elsewhere? -->
-            
             <bibl>In addition to our edited version, this letter was previously published in
                <!--complete bibiographical info if letter was published in a book here - if not delete-->
             </bibl>
@@ -219,12 +216,14 @@
                   <date when="1825-03-09"/> March 9<hi rend="superscript">h</hi>. 1825 </dateline>
                <salute>
                   <persName>
-                     Dear <persName ref="./Personography.xml#SpriT1">Sir</persName><!-- Use if letter has a saluation ("Dear Sir," for example). If not, delete this line.-->
+                     Dear <persName ref="./Personography.xml#SpriT1">Sir</persName>
+                     <!-- Use if letter has a saluation ("Dear Sir," for example). If not, delete this line.-->
                   </persName>
                </salute>
             </opener>
             <p>
-               This horrible affair at <placeName ref="./Placeography.xml#Eton_ENK">Eton</placeName><lb/>
+               This horrible affair at <placeName ref="./Placeography.xml#Eton_ENK">Eton</placeName>
+               <lb/>
                has I am convinced filled<lb/>
                your head &amp; heart as it<lb/>
                has ours - Even in the<lb/>
@@ -241,7 +240,7 @@
                send for him home at<lb/>
                once till some reform<lb/>
                is made<lb/>
-              </p>
+            </p>
             <p>
                Surely some good will<lb/>
                be brought from this great<lb/>
@@ -250,20 +249,25 @@
                as you who have power<lb/>
                to raise your voice in the<lb/>
                cause of helpless youth<lb/>
-               
             </p>
             <p>
                A Master of <placeName ref="./Placeography.xml#Eton_ENK">Eton</placeName> standing<lb/>
                <pb n="2" facs="Edgeworth_Morgan_422593_1825-03-09_page02.jpg"/>
                by while this barbarous<lb/>
                deed was done - was<lb/>
-               doing for two hours! -<lb/></p>
-               <p>A boy of 15! - set on <del>&amp;</del><lb/>
-               <unclear>betted</unclear> upon by his <choice><orig>compa-<lb/>
-                  nions</orig><reg>companions</reg></choice> - as if he were a<lb/>
+               doing for two hours! -<lb/>
+            </p>
+            <p>A boy of 15! - set on <del>&amp;</del>
+               <lb/>
+               <unclear>betted</unclear> upon by his <choice>
+                  <orig>compa-<lb/>
+                  nions</orig>
+                  <reg>companions</reg>
+               </choice> - as if he were a<lb/>
                game cock - his offer to<lb/>
                make it up forbidden<lb/>
-               by those who betted <hi rend="underline">upon</hi><lb/>
+               by those who betted <hi rend="underline">upon</hi>
+               <lb/>
                his life - Drenched with<lb/>
                brandy! - an incredible<lb/>
                quantity! Enough to<lb/>
@@ -273,33 +277,45 @@
                murder? - There was no<lb/>
                malice - no - but there was<lb/>
                death ensuing <del>from</del> &amp;<lb/>
-               caused from being <choice><orig>engag<lb/>
-                  ed</orig><reg>engaged</reg></choice> in an unlawful<lb/>
+               caused from being <choice>
+                  <orig>engag<lb/>
+                  ed</orig>
+                  <reg>engaged</reg>
+               </choice> in an unlawful<lb/>
                act - <lb/>
-               </p>
+            </p>
             <p>
-               Gambling - <choice><orig>drunken-<lb/>
-                  ness</orig><reg>drunkenness</reg></choice> - cruelty - what<lb/>
+               Gambling - <choice>
+                  <orig>drunken-<lb/>
+                  ness</orig>
+                  <reg>drunkenness</reg>
+               </choice> - cruelty - what<lb/>
                a complication of vice<lb/>
-               
                <pb n="3" facs="Edgeworth_Morgan_422593_1825-03-09_page03.jpg"/>
                
                and how could any<lb/>
-               <del>brother</del> man any <choice><orig>mas-<lb/>
-                  ter</orig><reg>master</reg></choice> any brother stand<lb/>
+               <del>brother</del> man any <choice>
+                  <orig>mas-<lb/>
+                  ter</orig>
+                  <reg>master</reg>
+               </choice> any brother stand<lb/>
                by for 2 hours &amp; see<lb/>
                this brutal savage scene<lb/>
                - How could human<lb/>
                nature stand it? -<lb/>
                And these are the sights<lb/>
-               which M<hi rend="superscript">r</hi>. <persName ref="./Personography.xml#WyndW1">Wyndham</persName><lb/>
+               which M<hi rend="superscript">r</hi>. <persName ref="./Personography.xml#WyndW1">Wyndham</persName>
+               <lb/>
                thought good for the<lb/>
                courage of the British<lb/>
                nation -<lb/>
             </p>
             <p>
-               If I do not much <choice><orig>mis-<lb/>
-                  take</orig><reg>mistake</reg></choice> your character &amp;<lb/>
+               If I do not much <choice>
+                  <orig>mis-<lb/>
+                  take</orig>
+                  <reg>mistake</reg>
+               </choice> your character &amp;<lb/>
                your power you will<lb/>
                not let this horrid act<lb/>
                rest as a disgrace upon<lb/>
@@ -308,20 +324,24 @@
                as it must unless some<lb/>
                public of indignation be<lb/>
                raised against it<lb/>
-               
             </p>
             <p>
                <del>Howsay</del> This poor<lb/>
                youths death may lead<lb/>
-               
                <pb n="4" facs="Edgeworth_Morgan_422593_1825-03-09_page04.jpg"/>
                
                to a great good, if good &amp;<lb/>
-               wise men exert <choice><orig>them-<lb/>
-                  selves</orig><reg>themselves</reg></choice> - now - <hi rend="underline">now</hi>! When<lb/>
+               wise men exert <choice>
+                  <orig>them-<lb/>
+                  selves</orig>
+                  <reg>themselves</reg>
+               </choice> - now - <hi rend="underline">now</hi>! When<lb/>
                all hearts are melted<lb/>
-               by pity or fired with <choice><orig>indig<lb/>
-                  nation</orig><reg>indignation</reg></choice> - Oh do not let the<lb/>
+               by pity or fired with <choice>
+                  <orig>indig<lb/>
+                  nation</orig>
+                  <reg>indignation</reg>
+               </choice> - Oh do not let the<lb/>
                moment for making an<lb/>
                impression pass - This<lb/>
                may lead to the reform<lb/>
@@ -335,19 +355,25 @@
                There is one fortunate<lb/>
                circumstance in this horrid<lb/>
                affair that both the young<lb/>
-               men are -<hi rend="underline">were</hi> <add>sons of</add> men of<lb/>
+               men are -<hi rend="underline">were</hi>
+               <add>sons of</add> men of<lb/>
                family &amp; consequence<lb/>
             </p>
             <p>
                My dear <persName ref="./Personography.xml#SpriT1">Sir</persName> pray write<lb/>
                to me &amp; confirm my belief<lb/>
-               that your feelings &amp; <choice><orig>indigna<lb/>
-                  tion</orig><reg>indignation</reg></choice> have been roused as<lb/>
+               that your feelings &amp; <choice>
+                  <orig>indigna<lb/>
+                  tion</orig>
+                  <reg>indignation</reg>
+               </choice> have been roused as<lb/>
                strongly as our own<lb/>
             </p>
             <closer>
-               Ever sincerely y<hi rend="superscript">s</hi><lb/>
-               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName><lb/>
+               Ever sincerely y<hi rend="superscript">s</hi>
+               <lb/>
+               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
+               <lb/>
             </closer>
          </div>
       </body>

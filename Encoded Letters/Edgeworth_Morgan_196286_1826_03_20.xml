@@ -23,7 +23,6 @@
             <respStmt>
                <resp>Transcription and coding by</resp>
                <persName ref="Id_who">Mary Outland</persName>
-              
                <!-- List all transcribers or coders here, editors and students alike, <persName> by <persName>.-->
                <persName ref="Id_who"><!--FirstName LastName--></persName>
                <!-- If you're the last person interacting with the file, enter your name last on the list -->
@@ -53,7 +52,7 @@
                <licence>Distributed under a Creative Commons Attribution-ShareAlike 3.0 Unported
                   License</licence>
             </availability>
-            <idno>Edgeworth_Morgan_196286_1826_03_20<!--Change to match the file name and current naming standards, i.e. "Edgeworth_Beinecke_330_1817_01_24" if file name is "Edgeworth_Beinecke_330_1817_01_24.xml"--></idno> 
+            <idno>Edgeworth_Morgan_196286_1826_03_20<!--Change to match the file name and current naming standards, i.e. "Edgeworth_Beinecke_330_1817_01_24" if file name is "Edgeworth_Beinecke_330_1817_01_24.xml"--></idno>
          </publicationStmt>
          <seriesStmt>
             <title>Maria Edgeworth Letters Project</title>
@@ -66,17 +65,16 @@
                   <collection><!-- Enter specific archival collection if applicable--></collection>
                   <idno><!--Consult library or WorldCat for this info--></idno>
                </msIdentifier>
-               
                <!-- FROM LAURA: it's here (below) in the head that I added the full information about the author,
                   and you could add full information about the addressee as well. -->
                <head>Letter from 
                      <persName xml:id="EdgeM1" from="1768" to="1849">
-                        <forename>Maria</forename>
-                        <surname>Edgeworth</surname>
-                        <date>1768-1849</date>
-                        <idno type="VIAF">71477273</idno>
-                        <idno type="SNAC">62567029</idno>
-                     </persName>
+                     <forename>Maria</forename>
+                     <surname>Edgeworth</surname>
+                     <date>1768-1849</date>
+                     <idno type="VIAF">71477273</idno>
+                     <idno type="SNAC">62567029</idno>
+                  </persName>
                   to <persName ref="./Personography.xml#WilmR1">Sir Robert John Wilmot-Horton</persName>, <placeName><!--Location where letter was sent--></placeName>, 
                   <date when="1826-03-20">March 20<hi rend="superscript">th</hi>. 1826</date>
                </head>
@@ -84,10 +82,8 @@
                   <!-- optional physical description of the letter goes here: paper size and condition, seal, postmarks, etc.-->
                </physDesc>
             </msDesc>
-            
             <!-- FROM LAURA: where to put the following information in <bibl> is still a question: 
                ask TEI List whether it should be in the sourceDesc or elsewhere? -->
-            
             <bibl>In addition to our edited version, this letter was previously published in
                <!--complete bibiographical info if letter was published in a book here - if not delete-->
             </bibl>
@@ -226,7 +222,9 @@
                March 20 1826</note>
                <salute>
                   <persName ref="./Personography.xml#EdgeM1">Miss Edgeworth's</persName> Compliments<lb/>
-                  To Mr. <persName ref="./Personography.xml#WilmR1">W. Horton</persName> -</salute></opener><p> She is going<lb/>
+                  To Mr. <persName ref="./Personography.xml#WilmR1">W. Horton</persName> -</salute>
+            </opener>
+            <p> She is going<lb/>
                to trouble him with 3 requests<lb/>
                which each of them require<lb/>
                at a moderate allowance<lb/>
@@ -236,38 +234,50 @@
                the trouble to Mr. <persName ref="./Personography.xml#WilmR1">Horton</persName>, <persName ref="./Personography.xml#EdgeM1">Miss<lb/>
                E</persName> will spare him the 3 pages<lb/>
                &amp; without preface make the 3
-               requests - </p><lb/>
-               
+               requests - </p>
+            <lb/>
             <p>1<hi rend="superscript">st</hi>. That <persName ref="./Personography.xml#WilmR1">he</persName> would be so obliging<lb/>
                to frank or cause to be frank<lb/>
                to her his letter to the <persName ref="./Personography.xml#HowaH1">Duke<lb/>
                of Norfolk</persName> on the Catholic<lb/>
-               question</p><lb/>
-               
-            <p>2<hi rend="superscript">d</hi>. That <persName ref="./Personography.xml#WilmR1">he</persName> would inquire <choice><orig>whe-<lb/>
-               ther</orig><reg>whether</reg></choice> a letter <persName ref="./Personography.xml#EdgeM1">Miss E</persName> wrote<lb/>
+               question</p>
+            <lb/>
+            <p>2<hi rend="superscript">d</hi>. That <persName ref="./Personography.xml#WilmR1">he</persName> would inquire <choice>
+                  <orig>whe-<lb/>
+               ther</orig>
+                  <reg>whether</reg>
+               </choice> a letter <persName ref="./Personography.xml#EdgeM1">Miss E</persName> wrote<lb/>
                about a fortnight ago to <persName ref="./Personography.xml#WCrespC1">Lady<lb/>
+                  <pb n="2" facs="Edgeworth_Morgan_196286_1826_03_20_page02.jpg"/>
                
-               <pb n="2" facs="Edgeworth_Morgan_196286_1826_03_20_page02.jpg"/>
-               
-               Bathurst</persName> ever reached her <persName ref="./Personography.xml#HortA1"><choice><orig>Lady-<lb/>
-                  -ship</orig><reg>Ladyship</reg></choice></persName>?</p><lb/>
-               
+               Bathurst</persName> ever reached her <persName ref="./Personography.xml#HortA1">
+                  <choice>
+                     <orig>Lady-<lb/>
+                  -ship</orig>
+                     <reg>Ladyship</reg>
+                  </choice>
+               </persName>?</p>
+            <lb/>
             <p>3<hi rend="superscript">d</hi>.that Mr. <persName ref="./Personography.xml#WilmR1">Horton</persName> would let<lb/>
                <persName ref="./Personography.xml#EdgeM1">Miss E</persName> know whether she may<lb/>
                be permitted to transmit<lb/>
                under East <persName ref="./Personography.xml#WCrespC1">Bathursts</persName> frank<lb/>
                letters to a Correspondant<lb/>
-               in <placeName ref="./Placeography.xml#Philadelphia_PA_US"><hi rend="underline">Philadelphia</hi></placeName> - or whether<lb/>
+               in <placeName ref="./Placeography.xml#Philadelphia_PA_US">
+                  <hi rend="underline">Philadelphia</hi>
+               </placeName> - or whether<lb/>
                her permission from <persName ref="./Personography.xml#ByroG1">Lord B</persName>  -<lb/>
-               to have letters <add>to &amp;</add> from <placeName ref="./Placeography.xml#US">America</placeName><lb/>
+               to have letters <add>to &amp;</add> from <placeName ref="./Placeography.xml#US">America</placeName>
+               <lb/>
                enclosed to <persName ref="./Personography.xml#WilmR1">his Lordship</persName> must<lb/>
                be confined to those from &amp;<lb/>
-               to M<hi rend="superscript">r</hi>. <persName ref="./Personography.xml#StewT1"> T. Stewart</persName> - <placeName ref="./Placeography.xml#XXC">Canada</placeName><lb/>
-               </p>
+               to M<hi rend="superscript">r</hi>. <persName ref="./Personography.xml#StewT1"> T. Stewart</persName> - <placeName ref="./Placeography.xml#XXC">Canada</placeName>
+               <lb/>
+            </p>
             <closer>
                <dateline>
-                  <placeName ref="./Placeography.xml#Edgeworthstown_IE">Edgeworths Town</placeName><lb/>
+                  <placeName ref="./Placeography.xml#Edgeworthstown_IE">Edgeworths Town</placeName>
+                  <lb/>
                   <date when="1826-03-20"/>March 20<hi rend="superscript">th</hi>. 1826</dateline>
             </closer>
          </div>

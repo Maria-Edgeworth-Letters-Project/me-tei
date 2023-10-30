@@ -55,7 +55,7 @@
                <licence>Distributed under a Creative Commons Attribution-ShareAlike 3.0 Unported
                   License</licence>
             </availability>
-            <idno>Edgeworth_Princeton_1800-01</idno> 
+            <idno>Edgeworth_Princeton_1800-01</idno>
          </publicationStmt>
          <seriesStmt>
             <title>Maria Edgeworth Letters Project</title>
@@ -68,17 +68,16 @@
                   <collection><!-- Enter specific archival collection if applicable--></collection>
                   <idno>Edgeworth_Princeton_1800-01</idno>
                </msIdentifier>
-               
                <!-- FROM LAURA: it's here (below) in the head that I added the full information about the author,
                   and you could add full information about the addressee as well. -->
                <head>Letter from 
                      <persName xml:id="EdgeM1" from="1768" to="1849">
-                        <forename>Maria</forename>
-                        <surname>Edgeworth</surname>
-                        <date>1768-1849</date>
-                        <idno type="VIAF">71477273</idno>
-                        <idno type="SNAC">62567029</idno>
-                     </persName>
+                     <forename>Maria</forename>
+                     <surname>Edgeworth</surname>
+                     <date>1768-1849</date>
+                     <idno type="VIAF">71477273</idno>
+                     <idno type="SNAC">62567029</idno>
+                  </persName>
                   to <persName ref="./Personography.xml#JohnJ1">Johnson</persName>, <placeName><!--Location where letter was sent--></placeName>, 
                   <date when="1800-01-27">27 January 1800.</date>
                </head>
@@ -86,10 +85,8 @@
                   <!-- optional physical description of the letter goes here: paper size and condition, seal, postmarks, etc.-->
                </physDesc>
             </msDesc>
-            
             <!-- FROM LAURA: where to put the following information in <bibl> is still a question: 
                ask TEI List whether it should be in the sourceDesc or elsewhere? -->
-            
             <bibl>In addition to our edited version, this letter was previously published in
                <!--complete bibiographical info if letter was published in a book here - if not delete-->
             </bibl>
@@ -152,99 +149,169 @@
                27 Jan<hi rend="superscript">y</hi>. <unclear>18??</unclear>
                Dear Sir<lb/>
                I have just received yours<lb/>
-               of the 20<hi rend="superscript">th</hi>. <choice><orig>inst</orig><reg>instant</reg></choice> - I am sorry<lb/>
+               of the 20<hi rend="superscript">th</hi>. <choice>
+                  <orig>inst</orig>
+                  <reg>instant</reg>
+               </choice> - I am sorry<lb/>
                that the battery goes on so slowly<lb/>
-               - my having followed this <choice><orig>parsi<lb/>
-               -monious</orig><reg>parsimonious</reg></choice> plan has cost us both<lb/>
+               - my having followed this <choice>
+                  <orig>parsi<lb/>
+               -monious</orig>
+                  <reg>parsimonious</reg>
+               </choice> plan has cost us both<lb/>
                much trouble - At <placeName ref="./Placeography.xml#Bristol_ENK">Bristol</placeName> it<lb/>
                plagued me more than I chose<lb/>
-               to complain of -<lb/></p>
+               to complain of -<lb/>
+            </p>
             <p>I know that I could have all<lb/>
                the types that are immediately<lb/>
                wanting for £5 &amp; I<lb/>
                think if I can find a moments<lb/>
                <unclear>languor???</unclear> &amp; next week when I go<lb/>
-               to <placeName ref="./Placeography.xml#Dublin_IE">Dublin</placeName> to attend <unclear>Castl<hi rend="superscript">l</hi></unclear> that<lb/>
+               to <placeName ref="./Placeography.xml#Dublin_IE">Dublin</placeName> to attend <unclear>Castl<hi rend="superscript">l</hi>
+               </unclear> that<lb/>
                I can have them cast &amp; sent<lb/>
                to you to print <title ref="./Workography.xml#Early1">Harry &amp; Lucy<lb/>
-               &amp; Frank</title><lb/></p>
+               &amp; Frank</title>
+               <lb/>
+            </p>
             <p>Observe - Take Notice - NB -<lb/>
-               <figure><figDesc>Pen-drawn illustration of a manicule stressing the next words.</figDesc></figure>I never said that I thought<lb/>
-
-<pb n="2" facs="Edgeworth_ Princeton_1800-01_page02.jpg"/>
+               <figure>
+                  <figDesc>Pen-drawn illustration of a manicule stressing the next words.</figDesc>
+               </figure>I never said that I thought<lb/>
+               <pb n="2" facs="Edgeworth_ Princeton_1800-01_page02.jpg"/>
 
                Papas &amp; Mamas would be at<lb/>
-               the trouble to learn to teach I <choice><orig>al-<lb/>
-               ways</orig><reg>always</reg></choice> feared they would not &amp;<lb/>
+               the trouble to learn to teach I <choice>
+                  <orig>al-<lb/>
+               ways</orig>
+                  <reg>always</reg>
+               </choice> feared they would not &amp;<lb/>
                therefore I refused to be paid for<lb/>
                the Book till it had actually<lb/>
                succeeded - But I did &amp; do say<lb/>
-               that it is an excellent <choice><orig>improve<lb/>
-               -ment</orig><reg>improvement</reg></choice> in the art of teaching to read<lb/>
-               though I say it that <choice><orig>sh<hi rend="superscript">d</hi></orig><reg>should</reg></choice> not say it.<lb/></p>
+               that it is an excellent <choice>
+                  <orig>improve<lb/>
+               -ment</orig>
+                  <reg>improvement</reg>
+               </choice> in the art of teaching to read<lb/>
+               though I say it that <choice>
+                  <orig>sh<hi rend="superscript">d</hi>
+                  </orig>
+                  <reg>should</reg>
+               </choice> not say it.<lb/>
+            </p>
             <p>I feel so many qualms about<lb/>
                mixing new &amp; old in the <title ref="./Workography.xml#Paren1">Parents<lb/>
                Assistant</title> that I must beg - nay<lb/>
-               insist that all the old <unclear>may??</unclear><lb/>
-               <add>without any mixing of new</add><lb/>
-               finish in the month <unclear></unclear> March<lb/>
-               <add>if you can put them all in March -</add><lb/>
-               <add>or <unclear></unclear> <unclear>fact</unclear> of volumes if they will fill them</add><lb/>
-               if the Barney <unclear></unclear> is known<lb/>
+               insist that all the old <unclear>may??</unclear>
+               <lb/>
+               <add>without any mixing of new</add>
+               <lb/>
+               finish in the month <unclear/> March<lb/>
+               <add>if you can put them all in March -</add>
+               <lb/>
+               <add>or <unclear/>
+                  <unclear>fact</unclear> of volumes if they will fill them</add>
+               <lb/>
+               if the Barney <unclear/> is known<lb/>
                <unclear>aside</unclear> we dont care - but we are<lb/>
                convinced that the Public <unclear>&amp;c.</unclear> will<lb/>
                be better pleased to have a<lb/>
-               new series<lb/></p>
-            <p><title ref="./Workography.xml#Moral1">Moral Tales</title> being a new series<lb/>
-               of the <title ref="./Workography.xml#Paren1">Parents Assistant</title><lb/>
-               by <persName ref="./Personography.xml#EdgeM1">Miss E &amp;c.</persName> —<lb/></p>
+               new series<lb/>
+            </p>
+            <p>
+               <title ref="./Workography.xml#Moral1">Moral Tales</title> being a new series<lb/>
+               of the <title ref="./Workography.xml#Paren1">Parents Assistant</title>
+               <lb/>
+               by <persName ref="./Personography.xml#EdgeM1">Miss E &amp;c.</persName> —<lb/>
+            </p>
             <p>She has lately written two or<lb/>
-
-<pb n="3" facs="Edgeworth_ Princeton_1800-01_page03.jpg"/>
+               <pb n="3" facs="Edgeworth_ Princeton_1800-01_page03.jpg"/>
 
                three beautiful things - some of<lb/>
-               them dramatic for <del>Children</del> <add>young people</add><lb/>
+               them dramatic for <del>Children</del>
+               <add>young people</add>
+               <lb/>
                One that I almost prefer to<lb/>
                Lazy Lawrence - If you are<lb/>
                good, &amp; tractable about the arrange<lb/>
                -ment above mentioned you shall<lb/>
-               have them!!! —<lb/></p>
+               have them!!! —<lb/>
+            </p>
             <p>I understand that <persName ref="./Personography.xml#EdgeL2">Lovell</persName> is to<lb/>
-               offer you a translation of <persName ref="./Personography.xml#BerqA1">Berquins</persName><lb/>
-               <title ref="./Workography.xml#Bibli1"><foreign>Bibliotheque de village</foreign></title> — the<lb/>
+               offer you a translation of <persName ref="./Personography.xml#BerqA1">Berquins</persName>
+               <lb/>
+               <title ref="./Workography.xml#Bibli1">
+                  <foreign>Bibliotheque de village</foreign>
+               </title> — the<lb/>
                original is excellent &amp; I know that<lb/>
                the translators are fully equal to a<lb/>
-               far more arduous task —<lb/></p>
+               far more arduous task —<lb/>
+            </p>
             <p>When you write please to<lb/>
                make your clerk send an account<lb/>
                of the Books sent to us since we<lb/>
                left <placeName ref="./Placeography.xml#ENK">England</placeName> - for <add>all</add> your accounts have<lb/>
                not reached us &amp; we do not know<lb/>
                what Books we ought to have —<lb/>
-               - <choice><orig>N<hi rend="superscript">o</hi>.</orig><reg>Number</reg></choice> 3 of one of the sets of Anderson is<lb/>
+               - <choice>
+                  <orig>N<hi rend="superscript">o</hi>.</orig>
+                  <reg>Number</reg>
+               </choice> 3 of one of the sets of Anderson is<lb/>
                wanting - please to put it<lb/>
-               in your memorandum book -<lb/></p>
-            <p><del>Please to send us to M<hi rend="superscript">r</hi>. <persName ref="./Personography.xml#DugdX1">Dugdale</persName> bookseller></del><lb/>
-               We <hi rend="underline">desire</hi> to have the <choice><orig>vol</orig><reg>volume</reg></choice> of the<lb/>
-               <title ref="./Workography.xml#Bibli2"><foreign>Bibliotheque Brittanique</foreign></title> which<lb/>
-               translates part of <title ref="./Workography.xml#Pract1"><choice><orig>Prac Ed</orig><reg>Practical Education</reg></choice></title> — we<lb/>
+               in your memorandum book -<lb/>
+            </p>
+            <p>
+               <del>Please to send us to M<hi rend="superscript">r</hi>. <persName ref="./Personography.xml#DugdX1">Dugdale</persName> bookseller&gt;</del>
+               <lb/>
+               We <hi rend="underline">desire</hi> to have the <choice>
+                  <orig>vol</orig>
+                  <reg>volume</reg>
+               </choice> of the<lb/>
+               <title ref="./Workography.xml#Bibli2">
+                  <foreign>Bibliotheque Brittanique</foreign>
+               </title> which<lb/>
+               translates part of <title ref="./Workography.xml#Pract1">
+                  <choice>
+                     <orig>Prac Ed</orig>
+                     <reg>Practical Education</reg>
+                  </choice>
+               </title> — we<lb/>
                want to correct our stile by seeing<lb/>
-               its crookedness reflected in another language<lb/></p>
+               its crookedness reflected in another language<lb/>
+            </p>
             <closer>
                <!--include linebreaks, if used. example: <closer> Yours<lb/> Very sincerely<lb/> -->
             </closer>
             <postscript>
                <pb n="4" facs="Edgeworth_ Princeton_1800-01_page04.jpg"/>
-               <p><persName ref="./Personography.xml#EdgeL2">Lovell</persName> wrote to us to say that he thought<lb/>
-                  <title ref="./Workography.xml#Rivul1"><hi rend="underline">Rivuletta</hi></title> should not be thrown away<lb/>
-                  upon <title ref="./Workography.xml#Early1"><hi rend="underline">Early Lessons</hi></title> that it should be kept<lb/>
-                  for a new Edition of <title ref="./Workography.xml#Pract1"><choice><orig>Prac Ed</orig><reg>Practical Education</reg></choice></title> - We agree with<lb/>
+               <p>
+                  <persName ref="./Personography.xml#EdgeL2">Lovell</persName> wrote to us to say that he thought<lb/>
+                  <title ref="./Workography.xml#Rivul1">
+                     <hi rend="underline">Rivuletta</hi>
+                  </title> should not be thrown away<lb/>
+                  upon <title ref="./Workography.xml#Early1">
+                     <hi rend="underline">Early Lessons</hi>
+                  </title> that it should be kept<lb/>
+                  for a new Edition of <title ref="./Workography.xml#Pract1">
+                     <choice>
+                        <orig>Prac Ed</orig>
+                        <reg>Practical Education</reg>
+                     </choice>
+                  </title> - We agree with<lb/>
                   him in this opinion &amp; request you will<lb/>
-                  take out of <title ref="./Workography.xml#Early1"><hi rend="underline">Rosamond</hi></title> the few pages which<lb/>
-                  <hi rend="underline">relate</hi> to it - they will leave no Hiatus —<lb/></p>
-                  <p>We shall send for books in future by <persName ref="./Personography.xml#DugdX1">Dugdale</persName><lb/></p>
-                  <p>Copy to Johnson<lb/>
-                     Jan<hi rend="superscript">y</hi> 28<hi rend="superscript">th</hi> 1800<lb/></p>
+                  take out of <title ref="./Workography.xml#Early1">
+                     <hi rend="underline">Rosamond</hi>
+                  </title> the few pages which<lb/>
+                  <hi rend="underline">relate</hi> to it - they will leave no Hiatus —<lb/>
+               </p>
+               <p>We shall send for books in future by <persName ref="./Personography.xml#DugdX1">Dugdale</persName>
+                  <lb/>
+               </p>
+               <p>Copy to Johnson<lb/>
+                     Jan<hi rend="superscript">y</hi> 28<hi rend="superscript">th</hi> 1800<lb/>
+               </p>
             </postscript>
             <!--You can include a <pb/> here, or inside the postScript.-->
             <!-- Format for postscripts. 

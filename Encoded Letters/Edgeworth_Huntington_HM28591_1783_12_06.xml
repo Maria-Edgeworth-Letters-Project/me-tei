@@ -5,29 +5,29 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
-            <titleStmt>
-               <title>
+         <titleStmt>
+            <title>
                   Letter from Maria Edgeworth to Frances "Fanny" (Robinson) Hoare, 12/6/1783
                  </title>
-               <author>Maria Edgeworth</author>
-               <editor ref="Id_who">
+            <author>Maria Edgeworth</author>
+            <editor ref="Id_who">
                Jamie Kramer
                </editor>
-               <sponsor>
-                  <orgName>Maria Edgeworth Letters Project</orgName>
-               </sponsor>
-               <sponsor>Wake Forest University, University of Tennessee, Xavier University, Texas
+            <sponsor>
+               <orgName>Maria Edgeworth Letters Project</orgName>
+            </sponsor>
+            <sponsor>Wake Forest University, University of Tennessee, Xavier University, Texas
                   A&amp;M University</sponsor>
-               <principal>Jessica Richard, Hilary Havens, Robin Runia, Susan Egenolf</principal>
-               <respStmt>
-                  <resp>Transcription and coding by</resp>
-                  <persName ref="Id_who">Jamie Kramer<!--FirstName LastName-->
+            <principal>Jessica Richard, Hilary Havens, Robin Runia, Susan Egenolf</principal>
+            <respStmt>
+               <resp>Transcription and coding by</resp>
+               <persName ref="Id_who">Jamie Kramer<!--FirstName LastName-->
                   </persName>
-                  <!-- List all transcribers or coders here, editors and students alike, <persName> by <persName>.-->
-                  <persName ref="Id_who"><!--FirstName LastName--></persName>
-                  <!-- If you're the last person interacting with the file, enter your name last on the list -->
-               </respStmt>
-            </titleStmt>
+               <!-- List all transcribers or coders here, editors and students alike, <persName> by <persName>.-->
+               <persName ref="Id_who"><!--FirstName LastName--></persName>
+               <!-- If you're the last person interacting with the file, enter your name last on the list -->
+            </respStmt>
+         </titleStmt>
          <editionStmt>
             <edition>First digital edition in TEI, date: <date when="2023-08-18">
                </date>
@@ -44,8 +44,6 @@
                </resp>
             </respStmt>
          </editionStmt>
-         
-         
          <publicationStmt>
             <authority>Maria Edgeworth Letters Project</authority>
             <date>2023</date>
@@ -56,10 +54,9 @@
                <licence>Distributed under a Creative Commons Attribution-ShareAlike 3.0 Unported
                   License</licence>
             </availability>
-            
             <idno>
                Edgeworth_Huntington_HM28591_1783_12_06
-            </idno> 
+            </idno>
          </publicationStmt>
          <seriesStmt>
             <title>Maria Edgeworth Letters Project</title>
@@ -79,7 +76,6 @@
                   <idno/>
                   <!--Consult library or WorldCat for this info-->
                </msIdentifier>
-               
                <head>Letter from 
                   <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
                   to <persName ref="./Personography.xml#HoarF1">Frances "Fanny" (Robinson) Hoare</persName>
@@ -91,7 +87,6 @@
             <bibl>In addition to our edited version, this letter was previously published in
                <!--complete bibiographical info if letter was published in a book here-->
             </bibl>
-            
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
@@ -104,7 +99,6 @@
                word is split at the end of a line and the beginning of the next in a manuscript. The
                long s and ligatured forms are silently emended.</p>
          </editorialDecl>
-         
          <classDecl>
             <taxonomy xml:id="relators">
                <bibl>Marc Relators</bibl>
@@ -221,10 +215,14 @@
             <taxonomy xml:id="places">
                <bibl>Places</bibl>
                <category>
-                  <catDesc xml:id="EdgeworthsTown">Edgeworths' Town<idno type="getty">tgn/1042937</idno></catDesc>
-                  <catDesc xml:id="Peterborough">Peterborough, UK<idno type="getty">tgn/7026520</idno></catDesc>
-                  <catDesc xml:id="CranfordI">Cranford, Ireland<idno type="getty">tgn/7901042</idno></catDesc>
-                  <catDesc xml:id="Kettering">Kettering, UK<idno type="getty">tgn/7010904</idno></catDesc>
+                  <catDesc xml:id="EdgeworthsTown">Edgeworths' Town<idno type="getty">tgn/1042937</idno>
+                  </catDesc>
+                  <catDesc xml:id="Peterborough">Peterborough, UK<idno type="getty">tgn/7026520</idno>
+                  </catDesc>
+                  <catDesc xml:id="CranfordI">Cranford, Ireland<idno type="getty">tgn/7901042</idno>
+                  </catDesc>
+                  <catDesc xml:id="Kettering">Kettering, UK<idno type="getty">tgn/7010904</idno>
+                  </catDesc>
                </category>
             </taxonomy>
             <taxonomy xml:id="period">
@@ -234,7 +232,6 @@
                </category>
             </taxonomy>
          </classDecl>
-         
       </encodingDesc>
       <profileDesc>
          <correspDesc>
@@ -242,10 +239,9 @@
                <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
             </correspAction>
             <correspAction type="received">
-               <persName ref="./Personography.xml#HoarF1">Fanny Robinson [Frances Dorothea (née Robinson)]</persName> 
+               <persName ref="./Personography.xml#HoarF1">Fanny Robinson [Frances Dorothea (née Robinson)]</persName>
             </correspAction>
          </correspDesc>
-         
          <textClass>
             <keywords scheme="">
                <list type="simple">
@@ -268,20 +264,22 @@
          <div type="letter">
             <pb n="1" facs="Edgeworth_Huntington_HM28591_1783_12_06_page01.jpg"/>
             <opener>
-
                <dateline>
-                  <placeName ref="./Placeography.xml#Edgeworthstown_IE">Edgeworth's Town</placeName> <date when="1783-12-08">December the 6<hi rend="superscript">th</hi></date><lb/>
-               </dateline>  
+                  <placeName ref="./Placeography.xml#Edgeworthstown_IE">Edgeworth's Town</placeName>
+                  <date when="1783-12-08">December the 6<hi rend="superscript">th</hi>
+                  </date>
+                  <lb/>
+               </dateline>
                <note>6</note>
-</opener>
-                  <p> 
+            </opener>
+            <p> 
                      No indeed my sprightly Fanny I don't think you "a very<lb/>
                      saucy Girl" but a very good Physician and kind friend - I will not<lb/>
                      pay so <del>good</del> high a compliment to my own temper as to say that<lb/>
                      I heard your Sentence without Emotion or so bad a one to your<lb/>
                      Judgement <unclear>&amp;</unclear> to conceal the full Effect it had upon my Mind.<lb/>
                      But do me the justice to believe that I never for an instant<lb/>
-                     <del>doubted</del> arraigned your Decision; ; in short I believe instead<lb/>
+               <del>doubted</del> arraigned your Decision; ; in short I believe instead<lb/>
                      of <hi rend="underline">pressing</hi> my thoughts into fine Sentences I had better tell<lb/>
                      you the facts without any further preamble - first then<lb/>
                      know that the unfortunate scenes are devoted to the flames<lb/>
@@ -293,61 +291,92 @@
                      at length after repeated Effort it was wrought into the pattern<lb/>
                      of a cap in which degraded form it for the present exists -<lb/>
                      Tyrant art thou satisfied ? - So much for the effect of your<lb/>
-                     cruelty now for the honor <del>of <unclear></unclear></del> of your medical Skill<lb/>
+                     cruelty now for the honor <del>of <unclear/>
+               </del> of your medical Skill<lb/>
                      I can safely swear that you have cured me of the <unclear>Manic</unclear> of<lb/>
                      Play Writing at least for the Winter Season, but you know such<lb/>
                      diseases when they attack the Body instead of the Mind usually<lb/>
-                     return at Spring and fade so that I cannot depend upon a <choice><orig>radi<lb/>
-
-                        <pb n="2" facs="Edgeworth_Huntington_HM28591_1783_12_06_page02.jpg"/>
+                     return at Spring and fade so that I cannot depend upon a <choice>
+                  <orig>radi<lb/>
+                     <pb n="2" facs="Edgeworth_Huntington_HM28591_1783_12_06_page02.jpg"/>
                         
-               -cal</orig><reg>radical</reg></choice> Cure; ; In case of a second Eruption I'm sure my good friend<lb/>
-                     will Administer the same Medicines or more violent <choice><orig>one's</orig><reg>ones</reg></choice> if the<lb/>
-                     disease should prove obstinate - Perhaps I am not quite <choice><orig>intelli<lb/>
-                        -gible</orig><reg>intelligible</reg></choice>, but God forbid that for the sake of being so I should <choice><orig>tran-<lb/>
-               -slate</orig><reg>translate</reg></choice> the french Word I have ventured to make use of .-<lb/>
+               -cal</orig>
+                  <reg>radical</reg>
+               </choice> Cure; ; In case of a second Eruption I'm sure my good friend<lb/>
+                     will Administer the same Medicines or more violent <choice>
+                  <orig>one's</orig>
+                  <reg>ones</reg>
+               </choice> if the<lb/>
+                     disease should prove obstinate - Perhaps I am not quite <choice>
+                  <orig>intelli<lb/>
+                        -gible</orig>
+                  <reg>intelligible</reg>
+               </choice>, but God forbid that for the sake of being so I should <choice>
+                  <orig>tran-<lb/>
+               -slate</orig>
+                  <reg>translate</reg>
+               </choice> the french Word I have ventured to make use of .-<lb/>
                      What are you going to <placeName ref="./Placeography.xml#Wimpole_ENK">Wimpole Street</placeName> again, I consider this<lb/>
                as a kind of second parting; and I shan't hear from you and you'll<lb/>
                      quite forget me! ! and I shall be all alone in <placeName ref="./Placeography.xml#IE">Ireland</placeName>! ! your gay<lb/>
-               entertaining companions will rival the <hi rend="underline">grave</hi> - <hi rend="underline">sedate</hi> - <hi rend="underline">young</hi><lb/>
-               <hi rend="underline">lady</hi> <hi rend="underline">Alack and a well a day</hi>! ! what will become of her? -<lb/>
+               entertaining companions will rival the <hi rend="underline">grave</hi> - <hi rend="underline">sedate</hi> - <hi rend="underline">young</hi>
+               <lb/>
+               <hi rend="underline">lady</hi>
+               <hi rend="underline">Alack and a well a day</hi>! ! what will become of her? -<lb/>
                      Oh that I could bribe <persName ref="./Personography.xml#FosbrX1">Fosbrooke</persName> to take my part &amp; keep me<lb/>
                in your Mind will you ever talk, will you ever think of your<lb/>
-                     <persName ref="./Personography.xml#EdgeM1">Edge'</persName>? let me drawers, let my bed, my stool any thing stand for<lb/>
-                     me - How am I to praise <persName ref="./Personography.xml#FosbrX1"><unclear>Fossè</unclear></persName>, as we used to call her<lb/>
+               <persName ref="./Personography.xml#EdgeM1">Edge'</persName>? let me drawers, let my bed, my stool any thing stand for<lb/>
+                     me - How am I to praise <persName ref="./Personography.xml#FosbrX1">
+                  <unclear>Fossè</unclear>
+               </persName>, as we used to call her<lb/>
                perhaps she won't do as much for me, well then tell her she's<lb/>
                very ungrateful for that I thought her a very good natured<lb/>
                chearful, sprightly giddy Girl - Oh I have a thousand Questions<lb/> 
                to ask her, tell her that I beg she will write to me and tell<lb/>
-                     me how she left all things, living &amp; being at <placeName ref="./Placeography.xml#Derby_ENK"><unclear>Derby</unclear></placeName>, how all old<lb/>
+                     me how she left all things, living &amp; being at <placeName ref="./Placeography.xml#Derby_ENK">
+                  <unclear>Derby</unclear>
+               </placeName>, how all old<lb/>
                      School Mates do particularly <persName ref="./Personography.xml#BlakX1">Blakeway</persName> &amp; <persName ref="./Personography.xml#HodsX1">Hodson</persName>, how many<lb/>
-                     <hi rend="underline">hundred</hi> Scrapes <persName ref="./Personography.xml#XxxxE2">Emmeline</persName> has been in since we parted<lb/>
+               <hi rend="underline">hundred</hi> Scrapes <persName ref="./Personography.xml#XxxxE2">Emmeline</persName> has been in since we parted<lb/>
                what party she is in &amp;c &amp;c - and pray ask her if I was a<lb/>
-                     <hi rend="underline">grave</hi> <hi rend="underline">sedate</hi> <hi rend="underline">young</hi> <hi rend="underline">Lady</hi> at <persName ref="./Personography.xml#LatifX1">M<hi rend="superscript">rs</hi>.. <unclear>Latiffiere's</unclear></persName>; Has she forgot our<lb/>
+               <hi rend="underline">grave</hi>
+               <hi rend="underline">sedate</hi>
+               <hi rend="underline">young</hi>
+               <hi rend="underline">Lady</hi> at <persName ref="./Personography.xml#LatifX1">M<hi rend="superscript">rs</hi>.. <unclear>Latiffiere's</unclear>
+               </persName>; Has she forgot our<lb/>
                      leaping off the top Scaffold at the hazard of our own necks, of our<lb/>
                      noses at least, and our having the fools cap on for walking<lb/>
                      on the Rails of the Stairs going to the Drawing Room &amp; <persName ref="./Personography.xml#FordX1">Miss<lb/>
-               
-                     <pb n="3" facs="Edgeworth_Huntington_HM28591_1783_12_06_page03.jpg"/>
+                  <pb n="3" facs="Edgeworth_Huntington_HM28591_1783_12_06_page03.jpg"/>
                      
                Ford</persName>'s popping out upon us and crying <hi rend="underline">So Ladies!</hi> and a thousand<lb/>
                      other pretty pranks she'll divert you with up in the Corner<lb/>
-               by the fireplace where you and I have Chattered many a <choice><orig>live-<lb/>
-                  long</orig><reg>livelong</reg></choice> hour - Au reste she can chatter as fast as either of us<lb/>
-               and giggle faster, you'll like her pour passer le temps <unclear>vastly</unclear><lb/>
+               by the fireplace where you and I have Chattered many a <choice>
+                  <orig>live-<lb/>
+                  long</orig>
+                  <reg>livelong</reg>
+               </choice> hour - Au reste she can chatter as fast as either of us<lb/>
+               and giggle faster, you'll like her pour passer le temps <unclear>vastly</unclear>
+               <lb/>
                      I think she is not unlike <persName ref="./Personography.xml#HxxxX2">Miss H.</persName> in person. - But you will<lb/>
                tell me all about her when you come to me again Oh and when<lb/>
                      will that be? ? Pray don't forget me to <persName ref="./Personography.xml#XxxxP1">Penelope</persName>; I hope she will<lb/>
-                     sometimes think and make you think of me - Is <persName ref="./Personography.xml#CaveX1"><unclear>Cave</unclear></persName><lb/>
+                     sometimes think and make you think of me - Is <persName ref="./Personography.xml#CaveX1">
+                  <unclear>Cave</unclear>
+               </persName>
+               <lb/>
                      still at School? ? indeed I think just as you do of her - but<lb/>
                the next time you ask my opinion don't tell me your's<lb/>
-                        first - what's become of <persName ref="./Personography.xml#LushS1">Lushington</persName> and her <hi rend="underline">comment</hi><lb/>
-                        <hi rend="underline">pouvez dire comme cela Mààm selle</hi>! Poor <persName ref="./Personography.xml#NimbX1">Nimbhard</persName>!<lb/>
+                        first - what's become of <persName ref="./Personography.xml#LushS1">Lushington</persName> and her <hi rend="underline">comment</hi>
+               <lb/>
+               <hi rend="underline">pouvez dire comme cela Mààm selle</hi>! Poor <persName ref="./Personography.xml#NimbX1">Nimbhard</persName>!<lb/>
                      If I live a thousand years I shall never forget her coming<lb/>
-               up to me when I was perched up <del></del> in the middle of<lb/>
+               up to me when I was perched up <del/> in the middle of<lb/>
                the Room upon a high stool, when it was <hi rend="underline">Sin</hi> to approach<lb/>
-                     and <hi rend="underline">Death</hi> to pity one she came up &amp; whispered <hi rend="underline">ne pleurez</hi><lb/>
-                     <hi rend="underline">pas ma chere <persName ref="./Personography.xml#EdgeM1">Edgeworth</persName></hi> there was more true goodness of heart<lb/>
+                     and <hi rend="underline">Death</hi> to pity one she came up &amp; whispered <hi rend="underline">ne pleurez</hi>
+               <lb/>
+               <hi rend="underline">pas ma chere <persName ref="./Personography.xml#EdgeM1">Edgeworth</persName>
+               </hi> there was more true goodness of heart<lb/>
                      &amp; friendship in that simple Sentence than I perhaps shall<lb/>
                often meet with from more sentimental friends, if ever<lb/>
                I meet her again I'll tell her so - Poor Girl! I do love<lb/>
@@ -357,8 +386,7 @@
                      as the Child unborn God knows! pray tell me if I am ever<lb/>
                spoken of and how?- - -<lb/>
                You see I'm determined not to torment you with my Books<lb/>
-               
-                     <pb n="4" facs="Edgeworth_Huntington_HM28591_1783_12_06_page04.jpg"/>
+               <pb n="4" facs="Edgeworth_Huntington_HM28591_1783_12_06_page04.jpg"/>
                      
                and gravity any anymore - I hope you don't think my Dear Girl<lb/>
                that I meant what I said about <persName ref="./Personography.xml#EdgeF2">my Mother</persName> as any Reproach<lb/>
@@ -368,29 +396,52 @@
                your's - I long to see <persName ref="./Personography.xml#RobiD1">M<hi rend="superscript">rs</hi>. Robinson</persName>'s Verses -<lb/>
                      as for <unclear>Politico</unclear>, Mum's the word - <persName ref="./Personography.xml#EdgeR1">my father</persName>'s to come home<lb/>
                tomorrow Oh joy and jubilee! - <lb/>
-               How could you bestow six lines upon those wretched <choice><orig>flow-<lb/>
-                  ers</orig><reg>flowers</reg></choice> which wer'nt worth six farthings -<lb/>
-               As you were so kind to say <hi rend="underline">How I long for your answer</hi><lb/>
-               I have prefered writing a speedy to a long one <choice><orig><hi rend="underline">parti-</hi><lb/>
-                  <hi rend="underline">-cularly</hi></orig><reg>particularly</reg></choice> <hi rend="underline">as all the family are gone to Bed - So adieu</hi><lb/>
+               How could you bestow six lines upon those wretched <choice>
+                  <orig>flow-<lb/>
+                  ers</orig>
+                  <reg>flowers</reg>
+               </choice> which wer'nt worth six farthings -<lb/>
+               As you were so kind to say <hi rend="underline">How I long for your answer</hi>
+               <lb/>
+               I have prefered writing a speedy to a long one <choice>
+                  <orig>
+                     <hi rend="underline">parti-</hi>
+                     <lb/>
+                     <hi rend="underline">-cularly</hi>
+                  </orig>
+                  <reg>particularly</reg>
+               </choice>
+               <hi rend="underline">as all the family are gone to Bed - So adieu</hi>
+               <lb/>
                my kind Friend and good Physician, preserve all<lb/>
                your sprightly freedom &amp; good goodnatured sincerity and<lb/>
-               sometimes think of her who often thinks of you</p><lb/>
+               sometimes think of her who often thinks of you</p>
+            <lb/>
             <closer>
-                     <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName><lb/>
-               </closer>
-                     <postscript>
-                        <p>I beg my Respectful compliments to <persName ref="./Personography.xml#RobiG1">L<hi rend="superscript">d.</hi></persName> and <persName ref="./Personography.xml#RobiD1">Lady Robinson</persName><lb/>
-                  not out of form - for I'm thoroughly convinced that a <choice><orig>mo-<lb/>
-                     ther</orig><reg>mother</reg></choice> who has given such an Excellent and <hi rend="underline">successful</hi><lb/>
+               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
+               <lb/>
+            </closer>
+            <postscript>
+               <p>I beg my Respectful compliments to <persName ref="./Personography.xml#RobiG1">L<hi rend="superscript">d.</hi>
+                  </persName> and <persName ref="./Personography.xml#RobiD1">Lady Robinson</persName>
+                  <lb/>
+                  not out of form - for I'm thoroughly convinced that a <choice>
+                     <orig>mo-<lb/>
+                     ther</orig>
+                     <reg>mother</reg>
+                  </choice> who has given such an Excellent and <hi rend="underline">successful</hi>
+                  <lb/>
                   Education to her Daughter must be an amiable<lb/>
-                  as well as sensible Woman - My love &amp; my <unclear>Direction</unclear><lb/>
-                           to the <hi rend="underline">new</hi> <persName ref="./Personography.xml#HartX1">Hartley</persName> - answer Quick as I have done<lb/>
+                  as well as sensible Woman - My love &amp; my <unclear>Direction</unclear>
+                  <lb/>
+                           to the <hi rend="underline">new</hi>
+                  <persName ref="./Personography.xml#HartX1">Hartley</persName> - answer Quick as I have done<lb/>
                   In the dead of night no Mortal stirring!<lb/>
-                  What shall I do! I can't for the life of me find y<hi rend="superscript">r</hi>. I <unclear></unclear> though I've<lb/>
+                  What shall I do! I can't for the life of me find y<hi rend="superscript">r</hi>. I <unclear/> though I've<lb/>
                   your letter under my hand.- Had I best send this without one or<lb/>
-                  not send it at all?- Pray don't be angry &amp; I'll look for it all day tomorrow</p><lb/>
-                     </postscript> 
+                  not send it at all?- Pray don't be angry &amp; I'll look for it all day tomorrow</p>
+               <lb/>
+            </postscript>
          </div>
       </body>
       <back> </back>

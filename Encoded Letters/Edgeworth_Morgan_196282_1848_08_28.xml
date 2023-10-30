@@ -48,7 +48,7 @@
                <licence>Distributed under a Creative Commons Attribution-ShareAlike 3.0 Unported
                   License</licence>
             </availability>
-            <idno>Edgeworth_Morgan_196282_1848_08_28</idno> 
+            <idno>Edgeworth_Morgan_196282_1848_08_28</idno>
          </publicationStmt>
          <seriesStmt>
             <title>Maria Edgeworth Letters Project</title>
@@ -60,17 +60,16 @@
                   <collection><!-- Enter specific archival collection if applicable--></collection>
                   <idno><!--Consult library or WorldCat for this info--></idno>
                </msIdentifier>
-               
                <!-- FROM LAURA: it's here (below) in the head that I added the full information about the author,
                   and you could add full information about the addressee as well. -->
                <head>Letter from 
                      <persName xml:id="EdgeM1" from="1768" to="1849">
-                        <forename>Maria</forename>
-                        <surname>Edgeworth</surname>
-                        <date>1768-1849</date>
-                        <idno type="VIAF">71477273</idno>
-                        <idno type="SNAC">62567029</idno>
-                     </persName>
+                     <forename>Maria</forename>
+                     <surname>Edgeworth</surname>
+                     <date>1768-1849</date>
+                     <idno type="VIAF">71477273</idno>
+                     <idno type="SNAC">62567029</idno>
+                  </persName>
                   to <persName ref="./Personography.xml#DrysX1">Lady Elizabeth Drysdale</persName>, 
                   <date when="1848-08-28">Aug 28<hi rend="superscript">th</hi> 1848</date>
                </head>
@@ -78,10 +77,8 @@
                   <!-- optional physical description of the letter goes here: paper size and condition, seal, postmarks, etc.-->
                </physDesc>
             </msDesc>
-            
             <!-- FROM LAURA: where to put the following information in <bibl> is still a question: 
                ask TEI List whether it should be in the sourceDesc or elsewhere? -->
-            
             <bibl>In addition to our edited version, this letter was previously published in
                <!--complete bibiographical info if letter was published in a book here - if not delete-->
             </bibl>
@@ -214,7 +211,6 @@
       <body>
          <div type="letter">
             <pb n="1" facs="Edgeworth_Morgan_196282_1848_08_28_page01.jpg"/>
-
             <opener>
                <dateline>
                   <name type="place" ref="./Placeography.xml#Edgeworthstown_IE"/>Edgeworths Town
@@ -225,8 +221,11 @@
                <persName ref="./Personography.xml#DrysX1">Lady Drysdale</persName> I flatter<lb/>
                myself she will not be<lb/>
                displeased to have under<lb/>
-               my own hand this <choice><orig>assu-<lb/>
-                  -rance</orig><reg>assurance</reg></choice> of the heartfelt<lb/>
+               my own hand this <choice>
+                  <orig>assu-<lb/>
+                  -rance</orig>
+                  <reg>assurance</reg>
+               </choice> of the heartfelt<lb/>
                pleasure I have received<lb/>
                from her approbation<lb/>
                of my father's memoirs &amp;<lb/>
@@ -238,13 +237,15 @@
             </p>
             <closer>
                <!--include linebreaks, if used. example: <closer> Yours<lb/> Very sincerely<lb/> -->
-               <unclear>her</unclear> obliged <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName><lb/>
+               <unclear>her</unclear> obliged <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
+               <lb/>
             </closer>
-               <pb n="2" facs="Edgeworth_Morgan_196282_1848_08_28_page02.jpg"/><lb/>
-
+            <pb n="2" facs="Edgeworth_Morgan_196282_1848_08_28_page02.jpg"/>
+            <lb/>
             <postscript>
                <p><!--A postscript goes here, outside the <closer>. -->
-                  <note>MA 14232</note><lb/>
+                  <note>MA 14232</note>
+                  <lb/>
                </p>
             </postscript>
          </div>

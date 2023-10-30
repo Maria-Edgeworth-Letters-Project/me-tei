@@ -53,7 +53,7 @@
                <licence>Distributed under a Creative Commons Attribution-ShareAlike 3.0 Unported
                   License</licence>
             </availability>
-            <idno>Edgeworth_Morgan_273180_1844_06_16</idno> 
+            <idno>Edgeworth_Morgan_273180_1844_06_16</idno>
          </publicationStmt>
          <seriesStmt>
             <title>Maria Edgeworth Letters Project</title>
@@ -66,28 +66,25 @@
                   <collection><!-- Enter specific archival collection if applicable--></collection>
                   <idno><!--Consult library or WorldCat for this info--></idno>
                </msIdentifier>
-               
                <!-- FROM LAURA: it's here (below) in the head that I added the full information about the author,
                   and you could add full information about the addressee as well. -->
                <head>Letter from 
                      <persName xml:id="EdgeM1" from="1768" to="1849">
-                        <forename>Maria</forename>
-                        <surname>Edgeworth</surname>
-                        <date>1768-1849</date>
-                        <idno type="VIAF">71477273</idno>
-                        <idno type="SNAC">62567029</idno>
-                     </persName>
-                  to <persName ref= "./Personography.xml#AgneE1">Elizabeth Agnew</persName>, 
+                     <forename>Maria</forename>
+                     <surname>Edgeworth</surname>
+                     <date>1768-1849</date>
+                     <idno type="VIAF">71477273</idno>
+                     <idno type="SNAC">62567029</idno>
+                  </persName>
+                  to <persName ref="./Personography.xml#AgneE1">Elizabeth Agnew</persName>, 
                   <date when="1844-06-16">June 16 <hi rend="superscript">th</hi>1844 </date>
                </head>
                <physDesc>
                   <!-- optional physical description of the letter goes here: paper size and condition, seal, postmarks, etc.-->
                </physDesc>
             </msDesc>
-            
             <!-- FROM LAURA: where to put the following information in <bibl> is still a question: 
                ask TEI List whether it should be in the sourceDesc or elsewhere? -->
-            
             <bibl>In addition to our edited version, this letter was previously published in
                <!--complete bibiographical info if letter was published in a book here - if not delete-->
             </bibl>
@@ -196,7 +193,7 @@
                <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
             </correspAction>
             <correspAction type="received">
-               <persName ref= "./Personography.xml#AgneE1">Elizabeth Agnew</persName>
+               <persName ref="./Personography.xml#AgneE1">Elizabeth Agnew</persName>
             </correspAction>
          </correspDesc>
          <textClass>
@@ -220,12 +217,13 @@
       <body>
          <div type="letter">
             <pb n="1" facs="Edgeworth_Morgan_273180_1844_06_16_page01.jpg"/>
-            
             <opener>
                <dateline>
                   <date when="1844-06-16"/>June 16 <hi rend="superscript">th</hi>1844 </dateline>
-               <note> To <persName ref="./Personography.xml#AgneE1">Elizabeth Agnew</persName><lb/>
-               (Lis<unclear>g</unclear>).</note><lb/>
+               <note> To <persName ref="./Personography.xml#AgneE1">Elizabeth Agnew</persName>
+                  <lb/>
+               (Lis<unclear>g</unclear>).</note>
+               <lb/>
                <salute>
                   Dear <persName ref="./Personography.xml#AgneE1">Madam</persName>
                </salute>
@@ -236,12 +234,18 @@
                should have heard from me<lb/>
                and should have received<lb/>
                my most sincere thanks<lb/>
-               for the beautiful, <choice><orig>impur-<lb/>
-                  chaseable</orig><reg>impurchaseable</reg></choice> present you have<lb/>
+               for the beautiful, <choice>
+                  <orig>impur-<lb/>
+                  chaseable</orig>
+                  <reg>impurchaseable</reg>
+               </choice> present you have<lb/>
                made me, and for the<lb/>
                Inscription so adding to
-               its value and so <choice><orig>peculiar<lb/>
-                  -ly</orig><reg>peculiarly</reg></choice> gratifying to me -<lb/>
+               its value and so <choice>
+                  <orig>peculiar<lb/>
+                  -ly</orig>
+                  <reg>peculiarly</reg>
+               </choice> gratifying to me -<lb/>
             </p>
             <p>
                I presume not to praise<lb/>
@@ -250,45 +254,62 @@
                so felt and so expressed<lb/>
                by the best judges and by<lb/>
                the public in general, that<lb/>
-               
-            <pb n="2" facs="Edgeworth_Morgan_273180_1844_06_16_page02.jpg"/>
+               <pb n="2" facs="Edgeworth_Morgan_273180_1844_06_16_page02.jpg"/>
                
                the tribute of praise from<lb/>
                any individual were not<lb/>
                only superfluous but<lb/>
-               must appear rather <choice><orig>imper<lb/>
-               -tinent</orig><reg>impertinent</reg></choice> -<lb/></p>
-               <p>- Allow me to say<lb/>
+               must appear rather <choice>
+                  <orig>imper<lb/>
+               -tinent</orig>
+                  <reg>impertinent</reg>
+               </choice> -<lb/>
+            </p>
+            <p>- Allow me to say<lb/>
                that what I have heard of<lb/>
                you from your own family<lb/>
                with whom I have had the<lb/>
-               pleasure of becoming <choice><orig>acquaint<lb/>
-               ed</orig><reg>acquainted</reg></choice>, and the character of<lb/>
+               pleasure of becoming <choice>
+                  <orig>acquaint<lb/>
+               ed</orig>
+                  <reg>acquainted</reg>
+               </choice>, and the character of<lb/>
                your mind which I have<lb/>
                gathered from your works<lb/>
                and from your conduct<lb/>
-               from your sacrifices to <del><unclear></unclear></del><lb/>
+               from your sacrifices to <del>
+                  <unclear/>
+               </del>
+               <lb/>
                your sense of duty and<lb/>
-               aspirations after The <choice><orig>great-<lb/>
-                  est</orig><reg>greatest</reg></choice> good, are altogether<lb/>
+               aspirations after The <choice>
+                  <orig>great-<lb/>
+                  est</orig>
+                  <reg>greatest</reg>
+               </choice> good, are altogether<lb/>
                what have interested me.<lb/>
-               For you my dear<persName ref="./Personography.xml#AgneE1">Madam</persName><lb/>
+               For you my dear<persName ref="./Personography.xml#AgneE1">Madam</persName>
+               <lb/>
                far above that admiration<lb/>
                which your talents excite<lb/>
             </p>
-            
             <pb n="3" facs="Edgeworth_Morgan_273180_1844_06_16_page03.jpg"/>
-               
-               <p>- However we may differ<lb/>
+            <p>- However we may differ<lb/>
                in opinion, I rejoice, in<lb/>
                feeling that no exclusive<lb/>
                belief separates us from<lb/>
                each other - The last of<lb/>
                those amiable lines which<lb/>
                you have addressed to me<lb/>
-               I consider as not only <choice><orig>ho-<lb/>
-               norable</orig><reg>honorable</reg></choice> to your own <choice><orig>cha-<lb/>
-               ritable</orig><reg>charitable</reg></choice> and liberal Faith<lb/>
+               I consider as not only <choice>
+                  <orig>ho-<lb/>
+               norable</orig>
+                  <reg>honorable</reg>
+               </choice> to your own <choice>
+                  <orig>cha-<lb/>
+               ritable</orig>
+                  <reg>charitable</reg>
+               </choice> and liberal Faith<lb/>
                but as doing honor and<lb/>
                justice to the religion which<lb/>
                you have embraced -<lb/>
@@ -300,18 +321,25 @@
                in this conviction to which<lb/>
                I had before been inclined<lb/>
                by the assertions of some well<lb/>
-                  informed <choice><orig>R</orig><reg>Roman</reg></choice> Catholics and<lb/>
-                  
-            <pb n="4" facs="Edgeworth_Morgan_273180_1844_06_16_page04.jpg"/>
+                  informed <choice>
+                  <orig>R</orig>
+                  <reg>Roman</reg>
+               </choice> Catholics and<lb/>
+               <pb n="4" facs="Edgeworth_Morgan_273180_1844_06_16_page04.jpg"/>
                   
                in which I am most happy<lb/>
                to be thus confirmed by<lb/>
                you<lb/>
-              
             </p>
             <closer>
-               Believe me dear<persName ref="./Personography.xml#AgneE1"><choice><orig>Ma<lb/>
-                  dam</orig><reg>Madam</reg></choice></persName><lb/>
+               Believe me dear<persName ref="./Personography.xml#AgneE1">
+                  <choice>
+                     <orig>Ma<lb/>
+                  dam</orig>
+                     <reg>Madam</reg>
+                  </choice>
+               </persName>
+               <lb/>
                Your much obliged<lb/>
                <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
             </closer>

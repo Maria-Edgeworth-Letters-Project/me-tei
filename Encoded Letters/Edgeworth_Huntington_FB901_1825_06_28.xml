@@ -5,29 +5,31 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
-            <titleStmt>
-               <title>
+         <titleStmt>
+            <title>
                   Letter from Sir Francis Beaufort to Maria Edgeworth, 6/28/1825
                </title>
-               <author><persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName></author>
-               <editor ref="Id_who">
+            <author>
+               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
+            </author>
+            <editor ref="Id_who">
                   Jamie Kramer
                </editor>
-               <sponsor>
-                  <orgName>Maria Edgeworth Letters Project</orgName>
-               </sponsor>
-               <sponsor>Wake Forest University, University of Tennessee, Xavier University, Texas
+            <sponsor>
+               <orgName>Maria Edgeworth Letters Project</orgName>
+            </sponsor>
+            <sponsor>Wake Forest University, University of Tennessee, Xavier University, Texas
                   A&amp;M University</sponsor>
-               <principal>Jessica Richard, Hilary Havens, Robin Runia, Susan Egenolf</principal>
-               <respStmt>
-                  <resp>Transcription and coding by</resp>
-                  <persName ref="Id_who">Jamie Kramer<!--FirstName LastName-->
+            <principal>Jessica Richard, Hilary Havens, Robin Runia, Susan Egenolf</principal>
+            <respStmt>
+               <resp>Transcription and coding by</resp>
+               <persName ref="Id_who">Jamie Kramer<!--FirstName LastName-->
                   </persName>
-                  <!-- List all transcribers or coders here, editors and students alike, <persName> by <persName>.-->
-                  <persName ref="Id_who"><!--FirstName LastName--></persName>
-                  <!-- If you're the last person interacting with the file, enter your name last on the list -->
-               </respStmt>
-            </titleStmt>
+               <!-- List all transcribers or coders here, editors and students alike, <persName> by <persName>.-->
+               <persName ref="Id_who"><!--FirstName LastName--></persName>
+               <!-- If you're the last person interacting with the file, enter your name last on the list -->
+            </respStmt>
+         </titleStmt>
          <editionStmt>
             <edition>First digital edition in TEI, date: <date when="2023-08-22">
                </date>
@@ -50,8 +52,6 @@
                </resp>
             </respStmt>
          </editionStmt>
-         
-         
          <publicationStmt>
             <authority>Maria Edgeworth Letters Project</authority>
             <date>2023</date>
@@ -62,8 +62,7 @@
                <licence>Distributed under a Creative Commons Attribution-ShareAlike 3.0 Unported
                   License</licence>
             </availability>
-            
-            <idno>Edgeworth_Huntington_FB901_1825_06_28</idno> 
+            <idno>Edgeworth_Huntington_FB901_1825_06_28</idno>
          </publicationStmt>
          <seriesStmt>
             <title>Maria Edgeworth Letters Project</title>
@@ -82,7 +81,6 @@
                   <idno/>
                   <!--Consult library or WorldCat for this info-->
                </msIdentifier>
-               
                <head>Letter from 
                   <persName ref="./Personography.xml#BeauF1">Sir Francis Beaufort</persName>
                   to 
@@ -95,7 +93,6 @@
             <bibl>In addition to our edited version, this letter was previously published in
                <!--complete bibiographical info if letter was published in a book here-->
             </bibl>
-            
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
@@ -108,7 +105,6 @@
                word is split at the end of a line and the beginning of the next in a manuscript. The
                long s and ligatured forms are silently emended.</p>
          </editorialDecl>
-         
          <classDecl>
             <taxonomy xml:id="relators">
                <bibl>Marc Relators</bibl>
@@ -225,10 +221,14 @@
             <taxonomy xml:id="places">
                <bibl>Places</bibl>
                <category>
-                  <catDesc xml:id="EdgeworthsTown">Edgeworths' Town<idno type="getty">tgn/1042937</idno></catDesc>
-                  <catDesc xml:id="Peterborough">Peterborough, UK<idno type="getty">tgn/7026520</idno></catDesc>
-                  <catDesc xml:id="CranfordI">Cranford, Ireland<idno type="getty">tgn/7901042</idno></catDesc>
-                  <catDesc xml:id="Kettering">Kettering, UK<idno type="getty">tgn/7010904</idno></catDesc>
+                  <catDesc xml:id="EdgeworthsTown">Edgeworths' Town<idno type="getty">tgn/1042937</idno>
+                  </catDesc>
+                  <catDesc xml:id="Peterborough">Peterborough, UK<idno type="getty">tgn/7026520</idno>
+                  </catDesc>
+                  <catDesc xml:id="CranfordI">Cranford, Ireland<idno type="getty">tgn/7901042</idno>
+                  </catDesc>
+                  <catDesc xml:id="Kettering">Kettering, UK<idno type="getty">tgn/7010904</idno>
+                  </catDesc>
                </category>
             </taxonomy>
             <taxonomy xml:id="period">
@@ -238,7 +238,6 @@
                </category>
             </taxonomy>
          </classDecl>
-         
       </encodingDesc>
       <profileDesc>
          <correspDesc>
@@ -247,10 +246,8 @@
             </correspAction>
             <correspAction type="received">
                <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
-
             </correspAction>
          </correspDesc>
-         
          <textClass>
             <keywords scheme="">
                <list type="simple">
@@ -272,13 +269,15 @@
       <body>
          <div type="letter">
             <pb n="1" facs="Edgeworth_Huntington_FB901_1825_06_28_page01.jpg"/>
-            
             <opener>
-
                <dateline>
-                  <placeName ref="./Placeography.xml#London_IE">London</placeName> <date when="1825-06-28"/>June 28. 25<lb/></dateline>  
-               <salute>My dear <persName ref="./Personography.xml#EdgeM1">Maria</persName><lb/>
-               </salute></opener>
+                  <placeName ref="./Placeography.xml#London_IE">London</placeName>
+                  <date when="1825-06-28"/>June 28. 25<lb/>
+               </dateline>
+               <salute>My dear <persName ref="./Personography.xml#EdgeM1">Maria</persName>
+                  <lb/>
+               </salute>
+            </opener>
             <p>My friends in Town are<lb/>
                exclaiming at the deep scarlet hue in<lb/>
                my face with which I have <add>just</add> returned<lb/>
@@ -286,7 +285,8 @@
                it to the pony and donkey chaises<lb/>
                in which I have been wheeling about<lb/>
                with my little tribe - Some to two<lb/>
-               days boat sailing with <persName ref="./Personography.xml#WilsL1">Uncle Lestock</persName><lb/>
+               days boat sailing with <persName ref="./Personography.xml#WilsL1">Uncle Lestock</persName>
+               <lb/>
                and my boys - and others insinuate<lb/>
                that Smuggled gin and Rhenish wine<lb/>
                are cheap on the Sea coast - But<lb/>
@@ -295,29 +295,34 @@
                produced by accidentally cutting,<lb/>
                a few days ago only, the Second<lb/>
                leaf of <title ref="./Workography.xml#Early2">Harry and Lucy</title> - Al! my<lb/>
-
                <pb n="2" facs="Edgeworth_Huntington_FB901_1825_06_28_page02.jpg"/>
                
-               dear <persName ref="./Personography.xml#EdgeM1">Maria</persName> what misguiding imp<lb/><lb/>
+               dear <persName ref="./Personography.xml#EdgeM1">Maria</persName> what misguiding imp<lb/>
+               <lb/>
                could have instigated you to put<lb/>
                the children of such an unknown<lb/>
                person as I am <del>into</del> at the very<lb/>
                head and front of your book ! -<lb/>
                I know full well the full tide of<lb/>
                generous feeling that rushed into<lb/>
-               your mind when the idea first <choice><orig>sug-<lb/>
-               -gested</orig><reg>suggested</reg></choice> itself to you - I know the<lb/>
+               your mind when the idea first <choice>
+                  <orig>sug-<lb/>
+               -gested</orig>
+                  <reg>suggested</reg>
+               </choice> itself to you - I know the<lb/>
                pleasure it gave you - and yet<lb/>
                I cannot help deploring it most<lb/>
                sincerely for your sake or rather for<lb/>
-               the sake of the book itself. - <unclear>Besides</unclear><lb/>
+               the sake of the book itself. - <unclear>Besides</unclear>
+               <lb/>
                which another evil will result - I<lb/>
                fear the effects on my self - finding<lb/>
                my name floating down to future fame<lb/>
                with your's I shall become as<lb/>
-               insolent as the children <add>to whom it is dedicated.</add> <del>themselves</del><lb/>
+               insolent as the children <add>to whom it is dedicated.</add>
+               <del>themselves</del>
+               <lb/>
                - They indeed will desire benefit,<lb/>
-               
                <pb n="3" facs="Edgeworth_Huntington_FB901_1825_06_28_page03.jpg"/>
                
                for if any thing on earth can stimulate<lb/>
@@ -326,8 +331,9 @@
                of the honor you have conferred on<lb/>
                them, by following up some of the<lb/>
                avenues to Science which you have<lb/>
-               so ably chalked out -<lb/></p>
-               <p>I long to hear from you<lb/>
+               so ably chalked out -<lb/>
+            </p>
+            <p>I long to hear from you<lb/>
                how you like the appearance<lb/>
                of the work now that it is all<lb/>
                before you - I long also to<lb/>
@@ -340,36 +346,42 @@
                feeling than even timourousness how<lb/>
                you brook the curtailments which<lb/>
                were requisite to reduce the 4<hi rend="superscript">th</hi>. vol. &amp; which<lb/>
-                  
-                  <pb n="4" facs="Edgeworth_Huntington_FB901_1825_06_28_page04.jpg"/>
-               
+               <pb n="4" facs="Edgeworth_Huntington_FB901_1825_06_28_page04.jpg"/>
                <add>though</add> you empowered me to make I may<lb/>
                not have made in the right places.<lb/>
                - Pray tell me your mind - next<lb/>
                <del>W</del> to the pleasure of having one's<lb/>
-               actions approved is having <del>these</del> <add>one's</add><lb/>
-               faults pointed out - To be <choice><orig>judici-<lb/>
-               -ously</orig><reg>judiciously</reg></choice> scolded pleases me much<lb/>
-               more than to be injudiciously praised.<lb/></p>
-               <p>The first pages of all the volumes<lb/>
+               actions approved is having <del>these</del>
+               <add>one's</add>
+               <lb/>
+               faults pointed out - To be <choice>
+                  <orig>judici-<lb/>
+               -ously</orig>
+                  <reg>judiciously</reg>
+               </choice> scolded pleases me much<lb/>
+               more than to be injudiciously praised.<lb/>
+            </p>
+            <p>The first pages of all the volumes<lb/>
                look to me very blank without some<lb/>
                title - but the two first volumes<lb/>
                were so printed, and I supposed it<lb/>
-               met with your approbation -<lb/></p>
-               <p><persName ref="./Personography.xml#HuntX1">M<hi rend="superscript">r</hi> Hunter</persName> has been very ill -<lb/>
+               met with your approbation -<lb/>
+            </p>
+            <p>
+               <persName ref="./Personography.xml#HuntX1">M<hi rend="superscript">r</hi> Hunter</persName> has been very ill -<lb/>
                I called at his shop this afternoon<lb/>
                   and finding that he is at the <placeName ref="./Placeography.xml#Isle-of-Wight_ENK">Isle<lb/>
                of Wight</placeName> I did not choose to leave<lb/>
                your note for the edification of his<lb/>
                hopeful step-son <add>acts for him in his absence, and</add> who of course opens<lb/>
                his<lb/>
-                  
-                  <pb n="5" facs="Edgeworth_Huntington_FB901_1825_06_28_page05.jpg"/>
+               <pb n="5" facs="Edgeworth_Huntington_FB901_1825_06_28_page05.jpg"/>
                
                his letters - I will forward it by post.<lb/>
                - <persName ref="./Personography.xml#BeauH1">Honora</persName>'s <unclear>directions</unclear> are conditional<lb/>
                if I approve of it - I cannot help<lb/>
-               approving it - it contains <unclear>merely</unclear><lb/>
+               approving it - it contains <unclear>merely</unclear>
+               <lb/>
                a repetition of what you before bound<lb/>
                yourself to do - and a repetition<lb/>
                of the honorable &amp; delicate feelings<lb/>
@@ -387,16 +399,19 @@
                whose constant opinion is that his<lb/>
                opinion is wrong - consider that his<lb/>
                only child has some deep seated<lb/>
-                  
-                  <pb n="6" facs="Edgeworth_Huntington_FB901_1825_06_28_page06.jpg"/>
+               <pb n="6" facs="Edgeworth_Huntington_FB901_1825_06_28_page06.jpg"/>
                
-               disease which has required a <choice><orig>consulta-<lb/>
-               -tion</orig><reg>consultation</reg></choice> - consider his stepson - and<lb/>
+               disease which has required a <choice>
+                  <orig>consulta-<lb/>
+               -tion</orig>
+                  <reg>consultation</reg>
+               </choice> - consider his stepson - and<lb/>
                consider the Hunts - and then<lb/>
                consider a little disappointment working<lb/>
                on all this - and I am sure you will<lb/>
-               not be very angry -</p><lb/>
-               <p>I find a letter from him to<lb/>
+               not be very angry -</p>
+            <lb/>
+            <p>I find a letter from him to<lb/>
                   me with a copy of <title ref="./Workography.xml#Frank1">Frank</title> requesting<lb/>
                me to correct inaccuracies &amp; - I<lb/>
                take it for granted that this has<lb/>
@@ -405,13 +420,12 @@
                rather shall write to him that as<lb/>
                soon as I receive your directions &amp;<lb/>
                corrections I will with pleasure<lb/>
-                  <hi rend="underline">infuse</hi> them - <title ref="./Workography.xml#Frank1">Frank</title> is a<lb/>
+               <hi rend="underline">infuse</hi> them - <title ref="./Workography.xml#Frank1">Frank</title> is a<lb/>
                delightful book - and has but few<lb/>
-               errors - and those you know<lb/></p>
-                  
-                  <pb n="7" facs="Edgeworth_Huntington_FB901_1825_06_28_page07.jpg"/>
-               
-               <p>So much for business - Now I have<lb/>
+               errors - and those you know<lb/>
+            </p>
+            <pb n="7" facs="Edgeworth_Huntington_FB901_1825_06_28_page07.jpg"/>
+            <p>So much for business - Now I have<lb/>
                to thank you for many little kindnesses<lb/>
                which were not unappreciated though<lb/>
                   unacknowledged - First for <persName ref="./Personography.xml#EdgeH1">Harriet</persName>s dear<lb/>
@@ -426,38 +440,49 @@
                   Morritt</persName>'s to <persName ref="./Personography.xml#StrickX1">M<hi rend="superscript">rs</hi>. Strickland</persName> I did not<lb/>
                shew him - because they are probably<lb/>
                acquainted, and it might have come<lb/>
-                     to <persName ref="./Personography.xml#MorrX1">M</persName>'s knowledge that his letter <del>was</del> to <persName ref="./Personography.xml#StrickX1">S.</persName><lb/>
-                  was lent to <persName ref="./Personography.xml#EdgeM1">E.</persName> &amp; by <persName ref="./Personography.xml#EdgeM1">E.</persName> to <persName ref="./Personography.xml#BeauF1">B</persName> - and By <persName ref="./Personography.xml#BeauF1">B.</persName><lb/>
-                  to <persName ref="./Personography.xml#HollaH1">H.</persName> - and so on -</p><lb/>
-               <p>I have also to thank you for very<lb/>
+                     to <persName ref="./Personography.xml#MorrX1">M</persName>'s knowledge that his letter <del>was</del> to <persName ref="./Personography.xml#StrickX1">S.</persName>
+               <lb/>
+                  was lent to <persName ref="./Personography.xml#EdgeM1">E.</persName> &amp; by <persName ref="./Personography.xml#EdgeM1">E.</persName> to <persName ref="./Personography.xml#BeauF1">B</persName> - and By <persName ref="./Personography.xml#BeauF1">B.</persName>
+               <lb/>
+                  to <persName ref="./Personography.xml#HollaH1">H.</persName> - and so on -</p>
+            <lb/>
+            <p>I have also to thank you for very<lb/>
                good advice about <del>my</del> not overworking<lb/>
                my sick boy - at a new school - but<lb/>
-                  
-                  <pb n="8" facs="Edgeworth_Huntington_FB901_1825_06_28_page08.jpg"/>
+               <pb n="8" facs="Edgeworth_Huntington_FB901_1825_06_28_page08.jpg"/>
                
-               it was <unclear><hi rend="underline">tother</hi></unclear> boy who went to the new<lb/>
+               it was <unclear>
+                  <hi rend="underline">tother</hi>
+               </unclear> boy who went to the new<lb/>
                   school. - <persName ref="./Personography.xml#BeauD2">D A B</persName> has not returned to<lb/>
                school yet nor <add>is</add> he likely to do so -<lb/>
                for I am very much grieved to say that<lb/>
-                  <persName ref="./Personography.xml#BondX1">D<hi rend="superscript">r</hi> Bond</persName> died suddenly last week -<lb/>
+               <persName ref="./Personography.xml#BondX1">D<hi rend="superscript">r</hi> Bond</persName> died suddenly last week -<lb/>
                And we are yet ignorant who is to<lb/>
                succeed him, and consequently whether<lb/>
-               we shall continue <persName ref="./Personography.xml#BeauD2"><unclear>D A B</unclear></persName> there or<lb/>
+               we shall continue <persName ref="./Personography.xml#BeauD2">
+                  <unclear>D A B</unclear>
+               </persName> there or<lb/>
                again be obliged to school-hunt -<lb/>
                   - <persName ref="./Personography.xml#BeauA1">His mother</persName> wants me to send him<lb/>
-                  to <persName ref="./Personography.xml#ClemX1">M<hi rend="superscript">r</hi> Clement</persName> of whom <persName ref="./Personography.xml#MareX1">M<hi rend="superscript">rs</hi>. <unclear>Marent</unclear></persName> and<lb/>
+                  to <persName ref="./Personography.xml#ClemX1">M<hi rend="superscript">r</hi> Clement</persName> of whom <persName ref="./Personography.xml#MareX1">M<hi rend="superscript">rs</hi>. <unclear>Marent</unclear>
+               </persName> and<lb/>
                others speak in raptures <add>but he is 80 Guineas!</add> - I have 1/2<lb/>
                   a mind to try <persName ref="./Personography.xml#BellX1">the Bell ringing man<lb/>
-                  at <placeName ref="./Placeography.xml#Birmingham_ENK">Birmingham</placeName></persName> about whom you and I<lb/>
+                  at <placeName ref="./Placeography.xml#Birmingham_ENK">Birmingham</placeName>
+               </persName> about whom you and I<lb/>
                had some conversation and of whom<lb/>
-                  <title ref="./Workography.xml#Janus1">the Edinburgh</title> speaks so warmly - but<lb/>
+               <title ref="./Workography.xml#Janus1">the Edinburgh</title> speaks so warmly - but<lb/>
                there are I fear many good reasons<lb/>
-               against it - besides <persName ref="./Personography.xml#BeauM1">Mamma</persName>'s dislike</p><lb/>
-               <p>You were right in supposing that<lb/>
+               against it - besides <persName ref="./Personography.xml#BeauM1">Mamma</persName>'s dislike</p>
+            <lb/>
+            <p>You were right in supposing that<lb/>
                I would not sell your share in<lb/>
-               the Manufactory <choice><abbr>Comp<hi rend="superscript">y</hi>.</abbr><reg>Company</reg></choice> upon your<lb/>
-                  
-                  <pb n="9" facs="Edgeworth_Huntington_FB901_1825_06_28_page09.jpg"/>
+               the Manufactory <choice>
+                  <abbr>Comp<hi rend="superscript">y</hi>.</abbr>
+                  <reg>Company</reg>
+               </choice> upon your<lb/>
+               <pb n="9" facs="Edgeworth_Huntington_FB901_1825_06_28_page09.jpg"/>
                
                first bidding. - I must inquire about<lb/>
                the form which <persName ref="./Personography.xml#EdgeL2">Lovell</persName> must sign as they<lb/>
@@ -481,36 +506,48 @@
                So as to enable me to sell for you<lb/>
                without loss - Unless you all<lb/>
                choose to lose at once half your<lb/>
-               deposit viz £25 to get rid of <unclear>the</unclear><lb/>
-                  
-                  <pb n="10" facs="Edgeworth_Huntington_FB901_1825_06_28_page10.jpg"/>
+               deposit viz £25 to get rid of <unclear>the</unclear>
+               <lb/>
+               <pb n="10" facs="Edgeworth_Huntington_FB901_1825_06_28_page10.jpg"/>
                
                business at once - Determine - Our<lb/>
-               <hi rend="underline">Act</hi> <add>of <placeName ref="./Placeography.xml#Houses-of-Parliament_ENK">Parliament</placeName></add> having received the Royal Assent we<lb/>
-               are now going to work - - <persName ref="./Personography.xml#RiceT1">M<hi rend="superscript">r</hi> Spring Rice</persName><lb/>
+               <hi rend="underline">Act</hi>
+               <add>of <placeName ref="./Placeography.xml#Houses-of-Parliament_ENK">Parliament</placeName>
+               </add> having received the Royal Assent we<lb/>
+               are now going to work - - <persName ref="./Personography.xml#RiceT1">M<hi rend="superscript">r</hi> Spring Rice</persName>
+               <lb/>
                has been elected Chairman and I Deputy<lb/>
                Chairman - The former has very handsomely<lb/>
                accepted the Office - The latter has very<lb/>
                ungraciously refused it. - But my<lb/>
                refusal has not been accepted and<lb/>
                tomorrow they are to try to persuade<lb/>
-               me -<lb/></p>
-               <p>I was in hopes that <persName ref="./Personography.xml#BrinJ1">D<hi rend="superscript">r</hi> Brinkley</persName><lb/>
+               me -<lb/>
+            </p>
+            <p>I was in hopes that <persName ref="./Personography.xml#BrinJ1">D<hi rend="superscript">r</hi> Brinkley</persName>
+               <lb/>
                would have to gone to <placeName ref="./Placeography.xml#Paris_FR">Paris</placeName> this year<lb/>
                and that I might have followed in<lb/>
                his train, but he will not - and<lb/>
                I <unclear>verily</unclear> believe I must go in about<lb/>
-               3 weeks !! - </p><closer>Have you any command<lb/>
+               3 weeks !! - </p>
+            <closer>Have you any command<lb/>
                there for your very very affectionate<lb/>
                <persName ref="./Personography.xml#BeauF1">F Beau</persName> -<lb/>
-               </closer>
+            </closer>
             <postscript>
                <p>I cannot get any of <persName ref="./Personography.xml#BartC1">Barton</persName>'s <del>ornamented</del> Iris clasps - Why<lb/>
-               they do not make them I cannot discover<lb/></p>
-               <p>I cannot by any means find out whether <persName ref="./Personography.xml#HollaH1">D<hi rend="superscript">r</hi> Holland</persName><lb/>
-               has any taste for engravings - but as he is going to <placeName ref="./Placeography.xml#IE">Ireland</placeName><lb/>
-               for <hi rend="underline">nine</hi> days perhaps you may see him<lb/></p></postscript>
-               <note>28 June 1825</note><lb/>
+               they do not make them I cannot discover<lb/>
+               </p>
+               <p>I cannot by any means find out whether <persName ref="./Personography.xml#HollaH1">D<hi rend="superscript">r</hi> Holland</persName>
+                  <lb/>
+               has any taste for engravings - but as he is going to <placeName ref="./Placeography.xml#IE">Ireland</placeName>
+                  <lb/>
+               for <hi rend="underline">nine</hi> days perhaps you may see him<lb/>
+               </p>
+            </postscript>
+            <note>28 June 1825</note>
+            <lb/>
          </div>
       </body>
       <back> </back>

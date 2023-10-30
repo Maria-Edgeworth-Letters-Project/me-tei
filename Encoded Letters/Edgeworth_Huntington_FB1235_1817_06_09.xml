@@ -5,29 +5,29 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
-            <titleStmt>
-               <title>
+         <titleStmt>
+            <title>
                   Letter from Maria Edgeworth to Jean-Baptiste Biot, 6/9/1817
                  </title>
-               <author>Maria Edgeworth</author>
-               <editor ref="Id_who">
+            <author>Maria Edgeworth</author>
+            <editor ref="Id_who">
                Jamie Kramer
                </editor>
-               <sponsor>
-                  <orgName>Maria Edgeworth Letters Project</orgName>
-               </sponsor>
-               <sponsor>Wake Forest University, University of Tennessee, Xavier University, Texas
+            <sponsor>
+               <orgName>Maria Edgeworth Letters Project</orgName>
+            </sponsor>
+            <sponsor>Wake Forest University, University of Tennessee, Xavier University, Texas
                   A&amp;M University</sponsor>
-               <principal>Jessica Richard, Hilary Havens, Robin Runia, Susan Egenolf</principal>
-               <respStmt>
-                  <resp>Transcription and coding by</resp>
-                  <persName ref="Id_who">Jamie Kramer<!--FirstName LastName-->
+            <principal>Jessica Richard, Hilary Havens, Robin Runia, Susan Egenolf</principal>
+            <respStmt>
+               <resp>Transcription and coding by</resp>
+               <persName ref="Id_who">Jamie Kramer<!--FirstName LastName-->
                   </persName>
-                  <!-- List all transcribers or coders here, editors and students alike, <persName> by <persName>.-->
-                  <persName ref="Id_who"><!--FirstName LastName--></persName>
-                  <!-- If you're the last person interacting with the file, enter your name last on the list -->
-               </respStmt>
-            </titleStmt>
+               <!-- List all transcribers or coders here, editors and students alike, <persName> by <persName>.-->
+               <persName ref="Id_who"><!--FirstName LastName--></persName>
+               <!-- If you're the last person interacting with the file, enter your name last on the list -->
+            </respStmt>
+         </titleStmt>
          <editionStmt>
             <edition>First digital edition in TEI, date: <date when="2023-08-16">
                </date>
@@ -44,8 +44,6 @@
                </resp>
             </respStmt>
          </editionStmt>
-         
-         
          <publicationStmt>
             <authority>Maria Edgeworth Letters Project</authority>
             <date>2023</date>
@@ -56,10 +54,9 @@
                <licence>Distributed under a Creative Commons Attribution-ShareAlike 3.0 Unported
                   License</licence>
             </availability>
-            
             <idno>
                Edgeworth_Huntington_FB1235_1817_06_09
-            </idno> 
+            </idno>
          </publicationStmt>
          <seriesStmt>
             <title>Maria Edgeworth Letters Project</title>
@@ -79,7 +76,6 @@
                   <idno/>
                   <!--Consult library or WorldCat for this info-->
                </msIdentifier>
-               
                <head>Letter from 
                   <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
                   to 
@@ -92,7 +88,6 @@
             <bibl>In addition to our edited version, this letter was previously published in
                <!--complete bibiographical info if letter was published in a book here-->
             </bibl>
-            
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
@@ -105,7 +100,6 @@
                word is split at the end of a line and the beginning of the next in a manuscript. The
                long s and ligatured forms are silently emended.</p>
          </editorialDecl>
-         
          <classDecl>
             <taxonomy xml:id="relators">
                <bibl>Marc Relators</bibl>
@@ -222,10 +216,14 @@
             <taxonomy xml:id="places">
                <bibl>Places</bibl>
                <category>
-                  <catDesc xml:id="EdgeworthsTown">Edgeworths' Town<idno type="getty">tgn/1042937</idno></catDesc>
-                  <catDesc xml:id="Peterborough">Peterborough, UK<idno type="getty">tgn/7026520</idno></catDesc>
-                  <catDesc xml:id="CranfordI">Cranford, Ireland<idno type="getty">tgn/7901042</idno></catDesc>
-                  <catDesc xml:id="Kettering">Kettering, UK<idno type="getty">tgn/7010904</idno></catDesc>
+                  <catDesc xml:id="EdgeworthsTown">Edgeworths' Town<idno type="getty">tgn/1042937</idno>
+                  </catDesc>
+                  <catDesc xml:id="Peterborough">Peterborough, UK<idno type="getty">tgn/7026520</idno>
+                  </catDesc>
+                  <catDesc xml:id="CranfordI">Cranford, Ireland<idno type="getty">tgn/7901042</idno>
+                  </catDesc>
+                  <catDesc xml:id="Kettering">Kettering, UK<idno type="getty">tgn/7010904</idno>
+                  </catDesc>
                </category>
             </taxonomy>
             <taxonomy xml:id="period">
@@ -235,7 +233,6 @@
                </category>
             </taxonomy>
          </classDecl>
-         
       </encodingDesc>
       <profileDesc>
          <correspDesc>
@@ -246,7 +243,6 @@
                <persName ref="./Personography.xml#BiotJ1">Jean-Baptiste Biot</persName>
             </correspAction>
          </correspDesc>
-         
          <textClass>
             <keywords scheme="">
                <list type="simple">
@@ -269,33 +265,45 @@
          <div type="letter">
             <pb n="1" facs="Edgeworth_Huntington_FB1235_1817_06_09_page01.jpg"/>
             <opener>
-
                <dateline>
-                  <placeName ref="./Placeography.xml#Edgeworthstown_IE">Edgeworths town</placeName> <lb/>
+                  <placeName ref="./Placeography.xml#Edgeworthstown_IE">Edgeworths town</placeName>
+                  <lb/>
                   <date when="1817-06-09">June 9<hi rend="superscript">th</hi>. 1817</date>
-               </dateline>  
-<salute>
+               </dateline>
+               <salute>
    Sir<lb/>
-</salute>
-</opener>
+               </salute>
+            </opener>
             <p>With the proud, I hope<lb/>
-               not absolutely <choice><orig>presump<lb/>
-                  -tious</orig><reg></reg></choice> hope, that you do<lb/>
-               not quite forget the <choice><orig>fami-<lb/>
-                  ly</orig><reg></reg></choice> of Edgeworth who had<lb/>
-               the honor of being <choice><orig>distin<lb/>
-                  -guished</orig><reg>distinguished</reg></choice> by you, &amp; the<lb/>
+               not absolutely <choice>
+                  <orig>presump<lb/>
+                  -tious</orig>
+                  <reg/>
+               </choice> hope, that you do<lb/>
+               not quite forget the <choice>
+                  <orig>fami-<lb/>
+                  ly</orig>
+                  <reg/>
+               </choice> of Edgeworth who had<lb/>
+               the honor of being <choice>
+                  <orig>distin<lb/>
+                  -guished</orig>
+                  <reg>distinguished</reg>
+               </choice> by you, &amp; the<lb/>
                pleasure of enjoying your<lb/>
                conversation at <placeName ref="./Placeography.xml#Paris_FR">Paris</placeName> in<lb/>
                the year 1803, I venture<lb/>
                now to present to you <persName ref="./Personography.xml#EdgeF2">M<hi rend="superscript">rs</hi>.-<lb/>
                   Edgeworth</persName>'s brother <persName ref="./Personography.xml#BeauF1">Capt<hi rend="superscript">n</hi>.-<lb/>
-                  Beaufort</persName> of the Royal <choice><orig>Na<lb/>
-               -vy</orig><reg>Navy</reg></choice> - a gentleman whose<lb/>
+                  Beaufort</persName> of the Royal <choice>
+                  <orig>Na<lb/>
+               -vy</orig>
+                  <reg>Navy</reg>
+               </choice> - a gentleman whose<lb/>
                survey and account of<lb/>
-               the coast of <title ref="./Workography.xml#Karam1">Karamania</title><lb/>
+               the coast of <title ref="./Workography.xml#Karam1">Karamania</title>
+               <lb/>
                just published may be<lb/>
-
                <pb n="2" facs="Edgeworth_Huntington_FB1235_1817_06_09_page02.jpg"/>
                
                known to you. If you are<lb/>
@@ -304,50 +312,66 @@
                of your conversation I trust<lb/>
                securely to your penetration<lb/>
                for discovering that I do<lb/>
-               not present to you an <choice><orig>un-<lb/>
-                  -interesting</orig><reg>uninteresting</reg></choice> stranger -<lb/>
+               not present to you an <choice>
+                  <orig>un-<lb/>
+                  -interesting</orig>
+                  <reg>uninteresting</reg>
+               </choice> stranger -<lb/>
                Is there any chance of<lb/>
                your visiting <placeName ref="./Placeography.xml#IE">Ireland</placeName>? -<lb/>
                - To see the <placeName ref="./Placeography.xml#Dunsink_IE">Observatory of<lb/>
                Dublin</placeName> &amp; the celebrated<lb/>
-               astronomer <persName ref="./Personography.xml#BrinJ1">D<hi rend="superscript">r</hi>. Brinkley</persName><lb/>
-               or to see the giants <choice><orig>cause<lb/>
-                  -way</orig><reg>causeway</reg></choice> &amp; the geological<lb/>
+               astronomer <persName ref="./Personography.xml#BrinJ1">D<hi rend="superscript">r</hi>. Brinkley</persName>
+               <lb/>
+               or to see the giants <choice>
+                  <orig>cause<lb/>
+                  -way</orig>
+                  <reg>causeway</reg>
+               </choice> &amp; the geological<lb/>
                wonders of this country<lb/>
                might possibly tempt you<lb/>
                here - all that I can ask<lb/>
                is that you would write<lb/>
                a line to let me know<lb/>
-
                <pb n="3" facs="Edgeworth_Huntington_FB1235_1817_06_09_page03.jpg"/>
                
                whether you have any such<lb/>
                intentions - &amp; when -<lb/>
-               <persName ref="./Personography.xml#EdgeR1">My father</persName> is at this <choice><orig>mo-<lb/>
-                  ment</orig><reg>moment</reg></choice> very ill - But his<lb/>
+               <persName ref="./Personography.xml#EdgeR1">My father</persName> is at this <choice>
+                  <orig>mo-<lb/>
+                  ment</orig>
+                  <reg>moment</reg>
+               </choice> very ill - But his<lb/>
                mind retains all its<lb/>
                intellectual vigor, and<lb/>
-               taste for science &amp; <choice><orig>litera-<lb/>
-                  -ture</orig><reg>literature</reg></choice> - and I have a brother<lb/>
-               who has the highest <choice><orig>am-<lb/>
-                  bition</orig><reg>ambition</reg></choice> to be known to<lb/>
+               taste for science &amp; <choice>
+                  <orig>litera-<lb/>
+                  -ture</orig>
+                  <reg>literature</reg>
+               </choice> - and I have a brother<lb/>
+               who has the highest <choice>
+                  <orig>am-<lb/>
+                  bition</orig>
+                  <reg>ambition</reg>
+               </choice> to be known to<lb/>
                you - and whose tastes<lb/>
                &amp; if I may say so, talents<lb/>
                are deserving of that<lb/>
                honor.<lb/>
-               <persName ref="./Personography.xml#EdgeR1">My father</persName> &amp; <persName ref="./Personography.xml#EdgeF2">M<hi rend="superscript">rs</hi>. Edgeworth</persName><lb/>
+               <persName ref="./Personography.xml#EdgeR1">My father</persName> &amp; <persName ref="./Personography.xml#EdgeF2">M<hi rend="superscript">rs</hi>. Edgeworth</persName>
+               <lb/>
                desire their respectful<lb/>
-               remembrances<lb/>            
-            </p><lb/>
+               remembrances<lb/>
+            </p>
+            <lb/>
             <closer>
                I have the honor to be<lb/>
                Sir<lb/>
                with high esteem<lb/>
                your obed<hi rend="superscript">t</hi> servant<lb/>
-               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName><lb/>
-               
+               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
+               <lb/>
                <pb n="4" facs="Edgeworth_Huntington_FB1235_1817_06_09_page04.jpg"/>
-               
                <address>
                   <addrLine>a</addrLine>
                   <addrLine>Monsieur</addrLine>

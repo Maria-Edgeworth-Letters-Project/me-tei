@@ -5,28 +5,28 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
-            <titleStmt>
-               <title>Letter from Sir Francis Beaufort to Frances Anne (Beaufort) Edgeworth and Maria
+         <titleStmt>
+            <title>Letter from Sir Francis Beaufort to Frances Anne (Beaufort) Edgeworth and Maria
                   Edgeworth, June 12, 1817</title>
-               <author>Sir Frances Beaufort</author>
-               <editor ref="Id_who">
+            <author>Sir Frances Beaufort</author>
+            <editor ref="Id_who">
                   Jamie Kramer
                </editor>
-               <sponsor>
-                  <orgName>Maria Edgeworth Letters Project</orgName>
-               </sponsor>
-               <sponsor>Wake Forest University, University of Tennessee, Xavier University, Texas
+            <sponsor>
+               <orgName>Maria Edgeworth Letters Project</orgName>
+            </sponsor>
+            <sponsor>Wake Forest University, University of Tennessee, Xavier University, Texas
                   A&amp;M University</sponsor>
-               <principal>Jessica Richard, Hilary Havens, Robin Runia, Susan Egenolf</principal>
-               <respStmt>
-                  <resp>Transcription and coding by</resp>
-                  <persName ref="Id_who">Jamie Kramer<!--FirstName LastName-->
+            <principal>Jessica Richard, Hilary Havens, Robin Runia, Susan Egenolf</principal>
+            <respStmt>
+               <resp>Transcription and coding by</resp>
+               <persName ref="Id_who">Jamie Kramer<!--FirstName LastName-->
                   </persName>
-                  <!-- List all transcribers or coders here, editors and students alike, <persName> by <persName>.-->
-                  <persName ref="Id_who"><!--FirstName LastName--></persName>
-                  <!-- If you're the last person interacting with the file, enter your name last on the list -->
-               </respStmt>
-            </titleStmt>
+               <!-- List all transcribers or coders here, editors and students alike, <persName> by <persName>.-->
+               <persName ref="Id_who"><!--FirstName LastName--></persName>
+               <!-- If you're the last person interacting with the file, enter your name last on the list -->
+            </respStmt>
+         </titleStmt>
          <editionStmt>
             <edition>First digital edition in TEI, date: <date when="2023-01-12">
                </date>
@@ -42,8 +42,6 @@
                </resp>
             </respStmt>
          </editionStmt>
-         
-         
          <publicationStmt>
             <authority>Maria Edgeworth Letters Project</authority>
             <date>2023</date>
@@ -54,8 +52,7 @@
                <licence>Distributed under a Creative Commons Attribution-ShareAlike 3.0 Unported
                   License</licence>
             </availability>
-            
-            <idno> Edgeworth_Huntington_FB823_1817_06_12</idno> 
+            <idno> Edgeworth_Huntington_FB823_1817_06_12</idno>
          </publicationStmt>
          <seriesStmt>
             <title>Maria Edgeworth Letters Project</title>
@@ -68,10 +65,10 @@
                   <idno/>
                   <!--Consult library or WorldCat for this info-->
                </msIdentifier>
-               
                <head>Letter from 
                   <persName ref="./Personography.xml#BeauF1">Sir Francis Beaufort</persName>
-                  to <persName ref="./Personography.xml#EdgeF2"> Frances Anne (Edgeworth) Beaufort</persName> <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>,
+                  to <persName ref="./Personography.xml#EdgeF2"> Frances Anne (Edgeworth) Beaufort</persName>
+                  <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>,
                   <placeName ref="./Placeography.xml#London_ENK">London</placeName>,
                   <date when="1817-06-12">June 12, 1817</date>
                </head>
@@ -81,7 +78,6 @@
             <bibl>In addition to our edited version, this letter was previously published in
                <!--complete bibiographical info if letter was published in a book here-->
             </bibl>
-            
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
@@ -94,7 +90,6 @@
                word is split at the end of a line and the beginning of the next in a manuscript. The
                long s and ligatured forms are silently emended.</p>
          </editorialDecl>
-         
          <classDecl>
             <taxonomy xml:id="relators">
                <bibl>Marc Relators</bibl>
@@ -211,10 +206,14 @@
             <taxonomy xml:id="places">
                <bibl>Places</bibl>
                <category>
-                  <catDesc xml:id="EdgeworthsTown">Edgeworths' Town<idno type="getty">tgn/1042937</idno></catDesc>
-                  <catDesc xml:id="Peterborough">Peterborough, UK<idno type="getty">tgn/7026520</idno></catDesc>
-                  <catDesc xml:id="CranfordI">Cranford, Ireland<idno type="getty">tgn/7901042</idno></catDesc>
-                  <catDesc xml:id="Kettering">Kettering, UK<idno type="getty">tgn/7010904</idno></catDesc>
+                  <catDesc xml:id="EdgeworthsTown">Edgeworths' Town<idno type="getty">tgn/1042937</idno>
+                  </catDesc>
+                  <catDesc xml:id="Peterborough">Peterborough, UK<idno type="getty">tgn/7026520</idno>
+                  </catDesc>
+                  <catDesc xml:id="CranfordI">Cranford, Ireland<idno type="getty">tgn/7901042</idno>
+                  </catDesc>
+                  <catDesc xml:id="Kettering">Kettering, UK<idno type="getty">tgn/7010904</idno>
+                  </catDesc>
                </category>
             </taxonomy>
             <taxonomy xml:id="period">
@@ -224,7 +223,6 @@
                </category>
             </taxonomy>
          </classDecl>
-         
       </encodingDesc>
       <profileDesc>
          <correspDesc>
@@ -232,10 +230,10 @@
                <persName ref="./Personography.xml#BeauF1">Sir Francis Beaufort</persName>
             </correspAction>
             <correspAction type="received">
-               <persName ref="./Personography.xml#EdgeF2"> Frances Anne (Edgeworth) Beaufort</persName> <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
+               <persName ref="./Personography.xml#EdgeF2"> Frances Anne (Edgeworth) Beaufort</persName>
+               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
             </correspAction>
          </correspDesc>
-         
          <textClass>
             <keywords scheme="">
                <list type="simple">
@@ -258,8 +256,10 @@
          <div type="letter">
             <pb n="1" facs="Edgeworth_Huntington_FB823_1817_06_12_page01.jpg"/>
             <opener>
-               <dateline><placeName ref="./Placeography.xml#London_ENK">London</placeName>
-                  <date when="1817-06-12"/>June 12. 1817 </dateline></opener>
+               <dateline>
+                  <placeName ref="./Placeography.xml#London_ENK">London</placeName>
+                  <date when="1817-06-12"/>June 12. 1817 </dateline>
+            </opener>
             <p>
                Obedience is better than Sacrifice says<lb/>
                <persName ref="./Personography.xml#EdgeR1">M<hi rend="superscript">r</hi>. E.</persName> - And I deduce from thence the<lb/>
@@ -269,7 +269,8 @@
                the old lady to carry a box for you to <persName ref="./Personography.xml#HuntX1"> M<hi rend="superscript">r</hi>.<lb/>
                   Hunter</persName>'s containing paper for all the roads<lb/>
                in <placeName ref="./Placeography.xml#IE">Ireland</placeName> - Sundry rulers and<lb/>
-               M<hi rend="superscript">r</hi> E's <del>m</del> valve. - My friend <persName ref="./Personography.xml#GallX1">M<hi rend="superscript">r</hi> Galloway</persName><lb/>
+               M<hi rend="superscript">r</hi> E's <del>m</del> valve. - My friend <persName ref="./Personography.xml#GallX1">M<hi rend="superscript">r</hi> Galloway</persName>
+               <lb/>
                the Machinist &amp; Engineer made the latter<lb/>
                article - He could not staunch either of<lb/>
                the patterns and I therefore allowed him<lb/>
@@ -277,64 +278,96 @@
                to be very perfect. - There are two small cocks<lb/>
                with adjusting screws by which the slide (which<lb/>
                is made by his advice dovetail fashion) can be<lb/>
-         <pb n="2" facs="Edgeworth_Huntington_FB823_1817_06_12_page02.jpg"/>            
+               <pb n="2" facs="Edgeworth_Huntington_FB823_1817_06_12_page02.jpg"/>            
                tightened to any degree of closeness - and<lb/>
-               which will compensate for any <unclear>wear</unclear> -<lb/></p>
-               <p>The cost however is great - I copy the<lb/>
-               bill - To a Brass dovetail frame with a <choice><orig>gun .<lb/>
-                  metal</orig><reg>gunmetal</reg></choice> slide 6 <unclear>1/2</unclear> long &amp; 13/8 wide with cock and<lb/>
+               which will compensate for any <unclear>wear</unclear> -<lb/>
+            </p>
+            <p>The cost however is great - I copy the<lb/>
+               bill - To a Brass dovetail frame with a <choice>
+                  <orig>gun .<lb/>
+                  metal</orig>
+                  <reg>gunmetal</reg>
+               </choice> slide 6 <unclear>1/2</unclear> long &amp; 13/8 wide with cock and<lb/>
                screws. Connecting the friction roller (from the<lb/>
                old model) with screws &amp; for a valve<lb/>
                apparatus - £ 2 .. 14 -<lb/>
                A Copper oblong trough &amp; soldering<lb/>
-               it to the brass frame - <hi rend="underline">9</hi><lb/>
-               £ 3 .. 3 -<lb/></p>
-            <p><persName ref="./Personography.xml#EdgeM1">Maria</persName>'s Errata I carried the instant<lb/>
-               I received them to <placeName  ref="./Placeography.xml#St-Pauls-Churchyard_ENK">S<hi rend="superscript">t</hi>. Paul's</placeName> but two sheets<lb/>
+               it to the brass frame - <hi rend="underline">9</hi>
+               <lb/>
+               £ 3 .. 3 -<lb/>
+            </p>
+            <p>
+               <persName ref="./Personography.xml#EdgeM1">Maria</persName>'s Errata I carried the instant<lb/>
+               I received them to <placeName ref="./Placeography.xml#St-Pauls-Churchyard_ENK">S<hi rend="superscript">t</hi>. Paul's</placeName> but two sheets<lb/>
                of the second edition were already<lb/>
                printed off - - The remainder of the<lb/>
-               sheets will be corrected -<lb/></p>
+               sheets will be corrected -<lb/>
+            </p>
             <p>  For <persName ref="./Personography.xml#EdgeR1"> M<hi rend="superscript">r</hi> E</persName>'s valuable remarks &amp; Errata<lb/>
                on my little work I am thankful, and<lb/>
-         <pb n="3" facs="Edgeworth_Huntington_FB823_1817_06_12_page03.jpg"/>  
+               <pb n="3" facs="Edgeworth_Huntington_FB823_1817_06_12_page03.jpg"/>
                <hi rend="underline">they</hi> are in good time for a second<lb/>
                edition - to which I fancy it has<lb/>
                but little chance of attaining - What<lb/>
                a favourable review may do is a hope<lb/>
                I indulge for the publisher's sake - and<lb/>
                that <del>such</del> a review is <unclear>brewing</unclear> I have<lb/>
-               indistinctly heard<lb/></p>
-            <p> <persName ref="./Personography.xml#FxxxJ1"> M<hi rend="superscript">r</hi> J L F</persName>'s speech has been published<lb/>
+               indistinctly heard<lb/>
+            </p>
+            <p>
+               <persName ref="./Personography.xml#FxxxJ1"> M<hi rend="superscript">r</hi> J L F</persName>'s speech has been published<lb/>
                  but <persName ref="./Personography.xml#RomiS1">Sir Sam. Romilly</persName>  who I met at<lb/>
-                 dinner at <persName ref="./Personography.xml#ManeX1">D<hi rend="superscript">r</hi> <unclear>Manet's</unclear></persName> and <add>of</add> whom I<lb/>
+                 dinner at <persName ref="./Personography.xml#ManeX1">D<hi rend="superscript">r</hi>
+                  <unclear>Manet's</unclear>
+               </persName> and <add>of</add> whom I<lb/>
                asked the questions, says it made no<lb/>
                impression whatever on the house when<lb/>
-               delivered.<lb/></p>
-            <p><persName ref="./Personography.xml#BeauA1">Alicia</persName> joins with me in <unclear>best</unclear><lb/>
+               delivered.<lb/>
+            </p>
+            <p>
+               <persName ref="./Personography.xml#BeauA1">Alicia</persName> joins with me in <unclear>best</unclear>
+               <lb/>
                thanks for your <unclear>fables</unclear>, and both my<lb/>
                little boys who already point to your<lb/>
                picture and repeat your difficult<lb/>
-          <pb n="4" facs="Edgeworth_Huntington_FB823_1817_06_12_page04.jpg"/>   
-               name, will have an additional <choice><orig>ob-<lb/>
-               ligation </orig><reg>obligation</reg></choice>to your labours - common<lb/>
+               <pb n="4" facs="Edgeworth_Huntington_FB823_1817_06_12_page04.jpg"/>   
+               name, will have an additional <choice>
+                  <orig>ob-<lb/>
+               ligation </orig>
+                  <reg>obligation</reg>
+               </choice>to your labours - common<lb/>
                indeed to other children who can purchase<lb/>
                them - but the <unclear>greatest</unclear> they can owe<lb/>
                you and which cannot be purchased<lb/>
                is for the improvement of their father<lb/>
-               by your example and advice<lb/></p>
-            <p><figure><figDesc>Drawing of a hand with pointed index finger.</figDesc></figure> For <persName ref="./Personography.xml#EdgeM1">Maria</persName><lb/></p>
-               <p>Your directions have been obeyed<lb/>
+               by your example and advice<lb/>
+            </p>
+            <p>
+               <figure>
+                  <figDesc>Drawing of a hand with pointed index finger.</figDesc>
+               </figure> For <persName ref="./Personography.xml#EdgeM1">Maria</persName>
+               <lb/>
+            </p>
+            <p>Your directions have been obeyed<lb/>
                and 5 were quite sufficient to send<lb/>
                to the <del>Hill</del>Chapel mountain - <persName ref="./Personography.xml#HxxxX1">M<hi rend="superscript">r</hi>.<lb/>
                H.</persName> does not <del>the</del> know how to calculate<lb/>
-               any extra expense for expediting <title ref= "./Workography.xml#Harri1">Harrington</title><lb/>
+               any extra expense for expediting <title ref="./Workography.xml#Harri1">Harrington</title>
+               <lb/>
                but he has promised to tell me candidly<lb/>
                when he settles with the printer - Of the<lb/>
                two sheets which were cancelled from the<lb/>
-               change in the division of the volumes <del></del><lb/>
-         <pb n="5" facs="Edgeworth_Huntington_FB823_1817_06_12_page05.jpg"/>  
-               you are already aware. -<lb/></p>
-            <p> <title ref= "./Workography.xml#Harri1">Ormond &amp; <choice><orig>Har.</orig><reg>Harrington></reg></choice></title> are advertised for<lb/>
+               change in the division of the volumes <del/>
+               <lb/>
+               <pb n="5" facs="Edgeworth_Huntington_FB823_1817_06_12_page05.jpg"/>  
+               you are already aware. -<lb/>
+            </p>
+            <p>
+               <title ref="./Workography.xml#Harri1">Ormond &amp; <choice>
+                     <orig>Har.</orig>
+                     <reg>Harrington&gt;</reg>
+                  </choice>
+               </title> are advertised for<lb/>
                publication, but I am sorry to find<lb/>
                that it is impossible to get them out<lb/>
                by the time for which I stood sponsor.<lb/>
@@ -345,20 +378,31 @@
                about the Dramas as my connexion<lb/>
                with the firm is too notorious to<lb/>
                allow people either to praise or<lb/>
-               blame freely -<lb/></p>
-               <p>I cannot discover who the principle<lb/>
-               writers are in the <title ref= "./Workography.xml#BritRe1">British Review</title> - the<lb/>
+               blame freely -<lb/>
+            </p>
+            <p>I cannot discover who the principle<lb/>
+               writers are in the <title ref="./Workography.xml#BritRe1">British Review</title> - the<lb/>
                work is however known to be in the<lb/>
                hands of what is called the High Church<lb/>
-         <pb n="6" facs="Edgeworth_Huntington_FB823_1817_06_12_page06.jpg"/>         
-               as opposed to the Methodists. -<lb/></p>
-               <p>I have sent for N<hi rend="superscript">o</hi>. 17 to read<lb/>
-               the article on Metrology -<lb/></p>
-            <p> <figure><figDesc>Drawing of a hand with pointed index finger.</figDesc></figure> <persName ref="./Personography.xml#EdgeF2">M<hi rend="superscript">rs</hi>. E.</persName><lb/></p>
-               <p>Your little commission has been likewise<lb/>
+               <pb n="6" facs="Edgeworth_Huntington_FB823_1817_06_12_page06.jpg"/>         
+               as opposed to the Methodists. -<lb/>
+            </p>
+            <p>I have sent for N<hi rend="superscript">o</hi>. 17 to read<lb/>
+               the article on Metrology -<lb/>
+            </p>
+            <p>
+               <figure>
+                  <figDesc>Drawing of a hand with pointed index finger.</figDesc>
+               </figure>
+               <persName ref="./Personography.xml#EdgeF2">M<hi rend="superscript">rs</hi>. E.</persName>
+               <lb/>
+            </p>
+            <p>Your little commission has been likewise<lb/>
                executed - it cost 2½ Guineas but<lb/>
-               turned out entirely fruitless -<lb/></p>
-               <p>I went to the fabricator of <unclear>Darwin's</unclear><lb/>
+               turned out entirely fruitless -<lb/>
+            </p>
+            <p>I went to the fabricator of <unclear>Darwin's</unclear>
+               <lb/>
                pills to complain of their spicy flavour<lb/>
                - he told me that several gentlemen<lb/>
                had complained of the smell &amp; taste<lb/>
@@ -368,41 +412,54 @@
                substituted - which made no kind<lb/>
                of difference in the essential effect<lb/>
                   of the compound - but if <persName ref="./Personography.xml#EdgeR1">M<hi rend="superscript">r</hi> E.</persName> likes<lb/>
-        <pb n="7" facs="Edgeworth_Huntington_FB823_1817_06_12_page07.jpg"/>        
+               <pb n="7" facs="Edgeworth_Huntington_FB823_1817_06_12_page07.jpg"/>        
                it he will make him up a box with<lb/>
-               the old materials.<lb/></p>
+               the old materials.<lb/>
+            </p>
             <p>I asked at <persName ref="./Personography.xml#ColbH1">Coulburns</persName>'s about <persName ref="./Personography.xml#MorgS1">Lady<lb/>
                Morgan</persName>'s book but the only reply he<lb/>
                would vouchsafe was - "It is not out<lb/>
                yet Sir" - He is a paltry fellow<lb/>
-               And his <title ref= "./Workography.xml#LitGa1">Literary Gazette</title> is -<lb/>
+               And his <title ref="./Workography.xml#LitGa1">Literary Gazette</title> is -<lb/>
                but I won't say what till I see how<lb/>
-               he treats <title ref= "./Workography.xml#Karam1">Kara.</title><lb/>
+               he treats <title ref="./Workography.xml#Karam1">Kara.</title>
+               <lb/>
                I don't know nor<lb/>
                have yet seen <persName ref="./Personography.xml#ChapX1">Chapple</persName> or his book -<lb/>
-               <persName ref="./Personography.xml#StopX1">Capt<hi rend="superscript">n</hi> <unclear>Stofford</unclear></persName> is the very man you recollect<lb/>
+               <persName ref="./Personography.xml#StopX1">Capt<hi rend="superscript">n</hi>
+                  <unclear>Stofford</unclear>
+               </persName> is the very man you recollect<lb/>
                at <placeName ref="./Placeography.xml#Bristol_ENK">Bristol</placeName> - I have now answered<lb/>
                all your questions, and the only commission<lb/>
                unnoticed is <persName ref="./Personography.xml#GillX1">M<hi rend="superscript">r</hi>. Gillock</persName>'s whom I have<lb/>
                not yet been able to meet as he lives in<lb/>
                the Country and only comes to his office<lb/>
-        <pb n="8" facs="Edgeworth_Huntington_FB823_1817_06_12_page08.jpg"/>          
+               <pb n="8" facs="Edgeworth_Huntington_FB823_1817_06_12_page08.jpg"/>          
                in the morning. - <persName ref="./Personography.xml#BeauA1">Alicia</persName> and the<lb/>
                boys are all well - Pray have any<lb/>
-               of <persName ref="./Personography.xml#BentJ1"><unclear>Bentham's</unclear></persName> late publications been<lb/>
+               of <persName ref="./Personography.xml#BentJ1">
+                  <unclear>Bentham's</unclear>
+               </persName> late publications been<lb/>
                read at <placeName ref="./Placeography.xml#Edgeworthstown_IE">Etown</placeName>? - And how are they liked?<lb/>
                They are a little trop fort I should<lb/>
                imagine for the taste of the Attorney<lb/>
-               General -<lb/></p>
-               <p>You seem in a miserable<lb/>
+               General -<lb/>
+            </p>
+            <p>You seem in a miserable<lb/>
                way in <placeName ref="./Placeography.xml#IE">Ireland</placeName> - but we are not<lb/>
-                  on roses. For <figure><figDesc>Drawing of a hand with pointed index finger.</figDesc></figure> <persName ref="./Personography.xml#EdgeW1">William</persName><lb/></p>
-               <p>In a long deal box particularly<lb/>
-               recommended to <persName ref="./Personography.xml#HuntX1">M<hi rend="superscript">r</hi> Hunter's</persName><lb/>
+                  on roses. For <figure>
+                  <figDesc>Drawing of a hand with pointed index finger.</figDesc>
+               </figure>
+               <persName ref="./Personography.xml#EdgeW1">William</persName>
+               <lb/>
+            </p>
+            <p>In a long deal box particularly<lb/>
+               recommended to <persName ref="./Personography.xml#HuntX1">M<hi rend="superscript">r</hi> Hunter's</persName>
+               <lb/>
                protection and through him to the<lb/>
                carriers sailors &amp; agents you<lb/>
                will find the following articles<lb/>
-               <del></del> for you<lb/>
+               <del/> for you<lb/>
             </p>
          </div>
       </body>

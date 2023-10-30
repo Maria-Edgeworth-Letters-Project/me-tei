@@ -57,7 +57,7 @@
                <licence>Distributed under a Creative Commons Attribution-ShareAlike 3.0 Unported
                   License</licence>
             </availability>
-            <idno>Edgeworth_Morgan_422595_1825_05_05</idno> 
+            <idno>Edgeworth_Morgan_422595_1825_05_05</idno>
          </publicationStmt>
          <seriesStmt>
             <title>Maria Edgeworth Letters Project</title>
@@ -70,28 +70,25 @@
                   <collection><!-- Enter specific archival collection if applicable--></collection>
                   <idno><!--Consult library or WorldCat for this info--></idno>
                </msIdentifier>
-               
                <!-- FROM LAURA: it's here (below) in the head that I added the full information about the author,
                   and you could add full information about the addressee as well. -->
                <head>Letter from 
                      <persName xml:id="EdgeM1" from="1768" to="1849">
-                        <forename>Maria</forename>
-                        <surname>Edgeworth</surname>
-                        <date>1768-1849</date>
-                        <idno type="VIAF">71477273</idno>
-                        <idno type="SNAC">62567029</idno>
-                     </persName>
+                     <forename>Maria</forename>
+                     <surname>Edgeworth</surname>
+                     <date>1768-1849</date>
+                     <idno type="VIAF">71477273</idno>
+                     <idno type="SNAC">62567029</idno>
+                  </persName>
                   to <persName ref="./Personography.xml#SpriT1">Thomas Spring-Rice</persName>, 
-                  <date when="1825-05-05">May 5<hi rend="supercript">th</hi>, 1825. </date>   
+                  <date when="1825-05-05">May 5<hi rend="supercript">th</hi>, 1825. </date>
                </head>
                <physDesc>
                   <!-- optional physical description of the letter goes here: paper size and condition, seal, postmarks, etc.-->
                </physDesc>
             </msDesc>
-            
             <!-- FROM LAURA: where to put the following information in <bibl> is still a question: 
                ask TEI List whether it should be in the sourceDesc or elsewhere? -->
-            
             <bibl>In addition to our edited version, this letter was previously published in
                <!--complete bibiographical info if letter was published in a book here - if not delete-->
             </bibl>
@@ -226,9 +223,13 @@ r         revisions for Github upload
             <pb n="1" facs="Edgeworth_Morgan_422595_1825_05_05_page01.jpg"/>
             <opener>
                <dateline>
-                  <placeName ref="./Placeography.xml#Black-Castle_IE">Black Castle</placeName><lb/>   
-                  <placeName ref="./Placeography.xml#Navan_IE">Navan</placeName><lb/>
-                  <note>Maria Edgeworth</note><date when="1825-05-05"/>May 5<hi rend="supercript">th</hi>, 1825. </dateline><lb/>   
+                  <placeName ref="./Placeography.xml#Black-Castle_IE">Black Castle</placeName>
+                  <lb/>
+                  <placeName ref="./Placeography.xml#Navan_IE">Navan</placeName>
+                  <lb/>
+                  <note>Maria Edgeworth</note>
+                  <date when="1825-05-05"/>May 5<hi rend="supercript">th</hi>, 1825. </dateline>
+               <lb/>
                <salute>
                   Dear Sir,<lb/>
                </salute>
@@ -239,50 +240,66 @@ r         revisions for Github upload
                will you procure for me a<lb/>
                copy of the principal evidence<lb/>
                on Irish <add>Cat-</add> affairs before the H of<lb/>
-               Commons &amp; Lords - I <choice><orig>under<lb/>
-                  stand</orig><reg>understand</reg></choice> that duplicates can be<lb/>
+               Commons &amp; Lords - I <choice>
+                  <orig>under<lb/>
+                  stand</orig>
+                  <reg>understand</reg>
+               </choice> that duplicates can be<lb/>
                had by <hi rend="underline">great</hi> members of<lb/>
                parliament like you - These<lb/>
                reports are most valuable -<lb/>
                -<hi rend="underline">I admire M<hi rend="superscript">r</hi>. <persName ref="./Personography#BlakV1">Blakes</persName> evidence<lb/>
-               particularly</hi> - <del>and</del> <persName ref="./Personography#LewiF1"><choice><orig>Frank<lb/>
-                  land</orig><reg>Frankland</reg></choice> Lewis</persName>'s contains much<lb/>
+               particularly</hi> - <del>and</del>
+               <persName ref="./Personography#LewiF1">
+                  <choice>
+                     <orig>Frank<lb/>
+                  land</orig>
+                     <reg>Frankland</reg>
+                  </choice> Lewis</persName>'s contains much<lb/>
                excellent information - So does<lb/>
-               <persName ref="./Personography#FostJ1">Leslie Fosters</persName> - <persName ref="./Personography#DoylX1">Doyle</persName> &amp; <persName ref="./Personography#OConX1">O'Connor</persName><lb/>
-               admirable in their different ways<lb/></p>
-               <p>- How I shall enjoy hearing you<lb/>
+               <persName ref="./Personography#FostJ1">Leslie Fosters</persName> - <persName ref="./Personography#DoylX1">Doyle</persName> &amp; <persName ref="./Personography#OConX1">O'Connor</persName>
+               <lb/>
+               admirable in their different ways<lb/>
+            </p>
+            <p>- How I shall enjoy hearing you<lb/>
                talk over all this some time at<lb/>
                <placeName ref="./Placeography.xml#Edgeworthstown_IE">Edgeworths Town</placeName> - I tremble for<lb/>
-               the consequences of the D of Y's <choice><orig>declara<lb/>
-                  
-               <pb n="2" facs="Edgeworth_Morgan_422595_1825_05_05_page02.jpg"/>
+               the consequences of the D of Y's <choice>
+                  <orig>declara<lb/>
+                     <pb n="2" facs="Edgeworth_Morgan_422595_1825_05_05_page02.jpg"/>
             
-               tion</orig><reg>declaration</reg></choice> - write one line to me to<lb/>
+               tion</orig>
+                  <reg>declaration</reg>
+               </choice> - write one line to me to<lb/>
                tell me whether you tremble<lb/>
                or can still write your name<lb/>
-               in <hi rend="underline">steady characters</hi></p><lb/>
-               <closer>
+               in <hi rend="underline">steady characters</hi>
+            </p>
+            <lb/>
+            <closer>
                Y<hi rend="superscript">s</hi>. truly
-                  <persName ref="./Personography#EdgeM1">Maria Edgeworth</persName><lb/>
-               </closer>
-               <postscript>
-                  
+                  <persName ref="./Personography#EdgeM1">Maria Edgeworth</persName>
+               <lb/>
+            </closer>
+            <postscript>
                <p>Direct to me Black Castle<lb/>
-               Navan - <lb/></p>
-                  <p>
+               Navan - <lb/>
+               </p>
+               <p>
                I have heard much of you<lb/>
                from various English friends<lb/>
-               of late but nothing from you<lb/></p>
-               <p>How did you like Bowood<lb/></p>
-                  <p>When will you come to <placeName ref="./Placeography.xml#Edgeworthstown_IE">Edgeworths<lb/>
+               of late but nothing from you<lb/>
+               </p>
+               <p>How did you like Bowood<lb/>
+               </p>
+               <p>When will you come to <placeName ref="./Placeography.xml#Edgeworthstown_IE">Edgeworths<lb/>
                Town</placeName> - arrange <hi rend="underline">that</hi> between<lb/>
                the fits of politics &amp; let me<lb/>
                know before I am quite<lb/>
                out of patience with your delays<lb/>
-            </p>
+               </p>
                <pb n="3" facs="Edgeworth_Morgan_422595_1825_05_05_page03.jpg"/>
-
-            <p>
+               <p>
                I trust that the <persName ref="./Personography#PeryT1">Empress<lb/>
             Theodosia</persName> is in our<lb/>
             interests - I will promise<lb/>
@@ -295,13 +312,15 @@ r         revisions for Github upload
             we shall really have you<lb/>
             at <placeName ref="./Placeography.xml#Edgeworthstown_IE">Edgeworths Town</placeName> as<lb/>
             soon as you are free<lb/>
-            </p>
-
+               </p>
                <pb n="4" facs="Edgeworth_Morgan_422595_1825_05_05_page04.jpg"/>
-
-            <p><note><persName ref="./Personography#EdgeM1">Maria Edgeworth</persName></note><lb/>
-            </p>
-               </postscript>
+               <p>
+                  <note>
+                     <persName ref="./Personography#EdgeM1">Maria Edgeworth</persName>
+                  </note>
+                  <lb/>
+               </p>
+            </postscript>
          </div>
       </body>
       <back> </back>

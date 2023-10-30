@@ -5,27 +5,27 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
-            <titleStmt>
-               <title>Letter from Maria Edgeworth to Mr. Smith [the officials of the British Museum], 4/23/1822</title>
-               <author>Maria Edgeworth</author>
-               <editor ref="Id_who">
+         <titleStmt>
+            <title>Letter from Maria Edgeworth to Mr. Smith [the officials of the British Museum], 4/23/1822</title>
+            <author>Maria Edgeworth</author>
+            <editor ref="Id_who">
                Jamie Kramer
                </editor>
-               <sponsor>
-                  <orgName>Maria Edgeworth Letters Project</orgName>
-               </sponsor>
-               <sponsor>Wake Forest University, University of Tennessee, Xavier University, Texas
+            <sponsor>
+               <orgName>Maria Edgeworth Letters Project</orgName>
+            </sponsor>
+            <sponsor>Wake Forest University, University of Tennessee, Xavier University, Texas
                   A&amp;M University</sponsor>
-               <principal>Jessica Richard, Hilary Havens, Robin Runia, Susan Egenolf</principal>
-               <respStmt>
-                  <resp>Transcription and coding by</resp>
-                  <persName ref="Id_who">Jamie Kramer<!--FirstName LastName-->
+            <principal>Jessica Richard, Hilary Havens, Robin Runia, Susan Egenolf</principal>
+            <respStmt>
+               <resp>Transcription and coding by</resp>
+               <persName ref="Id_who">Jamie Kramer<!--FirstName LastName-->
                   </persName>
-                  <!-- List all transcribers or coders here, editors and students alike, <persName> by <persName>.-->
-                  <persName ref="Id_who"><!--FirstName LastName--></persName>
-                  <!-- If you're the last person interacting with the file, enter your name last on the list -->
-               </respStmt>
-            </titleStmt>
+               <!-- List all transcribers or coders here, editors and students alike, <persName> by <persName>.-->
+               <persName ref="Id_who"><!--FirstName LastName--></persName>
+               <!-- If you're the last person interacting with the file, enter your name last on the list -->
+            </respStmt>
+         </titleStmt>
          <editionStmt>
             <edition>First digital edition in TEI, date: <date when="2023-08-11">
                </date>
@@ -38,8 +38,6 @@
                </resp>
             </respStmt>
          </editionStmt>
-         
-         
          <publicationStmt>
             <authority>Maria Edgeworth Letters Project</authority>
             <date>2023</date>
@@ -50,8 +48,7 @@
                <licence>Distributed under a Creative Commons Attribution-ShareAlike 3.0 Unported
                   License</licence>
             </availability>
-            
-            <idno>Edgeworth_Huntington_XXXX_1822_04_23</idno> 
+            <idno>Edgeworth_Huntington_XXXX_1822_04_23</idno>
          </publicationStmt>
          <seriesStmt>
             <title>Maria Edgeworth Letters Project</title>
@@ -67,7 +64,6 @@
                   <idno/>
                   <!--Consult library or WorldCat for this info-->
                </msIdentifier>
-               
                <head>Letter from 
                   <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
                   <persName ref="./Personography.xml#SmitJ1">John Thomas Smith</persName>
@@ -80,7 +76,6 @@
             <bibl>In addition to our edited version, this letter was previously published in
                <!--complete bibiographical info if letter was published in a book here-->
             </bibl>
-            
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
@@ -93,7 +88,6 @@
                word is split at the end of a line and the beginning of the next in a manuscript. The
                long s and ligatured forms are silently emended.</p>
          </editorialDecl>
-         
          <classDecl>
             <taxonomy xml:id="relators">
                <bibl>Marc Relators</bibl>
@@ -210,10 +204,14 @@
             <taxonomy xml:id="places">
                <bibl>Places</bibl>
                <category>
-                  <catDesc xml:id="EdgeworthsTown">Edgeworths' Town<idno type="getty">tgn/1042937</idno></catDesc>
-                  <catDesc xml:id="Peterborough">Peterborough, UK<idno type="getty">tgn/7026520</idno></catDesc>
-                  <catDesc xml:id="CranfordI">Cranford, Ireland<idno type="getty">tgn/7901042</idno></catDesc>
-                  <catDesc xml:id="Kettering">Kettering, UK<idno type="getty">tgn/7010904</idno></catDesc>
+                  <catDesc xml:id="EdgeworthsTown">Edgeworths' Town<idno type="getty">tgn/1042937</idno>
+                  </catDesc>
+                  <catDesc xml:id="Peterborough">Peterborough, UK<idno type="getty">tgn/7026520</idno>
+                  </catDesc>
+                  <catDesc xml:id="CranfordI">Cranford, Ireland<idno type="getty">tgn/7901042</idno>
+                  </catDesc>
+                  <catDesc xml:id="Kettering">Kettering, UK<idno type="getty">tgn/7010904</idno>
+                  </catDesc>
                </category>
             </taxonomy>
             <taxonomy xml:id="period">
@@ -223,7 +221,6 @@
                </category>
             </taxonomy>
          </classDecl>
-         
       </encodingDesc>
       <profileDesc>
          <correspDesc>
@@ -234,7 +231,6 @@
                <persName ref="./Personography.xml#SmitJ1">John Thomas Smith</persName>
             </correspAction>
          </correspDesc>
-         
          <textClass>
             <keywords scheme="">
                <list type="simple">
@@ -256,30 +252,43 @@
       <body>
          <div type="letter">
             <pb n="1" facs="Edgeworth_Huntington_XXXX_1822_04_23_page01.jpg"/>
-              
-            <p><persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName> rejoices in this <choice><orig>opportuni-<lb/>
-               -ty</orig><reg>opportunity</reg></choice> of expressing her grateful sense of the<lb/>
+            <p>
+               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName> rejoices in this <choice>
+                  <orig>opportuni-<lb/>
+               -ty</orig>
+                  <reg>opportunity</reg>
+               </choice> of expressing her grateful sense of the<lb/>
                liberality and kindness with which<lb/>
-               the guardians of the <placeName ref="./Placeography.xml#British-Museum_ENK">British Museum</placeName><lb/>
+               the guardians of the <placeName ref="./Placeography.xml#British-Museum_ENK">British Museum</placeName>
+               <lb/>
                have received her and her sisters &amp; have<lb/>
                given up their time to assist them in<lb/>
                seeing to the best advantage the treasures<lb/>
-               of this unrivalled national establishment<lb/></p>
+               of this unrivalled national establishment<lb/>
+            </p>
             <p>Written in the Print room of the <placeName ref="./Placeography.xml#British-Museum_ENK">British<lb/>
-               -Museum</placeName> now under the care of<lb/></p>
-            <p><persName ref="./Personography.xml#SmitJ1">John Thomas Smith Esq<hi rend="superscript">re</hi></persName><lb/></p>
-               <dateline>April 23<hi rend="superscript">d</hi>. 1822.</dateline>
-                  <closer>
-                     <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName><lb/>
-                     <persName ref="./Personography.xml#EdgeF3">Frances Maria Edgeworth</persName><lb/>
-                     <persName ref="./Personography.xml#EdgeH1">Harriet Edgeworth</persName><lb/>
-                  </closer>
-                     <postscript>
-                        <p>The above was written, for <persName ref="./Personography.xml#SmitJ1">Mr Smith</persName>,<lb/>
-                           in the presence of <hi rend= "underline">NoehG1 GH Noehden</hi>.<lb/>
-                           <persName ref="./Personography.xml#WilkD1">David Wilkie</persName> R.A.<lb/></p>
-               </postscript>
-
+               -Museum</placeName> now under the care of<lb/>
+            </p>
+            <p>
+               <persName ref="./Personography.xml#SmitJ1">John Thomas Smith Esq<hi rend="superscript">re</hi>
+               </persName>
+               <lb/>
+            </p>
+            <dateline>April 23<hi rend="superscript">d</hi>. 1822.</dateline>
+            <closer>
+               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
+               <lb/>
+               <persName ref="./Personography.xml#EdgeF3">Frances Maria Edgeworth</persName>
+               <lb/>
+               <persName ref="./Personography.xml#EdgeH1">Harriet Edgeworth</persName>
+               <lb/>
+            </closer>
+            <postscript>
+               <p>The above was written, for <persName ref="./Personography.xml#SmitJ1">Mr Smith</persName>,<lb/>
+                           in the presence of <hi rend="underline">NoehG1 GH Noehden</hi>.<lb/>
+                  <persName ref="./Personography.xml#WilkD1">David Wilkie</persName> R.A.<lb/>
+               </p>
+            </postscript>
          </div>
       </body>
       <back> </back>

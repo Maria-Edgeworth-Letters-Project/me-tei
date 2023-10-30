@@ -3,193 +3,225 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>Letter from Walter Scott to Maria Edgeworth, May 15 and 16, 1818 <!--Recipient Name, Month Day, YYYY--></title>
-                <author>Maria Edgeworth</author>
-                <editor ref="Id_who">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from Walter Scott to Maria Edgeworth, May 15 and 16, 1818 <!--Recipient Name, Month Day, YYYY--></title>
+            <author>Maria Edgeworth</author>
+            <editor ref="Id_who">
                     Eliza Alexander Wilcox<!--Editor on the Maria Edgeworth Letters Project overseeing the coding of this particular letter: FirstName LastName -->
                 </editor>
-                <sponsor>
-                    <orgName>Maria Edgeworth Letters Project</orgName>
-                </sponsor>
-                <sponsor>Wake Forest University, University of Tennessee, Xavier University, Texas
+            <sponsor>
+               <orgName>Maria Edgeworth Letters Project</orgName>
+            </sponsor>
+            <sponsor>Wake Forest University, University of Tennessee, Xavier University, Texas
                     A&amp;M University</sponsor>
-                <principal>Jessica Richard, Hilary Havens, Robin Runia, Susan Egenolf</principal>
-                <respStmt>
-                    <resp>Transcription and coding by</resp>
-                    <persName ref="Id_who">Eliza Alexander Wilcox<!--FirstName LastName-->
+            <principal>Jessica Richard, Hilary Havens, Robin Runia, Susan Egenolf</principal>
+            <respStmt>
+               <resp>Transcription and coding by</resp>
+               <persName ref="Id_who">Eliza Alexander Wilcox<!--FirstName LastName-->
                     </persName>
-                    <!-- List all transcribers or coders here, editors and students alike, <persName> by <persName>.-->
-                    <persName ref="Id_who"><!--FirstName LastName--></persName>
-                    <!-- If you're the last person interacting with the file, enter your name last on the list -->
-                </respStmt>
-            </titleStmt>
-            <editionStmt>
-                <edition>First digital edition in TEI, date: October 24, 2023<date when="2023-10-24">
+               <!-- List all transcribers or coders here, editors and students alike, <persName> by <persName>.-->
+               <persName ref="Id_who"><!--FirstName LastName--></persName>
+               <!-- If you're the last person interacting with the file, enter your name last on the list -->
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>First digital edition in TEI, date: October 24, 2023<date when="2023-10-24">
                     <!--enter the date on which the first coder created and saved this XML file in google drive-->
                 </date>
-                </edition>
-                <respStmt>
-                    <orgName type="naf" ref="Id_who">
+            </edition>
+            <respStmt>
+               <orgName type="naf" ref="Id_who">
                         <!--who digitized the letter or gave us permission for to use the file?-->
                     </orgName>
-                    <resp> photos include:
+               <resp> photos include:
                         Edgeworth_NLS_23130_1818_05_15_page01.jpg
                         Edgeworth_NLS_23130_1818_05_15_page02.jpg
                         Edgeworth_NLS_23130_1818_05_15_page03.jpg
                         Edgeworth_NLS_23130_1818_05_15_page04.jpg<!-- Make a comma-separated list of each .jpg photo file name associated with your letter. 
                      For example: DSCF9476.jpg, DSCF9477.jpg, DSCF9478.jpg-->
                     </resp>
-                </respStmt>
-            </editionStmt>
-            <publicationStmt>
-                <authority>Maria Edgeworth Letters Project</authority>
-                <date>2022</date>
-                <availability>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Maria Edgeworth Letters Project</authority>
+            <date>2022</date>
+            <availability>
                     <!--Uncomment the appropriate line, based on the archive that holds the physical copy of this letter, 
                   and delete the other comment line(s).-->
-                    <p>Reproduced by the courtesy of the <orgName ref="http://id.loc.gov/authorities/names/n80044899">National Library of Scotland</orgName><!--Reproduced by courtesy of the <orgName ref="#ReadingCL">Reading Central Library</orgName>.-->
-                        <!--or -->
-                        <!--Courtesy of <orgName ref="#Rylands">The University of Manchester</orgName>.-->
-                    </p>
-                    <licence>Distributed under a Creative Commons Attribution-ShareAlike 3.0 Unported
+               <p>Reproduced by the courtesy of the <orgName ref="http://id.loc.gov/authorities/names/n80044899">National Library of Scotland</orgName>
+                  <!--Reproduced by courtesy of the <orgName ref="#ReadingCL">Reading Central Library</orgName>.-->
+                  <!--or -->
+                  <!--Courtesy of <orgName ref="#Rylands">The University of Manchester</orgName>.-->
+               </p>
+               <licence>Distributed under a Creative Commons Attribution-ShareAlike 3.0 Unported
                         License</licence>
-                </availability>
-                <idno>Edgeworth_NLS_23130_1818_05_15<!--Change to match the file name and current naming standards, i.e. "Edgeworth_Beinecke_330_1817_01_24" if file name is "Edgeworth_Beinecke_330_1817_01_24.xml"--></idno> 
-            </publicationStmt>
-            <seriesStmt>
-                <title>Maria Edgeworth Letters Project</title>
-            </seriesStmt>
-            <sourceDesc>
-                <msDesc xml:lang="en">
+            </availability>
+            <idno>Edgeworth_NLS_23130_1818_05_15<!--Change to match the file name and current naming standards, i.e. "Edgeworth_Beinecke_330_1817_01_24" if file name is "Edgeworth_Beinecke_330_1817_01_24.xml"--></idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Maria Edgeworth Letters Project</title>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
                     <!-- This section of the header identifies the original manuscript source. -->
-                    <msIdentifier>
-                        <repository>National Library of Scotland</repository>
-                        <collection><!-- Enter specific archival collection if applicable--></collection>
-                        <idno><!--Consult library or WorldCat for this info--></idno>
-                    </msIdentifier>
-                    
-                    <!-- FROM LAURA: it's here (below) in the head that I added the full information about the author,
+               <msIdentifier>
+                  <repository>National Library of Scotland</repository>
+                  <collection><!-- Enter specific archival collection if applicable--></collection>
+                  <idno><!--Consult library or WorldCat for this info--></idno>
+               </msIdentifier>
+               <!-- FROM LAURA: it's here (below) in the head that I added the full information about the author,
                   and you could add full information about the addressee as well. -->
-                    <head>Letter from 
+               <head>Letter from 
                         <persName ref="./Personography.xml#ScotW1">Walter Scott</persName>, <placeName ref="./Placeography.xml#Abbotsford-House_STK">Abbotsford</placeName>, 
                         <date when="1818-05-15">May 15 1818<!-- Transcribe the date as it appears on the letter itself. Enter a numeric standardized date value in @when. --></date>
                         to <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth<!--Recipient Name--></persName>, <placeName><!--Location where letter was sent--></placeName>, 
                         <date when="1818-05-15">May 15 1818<!-- Transcribe the date as it appears on the letter itself. Enter a numeric standardized date value in @when. --></date>
-                    </head>
-                    <physDesc>
+               </head>
+               <physDesc>
                         <!-- optional physical description of the letter goes here: paper size and condition, seal, postmarks, etc.-->
                     </physDesc>
-                </msDesc>
-                
-                <!-- FROM LAURA: where to put the following information in <bibl> is still a question: 
+            </msDesc>
+            <!-- FROM LAURA: where to put the following information in <bibl> is still a question: 
                ask TEI List whether it should be in the sourceDesc or elsewhere? -->
-                
-                <bibl>In addition to our edited version, this letter was previously published in
+            <bibl>In addition to our edited version, this letter was previously published in
                     <!--complete bibiographical info if letter was published in a book here - if not delete-->
                 </bibl>
-            </sourceDesc>
-        </fileDesc>
-        <encodingDesc>
-            <editorialDecl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
                 <!--Where Edgeworth uses nonstandard spelling and hyphenation of words, transcriber-coders 
                should use TEI elements “choice," “sic," and “reg" to encode both Edgeworth’s 
                spelling and the regular international standard of Oxford English spelling, 
                following the first listed spelling in the Oxford English Dictionary. -->
-                <p>Edgeworth’s spelling and punctuation are retained in transcription, except where a
+            <p>Edgeworth’s spelling and punctuation are retained in transcription, except where a
                     word is split at the end of a line and the beginning of the next in a manuscript. The
                     long s and ligatured forms are silently emended.</p>
-            </editorialDecl>
-        </encodingDesc>
-        <profileDesc>
-            <correspDesc>
-                <correspAction type="sent">
-                    <persName ref="./Personography.xml#ScotW1">Walter Scott</persName>
-                </correspAction>
-                <correspAction type="received">
-                    <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
-                </correspAction>
-            </correspDesc>
-        </profileDesc>
-        <revisionDesc>
-            <change when="2021-01-01" who="Id_who">
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="./Personography.xml#ScotW1">Walter Scott</persName>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-01-01" who="Id_who">
                 <!--Brief description of what you did here.-->
             </change>
-        </revisionDesc>
-    </teiHeader>
-    <text>
-        <body>
-            <div type="letter">
-                <pb n="1" facs="Edgeworth_NLS_23130_1818_05_15_page01.jpg"/>
-                <!--filenames for photos associated with this letter. Example: <pb n="1" facs="image1.jpg image2.jpg image3.jpg"/> -->
-                <opener>
-                    <dateline><!--If there's no date line, omit this element. Record in the order in which it is written on the letter.-->
-                        <name type="place" ref="Id_where"/>
-                        <date when="1818-05-15"/>15 May 1818</dateline>
-                    <salute>
-                        <persName>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <pb n="1" facs="Edgeworth_NLS_23130_1818_05_15_page01.jpg"/>
+            <!--filenames for photos associated with this letter. Example: <pb n="1" facs="image1.jpg image2.jpg image3.jpg"/> -->
+            <opener>
+               <dateline><!--If there's no date line, omit this element. Record in the order in which it is written on the letter.-->
+                  <name type="place" ref="Id_where"/>
+                  <date when="1818-05-15"/>15 May 1818</dateline>
+               <salute>
+                  <persName>
                             <!-- Use if letter has a saluation ("Dear Sir," for example). If not, delete this line.-->
                         </persName>
-                    </salute>
-                </opener>
-                <p> <note place="bottom">3x</note>
+               </salute>
+            </opener>
+            <p>
+               <note place="bottom">3x</note>
                     I lost no time my dear <persName ref="./Personography.xml#EdgeM1">Miss Edgeworth</persName> in complying with your<lb/>
-                    wishes. But I regret to say that as yet I have not found <persName ref="./Personography.xml#EdgeR1">Mr Edgeworths</persName><lb/>
+                    wishes. But I regret to say that as yet I have not found <persName ref="./Personography.xml#EdgeR1">Mr Edgeworths</persName>
+               <lb/>
                     favour on the subject you mention. It must be in existence as I am sure I<lb/>
                     never would destroy any trace of a correspondence by which I esteem<lb/>
                     myself so much honoured. I only arrived in town last night having<lb/>
-                    received your letter amongst my infant woods at <placeName ref="./Placeography.xml#Abbotsford-House_STK">Abbotsford</placeName> and <choice><orig>com<lb/>
-                        menced</orig><reg>commenced</reg></choice> my researches this morning. My papers are but very imperfectly<lb/>
+                    received your letter amongst my infant woods at <placeName ref="./Placeography.xml#Abbotsford-House_STK">Abbotsford</placeName> and <choice>
+                  <orig>com<lb/>
+                        menced</orig>
+                  <reg>commenced</reg>
+               </choice> my researches this morning. My papers are but very imperfectly<lb/>
                     arranged considering that I was bred to business but in 1811 I perceive<lb/>
                     I had been already favoured with several letters from the late regretted<lb/>
-                    <persName ref="./Personography.xml#EdgeR1">Mr. E</persName> <del></del> <add>three</add>of which I inclose for the chance of their containing <choice><orig>some<lb/>
-                        thing</orig><reg>something</reg></choice> interesting to your present labours of love. The letter <choice><orig>concern<lb/>
-                            ing</orig><reg>concerning</reg></choice> <persName ref="./Personography.xml#DarwE1">Darwin</persName> must I think be among a mass of papers relating to<lb/>
-                    <persName ref="./Personography.xml#SeweA1">Miss Sewards</persName> poems which I will make a thorough search amongst<lb/>
+               <persName ref="./Personography.xml#EdgeR1">Mr. E</persName>
+               <del/>
+               <add>three</add>of which I inclose for the chance of their containing <choice>
+                  <orig>some<lb/>
+                        thing</orig>
+                  <reg>something</reg>
+               </choice> interesting to your present labours of love. The letter <choice>
+                  <orig>concern<lb/>
+                            ing</orig>
+                  <reg>concerning</reg>
+               </choice>
+               <persName ref="./Personography.xml#DarwE1">Darwin</persName> must I think be among a mass of papers relating to<lb/>
+               <persName ref="./Personography.xml#SeweA1">Miss Sewards</persName> poems which I will make a thorough search amongst<lb/>
                     as soon as may be. I assure you dear <persName ref="./Personography.xml#EdgeM1">Madam</persName> there is no person<lb/>
                     in the world of literature for whose name <unclear>I have</unclear> more sincere respect<lb/>
                     or in whose regard I esteem myself more highly honoured, or whom I<lb/>
-                    would have more pleasure in obliging. You have had a merit <choice><orig>transcend<lb/>
-                        dent</orig><reg>transcendent</reg></choice> in my eyes of raising your national character in the scale of<lb/>
+                    would have more pleasure in obliging. You have had a merit <choice>
+                  <orig>transcend<lb/>
+                        dent</orig>
+                  <reg>transcendent</reg>
+               </choice> in my eyes of raising your national character in the scale of<lb/>
                     public estimation and making the <unclear>men</unclear> of the British empire acquainted<lb/>
-                    with the peculiar and interesting character of a people too long <choice><orig>neglec<lb/>
-                        -ted</orig><reg>neglected</reg></choice> and too severely oppressed. Public opinion though a slow is at<lb/>
-                    length a sure <unclear>rebuffer</unclear> of wrongs and when this in respect to <placeName ref="./Placeography.xml#IE">Ireland</placeName><lb/>
+                    with the peculiar and interesting character of a people too long <choice>
+                  <orig>neglec<lb/>
+                        -ted</orig>
+                  <reg>neglected</reg>
+               </choice> and too severely oppressed. Public opinion though a slow is at<lb/>
+                    length a sure <unclear>rebuffer</unclear> of wrongs and when this in respect to <placeName ref="./Placeography.xml#IE">Ireland</placeName>
+               <lb/>
                     you have produced a strong and abiding affect and I trust that<lb/>
                     notwithstanding all the unfavourable circumstances which seem<lb/>
                     fated to restart the amelioration of Ireland I cannot help thinking<lb/>
                     that writings which back its natives their force and their weakness<lb/>
                     and shew to their fellow subjects there that value and worth must<lb/>
-                    prepare both for a gradual but happy change. I do not rate the <choice><orig>un<lb/>
-                        -known</orig><reg>unknown</reg></choice> author of our Scottish tales so high as to place him in the same <add>rank</add><lb/>
+                    prepare both for a gradual but happy change. I do not rate the <choice>
+                  <orig>un<lb/>
+                        -known</orig>
+                  <reg>unknown</reg>
+               </choice> author of our Scottish tales so high as to place him in the same <add>rank</add>
+               <lb/>
                     either of <unclear>Morel or utility</unclear>and yet I think highly of many of his<lb/>
                     works and expect to be gratified by those which are still promised<lb/>
                     from the same abundant and concealed source. I do assure you<lb/>
-                    
-                    <pb n="2" facs="Edgeworth_NLS_23130_1818_05_15_page02.jpg"/>
+               <pb n="2" facs="Edgeworth_NLS_23130_1818_05_15_page02.jpg"/>
                     
                     I am quite an impartial judge upon the occasion &amp; that you do me<lb/>
-                    too much honour in supposing that I have any interest in these <choice><orig>nar<lb/>
-                        -ratives</orig><reg>narratives</reg></choice>. The whole story told (as <persName ref="./Personography.xml#BailJ1">Miss Baillie</persName> informed me) by a Sir<lb/>
+                    too much honour in supposing that I have any interest in these <choice>
+                  <orig>nar<lb/>
+                        -ratives</orig>
+                  <reg>narratives</reg>
+               </choice>. The whole story told (as <persName ref="./Personography.xml#BailJ1">Miss Baillie</persName> informed me) by a Sir<lb/>
                     somebody Gordon about my having intimated to him any acquiescence<lb/>
-                    in the report of my being the author of <del></del> <title ref="./Workography.xml#Antiq1">Antiquary</title> is so absolutely<lb/>
+                    in the report of my being the author of <del/>
+               <title ref="./Workography.xml#Antiq1">Antiquary</title> is so absolutely<lb/>
                     false that I do not even know such a person I <hi rend="underline">did</hi> know <persName ref="./Personography.xml#GordA1">Sir <unclear>Alex</unclear>.<lb/>
                         Gordon</persName> who fell gloriously at Waterloo &amp; I <hi rend="underline">do</hi> know <persName ref="./Personography.xml#GordA2">Sir Alexander<lb/>
                             Gordon</persName> of <unclear>Hilvenum</unclear> but no other of the name. So if the Knight swears<lb/>
-                    by his honour that the pancakes are naught do you eat the <choice><orig>pan<lb/>
-                        cakes</orig><reg>pancakes</reg></choice> tout de meme &amp; do not rashly suppose the Chevalier <unclear>forsworn</unclear><lb/>
-                    if you should find them very good. All this however I wrote to <persName ref="./Personography.xml#BailJ1">M<hi rend="superscript">rs</hi><lb/>
+                    by his honour that the pancakes are naught do you eat the <choice>
+                  <orig>pan<lb/>
+                        cakes</orig>
+                  <reg>pancakes</reg>
+               </choice> tout de meme &amp; do not rashly suppose the Chevalier <unclear>forsworn</unclear>
+               <lb/>
+                    if you should find them very good. All this however I wrote to <persName ref="./Personography.xml#BailJ1">M<hi rend="superscript">rs</hi>
+                  <lb/>
                         Baillie</persName> I should rather say to our dear Joanna whose talents and [unclear]heart[/unclear]<lb/>
                     you I know hold as highly as I do; so that I suppose she has already<lb/>
-                    written to you on that subject.<lb/></p>
-                    
-                <p><placeName ref="./Placeography.xml#Abbotsford-House_STK">Abbotsford</placeName> 16 May<lb/> 
+                    written to you on that subject.<lb/>
+            </p>
+            <p>
+               <placeName ref="./Placeography.xml#Abbotsford-House_STK">Abbotsford</placeName> 16 May<lb/> 
                     It was destined I was not to find the letter until I returned hither for<lb/>
                     an unfortunate partiality for little cabinets and great cabinets and<lb/>
                     all sort of concealments and pigeon-holes holes makes it very difficult for me<lb/>
-                    to know where any particular paper may happen to be <unclear></unclear> I regret that<lb/>
+                    to know where any particular paper may happen to be <unclear/> I regret that<lb/>
                     the delay this has occasioned may make me seem what I would most<lb/>
                     unwillingly be thought slack or careless in complying with your request<lb/>
                     The letter contains an excellent and animated defence of <persName ref="./Personography.xml#DarwE1">D<hi rend="superscript">r</hi> Darwin</persName> written<lb/>
@@ -201,22 +233,30 @@
                     very much were worth struggling about. But the liberality of the letter does great<lb/>
                     honour (like everything thing he did) to <persName ref="./Personography.xml#EdgeR1">Mr. E.s</persName> memory. I found in the same<lb/>
                     drawer a letter of my own to <persName ref="./Personography.xml#EdgeR1">Mr. Edgeworth</persName> begun after my release from<lb/>
-                    <placeName ref="./Placeography.xml#FR">France</placeName> and never finished: a memorial among too many others how<lb/>
-                    often I am misled by an unfortunate habit of procrastination into <choice><orig>beco<lb/>
-                        ming</orig><reg>becoming</reg></choice> indifferent to the kindness of my best friends. Latterly indeed that<lb/>
+               <placeName ref="./Placeography.xml#FR">France</placeName> and never finished: a memorial among too many others how<lb/>
+                    often I am misled by an unfortunate habit of procrastination into <choice>
+                  <orig>beco<lb/>
+                        ming</orig>
+                  <reg>becoming</reg>
+               </choice> indifferent to the kindness of my best friends. Latterly indeed that<lb/>
                     as for the last twelve months I have had very indifferent health to plead as<lb/>
                     an excuse for being an irregular correspondent. I begin within these<lb/>
                     two last months to feel like myself again so that I trust I shall not<lb/>
-                    have that painful apology any longer.<lb/></p>
-                    
-                    <pb n="3" facs="Edgeworth_NLS_23130_1818_05_15_page03.jpg"/>
-                    
-                <p>I am much obliged to you for thinking favourably of my attempts in poetry<lb/>
-                    They have one title to indulgent compassion which is that they are a sort of <choice><orig>or-<lb/>
-                        phans</orig><reg>orphans</reg></choice> for whom their ostich-parent cares most exceedingly little. In the earlier<lb/>
+                    have that painful apology any longer.<lb/>
+            </p>
+            <pb n="3" facs="Edgeworth_NLS_23130_1818_05_15_page03.jpg"/>
+            <p>I am much obliged to you for thinking favourably of my attempts in poetry<lb/>
+                    They have one title to indulgent compassion which is that they are a sort of <choice>
+                  <orig>or-<lb/>
+                        phans</orig>
+                  <reg>orphans</reg>
+               </choice> for whom their ostich-parent cares most exceedingly little. In the earlier<lb/>
                     part of my literary life partly from temper partly from principle having observed<lb/>
-                    how very unhappy library persons are made (not to say ridiculous into the <choice><orig>bar-<lb/>
-                        gain</orig><reg>bargain</reg></choice>) by pitching their thoughts and happiness upon popular fame that I resolved<lb/>
+                    how very unhappy library persons are made (not to say ridiculous into the <choice>
+                  <orig>bar-<lb/>
+                        gain</orig>
+                  <reg>bargain</reg>
+               </choice>) by pitching their thoughts and happiness upon popular fame that I resolved<lb/>
                     to avoid at least that frailty &amp; think as little about my poems when committed<lb/>
                     to the public as I well could. It is only when you <persName ref="./Personography.xml#EdgeM1">Miss Edgeworth</persName> or a few others<lb/>
                     whose talents &amp; candour rank high with me are kind enough to say that you<lb/>
@@ -225,39 +265,51 @@
                     last year <title ref="./Workography.xml#Ladyo1">the Lady of the Lake</title> which I liked better than I expected but not<lb/>
                     well enough to induce me to go through the rest so I may truly say with<lb/>
                     I am afraid to think of what I've done<lb/>
-                    <title ref="./Workography.xml#Macbe1">Macbeth</title><lb/>
+               <title ref="./Workography.xml#Macbe1">Macbeth</title>
+               <lb/>
                     I am afraid to think of what I've done<lb/>
                     Look out again I dare not -<lb/>
                     This much of <title ref="./Workography.xml#Macbe1">Macbeth</title> I recollect for that is not so easily forgotten that<lb/>
                     she was attempted from the existing person &amp; character of a lady who is now<lb/>
                     no more. So that I am particularly flattered with your distinguishing it<lb/>
-                    from the others which are in general mere shadows.<lb/></p>
-                    
-                <p>Thus far <hi rend="underline">have I written amidst the clank and clang produced by</hi><lb/>
+                    from the others which are in general mere shadows.<lb/>
+            </p>
+            <p>Thus far <hi rend="underline">have I written amidst the clank and clang produced by</hi>
+               <lb/>
                     two noisy young bachelors my son and a cousin who are wearing out a rainy<lb/>
                     day by fencing with their naked broadswords to the imminent peril of<lb/>
                     their own heads to animate which conflict a probationary piper is excercizing<lb/>
                     a new &amp; not over well tuned pair of bagpipes - all this being literally the<lb/>
                     case I really hardly know whether I am writing sense or nonsense - At<lb/>
                     least I must be comforted with the idea that my family is making<lb/>
-                    some noise in the world<lb/></p>
-                    
-                  <p> My rustic employments are so numerous and require so much of my
+                    some noise in the world<lb/>
+            </p>
+            <p> My rustic employments are so numerous and require so much of my
                       own eye that I have no thoughts this season of quitting <placeName ref="./Placeography.xml#STK">Scotland</placeName>.<lb/>
                       If I can get away in winter I should like much to see <placeName ref="./Placeography.xml#IT">Italy</placeName>. but I fear<lb/>
                       I cannot do this very conveniently. <placeName ref="./Placeography.xml#IE">Ireland</placeName>. I trust I will one day visit<lb/>
                       but I must first get my dominions here put into some sort of orders<lb/>
                       I have of late been rather an extensive planter and incline in<lb/>
                       proportion to the extent of my property and these operations require<lb/>
-                      a good deal of personal superintendence.<lb/></p>
-                    
-                <p> A clergyman in your neighbourhood by name a gallant <choice><orig>Gra-<lb/>
-                    ham</orig><reg><persName ref="./Personography.xml#GrahX1">Graham</persName></reg></choice> applied to me some time since wishing to connect himself with<lb/>
-                    the border tribe of that name &amp; willing to forward so reasonable &amp; <choice><orig>lau-<lb/>
-                        dable</orig><reg>laudable</reg></choice> a request I did some time since communicate to him what<lb/>
-                    information occured to my recollection concerning these <unclear>worthies</unclear><lb/>
-                    <pb n="4" facs="Edgeworth_NLS_23130_1818_05_15_page04.jpg"/>
-                    He now writes to me that you wish to have a copy which (though I <unclear>should</unclear><lb/>
+                      a good deal of personal superintendence.<lb/>
+            </p>
+            <p> A clergyman in your neighbourhood by name a gallant <choice>
+                  <orig>Gra-<lb/>
+                    ham</orig>
+                  <reg>
+                     <persName ref="./Personography.xml#GrahX1">Graham</persName>
+                  </reg>
+               </choice> applied to me some time since wishing to connect himself with<lb/>
+                    the border tribe of that name &amp; willing to forward so reasonable &amp; <choice>
+                  <orig>lau-<lb/>
+                        dable</orig>
+                  <reg>laudable</reg>
+               </choice> a request I did some time since communicate to him what<lb/>
+                    information occured to my recollection concerning these <unclear>worthies</unclear>
+               <lb/>
+               <pb n="4" facs="Edgeworth_NLS_23130_1818_05_15_page04.jpg"/>
+                    He now writes to me that you wish to have a copy which (though I <unclear>should</unclear>
+               <lb/>
                     think it very uninteresting to you) is of course most humbly at your<lb/>
                     service. As however it was merely intended to gratify his own curiosity<lb/>
                     &amp; by no times designed as a genealogical history for which I have neither<lb/>
@@ -266,37 +318,41 @@
                     I do not know any thing of <persName ref="./Personography.xml#GrahX1">M<hi rend="superscript">r</hi>Graham</persName> but I am always willing to<lb/>
                     return a civil answer to a gentleman of his profession who writes to me<lb/>
                     civilly; only I dont like to be hooked in for appearances on the<lb/>
-                    public stage of which I have already made too many.<lb/></p>
-                <closer>
+                    public stage of which I have already made too many.<lb/>
+            </p>
+            <closer>
                     Adieu my dear <persName ref="./Personography.xml#EdgeM1">Miss Edgeworth</persName> My best wishes attend you<lb/>
                     in public &amp; private &amp; if we should never meet I trust you will still<lb/>
                     believe that you have not a more sincere friend and well wisher<lb/>
-                    than <persName ref="./Personography.xml#ScotW1">Walter Scott</persName><lb/>.
+                    than <persName ref="./Personography.xml#ScotW1">Walter Scott</persName>
+               <lb/>.
                     15 May 1818<!--include linebreaks, if used. example: <closer> Yours<lb/> Very sincerely<lb/> -->
                 </closer>
-                <postscript>
-                    <p>I shall send these packet to my official friend <persName ref="./Personography.xml#CrokX1">Croker</persName> to be<lb/>
+            <postscript>
+               <p>I shall send these packet to my official friend <persName ref="./Personography.xml#CrokX1">Croker</persName> to be<lb/>
                         put under one of his omnipotent franks.<lb/>
-                    
-                        <note>113. 15<lb/>
-                            <hi rend="underline">3<lb/></hi>
+                  <note>113. 15<lb/>
+                     <hi rend="underline">3<lb/>
+                     </hi>
                             341 . 5<lb/>
-                            W. Scott. May 15. 1818<lb/></note></p>
-                </postscript>
-                <!--You can include a <pb/> here, or inside the postScript.-->
-                <!-- Format for postscripts. 
+                            W. Scott. May 15. 1818<lb/>
+                  </note>
+               </p>
+            </postscript>
+            <!--You can include a <pb/> here, or inside the postScript.-->
+            <!-- Format for postscripts. 
                Postscripts do NOT go inside closer tags. Adjust to take into account the order in your letter. 
                Sometimes the signature is on page three, the address on page four, then the postscript follows back on the top of page one, for example.-->
-                <closer><!--Use the <closer> element again to hold Address Leaf information.-->
-                    <address>
+            <closer><!--Use the <closer> element again to hold Address Leaf information.-->
+               <address>
                         <!--Include any text written on the address leaf; use a separate "addrLine" for each line and indicate line breaks. -->
-                        <addrLine/>
-                        <addrLine/>
-                        <addrLine/>
-                    </address>
-                </closer>
-            </div>
-        </body>
-        <back> </back>
-    </text>
+                  <addrLine/>
+                  <addrLine/>
+                  <addrLine/>
+               </address>
+            </closer>
+         </div>
+      </body>
+      <back> </back>
+   </text>
 </TEI>

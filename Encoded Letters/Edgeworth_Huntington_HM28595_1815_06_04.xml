@@ -5,27 +5,29 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
-            <titleStmt>
-               <title>Letter from Maria Edgeworth to Sir Francis Beaufort, 6/4/[1815]</title>
-               <author><persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName></author>
-               <editor ref="Id_who">
+         <titleStmt>
+            <title>Letter from Maria Edgeworth to Sir Francis Beaufort, 6/4/[1815]</title>
+            <author>
+               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
+            </author>
+            <editor ref="Id_who">
                   Jamie Kramer
                </editor>
-               <sponsor>
-                  <orgName>Maria Edgeworth Letters Project</orgName>
-               </sponsor>
-               <sponsor>Wake Forest University, University of Tennessee, Xavier University, Texas
+            <sponsor>
+               <orgName>Maria Edgeworth Letters Project</orgName>
+            </sponsor>
+            <sponsor>Wake Forest University, University of Tennessee, Xavier University, Texas
                   A&amp;M University</sponsor>
-               <principal>Jessica Richard, Hilary Havens, Robin Runia, Susan Egenolf</principal>
-               <respStmt>
-                  <resp>Transcription and coding by</resp>
-                  <persName ref="Id_who">Jamie Kramer<!--FirstName LastName-->
+            <principal>Jessica Richard, Hilary Havens, Robin Runia, Susan Egenolf</principal>
+            <respStmt>
+               <resp>Transcription and coding by</resp>
+               <persName ref="Id_who">Jamie Kramer<!--FirstName LastName-->
                   </persName>
-                  <!-- List all transcribers or coders here, editors and students alike, <persName> by <persName>.-->
-                  <persName ref="Id_who"><!--FirstName LastName--></persName>
-                  <!-- If you're the last person interacting with the file, enter your name last on the list -->
-               </respStmt>
-            </titleStmt>
+               <!-- List all transcribers or coders here, editors and students alike, <persName> by <persName>.-->
+               <persName ref="Id_who"><!--FirstName LastName--></persName>
+               <!-- If you're the last person interacting with the file, enter your name last on the list -->
+            </respStmt>
+         </titleStmt>
          <editionStmt>
             <edition>First digital edition in TEI, date: <date when="2023-01-12">
                </date>
@@ -40,8 +42,6 @@
                </resp>
             </respStmt>
          </editionStmt>
-         
-         
          <publicationStmt>
             <authority>Maria Edgeworth Letters Project</authority>
             <date>2023</date>
@@ -52,8 +52,7 @@
                <licence>Distributed under a Creative Commons Attribution-ShareAlike 3.0 Unported
                   License</licence>
             </availability>
-            
-            <idno>Edgeworth_Huntington_HM28595_1815_06_04</idno> 
+            <idno>Edgeworth_Huntington_HM28595_1815_06_04</idno>
          </publicationStmt>
          <seriesStmt>
             <title>Maria Edgeworth Letters Project</title>
@@ -71,7 +70,6 @@
                   <idno/>
                   <!--Consult library or WorldCat for this info-->
                </msIdentifier>
-               
                <head>Letter from 
                   <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
                   to <persName ref="./Personography.xml#BeauF1">Sir Francis Beaufort</persName>
@@ -83,7 +81,6 @@
             <bibl>In addition to our edited version, this letter was previously published in
                <!--complete bibiographical info if letter was published in a book here-->
             </bibl>
-            
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
@@ -96,7 +93,6 @@
                word is split at the end of a line and the beginning of the next in a manuscript. The
                long s and ligatured forms are silently emended.</p>
          </editorialDecl>
-         
          <classDecl>
             <taxonomy xml:id="relators">
                <bibl>Marc Relators</bibl>
@@ -213,10 +209,14 @@
             <taxonomy xml:id="places">
                <bibl>Places</bibl>
                <category>
-                  <catDesc xml:id="EdgeworthsTown">Edgeworths' Town<idno type="getty">tgn/1042937</idno></catDesc>
-                  <catDesc xml:id="Peterborough">Peterborough, UK<idno type="getty">tgn/7026520</idno></catDesc>
-                  <catDesc xml:id="CranfordI">Cranford, Ireland<idno type="getty">tgn/7901042</idno></catDesc>
-                  <catDesc xml:id="Kettering">Kettering, UK<idno type="getty">tgn/7010904</idno></catDesc>
+                  <catDesc xml:id="EdgeworthsTown">Edgeworths' Town<idno type="getty">tgn/1042937</idno>
+                  </catDesc>
+                  <catDesc xml:id="Peterborough">Peterborough, UK<idno type="getty">tgn/7026520</idno>
+                  </catDesc>
+                  <catDesc xml:id="CranfordI">Cranford, Ireland<idno type="getty">tgn/7901042</idno>
+                  </catDesc>
+                  <catDesc xml:id="Kettering">Kettering, UK<idno type="getty">tgn/7010904</idno>
+                  </catDesc>
                </category>
             </taxonomy>
             <taxonomy xml:id="period">
@@ -226,7 +226,6 @@
                </category>
             </taxonomy>
          </classDecl>
-         
       </encodingDesc>
       <profileDesc>
          <correspDesc>
@@ -237,7 +236,6 @@
                <persName ref="./Personography.xml#BeauF1">Sir Francis Beaufort</persName>
             </correspAction>
          </correspDesc>
-         
          <textClass>
             <keywords scheme="">
                <list type="simple">
@@ -259,65 +257,77 @@
       <body>
          <div type="letter">
             <pb n="1" facs="Edgeworth_Huntington_HM28595_1815_06_04_page01.jpg"/>
-            
             <opener>
-
                <dateline>
-                  <date when="1815-06-04"/>Sunday 4 June<lb/></dateline>  
+                  <date when="1815-06-04"/>Sunday 4 June<lb/>
+               </dateline>
                <salute>My dear <persName ref="./Personography.xml#BeauF1">Francis</persName>,<lb/>
-               </salute></opener>
-            <p> 
-               <persName ref="./Personography.xml#EdgeR1">My father</persName> has just heard <persName ref="./Personography.xml#EdgeF2">my mother</persName><lb/>
+               </salute>
+            </opener>
+            <p>
+               <persName ref="./Personography.xml#EdgeR1">My father</persName> has just heard <persName ref="./Personography.xml#EdgeF2">my mother</persName>
+               <lb/>
                read to him your letter of advice to<lb/>
-               <persName ref="./Personography.xml#XxxxQ1">Quin</persName> upon the question of his <choice><orig>return<lb/>
-                  ing</orig><reg>returning</reg></choice> home, and he deputes to me to<lb/>
+               <persName ref="./Personography.xml#XxxxQ1">Quin</persName> upon the question of his <choice>
+                  <orig>return<lb/>
+                  ing</orig>
+                  <reg>returning</reg>
+               </choice> home, and he deputes to me to<lb/>
                tell you how much pleasure it gave<lb/>
                him - I wish I could convey to you<lb/>
                the expression of his countenance &amp;<lb/>
                his own emphatic pronounciation of<lb/>
-               <hi rend="underline">Excellent</hi>! - <hi rend="underline">Excellent</hi>! - <hi rend="underline">Admirable!</hi><lb/></p>
-               <p>I wish you could have seen the pride<lb/>
+               <hi rend="underline">Excellent</hi>! - <hi rend="underline">Excellent</hi>! - <hi rend="underline">Admirable!</hi>
+               <lb/>
+            </p>
+            <p>I wish you could have seen the pride<lb/>
                as well as pleasure my mother took in<lb/>
                reading it and the delight it gave my<lb/>
-                  <persName ref="./Personography.xml#SneyM1">Aunt Mary</persName> &amp; <persName ref="./Personography.xml#SneyC1">Aunt Charlotte</persName> &amp; each &amp;<lb/>
+               <persName ref="./Personography.xml#SneyM1">Aunt Mary</persName> &amp; <persName ref="./Personography.xml#SneyC1">Aunt Charlotte</persName> &amp; each &amp;<lb/>
                   all of your nieces - <persName ref="./Personography.xml#EdgeW1">William</persName> who was<lb/>
                   not in the room when it was read aloud<lb/>
                   has this moment finished it &amp; echoes<lb/>
-                  -- (Albeit unused to echo) -- Excellent! -</p><lb/>
+                  -- (Albeit unused to echo) -- Excellent! -</p>
+            <lb/>
             <p>I shall take a copy of it, and beg<lb/>
                your permission to use <add>part of</add> it whenever I<lb/>
                have opportunity to do so for the good<lb/>
                of others - Of course I shall not use your<lb/>
                name - But the sentiment &amp; opinion<lb/>
                of your letter are so entirely our own<lb/>
-
                <pb n="2" facs="Edgeworth_Huntington_HM28595_1815_06_04_page02.jpg"/>
                
                &amp; they are so strongly &amp; clearly expressed that<lb/>
                I cannot help wishing to be the means of<lb/>
                making this <hi rend="underline">real</hi> letter advantageous to<lb/>
                other young persons - <hi rend="underline">Reality</hi> has a power<lb/>
-               over the mind which fiction never <hi rend="underline">can</hi><lb/>
-               &amp; never ought to obtain -</p><lb/>
+               over the mind which fiction never <hi rend="underline">can</hi>
+               <lb/>
+               &amp; never ought to obtain -</p>
+            <lb/>
             <closer>
                Your sincere friend<lb/>
-               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName><lb/>
+               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
+               <lb/>
             </closer>
-            
             <postscript>
-               <p>My dear <persName ref="./Personography.xml#BeauF1">brother</persName><lb/>
+               <p>My dear <persName ref="./Personography.xml#BeauF1">brother</persName>
+                  <lb/>
                I will add nothing to this<lb/>
                valuable letter but our expression of delight<lb/>
                at reading any thing so good as your most<lb/>
                wise and excellent letter to your protegé<lb/>
-               <persName ref="./Personography.xml#EdgeR1">M<hi rend= "superscript">r</hi> E.</persName> is much better than he was when<lb/>
+                  <persName ref="./Personography.xml#EdgeR1">M<hi rend="superscript">r</hi> E.</persName> is much better than he was when<lb/>
                I wrote last -<lb/>
-                  The <placeName ref="./Placeography.xml#II">Indian</placeName> box is arrived in <placeName ref="./Placeography.xml#Dublin_IE">Dublin</placeName><lb/>
+                  The <placeName ref="./Placeography.xml#II">Indian</placeName> box is arrived in <placeName ref="./Placeography.xml#Dublin_IE">Dublin</placeName>
+                  <lb/>
                   as announced by <persName ref="./Personography.xml#ExxxX1">Elliot</persName> this day.<lb/>
-                  How is <persName ref="./Personography.xml#BeauA1">Alicia</persName>?</p><lb/>
+                  How is <persName ref="./Personography.xml#BeauA1">Alicia</persName>?</p>
+               <lb/>
                <closer>
                Ever your affectionate Sister<lb/>
-            <persName ref="./Personography.xml#EdgeM1">ME</persName><lb/>
+                  <persName ref="./Personography.xml#EdgeM1">ME</persName>
+                  <lb/>
                </closer>
             </postscript>
          </div>
