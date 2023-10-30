@@ -309,7 +309,6 @@
                Postscripts do NOT go inside closer tags. Adjust to take into account the order in your letter. 
                Sometimes the signature is on page three, the address on page four, then the postscript follows back on the top of page one, for example.-->
                 <closer><!--Use the <closer> element again to hold Address Leaf information.-->
-                    <address>
                         <pb n="4" facs="Edgeworth_NLS_23130_1814_11_10_page04.jpg"/>
                         <note place="bottom"><persName ref="./Personography.xmlBallJ1">M Ballantyne<lb/></persName>
                             to<lb/>
@@ -318,15 +317,9 @@
                             on reading <title ref="./Workography.xml#Waver1">Waverley</title></note><lb/>
                         <persName ref="./Personography.xml#BallJ1">M<hi rend="superscript">r</hi> Ballantyne</persName><lb/>
                         Nov<hi rend="superscript">r</hi>. 1814 -<lb/>
-                        <!--Include any text written on the address leaf; use a separate "addrLine" for each line and indicate line breaks. -->
-                        <addrLine/>
-                        <addrLine/>
-                        <addrLine/>
-                    </address>
                 </closer>
             </div>
         </body>
         <back> </back>
     </text>
 </TEI>
-s
