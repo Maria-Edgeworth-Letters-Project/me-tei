@@ -38,8 +38,6 @@
                </resp>
             </respStmt>
          </editionStmt>
-         
-         
          <publicationStmt>
             <authority>Maria Edgeworth Letters Project</authority>
             <date>2023</date>
@@ -50,8 +48,7 @@
                <licence>Distributed under a Creative Commons Attribution-ShareAlike 3.0 Unported
                   License</licence>
             </availability>
-            
-            <idno>Edgeworth_Huntington_HM28602_1825_05_xx</idno> 
+            <idno>Edgeworth_Huntington_HM28602_1825_05_xx</idno>
          </publicationStmt>
          <seriesStmt>
             <title>Maria Edgeworth Letters Project</title>
@@ -66,7 +63,6 @@
                   <idno/>
                   <!--Consult library or WorldCat for this info-->
                </msIdentifier>
-               
                <head>Letter from 
                   <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
                   to <persName ref="./Personography.xml#BeauF1">Sir Francis Beaufort</persName>
@@ -78,7 +74,6 @@
             <bibl>In addition to our edited version, this letter was previously published in
                <!--complete bibiographical info if letter was published in a book here-->
             </bibl>
-            
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
@@ -91,7 +86,6 @@
                word is split at the end of a line and the beginning of the next in a manuscript. The
                long s and ligatured forms are silently emended.</p>
          </editorialDecl>
-         
          <classDecl>
             <taxonomy xml:id="relators">
                <bibl>Marc Relators</bibl>
@@ -208,10 +202,14 @@
             <taxonomy xml:id="places">
                <bibl>Places</bibl>
                <category>
-                  <catDesc xml:id="EdgeworthsTown">Edgeworths' Town<idno type="getty">tgn/1042937</idno></catDesc>
-                  <catDesc xml:id="Peterborough">Peterborough, UK<idno type="getty">tgn/7026520</idno></catDesc>
-                  <catDesc xml:id="CranfordI">Cranford, Ireland<idno type="getty">tgn/7901042</idno></catDesc>
-                  <catDesc xml:id="Kettering">Kettering, UK<idno type="getty">tgn/7010904</idno></catDesc>
+                  <catDesc xml:id="EdgeworthsTown">Edgeworths' Town<idno type="getty">tgn/1042937</idno>
+                  </catDesc>
+                  <catDesc xml:id="Peterborough">Peterborough, UK<idno type="getty">tgn/7026520</idno>
+                  </catDesc>
+                  <catDesc xml:id="CranfordI">Cranford, Ireland<idno type="getty">tgn/7901042</idno>
+                  </catDesc>
+                  <catDesc xml:id="Kettering">Kettering, UK<idno type="getty">tgn/7010904</idno>
+                  </catDesc>
                </category>
             </taxonomy>
             <taxonomy xml:id="period">
@@ -221,7 +219,6 @@
                </category>
             </taxonomy>
          </classDecl>
-         
       </encodingDesc>
       <profileDesc>
          <correspDesc>
@@ -232,7 +229,6 @@
                <persName ref="./Personography.xml#BeauF1">Sir Francis Beaufort</persName>
             </correspAction>
          </correspDesc>
-         
          <textClass>
             <keywords scheme="">
                <list type="simple">
@@ -254,38 +250,59 @@
       <body>
          <div type="letter">
             <pb n="1" facs="Edgeworth_Huntington_HM28602_1825_05_xx_page01.jpg"/>
-
             <p>	- I have written to <persName ref="./Personography.xml#RopeR1">Lord Rope</persName> and have desired<lb/>
-               him to request <persName ref="./Personography.xml#ParsW1">Lord Oxmantown</persName> will <choice><orig>commu-<lb/>
-                  nicate</orig><reg>communicate</reg></choice> his answer to you - <note>May 1825</note><lb/></p>
+               him to request <persName ref="./Personography.xml#ParsW1">Lord Oxmantown</persName> will <choice>
+                  <orig>commu-<lb/>
+                  nicate</orig>
+                  <reg>communicate</reg>
+               </choice> his answer to you - <note>May 1825</note>
+               <lb/>
+            </p>
             <p>- I have also written to <persName ref="./Personography.xml#FostJ1">Leslie Foster</persName> desiring<lb/>
                him to do ditto - Both gentlemen ought I<lb/>
                think and will I hope be gratified &amp; obliged<lb/>
                by your application - I told <persName ref="./Personography.xml#FxxxL1">L F</persName> that if he did<lb/>
                not chuse to give his reasons publickly for not<lb/>
-               liking your company they should not go <choice><orig>far-<lb/>
-                  ther</orig><reg>farther</reg></choice> than to you if he trusts them to me - But<lb/>
+               liking your company they should not go <choice>
+                  <orig>far-<lb/>
+                  ther</orig>
+                  <reg>farther</reg>
+               </choice> than to you if he trusts them to me - But<lb/>
                I think there must be some mistake about<lb/>
                his disapproval -<lb/>
-               <hi rend="underline"><persName ref="./Personography.xml#BellJ1">Bellamy</persName>'s <title ref= "./Workography.xml#HolyB1">bible</title></hi> - I enclose a draft for ten <choice><orig>gui-<lb/>
-                  neas</orig><reg>guineas</reg></choice> - most willingly Dear <persName ref="./Personography.xml#BeauF1">Francis</persName> to forward<lb/>
-               any wish of yours and thank you for <choice><orig>mak-<lb/>
-                  -ing</orig><reg>making</reg></choice> known to me your wish - But my name<lb/>
+               <hi rend="underline">
+                  <persName ref="./Personography.xml#BellJ1">Bellamy</persName>'s <title ref="./Workography.xml#HolyB1">bible</title>
+               </hi> - I enclose a draft for ten <choice>
+                  <orig>gui-<lb/>
+                  neas</orig>
+                  <reg>guineas</reg>
+               </choice> - most willingly Dear <persName ref="./Personography.xml#BeauF1">Francis</persName> to forward<lb/>
+               any wish of yours and thank you for <choice>
+                  <orig>mak-<lb/>
+                  -ing</orig>
+                  <reg>making</reg>
+               </choice> known to me your wish - But my name<lb/>
                I cannot put down to this subscription - I do<lb/>
                not approve of the thing <hi rend="underline">as far as I know</hi> - &amp; I<lb/>
-               do not know enough <add>to decide</add> <del>to</del> I think with you that<lb/>
-               the <title ref= "./Workography.xml#Quart1">Quarterly <choice><orig>Rev.</orig><reg>Review</reg></choice></title> has been very intemperate &amp;<lb/>
+               do not know enough <add>to decide</add>
+               <del>to</del> I think with you that<lb/>
+               the <title ref="./Workography.xml#Quart1">Quarterly <choice>
+                     <orig>Rev.</orig>
+                     <reg>Review</reg>
+                  </choice>
+               </title> has been very intemperate &amp;<lb/>
                shews a dogmatic unchristian spirit - and I<lb/>
                should be sorry that M<hi rend="superscript">r</hi>. <persName ref="./Personography.xml#BellJ1">Bellamy</persName> were put down<lb/>
                by such unfair means - But as <persName ref="./Personography.xml#JohnS1">D<hi rend="superscript">r</hi>. J.</persName> said no<lb/>
                man can be written down in <placeName ref="./Placeography.xml#ENK">England</placeName> by any<lb/>
-               one <hi rend="underline">but himself</hi> - If M<hi rend="superscript">r</hi>. <persName ref="./Personography.xml#BellJ1">Bellamy</persName> be right <title ref= "./Workography.xml#HolyB1">his<lb/>
+               one <hi rend="underline">but himself</hi> - If M<hi rend="superscript">r</hi>. <persName ref="./Personography.xml#BellJ1">Bellamy</persName> be right <title ref="./Workography.xml#HolyB1">his<lb/>
                book</title> will sell without a subscription - if wrong<lb/>
                it will never sell with it - As far as I have been<lb/>
                informed the first assertion in M<hi rend="superscript">r</hi>. <persName ref="./Personography.xml#BellJ1">B</persName>'s prospectus<lb/>
                viz "that no translation from the Original Hebrew<lb/>
-               (bible) has been made since the 128<hi rend="superscript">h</hi>. year of Christ is false -<lb/></p>
-               <p>The Commissioners in the reign of <persName ref="./Personography.xml#James1">K <del></del> James</persName> com-<lb/>
+               (bible) has been made since the 128<hi rend="superscript">h</hi>. year of Christ is false -<lb/>
+            </p>
+            <p>The Commissioners in the reign of <persName ref="./Personography.xml#James1">K <del/> James</persName> com-<lb/>
                pared the then translation with the Hebrew rectifying<lb/>
                whatever they thought errors and retaining only the old<lb/>
                language where they thought it gave the correct sense -<lb/>
@@ -293,14 +310,14 @@
                cannot call this consecrating error - They might err &amp;<lb/>
                so may M<hi rend="superscript">r</hi>. <persName ref="./Personography.xml#BellJ1">Bellamy</persName> at this day - But they took nothing<lb/>
                for granted as far as their judgement went - As to the addi<lb/>
-
                <pb n="2" facs="Edgeworth_Huntington_HM28602_1825_05_xx_page02.jpg"/>
                
                tional means in the present times of understanding Hebrew<lb/>
                <del>in our days</del> whence do they come? - the new means<lb/>
                of improving in Greek are from the variety of new<lb/>
-               editions of classical books lexicons &amp;c -<lb/></p>
-               <p>M<hi rend="superscript">r</hi>. <persName ref="./Personography.xml#BellJ1">Bellamy</persName> touches most important points -<lb/>
+               editions of classical books lexicons &amp;c -<lb/>
+            </p>
+            <p>M<hi rend="superscript">r</hi>. <persName ref="./Personography.xml#BellJ1">Bellamy</persName> touches most important points -<lb/>
                - &amp; you will say is it not right to hear compare &amp;<lb/>
                judge? - Yes if I could judge or compare after I<lb/>
                have heard - But I have no means of doing so - It<lb/>
@@ -308,16 +325,28 @@
                as far as human judgment goes - <del>and</del> assertion<lb/>
                against assertion - all former scholars it appears<lb/>
                are against M<hi rend="superscript">r</hi>. <persName ref="./Personography.xml#BellJ1">Bellamy</persName> - &amp; who are to be his judges<lb/>
-               now? - Not I - that is all of which I am clear -<lb/></p>
-               <p>But setting aside all these considerations<lb/>
+               now? - Not I - that is all of which I am clear -<lb/>
+            </p>
+            <p>But setting aside all these considerations<lb/>
                even supposing that I were convinced that I had<lb/>
-               a probability of <add><persName ref="./Personography.xml#DarwC1">Darwins</persName></add> important advantage from the<lb/>
-               book I would not publish my name as a <choice><orig>sub-<lb/>
-                  scriber</orig><reg>subscriber</reg></choice> - for this reason - It has been, ever since<lb/>
-               we became authors, <persName ref="./Personography.xml#EdgeR1">my father</persName>'s declared <choice><orig>princi<lb/>
-                  ple</orig><reg>principle</reg></choice> and mine not to take any part in any<lb/>
-               religious controversy - not in any way to <choice><orig>med-<lb/>
-                  dle</orig><reg>meddle</reg></choice> with the subject <add>of religion</add> - This was done with my<lb/>
+               a probability of <add>
+                  <persName ref="./Personography.xml#DarwC1">Darwins</persName>
+               </add> important advantage from the<lb/>
+               book I would not publish my name as a <choice>
+                  <orig>sub-<lb/>
+                  scriber</orig>
+                  <reg>subscriber</reg>
+               </choice> - for this reason - It has been, ever since<lb/>
+               we became authors, <persName ref="./Personography.xml#EdgeR1">my father</persName>'s declared <choice>
+                  <orig>princi<lb/>
+                  ple</orig>
+                  <reg>principle</reg>
+               </choice> and mine not to take any part in any<lb/>
+               religious controversy - not in any way to <choice>
+                  <orig>med-<lb/>
+                  dle</orig>
+                  <reg>meddle</reg>
+               </choice> with the subject <add>of religion</add> - This was done with my<lb/>
                own will &amp; from my own belief that it was<lb/>
                right during the many years when I wrote<lb/>
                with <persName ref="./Personography.xml#EdgeR1">my father</persName> - No change has taken place<lb/>
@@ -325,16 +354,22 @@
                practice, now that he is no more would be<lb/>
                most base - It would leave the false inference<lb/>
                open that I acted under influence and that<lb/>
-               now that influence <add>has</add> ceased my conduct changes<lb/></p>
-               <p>- Supposing that my opinions had changed<lb/>
+               now that influence <add>has</add> ceased my conduct changes<lb/>
+            </p>
+            <p>- Supposing that my opinions had changed<lb/>
                I would not do this - No mortal has a right to<lb/>
                ask what they are - that is an affair between me<lb/>
                &amp; my God - But no <del>worldly</del> motive could induce<lb/>
-               me to bend to the side on which I <unclear>see</unclear> my <choice><orig>world-<lb/>
-                  ly</orig><reg>worldly</reg></choice> interest &amp; to which my conscience and<lb/>
-               understanding do not justify me in bending<lb/></p>
-               <p>I need not say my dear friend that all this<lb/>
-               is for you alone - <note>Maria E May 1825</note><lb/>
+               me to bend to the side on which I <unclear>see</unclear> my <choice>
+                  <orig>world-<lb/>
+                  ly</orig>
+                  <reg>worldly</reg>
+               </choice> interest &amp; to which my conscience and<lb/>
+               understanding do not justify me in bending<lb/>
+            </p>
+            <p>I need not say my dear friend that all this<lb/>
+               is for you alone - <note>Maria E May 1825</note>
+               <lb/>
             </p>
          </div>
       </body>

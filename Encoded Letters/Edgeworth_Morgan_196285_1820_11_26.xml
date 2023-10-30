@@ -8,7 +8,7 @@
          <titleStmt>
             <title>Letter from Maria Edgeworth to M. Buchon, November 26th, 1820</title>
             <author>Maria Edgeworth</author>
-               <editor ref="Id_who"> Jessica Richards </editor>
+            <editor ref="Id_who"> Jessica Richards </editor>
             <sponsor>
                <orgName>Maria Edgeworth Letters Project</orgName>
             </sponsor>
@@ -45,7 +45,7 @@
                <licence>Distributed under a Creative Commons Attribution-ShareAlike 3.0 Unported
                   License</licence>
             </availability>
-            <idno>Edgeworth_Morgan_196285_1820_11_26</idno> 
+            <idno>Edgeworth_Morgan_196285_1820_11_26</idno>
          </publicationStmt>
          <seriesStmt>
             <title>Maria Edgeworth Letters Project</title>
@@ -57,17 +57,16 @@
                   <collection><!-- Enter specific archival collection if applicable--></collection>
                   <idno><!--Consult library or WorldCat for this info--></idno>
                </msIdentifier>
-               
                <!-- FROM LAURA: it's here (below) in the head that I added the full information about the author,
                   and you could add full information about the addressee as well. -->
                <head>Letter from 
                      <persName xml:id="EdgeM1" from="1768" to="1849">
-                        <forename>Maria</forename>
-                        <surname>Edgeworth</surname>
-                        <date>1768-1849</date>
-                        <idno type="VIAF">71477273</idno>
-                        <idno type="SNAC">62567029</idno>
-                     </persName>
+                     <forename>Maria</forename>
+                     <surname>Edgeworth</surname>
+                     <date>1768-1849</date>
+                     <idno type="VIAF">71477273</idno>
+                     <idno type="SNAC">62567029</idno>
+                  </persName>
                   to <persName ref="./Personography.xml#BuchJ1">Buchon, J. A. C. (Jean Alexandre C.)</persName>, <placeName ref="./Placeography.xml#4-Rue-Hautefeuille_FR">4 Rue Hautefeuille, Paris, France</placeName>, 
                   <date when="1820-11-26">November 26, 1820</date>
                </head>
@@ -75,10 +74,8 @@
                   <!-- optional physical description of the letter goes here: paper size and condition, seal, postmarks, etc.-->
                </physDesc>
             </msDesc>
-            
             <!-- FROM LAURA: where to put the following information in <bibl> is still a question: 
                ask TEI List whether it should be in the sourceDesc or elsewhere? -->
-            
             <bibl>In addition to our edited version, this letter was previously published in
                <!--complete bibiographical info if letter was published in a book here - if not delete-->
             </bibl>
@@ -213,39 +210,45 @@
             <pb n="1" facs="Edgeworth_Morgan_196285_1820_11_26_page01.jpg"/>
             <opener>
                <dateline>
-                  <placeName ref="./Placeography.xml#Hotel-Vauban_FR">Hotel Vauban</placeName><lb/>
+                  <placeName ref="./Placeography.xml#Hotel-Vauban_FR">Hotel Vauban</placeName>
+                  <lb/>
                   366 Rue S<hi rend="superscript">t</hi>. Honoré<lb/>
-                  <date when="1820-11-26"/>Nov.26,1820. </dateline><lb/>
+                  <date when="1820-11-26"/>Nov.26,1820. </dateline>
+               <lb/>
             </opener>
             <p>You asked me to send a<lb/>
                letter for you to M<hi rend="superscript">r</hi>. <persName ref="./Personography.xml#StewD1">Dugald<lb/>
                Stewart</persName> and I think you<lb/>
-               said a copy of your <choice><orig>trans<lb/>
-               -lation</orig><reg>translation</reg></choice>of his play, you<lb/>
+               said a copy of your <choice>
+                  <orig>trans<lb/>
+               -lation</orig>
+                  <reg>translation</reg>
+               </choice>of his play, you<lb/>
                must send <add>or bring</add> it to me on<lb/>
                one of three succeeding<lb/>
                days - namely, Monday<lb/>
                Tuesday &amp; Wednesday for<lb/>
-
                <pb n="2" facs="Edgeworth_Morgan_196285_1820_11_26_page02.jpg"/>
                
                I go on Thursday - Now<lb/>
                I am never at home past<lb/>
-               eleven o'clock -<lb/></p>
-               <closer>
-               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName><lb/>
+               eleven o'clock -<lb/>
+            </p>
+            <closer>
+               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
+               <lb/>
                Sunday<lb/>
-                  
-                  <pb n="3" facs="Edgeworth_Morgan_196285_1820_11_26_page03.jpg"/>
-                  
-                  <pb n="4" facs="Edgeworth_Morgan_196285_1820_11_26_page04.jpg"/>
+               <pb n="3" facs="Edgeworth_Morgan_196285_1820_11_26_page03.jpg"/>
+               <pb n="4" facs="Edgeworth_Morgan_196285_1820_11_26_page04.jpg"/>
                <address>
                   <addrLine>Monsieur</addrLine>
-                  <addrLine>Mons<hi rend="superscript">r</hi>. <persName ref="./Personography.xml#BuchJ1">Buchon</persName></addrLine>
+                  <addrLine>Mons<hi rend="superscript">r</hi>. <persName ref="./Personography.xml#BuchJ1">Buchon</persName>
+                  </addrLine>
                   <addrLine>4 Rue Hautefeuille</addrLine>
                </address>
-                  <note>MA 14215</note><lb/>
-               </closer>
+               <note>MA 14215</note>
+               <lb/>
+            </closer>
          </div>
       </body>
       <back> </back>

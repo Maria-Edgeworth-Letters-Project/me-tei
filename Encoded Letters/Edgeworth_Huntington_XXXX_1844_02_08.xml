@@ -38,8 +38,6 @@
                </resp>
             </respStmt>
          </editionStmt>
-         
-         
          <publicationStmt>
             <authority>Maria Edgeworth Letters Project</authority>
             <date>2023</date>
@@ -50,8 +48,7 @@
                <licence>Distributed under a Creative Commons Attribution-ShareAlike 3.0 Unported
                   License</licence>
             </availability>
-            
-            <idno>Edgeworth_Huntington_XXXX_1844_02_08</idno> 
+            <idno>Edgeworth_Huntington_XXXX_1844_02_08</idno>
          </publicationStmt>
          <seriesStmt>
             <title>Maria Edgeworth Letters Project</title>
@@ -66,7 +63,6 @@
                   <idno/>
                   <!--Consult library or WorldCat for this info-->
                </msIdentifier>
-               
                <head>Letter from 
                   <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
                   to <persName ref="./Personography.xml#BootJ1">Jane Noble Booth</persName>
@@ -78,7 +74,6 @@
             <bibl>In addition to our edited version, this letter was previously published in
                <!--complete bibiographical info if letter was published in a book here-->
             </bibl>
-            
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
@@ -91,7 +86,6 @@
                word is split at the end of a line and the beginning of the next in a manuscript. The
                long s and ligatured forms are silently emended.</p>
          </editorialDecl>
-         
          <classDecl>
             <taxonomy xml:id="relators">
                <bibl>Marc Relators</bibl>
@@ -208,10 +202,14 @@
             <taxonomy xml:id="places">
                <bibl>Places</bibl>
                <category>
-                  <catDesc xml:id="EdgeworthsTown">Edgeworths' Town<idno type="getty">tgn/1042937</idno></catDesc>
-                  <catDesc xml:id="Peterborough">Peterborough, UK<idno type="getty">tgn/7026520</idno></catDesc>
-                  <catDesc xml:id="CranfordI">Cranford, Ireland<idno type="getty">tgn/7901042</idno></catDesc>
-                  <catDesc xml:id="Kettering">Kettering, UK<idno type="getty">tgn/7010904</idno></catDesc>
+                  <catDesc xml:id="EdgeworthsTown">Edgeworths' Town<idno type="getty">tgn/1042937</idno>
+                  </catDesc>
+                  <catDesc xml:id="Peterborough">Peterborough, UK<idno type="getty">tgn/7026520</idno>
+                  </catDesc>
+                  <catDesc xml:id="CranfordI">Cranford, Ireland<idno type="getty">tgn/7901042</idno>
+                  </catDesc>
+                  <catDesc xml:id="Kettering">Kettering, UK<idno type="getty">tgn/7010904</idno>
+                  </catDesc>
                </category>
             </taxonomy>
             <taxonomy xml:id="period">
@@ -221,7 +219,6 @@
                </category>
             </taxonomy>
          </classDecl>
-         
       </encodingDesc>
       <profileDesc>
          <correspDesc>
@@ -232,7 +229,6 @@
                <persName ref="./Personography.xml#BootJ1">Jane Noble Booth</persName>
             </correspAction>
          </correspDesc>
-         
          <textClass>
             <keywords scheme="">
                <list type="simple">
@@ -254,36 +250,51 @@
       <body>
          <div type="letter">
             <pb n="1" facs="Edgeworth_Huntington_XXXX_1844_02_08_page01.jpg"/>
-
-            <p><persName ref="./Personography.xml#EdgeM1">Miss Edgeworth</persName>s <choice><orig>comp<hi rend="superscript">ts.</hi></orig><reg>compliments</reg></choice><lb/>
-               and thanks to M<hi rend="superscript">rs</hi>. <persName ref="./Personography.xml#BootJ1">Booth</persName><lb/>
+            <p>
+               <persName ref="./Personography.xml#EdgeM1">Miss Edgeworth</persName>s <choice>
+                  <orig>comp<hi rend="superscript">ts.</hi>
+                  </orig>
+                  <reg>compliments</reg>
+               </choice>
+               <lb/>
+               and thanks to M<hi rend="superscript">rs</hi>. <persName ref="./Personography.xml#BootJ1">Booth</persName>
+               <lb/>
                - She has forwarded the<lb/>
                the notes to her nephew <persName ref="./Personography.xml#FoxW1">Walter<lb/>
-               Fox</persName> which M<hi rend="superscript">rs</hi>. <persName ref="./Personography.xml#BootJ1">Booth</persName><lb/>
+               Fox</persName> which M<hi rend="superscript">rs</hi>. <persName ref="./Personography.xml#BootJ1">Booth</persName>
+               <lb/>
                has been so good to enclose<lb/>
                to her - and she has no<lb/>
                doubt that they will prove<lb/>
                very useful in saving him<lb/>
-               from many of the <choice><orig>"disagree-<lb/>
-                  ablenesses"</orig><reg>disagreeableness</reg></choice> <del>of</del> &amp; difficulties of<lb/>
+               from many of the <choice>
+                  <orig>"disagree-<lb/>
+                  ablenesses"</orig>
+                  <reg>disagreeableness</reg>
+               </choice>
+               <del>of</del> &amp; difficulties of<lb/>
                a first entering a new school<lb/>
                and making acquaintance<lb/>
-
                <pb n="2" facs="Edgeworth_Huntington_XXXX_1844_02_08_page02.jpg"/>
                
                with new schoolfellows<lb/>
-               - She congratulates M<hi rend="superscript">rs</hi><lb/>
+               - She congratulates M<hi rend="superscript">rs</hi>
+               <lb/>
                <persName ref="./Personography.xml#BootJ1">Booth</persName> upon her sons<lb/>
-               having got over <unclear>these</unclear><lb/>
+               having got over <unclear>these</unclear>
+               <lb/>
                and feels sure that he<lb/>
                will be the more ready<lb/>
                to save <persName ref="./Personography.xml#FoxW1">Walter Fox</persName> from<lb/>
                them - so far as <hi rend="underline">may</hi> be -<lb/>
-               or <hi rend="underline">ought</hi> to be<lb/></p>
-            <dateline><placeName ref="./Placeography.xml#1-North-Audley-Street_ENK">1 North Audley St<hi rend="superscript">t</hi></placeName><lb/>
+               or <hi rend="underline">ought</hi> to be<lb/>
+            </p>
+            <dateline>
+               <placeName ref="./Placeography.xml#1-North-Audley-Street_ENK">1 North Audley St<hi rend="superscript">t</hi>
+               </placeName>
+               <lb/>
                Feb<hi rend="superscript">y</hi> 8<hi rend="superscript">h</hi> 1845<lb/>
-               </dateline>
-               
+            </dateline>
          </div>
       </body>
       <back> </back>

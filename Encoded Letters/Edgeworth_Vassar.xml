@@ -56,7 +56,7 @@
                <licence>Distributed under a Creative Commons Attribution-ShareAlike 3.0 Unported
                   License</licence>
             </availability>
-            <idno><!--Change to match the file name and current naming standards, i.e. "Edgeworth_Beinecke_330_1817_01_24" if file name is "Edgeworth_Beinecke_330_1817_01_24.xml"--></idno> 
+            <idno><!--Change to match the file name and current naming standards, i.e. "Edgeworth_Beinecke_330_1817_01_24" if file name is "Edgeworth_Beinecke_330_1817_01_24.xml"--></idno>
          </publicationStmt>
          <seriesStmt>
             <title>Maria Edgeworth Letters Project</title>
@@ -72,12 +72,12 @@
                </msIdentifier>
                <head>Letter from 
                      <persName xml:id="EdgeM1" from="1768" to="1849">
-                        <forename>Maria</forename>
-                        <surname>Edgeworth</surname>
-                        <date>1768-1849</date>
-                        <idno type="VIAF">71477273</idno>
-                        <idno type="SNAC">62567029</idno>
-                     </persName>
+                     <forename>Maria</forename>
+                     <surname>Edgeworth</surname>
+                     <date>1768-1849</date>
+                     <idno type="VIAF">71477273</idno>
+                     <idno type="SNAC">62567029</idno>
+                  </persName>
                    to Unknown,
                   <placeName ref="./Placeography.xml#Dublin_IE">Dublin</placeName>,
                   <date when="1836">1836 (appears in library note)</date>
@@ -86,7 +86,6 @@
                   <!-- optional physical description of the letter goes here: paper size and condition, seal, postmarks, etc.-->
                </physDesc>
             </msDesc>
-
             <bibl>In addition to our edited version, this letter was previously published in
                <!--complete bibiographical info if letter was published in a book here - if not delete-->
             </bibl>
@@ -190,7 +189,8 @@
             <correspAction type="sent">
                <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
             </correspAction>
-            <correspAction type="received"><persName>Unknown</persName>
+            <correspAction type="received">
+               <persName>Unknown</persName>
             </correspAction>
          </correspDesc>
          <textClass>
@@ -216,70 +216,95 @@
             <pb n="1" facs="Edgeworth_Vassar_page01.jpg"/>
             <p>
                distinguishing between shades of recollection &amp;<lb/>
-               starts of invention - And in <del>the </del> <choice><orig>conversa<lb/>
-                  tion</orig><reg>conversation</reg></choice> how much more difficult / Impossible<lb/>
-               in the flow of soul! - as well <del>expect the</del> <add>call the tide</add><lb/>
-               <del>tid</del> <del>tream</del> in full <del>motion</del> flow, to account<lb/>
+               starts of invention - And in <del>the </del>
+               <choice>
+                  <orig>conversa<lb/>
+                  tion</orig>
+                  <reg>conversation</reg>
+               </choice> how much more difficult / Impossible<lb/>
+               in the flow of soul! - as well <del>expect the</del>
+               <add>call the tide</add>
+               <lb/>
+               <del>tid</del>
+               <del>tream</del> in full <del>motion</del> flow, to account<lb/>
                for every grain of gold dust which it<lb/>
                carries along with it or reclaim<lb/>
                the weeds which it bears away from<lb/>
-               the banks, on the one side or the other"<lb/></p>
-               <p><persName ref="./Personography.xml#SneyM1">Aunt Mary</persName> is wonderfully well - I am<lb/>
+               the banks, on the one side or the other"<lb/>
+            </p>
+            <p>
+               <persName ref="./Personography.xml#SneyM1">Aunt Mary</persName> is wonderfully well - I am<lb/>
                   sorry <persName ref="./Personography.xml#EdgeF3">Fanny</persName> had not the pleasure of seeing &amp; you the<lb/>
                pleasure of seeing her - Sincerely kind remembrances<lb/>
-                  To <persName ref="./Personography.xml#EdgeX2">Mrs Edgeworth</persName> &amp; Love to <persName ref="./Personography.xml#XxxxC1">Cecelia</persName> &amp; Co -<lb/></p>
-               <closer>Yours affectionately<lb/>
-               Maria Edgeworth</closer><lb/>
-            <postscript><p><persName ref="./Personography.xml#FoxC3">C' Fox</persName> is gone to <placeName ref="./Placeography.xml#Dublin_IE">Dublin</placeName> this day &amp; is to<lb/>
-               C <del><persName ref="./Personography.xml#FoxC3">Fox</persName> gone to <placeName ref="./Placeography.xml#Armagh_IE">Armagh</placeName> - &amp;</del><lb/>
+                  To <persName ref="./Personography.xml#EdgeX2">Mrs Edgeworth</persName> &amp; Love to <persName ref="./Personography.xml#XxxxC1">Cecelia</persName> &amp; Co -<lb/>
+            </p>
+            <closer>Yours affectionately<lb/>
+               Maria Edgeworth</closer>
+            <lb/>
+            <postscript>
+               <p>
+                  <persName ref="./Personography.xml#FoxC3">C' Fox</persName> is gone to <placeName ref="./Placeography.xml#Dublin_IE">Dublin</placeName> this day &amp; is to<lb/>
+               C <del>
+                     <persName ref="./Personography.xml#FoxC3">Fox</persName> gone to <placeName ref="./Placeography.xml#Armagh_IE">Armagh</placeName> - &amp;</del>
+                  <lb/>
                go to <placeName ref="./Placeography.xml#Armagh_IE">Armagh</placeName> on Monday<lb/>
-               &amp; <unclear></unclear><persName ref="./Personography.xml#FoxB1">Barry</persName> will go to <placeName ref="./Placeography.xml#ENK">England</placeName> the 28th.</p><lb/>
-               <p>Scrap of <title ref="./Workography.xml#Helen1">Helen</title><lb/>
-                  <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName><lb/></p></postscript>
-
-               <pb n="2" facs="Edgeworth_Vassar_page02.jpg"/></div>
-            <div type="poem">
-               <head>To my Sibyl's Leases."</head>
-               <lg>
+               &amp; <unclear/>
+                  <persName ref="./Personography.xml#FoxB1">Barry</persName> will go to <placeName ref="./Placeography.xml#ENK">England</placeName> the 28th.</p>
+               <lb/>
+               <p>Scrap of <title ref="./Workography.xml#Helen1">Helen</title>
+                  <lb/>
+                  <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
+                  <lb/>
+               </p>
+            </postscript>
+            <pb n="2" facs="Edgeworth_Vassar_page02.jpg"/>
+         </div>
+         <div type="poem">
+            <head>To my Sibyl's Leases."</head>
+            <lg>
                <l>I've smiled upon thee o'er and o'er,</l>
-                  <l>I've wept when quite alone;</l>
-                  <l>Whilst Genius sparkled on my heart,</l>
-                  <l>Like stars from darkness thrown.</l>
-               </lg>
-               <lg><l>But every eye that o'er thee pass'd,</l>
+               <l>I've wept when quite alone;</l>
+               <l>Whilst Genius sparkled on my heart,</l>
+               <l>Like stars from darkness thrown.</l>
+            </lg>
+            <lg>
+               <l>But every eye that o'er thee pass'd,</l>
                <l>Thy sentient graces stole;</l>
                <l>I only loved thee whilst thou wert,</l>
-               <l>An unseen child of Soul.</l></lg>
-               
-               <lg><l>And now I've scatter'd to the winds,</l>
+               <l>An unseen child of Soul.</l>
+            </lg>
+            <lg>
+               <l>And now I've scatter'd to the winds,</l>
                <l>My smiles and tears for thee; -</l>
                <l>E'ere winds may beat thee where they list,</l>
-               <l>But not again to me.</l></lg>
-               
-               <lg><l>And tongues and pens may praise or blame,</l>
+               <l>But not again to me.</l>
+            </lg>
+            <lg>
+               <l>And tongues and pens may praise or blame,</l>
                <l>I'm heedless of their pow'rs;</l>
                <l>Desire thou art gone to dwell with them,</l>
-               <l>Adieu mine own wild - flow'rs!</l></lg>
-               <l>Elizabeth.-</l>
-               <l>[Mills aft Borron]</l>
-            </div>
-
-               <pb n="3" facs="Edgeworth_Vassar_page03.jpg"/>
-               
-               <note>All the writing on the<lb/>
+               <l>Adieu mine own wild - flow'rs!</l>
+            </lg>
+            <l>Elizabeth.-</l>
+            <l>[Mills aft Borron]</l>
+         </div>
+         <pb n="3" facs="Edgeworth_Vassar_page03.jpg"/>
+         <note>All the writing on the<lb/>
                other <unclear>side</unclear>is by<lb/>
-                  <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>-<lb/>
-                  <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName></note><lb/>
-
-               <pb n="4" facs="Edgeworth_Vassar_page04.jpg"/>
-               
+            <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>-<lb/>
+            <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
+         </note>
+         <lb/>
+         <pb n="4" facs="Edgeworth_Vassar_page04.jpg"/>
          <note>Rec<hi rend="superscript">d</hi>. of <persName ref="./Personography.xml#EdgeX1">Maj. Edgeworth</persName>,<lb/>
                   nephew of <persName ref="./Personography.xml#EdgeM1">Maria</persName> - in<lb/>
             1836 - <placeName ref="./Placeography.xml#Dublin_IE">Dublin</placeName> - &amp;<lb/>
                to Mrs Greene<lb/>
                given to Mrs Greene -<lb/>
                - 1844 -<lb/>
-               <unclear>N. Capen</unclear></note><lb/>
+            <unclear>N. Capen</unclear>
+         </note>
+         <lb/>
       </body>
       <back> </back>
    </text>

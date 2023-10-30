@@ -37,7 +37,7 @@
                <licence>Distributed under a Creative Commons Attribution-ShareAlike 3.0 Unported
                   License</licence>
             </availability>
-            <idno>Edgeworth_Princeton_1844-02</idno> 
+            <idno>Edgeworth_Princeton_1844-02</idno>
          </publicationStmt>
          <seriesStmt>
             <title>Maria Edgeworth Letters Project</title>
@@ -51,17 +51,17 @@
                </msIdentifier>
                <head>Letter from 
                   <persName ref="./Personography.xml#EdgeM1">
-                        <forename>Maria</forename>
-                        <surname>Edgeworth</surname>
-                     </persName>
+                     <forename>Maria</forename>
+                     <surname>Edgeworth</surname>
+                  </persName>
                   to <persName ref="./Personography.xml#BentR1">
-                        <forename>Richard</forename>
-                        <surname>Bentley</surname>
-                     </persName>, <placeName><!--Location where letter was sent--></placeName>, 
+                     <forename>Richard</forename>
+                     <surname>Bentley</surname>
+                  </persName>, <placeName><!--Location where letter was sent--></placeName>, 
                   <date when="1844-02-22">February 22, 1844</date>
                </head>
                <physDesc>
-                  <p>Outline of paper watermark seen in top-left page corner.</p> 
+                  <p>Outline of paper watermark seen in top-left page corner.</p>
                </physDesc>
             </msDesc>
          </sourceDesc>
@@ -102,7 +102,8 @@
             <pb n="1" facs="Edgeworth_Princeton_1844-02_page01.jpg"/>
             <opener>
                <dateline>
-                  <name type="place" ref="./Placeography.xml#1-North-Audley-Street_ENK">1 North Audley S<hi rend="superscript">t</hi></name>
+                  <name type="place" ref="./Placeography.xml#1-North-Audley-Street_ENK">1 North Audley S<hi rend="superscript">t</hi>
+                  </name>
                   <date when="1844-02-22"/>Thursday Feb 22, 44.
                </dateline>
                <salute>
@@ -113,31 +114,44 @@
             </opener>
             <p>I have this day recd a letter<lb/>
                from <persName ref="./Personography.xml#NortA1">Professor Norton</persName> of<lb/>
-               <placeName ref="./Placeography.xml#Cambridge_MA_US">Cambridge America</placeName><lb/>
+               <placeName ref="./Placeography.xml#Cambridge_MA_US">Cambridge America</placeName>
+               <lb/>
                informing me that he has<lb/>
                sent a book to your care<lb/>
-               for me -- A work on <title ref="./Workography.xml#Trans1">The Gospels</title><lb/>
+               for me -- A work on <title ref="./Workography.xml#Trans1">The Gospels</title>
+               <lb/>
                I beg you will have the<lb/>
                goodness, whenever you have<lb/>
                occasion to send to this<lb/>
                part of the Town, to forward<lb/>
-               this book to your humble <choice><orig>Serv<hi rend="superscript">t</hi></orig><reg>Servant</reg></choice><lb/>
+               this book to your humble <choice>
+                  <orig>Serv<hi rend="superscript">t</hi>
+                  </orig>
+                  <reg>Servant</reg>
+               </choice>
+               <lb/>
             </p>
             <closer>
-               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName><lb/>
-               Directed for <persName ref="./Personography.xml#EdgeM1">Miss Edgeworth</persName><lb/>
-               at <persName ref="./Personography.xml#WilsL1">L. P. Wilson</persName> <unclear>E</unclear><lb/>
-               <placeName ref="./Placeography.xml#1-North-Audley-Street_ENK">1 North Audley St. Grovnor Square</placeName><lb/>
-               <unclear>h. h</unclear><lb/>
+               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
+               <lb/>
+               Directed for <persName ref="./Personography.xml#EdgeM1">Miss Edgeworth</persName>
+               <lb/>
+               at <persName ref="./Personography.xml#WilsL1">L. P. Wilson</persName>
+               <unclear>E</unclear>
+               <lb/>
+               <placeName ref="./Placeography.xml#1-North-Audley-Street_ENK">1 North Audley St. Grovnor Square</placeName>
+               <lb/>
+               <unclear>h. h</unclear>
+               <lb/>
                <!--include linebreaks, if used. example: <closer> Yours<lb/> Very sincerely<lb/> -->
             </closer>
             <postscript>
-               <p></p>
+               <p/>
             </postscript>
             <closer><!--Use the <closer> element again to hold Address Leaf information.-->
                <address>
                   <!--Include any text written on the address leaf; use a separate "addrLine" for each line and indicate line breaks. -->
-                  <addrLine></addrLine>
+                  <addrLine/>
                </address>
             </closer>
          </div>

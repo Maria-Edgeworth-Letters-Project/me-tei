@@ -11,7 +11,7 @@
             <editor ref="Id_who">Jessica Richard
                <!--Editor on the Maria Edgeworth Letters Project overseeing the coding of this particular letter: FirstName LastName -->
             </editor>
-           <editor ref="Id_who">Robin Runia
+            <editor ref="Id_who">Robin Runia
            </editor>
             <sponsor>
                <orgName>Maria Edgeworth Letters Project</orgName>
@@ -52,7 +52,7 @@
                <licence>Distributed under a Creative Commons Attribution-ShareAlike 3.0 Unported
                   License</licence>
             </availability>
-            <idno>Edgeworth_Morgan_196279_1837_11_10</idno> 
+            <idno>Edgeworth_Morgan_196279_1837_11_10</idno>
          </publicationStmt>
          <seriesStmt>
             <title>Maria Edgeworth Letters Project</title>
@@ -65,17 +65,16 @@
                   <collection><!-- Enter specific archival collection if applicable--></collection>
                   <idno><!--Consult library or WorldCat for this info--></idno>
                </msIdentifier>
-               
                <!-- FROM LAURA: it's here (below) in the head that I added the full information about the author,
                   and you could add full information about the addressee as well. -->
                <head>Letter from 
                      <persName xml:id="EdgeM1" from="1768" to="1849">
-                        <forename>Maria</forename>
-                        <surname>Edgeworth</surname>
-                        <date>1768-1849</date>
-                        <idno type="VIAF">71477273</idno>
-                        <idno type="SNAC">62567029</idno>
-                     </persName>
+                     <forename>Maria</forename>
+                     <surname>Edgeworth</surname>
+                     <date>1768-1849</date>
+                     <idno type="VIAF">71477273</idno>
+                     <idno type="SNAC">62567029</idno>
+                  </persName>
                   to <persName ref="./Personography.xml#BentR1">Richard Bentley</persName>, <placeName ref="./Placeography.xml#New-Burlington-Street_ENK">New Burlington Street [London]</placeName>, 
                   <date when="1837-11-10">Nov<hi rend="superscript">r</hi> 10<hi rend="superscript">h</hi> 1837 </date>
                </head>
@@ -83,10 +82,8 @@
                   <!-- optional physical description of the letter goes here: paper size and condition, seal, postmarks, etc.-->
                </physDesc>
             </msDesc>
-            
             <!-- FROM LAURA: where to put the following information in <bibl> is still a question: 
                ask TEI List whether it should be in the sourceDesc or elsewhere? -->
-            
             <bibl>In addition to our edited version, this letter was previously published in
                <!--complete bibiographical info if letter was published in a book here - if not delete-->
             </bibl>
@@ -222,40 +219,53 @@
             <!--filenames for photos associated with this letter. Example: <pb n="1" facs="image1.jpg image2.jpg image3.jpg"/> -->
             <opener>
                <dateline>
-                  <placeName ref="./Placeography.xml#Edgeworthstown_IE">Edgeworths Town</placeName><lb/>
-                  <date when="1837-11-10"/>Nov<hi rend="superscript">r</hi> 10<hi rend="superscript">h</hi> 1837 </dateline><lb/>
+                  <placeName ref="./Placeography.xml#Edgeworthstown_IE">Edgeworths Town</placeName>
+                  <lb/>
+                  <date when="1837-11-10"/>Nov<hi rend="superscript">r</hi> 10<hi rend="superscript">h</hi> 1837 </dateline>
+               <lb/>
                <salute>
                   <persName ref="./Personography.xml#BentR1">Sir</persName>
                </salute>
             </opener>
             <p>I am much obliged by your<lb/>
                present of the  New Edition<lb/>
-               of <title ref="./Workography.xml#Lette2"><persName ref="./Personorgraphy.xml#MontM1">Lady Mary W. Montagu</persName>s<lb/>
+               of <title ref="./Workography.xml#Lette2">
+                  <persName ref="./Personorgraphy.xml#MontM1">Lady Mary W. Montagu</persName>s<lb/>
                   works</title>. - The biographical<lb/>
-               <del>notice</del> <add>anecdotes</add> prefixed by <persName ref="./Personography.xml#StuaL1">Lady Louisa<lb/>
+               <del>notice</del>
+               <add>anecdotes</add> prefixed by <persName ref="./Personography.xml#StuaL1">Lady Louisa<lb/>
                   Stuart</persName> is remarkably well<lb/>
                written interesting, and<lb/>
                entertaining. -<lb/>
                I have requested my<lb/>
                brother in law <persName ref="./Personorgraphy.xml#WilsL2"> M<hi rend="superscript">r</hi>. Lestock<lb/>
                   Wilson</persName> to answer you for<lb/>
-               me respecting the new <choice><orig>Ed<hi rend="superscript">n</hi></orig><reg>Edition</reg></choice><lb/>
+               me respecting the new <choice>
+                  <orig>Ed<hi rend="superscript">n</hi>
+                  </orig>
+                  <reg>Edition</reg>
+               </choice>
+               <lb/>
                of <title ref="./Workography.xml#Helen1">Helen</title> in the Standard Novels<lb/>
                which you propose. -<lb/>
             </p>
             <closer>
-               I am  <persName ref="./Personography.xml#BentR1">Sir</persName><lb/>
+               I am  <persName ref="./Personography.xml#BentR1">Sir</persName>
+               <lb/>
                Your obliged amp<lb/>
                humble servant<lb/>
                <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
             </closer>
-            
             <pb n="2" facs="Edgeworth_Morgan_196279_1837_11_10_page02.jpg"/>
-            
             <closer>
                <address>
-                  <addrLine/><persName ref="./Personography.xml#BentR1">Richard Bentley Esq<hi rend="superscript">r</hi></persName> <lb/>
-                     <addrLine/><placeName ref="./Placeography.xml#New-Burlington-Street_XX">New Burlington Street</placeName><lb/>
+                  <addrLine/>
+                  <persName ref="./Personography.xml#BentR1">Richard Bentley Esq<hi rend="superscript">r</hi>
+                  </persName>
+                  <lb/>
+                  <addrLine/>
+                  <placeName ref="./Placeography.xml#New-Burlington-Street_XX">New Burlington Street</placeName>
+                  <lb/>
                   <addrLine/>
                </address>
             </closer>

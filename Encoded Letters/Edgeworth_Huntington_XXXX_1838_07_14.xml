@@ -5,27 +5,27 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
-            <titleStmt>
-               <title>Letter from Maria Edgeworth to Mr. and Mrs. Thomas, July 14, 1838</title>
-               <author>Maria Edgeworth</author>
-               <editor ref="Id_who">
+         <titleStmt>
+            <title>Letter from Maria Edgeworth to Mr. and Mrs. Thomas, July 14, 1838</title>
+            <author>Maria Edgeworth</author>
+            <editor ref="Id_who">
                   Jamie Kramer
                </editor>
-               <sponsor>
-                  <orgName>Maria Edgeworth Letters Project</orgName>
-               </sponsor>
-               <sponsor>Wake Forest University, University of Tennessee, Xavier University, Texas
+            <sponsor>
+               <orgName>Maria Edgeworth Letters Project</orgName>
+            </sponsor>
+            <sponsor>Wake Forest University, University of Tennessee, Xavier University, Texas
                   A&amp;M University</sponsor>
-               <principal>Jessica Richard, Hilary Havens, Robin Runia, Susan Egenolf</principal>
-               <respStmt>
-                  <resp>Transcription and coding by</resp>
-                  <persName ref="Id_who">Jamie Kramer<!--FirstName LastName-->
+            <principal>Jessica Richard, Hilary Havens, Robin Runia, Susan Egenolf</principal>
+            <respStmt>
+               <resp>Transcription and coding by</resp>
+               <persName ref="Id_who">Jamie Kramer<!--FirstName LastName-->
                   </persName>
-                  <!-- List all transcribers or coders here, editors and students alike, <persName> by <persName>.-->
-                  <persName ref="Id_who"><!--FirstName LastName--></persName>
-                  <!-- If you're the last person interacting with the file, enter your name last on the list -->
-               </respStmt>
-            </titleStmt>
+               <!-- List all transcribers or coders here, editors and students alike, <persName> by <persName>.-->
+               <persName ref="Id_who"><!--FirstName LastName--></persName>
+               <!-- If you're the last person interacting with the file, enter your name last on the list -->
+            </respStmt>
+         </titleStmt>
          <editionStmt>
             <edition>First digital edition in TEI, date: <date when="2023-07-31">
                </date>
@@ -38,8 +38,6 @@
                </resp>
             </respStmt>
          </editionStmt>
-         
-         
          <publicationStmt>
             <authority>Maria Edgeworth Letters Project</authority>
             <date>2023</date>
@@ -50,8 +48,7 @@
                <licence>Distributed under a Creative Commons Attribution-ShareAlike 3.0 Unported
                   License</licence>
             </availability>
-            
-            <idno>Edgeworth_Huntington_XXXX_1838_07_14</idno> 
+            <idno>Edgeworth_Huntington_XXXX_1838_07_14</idno>
          </publicationStmt>
          <seriesStmt>
             <title>Maria Edgeworth Letters Project</title>
@@ -67,15 +64,14 @@
                   <idno/>
                   <!--Consult library or WorldCat for this info-->
                </msIdentifier>
-               
                <head>Letter from 
                      <persName xml:id="ME" from="1768" to="1849">
-                        <forename>Maria</forename>
-                        <surname>Edgworth</surname>
-                        <date>1768-1849</date>
-                        <idno type="VIAF">71477273</idno>
-                        <idno type="SNAC">62567029</idno>
-                     </persName>
+                     <forename>Maria</forename>
+                     <surname>Edgworth</surname>
+                     <date>1768-1849</date>
+                     <idno type="VIAF">71477273</idno>
+                     <idno type="SNAC">62567029</idno>
+                  </persName>
                   to <persName ref="./Personography.xml#HoarF1"> Fanny Robinson [Frances Dorothea (Robinson) Hoare]</persName>,
                   <placeName ref="./Placeography.xml#Edgeworthstown_IE">Edgeworthstown</placeName>
                   <date when="1838-07-14">July 14, 1838</date>
@@ -86,7 +82,6 @@
             <bibl>In addition to our edited version, this letter was previously published in
                <!--complete bibiographical info if letter was published in a book here-->
             </bibl>
-            
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
@@ -99,7 +94,6 @@
                word is split at the end of a line and the beginning of the next in a manuscript. The
                long s and ligatured forms are silently emended.</p>
          </editorialDecl>
-         
          <classDecl>
             <taxonomy xml:id="relators">
                <bibl>Marc Relators</bibl>
@@ -216,10 +210,14 @@
             <taxonomy xml:id="places">
                <bibl>Places</bibl>
                <category>
-                  <catDesc xml:id="EdgeworthsTown">Edgeworths' Town<idno type="getty">tgn/1042937</idno></catDesc>
-                  <catDesc xml:id="Peterborough">Peterborough, UK<idno type="getty">tgn/7026520</idno></catDesc>
-                  <catDesc xml:id="CranfordI">Cranford, Ireland<idno type="getty">tgn/7901042</idno></catDesc>
-                  <catDesc xml:id="Kettering">Kettering, UK<idno type="getty">tgn/7010904</idno></catDesc>
+                  <catDesc xml:id="EdgeworthsTown">Edgeworths' Town<idno type="getty">tgn/1042937</idno>
+                  </catDesc>
+                  <catDesc xml:id="Peterborough">Peterborough, UK<idno type="getty">tgn/7026520</idno>
+                  </catDesc>
+                  <catDesc xml:id="CranfordI">Cranford, Ireland<idno type="getty">tgn/7901042</idno>
+                  </catDesc>
+                  <catDesc xml:id="Kettering">Kettering, UK<idno type="getty">tgn/7010904</idno>
+                  </catDesc>
                </category>
             </taxonomy>
             <taxonomy xml:id="period">
@@ -229,7 +227,6 @@
                </category>
             </taxonomy>
          </classDecl>
-         
       </encodingDesc>
       <profileDesc>
          <correspDesc>
@@ -243,7 +240,6 @@
                <persName ref="./Personography.xml#ThomX2">Mrs. Thomas</persName>
             </correspAction>
          </correspDesc>
-         
          <textClass>
             <keywords scheme="">
                <list type="simple">
@@ -265,24 +261,32 @@
       <body>
          <div type="letter">
             <pb n="1" facs="Edgeworth_Huntington_XXXX_1838_07_14_page01.jpg"/>
-            <p><note>2/197</note>
+            <p>
+               <note>2/197</note>
                Miss <persName ref="./Personography.xml#EdgeM1">Edgeworth</persName>'s Compliments<lb/>
                to <persName ref="./Personography.xml#ThomX1">M<hi rend="superscript">r</hi>.</persName> and M<hi rend="superscript">rs</hi>. <persName ref="./Personography.xml#ThomX2">Thomas</persName> and<lb/>
                she returns them sincere<lb/>
                thanks for the <placeName ref="./Placeography.xml#JM">Jamaica</placeName> pepper<lb/>
                which they have been so good<lb/>
                to send her - She is obliged<lb/>
-               particularly by their <unclear>attention</unclear><lb/>
-               in thinking of what she <choice><orig>particu<lb/>
-                  -larly</orig><reg>particularly</reg></choice> likes - and she begs her<lb/>
+               particularly by their <unclear>attention</unclear>
+               <lb/>
+               in thinking of what she <choice>
+                  <orig>particu<lb/>
+                  -larly</orig>
+                  <reg>particularly</reg>
+               </choice> likes - and she begs her<lb/>
                thanks to M<hi rend="superscript">rs</hi>. <persName ref="./Personography.xml#ThomX2">Thomas</persName>'s brother<lb/>
                for having brought it over<lb/>
                for her<lb/>
             </p>
-             <closer> 
-                <dateline><placeName ref="./Placeography.xml#Edgeworthstown_IE">Edgeworthtown</placeName><lb/>
-                   <date when="1838-07-14"/>July 14<hi rend="superscript">h</hi>. 1838.<lb/></dateline>
-             </closer>
+            <closer>
+               <dateline>
+                  <placeName ref="./Placeography.xml#Edgeworthstown_IE">Edgeworthtown</placeName>
+                  <lb/>
+                  <date when="1838-07-14"/>July 14<hi rend="superscript">h</hi>. 1838.<lb/>
+               </dateline>
+            </closer>
          </div>
       </body>
       <back> </back>

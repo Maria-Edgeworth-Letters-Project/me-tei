@@ -52,7 +52,7 @@
                <licence>Distributed under a Creative Commons Attribution-ShareAlike 3.0 Unported
                   License</licence>
             </availability>
-            <idno>Edgeworth_Morgan_157571_1842_08_27</idno> 
+            <idno>Edgeworth_Morgan_157571_1842_08_27</idno>
          </publicationStmt>
          <seriesStmt>
             <title>Maria Edgeworth Letters Project</title>
@@ -64,17 +64,16 @@
                   <collection><!-- Enter specific archival collection if applicable--></collection>
                   <idno><!--Consult library or WorldCat for this info--></idno>
                </msIdentifier>
-               
                <!-- FROM LAURA: it's here (below) in the head that I added the full information about the author,
                   and you could add full information about the addressee as well. -->
                <head>Letter from 
                      <persName xml:id="EdgeM1" from="1768" to="1849">
-                        <forename>Maria</forename>
-                        <surname>Edgeworth</surname>
-                        <date>1768-1849</date>
-                        <idno type="VIAF">71477273</idno>
-                        <idno type="SNAC">62567029</idno>
-                     </persName>
+                     <forename>Maria</forename>
+                     <surname>Edgeworth</surname>
+                     <date>1768-1849</date>
+                     <idno type="VIAF">71477273</idno>
+                     <idno type="SNAC">62567029</idno>
+                  </persName>
                    to <persName>unknown</persName>, 
                   <date when="1842-08-27">Aug<hi rend="superscript">t</hi> 27<hi rend="superscript">th</hi>. 1842 </date>
                </head>
@@ -82,10 +81,8 @@
                   <!-- optional physical description of the letter goes here: paper size and condition, seal, postmarks, etc.-->
                </physDesc>
             </msDesc>
-            
             <!-- FROM LAURA: where to put the following information in <bibl> is still a question: 
                ask TEI List whether it should be in the sourceDesc or elsewhere? -->
-            
             <bibl>In addition to our edited version, this letter was previously published in
                <!--complete bibiographical info if letter was published in a book here - if not delete-->
             </bibl>
@@ -220,8 +217,10 @@
             <pb n="1" facs="Edgeworth_Morgan_157571_1842_08_27_page01.jpg"/>
             <opener>
                <dateline>
-                  <placeName ref="./Placeography.xml#Edgeworthstown_IE">Edgeworths Town</placeName><lb/>
-                  <date when="1842-08-27"/>Aug<hi rend="superscript">t</hi> 27<hi rend="superscript">th</hi>. 1842 <lb/></dateline>
+                  <placeName ref="./Placeography.xml#Edgeworthstown_IE">Edgeworths Town</placeName>
+                  <lb/>
+                  <date when="1842-08-27"/>Aug<hi rend="superscript">t</hi> 27<hi rend="superscript">th</hi>. 1842 <lb/>
+               </dateline>
                <salute>
                   Sir
                </salute>
@@ -230,18 +229,26 @@
                and air of frankness and<lb/>
                candor makes me wish<lb/>
                that it were in my power<lb/>
-               to assist you - </p><lb/>
-               
+               to assist you - </p>
+            <lb/>
             <p>  From my own funds<lb/>
                it is not in my power - But<lb/>
-               one of my brothers - <persName ref="./Personography.xml#PakeX3">Pakenham</persName><lb/>
-               who is grateful for your <choice><orig>mo-<lb/>
-                  thers</orig><reg>mothers</reg></choice> kindness to him when<lb/>
-               a boy, also to M<hi rend="superscript">r</hi>. <persName ref="./Personography.xml#HuntX1">Hunter</persName><lb/>
+               one of my brothers - <persName ref="./Personography.xml#PakeX3">Pakenham</persName>
+               <lb/>
+               who is grateful for your <choice>
+                  <orig>mo-<lb/>
+                  thers</orig>
+                  <reg>mothers</reg>
+               </choice> kindness to him when<lb/>
+               a boy, also to M<hi rend="superscript">r</hi>. <persName ref="./Personography.xml#HuntX1">Hunter</persName>
+               <lb/>
                could and would assist you<lb/>
                with the ten pounds you say<lb/>
-               would be so essentially <choice><orig>servi-<lb/>
-                  ceable</orig><reg>serviceable</reg></choice> to you, if <add>you</add> can comply<lb/>
+               would be so essentially <choice>
+                  <orig>servi-<lb/>
+                  ceable</orig>
+                  <reg>serviceable</reg>
+               </choice> to you, if <add>you</add> can comply<lb/>
                with the conditions <del>on</del> which<lb/>
                we require - If you will<lb/>
                allow me to mention the<lb/>
@@ -249,27 +256,38 @@
                if he <hi rend="underline">underwrites</hi> your letter<lb/>
                - It cannot but do you credit<lb/>
                that he should see that letter<lb/>
-               if the statements be <del><unclear></unclear></del><lb/>
-                  
-           
-           <pb n="2" facs="Edgeworth_Morgan_157571_1842_08_27_page02.jpg"/>
+               if the statements be <del>
+                  <unclear/>
+               </del>
+               <lb/>
+               <pb n="2" facs="Edgeworth_Morgan_157571_1842_08_27_page02.jpg"/>
                
                correct - And you will not<lb/>
-               I hope take it ill that <del><unclear></unclear></del><lb/>
+               I hope take it ill that <del>
+                  <unclear/>
+               </del>
+               <lb/>
                I who am as you observe<lb/>
                an absolute stranger to you<lb/>
-               should wish to refer as strang<unclear>ers</unclear><lb/>
+               should wish to refer as strang<unclear>ers</unclear>
+               <lb/>
                generally are desired to do<lb/>
-               upon such occasions for <choice><orig>fur-<lb/>
-                  ther</orig><reg>further</reg></choice> information to some<lb/>
+               upon such occasions for <choice>
+                  <orig>fur-<lb/>
+                  ther</orig>
+                  <reg>further</reg>
+               </choice> information to some<lb/>
                common friend - From<lb/>
                long knowledge of your<lb/>
                step father M<hi rend="superscript">r</hi>. <persName ref="./Personography.xml#HuntX1">Hunter</persName> I have<lb/>
-               perfect reliance upon his <choice><orig>can-<lb/>
-                  dor</orig><reg>candor</reg></choice> and his justice and upon<lb/>
+               perfect reliance upon his <choice>
+                  <orig>can-<lb/>
+                  dor</orig>
+                  <reg>candor</reg>
+               </choice> and his justice and upon<lb/>
                his friendly disposition towards<lb/>
-               all connected with him </p><lb/>
-              
+               all connected with him </p>
+            <lb/>
             <p> If you permit me so to<lb/>
                do I will enclose your letter<lb/>
                to Mr. <persName ref="./Personography.xml#HuntX1">Hunter</persName> and if he simply<lb/>
@@ -278,11 +296,13 @@
                discuss for so now in my hands<lb/>
                shall be in yours by return of<lb/>
                post -<lb/>
-               </p>
+            </p>
             <closer>
                I am Sir<lb/> 
-               Your obed<hi rend="superscript">t</hi> Serv<hi rend="superscript">t</hi><lb/> 
-               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName><lb/> 
+               Your obed<hi rend="superscript">t</hi> Serv<hi rend="superscript">t</hi>
+               <lb/>
+               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
+               <lb/>
             </closer>
          </div>
       </body>

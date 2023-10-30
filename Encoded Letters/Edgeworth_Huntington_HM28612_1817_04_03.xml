@@ -7,7 +7,9 @@
       <fileDesc>
          <titleStmt>
             <title>Letter from Richard Lovell Edgeworth to Sir Francis Beaufort, 4/3/1817</title>
-            <author><persName ref="./Personography.xml#EdgeR1">Richard Lovell Edgeworth</persName></author>
+            <author>
+               <persName ref="./Personography.xml#EdgeR1">Richard Lovell Edgeworth</persName>
+            </author>
             <editor ref="Id_who">
             Jamie Kramer
             </editor>
@@ -42,8 +44,6 @@
                </resp>
             </respStmt>
          </editionStmt>
-         
-         
          <publicationStmt>
             <authority>Maria Edgeworth Letters Project</authority>
             <date>2023</date>
@@ -54,8 +54,7 @@
                <licence>Distributed under a Creative Commons Attribution-ShareAlike 3.0 Unported
                   License</licence>
             </availability>
-            
-            <idno>Edgeworth_Huntington_HM28612_1817_04_03</idno> 
+            <idno>Edgeworth_Huntington_HM28612_1817_04_03</idno>
          </publicationStmt>
          <seriesStmt>
             <title>Maria Edgeworth Letters Project</title>
@@ -70,7 +69,6 @@
                   <idno/>
                   <!--Consult library or WorldCat for this info-->
                </msIdentifier>
-               
                <head>Letter from 
                   <persName ref="./Personography.xml#EdgeR1">Richard Lovell Edgeworth</persName>
                   to <persName ref="./Personography.xml#BeauF1">Sir Francis Beaufort</persName>,
@@ -82,7 +80,6 @@
             <bibl>In addition to our edited version, this letter was previously published in
                <!--complete bibiographical info if letter was published in a book here-->
             </bibl>
-            
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
@@ -95,7 +92,6 @@
                word is split at the end of a line and the beginning of the next in a manuscript. The
                long s and ligatured forms are silently emended.</p>
          </editorialDecl>
-         
          <classDecl>
             <taxonomy xml:id="relators">
                <bibl>Marc Relators</bibl>
@@ -212,10 +208,14 @@
             <taxonomy xml:id="places">
                <bibl>Places</bibl>
                <category>
-                  <catDesc xml:id="EdgeworthsTown">Edgeworths' Town<idno type="getty">tgn/1042937</idno></catDesc>
-                  <catDesc xml:id="Peterborough">Peterborough, UK<idno type="getty">tgn/7026520</idno></catDesc>
-                  <catDesc xml:id="CranfordI">Cranford, Ireland<idno type="getty">tgn/7901042</idno></catDesc>
-                  <catDesc xml:id="Kettering">Kettering, UK<idno type="getty">tgn/7010904</idno></catDesc>
+                  <catDesc xml:id="EdgeworthsTown">Edgeworths' Town<idno type="getty">tgn/1042937</idno>
+                  </catDesc>
+                  <catDesc xml:id="Peterborough">Peterborough, UK<idno type="getty">tgn/7026520</idno>
+                  </catDesc>
+                  <catDesc xml:id="CranfordI">Cranford, Ireland<idno type="getty">tgn/7901042</idno>
+                  </catDesc>
+                  <catDesc xml:id="Kettering">Kettering, UK<idno type="getty">tgn/7010904</idno>
+                  </catDesc>
                </category>
             </taxonomy>
             <taxonomy xml:id="period">
@@ -225,7 +225,6 @@
                </category>
             </taxonomy>
          </classDecl>
-         
       </encodingDesc>
       <profileDesc>
          <correspDesc>
@@ -236,7 +235,6 @@
                <persName ref="./Personography.xml#BeauF1">Sir Francis Beaufort</persName>
             </correspAction>
          </correspDesc>
-         
          <textClass>
             <keywords scheme="">
                <list type="simple">
@@ -258,35 +256,49 @@
       <body>
          <div type="letter">
             <pb n="1" facs="Edgeworth_Huntington_HM28612_1817_04_03_page01.jpg"/>
-            
-            <opener><salute>
+            <opener>
+               <salute>
                Sunday-
                My dear <persName ref="./Personography.xml#BeauF1">Capt<hi rend="superscript">n</hi>. B.</persName>-
-            </salute></opener>
+            </salute>
+            </opener>
             <p>
                   I had an excellent letter<lb/>
                from your brother <persName ref="./Personography.xml#BeauW1">William</persName>,<lb/>
-               which you will be sure, I <choice><orig>an-<lb/>
-                  swered</orig><reg>answered</reg></choice>, on the same day. -</p><lb/>
-            <p>I am glad, that <persName ref="./Personography.xml#BeauW1">D<hi rend="superscript">r</hi>. Beaufort</persName><lb/>
+               which you will be sure, I <choice>
+                  <orig>an-<lb/>
+                  swered</orig>
+                  <reg>answered</reg>
+               </choice>, on the same day. -</p>
+            <lb/>
+            <p>I am glad, that <persName ref="./Personography.xml#BeauW1">D<hi rend="superscript">r</hi>. Beaufort</persName>
+               <lb/>
                has written to the <persName ref="./Personography.xml#StuaW1">Primate</persName>-<lb/>
                for various reasons, which I<lb/>
-               will not detail. -</p><lb/>
+               will not detail. -</p>
+            <lb/>
             <p>The manuscript which we<lb/>
                sent by <persName ref="./Personography.xml#BlacX1">Major Blackhall</persName>-<lb/>
                has not yet been acknowledged<lb/>
-               by <persName ref="./Personography.xml#HuntX1">Hunter</persName>.- <persName ref="./Personography.xml#BlacX1">Major Blackhall</persName><lb/>
-
-                     <pb n="2" facs="Edgeworth_Huntington_HM28612_1817_04_03_page02.jpg"/>
+               by <persName ref="./Personography.xml#HuntX1">Hunter</persName>.- <persName ref="./Personography.xml#BlacX1">Major Blackhall</persName>
+               <lb/>
+               <pb n="2" facs="Edgeworth_Huntington_HM28612_1817_04_03_page02.jpg"/>
                      
-                     took it to <placeName ref="./Placeography.xml#Holyhead_WLK"><choice><orig>Hollyhead</orig><reg>Holyhead</reg></choice></placeName>, on the<lb/>
+                     took it to <placeName ref="./Placeography.xml#Holyhead_WLK">
+                  <choice>
+                     <orig>Hollyhead</orig>
+                     <reg>Holyhead</reg>
+                  </choice>
+               </placeName>, on the<lb/>
                20<hi rend="superscript">th</hi>. &amp; had it I suppose<lb/>
-               booked in the <placeName ref="./Placeography.xml#Holyhead_WLK">Holyhead</placeName> coach</p><lb/>
+               booked in the <placeName ref="./Placeography.xml#Holyhead_WLK">Holyhead</placeName> coach</p>
+            <lb/>
             <p>I request that you will have<lb/>
                the goodness to search in the<lb/>
                Office, for such an entry, &amp;<lb/>
                enquire as to the fate of the<lb/>
-               parcel. -</p><lb/>
+               parcel. -</p>
+            <lb/>
             <p>Perhaps tomorrow's post, may<lb/>
                set us at ease on the subject<lb/>
                For <persName ref="./Personography.xml#HuntX1">Hunter</persName> is a fellow who<lb/>
@@ -296,15 +308,20 @@
                <hi rend="underline">insense</hi> him with the idea<lb/>
                that we think him very<lb/>
                unpunctual - <lb/>
-
-                     <pb n="3" facs="Edgeworth_Huntington_HM28612_1817_04_03_page03.jpg"/>
+               <pb n="3" facs="Edgeworth_Huntington_HM28612_1817_04_03_page03.jpg"/>
                      
                      From <persName ref="./Personography.xml#EdgeW1">William</persName>'s experiments<lb/>
                on pensile bridges, I am inclined<lb/>
                to believe that it will be, the<lb/>
-               best plan, he can follow, at <placeName ref="./Placeography.xml#Longford_IE"><choice><orig>Long-<lb/>
-                  -ford</orig><reg>Longford</reg></choice></placeName> - But as I am always<lb/>
-               for proceeding par, <hi rend="underline">tatonnement</hi><lb/>
+               best plan, he can follow, at <placeName ref="./Placeography.xml#Longford_IE">
+                  <choice>
+                     <orig>Long-<lb/>
+                  -ford</orig>
+                     <reg>Longford</reg>
+                  </choice>
+               </placeName> - But as I am always<lb/>
+               for proceeding par, <hi rend="underline">tatonnement</hi>
+               <lb/>
                I am ready to assist him in<lb/>
                raising a bridge of 30 feet long,<lb/>
                upon the road under my wall &amp;<lb/>
@@ -315,24 +332,30 @@
                &amp;c - we will induce the Mail<lb/>
                Coach to drive frequently -<lb/>
                to accustom the horses &amp; the<lb/>
-               coachman to the novelty.-</p><lb/>
-            <p>When you get to <placeName ref="./Placeography.xml#London_ENK">London</placeName><lb/>
+               coachman to the novelty.-</p>
+            <lb/>
+            <p>When you get to <placeName ref="./Placeography.xml#London_ENK">London</placeName>
+               <lb/>
                I beg, you will try to get<lb/>
-
-                     <pb n="4" facs="Edgeworth_Huntington_HM28612_1817_04_03_page04.jpg"/>
-                     
-               <persName ref="./Personography.xml#EdgeR1">R.L.E.</persName> <date>April 3 1817</date><lb/>
+               <pb n="4" facs="Edgeworth_Huntington_HM28612_1817_04_03_page04.jpg"/>
+               <persName ref="./Personography.xml#EdgeR1">R.L.E.</persName>
+               <date>April 3 1817</date>
+               <lb/>
                either my round or my flat<lb/>
-               value, made water tight.-</p><lb/>
+               value, made water tight.-</p>
+            <lb/>
             <p>I long to see your book, or to speak<lb/>
                with greater propriety I long to hear<lb/>
                of it. - If it should succeed, in any<lb/>
                high degree, it will certainly be, the<lb/>
-               best patron, you ever had.-</p><lb/>
+               best patron, you ever had.-</p>
+            <lb/>
             <closer>
             Yours<lb/>
-               <persName ref="./Personography.xml#EdgeR1">R.L.E.</persName><lb/>
-               <dateline>April 3, 1817</dateline><lb/>
+               <persName ref="./Personography.xml#EdgeR1">R.L.E.</persName>
+               <lb/>
+               <dateline>April 3, 1817</dateline>
+               <lb/>
             </closer>
          </div>
       </body>

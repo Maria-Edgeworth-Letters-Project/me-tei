@@ -28,7 +28,7 @@
                </date>
             </edition>
             <respStmt>
-               <orgName ref= "http://id.loc.gov/authorities/names/n81029638">
+               <orgName ref="http://id.loc.gov/authorities/names/n81029638">
                   Brown University. Library
                </orgName>
                <resp> photos include: Edgeworth_Brown_25358_1824-03_page01.jpg,
@@ -42,7 +42,7 @@
             <authority>Maria Edgeworth Letters Project</authority>
             <date>2022</date>
             <availability>
-               <p>Reproduced by courtesy of the <orgName ref= "http://id.loc.gov/authorities/names/n81029638">
+               <p>Reproduced by courtesy of the <orgName ref="http://id.loc.gov/authorities/names/n81029638">
                   Brown University. Library
                </orgName>. 
                </p>
@@ -187,9 +187,11 @@
          <div type="letter">
             <pb n="1" facs="Edgeworth_Brown_25358_1824-03_page01.jpg"/>
             <opener>
-               <dateline> 
-                  <placeName ref="./Placeography.xml#Edgeworthstown_IE">Edgeworthstown</placeName><lb/>
-                  <date when="1824-03-04"/>March 4<hi rend="superscript">h</hi>. 1824</dateline><lb/>
+               <dateline>
+                  <placeName ref="./Placeography.xml#Edgeworthstown_IE">Edgeworthstown</placeName>
+                  <lb/>
+                  <date when="1824-03-04"/>March 4<hi rend="superscript">h</hi>. 1824</dateline>
+               <lb/>
             </opener>
             <p>You have obliged me much by the<lb/>
                present you have made me, Sir, of your<lb/>
@@ -197,15 +199,22 @@
                not contain so much positive novelty<lb/>
                for us as they do for the Americans<lb/>
                yet they will not be less interesting<lb/>
-               to the old than to the new World<lb/></p>
+               to the old than to the new World<lb/>
+            </p>
             <p>. The interest of curiosity may not be<lb/>
                so great but that of self love is still<lb/>
                greater. We are anxious to see how<lb/>
                European things and persons strike<lb/>
                Americans - It happens that you<lb/>
                have given accounts of persons and<lb/>
-               things in <placeName ref="./Placeography.xml#ENK">England</placeName>, <placeName ref="./Placeography.xml#STK">Scotland</placeName>, <placeName ref="./Placeography.xml#FR">France</placeName><lb/>
-               <placeName ref="./Placeography.xml#Geneva_SZ">Geneva</placeName>, and <placeName ref="./Placeography.xml#SZ"><choice><orig>Swisserland</orig><reg>Switzerland</reg></choice></placeName>, which my sisters<lb/>
+               things in <placeName ref="./Placeography.xml#ENK">England</placeName>, <placeName ref="./Placeography.xml#STK">Scotland</placeName>, <placeName ref="./Placeography.xml#FR">France</placeName>
+               <lb/>
+               <placeName ref="./Placeography.xml#Geneva_SZ">Geneva</placeName>, and <placeName ref="./Placeography.xml#SZ">
+                  <choice>
+                     <orig>Swisserland</orig>
+                     <reg>Switzerland</reg>
+                  </choice>
+               </placeName>, which my sisters<lb/>
                <add>&amp; I</add> have recently visited - And many of the<lb/>
                persons whom you mention are our<lb/>
                particular friends. To the justice and<lb/>
@@ -215,49 +224,85 @@
                infer<lb/>
                <pb n="2" facs="Edgeworth_Brown_25358_1824-03_page02.jpg"/>
             that all your representations of what<lb/>
-            we have not seen are equally accurate.<lb/></p>
+            we have not seen are equally accurate.<lb/>
+            </p>
             <p>Your account of the Manufactures<lb/>
                of the <unclear>Hield</unclear> for one instance, gives as<lb/>
-               much information as possible in a small<lb/><lb/>
+               much information as possible in a small<lb/>
+               <lb/>
                compass &amp; must therefore be valuable<lb/>
                to foreigners who are <add>most</add> curious to know<lb/>
                how the toys in the great Toy shop of<lb/>
                Europe are produced with such celerity<lb/>
                and perfection - I am sorry you did not see<lb/>
-               <placeName ref="./Placeography.xml#Birmingham_ENK">Birmingham</placeName> - and <persName ref="./Personography.xml#WattJ1"> <hi rend="underline">Watts</hi></persName> |-<lb/>
+               <placeName ref="./Placeography.xml#Birmingham_ENK">Birmingham</placeName> - and <persName ref="./Personography.xml#WattJ1">
+                  <hi rend="underline">Watts</hi>
+               </persName> |-<lb/>
                Your work has reached me but<lb/> 
-               a few days and I have not yet <choice><orig>finish<lb/>
-                  ed</orig><reg>finished</reg></choice> reading it; but as I have an <choice><orig>oppor-<lb/>
-                     -tunity</orig><reg>opportunity</reg></choice> of <del>writing</del> sending this letter<lb/>
-               by a person who is going to <placeName ref="./Placeography.xml#Philadelphia_PA_US"><choice><orig>Philadel-<lb/>
-                  -phia</orig></choice><reg>Philadelphia</reg></placeName> I cannot delay to offer you my<lb/>
+               a few days and I have not yet <choice>
+                  <orig>finish<lb/>
+                  ed</orig>
+                  <reg>finished</reg>
+               </choice> reading it; but as I have an <choice>
+                  <orig>oppor-<lb/>
+                     -tunity</orig>
+                  <reg>opportunity</reg>
+               </choice> of <del>writing</del> sending this letter<lb/>
+               by a person who is going to <placeName ref="./Placeography.xml#Philadelphia_PA_US">
+                  <choice>
+                     <orig>Philadel-<lb/>
+                  -phia</orig>
+                  </choice>
+                  <reg>Philadelphia</reg>
+               </placeName> I cannot delay to offer you my<lb/>
                acknowledgements though they must<lb/>
                be insufficient as I have not yet<lb/>
                seen the extent of my obligation<lb/>
                I have seen enough however to<lb/>
-               judge of the spirit of candor and <choice><orig>li-<lb/>
-                  berality</orig><reg>liberality</reg></choice> and the freedom from <choice><orig>na-<lb/>
+               judge of the spirit of candor and <choice>
+                  <orig>li-<lb/>
+                  berality</orig>
+                  <reg>liberality</reg>
+               </choice> and the freedom from <choice>
+                  <orig>na-<lb/>
                      <pb n="3" facs="Edgeworth_Brown_25358_1824-03_page03.jpg"/>
-                     tional</orig><reg>national</reg></choice> jealousy evinced in your work<lb/>
-               - I wish that this spirit which does<lb/><lb/>
-               so much honor to the character of <del>the</del><lb/>
+                     tional</orig>
+                  <reg>national</reg>
+               </choice> jealousy evinced in your work<lb/>
+               - I wish that this spirit which does<lb/>
+               <lb/>
+               so much honor to the character of <del>the</del>
+               <lb/>
                <add>each</add> individual &amp; which is the true policy<lb/>
                of every nation, were more general<lb/>
                between <placeName ref="./Placeography.xml#US">America</placeName> and <placeName ref="./Placeography.xml#ENK">England</placeName>-<lb/>
-               It is now becoming <hi rend="underline">fashionable</hi><lb/>
+               It is now becoming <hi rend="underline">fashionable</hi>
+               <lb/>
                indeed in <placeName ref="./Placeography.xml#London_ENK">London</placeName> to <hi rend="underline">speak</hi> well of<lb/>
                Americans &amp; I hope the fashion of<lb/>
                writing with liberality will follow in<lb/>
                among our best authors &amp; yours.<lb/>
-               <persName ref="./Personography.xml#IrviW1">Washington <choice><orig>Irvine</orig><reg>Irving</reg></choice></persName> has set an <choice><orig>ex-<lb/>
-                  cellent</orig><reg>excellent</reg></choice> example - In others of your<lb/>
+               <persName ref="./Personography.xml#IrviW1">Washington <choice>
+                     <orig>Irvine</orig>
+                     <reg>Irving</reg>
+                  </choice>
+               </persName> has set an <choice>
+                  <orig>ex-<lb/>
+                  cellent</orig>
+                  <reg>excellent</reg>
+               </choice> example - In others of your<lb/>
                writers &amp; of panegyrists of their<lb/>
                country I have regretted to observe<lb/>
                the talents they individually possess<lb/>
-               and the grand facts they had to <choice><orig>pro-<lb/>
-                  duce</orig><reg>produce</reg></choice> in favor of <placeName ref="./Placeography.xml#US">America</placeName> marred<lb/>
+               and the grand facts they had to <choice>
+                  <orig>pro-<lb/>
+                  duce</orig>
+                  <reg>produce</reg>
+               </choice> in favor of <placeName ref="./Placeography.xml#US">America</placeName> marred<lb/>
                and disgraced by this sort of national<lb/>
-               spirit of monopoly <del>&amp;<unclear>depreciation</unclear></del><lb/>
+               spirit of monopoly <del>&amp;<unclear>depreciation</unclear>
+               </del>
+               <lb/>
                Let them raise &amp; glorify their country<lb/>
                &amp; exult in her talents &amp; triumphs in<lb/>
                arts &amp; sciences as much as they will<lb/>
@@ -266,30 +311,56 @@
                of the wise and the sympathy of the<lb/>
                good, and the indulgence of all. Even<lb/>
                if they exaggerate a little in favor<lb/>
-               of their country it is an amicable <choice><orig>weak-<lb/>
-               ness</orig><reg>weakness</reg></choice> for which there should be, &amp; <hi rend="underline">is</hi>, a<lb/>
-               <choice><orig>give=and=take=charter</orig><reg>give-and-take charter</reg></choice> granted by <add>the common</add> custom,<lb/>
-               more powerful than the <choice><orig>common-<lb/>
-                  law</orig><reg>common law</reg></choice> of nations - But the moment<lb/>
+               of their country it is an amicable <choice>
+                  <orig>weak-<lb/>
+               ness</orig>
+                  <reg>weakness</reg>
+               </choice> for which there should be, &amp; <hi rend="underline">is</hi>, a<lb/>
+               <choice>
+                  <orig>give=and=take=charter</orig>
+                  <reg>give-and-take charter</reg>
+               </choice> granted by <add>the common</add> custom,<lb/>
+               more powerful than the <choice>
+                  <orig>common-<lb/>
+                  law</orig>
+                  <reg>common law</reg>
+               </choice> of nations - But the moment<lb/>
                any one nation or one world begins<lb/>
                to depreciate the other, indulgence<lb/>
                &amp; sympathy cease - &amp; the just informer<lb/>
                is that those who attempt to knock<lb/>
-               down others that they may raise <choice><orig>them-<lb/>
-                  -selves</orig><reg>themselves</reg></choice> upon the fallen bodies are <choice><orig>consci-<lb/>
-                     ous</orig><reg>conscious</reg></choice> that they <del>can not <unclear></unclear></del> are inferior<lb/></p>
+               down others that they may raise <choice>
+                  <orig>them-<lb/>
+                  -selves</orig>
+                  <reg>themselves</reg>
+               </choice> upon the fallen bodies are <choice>
+                  <orig>consci-<lb/>
+                     ous</orig>
+                  <reg>conscious</reg>
+               </choice> that they <del>can not <unclear/>
+               </del> are inferior<lb/>
+            </p>
             <p>May this insidious and degrading<lb/>
                spirit cease on both sides the Atlantic! Let us all<lb/>
-               try to raise ourselves without <choice><orig>lower<lb/>
-                  -ing</orig><reg>lowering</reg></choice> others! - May public esteem be<lb/>
+               try to raise ourselves without <choice>
+                  <orig>lower<lb/>
+                  -ing</orig>
+                  <reg>lowering</reg>
+               </choice> others! - May public esteem be<lb/>
                the <add>just</add> reward of every writer, who acts<lb/>
-               this laudable example &amp; who <choice><orig>pre-<lb/>
-                  serves</orig><reg>preserves</reg></choice>, temper &amp; candor even when<lb/>
+               this laudable example &amp; who <choice>
+                  <orig>pre-<lb/>
+                  serves</orig>
+                  <reg>preserves</reg>
+               </choice>, temper &amp; candor even when<lb/>
                goaded by illiberal criticism or<lb/>
-               tempted by vulgar example!<lb/></p>
+               tempted by vulgar example!<lb/>
+            </p>
             <closer>
-               I am Sir your obliged Serv<hi rend="superscript">t</hi><lb/>
-               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName><lb/>
+               I am Sir your obliged Serv<hi rend="superscript">t</hi>
+               <lb/>
+               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
+               <lb/>
                <lb/>
             </closer>
          </div>

@@ -39,8 +39,6 @@
                </resp>
             </respStmt>
          </editionStmt>
-         
-         
          <publicationStmt>
             <authority>Maria Edgeworth Letters Project</authority>
             <date>2023</date>
@@ -51,8 +49,7 @@
                <licence>Distributed under a Creative Commons Attribution-ShareAlike 3.0 Unported
                   License</licence>
             </availability>
-            
-            <idno>Edgeworth_Huntington_XXXX_1817_05_08</idno> 
+            <idno>Edgeworth_Huntington_XXXX_1817_05_08</idno>
          </publicationStmt>
          <seriesStmt>
             <title>Maria Edgeworth Letters Project</title>
@@ -69,7 +66,6 @@
                   <idno/>
                   <!--Consult library or WorldCat for this info-->
                </msIdentifier>
-               
                <head>Letter from 
                   <persName ref="./Personography.xml#EdgeR1">Richard Lovell Edgeworth</persName> 
                   to <persName ref="./Personography.xml#BeauF1">Sir Francis Beaufort</persName>
@@ -81,7 +77,6 @@
             <bibl>In addition to our edited version, this letter was previously published in
                <!--complete bibiographical info if letter was published in a book here-->
             </bibl>
-            
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
@@ -94,7 +89,6 @@
                word is split at the end of a line and the beginning of the next in a manuscript. The
                long s and ligatured forms are silently emended.</p>
          </editorialDecl>
-         
          <classDecl>
             <taxonomy xml:id="relators">
                <bibl>Marc Relators</bibl>
@@ -211,10 +205,14 @@
             <taxonomy xml:id="places">
                <bibl>Places</bibl>
                <category>
-                  <catDesc xml:id="EdgeworthsTown">Edgeworths' Town<idno type="getty">tgn/1042937</idno></catDesc>
-                  <catDesc xml:id="Peterborough">Peterborough, UK<idno type="getty">tgn/7026520</idno></catDesc>
-                  <catDesc xml:id="CranfordI">Cranford, Ireland<idno type="getty">tgn/7901042</idno></catDesc>
-                  <catDesc xml:id="Kettering">Kettering, UK<idno type="getty">tgn/7010904</idno></catDesc>
+                  <catDesc xml:id="EdgeworthsTown">Edgeworths' Town<idno type="getty">tgn/1042937</idno>
+                  </catDesc>
+                  <catDesc xml:id="Peterborough">Peterborough, UK<idno type="getty">tgn/7026520</idno>
+                  </catDesc>
+                  <catDesc xml:id="CranfordI">Cranford, Ireland<idno type="getty">tgn/7901042</idno>
+                  </catDesc>
+                  <catDesc xml:id="Kettering">Kettering, UK<idno type="getty">tgn/7010904</idno>
+                  </catDesc>
                </category>
             </taxonomy>
             <taxonomy xml:id="period">
@@ -224,18 +222,16 @@
                </category>
             </taxonomy>
          </classDecl>
-         
       </encodingDesc>
       <profileDesc>
          <correspDesc>
             <correspAction type="sent">
-               <persName ref="./Personography.xml#EdgeR1">Richard Lovell Edgeworth</persName> 
+               <persName ref="./Personography.xml#EdgeR1">Richard Lovell Edgeworth</persName>
             </correspAction>
             <correspAction type="received">
                <persName ref="./Personography.xml#BeauF1">Sir Francis Beaufort</persName>
             </correspAction>
          </correspDesc>
-         
          <textClass>
             <keywords scheme="">
                <list type="simple">
@@ -259,38 +255,44 @@
             <pb n="1" facs="Edgeworth_Huntington_XXXX_1817_05_08_page01.jpg"/>
             <opener>
                <dateline>
-                  <placeName ref="./Placeography.xml#Edgeworthstown_IE">EdgeworthsTown</placeName> <date when="1817-05-08"/>May 8<lb/>
-                  1817<lb/></dateline>  
+                  <placeName ref="./Placeography.xml#Edgeworthstown_IE">EdgeworthsTown</placeName>
+                  <date when="1817-05-08"/>May 8<lb/>
+                  1817<lb/>
+               </dateline>
                <salute>
                   My dear <persName ref="./Personography.xml#BeauF1">Brother</persName>
                </salute>
             </opener>
             <p>I will not scruple to put you<lb/>
                to the expence of a letter, when I feel that it<lb/>
-               will save me some anxiety.<lb/></p>
-               <p>I wrote to you yesterday to beg<lb/>
+               will save me some anxiety.<lb/>
+            </p>
+            <p>I wrote to you yesterday to beg<lb/>
                   that you would get <title ref="./Workography.xml#Ormon1">Ormond</title> from <persName ref="./Personography.xml#HuntX1">Hunter</persName> -<lb/>
                - Now I fear, that he might by soft words<lb/>
                and delusive promises, prevail upon you<lb/>
                to leave it with him - _. I therefore beg, that<lb/>
                you will in the first place possess yourself of<lb/>
                the manuscript. and inform me of it, before<lb/>
-                  we enter into any <choice><orig>negociation</orig><reg>negotation</reg></choice> with him or<lb/>
+                  we enter into any <choice>
+                  <orig>negociation</orig>
+                  <reg>negotation</reg>
+               </choice> with him or<lb/>
                any body else - possession being nine points<lb/>
-               of the law. - .<lb/></p>
-               <p>What keeps your book in the<lb/>
-               dark? -. Don't forget my values -.</p><lb/>
+               of the law. - .<lb/>
+            </p>
+            <p>What keeps your book in the<lb/>
+               dark? -. Don't forget my values -.</p>
+            <lb/>
             <closer>
                Yours sincerely<lb/>
-               <persName ref="./Personography.xml#EdgeR1">RLE</persName><lb/>
-
-               
+               <persName ref="./Personography.xml#EdgeR1">RLE</persName>
+               <lb/>
                <pb n="2" facs="Edgeworth_Huntington_XXXX_1817_05_08_page02.jpg"/>
-               
                <note>R L. E<lb/>
-                  8 May 1817</note><lb/>
+                  8 May 1817</note>
+               <lb/>
             </closer>
-            
          </div>
       </body>
       <back> </back>

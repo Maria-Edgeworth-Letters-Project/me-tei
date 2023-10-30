@@ -5,29 +5,29 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
-            <titleStmt>
-               <title>
+         <titleStmt>
+            <title>
                   Letter from Maria Edgeworth to Sir Francis Beaufort, 10/24/1824
                </title>
-               <author>Maria Edgeworth</author>
-               <editor ref="Id_who">
+            <author>Maria Edgeworth</author>
+            <editor ref="Id_who">
                   Jamie Kramer
                </editor>
-               <sponsor>
-                  <orgName>Maria Edgeworth Letters Project</orgName>
-               </sponsor>
-               <sponsor>Wake Forest University, University of Tennessee, Xavier University, Texas
+            <sponsor>
+               <orgName>Maria Edgeworth Letters Project</orgName>
+            </sponsor>
+            <sponsor>Wake Forest University, University of Tennessee, Xavier University, Texas
                   A&amp;University</sponsor>
-               <principal>Jessica Richard, Hilary Havens, Robin Runia, Susan Egenolf</principal>
-               <respStmt>
-                  <resp>Transcription and coding by</resp>
-                  <persName ref="Id_who">Jamie Kramer<!--FirstName LastName-->
+            <principal>Jessica Richard, Hilary Havens, Robin Runia, Susan Egenolf</principal>
+            <respStmt>
+               <resp>Transcription and coding by</resp>
+               <persName ref="Id_who">Jamie Kramer<!--FirstName LastName-->
                   </persName>
-                  <!-- List all transcribers or coders here, editors and students alike, <persName> by <persName>.-->
-                  <persName ref="Id_who"><!--FirstName LastName--></persName>
-                  <!-- If you're the last person interacting with the file, enter your name last on the list -->
-               </respStmt>
-            </titleStmt>
+               <!-- List all transcribers or coders here, editors and students alike, <persName> by <persName>.-->
+               <persName ref="Id_who"><!--FirstName LastName--></persName>
+               <!-- If you're the last person interacting with the file, enter your name last on the list -->
+            </respStmt>
+         </titleStmt>
          <editionStmt>
             <edition>First digital edition in TEI, date: <date when="2023-08-18">
                </date>
@@ -44,8 +44,6 @@
                </resp>
             </respStmt>
          </editionStmt>
-         
-         
          <publicationStmt>
             <authority>Maria Edgeworth Letters Project</authority>
             <date>2023</date>
@@ -56,10 +54,9 @@
                <licence>Distributed under a Creative Commons Attribution-ShareAlike 3.0 Unported
                   License</licence>
             </availability>
-            
             <idno>
                Edgeworth_Huntington_FB1232_1824_10_24
-            </idno> 
+            </idno>
          </publicationStmt>
          <seriesStmt>
             <title>Maria Edgeworth Letters Project</title>
@@ -78,7 +75,6 @@
                   <idno/>
                   <!--Consult library or WorldCat for this info-->
                </msIdentifier>
-               
                <head>Letter from 
                   <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
                   to <persName ref="./Personography.xml#BeauF1">Sir Francis Beaufort</persName>
@@ -90,7 +86,6 @@
             <bibl>In addition to our edited version, this letter was previously published in
                <!--complete bibiographical info if letter was published in a book here-->
             </bibl>
-            
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
@@ -103,7 +98,6 @@
                word is split at the end of a line and the beginning of the next in a manuscript. The
                long s and ligatured forms are silently emended.</p>
          </editorialDecl>
-         
          <classDecl>
             <taxonomy xml:id="relators">
                <bibl>Marc Relators</bibl>
@@ -220,10 +214,14 @@
             <taxonomy xml:id="places">
                <bibl>Places</bibl>
                <category>
-                  <catDesc xml:id="EdgeworthsTown">Edgeworths' Town<idno type="getty">tgn/1042937</idno></catDesc>
-                  <catDesc xml:id="Peterborough">Peterborough, UK<idno type="getty">tgn/7026520</idno></catDesc>
-                  <catDesc xml:id="CranfordI">Cranford, Ireland<idno type="getty">tgn/7901042</idno></catDesc>
-                  <catDesc xml:id="Kettering">Kettering, UK<idno type="getty">tgn/7010904</idno></catDesc>
+                  <catDesc xml:id="EdgeworthsTown">Edgeworths' Town<idno type="getty">tgn/1042937</idno>
+                  </catDesc>
+                  <catDesc xml:id="Peterborough">Peterborough, UK<idno type="getty">tgn/7026520</idno>
+                  </catDesc>
+                  <catDesc xml:id="CranfordI">Cranford, Ireland<idno type="getty">tgn/7901042</idno>
+                  </catDesc>
+                  <catDesc xml:id="Kettering">Kettering, UK<idno type="getty">tgn/7010904</idno>
+                  </catDesc>
                </category>
             </taxonomy>
             <taxonomy xml:id="period">
@@ -233,7 +231,6 @@
                </category>
             </taxonomy>
          </classDecl>
-         
       </encodingDesc>
       <profileDesc>
          <correspDesc>
@@ -244,7 +241,6 @@
                <persName ref="./Personography.xml#BeauF1">Sir Francis Beaufort</persName>
             </correspAction>
          </correspDesc>
-         
          <textClass>
             <keywords scheme="">
                <list type="simple">
@@ -266,14 +262,14 @@
       <body>
          <div type="letter">
             <pb n="1" facs="Edgeworth_Huntington_FB1232_1824_10_24_page01.jpg"/>
-            
             <opener>
                <dateline>
-                  <date when="1824-10-24"/>Oct<hi rend="superscript">r</hi>. 24<hi rend="superscript">h</hi>. 1824<lb/></dateline>  
-            
-               <salute>My dear <persName ref="./Personography.xml#BeauF1">Francis</persName><lb/>
-               </salute></opener>
-              
+                  <date when="1824-10-24"/>Oct<hi rend="superscript">r</hi>. 24<hi rend="superscript">h</hi>. 1824<lb/>
+               </dateline>
+               <salute>My dear <persName ref="./Personography.xml#BeauF1">Francis</persName>
+                  <lb/>
+               </salute>
+            </opener>
             <p> 
                You could not have given<lb/>
                me a better proof of your<lb/>
@@ -282,18 +278,24 @@
                me revised - I thank you<lb/>
                &amp; I wish the size of my thank<lb/>
                you could convey the<lb/>
-               warmth of the feeling</p><lb/>
+               warmth of the feeling</p>
+            <lb/>
             <p>I have profited by all<lb/>
                your &amp; <persName ref="./Personography.xml#BeauH1">Honora</persName>s corrections<lb/>
                and suggestions - I agree<lb/>
-               with your principle <choice><orig>res-<lb/>
-                  pecting</orig><reg>respecting</reg></choice> technical terms -<lb/>
-               I wonder that <persName ref="./Personography.xml#MarcX1">M<hi rend="superscript">rs</hi>. Marcel</persName><lb/>
-               <placeName ref="./Placeography.xml#Paris_FR">Paris</placeName><lb/>
-               
+               with your principle <choice>
+                  <orig>res-<lb/>
+                  pecting</orig>
+                  <reg>respecting</reg>
+               </choice> technical terms -<lb/>
+               I wonder that <persName ref="./Personography.xml#MarcX1">M<hi rend="superscript">rs</hi>. Marcel</persName>
+               <lb/>
+               <placeName ref="./Placeography.xml#Paris_FR">Paris</placeName>
+               <lb/>
                <pb n="2" facs="Edgeworth_Huntington_FB1232_1824_10_24_page02.jpg"/>
                
-               &amp; <persName ref="./Personography.xml#WedgJ1"><add>Jos</add> Wedgewood</persName> both good<lb/>
+               &amp; <persName ref="./Personography.xml#WedgJ1">
+                  <add>Jos</add> Wedgewood</persName> both good<lb/>
                chemists let these<lb/>
                pages pass without<lb/>
                observation - But<lb/>
@@ -309,7 +311,6 @@
                loves labour lost with<lb/>
                me for I assure you<lb/>
                I am not attached<lb/>
-               
                <pb n="3" facs="Edgeworth_Huntington_FB1232_1824_10_24_page03.jpg"/>
                
                to my errors &amp; have<lb/>
@@ -317,23 +318,29 @@
                own sentences -<lb/>
                When I spoke of the<lb/>
                awe I felt for your<lb/>
-               criticism &amp; its <choice><orig>depress<lb/>
-                  ing</orig><reg>depressing</reg></choice> effect on my mind<lb/>
+               criticism &amp; its <choice>
+                  <orig>depress<lb/>
+                  ing</orig>
+                  <reg>depressing</reg>
+               </choice> effect on my mind<lb/>
                that related only to the<lb/>
                effect while I was<lb/>
-
                <pb n="4" facs="Edgeworth_Huntington_FB1232_1824_10_24_page04.jpg"/>
                
                only to save my friends<lb/>
                the trouble of them<lb/>
-               not to be <add><unclear>so</unclear></add> ungrateful<lb/>
+               not to be <add>
+                  <unclear>so</unclear>
+               </add> ungrateful<lb/>
                as to depreciate their<lb/>
                labor - How very kind<lb/>
-               it was of my dear <persName ref="./Personography.xml#BeauH1">Honora</persName><lb/>
+               it was of my dear <persName ref="./Personography.xml#BeauH1">Honora</persName>
+               <lb/>
                to read &amp; correct that<lb/>
                sheet before she went<lb/>
                to bed the night<lb/>
-            </p><lb/>
+            </p>
+            <lb/>
          </div>
       </body>
       <back> </back>

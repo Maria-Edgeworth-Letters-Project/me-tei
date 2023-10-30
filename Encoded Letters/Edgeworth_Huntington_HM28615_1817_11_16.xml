@@ -5,29 +5,29 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
-            <titleStmt>
-               <title>
+         <titleStmt>
+            <title>
                   Letter from Lovell Edgeworth to Sir Francis Beaufort, [11/16/1817]
                </title>
-               <author>Lovell Edgeworth</author>
-               <editor ref="Id_who">
+            <author>Lovell Edgeworth</author>
+            <editor ref="Id_who">
                   Jamie Kramer
                </editor>
-               <sponsor>
-                  <orgName>Maria Edgeworth Letters Project</orgName>
-               </sponsor>
-               <sponsor>Wake Forest University, University of Tennessee, Xavier University, Texas
+            <sponsor>
+               <orgName>Maria Edgeworth Letters Project</orgName>
+            </sponsor>
+            <sponsor>Wake Forest University, University of Tennessee, Xavier University, Texas
                   A&amp;M University</sponsor>
-               <principal>Jessica Richard, Hilary Havens, Robin Runia, Susan Egenolf</principal>
-               <respStmt>
-                  <resp>Transcription and coding by</resp>
-                  <persName ref="Id_who">Jamie Kramer<!--FirstName LastName-->
+            <principal>Jessica Richard, Hilary Havens, Robin Runia, Susan Egenolf</principal>
+            <respStmt>
+               <resp>Transcription and coding by</resp>
+               <persName ref="Id_who">Jamie Kramer<!--FirstName LastName-->
                   </persName>
-                  <!-- List all transcribers or coders here, editors and students alike, <persName> by <persName>.-->
-                  <persName ref="Id_who"><!--FirstName LastName--></persName>
-                  <!-- If you're the last person interacting with the file, enter your name last on the list -->
-               </respStmt>
-            </titleStmt>
+               <!-- List all transcribers or coders here, editors and students alike, <persName> by <persName>.-->
+               <persName ref="Id_who"><!--FirstName LastName--></persName>
+               <!-- If you're the last person interacting with the file, enter your name last on the list -->
+            </respStmt>
+         </titleStmt>
          <editionStmt>
             <edition>First digital edition in TEI, date: <date when="2023-08-19">
                </date>
@@ -44,8 +44,6 @@
                </resp>
             </respStmt>
          </editionStmt>
-         
-         
          <publicationStmt>
             <authority>Maria Edgeworth Letters Project</authority>
             <date>2023</date>
@@ -56,10 +54,9 @@
                <licence>Distributed under a Creative Commons Attribution-ShareAlike 3.0 Unported
                   License</licence>
             </availability>
-            
             <idno>
                Edgeworth_Huntington_HM28615_1817_11_16
-            </idno> 
+            </idno>
          </publicationStmt>
          <seriesStmt>
             <title>Maria Edgeworth Letters Project</title>
@@ -78,7 +75,6 @@
                   <idno/>
                   <!--Consult library or WorldCat for this info-->
                </msIdentifier>
-               
                <head>Letter from 
                   <persName ref="./Personography.xml#EdgeL2">Lovell Edgeworth</persName>
                   to <persName ref="./Personography.xml#BeauF1">Sir Francis Beaufort</persName>
@@ -90,7 +86,6 @@
             <bibl>In addition to our edited version, this letter was previously published in
                <!--complete bibiographical info if letter was published in a book here-->
             </bibl>
-            
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
@@ -103,7 +98,6 @@
                word is split at the end of a line and the beginning of the next in a manuscript. The
                long s and ligatured forms are silently emended.</p>
          </editorialDecl>
-         
          <classDecl>
             <taxonomy xml:id="relators">
                <bibl>Marc Relators</bibl>
@@ -220,10 +214,14 @@
             <taxonomy xml:id="places">
                <bibl>Places</bibl>
                <category>
-                  <catDesc xml:id="EdgeworthsTown">Edgeworths' Town<idno type="getty">tgn/1042937</idno></catDesc>
-                  <catDesc xml:id="Peterborough">Peterborough, UK<idno type="getty">tgn/7026520</idno></catDesc>
-                  <catDesc xml:id="CranfordI">Cranford, Ireland<idno type="getty">tgn/7901042</idno></catDesc>
-                  <catDesc xml:id="Kettering">Kettering, UK<idno type="getty">tgn/7010904</idno></catDesc>
+                  <catDesc xml:id="EdgeworthsTown">Edgeworths' Town<idno type="getty">tgn/1042937</idno>
+                  </catDesc>
+                  <catDesc xml:id="Peterborough">Peterborough, UK<idno type="getty">tgn/7026520</idno>
+                  </catDesc>
+                  <catDesc xml:id="CranfordI">Cranford, Ireland<idno type="getty">tgn/7901042</idno>
+                  </catDesc>
+                  <catDesc xml:id="Kettering">Kettering, UK<idno type="getty">tgn/7010904</idno>
+                  </catDesc>
                </category>
             </taxonomy>
             <taxonomy xml:id="period">
@@ -233,7 +231,6 @@
                </category>
             </taxonomy>
          </classDecl>
-         
       </encodingDesc>
       <profileDesc>
          <correspDesc>
@@ -244,7 +241,6 @@
                <persName ref="./Personography.xml#BeauF1">Sir Francis Beaufort</persName>
             </correspAction>
          </correspDesc>
-         
          <textClass>
             <keywords scheme="">
                <list type="simple">
@@ -266,35 +262,40 @@
       <body>
          <div type="letter">
             <pb n="1" facs="Edgeworth_Huntington_HM28615_1817_11_16_page01.jpg"/>
-            
             <opener>
                <dateline>
-                  <date when="1817-11-16"/>Sunday Evening<lb/></dateline>  
-            
-               <salute><persName ref="./Personography.xml#BeauF1">D<hi rend="superscript">r</hi>. Beaufort</persName><lb/>
-               </salute></opener>
-              
+                  <date when="1817-11-16"/>Sunday Evening<lb/>
+               </dateline>
+               <salute>
+                  <persName ref="./Personography.xml#BeauF1">D<hi rend="superscript">r</hi>. Beaufort</persName>
+                  <lb/>
+               </salute>
+            </opener>
             <p> 
                I have this moment received<lb/>
                <persName ref="./Personography.xml#RomiS1">Sir Samuel</persName>'s Opinion, it might easily be<lb/>
                conceived what it would be from what we<lb/>
                have previously known - I shall not copy<lb/>
                all that he says only give you the sum<lb/>
-               of all -</p><lb/>
-               <p>All the estates are subject to the<lb/>
-               Term of ten years. -</p><lb/>
-               <p>The annuities &amp; immediate legacies<lb/>
-               to be paid out of the rents -</p><lb/>
-               <p>I have discovered a thing favorable to<lb/>
+               of all -</p>
+            <lb/>
+            <p>All the estates are subject to the<lb/>
+               Term of ten years. -</p>
+            <lb/>
+            <p>The annuities &amp; immediate legacies<lb/>
+               to be paid out of the rents -</p>
+            <lb/>
+            <p>I have discovered a thing favorable to<lb/>
                myself which is that the Lands settled on<lb/>
                my mother at the time of her marriage<lb/>
-               are not liable to the ten years trustees <unclear></unclear></p><lb/>
+               are not liable to the ten years trustees <unclear/>
+            </p>
+            <lb/>
             <p>Notwithstanding all this <persName ref="./Personography.xml#BeauF1">my Dear<lb/>
                B.</persName> my difficulties are tremendous<lb/>
                &amp; if I had to do with any other<lb/>
                than <persName ref="./Personography.xml#EdgeF2">M<hi rend="superscript">rs</hi> E</persName> I believe I should be in<lb/>
-               
-                  <pb n="2" facs="Edgeworth_Huntington_HM28615_1817_11_16_page02.jpg"/>
+               <pb n="2" facs="Edgeworth_Huntington_HM28615_1817_11_16_page02.jpg"/>
                
                in despair<lb/>
                Whether the trustees act or not Her trusts<lb/>
@@ -309,17 +310,24 @@
                interest may be applied during their infancy<lb/>
                for their maintenance &amp; education, The rest<lb/>
                of the interest must accumulate for their<lb/>
-               benefit till they are of age " -</p><lb/>
-               <p>And now you are as wise as I am<lb/>
+               benefit till they are of age " -</p>
+            <lb/>
+            <p>And now you are as wise as I am<lb/>
                what steps to follow I dont exactly know<lb/>
                I believe however one thing: that nothing<lb/>
                will persuade me from deviating from<lb/>
                what I think to be right, &amp; from doing what<lb/>
                I hope may tend to the happiness of the<lb/>
                family which has unfortunately been<lb/>
-               entrusted to my care</p> <closer>- Adieu Comp<hi rend="superscript">ts</hi> to your <persName ref="./Personography.xml#BeauA1"><unclear>AB</unclear></persName><lb/>
-                  from <persName ref="./Personography.xml#EdgeL2">Lovell <unclear>E</unclear></persName><lb/>
-               </closer>
+               entrusted to my care</p>
+            <closer>- Adieu Comp<hi rend="superscript">ts</hi> to your <persName ref="./Personography.xml#BeauA1">
+                  <unclear>AB</unclear>
+               </persName>
+               <lb/>
+                  from <persName ref="./Personography.xml#EdgeL2">Lovell <unclear>E</unclear>
+               </persName>
+               <lb/>
+            </closer>
          </div>
       </body>
       <back> </back>

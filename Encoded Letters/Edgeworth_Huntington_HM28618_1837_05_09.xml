@@ -5,27 +5,29 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
-            <titleStmt>
-               <title>Letter from Lestock Peach Wilson to Maria Edgeworth, 5/9/1837</title>
-               <author><persName ref="./Personography.xml#WilsL1">Lestock Peach Wilson</persName></author>
-               <editor ref="Id_who">
+         <titleStmt>
+            <title>Letter from Lestock Peach Wilson to Maria Edgeworth, 5/9/1837</title>
+            <author>
+               <persName ref="./Personography.xml#WilsL1">Lestock Peach Wilson</persName>
+            </author>
+            <editor ref="Id_who">
                   Jamie Kramer
                </editor>
-               <sponsor>
-                  <orgName>Maria Edgeworth Letters Project</orgName>
-               </sponsor>
-               <sponsor>Wake Forest University, University of Tennessee, Xavier University, Texas
+            <sponsor>
+               <orgName>Maria Edgeworth Letters Project</orgName>
+            </sponsor>
+            <sponsor>Wake Forest University, University of Tennessee, Xavier University, Texas
                   A&amp;M University</sponsor>
-               <principal>Jessica Richard, Hilary Havens, Robin Runia, Susan Egenolf</principal>
-               <respStmt>
-                  <resp>Transcription and coding by</resp>
-                  <persName ref="Id_who">Jamie Kramer<!--FirstName LastName-->
+            <principal>Jessica Richard, Hilary Havens, Robin Runia, Susan Egenolf</principal>
+            <respStmt>
+               <resp>Transcription and coding by</resp>
+               <persName ref="Id_who">Jamie Kramer<!--FirstName LastName-->
                   </persName>
-                  <!-- List all transcribers or coders here, editors and students alike, <persName> by <persName>.-->
-                  <persName ref="Id_who"><!--FirstName LastName--></persName>
-                  <!-- If you're the last person interacting with the file, enter your name last on the list -->
-               </respStmt>
-            </titleStmt>
+               <!-- List all transcribers or coders here, editors and students alike, <persName> by <persName>.-->
+               <persName ref="Id_who"><!--FirstName LastName--></persName>
+               <!-- If you're the last person interacting with the file, enter your name last on the list -->
+            </respStmt>
+         </titleStmt>
          <editionStmt>
             <edition>First digital edition in TEI, date: <date when="2023-01-12">
                </date>
@@ -40,8 +42,6 @@
                </resp>
             </respStmt>
          </editionStmt>
-         
-         
          <publicationStmt>
             <authority>Maria Edgeworth Letters Project</authority>
             <date>2023</date>
@@ -52,8 +52,7 @@
                <licence>Distributed under a Creative Commons Attribution-ShareAlike 3.0 Unported
                   License</licence>
             </availability>
-            
-            <idno>Edgeworth_Huntington_HM 28618_1837_05_09</idno> 
+            <idno>Edgeworth_Huntington_HM 28618_1837_05_09</idno>
          </publicationStmt>
          <seriesStmt>
             <title>Maria Edgeworth Letters Project</title>
@@ -71,7 +70,6 @@
                   <idno/>
                   <!--Consult library or WorldCat for this info-->
                </msIdentifier>
-               
                <head>Letter from 
                   <persName ref="./Personography.xml#WilsL1">Lestock Peach Wilson</persName>
                   to <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
@@ -83,7 +81,6 @@
             <bibl>In addition to our edited version, this letter was previously published in
                <!--complete bibiographical info if letter was published in a book here-->
             </bibl>
-            
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
@@ -96,7 +93,6 @@
                word is split at the end of a line and the beginning of the next in a manuscript. The
                long s and ligatured forms are silently emended.</p>
          </editorialDecl>
-         
          <classDecl>
             <taxonomy xml:id="relators">
                <bibl>Marc Relators</bibl>
@@ -213,10 +209,14 @@
             <taxonomy xml:id="places">
                <bibl>Places</bibl>
                <category>
-                  <catDesc xml:id="EdgeworthsTown">Edgeworths' Town<idno type="getty">tgn/1042937</idno></catDesc>
-                  <catDesc xml:id="Peterborough">Peterborough, UK<idno type="getty">tgn/7026520</idno></catDesc>
-                  <catDesc xml:id="CranfordI">Cranford, Ireland<idno type="getty">tgn/7901042</idno></catDesc>
-                  <catDesc xml:id="Kettering">Kettering, UK<idno type="getty">tgn/7010904</idno></catDesc>
+                  <catDesc xml:id="EdgeworthsTown">Edgeworths' Town<idno type="getty">tgn/1042937</idno>
+                  </catDesc>
+                  <catDesc xml:id="Peterborough">Peterborough, UK<idno type="getty">tgn/7026520</idno>
+                  </catDesc>
+                  <catDesc xml:id="CranfordI">Cranford, Ireland<idno type="getty">tgn/7901042</idno>
+                  </catDesc>
+                  <catDesc xml:id="Kettering">Kettering, UK<idno type="getty">tgn/7010904</idno>
+                  </catDesc>
                </category>
             </taxonomy>
             <taxonomy xml:id="period">
@@ -226,7 +226,6 @@
                </category>
             </taxonomy>
          </classDecl>
-         
       </encodingDesc>
       <profileDesc>
          <correspDesc>
@@ -237,7 +236,6 @@
                <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
             </correspAction>
          </correspDesc>
-         
          <textClass>
             <keywords scheme="">
                <list type="simple">
@@ -259,17 +257,19 @@
       <body>
          <div type="letter">
             <pb n="1" facs="Edgeworth_Huntington_HM 28618_1837_05_09_page01.jpg"/>
-            
             <opener>
-
                <dateline>
-                  <date when="1837-05-09"/><placeName ref="./Placeography.xml#Clifton_ENK">Clifton</placeName> 9 May 1837<lb/></dateline>  
+                  <date when="1837-05-09"/>
+                  <placeName ref="./Placeography.xml#Clifton_ENK">Clifton</placeName> 9 May 1837<lb/>
+               </dateline>
                <salute>
                My dear <persName ref="./Personography.xml#EdgeM1">Maria</persName>,<lb/>
-               </salute></opener>
-            <p> 
+               </salute>
+            </opener>
+            <p>
                <persName ref="./Personography.xml#HoarC1">Hoare</persName> sent me your<lb/>
-               enquiry for £200 more <unclear></unclear><lb/>
+               enquiry for £200 more <unclear/>
+               <lb/>
                Dock Stock - Originally £300<lb/>
                was bought for <persName ref="./Personography.xml#MPEX1">M.P.E.</persName>; &amp; he being<lb/>
                in <placeName ref="./Placeography.xml#II">India</placeName> I placed <add>it</add> in the names of<lb/>
@@ -283,7 +283,6 @@
                it still remains as originally<lb/>
                invested &amp; I receive the dividends<lb/>
                on the whole sum, giving you yours,<lb/>
-
                <pb n="2" facs="Edgeworth_Huntington_HM 28618_1837_05_09_page02.jpg"/>
                
                &amp; <persName ref="./Personography.xml#MPEX1">M. P. E.</persName> his - I could not there-<lb/>
@@ -295,14 +294,18 @@
                was bought it was considered<lb/>
                only as a temporary investment,<lb/>
                &amp; to save power of attorney was<lb/>
-               placed in my name &amp; that of <persName ref="./Personography.xml#PalmG1">G Palmer</persName><lb/>
+               placed in my name &amp; that of <persName ref="./Personography.xml#PalmG1">G Palmer</persName>
+               <lb/>
                fund - where it still remains - We<lb/>
-               can sign an authority to <persName ref="./Personography.xml#HoarC1">Hoare</persName><lb/>
+               can sign an authority to <persName ref="./Personography.xml#HoarC1">Hoare</persName>
+               <lb/>
                to receive the dividends on that<lb/>
-               stock &amp; carry them to your <choice><orig>ac-<lb/>
-                  count</orig><reg>account</reg></choice>; &amp; this I will have done<lb/>
+               stock &amp; carry them to your <choice>
+                  <orig>ac-<lb/>
+                  count</orig>
+                  <reg>account</reg>
+               </choice>; &amp; this I will have done<lb/>
                as soon as I return to town, if<lb/>
-
                <pb n="3" facs="Edgeworth_Huntington_HM 28618_1837_05_09_page03.jpg"/>
                
                the Dock Company will act on<lb/>
@@ -314,19 +317,21 @@
                but is decidedly better than when<lb/>
                I was last here - <persName ref="./Personography.xml#EdgeL1">Lucy</persName> has gone<lb/>
                to spend this day &amp; tomorrow at<lb/>
-               <placeName ref="./Placeography.xml#Bath_ENK">Bath</placeName> with <persName ref="./Personography.xml#WhitX1">M<hi rend="superscript">s</hi> Whitridge</persName> -</p><lb/>
-               <closer>
+               <placeName ref="./Placeography.xml#Bath_ENK">Bath</placeName> with <persName ref="./Personography.xml#WhitX1">M<hi rend="superscript">s</hi> Whitridge</persName> -</p>
+            <lb/>
+            <closer>
                   Yours my dear <persName ref="./Personography.xml#EdgeM1">Maria</persName>,<lb/>
                very sincerely<lb/>
-                  <hi rend="underline"><persName ref="./Personography.xml#WilsL1">L. P. Wilson</persName></hi><lb/>
-
-                  <pb n="4" facs="Edgeworth_Huntington_HM 28618_1837_05_09_page04.jpg"/>
-                  
-              <address>
-                 <addrLine>
-                 <persName ref="./Personography.xml#EdgeM1">Miss Edgeworth</persName> -</addrLine>
-              </address>
-               </closer>
+               <hi rend="underline">
+                  <persName ref="./Personography.xml#WilsL1">L. P. Wilson</persName>
+               </hi>
+               <lb/>
+               <pb n="4" facs="Edgeworth_Huntington_HM 28618_1837_05_09_page04.jpg"/>
+               <address>
+                  <addrLine>
+                     <persName ref="./Personography.xml#EdgeM1">Miss Edgeworth</persName> -</addrLine>
+               </address>
+            </closer>
          </div>
       </body>
       <back> </back>

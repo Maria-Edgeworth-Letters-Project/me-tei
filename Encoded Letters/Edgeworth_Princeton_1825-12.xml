@@ -55,7 +55,7 @@
                <licence>Distributed under a Creative Commons Attribution-ShareAlike 3.0 Unported
                   License</licence>
             </availability>
-            <idno>Edgeworth_Princeton_1825-12</idno> 
+            <idno>Edgeworth_Princeton_1825-12</idno>
          </publicationStmt>
          <seriesStmt>
             <title>Maria Edgeworth Letters Project</title>
@@ -68,17 +68,16 @@
                   <collection><!-- Enter specific archival collection if applicable--></collection>
                   <idno>Edgeworth_Princeton_1825-12</idno>
                </msIdentifier>
-               
                <!-- FROM LAURA: it's here (below) in the head that I added the full information about the author,
                   and you could add full information about the addressee as well. -->
                <head>Letter from 
                      <persName xml:id="EdgeM1" from="1768" to="1849">
-                        <forename>Maria</forename>
-                        <surname>Edgeworth</surname>
-                        <date>1768-1849</date>
-                        <idno type="VIAF">71477273</idno>
-                        <idno type="SNAC">62567029</idno>
-                     </persName>
+                     <forename>Maria</forename>
+                     <surname>Edgeworth</surname>
+                     <date>1768-1849</date>
+                     <idno type="VIAF">71477273</idno>
+                     <idno type="SNAC">62567029</idno>
+                  </persName>
                   to <persName ref="./Personography.xml#RelfL1">L. Relfe</persName>, <placeName ref="./Placeography.xml#Corn-Hill_XX">Cornhill</placeName>, 
                   <date when="1825-12-24">Dec<hi rend="superscript">r</hi> 24<hi rend="superscript">h</hi> 1825</date>
                </head>
@@ -86,10 +85,8 @@
                   <!-- optional physical description of the letter goes here: paper size and condition, seal, postmarks, etc.-->
                </physDesc>
             </msDesc>
-            
             <!-- FROM LAURA: where to put the following information in <bibl> is still a question: 
                ask TEI List whether it should be in the sourceDesc or elsewhere? -->
-            
             <bibl>In addition to our edited version, this letter was previously published in
                <!--complete bibiographical info if letter was published in a book here - if not delete-->
             </bibl>
@@ -133,7 +130,8 @@
             <!--filenames for photos associated with this letter. Example: <pb n="1" facs="image1.jpg image2.jpg image3.jpg"/> -->
             <opener>
                <dateline>Dec<hi rend="superscript">r</hi> 24<hi rend="superscript">h</hi> 1825
-                  <name type="place" ref="./Placeography.xml#Edgeworthstown_IE">Edgeworths Town</name><lb/>
+                  <name type="place" ref="./Placeography.xml#Edgeworthstown_IE">Edgeworths Town</name>
+                  <lb/>
                   <date when="1825-12-24"/>December 24, 1825.</dateline>
                <salute>
                   <persName>
@@ -142,13 +140,21 @@
                </salute>
             </opener>
             <p> 
-               I have just seen an <choice><orig>ad-<lb/>
-               vertisement</orig><reg>advertisement</reg></choice> in the <title ref="./Workography.xml#Morni1"><choice><orig>Morn<lb/>
-               ing</orig><reg>Morning</reg></choice> Chronicle</title> of a new<lb/>
+               I have just seen an <choice>
+                  <orig>ad-<lb/>
+               vertisement</orig>
+                  <reg>advertisement</reg>
+               </choice> in the <title ref="./Workography.xml#Morni1">
+                  <choice>
+                     <orig>Morn<lb/>
+               ing</orig>
+                     <reg>Morning</reg>
+                  </choice> Chronicle</title> of a new<lb/>
                Pocket book called the<lb/>
                <title ref="./Workography.xml#Janus1">Janus</title> published I think<lb/>
                in <placeName ref="./Placeography.xml#Edinburgh_STK">Edinburgh</placeName> in which<lb/>
-               I see my <del>essay[</del> <title ref="./Workography.xml#Though1">"Thoughts<lb/>
+               I see my <del>essay[</del>
+               <title ref="./Workography.xml#Though1">"Thoughts<lb/>
                on Bores by a Bore</title> is<lb/>
                inserted - I wish you<lb/>
                to know that I did not<lb/>
@@ -160,58 +166,73 @@
                rival publication - In<lb/>
                truth I did not know<lb/>
                the existence of this<lb/>
-               publication -<lb/></p>
-               
-               <pb n="2" facs="Edgeworth_Princeton_1825-12_page02.jpg"/>
-
-               <p>I am not so vain as to<lb/>
+               publication -<lb/>
+            </p>
+            <pb n="2" facs="Edgeworth_Princeton_1825-12_page02.jpg"/>
+            <p>I am not so vain as to<lb/>
                conceive that such a trifle<lb/>
                as my contribution could<lb/>
                be of any consequence<lb/>
                one way or other to either<lb/>
                of the Publications but<lb/>
                I wish you to know that<lb/>
-               I meant you handsomely<lb/></p>
-               <p>The friend to whom I<lb/>
-               gave the <hi rend="underline"><title ref="./Workography.xml#Though1">bores</title></hi> disposed<lb/>
-               of them as he thought <choice><orig>pro<lb/>
-               per</orig><reg>proper</reg></choice> -<lb/></p>
-               <p>I am anxious to have<lb/>
+               I meant you handsomely<lb/>
+            </p>
+            <p>The friend to whom I<lb/>
+               gave the <hi rend="underline">
+                  <title ref="./Workography.xml#Though1">bores</title>
+               </hi> disposed<lb/>
+               of them as he thought <choice>
+                  <orig>pro<lb/>
+               per</orig>
+                  <reg>proper</reg>
+               </choice> -<lb/>
+            </p>
+            <p>I am anxious to have<lb/>
                back again the account<lb/>
                I sent to your <title ref="./Workography.xml#Frien1">"Friendships<lb/>
                offering"</title> of the 4 Ex-Presidents<lb/>
                of America if your editor<lb/>
-               has not inserted them -<lb/></p>
+               has not inserted them -<lb/>
+            </p>
             <closer>
                With good wishes for<lb/>
                your success I am<lb/>
                Sir<lb/>
                very truly yours<lb/>
-               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName><lb/>
+               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
+               <lb/>
             </closer>
             <postscript>
-              <p>If any thing of mine is<lb/>
-              
-              <pb n="3" facs="Edgeworth_Princeton_1825-12_page03.jpg"/>
+               <p>If any thing of mine is<lb/>
+                  <pb n="3" facs="Edgeworth_Princeton_1825-12_page03.jpg"/>
 
                in your pocket book of<lb/>
                this year &amp; if you wish<lb/>
                to send me one you<lb/>
                can do so by enclosing<lb/>
                it directed to<lb/>
-               <persName ref="./Personography.xml#EdgeM1">Miss Edgeworth</persName><lb/>
-               <placeName ref="./Placeography.xml#Edgeworthstown_IE">Edgeworths Town</placeName><lb/>
+                  <persName ref="./Personography.xml#EdgeM1">Miss Edgeworth</persName>
+                  <lb/>
+                  <placeName ref="./Placeography.xml#Edgeworthstown_IE">Edgeworths Town</placeName>
+                  <lb/>
                under cover to<lb/>
-               <persName ref="./Personography.xml#ParsL1">The Earl of Rosse</persName><lb/>
-               <placeName ref="./Placeography.xml#Parsonstown-House_IE">Parson's Town<lb/>
-               Ireland</placeName>.<lb/></p>
+                  <persName ref="./Personography.xml#ParsL1">The Earl of Rosse</persName>
+                  <lb/>
+                  <placeName ref="./Placeography.xml#Parsonstown-House_IE">Parson's Town<lb/>
+               Ireland</placeName>.<lb/>
+               </p>
             </postscript>
-               <note place="bottom">"Tales various" <unclear>London</unclear></note><lb/>
+            <note place="bottom">"Tales various" <unclear>London</unclear>
+            </note>
+            <lb/>
             <closer><!--Use the <closer> element again to hold Address Leaf information.-->
                <pb n="4" facs="Edgeworth_Princeton_1825-12_page04.jpg"/>
                <address>
-                     <addrLine>M<hi rend="superscript">r</hi> L. Relfe - Bookseller</addrLine><lb/>
-                     <addrLine>Cornhill</addrLine><lb/>
+                  <addrLine>M<hi rend="superscript">r</hi> L. Relfe - Bookseller</addrLine>
+                  <lb/>
+                  <addrLine>Cornhill</addrLine>
+                  <lb/>
                   <!--Include any text written on the address leaf; use a separate "addrLine" for each line and indicate line breaks. -->
                </address>
             </closer>

@@ -3,39 +3,39 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>Letter from Walter Scott to Richard Lovell Edgeworth, July 2, 1811<!--Recipient Name, Month Day, YYYY--></title>
-                <author>Walter Scott</author>
-                <editor ref="Id_who">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from Walter Scott to Richard Lovell Edgeworth, July 2, 1811<!--Recipient Name, Month Day, YYYY--></title>
+            <author>Walter Scott</author>
+            <editor ref="Id_who">
                     Eliza Wilcox<!--Editor on the Maria Edgeworth Letters Project overseeing the coding of this particular letter: FirstName LastName -->
                 </editor>
-                <sponsor>
-                    <orgName>Maria Edgeworth Letters Project</orgName>
-                </sponsor>
-                <sponsor>Wake Forest University, University of Tennessee, Xavier University, Texas
+            <sponsor>
+               <orgName>Maria Edgeworth Letters Project</orgName>
+            </sponsor>
+            <sponsor>Wake Forest University, University of Tennessee, Xavier University, Texas
                     A&amp;M University</sponsor>
-                <principal>Jessica Richard, Hilary Havens, Robin Runia, Susan Egenolf</principal>
-                <respStmt>
-                    <resp>Transcription and coding by</resp>
-                    <persName ref="Id_who">Eliza Wilcox<!--FirstName LastName-->
+            <principal>Jessica Richard, Hilary Havens, Robin Runia, Susan Egenolf</principal>
+            <respStmt>
+               <resp>Transcription and coding by</resp>
+               <persName ref="Id_who">Eliza Wilcox<!--FirstName LastName-->
                     </persName>
-                    <!-- List all transcribers or coders here, editors and students alike, <persName> by <persName>.-->
-                    <persName ref="Id_who"><!--FirstName LastName--></persName>
-                    <!-- If you're the last person interacting with the file, enter your name last on the list -->
-                </respStmt>
-            </titleStmt>
-            <editionStmt>
-                <edition>First digital edition in TEI, date: November 30, 2022<date when="2022-11-30">
+               <!-- List all transcribers or coders here, editors and students alike, <persName> by <persName>.-->
+               <persName ref="Id_who"><!--FirstName LastName--></persName>
+               <!-- If you're the last person interacting with the file, enter your name last on the list -->
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>First digital edition in TEI, date: November 30, 2022<date when="2022-11-30">
                     <!--enter the date on which the first coder created and saved this XML file in google drive-->
                 </date>
-                </edition>
-                <respStmt>
-                    <orgName type="naf" ref="Id_who">
+            </edition>
+            <respStmt>
+               <orgName type="naf" ref="Id_who">
                         National Library of Scotland<!--who digitized the letter or gave us permission for to use the file?-->
                     </orgName>
-                    <resp> photos include:
+               <resp> photos include:
                         Edgeworth_NLS_23130_1811_07_02_page01.jpg,
                         Edgeworth_NLS_23130_1811_07_02_page02.jpg,
                         Edgeworth_NLS_23130_1811_07_02_page03.jpg,
@@ -43,217 +43,228 @@
                         <!-- Make a comma-separated list of each .jpg photo file name associated with your letter. 
                      For example: DSCF9476.jpg, DSCF9477.jpg, DSCF9478.jpg-->
                     </resp>
-                </respStmt>
-            </editionStmt>
-            <publicationStmt>
-                <authority>Maria Edgeworth Letters Project</authority>
-                <date>2022</date>
-                <availability>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Maria Edgeworth Letters Project</authority>
+            <date>2022</date>
+            <availability>
                     <!--Uncomment the appropriate line, based on the archive that holds the physical copy of this letter, 
                   and delete the other comment line(s).-->
-                    <p>Reproduced by courtesy of the <orgName ref="http://id.loc.gov/authorities/names/n80044899">National Library of Scotland</orgName><!--Reproduced by courtesy of the <orgName ref="#ReadingCL">Reading Central Library</orgName>.-->
-                        <!--or -->
-                        <!--Courtesy of <orgName ref="#Rylands">The University of Manchester</orgName>.-->
-                    </p>
-                    <licence>Distributed under a Creative Commons Attribution-ShareAlike 3.0 Unported
+               <p>Reproduced by courtesy of the <orgName ref="http://id.loc.gov/authorities/names/n80044899">National Library of Scotland</orgName>
+                  <!--Reproduced by courtesy of the <orgName ref="#ReadingCL">Reading Central Library</orgName>.-->
+                  <!--or -->
+                  <!--Courtesy of <orgName ref="#Rylands">The University of Manchester</orgName>.-->
+               </p>
+               <licence>Distributed under a Creative Commons Attribution-ShareAlike 3.0 Unported
                         License</licence>
-                </availability>
-                <idno>Edgeworth_NLS_23130_1811_07_02<!--Change to match the file name and current naming standards, i.e. "Edgeworth_Beinecke_330_1817_01_24" if file name is "Edgeworth_Beinecke_330_1817_01_24.xml"--></idno> 
-            </publicationStmt>
-            <seriesStmt>
-                <title>Maria Edgeworth Letters Project</title>
-            </seriesStmt>
-            <sourceDesc>
-                <msDesc xml:lang="en">
+            </availability>
+            <idno>Edgeworth_NLS_23130_1811_07_02<!--Change to match the file name and current naming standards, i.e. "Edgeworth_Beinecke_330_1817_01_24" if file name is "Edgeworth_Beinecke_330_1817_01_24.xml"--></idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Maria Edgeworth Letters Project</title>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
                     <!-- This section of the header identifies the original manuscript source. -->
-                    <msIdentifier>
-                        <repository>National Library of Scotland</repository>
-                        <collection><!-- Enter specific archival collection if applicable--></collection>
-                        <idno><!--Consult library or WorldCat for this info--></idno>
-                    </msIdentifier>
-                    
-                    <!-- FROM LAURA: it's here (below) in the head that I added the full information about the author,
+               <msIdentifier>
+                  <repository>National Library of Scotland</repository>
+                  <collection><!-- Enter specific archival collection if applicable--></collection>
+                  <idno><!--Consult library or WorldCat for this info--></idno>
+               </msIdentifier>
+               <!-- FROM LAURA: it's here (below) in the head that I added the full information about the author,
                   and you could add full information about the addressee as well. -->
-                    <head>Letter from 
+               <head>Letter from 
                         <persName>Walter Scott
                         </persName>
                         to <persName>Richard Lovell Edgeworth</persName>, <placeName>Edgeworthstown</placeName>, 
                         <date when="1811-07-02">2 July 1811<!-- Transcribe the date as it appears on the letter itself. Enter a numeric standardized date value in @when. --></date>
-                    </head>
-                    <physDesc>
+               </head>
+               <physDesc>
                         <!-- optional physical description of the letter goes here: paper size and condition, seal, postmarks, etc.-->
                     </physDesc>
-                </msDesc>
-                
-                <!-- FROM LAURA: where to put the following information in <bibl> is still a question: 
+            </msDesc>
+            <!-- FROM LAURA: where to put the following information in <bibl> is still a question: 
                ask TEI List whether it should be in the sourceDesc or elsewhere? -->
-                
-                <bibl>In addition to our edited version, this letter was previously published in
+            <bibl>In addition to our edited version, this letter was previously published in
                     <!--complete bibiographical info if letter was published in a book here - if not delete-->
                 </bibl>
-            </sourceDesc>
-        </fileDesc>
-        <encodingDesc>
-            <editorialDecl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
                 <!--Where Edgeworth uses nonstandard spelling and hyphenation of words, transcriber-coders 
                should use TEI elements “choice," “sic," and “reg" to encode both Edgeworth’s 
                spelling and the regular international standard of Oxford English spelling, 
                following the first listed spelling in the Oxford English Dictionary. -->
-                <p>Edgeworth’s spelling and punctuation are retained in transcription, except where a
+            <p>Edgeworth’s spelling and punctuation are retained in transcription, except where a
                     word is split at the end of a line and the beginning of the next in a manuscript. The
                     long s and ligatured forms are silently emended.</p>
-            </editorialDecl>
-            <classDecl>
-                <taxonomy xml:id="relators">
-                    <bibl>Marc Relators</bibl>
-                    <category xml:id="aut">
-                        <catDesc>Author</catDesc>
-                    </category>
-                </taxonomy>
-                <taxonomy xml:id="lcsh">
-                    <bibl>Subjects</bibl>
-                    <category>
-                        <catDesc xml:id="AntislaveryMovements">Antislavery movements
+         </editorialDecl>
+         <classDecl>
+            <taxonomy xml:id="relators">
+               <bibl>Marc Relators</bibl>
+               <category xml:id="aut">
+                  <catDesc>Author</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="lcsh">
+               <bibl>Subjects</bibl>
+               <category>
+                  <catDesc xml:id="AntislaveryMovements">Antislavery movements
                             <idno type="loc">sh85123315</idno>
-                        </catDesc>
-                        <catDesc xml:id="Birth">Birth
+                  </catDesc>
+                  <catDesc xml:id="Birth">Birth
                             <idno type="loc">sh86004053</idno>
-                        </catDesc>
-                        <catDesc xml:id="Death">Death
+                  </catDesc>
+                  <catDesc xml:id="Death">Death
                             <idno type="loc">sh85036085</idno>
-                        </catDesc>
-                        <catDesc xml:id="Education">Education
+                  </catDesc>
+                  <catDesc xml:id="Education">Education
                             <idno type="loc">sh85040989</idno>
-                        </catDesc>
-                        <catDesc xml:id="Imperialism">Imperialism
+                  </catDesc>
+                  <catDesc xml:id="Imperialism">Imperialism
                             <idno type="loc">sh85064628</idno>
-                        </catDesc>
-                        <catDesc xml:id="FictitiousCharacters">Fictitious characters
+                  </catDesc>
+                  <catDesc xml:id="FictitiousCharacters">Fictitious characters
                             <idno type="loc">sh99004183</idno>
-                        </catDesc>
-                        <catDesc xml:id="Marriage">Marriage
+                  </catDesc>
+                  <catDesc xml:id="Marriage">Marriage
                             <idno type="loc">sh85081416</idno>
-                        </catDesc>
-                        <catDesc xml:id="Nationalism">Nationalism
+                  </catDesc>
+                  <catDesc xml:id="Nationalism">Nationalism
                             <idno type="loc">sh85090150</idno>
-                        </catDesc>
-                        <catDesc xml:id="PoliticsAndCulture">Politics and culture
+                  </catDesc>
+                  <catDesc xml:id="PoliticsAndCulture">Politics and culture
                             <idno type="loc">sh85104468</idno>
-                        </catDesc>
-                        <catDesc xml:id="Race">Race  
+                  </catDesc>
+                  <catDesc xml:id="Race">Race  
                             <idno type="loc">sh85110232</idno>
-                        </catDesc>
-                        <catDesc xml:id="Religion">Religion
+                  </catDesc>
+                  <catDesc xml:id="Religion">Religion
                             <idno type="loc">sh85112549</idno>
-                        </catDesc>
-                        <catDesc xml:id="Science">Science
+                  </catDesc>
+                  <catDesc xml:id="Science">Science
                             <idno type="loc">sh85118553</idno>
-                        </catDesc>
-                        <catDesc xml:id="Technology">Technology
+                  </catDesc>
+                  <catDesc xml:id="Technology">Technology
                             <idno type="loc">sh85133147</idno>
-                        </catDesc>
-                        <catDesc xml:id="Slavery">Slavery
+                  </catDesc>
+                  <catDesc xml:id="Slavery">Slavery
                             <idno type="loc">sh85123314</idno>
-                        </catDesc>
-                        <catDesc xml:id="Travel">Travel
+                  </catDesc>
+                  <catDesc xml:id="Travel">Travel
                             <idno type="loc">sh85137149</idno>
-                        </catDesc>
-                    </category>
-                </taxonomy>
-                <taxonomy xml:id="works">
-                    <bibl>Works</bibl>
-                    <category>
-                        <catDesc xml:id="w1">Belinda</catDesc>
-                        <catDesc xml:id="w2">Castle Rackrent</catDesc>
-                        <catDesc xml:id="w3">Comic Dramas, in Three Acts</catDesc>
-                        <catDesc xml:id="w4">Early Lessons</catDesc>
-                        <catDesc xml:id="w5">Essay on Irish Bulls</catDesc>
-                        <catDesc xml:id="w6">Frank: a Sequel to Frank in Early Lessons</catDesc>
-                        <catDesc xml:id="w7">Harrington, a Tale; and Ormond, a Tale</catDesc>
-                        <catDesc xml:id="w8">Harry and Lucy Concluded</catDesc>
-                        <catDesc xml:id="w9">Leonora</catDesc>
-                        <catDesc xml:id="w10">Letters for Literary Ladies</catDesc>
-                        <catDesc xml:id="w11">Moral Tales for Young People</catDesc>
-                        <catDesc xml:id="w12">Moral Tales</catDesc>
-                        <catDesc xml:id="w13">Patronage</catDesc>
-                        <catDesc xml:id="w14">Popular Tales</catDesc>
-                        <catDesc xml:id="w15">Practical Education</catDesc>
-                        <catDesc xml:id="w16">Readings on Poetry</catDesc>
-                        <catDesc xml:id="w17">Ormond</catDesc>
-                        <catDesc xml:id="w18">The Absentee</catDesc>
-                        <catDesc xml:id="w19">Tales of Fashionable Life</catDesc>
-                        <catDesc xml:id="w20">The Contrast</catDesc>
-                        <catDesc xml:id="w21">The Modern Griselda; a Tale</catDesc>
-                        <catDesc xml:id="w22">The Parent's Assistant</catDesc>
-                        <catDesc xml:id="w23">Tomorrow; or the Dangers of Delay</catDesc>
-                    </category>
-                </taxonomy>
-            </classDecl>
-        </encodingDesc>
-        <profileDesc>
-            <correspDesc>
-                <correspAction type="sent">
-                    <persName>Walter Scott</persName>
-                </correspAction>
-                <correspAction type="received">
-                    <persName>Richard Lovell Edgeworth</persName>
-                </correspAction>
-            </correspDesc>
-            <textClass>
-                <keywords scheme="">
-                    <list type="simple">
-                        <item>English literature</item>
-                        <item>History</item>
-                    </list>
-                </keywords>
-                <catRef target="#f7" scheme="#f"/>
-                <catRef target="#hist #el" scheme="locSUB"/>
-            </textClass>
-        </profileDesc>
-        <revisionDesc>
-            <change when="2021-01-01" who="Id_who">
+                  </catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="works">
+               <bibl>Works</bibl>
+               <category>
+                  <catDesc xml:id="w1">Belinda</catDesc>
+                  <catDesc xml:id="w2">Castle Rackrent</catDesc>
+                  <catDesc xml:id="w3">Comic Dramas, in Three Acts</catDesc>
+                  <catDesc xml:id="w4">Early Lessons</catDesc>
+                  <catDesc xml:id="w5">Essay on Irish Bulls</catDesc>
+                  <catDesc xml:id="w6">Frank: a Sequel to Frank in Early Lessons</catDesc>
+                  <catDesc xml:id="w7">Harrington, a Tale; and Ormond, a Tale</catDesc>
+                  <catDesc xml:id="w8">Harry and Lucy Concluded</catDesc>
+                  <catDesc xml:id="w9">Leonora</catDesc>
+                  <catDesc xml:id="w10">Letters for Literary Ladies</catDesc>
+                  <catDesc xml:id="w11">Moral Tales for Young People</catDesc>
+                  <catDesc xml:id="w12">Moral Tales</catDesc>
+                  <catDesc xml:id="w13">Patronage</catDesc>
+                  <catDesc xml:id="w14">Popular Tales</catDesc>
+                  <catDesc xml:id="w15">Practical Education</catDesc>
+                  <catDesc xml:id="w16">Readings on Poetry</catDesc>
+                  <catDesc xml:id="w17">Ormond</catDesc>
+                  <catDesc xml:id="w18">The Absentee</catDesc>
+                  <catDesc xml:id="w19">Tales of Fashionable Life</catDesc>
+                  <catDesc xml:id="w20">The Contrast</catDesc>
+                  <catDesc xml:id="w21">The Modern Griselda; a Tale</catDesc>
+                  <catDesc xml:id="w22">The Parent's Assistant</catDesc>
+                  <catDesc xml:id="w23">Tomorrow; or the Dangers of Delay</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName>Walter Scott</persName>
+            </correspAction>
+            <correspAction type="received">
+               <persName>Richard Lovell Edgeworth</persName>
+            </correspAction>
+         </correspDesc>
+         <textClass>
+            <keywords scheme="">
+               <list type="simple">
+                  <item>English literature</item>
+                  <item>History</item>
+               </list>
+            </keywords>
+            <catRef target="#f7" scheme="#f"/>
+            <catRef target="#hist #el" scheme="locSUB"/>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-01-01" who="Id_who">
                 <!--Brief description of what you did here.-->
             </change>
-        </revisionDesc>
-    </teiHeader>
-    <text>
-        <body>
-            <div type="letter">
-                <pb n="1" facs="Edgeworth_NLS_23130_1811_07_02_page01.jpg"/><!--filenames for photos associated with this letter. Example: <pb n="1" facs="image1.jpg image2.jpg image3.jpg"/> -->
-                <opener>
-                    <dateline><!--If there's no date line, omit this element. Record in the order in which it is written on the letter.-->
-                        <name type="place" ref="Id_where"/>
-                        <date when="1811-07-02"/>2<hi rend="superscript">d</hi> July 1811</dateline>
-                    <salute>
-                        <persName>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <pb n="1" facs="Edgeworth_NLS_23130_1811_07_02_page01.jpg"/>
+            <!--filenames for photos associated with this letter. Example: <pb n="1" facs="image1.jpg image2.jpg image3.jpg"/> -->
+            <opener>
+               <dateline><!--If there's no date line, omit this element. Record in the order in which it is written on the letter.-->
+                  <name type="place" ref="Id_where"/>
+                  <date when="1811-07-02"/>2<hi rend="superscript">d</hi> July 1811</dateline>
+               <salute>
+                  <persName>
                             Sir
                         </persName>
-                    </salute>
-                </opener>
-                <p>I am honoured with your hospitable <choice><orig>invita-<lb/>
-                    tion</orig><reg>invitation</reg></choice> to <placeName ref="./Placeography.xml#Edgeworthstown_IE">Edgeworthstown</placeName> which adds to the<lb/>
-                    regret I feel in not having been able to <unclear>atchieve</unclear><lb/>
+               </salute>
+            </opener>
+            <p>I am honoured with your hospitable <choice>
+                  <orig>invita-<lb/>
+                    tion</orig>
+                  <reg>invitation</reg>
+               </choice> to <placeName ref="./Placeography.xml#Edgeworthstown_IE">Edgeworthstown</placeName> which adds to the<lb/>
+                    regret I feel in not having been able to <unclear>atchieve</unclear>
+               <lb/>
                     my intended journey to <placeName ref="./Placeography.xml#IE">Ireland</placeName> as nothing would<lb/>
                     give me more pleasure than an opportunity of<lb/>
-                    returning many thanks to <persName ref="./Personography.xml#EdgeR1">M<hi rend="superscript">r</hi></persName>. &amp; <persName ref="./Personography.xml#EdgeM1">Miss Edgeworth</persName> for<lb/>
+                    returning many thanks to <persName ref="./Personography.xml#EdgeR1">M<hi rend="superscript">r</hi>
+               </persName>. &amp; <persName ref="./Personography.xml#EdgeM1">Miss Edgeworth</persName> for<lb/>
                     the peculiar pleasure which I have received from<lb/>
                     their very amusing and interesting publications<lb/>
                     I will not affect to bandy compliments about the<lb/>
                     honours you offer me - as a minstrel it is sufficient<lb/>
                     that you think me worthy of any attention in<lb/>
                     that character and I assure you I shall value<lb/>
-                    my rhimes more highly in the hope your <choice><orig>appro:
-                        bation</orig><reg>approbation</reg></choice> was sincere. As for the thorny wreath of<lb/>
+                    my rhimes more highly in the hope your <choice>
+                  <orig>appro:
+                        bation</orig>
+                  <reg>approbation</reg>
+               </choice> was sincere. As for the thorny wreath of<lb/>
                     Mr <unclear>Reviewer</unclear> I beg leave utterly to decline the<lb/>
                     painful honours having never adventured in<lb/>
-                    that sort of composition above a few <choice><orig>antiqua
-                        -rian</orig><reg>antiquarian</reg></choice> articles very harmless and very stupid<lb/>
+                    that sort of composition above a few <choice>
+                  <orig>antiqua
+                        -rian</orig>
+                  <reg>antiquarian</reg>
+               </choice> articles very harmless and very stupid<lb/>
                     MS 23130
                     <pb n="2" facs="Edgeworth_NLS_23130_1811_07_02_page02.jpg"/>   
                     I am the more anxious to mention this because<lb/>
                     Fame I have heard has done me the dishonour to<lb/>
                     attribute to me a very silly and impertinent review<lb/>
-                    of <persName ref="./Personography.xml#EdgeM1">Miss Edgeworths</persName> <title ref="./Workography.xml#Taleo1">Tales of Fashionable Life</title> which<lb/>
+                    of <persName ref="./Personography.xml#EdgeM1">Miss Edgeworths</persName>
+               <title ref="./Workography.xml#Taleo1">Tales of Fashionable Life</title> which<lb/>
                     appeared in the <title ref="./Workography.xml#Quart1">Quarterly Review</title>. I know only<lb/>
                     one motive I could have for venting my revenge<lb/>
                     on such a work in such a manner and that<lb/>
@@ -268,19 +279,24 @@
                     any member of your family or connected with<lb/>
                     it by friendship to visit our Northern Metropolis<lb/>
                     without giving me a right to offer them any<lb/>
-                    civilities in my power.<lb/></p>
-                 <p>   I have been reading with infinite delight<lb/>
-                    <persName ref="./Personography.xml#CollX1">Mr. Colley's</persName> dialogues &amp; the notes. But I am<lb/>
-                    surprized to find most of your Iricisms (<hi rend="underline">many</hi><lb/>
-                     <pb n="3" facs="Edgeworth_NLS_23130_1811_07_02_page03.jpg"/> 
+                    civilities in my power.<lb/>
+            </p>
+            <p>   I have been reading with infinite delight<lb/>
+               <persName ref="./Personography.xml#CollX1">Mr. Colley's</persName> dialogues &amp; the notes. But I am<lb/>
+                    surprized to find most of your Iricisms (<hi rend="underline">many</hi>
+               <lb/>
+               <pb n="3" facs="Edgeworth_NLS_23130_1811_07_02_page03.jpg"/> 
                     many of them at least) are familiar Scotticisms. This<lb/>
                     emboldens me to exercise my aforesaid vocation<lb/>
                     as an Antiquarian Critic &amp; challenge the derivation<lb/>
                     of Kemp (applied to the spinning matches) as said to<lb/>
                     to derived from <add>a</add> Camp or tents. It is an old Saxon<lb/>
-                    word for strife &amp; gives rise to our modern <hi rend="underline">chmpion</hi><lb/>
+                    word for strife &amp; gives rise to our modern <hi rend="underline">chmpion</hi>
+               <lb/>
                     the <hi rend="underline">Kiempe</hi> of Germany and the <unclear>Kemperic</unclear> man or<lb/>
-                    <hi rend="underline">Kempé</hi> of our <del></del> old romance <title ref="./Workography.xml#Reliq1"><unclear>Vide</unclear> the <del></del><lb/>
+               <hi rend="underline">Kempé</hi> of our <del/> old romance <title ref="./Workography.xml#Reliq1">
+                  <unclear>Vide</unclear> the <del/>
+                  <lb/>
                     curious ballad of King Estmere in Percys Reliques<lb/>
                         of ancient poetry</title>. Many of the matches<lb/>
                     in which our Scottish labourers strove<lb/>
@@ -288,41 +304,46 @@
                     those which the reapers undertake<lb/>
                     are popularly called Kemping matches<lb/>
                     and the contending parties are said to <hi rend="underline">kemp</hi>, altho'<lb/>
-                    <unclear>buts</unclear> must be out of the question from the nature<lb/>
-                    of the contention.<lb/></p>
-                   <p> Excuse this little trait of the rusty antiquary<lb/>
-                    and believe me Sir<lb/></p>
-                <closer>
+               <unclear>buts</unclear> must be out of the question from the nature<lb/>
+                    of the contention.<lb/>
+            </p>
+            <p> Excuse this little trait of the rusty antiquary<lb/>
+                    and believe me Sir<lb/>
+            </p>
+            <closer>
                     your obliged &amp; humble Servant<lb/>
-                    <persName ref="./Personography.xml#ScotW1">Walter Scott</persName><lb/>
-                    <placeName ref="./Placeography.xml#Edinburgh_STK">Edin<hi rend="underline">h</hi></placeName>, 2 July<lb/><!--include linebreaks, if used. example: <closer> Yours<lb/> Very sincerely<lb/> -->
-                </closer>
-                <postscript>
-                    <p><!--A postscript goes here, outside the <closer>. --></p>
-                </postscript>
-                <!--You can include a <pb/> here, or inside the postScript.-->
-                <!-- Format for postscripts. 
+               <persName ref="./Personography.xml#ScotW1">Walter Scott</persName>
+               <lb/>
+               <placeName ref="./Placeography.xml#Edinburgh_STK">Edin<hi rend="underline">h</hi>
+               </placeName>, 2 July<lb/>
+               <!--include linebreaks, if used. example: <closer> Yours<lb/> Very sincerely<lb/> -->
+            </closer>
+            <postscript>
+               <p><!--A postscript goes here, outside the <closer>. --></p>
+            </postscript>
+            <!--You can include a <pb/> here, or inside the postScript.-->
+            <!-- Format for postscripts. 
                Postscripts do NOT go inside closer tags. Adjust to take into account the order in your letter. 
                Sometimes the signature is on page three, the address on page four, then the postscript follows back on the top of page one, for example.-->
-                <closer><!--Use the <closer> element again to hold Address Leaf information.-->
-                    <address>
-                        <pb n="4" facs="Edgeworth_NLS_23130_1811_07_02_page04.jpg"/>
-                        <persName ref="./Personography.xml#ScotW1">M. Scott</persName>
+            <closer><!--Use the <closer> element again to hold Address Leaf information.-->
+               <address>
+                  <pb n="4" facs="Edgeworth_NLS_23130_1811_07_02_page04.jpg"/>
+                  <persName ref="./Personography.xml#ScotW1">M. Scott</persName>
                         July 2
                         -11
                         1811
                         <persName ref="./Personography.xml#EdgeR1">Richard Lovell Edgeworth Esq</persName>
-                        <placeName ref="./Placeography.xml#Edgeworthstown_IE">Edgeworthstown</placeName>
-                        <unclear>Donahudin</unclear>
-                        <unclear>Portpatrick</unclear><!--Include any text written on the address leaf; use a separate "addrLine" for each line and indicate line breaks. -->
-                        <addrLine/>
-                        <addrLine/>
-                        <addrLine/>
-                    </address>
-                </closer>
-            </div>
-        </body>
-        <back> </back>
-    </text>
+                  <placeName ref="./Placeography.xml#Edgeworthstown_IE">Edgeworthstown</placeName>
+                  <unclear>Donahudin</unclear>
+                  <unclear>Portpatrick</unclear>
+                  <!--Include any text written on the address leaf; use a separate "addrLine" for each line and indicate line breaks. -->
+                  <addrLine/>
+                  <addrLine/>
+                  <addrLine/>
+               </address>
+            </closer>
+         </div>
+      </body>
+      <back> </back>
+   </text>
 </TEI>
-

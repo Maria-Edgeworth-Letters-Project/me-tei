@@ -5,28 +5,28 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
-            <titleStmt>
-               <title>Letter from Maria Edgeworth to Frances "Fanny" (Robinson) Hoare, 1783 	
+         <titleStmt>
+            <title>Letter from Maria Edgeworth to Frances "Fanny" (Robinson) Hoare, 1783 	
                  </title>
-               <author>Maria Edgeworth</author>
-               <editor ref="Id_who">
+            <author>Maria Edgeworth</author>
+            <editor ref="Id_who">
                Jamie Kramer
                </editor>
-               <sponsor>
-                  <orgName>Maria Edgeworth Letters Project</orgName>
-               </sponsor>
-               <sponsor>Wake Forest University, University of Tennessee, Xavier University, Texas
+            <sponsor>
+               <orgName>Maria Edgeworth Letters Project</orgName>
+            </sponsor>
+            <sponsor>Wake Forest University, University of Tennessee, Xavier University, Texas
                   A&amp;M University</sponsor>
-               <principal>Jessica Richard, Hilary Havens, Robin Runia, Susan Egenolf</principal>
-               <respStmt>
-                  <resp>Transcription and coding by</resp>
-                  <persName ref="Id_who">Jamie Kramer<!--FirstName LastName-->
+            <principal>Jessica Richard, Hilary Havens, Robin Runia, Susan Egenolf</principal>
+            <respStmt>
+               <resp>Transcription and coding by</resp>
+               <persName ref="Id_who">Jamie Kramer<!--FirstName LastName-->
                   </persName>
-                  <!-- List all transcribers or coders here, editors and students alike, <persName> by <persName>.-->
-                  <persName ref="Id_who"><!--FirstName LastName--></persName>
-                  <!-- If you're the last person interacting with the file, enter your name last on the list -->
-               </respStmt>
-            </titleStmt>
+               <!-- List all transcribers or coders here, editors and students alike, <persName> by <persName>.-->
+               <persName ref="Id_who"><!--FirstName LastName--></persName>
+               <!-- If you're the last person interacting with the file, enter your name last on the list -->
+            </respStmt>
+         </titleStmt>
          <editionStmt>
             <edition>First digital edition in TEI, date: <date when="2023-08-16">
                </date>
@@ -49,8 +49,6 @@
                </resp>
             </respStmt>
          </editionStmt>
-         
-         
          <publicationStmt>
             <authority>Maria Edgeworth Letters Project</authority>
             <date>2023</date>
@@ -61,10 +59,9 @@
                <licence>Distributed under a Creative Commons Attribution-ShareAlike 3.0 Unported
                   License</licence>
             </availability>
-            
             <idno>
                Edgeworth_Huntington_HM 28587_1783_xx_xx
-            </idno> 
+            </idno>
          </publicationStmt>
          <seriesStmt>
             <title>Maria Edgeworth Letters Project</title>
@@ -83,7 +80,6 @@
                   <idno/>
                   <!--Consult library or WorldCat for this info-->
                </msIdentifier>
-               
                <head>Letter from 
                   <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
                   to <persName ref="./Personography.xml#HoarF1">Frances "Fanny" (Robinson) Hoare</persName>
@@ -95,7 +91,6 @@
             <bibl>In addition to our edited version, this letter was previously published in
                <!--complete bibiographical info if letter was published in a book here-->
             </bibl>
-            
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
@@ -108,7 +103,6 @@
                word is split at the end of a line and the beginning of the next in a manuscript. The
                long s and ligatured forms are silently emended.</p>
          </editorialDecl>
-         
          <classDecl>
             <taxonomy xml:id="relators">
                <bibl>Marc Relators</bibl>
@@ -225,10 +219,14 @@
             <taxonomy xml:id="places">
                <bibl>Places</bibl>
                <category>
-                  <catDesc xml:id="EdgeworthsTown">Edgeworths' Town<idno type="getty">tgn/1042937</idno></catDesc>
-                  <catDesc xml:id="Peterborough">Peterborough, UK<idno type="getty">tgn/7026520</idno></catDesc>
-                  <catDesc xml:id="CranfordI">Cranford, Ireland<idno type="getty">tgn/7901042</idno></catDesc>
-                  <catDesc xml:id="Kettering">Kettering, UK<idno type="getty">tgn/7010904</idno></catDesc>
+                  <catDesc xml:id="EdgeworthsTown">Edgeworths' Town<idno type="getty">tgn/1042937</idno>
+                  </catDesc>
+                  <catDesc xml:id="Peterborough">Peterborough, UK<idno type="getty">tgn/7026520</idno>
+                  </catDesc>
+                  <catDesc xml:id="CranfordI">Cranford, Ireland<idno type="getty">tgn/7901042</idno>
+                  </catDesc>
+                  <catDesc xml:id="Kettering">Kettering, UK<idno type="getty">tgn/7010904</idno>
+                  </catDesc>
                </category>
             </taxonomy>
             <taxonomy xml:id="period">
@@ -238,7 +236,6 @@
                </category>
             </taxonomy>
          </classDecl>
-         
       </encodingDesc>
       <profileDesc>
          <correspDesc>
@@ -246,10 +243,9 @@
                <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
             </correspAction>
             <correspAction type="received">
-               <persName ref="./Personography.xml#HoarF1">Fanny Robinson [Frances Dorothea (née Robinson)]</persName> 
+               <persName ref="./Personography.xml#HoarF1">Fanny Robinson [Frances Dorothea (née Robinson)]</persName>
             </correspAction>
          </correspDesc>
-         
          <textClass>
             <keywords scheme="">
                <list type="simple">
@@ -272,53 +268,71 @@
          <div type="letter">
             <pb n="1" facs="Edgeworth_Huntington_HM 28587_1783_xx_xx_page01.jpg"/>
             <opener>
-
                <dateline>
-                  <placeName ref="./Placeography.xml#Edgeworthstown_IE">Edgeworth's town</placeName> <lb/>
-               </dateline>  
-            
-</opener>
-               <note>2</note>
-            <p>I promised you my dear <persName ref="./Personography.xml#HoarF1">Miss Robinson</persName> in <choice><orig>what-<lb/>
-                  -ever</orig></choice> part of the World I might chance to reside, that I would<lb/>
+                  <placeName ref="./Placeography.xml#Edgeworthstown_IE">Edgeworth's town</placeName>
+                  <lb/>
+               </dateline>
+            </opener>
+            <note>2</note>
+            <p>I promised you my dear <persName ref="./Personography.xml#HoarF1">Miss Robinson</persName> in <choice>
+                  <orig>what-<lb/>
+                  -ever</orig>
+               </choice> part of the World I might chance to reside, that I would<lb/>
                give you some account of the manners of the people I lived<lb/>
                amongst &amp; that I would communicate to you all my<lb/>
                observations I had an opportunity of making on the<lb/>
-               peculiarities either of the climate; soil; &amp;c. I have <choice><orig>delay<lb/>
-                  -ed</orig><reg>delayed</reg></choice> performing my promise, neither through indolence<lb/>
-               or forgetfulness but in order to acquire more certain <choice><orig>infor-<lb/>
-                  -mation</orig><reg>information</reg></choice> &amp; <add>so</add> collect facts worth telling you ---<lb/>
+               peculiarities either of the climate; soil; &amp;c. I have <choice>
+                  <orig>delay<lb/>
+                  -ed</orig>
+                  <reg>delayed</reg>
+               </choice> performing my promise, neither through indolence<lb/>
+               or forgetfulness but in order to acquire more certain <choice>
+                  <orig>infor-<lb/>
+                  -mation</orig>
+                  <reg>information</reg>
+               </choice> &amp; <add>so</add> collect facts worth telling you ---<lb/>
                The Irish are perhaps the laziest civilized nation on the<lb/>
                face of the earth; to avoid a moment's present trouble, they<lb/>
                will bring on themselves real misfortunes; When urged by<lb/>
                necessity (for without that spur they never exert themselves)<lb/>
                they work with excessive violence for a short space <add>of time</add> &amp; then<lb/>
-               sink again into a species of torpid Inaction - for this <choice><orig>indo-<lb/>
-                  -lence</orig><reg>indolence</reg></choice> peculiar to the Irish Peasantry, several causes may<lb/>
+               sink again into a species of torpid Inaction - for this <choice>
+                  <orig>indo-<lb/>
+                  -lence</orig>
+                  <reg>indolence</reg>
+               </choice> peculiar to the Irish Peasantry, several causes may<lb/>
                be assigned; amongst others the most powerful is the low<lb/>
                wages of labor, 6<hi rend="superscript">d.</hi> a day in Winter and 8<hi rend="superscript">d.</hi> in Summer; the<lb/>
                demand for labor must be very little, indeed, in a country<lb/>
                when the day labourers in it, can find it <unclear>answer</unclear> to go over<lb/>
-               to a foreign Nation, in search of Employment: this is <choice><orig>actu-<lb/>
-                  ally</orig><reg>actually</reg></choice> the case among the Irish Peasantry; they go over to<lb/>
+               to a foreign Nation, in search of Employment: this is <choice>
+                  <orig>actu-<lb/>
+                  ally</orig>
+                  <reg>actually</reg>
+               </choice> the case among the Irish Peasantry; they go over to<lb/>
                <placeName ref="./Placeography.xml#ENK">England</placeName> during the harvest there, which comes on much<lb/>
-
                <pb n="2" facs="Edgeworth_Huntington_HM 28587_1783_xx_xx_page02.jpg"/>
                
                sooner than that in <placeName ref="./Placeography.xml#IE">Ireland</placeName>, to get work &amp; higher wages than<lb/>
                they can earn at home - Every day labourer has about<lb/>
                three acres of land, sown with potatoes enough to afford a<lb/>
                bare subsistence to him &amp; his wretched family - he does not<lb/>
-               covet or even seem to relish the luxuries or <del></del> the <choice><orig>conveni-<lb/>
-                  -ences</orig><reg>conveniences</reg></choice> of life; they live in a huts whose mud built walls can<lb/>
+               covet or even seem to relish the luxuries or <del/> the <choice>
+                  <orig>conveni-<lb/>
+                  -ences</orig>
+                  <reg>conveniences</reg>
+               </choice> of life; they live in a huts whose mud built walls can<lb/>
                scarcely support their weather-beaten roofs: you may see the<lb/>
                children playing before the cabins sans shoes, sans stockings,<lb/>
                sans everything - the father of the family on a fine summers<lb/>
                day standing in the sunshine at his door while his house<lb/>
                is ready to fall upon his head &amp; is supported only by two<lb/>
                or three props of wood; perhaps out of charity you go up to<lb/>
-               him, &amp; tell him that he had much better set about <choice><orig>repair-<lb/>
-                  -ing</orig><reg>repairing</reg></choice> his house. - he would answer you Oh (pronounced Ho<unclear></unclear>)<lb/>
+               him, &amp; tell him that he had much better set about <choice>
+                  <orig>repair-<lb/>
+                  -ing</orig>
+                  <reg>repairing</reg>
+               </choice> his house. - he would answer you Oh (pronounced Ho<unclear/>)<lb/>
                faith." Honey when it falls it will be time enough to<lb/>
                think of picking it up." - their Cabins have no chimneys<lb/>
                so that it is no wonder they lose their eye-sight by living<lb/>
@@ -326,34 +340,63 @@
                more blind people among the lower class of Irish than among<lb/>
                any other set of men: the Common people are exceedingly<lb/>
                fond of spiritous liquors; Whiskey is their favorite, this is<lb/>
-               a liquor distilled from potatoes: the distillers think of <choice><orig>promo-<lb/>
-                  -ting</orig><reg>promoting</reg></choice> the exportation of it; nothing would more effectually or<lb/>
-               more immediately tend to the encouragement of <choice><orig>Agricul-<lb/>
-                  -ture</orig><reg>agriculture</reg></choice>, or be a stronger incitement to the lower class of people<lb/>
+               a liquor distilled from potatoes: the distillers think of <choice>
+                  <orig>promo-<lb/>
+                  -ting</orig>
+                  <reg>promoting</reg>
+               </choice> the exportation of it; nothing would more effectually or<lb/>
+               more immediately tend to the encouragement of <choice>
+                  <orig>Agricul-<lb/>
+                  -ture</orig>
+                  <reg>agriculture</reg>
+               </choice>, or be a stronger incitement to the lower class of people<lb/>
                to become industrious - it is not to suppose that idleness<lb/>
                is inherent in the Irish; no, they only want motive, give<lb/>
-               
                <pb n="3" facs="Edgeworth_Huntington_HM 28587_1783_xx_xx_page03.jpg"/>
                
                them motive &amp; they will exert themselves; but not till then -<lb/>
                if we look back into the history of <placeName ref="./Placeography.xml#ENK">England</placeName> for we shall<lb/>
                find that the <add>English</add> were once as indolent a nation as the<lb/>
                Irish are at present. Every Nation has passed this Stage<lb/>
-               in their progress to civilization; <del><unclear></unclear></del> I except the <placeName ref="./Placeography.xml#US"><choice><orig>Ameri-<lb/>
-                  -cans</orig><reg>Americans</reg></choice></placeName>, for they went over <del><unclear></unclear></del> from Europe took<lb/>
+               in their progress to civilization; <del>
+                  <unclear/>
+               </del> I except the <placeName ref="./Placeography.xml#US">
+                  <choice>
+                     <orig>Ameri-<lb/>
+                  -cans</orig>
+                     <reg>Americans</reg>
+                  </choice>
+               </placeName>, for they went over <del>
+                  <unclear/>
+               </del> from Europe took<lb/>
                with them the manners, the acts, the improvements<lb/>
-               of the European Nations consequently they did not go <choice><orig>gra-<lb/>
-                  -dually</orig><reg>gradually</reg></choice> through all the different stages of Civilization they<lb/>
-               came "<hi rend="underline">ready armed from the head of Jupiter</hi>" - to <choice><orig>con-<lb/>
-                  -clude</orig><reg>conclude</reg></choice> their character, the Irish are, remarkably <choice><orig>hospita-<lb/>
-                     -ble</orig><reg>hospitable</reg></choice> to strangers; friendly, &amp; charitable to each other; a <choice><orig>pro-<lb/>
-                        -pos</orig><reg>propos</reg></choice>, about charity, I must observe to you that the charity<lb/>
+               of the European Nations consequently they did not go <choice>
+                  <orig>gra-<lb/>
+                  -dually</orig>
+                  <reg>gradually</reg>
+               </choice> through all the different stages of Civilization they<lb/>
+               came "<hi rend="underline">ready armed from the head of Jupiter</hi>" - to <choice>
+                  <orig>con-<lb/>
+                  -clude</orig>
+                  <reg>conclude</reg>
+               </choice> their character, the Irish are, remarkably <choice>
+                  <orig>hospita-<lb/>
+                     -ble</orig>
+                  <reg>hospitable</reg>
+               </choice> to strangers; friendly, &amp; charitable to each other; a <choice>
+                  <orig>pro-<lb/>
+                        -pos</orig>
+                  <reg>propos</reg>
+               </choice>, about charity, I must observe to you that the charity<lb/>
                of the Higher class of people in <placeName ref="./Placeography.xml#IE">Ireland</placeName> is one of the greatest<lb/>
                checks to industry, it encourages Idleness amongst<lb/>
                the Poor, &amp; increases, <del>through it</del> the numbers, or rather<lb/>
                the swarms of Beggars, which infest the streets of <placeName ref="./Placeography.xml#Dublin_IE">Dublin</placeName>
-               Let the rich raise the wages of Labor, the rewards of <choice><orig>in-<lb/>
-               -dustry</orig><reg>industry</reg></choice>, that would be true charity - - - - - - - - - - -<lb/>
+               Let the rich raise the wages of Labor, the rewards of <choice>
+                  <orig>in-<lb/>
+               -dustry</orig>
+                  <reg>industry</reg>
+               </choice>, that would be true charity - - - - - - - - - - -<lb/>
                The lower class of irish are extreamly eloquent, they have<lb/>
                a volubility, a fluency &amp; a facility of delivery which is<lb/>
                really surprizing, they use a great deal of action; &amp; they<lb/>
@@ -361,38 +404,51 @@
                settled employment to have recourse to various means<lb/>
                of procuring a livelihood, necessity obliges them to exercise<lb/>
                their understandings, but they in general turn their<lb/>
-
                <pb n="4" facs="Edgeworth_Huntington_HM 28587_1783_xx_xx_page04.jpg"/>
                
                abilities to the purposes of fraud &amp; artifice -<lb/>
-               The <choice><orig>irish</orig><reg>Irish</reg></choice> language is now almost gone into disuse, the<lb/>
-               lower class of People all speak English; except in their <choice><orig>quar-<lb/>
-               -rels</orig><reg>quarrels</reg></choice> with each other; then unable to give vent to their rage<lb/>
+               The <choice>
+                  <orig>irish</orig>
+                  <reg>Irish</reg>
+               </choice> language is now almost gone into disuse, the<lb/>
+               lower class of People all speak English; except in their <choice>
+                  <orig>quar-<lb/>
+               -rels</orig>
+                  <reg>quarrels</reg>
+               </choice> with each other; then unable to give vent to their rage<lb/>
                in <hi rend="underline">any language</hi>, much more in <hi rend="underline">any</hi> but their <hi rend="underline">own</hi> they<lb/>
                have recourse to that &amp; they <hi rend="underline">throw</hi> it out with a rapidity<lb/>
                and vehemence which I can give you no idea of - it is a<lb/>
                remarkably harmonious language, but it is spoken with<lb/>
-               an accent (or as it has been styled <hi rend="underline">Brogue</hi>) which is <choice><orig>extream-<lb/>
-               -ly</orig><reg>extremely</reg></choice> grating to a foreign Ear - The Irish claim their origin from<lb/>
+               an accent (or as it has been styled <hi rend="underline">Brogue</hi>) which is <choice>
+                  <orig>extream-<lb/>
+               -ly</orig>
+                  <reg>extremely</reg>
+               </choice> grating to a foreign Ear - The Irish claim their origin from<lb/>
                the Phoenicians; I will tell you a fact which favors this<lb/>
                supposition; <persName ref="./Personography.xml#PlauT1">Plautus</persName> who wrote, I think in the time of<lb/>
-               <persName ref="./Personography.xml#Tiberi">Tiberius Cesar</persName> introduces in one of his plays a <choice><orig>phoeni-<lb/>
-               -cian</orig><reg>Phoenician</reg></choice> slave, who speaks a strange language, which none<lb/>
+               <persName ref="./Personography.xml#Tiberi">Tiberius Cesar</persName> introduces in one of his plays a <choice>
+                  <orig>phoeni-<lb/>
+               -cian</orig>
+                  <reg>Phoenician</reg>
+               </choice> slave, who speaks a strange language, which none<lb/>
                of <persName ref="./Personography.xml#PlauT1">Plautus</persName>'s translators could make any thing of: this language<lb/>
                which the Phoenician slave spoke, has since been discovered to<lb/>
-               be the same as that <del><unclear></unclear></del> which is now called Irish -<lb/>
+               be the same as that <del>
+                  <unclear/>
+               </del> which is now called Irish -<lb/>
                There are finer lakes in this Country, I had almost said, than you<lb/>
                can have any idea of the face of the country is disfigured with<lb/>
                large tracts of Bog. it is supposed that these bogs were originally<lb/>
-               formed by the leaves &amp; bark of immense forests of trees. <del>which</del><lb/>
-               <del></del> A peasant who was working in a bog belonging to<lb/>
+               formed by the leaves &amp; bark of immense forests of trees. <del>which</del>
+               <lb/>
+               <del/> A peasant who was working in a bog belonging to<lb/>
                <persName ref="./Personography.xml#EdgeR1">my Father</persName>, found several feet below the surface a man's coat<lb/>
                a basket full of arrows &amp; a wooden bowl, with several other<lb/>
                wooden utensils; the coat was neither knit or wove, it was of<lb/>
                a manufacture now quite unknown, <persName ref="./Personography.xml#EdgeR1">my father</persName> has sent it<lb/>
                over to the Royal Society - I mention this circumstance to prove<lb/>
                that <placeName ref="./Placeography.xml#IE">Ireland</placeName> was inhabited previous to the formation of<lb/>
-
                <pb n="5" facs="Edgeworth_Huntington_HM 28587_1783_xx_xx_page05.jpg"/>
                
                the Bogs; by what strange fatality it became desolate, &amp; how<lb/>
@@ -407,7 +463,8 @@
                the <placeName ref="./Placeography.xml#STK">Scotch</placeName> - I must reserve any particulars relative to the<lb/>
                state of politics in <placeName ref="./Placeography.xml#IE">Ireland</placeName> &amp;c till my next:- if you wish to know<lb/>
                any more about this Nation, or the Scotch, of whom I have not<lb/>
-               hitherto spoken - - - - - - - - - - </p><lb/>
+               hitherto spoken - - - - - - - - - - </p>
+            <lb/>
             <p>You will think, my dear <persName ref="./Personography.xml#HoarF1">Fanny</persName> that <del>my</del> I change my<lb/>
                employments, my tastes, my pursuits every four months; or<lb/>
                that Proteus-like I assume different shapes; indeed from my letters<lb/>
@@ -416,11 +473,11 @@
                you ask me to send you a tale to amuse you, &amp; lo! you receive<lb/>
                a dialogue on happiness; "<hi rend="underline">I asked for bread &amp; she gave me a stone</hi>"<lb/>
                In a third you find me <hi rend="underline">immersed</hi> in Politics, amongst old<lb/>
-
                <pb n="6" facs="Edgeworth_Huntington_HM 28587_1783_xx_xx_page06.jpg"/>
                
                newspapers, older pamphlets, Blackstone's commentaries, Burgh's<lb/>
-               political disquisitions, de Lolme on the Constitution of <placeName ref="./Placeography.xml#ENK">England</placeName><lb/>
+               political disquisitions, de Lolme on the Constitution of <placeName ref="./Placeography.xml#ENK">England</placeName>
+               <lb/>
                &amp;c &amp;c &amp;c. writing Enquiries into the coures of the poverty of <placeName ref="./Placeography.xml#IE">Ireland</placeName>"<lb/>
                (which by the bye I will send you when I have an opportunity) Essays<lb/>
                &amp;c . . . - such were my employments when I wrote to you last,<lb/>
@@ -433,16 +490,25 @@
                is not sufficiently expressive of <hi rend="underline">the pathetic</hi>; the young Woman's<lb/>
                is as it ought to be, strongly expressive of sweetness &amp; gentleness mix<lb/>
                -ed with grief. You know my dear <persName ref="./Personography.xml#HoarF1">Miss Robinson</persName> that I am no<lb/>
-               painter myself &amp; therefore I am afraid you will think me <choice><orig>>pre-<lb/>
-                  -sumptuous</orig><reg>presumptuous</reg></choice> in pointing out the <hi rend="underline">only</hi> defect that could be fixed <choice><orig>up-<lb/>
-                     -on</orig><reg>upon</reg></choice> in <persName ref="./Personography.xml#RobiX1"><del>your Brother's</del> M<hi rend="superscript">r</hi>. Robinson</persName>'s very pretty performance, by<lb/>
-               way of course, the only one I can plead, I must recall to your <choice><orig>re-<lb/>
-               -membrance</orig><reg>remembrance</reg></choice> a little anecdote which you doubtless have met<lb/>
+               painter myself &amp; therefore I am afraid you will think me <choice>
+                  <orig>&gt;pre-<lb/>
+                  -sumptuous</orig>
+                  <reg>presumptuous</reg>
+               </choice> in pointing out the <hi rend="underline">only</hi> defect that could be fixed <choice>
+                  <orig>up-<lb/>
+                     -on</orig>
+                  <reg>upon</reg>
+               </choice> in <persName ref="./Personography.xml#RobiX1">
+                  <del>your Brother's</del> M<hi rend="superscript">r</hi>. Robinson</persName>'s very pretty performance, by<lb/>
+               way of course, the only one I can plead, I must recall to your <choice>
+                  <orig>re-<lb/>
+               -membrance</orig>
+                  <reg>remembrance</reg>
+               </choice> a little anecdote which you doubtless have met<lb/>
                with - A Shoe maker, went to see one of <persName ref="./Personography.xml#Apelles">Apelles</persName>'s paintings<lb/>
                &amp; overlooking the superior excellence of the piece he observed<lb/>
                that the shoe was very ill done - - - I assure<lb/>
                you, I shall have the print framed &amp; hang it up in my Room<lb/>
-
                <pb n="7" facs="Edgeworth_Huntington_HM 28587_1783_xx_xx_page07.jpg"/>
                
                at once a proof of your Friendship &amp; of <persName ref="./Personography.xml#RobiX1">your Brother</persName>'s taste - - -<lb/>
@@ -450,16 +516,26 @@
                is not at all in the eye, but in the ciliary glands: Sea-bathing will be<lb/>
                most likely to remove it: &amp; I shall go to the Sea next <del>week.</del> Summer<lb/>
                Time, Nature &amp; Exercise will I hope finally relieve me; but at<lb/>
-               present I must, and I flatter myself I do, submit to <choice><orig>irremi<del></del>di-<lb/>
-                  -able</orig><reg>irremediable</reg></choice> evil, with patience; I suffer no pain - You do me<lb/>
-               injustice, my dear, in reproaching me with not taking <choice><orig>ex-<lb/>
-                  -ercise</orig><reg>exercise</reg></choice>, I said I <hi rend="underline">was not fond of it</hi>, but I assure <add>you</add> I walk an hour<lb/>
+               present I must, and I flatter myself I do, submit to <choice>
+                  <orig>irremi<del/>di-<lb/>
+                  -able</orig>
+                  <reg>irremediable</reg>
+               </choice> evil, with patience; I suffer no pain - You do me<lb/>
+               injustice, my dear, in reproaching me with not taking <choice>
+                  <orig>ex-<lb/>
+                  -ercise</orig>
+                  <reg>exercise</reg>
+               </choice>, I said I <hi rend="underline">was not fond of it</hi>, but I assure <add>you</add> I walk an hour<lb/>
                every day even in this cold Weather - Art &amp; Medicine have<lb/>
                tried their skill with me in vain, Nature &amp; Exercise shall<lb/>
                now have fair play - I am afraid you had a great deal<lb/>
                of trouble about the franks: I hope you will never delay writing<lb/>
-               to me for want of them, for I assure you I do not think the <choice><orig>plea-<lb/>
-                  -sure</orig><reg>pleasure</reg></choice> your letters give me too dearly purchased without them</p><lb/>
+               to me for want of them, for I assure you I do not think the <choice>
+                  <orig>plea-<lb/>
+                  -sure</orig>
+                  <reg>pleasure</reg>
+               </choice> your letters give me too dearly purchased without them</p>
+            <lb/>
             <p>My dear <persName ref="./Personography.xml#HoarF1">Fanny</persName> I was just going to conclude this long letter<lb/>
                when I recollected, what I certainly <hi rend="underline">ought</hi> &amp; <hi rend="underline">should</hi> have recollected<lb/>
                sooner, if I had, had less dependance on your good temper; viz, that<lb/>
@@ -468,32 +544,47 @@
                write to you the very day I received your's but I have never<lb/>
                had time to finish <add>my letter</add> - Not time! - - - - Why indeed you may<lb/>
                well be a little surprized, &amp; I find that at last I must tell you<lb/>
-
                <pb n="8" facs="Edgeworth_Huntington_HM 28587_1783_xx_xx_page08.jpg"/>
                
                what I am about; <hi rend="underline">in my own defence</hi>; well then, I am writing<lb/>
                a book. - - - A Book! - - - yes a book &amp; in six volumes; I began it<lb/>
                a month ago &amp; I have written 2 volumes: but I will neither tell you<lb/>
                the title or the subject of it, till it is published &amp; has been reviewed<lb/>
-               &amp; then I will send you a set <del>of the</del> <hi rend="underline">if it succeeds</hi>, but I dare not<lb/>
+               &amp; then I will send you a set <del>of the</del>
+               <hi rend="underline">if it succeeds</hi>, but I dare not<lb/>
                expose myself so far as to tell you beforehand, least it should not<lb/>
                succeed; I suppose it will be published before the end of next<lb/>
                Summer; I am not certain yet whether it will be bound in three<lb/>
                octavo or six duedicimo volumes - You may assure yourself<lb/>
                my dear friend that I will not forget to send them you, indeed<lb/>
                I am ashamed not already to have sent you something by way<lb/>
-               of acknowledgement, <add><unclear>if</unclear></add> not of equivalent to, your pretty drawings -<lb/>
-               But you will say "What excuse can your writing <add>a</add> book <add>be</add> for <choice><orig>ne-<lb/>
-                  -glecting</orig><reg>neglecting</reg></choice> to answer your friend's letter? - - - I will tell you; <persName ref="./Personography.xml#EdgeR1">my<lb/>
+               of acknowledgement, <add>
+                  <unclear>if</unclear>
+               </add> not of equivalent to, your pretty drawings -<lb/>
+               But you will say "What excuse can your writing <add>a</add> book <add>be</add> for <choice>
+                  <orig>ne-<lb/>
+                  -glecting</orig>
+                  <reg>neglecting</reg>
+               </choice> to answer your friend's letter? - - - I will tell you; <persName ref="./Personography.xml#EdgeR1">my<lb/>
                father</persName> is in now in <placeName ref="./Placeography.xml#Dublin_IE">Dublin</placeName>, &amp; he has an opportunity of sending<lb/>
-               the volume (or volumes if they are published in Duedissimo) over to <placeName ref="./Placeography.xml#ENK"><choice><orig>Eng-<lb/>
-                  -land</orig><reg>England</reg></choice></placeName> to be printed this week, therefore I was very desirous to<lb/>
-               have them finished; the very day I had finished them I <choice><orig>open-<lb/>
-                  -ed</orig><reg>opened</reg></choice> my writing desk to look for the letter I had began to write to<lb/>
-               you; on reading it over, I found it was such a charming <choice><orig>con-<lb/>
-                  fusion</orig><reg>confusion</reg></choice> of Nonsense that I was under a necessity of beginning<lb/>
+               the volume (or volumes if they are published in Duedissimo) over to <placeName ref="./Placeography.xml#ENK">
+                  <choice>
+                     <orig>Eng-<lb/>
+                  -land</orig>
+                     <reg>England</reg>
+                  </choice>
+               </placeName> to be printed this week, therefore I was very desirous to<lb/>
+               have them finished; the very day I had finished them I <choice>
+                  <orig>open-<lb/>
+                  -ed</orig>
+                  <reg>opened</reg>
+               </choice> my writing desk to look for the letter I had began to write to<lb/>
+               you; on reading it over, I found it was such a charming <choice>
+                  <orig>con-<lb/>
+                  fusion</orig>
+                  <reg>confusion</reg>
+               </choice> of Nonsense that I was under a necessity of beginning<lb/>
                it again - I had always had recourse to it as a species of relaxation<lb/>
-               
                <pb n="9" facs="Edgeworth_Huntington_HM 28587_1783_xx_xx_page09.jpg"/>
                
                when my head ached &amp; when I had written till I hardly knew<lb/>
@@ -501,10 +592,17 @@
                No I have not: &amp; from what you say of it I am not at all desirous to<lb/>
                read <add>it</add> though a lady in the Neighbourhood has promised to send it<lb/>
                me. I assure you I have not opened a book this month, though I<lb/>
-               have been tempted alternately by <persName ref="./Personography.xml#GibbX1">Gibbons</persName>, <persName ref="./Personography.xml#BielJ1"><choice><orig>Bielfied</orig><reg>Bielfeld</reg></choice></persName> and <persName ref="./Personography.xml#BaconF1">Bacon</persName><lb/>
+               have been tempted alternately by <persName ref="./Personography.xml#GibbX1">Gibbons</persName>, <persName ref="./Personography.xml#BielJ1">
+                  <choice>
+                     <orig>Bielfied</orig>
+                     <reg>Bielfeld</reg>
+                  </choice>
+               </persName> and <persName ref="./Personography.xml#BaconF1">Bacon</persName>
+               <lb/>
                so you see I have been seriously at Work - &amp; except a pamphlet of<lb/>
                <persName ref="./Personography.xml#DayX1">M<hi rend="superscript">rs</hi>. Day</persName>'s I have not read a pamphlet either - at this very time<lb/>
-               I am writing to you, I have that famous Epic-poem <title ref="./Workography.xml#Lucia1">the Luciad</title><lb/>
+               I am writing to you, I have that famous Epic-poem <title ref="./Workography.xml#Lucia1">the Luciad</title>
+               <lb/>
                lying beside me unopened - Now we are on the Subject of<lb/>
                Books my dear <persName ref="./Personography.xml#HoarF1">Fanny</persName>, I must remember to beg you will let<lb/>
                me know in your next your opinion of <persName ref="./Personography.xml#AmicX1">M<hi rend="superscript">r</hi>. Ameci</persName>'s book, what<lb/>
@@ -512,38 +610,61 @@
                morning after I saw you in <placeName ref="./Placeography.xml#Wimpole_ENK">Wimpole Street</placeName> &amp; I have never<lb/>
                been able to see it - You ask me what Market Town, <placeName ref="./Placeography.xml#Edgeworthstown_IE">Edgeworth's<lb/>
                town</placeName> is near, it is itself a Market town &amp; you will find it in the old<lb/>
-               Maps of <placeName ref="./Placeography.xml#IE">Ireland</placeName> under the name of <placeName ref="./Placeography.xml#Edgeworthstown_IE">Mastrim</placeName> - it is near <placeName ref="./Placeography.xml#Mullingar_IE"><choice><orig>Mul-<lb/>
-                  -lingar</orig><reg>Mullingar</reg></choice></placeName>, <placeName ref="./Placeography.xml#Longford_IE">Longford</placeName>, <placeName ref="./Placeography.xml#Athlone_IE">Athlone</placeName> &amp; <placeName ref="./Placeography.xml#Granard_IE">Granard</placeName> - - Pray my dear, in<lb/>
+               Maps of <placeName ref="./Placeography.xml#IE">Ireland</placeName> under the name of <placeName ref="./Placeography.xml#Edgeworthstown_IE">Mastrim</placeName> - it is near <placeName ref="./Placeography.xml#Mullingar_IE">
+                  <choice>
+                     <orig>Mul-<lb/>
+                  -lingar</orig>
+                     <reg>Mullingar</reg>
+                  </choice>
+               </placeName>, <placeName ref="./Placeography.xml#Longford_IE">Longford</placeName>, <placeName ref="./Placeography.xml#Athlone_IE">Athlone</placeName> &amp; <placeName ref="./Placeography.xml#Granard_IE">Granard</placeName> - - Pray my dear, in<lb/>
                <add>y<hi rend="superscript">r</hi>0.</add> next send me a little plan of your house &amp; improvements at<lb/>
                <placeName ref="./Placeography.xml#Cranford_ENK">Cranford</placeName> &amp; though I am no Drawer <hi rend="underline">as you know</hi>, I will endeavor<lb/>
                to give you in return some <hi rend="underline">confused idea</hi> of this Place -<lb/>
-
                <pb n="10" facs="Edgeworth_Huntington_HM 28587_1783_xx_xx_page10.jpg"/>
                
                If it is out of compliment you write to me always on such<lb/>
                pretty little sheets of gilt paper, I will very readily dispense<lb/>
                with them, for my part I like better to converse with you<lb/>
                than to compliment you - Remember me always when you<lb/>
-               write to any of our friends in <placeName ref="./Placeography.xml#Wimpole_ENK">Wimpole Street</placeName>, in the kindest <choice><orig>man<lb/>
-                  -ner</orig><reg>manner</reg></choice> to them. <persName ref="./Personography.xml#VanX1">Miss Van</persName>, once intimated to me, that she thought<lb/>
+               write to any of our friends in <placeName ref="./Placeography.xml#Wimpole_ENK">Wimpole Street</placeName>, in the kindest <choice>
+                  <orig>man<lb/>
+                  -ner</orig>
+                  <reg>manner</reg>
+               </choice> to them. <persName ref="./Personography.xml#VanX1">Miss Van</persName>, once intimated to me, that she thought<lb/>
                I had a particular turn for ridicule &amp; seemed to think that<lb/>
                I should indulge it at the expense of others - you may, nay I<lb/>
                would wish you to shew her any of my letters or all of them, to<lb/>
                convince her that she has been mistaken - in a child such<lb/>
                a failing is excusable, but if time &amp; reflexion do not cure it<lb/>
-               it <del>leads to</del> <hi rend="underline">debases</hi>, perhaps vitiates the heart, by <choice><orig>render-<lb/>
-                  -ing</orig><reg>rendering</reg></choice> it susceptible of pleasure at the uneasiness of Other's -<lb/>
-               I should be sorry that <persName ref="./Personography.xml#VanX1">Miss Van</persName> therefore was not <unclear><hi rend="underline">devabusie</hi></unclear><lb/>
-               on this head - - - - - - - - - - </p><lb/>
-            <p>Adieu, the length of your letter my dear <persName ref="./Personography.xml#HoarF1">Miss Robinson</persName><lb/>
-               convinces me that you are not tired with mine - But <choice><orig>seri<lb/>
-               -ously</orig><reg>seriously</reg></choice> will you forgive me for my neglect in not writing<lb/>
+               it <del>leads to</del>
+               <hi rend="underline">debases</hi>, perhaps vitiates the heart, by <choice>
+                  <orig>render-<lb/>
+                  -ing</orig>
+                  <reg>rendering</reg>
+               </choice> it susceptible of pleasure at the uneasiness of Other's -<lb/>
+               I should be sorry that <persName ref="./Personography.xml#VanX1">Miss Van</persName> therefore was not <unclear>
+                  <hi rend="underline">devabusie</hi>
+               </unclear>
+               <lb/>
+               on this head - - - - - - - - - - </p>
+            <lb/>
+            <p>Adieu, the length of your letter my dear <persName ref="./Personography.xml#HoarF1">Miss Robinson</persName>
+               <lb/>
+               convinces me that you are not tired with mine - But <choice>
+                  <orig>seri<lb/>
+               -ously</orig>
+                  <reg>seriously</reg>
+               </choice> will you forgive me for my neglect in not writing<lb/>
                to you sooner? a . . . you smile. . . . Well then as it is my<lb/>
-               first offence I hope I may be allowed the Benefit of the <choice><orig>Cler<lb/>
-               gy</orig><reg>Clergy</reg></choice>. . . I refer my case not to your Justice, but to your Mercy -</p><lb/>
-             
+               first offence I hope I may be allowed the Benefit of the <choice>
+                  <orig>Cler<lb/>
+               gy</orig>
+                  <reg>Clergy</reg>
+               </choice>. . . I refer my case not to your Justice, but to your Mercy -</p>
+            <lb/>
             <closer>
-             <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth -</persName><lb/>
+               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth -</persName>
+               <lb/>
             </closer>
          </div>
       </body>

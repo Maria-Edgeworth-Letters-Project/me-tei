@@ -53,7 +53,7 @@
                <licence>Distributed under a Creative Commons Attribution-ShareAlike 3.0 Unported
                   License</licence>
             </availability>
-            <idno>Edgeworth_Princeton_1816-01</idno> 
+            <idno>Edgeworth_Princeton_1816-01</idno>
          </publicationStmt>
          <seriesStmt>
             <title>Maria Edgeworth Letters Project</title>
@@ -66,17 +66,16 @@
                   <collection><!-- Enter specific archival collection if applicable--></collection>
                   <idno><!--Consult library or WorldCat for this info--></idno>
                </msIdentifier>
-               
                <!-- FROM LAURA: it's here (below) in the head that I added the full information about the author,
                   and you could add full information about the addressee as well. -->
                <head>Letter from 
                      <persName xml:id="EdgeM1" from="1768" to="1849">
-                        <forename>Maria</forename>
-                        <surname>Edgeworth</surname>
-                        <date>1768-1849</date>
-                        <idno type="VIAF">71477273</idno>
-                        <idno type="SNAC">62567029</idno>
-                     </persName>
+                     <forename>Maria</forename>
+                     <surname>Edgeworth</surname>
+                     <date>1768-1849</date>
+                     <idno type="VIAF">71477273</idno>
+                     <idno type="SNAC">62567029</idno>
+                  </persName>
                    to <persName>M. Miles</persName>, <placeName>11 Corn Hill</placeName>, 
                   <date when="1816-01-01"> Jan<hi rend="superscript">ry.</hi> 1816</date>
                </head>
@@ -84,10 +83,8 @@
                   <!-- optional physical description of the letter goes here: paper size and condition, seal, postmarks, etc.-->
                </physDesc>
             </msDesc>
-            
             <!-- FROM LAURA: where to put the following information in <bibl> is still a question: 
                ask TEI List whether it should be in the sourceDesc or elsewhere? -->
-            
             <bibl>In addition to our edited version, this letter was previously published in
                <!--complete bibiographical info if letter was published in a book here - if not delete-->
             </bibl>
@@ -141,31 +138,68 @@
             </opener>
             <p>
                We thank you for your very<lb/>
-               obliging letter of the <unclear>8nt<hi rend="superscript">h</hi></unclear><lb/></p>
-            <p>We have been offered <del><unclear>three</unclear></del><add>four</add> hundred <choice><orig>gui<lb/>
-               neas</orig><reg>guineas</reg></choice> for two volumes of <title ref="./Workography.xml#Early1">Early Lessons</title><lb/>
-               &amp; <del><unclear>four</unclear></del><add>three</add> hundred guineas for two<lb/>
-               volumes - of<lb/></p>
-            <p><title ref="./Workography.xml#Comic1">'Juvenile dramas"</title> <del>same size as <title ref="./Workography.xml#Early1">Early Lessons</title>,</del><lb/>
-               <hi rend="underline">not intended for representation"</hi><lb/>
+               obliging letter of the <unclear>8nt<hi rend="superscript">h</hi>
+               </unclear>
+               <lb/>
+            </p>
+            <p>We have been offered <del>
+                  <unclear>three</unclear>
+               </del>
+               <add>four</add> hundred <choice>
+                  <orig>gui<lb/>
+               neas</orig>
+                  <reg>guineas</reg>
+               </choice> for two volumes of <title ref="./Workography.xml#Early1">Early Lessons</title>
+               <lb/>
+               &amp; <del>
+                  <unclear>four</unclear>
+               </del>
+               <add>three</add> hundred guineas for two<lb/>
+               volumes - of<lb/>
+            </p>
+            <p>
+               <title ref="./Workography.xml#Comic1">'Juvenile dramas"</title>
+               <del>same size as <title ref="./Workography.xml#Early1">Early Lessons</title>,</del>
+               <lb/>
+               <hi rend="underline">not intended for representation"</hi>
+               <lb/>
                These though far superior, &amp; <add>more</add> difficult<lb/>
                in composition - <del>they</del> are not probably<lb/>
-               such marketable commodities as <hi rend="underline">"Early</hi><lb/>
-               <hi rend="underline">Lessons."</hi><lb/></p>
-            <p>Be so kind as to tell me your <choice><orig>opi-<lb/>
-               nion</orig><reg>opinion</reg></choice> upon this subject.<lb/>
+               such marketable commodities as <hi rend="underline">"Early</hi>
+               <lb/>
+               <hi rend="underline">Lessons."</hi>
+               <lb/>
+            </p>
+            <p>Be so kind as to tell me your <choice>
+                  <orig>opi-<lb/>
+               nion</orig>
+                  <reg>opinion</reg>
+               </choice> upon this subject.<lb/>
             </p>
             <closer>
                I am Dear Sir<lb/>
-               Your <choice><orig>Obed<hi rend="superscript">t</hi>.</orig><reg>Obedient</reg></choice> <choice><orig>Serv<hi rend="superscript">t</hi>.</orig><reg>Servant</reg></choice><lb/>
+               Your <choice>
+                  <orig>Obed<hi rend="superscript">t</hi>.</orig>
+                  <reg>Obedient</reg>
+               </choice>
+               <choice>
+                  <orig>Serv<hi rend="superscript">t</hi>.</orig>
+                  <reg>Servant</reg>
+               </choice>
+               <lb/>
             </closer>
             <!--You can include a <pb/> here, or inside the postScript.-->
             <closer><!--Use the <closer> element again to hold Address Leaf information.-->
                <pb n="2" facs="Edgeworth_ Princeton_1816-01_page02.jpg"/>
                <address>
-                  <addrLine>Copy to <persName ref="./Personography.xml#MileX2">M<hi rend="superscript">r.</hi> Miles</persName> Jan<hi rend="superscript">ry.</hi> 1816</addrLine><lb/>
-                  <addrLine>M<hi rend="superscript">r.</hi> Chater</addrLine><lb/>
-                  <addrLine><placeName ref=".Placeography.xml#Corn-Hill_XX">11 Corn Hill</placeName> </addrLine><lb/>
+                  <addrLine>Copy to <persName ref="./Personography.xml#MileX2">M<hi rend="superscript">r.</hi> Miles</persName> Jan<hi rend="superscript">ry.</hi> 1816</addrLine>
+                  <lb/>
+                  <addrLine>M<hi rend="superscript">r.</hi> Chater</addrLine>
+                  <lb/>
+                  <addrLine>
+                     <placeName ref=".Placeography.xml#Corn-Hill_XX">11 Corn Hill</placeName>
+                  </addrLine>
+                  <lb/>
                   <!--Include any text written on the address leaf; use a separate "addrLine" for each line and indicate line breaks. -->
                </address>
             </closer>

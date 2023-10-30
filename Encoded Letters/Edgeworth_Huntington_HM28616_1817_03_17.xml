@@ -52,8 +52,6 @@
                </resp>
             </respStmt>
          </editionStmt>
-         
-         
          <publicationStmt>
             <authority>Maria Edgeworth Letters Project</authority>
             <date>2023</date>
@@ -64,8 +62,7 @@
                <licence>Distributed under a Creative Commons Attribution-ShareAlike 3.0 Unported
                   License</licence>
             </availability>
-            
-            <idno>Edgeworth_Huntington_HM28616_1817_03_17</idno> 
+            <idno>Edgeworth_Huntington_HM28616_1817_03_17</idno>
          </publicationStmt>
          <seriesStmt>
             <title>Maria Edgeworth Letters Project</title>
@@ -81,11 +78,11 @@
                   <idno/>
                   <!--Consult library or WorldCat for this info-->
                </msIdentifier>
-               
                <head>Letter from 
                   <persName ref="./Personography.xml#BeauF1">Sir Francis Beaufort</persName>
                   to <persName ref="./Personography.xml#BeauA1">Alicia (Wilson) Beaufort</persName>
-                  <date when="1817-03-17"/><del>April</del> March 17.17
+                  <date when="1817-03-17"/>
+                  <del>April</del> March 17.17
                </head>
                <physDesc>
                </physDesc>
@@ -93,7 +90,6 @@
             <bibl>In addition to our edited version, this letter was previously published in
                <!--complete bibiographical info if letter was published in a book here-->
             </bibl>
-            
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
@@ -106,7 +102,6 @@
                word is split at the end of a line and the beginning of the next in a manuscript. The
                long s and ligatured forms are silently emended.</p>
          </editorialDecl>
-         
          <classDecl>
             <taxonomy xml:id="relators">
                <bibl>Marc Relators</bibl>
@@ -223,10 +218,14 @@
             <taxonomy xml:id="places">
                <bibl>Places</bibl>
                <category>
-                  <catDesc xml:id="EdgeworthsTown">Edgeworths' Town<idno type="getty">tgn/1042937</idno></catDesc>
-                  <catDesc xml:id="Peterborough">Peterborough, UK<idno type="getty">tgn/7026520</idno></catDesc>
-                  <catDesc xml:id="CranfordI">Cranford, Ireland<idno type="getty">tgn/7901042</idno></catDesc>
-                  <catDesc xml:id="Kettering">Kettering, UK<idno type="getty">tgn/7010904</idno></catDesc>
+                  <catDesc xml:id="EdgeworthsTown">Edgeworths' Town<idno type="getty">tgn/1042937</idno>
+                  </catDesc>
+                  <catDesc xml:id="Peterborough">Peterborough, UK<idno type="getty">tgn/7026520</idno>
+                  </catDesc>
+                  <catDesc xml:id="CranfordI">Cranford, Ireland<idno type="getty">tgn/7901042</idno>
+                  </catDesc>
+                  <catDesc xml:id="Kettering">Kettering, UK<idno type="getty">tgn/7010904</idno>
+                  </catDesc>
                </category>
             </taxonomy>
             <taxonomy xml:id="period">
@@ -236,7 +235,6 @@
                </category>
             </taxonomy>
          </classDecl>
-         
       </encodingDesc>
       <profileDesc>
          <correspDesc>
@@ -247,7 +245,6 @@
                <persName ref="./Personography.xml#BeauA1">Alicia (Wilson) Beaufort</persName>
             </correspAction>
          </correspDesc>
-         
          <textClass>
             <keywords scheme="">
                <list type="simple">
@@ -272,21 +269,37 @@
             <opener>
                <dateline>
                   <placeName ref="./Placeography.xml#Edgeworthstown_IE">Edgeworthstown</placeName>
-                  <date when="1817-03-17"/><del>April</del> March 17.17</dateline><lb/>
+                  <date when="1817-03-17"/>
+                  <del>April</del> March 17.17</dateline>
+               <lb/>
                <salute>
                   My dearest wife<lb/>
                </salute>
             </opener>
-
-            <p>Tuesday last we left <placeName ref="./Placeography.xml#Collon_IE">Collon</placeName><lb/>
+            <p>Tuesday last we left <placeName ref="./Placeography.xml#Collon_IE">Collon</placeName>
+               <lb/>
                at 3, crossed the Boyne at <placeName ref="./Placeography.xml#Slane_IE">Slane</placeName> - passed the<lb/>
                entrance of <placeName ref="./Placeography.xml#Beau-Parc_IE">Beauparc</placeName> (whence you may recollect<lb/>
-               we performed four years ago an aquatic <choice><orig>excur<lb/>
-                  sion</orig><reg>excursion</reg></choice>) called at Violet hill on <placeName ref="./Placeography.xml#Mount-Brabazon_NZ"><choice><abbr>M<hi rend="superscript">t</hi></abbr><reg>Mount</reg></choice> Brabazon</placeName> and<lb/>
-               <placeName ref="./Placeography.xml#Mount-Leonora_WEA_AU">Leonora</placeName> and arrived in good time <del>at</del> <add>for</add> Dinner at<lb/>
-               <placeName ref="./Placeography.xml#Black-Castle_IE">Blackcastle</placeName> - <persName ref="./Personography.xml#NxxxxX1">M<hi rend="superscript">r</hi> <unclear>N</unclear></persName> and his Son <persName ref="./Personography.xml#NxxxxR1">R.</persName> came home<lb/>
+               we performed four years ago an aquatic <choice>
+                  <orig>excur<lb/>
+                  sion</orig>
+                  <reg>excursion</reg>
+               </choice>) called at Violet hill on <placeName ref="./Placeography.xml#Mount-Brabazon_NZ">
+                  <choice>
+                     <abbr>M<hi rend="superscript">t</hi>
+                     </abbr>
+                     <reg>Mount</reg>
+                  </choice> Brabazon</placeName> and<lb/>
+               <placeName ref="./Placeography.xml#Mount-Leonora_WEA_AU">Leonora</placeName> and arrived in good time <del>at</del>
+               <add>for</add> Dinner at<lb/>
+               <placeName ref="./Placeography.xml#Black-Castle_IE">Blackcastle</placeName> - <persName ref="./Personography.xml#NxxxxX1">M<hi rend="superscript">r</hi>
+                  <unclear>N</unclear>
+               </persName> and his Son <persName ref="./Personography.xml#NxxxxR1">R.</persName> came home<lb/>
                   at 7 from the assizes where they had been trying<lb/>
-               <del>the <unclear></unclear></del> <persName ref="./Personography.xml#CollX1">Captain <unclear>Collier</unclear></persName> who you know was at<lb/>
+               <del>the <unclear/>
+               </del>
+               <persName ref="./Personography.xml#CollX1">Captain <unclear>Collier</unclear>
+               </persName> who you know was at<lb/>
                   the head of a famous gang of robbers when you<lb/>
                were in <placeName ref="./Placeography.xml#IE">Ireland</placeName> - he had long abandoned his<lb/>
                predatory calling and lived in retirement, when<lb/>
@@ -299,7 +312,6 @@
                her state in a most amusing cross examination<lb/>
                and so great was the injunction of the jury and<lb/>
                indeed of the whole Court <del>on</del> at her ingratitude<lb/>
-               
                <pb n="2" facs="Edgeworth_Huntington_HM28616_1817_03_17_page02.jpg"/>
 
                and avarice, as the prosecution was evidently<lb/>
@@ -311,55 +323,74 @@
                evidence he <hi rend="underline">was actually acquitted</hi> ! - He<lb/>
                will not however be sent to try his hand again<lb/>
                on the high road as there is another charge against<lb/>
-               him at the <placeName ref="./Placeography.xml#Westmeath_IE"><hi rend="underline">West</hi>meath</placeName> assizes, and which will<lb/>
+               him at the <placeName ref="./Placeography.xml#Westmeath_IE">
+                  <hi rend="underline">West</hi>meath</placeName> assizes, and which will<lb/>
                probably procure him a passage to <placeName ref="./Placeography.xml#Botany-Bay_NSW_AU">Botany bay</placeName>,<lb/>
                - Then I suppose he will be made a useful<lb/>
                member of that commonwealth - probably he<lb/>
                will be a judge or high in some office - before<lb/>
                you and assume that government - Indeed<lb/>
                we shall have <unclear>numerous</unclear> acquaintance there<lb/>
-               from the place of my birth - and <persName ref="./Personography.xml#RuxtS1">Sophy R.</persName><lb/>
+               from the place of my birth - and <persName ref="./Personography.xml#RuxtS1">Sophy R.</persName>
+               <lb/>
                had begged to give me sundry letters of recommendation<lb/>
-               <del>from</del> for <persName ref="./Personography.xml#RuxtJ1">her father</persName>'s tenants -<lb/></p>
-            <p>From <placeName ref="./Placeography.xml#Navan_IE"><unclear>Navan</unclear></placeName> to <placeName ref="./Placeography.xml#Kells_IE">Kells</placeName> - thence to <placeName ref="./Placeography.xml#Castlepollard-IE">Castle Pollard</placeName><lb/>
+               <del>from</del> for <persName ref="./Personography.xml#RuxtJ1">her father</persName>'s tenants -<lb/>
+            </p>
+            <p>From <placeName ref="./Placeography.xml#Navan_IE">
+                  <unclear>Navan</unclear>
+               </placeName> to <placeName ref="./Placeography.xml#Kells_IE">Kells</placeName> - thence to <placeName ref="./Placeography.xml#Castlepollard-IE">Castle Pollard</placeName>
+               <lb/>
                the most dreadfully nasty place that human<lb/>
                imagination can conceive - no house there<lb/>
                now, but <persName ref="./Personography.xml#EdgeR1">M<hi rend="superscript">r</hi> E</persName>'s new landau, the <unclear>lightest</unclear> and<lb/>
-               
                <pb n="3" facs="Edgeworth_Huntington_HM28616_1817_03_17_page03.jpg"/>
 
                easiest carriage I ever entered, <unclear>commenced</unclear> on<lb/>
                to <placeName ref="./Placeography.xml#Edgeworthstown_IE">Etown</placeName> - on the whole I had a very pleasant<lb/>
                journey, the day was clear - the weather was<lb/>
                actually hot - the warm limestone soil had<lb/>
-               pushed the spring far beyond that of <placeName ref="./Placeography.xml#Collon_IE"><unclear>Collon </unclear></placeName>-<lb/>
-               the birds were singing &amp; prinking, and at <placeName ref="./Placeography.xml#Edgeworthstown_IE">Etown</placeName><lb/>
+               pushed the spring far beyond that of <placeName ref="./Placeography.xml#Collon_IE">
+                  <unclear>Collon </unclear>
+               </placeName>-<lb/>
+               the birds were singing &amp; prinking, and at <placeName ref="./Placeography.xml#Edgeworthstown_IE">Etown</placeName>
+               <lb/>
                I met the warmest &amp; kindest welcome -<lb/>
                nothing, the whole party said was wanted to<lb/>
                make them happy but your having accompanied<lb/>
                me - <persName ref="./Personography.xml#EdgeR1">M<hi rend="superscript">r </hi>E.</persName> is shockingly reduced indeed,<lb/>
                in flesh in strength in activity in everything<lb/>
                but the vigour and clearness of his mind which<lb/>
-               is undiminished - <persName ref="./Personography.xml#EdgeF3">Fanny</persName> and the <add>other</add> <unclear>elders</unclear><lb/>
+               is undiminished - <persName ref="./Personography.xml#EdgeF3">Fanny</persName> and the <add>other</add>
+               <unclear>elders</unclear>
+               <lb/>
                all in <unclear>statu quo</unclear> - <persName ref="./Personography.xml#EdgeF3">Fan</persName> and the youngsters are<lb/>
                prodigiously improved indeed - <persName ref="./Personography.xml#EdgeH1">Harriet</persName> quite<lb/>
                softened and polished, the constant and tender<lb/>
-               nurse of her <persName ref="./Personography.xml#EdgeR1">father</persName> - <persName ref="./Personography.xml#EdgeS1">Sophy</persName> <add>the quaker</add> grown large and<lb/>
+               nurse of her <persName ref="./Personography.xml#EdgeR1">father</persName> - <persName ref="./Personography.xml#EdgeS1">Sophy</persName>
+               <add>the quaker</add> grown large and<lb/>
                very pretty sedate and mild and sensible -<lb/>
-                  <persName ref="./Personography.xml#EdgeL1">Lucy</persName> tall, very like <persName ref="./Personography.xml#EdgeF3">Fan</persName>, her memory strong, her<lb/>
+               <persName ref="./Personography.xml#EdgeL1">Lucy</persName> tall, very like <persName ref="./Personography.xml#EdgeF3">Fan</persName>, her memory strong, her<lb/>
                powers of mind opened and in every way doing justice<lb/>
                to my prognostics - <persName ref="./Personography.xml#EdgeF1">Francis</persName> has <add>lost his</add> little pedantic<lb/>
-               stiffness, is as playful as a kitten and as <choice><orig>intel<lb/>
-                  ligent</orig><reg>intelligent</reg></choice> and quick as any of the theoretic personages<lb/>
-
+               stiffness, is as playful as a kitten and as <choice>
+                  <orig>intel<lb/>
+                  ligent</orig>
+                  <reg>intelligent</reg>
+               </choice> and quick as any of the theoretic personages<lb/>
                <pb n="4" facs="Edgeworth_Huntington_HM28616_1817_03_17_page04.jpg"/>
 
-               of <title ref="./Workography.xml#Pract1"><choice><abbr>Prac. Ed.</abbr><reg>Education</reg></choice></title> - Pakenham is in breeches and the<lb/>
+               of <title ref="./Workography.xml#Pract1">
+                  <choice>
+                     <abbr>Prac. Ed.</abbr>
+                     <reg>Education</reg>
+                  </choice>
+               </title> - Pakenham is in breeches and the<lb/>
                sweetest mildest little fellow (next to <persName ref="./Personography.xml#BeauD2">DAB</persName> &amp; <persName ref="./Personography.xml#BeauF2">Francis</persName>)<lb/>
                in the world - I now saw such an engaging<lb/>
-               picture of union and happiness <del></del> as the whole<lb/>
+               picture of union and happiness <del/> as the whole<lb/>
                circle - some unpleasant reflections now and<lb/>
-               then flit across their brows at the state of <del>their</del><lb/>
+               then flit across their brows at the state of <del>their</del>
+               <lb/>
                the master and centre of the circle - but you<lb/>
                know the constant employment and activity here<lb/>
                leaves but little time for melancholy apprehension,<lb/>
@@ -375,36 +406,46 @@
                exhausted that he can hardly stick his fork<lb/>
                in the bit of meat he cuts! - Friday he and<lb/>
                I went to <placeName ref="./Placeography.xml#Longford_IE">Longford</placeName> to examine the bridge which<lb/>
-               <persName ref="./Personography.xml#EdgeW1">William</persName> is to rebuild - <del>Yesterday</del> <add>Saturday</add> we <unclear>went</unclear><lb/>
+               <persName ref="./Personography.xml#EdgeW1">William</persName> is to rebuild - <del>Yesterday</del>
+               <add>Saturday</add> we <unclear>went</unclear>
+               <lb/>
                to <unclear>Lisney</unclear> to inspect a new road - and today<lb/>
                we have been making a model for a new fashioned<lb/>
                bridge<lb/>
-
                <pb n="5" facs="Edgeworth_Huntington_HM28616_1817_03_17_page05.jpg"/>
 
                bridge. In truth he is a most extraordinary<lb/>
                man - <persName ref="./Personography.xml#EdgeM1">Maria</persName> is hard at work on 3 vol<lb/>
                of <title ref="./Workography.xml#Paren1">tales</title> which will make their appearance in<lb/>
-               June - (her <title ref="./Workography.xml#Comic1"><unclear>dramas</unclear></title> are already in the press)<lb/>
+               June - (her <title ref="./Workography.xml#Comic1">
+                  <unclear>dramas</unclear>
+               </title> are already in the press)<lb/>
                -  <persName ref="./Personography.xml#EdgeR1">her father</persName> is pressing her hard as he earnestly<lb/>
                wishes to see this one more work out before<lb/>
-               he dies! - The <del>subject</del> <add>occasion</add> of one of the tales is<lb/>
+               he dies! - The <del>subject</del>
+               <add>occasion</add> of one of the tales is<lb/>
                curious - <persName ref="./Personography.xml#EdgeM1">Maria</persName> a year ago received a letter<lb/>
-               from a very sensible woman in <placeName ref="./Placeography.xml#US">America</placeName> <unclear>expressing</unclear><lb/>
+               from a very sensible woman in <placeName ref="./Placeography.xml#US">America</placeName>
+               <unclear>expressing</unclear>
+               <lb/>
                <del>the </del>her admiration of the works and containing<lb/>
-               some excellent observations - but gently <unclear>reporting</unclear><lb/>
+               some excellent observations - but gently <unclear>reporting</unclear>
+               <lb/>
                her with having in no instance mentioned a<lb/>
-               Jew without branding him with all the <choice><orig>common-<lb/>
-                  -place</orig><reg>commonplace</reg></choice> acrimony of vulgar writers - "Yet" says<lb/>
+               Jew without branding him with all the <choice>
+                  <orig>common-<lb/>
+                  -place</orig>
+                  <reg>commonplace</reg>
+               </choice> acrimony of vulgar writers - "Yet" says<lb/>
                the fair Israelite writer "can it be believed that<lb/>
                this race of men are by Nature mean avaricious<lb/>
-               and unprincipled? - Forbid it Mercy! <del></del><lb/>
+               and unprincipled? - Forbid it Mercy! <del/>
+               <lb/>
                In those parts of the world where the people<lb/>
                are oppressed and the continual subjects of<lb/>
                scorn and derision they may in too many<lb/>
                instances <unclear>draw</unclear> censure: but in this happy<lb/>
                country where religious distinctions are unknown<lb/>
-
                <pb n="6" facs="Edgeworth_Huntington_HM28616_1817_03_17_page06.jpg"/>
 
 - &amp; when character and talents are sufficient<lb/>
@@ -419,7 +460,8 @@
                looks on the variations of the other as things of<lb/>
                course - as differences which necessarily take<lb/>
                place in every society." - And much more<lb/>
-               in another letter - In consequence <persName ref="./Personography.xml#EdgeM1">Maria</persName><lb/>
+               in another letter - In consequence <persName ref="./Personography.xml#EdgeM1">Maria</persName>
+               <lb/>
                has composed a story on purpose to place<lb/>
                a Jew in a more favourable point of view.<lb/>
                <persName ref="./Personography.xml#StaeA1">Madame de Staël</persName>'s new work will possibly<lb/>
@@ -430,12 +472,13 @@
                renewed - <persName ref="./Personography.xml#StaeA1">The Baroness</persName> has chosen but<lb/>
                an unpromising title, at least <del>a</del> for this<lb/>
                country - the public seem quite sick of cause<lb/>
-
                <pb n="7" facs="Edgeworth_Huntington_HM28616_1817_03_17_page07.jpg"/>
 
                and effect. It will be "Sur les causes et les<lb/>
-               effects de la Revolution Francaise" - The <del>English</del><lb/>
-               <placeName ref="./Placeography.xml#FR">French</placeName> <unclear>recollection</unclear> is a threadbare subject in this<lb/>
+               effects de la Revolution Francaise" - The <del>English</del>
+               <lb/>
+               <placeName ref="./Placeography.xml#FR">French</placeName>
+               <unclear>recollection</unclear> is a threadbare subject in this<lb/>
                country - but there is an episode which will<lb/>
                stimulate the curiosity of a large portion<lb/>
                of readers - "L'Angleterre" - So rarely have<lb/>
@@ -445,27 +488,40 @@
                to look in the glass, though shaped and polished<lb/>
                by hands not quite free from prejudice -<lb/>
                <persName ref="./Personography.xml#StaeA1">Mad<hi rend="superscript">me</hi> de Stael</persName> saw a great deal of <persName ref="./Personography.xml#ByroG1">Lord<lb/>
-                  Byron</persName> last summer at <placeName ref="./Placeography.xml#Coppet_SZ">Copet</placeName> - with the <choice><orig>questi-<lb/>
-                  oning</orig><reg>questioning</reg></choice> licence of literary ladies she asked<lb/>
+                  Byron</persName> last summer at <placeName ref="./Placeography.xml#Coppet_SZ">Copet</placeName> - with the <choice>
+                  <orig>questi-<lb/>
+                  oning</orig>
+                  <reg>questioning</reg>
+               </choice> licence of literary ladies she asked<lb/>
                him whether he had read <title ref="./Workography.xml#Glena1">Glenavon</title>, and<lb/>
                if he thought it a good likeness - He replied<lb/>
                "Le portrait aurait ete plus resemblant de<lb/>
                j'avais donne plus de seances." - Talking<lb/>
                of <persName ref="./Personography.xml#ByroG1">Lord Byron</persName>, I may add that one of Marie's<lb/>
-                  correspondents, says <add>that since <add>his</add> residence at <placeName ref="./Placeography.xml#Geneva_SZ">Geneva</placeName></add> he appears to be dwindling<lb/>
+                  correspondents, says <add>that since <add>his</add> residence at <placeName ref="./Placeography.xml#Geneva_SZ">Geneva</placeName>
+               </add> he appears to be dwindling<lb/>
                into a mere imitation of the Lake poets. This<lb/>
-
                <pb n="8" facs="Edgeworth_Huntington_HM28616_1817_03_17_page08.jpg"/>
 
-               corresponding <choice><abbr>gent<hi rend="superscript">n</hi></abbr><reg>gentleman</reg></choice> says he had been much<lb/>
+               corresponding <choice>
+                  <abbr>gent<hi rend="superscript">n</hi>
+                  </abbr>
+                  <reg>gentleman</reg>
+               </choice> says he had been much<lb/>
                amused by reading <persName ref="./Personography.xml#ByroG1">his lordship</persName>'s journal thro'<lb/>
-               <placeName ref="./Placeography.xml#SZ">Switzerland</placeName> in which <add>are</add> many detached <choice><orig><add>ex</add>pressions</orig><reg>expressions</reg></choice><lb/>
+               <placeName ref="./Placeography.xml#SZ">Switzerland</placeName> in which <add>are</add> many detached <choice>
+                  <orig>
+                     <add>ex</add>pressions</orig>
+                  <reg>expressions</reg>
+               </choice>
+               <lb/>
                characteristic of the poet and of the man. - Among<lb/>
                them is a curious description of a great cascade<lb/>
                900 feet high that <unclear>carves</unclear> in falling over a rock:<lb/>
                - he says its shape is like "the Tail of a white<lb/>
                horse streaming in the wind, such as might<lb/>
-               be <unclear>conceived</unclear> would be that of the <hi rend="underline">Pale Horse </hi><lb/>
+               be <unclear>conceived</unclear> would be that of the <hi rend="underline">Pale Horse </hi>
+               <lb/>
                on which Death is mounted in the Apocalypse<lb/>
                neither mist nor water but something between<lb/>
                both, wonderful &amp; indescribable." One of the<lb/>
@@ -479,7 +535,6 @@
                <persName ref="./Personography.xml#ByroA1">L<hi rend="superscript">d</hi> B.</persName> and his lady have any design of being<lb/>
                again reconciled - I saw a letter this morning<lb/>
                from<lb/>
-
                <pb n="9" facs="Edgeworth_Huntington_HM28616_1817_03_17_page09.jpg"/>
 
                from a friend of hers - deprecating the insidious<lb/>
@@ -488,22 +543,29 @@
                grows up - plots for such distant operations<lb/>
                certainly do not look like reunion at present.<lb/>
                The writer of the letter also says that <persName ref="./Personography.xml#ByroA1">Lady<lb/>
-               B.</persName> has recovered the roses and <unclear>cheerfulness </unclear><lb/>
+               B.</persName> has recovered the roses and <unclear>cheerfulness </unclear>
+               <lb/>
                which she had entirely lost <unclear>which</unclear> with her<lb/>
                husband -<lb/>
                The <persName ref="./Personography.xml#SyngJ1">M<hi rend="superscript">r</hi> Synge</persName> you mention is father<lb/>
-               of the translator of one of <unclear><persName ref="./Personography.xml#PestJ1">Pestalozzi</persName>'s</unclear> little<lb/>
+               of the translator of one of <unclear>
+                  <persName ref="./Personography.xml#PestJ1">Pestalozzi</persName>'s</unclear> little<lb/>
                works and will probably tell you when<lb/>
                you can purchase a copy.<lb/>
                <persName ref="./Personography.xml#EdgeL2">Lovell</persName>'s school proceeds very well<lb/>
                the change in manners and application<lb/>
                of all the poor boys about the town is<lb/>
-               astonishing, and if he <choice><orig>persevers</orig><reg>perseveres</reg></choice>, the<lb/>
+               astonishing, and if he <choice>
+                  <orig>persevers</orig>
+                  <reg>perseveres</reg>
+               </choice>, the<lb/>
                effect here and wherever he may be<lb/>
                imitated will have a material influence<lb/>
                on the character of this country - I never<lb/>
                look at one of these schools without<lb/>
-               Poor <unclear><persName ref="./Personography.xml#EdgeL2">Lovell</persName></unclear> is still in <placeName ref="./Placeography.xml#Dublin_IE">Dublin</placeName> under<lb/>
+               Poor <unclear>
+                  <persName ref="./Personography.xml#EdgeL2">Lovell</persName>
+               </unclear> is still in <placeName ref="./Placeography.xml#Dublin_IE">Dublin</placeName> under<lb/>
                the hands of <persName ref="./Personography.xml#CramX1">Crampton</persName> &amp; has<lb/>
                been<lb/>
                obliged<lb/>
@@ -512,9 +574,12 @@
                to a<lb/>
                second<lb/>
                operation<lb/>
-               <unclear>after 3 in</unclear><lb/>
-               <unclear>in be right</unclear><lb/>
-               -<unclear> the</unclear><lb/>
+               <unclear>after 3 in</unclear>
+               <lb/>
+               <unclear>in be right</unclear>
+               <lb/>
+               -<unclear> the</unclear>
+               <lb/>
                sinus<lb/>
                running<lb/>
                under<lb/>
@@ -522,21 +587,26 @@
                cartilige<lb/>
                of his<lb/>
                ribs<lb/>
-
                <pb n="10" facs="Edgeworth_Huntington_HM28616_1817_03_17_page10.jpg"/>
 
                feeling how much good an active and<lb/>
                philanthropic enthusiast may do - and<lb/>
-               <del></del> still more deeply feeling that in<lb/>
-               tying you to a man of my confined <choice><orig>circum-<lb/>
-                  stances</orig><reg>circumstances</reg></choice> I have robbed society of an agent<lb/>
+               <del/> still more deeply feeling that in<lb/>
+               tying you to a man of my confined <choice>
+                  <orig>circum-<lb/>
+                  stances</orig>
+                  <reg>circumstances</reg>
+               </choice> I have robbed society of an agent<lb/>
                who is married to a country gentleman in<lb/>
-               a more flourishing way might have <unclear>dispensed</unclear><lb/>
+               a more flourishing way might have <unclear>dispensed</unclear>
+               <lb/>
                the real blessings of Providence to miles<lb/>
                around you<lb/>
                It is now time to reply to your long<lb/>
                and interesting letter of the 4th which I found<lb/>
-               here - Your account of <persName ref="./Personography.xml#BeauD2">D.</persName> &amp; <persName ref="./Personography.xml#BeauF2">F.</persName> <unclear>was</unclear><lb/>
+               here - Your account of <persName ref="./Personography.xml#BeauD2">D.</persName> &amp; <persName ref="./Personography.xml#BeauF2">F.</persName>
+               <unclear>was</unclear>
+               <lb/>
                satisfactory - Would to God that you could<lb/>
                have equally gratified me about poor <persName ref="./Personography.xml#BeauA2">A.</persName> - I<lb/>
                have been endeavouring to obtain some knowledge<lb/>
@@ -544,13 +614,14 @@
                seems <del>to</del> clearly to have - in order to<lb/>
                make up my mind as to the propriety of<lb/>
                early or late operation - the first thing<lb/>
-               I shall do on my return to <placeName ref="./Placeography.xml#London_ENK">London</placeName> <add>will be</add> to<lb/>
+               I shall do on my return to <placeName ref="./Placeography.xml#London_ENK">London</placeName>
+               <add>will be</add> to<lb/>
                consult some of the best occulists - in<lb/>
-
                <pb n="11" facs="Edgeworth_Huntington_HM28616_1817_03_17_page11.jpg"/>
 
                the mean time it would do no harm if<lb/>
-               you were to let M<hi rend="superscript">r</hi> <unclear>Each</unclear> examine it - <lb/>
+               you were to let M<hi rend="superscript">r</hi>
+               <unclear>Each</unclear> examine it - <lb/>
                &amp; I do not see why you should object to<lb/>
                it - provided always that the <persName ref="./Personography.xml#GriffX1">Griffith</persName>'s<lb/>
                may not be amazed - but they need not<lb/>
@@ -560,17 +631,21 @@
                eye is reflected, as Cataracts occur in<lb/>
                the capsule, the lens &amp;c - There is<lb/>
                one little favour I would ask at your<lb/>
-               hands - <hi rend="underline">not to read any thing on the subject</hi><lb/>
-               learn as much as you <del>can</del><add>like</add> in conversation<lb/>
+               hands - <hi rend="underline">not to read any thing on the subject</hi>
+               <lb/>
+               learn as much as you <del>can</del>
+               <add>like</add> in conversation<lb/>
                but read none - My reasons need not<lb/>
                now be explained, but there are reasons.<lb/>
-               The genuflexion which your <persName ref="./Personography.xml#PeacX1">Aunt <unclear>Peach</unclear></persName><lb/>
+               The genuflexion which your <persName ref="./Personography.xml#PeacX1">Aunt <unclear>Peach</unclear>
+               </persName>
+               <lb/>
                requires seems to amuse you - on the<lb/>
                contrary I am seriously alarmed - because<lb/>
                such a speech to Selina appears to me to<lb/>
                proceed from a species of weakness or folly<lb/>
-               so nearly bordering on insanity, which <unclear>acted</unclear><lb/>
-               
+               so nearly bordering on insanity, which <unclear>acted</unclear>
+               <lb/>
                <pb n="12" facs="Edgeworth_Huntington_HM28616_1817_03_17_page12.jpg"/>
 
                upon by the art and cunning of the people<lb/>
@@ -585,21 +660,28 @@
                kindness (and apparent confidence in trifles<lb/>
                which is of all things the most winning<lb/>
                to people of her disposition) convince<lb/>
-               her that in the bosom of her own family <del>and</del><lb/>
-               she will have the first charm of <hi rend="underline">disinterested</hi><lb/>
+               her that in the bosom of her own family <del>and</del>
+               <lb/>
+               she will have the first charm of <hi rend="underline">disinterested</hi>
+               <lb/>
                affection &amp; friendship. - In truth Selina<lb/>
                has <hi rend="underline">per se</hi> an excellent heart, and needs<lb/>
                only to be gradually (but not too apparently)<lb/>
                strengthened - confidence in her (prudently<lb/>
                administered) will have the only chance of<lb/>
-               <del>inducing</del> <add><unclear>preventing</unclear></add> her <del>to</del> seeking a recipient for her's<lb/>
+               <del>inducing</del>
+               <add>
+                  <unclear>preventing</unclear>
+               </add> her <del>to</del> seeking a recipient for her's<lb/>
                out of doors - Give her a kiss for me.<lb/>
                and<lb/>
-
                <pb n="13" facs="Edgeworth_Huntington_HM28616_1817_03_17_page13.jpg"/>
 
-And <unclear>hers</unclear> dear <persName ref="./Personography.xml#BeauH2">Henrietta</persName> also - In <placeName ref="./Placeography.xml#Dublin_IE">Dublin</placeName><lb/>
-               <placeName ref="./Placeography.xml#Collon_IE"><unclear>Collon</unclear></placeName> nor in <hi rend="underline">this</hi> highly gifted bevy of girls<lb/>
+And <unclear>hers</unclear> dear <persName ref="./Personography.xml#BeauH2">Henrietta</persName> also - In <placeName ref="./Placeography.xml#Dublin_IE">Dublin</placeName>
+               <lb/>
+               <placeName ref="./Placeography.xml#Collon_IE">
+                  <unclear>Collon</unclear>
+               </placeName> nor in <hi rend="underline">this</hi> highly gifted bevy of girls<lb/>
                do I find a single sister or relation who is<lb/>
                more truly amiable than she is, nor one who<lb/>
                I more truly love. - <lb/>
@@ -613,22 +695,28 @@ And <unclear>hers</unclear> dear <persName ref="./Personography.xml#BeauH2">Henr
                would voluntarily insult - she is the wife<lb/>
                of <persName ref="./Personography.xml#WilsL2">your father</persName>'s old friend - Besides there<lb/>
                would have been so much coarseness in the<lb/>
-               idea that I am sure if <del>the <unclear>idea</unclear></del> <add>it</add> had even<lb/>
-               <choice><orig>ocurred</orig><reg>occurred</reg></choice> to my imagination I should not have<lb/>
+               idea that I am sure if <del>the <unclear>idea</unclear>
+               </del>
+               <add>it</add> had even<lb/>
+               <choice>
+                  <orig>ocurred</orig>
+                  <reg>occurred</reg>
+               </choice> to my imagination I should not have<lb/>
                had resolution to have brought it out.<lb/>
                All here join in sincere affection to you<lb/>
                and by to be particularly <unclear>remembered</unclear> to some<lb/>
-               <unclear></unclear>, and none more warmly than Aunt Mary.<lb/>
+               <unclear/>, and none more warmly than Aunt Mary.<lb/>
                Remember them also to the <persName ref="./Personography.xml#GriffX1">Griffiths</persName>' and<lb/>
                <unclear>bless</unclear> me my dear <unclear>widowed</unclear> wife<lb/>
-
             </p>
-            <closer></closer>
-            <postscript><p></p></postscript>
-            
+            <closer/>
+            <postscript>
+               <p/>
+            </postscript>
             <pb n="14" facs="Edgeworth_Huntington_HM28616_1817_03_17_page14.jpg"/>
-            
-            <note><unclear></unclear></note>
+            <note>
+               <unclear/>
+            </note>
          </div>
       </body>
       <back> </back>

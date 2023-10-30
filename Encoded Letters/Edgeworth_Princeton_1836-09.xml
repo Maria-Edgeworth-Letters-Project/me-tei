@@ -33,11 +33,12 @@
             <authority>Maria Edgeworth Letters Project</authority>
             <date>2022</date>
             <availability>
-               <p>Reproduced by courtesy of <orgName ref="http://id.loc.gov/authorities/names/n82003163">Princeton University Library</orgName></p>
+               <p>Reproduced by courtesy of <orgName ref="http://id.loc.gov/authorities/names/n82003163">Princeton University Library</orgName>
+               </p>
                <licence>Distributed under a Creative Commons Attribution-ShareAlike 3.0 Unported
                   License</licence>
             </availability>
-            <idno>Edgeworth_Princeton_1836-09</idno> 
+            <idno>Edgeworth_Princeton_1836-09</idno>
          </publicationStmt>
          <seriesStmt>
             <title>Maria Edgeworth Letters Project</title>
@@ -49,7 +50,6 @@
                   <collection><!-- Enter specific archival collection if applicable--></collection>
                   <idno><!--Consult library or WorldCat for this info--></idno>
                </msIdentifier>
-               
                <!-- FROM LAURA: it's here (below) in the head that I added the full information about the author,
                   and you could add full information about the addressee as well. -->
                <head>Letter from 
@@ -95,33 +95,45 @@
    <text>
       <body>
          <div type="letter">
-            <pb n="2" facs="Edgeworth_Princeton_1836-09_page02.jpg"/><!--Letter begins on page two-->
+            <pb n="2" facs="Edgeworth_Princeton_1836-09_page02.jpg"/>
+            <!--Letter begins on page two-->
             <opener>
                <dateline><!--If there's no date line, omit this element. Record in the order in which it is written on the letter.-->
                   <name type="place" ref="Id_where"/>Edgeworth Town
                   <date when="1836-09-28"/>Sep<hi rend="superscript">r</hi> 28<hi rend="superscript">th</hi>. 1836</dateline>
-             </opener>
-            <p><persName ref="./Personography.xml#EdgeM1">Miss Edgeworth</persName> presents her<lb/>
-               compliments to <persName ref="./Personography.xml#GrevX1">Mr Greville</persName><lb/>
-               and returns him most <choice><orig>sin<lb/>
-               cere</orig><reg>sincere</reg></choice> thanks for his very polite<lb/>
+            </opener>
+            <p>
+               <persName ref="./Personography.xml#EdgeM1">Miss Edgeworth</persName> presents her<lb/>
+               compliments to <persName ref="./Personography.xml#GrevX1">Mr Greville</persName>
+               <lb/>
+               and returns him most <choice>
+                  <orig>sin<lb/>
+               cere</orig>
+                  <reg>sincere</reg>
+               </choice> thanks for his very polite<lb/>
                note and his great forbearance<lb/>
                towards her. She is very much<lb/>
                ashamed and really shocked<lb/>
                that after all his goodness and<lb/>
                all the trouble he takes for her<lb/>
                such an annoyance, such<lb/>
-               a most unreasonable <choice><orig>encroach<lb/>
-               ment</orig><reg>encroachment</reg></choice> should have occurred -<lb/>
+               a most unreasonable <choice>
+                  <orig>encroach<lb/>
+               ment</orig>
+                  <reg>encroachment</reg>
+               </choice> should have occurred -<lb/>
                - She has repeatedly warned her<lb/>
                correspondents, especially those<lb/>
                in <placeName ref="./Placeography.xml#US">America</placeName> that they must<lb/>
                not send any books under enclo<lb/>
-               sure to the Council Office in <choice><orig>parti<lb/>
-               cular</orig><reg>particular</reg></choice> - How this American lady<lb/>
+               sure to the Council Office in <choice>
+                  <orig>parti<lb/>
+               cular</orig>
+                  <reg>particular</reg>
+               </choice> - How this American lady<lb/>
                can have dared to sin against this<lb/>
                warning <persName ref="./Personography.xml#EdgeM1">Miss E</persName> cannot imagine<lb/>
-               - only that it is impossible to drive<lb/>          
+               - only that it is impossible to drive<lb/>
             </p>
             <p>
                <!--Where there's a page break record it inside the relevant body paragraph like this, 
@@ -129,18 +141,28 @@
                <pb n="3" facs="Edgeworth_Princeton_1836-09_page03.jpg"/>
                into American republican heads<lb/>
                anything relating to Aristocratic<lb/>
-               English privileges - <choice><orig>Neverthe-<lb/>
-               less</orig><reg>Nevertheless</reg></choice> <persName ref="./Personography.xml#EdgeM1">Miss E</persName> will try again and<lb/>
+               English privileges - <choice>
+                  <orig>Neverthe-<lb/>
+               less</orig>
+                  <reg>Nevertheless</reg>
+               </choice>
+               <persName ref="./Personography.xml#EdgeM1">Miss E</persName> will try again and<lb/>
                now absolutely prohibit this<lb/>
-               offender from sending <hi rend="underline">any</hi><lb/>
+               offender from sending <hi rend="underline">any</hi>
+               <lb/>
                <hi rend="underline">thing</hi> to her friends the Clerks of<lb/>
-               the Council -</p><lb/>
-               <p>If it would not be too much<lb/>
-               trouble <persName ref="./Personography.xml#EdgeM1"><del>Miss E</del></persName> to <persName ref="./Personography.xml#GrevX1">Mr. Greville</persName><lb/>
+               the Council -</p>
+            <lb/>
+            <p>If it would not be too much<lb/>
+               trouble <persName ref="./Personography.xml#EdgeM1">
+                  <del>Miss E</del>
+               </persName> to <persName ref="./Personography.xml#GrevX1">Mr. Greville</persName>
+               <lb/>
                <persName ref="./Personography.xml#EdgeM1">Miss E</persName> would beg the favor of<lb/>
                him to have the book in question<lb/>
                (which ought to be forfeited) sent<lb/>
-               to N<hi rend="superscript">o</hi>. 7 Somerset place-<lb/><!--This has no XML ID because could not identify if in England or Ireland-->
+               to N<hi rend="superscript">o</hi>. 7 Somerset place-<lb/>
+               <!--This has no XML ID because could not identify if in England or Ireland-->
             </p>
             <closer>
                <!--include linebreaks, if used. example: <closer> Yours<lb/> Very sincerely<lb/> -->
@@ -154,7 +176,8 @@
                Sometimes the signature is on page three, the address on page four, then the postscript follows back on the top of page one, for example.-->
             <closer><!--Use the <closer> element again to hold Address Leaf information.-->
                <address>
-                  <addrLine>Miss Edgeworth</addrLine><!--This is written on the outside of the letter, so I imagine it is considered the address?-->
+                  <addrLine>Miss Edgeworth</addrLine>
+                  <!--This is written on the outside of the letter, so I imagine it is considered the address?-->
                </address>
             </closer>
          </div>

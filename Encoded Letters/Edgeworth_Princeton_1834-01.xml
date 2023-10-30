@@ -53,7 +53,7 @@
                <licence>Distributed under a Creative Commons Attribution-ShareAlike 3.0 Unported
                   License</licence>
             </availability>
-            <idno>Edgeworth_ Princeton_1834-01</idno> 
+            <idno>Edgeworth_ Princeton_1834-01</idno>
          </publicationStmt>
          <seriesStmt>
             <title>Maria Edgeworth Letters Project</title>
@@ -67,17 +67,16 @@
                   <collection><!-- Enter specific archival collection if applicable--></collection>
                   <idno>Edgeworth_Princeton_1834-01</idno>
                </msIdentifier>
-               
                <!-- FROM LAURA: it's here (below) in the head that I added the full information about the author,
                   and you could add full information about the addressee as well. -->
                <head>Letter from 
                      <persName xml:id="EdgeM1" from="1768" to="1849">
-                        <forename>Maria</forename>
-                        <surname>Edgeworth</surname>
-                        <date>1768-1849</date>
-                        <idno type="VIAF">71477273</idno>
-                        <idno type="SNAC">62567029</idno>
-                     </persName>
+                     <forename>Maria</forename>
+                     <surname>Edgeworth</surname>
+                     <date>1768-1849</date>
+                     <idno type="VIAF">71477273</idno>
+                     <idno type="SNAC">62567029</idno>
+                  </persName>
                   to <persName ref="./Personography.xml#BentR1">R. Bentley</persName>, <placeName ref="./Placeography.xml#Edgeworthstown_IE">Edgeworthtown</placeName>, 
                   <date when="1834-01-24">Jan<hi rend="superscript">y</hi> 24<hi rend="superscript">th</hi>. 1834</date>
                </head>
@@ -85,10 +84,8 @@
                   <!-- optional physical description of the letter goes here: paper size and condition, seal, postmarks, etc.-->
                </physDesc>
             </msDesc>
-            
             <!-- FROM LAURA: where to put the following information in <bibl> is still a question: 
                ask TEI List whether it should be in the sourceDesc or elsewhere? -->
-            
             <bibl>In addition to our edited version, this letter was previously published in
                <!--complete bibiographical info if letter was published in a book here - if not delete-->
             </bibl>
@@ -135,7 +132,8 @@
             <!--filenames for photos associated with this letter. Example: <pb n="1" facs="image1.jpg image2.jpg image3.jpg"/> -->
             <opener>
                <dateline>
-                  <name type="place" ref="./Placeography.xml#Edgeworthstown_IE">Edgeworthstown</name><lb/>
+                  <name type="place" ref="./Placeography.xml#Edgeworthstown_IE">Edgeworthstown</name>
+                  <lb/>
                   <date when="1834-01-24"/>January 24, 1834. </dateline>
                <salute>
                   Sir
@@ -143,32 +141,54 @@
             </opener>
             <p>
                I approve of the title page<lb/>
-               for <title ref="./Workography.xml#Pract1">Helen</title><lb/></p>
-               <p>I beg you will send the<lb/>
+               for <title ref="./Workography.xml#Pract1">Helen</title>
+               <lb/>
+            </p>
+            <p>I beg you will send the<lb/>
                first copy you can have<lb/>
                stitched together to<lb/>
-               <placeName ref="./Placeography.xml#1-North-Audley-Street_ENK"><choice><orig>N<hi rend="superscript">o</hi>.</orig><reg>Number</reg></choice> 1 North Audley Street</placeName><lb/>
-               to <persName ref="./Personography.xml#EdgeF3">M<hi rend="superscript">rs</hi>. Lestock Wilson</persName><lb/></p>
-               <p>Also I request that instead<lb/>
+               <placeName ref="./Placeography.xml#1-North-Audley-Street_ENK">
+                  <choice>
+                     <orig>N<hi rend="superscript">o</hi>.</orig>
+                     <reg>Number</reg>
+                  </choice> 1 North Audley Street</placeName>
+               <lb/>
+               to <persName ref="./Personography.xml#EdgeF3">M<hi rend="superscript">rs</hi>. Lestock Wilson</persName>
+               <lb/>
+            </p>
+            <p>Also I request that instead<lb/>
                of 9 copies as ordered in<lb/>
                my last to be sent to<lb/>
                <persName ref="./Personography.xml#EdgeF3">M<hi rend="superscript">rs</hi>. L Wilson</persName> you will<lb/>
                send her <hi rend="underline">ten</hi> - independent<lb/>
                of that stitched copy mentioned<lb/>
-               above<lb/></p>
-               <p>I am anxious that you<lb/>
+               above<lb/>
+            </p>
+            <p>I am anxious that you<lb/>
                should send the <hi rend="underline">revises</hi> of<lb/>
-               the last sheets to <persName ref="./Personography.xml#EdgeF3">M<hi rend="superscript">rs</hi>. L Wilson</persName><lb/>
+               the last sheets to <persName ref="./Personography.xml#EdgeF3">M<hi rend="superscript">rs</hi>. L Wilson</persName>
+               <lb/>
             </p>
             <closer>
                I am Sir<lb/>
-               Your <choice><orig>Obed<hi rend="superscript">t</hi>.</orig><reg>Obedient</reg></choice> <choice><orig>Serv<hi rend="superscript">t</hi>.</orig><reg>Servant</reg></choice><lb/>
-               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName><lb/>
+               Your <choice>
+                  <orig>Obed<hi rend="superscript">t</hi>.</orig>
+                  <reg>Obedient</reg>
+               </choice>
+               <choice>
+                  <orig>Serv<hi rend="superscript">t</hi>.</orig>
+                  <reg>Servant</reg>
+               </choice>
+               <lb/>
+               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
+               <lb/>
             </closer>
             <closer>
                <pb n="2" facs="Edgeworth_Princeton_1834-01_page02.jpg"/>
                <address>
-                  <addrLine>R Bentley Esq<hi rend="superscript">r</hi><lb/></addrLine>
+                  <addrLine>R Bentley Esq<hi rend="superscript">r</hi>
+                     <lb/>
+                  </addrLine>
                </address>
             </closer>
          </div>

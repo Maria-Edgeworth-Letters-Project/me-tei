@@ -54,8 +54,7 @@
             <availability>
                <!--Uncomment the appropriate line, based on the archive that holds the physical copy of this letter, 
                   and delete the other comment line(s).-->
-               <p>Courtesy of <orgName ref="http://id.loc.gov/authorities/names/no2017025920"
-                     >Claremont Colleges Library</orgName>. </p>
+               <p>Courtesy of <orgName ref="http://id.loc.gov/authorities/names/no2017025920">Claremont Colleges Library</orgName>. </p>
                <licence>Distributed under a Creative Commons Attribution-ShareAlike 3.0 Unported
                   License</licence>
             </availability>
@@ -72,24 +71,19 @@
                   <collection>Perkins Autograph Letter Collection</collection>
                   <idno><!--Consult library or WorldCat for this info--></idno>
                </msIdentifier>
-
                <!-- FROM LAURA: it's here (below) in the head that I added the full information about the author,
                   and you could add full information about the addressee as well. -->
                <head>Letter from <persName ref="./Personography.xml#EdgeM1"> Maria Edgeworth
                   </persName> to <persName ref="./Personography.xml#SpraW1">Rev. William B.
                      Sprague</persName>,
-                     <placeName><!--Location where letter was sent--></placeName>, <date
-                     when="1841-05-31"
-                     ><!-- Transcribe the date as it appears on the letter itself. Enter a numeric standardized date value in @when. --></date>
+                     <placeName><!--Location where letter was sent--></placeName>, <date when="1841-05-31"><!-- Transcribe the date as it appears on the letter itself. Enter a numeric standardized date value in @when. --></date>
                </head>
                <physDesc>
                   <!-- optional physical description of the letter goes here: paper size and condition, seal, postmarks, etc.-->
                </physDesc>
             </msDesc>
-
             <!-- FROM LAURA: where to put the following information in <bibl> is still a question: 
                ask TEI List whether it should be in the sourceDesc or elsewhere? -->
-
             <bibl>In addition to our edited version, this letter was previously published in
                <!--complete bibiographical info if letter was published in a book here - if not delete-->
             </bibl>
@@ -115,8 +109,7 @@
             <taxonomy xml:id="lcsh">
                <bibl>Subjects</bibl>
                <category>
-                  <catDesc xml:id="AntislaveryMovements">Antislavery movements <idno type="loc"
-                        >sh85123315</idno>
+                  <catDesc xml:id="AntislaveryMovements">Antislavery movements <idno type="loc">sh85123315</idno>
                   </catDesc>
                   <catDesc xml:id="Birth">Birth <idno type="loc">sh86004053</idno>
                   </catDesc>
@@ -126,15 +119,13 @@
                   </catDesc>
                   <catDesc xml:id="Imperialism">Imperialism <idno type="loc">sh85064628</idno>
                   </catDesc>
-                  <catDesc xml:id="FictitiousCharacters">Fictitious characters <idno type="loc"
-                        >sh99004183</idno>
+                  <catDesc xml:id="FictitiousCharacters">Fictitious characters <idno type="loc">sh99004183</idno>
                   </catDesc>
                   <catDesc xml:id="Marriage">Marriage <idno type="loc">sh85081416</idno>
                   </catDesc>
                   <catDesc xml:id="Nationalism">Nationalism <idno type="loc">sh85090150</idno>
                   </catDesc>
-                  <catDesc xml:id="PoliticsAndCulture">Politics and culture <idno type="loc"
-                        >sh85104468</idno>
+                  <catDesc xml:id="PoliticsAndCulture">Politics and culture <idno type="loc">sh85104468</idno>
                   </catDesc>
                   <catDesc xml:id="Race">Race <idno type="loc">sh85110232</idno>
                   </catDesc>
@@ -213,12 +204,11 @@
             <!--filenames for photos associated with this letter. Example: <pb n="1" facs="image1.jpg image2.jpg image3.jpg"/> -->
             <opener>
                <dateline><!--If there's no date line, omit this element. Record in the order in which it is written on the letter.-->
-                  <name type="place" ref="Id_where"/><placeName ref="./Placeography.xml#Dublin_IE"
-                     >Dublin</placeName>
+                  <name type="place" ref="Id_where"/>
+                  <placeName ref="./Placeography.xml#Dublin_IE">Dublin</placeName>
                   <date when="1841-05-31"/>May 31<hi rend="superscript">st</hi>. 1841 </dateline> on
                my way home to <hi rend="underline">Edgeworthstown</hi> to which place please to
-               direct y<hi rend="superscript">r</hi> next <salute>My dear <persName
-                     ref="./Personography.xml#SpraW1">D<hi rend="superscript">r</hi>.
+               direct y<hi rend="superscript">r</hi> next <salute>My dear <persName ref="./Personography.xml#SpraW1">D<hi rend="superscript">r</hi>.
                      Sprague</persName>
                </salute>
             </opener>
@@ -227,13 +217,12 @@
                winter in which I acknowledged the<lb/> receipt of your kind &amp; munificent present
                   <add>(if it be a present)</add> of<lb/>
                <title ref="./Workography.xml#Ameri1">Sillimans Journal</title> - I told you that I
-               had concieved<lb/> the books had been sent to me by either <persName
-                  ref="./Personography.xml#RalsG1">Mr. Ralstone</persName><lb/> or the <persName
-                  ref="./Personography.xml#TickG1"><persName ref="./Personography.xml#TickA1"
-                     >Ticknors</persName></persName> till they assured me that they knew<lb/>
+               had concieved<lb/> the books had been sent to me by either <persName ref="./Personography.xml#RalsG1">Mr. Ralstone</persName>
+               <lb/> or the <persName ref="./Personography.xml#TickG1">
+                  <persName ref="./Personography.xml#TickA1">Ticknors</persName>
+               </persName> till they assured me that they knew<lb/>
                nothing about the matter - &amp; I asked you in my last letter<lb/> to let me know
-               distinctly whether I had commissioned<lb/> you to procure these <title
-                  ref="./Workography.xml#Ameri1">Sillimans Journal</title> for me or<lb/> whether
+               distinctly whether I had commissioned<lb/> you to procure these <title ref="./Workography.xml#Ameri1">Sillimans Journal</title> for me or<lb/> whether
                you voluntarily sent them as a <hi rend="underline">present</hi> to me<lb/> And I
                besought you to answer this question candidly<lb/> that I might not unknowingly
                encroach upon your<lb/> kindness and liberality - I never ~~ that I can <choice>
@@ -243,19 +232,20 @@
                a list of the numbers of <title ref="./Workography.xml#Ameri1">Sillimans<lb/>
                   Journal</title> which are deficient in the bound &amp; unbound<lb/> volumes which
                I have received from you - I <add>will</add> send a<lb/> duplicate <add>list</add> of
-               these deficient numbers <del><unclear>ordered</unclear></del> in this letter<lb/>
+               these deficient numbers <del>
+                  <unclear>ordered</unclear>
+               </del> in this letter<lb/>
             </p>
-            <p> You say that you had intended sending me "several<lb/> of the last N<hi
-                  rend="superscript">os.</hi> of <title ref="./Workography.xml#Ameri1">Sillimans
+            <p> You say that you had intended sending me "several<lb/> of the last N<hi rend="superscript">os.</hi> of <title ref="./Workography.xml#Ameri1">Sillimans
                   Journal</title> but that my<lb/> last letter left you in doubt whether I was
                receiving<lb/> it from some other friend and you say you had<lb/> better wait till
-               you hear from me again rather than<lb/> run the risque of burthening me with <hi
-                  rend="underline">duplicate</hi> No<lb/>
+               you hear from me again rather than<lb/> run the risque of burthening me with <hi rend="underline">duplicate</hi> No<lb/>
             </p>
             <p> From this observation I perceive that you<lb/> cannot have received my last letter
-               in which I certainly<lb/> fully explained to you that I did not receive <title
-                  ref="./Workography.xml#Ameri1"><hi rend="underline">Silliman's<lb/>
-                  Journal</hi></title> from any friend except yourself - And that<lb/> I never knew
+               in which I certainly<lb/> fully explained to you that I did not receive <title ref="./Workography.xml#Ameri1">
+                  <hi rend="underline">Silliman's<lb/>
+                  Journal</hi>
+               </title> from any friend except yourself - And that<lb/> I never knew
                that I was indebted to you for them till you informed<lb/>
                <pb n="2" facs="Edgeworth_Claremont_00583_1840-05_page02.jpg"/> me that you had sent
                them - I am really concerned<lb/> that my letter of thanks has never reached you
@@ -263,67 +253,63 @@
                attention and kindness -<lb/>
             </p>
             <p> You say in your last of April 26<hi rend="superscript">th</hi> - 41 that you
-                     <del><unclear>beq</unclear></del><lb/> avail yourself of the kindness of a
+                     <del>
+                  <unclear>beq</unclear>
+               </del>
+               <lb/> avail yourself of the kindness of a
                gentleman from<lb/>
-               <placeName ref="./Placeography.xml#Albany_NY_US"><choice>
+               <placeName ref="./Placeography.xml#Albany_NY_US">
+                  <choice>
                      <orig>Abany</orig>
                      <reg>Albany</reg>
-                  </choice></placeName> who was about to cross the ocean to send me<lb/> a couple of
+                  </choice>
+               </placeName> who was about to cross the ocean to send me<lb/> a couple of
                little volumes which has excited interest<lb/> in your country - the correspondance
                of the <persName ref="./Personography.xml#AdamA1">wife</persName> of the<lb/>
                <persName ref="./Personography.xml#AdamJ1">elder President Adams</persName> - I am
                very much obliged<lb/> to you my dear Sir - But I never have received<lb/> these
-               volumes - Perhaps I shall hear of them soon either<lb/> from <persName
-                  ref="./Personography.xml#BeauF1">Capt<hi rend="superscript">n</hi>.
-                  Beaufort</persName> or <placeName
-                  ref="./Placeography.xml#1-North-Audley-Street_ENK">N<hi rend="superscript">o</hi>.
-                  1 N. Audley St<hi rend="superscript">t</hi></placeName>. Also of the skreen
+               volumes - Perhaps I shall hear of them soon either<lb/> from <persName ref="./Personography.xml#BeauF1">Capt<hi rend="superscript">n</hi>.
+                  Beaufort</persName> or <placeName ref="./Placeography.xml#1-North-Audley-Street_ENK">N<hi rend="superscript">o</hi>.
+                  1 N. Audley St<hi rend="superscript">t</hi>
+               </placeName>. Also of the skreen
                which<lb/> you tell me your <persName ref="./Personography.xml#SpraC1">eldest
                   daughter (Charlotte</persName> has been<lb/> so kind as to make for me - I should
-               be particularly<lb/> sorry to lose that skreen - pray express this to <persName
-                  ref="./Personography.xml#SpraC1">Miss<lb/> Sprague</persName> for me and assure
+               be particularly<lb/> sorry to lose that skreen - pray express this to <persName ref="./Personography.xml#SpraC1">Miss<lb/> Sprague</persName> for me and assure
                her that I will write<lb/> to thank her as soon as the skreen shall reach me<lb/> or
                as soon as I can ascertain where it is - or is not<lb/>
             </p>
             <p> I have spent the last five months - from the<lb/> 10<hi rend="superscript">th</hi>.
                of Dec.<hi rend="superscript">r</hi> to the 29[superscript]th[/superscript]. of this
-               month in England<lb/> - at <placeName
-                  ref="./Placeography.xml#1-North-Audley-Street_ENK">N<hi rend="superscript">o</hi>.
+               month in England<lb/> - at <placeName ref="./Placeography.xml#1-North-Audley-Street_ENK">N<hi rend="superscript">o</hi>.
                   1 North Audley Street</placeName> chiefly, entirely indeed<lb/> excepting one week
                at <placeName ref="./Placeography.xml#Brighton_ENK">Brighton</placeName> and a
-               few<lb/> days in visits near <placeName ref="./Placeography.xml#London_ENK"
-                  >London</placeName> to old friends -<lb/> I have scarcely been out in <placeName
-                  ref="./Placeography.xml#London_ENK">London</placeName> at all, having<lb/> refused
+               few<lb/> days in visits near <placeName ref="./Placeography.xml#London_ENK">London</placeName> to old friends -<lb/> I have scarcely been out in <placeName ref="./Placeography.xml#London_ENK">London</placeName> at all, having<lb/> refused
                all parties and all dinner visits on account<lb/> of the health and situation of my
-               dear sister <persName ref="./Personography.xml#EdgeF3">Fanny<lb/> (M<hi
-                     rend="superscript">rs</hi>. Wilson</persName> wife of <persName
-                  ref="./Personography.xml#WilsL2">Lestock Wilson</persName> - though I did not<lb/>
+               dear sister <persName ref="./Personography.xml#EdgeF3">Fanny<lb/> (M<hi rend="superscript">rs</hi>. Wilson</persName> wife of <persName ref="./Personography.xml#WilsL2">Lestock Wilson</persName> - though I did not<lb/>
                tell you her name I see I gave you an idea of her<lb/> character - And you would have
                a still better idea<lb/> of it if I could describe to you the patience, the
                sweet<lb/> ness of temper, the resignation with which she has<lb/> during all these
-               months borne confinement &amp;<lb/> privation and discipline and <hi rend="underline"
-                  >medicining</hi><hi rend="underline"> not to repose</hi><lb/> and
+               months borne confinement &amp;<lb/> privation and discipline and <hi rend="underline">medicining</hi>
+               <hi rend="underline"> not to repose</hi>
+               <lb/> and
                   <add>almost</add> constant pain - and yet enjoying literature &amp;<lb/> never
                letting the smallest kindness of friend or<lb/>
                <persName ref="./Personography.xml#WilsL2">husband</persName> or servant even pass
                unnoticed by word of thanks<lb/>
                <pb n="3" facs="Edgeworth_Claremont_00583_1840-05_page03.jpg"/> or look more
                expressive than words - She is the very<lb/> reverse in manner and character of that
-               sort of<lb/> woman whom the <persName ref="./Personography.xml#ParnT1"
-                  >poet</persName> in his <title ref="./Workography.xml#Hesio1">"<hi
-                     rend="underline">Rise of Woman</hi>"</title><lb/> describes<lb/> "Who makes a
-                  <hi rend="underline">servant</hi> where she finds a <hi rend="underline"
-                  >friend</hi>"<lb/> on the contrary she has made friends where<lb/> she found only
+               sort of<lb/> woman whom the <persName ref="./Personography.xml#ParnT1">poet</persName> in his <title ref="./Workography.xml#Hesio1">"<hi rend="underline">Rise of Woman</hi>"</title>
+               <lb/> describes<lb/> "Who makes a
+                  <hi rend="underline">servant</hi> where she finds a <hi rend="underline">friend</hi>"<lb/> on the contrary she has made friends where<lb/> she found only
                servants - I have seen how much<lb/> &amp; truly <hi rend="underline">friends</hi>
                her servants have shewn themselves<lb/> in their services and their feelings during
-               her long<lb/> Illness - At last she was disappointed &amp; so was<lb/> her <persName
-                  ref="./Personography.xml#WilsL2">husband</persName> (for the third time)
+               her long<lb/> Illness - At last she was disappointed &amp; so was<lb/> her <persName ref="./Personography.xml#WilsL2">husband</persName> (for the third time)
                disappointed in the<lb/> hopes of the blessing they so much wished for of a
                child<lb/>
             </p>
             <p> My poor <persName ref="./Personography.xml#EdgeF3">sisters</persName> child was at
-               the end of seven<lb/> months - still born - and when her <persName
-                  ref="./Personography.xml#WilsL2">husband</persName><lb/> had piously and tenderly
+               the end of seven<lb/> months - still born - and when her <persName ref="./Personography.xml#WilsL2">husband</persName>
+               <lb/> had piously and tenderly
                forgotten <del>his</del> or conquered<lb/> his disappointment for the loss of the
                child in his<lb/> thanksgiving that the <hi rend="underline">wife</hi> (mother no
                more) was<lb/> spared to him, She was after the first weeks promise<lb/> of excellent
@@ -343,7 +329,8 @@
                charmingly situated<lb/> house on Brunswick terrace in view of the sea &amp;<lb/>
                refreshed by sea breezes which her physician assures<lb/> us will supply the place of
                   <del>calomel</del>
-               <add>medicine <unclear>alloy the</unclear></add> and invigorate<lb/> her speedily - I
+               <add>medicine <unclear>alloy the</unclear>
+               </add> and invigorate<lb/> her speedily - I
                had the happiness of seeing her<lb/>
                <add>settled<lb/>
                   <pb n="4" facs="Edgeworth_Claremont_00583_1840-05_page04.jpg"/> in</add> that
@@ -354,56 +341,47 @@
                   <orig>se-<lb/> cond</orig>
                   <reg>second</reg>
                </choice> married daughter <persName ref="./Personography.xml#EdgeH1">Harriet
-                  Butler</persName> the wife<lb/> of <persName ref="./Personography.xml#ButlR1"
-                     >Rev<hi rend="superscript">d</hi> Richard Butler</persName> Rector of
+                  Butler</persName> the wife<lb/> of <persName ref="./Personography.xml#ButlR1">Rev<hi rend="superscript">d</hi> Richard Butler</persName> Rector of
                   <placeName ref="./Placeography.xml#Trim_IE">Trim</placeName> in the <choice>
                   <orig>C<hi rend="superscript">y</hi>.</orig>
                   <reg>County</reg>
                </choice> of <placeName ref="./Placeography.xml#Meath_IE">Meath</placeName>)<lb/>
             </p>
-            <p> She came over to supply my place with <persName ref="./Personography.xml#EdgeF3"
-                  >(Fanny)<lb/> M<hi rend="superscript">rs</hi>. Wilson</persName> and she brought
-               with her two young<lb/> nieces of 12 and 10 years old, <persName
-                  ref="./Personography.xml#FoxM1">Mary Anne</persName> &amp; <persName
-                  ref="./Personography.xml#FoxC2">Charlotte</persName><lb/> daughters of a sister we
+            <p> She came over to supply my place with <persName ref="./Personography.xml#EdgeF3">(Fanny)<lb/> M<hi rend="superscript">rs</hi>. Wilson</persName> and she brought
+               with her two young<lb/> nieces of 12 and 10 years old, <persName ref="./Personography.xml#FoxM1">Mary Anne</persName> &amp; <persName ref="./Personography.xml#FoxC2">Charlotte</persName>
+               <lb/> daughters of a sister we
                have lost (<persName ref="./Personography.xml#EdgeS1">Sophy Fox</persName> -<lb/>
-               <persName ref="./Personography.xml#ButlR1">M<hi rend="superscript">r</hi></persName>
+               <persName ref="./Personography.xml#ButlR1">M<hi rend="superscript">r</hi>
+               </persName>
                &amp; <persName ref="./Personography.xml#EdgeH1">M<hi rend="superscript">rs</hi>.
                   Butler</persName> have always since their mothers<lb/> death taken charge of them
-               - as their own - they<lb/> have no children of their own - Their father <persName
-                  ref="./Personography.xml#FoxB1">Capt<hi rend="superscript">n</hi><lb/> Barry
-                  Fox</persName> is also now with them at <placeName
-                  ref="./Placeography.xml#Brighton_ENK">Brighton</placeName> and<lb/> there they can
+               - as their own - they<lb/> have no children of their own - Their father <persName ref="./Personography.xml#FoxB1">Capt<hi rend="superscript">n</hi>
+                  <lb/> Barry
+                  Fox</persName> is also now with them at <placeName ref="./Placeography.xml#Brighton_ENK">Brighton</placeName> and<lb/> there they can
                have good masters for drawing dancing &amp; music<lb/>
             </p>
             <p> Now my good dear Sir you see how in consequence<lb/> of your kind reproach that I
                did not tell you one of my<lb/> sisters names I have bored you with all my family
                history<lb/>
             </p>
-            <p> The history of your <placeName ref="./Placeography.xml#Oxford_ENK"
-                  >Oxford</placeName> robber, Doctor<lb/> divinity and Master of Arts is most
+            <p> The history of your <placeName ref="./Placeography.xml#Oxford_ENK">Oxford</placeName> robber, Doctor<lb/> divinity and Master of Arts is most
                astonishing and<lb/> disgraceful - I cannot conceive what his motive could<lb/> be
                for he could not possibly preach the sermon without<lb/> its being known or publish
                it without it being claimed<lb/> as yours - It seems to have been an abstract &amp;
                inherent<lb/> love of stealing that possessed him - Such a passion has<lb/> been
                really known to exist in some noble families in our<lb/> old world - All the
-               daughters thieves or sons swindlers<lb/> - a son of a noble house of <placeName
-                  ref="./Placeography.xml#ENK">England</placeName> is at this instant a <choice>
+               daughters thieves or sons swindlers<lb/> - a son of a noble house of <placeName ref="./Placeography.xml#ENK">England</placeName> is at this instant a <choice>
                   <orig>banish<lb/> ed</orig>
                   <reg>banished</reg>
                </choice> man in consequence of having <hi rend="underline">stolen</hi> his sisters
-               diamonds<lb/> - and another of the first Barony in <placeName
-                  ref="./Placeography.xml#ENK">England</placeName> was within<lb/> these few years
+               diamonds<lb/> - and another of the first Barony in <placeName ref="./Placeography.xml#ENK">England</placeName> was within<lb/> these few years
                publickly disgraced &amp; compelled to fly his<lb/> country for cheating at cards -
                Of the Church I will say nothing<lb/>
-               <add>tho</add> since the time when <persName ref="./Personography.xml#DoddW1">D<hi
-                     rend="superscript">r</hi>. Dodd</persName> was hanged for forgery and<lb/>
+               <add>tho</add> since the time when <persName ref="./Personography.xml#DoddW1">D<hi rend="superscript">r</hi>. Dodd</persName> was hanged for forgery and<lb/>
                <persName ref="./Personography.xml#JohnS1">D<hi rend="superscript">r</hi>.
                   Johnson</persName> you know wrote a petition for pardon for him<lb/> Some more
                unpardonable offences have disgraced what ought<lb/> to stand highest in national
-               estimation our clergy - That I<lb/> may deal fairly between <placeName
-                  ref="./Placeography.xml#ENK">England</placeName> and <placeName
-                  ref="./Placeography.xml#IE">Ireland</placeName> I will<lb/> give you an amusing
+               estimation our clergy - That I<lb/> may deal fairly between <placeName ref="./Placeography.xml#ENK">England</placeName> and <placeName ref="./Placeography.xml#IE">Ireland</placeName> I will<lb/> give you an amusing
                   <del>Irish</del> placard <add>- Epigram</add> set up in the last<lb/> century at
                the entrance of the avenue of an Irish nobleman<lb/> in whose family this stealing
                propensity was known to prevail<lb/> - At the entrance to his parish there was a
@@ -412,39 +390,42 @@
                the way<lb/>
                <figure>
                   <figDesc>image of finger pointing</figDesc>
-               </figure><lb/> Great <placeName ref="./Placeography.xml#Baltinglass_IE"
-                  >Baltinglass</placeName> couldst thou command<lb/> Promethean fire to warm this
+               </figure>
+               <lb/> Great <placeName ref="./Placeography.xml#Baltinglass_IE">Baltinglass</placeName> couldst thou command<lb/> Promethean fire to warm this
                hand<lb/> And couldst thou to this hand give feeling<lb/> Lord! What a hand t'would
                be for <hi rend="underline">stealing</hi>
                <lb/>
                <figure>
                   <figDesc>line between this one and the following one</figDesc>
-               </figure><lb/>
+               </figure>
+               <lb/>
             </p>
-            <p> NB - This <hi rend="underline"><choice>
+            <p> NB - This <hi rend="underline">
+                  <choice>
                      <orig>inuendo</orig>
                      <reg>innuendo</reg>
-                  </choice></hi> was not <hi rend="underline">actionable</hi> (-observe) -<lb/> tho
+                  </choice>
+               </hi> was not <hi rend="underline">actionable</hi> (-observe) -<lb/> tho
                taking away<lb/> effectually character<lb/>
             </p>
             <pb n="5" facs="Edgeworth_Claremont_00583_1840-05_page05.jpg"/>
             <p> I must not <hi rend="underline">end</hi> with scandal, so my dear<lb/>
                <persName ref="./Personography.xml#SpraW1">D<hi rend="superscript">r</hi>.
-                  Sprague</persName> I will copy for you some lines<lb/> which in a literary <hi
-                  rend="underline">Hue and Cry</hi> have been set<lb/> up - to convict our admired
-               and excellent <del>friend</del><lb/> clerical young poet <persName
-                  ref="./Personography.xml#WolfC1">Wolfe</persName> of having stolen from<lb/>
+                  Sprague</persName> I will copy for you some lines<lb/> which in a literary <hi rend="underline">Hue and Cry</hi> have been set<lb/> up - to convict our admired
+               and excellent <del>friend</del>
+               <lb/> clerical young poet <persName ref="./Personography.xml#WolfC1">Wolfe</persName> of having stolen from<lb/>
                <del>the</del> a Frenchman the ideas of his beautiful<lb/>
-               <title ref="./Workography.xml#Buria1">lines on the death of <persName
-                     ref="./Personography.xml#MoorJ1">Moore</persName></title>.<lb/>
+               <title ref="./Workography.xml#Buria1">lines on the death of <persName ref="./Personography.xml#MoorJ1">Moore</persName>
+               </title>.<lb/>
             </p>
             <p> In <title ref="./Workography.xml#Bentl1">Bentleys Miscellany</title> Vol
-                  <unclear>1</unclear> there is an article<lb/> headed "The <hi rend="underline"
-                  >original</hi> of "<hi rend="underline">Not a drum was heard</hi><lb/>
+                  <unclear>1</unclear> there is an article<lb/> headed "The <hi rend="underline">original</hi> of "<hi rend="underline">Not a drum was heard</hi>
+               <lb/>
             </p>
             <p> &amp; then comes<lb/> this paragraph <figure>
                   <figDesc>two short lines are circled</figDesc>
-               </figure><lb/>
+               </figure>
+               <lb/>
             </p>
             <p> "The <persName ref="./Personography.xml#WolfC1">Revd M<hi rend="underline">r</hi>
                   Wolfe</persName> is <hi rend="underline">supposed</hi> to be the author<lb/> "of a
@@ -458,16 +439,15 @@
                unobtrusive life time. He who would write the<lb/>
                <title ref="./Workography.xml#Buria1">"funeral of Sir John Moore</title> must have
                eclipsed all the<lb/> "lyric poets of this latter age by the fervour &amp; brilliancy
-               of his<lb/> "powers. Do the other writings of <persName
-                  ref="./Personography.xml#WolfC1">M<hi rend="superscript">r</hi>. Wolfe</persName>
+               of his<lb/> "powers. Do the other writings of <persName ref="./Personography.xml#WolfC1">M<hi rend="superscript">r</hi>. Wolfe</persName>
                bear any<lb/> "trace of inspiration? - none - I fear we must look<lb/> "elsewhere for
                the origin of those beautiful lines<lb/> "And I think I can put the public on the
-               right scent"<lb/> "In 1749 <persName ref="./Personography.xml#BeauX1">Col<hi
-                     rend="superscript">l</hi>. de Beaumanoir</persName> a native of <placeName
-                  ref="./Placeography.xml#Bretagne_FR"><choice>
+               right scent"<lb/> "In 1749 <persName ref="./Personography.xml#BeauX1">Col<hi rend="superscript">l</hi>. de Beaumanoir</persName> a native of <placeName ref="./Placeography.xml#Bretagne_FR">
+                  <choice>
                      <orig>Britany</orig>
                      <reg>Bretagne</reg>
-                  </choice></placeName> having<lb/> "raised a regiment in his own neighbourhood
+                  </choice>
+               </placeName> having<lb/> "raised a regiment in his own neighbourhood
                went<lb/> "out with it to <placeName ref="./Placeography.xml#IN">India</placeName> in
                that unfortunate expedition <choice>
                   <orig>com=<lb/> "=manded</orig>
@@ -476,60 +456,60 @@
                the failure of which <choice>
                   <orig>even=<lb/> "=tually</orig>
                   <reg>eventually</reg>
-               </choice> lost to the French their possessions in <placeName
-                  ref="./Placeography.xml#IN">Hindostan</placeName><lb/> "The <persName
-                  ref="./Personography.xml#BeauX1">Col<hi rend="superscript">l</hi>.</persName> was
-               killed defending against the forces of <persName ref="./Personography.xml#CootE1"
-                  >Coote</persName><lb/> "<placeName
-                     ref="./Placeography.xml#Puducherry_IN">Pondicherry</placeName> the last strong hold of the French in
+               </choice> lost to the French their possessions in <placeName ref="./Placeography.xml#IN">Hindostan</placeName>
+               <lb/> "The <persName ref="./Personography.xml#BeauX1">Col<hi rend="superscript">l</hi>.</persName> was
+               killed defending against the forces of <persName ref="./Personography.xml#CootE1">Coote</persName>
+               <lb/> "<placeName ref="./Placeography.xml#Puducherry_IN">Pondicherry</placeName> the last strong hold of the French in
                that<lb/> "hemisphere; he was buried that night on the North<lb/> "bastion of the
                fortress by a few faithful followers &amp;<lb/> "the next day the fleet sailed with
                the remainder of<lb/> "the garrison to Europe - In the appendix to the<lb/>
-               <title ref="./Workography.xml#Memoi6">"Memoirs of <persName
-                     ref="./Personography.xml#LallT1">Lally Tolendal</persName> by his <persName
-                     ref="./Personography.xml#LallT2">son</persName></title> the following<lb/>
-               "lines occur, which bear some resemblance to those<lb/> "attributed to <persName
-                  ref="./Personography.xml#WolfC1">Wolfe</persName> - Perhaps <persName
-                  ref="./Personography.xml#ToneT1">Wolfe Tone</persName> may have<lb/> "communicated
-               them to his relative the clergyman<lb/> "on his return home"<lb/> signed <persName
-                  ref="./Personography.xml#MahoF1">P. Prout</persName><lb/>
+               <title ref="./Workography.xml#Memoi6">"Memoirs of <persName ref="./Personography.xml#LallT1">Lally Tolendal</persName> by his <persName ref="./Personography.xml#LallT2">son</persName>
+               </title> the following<lb/>
+               "lines occur, which bear some resemblance to those<lb/> "attributed to <persName ref="./Personography.xml#WolfC1">Wolfe</persName> - Perhaps <persName ref="./Personography.xml#ToneT1">Wolfe Tone</persName> may have<lb/> "communicated
+               them to his relative the clergyman<lb/> "on his return home"<lb/> signed <persName ref="./Personography.xml#MahoF1">P. Prout</persName>
+               <lb/>
             </p>
             <p>
                <foreign>"Ni le son du tambour, ni la marche funebre<lb/> Ni le feu des soldats ne
                   marqua son depart.<lb/> Mais du brave a la hâte, a travers les tenebres<lb/>
-                  Mornes, nous portaines le cadavre au rempart<lb/></foreign>
+                  Mornes, nous portaines le cadavre au rempart<lb/>
+               </foreign>
             </p>
-
-
             <pb n="6" facs="Edgeworth_Claremont_00583_1840-05_page06.jpg"/>
             <p>
                <foreign>2<lb/> De minuit c'etait l'heure - et solitaire &amp; sombre<lb/> La lune a
                   peine offrit un debile rayon,<lb/> La lanterne luisait peniblement dans
-                  l'ombre<lb/> de la bayonette on creusa le gazon</foreign><lb/>
+                  l'ombre<lb/> de la bayonette on creusa le gazon</foreign>
+               <lb/>
             </p>
             <p>
                <foreign>3<lb/> D'inutile cercueil ni de drap funeraire<lb/> Nous ne
                      <unclear>designames</unclear> point entourer le heros<lb/> Il gisait dans les
                   plis du manteau militaire<lb/> comme un guerrier qui dort son heure de repos<lb/>
-               </foreign></p>
+               </foreign>
+            </p>
             <p>
                <foreign>4<lb/> La priere quil fit fut de courte durée<lb/> Nul ne parla de deuil,
                   bien que le coeur fut plein<lb/> Mais on fixait du mort la figure adorée<lb/> Mais
                   avec amertume on songeait au demain<lb/>
-               </foreign></p>
+               </foreign>
+            </p>
             <p>
                <foreign>5<lb/> Au demain, quand ici ou sa fosse s'apprête<lb/> Ou son humide lit on
                   dresse avec sanglots<lb/> L'ennemi orgueilleux marcha sur sa tête<lb/> Et nous ses
                   Veterans seront loin sur les flots<lb/>
-               </foreign></p>
+               </foreign>
+            </p>
             <p>
                <foreign>6<lb/> Ils terriront sa gloire - On pourra les entendre<lb/> Nommer
                   l'illustre mort d'un ton amer - ou fol,<lb/> Il les laissera dire - Et qu'importe
                   a sa cendre<lb/> Que la main d'un Breton a confièe au sol.?"<lb/>
                   <figure>
                      <figDesc>line going across page</figDesc>
-                  </figure><lb/>
-               </foreign></p>
+                  </figure>
+                  <lb/>
+               </foreign>
+            </p>
             <p> Now it seems wonderful to ME that<lb/>
                <persName ref="./Personography.xml#MahoF1">M<hi rend="superscript">r</hi>.
                   Prout</persName> (himself a man of talents) should<lb/> be so misled by the love
@@ -538,44 +518,39 @@
                is sufficently<lb/> obvious that <persName ref="./Personography.xml#LallT1">Lally
                   Tolendal's</persName> is the copy, and<lb/>
                <persName ref="./Personography.xml#WolfC1">Wolfe's</persName> the original - That
-                  <persName ref="./Personography.xml#LallT1">Lally Tolendal</persName> "<hi
-                  rend="underline">made</hi><lb/>
-               <del/><hi rend="underline">the ideas his own</hi>" as <hi rend="underline"
-                  >Bayes</hi><add>in <title ref="./Workography.xml#Rehea1">the
-                  Rehearsal</title></add> expresses himself<lb/>
+                  <persName ref="./Personography.xml#LallT1">Lally Tolendal</persName> "<hi rend="underline">made</hi>
+               <lb/>
+               <del/>
+               <hi rend="underline">the ideas his own</hi>" as <hi rend="underline">Bayes</hi>
+               <add>in <title ref="./Workography.xml#Rehea1">the
+                  Rehearsal</title>
+               </add> expresses himself<lb/>
                <del>and</del> translated them into his own words and<lb/> applied them <del>-</del>
-               to his own purpose for his own<lb/> friend <persName ref="./Personography.xml#BeauX1"
-                  >Col Beaumanoirs</persName> funeral - The <choice>
+               to his own purpose for his own<lb/> friend <persName ref="./Personography.xml#BeauX1">Col Beaumanoirs</persName> funeral - The <choice>
                   <orig>transla<lb/> tion</orig>
                   <reg>translation</reg>
                </choice> is very creditable for a Frenchman, &amp; for French<lb/> verse; but there
                is more difference between the <choice>
                   <orig>transla.<lb/> tion</orig>
                   <reg>translation</reg>
-               </choice> and the original than <persName ref="./Personography.xml#CervM1"
-                  >Cervantes's</persName> allowance<lb/> for <add>tolerably</add> good translation
+               </choice> and the original than <persName ref="./Personography.xml#CervM1">Cervantes's</persName> allowance<lb/> for <add>tolerably</add> good translation
                   <hi rend="underline">ie</hi> as much as between the wrong<lb/> &amp; the right
                side of tapestry. = I should say there is full<lb/> as much, as between English
                sterling gold and French<lb/> plating or French fillagree work. - All the lyric
                fervour<lb/> all the classical simplicity is lost in the base tawdry imitation<lb/>
             </p>
-
             <pb n="7" facs="Edgeworth_Claremont_00583_1840-05_page07.jpg"/>
             <p> List of Numbers of <title ref="./Workography.xml#Ameri1">Sillimans Journal</title>
                wanting<lb/> in <persName ref="./Personography.xml#EdgeM1">Miss Edgeworths</persName>
                Set to complete the work<lb/>
-               <unclear>18</unclear> the last number sent her by <persName
-                  ref="./Personography.xml#SpraW1">D<hi rend="superscript">r</hi>.
+               <unclear>18</unclear> the last number sent her by <persName ref="./Personography.xml#SpraW1">D<hi rend="superscript">r</hi>.
                   Sprague</persName>
                <add>1840</add> of<lb/> bound volumes -<lb/>
             </p>
-            <p> N<hi rend="superscript">o</hi>. 1.2-3-4-5-6-7. 8-9-<lb/> and N<hi rend="superscript"
-                  >os</hi>. 13-14. 15-<lb/>
+            <p> N<hi rend="superscript">o</hi>. 1.2-3-4-5-6-7. 8-9-<lb/> and N<hi rend="superscript">os</hi>. 13-14. 15-<lb/>
             </p>
-            <p> Since I wrote the remarks in the preceding<lb/> pages upon <persName
-                  ref="./Personography.xml#MahoF1">M<hi rend="superscript">r</hi>. Prouts</persName>
-               criticism I have<lb/> seen his publisher who informs me<lb/> that <persName
-                  ref="./Personography.xml#MahoF1">M<hi rend="superscript">r</hi>. Prout</persName>
+            <p> Since I wrote the remarks in the preceding<lb/> pages upon <persName ref="./Personography.xml#MahoF1">M<hi rend="superscript">r</hi>. Prouts</persName>
+               criticism I have<lb/> seen his publisher who informs me<lb/> that <persName ref="./Personography.xml#MahoF1">M<hi rend="superscript">r</hi>. Prout</persName>
                during his whole literary<lb/> career which is now finished <add>he being dead</add>
                delighted<lb/> in literary <hi rend="underline">quizzing</hi> - and that almost<lb/>
                all his publications are written either ironically<lb/> or in jest to take in the
@@ -597,7 +572,8 @@
             <closer>
                <!--include linebreaks, if used. example: <closer> Yours<lb/> Very sincerely<lb/> -->
                &amp; I am your obliged &amp; grateful<lb/>
-               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName><lb/>
+               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
+               <lb/>
             </closer>
             <postscript>
                <p><!--A postscript goes here, outside the <closer>. --></p>
@@ -610,11 +586,14 @@
                <address>
                   <!--Include any text written on the address leaf; use a separate "addrLine" for each line and indicate line breaks. -->
                   <addrLine>
-                     <persName ref="./Personography.xml#SpraW1">The Rev<hi rend="superscript"
-                        >d</hi>. D<hi rend="superscript">r</hi>. Sprague</persName></addrLine>
-                  <addrLine><placeName ref="./Placeography.xml#Albany_NY_US"
-                     >Albany</placeName></addrLine>
-                  <addrLine><placeName ref="./Placeography.xml#US">America</placeName></addrLine>
+                     <persName ref="./Personography.xml#SpraW1">The Rev<hi rend="superscript">d</hi>. D<hi rend="superscript">r</hi>. Sprague</persName>
+                  </addrLine>
+                  <addrLine>
+                     <placeName ref="./Placeography.xml#Albany_NY_US">Albany</placeName>
+                  </addrLine>
+                  <addrLine>
+                     <placeName ref="./Placeography.xml#US">America</placeName>
+                  </addrLine>
                </address>
             </closer>
          </div>

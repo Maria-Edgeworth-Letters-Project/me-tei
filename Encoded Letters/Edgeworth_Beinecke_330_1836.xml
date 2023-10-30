@@ -198,16 +198,6 @@
                     <persName>Richard Bentley</persName>
                 </correspAction>
             </correspDesc>
-            <textClass>
-                <keywords scheme="">
-                    <list type="simple">
-                        <item>English literature</item>
-                        <item>History</item>
-                    </list>
-                </keywords>
-                <catRef target="#f7" scheme="#f"/>
-                <catRef target="#hist #el" scheme="locSUB"/>
-            </textClass>
         </profileDesc>
         <revisionDesc>
             <change when="2021-01-01" who="Id_who">
@@ -224,9 +214,9 @@
                     As soon as I hear from Mess.rs <persName ref="./Personography.xml#BaldX2">Baldwin</persName><lb/>
                     and <persName ref="./Personography.xml#CradX1">Cradoch</persName> I will let you know the rest<lb/></p>
                     
-                    <p>If they should answer that they doK<lb/ 
+                    <p>If they should answer that they do<lb/> 
                     not desire to have Helen till they are called<lb/>
-                    upon by the public for a new Ed<hi rend="superscript">n.</superscript> of the<lb/>
+                    upon by the public for a new Ed<hi rend="superscript">n.</hi> of the<lb/>
                     whole collection of my tales &amp; novels, and<lb/>
                     if that should be at a distant period perhaps<lb/>
                     it may not interfere with your wishes<lb/></p>
@@ -238,27 +228,11 @@
                     <p>I have every reason to be satisfied <unclear>with</unclear><lb/>
                     your liberal fair dealing, and obliging<lb/>
                     conduct – and have so expressed myself<lb/> 
-                    <add>of you</add>to others as well as to yourself<lb/></p>   
-                </p>
+                    <add>of you</add>to others as well as to yourself<lb/></p>
                 <closer>
                     I am Sir<lb/>
                     Your Obed.t Servant
                     <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
-                </closer>
-                <postscript>
-                    <p><!--A postscript goes here, outside the <closer>. --></p>
-                </postscript>
-                <!--You can include a <pb/> here, or inside the postScript.-->
-                <!-- Format for postscripts. 
-               Postscripts do NOT go inside closer tags. Adjust to take into account the order in your letter. 
-               Sometimes the signature is on page three, the address on page four, then the postscript follows back on the top of page one, for example.-->
-                <closer><!--Use the <closer> element again to hold Address Leaf information.-->
-                    <address>
-                        <!--Include any text written on the address leaf; use a separate "addrLine" for each line and indicate line breaks. -->
-                        <addrLine/>
-                        <addrLine/>
-                        <addrLine/>
-                    </address>
                 </closer>
             </div>
         </body>

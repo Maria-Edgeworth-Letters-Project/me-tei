@@ -5,28 +5,28 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
-            <titleStmt>
-               <title>Letter from Henrietta Beaufort to Sir Francis Beaufort, September 17, 1826 	
+         <titleStmt>
+            <title>Letter from Henrietta Beaufort to Sir Francis Beaufort, September 17, 1826 	
                 [Includes addition from Maria Edgeworth to Sir Francis Beaufort] </title>
-               <author>Henrietta Beaufort</author>
-               <editor ref="Id_who">
+            <author>Henrietta Beaufort</author>
+            <editor ref="Id_who">
                   Jamie Kramer
                </editor>
-               <sponsor>
-                  <orgName>Maria Edgeworth Letters Project</orgName>
-               </sponsor>
-               <sponsor>Wake Forest University, University of Tennessee, Xavier University, Texas
+            <sponsor>
+               <orgName>Maria Edgeworth Letters Project</orgName>
+            </sponsor>
+            <sponsor>Wake Forest University, University of Tennessee, Xavier University, Texas
                   A&amp;M University</sponsor>
-               <principal>Jessica Richard, Hilary Havens, Robin Runia, Susan Egenolf</principal>
-               <respStmt>
-                  <resp>Transcription and coding by</resp>
-                  <persName ref="Id_who">Jamie Kramer<!--FirstName LastName-->
+            <principal>Jessica Richard, Hilary Havens, Robin Runia, Susan Egenolf</principal>
+            <respStmt>
+               <resp>Transcription and coding by</resp>
+               <persName ref="Id_who">Jamie Kramer<!--FirstName LastName-->
                   </persName>
-                  <!-- List all transcribers or coders here, editors and students alike, <persName> by <persName>.-->
-                  <persName ref="Id_who"><!--FirstName LastName--></persName>
-                  <!-- If you're the last person interacting with the file, enter your name last on the list -->
-               </respStmt>
-            </titleStmt>
+               <!-- List all transcribers or coders here, editors and students alike, <persName> by <persName>.-->
+               <persName ref="Id_who"><!--FirstName LastName--></persName>
+               <!-- If you're the last person interacting with the file, enter your name last on the list -->
+            </respStmt>
+         </titleStmt>
          <editionStmt>
             <edition>First digital edition in TEI, date: <date when="2023-01-12">
                </date>
@@ -42,8 +42,6 @@
                </resp>
             </respStmt>
          </editionStmt>
-         
-         
          <publicationStmt>
             <authority>Maria Edgeworth Letters Project</authority>
             <date>2023</date>
@@ -54,8 +52,7 @@
                <licence>Distributed under a Creative Commons Attribution-ShareAlike 3.0 Unported
                   License</licence>
             </availability>
-            
-            <idno>Edgeworth_Huntington_FB1209_1826_09_17</idno> 
+            <idno>Edgeworth_Huntington_FB1209_1826_09_17</idno>
          </publicationStmt>
          <seriesStmt>
             <title>Maria Edgeworth Letters Project</title>
@@ -68,7 +65,6 @@
                   <idno/>
                   <!--Consult library or WorldCat for this info-->
                </msIdentifier>
-               
                <head>Letter from 
                   <persName ref="./Personography.xml#BeauH2">Henrietta Beaufort</persName>
                   to <persName ref="./Personography.xml#BeauF1">Sir Francis Beaufort</persName>,
@@ -81,7 +77,6 @@
             <bibl>In addition to our edited version, this letter was previously published in
                <!--complete bibiographical info if letter was published in a book here-->
             </bibl>
-            
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
@@ -94,7 +89,6 @@
                word is split at the end of a line and the beginning of the next in a manuscript. The
                long s and ligatured forms are silently emended.</p>
          </editorialDecl>
-         
          <classDecl>
             <taxonomy xml:id="relators">
                <bibl>Marc Relators</bibl>
@@ -211,10 +205,14 @@
             <taxonomy xml:id="places">
                <bibl>Places</bibl>
                <category>
-                  <catDesc xml:id="EdgeworthsTown">Edgeworths' Town<idno type="getty">tgn/1042937</idno></catDesc>
-                  <catDesc xml:id="Peterborough">Peterborough, UK<idno type="getty">tgn/7026520</idno></catDesc>
-                  <catDesc xml:id="CranfordI">Cranford, Ireland<idno type="getty">tgn/7901042</idno></catDesc>
-                  <catDesc xml:id="Kettering">Kettering, UK<idno type="getty">tgn/7010904</idno></catDesc>
+                  <catDesc xml:id="EdgeworthsTown">Edgeworths' Town<idno type="getty">tgn/1042937</idno>
+                  </catDesc>
+                  <catDesc xml:id="Peterborough">Peterborough, UK<idno type="getty">tgn/7026520</idno>
+                  </catDesc>
+                  <catDesc xml:id="CranfordI">Cranford, Ireland<idno type="getty">tgn/7901042</idno>
+                  </catDesc>
+                  <catDesc xml:id="Kettering">Kettering, UK<idno type="getty">tgn/7010904</idno>
+                  </catDesc>
                </category>
             </taxonomy>
             <taxonomy xml:id="period">
@@ -224,7 +222,6 @@
                </category>
             </taxonomy>
          </classDecl>
-         
       </encodingDesc>
       <profileDesc>
          <correspDesc>
@@ -236,7 +233,6 @@
                <persName ref="./Personography.xml#BeauF1">Sir Francis Beaufort</persName>
             </correspAction>
          </correspDesc>
-         
          <textClass>
             <keywords scheme="">
                <list type="simple">
@@ -258,7 +254,8 @@
       <body>
          <div type="letter">
             <pb n="1" facs="Edgeworth_Huntington_FB1209_1826_09_17_page01.jpg"/>
-            <opener><persName ref="./Personography.xml#BeauH1">H B the younger</persName> desires me<lb/>
+            <opener>
+               <persName ref="./Personography.xml#BeauH1">H B the younger</persName> desires me<lb/>
                to give you her very best love<lb/>
                &amp; to thank you for all your<lb/>
                great kindness to her - She<lb/>
@@ -268,7 +265,8 @@
                you -<lb/>
                Tuesday - I have<lb/>
                just heard that<lb/>
-               <hi rend="underline">without doubt</hi><lb/>
+               <hi rend="underline">without doubt</hi>
+               <lb/>
                <persName ref="./Personography.xml#BrinJ1"> D<hi rend="superscript">r</hi> Brinkley</persName> is to be the<lb/>
                new Bishop - I can't<lb/>
                help being surprised<lb/>
@@ -283,12 +281,17 @@
                wanted to get rid of<lb/>
                   this parallax -<lb/>
                I have just been with<lb/>
-               <persName ref="./Personography.xml#ButlR1"> M<hi rend="superscript">r</hi></persName> &amp; <persName ref="./Personography.xml#EdgeH1">M<hi rend="superscript">rs</hi>. Butler</persName>  to the<lb/>
-               B<hi rend="superscript">r</hi>. of <placeName ref="./Placeography.xml#Meath_IE">Meath</placeName>'s &amp; to <unclear>Allente</unclear><lb/>
+               <persName ref="./Personography.xml#ButlR1"> M<hi rend="superscript">r</hi>
+               </persName> &amp; <persName ref="./Personography.xml#EdgeH1">M<hi rend="superscript">rs</hi>. Butler</persName>  to the<lb/>
+               B<hi rend="superscript">r</hi>. of <placeName ref="./Placeography.xml#Meath_IE">Meath</placeName>'s &amp; to <unclear>Allente</unclear>
+               <lb/>
                They made me go<lb/>
                with them - I was<lb/>
-               afraid of being <choice><orig>de<lb/>
-               trop </orig><reg>detrop</reg></choice>- They seem<lb/>
+               afraid of being <choice>
+                  <orig>de<lb/>
+               trop </orig>
+                  <reg>detrop</reg>
+               </choice>- They seem<lb/>
                to go on very well<lb/>
                   together - but still<lb/>
                I cannot help wondering<lb/>
@@ -299,19 +302,21 @@
                will be tired reading<lb/>
                this letter - so I can<lb/>
                only beg you to forgive<lb/>
-                  your affect.<hi rend="superscript">te</hi> <persName ref="./Personography.xml#BeauH1">HB</persName> -<lb/>
-
+                  your affect.<hi rend="superscript">te</hi>
+               <persName ref="./Personography.xml#BeauH1">HB</persName> -<lb/>
                <dateline>
-               <placeName ref="./Placeography.xml#Black-Castle_IE">Black Castle</placeName> <date when="1826-09-17"/>  Sept.<hi rend="superscript">r</hi> 17<lb/></dateline>  
-            
-               <salute>My dear <persName ref="./Personography.xml#BeauF1">Francis</persName><lb/>
-               </salute></opener>
-              
-              <p> I received your letter last Sunday, &amp; that I might<lb/>
+                  <placeName ref="./Placeography.xml#Black-Castle_IE">Black Castle</placeName>
+                  <date when="1826-09-17"/>  Sept.<hi rend="superscript">r</hi> 17<lb/>
+               </dateline>
+               <salute>My dear <persName ref="./Personography.xml#BeauF1">Francis</persName>
+                  <lb/>
+               </salute>
+            </opener>
+            <p> I received your letter last Sunday, &amp; that I might<lb/>
                not overpower you by too rapid a rejoinder I have wasted<lb/>
                a whole week to begin my answer - in the first place<lb/>
                thank you most heartily for writing a long letter to<lb/>
-                 <persName ref="./Personography.xml#StewF1">Fanny Stewart</persName> - I think it will not only influence them<lb/>
+               <persName ref="./Personography.xml#StewF1">Fanny Stewart</persName> - I think it will not only influence them<lb/>
                in their plans, but will calm her poor mind which<lb/>
                has of late been so feverish about coming home -<lb/>
                I cannot help feeling sometimes as if it was most<lb/>
@@ -324,25 +329,29 @@
                  that <persName ref="./Personography.xml#StewT1">Tom</persName> though quite tired of the country was determined to<lb/>
                try it longer, &amp; see if any thing would turn up through the<lb/>
                kindness of his friends. The Pastmastership has been negatived<lb/>
-                 in the <placeName ref="./Placeography.xml#BHouses-of-Parliament_ENK">Parliament</placeName> - &amp; as to the military road, their friend <persName ref="./Personography.xml#FostX1">Col: Foster</persName><lb/>
+                 in the <placeName ref="./Placeography.xml#BHouses-of-Parliament_ENK">Parliament</placeName> - &amp; as to the military road, their friend <persName ref="./Personography.xml#FostX1">Col: Foster</persName>
+               <lb/>
                  told <persName ref="./Personography.xml#StewT1">Tom</persName> that it is out of the question, for none but military<lb/>
-               people will be employed - so that at present they have not any <hi rend="underline">hope</hi><lb/>
+               people will be employed - so that at present they have not any <hi rend="underline">hope</hi>
+               <lb/>
                even of employment - &amp; are I suppose therefore more dispirited. It is curious<lb/>
                  that <persName ref="./Personography.xml#RiedX1">Mr Ried</persName> who was the chief instigator of <persName ref="./Personography.xml#StewT1">Tom</persName>'s going to <placeName ref="./Placeography.xml#XXC">Canada</placeName> should<lb/>
-                 now advise them to return - he has assured <persName ref="./Personography.xml#StewF1">Fanny</persName> that on their income w<hi rend="superscript">h</hi><lb/>
+                 now advise them to return - he has assured <persName ref="./Personography.xml#StewF1">Fanny</persName> that on their income w<hi rend="superscript">h</hi>
+               <lb/>
                  is <hi rend="superscript">£</hi>100 a year they could live more comfortably at home than in <placeName ref="./Placeography.xml#XXC">Canada</placeName> -<lb/>
                  He also tells <persName ref="./Personography.xml#StewF1">Fanny</persName> that <persName ref="./Personography.xml#StewT1">Tom</persName>'s property in <placeName ref="./Placeography.xml#IE">Ireland</placeName> will rise much in a few years<lb/>
-                 - but how can this be - it consists of leases from <persName ref="./Personography.xml#DoneL1"><unclear>L. '</unclear> Donegal</persName>, which they have not<lb/>
-            <unclear>received</unclear> - &amp; the whole income for the number of years they still will possess it<lb/>
+                 - but how can this be - it consists of leases from <persName ref="./Personography.xml#DoneL1">
+                  <unclear>L. '</unclear> Donegal</persName>, which they have not<lb/>
+               <unclear>received</unclear> - &amp; the whole income for the number of years they still will possess it<lb/>
                would not amount I understand to the debts &amp; interest which it is to pay<lb/>
-                 <persName ref="./Personography.xml#StewF1">Fanny</persName> says that <persName ref="./Personography.xml#StewT1">Tom</persName> will not tell her how it is circumstanced &amp; will<lb/>
+               <persName ref="./Personography.xml#StewF1">Fanny</persName> says that <persName ref="./Personography.xml#StewT1">Tom</persName> will not tell her how it is circumstanced &amp; will<lb/>
                seldom speak of his affairs to her - it is a curious thing that in the 4 years<lb/>
                  they have been away, <persName ref="./Personography.xml#StewT1">Tom</persName> has never heard from the trustees who were to manage<lb/>
                his property, any particulars of what they have done - nor have they even told<lb/>
-               him what sum they received for his mills which were sold! He has written now<lb/> 
-             
-              <pb n="2" facs="Edgeworth_Huntington_FB1209_1826_09_17_page02.jpg"/> 
-               now to enquire - what little might be done with his property in <placeName ref="./Placeography.xml#IE">Ireland</placeName><lb/>
+               him what sum they received for his mills which were sold! He has written now<lb/>
+               <pb n="2" facs="Edgeworth_Huntington_FB1209_1826_09_17_page02.jpg"/> 
+               now to enquire - what little might be done with his property in <placeName ref="./Placeography.xml#IE">Ireland</placeName>
+               <lb/>
                is not done - &amp; no one here will make enquiry - all say they have no<lb/>
                right to enquire at all into the management of these assignees<lb/>
                But after all, it is only a sort of dream or castle building in the air<lb/>
@@ -384,20 +393,32 @@
                is the nominal head of the family, will not hasten the ruin of the<lb/>
                whole. Yet on the other hand I do think it would be for the happiness<lb/>
                  of all if he could go abroad. <persName ref="./Personography.xml#EdgeM1">Maria</persName> feels much at the Decision<lb/>
-                 <pb n="3" facs="Edgeworth_Huntington_FB1209_1826_09_17_page03.jpg"/> 
+               <pb n="3" facs="Edgeworth_Huntington_FB1209_1826_09_17_page03.jpg"/> 
                for his going or staying depending on her - for however her<lb/>
                judgement may be in favour of his going; - her heart rises against<lb/>
                the idea of condemning him to wander about about as he says an<lb/>
                outcast from the family.<lb/>
                I asked them as to the money to be had at low interest<lb/>
-               -<del></del>He said he could not tell exactly any person to<lb/>
-                 apply to, but that when he was in <placeName ref="./Placeography.xml#ENK"><choice><orig>Eng.</orig><reg>England</reg></choice></placeName><hi rend="superscript">d</hi> last year he had<lb/>
+               -<del/>He said he could not tell exactly any person to<lb/>
+                 apply to, but that when he was in <placeName ref="./Placeography.xml#ENK">
+                  <choice>
+                     <orig>Eng.</orig>
+                     <reg>England</reg>
+                  </choice>
+               </placeName>
+               <hi rend="superscript">d</hi> last year he had<lb/>
                offers of it from various people - &amp; the manner in which<lb/>
                you can easily procure it - is by <hi rend="underline">advertising</hi> for money at<lb/>
                  low interest on Irish Mortgages. <persName ref="./Personography.xml#HughX2">M<hi rend="superscript">r</hi> Hughes</persName> his agent at<lb/>
-                 <placeName ref="./Placeography.xml#Cheltenham_ENK"><choice><orig>Chiltenham</orig><reg>Cheltenham</reg></choice></placeName> advertised, &amp; he had innumerable offers <hi rend="underline">at 4</hi><lb/>
+               <placeName ref="./Placeography.xml#Cheltenham_ENK">
+                  <choice>
+                     <orig>Chiltenham</orig>
+                     <reg>Cheltenham</reg>
+                  </choice>
+               </placeName> advertised, &amp; he had innumerable offers <hi rend="underline">at 4</hi>
+               <lb/>
                - &amp; at <hi rend="underline">our &amp; a quarter</hi> p<hi rend="superscript">r</hi>c<hi rend="superscript">t</hi>. - He says if you advertise in<lb/>
-                 <placeName ref="./Placeography.xml#London_ENK">London</placeName> for it, you will <add>find</add> it very easily procured - This was all<lb/>
+               <placeName ref="./Placeography.xml#London_ENK">London</placeName> for it, you will <add>find</add> it very easily procured - This was all<lb/>
                I could learn for you about it -<lb/>
                What a very very provoking thing your not having<lb/>
                  received <persName ref="./Personography.xml#CrokX1"> M<hi rend="superscript">r</hi> Croker</persName>'s letter - one day's delay would have<lb/>
@@ -416,7 +437,8 @@
                with you there to think of ever after - Since 1804 we never were<lb/>
                in that house together for more than a night - 22 Years!<lb/>
                - a long &amp; varied time to look back upon - Joy &amp; bitter grief - Gloom<lb/>
-               &amp; brightness - failure &amp; success - all appear in ones <unclear>revisited</unclear><lb/>
+               &amp; brightness - failure &amp; success - all appear in ones <unclear>revisited</unclear>
+               <lb/>
                view of such a time - but in all these lights &amp; shadows, our friendship<lb/>
                remains <unclear>unclouded</unclear> unbroken &amp; you are still as you say in<lb/>
                your last command to me, my old friend &amp; brother &amp; Master -<lb/>
@@ -428,20 +450,25 @@
                relation in the navy - I proudly said I had a brother - "I used to see him<lb/>
                frequently said she, many years ago. - When he was in <placeName ref="./Placeography.xml#London_ENK">London</placeName> waiting<lb/>
                for employment after a <unclear>hessie</unclear> action he had performed -<lb/>
-
-                 <pb n="4" facs="Edgeworth_Huntington_FB1209_1826_09_17_page04.jpg"/> 
+               <pb n="4" facs="Edgeworth_Huntington_FB1209_1826_09_17_page04.jpg"/> 
                I was then young &amp; very romantic, &amp; I had the greatest admiration<lb/>
                of him - I thought him the first of heroes" - I said I would tell<lb/>
                you of her recollection of you - "oh no said she - tho' he frequently<lb/>
                  breakfasted at my brother's, I <del>never</del> scarcely ventured to speak to<lb/>
                him" - he would not remember me I am sure; - I admired him as<lb/>
-                 a hero without venturing to speak to him" - Her brother was M<hi rend="superscript">r</hi> <persName ref="./Personography.xml#AlexH1">Henry<lb/>
-                Alexander</persName> - She is sister to the <persName ref="./Personography.xml#AlexN1"><choice><orig>B<hi rend="superscript">p</hi>.</orig><reg>Bishop</reg></choice> of Meath</persName> - &amp; is now wife of <persName ref="./Personography.xml#ScottX1">Major Scott</persName><lb/>
+                 a hero without venturing to speak to him" - Her brother was M<hi rend="superscript">r</hi>
+               <persName ref="./Personography.xml#AlexH1">Henry<lb/>
+                Alexander</persName> - She is sister to the <persName ref="./Personography.xml#AlexN1">
+                  <choice>
+                     <orig>B<hi rend="superscript">p</hi>.</orig>
+                     <reg>Bishop</reg>
+                  </choice> of Meath</persName> - &amp; is now wife of <persName ref="./Personography.xml#ScottX1">Major Scott</persName>
+               <lb/>
                  of the Artillery &amp; lives at <placeName ref="./Placeography.xml#Woolwich_ENK">Woolwich</placeName> - have you any recollection of her<lb/>
                - she never could have been handsome - How you did win<lb/>
                all hearts - dear old hero!
                I was very glad to come here just now to meet the <persName ref="./Personography.xml#EdgeH1"> Butlers</persName>. - I must say<lb/>
-                <persName ref="./Personography.xml#BeauH1">Harriet</persName> looks &amp; seems very happy &amp; very satisfied - She is in better looks<lb/>
+               <persName ref="./Personography.xml#BeauH1">Harriet</persName> looks &amp; seems very happy &amp; very satisfied - She is in better looks<lb/>
                a great deal - &amp; has got back her colour which had gone so much when<lb/>
                we saw her - She is quite at ease &amp; as much herself as ever - just the<lb/>
                same lovely quick animated creature - &amp; so kind - She is at all times<lb/>
@@ -449,14 +476,15 @@
                this week - &amp; I hope it may be a happy home, for she deserves it<lb/>
                  We left <placeName ref="./Placeography.xml#Allenstown-Demesne_IE">Allenstown</placeName> on Saturday &amp; I <unclear>suppose</unclear> we shall be here for a week<lb/>
                or ten days at the utmost, &amp; then go to <placeName ref="./Placeography.xml#Philpotstown_IE">Philpotstown</placeName> &amp; thence to town<lb/>
-                 <persName ref="./Personography.xml#EdgeS1">Sophy Fox</persName> wanted us a very kindly to go to <placeName ref="./Placeography.xml#Cloonagh_IE">Cloonagh</placeName> but it is getting late<lb/>
+               <persName ref="./Personography.xml#EdgeS1">Sophy Fox</persName> wanted us a very kindly to go to <placeName ref="./Placeography.xml#Cloonagh_IE">Cloonagh</placeName> but it is getting late<lb/>
                  in the year now, &amp; <persName ref="./Personography.xml#XxxxE1">Bess</persName> is now inclined to go home - she got at a great<lb/>
                  cold I am sorry to say. Thank you for undertaking <persName ref="./Personography.xml#XxxxA1">Anne</persName>'s case - I will<lb/>
                send it you as soon as I can -<lb/>
                  How miraculously the sea air has improved <persName ref="./Personography.xml#BeauH1">Honora</persName> - another<lb/>
                instance of your good judgement - I am sure if at last you should<lb/>
                prove a little conceited it would be no wonder - She is overflowing with<lb/>
-               gratitude to you for making her try its effects - She is quite a different <unclear></unclear><lb/>
+               gratitude to you for making her try its effects - She is quite a different <unclear/>
+               <lb/>
                My dear <persName ref="./Personography.xml#BeauF1">Francis</persName>, you would be happy indeed<lb/>
                  could you see how happy <persName ref="./Personography.xml#ButlR1">M<hi rend="superscript">r</hi>.</persName> &amp; <persName ref="./Personography.xml#EdgeH1">M<hi rend="superscript">rs</hi> Butler</persName> are<lb/>
                - She is now all her own gay natural self with<lb/>
@@ -466,16 +494,22 @@
                going to be hanged - has recovered his powers<lb/>
                of conversation &amp; is quite the popular bridegroom<lb/>
                  here - <persName ref="./Personography.xml#BeauH1">Harriet</persName> pleased &amp; was pleased with all<lb/>
-                  her husbands relations <unclear>which</unclear> he told me with great delight</p><lb/>
-            <closer>yr affec<hi rend="superscript">ly</hi> <persName ref="./Personography.xml#EdgeM1">M E</persName><lb/>
+                  her husbands relations <unclear>which</unclear> he told me with great delight</p>
+            <lb/>
+            <closer>yr affec<hi rend="superscript">ly</hi>
+               <persName ref="./Personography.xml#EdgeM1">M E</persName>
+               <lb/>
             </closer>
             <closer>
-                  <address>              
-                     <addrLine/> <persName ref="./Personography.xml#BeauF1">Capt. Beaufort R N</persName>
-                     <addrLine/><street>57 Manchester Street</street>
-                     <addrLine/><placeName ref="./Placeography.xml#London_ENK">London</placeName>
-                  </address>
-               </closer> 
+               <address>
+                  <addrLine/>
+                  <persName ref="./Personography.xml#BeauF1">Capt. Beaufort R N</persName>
+                  <addrLine/>
+                  <street>57 Manchester Street</street>
+                  <addrLine/>
+                  <placeName ref="./Placeography.xml#London_ENK">London</placeName>
+               </address>
+            </closer>
          </div>
       </body>
       <back> </back>

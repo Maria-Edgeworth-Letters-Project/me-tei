@@ -5,29 +5,29 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
-            <titleStmt>
-               <title>
+         <titleStmt>
+            <title>
                   Letter from Maria Edgeworth to "My dear little boy", 1800
                </title>
-               <author>Maria Edgeworth</author>
-               <editor ref="Id_who">
+            <author>Maria Edgeworth</author>
+            <editor ref="Id_who">
                   Jamie Kramer
                </editor>
-               <sponsor>
-                  <orgName>Maria Edgeworth Letters Project</orgName>
-               </sponsor>
-               <sponsor>Wake Forest University, University of Tennessee, Xavier University, Texas
+            <sponsor>
+               <orgName>Maria Edgeworth Letters Project</orgName>
+            </sponsor>
+            <sponsor>Wake Forest University, University of Tennessee, Xavier University, Texas
                   A&amp;M University</sponsor>
-               <principal>Jessica Richard, Hilary Havens, Robin Runia, Susan Egenolf</principal>
-               <respStmt>
-                  <resp>Transcription and coding by</resp>
-                  <persName ref="Id_who">Jamie Kramer<!--FirstName LastName-->
+            <principal>Jessica Richard, Hilary Havens, Robin Runia, Susan Egenolf</principal>
+            <respStmt>
+               <resp>Transcription and coding by</resp>
+               <persName ref="Id_who">Jamie Kramer<!--FirstName LastName-->
                   </persName>
-                  <!-- List all transcribers or coders here, editors and students alike, <persName> by <persName>.-->
-                  <persName ref="Id_who"><!--FirstName LastName--></persName>
-                  <!-- If you're the last person interacting with the file, enter your name last on the list -->
-               </respStmt>
-            </titleStmt>
+               <!-- List all transcribers or coders here, editors and students alike, <persName> by <persName>.-->
+               <persName ref="Id_who"><!--FirstName LastName--></persName>
+               <!-- If you're the last person interacting with the file, enter your name last on the list -->
+            </respStmt>
+         </titleStmt>
          <editionStmt>
             <edition>First digital edition in TEI, date: <date when="2023-08-18">
                </date>
@@ -44,8 +44,6 @@
                </resp>
             </respStmt>
          </editionStmt>
-         
-         
          <publicationStmt>
             <authority>Maria Edgeworth Letters Project</authority>
             <date>2023</date>
@@ -56,10 +54,9 @@
                <licence>Distributed under a Creative Commons Attribution-ShareAlike 3.0 Unported
                   License</licence>
             </availability>
-            
             <idno>
                Edgeworth_Huntington_HM28593_1800_xx_xx
-            </idno> 
+            </idno>
          </publicationStmt>
          <seriesStmt>
             <title>Maria Edgeworth Letters Project</title>
@@ -78,7 +75,6 @@
                   <idno/>
                   <!--Consult library or WorldCat for this info-->
                </msIdentifier>
-               
                <head>Letter from 
                   <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
                   to unknown: "My dear little boy,"
@@ -90,7 +86,6 @@
             <bibl>In addition to our edited version, this letter was previously published in
                <!--complete bibiographical info if letter was published in a book here-->
             </bibl>
-            
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
@@ -103,7 +98,6 @@
                word is split at the end of a line and the beginning of the next in a manuscript. The
                long s and ligatured forms are silently emended.</p>
          </editorialDecl>
-         
          <classDecl>
             <taxonomy xml:id="relators">
                <bibl>Marc Relators</bibl>
@@ -220,10 +214,14 @@
             <taxonomy xml:id="places">
                <bibl>Places</bibl>
                <category>
-                  <catDesc xml:id="EdgeworthsTown">Edgeworths' Town<idno type="getty">tgn/1042937</idno></catDesc>
-                  <catDesc xml:id="Peterborough">Peterborough, UK<idno type="getty">tgn/7026520</idno></catDesc>
-                  <catDesc xml:id="CranfordI">Cranford, Ireland<idno type="getty">tgn/7901042</idno></catDesc>
-                  <catDesc xml:id="Kettering">Kettering, UK<idno type="getty">tgn/7010904</idno></catDesc>
+                  <catDesc xml:id="EdgeworthsTown">Edgeworths' Town<idno type="getty">tgn/1042937</idno>
+                  </catDesc>
+                  <catDesc xml:id="Peterborough">Peterborough, UK<idno type="getty">tgn/7026520</idno>
+                  </catDesc>
+                  <catDesc xml:id="CranfordI">Cranford, Ireland<idno type="getty">tgn/7901042</idno>
+                  </catDesc>
+                  <catDesc xml:id="Kettering">Kettering, UK<idno type="getty">tgn/7010904</idno>
+                  </catDesc>
                </category>
             </taxonomy>
             <taxonomy xml:id="period">
@@ -233,7 +231,6 @@
                </category>
             </taxonomy>
          </classDecl>
-         
       </encodingDesc>
       <profileDesc>
          <correspDesc>
@@ -241,10 +238,10 @@
                <persName ref="./Personography.xml#BeauF1">Sir Francis Beaufort</persName>
             </correspAction>
             <correspAction type="received">
-               <persName ref="./Personography.xml#EdgeF2"> Frances Anne (Edgeworth) Beaufort</persName> <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
+               <persName ref="./Personography.xml#EdgeF2"> Frances Anne (Edgeworth) Beaufort</persName>
+               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
             </correspAction>
          </correspDesc>
-         
          <textClass>
             <keywords scheme="">
                <list type="simple">
@@ -266,16 +263,16 @@
       <body>
          <div type="letter">
             <pb n="1" facs="Edgeworth_Huntington_HM28593_1800_xx_xx_page01.jpg"/>
-            
             <opener>
                <salute>
                   My dear little boy<lb/>
-               </salute></opener>
-              
+               </salute>
+            </opener>
             <p> 
                I did not receive your letter till late yesterday evening<lb/>
                or I should have answerd it sooner. Perhaps often when the post has come in<lb/>
-               you have said "Is there no letter for me? No letter from that <persName ref="./Personography.xml#EdgeM1">Miss Edgeworth</persName><lb/>
+               you have said "Is there no letter for me? No letter from that <persName ref="./Personography.xml#EdgeM1">Miss Edgeworth</persName>
+               <lb/>
                She will never write to me! I was very foolish to write to her"<lb/>
                No, I hope this was not what you said or thought [ ] I hope that you<lb/>
                were more patient &amp; that you said She will write to me by &amp; by: I suppose<lb/>
@@ -283,12 +280,20 @@
                yes she does; do you know how far off? Take a map of <placeName ref="./Placeography.xml#IE">Ireland</placeName> and<lb/>
                put it on the table before you, Now look for the county of <placeName ref="./Placeography.xml#Longford_IE">Longford</placeName>. It<lb/>
                is just in the middle of the map, and now look in the midle of the<lb/>
-               County. and there you will see printed in little letters <placeName ref="./Placeography.xml#Edgeworthstown_IE"><choice><orig>Edgworthtown</orig><reg>Edgeworthstown</reg></choice></placeName><lb/>
+               County. and there you will see printed in little letters <placeName ref="./Placeography.xml#Edgeworthstown_IE">
+                  <choice>
+                     <orig>Edgworthtown</orig>
+                     <reg>Edgeworthstown</reg>
+                  </choice>
+               </placeName>
+               <lb/>
                and that is the place at which I live. You live at <placeName ref="./Placeography.xml#Macclesfield_ENK">Macclesfield</placeName> as I<lb/>
-               see by the date of your letter. I have just looked into the map of <placeName ref="./Placeography.xml#ENK">England</placeName><lb/>
+               see by the date of your letter. I have just looked into the map of <placeName ref="./Placeography.xml#ENK">England</placeName>
+               <lb/>
                for <placeName ref="./Placeography.xml#Macclesfield_ENK">Macclesfield</placeName> and I find <add>that</add> it is in <placeName ref="./Placeography.xml#Cheshire_ENK">Cheshire</placeName> so your letter must have<lb/>
                   travelled a great way before it reached me. You directed it to <placeName ref="./Placeography.xml#St-Pauls-Churchyard_ENK">St Pauls Church<lb/>
-                     yard</placeName> <placeName ref="./Placeography.xml#London_ENK">London</placeName>, first it went from <placeName ref="./Placeography.xml#Macclesfield_ENK">Macclesfield</placeName> to <placeName ref="./Placeography.xml#London_ENK">London</placeName> that is 171 miles<lb/>
+                     yard</placeName>
+               <placeName ref="./Placeography.xml#London_ENK">London</placeName>, first it went from <placeName ref="./Placeography.xml#Macclesfield_ENK">Macclesfield</placeName> to <placeName ref="./Placeography.xml#London_ENK">London</placeName> that is 171 miles<lb/>
                <del>then from</del> Then from <placeName ref="./Placeography.xml#London_ENK">London</placeName> to <placeName ref="./Placeography.xml#Holyhead_WLK">Holyhead</placeName> 300 miles then across the<lb/>
                sea from <placeName ref="./Placeography.xml#Holyhead_WLK">Holyhead</placeName> to <placeName ref="./Placeography.xml#Dublin_IE">Ireland</placeName> which you know is 20 leagues, that is<lb/>
                60 miles, then from <placeName ref="./Placeography.xml#Dublin_IE">Ireland</placeName> to <placeName ref="./Placeography.xml#Edgeworthstown_IE">Edgworths town</placeName> is sixty miles more<lb/>
@@ -297,18 +302,24 @@
                20
                60
                60
-                  <hi rend="underline">611</hi></add>six<lb/>
+                  <hi rend="underline">611</hi>
+               </add>six<lb/>
                hundred &amp; eleven miles! So you must perceive that <hi rend="underline">if</hi> all the post men<lb/>
                had galloped as hard as they could and all the horses in all the mail<lb/>
                coaches had been driven as fast as possible if the wind also had blown as<lb/>
                hard as it could blow &amp; as fair to fill the sails of the Ship which carried your<lb/>
                letter to this country yet I could not have received it till several days after<lb/>
-               you <del><unclear></unclear> written </del> wrote &amp; if I had written the moment I had read your<lb/>
+               you <del>
+                  <unclear/> written </del> wrote &amp; if I had written the moment I had read your<lb/>
                letter yet you could not have received my answer the next day<lb/>
-               You can consider &amp; calculate all these things will never be so <choice><orig>un-<lb/>
-               reasonable</orig><reg>unreasonable</reg></choice> as some impatient little boys who at the bottom of their<lb/>
+               You can consider &amp; calculate all these things will never be so <choice>
+                  <orig>un-<lb/>
+               reasonable</orig>
+                  <reg>unreasonable</reg>
+               </choice> as some impatient little boys who at the bottom of their<lb/>
                letters write<lb/>
-               "I shall expect an answer by return of post <del></del><lb/>
+               "I shall expect an answer by return of post <del/>
+               <lb/>
                without fail"<lb/>
                even though you wait a few weeks for an answer, it is not agreeable<lb/>
                to be able to tell your thoughts to a person who is at 611 miles distance<lb/>
@@ -316,7 +327,6 @@
                I thank you for writing it too; - Your letter not only pleased me<lb/>
                but several of my brothers &amp; sisters and <persName ref="./Personography.xml#EdgeR1">my father</persName> &amp; <persName ref="./Personography.xml#EdgeF2">mother</persName> &amp; aunts<lb/>   
                who were present when I read <add>out</add> it. I received it at supper time<lb/>
-
                <pb n="2" facs="Edgeworth_Huntington_HM28593_1800_xx_xx_page02.jpg"/>
                
                and read it aloud &amp; every body smiled &amp; liked what I read<lb/>
@@ -330,13 +340,21 @@
                trouble of copying your letter, is a very good brother - and that<lb/>
                you must be fond of him too, Are we mistaken? and we think<lb/>
                you are a happy little boy since you have a good mother &amp; a good<lb/>
-               brother, and a good friend, Are we mistaken? -<lb/></p>
-               <p>Is your friend Roscoe any relation to the <persName ref="./Personography.xml#RoscW1">M<hi rend="superscript">r</hi> Roscoe</persName> who<lb/>
+               brother, and a good friend, Are we mistaken? -<lb/>
+            </p>
+            <p>Is your friend Roscoe any relation to the <persName ref="./Personography.xml#RoscW1">M<hi rend="superscript">r</hi> Roscoe</persName> who<lb/>
                wrote <title ref="./Workography.xml#LifeL1">the life of Lorenzo de Medici</title> which entertain'd us so<lb/>
-               much -?<lb/></p>
-               <p>I am glad you had as good a friend as little <title ref="./Workography.xml#">Dominick</title><lb/>
-               had but I hope you do not find it as difficult as poor little <title ref="./Workography.xml#"><choice><orig>Dom<lb/>
-                  inick</orig><reg>Dominich</reg></choice></title> found it to learn the lattin grammar. I can assure you<lb/>
+               much -?<lb/>
+            </p>
+            <p>I am glad you had as good a friend as little <title ref="./Workography.xml#">Dominick</title>
+               <lb/>
+               had but I hope you do not find it as difficult as poor little <title ref="./Workography.xml#">
+                  <choice>
+                     <orig>Dom<lb/>
+                  inick</orig>
+                     <reg>Dominich</reg>
+                  </choice>
+               </title> found it to learn the lattin grammar. I can assure you<lb/>
                that it is much more difficult to people to learn it after they<lb/>
                grow old than whilst they are young. (After I had grown up quite<lb/>
                that is as much as ever I could grow (which is very little <persName ref="./Personography.xml#EdgeR1">my<lb/>
@@ -348,65 +366,90 @@
                what your mother desires; but tho I said the verbs &amp; pronouns over<lb/>
                to myself evening &amp; morning and though I wrote them out to make<lb/>
                myself <unclear>remember</unclear> them better, yet I found it extreemly difficult to<lb/>
-               get them by heart and all the while I saw my little brother <persName ref="./Personography.xml#EdgeW1">William</persName><lb/>
-               who was but eight years old learn them with the greatest ease<lb/></p>
-               <p>I am not surprised that you could not understand the essay on<lb/>
-               bulls and I am glad that you do not like to read what you do not <choice><orig>com<lb/>
-                  prehend</orig><reg>comprehend</reg></choice>; that book was not written for young people and many old people<lb/>
-               find it difficult to understand &amp; do not like it.<lb/></p>
-               <p>I am glad the Story of the contrast entertain'd you. We like it the<lb/>
+               get them by heart and all the while I saw my little brother <persName ref="./Personography.xml#EdgeW1">William</persName>
+               <lb/>
+               who was but eight years old learn them with the greatest ease<lb/>
+            </p>
+            <p>I am not surprised that you could not understand the essay on<lb/>
+               bulls and I am glad that you do not like to read what you do not <choice>
+                  <orig>com<lb/>
+                  prehend</orig>
+                  <reg>comprehend</reg>
+               </choice>; that book was not written for young people and many old people<lb/>
+               find it difficult to understand &amp; do not like it.<lb/>
+            </p>
+            <p>I am glad the Story of the contrast entertain'd you. We like it the<lb/>
                best of popular tales When I read the note at the end of it, to one<lb/>
-               
                <pb n="3" facs="Edgeworth_Huntington_HM28593_1800_xx_xx_page03.jpg"/>
                
                of my brothers before it was printed he said suppose some Body will write<lb/>
                to you" Some body has, and I am glad that I inserted that note - because<lb/>
                it has been the cause of your writing to me. But I must explain the<lb/>
                meaning of that note to you; It was meant to <del>explain</del> ridicule those<lb/>
-               who give long descriptions of wedding clothes &amp; fine coats &amp;c as if they thoug<add>ht</add><lb/>
+               who give long descriptions of wedding clothes &amp; fine coats &amp;c as if they thoug<add>ht</add>
+               <lb/>
                such things make people happy. When I was in <placeName ref="./Placeography.xml#London_ENK">London</placeName> about two years<lb/>
                ago I saw hanging up in a mantua makers room, some of the gowns of<lb/>
-               a Lady who was to have forty wedding gowns &amp; the Mantua mak<unclear></unclear><lb/>
+               a Lady who was to have forty wedding gowns &amp; the Mantua mak<unclear/>
+               <lb/>
                told me that She had lain awake all night &amp; had puzzled herself<lb/>
                to invent different fashions &amp; trimmings for these gowns, one of which<lb/>
-               cost 100 <del>gowns</del> <add>guineas</add>. Yet as I was informed by a sensible person the Lady to<lb/>
+               cost 100 <del>gowns</del>
+               <add>guineas</add>. Yet as I was informed by a sensible person the Lady to<lb/>
                whom all these fine things belonged was not likely to be very happy<lb/>
-               for she was going to be married to a man who did not love her, &amp; who <choice><orig>mar<lb/>
-                  ried</orig><reg>married</reg></choice> her only because she was rich. I do not know how many gowns <title ref="./Workography.xml#">Patty</title><lb/>
+               for she was going to be married to a man who did not love her, &amp; who <choice>
+                  <orig>mar<lb/>
+                  ried</orig>
+                  <reg>married</reg>
+               </choice> her only because she was rich. I do not know how many gowns <title ref="./Workography.xml#">Patty</title>
+               <lb/>
                and <title ref="./Workography.xml#">Fanny Franklin</title> had I believe they wore white gowns the day<lb/>
                they were married, but whether their husbands wore blue green, brown or red Coats<lb/>
                I cannot tell &amp; I do not think they cared. All I am certain is that they<lb/>
                were very clean, &amp; very likely to be happy because they were good &amp; loved<lb/>
-               one another</p><lb/>
+               one another</p>
+            <lb/>
             <p>As to <title ref="./Workography.xml#">the old father</title> you know that his gray hair was comb'd very smooth<lb/>
-               by his <del><unclear>father</unclear></del> daughter <title ref="./Workography.xml#">Patty</title> and that his cravat was perfectly clean &amp; white<lb/>
+               by his <del>
+                  <unclear>father</unclear>
+               </del> daughter <title ref="./Workography.xml#">Patty</title> and that his cravat was perfectly clean &amp; white<lb/>
                I dare say that it was washed &amp; iron'd by his daughter <title ref="./Workography.xml#">Patty</title> who<lb/>
-                  you know could wash &amp; iron so as to please even <title ref="./Workography.xml#">M<hi rend="superscript">rs</hi> Crump</title> -</p><lb/>
-               <p>I have gone on writing as you did to me, as if I was talking, but<lb/><lb/>
+                  you know could wash &amp; iron so as to please even <title ref="./Workography.xml#">M<hi rend="superscript">rs</hi> Crump</title> -</p>
+            <lb/>
+            <p>I have gone on writing as you did to me, as if I was talking, but<lb/>
+               <lb/>
                now I must stop for I have heard that <hi rend="underline">Women</hi> may talk too much<lb/>
                I had intended to send you a little play which I have just written<lb/>
                but it is fifty pages &amp; that is too much to copy, beside it will<lb/>
                be easier to you to read when it is printed; in the mean time<lb/>
                <persName ref="./Personography.xml#EdgeR1">my father</persName> sends you a <add>little</add> book of <hi rend="underline">his</hi> writing you will see that it<lb/>
-               is French on one side &amp; english on the other &amp; if you are <choice><orig>lear<lb/>
-                  ning</orig><reg>learning</reg></choice> french it will be very useful to you. I think you will be<lb/>
-                  entertain'd with <title ref="./Workography.xml#">the history of Harry &amp; <del>Judy</del> <add>Lucy</add></title>, tho' they are younger<lb/>
+               is French on one side &amp; english on the other &amp; if you are <choice>
+                  <orig>lear<lb/>
+                  ning</orig>
+                  <reg>learning</reg>
+               </choice> french it will be very useful to you. I think you will be<lb/>
+                  entertain'd with <title ref="./Workography.xml#">the history of Harry &amp; <del>Judy</del>
+                  <add>Lucy</add>
+               </title>, tho' they are younger<lb/>
                than you are: this is only the history of a few days of their lives<lb/>
                in two different years: but I hope <persName ref="./Personography.xml#EdgeR1">my father</persName> will finish it Some<lb/>
-     
                <pb n="4" facs="Edgeworth_Huntington_HM28593_1800_xx_xx_page04.jpg"/>
                
                time or other.<lb/>
                If you like to write to me again, I shall be very glad to hear from<lb/>
                you, but do not write if you do not like it &amp; next time you<lb/>
-               need not pay the postage of your letters<lb/></p>
-               <closer>Farewell my dear little boy -<lb/>
+               need not pay the postage of your letters<lb/>
+            </p>
+            <closer>Farewell my dear little boy -<lb/>
                Yours affectionately<lb/>
-               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName><lb/>
+               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
+               <lb/>
                
                Direct to me<lb/>
-               <placeName ref="./Placeography.xml#Edgeworthstown_IE">Edgeworthstown</placeName><lb/>
-               <placeName ref="./Placeography.xml#IE">Ireland</placeName><lb/>
+               <placeName ref="./Placeography.xml#Edgeworthstown_IE">Edgeworthstown</placeName>
+               <lb/>
+               <placeName ref="./Placeography.xml#IE">Ireland</placeName>
+               <lb/>
             </closer>
          </div>
       </body>

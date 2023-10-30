@@ -54,7 +54,8 @@
             <availability>
                <!--Uncomment the appropriate line, based on the archive that holds the physical copy of this letter, 
                   and delete the other comment line(s).-->
-               <p>Reproduced by coutesty of <orgName ref="http://id.loc.gov/authorities/names/n80097499">Harvard University, Houghton Library</orgName><!--Reproduced by courtesy of the <orgName ref="#ReadingCL">Reading Central Library</orgName>.-->
+               <p>Reproduced by coutesty of <orgName ref="http://id.loc.gov/authorities/names/n80097499">Harvard University, Houghton Library</orgName>
+                  <!--Reproduced by courtesy of the <orgName ref="#ReadingCL">Reading Central Library</orgName>.-->
                   <!--or -->
                   <!--Courtesy of <orgName ref="#Rylands">The University of Manchester</orgName>.-->
                </p>
@@ -63,7 +64,7 @@
             </availability>
             <idno>
                Edgeworth_Harvard_604756_1847-01
-            </idno> 
+            </idno>
          </publicationStmt>
          <seriesStmt>
             <title>Maria Edgeworth Letters Project</title>
@@ -76,7 +77,6 @@
                   <collection><!-- Enter specific archival collection if applicable--></collection>
                   <idno><!--Consult library or WorldCat for this info--></idno>
                </msIdentifier>
-               
                <!-- FROM LAURA: it's here (below) in the head that I added the full information about the author,
                   and you could add full information about the addressee as well. -->
                <head>Letter from 
@@ -89,10 +89,8 @@
                   <!-- optional physical description of the letter goes here: paper size and condition, seal, postmarks, etc.-->
                </physDesc>
             </msDesc>
-            
             <!-- FROM LAURA: where to put the following information in <bibl> is still a question: 
                ask TEI List whether it should be in the sourceDesc or elsewhere? -->
-            
             <bibl>In addition to our edited version, this letter was previously published in
                <!--complete bibiographical info if letter was published in a book here - if not delete-->
             </bibl>
@@ -227,15 +225,25 @@
             <pb n="1" facs="Edgeworth_Harvard_604756_1847-01_page01.jpg"/>
             <opener>
                <dateline>
-                  <placeName ref="./Placeography.xml#Edgeworthstown_IE">Edgeworths Town</placeName><lb/>
-                  <date when="1847-01-14"><choice><orig>Jan<hi rend="superscript">y</hi>.</orig><reg>January</reg></choice> 14<hi rend="superscript">h</hi>. 1847</date></dateline><lb/>
+                  <placeName ref="./Placeography.xml#Edgeworthstown_IE">Edgeworths Town</placeName>
+                  <lb/>
+                  <date when="1847-01-14">
+                     <choice>
+                        <orig>Jan<hi rend="superscript">y</hi>.</orig>
+                        <reg>January</reg>
+                     </choice> 14<hi rend="superscript">h</hi>. 1847</date>
+               </dateline>
+               <lb/>
                <salute>
                   Dear Sir,<lb/>
                </salute>
             </opener>
             <p>Your letter dated New Years<lb/>
-               day - <placeName ref="./Placeography.xml#Riedenburg_GW">Riedenburg</placeName> Lue de <choice><orig>Con-<lb/>
-                  stance</orig><reg>Constance</reg></choice> reached me three<lb/>
+               day - <placeName ref="./Placeography.xml#Riedenburg_GW">Riedenburg</placeName> Lue de <choice>
+                  <orig>Con-<lb/>
+                  stance</orig>
+                  <reg>Constance</reg>
+               </choice> reached me three<lb/>
                days ago - It gave me as<lb/>
                both your former letters<lb/>
                did sincere pleasure from<lb/>
@@ -247,20 +255,22 @@
                flattery - as they come I<lb/>
                believe most truly from<lb/>
                your warm heart and<lb/>
-               enthusiastic gratitude<lb/></p>
-               <p>Gratitude far above my<lb/>
+               enthusiastic gratitude<lb/>
+            </p>
+            <p>Gratitude far above my<lb/>
                deserth - but no matter for that<lb/>
                - It is I own delightful to me<lb/>
                even to fancy that I can be of<lb/>
                use and pleasure to a man<lb/>
-
                <pb n="2" facs="Edgeworth_Harvard_604756_1847-01_page02.jpg"/>
                
                genius and <add>that</add> I may hope to<lb/>
                encourage his exertions and<lb/>
                perhaps assist from my old<lb/>
-               Experience <del>in</del><lb/></p>
-               <p>In the first place then to<lb/>
+               Experience <del>in</del>
+               <lb/>
+            </p>
+            <p>In the first place then to<lb/>
                answer your concluding &amp;<lb/>
                most important question; I<lb/>
                will do my best to give you<lb/>
@@ -268,22 +278,28 @@
                in judging of the sketch of the<lb/>
                new story you are planning<lb/>
                -&amp; which you do me the honor<lb/>
-               to say you wish me to see -<lb/></p>
-               <p>I need not I trust say that it<lb/>
+               to say you wish me to see -<lb/>
+            </p>
+            <p>I need not I trust say that it<lb/>
                shall be secret and safe with<lb/>
                me- - But I must beg that it<lb/>
                may be exactly what you<lb/>
-               describe - a sketch - I <hi rend= "underline">cannot </hi><lb/>
+               describe - a sketch - I <hi rend="underline">cannot </hi>
+               <lb/>
                look over a manuscript - not only<lb/>
                because I have not time literally<lb/>
                But because I have made it<lb/>
                a rule from which I have never<lb/>
-                  deviated <add><hi rend= "underline">never</hi> to look over any <choice><abbr>M<hi rend="superscript">n</hi>.</abbr><reg>manuscript</reg></choice> for the press</add> even where much pressed<lb/>
-               by near connexions, <del>to look over </del><lb/>
-               
+                  deviated <add>
+                  <hi rend="underline">never</hi> to look over any <choice>
+                     <abbr>M<hi rend="superscript">n</hi>.</abbr>
+                     <reg>manuscript</reg>
+                  </choice> for the press</add> even where much pressed<lb/>
+               by near connexions, <del>to look over </del>
+               <lb/>
                <pb n="3" facs="Edgeworth_Harvard_604756_1847-01_page03.jpg"/>
                
-               Do not send me the <hi rend= "underline">sketch</hi> even<lb/>
+               Do not send me the <hi rend="underline">sketch</hi> even<lb/>
                if you have written the story<lb/>
                - You must give me the assurance<lb/>
                that you have not written it<lb/>
@@ -292,35 +308,63 @@
                self to suggest different courses<lb/>
                or alterations of your course<lb/>
                if your road was already taken<lb/>
-               or even decided upon -<lb/></p>
-               <p>My present frankness tho<lb/>
-               it may strike you at this <choice><orig>mo-<lb/>
-                  ment</orig><reg>moment</reg></choice> as rather uncourteous<lb/>
-               may save us both <choice><orig>disappoint<lb/>
-                  -ment</orig><reg>disappointment</reg></choice> or useless pain hereafter<lb/>
-                  - I <choice><abbr>sh<hi rend="superscript">d</hi></abbr><reg>should</reg></choice> not be so presumptuous<lb/>
+               or even decided upon -<lb/>
+            </p>
+            <p>My present frankness tho<lb/>
+               it may strike you at this <choice>
+                  <orig>mo-<lb/>
+                  ment</orig>
+                  <reg>moment</reg>
+               </choice> as rather uncourteous<lb/>
+               may save us both <choice>
+                  <orig>disappoint<lb/>
+                  -ment</orig>
+                  <reg>disappointment</reg>
+               </choice> or useless pain hereafter<lb/>
+                  - I <choice>
+                  <abbr>sh<hi rend="superscript">d</hi>
+                  </abbr>
+                  <reg>should</reg>
+               </choice> not be so presumptuous<lb/>
                as to my power to assist you<lb/>
-               in looking over a <hi rend= "underline">sketch</hi><lb/>
+               in looking over a <hi rend="underline">sketch</hi>
+               <lb/>
                had I not had for many<lb/>
                many years (I being now 80)<lb/>
-               the practice of <hi rend= "underline">making</hi> &amp; <choice><orig><hi rend= "underline">alter</hi><lb/>
-                  ing</orig><reg>altering</reg></choice> sketches of <add>my own</add> stories <choice><orig>accord-<lb/>
-                     ing</orig><reg>according</reg></choice> to the suggestions &amp; advice<lb/>
+               the practice of <hi rend="underline">making</hi> &amp; <choice>
+                  <orig>
+                     <hi rend="underline">alter</hi>
+                     <lb/>
+                  ing</orig>
+                  <reg>altering</reg>
+               </choice> sketches of <add>my own</add> stories <choice>
+                  <orig>accord-<lb/>
+                     ing</orig>
+                  <reg>according</reg>
+               </choice> to the suggestions &amp; advice<lb/>
                   of my <persName ref="./Personography.xml#EdgeR1">father</persName> -<lb/>
                you know "Experience doth attain"<lb/>
-               &amp;c<lb/></p>
-               
-               <pb n="4" facs="Edgeworth_Harvard_604756_1847-01_page04.jpg"/>
-               
-               <p>I augur well of your Tales of<lb/>
+               &amp;c<lb/>
+            </p>
+            <pb n="4" facs="Edgeworth_Harvard_604756_1847-01_page04.jpg"/>
+            <p>I augur well of your Tales of<lb/>
                   the <placeName ref="./Placeography.xml#Tyrol_AT">Tyrol</placeName> - from Nature and<lb/>
                Life - new to us - At least new<lb/>
                enough for your genius to<lb/>
-               make advantage of the <choice><orig>pictu<lb/>
-                  -resque</orig><reg>picturesque</reg></choice> and the <hi rend= "underline">graphic</hi> -<lb/>
-               whether comic or tragic <del><unclear></unclear></del><lb/>
-               Be pleased to keep a good <choice><orig>pro-<lb/>
-                  portion</orig><reg>proportion</reg></choice> of <hi rend= "underline">comic</hi> - I conceive<lb/>
+               make advantage of the <choice>
+                  <orig>pictu<lb/>
+                  -resque</orig>
+                  <reg>picturesque</reg>
+               </choice> and the <hi rend="underline">graphic</hi> -<lb/>
+               whether comic or tragic <del>
+                  <unclear/>
+               </del>
+               <lb/>
+               Be pleased to keep a good <choice>
+                  <orig>pro-<lb/>
+                  portion</orig>
+                  <reg>proportion</reg>
+               </choice> of <hi rend="underline">comic</hi> - I conceive<lb/>
                that your Publisher would agree<lb/>
                with me in this advice -<lb/>
                   "Courage <persName ref="./Personography.xml#Molie1">Moliere</persName>! voila de<lb/>
@@ -331,110 +375,154 @@
                few who do are glad to be<lb/>
                relieved from the effort often<lb/>
                by a good laugh - The laugh<lb/>
-               on your side - you win<lb/></p>
-                  <p>Recollect <persName ref="./Personography.xml#MoorX2">Dr Moore</persName> who went<lb/>
-               to the Italian Theatre Buffo <choice><orig>resolv-<lb/>
-                  <unclear>ing</unclear></orig><reg>resolving</reg></choice> he would not be made to laugh<lb/>
+               on your side - you win<lb/>
+            </p>
+            <p>Recollect <persName ref="./Personography.xml#MoorX2">Dr Moore</persName> who went<lb/>
+               to the Italian Theatre Buffo <choice>
+                  <orig>resolv-<lb/>
+                     <unclear>ing</unclear>
+                  </orig>
+                  <reg>resolving</reg>
+               </choice> he would not be made to laugh<lb/>
                - But he was made to laugh &amp;<lb/>
                was thankful for it - &amp; could not<lb/>
                criticise - or if he had nobody w<hi rend="superscript">d</hi> have<lb/>
-               minded<lb/></p>
-               
-               <pb n="5" facs="Edgeworth_Harvard_604756_1847-01_page05.jpg"/>
-               
-               <p>I received a letter<lb/>
-                  from you dated <date when= "1846-07-16">16<hi rend="superscript">th</hi>. July 46</date><lb/>
-                  which I answered the <date when= "1846-07-31">31<hi rend="superscript">t</hi>. of that<lb/>
+               minded<lb/>
+            </p>
+            <pb n="5" facs="Edgeworth_Harvard_604756_1847-01_page05.jpg"/>
+            <p>I received a letter<lb/>
+                  from you dated <date when="1846-07-16">16<hi rend="superscript">th</hi>. July 46</date>
+               <lb/>
+                  which I answered the <date when="1846-07-31">31<hi rend="superscript">t</hi>. of that<lb/>
                month</date>, in which I told you that<lb/>
-                  I had seen the <title ref="./Workography.xml#Knight1">Knight of <unclear>Gwynne</unclear></title><lb/>
+                  I had seen the <title ref="./Workography.xml#Knight1">Knight of <unclear>Gwynne</unclear>
+               </title>
+               <lb/>
                and all I thought about it &amp;<lb/>
                of the extreme difficulty of<lb/>
                getting all the parties out of their<lb/>
                difficulties -<lb/>
-                  I have since received 4 <choice><abbr><add><unclear>vol.</unclear></add></abbr><reg>volume</reg></choice><unclear>numbers</unclear><lb/>
+                  I have since received 4 <choice>
+                  <abbr>
+                     <add>
+                        <unclear>vol.</unclear>
+                     </add>
+                  </abbr>
+                  <reg>volume</reg>
+               </choice>
+               <unclear>numbers</unclear>
+               <lb/>
                   of the <title ref="./Workography.xml#Knight1">Knight</title> -<lb/>
-                  With the last <add>for <date when= "1847-01"><choice><abbr>Jan<hi rend="superscript">y</hi></abbr><reg>January</reg></choice> 47</date>,</add> which we finished<lb/>
+                  With the last <add>for <date when="1847-01">
+                     <choice>
+                        <abbr>Jan<hi rend="superscript">y</hi>
+                        </abbr>
+                        <reg>January</reg>
+                     </choice> 47</date>,</add> which we finished<lb/>
                last night we are all delighted<lb/>
-               - And I have the greatest <choice><orig>satis-<lb/>
-                  faction</orig><reg>satisfaction</reg></choice> in writing to tell you<lb/>
+               - And I have the greatest <choice>
+                  <orig>satis-<lb/>
+                  faction</orig>
+                  <reg>satisfaction</reg>
+               </choice> in writing to tell you<lb/>
                so - and that my fears of<lb/>
                your never getting your people<lb/>
                out of their difficulties are<lb/>
                dispelled. I see light cheering<lb/>
                and brilliant -<lb/>
-                  <title ref="./Workography.xml#Knight1">O Halloran's speech on the trial</title><lb/>
+               <title ref="./Workography.xml#Knight1">O Halloran's speech on the trial</title>
+               <lb/>
                is admirable - in the highest<lb/>
                style of eloquence - And with<lb/>
                the rare excellence in Irish<lb/>
-               
                <pb n="6" facs="Edgeworth_Harvard_604756_1847-01_page06.jpg"/>
                
                or at least to shew that you<lb/>
                do not mean to pass it over -<lb/>
-               <del>n</del>or to give a perfume to <choice><orig>conta-<lb/>
-                  -gious</orig><reg>contagious</reg></choice> matter -<lb/></p>
-                  <p><title ref="./Workography.xml#Knight1">Your ladies are really<lb/>
+               <del>n</del>or to give a perfume to <choice>
+                  <orig>conta-<lb/>
+                  -gious</orig>
+                  <reg>contagious</reg>
+               </choice> matter -<lb/>
+            </p>
+            <p>
+               <title ref="./Workography.xml#Knight1">Your ladies are really<lb/>
                well bred - high bred and<lb/>
                high minded - So is the Knight<lb/>
-               himself - <del>And</del> Daly is <choice><orig>incom-<lb/>
-                  parably</orig><reg>incomparably</reg></choice> reckless - And <choice><orig>Demp<lb/>
-                     sey</orig><reg>Dempsey</reg></choice> incomparably vulgar with<lb/>
-               the true care &amp; bravado of his kind</title><lb/>
+               himself - <del>And</del> Daly is <choice>
+                     <orig>incom-<lb/>
+                  parably</orig>
+                     <reg>incomparably</reg>
+                  </choice> reckless - And <choice>
+                     <orig>Demp<lb/>
+                     sey</orig>
+                     <reg>Dempsey</reg>
+                  </choice> incomparably vulgar with<lb/>
+               the true care &amp; bravado of his kind</title>
+               <lb/>
                - Your characters are well<lb/>
                sustained and contrasted<lb/>
                strongly, through out the<lb/>
                whole of this last piece - And<lb/>
                without any affectation of<lb/>
                contrast or straining for effect,<lb/>
-               - We long to see your next<lb/></p>
-                  <p>There are two little books<lb/>
+               - We long to see your next<lb/>
+            </p>
+            <p>There are two little books<lb/>
                   which have lately come in my way<lb/>
                   wh<hi rend="superscript">h</hi> I think you might like to look over<lb/>
                   - as they open views of what you might<lb/>
                   turn to new compositions (I have not expressed<lb/>
                   what I mean but yet I think you will<lb/>
-                  give a guess at my meaning) <unclear>The books</unclear><lb/>
+                  give a guess at my meaning) <unclear>The books</unclear>
+               <lb/>
                   are little or nothing in themselves<lb/>
-               
                <pb n="7" facs="Edgeworth_Harvard_604756_1847-01_page07.jpg"/>
                
-               except the life of a <hi rend= "underline">child</hi> painter in one<lb/>
+               except the life of a <hi rend="underline">child</hi> painter in one<lb/>
                   of these books - which is excellent -<lb/>
                   accompanied by drawings illustrative<lb/>
                   of the childs progress -<lb/>
-                  <del>The Title of</del> The book in which this story<lb/>
+               <del>The Title of</del> The book in which this story<lb/>
                   is to be found is called -<lb/>
-                     <title ref="./Workography.xml#Sketch1">"Flemish Tales"</title> - <choice><abbr>duod<hi rend="superscript">o</hi>.</abbr><reg>duodecimo</reg></choice> price 4/6<lb/>
+               <title ref="./Workography.xml#Sketch1">"Flemish Tales"</title> - <choice>
+                  <abbr>duod<hi rend="superscript">o</hi>.</abbr>
+                  <reg>duodecimo</reg>
+               </choice> price 4/6<lb/>
                   The other book is<lb/>
                      No. 39 of <persName ref="./Personography.xml#MurrJ3">Murray</persName>s Colonial Library<lb/>
-                     <persName ref="./Personography.xml#FordR1">Ford</persName>s <title ref="./Workography.xml#Gather1"><unclear>vent</unclear> in Spain</title><lb/>
+               <persName ref="./Personography.xml#FordR1">Ford</persName>s <title ref="./Workography.xml#Gather1">
+                  <unclear>vent</unclear> in Spain</title>
+               <lb/>
                   Look for the description of<lb/>
-                  Baking and Thrashing page - 115<lb/></p>
-                  <p>I merely mark this as Graphic<lb/>
+                  Baking and Thrashing page - 115<lb/>
+            </p>
+            <p>I merely mark this as Graphic<lb/>
                   - and the sort that you could<lb/>
                   make something of -<lb/>
             </p>
             <closer>
                I am Dear Sir<lb/>
                very truly yours<lb/>
-               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName><lb/>
+               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
+               <lb/>
             </closer>
             <postscript>
                <p>I am surprised and delighted<lb/>
                   by your having remembered<lb/>
                   <persName ref="./Personography.xml#EdgeR1">my father</persName>s epigram so long<lb/>
                &amp; recollecting it so opportunely<lb/>
-               to send it to "everlasting fame"</p><lb/>
+               to send it to "everlasting fame"</p>
+               <lb/>
                <p>Never mind your publisher<lb/>
                Follow your own Genius &amp; he &amp; the<lb/>
                public will follow you<lb/>
                Fame never follow those who court her<lb/>
-               among those who commend her</p><lb/>
+               among those who commend her</p>
+               <lb/>
             </postscript>
          </div>
       </body>
       <back> </back>
    </text>
 </TEI>
-
-

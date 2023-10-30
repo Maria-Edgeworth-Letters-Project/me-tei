@@ -52,7 +52,7 @@
                <licence>Distributed under a Creative Commons Attribution-ShareAlike 3.0 Unported
                   License</licence>
             </availability>
-            <idno>Edgeworth_Morgan_422494_1821_10_09<!--Change to match the file name and current naming standards, i.e. "Edgeworth_Beinecke_330_1817_01_24" if file name is "Edgeworth_Beinecke_330_1817_01_24.xml"--></idno> 
+            <idno>Edgeworth_Morgan_422494_1821_10_09<!--Change to match the file name and current naming standards, i.e. "Edgeworth_Beinecke_330_1817_01_24" if file name is "Edgeworth_Beinecke_330_1817_01_24.xml"--></idno>
          </publicationStmt>
          <seriesStmt>
             <title>Maria Edgeworth Letters Project</title>
@@ -65,17 +65,16 @@
                   <collection><!-- Enter specific archival collection if applicable--></collection>
                   <idno><!--Consult library or WorldCat for this info--></idno>
                </msIdentifier>
-               
                <!-- FROM LAURA: it's here (below) in the head that I added the full information about the author,
                   and you could add full information about the addressee as well. -->
                <head>Letter from 
                      <persName xml:id="EdgeM1" from="1768" to="1849">
-                        <forename>Maria</forename>
-                        <surname>Edgeworth</surname>
-                        <date>1768-1849</date>
-                        <idno type="VIAF">71477273</idno>
-                        <idno type="SNAC">62567029</idno>
-                     </persName>
+                     <forename>Maria</forename>
+                     <surname>Edgeworth</surname>
+                     <date>1768-1849</date>
+                     <idno type="VIAF">71477273</idno>
+                     <idno type="SNAC">62567029</idno>
+                  </persName>
                    to <persName>unknown</persName>,  
                   <date when="1821-10-09">Oct<hi rend="superscript">r</hi>. 9<hi rend="superscript">th</hi>. 1821. </date>
                </head>
@@ -83,10 +82,8 @@
                   <!-- optional physical description of the letter goes here: paper size and condition, seal, postmarks, etc.-->
                </physDesc>
             </msDesc>
-            
             <!-- FROM LAURA: where to put the following information in <bibl> is still a question: 
                ask TEI List whether it should be in the sourceDesc or elsewhere? -->
-            
             <bibl>In addition to our edited version, this letter was previously published in
                <!--complete bibiographical info if letter was published in a book here - if not delete-->
             </bibl>
@@ -211,7 +208,7 @@
       </profileDesc>
       <revisionDesc>
          <change when="2023-08-08" who="Id_who">
-<persName>Jamie Kramer</persName>-revisions for github upload
+            <persName>Jamie Kramer</persName>-revisions for github upload
          </change>
       </revisionDesc>
    </teiHeader>
@@ -223,33 +220,42 @@
             <opener>
                <hi rend="underline">Very private</hi>
                <dateline><!--If there's no date line, omit this element. Record in the order in which it is written on the letter.-->
-                  <placeName ref="./Placeography.xml#Edgeworthstown_IE">Edgeworths Town</placeName><lb/>
+                  <placeName ref="./Placeography.xml#Edgeworthstown_IE">Edgeworths Town</placeName>
+                  <lb/>
                   <date when="1821-10-09"/>Oct<hi rend="superscript">r</hi>. 9<hi rend="superscript">th</hi>. 1821. </dateline>
                <salute>
                   Sir<lb/>
                </salute>
             </opener>
             <p>I take the liberty of enclosing to you<lb/>
-               copies of letters from <persName ref="./Personography.xml#SidmH1">Lord Sidmouth</persName><lb/>
-               to <persName ref="./Personography.xml#FostJ2">Lord Oriel</persName> - dated 24<hi rend="superscript">th</hi>. Sept<hi rend="superscript">r</hi>. - <placeName ref="./Placeography.xml#London_ENK">London</placeName><lb/>
-               <add>also from</add> <persName ref="./Personography.xml#TalbJ1">M<hi rend="superscript">r</hi>. Talbot</persName> to <persName ref="./Personography.xml#BeauM1">M<hi rend="superscript">rs</hi> Beaufort</persName> same date<lb/>
-               <add><placeName ref="./Placeography.xml#Dublin_IE">Dublin</placeName></add> And another from <persName ref="./Personography.xml#TalbJ1">M<hi rend="superscript">r</hi>. Talbot</persName> — Oct 2 —<lb/>
+               copies of letters from <persName ref="./Personography.xml#SidmH1">Lord Sidmouth</persName>
+               <lb/>
+               to <persName ref="./Personography.xml#FostJ2">Lord Oriel</persName> - dated 24<hi rend="superscript">th</hi>. Sept<hi rend="superscript">r</hi>. - <placeName ref="./Placeography.xml#London_ENK">London</placeName>
+               <lb/>
+               <add>also from</add>
+               <persName ref="./Personography.xml#TalbJ1">M<hi rend="superscript">r</hi>. Talbot</persName> to <persName ref="./Personography.xml#BeauM1">M<hi rend="superscript">rs</hi> Beaufort</persName> same date<lb/>
+               <add>
+                  <placeName ref="./Placeography.xml#Dublin_IE">Dublin</placeName>
+               </add> And another from <persName ref="./Personography.xml#TalbJ1">M<hi rend="superscript">r</hi>. Talbot</persName> — Oct 2 —<lb/>
             </p>
-            <p>By <persName ref="./Personography.xml#TalbJ1">M<hi rend="superscript">r</hi>. Talbots</persName> of the 24<hi rend="superscript">h</hi>. <persName ref="./Personography.xml#BeauM1">M<hi rend="superscript">rs</hi>. B.</persName><lb/>
+            <p>By <persName ref="./Personography.xml#TalbJ1">M<hi rend="superscript">r</hi>. Talbots</persName> of the 24<hi rend="superscript">h</hi>. <persName ref="./Personography.xml#BeauM1">M<hi rend="superscript">rs</hi>. B.</persName>
+               <lb/>
                is informed that her pension which<lb/>
                was 30 <hi rend="superscript">£</hi> is increased to 50 <hi rend="superscript">£</hi> per Annum.<lb/>
             </p>
             <p>I conceive therefore that 50 <hi rend="superscript">£</hi> per Annum<lb/>
-               <hi rend="underline">was</hi> <persName ref="./Personography.xml#BeauM1">M<hi rend="superscript">rs</hi>. Beaufort</persName>'s actual pension from<lb/>
-               Government here, when <persName ref="./Personography.xml#SidmH1">Lord Sidmouth</persName><lb/>
+               <hi rend="underline">was</hi>
+               <persName ref="./Personography.xml#BeauM1">M<hi rend="superscript">rs</hi>. Beaufort</persName>'s actual pension from<lb/>
+               Government here, when <persName ref="./Personography.xml#SidmH1">Lord Sidmouth</persName>
+               <lb/>
                "transmitted his Majesty's commands<lb/>
                " <del>that</del> to the Irish Government to make<lb/>
                "an addition of 50 <hi rend="superscript">£</hi> per Ann<hi rend="superscript">m</hi>. to her<lb/>
-               "<hi rend="underline">present</hi> <hi rend="underline">pension</hi>" -<lb/>
+               "<hi rend="underline">present</hi>
+               <hi rend="underline">pension</hi>" -<lb/>
             </p>
             <p>She has been informed however<lb/>
                in <persName ref="./Personography.xml#TalbJ1">Mr. Talbots</persName> letter of Oct 2<hi rend="superscript">d</hi>. that her<lb/>
-               
                <pb n="2" facs="Edgeworth_Morgan_422494_1821_10_09_page02.jpg"/>
                
                pension is only 80 <hi rend="superscript">£</hi> per Annum --<lb/>
@@ -258,10 +264,13 @@
                explain it to me.<lb/>
             </p>
             <p>I know Sir how benevolently<lb/>
-               you have been interested in this <choice><orig>busi<lb/>
-                  ness</orig><reg>business</reg></choice> &amp; I make no apology for asking<lb/>
+               you have been interested in this <choice>
+                  <orig>busi<lb/>
+                  ness</orig>
+                  <reg>business</reg>
+               </choice> &amp; I make no apology for asking<lb/>
                this question.<lb/>
-           </p>
+            </p>
             <closer>
                I have the honor to be<lb/>
                with great respect<lb/>

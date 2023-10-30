@@ -7,7 +7,9 @@
       <fileDesc>
          <titleStmt>
             <title>Letter from Maria Edgeworth to James Weston, 2/17/1843</title>
-            <author><persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName></author>
+            <author>
+               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
+            </author>
             <editor ref="Id_who">
             Jamie Kramer
             </editor>
@@ -40,8 +42,6 @@
                </resp>
             </respStmt>
          </editionStmt>
-         
-         
          <publicationStmt>
             <authority>Maria Edgeworth Letters Project</authority>
             <date>2023</date>
@@ -52,8 +52,7 @@
                <licence>Distributed under a Creative Commons Attribution-ShareAlike 3.0 Unported
                   License</licence>
             </availability>
-            
-            <idno>Edgeworth_Huntington_HM7315_1843_02_17</idno> 
+            <idno>Edgeworth_Huntington_HM7315_1843_02_17</idno>
          </publicationStmt>
          <seriesStmt>
             <title>Maria Edgeworth Letters Project</title>
@@ -69,11 +68,11 @@
                   <idno/>
                   <!--Consult library or WorldCat for this info-->
                </msIdentifier>
-               
                <head>Letter from 
                   <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
                   to <persName ref="./Personography.xml#WestJ1">James Weston</persName>, 
-                  <date when="1843-02-17">Feb<hi rend="superscript">y</hi>. <unclear>17</unclear><hi rend="superscript">h</hi> 1843</date>
+                  <date when="1843-02-17">Feb<hi rend="superscript">y</hi>. <unclear>17</unclear>
+                     <hi rend="superscript">h</hi> 1843</date>
                   <placeName ref="./Placeography.xml#London_ENK">London</placeName>
                </head>
                <physDesc>
@@ -82,7 +81,6 @@
             <bibl>In addition to our edited version, this letter was previously published in
                <!--complete bibiographical info if letter was published in a book here-->
             </bibl>
-            
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
@@ -95,7 +93,6 @@
                word is split at the end of a line and the beginning of the next in a manuscript. The
                long s and ligatured forms are silently emended.</p>
          </editorialDecl>
-         
          <classDecl>
             <taxonomy xml:id="relators">
                <bibl>Marc Relators</bibl>
@@ -212,10 +209,14 @@
             <taxonomy xml:id="places">
                <bibl>Places</bibl>
                <category>
-                  <catDesc xml:id="EdgeworthsTown">Edgeworths' Town<idno type="getty">tgn/1042937</idno></catDesc>
-                  <catDesc xml:id="Peterborough">Peterborough, UK<idno type="getty">tgn/7026520</idno></catDesc>
-                  <catDesc xml:id="CranfordI">Cranford, Ireland<idno type="getty">tgn/7901042</idno></catDesc>
-                  <catDesc xml:id="Kettering">Kettering, UK<idno type="getty">tgn/7010904</idno></catDesc>
+                  <catDesc xml:id="EdgeworthsTown">Edgeworths' Town<idno type="getty">tgn/1042937</idno>
+                  </catDesc>
+                  <catDesc xml:id="Peterborough">Peterborough, UK<idno type="getty">tgn/7026520</idno>
+                  </catDesc>
+                  <catDesc xml:id="CranfordI">Cranford, Ireland<idno type="getty">tgn/7901042</idno>
+                  </catDesc>
+                  <catDesc xml:id="Kettering">Kettering, UK<idno type="getty">tgn/7010904</idno>
+                  </catDesc>
                </category>
             </taxonomy>
             <taxonomy xml:id="period">
@@ -225,7 +226,6 @@
                </category>
             </taxonomy>
          </classDecl>
-         
       </encodingDesc>
       <profileDesc>
          <correspDesc>
@@ -236,7 +236,6 @@
                <persName ref="./Personography.xml#WestJ1">James Weston</persName>
             </correspAction>
          </correspDesc>
-         
          <textClass>
             <keywords scheme="">
                <list type="simple">
@@ -261,13 +260,22 @@
             <opener>
                <dateline>
                   <placeName ref="./Placeography.xml#Edgeworthstown_IE">Edgeworths Town</placeName>
-               <date/>Feb<hi rend="superscript">y</hi>. <unclear>17</unclear><hi rend="superscript">h</hi> 1843
+                  <date/>Feb<hi rend="superscript">y</hi>. <unclear>17</unclear>
+                  <hi rend="superscript">h</hi> 1843
             </dateline>
-               <salute><persName ref="./Personography.xml#WestJ1">Sir</persName><lb/></salute>
+               <salute>
+                  <persName ref="./Personography.xml#WestJ1">Sir</persName>
+                  <lb/>
+               </salute>
             </opener>
-               <p>I would rather give four and<lb/>
-               a half percent Cent to you for M<hi rend="superscript">rs</hi>. <persName ref="./Personography.xml#DrumX1"><choice><orig>Drum<lb/>
-                  -mond</orig><reg>Drummond</reg></choice></persName> than lose the advantage<lb/>
+            <p>I would rather give four and<lb/>
+               a half percent Cent to you for M<hi rend="superscript">rs</hi>. <persName ref="./Personography.xml#DrumX1">
+                  <choice>
+                     <orig>Drum<lb/>
+                  -mond</orig>
+                     <reg>Drummond</reg>
+                  </choice>
+               </persName> than lose the advantage<lb/>
                of dealing with such a respectable<lb/>
                Creditor - I beg to know whether<lb/>
                at this rate of interest <add>namely</add> 4 ½ per Cent<lb/>
@@ -275,23 +283,36 @@
                Twelve thousand pounds<lb/>
                provided on having our securities<lb/>
                laid before you by our law<lb/>
-                  counsel // <persName ref="./Personography.xml#FoxX1">Fox Esq<hi rend="superscript">r</hi></persName> <placeName ref="./Placeography.xml#45-Rutland-Square_IE 45">Rutland Sq</placeName> <placeName ref="./Placeography.xml#Dublin_IE">Dublin</placeName><lb/>
-               you approve of the same -</p><lb/>
+                  counsel // <persName ref="./Personography.xml#FoxX1">Fox Esq<hi rend="superscript">r</hi>
+               </persName>
+               <placeName ref="./Placeography.xml#45-Rutland-Square_IE 45">Rutland Sq</placeName>
+               <placeName ref="./Placeography.xml#Dublin_IE">Dublin</placeName>
+               <lb/>
+               you approve of the same -</p>
+            <lb/>
             <closer>
-               I am <persName ref="./Personography.xml#WestJ1">Sir</persName><lb/>
+               I am <persName ref="./Personography.xml#WestJ1">Sir</persName>
+               <lb/>
                Your Obed<hi rend="superscript">t</hi>. Servant<lb/>
-               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName><lb/>
-               <persName ref="./Personography.xml#WestJ1">James Westen Esq</persName><lb/>
-               <placeName ref="./Placeography.xml#31-Fenchurch-Street_ENK">Fenchurch Street</placeName><lb/>
-               <placeName ref="./Placeography.xml#London_ENK">London</placeName><lb/>
-
+               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
+               <lb/>
+               <persName ref="./Personography.xml#WestJ1">James Westen Esq</persName>
+               <lb/>
+               <placeName ref="./Placeography.xml#31-Fenchurch-Street_ENK">Fenchurch Street</placeName>
+               <lb/>
+               <placeName ref="./Placeography.xml#London_ENK">London</placeName>
+               <lb/>
                <pb n="1" facs="Edgeworth_Huntington_HM7315_1843_02_17_page01.jpg"/>
-               
-            <address>
-               <addrLine><persName ref="./Personography.xml#WestJ1">Ja<hi rend="superscript">s</hi>. Weston Esq</persName>R.N.</addrLine>
-               <addrLine><placeName ref="./Placeography.xml#31-Fenchurch-Street_ENK">Fenchurch Street</placeName></addrLine>
-               <addrLine><placeName ref="./Placeography.xml#London_ENK">London</placeName></addrLine>
-            </address>
+               <address>
+                  <addrLine>
+                     <persName ref="./Personography.xml#WestJ1">Ja<hi rend="superscript">s</hi>. Weston Esq</persName>R.N.</addrLine>
+                  <addrLine>
+                     <placeName ref="./Placeography.xml#31-Fenchurch-Street_ENK">Fenchurch Street</placeName>
+                  </addrLine>
+                  <addrLine>
+                     <placeName ref="./Placeography.xml#London_ENK">London</placeName>
+                  </addrLine>
+               </address>
             </closer>
          </div>
       </body>

@@ -9,7 +9,9 @@
             <title>
                Letter from Sir Francis Beaufort to Mrs. Alicia Beaufort, 8/29/1828
             </title>
-            <author><persName ref="./Personography.xml#BeauF1">Sir Francis Beaufort</persName></author>
+            <author>
+               <persName ref="./Personography.xml#BeauF1">Sir Francis Beaufort</persName>
+            </author>
             <editor ref="Id_who">
             Jamie Kramer
             </editor>
@@ -44,8 +46,6 @@
                </resp>
             </respStmt>
          </editionStmt>
-         
-         
          <publicationStmt>
             <authority>Maria Edgeworth Letters Project</authority>
             <date>2023</date>
@@ -56,10 +56,9 @@
                <licence>Distributed under a Creative Commons Attribution-ShareAlike 3.0 Unported
                   License</licence>
             </availability>
-            
             <idno>
                Edgeworth_Huntington_HM28617_1828_08_29
-            </idno> 
+            </idno>
          </publicationStmt>
          <seriesStmt>
             <title>Maria Edgeworth Letters Project</title>
@@ -77,11 +76,11 @@
                   <idno/>
                   <!--Consult library or WorldCat for this info-->
                </msIdentifier>
-               
                <head>Letter from 
                   <persName ref="./Personography.xml#BeauF1">Sir Francis Beaufort</persName>
                   to <persName ref="./Personography.xml#BeauA1">Alicia Beaufort</persName>,
-                  <date when="1828-08-29"><add>Friday night</add> Aug. 29/28</date>
+                  <date when="1828-08-29">
+                     <add>Friday night</add> Aug. 29/28</date>
                </head>
                <physDesc>
                </physDesc>
@@ -89,7 +88,6 @@
             <bibl>In addition to our edited version, this letter was previously published in
                <!--complete bibiographical info if letter was published in a book here-->
             </bibl>
-            
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
@@ -102,7 +100,6 @@
                word is split at the end of a line and the beginning of the next in a manuscript. The
                long s and ligatured forms are silently emended.</p>
          </editorialDecl>
-         
          <classDecl>
             <taxonomy xml:id="relators">
                <bibl>Marc Relators</bibl>
@@ -219,10 +216,14 @@
             <taxonomy xml:id="places">
                <bibl>Places</bibl>
                <category>
-                  <catDesc xml:id="EdgeworthsTown">Edgeworths' Town<idno type="getty">tgn/1042937</idno></catDesc>
-                  <catDesc xml:id="Peterborough">Peterborough, UK<idno type="getty">tgn/7026520</idno></catDesc>
-                  <catDesc xml:id="CranfordI">Cranford, Ireland<idno type="getty">tgn/7901042</idno></catDesc>
-                  <catDesc xml:id="Kettering">Kettering, UK<idno type="getty">tgn/7010904</idno></catDesc>
+                  <catDesc xml:id="EdgeworthsTown">Edgeworths' Town<idno type="getty">tgn/1042937</idno>
+                  </catDesc>
+                  <catDesc xml:id="Peterborough">Peterborough, UK<idno type="getty">tgn/7026520</idno>
+                  </catDesc>
+                  <catDesc xml:id="CranfordI">Cranford, Ireland<idno type="getty">tgn/7901042</idno>
+                  </catDesc>
+                  <catDesc xml:id="Kettering">Kettering, UK<idno type="getty">tgn/7010904</idno>
+                  </catDesc>
                </category>
             </taxonomy>
             <taxonomy xml:id="period">
@@ -232,7 +233,6 @@
                </category>
             </taxonomy>
          </classDecl>
-         
       </encodingDesc>
       <profileDesc>
          <correspDesc>
@@ -243,7 +243,6 @@
                <persName ref="./Personography.xml#BeauA1">Alicia Beaufort</persName>
             </correspAction>
          </correspDesc>
-         
          <textClass>
             <keywords scheme="">
                <list type="simple">
@@ -267,19 +266,31 @@
             <pb n="1" facs="Edgeworth_Huntington_HM28617_1828_08_29_page01.jpg"/>
             <opener>
                <dateline>
-                  <placeName ref="./Placeography.xml#Edgeworthstown_IE">Edgworthtown</placeName>, <date when="1828-08-29"><add>Friday night</add> Aug. 29/28</date><lb/>
+                  <placeName ref="./Placeography.xml#Edgeworthstown_IE">Edgworthtown</placeName>, <date when="1828-08-29">
+                     <add>Friday night</add> Aug. 29/28</date>
+                  <lb/>
                </dateline>
                <salute>
-                  My dearest <persName ref="./Personography.xml#BeauA1">wify</persName><lb/>
+                  My dearest <persName ref="./Personography.xml#BeauA1">wify</persName>
+                  <lb/>
                </salute>
             </opener>
-            <p><persName ref="./Personography.xml#EdgeM1">Maria</persName> and I have had this<lb/>
+            <p>
+               <persName ref="./Personography.xml#EdgeM1">Maria</persName> and I have had this<lb/>
                evening our <hi rend="underline">usual</hi> dispute about the second-<lb/>
                -rate importance, or, the preeminence of memory,<lb/>
-               among the faculties of the mind - <persName ref="./Personography.xml#EdgeH1"><choice><orig>M<hi rend="superscript">r</hi></orig><reg>M<hi rend="superscript">rs</hi></reg></choice>M<hi rend="superscript">r</hi> Butler</persName><lb/>
+               among the faculties of the mind - <persName ref="./Personography.xml#EdgeH1">
+                  <choice>
+                     <orig>M<hi rend="superscript">r</hi>
+                     </orig>
+                     <reg>M<hi rend="superscript">rs</hi>
+                     </reg>
+                  </choice>M<hi rend="superscript">r</hi> Butler</persName>
+               <lb/>
                occasionally joined sometimes on one side<lb/>
-               sometimes on the other <del></del> and always sensibly<lb/>
-               <del>and</del> <persName ref="./Personography.xml#EdgeH1">She</persName> supported her argument with<lb/>
+               sometimes on the other <del/> and always sensibly<lb/>
+               <del>and</del>
+               <persName ref="./Personography.xml#EdgeH1">She</persName> supported her argument with<lb/>
                extraordinary ingenuity and with various<lb/>
                amusing &amp; apposite illustrations, for which<lb/>
                take notice she was indebted to the very<lb/>
@@ -288,15 +299,20 @@
                the subject - How is the memory to be managed<lb/>
                ? - A good memory to be <unclear>made</unclear> recollection? -<lb/>
                or a bad memory to be assisted. - <persName ref="./Personography.xml#EdgeL2">Lovell</persName> throws<lb/>
-               out some useful hints - such as leading <choice><orig>chil-<lb/>
-                  dren</orig><reg>children</reg></choice> to exercises which require the joint <choice><orig>combi-<lb/>
-                     nation</orig><reg>combination</reg></choice> of <del>ing</del> invention &amp; memory - as practiced<lb/>
+               out some useful hints - such as leading <choice>
+                  <orig>chil-<lb/>
+                  dren</orig>
+                  <reg>children</reg>
+               </choice> to exercises which require the joint <choice>
+                  <orig>combi-<lb/>
+                     nation</orig>
+                  <reg>combination</reg>
+               </choice> of <del>ing</del> invention &amp; memory - as practiced<lb/>
                at his school - Mental arithmetic, where the<lb/>
                child (suppose in multiplying a sum by two figures)<lb/>
                is obliged to have recourse to <hi rend="underline">some means</hi> of recollecting<lb/>
                the multiplicand of the 1<hi rend="superscript">st</hi>. figure in order to<lb/>
-               have it ready to add to that of the 2<hi rend="superscript">d</hi>. figure. <del></del> It is<lb/>
-               
+               have it ready to add to that of the 2<hi rend="superscript">d</hi>. figure. <del/> It is<lb/>
                <pb n="2" facs="Edgeworth_Huntington_HM28617_1828_08_29_page02.jpg"/>
                
                a highly interesting subject and I endeavoured<lb/>
@@ -306,8 +322,9 @@
                of eternally repeating with <persName ref="./Personography.xml#LockJ2">Locke</persName> &amp; <persName ref="./Personography.xml#ReidT1">Reid</persName> and a hundred<lb/>
                others the mere words "Arrange the facts you acquire"<lb/>
                "Connect your ideas by links" "Association is the<lb/>
-               grand key to the storehouse of the mind" &amp;c &amp;c<lb/></p>
-               <p>How I am running on! <del>though</del> I only alluded<lb/>
+               grand key to the storehouse of the mind" &amp;c &amp;c<lb/>
+            </p>
+            <p>How I am running on! <del>though</del> I only alluded<lb/>
                to the subject in order to add that I think I had<lb/>
                good reason to leave off in the same opinion that<lb/>
                I began - and at least to complain of my own<lb/>
@@ -323,50 +340,70 @@
                to your arms and to your ears) and proceed<lb/>
                with my onward journey. - Wednesday at<lb/>
                11 we started from <placeName ref="./Placeography.xml#Trim_IE">Trim</placeName> Vicarage, and, along with<lb/>
-               us, <persName ref="./Personography.xml#ButlR1">M<hi rend="superscript">r</hi></persName> &amp; <persName ref="./Personography.xml#EdgeH1">M<hi rend="superscript">rs</hi>. Butler</persName> in their carriage. We went by<lb/>
+               us, <persName ref="./Personography.xml#ButlR1">M<hi rend="superscript">r</hi>
+               </persName> &amp; <persName ref="./Personography.xml#EdgeH1">M<hi rend="superscript">rs</hi>. Butler</persName> in their carriage. We went by<lb/>
                the pretty <placeName ref="./Placeography.xml#Killucan_IE">Killucan</placeName> road to <placeName ref="./Placeography.xml#Mullingar_IE">Mullingar</placeName> - <placeName ref="./Placeography.xml#Rathoan-Road_IE">Rathoan</placeName> -<lb/>
-               where we met the <placeName ref="./Placeography.xml#Edgeworthstown_IE"><choice><abbr>Edg<hi rend="superscript">h</hi>.</abbr><reg>Edgeworth</reg></choice></placeName> horses and arrived at 5 -<lb/>
-                  having drawn in a little to allow <persName ref="./Personography.xml#ButlR1">M<hi rend="superscript">r</hi></persName> &amp; <persName ref="./Personography.xml#EdgeH1">M<hi rend="superscript">rs</hi>. <choice><abbr>B.</abbr><reg>Butler</reg></choice></persName> to form<lb/>
+               where we met the <placeName ref="./Placeography.xml#Edgeworthstown_IE">
+                  <choice>
+                     <abbr>Edg<hi rend="superscript">h</hi>.</abbr>
+                     <reg>Edgeworth</reg>
+                  </choice>
+               </placeName> horses and arrived at 5 -<lb/>
+                  having drawn in a little to allow <persName ref="./Personography.xml#ButlR1">M<hi rend="superscript">r</hi>
+               </persName> &amp; <persName ref="./Personography.xml#EdgeH1">M<hi rend="superscript">rs</hi>. <choice>
+                     <abbr>B.</abbr>
+                     <reg>Butler</reg>
+                  </choice>
+               </persName> to form<lb/>
                part of the large group that was assembled on<lb/>
                the lawn to receive <persName ref="./Personography.xml#SneyM1">Aunt Mary</persName> in the home of<lb/>
-
                <pb n="3" facs="Edgeworth_Huntington_HM28617_1828_08_29_page03.jpg"/>
                
                her choice. Some cried <add>some smiled</add> - some were silent and<lb/>
                some talked in full exuberance of heart; - the meeting<lb/>
                was really affectingly pleasing. - The evening<lb/>
-               was brilliantly fine and the sun seemed to <hi rend="underline">loiter</hi><lb/>
+               was brilliantly fine and the sun seemed to <hi rend="underline">loiter</hi>
+               <lb/>
                over the western hills, for much was yet to be done.<lb/>
                When dark an immense bonfire suddenly blazed<lb/>
                up in front of the house and gave the signal to<lb/>
                the whole population of the town who poured into<lb/>
-               the lawn preced<del></del>ed by a band of music playing<lb/>
-               "Why should <add>old acquaintance be forgotten."</add> <del></del> The crowd drew up and gave three<lb/>
-               cheers - not very harmonious indeed from the <choice><orig>pre-<lb/>
-                  ponderance</orig><reg>preponderance</reg></choice> of screaming women &amp; shrill children<lb/>
+               the lawn preced<del/>ed by a band of music playing<lb/>
+               "Why should <add>old acquaintance be forgotten."</add>
+               <del/> The crowd drew up and gave three<lb/>
+               cheers - not very harmonious indeed from the <choice>
+                  <orig>pre-<lb/>
+                  ponderance</orig>
+                  <reg>preponderance</reg>
+               </choice> of screaming women &amp; shrill children<lb/>
                but given with all their might &amp; heart - This was<lb/>
                repeated and again and again renewed till I began<lb/>
                to feel "How is this to end?" - I therefore suggested<lb/>
                to <persName ref="./Personography.xml#EdgeL2">Lovell</persName> to stand up on the steps and thank<lb/>
                the multitude in <persName ref="./Personography.xml#SneyM1">Aunt Mary</persName>'s name. He took<lb/>
                the hint - and having a made a very decent<lb/>
-               speech the people gave another noble yell and m<unclear></unclear><lb/>
+               speech the people gave another noble yell and m<unclear/>
+               <lb/>
                out again with pipe and drum. - All hands that<lb/>
                dared to trust themselves in the dewy breath of Heaven<lb/>
-               now walked up the town which was splendidly <choice><orig>illu-<lb/>
-                  minated</orig><reg>illuminated</reg></choice> - <hi rend="underline">every pane</hi> of every window having a candle<orig></orig><lb/>
+               now walked up the town which was splendidly <choice>
+                  <orig>illu-<lb/>
+                  minated</orig>
+                  <reg>illuminated</reg>
+               </choice> - <hi rend="underline">every pane</hi> of every window having a candle<orig/>
+               <lb/>
                stuck in it - and every pane had been cleaned that<lb/>
                no twinkle might be lost, and that the laurel, the<lb/>
                oak, the rose and Rose<hi rend="underline">Mary</hi> might be the more conspicuous.<lb/>
                - The street was quite full - parties kept roaring<lb/>
-               longlife to K. G. the 4<hi rend="superscript">th</hi>. and the Royal family - <del></del> <persName ref="./Personography.xml#EdgeL2">Mister<lb/>
+               longlife to K. G. the 4<hi rend="superscript">th</hi>. and the Royal family - <del/>
+               <persName ref="./Personography.xml#EdgeL2">Mister<lb/>
                   Ejowrth</persName> and <persName ref="./Personography.xml#SneyM1">M<hi rend="superscript">rs</hi> Mary Sneyd</persName> for ever - and some<lb/>
                wags added And <persName ref="./Personography.xml#OConX2">O'Connel</persName> too. - One of their gambols<lb/>
                was placing a lighted tar barrel on a large slate which<lb/>
                4 men paraded on their shoulders. - Poor <persName ref="./Personography.xml#SneyM1">Aunt<lb/>
                Mary</persName> indeed the object of all this rude &amp; clamorous<lb/>
                but I do believe sincere effusion of joy, was precluded<lb/>
-               
                <pb n="4" facs="Edgeworth_Huntington_HM28617_1828_08_29_page04.jpg"/>
                
                from witnessing it - for she was too blind to enjoy the effort - but she heard<lb/>
@@ -375,29 +412,46 @@
                of popularity - And who could deserve it better? - Would to Heaven<lb/>
                that the noisy throats of mobs were never strained in a worse cause - in<lb/>
                chusing the licentious despot - in the war howl of welcome to the blood stained<lb/>
-               conqueror - or in the acclamation of the wily demagogue who laughs at <add>the</add> <choice><orig>enthusi-<lb/>
-                  -asm</orig><reg>enthusiasm</reg></choice> which he knows how to fire but never felt. - By eleven (the Mail Coach<lb/>
+               conqueror - or in the acclamation of the wily demagogue who laughs at <add>the</add>
+               <choice>
+                  <orig>enthusi-<lb/>
+                  -asm</orig>
+                  <reg>enthusiasm</reg>
+               </choice> which he knows how to fire but never felt. - By eleven (the Mail Coach<lb/>
                having passed "&amp; wondered at the work" that was going on) all the <add>Town</add> lights were<lb/>
-               out - and the library was filled with 17 happy <del></del> people who<lb/>
+               out - and the library was filled with 17 happy <del/> people who<lb/>
                again congratulated the excellent heroine of the day, and at length<lb/>
                allowed her to retire to a repose which the termination of a long journey<lb/>
                and the excitement of the evening made necessary. - I must now<lb/>
                and waken <persName ref="./Personography.xml#EdgeW1">William</persName> who is going in the Mail Coach to <placeName ref="./Placeography.xml#Sligo_IE">Sligo</placeName> on his<lb/>
                way to <placeName ref="./Placeography.xml#Donegal_IE">Donegal</placeName> where he has some Engineering works, and<lb/>
-               from whence he came to <unclear>receive</unclear> <persName ref="./Personography.xml#SneyM1">his Aunt</persName> - So Good night<lb/></p>
-               <p>Saturday. Visitors have begun to pour in<lb/>
+               from whence he came to <unclear>receive</unclear>
+               <persName ref="./Personography.xml#SneyM1">his Aunt</persName> - So Good night<lb/>
+            </p>
+            <p>Saturday. Visitors have begun to pour in<lb/>
                   and from <persName ref="./Personography.xml#SneyM1">A.M.</persName> will be congratulated without<lb/>
-               quarter. -  </p><closer><unclear>Heaven</unclear>preserve you <hi rend="underline">all</hi> <unclear></unclear> for<lb/>
-                  <persName ref="./Personography.xml#BeauF1">FB</persName><lb/>
-               </closer>
-
+               quarter. -  </p>
             <closer>
-            <address>
-               <addrLine><persName ref="./Personography.xml#BeauA1">M<hi rend="superscript">rs</hi>. Beaufort</persName></addrLine>
-               <addrLine><placeName ref="./Placeography.xml#29-Richmond-Place_ENK">Richmond Place 29<hi rend="superscript">t</hi></placeName></addrLine>
-               <addrLine><placeName ref="./Placeography.xml#Brighton_ENK">Brighton</placeName></addrLine>
-            </address>
-               <note>Aug<hi rend="superscript">t</hi>. 29-30 - 1828</note><lb/>
+               <unclear>Heaven</unclear>preserve you <hi rend="underline">all</hi>
+               <unclear/> for<lb/>
+               <persName ref="./Personography.xml#BeauF1">FB</persName>
+               <lb/>
+            </closer>
+            <closer>
+               <address>
+                  <addrLine>
+                     <persName ref="./Personography.xml#BeauA1">M<hi rend="superscript">rs</hi>. Beaufort</persName>
+                  </addrLine>
+                  <addrLine>
+                     <placeName ref="./Placeography.xml#29-Richmond-Place_ENK">Richmond Place 29<hi rend="superscript">t</hi>
+                     </placeName>
+                  </addrLine>
+                  <addrLine>
+                     <placeName ref="./Placeography.xml#Brighton_ENK">Brighton</placeName>
+                  </addrLine>
+               </address>
+               <note>Aug<hi rend="superscript">t</hi>. 29-30 - 1828</note>
+               <lb/>
             </closer>
          </div>
       </body>

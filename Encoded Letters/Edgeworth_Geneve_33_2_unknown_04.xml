@@ -105,92 +105,6 @@
                     word is split at the end of a line and the beginning of the next in a manuscript. The
                     long s and ligatured forms are silently emended.</p>
             </editorialDecl>
-            <classDecl>
-                <taxonomy xml:id="relators">
-                    <bibl>Marc Relators</bibl>
-                    <category xml:id="aut">
-                        <catDesc>Author</catDesc>
-                    </category>
-                </taxonomy>
-                <taxonomy xml:id="lcsh">
-                    <bibl>Subjects</bibl>
-                    <category>
-                        <catDesc xml:id="AntislaveryMovements">Antislavery movements
-                            <idno type="loc">sh85123315</idno>
-                        </catDesc>
-                        <catDesc xml:id="Birth">Birth
-                            <idno type="loc">sh86004053</idno>
-                        </catDesc>
-                        <catDesc xml:id="Death">Death
-                            <idno type="loc">sh85036085</idno>
-                        </catDesc>
-                        <catDesc xml:id="Education">Education
-                            <idno type="loc">sh85040989</idno>
-                        </catDesc>
-                        <catDesc xml:id="Imperialism">Imperialism
-                            <idno type="loc">sh85064628</idno>
-                        </catDesc>
-                        <catDesc xml:id="FictitiousCharacters">Fictitious characters
-                            <idno type="loc">sh99004183</idno>
-                        </catDesc>
-                        <catDesc xml:id="Marriage">Marriage
-                            <idno type="loc">sh85081416</idno>
-                        </catDesc>
-                        <catDesc xml:id="Nationalism">Nationalism
-                            <idno type="loc">sh85090150</idno>
-                        </catDesc>
-                        <catDesc xml:id="PoliticsAndCulture">Politics and culture
-                            <idno type="loc">sh85104468</idno>
-                        </catDesc>
-                        <catDesc xml:id="Race">Race  
-                            <idno type="loc">sh85110232</idno>
-                        </catDesc>
-                        <catDesc xml:id="Religion">Religion
-                            <idno type="loc">sh85112549</idno>
-                        </catDesc>
-                        <catDesc xml:id="Science">Science
-                            <idno type="loc">sh85118553</idno>
-                        </catDesc>
-                        <catDesc xml:id="Technology">Technology
-                            <idno type="loc">sh85133147</idno>
-                        </catDesc>
-                        <catDesc xml:id="Slavery">Slavery
-                            <idno type="loc">sh85123314</idno>
-                        </catDesc>
-                        <catDesc xml:id="Travel">Travel
-                            <idno type="loc">sh85137149</idno>
-                        </catDesc>
-                    </category>
-                </taxonomy>
-                <taxonomy xml:id="works">
-                    <bibl>Works</bibl>
-                    <category>
-                        <catDesc xml:id="w1">Belinda</catDesc>
-                        <catDesc xml:id="w2">Castle Rackrent</catDesc>
-                        <catDesc xml:id="w3">Comic Dramas, in Three Acts</catDesc>
-                        <catDesc xml:id="w4">Early Lessons</catDesc>
-                        <catDesc xml:id="w5">Essay on Irish Bulls</catDesc>
-                        <catDesc xml:id="w6">Frank: a Sequel to Frank in Early Lessons</catDesc>
-                        <catDesc xml:id="w7">Harrington, a Tale; and Ormond, a Tale</catDesc>
-                        <catDesc xml:id="w8">Harry and Lucy Concluded</catDesc>
-                        <catDesc xml:id="w9">Leonora</catDesc>
-                        <catDesc xml:id="w10">Letters for Literary Ladies</catDesc>
-                        <catDesc xml:id="w11">Moral Tales for Young People</catDesc>
-                        <catDesc xml:id="w12">Moral Tales</catDesc>
-                        <catDesc xml:id="w13">Patronage</catDesc>
-                        <catDesc xml:id="w14">Popular Tales</catDesc>
-                        <catDesc xml:id="w15">Practical Education</catDesc>
-                        <catDesc xml:id="w16">Readings on Poetry</catDesc>
-                        <catDesc xml:id="w17">Ormond</catDesc>
-                        <catDesc xml:id="w18">The Absentee</catDesc>
-                        <catDesc xml:id="w19">Tales of Fashionable Life</catDesc>
-                        <catDesc xml:id="w20">The Contrast</catDesc>
-                        <catDesc xml:id="w21">The Modern Griselda; a Tale</catDesc>
-                        <catDesc xml:id="w22">The Parent's Assistant</catDesc>
-                        <catDesc xml:id="w23">Tomorrow; or the Dangers of Delay</catDesc>
-                    </category>
-                </taxonomy>
-            </classDecl>
         </encodingDesc>
         <profileDesc>
             <correspDesc>
@@ -201,16 +115,6 @@
                     <persName><!--RECIPIENT NAME--></persName>
                 </correspAction>
             </correspDesc>
-            <textClass>
-                <keywords scheme="">
-                    <list type="simple">
-                        <item>English literature</item>
-                        <item>History</item>
-                    </list>
-                </keywords>
-                <catRef target="#f7" scheme="#f"/>
-                <catRef target="#hist #el" scheme="locSUB"/>
-            </textClass>
         </profileDesc>
         <revisionDesc>
             <change when="2021-01-01" who="Id_who">
@@ -224,8 +128,7 @@
                 <pb n="1" facs="Edgeworth_Geneve_33_2_unknown_04_page02.jpg"/>
                 <!--filenames for photos associated with this letter. Example: <pb n="1" facs="image1.jpg image2.jpg image3.jpg"/> -->
                 <opener>
-                    <dateline><!--If there's no date line, omit this element. Record in the order in which it is written on the letter.-->
-                        <name type="place" ref="Id_where"/>
+                    <dateline>
                         <date when="1816-08-04"/></dateline>
                     <salute>
                         <persName>
@@ -233,9 +136,10 @@
                         </persName>
                     </salute>
                 </opener>
-                <p><persName ref="./Personography.xml#MillJ1">M<hi rend="superscript">r</hi>. Mill</persName> and <persName ref="./Personography.xml#RicaD1"></persName>M.<hi rend="superscript">r</hi> Ricardo</persName> hold<lb/>
+                <p>
+                   <persName ref="./Personography.xml#MillJ1">M<hi rend="superscript">r</hi>. Mill</persName> and <persName ref="./Personography.xml#RicaD1">M.<hi rend="superscript">r</hi> Ricardo</persName> hold<lb/>
                     a doctrine about Rewards w<del>y</del> no <choice><orig>re-<lb/>
-                        ward</orig><reg>reward</reg></choice> can be given to one person<lb/>
+                    ward</orig><reg>reward</reg></choice> can be given to one person<lb/>
                     without injury to some other<lb/>
                     person or class of persons - by <hi rend="underline"><choice><orig>inju<lb/>
                         ry</orig><reg>injury</reg></choice></hi> here includes the idea of <choice><orig>restrain<lb/>
@@ -246,19 +150,20 @@
                     expect that you cannot give a <choice><orig>re
                         -ward</orig><reg>reward</reg></choice> to one person without it's<lb/>
                     being at the expense of some other or other<lb/>
-                   <pb n="2" facs="Edgeworth_Geneve_33_2_unknown_04_page01.jpg"/> 
+                    <pb n="2" facs="Edgeworth_Geneve_33_2_unknown_04_page01.jpg"/> 
                     - I argued this point with Ricardo &amp; he<lb/>
                     gave up - but I never had an opportunity<lb/>
                     of stating any argument to <persName ref="./Personography.xml#MillJ1">Mill</persName> - What do<lb/>
                     you think of this doctrine? - Take a crown of<lb/>
-                    parsley for instance as your reward.<lb/></p>
+                    parsley for instance as your reward.<lb/>
+                </p>
                     
                 <p> When you have time to think<lb/>
                     for me will you next consider my D<hi rend="superscript">r</hi><lb/>
                     friend whether <hi rend="underline">travelling</hi> &amp; <hi rend="underline">The Travellers</hi><lb/>
                     would make a good subject for a<lb/>
                     story for me to write - the rage for travelling<lb/>
-                    you know is prevalent - <hi rend="underline"></hi>Eyes</hi> &amp; no <hi rend="underline">Eyes</hi>-<lb/>
+                    you know is prevalent - <hi rend="underline">Eyes</hi> &amp; no <hi rend="underline">Eyes</hi>-<lb/>
                     <hi rend="underline">Ears and no ears</hi> - The affectation - The<lb/>
                     ignorance - The ill humor - The national<lb/>
                     &amp; personal prejudices <add>pulling different ways</add> of a party of travellers<lb/>
@@ -268,27 +173,8 @@
                     that can be made of the subject - w<hi rend="superscript">d</hi> you advise me to<lb/>
                     follow or abandon it - <hi rend="underline">I</hi> will <hi rend="underline">not</hi><hi rend="underline">begin</hi>till  I have y<hi rend="superscript">r</hi><hi rend="underline">answer</hi><lb/>
                 </p>
-                <closer>
-                    <!--include linebreaks, if used. example: <closer> Yours<lb/> Very sincerely<lb/> -->
-                </closer>
-                <postscript>
-                    <p><!--A postscript goes here, outside the <closer>. --></p>
-                </postscript>
-                <!--You can include a <pb/> here, or inside the postScript.-->
-                <!-- Format for postscripts. 
-               Postscripts do NOT go inside closer tags. Adjust to take into account the order in your letter. 
-               Sometimes the signature is on page three, the address on page four, then the postscript follows back on the top of page one, for example.-->
-                <closer><!--Use the <closer> element again to hold Address Leaf information.-->
-                    <address>
-                        <!--Include any text written on the address leaf; use a separate "addrLine" for each line and indicate line breaks. -->
-                        <addrLine/>
-                        <addrLine/>
-                        <addrLine/>
-                    </address>
-                </closer>
             </div>
         </body>
         <back> </back>
     </text>
 </TEI>
-s

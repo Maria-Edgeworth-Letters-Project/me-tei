@@ -5,28 +5,28 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
-            <titleStmt>
-               <title>Letter from Maria Edgeworth to Sir Francis Beaufort, 8/17/1820
+         <titleStmt>
+            <title>Letter from Maria Edgeworth to Sir Francis Beaufort, 8/17/1820
                 </title>
-               <author>Maria Edgeworth</author>
-               <editor ref="Id_who">
+            <author>Maria Edgeworth</author>
+            <editor ref="Id_who">
                   Jamie Kramer
                </editor>
-               <sponsor>
-                  <orgName>Maria Edgeworth Letters Project</orgName>
-               </sponsor>
-               <sponsor>Wake Forest University, University of Tennessee, Xavier University, Texas
+            <sponsor>
+               <orgName>Maria Edgeworth Letters Project</orgName>
+            </sponsor>
+            <sponsor>Wake Forest University, University of Tennessee, Xavier University, Texas
                   A&amp;M University</sponsor>
-               <principal>Jessica Richard, Hilary Havens, Robin Runia, Susan Egenolf</principal>
-               <respStmt>
-                  <resp>Transcription and coding by</resp>
-                  <persName ref="Id_who">Jamie Kramer<!--FirstName LastName-->
+            <principal>Jessica Richard, Hilary Havens, Robin Runia, Susan Egenolf</principal>
+            <respStmt>
+               <resp>Transcription and coding by</resp>
+               <persName ref="Id_who">Jamie Kramer<!--FirstName LastName-->
                   </persName>
-                  <!-- List all transcribers or coders here, editors and students alike, <persName> by <persName>.-->
-                  <persName ref="Id_who"><!--FirstName LastName--></persName>
-                  <!-- If you're the last person interacting with the file, enter your name last on the list -->
-               </respStmt>
-            </titleStmt>
+               <!-- List all transcribers or coders here, editors and students alike, <persName> by <persName>.-->
+               <persName ref="Id_who"><!--FirstName LastName--></persName>
+               <!-- If you're the last person interacting with the file, enter your name last on the list -->
+            </respStmt>
+         </titleStmt>
          <editionStmt>
             <edition>First digital edition in TEI, date: <date when="2023-07-31">
                </date>
@@ -40,8 +40,6 @@
                </resp>
             </respStmt>
          </editionStmt>
-         
-         
          <publicationStmt>
             <authority>Maria Edgeworth Letters Project</authority>
             <date>2023</date>
@@ -52,8 +50,7 @@
                <licence>Distributed under a Creative Commons Attribution-ShareAlike 3.0 Unported
                   License</licence>
             </availability>
-            
-            <idno>Edgeworth_Huntington_HM 28600_1820_08_17</idno> 
+            <idno>Edgeworth_Huntington_HM 28600_1820_08_17</idno>
          </publicationStmt>
          <seriesStmt>
             <title>Maria Edgeworth Letters Project</title>
@@ -69,13 +66,13 @@
                   <idno/>
                   <!--Consult library or WorldCat for this info-->
                </msIdentifier>
-               
                <head>Letter from 
                   <persName ref="./Personography.xml#EdgeM1">
                      <forename>Maria</forename>
                      <surname>Edgeworth</surname>
                   </persName>
-                  to <persName ref="./Personography.xml#BeauF1">Sir Francis Beaufort</persName> <placeName ref="./Placeography.xml#Epping_ENK">Epping</placeName>
+                  to <persName ref="./Personography.xml#BeauF1">Sir Francis Beaufort</persName>
+                  <placeName ref="./Placeography.xml#Epping_ENK">Epping</placeName>
                   <date when="1820-08-17">August 17, 1820</date>
                </head>
                <physDesc>
@@ -84,7 +81,6 @@
             <bibl>In addition to our edited version, this letter was previously published in
                <!--complete bibiographical info if letter was published in a book here-->
             </bibl>
-            
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
@@ -97,7 +93,6 @@
                word is split at the end of a line and the beginning of the next in a manuscript. The
                long s and ligatured forms are silently emended.</p>
          </editorialDecl>
-         
          <classDecl>
             <taxonomy xml:id="relators">
                <bibl>Marc Relators</bibl>
@@ -214,10 +209,14 @@
             <taxonomy xml:id="places">
                <bibl>Places</bibl>
                <category>
-                  <catDesc xml:id="EdgeworthsTown">Edgeworths' Town<idno type="getty">tgn/1042937</idno></catDesc>
-                  <catDesc xml:id="Peterborough">Peterborough, UK<idno type="getty">tgn/7026520</idno></catDesc>
-                  <catDesc xml:id="CranfordI">Cranford, Ireland<idno type="getty">tgn/7901042</idno></catDesc>
-                  <catDesc xml:id="Kettering">Kettering, UK<idno type="getty">tgn/7010904</idno></catDesc>
+                  <catDesc xml:id="EdgeworthsTown">Edgeworths' Town<idno type="getty">tgn/1042937</idno>
+                  </catDesc>
+                  <catDesc xml:id="Peterborough">Peterborough, UK<idno type="getty">tgn/7026520</idno>
+                  </catDesc>
+                  <catDesc xml:id="CranfordI">Cranford, Ireland<idno type="getty">tgn/7901042</idno>
+                  </catDesc>
+                  <catDesc xml:id="Kettering">Kettering, UK<idno type="getty">tgn/7010904</idno>
+                  </catDesc>
                </category>
             </taxonomy>
             <taxonomy xml:id="period">
@@ -227,7 +226,6 @@
                </category>
             </taxonomy>
          </classDecl>
-         
       </encodingDesc>
       <profileDesc>
          <correspDesc>
@@ -241,7 +239,6 @@
                <persName ref="./Personography.xml#BeauF1">Sir Francis Beaufort</persName>
             </correspAction>
          </correspDesc>
-         
          <textClass>
             <keywords scheme="">
                <list type="simple">
@@ -266,42 +263,66 @@
             <opener>
                With truth my very dear <persName ref="./Personography.xml#BeauF1">Beaufort</persName> I assure you that I have<lb/>
                this day enjoyed a sweet species of pleasure from <unclear>hearing</unclear> some who are near and dear to<lb/>
-               You <unclear></unclear>under my roof- My beloved Wife and children are, Thank God, quite well <unclear></unclear>We are<lb/>
-               <unclear></unclear> enjoying<unclear></unclear> in this <unclear></unclear> country - <unclear></unclear>to this to<lb/>
-               <unclear></unclear> the same for yourself &amp; taken in as<unclear></unclear>your<unclear>faithful &amp; </unclear><unclear></unclear><lb/>               
+               You <unclear/>under my roof- My beloved Wife and children are, Thank God, quite well <unclear/>We are<lb/>
+               <unclear/> enjoying<unclear/> in this <unclear/> country - <unclear/>to this to<lb/>
+               <unclear/> the same for yourself &amp; taken in as<unclear/>your<unclear>faithful &amp; </unclear>
+               <unclear/>
+               <lb/>
                <dateline>
-                  <date when="1820-08-17"/><hi rend="underline">Aug<hi rend="superscript">st</hi>. 17<hi rend="superscript">h</hi>. 1820</hi> --<lb/></dateline>  
+                  <date when="1820-08-17"/>
+                  <hi rend="underline">Aug<hi rend="superscript">st</hi>. 17<hi rend="superscript">h</hi>. 1820</hi> --<lb/>
+               </dateline>
             </opener>
             <p>My dear <persName ref="./Personography.xml#BeauF1">Francis</persName> I write to you on your<lb/>
                friend <persName ref="./Personography.xml#HillJ1">Captain Hillyar</persName>'s writing desk<lb/>
                in a delightfully pleasant room in<lb/>
-               the house in which he resides at <placeName ref="./Placeography.xml#Yverdon-les-Bains_SZ"><choice><orig>Yver<lb/>
-                  -dun</orig><reg>Yverdon</reg></choice></placeName> <add>on the banks of the <placeName ref="./Placeography.xml#Lac-de-Neuchâtel_SZ">lake of Neufchatel</placeName>.</add> Hearing that we had arrived here<lb/>
+               the house in which he resides at <placeName ref="./Placeography.xml#Yverdon-les-Bains_SZ">
+                  <choice>
+                     <orig>Yver<lb/>
+                  -dun</orig>
+                     <reg>Yverdon</reg>
+                  </choice>
+               </placeName>
+               <add>on the banks of the <placeName ref="./Placeography.xml#Lac-de-Neuchâtel_SZ">lake of Neufchatel</placeName>.</add> Hearing that we had arrived here<lb/>
                &amp; that we were going to see <persName ref="./Personography.xml#PestJ1">Pestalozzi</persName>'s<lb/>
-               establishment he and M<hi rend="superscript">rs</hi>. <persName ref="./Personography.xml#HillM1">Hillyar</persName><lb/>
+               establishment he and M<hi rend="superscript">rs</hi>. <persName ref="./Personography.xml#HillM1">Hillyar</persName>
+               <lb/>
                went there to meet us. - You may guess<lb/>
                how glad we were to see the friend to<lb/>
-               whom we know you are so much <choice><orig>attach<lb/>
-                  ed</orig><reg>attached</reg></choice> &amp; to hear the name of <persName ref="./Personography.xml#BeauF1">Beaufort</persName> so far<lb/>
+               whom we know you are so much <choice>
+                  <orig>attach<lb/>
+                  ed</orig>
+                  <reg>attached</reg>
+               </choice> &amp; to hear the name of <persName ref="./Personography.xml#BeauF1">Beaufort</persName> so far<lb/>
                from home pronounced with so much<lb/>
-               affection. He introduced your little <choice><orig>God-<lb/>
-                  son</orig><reg>godson</reg></choice> to us - we heard him go through a<lb/>
+               affection. He introduced your little <choice>
+                  <orig>God-<lb/>
+                  son</orig>
+                  <reg>godson</reg>
+               </choice> to us - we heard him go through a<lb/>
                mathematical demonstration in his<lb/>
                class at <persName ref="./Personography.xml#PestJ1">Pestalozzi</persName>'s clearly - he is a fine<lb/>
                stout looking boy with great power of<lb/>
                attention. - Capt<hi rend="superscript">n</hi>. <persName ref="./Personography.xml#HillJ1">Hylliar</persName> &amp; his gentle<lb/>
-               obliging <persName ref="./Personography.xml#HillM1">wife</persName> <unclear>invited</unclear> not only myself<lb/>
-               and your two <choice><orig>neices</orig><reg>nieces</reg></choice>, but all our party<lb/>
-               here <persName ref="./Personography.xml#MoilJ1">M<hi rend="superscript">r</hi>.</persName> and <persName ref="./Personography.xml#MoilA1">M<hi rend="superscript">rs</hi>. Moilliet</persName> &amp; their <persName ref="./Personography.xml#BissM1">two</persName> <lb/>
-               <persName ref="./Personography.xml#SmitS2">daughters</persName> - I frankly accepted the <choice><orig>inten-<lb/>
-                  -tion</orig><reg>intention</reg></choice> for it was so cordially given I could<lb/>
+               obliging <persName ref="./Personography.xml#HillM1">wife</persName>
+               <unclear>invited</unclear> not only myself<lb/>
+               and your two <choice>
+                  <orig>neices</orig>
+                  <reg>nieces</reg>
+               </choice>, but all our party<lb/>
+               here <persName ref="./Personography.xml#MoilJ1">M<hi rend="superscript">r</hi>.</persName> and <persName ref="./Personography.xml#MoilA1">M<hi rend="superscript">rs</hi>. Moilliet</persName> &amp; their <persName ref="./Personography.xml#BissM1">two</persName>
+               <lb/>
+               <persName ref="./Personography.xml#SmitS2">daughters</persName> - I frankly accepted the <choice>
+                  <orig>inten-<lb/>
+                  -tion</orig>
+                  <reg>intention</reg>
+               </choice> for it was so cordially given I could<lb/>
                not bear to refuse it and to lose this only<lb/>
                opportunity of spending an hour or two<lb/>
                with your friend - He appears to me<lb/>
                one of the best and happiest tempered<lb/>
                men alive - enjoying every thing and<lb/>
                thanking God for whatever other people<lb/>
-               
                <pb n="2" facs="Edgeworth_Huntington_HM 28600_1820_08_17_page02.jpg"/>
                
                might think a small comparitive portion<lb/>
@@ -309,40 +330,57 @@
                He has the first floor of an admirable<lb/>
                house &amp; what do you think he pays for it<lb/>
                4 good bedrooms - 2 sittings rooms, &amp; a good<lb/>
-               kitchen with a servants room <del>&amp; a good cellar</del><lb/>
+               kitchen with a servants room <del>&amp; a good cellar</del>
+               <lb/>
                <del>to go to</del> &amp; a good garden to walk in all for<lb/>
                fifty pounds English a year. - The family<lb/>
                to whom the house belongs are most kind<lb/>
                to them, taking care of their children as far<lb/>
-               as they wish it - and no more - and <choice><orig>afford-<lb/>
-                  ing</orig><reg>affording</reg></choice> them every possible assistance &amp; <choice><orig>conve-<lb/>
-                     ience</orig><reg>convenience</reg></choice> in the common affairs of life - For<lb/>
+               as they wish it - and no more - and <choice>
+                  <orig>afford-<lb/>
+                  ing</orig>
+                  <reg>affording</reg>
+               </choice> them every possible assistance &amp; <choice>
+                  <orig>conve-<lb/>
+                     ience</orig>
+                  <reg>convenience</reg>
+               </choice> in the common affairs of life - For<lb/>
                instance an excellent cellar open to them on<lb/>
                the most reasonable terms - as <persName ref="./Personography.xml#HillJ1">Capt<hi rend="superscript">n</hi>. H</persName> tells<lb/>
                "me he longs for <persName ref="./Personography.xml#BeauF1">Beaufort</persName> to know all these<lb/>
                "things and yet cannot bring himself to<lb/>
                "sit down to write such trifles to such a<lb/>
                "superior being" I determined to do it directly<lb/>
-               - I have seen Capt<hi rend="superscript">n</hi> <persName ref="./Personography.xml#HillJ1">Hillyar</persName>’s 4 children HillJ2 James <add>Beaufort</add> 12 years old, <persName ref="./Personography.xml#BissM1">Mary</persName> 5 –<lb/>
-               <persName ref="./Personography.xml#HillC1">Charles</persName> 3 and <persName ref="./Personography.xml#HillH1">Henry</persName> 15 months old – fine healthy happy children<lb/></p>
-               <p>Before I met or at least before I knew<lb/>
-                  who Capt<hi rend="superscript">n</hi> <persName ref="./Personography.xml#HillJ1">Hillyar</persName> was, I had <add>just</add> determined<lb/>
+               - I have seen Capt<hi rend="superscript">n</hi>
+               <persName ref="./Personography.xml#HillJ1">Hillyar</persName>’s 4 children HillJ2 James <add>Beaufort</add> 12 years old, <persName ref="./Personography.xml#BissM1">Mary</persName> 5 –<lb/>
+               <persName ref="./Personography.xml#HillC1">Charles</persName> 3 and <persName ref="./Personography.xml#HillH1">Henry</persName> 15 months old – fine healthy happy children<lb/>
+            </p>
+            <p>Before I met or at least before I knew<lb/>
+                  who Capt<hi rend="superscript">n</hi>
+               <persName ref="./Personography.xml#HillJ1">Hillyar</persName> was, I had <add>just</add> determined<lb/>
                   to write to you about your brother <persName ref="./Personography.xml#BeauW1">William</persName> about<lb/>
                an establishment for the deaf and dumb<lb/>
                which I went to see here - I have not time<lb/>
                to write two letters; will you be so kind<lb/>
                to tell him that I have been much pleased<lb/>
-               with what I have seen of M. <persName ref="./Personography.xml#NaefX1">Naef</persName> - whose <choice><orig>pros-<lb/>
-               -pectus</orig><reg>prospectus</reg></choice> I enclose - I went in to his house<lb/>
-               quite unexpectedly and saw about 9 <del>dozen</del><lb/>
-               of his pupils from 8 to 14 - their <choice><orig>counte-<lb/>
-               -nances</orig><reg>countenances</reg></choice> shewed that they were kindly treated<lb/>
+               with what I have seen of M. <persName ref="./Personography.xml#NaefX1">Naef</persName> - whose <choice>
+                  <orig>pros-<lb/>
+               -pectus</orig>
+                  <reg>prospectus</reg>
+               </choice> I enclose - I went in to his house<lb/>
+               quite unexpectedly and saw about 9 <del>dozen</del>
+               <lb/>
+               of his pupils from 8 to 14 - their <choice>
+                  <orig>counte-<lb/>
+               -nances</orig>
+                  <reg>countenances</reg>
+               </choice> shewed that they were kindly treated<lb/>
                - In eight months one of them a boy of eleven<lb/>
-               years old has learned to speak <hi rend="underline"> intelligibly </hi><lb/>
+               years old has learned to speak <hi rend="underline"> intelligibly </hi>
+               <lb/>
                - I do not mean fluently - His voice, &amp; the<lb/>
                voices of all whom I heard speak were less harsh<lb/>
                &amp; disagreeable than any I ever heard from the<lb/>
-               
                <pb n="3" facs="Edgeworth_Huntington_HM 28600_1820_08_17_page03.jpg"/>
                
                pupils of other masters who profess to teach the<lb/>
@@ -352,22 +390,38 @@
                not understand English - But the same<lb/>
                methods by which he teaches one language<lb/>
                the pupil of course could learn any other!<lb/>
-               - I saw <del>them</del> <add>one</add> cast up this sum with ease <del>in</del><lb/>
+               - I saw <del>them</del>
+               <add>one</add> cast up this sum with ease <del>in</del>
+               <lb/>
                4764 x 3460 x 2179 - he made 2 mistakes &amp; corrected<lb/>
-               them when pointed out -<lb/></p>
-               <p>The bedrooms are good - each child a <choice><orig>sepa-<lb/>
-                  rate</orig><reg>separate</reg></choice> bed - large garden - &amp; various means<lb/>
+               them when pointed out -<lb/>
+            </p>
+            <p>The bedrooms are good - each child a <choice>
+                  <orig>sepa-<lb/>
+                  rate</orig>
+                  <reg>separate</reg>
+               </choice> bed - large garden - &amp; various means<lb/>
                of amusement and bodily exercise under<lb/>
                the head Gymnastics - If your brother<lb/>
-                  <persName ref="./Personography.xml#BeauW1">William</persName> should wish to send a boy here<lb/>
+               <persName ref="./Personography.xml#BeauW1">William</persName> should wish to send a boy here<lb/>
                   (a girl is out of the question) <persName ref="./Personography.xml#HillJ1">M<hi rend="superscript">r</hi>.</persName> and <persName ref="./Personography.xml#HillA1">M<hi rend="superscript">rs</hi>. HIl-<lb/>
                lyar</persName> would attend to him constantly<lb/>
-                  - They stay here <hi rend="underline">another year</hi> <add>for certain perhaps longer</add>- If <persName ref="./Personography.xml#BeauW1">William</persName><lb/>
+                  - They stay here <hi rend="underline">another year</hi>
+               <add>for certain perhaps longer</add>- If <persName ref="./Personography.xml#BeauW1">William</persName>
+               <lb/>
                could send his boy to <placeName ref="./Placeography.xml#Paris_FR">Paris</placeName> I would<lb/>
                receive him &amp; find means of forwarding<lb/>
-                  him to <placeName ref="./Placeography.xml#Geneva_SZ">Geneva</placeName> and from thence to <placeName ref="./Placeography.xml#Yverdon-les-Bains_SZ"><choice><orig>Yver<lb/>
-                     -don</orig><reg>Yverdon</reg></choice></placeName> - The expense in the whole - <choice><orig>instruc<lb/>
-                        -tion</orig><reg>instruction</reg></choice> boarding &amp; lodging is 50 Guineas a<lb/>
+                  him to <placeName ref="./Placeography.xml#Geneva_SZ">Geneva</placeName> and from thence to <placeName ref="./Placeography.xml#Yverdon-les-Bains_SZ">
+                  <choice>
+                     <orig>Yver<lb/>
+                     -don</orig>
+                     <reg>Yverdon</reg>
+                  </choice>
+               </placeName> - The expense in the whole - <choice>
+                  <orig>instruc<lb/>
+                        -tion</orig>
+                  <reg>instruction</reg>
+               </choice> boarding &amp; lodging is 50 Guineas a<lb/>
                year - the food is good &amp; sufficient as<lb/>
                the health of the boys shews - but it is<lb/>
                not luxurious - breakfast - soup - plain<lb/>
@@ -375,39 +429,68 @@
                   in <placeName ref="./Placeography.xml#Yverdon-les-Bains_SZ">Yverdon</placeName> is protestant &amp; M<hi rend="superscript">r</hi>. <persName ref="./Personography.xml#NaefX1">Naef</persName> is a<lb/>
                protestant - I shall be in <placeName ref="./Placeography.xml#Paris_FR">Paris</placeName> in the<lb/>
                2<hi rend="superscript">d</hi>. or 3.<hi rend="superscript">d</hi> week in October &amp; can be heard of always<lb/>
-                  at the <persName ref="./Personography.xml#DeleE1">Delessert</persName>s - <placeName ref="./Placeography.xml#Rue-Coq-Heron_FR">Rue <choice><orig>Coqueron</orig><reg>Rue Coq-Heron</reg></choice></placeName> - At <persName ref="./Personography.xml#EmerX1">M.<hi rend="superscript">r</hi>: Emer<unclear>y</unclear></persName><lb/>
-                  Black bear <placeName ref="./Placeography.xml#Picadilly-Circus_ENK">Piccadilly</placeName> there is a Swiss <unclear>voilure</unclear><lb/>
-                  who would bring any person from <placeName ref="./Placeography.xml#London_ENK">London</placeName><lb/>
-                  to <placeName ref="./Placeography.xml#Yverdon-les-Bains_SZ"><choice><orig>Yverdun</orig><reg>Yverdon</reg></choice></placeName> for twelve pounds - He offered<lb/>
+                  at the <persName ref="./Personography.xml#DeleE1">Delessert</persName>s - <placeName ref="./Placeography.xml#Rue-Coq-Heron_FR">Rue <choice>
+                     <orig>Coqueron</orig>
+                     <reg>Rue Coq-Heron</reg>
+                  </choice>
+               </placeName> - At <persName ref="./Personography.xml#EmerX1">M.<hi rend="superscript">r</hi>: Emer<unclear>y</unclear>
+               </persName>
+               <lb/>
+                  Black bear <placeName ref="./Placeography.xml#Picadilly-Circus_ENK">Piccadilly</placeName> there is a Swiss <unclear>voilure</unclear>
+               <lb/>
+                  who would bring any person from <placeName ref="./Placeography.xml#London_ENK">London</placeName>
+               <lb/>
+                  to <placeName ref="./Placeography.xml#Yverdon-les-Bains_SZ">
+                  <choice>
+                     <orig>Yverdun</orig>
+                     <reg>Yverdon</reg>
+                  </choice>
+               </placeName> for twelve pounds - He offered<lb/>
                a gentleman here to bring him 7 boys for<lb/>
                <add>£</add>10 each <add>in fourteen days</add> - all expenses cleared - &amp; he does not<lb/>
                starve them on the road - Now perhaps all<lb/>
                I have written may be quite useless but it will<lb/>
                   shew that <persName ref="./Personography.xml#BeauW1">William B</persName>'s interests are fresh in my mind<lb/>
-               
                <pb n="4" facs="Edgeworth_Huntington_HM 28600_1820_08_17_page04.jpg"/>
-               
-                  <unclear></unclear> to <persName ref="./Personography.xml#PestJ1">Pestalozzi</persName> - he is almost past mental labors<lb/>
-               -but others are carrying on his plans at his <choice><orig>establish<lb/>
-                  ment</orig><reg>establishment</reg></choice> - M.<hi rend="superscript">r</hi> <persName ref="./Personography.xml#SchmX1">Schmidt</persName> <add>one of</add> his pupils teaches <choice><orig>mathe-<lb/>
-                  matics</orig><reg>mathematics</reg></choice> well - exceedingly well as far as we<lb/>
+               <unclear/> to <persName ref="./Personography.xml#PestJ1">Pestalozzi</persName> - he is almost past mental labors<lb/>
+               -but others are carrying on his plans at his <choice>
+                  <orig>establish<lb/>
+                  ment</orig>
+                  <reg>establishment</reg>
+               </choice> - M.<hi rend="superscript">r</hi>
+               <persName ref="./Personography.xml#SchmX1">Schmidt</persName>
+               <add>one of</add> his pupils teaches <choice>
+                  <orig>mathe-<lb/>
+                  matics</orig>
+                  <reg>mathematics</reg>
+               </choice> well - exceedingly well as far as we<lb/>
                can judge by the clearness &amp; intelligence of his<lb/>
-                     his pupils - M.<hi rend="superscript">r</hi> <persName ref="./Personography.xml#GreaX1">Greaves</persName> a gentleman who has been<lb/>
+                     his pupils - M.<hi rend="superscript">r</hi>
+               <persName ref="./Personography.xml#GreaX1">Greaves</persName> a gentleman who has been<lb/>
                here 2 years for no purpose but to learn the<lb/>
                system of teaching German &amp; English - Of German<lb/>
-               he knew nothing! - He teaches <add>language</add> by shewing the <choice><orig>exter<lb/>
-                  nal</orig><reg>external</reg></choice> objects first &amp; annexing the names at the moment<lb/>
+               he knew nothing! - He teaches <add>language</add> by shewing the <choice>
+                  <orig>exter<lb/>
+                  nal</orig>
+                  <reg>external</reg>
+               </choice> objects first &amp; annexing the names at the moment<lb/>
                - then their qualities &amp; then their actions<lb/>
                - He tries to make the children invent the rules of<lb/>
-               grammar from shewing them their use - The rev<hi rend="superscript">d</hi>. M<hi rend="superscript">r</hi>. <unclear>Muzo</unclear><lb/>
-                  from Oxford teaches Latin &amp; Greek and English for <persName ref="./Personography.xml#PestJ1">Pestalozzi</persName><lb/>
+               grammar from shewing them their use - The rev<hi rend="superscript">d</hi>. M<hi rend="superscript">r</hi>. <unclear>Muzo</unclear>
+               <lb/>
+                  from Oxford teaches Latin &amp; Greek and English for <persName ref="./Personography.xml#PestJ1">Pestalozzi</persName>
+               <lb/>
                on this plan - he is rather too full of words -<lb/>
                - I need say no more to You - there seems to be<lb/>
                a great inconvenience in the variety of the tongue<lb/>
-                  spoken at <persName ref="./Personography.xml#PestJ1">Pestalozzi</persName>'s - The English is a <unclear>barbarous</unclear><lb/>
+                  spoken at <persName ref="./Personography.xml#PestJ1">Pestalozzi</persName>'s - The English is a <unclear>barbarous</unclear>
+               <lb/>
                jargon - The French bad - And the children and<lb/>
-               their masters mix French English &amp; German <choice><orig>toge<lb/>
-                  -ther</orig><reg></reg></choice> so that they will I fear speak none correctly<lb/>
+               their masters mix French English &amp; German <choice>
+                  <orig>toge<lb/>
+                  -ther</orig>
+                  <reg/>
+               </choice> so that they will I fear speak none correctly<lb/>
                But what is worse their ideas seem confused in<lb/>
                this inaccuracy of language - Sum total - I would not<lb/>
                   for any consideration that <persName ref="./Personography.xml#BeauF2">Francis</persName> or one of your boys<lb/>
@@ -419,7 +502,8 @@
                   We are now taking another in the <placeName ref="./Placeography.xml#SZ">Swiss cantons</placeName> - In 3 weeks time we<lb/>
                shall have finished this tour and shall<lb/>
                be again at <placeName ref="./Placeography.xml#Pregny-Chambésy_SZ">Pregny</placeName> on the banks of the lake<lb/>
-                  of <placeName ref="./Placeography.xml#Geneva_SZ">Geneva</placeName> with our kind friends <persName ref="./Personography.xml#MoilJ1">M<hi rend="superscript">r</hi>.</persName> &amp; <persName ref="./Personography.xml#MoilA1">M<hi rend="superscript">rs</hi><lb/>
+                  of <placeName ref="./Placeography.xml#Geneva_SZ">Geneva</placeName> with our kind friends <persName ref="./Personography.xml#MoilJ1">M<hi rend="superscript">r</hi>.</persName> &amp; <persName ref="./Personography.xml#MoilA1">M<hi rend="superscript">rs</hi>
+                  <lb/>
                Moilliet</persName> who are now accompanying<lb/>
                us in this excursion - Farewell<lb/>
                When you write or if you write send<lb/>
@@ -427,15 +511,18 @@
                   Office &amp; direct to me at M <persName ref="./Personography.xml#DeleE1">Delessert</persName>s <placeName ref="./Placeography.xml#Paris_FR">Paris</placeName> -<lb/>
                <hi rend="underline">without</hi> adding <hi rend="underline">Rue Coqueron</hi> as that I find<lb/>
                delays the delivery of letters 3 or 4 hours -<lb/>
-            </p> 
+            </p>
             <closer>
-               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName><lb/>
+               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
+               <lb/>
             </closer>
             <closer>
-               <address>                   
-                  <addrLine/> <persName ref="./Personography.xml#BeauF1">Captain Beauford Esq.<hi rend="superscript">re</hi> RN.</persName>
-                  <addrLine/><placeName ref="./Placeography.xml#Epping_ENK">Epping</placeName>
-                  </address>
+               <address>
+                  <addrLine/>
+                  <persName ref="./Personography.xml#BeauF1">Captain Beauford Esq.<hi rend="superscript">re</hi> RN.</persName>
+                  <addrLine/>
+                  <placeName ref="./Placeography.xml#Epping_ENK">Epping</placeName>
+               </address>
             </closer>
          </div>
       </body>
