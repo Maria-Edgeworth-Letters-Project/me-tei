@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from Maria Edgeworth to [Unknown], December 3, 1836</title>
+            <author>Maria Edgeworth</author>
+            <editor ref="Id_who">Alexandra LaGrand</editor>
+            <sponsor>
+               <orgName>Maria Edgeworth Letters Project</orgName>
+            </sponsor>
+            <sponsor>Wake Forest University, University of Tennessee, Xavier University, Texas
+               A&amp;M University</sponsor>
+            <principal>Jessica Richard, Hilary Havens, Robin Runia, Susan Egenolf</principal>
+            <respStmt>
+               <resp>Transcription and coding by</resp>
+               <persName ref="Id_who">Alexandra LaGrand</persName>
+               <!-- If you're the last person interacting with the file, enter your name last on the list -->
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>First digital edition in TEI, date: <date when="2023-11-02">November 2, 2023</date>
+            </edition>
+            <respStmt>
+               <orgName ref="http://id.loc.gov/authorities/names/n82003163">Princeton University Library</orgName>
+               <resp> photos include: Edgeworth_Princeton_1836-12_page001.jpg, Edgeworth_Princeton_1836-12_page002.jpg</resp>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Maria Edgeworth Letters Project</authority>
+            <date>2022</date>
+            <availability>
+               <p>Reproduced by courtesy of <orgName ref="http://id.loc.gov/authorities/names/n82003163">Princeton University Library</orgName>
+               </p>
+               <licence>Distributed under a Creative Commons Attribution-ShareAlike 3.0 Unported
+                  License</licence>
+            </availability>
+            <idno>Edgeworth_Princeton_1836-12</idno> 
+         </publicationStmt>
+         <seriesStmt>
+            <title>Maria Edgeworth Letters Project</title>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <repository>Princeton University Library</repository>
+                  <collection><!-- Enter specific archival collection if applicable--></collection>
+                  <idno><!--Consult library or WorldCat for this info--></idno>
+               </msIdentifier>
+               
+               <!-- FROM LAURA: it's here (below) in the head that I added the full information about the author,
+                  and you could add full information about the addressee as well. -->
+               <head>Letter from 
+                  <persName ref="./Personography.xml#EdgeM1">
+                     <forename>Maria</forename>
+                     <surname>Edgeworth</surname>
+                  </persName>
+                   to <persName>[Unknown]</persName>, <placeName>Black Castle</placeName>,<!--Where is Black Castle?--> 
+                  <date when="1836-12-03">December 3<hi rend="superscript">d</hi>. 1836</date>
+               </head>
+               <physDesc>
+                  <!-- optional physical description of the letter goes here: paper size and condition, seal, postmarks, etc.-->
+               </physDesc>
+            </msDesc>
+            
+            <!-- FROM LAURA: where to put the following information in <bibl> is still a question: 
+               ask TEI List whether it should be in the sourceDesc or elsewhere? -->
+            
+          </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <!--Where Edgeworth uses nonstandard spelling and hyphenation of words, transcriber-coders 
+               should use TEI elements “choice," “sic," and “reg" to encode both Edgeworth’s 
+               spelling and the regular international standard of Oxford English spelling, 
+               following the first listed spelling in the Oxford English Dictionary. -->
+            <p>Edgeworth’s spelling and punctuation are retained in transcription, except where a
+               word is split at the end of a line and the beginning of the next in a manuscript. The
+               long s and ligatured forms are silently emended.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
+            </correspAction>
+            <correspAction type="received">
+               <persName>Unknown</persName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2023-11-02" who="Id_who">Created file for letter, encoded letter</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <pb n="1" facs="Edgeworth_Princeton_1836-12_page001.jpg"/>
+            <opener>
+               <dateline>
+                  <name type="place" ref="Id_where"/>Black Castle
+                  <date when="1836-12-03"/>Dec 3<hi rend="superscript">d</hi>. 1836</dateline>
+               <salute>
+                  <persName>My Dear Lestock</persName><!--Not sure which Lestock this letter is to-->
+               </salute>
+            </opener>
+            <p>I must trouble you again - Read the enclosed letters<lb/>
+               from <persName ref="./Personography.xml#BaldX2">Baldwin</persName> &amp; Co. &amp; <persName ref="./Personography.xml#BentR1"><choice><orig>Bently</orig><reg>Bentley</reg></choice></persName> - See <persName ref="./Personography.xml#BaldX2">Baldwin</persName> &amp; <persName ref="./Personography.xml#CradX1">Cradock</persName> &amp; settle<lb/>
+               with them the first because I said they should have the first<lb/>
+               offer a new <choice><orig>Ed.</orig><reg>Edition</reg></choice> of <title ref="./Workography.xml#Helen1">Helen</title> - Also I think it just to repeat that offer<lb/>
+               for their Collection in 18 <choice><orig>vols.</orig><reg>volumes</reg></choice> of my work - But - I never did offer<lb/>
+               to sell them the <hi rend="underline">remaining <choice><orig>Copy right</orig><reg>Copyright</reg></choice> of <title ref="./Workography.xml#Helen1">Helen</title></hi>" If they mean<lb/>
+               the whole <choice><orig>copy right</orig><reg>copyright</reg></choice>, I will not - They must say what no<lb/>
+               their <choice><orig>Ed<hi rend="superscript">n</hi></orig></choice>. is to consist of &amp; which they do not in their letter state<lb/>
+               the number &amp; price <hi rend="underline">proportionable I beg you</hi> to settle -<lb/>
+               I would only observe that if they absolutely object to my<lb/>
+               allowing <persName ref="./Personography.xml#BentR1"><choice><orig>Benly,</orig><reg>Bentley</reg></choice></persName> <hi rend="underline">an</hi> <choice><orig>Ed<hi rend="superscript">n</hi></orig><reg>Edition</reg></choice>. of any number for this standard<lb/>
+               novels I should think it just that they should pay more than<lb/>
+               if they agreed to permit me to deal with him for any certain<lb/>
+               number for Standard novels - However small or large -<lb/>
+               2<hi rend="superscript">ly</hi> for <persName ref="./Personography.xml#BentR1">Bently</persName> - If <persName ref="./Personography.xml#BaldX2">Baldwin</persName> objects to my letting him<lb/>
+               have an Ed<hi rend="superscript">n</hi>. of <title ref="./Workography.xml#Helen1">Helen</title> &amp; if you arrange to accept of<lb/>
+               <persName ref="./Personography.xml#BaldX2">Baldwin's</persName> terms we have nothing to do but civilly to tell<lb/>
+               <persName ref="./Personography.xml#BentR1"><choice><orig>Bently</orig><reg>Bentley</reg></choice></persName> so - And either you will do that &amp; or write to me<lb/>
+               <hi rend="underline">But</hi> if <persName ref="./Personography.xml#BaldX2">Baldwin</persName> does<lb/>
+               &amp; I will write to that effect to <persName ref="./Personography.xml#BentR1"><choice><orig>Bently</orig><reg>Bentley</reg></choice></persName> <hi rend="underline">But</hi> if <persName ref="./Personography.xml#BaldX2">Baldwin</persName> does<lb/>
+               not come to terms with you then we have to deal with <persName ref="./Personography.xml#BentR1"><choice><orig>Bently</orig><reg>Bentley</reg></choice></persName><lb/>
+               He says that he does mean to offer me 100 for the <hi rend="underline">whole</hi><lb/>
+               <hi rend="underline">copy right</hi> of <title ref="./Workography.xml#Helen1">Helen</title> - But only for a stereotype Ed.<hi rend="superscript">n</hi> might<lb/>
+               be any number he might ever in future want for<lb/>
+               Standard novels &amp; consequently this wd make the copy right<lb/>
+               valueless to me or to any other publisher - this wd be in<lb/>
+               fact <hi rend="underline">selling <del>the</del> my Copyright for 100 - </hi> which I will not do -<lb/>
+               nor am I will willing to sell the whole copy right on any<lb/>
+               <del>after</del> consideration (unless you my Dr Lestock advise it<!--Not sure which Lestock--><lb/>
+               &amp; even this I leave to <choice><orig>yr</orig><reg>your</reg></choice> better judgment - I think that<lb/>
+               whatever agreement is made should be in writing<lb/>
+               &amp; begging you to settle with these Gentlemen publishers<lb/>
+            </p>
+            <p>
+               <pb n="2" facs="Edgeworth_Princeton_1836-12_page002.jpg"/>
+               for me &amp; knowing you will make me deal <choice><orig>handsome<lb/>
+               ly</orig><reg>handsomely</reg></choice> &amp; consider credit for me more than money be<lb/>
+               assured I shall be perfectly satisfied with what<lb/>
+               ever you decide - only <hi rend="underline">decide</hi> for <choice><orig>yr</orig><reg>your</reg></choice> obliged<lb/>
+            </p>
+            <closer>
+               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName><lb/>
+            </closer>
+            <postscript>
+               <p>
+                  <del>I must decline <del>hav</del> giving <persName ref="./Personography.xml#BentR1">Bentley</persName> <choice><orig>permis</orig></choice><reg>permission</reg></del><lb/>
+                  <del><choice><orig>sion</orig><reg>permission</reg></choice> to insert <del>them</del> <title ref="./Workography.xml#Helen1">Helen</title> at all in standard</del><lb/>
+                  <del>no</del><lb/>
+                  I beg you will see <persName ref="./Personography.xml#BaldX2">Baldwin</persName> &amp; <persName ref="./Personography.xml#CradX1">Cradock</persName><lb/>
+                  first as I proposed to give them the<lb/>
+                  first offer - and settle with them<lb/>
+                  as you think best -<lb/>
+                  When that is done settle with <persName ref="./Personography.xml#BentR1">Bentley</persName><lb/>
+                  And be assured that whatever you<lb/>
+                  do for me I shall approve<lb/>
+                  1836<lb/>
+                  <persName ref="./Personography.xml#EdgeM1">M E</persName> to <unclear>Lhrtwn</unclear><lb/>
+                  <choice><orig>ab<hi rend="underline">t</hi></orig><reg>about</reg></choice> <title ref="./Workography.xml#Helen1">Helen</title><lb/>
+               </p>
+            </postscript>
+         </div>
+      </body>
+      <back> </back>
+   </text>
+</TEI>
