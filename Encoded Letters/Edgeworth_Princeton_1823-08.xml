@@ -113,11 +113,6 @@
             </correspAction>
          </correspDesc>
       </profileDesc>
-      <revisionDesc>
-         <change when="2021-01-01" who="Id_who">
-            <!--Brief description of what you did here.-->
-         </change>
-      </revisionDesc>
    </teiHeader>
    <text>
       <pb n="1" facs="Edgeworth_Princeton_1823-08_page02.jpg"/>
@@ -136,6 +131,7 @@
                         </orig>
                         <reg>Dear</reg>
                      </choice> Sir
+                     <note place="bottom">Cert</note>
                      <!-- Use if letter has a saluation ("Dear Sir," for example). If not, delete this line.-->
                   </persName>
                </salute>
@@ -207,12 +203,10 @@
                <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>.<lb/>
             </closer>
             <closer><!--Use the <closer> element again to hold Address Leaf information.-->
-               <!--LJ NOTE PAUSED HERE 10/27/23-->
                <address>
                   <!--Include any text written on the address leaf; use a separate "addrLine" for each line and indicate line breaks. -->
-                  <addrLine/>
-                  <addrLine/>
-                  <addrLine/>
+                  <note place="bottom">AM 19710</note>
+                  <addrLine>Archibald Constable Esq<hi rend="superscript">r</hi></addrLine>
                </address>
             </closer>
          </div>

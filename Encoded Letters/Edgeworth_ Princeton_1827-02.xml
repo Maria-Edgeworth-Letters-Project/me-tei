@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from Maria Edgeworth to [unknown], February 14, 1827</title>
+            <author>Maria Edgeworth</author>
+            <editor ref="Id_who">Lindsey Jones
+            </editor>
+            <sponsor>
+               <orgName>Maria Edgeworth Letters Project</orgName>
+            </sponsor>
+            <sponsor>Wake Forest University, University of Tennessee, Xavier University, Texas
+               A&amp;M University</sponsor>
+            <principal>Jessica Richard, Hilary Havens, Robin Runia, Susan Egenolf</principal>
+            <respStmt>
+               <resp>Transcription and coding by</resp>
+               <persName ref="Id_who">Lindsey Jones
+               </persName>
+               <!-- List all transcribers or coders here, editors and students alike, <persName> by <persName>.-->
+               <persName ref="Id_who"><!--FirstName LastName--></persName>
+               <!-- If you're the last person interacting with the file, enter your name last on the list -->
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>First digital edition in TEI, date: November 4, 2023<date when="2023-11-04">
+                  <!--enter the date on which the first coder created and saved this XML file in google drive-->
+               </date>
+            </edition>
+            <respStmt>
+               <orgName type="naf" ref="http://id.loc.gov/authorities/names/n82003163">
+                  Princeton University Library
+                  <!--who digitized the letter or gave us permission for to use the file?-->
+               </orgName>
+               <resp> photos include:
+                  Edgeworth_ Princeton_1827-02_page01.jpg,
+                  Edgeworth_ Princeton_1827-02_page02.jpg
+               </resp>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Maria Edgeworth Letters Project</authority>
+            <date>2022</date>
+            <availability>
+               <p>
+                  Courtesy of <orgName ref="#http://id.loc.gov/authorities/names/n82003163">Princeton University Library</orgName>.
+               </p>
+               <licence>Distributed under a Creative Commons Attribution-ShareAlike 3.0 Unported
+                  License</licence>
+            </availability>
+            <idno>Edgeworth_Princeton_1827-02</idno> 
+         </publicationStmt>
+         <seriesStmt>
+            <title>Maria Edgeworth Letters Project</title>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <!-- This section of the header identifies the original manuscript source. -->
+               <msIdentifier>
+                  <repository>Princeton University Library</repository>
+                  <collection><!-- Enter specific archival collection if applicable--></collection>
+                  <idno>Edgeworth_Princeton_1827-02</idno>
+               </msIdentifier>
+               
+               <!-- FROM LAURA: it's here (below) in the head that I added the full information about the author,
+                  and you could add full information about the addressee as well. -->
+               <head>Letter from 
+                     <persName xml:id="EdgeM1" from="1768" to="1849">
+                        <forename>Maria</forename>
+                        <surname>Edgeworth</surname>
+                        <date>1768-1849</date>
+                        <idno type="VIAF">71477273</idno>
+                        <idno type="SNAC">62567029</idno>
+                     </persName>
+                  <placeName ref="./Placeography.xml#Edgeworthstown_IE">Edgeworthstown</placeName>, 
+                  <date when="1827-02-14">February 14. 1827</date>
+               </head>
+               <physDesc>
+                  <!-- optional physical description of the letter goes here: paper size and condition, seal, postmarks, etc.-->
+               </physDesc>
+            </msDesc>
+            
+            <!-- FROM LAURA: where to put the following information in <bibl> is still a question: 
+               ask TEI List whether it should be in the sourceDesc or elsewhere? -->
+            
+            <bibl>In addition to our edited version, this letter was previously published in
+               <!--complete bibiographical info if letter was published in a book here - if not delete-->
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <!--Where Edgeworth uses nonstandard spelling and hyphenation of words, transcriber-coders 
+               should use TEI elements “choice," “sic," and “reg" to encode both Edgeworth’s 
+               spelling and the regular international standard of Oxford English spelling, 
+               following the first listed spelling in the Oxford English Dictionary. -->
+            <p>Edgeworth’s spelling and punctuation are retained in transcription, except where a
+               word is split at the end of a line and the beginning of the next in a manuscript. The
+               long s and ligatured forms are silently emended.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName>Maria Edgeworth</persName>
+            </correspAction>
+            <correspAction type="received">
+               <persName><!--RECIPIENT NAME--></persName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <pb n="1" facs="Edgeworth_ Princeton_1827-02_page01.jpg"/>
+      <body>
+         <div type="letter">
+            <pb n="1" facs="image1.jpg"/>
+            <!--filenames for photos associated with this letter. Example: <pb n="1" facs="image1.jpg image2.jpg image3.jpg"/> -->
+            <opener>
+               <dateline>
+                  <name type="place" ref="./Placeography.xml#Edgeworthstown_IE">Edgeworths Town</name><lb/>
+                  <date when="1827-02-14"/>February 14, 1827. </dateline>
+               <salute>
+                  Dear Sir.
+               </salute>
+            </opener>
+            <p><!--
+               Then we are agreed about <title ref="./Workography.xml#Littl1">the little plays</title> - an<lb/>
+               hundred guineas for a <choice><orig>vol</orig><reg>volume</reg></choice> to match the size<lb/>
+               of <title ref="./Workography.xml#Paren1">Parents Ass<del>s</del>istant</title>.  and permission to me to<lb/>
+               send any <choice><orig>Ms.</orig><reg>manuscript</reg></choice> over to <placeName ref="./Placeography.xml#US">America</placeName> as soon as I<lb/>
+               deliver it to you - So far so good. But observe I<lb/>
+               do not wish that the plays should appear as a<lb/>
+               new work, only as an additional volume of a<lb/>
+               new edition of <title ref="./Workography.xml#Paren1">Parents Assistant</title>. You do not say any thing<lb/>
+               in reply to what I said about your letting the<lb/>
+               purchases of former Editions of <title ref="./Workography.xml#Paren1">Parents assistant</title> <unclear>buy</unclear><lb/>
+               this <choice><orig>vol.</orig><reg>volume</reg></choice> of plays separately to make up their set if<lb/>
+               they choose. I lay stress on this as I think it but<lb/>
+               fair to said purchasers - You need not send<lb/>
+               <title ref="./Workography.xml#Paren1"><unclear>Pa</unclear>rents assistant</title> to us to be recorrected for a<lb/>
+               <unclear>ne</unclear>w edition as we have no <add>new</add> corrections to make<lb/>
+               <unclear></unclear> But I should like to know what size you<lb/>
+               propose your new <choice><orig>ed<hi rend="superscript">n</hi></orig><reg>edition</reg></choice> to be and what number of <choice><orig>vols.</orig><reg>volumes</reg></choice><lb/>
+            </p>
+            <p>Wherever you are standing or sitting when<lb/>
+               you receive this letter, be pleased to issue imme<unclear>diate</unclear><lb/>
+               orders that search should be made in your house<lb/>
+               for a <choice><orig>ms</orig><reg>manuscript</reg></choice> which I sent you in 1820, when you<lb/>
+            <pb n="2" facs="Edgeworth_ Princeton_1827-02_page02.jpg"/>     NOTE FROM LJ: PAUSED HERE 11/4/23
+               
+               you were printing the sequel of Rosamond -<lb/>
+            </p>
+            <p>The ms is called [underline]"The Dame School"[/underline]- W[unclear]e[/unclear] had<lb/>
+               once intended to insert it in Rosamond, but we<lb/>
+               thought it best on second thoughts to reserve it<lb/>
+               for a vol of Plays - You never returned me the ms<lb/>
+            </p>
+            <p>When you have found it will you make your<lb/>
+               printer cast it off and see and tell me how many<lb/>
+               pages it will make of the size you mean to m[unclear]ake[/unclear]<lb/>
+               your new edition - When that is done, send the<lb/>
+               ms in [underline]one[/underline] or [underline]two[/underline] packets [unclear]as[/unclear] maybe most conven<lb/>
+               - ient directed to the East of Rosse Parsonstown.<lb/>
+               At the same time write and tell me whether<lb/>
+               you accede to what I say about the mode of<lb/>
+               publication of the little plays -<lb/>
+            </p>
+            <p>You take no notice at all of my<lb/>
+               request that you would send me various books<lb/>
+               I have repeatedly [deletion]written[/deletion] for and that you would<lb/>
+               send me the parcel of books from France wh[unclear][/unclear]<lb/>
+               Either is at your house or Capt[superscript]n[/superscript] Beauforts.<lb/>
+               And ask yourself whether it be reasonable that I<lb/>
+               should go without all the books I want - rather than<lb/>
+               employ any other bookseller than M[superscript]r[/superscript] Hunter who<lb/>
+               will not take the trouble to send what is desired.<lb/>
+            -->
+               </p>
+            <closer>
+               <!--I am dear Sir-
+               very truly (but not [underline]stupidly[/underline]
+               [underline]or blindly[/underline]), yours sincerely
+               Maria Edgeworth-->
+            </closer>
+         </div>
+      </body>
+      <back> </back>
+   </text>
+</TEI>
