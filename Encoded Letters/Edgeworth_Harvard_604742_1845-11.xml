@@ -1,0 +1,490 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>
+               Letter from Maria Edgeworth to Anna Maria Fielding Hall, November 14th, 1845
+            </title>
+            <author>Maria Edgeworth</author>
+            <editor ref="Id_who">
+               Jamie Kramer
+            </editor>
+            <sponsor>
+               <orgName>Maria Edgeworth Letters Project</orgName>
+            </sponsor>
+            <sponsor>Wake Forest University, University of Tennessee, Xavier University, Texas
+               A&amp;M University</sponsor>
+            <principal>Jessica Richard, Hilary Havens, Robin Runia, Susan Egenolf</principal>
+            <respStmt>
+               <resp>Transcription and coding by</resp>
+               <persName ref="Id_who">Jamie Kramer
+               </persName>
+               <!-- List all transcribers or coders here, editors and students alike, <persName> by <persName>.-->
+               <persName ref="Id_who"><!--FirstName LastName--></persName>
+               <!-- If you're the last person interacting with the file, enter your name last on the list -->
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>First digital edition in TEI, date: <date when="2023-11-05">
+               
+            </date>
+            </edition>
+            <respStmt>
+               <orgName type="naf" ref="http://id.loc.gov/authorities/names/n80097499">
+                  Harvard University, Houghton Library<!--who digitized the letter or gave us permission for to use the file?-->
+               </orgName>
+               <resp> photos include:
+                  Edgeworth_Harvard_604742_1845-11_page01.jpg,
+                  Edgeworth_Harvard_604742_1845-11_page02.jpg,
+                  Edgeworth_Harvard_604742_1845-11_page03.jpg,
+                  Edgeworth_Harvard_604742_1845-11_page04.jpg,
+                  Edgeworth_Harvard_604742_1845-11_page05.jpg,
+                  Edgeworth_Harvard_604742_1845-11_page06.jpg,
+                  Edgeworth_Harvard_604742_1845-11_page07.jpg,
+                  Edgeworth_Harvard_604742_1845-11_page08.jpg
+               </resp>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Maria Edgeworth Letters Project</authority>
+            <date>2022</date>
+            <availability>
+               <!--Uncomment the appropriate line, based on the archive that holds the physical copy of this letter, 
+                  and delete the other comment line(s).-->
+               <p>Reproduced by coutesty of <orgName ref="http://id.loc.gov/authorities/names/n80097499">Harvard University, Houghton Library</orgName>
+                  <!--Reproduced by courtesy of the <orgName ref="#ReadingCL">Reading Central Library</orgName>.-->
+                  <!--or -->
+                  <!--Courtesy of <orgName ref="#Rylands">The University of Manchester</orgName>.-->
+               </p>
+               <licence>Distributed under a Creative Commons Attribution-ShareAlike 3.0 Unported
+                  License</licence>
+            </availability>
+            <idno>
+               Edgeworth_Harvard_604756_1847-01
+            </idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Maria Edgeworth Letters Project</title>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <!-- This section of the header identifies the original manuscript source. -->
+               <msIdentifier>
+                  <repository>Harvard University, Houghton Library</repository>
+                  <collection><!-- Enter specific archival collection if applicable--></collection>
+                  <idno><!--Consult library or WorldCat for this info--></idno>
+               </msIdentifier>
+               <!-- FROM LAURA: it's here (below) in the head that I added the full information about the author,
+                  and you could add full information about the addressee as well. -->
+               <head>Letter from 
+                  <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
+                  to 
+                  <persName ref="./Personography.xml#HallA1">Anna Maria Fielding Hall</persName>
+                  <date when="1845-11-14">Nov<hi rend= "superscript">r.</hi> 14<hi rend= "superscript">h</hi>. 1845</date>
+               </head>
+               <physDesc>
+                  <!-- optional physical description of the letter goes here: paper size and condition, seal, postmarks, etc.-->
+               </physDesc>
+            </msDesc>
+            <!-- FROM LAURA: where to put the following information in <bibl> is still a question: 
+               ask TEI List whether it should be in the sourceDesc or elsewhere? -->
+            <bibl>In addition to our edited version, this letter was previously published in
+               <!--complete bibiographical info if letter was published in a book here - if not delete-->
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <!--Where Edgeworth uses nonstandard spelling and hyphenation of words, transcriber-coders 
+               should use TEI elements “choice," “sic," and “reg" to encode both Edgeworth’s 
+               spelling and the regular international standard of Oxford English spelling, 
+               following the first listed spelling in the Oxford English Dictionary. -->
+            <p>Edgeworth’s spelling and punctuation are retained in transcription, except where a
+               word is split at the end of a line and the beginning of the next in a manuscript. The
+               long s and ligatured forms are silently emended.</p>
+         </editorialDecl>
+         <classDecl>
+            <taxonomy xml:id="relators">
+               <bibl>Marc Relators</bibl>
+               <category xml:id="aut">
+                  <catDesc>Author</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="lcsh">
+               <bibl>Subjects</bibl>
+               <category>
+                  <catDesc xml:id="AntislaveryMovements">Antislavery movements
+                     <idno type="loc">sh85123315</idno>
+                  </catDesc>
+                  <catDesc xml:id="Birth">Birth
+                     <idno type="loc">sh86004053</idno>
+                  </catDesc>
+                  <catDesc xml:id="Death">Death
+                     <idno type="loc">sh85036085</idno>
+                  </catDesc>
+                  <catDesc xml:id="Education">Education
+                     <idno type="loc">sh85040989</idno>
+                  </catDesc>
+                  <catDesc xml:id="Imperialism">Imperialism
+                     <idno type="loc">sh85064628</idno>
+                  </catDesc>
+                  <catDesc xml:id="FictitiousCharacters">Fictitious characters
+                     <idno type="loc">sh99004183</idno>
+                  </catDesc>
+                  <catDesc xml:id="Marriage">Marriage
+                     <idno type="loc">sh85081416</idno>
+                  </catDesc>
+                  <catDesc xml:id="Nationalism">Nationalism
+                     <idno type="loc">sh85090150</idno>
+                  </catDesc>
+                  <catDesc xml:id="PoliticsAndCulture">Politics and culture
+                     <idno type="loc">sh85104468</idno>
+                  </catDesc>
+                  <catDesc xml:id="Race">Race  
+                     <idno type="loc">sh85110232</idno>
+                  </catDesc>
+                  <catDesc xml:id="Religion">Religion
+                     <idno type="loc">sh85112549</idno>
+                  </catDesc>
+                  <catDesc xml:id="Science">Science
+                     <idno type="loc">sh85118553</idno>
+                  </catDesc>
+                  <catDesc xml:id="Technology">Technology
+                     <idno type="loc">sh85133147</idno>
+                  </catDesc>
+                  <catDesc xml:id="Slavery">Slavery
+                     <idno type="loc">sh85123314</idno>
+                  </catDesc>
+                  <catDesc xml:id="Travel">Travel
+                     <idno type="loc">sh85137149</idno>
+                  </catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="works">
+               <bibl>Works</bibl>
+               <category>
+                  <catDesc xml:id="w1">Belinda</catDesc>
+                  <catDesc xml:id="w2">Castle Rackrent</catDesc>
+                  <catDesc xml:id="w3">Comic Dramas, in Three Acts</catDesc>
+                  <catDesc xml:id="w4">Early Lessons</catDesc>
+                  <catDesc xml:id="w5">Essay on Irish Bulls</catDesc>
+                  <catDesc xml:id="w6">Frank: a Sequel to Frank in Early Lessons</catDesc>
+                  <catDesc xml:id="w7">Harrington, a Tale; and Ormond, a Tale</catDesc>
+                  <catDesc xml:id="w8">Harry and Lucy Concluded</catDesc>
+                  <catDesc xml:id="w9">Leonora</catDesc>
+                  <catDesc xml:id="w10">Letters for Literary Ladies</catDesc>
+                  <catDesc xml:id="w11">Moral Tales for Young People</catDesc>
+                  <catDesc xml:id="w12">Moral Tales</catDesc>
+                  <catDesc xml:id="w13">Patronage</catDesc>
+                  <catDesc xml:id="w14">Popular Tales</catDesc>
+                  <catDesc xml:id="w15">Practical Education</catDesc>
+                  <catDesc xml:id="w16">Readings on Poetry</catDesc>
+                  <catDesc xml:id="w17">Ormond</catDesc>
+                  <catDesc xml:id="w18">The Absentee</catDesc>
+                  <catDesc xml:id="w19">Tales of Fashionable Life</catDesc>
+                  <catDesc xml:id="w20">The Contrast</catDesc>
+                  <catDesc xml:id="w21">The Modern Griselda; a Tale</catDesc>
+                  <catDesc xml:id="w22">The Parent's Assistant</catDesc>
+                  <catDesc xml:id="w23">Tomorrow; or the Dangers of Delay</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="./Personography.xml#EdgeM1">Mariah Edgeworth</persName>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="./Personography.xml#HallA1">Anna Maria Fielding Hall</persName>
+            </correspAction>
+         </correspDesc>
+         <textClass>
+            <keywords scheme="">
+               <list type="simple">
+                  <item>English literature</item>
+                  <item>History</item>
+               </list>
+            </keywords>
+            <catRef target="#f7" scheme="#f"/>
+            <catRef target="#hist #el" scheme="locSUB"/>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-01-01" who="Id_who">
+            <!--Brief description of what you did here.-->
+         </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <pb n="1" facs="Edgeworth_Harvard_604742_1845-11_page01.jpg"/>
+            <opener>
+               <dateline>
+                  <placeName ref="./Placeography.xml#Edgeworthstown_IE">Edgeworths Town</placeName>
+                  <lb/>
+                  <date when="1845-11-14">
+                     <choice><abbr>Nov<hi rend= "superscript">r.</hi></abbr><reg>November</reg></choice> 14<hi rend= "superscript">h</hi>. 1845</date>
+               </dateline>
+               <lb/>
+               <salute>
+                  My dear <persName ref="./Personography.xml#HallA1">M<hi rend= "superscript">rs</hi>. Hall</persName>,<lb/>
+               </salute>
+            </opener>
+            <p>- I am glad that <persName ref="./Personography.xml#HallS1">M<hi rend= "superscript">r</hi>. Hall</persName>'s <choice><orig>commis<lb/>
+               sion</orig><reg>commission</reg></choice> gave me the pleasure of<lb/>
+               hearing from you and of your<lb/>
+               welfare and kind remembrance<lb/>
+               of all this family.<lb/></p>
+            <p><persName ref="./Personography.xml#PetrF1">Petrarch</persName>'s original inkstand<lb/>
+               is not at <placeName ref="./Placeography.xml#Edgeworthstown_IE">Edgeworths town</placeName> -- But<lb/>
+               we have a copy of it, made from<lb/>
+               a <hi rend= "underline">cast</hi>, made from a <del>sketch or</del><lb/>
+               drawing of the original inkstand<lb/>
+               of <persName ref="./Personography.xml#PetrF1">Petrarch</persName>s which <persName ref="./Personography.xml#JersS1">Lady Jersey</persName> saw<lb/>
+               at <placeName ref="./Placeography.xml#Vaucluse_FR">Vaucluse</placeName> when she was there<lb/>
+               in what year of our Lady I know not<lb/>
+               - <persName ref="./Personography.xml#JersS1">Lady Jersey</persName> gave a sketch of her<lb/>
+               drawing to <persName ref="./Personography.xml#LansL1">Lady Lansdowne</persName>; and<lb/>
+               when I was at <placeName ref="./Placeography.xml#Bowood-House_ENK">Bowood</placeName> in 1818<lb/>
+               I saw that sketch in <persName ref="./Personography.xml#LansL1">Lady L</persName>'s <choice><orig>portfo<lb/>
+                  lio</orig><reg>portfolio</reg></choice> &amp; asked permission to take a<lb/>
+               tracing of it. From my tracing<lb/>
+               I had a model made at <placeName ref="./Placeography.xml#Birmingham_ENK"><choice><orig>Birming<lb/>
+                  ham</orig><reg>Birmingham</reg></choice></placeName> - And from the cast had<lb/>
+               5 or 6 Inkstands made in bronze<lb/>
+               -- (very pretty they were -- only that the<lb/>
+               stupid workman did not comprehend<lb/>
+               
+               <pb n="2" facs="Edgeworth_Harvard_604742_1845-11_page02.jpg"/>
+               
+               that Cupids hands were joined in <choice><orig>suppli<lb/>
+                  cation</orig><reg>supplication</reg></choice> &amp; pointing to Heaven in attitude<lb/>
+               of prayer and he made the bronze<lb/>
+               hands closed and separated as if Cupid<lb/>
+               was going to box -- I think <persName ref="./Personography.xml#LamarA1">La Martine</persName><lb/>
+               says that <persName ref="./Personography.xml#ByroG1">Lord Byron</persName> "fait <hi rend= "underline">boxer</hi><lb/>
+               les Manes" -- but Cupid never was<lb/>
+               before represented as condescending<lb/>
+               to such vulgar warfare --<lb/>
+               I gave one of the inkstands I had<lb/>
+               made in bronze, to each of my sisters<lb/>
+               and one to <persName ref="./Personography.xml#LansL1">Lady Lansdowne</persName> if I<lb/>
+               rightly recollect and one I am sure<lb/>
+               to <persName ref="./Personography.xml#ScotW1">Sir Walter Scott</persName>, who with his wonted<lb/>
+               kind politeness had that inkstand<lb/>
+               represented in one of his pictures on<lb/>
+               the writing table before him -- I<lb/>
+               cannot find the engraving tho I<lb/>
+               know I have it somewhere -- I think<lb/>
+               it is in some annual -- representing<lb/>
+               the interior of <persName ref="./Personography.xml#ScotW1">Sir Walter Scott</persName>s study<lb/>
+               - on second thoughts I am not<lb/>
+               sure that in this Interior <persName ref="./Personography.xml#ScotW1">Sir Walter<lb/>
+               Scott</persName> himself is - But probably you<lb/>
+               &amp; <persName ref="./Personography.xml#HallS1">M<hi rend= "superscript">r.</hi> Hall</persName> know the engraving<lb/>
+               You comprehend I trust from<lb/>
+               the tracing enclosed that Cupid<lb/>
+               <unclear>lurches</unclear> upon the cover of the inkstand<lb/>
+               which fits over the <hi rend= "underline">hands</hi> which ought to be<lb/>
+               
+               <pb n="3" facs="Edgeworth_Harvard_604742_1845-11_page03.jpg"/>
+               
+               <hi rend= "underline">pretty</hi> nondescripts - but unluckily<lb/>
+               turned out ugly vulgar heads in this<lb/>
+               tracing - The tracing was made for<lb/>
+               you from my old sketch, this morning<lb/>
+               by <persName ref="./Personography.xml#EdgeF1">Francis</persName> (my brother) oldest boy<lb/>
+               commonly called <persName ref="./Personography.xml#EdgeA3">my nephew Todd<lb/>
+               E</persName> who hopes you will accept of<lb/>
+               it with his best wishes that you<lb/>
+               may like it as the best he can do<lb/>
+               at present - He will draw well<lb/>
+               enough by &amp; by as he is persevering<lb/>
+               But he has so many other things to<lb/>
+               learn before and after he goes to<lb/>
+               school being no 10 years old that<lb/>
+               his parents cannot allow him much<lb/>
+               time for drawing of wh<hi rend= "superscript">h</hi> he is very fond<lb/>
+               I wish you had mentioned <persName ref="./Personography.xml#RochF1">your<lb/>
+               little girl</persName> who interested me both<lb/>
+               by what I saw and what I heard<lb/>
+               from you of her - <unclear>Mess<hi rend= "superscript">rs</hi></unclear>. Marshal
+               &amp;, <hi rend= "underline">I forget who</hi> the gent<hi rend= "superscript">n</hi>. who possess
+               the copyright of my books inform
+               me that in consequence of numerous
+               requests to have my stories for
+               children &amp; popular tales published
+               cheaply &amp; in separate vol<hi rend= "superscript">s</hi>. or parts
+               they are about to do so at last
+               Better late than never - Having
+               parted with the copyright I have no
+               private or pecuniary interest whatever
+               
+               <pb n="4" facs="Edgeworth_Harvard_604742_1845-11_page04.jpg"/>
+               
+               in these books and the publishers
+               only consult me out of civility <del>and</del>
+               to know in what manner &amp; size I
+               should approve -- I have said
+               Print all Early Lessons in one &amp; the
+               same size And Parents Assistant
+               in another larger size -- And Moral
+               Tales and Popular may go in the
+               same size with all the other later or
+               <hi rend= "underline">Novels</hi> whichever they sh<hi rend= "superscript">d</hi> be called
+               Belinda Patronage Vivian Ennui <unclear>or</unclear>
+               I do not know why I bore you with
+               this - But I mean at the end of your
+               being bored to tell you that if <persName ref="./Personography.xml#RochF1">your
+               little girl</persName> would like to have
+               Early Lessons in this new but I fear
+               it will not be elegant form, I will
+               send them to you for her -- How
+               very poor and shabby an offering
+               in return for the beautiful &amp;
+               valuable books you &amp; <persName ref="./Personography.xml#HallS1">M<hi rend= "superscript">r</hi>. Hall</persName><lb/>
+               have given me - But it is no attempt<lb/>
+               at return, simply intended as<lb/>
+               a proof of kind remembrance to <persName ref="./Personography.xml#RochF1">your<lb/>
+               interesting little girl</persName> --<lb/>
+               If I have time before the Post goes<lb/>
+               out I will copy on the sketch of<lb/>
+                  <persName ref="./Personography.xml#PetrF1">Petrarch</persName>s Inkstand all that I have<lb/>
+               here told you that <persName ref="./Personography.xml#HallS1">M<hi rend= "superscript">r</hi>. Hall</persName> may have<lb/>
+               it for himself with my assurances of<lb/>
+               
+               <pb n="5" facs="Edgeworth_Harvard_604742_1845-11_page05.jpg"/>
+               
+               of being glad to do any thing to<lb/>
+               oblige him even in such a<lb/>
+               <unclear>tr</unclear>
+               I am very sorry to tell you that I
+               have lost (I believe by lending it)
+               the number of your work on Ireland
+               in which was your most kind and
+               gratifying account of Edgeworths Town
+               I have looked over the <add>bound</add> 1<hi rend= "superscript">t</hi> &amp; 2<hi rend= "superscript">d</hi> vol<hi rend= "superscript">s</hi>
+               again &amp; again &amp; again &amp; cannot
+               find it - I had a few unbound
+               numbers and concieving that there
+               were duplicates of the bound Vol<hi rend= "superscript">s</hi>. I
+               gave these generously to my sister -
+               Harriet Butler - It is possible this num-
+               ber might be amongst those - But in short
+               if you can send me that number wh<hi rend= "superscript">h</hi>
+               has so much of your kindness to us
+               in it I shall be particularly obliged
+               The little Mary for whom you are
+               so good to inquire is now quite well
+               and really a very good nice little
+               girl and for her age a wonderful
+               worker in worsted - There are now 6
+               of these Spanish eyed children - all
+               with warm affections and quick
+               but we trust not precocious intellects
+               Their father &amp; mother most judicious
+               ly &amp; unfashionably take care neither
+               
+               <pb n="6" facs="Edgeworth_Harvard_604742_1845-11_page06.jpg"/>
+               
+               to overwork their young brains <add>they do</add> not
+               <del>to</del> bring them forward either by
+               emulation or vanity and I am
+               sure that they will be all the better
+               and the happier for this moral
+               education.
+               You say you have much to
+               say to me - I must beg of you to say
+               it by letter then - for I have it not
+               in my power to come to London
+               at present - nor can I tell when
+               I may. Reasons too numerous
+               to mention - But not my own
+               ill health - for I am now really
+               well and as strong as at my age
+               any reasonable body can expect to
+               be - My brother Francis has been
+               afflicted with some disease in
+               one of his eyes - which I know not
+               how to describe - double vision
+               occurs in one eye - and his medical
+               advisors insist upon rest - absolute
+               refraining from reading and writing
+               This is a dreadful privation to him
+               - borne with a degree of fortitude
+               &amp; sweetness of temper which endear
+               him to all of us inexpressibly
+               
+               <pb n="7" facs="Edgeworth_Harvard_604742_1845-11_page07.jpg"/>
+               
+               - We are told that two years or there-
+               abouts must elapse before he can
+               expect restoration of his eyesight
+               - - His having for the sake of
+               his family and tenantry acquired
+               the tastes &amp; occupations out of doors
+               of a country gentleman &amp; the
+               fulfilling the duties of Land<hi rend= "underline">lord agent</hi>
+               and magistrate now are the
+               resources &amp; supports to his body &amp;
+               mind &amp; to <hi rend= "underline">health</hi> &amp; <hi rend= "underline">happiness</hi>
+               so inseparably connected
+               He has been draining land
+               with success - But now we
+               are all intent upon potatoes -
+               and grinding - and drying
+               and turning into starch &amp;
+               laying up stores of oats &amp; corn
+               as the present price to provide
+               against the dearth which is
+               much to be feared next year
+               In the meantime time I hope
+               we shall not be murdered &amp; that
+               the horrible system of assassination
+               which prevails in Tipperary will
+               
+               <pb n="8" facs="Edgeworth_Harvard_604742_1845-11_page08.jpg"/>
+               
+               
+               not spread like the disease in the
+               potatoes
+               It is not Catholic against
+               Protestant - But those who have
+               <hi rend= "underline">nothing</hi> &amp; <hi rend= "underline">who are ill disposed</hi>
+               against <hi rend= "underline">all</hi> who have land -
+               I say those who have nothing
+               <hi rend= "underline">and</hi> who are ill disposed - Because
+               the assassinations &amp; outrages are
+               not the consequence of want
+               or the desperation of distressed
+               tenants - on the contrary -
+               But I must stop for your
+               sake - and my own -<lb/>
+            </p>
+            <closer>
+               I am my dear <persName ref="./Personography.xml#HallA1">Mr<hi rend= "superscript">s</hi>. Hall</persName><lb/>
+               Yours sincerely<lb/>
+               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName> -<lb/>
+            </closer>
+            <postscript>
+               <p>I rejoice to know that your Works<lb/>
+                  succeed in <hi rend= "underline">every way </hi> to your<lb/>
+                  satisfaction - But I wish you<lb/>
+                  would tell me more of this your<lb/>
+                  own self - I have seen Mr W Howds<lb/>
+                  lately who told me interesting particu<lb/>
+                  lars of poor L E L - But confirming I<lb/>
+                  fear beyond doubt the fact that I wished not to believe<lb/>
+               </p>
+
+            </postscript>
+         </div>
+      </body>
+   </text>
+</TEI>
