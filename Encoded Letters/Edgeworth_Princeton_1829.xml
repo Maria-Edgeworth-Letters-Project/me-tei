@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from Maria Edgeworth to J.E. Strickland, 1829</title>
+            <author>Maria Edgeworth</author>
+            <editor ref="Id_who">Alexandra LaGrand</editor>
+            <sponsor>
+               <orgName>Maria Edgeworth Letters Project</orgName>
+            </sponsor>
+            <sponsor>Wake Forest University, University of Tennessee, Xavier University, Texas
+               A&amp;M University</sponsor>
+            <principal>Jessica Richard, Hilary Havens, Robin Runia, Susan Egenolf</principal>
+            <respStmt>
+               <resp>Transcription and coding by</resp>
+               <persName ref="Id_who">Alexandra LaGrand</persName>
+               <!-- If you're the last person interacting with the file, enter your name last on the list -->
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>First digital edition in TEI, date: <date when="2023-11-07">November 7, 2023</date>
+            </edition>
+            <respStmt>
+               <orgName ref="http://id.loc.gov/authorities/names/n82003163">Princeton University Library</orgName>
+               <resp> photos include: Edgeworth_Princeton_1829_page01.jpg, Edgeworth_Princeton_1829_page02.jpg, Edgeworth_Princeton_1829_page03.jpg, Edgeworth_Princeton_1829_page04.jpg</resp>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Maria Edgeworth Letters Project</authority>
+            <date>2022</date>
+            <availability>
+               <p>Reproduced by courtesy of <orgName ref="http://id.loc.gov/authorities/names/n82003163">Princeton University Library</orgName>
+               </p>
+               <licence>Distributed under a Creative Commons Attribution-ShareAlike 3.0 Unported
+                  License</licence>
+            </availability>
+            <idno>Edgeworth_Princeton_1829</idno> 
+         </publicationStmt>
+         <seriesStmt>
+            <title>Maria Edgeworth Letters Project</title>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <repository>Princeton University Library</repository>
+                  <collection><!-- Enter specific archival collection if applicable--></collection>
+                  <idno><!--Consult library or WorldCat for this info--></idno>
+               </msIdentifier>
+               
+               <!-- FROM LAURA: it's here (below) in the head that I added the full information about the author,
+                  and you could add full information about the addressee as well. -->
+               <head>Letter from 
+                  <persName ref="./Personography.xml#EdgeM1">
+                     <forename>Maria</forename>
+                     <surname>Edgeworth</surname>
+                  </persName>
+                  to <persName ref="./Personography.xml#StriJ1">J.E. Strickland</persName>, 
+                  <date when="1829-01-01">1829</date>
+               </head>
+               <physDesc></physDesc>
+            </msDesc>
+            
+            <!-- FROM LAURA: where to put the following information in <bibl> is still a question: 
+               ask TEI List whether it should be in the sourceDesc or elsewhere? -->
+            
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <!--Where Edgeworth uses nonstandard spelling and hyphenation of words, transcriber-coders 
+               should use TEI elements “choice," “sic," and “reg" to encode both Edgeworth’s 
+               spelling and the regular international standard of Oxford English spelling, 
+               following the first listed spelling in the Oxford English Dictionary. -->
+            <p>Edgeworth’s spelling and punctuation are retained in transcription, except where a
+               word is split at the end of a line and the beginning of the next in a manuscript. The
+               long s and ligatured forms are silently emended.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="./Personography.xml#StriJ1">J.E. Strickland</persName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2023-11-07" who="Id_who">Created file for letter, encoded letter</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <pb n="1" facs="Edgeworth_Princeton_1829_page01.jpg"/>
+            <opener>
+               <dateline>
+                  <date when="1829-01-01"/>Wednesday 1829. <choice><orig>Morng</orig><reg>Morning</reg></choice></dateline>
+            </opener>
+            <p>You excellent man of <choice><orig>busi
+               ness</orig><reg>business</reg></choice> as well as good friend
+               in need I have this moment
+               rec<hi rend="superscript">d</hi> your note - My aunt
+               rejoices that you will come
+               to her - I rejoice that the
+               <unclear>teacher</unclear> will come to me
+               I have more trouble for
+               you - I have a job to do
+               for my brother which I
+               cannot well do myself
+               - will you call at <persName ref="./Personography.xml#MallX1">Mallets</persName>
+               <placeName ref="./Placeography.xml#Biden-Row_IE">Biden <hi rend="underline">row</hi></placeName> or <hi rend="underline">yard</hi> and
+               he will explain &amp; <choice><orig>shew</orig><reg>show</reg></choice>
+               to you when you say that
+               you call to settle with him
+               about <persName ref="./Personography.xml#EdgeC1">M<hi rend="superscript">r</hi> Sneyd Edgeworths</persName>
+               concerns <placeName ref="./Placeography.xml#15-Baggot-Street_IE">15 Baggot <unclear>Street</unclear></placeName>
+               <persName ref="./Personography.xml#EdgeC1">Sneyd</persName> writes me word
+            </p>
+            <p>
+               <pb n="2" facs="Edgeworth_Princeton_1829_page02.jpg"/>
+               that he "can only say he
+               "must throw himself upon
+               "<persName ref="./Personography.xml#MallX1">M<hi rend="superscript">r</hi> Mallets</persName> sense of justice
+               "&amp; accept from him what
+               "he will give for old materials"
+               <persName ref="./Personography.xml#MallX1">Mallet</persName> <hi rend="underline">writes me</hi>
+               that the wood work is worth
+               nothing - that lead never
+               was so cheap these 40 years
+               &amp;c - and that it was a
+               special favor to us to let these
+               old materials cumber his
+               yard so long as they have
+               done &amp; threatened to turn them out
+               <hi rend="underline">So</hi> we must close with
+               him - and sum total is
+               that whatever you settle I
+               shall be thankful for as <persName ref="./Personography.xml#EdgeC1">Sneyds</persName>
+               friend -              
+            </p>
+            <p>
+               <pb n="3" facs="Edgeworth_Princeton_1829_page03.jpg"/>
+               I sh<hi rend="superscript">d</hi> tell you that in
+               the year 1826. when
+               <persName ref="./Personography.xml#MallX1">Mallet</persName> sold the <unclear>whole</unclear>
+               concern to <persName ref="./Personography.xml#EdgeC1">Sneyd</persName> it
+               cost about 100 <add>£</add> -
+               This I know full well
+               <del>having</del> your time is too
+               precious for me to delay
+               more -
+               I am going on to Baggot 
+               &amp; Merrion St<hi rend="superscript">t</hi> <unclear>&amp;</unclear> as soon
+               as I am <hi rend="underline">lodged</hi> at <placeName ref="./Placeography.xml#15-Baggot-Street_IE">15
+               Baggot Street</placeName> &amp; that the
+               <unclear>creatures</unclear> at her <unclear>dirty</unclear> work
+               of packing - I will send
+               back the carriage to you
+               for I shall not want it
+               till 2 o clock when it
+               must return for <persName ref="./Personography.xml#BartX1">Miss
+               Barton</persName> &amp; me to carry <unclear>us</unclear>
+            </p>
+            <p>
+               <pb n="4" facs="Edgeworth_Princeton_1829_page04.jpg"/>
+               to <placeName ref="./Placeography.xml#Merrion-Square_IE">Merrion Square</placeName> to <choice><orig>lun
+               cheon</orig><reg>luncheon</reg></choice> - then I shall <choice><orig>re
+               turn</orig><reg>return</reg></choice>(after winding up) body)
+               to <placeName ref="./Placeography.xml#15-Baggot-Street_IE">15 Baggot St</placeName> to wind up
+               packing affairs &amp; call for
+               you at <add>half past</add> 4 - Be the same
+               sooner or later - more likely
+               <unclear></unclear> than sooner - <choice><orig>Yr</orig><reg>Your</reg></choice> obliged
+            </p>
+            <closer>
+               "<choice><orig>Yr</orig><reg>Your</reg></choice>
+               <persName ref="./Personography.xml#EdgeM1">Maria E</persName>
+            </closer>
+            <closer>
+               <address>
+                  <addrLine><persName ref="./Personography.xml#StriJ1"></persName>J.E. Strickland <choice><orig>Esq<hi rend="superscript">re</hi></orig><reg>Esquire</reg></choice></addrLine>
+                  <addrLine><placeName ref="./Placeography.xml#Beltons-Hotel_IE">Belton's Hotel</placeName></addrLine>
+               </address>
+            </closer>
+         </div>
+      </body>
+      <back> </back>
+   </text>
+</TEI>
