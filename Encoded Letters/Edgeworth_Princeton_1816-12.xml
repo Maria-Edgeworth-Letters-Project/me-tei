@@ -50,9 +50,6 @@
                   <collection><!-- Enter specific archival collection if applicable--></collection>
                   <idno><!--Consult library or WorldCat for this info--></idno>
                </msIdentifier>
-               
-               <!-- FROM LAURA: it's here (below) in the head that I added the full information about the author,
-                  and you could add full information about the addressee as well. -->
                <head>Letter from 
                   <persName ref="./Personography.xml#EdgeM1">
                      <forename>Maria</forename>
@@ -62,9 +59,6 @@
                   <date when="1816-12-28">December 28, 1816</date>
                </head>
             </msDesc>
-            
-            <!-- FROM LAURA: where to put the following information in <bibl> is still a question: 
-               ask TEI List whether it should be in the sourceDesc or elsewhere? -->
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
@@ -90,6 +84,7 @@
       </profileDesc>
       <revisionDesc>
          <change when="2023-11-03" who="Id_who">Created file for letter, encoded letter</change>
+         <change when="2023-11-10" who="Id_who">Removed extra comments</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -169,7 +164,7 @@
                yours very sincerely<lb/>
                Maria Edgeworth<lb/>
             </closer>
-            <closer><!--Use the <closer> element again to hold Address Leaf information.-->
+            <closer>
                <address>
                   <addrLine><persName ref="./Personography.xml#MileX1">M<hi rend="superscript">rs</hi>. Miles</persName></addrLine><lb/>
                   <addrLine><placeName ref="./Placeography.xml#West-End-Hampstead_ENK">West End</placeName></addrLine><lb/>
