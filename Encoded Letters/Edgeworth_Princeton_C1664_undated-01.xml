@@ -45,17 +45,14 @@
          </seriesStmt>
          <sourceDesc>
             <msDesc xml:lang="en">
-               <!-- This section of the header identifies the original manuscript source. -->
                <msIdentifier>
                   <repository>Princeton University Library</repository>
                   <collection><!-- Enter specific archival collection if applicable--></collection>
                   <idno><!--Consult library or WorldCat for this info--></idno>
                </msIdentifier>
                
-               <!-- FROM LAURA: it's here (below) in the head that I added the full information about the author,
-                  and you could add full information about the addressee as well. -->
                <head>Letter from 
-                  <persName ref="./Personography.xml#MurrJ1"><!--Which John Murray should this be?-->
+                  <persName ref="./Personography.xml#MurrJ1">
                      <forename>John</forename>
                      <surname>Murray</surname>
                   </persName>
@@ -65,9 +62,6 @@
                   <!-- optional physical description of the letter goes here: paper size and condition, seal, postmarks, etc.-->
                </physDesc>
             </msDesc>
-            
-            <!-- FROM LAURA: where to put the following information in <bibl> is still a question: 
-               ask TEI List whether it should be in the sourceDesc or elsewhere? -->
           </sourceDesc>
       </fileDesc>
       <encodingDesc>
@@ -93,6 +87,7 @@
       </profileDesc>
       <revisionDesc>
          <change when="2023-11-01" who="Id_who">Created file for letter; encoded letter</change>
+         <change when="2023-11-10" who="Id_who">Removed extra comments</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -139,13 +134,13 @@
                and faithful Servant<lb/>
                <persName ref="./Personography.xml#MurrJ1">John Murray</persName><lb/>
             </closer>
-            <closer><!--Use the <closer> element again to hold Address Leaf information.-->
+            <closer>
                <address>
                   <addrLine><persName ref="./Personography.xml#MurrJ1">Murray</persName></addrLine><lb/>
                   <addrLine>&amp;</addrLine><lb/>
                   <addrLine><persName ref="./Personography.xml#CadeT1">Cadell</persName></addrLine><lb/>
                   <addrLine>&amp;</addrLine><lb/>
-                  <addrLine><persName ref="./Personography.xml#ChamR1">Chambers</persName></addrLine><lb/><!--Not entirely sure which Chambers to which this refers-->
+                  <addrLine><persName ref="./Personography.xml#ChamR1">Chambers</persName></addrLine><lb/>
                   <addrLine>&amp;</addrLine><lb/>
                   <addrLine><persName ref="./Personography.xml#CradX1">Cradock</persName></addrLine><lb/>
                   <addrLine><persName ref="./Personography.xml#SimpW1">Simpkin</persName></addrLine><lb/>
