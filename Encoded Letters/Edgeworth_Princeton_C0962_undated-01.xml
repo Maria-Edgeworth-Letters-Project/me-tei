@@ -45,15 +45,11 @@
          </seriesStmt>
          <sourceDesc>
             <msDesc xml:lang="en">
-               <!-- This section of the header identifies the original manuscript source. -->
                <msIdentifier>
                   <repository>Princeton University Library</repository>
                   <collection><!-- Enter specific archival collection if applicable--></collection>
                   <idno><!--Consult library or WorldCat for this info--></idno>
                </msIdentifier>
-               
-               <!-- FROM LAURA: it's here (below) in the head that I added the full information about the author,
-                  and you could add full information about the addressee as well. -->
                <head>Letter from 
                   <persName ref="./Personography.xml#EdgeM1">
                      <forename>Maria</forename>
@@ -65,10 +61,6 @@
                   <!-- optional physical description of the letter goes here: paper size and condition, seal, postmarks, etc.-->
                </physDesc>
             </msDesc>
-            
-            <!-- FROM LAURA: where to put the following information in <bibl> is still a question: 
-               ask TEI List whether it should be in the sourceDesc or elsewhere? -->
-            
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
@@ -93,7 +85,8 @@
          </correspDesc>
       </profileDesc>
       <revisionDesc>
-         <change when="2021-01-01" who="Id_who">Created file for letter, encoded letter</change>
+         <change when="2023-11-02" who="Id_who">Created file for letter, encoded letter</change>
+         <change when="2023-11-10" who="Id_who">Removed extra comments</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -138,7 +131,7 @@
                suddenly called to London on some business<lb/>
                relative to his <persName ref="./Personography.xml#EdgeH3">wife's</persName> affairs.<lb/></p>
             <p>
-               I am delighted to hear that M<hi rend="superscript">rs</hi>. E's lace sleeves<lb/><!--Who is this Miss E referring to?-->
+               I am delighted to hear that M<hi rend="superscript">rs</hi>. E's lace sleeves<lb/>
                will not be dear as I tempted &amp; indeed<lb/>
                forced her to get them --.<lb/>
                With respect for the Mechlin lace for <persName ref="./Personography.xml#EdgeH4">Honora's</persName><lb/>
