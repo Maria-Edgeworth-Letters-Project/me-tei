@@ -6,7 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Letter from Maria Edgeworth to Unknown, April 15, 1841<!--Recipient Name, Month Day, YYYY--></title>
+            <title>Letter from Maria Edgeworth to Unknown, April 15, 1841</title>
             <author>Maria Edgeworth</author>
             <editor ref="Id_who">Alexandra LaGrand</editor>
             <sponsor>
@@ -45,14 +45,11 @@
          </seriesStmt>
          <sourceDesc>
             <msDesc xml:lang="en">
-               <!-- This section of the header identifies the original manuscript source. -->
                <msIdentifier>
                   <repository>Princeton University Library</repository>
                   <collection><!-- Enter specific archival collection if applicable--></collection>
                   <idno><!--Consult library or WorldCat for this info--></idno>
                </msIdentifier>
-               <!-- FROM LAURA: it's here (below) in the head that I added the full information about the author,
-                  and you could add full information about the addressee as well. -->
                <head>Letter from 
                   <persName ref="./Personography.xml#EdgeM1">
                      <forename>Maria</forename>
@@ -92,6 +89,7 @@
       </profileDesc>
       <revisionDesc>
          <change when="2023-10-23" who="Id_who">Created file for letter; encoded letter</change>
+         <change when="2023-11-10" who="Id_who">Removed extra comments</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -133,16 +131,8 @@
                April <unclear>10</unclear>
                <hi rend="superscript">th</hi> 1841<lb/>
             </closer>
-            <postscript>
-               <p><!--A postscript goes here, outside the <closer>. --></p>
-            </postscript>
-            <!--You can include a <pb/> here, or inside the postScript.-->
-            <!-- Format for postscripts. 
-               Postscripts do NOT go inside closer tags. Adjust to take into account the order in your letter. 
-               Sometimes the signature is on page three, the address on page four, then the postscript follows back on the top of page one, for example.-->
-            <closer><!--Use the <closer> element again to hold Address Leaf information.-->
+            <closer>
                <address>
-                  <!--Include any text written on the address leaf; use a separate "addrLine" for each line and indicate line breaks. -->
                   <addrLine>375 -</addrLine>
                   <lb/>
                   <addrLine>GAWA 05 <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
