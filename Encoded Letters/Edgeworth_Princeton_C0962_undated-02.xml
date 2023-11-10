@@ -45,14 +45,11 @@
          </seriesStmt>
          <sourceDesc>
             <msDesc xml:lang="en">
-               <!-- This section of the header identifies the original manuscript source. -->
                <msIdentifier>
                   <repository>Princeton University Library</repository>
                   <collection><!-- Enter specific archival collection if applicable--></collection>
                   <idno><!--Consult library or WorldCat for this info--></idno>
                </msIdentifier>
-               <!-- FROM LAURA: it's here (below) in the head that I added the full information about the author,
-                  and you could add full information about the addressee as well. -->
                <head>Letter from 
                   <persName ref="./Personography.xml#EdgeM1">
                      <forename>Maria</forename>
@@ -64,8 +61,6 @@
                   <p>Page features watermarks that read "CWH 13"</p>
                </physDesc>
             </msDesc>
-            <!-- FROM LAURA: where to put the following information in <bibl> is still a question: 
-               ask TEI List whether it should be in the sourceDesc or elsewhere? -->
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
@@ -92,6 +87,7 @@
       <revisionDesc>
          <change when="2023-10-24" who="Id_who">Created file for letter; encoded letter</change>
          <change when="2023-10-27" who="Id_who">Updated choice tags</change>
+         <change when="2023-11-10" who="Id_who">Removed extra comments</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -151,11 +147,7 @@
                   Monday<lb/>
                </p>
             </postscript>
-            <!--You can include a <pb/> here, or inside the postScript.-->
-            <!-- Format for postscripts. 
-               Postscripts do NOT go inside closer tags. Adjust to take into account the order in your letter. 
-               Sometimes the signature is on page three, the address on page four, then the postscript follows back on the top of page one, for example.-->
-            <closer><!--Use the <closer> element again to hold Address Leaf information.-->
+            <closer>
                <address>
                   <addrLine>4 May</addrLine>
                   <addrLine>From R. Atkinson, London.</addrLine>
@@ -165,7 +157,6 @@
                   <addrLine>J. Bowring Esq<hi rend="superscript">u</hi>
                   </addrLine>
                   <addrLine>Maria Edgeworth</addrLine>
-                  <!--This line and the following line are on the reverse of the page with the above lines. Do these lines go here?-->
                   <addrLine>4 May 1822</addrLine>
                </address>
             </closer>
