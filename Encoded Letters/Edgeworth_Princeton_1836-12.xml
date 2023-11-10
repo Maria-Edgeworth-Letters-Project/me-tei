@@ -50,9 +50,6 @@
                   <collection><!-- Enter specific archival collection if applicable--></collection>
                   <idno><!--Consult library or WorldCat for this info--></idno>
                </msIdentifier>
-               
-               <!-- FROM LAURA: it's here (below) in the head that I added the full information about the author,
-                  and you could add full information about the addressee as well. -->
                <head>Letter from 
                   <persName ref="./Personography.xml#EdgeM1">
                      <forename>Maria</forename>
@@ -65,10 +62,6 @@
                   <!-- optional physical description of the letter goes here: paper size and condition, seal, postmarks, etc.-->
                </physDesc>
             </msDesc>
-            
-            <!-- FROM LAURA: where to put the following information in <bibl> is still a question: 
-               ask TEI List whether it should be in the sourceDesc or elsewhere? -->
-            
           </sourceDesc>
       </fileDesc>
       <encodingDesc>
@@ -105,7 +98,7 @@
                   <name type="place" ref="Id_where"/>Black Castle
                   <date when="1836-12-03"/>Dec 3<hi rend="superscript">d</hi>. 1836</dateline>
                <salute>
-                  <persName>My Dear Lestock</persName><!--Not sure which Lestock this letter is to-->
+                  <persName>My Dear Lestock</persName>
                </salute>
             </opener>
             <p>I must trouble you again - Read the enclosed letters<lb/>
@@ -136,7 +129,7 @@
                valueless to me or to any other publisher - this wd be in<lb/>
                fact <hi rend="underline">selling <del>the</del> my Copyright for 100 - </hi> which I will not do -<lb/>
                nor am I will willing to sell the whole copy right on any<lb/>
-               <del>after</del> consideration (unless you my Dr Lestock advise it<!--Not sure which Lestock--><lb/>
+               <del>after</del> consideration (unless you my Dr Lestock advise it<lb/>
                &amp; even this I leave to <choice><orig>yr</orig><reg>your</reg></choice> better judgment - I think that<lb/>
                whatever agreement is made should be in writing<lb/>
                &amp; begging you to settle with these Gentlemen publishers<lb/>
