@@ -131,11 +131,11 @@ s                        <idno type="SNAC">62567029</idno>
             </opener>
             <p> 
                You have made an impression upon<lb/>
-               me - You have shaken me and the Kildare<lb/>    [NOTE FROM LJ: Is this the same as Kildare Place?]
+               me - You have shaken me and the Kildare<lb/>    <!--[NOTE FROM LJ: Is this the same as Kildare Place?]-->
                Street - The facts you state are certainly<lb/>
                very strong - But hear the other side -<lb/>
                - I read some of the statements in<lb/>
-               your letter to M<hi rend="superscript">r</hi>. Butler, who is no<lb/>
+               your letter to <persName ref="./Personography.xml#ButlR1">M<hi rend="superscript">r</hi>. Butler</persName>, who is no<lb/>
                partisan of the Kildare Street Society<lb/>
                but who warned me that there is<lb/>
                something which perhaps you do not<lb/>
@@ -229,27 +229,29 @@ s                        <idno type="SNAC">62567029</idno>
                <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName><lb/>
             </closer>
             <postscript>
-               <p><!-- [NOTE FROM LJ: Paused here 11/9/23]
-                  Harriet Butler
-                  sends love to you
-                  - She is a happy wife
-                  & M[superscript]r[/superscript]. Butler a most happy
-                  [insertion]husband[/insertion]
-                  Thank you again & again for your most
-                  entertaining account of M[superscript]r[/superscript]. Strickland in
-                  London - more entertaining than Horace in London 
-               --></p>
+               <p>
+                  <persName ref="./Personography.xml#EdgeH1">Harriet Butler</persName><lb/>
+                  sends love to you<lb/>
+                  - She is a happy wife<lb/>
+                  &amp; <persName ref="./Personography.xml#ButlR1">M<hi rend="superscript">r</hi>. Butler</persName> a most happy<lb/>
+                  <add>husband</add><lb/>
+                  Thank you again &amp; again for your most<lb/>
+                  entertaining account of <persName ref="./Personography.xml#StrickX2">M<hi rend="superscript">r</hi>. Strickland</persName> in<lb/>
+                  <placeName ref="./Placeography.xml#London_ENK">London</placeName> - more entertaining than <title ref="./Workography.xml#Horac1">Horace in London</title><lb/>
+               </p>
             </postscript>
-            <!--You can include a <pb/> here, or inside the postScript.-->
-            <!-- Format for postscripts. 
-               Postscripts do NOT go inside closer tags. Adjust to take into account the order in your letter. 
-               Sometimes the signature is on page three, the address on page four, then the postscript follows back on the top of page one, for example.-->
+            <!--<postscript>
+               <p>Newspaper<lb/>
+               is only<lb/>
+               10<hi rend="superscript">sh</hi> <unclear>a</unclear><lb/>
+               <unclear>Rheam</unclear>!<lb/>
+               </p>
+            </postscript>-->
             <closer><!--Use the <closer> element again to hold Address Leaf information.-->
                <address>
-                  <!--Include any text written on the address leaf; use a separate "addrLine" for each line and indicate line breaks. -->
-                  <addrLine/>
-                  <addrLine/>
-                  <addrLine/>
+                  <addrLine><persName ref="./Personography.xml#StrickX1">M<hi rend="superscript">rs</hi>. Strickland</persName></addrLine>
+                  <addrLine><placeName ref="./Placeography.xml#Loughglynn_IE">Lough glynn House</placeName></addrLine>
+                  <addrLine><placeName ref="./Placeography.xml#Castlerea_IE">Castlerea</placeName></addrLine>
                </address>
             </closer>
          </div>
