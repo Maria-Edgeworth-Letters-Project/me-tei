@@ -39,7 +39,7 @@
                   Edgeworth_Princeton_1829-05_page01.jpg,
                   Edgeworth_Princeton_1829-05_page02.jpg,
                   Edgeworth_Princeton_1829-05_page03.jpg,
-                  Edgeworth_Princeton_1829-05_page01.jpg
+                  Edgeworth_Princeton_1829-05_page04.jpg
                   <!-- Make a comma-separated list of each .jpg photo file name associated with your letter. 
                      For example: DSCF9476.jpg, DSCF9477.jpg, DSCF9478.jpg-->
                </resp>
@@ -128,11 +128,11 @@
                   My dear <persName ref="./Personography.xml#FoxC4">Charles</persName>
                </salute>
             </opener>
-            <p><!--     [NOTE TO LJ: Paused here 11/12]
+            <p>
                Unless you are better prepared for the<lb/>
                event than I believe you could be, you will<lb/>
                be very much shocked when I tell you that<lb/>
-               my brother William is no more.<lb/>
+               <persName ref="./Personography.xml#EdgeW1">my brother William</persName> is no more.<lb/>
             </p>
             <p>The physicians had endeavored to<lb/>
                prepare us - but still we hoped and<lb/>
@@ -140,59 +140,75 @@
                apparent amendment. - He suddenly<lb/>
                &amp; rapidly grew worse yesterday - dreadfully<lb/>
                weaker, and weaker - and about 4 o clock<lb/>
-               this morning expired in his mothers arms<lb/>
-               - [underline]his mother[/underline] I may well call her who as<lb/>
+               this morning expired in <persName ref="./Personography.xml#EdgeF2">his mothers</persName> arms<lb/>
+               - <hi rend="underline">his mother</hi> I may well call her who as<lb/>
                he said &amp; felt has been the kindest of mothers<lb/>
                to him - He appeared not to suffer at the<lb/>
                last - It was happy for him that his illness<lb/>
                was so short - his release so tranquil - But for<lb/>
                us it is terrible, - awful to think that but one<lb/>
-               short month since he came home to us ap-<lb/>
-               parently with only a cold - &amp; now is dead<lb/>
-               When "On the 7[superscript]th.[/superscript] of April [insertion]he[/insertion] came home [deletion]&amp; so[/deletion] he said<lb/>
-               "to M[superscript]iss[/superscript] E. on the 7[superscript]th.[/superscript] of April - my sister Charlotte<lb/>
+               short month since he came home to us <choice><orig>ap-<lb/>
+               parently</orig><reg>apparently</reg></choice> with only a cold - &amp; now is dead<lb/>
+               When "On the 7<hi rend="superscript">th.</hi> of April <add>he</add> came home <del>&amp; so</del> he said<lb/>
+               "to M<hi rend="superscript">iss</hi> E. on the 7<hi rend="superscript">th.</hi> of April - <persName ref="./Personography.xml#EdgeF2">my sister Charlotte</persName><lb/>
                "died - do not be surprised if I die on the<lb/>
-               "7[superscript]th.[/superscript] of May" - He died on that day - as he foretold<lb/>
+               "7<hi rend="superscript">th.</hi> of May" - He died on that day - as he foretold<lb/>
                <pb n="3" facs="Edgeworth_Princeton_1829-05_page03.jpg"/>
 
                -Never did a purer or nobler mind live in<lb/>
                this world nor one go out of it more tranquilly<lb/>
                more resigned &amp; better prepared to die -<lb/>
             </p>
-            <p>Honora & M[insertion]rs.[/insertion] Edgeworth are wonderfully<lb/>
-               well - Lucy better - A letter from<lb/>
-               dear Harriet Butler this morning continues<lb/>
-               to give a good account of Sophy [unclear]Rose[/unclear] - [unclear]Barry[/unclear]<lb/>
-               I know has written [insertion]of[/insertion] all at Cloonagh to you<lb/>
+            <p><persName ref="./Personography.xml#BeauH1">Honora</persName> &amp; <persName ref="./Personography.xml#EdgeF2">M<add>rs.</add> Edgeworth</persName> are wonderfully<lb/>
+               well - <persName ref="./Personography.xml#EdgeL1">Lucy</persName> better - A letter from<lb/>
+               dear <persName ref="./Personography.xml#EdgeH1">Harriet Butler</persName> this morning continues<lb/>
+               to give a good account of <persName ref="./Personography.xml#EdgeS1">Sophy Fox</persName> - <persName ref="./Personography.xml#FoxB1"><unclear>Barry</unclear></persName><lb/>
+               I know has written <add>of</add> all at <placeName ref="./Placeography.xml#Cloonagh_IE">Cloonagh</placeName> to you<lb/>
             </p>
             <p>I enclose dear Williams will<lb/>
-            -->
             </p>
-            <p>
-               <!--More body paragraphs as needed.--></p>
-            <p>
-               <!--More body paragraphs as needed.-->
-               <!--Where there's a page break record it inside the relevant body paragraph like this, 
-                  with the self-closing page-break element. n="2" indicates the START of the second page.-->
-               <pb n="2" facs="image2.jpg"/>
-            </p>
-            <p><!--More body paragraphs as needed.--></p>
             <closer>
-               <!--include linebreaks, if used. example: <closer> Yours<lb/> Very sincerely<lb/> -->
+               Ever my dear Charles<lb/>
+               Your affectionate cousin<lb/>
+               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName><lb/>
             </closer>
             <postscript>
-               <p><!--A postscript goes here, outside the <closer>. --></p>
+            <p>Will you have the goodness to order your<lb/>
+               clerk to send a copy of this will to <del>Mr <unclear>Executor</unclear></del><lb/>
+               <persName ref="./Personography.xml#BeauF1">Capt<hi rend="superscript">n.</hi> Beaufort</persName> <placeName ref="./Placeography.xml#51-Manchester-Street_ENK">51 Manchester Street<lb/>
+               London</placeName> And will you write a line to<lb/>
+               him who is I see Executor along with<lb/>
+               you - <persName ref="./Personography.xml#EdgeL2">Lovell</persName> opened &amp; read the will<lb/>
+               to this family<lb/>
+            </p>
+            <p>I write to <persName ref="./Personography.xml#EdgeC1">Sneyd</persName> today - But you or <persName ref="./Personography.xml#BeauF1">Capt<hi rend="superscript">n.</hi><lb/>
+               B</persName> - will communicate to him the<lb/>
+               contents of the will as I do not say a<lb/>
+               word about it<lb/>
+            </p>
+               <pb n="4" facs="Edgeworth_Princeton_1829-05_page04.jpg"/>
+
+            <p><persName ref="./Personography.xml#EdgeF2">M<hi rend="superscript">rs</hi> E.</persName> sends with William's will a <choice><orig>memo-<lb/>
+               randum</orig><reg>memorandum</reg></choice> about a thousand pounds which<lb/>
+               he desired to leave to <persName ref="./Personography.xml#JephJ1">Johnny Jephson</persName><lb/>
+               - He did not say when the principal<lb/>
+               should be his therefore <persName ref="./Personography.xml#EdgeF2">M<hi rend="superscript">rs</hi> E.</persName> could<lb/>
+               not mention that in her memorandum<lb/>
+               <add>but she presumes when he comes of age</add><lb/>
+               Perhaps you had better in what ever<lb/>
+               may be necessary to make this <choice><orig>memo-<lb/>
+               randum</orig><reg>memorandum</reg></choice> exact in that particular<lb/>
+               and legal &amp; returned to <persName ref="./Personography.xml#EdgeF2">M<hi rend="superscript">rs</hi>. E</persName> <add><persName ref="./Personography.xml#BeauH1">Honora</persName></add> to sign<lb/>
+               - you see what the intentions are<lb/>
+            </p>
             </postscript>
-            <!--You can include a <pb/> here, or inside the postScript.-->
-            <!-- Format for postscripts. 
-               Postscripts do NOT go inside closer tags. Adjust to take into account the order in your letter. 
-               Sometimes the signature is on page three, the address on page four, then the postscript follows back on the top of page one, for example.-->
             <closer><!--Use the <closer> element again to hold Address Leaf information.-->
+               <pb n="1" facs="Edgeworth_Princeton_1829-05_page0.jpg"/>
                <address>
-                  <!--Include any text written on the address leaf; use a separate "addrLine" for each line and indicate line breaks. -->
-                  <addrLine/>
-                  <addrLine/>
-                  <addrLine/>
+                  <addrLine>Miss E -</addrLine>
+                  <addrLine>8 May 1829</addrLine>
+                  <addrLine><persName ref="./Personography.xml#FoxC4">Charles Fox Esq<hi rend="superscript">re</hi></persName></addrLine>
+                  <addrLine>Rutland Square</addrLine>
                </address>
             </closer>
          </div>
