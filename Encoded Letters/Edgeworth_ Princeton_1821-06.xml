@@ -53,10 +53,10 @@
                <p>
                   Courtesy of <orgName ref="#http://id.loc.gov/authorities/names/n82003163">Princeton University Library</orgName>.
                </p>
-               <licence>Distributed under a Creative Commons Attribution-ShareAlike 3.0 Unported
-                  License</licence>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons Attribution 4.0 (CC BY 4.0) Unported
+            License</licence>
             </availability>
-            <idno>Edgeworth_ Princeton_1821-06</idno> 
+            <idno>Edgeworth_ Princeton_1821-06</idno>
          </publicationStmt>
          <seriesStmt>
             <title>Maria Edgeworth Letters Project</title>
@@ -73,14 +73,16 @@
                   and you could add full information about the addressee as well. -->
                <head>Letter from 
                      <persName xml:id="EdgeM1" from="1768" to="1849">
-                        <forename>Maria</forename>
-                        <surname>Edgeworth</surname>
-                        <date>1768-1849</date>
-                        <idno type="VIAF">71477273</idno>
-                        <idno type="SNAC">62567029</idno>
-                     </persName>
+                     <forename>Maria</forename>
+                     <surname>Edgeworth</surname>
+                     <date>1768-1849</date>
+                     <idno type="VIAF">71477273</idno>
+                     <idno type="SNAC">62567029</idno>
+                  </persName>
                   to <persName>Unknown</persName>, <placeName ref="./Placeography.xml#Edgeworthstown_IE">Edgeworths Town</placeName>, 
-                  <date when="1821-06-07">June <del>5</del><add>7</add><hi rend="superscript">h.</hi> 1821</date>
+                  <date when="1821-06-07">June <del>5</del>
+                     <add>7</add>
+                     <hi rend="superscript">h.</hi> 1821</date>
                </head>
                <physDesc>
                   <!-- optional physical description of the letter goes here: paper size and condition, seal, postmarks, etc.-->
@@ -123,33 +125,48 @@
             <!--filenames for photos associated with this letter. Example: <pb n="1" facs="image1.jpg image2.jpg image3.jpg"/> -->
             <opener>
                <dateline><!--If there's no date line, omit this element. Record in the order in which it is written on the letter.-->
-                  <name type="place" ref="./Placeography.xml#Edgeworthstown_IE">Edgeworths Town</name><lb/>
+                  <name type="place" ref="./Placeography.xml#Edgeworthstown_IE">Edgeworths Town</name>
+                  <lb/>
                   <date when="1821-06-07"/>June 7, 1821. </dateline>
                <salute>
                   Dear Sir
                </salute>
             </opener>
-            <p>I thank you for writing to me so <choice><orig>punc-<lb/>
-               -tually</orig><reg>punctually</reg></choice> to inform me of your having<lb/>
-               paid my note to <persName ref="./Personography.xml#MoilJ1">M<hi rend="superscript">r.</hi> <unclear>Moilliet</unclear></persName> for<lb/>
-               £525: 12: 6. <del>a week before the time</del><lb/>
+            <p>I thank you for writing to me so <choice>
+                  <orig>punc-<lb/>
+               -tually</orig>
+                  <reg>punctually</reg>
+               </choice> to inform me of your having<lb/>
+               paid my note to <persName ref="./Personography.xml#MoilJ1">M<hi rend="superscript">r.</hi>
+                  <unclear>Moilliet</unclear>
+               </persName> for<lb/>
+               £525: 12: 6. <del>a week before the time</del>
+               <lb/>
             </p>
             <p>I thank you in the first place you see<lb/>
                for <hi rend="underline">writing punctually</hi> because<lb/>
                <hi rend="underline">that</hi> might be some effort to you<lb/>
                - handsome <add>conduct</add> costs you no effort and<lb/>
                perhaps you will not even like to<lb/>
-               receive thanks for it - Gratitude <choice><orig>how<lb/>
-               ever</orig><reg>however</reg></choice> does not simply surprise - I am<lb/>
+               receive thanks for it - Gratitude <choice>
+                  <orig>how<lb/>
+               ever</orig>
+                  <reg>however</reg>
+               </choice> does not simply surprise - I am<lb/>
                delighted that you should have<lb/>
                had - even at the expense of my<lb/>
-               mistaking the week in which my <unclear>note</unclear><lb/>
+               mistaking the week in which my <unclear>note</unclear>
+               <lb/>
                was payable - This fresh opportunity<lb/>
                of showing me your generous<lb/>
                promptitude.<lb/>
             </p>
-            <p><del>Though</del> I did forget <unclear>this</unclear> <del>day when<lb/>
-               my note became due</del>, &amp; <del><unclear>this</unclear></del> I did<lb/>
+            <p>
+               <del>Though</del> I did forget <unclear>this</unclear>
+               <del>day when<lb/>
+               my note became due</del>, &amp; <del>
+                  <unclear>this</unclear>
+               </del> I did<lb/>
                forget whether the money was to<lb/>
                <pb n="3" facs="Edgeworth_ Princeton_1821-06_page03.jpg"/>
 
@@ -158,21 +175,26 @@
                aware that my note was ever to be<lb/>
                presented for payment, having<lb/>
                conceived that it was to be in <persName ref="./Personography.xml#MoulJ1">M<hi rend="superscript">r</hi>.<lb/>
-               <unclear>Moilliets</unclear></persName> hands till I should write<lb/>
+                  <unclear>Moilliets</unclear>
+               </persName> hands till I should write<lb/>
                to let him know that the money<lb/>
                was ready, which I did last week<lb/>
-               - But though, I partly from ignora<unclear>nce</unclear><lb/>
+               - But though, I partly from ignora<unclear>nce</unclear>
+               <lb/>
                &amp; partly from negligence made<lb/>
                these errors, yet in essential points<lb/>
                my memory for business is good<lb/>
                I remember well that you wrote<lb/>
                when I was abroad last year to say<lb/>
-               that you <del>thought</del> <add>found</add> the quantity of<lb/>
+               that you <del>thought</del>
+               <add>found</add> the quantity of<lb/>
                the sequel to <title ref="./Workography.xml#Rosam1">Rosamond</title> fell short<lb/>
                of what your printer required and<lb/>
                that you could not afford to give<lb/>
                what had been originally proposed<lb/>
-               500<hi rend="superscript"><unclear></unclear></hi> for the copy right &amp; in consequence<lb/>
+               500<hi rend="superscript">
+                  <unclear/>
+               </hi> for the copy right &amp; in consequence<lb/>
                I promised to deduct if necessary<lb/>
                <pb n="4" facs="Edgeworth_ Princeton_1821-06_page04.jpg"/>
 
@@ -180,15 +202,17 @@
                extend the work by writing more<lb/>
                in a hurry - I send you a draft<lb/>
                on Hoare for a hundred guineas<lb/>
-               &amp; <add>for</add> the odd 12<unclear></unclear>/6 which was tacked<lb/>
+               &amp; <add>for</add> the odd 12<unclear/>/6 which was tacked<lb/>
                to my note for the price of stamps -<lb/>
             </p>
             <postscript>
                <p>PS If I ought to give you a stamped<lb/>
-                  receipt for the copy right of <title ref="./Workography.xml#Rosam1">Rosamond</title><lb/>
+                  receipt for the copy right of <title ref="./Workography.xml#Rosam1">Rosamond</title>
+                  <lb/>
                   let me know or send me a receipt<lb/>
                   on a proper stamp &amp; I will sign it.<lb/>
-                  You cannot <del>feel</del> <add>be</add> more delighted<lb/>
+                  You cannot <del>feel</del>
+                  <add>be</add> more delighted<lb/>
                   than I am, I will add than all<lb/>
                   my family feel that my hereditary<lb/>
                   confidence in you ought to continue<lb/>
@@ -196,13 +220,21 @@
             </postscript>
             <closer>
                I am Dear Sir<lb/>
-               Your obliged humble <choice><orig>serv<hi rend="superscript">t</hi></orig><reg>servant</reg></choice><lb/>
+               Your obliged humble <choice>
+                  <orig>serv<hi rend="superscript">t</hi>
+                  </orig>
+                  <reg>servant</reg>
+               </choice>
+               <lb/>
             </closer>
             <pb n="1" facs="Edgeworth_ Princeton_1821-06_page01.jpg"/>
             <closer><!--Use the <closer> element again to hold Address Leaf information.-->
                <address>
-                  <addrLine>Copy to <unclear>Hunter</unclear><lb/></addrLine>
-                  <addrLine>June 7<hi rend="superscript">h.</hi> 1821<lb/></addrLine>
+                  <addrLine>Copy to <unclear>Hunter</unclear>
+                     <lb/>
+                  </addrLine>
+                  <addrLine>June 7<hi rend="superscript">h.</hi> 1821<lb/>
+                  </addrLine>
                </address>
             </closer>
          </div>

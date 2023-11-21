@@ -35,10 +35,10 @@
             <availability>
                <p>Reproduced by courtesy of <orgName ref="http://id.loc.gov/authorities/names/n82003163">Princeton University Library</orgName>
                </p>
-               <licence>Distributed under a Creative Commons Attribution-ShareAlike 3.0 Unported
-                  License</licence>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons Attribution 4.0 (CC BY 4.0) Unported
+            License</licence>
             </availability>
-            <idno>Edgeworth_Princeton_C1664_undated-01</idno> 
+            <idno>Edgeworth_Princeton_C1664_undated-01</idno>
          </publicationStmt>
          <seriesStmt>
             <title>Maria Edgeworth Letters Project</title>
@@ -50,7 +50,6 @@
                   <collection><!-- Enter specific archival collection if applicable--></collection>
                   <idno><!--Consult library or WorldCat for this info--></idno>
                </msIdentifier>
-               
                <head>Letter from 
                   <persName ref="./Personography.xml#MurrJ1">
                      <forename>John</forename>
@@ -62,7 +61,7 @@
                   <!-- optional physical description of the letter goes here: paper size and condition, seal, postmarks, etc.-->
                </physDesc>
             </msDesc>
-          </sourceDesc>
+         </sourceDesc>
       </fileDesc>
       <encodingDesc>
          <editorialDecl>
@@ -104,47 +103,83 @@
             <p>I have some reason to be<lb/>
                lieve, that <persName ref="./Personography.xml#EdgeM1">Miss Edgeworth</persName> has at<lb/>
                time this, a work nearly ready for<lb/>
-               publication, but, she is yet <choice><orig>suffici<lb/>
-               ently</orig><reg>sufficiently</reg></choice> undecided as to its publisher,<lb/>
-               as to render the favour of a <choice><orig>recom<lb/>
-               mendation</orig><reg>recommendation</reg></choice> from you, (if you can<lb/>
+               publication, but, she is yet <choice>
+                  <orig>suffici<lb/>
+               ently</orig>
+                  <reg>sufficiently</reg>
+               </choice> undecided as to its publisher,<lb/>
+               as to render the favour of a <choice>
+                  <orig>recom<lb/>
+               mendation</orig>
+                  <reg>recommendation</reg>
+               </choice> from you, (if you can<lb/>
                venture to review, at this moment,<lb/>
                the application which, you once be<lb/>
                free, to obligingly hazarded,) of the<lb/>
                greatest importance to me. Did<lb/>
-               I not feel certain of obtaining <choice><orig>consi<lb/>
-               derable</orig><reg>considerable</reg></choice> reputation by becoming<lb/>
-               <persName ref="./Personography.xml#RomiA1">The Lady Romilly</persName><lb/>
+               I not feel certain of obtaining <choice>
+                  <orig>consi<lb/>
+               derable</orig>
+                  <reg>considerable</reg>
+               </choice> reputation by becoming<lb/>
+               <persName ref="./Personography.xml#RomiA1">The Lady Romilly</persName>
+               <lb/>
             </p>
             <p>
                <pb n="2" facs="Edgeworth_Princeton_C1664_undated-01_page02.jpg"/>
-               the publisher of <persName ref="./Personography.xml#EdgeM1">Miss Edgeworth</persName><lb/>
+               the publisher of <persName ref="./Personography.xml#EdgeM1">Miss Edgeworth</persName>
+               <lb/>
                I <del>wa</del> am certain that no other motive<lb/>
                could have emboldened me, with<lb/>
-               so little claim, to <del>have</del> obtrude<del>d</del><lb/>
+               so little claim, to <del>have</del> obtrude<del>d</del>
+               <lb/>
                <del>myself</del> upon your kind offices;<lb/>
                and I shall be happy if my<lb/>
-               object be considered as a <choice><orig>suffi<lb/>
-               cient</orig><reg>sufficient</reg></choice> excuse.<lb/>
+               object be considered as a <choice>
+                  <orig>suffi<lb/>
+               cient</orig>
+                  <reg>sufficient</reg>
+               </choice> excuse.<lb/>
             </p>
             <closer>
                I have the honour to be<lb/>
-               <persName ref="./Personography.xml#RomiA1">Madam, your Ladyship's</persName><lb/>
+               <persName ref="./Personography.xml#RomiA1">Madam, your Ladyship's</persName>
+               <lb/>
                (already) obliged<lb/>
                and faithful Servant<lb/>
-               <persName ref="./Personography.xml#MurrJ1">John Murray</persName><lb/>
+               <persName ref="./Personography.xml#MurrJ1">John Murray</persName>
+               <lb/>
             </closer>
             <closer>
                <address>
-                  <addrLine><persName ref="./Personography.xml#MurrJ1">Murray</persName></addrLine><lb/>
-                  <addrLine>&amp;</addrLine><lb/>
-                  <addrLine><persName ref="./Personography.xml#CadeT1">Cadell</persName></addrLine><lb/>
-                  <addrLine>&amp;</addrLine><lb/>
-                  <addrLine><persName ref="./Personography.xml#ChamR1">Chambers</persName></addrLine><lb/>
-                  <addrLine>&amp;</addrLine><lb/>
-                  <addrLine><persName ref="./Personography.xml#CradX1">Cradock</persName></addrLine><lb/>
-                  <addrLine><persName ref="./Personography.xml#SimpW1">Simpkin</persName></addrLine><lb/>
-                  <addrLine>&amp; marked</addrLine><lb/>
+                  <addrLine>
+                     <persName ref="./Personography.xml#MurrJ1">Murray</persName>
+                  </addrLine>
+                  <lb/>
+                  <addrLine>&amp;</addrLine>
+                  <lb/>
+                  <addrLine>
+                     <persName ref="./Personography.xml#CadeT1">Cadell</persName>
+                  </addrLine>
+                  <lb/>
+                  <addrLine>&amp;</addrLine>
+                  <lb/>
+                  <addrLine>
+                     <persName ref="./Personography.xml#ChamR1">Chambers</persName>
+                  </addrLine>
+                  <lb/>
+                  <addrLine>&amp;</addrLine>
+                  <lb/>
+                  <addrLine>
+                     <persName ref="./Personography.xml#CradX1">Cradock</persName>
+                  </addrLine>
+                  <lb/>
+                  <addrLine>
+                     <persName ref="./Personography.xml#SimpW1">Simpkin</persName>
+                  </addrLine>
+                  <lb/>
+                  <addrLine>&amp; marked</addrLine>
+                  <lb/>
                </address>
             </closer>
          </div>
