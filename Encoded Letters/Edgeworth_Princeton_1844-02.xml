@@ -87,13 +87,14 @@
             </correspAction>
          </correspDesc>
       </profileDesc>
-      <revisionDesc> <!--What is my XML ID to list below?-->
+      <revisionDesc>
          <change when="2023-10-06" who="Id_who">Created XML file; saved to GitHub</change>
          <change when="2023-10-09" who="Id_who">Began to fill out TEI template for letter and encoded letter</change>
          <change when="2023-10-13" who="Id_who">Continued to edit TEI template and fill in gaps of information</change>
          <change when="2023-10-15" who="Id_who">Double-checked letter template for necessary revisions</change>
          <change when="2023-10-19" who="Id_who">Edited encoded letter based on suggested edits by EAW</change>
          <change when="2023-10-27" who="Id_who">Updated choice tags</change>
+         <change when="2023-11-10" who="Id_who">Removed extra comments</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -143,17 +144,10 @@
                <lb/>
                <unclear>h. h</unclear>
                <lb/>
-               <!--include linebreaks, if used. example: <closer> Yours<lb/> Very sincerely<lb/> -->
             </closer>
             <postscript>
                <p/>
             </postscript>
-            <closer><!--Use the <closer> element again to hold Address Leaf information.-->
-               <address>
-                  <!--Include any text written on the address leaf; use a separate "addrLine" for each line and indicate line breaks. -->
-                  <addrLine/>
-               </address>
-            </closer>
          </div>
       </body>
       <back> </back>

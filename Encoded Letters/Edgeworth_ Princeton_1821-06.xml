@@ -6,9 +6,10 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Letter from Maria Edgeworth to M. Miles, January ??, 1816</title>
+            <title>Letter from Maria Edgeworth to Unknown, June 7, 1821</title>
             <author>Maria Edgeworth</author>
-            <editor ref="Id_who">Lindsey Jones
+            <editor ref="Id_who">
+               Lindsey Jones
             </editor>
             <sponsor>
                <orgName>Maria Edgeworth Letters Project</orgName>
@@ -18,7 +19,7 @@
             <principal>Jessica Richard, Hilary Havens, Robin Runia, Susan Egenolf</principal>
             <respStmt>
                <resp>Transcription and coding by</resp>
-               <persName ref="Id_who">Lindsey Jones<!--FirstName LastName-->
+               <persName ref="Id_who">Lindsey Jones
                </persName>
                <!-- List all transcribers or coders here, editors and students alike, <persName> by <persName>.-->
                <persName ref="Id_who"><!--FirstName LastName--></persName>
@@ -26,7 +27,7 @@
             </respStmt>
          </titleStmt>
          <editionStmt>
-            <edition>First digital edition in TEI, date: October 22, 2023<date when="2023-10-22">
+            <edition>First digital edition in TEI, date: November 16, 2023 <date when="2023-11-16">
                   <!--enter the date on which the first coder created and saved this XML file in google drive-->
                </date>
             </edition>
@@ -36,8 +37,10 @@
                   <!--who digitized the letter or gave us permission for to use the file?-->
                </orgName>
                <resp> photos include:
-                  Edgeworth_ Princeton_1816-01_page01.jpg,
-                  Edgeworth_ Princeton_1816-01_page02.jpg
+                  Edgeworth_ Princeton_1821-06_page01.jpg,
+                  Edgeworth_ Princeton_1821-06_page02.jpg,
+                  Edgeworth_ Princeton_1821-06_page03.jpg,
+                  Edgeworth_ Princeton_1821-06_page04.jpg
                   <!-- Make a comma-separated list of each .jpg photo file name associated with your letter. 
                      For example: DSCF9476.jpg, DSCF9477.jpg, DSCF9478.jpg-->
                </resp>
@@ -53,7 +56,7 @@
                <licence>Distributed under a Creative Commons Attribution-ShareAlike 3.0 Unported
                   License</licence>
             </availability>
-            <idno>Edgeworth_Princeton_1816-01</idno>
+            <idno>Edgeworth_ Princeton_1821-06</idno> 
          </publicationStmt>
          <seriesStmt>
             <title>Maria Edgeworth Letters Project</title>
@@ -64,20 +67,20 @@
                <msIdentifier>
                   <repository>Princeton University Library</repository>
                   <collection><!-- Enter specific archival collection if applicable--></collection>
-                  <idno><!--Consult library or WorldCat for this info--></idno>
+                  <idno>Edgeworth_ Princeton_1821-06</idno>
                </msIdentifier>
                <!-- FROM LAURA: it's here (below) in the head that I added the full information about the author,
                   and you could add full information about the addressee as well. -->
                <head>Letter from 
                      <persName xml:id="EdgeM1" from="1768" to="1849">
-                     <forename>Maria</forename>
-                     <surname>Edgeworth</surname>
-                     <date>1768-1849</date>
-                     <idno type="VIAF">71477273</idno>
-                     <idno type="SNAC">62567029</idno>
-                  </persName>
-                   to <persName>M. Miles</persName>, <placeName>11 Corn Hill</placeName>, 
-                  <date when="1816-01-01"> Jan<hi rend="superscript">ry.</hi> 1816</date>
+                        <forename>Maria</forename>
+                        <surname>Edgeworth</surname>
+                        <date>1768-1849</date>
+                        <idno type="VIAF">71477273</idno>
+                        <idno type="SNAC">62567029</idno>
+                     </persName>
+                  to <persName>Unknown</persName>, <placeName ref="./Placeography.xml#Edgeworthstown_IE">Edgeworths Town</placeName>, 
+                  <date when="1821-06-07">June <del>5</del><add>7</add><hi rend="superscript">h.</hi> 1821</date>
                </head>
                <physDesc>
                   <!-- optional physical description of the letter goes here: paper size and condition, seal, postmarks, etc.-->
@@ -107,92 +110,99 @@
                <persName>Maria Edgeworth</persName>
             </correspAction>
             <correspAction type="received">
-               <persName>M. Miles</persName>
+               <persName>Unknown</persName>
             </correspAction>
          </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
-      <pb n="1" facs="Edgeworth_ Princeton_1816-01_page01.jpg"/>
+      <pb n="2" facs="Edgeworth_ Princeton_1821-06_page02.jpg"/>
       <body>
          <div type="letter">
             <pb n="1" facs="image1.jpg"/>
             <!--filenames for photos associated with this letter. Example: <pb n="1" facs="image1.jpg image2.jpg image3.jpg"/> -->
             <opener>
                <dateline><!--If there's no date line, omit this element. Record in the order in which it is written on the letter.-->
-                  <name type="place" ref="Id_where"/>
-                  <date when="1816-01-01"/>January 1816. </dateline>
+                  <name type="place" ref="./Placeography.xml#Edgeworthstown_IE">Edgeworths Town</name><lb/>
+                  <date when="1821-06-07"/>June 7, 1821. </dateline>
                <salute>
-                  <persName>
-                     My dear Sir
-                  </persName>
+                  Dear Sir
                </salute>
             </opener>
-            <p>
-               We thank you for your very<lb/>
-               obliging letter of the <unclear>8nt<hi rend="superscript">h</hi>
-               </unclear>
-               <lb/>
+            <p>I thank you for writing to me so <choice><orig>punc-<lb/>
+               -tually</orig><reg>punctually</reg></choice> to inform me of your having<lb/>
+               paid my note to <persName ref="./Personography.xml#MoilJ1">M<hi rend="superscript">r.</hi> <unclear>Moilliet</unclear></persName> for<lb/>
+               £525: 12: 6. <del>a week before the time</del><lb/>
             </p>
-            <p>We have been offered <del>
-                  <unclear>three</unclear>
-               </del>
-               <add>four</add> hundred <choice>
-                  <orig>gui<lb/>
-               neas</orig>
-                  <reg>guineas</reg>
-               </choice> for two volumes of <title ref="./Workography.xml#Early1">Early Lessons</title>
-               <lb/>
-               &amp; <del>
-                  <unclear>four</unclear>
-               </del>
-               <add>three</add> hundred guineas for two<lb/>
-               volumes - of<lb/>
+            <p>I thank you in the first place you see<lb/>
+               for <hi rend="underline">writing punctually</hi> because<lb/>
+               <hi rend="underline">that</hi> might be some effort to you<lb/>
+               - handsome <add>conduct</add> costs you no effort and<lb/>
+               perhaps you will not even like to<lb/>
+               receive thanks for it - Gratitude <choice><orig>how<lb/>
+               ever</orig><reg>however</reg></choice> does not simply surprise - I am<lb/>
+               delighted that you should have<lb/>
+               had - even at the expense of my<lb/>
+               mistaking the week in which my <unclear>note</unclear><lb/>
+               was payable - This fresh opportunity<lb/>
+               of showing me your generous<lb/>
+               promptitude.<lb/>
             </p>
-            <p>
-               <title ref="./Workography.xml#Comic1">'Juvenile dramas"</title>
-               <del>same size as <title ref="./Workography.xml#Early1">Early Lessons</title>,</del>
-               <lb/>
-               <hi rend="underline">not intended for representation"</hi>
-               <lb/>
-               These though far superior, &amp; <add>more</add> difficult<lb/>
-               in composition - <del>they</del> are not probably<lb/>
-               such marketable commodities as <hi rend="underline">"Early</hi>
-               <lb/>
-               <hi rend="underline">Lessons."</hi>
-               <lb/>
+            <p><del>Though</del> I did forget <unclear>this</unclear> <del>day when<lb/>
+               my note became due</del>, &amp; <del><unclear>this</unclear></del> I did<lb/>
+               forget whether the money was to<lb/>
+               <pb n="3" facs="Edgeworth_ Princeton_1821-06_page03.jpg"/>
+
+               be paid at <unclear>Hoares</unclear> bank or at your<lb/>
+               house &amp; <del>though</del> in fact I was not<lb/>
+               aware that my note was ever to be<lb/>
+               presented for payment, having<lb/>
+               conceived that it was to be in <persName ref="./Personography.xml#MoulJ1">M<hi rend="superscript">r</hi>.<lb/>
+               <unclear>Moilliets</unclear></persName> hands till I should write<lb/>
+               to let him know that the money<lb/>
+               was ready, which I did last week<lb/>
+               - But though, I partly from ignora<unclear>nce</unclear><lb/>
+               &amp; partly from negligence made<lb/>
+               these errors, yet in essential points<lb/>
+               my memory for business is good<lb/>
+               I remember well that you wrote<lb/>
+               when I was abroad last year to say<lb/>
+               that you <del>thought</del> <add>found</add> the quantity of<lb/>
+               the sequel to <title ref="./Workography.xml#Rosam1">Rosamond</title> fell short<lb/>
+               of what your printer required and<lb/>
+               that you could not afford to give<lb/>
+               what had been originally proposed<lb/>
+               500<hi rend="superscript"><unclear></unclear></hi> for the copy right &amp; in consequence<lb/>
+               I promised to deduct if necessary<lb/>
+               <pb n="4" facs="Edgeworth_ Princeton_1821-06_page04.jpg"/>
+
+               a hundred guineas rather than to<lb/>
+               extend the work by writing more<lb/>
+               in a hurry - I send you a draft<lb/>
+               on Hoare for a hundred guineas<lb/>
+               &amp; <add>for</add> the odd 12<unclear></unclear>/6 which was tacked<lb/>
+               to my note for the price of stamps -<lb/>
             </p>
-            <p>Be so kind as to tell me your <choice>
-                  <orig>opi-<lb/>
-               nion</orig>
-                  <reg>opinion</reg>
-               </choice> upon this subject.<lb/>
-            </p>
+            <postscript>
+               <p>PS If I ought to give you a stamped<lb/>
+                  receipt for the copy right of <title ref="./Workography.xml#Rosam1">Rosamond</title><lb/>
+                  let me know or send me a receipt<lb/>
+                  on a proper stamp &amp; I will sign it.<lb/>
+                  You cannot <del>feel</del> <add>be</add> more delighted<lb/>
+                  than I am, I will add than all<lb/>
+                  my family feel that my hereditary<lb/>
+                  confidence in you ought to continue<lb/>
+               </p>
+            </postscript>
             <closer>
                I am Dear Sir<lb/>
-               Your <choice>
-                  <orig>Obed<hi rend="superscript">t</hi>.</orig>
-                  <reg>Obedient</reg>
-               </choice>
-               <choice>
-                  <orig>Serv<hi rend="superscript">t</hi>.</orig>
-                  <reg>Servant</reg>
-               </choice>
-               <lb/>
+               Your obliged humble <choice><orig>serv<hi rend="superscript">t</hi></orig><reg>servant</reg></choice><lb/>
             </closer>
-            <!--You can include a <pb/> here, or inside the postScript.-->
+            <pb n="1" facs="Edgeworth_ Princeton_1821-06_page01.jpg"/>
             <closer><!--Use the <closer> element again to hold Address Leaf information.-->
-               <pb n="2" facs="Edgeworth_ Princeton_1816-01_page02.jpg"/>
                <address>
-                  <addrLine>Copy to <persName ref="./Personography.xml#MileX2">M<hi rend="superscript">r.</hi> Miles</persName> Jan<hi rend="superscript">ry.</hi> 1816</addrLine>
-                  <lb/>
-                  <addrLine>M<hi rend="superscript">r.</hi> Chater</addrLine>
-                  <lb/>
-                  <addrLine>
-                     <placeName ref=".Placeography.xml#Corn-Hill_XX">11 Corn Hill</placeName>
-                  </addrLine>
-                  <lb/>
-                  <!--Include any text written on the address leaf; use a separate "addrLine" for each line and indicate line breaks. -->
+                  <addrLine>Copy to <unclear>Hunter</unclear><lb/></addrLine>
+                  <addrLine>June 7<hi rend="superscript">h.</hi> 1821<lb/></addrLine>
                </address>
             </closer>
          </div>

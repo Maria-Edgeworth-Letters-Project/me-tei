@@ -9,7 +9,6 @@
             <title>Letter from Maria Edgeworth to Unknown, January 15, 1838</title>
             <author>Maria Edgeworth</author>
             <editor ref="Id_who">Alexandra LaGrand</editor>
-            <!--What is my XML ID to include here?-->
             <sponsor>
                <orgName>Maria Edgeworth Letters Project</orgName>
             </sponsor>
@@ -89,6 +88,7 @@
          <change when="2023-10-15" who="Id_who">Double-checked and edited letter template</change>
          <change when="2023-10-19" who="Id_who">Edited encoded letter based on suggested edits by EAW</change>
          <change when="2023-10-27" who="Id_who">Updated choice tags</change>
+         <change when="2023-11-10" who="Id_who">Removed extra comments</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -163,25 +163,7 @@
                the letters received since my last<lb/>
                Envoie which I think could<lb/>
                Interest you my dear &amp; if those<lb/>
-               <!--Letter leaves off here; does not have closer-->
             </p>
-            <closer>
-               <!--include linebreaks, if used. example: <closer> Yours<lb/> Very sincerely<lb/> -->
-            </closer>
-            <postscript>
-               <p><!--A postscript goes here, outside the <closer>. --></p>
-            </postscript>
-            <!--You can include a <pb/> here, or inside the postScript.-->
-            <!-- Format for postscripts. 
-               Postscripts do NOT go inside closer tags. Adjust to take into account the order in your letter. 
-               Sometimes the signature is on page three, the address on page four, then the postscript follows back on the top of page one, for example.-->
-            <closer><!--Use the <closer> element again to hold Address Leaf information.-->
-               <address>
-                  <addrLine/>
-                  <addrLine/>
-                  <addrLine/>
-               </address>
-            </closer>
          </div>
       </body>
       <back> </back>

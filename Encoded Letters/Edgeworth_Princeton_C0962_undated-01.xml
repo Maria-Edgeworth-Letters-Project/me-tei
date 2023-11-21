@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from Maria Edgeworth to Madam Miles, [Unknown date]</title>
+            <author>Maria Edgeworth</author>
+            <editor ref="Id_who">Alexandra LaGrand</editor>
+            <sponsor>
+               <orgName>Maria Edgeworth Letters Project</orgName>
+            </sponsor>
+            <sponsor>Wake Forest University, University of Tennessee, Xavier University, Texas
+               A&amp;M University</sponsor>
+            <principal>Jessica Richard, Hilary Havens, Robin Runia, Susan Egenolf</principal>
+            <respStmt>
+               <resp>Transcription and coding by</resp>
+               <persName ref="Id_who">Alexandra LaGrand</persName>
+               <!-- If you're the last person interacting with the file, enter your name last on the list -->
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>First digital edition in TEI, date: <date when="2023-11-02">November 2, 2023</date>
+            </edition>
+            <respStmt>
+               <orgName ref="http://id.loc.gov/authorities/names/n82003163">Princeton University Library</orgName>
+               <resp> photos include: Edgeworth_Princeton_C0962_undated-01_page01.jpg, Edgeworth_Princeton_C0962_undated-01_page02.jp</resp>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Maria Edgeworth Letters Project</authority>
+            <date>2022</date>
+            <availability>
+               <p>Reproduced by courtesy of <orgName ref="http://id.loc.gov/authorities/names/n82003163">Princeton University Library</orgName>
+               </p>
+               <licence>Distributed under a Creative Commons Attribution-ShareAlike 3.0 Unported
+                  License</licence>
+            </availability>
+            <idno>Edgeworth_Princeton_C0962_undated-01</idno> 
+         </publicationStmt>
+         <seriesStmt>
+            <title>Maria Edgeworth Letters Project</title>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <repository>Princeton University Library</repository>
+                  <collection><!-- Enter specific archival collection if applicable--></collection>
+                  <idno><!--Consult library or WorldCat for this info--></idno>
+               </msIdentifier>
+               <head>Letter from 
+                  <persName ref="./Personography.xml#EdgeM1">
+                     <forename>Maria</forename>
+                     <surname>Edgeworth</surname>
+                  </persName>
+                   to <persName>Madam Miles</persName>
+               </head>
+               <physDesc>
+                  <!-- optional physical description of the letter goes here: paper size and condition, seal, postmarks, etc.-->
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <!--Where Edgeworth uses nonstandard spelling and hyphenation of words, transcriber-coders 
+               should use TEI elements “choice," “sic," and “reg" to encode both Edgeworth’s 
+               spelling and the regular international standard of Oxford English spelling, 
+               following the first listed spelling in the Oxford English Dictionary. -->
+            <p>Edgeworth’s spelling and punctuation are retained in transcription, except where a
+               word is split at the end of a line and the beginning of the next in a manuscript. The
+               long s and ligatured forms are silently emended.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="./Personography.xml#MileX1">Madam Miles</persName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2023-11-02" who="Id_who">Created file for letter, encoded letter</change>
+         <change when="2023-11-10" who="Id_who">Removed extra comments</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <pb n="1" facs="Edgeworth_Princeton_C0962_undated-01_page01.jpg"/>
+            <opener>
+               <salute>
+                  <persName>My dear Madam</persName>
+               </salute>
+            </opener>
+            <p>Your very obliging letter &amp; little note<lb/>
+               enclosed relieved us all from some<lb/>
+               anxiety, as we really began to think, &amp;<lb/>
+               not without reason, that we had <choice><orig>trespass<lb/>
+               ed</orig><reg>trespassed</reg></choice> too far upon your good nature.<lb/></p>
+            <p>
+               With respect to the muslin for<lb/>
+               the frock which I speak of first, because<lb/>
+               <hi rend="underline">next my heart</hi>, being for my own dear<lb/>
+               <persName ref="./Personography.xml#EdgeF2">Fanny</persName> - I give up the scheme of working<lb/>
+               a border for it because I fear I should not<lb/>
+               have it done by the time she might want<lb/>
+               it &amp; except for the honor of the business<lb/>
+               I have a notion that lace &amp; <add>white</add> satin ribbon<lb/>
+               would for a girl of her age look quite as well<lb/>
+               - Therefore I leave you quite at liberty as<lb/>
+               to the kind &amp; as to the price of the muslin<lb/>
+               - all I wish is to have a pretty, dancing dress<lb/>
+               of muslin for a girl of 15 &amp; lace to trim it<lb/>
+               at bottom - bosom &amp; sleeves - &amp; white satin<lb/>
+               ribbon if necessary - As to the price &amp; choice of<lb/>
+               the lace I leave the <add>choice</add> to your judgment &amp; taste<lb/>
+               &amp; the price to <persName ref="./Personography.xml#EyleX1">M<hi rend="superscript">r</hi>. <unclear>Eyles's</unclear></persName> conscience -<lb/></p>
+            <p>
+               My brother <persName ref="./Personography.xml#EdgeC1">Sneyd</persName> will take charge of this<lb/>
+            </p>
+            <p>
+               <pb n="2" facs="Edgeworth_Princeton_C0962_undated-01_page02.jpg"/>
+               muslin &amp; lace, <add>&amp; ribbon</add> &amp; of the veil for me - Probably<lb/>
+               you have seen him by this time - He was<lb/>
+               suddenly called to London on some business<lb/>
+               relative to his <persName ref="./Personography.xml#EdgeH3">wife's</persName> affairs.<lb/></p>
+            <p>
+               I am delighted to hear that M<hi rend="superscript">rs</hi>. E's lace sleeves<lb/>
+               will not be dear as I tempted &amp; indeed<lb/>
+               forced her to get them --.<lb/>
+               With respect for the Mechlin lace for <persName ref="./Personography.xml#EdgeH4">Honora's</persName><lb/>
+               lace frock 4 yds &amp; 3/4 at 8/9 must she thinks<lb/>
+               be as much as she wants &amp; she thinks<lb/>
+               the price below what she could have hoped.<lb/>
+               - I hope it is broad enough for the <hi rend="underline">bottom</hi> of<lb/>
+               the dress - If this should not be the case<lb/>
+               buy a sufficient quantity for trimming the<lb/>
+               bottom of her dress of what will <hi rend="underline">suit</hi> <add>in general look</add> her broad<lb/>
+               lace <add>pattern</add> &amp; I will take the 4 3/4 yds of Mechlin<lb/>
+               with pleasure off her hands.<lb/></p>
+            <p>
+               I am tempted to purchase for <hi rend="underline">myself</hi><lb/>
+               a pair of sleeves like <persName ref="./Personography.xml#EdgeX2">M<hi rend="superscript">rs</hi>. Edgeworth's</persName> as you<lb/>
+               say they are so cheap &amp; pretty - I have none<lb/>
+               that are full as the present mode requires -<lb/>
+               I therefore beg you to bespeak me a pair<lb/>
+               - My arm is much less than <persName ref="./Personography.xml#EdgeX2">M<hi rend="superscript">rs</hi>. Edgeworths</persName><lb/>
+               - but as the sleeve draws in, I suppose<lb/>
+               an exact pattern is not necessary - I should<lb/>
+               not wish mine to be <hi rend="underline">very</hi> full as the effect would<lb/>
+               be to make me look as broad as I am <hi rend="underline">long</hi><lb/>
+               or rather as I am <hi rend="underline">short</hi> --<lb/>
+            </p>
+         </div>
+      </body>
+      <back> </back>
+   </text>
+</TEI>

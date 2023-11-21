@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from Maria Edgeworth to Charles Fox, May 8, 1829</title>
+            <author>Maria Edgeworth</author>
+            <editor ref="Id_who">Lindsey Jones
+            </editor>
+            <sponsor>
+               <orgName>Maria Edgeworth Letters Project</orgName>
+            </sponsor>
+            <sponsor>Wake Forest University, University of Tennessee, Xavier University, Texas
+               A&amp;M University</sponsor>
+            <principal>Jessica Richard, Hilary Havens, Robin Runia, Susan Egenolf</principal>
+            <respStmt>
+               <resp>Transcription and coding by</resp>
+               <persName ref="Id_who">Lindsey Jones
+               </persName>
+               <!-- List all transcribers or coders here, editors and students alike, <persName> by <persName>.-->
+               <persName ref="Id_who"><!--FirstName LastName--></persName>
+               <!-- If you're the last person interacting with the file, enter your name last on the list -->
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>First digital edition in TEI, date: November 12, 2023<date when="2023-11-12">
+                  <!--enter the date on which the first coder created and saved this XML file in google drive-->
+               </date>
+            </edition>
+            <respStmt>
+               <orgName type="naf" ref="http://id.loc.gov/authorities/names/n82003163">
+                  Princeton University Library
+                  <!--who digitized the letter or gave us permission for to use the file?-->
+               </orgName>
+               <resp> photos include:
+                  Edgeworth_Princeton_1829-05_page01.jpg,
+                  Edgeworth_Princeton_1829-05_page02.jpg,
+                  Edgeworth_Princeton_1829-05_page03.jpg,
+                  Edgeworth_Princeton_1829-05_page04.jpg
+                  <!-- Make a comma-separated list of each .jpg photo file name associated with your letter. 
+                     For example: DSCF9476.jpg, DSCF9477.jpg, DSCF9478.jpg-->
+               </resp>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Maria Edgeworth Letters Project</authority>
+            <date>2022</date>
+            <availability>
+               <p>
+                  Courtesy of <orgName ref="#http://id.loc.gov/authorities/names/n82003163">Princeton University Library</orgName>.
+               </p>
+               <licence>Distributed under a Creative Commons Attribution-ShareAlike 3.0 Unported
+                  License</licence>
+            </availability>
+            <idno>Edgeworth_Princeton_1829-05</idno> 
+         </publicationStmt>
+         <seriesStmt>
+            <title>Maria Edgeworth Letters Project</title>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <!-- This section of the header identifies the original manuscript source. -->
+               <msIdentifier>
+                  <repository>Princeton University Library</repository>
+                  <collection><!-- Enter specific archival collection if applicable--></collection>
+                  <idno>Edgeworth_Princeton_1829-05</idno>
+               </msIdentifier>
+               <!-- FROM LAURA: it's here (below) in the head that I added the full information about the author,
+                  and you could add full information about the addressee as well. -->
+               <head>Letter from 
+                     <persName xml:id="EdgeM1" from="1768" to="1849">
+                        <forename>Maria</forename>
+                        <surname>Edgeworth</surname>
+                        <date>1768-1849</date>
+                        <idno type="VIAF">71477273</idno>
+                        <idno type="SNAC">62567029</idno>
+                     </persName>
+                  to <persName ref="./Personography.xml#FoxC4">Charles Fox</persName>, <placeName>Rutland Square</placeName>, 
+                  <date when="1829-05-08">May 8<hi rend="superscript">th</hi>. 1829</date>
+               </head>
+               <physDesc>
+                  <!-- optional physical description of the letter goes here: paper size and condition, seal, postmarks, etc.-->
+               </physDesc>
+            </msDesc>
+            <!-- FROM LAURA: where to put the following information in <bibl> is still a question: 
+               ask TEI List whether it should be in the sourceDesc or elsewhere? -->
+            <bibl>In addition to our edited version, this letter was previously published in
+               <!--complete bibiographical info if letter was published in a book here - if not delete-->
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <!--Where Edgeworth uses nonstandard spelling and hyphenation of words, transcriber-coders 
+               should use TEI elements “choice," “sic," and “reg" to encode both Edgeworth’s 
+               spelling and the regular international standard of Oxford English spelling, 
+               following the first listed spelling in the Oxford English Dictionary. -->
+            <p>Edgeworth’s spelling and punctuation are retained in transcription, except where a
+               word is split at the end of a line and the beginning of the next in a manuscript. The
+               long s and ligatured forms are silently emended.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName>Maria Edgeworth</persName>
+            </correspAction>
+            <correspAction type="received">
+               <persName>Charles Fox</persName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <pb n="2" facs="Edgeworth_Princeton_1829-05_page02.jpg"/>
+      <body>
+         <div type="letter">
+            <pb n="1" facs="image1.jpg"/>
+            <!--filenames for photos associated with this letter. Example: <pb n="1" facs="image1.jpg image2.jpg image3.jpg"/> -->
+            <opener>
+               <dateline><!--If there's no date line, omit this element. Record in the order in which it is written on the letter.-->
+                  <name type="place" ref="./Placeography.xml#Edgeworthstown_IE">Edgeworths Town</name>
+                  <date when="1829-05-08"/>May 8, 1829. </dateline>
+               <salute>
+                  My dear <persName ref="./Personography.xml#FoxC4">Charles</persName>
+               </salute>
+            </opener>
+            <p>
+               Unless you are better prepared for the<lb/>
+               event than I believe you could be, you will<lb/>
+               be very much shocked when I tell you that<lb/>
+               <persName ref="./Personography.xml#EdgeW1">my brother William</persName> is no more.<lb/>
+            </p>
+            <p>The physicians had endeavored to<lb/>
+               prepare us - but still we hoped and<lb/>
+               thought we had reason to hope from his<lb/>
+               apparent amendment. - He suddenly<lb/>
+               &amp; rapidly grew worse yesterday - dreadfully<lb/>
+               weaker, and weaker - and about 4 o clock<lb/>
+               this morning expired in <persName ref="./Personography.xml#EdgeF2">his mothers</persName> arms<lb/>
+               - <hi rend="underline">his mother</hi> I may well call her who as<lb/>
+               he said &amp; felt has been the kindest of mothers<lb/>
+               to him - He appeared not to suffer at the<lb/>
+               last - It was happy for him that his illness<lb/>
+               was so short - his release so tranquil - But for<lb/>
+               us it is terrible, - awful to think that but one<lb/>
+               short month since he came home to us <choice><orig>ap-<lb/>
+               parently</orig><reg>apparently</reg></choice> with only a cold - &amp; now is dead<lb/>
+               When "On the 7<hi rend="superscript">th.</hi> of April <add>he</add> came home <del>&amp; so</del> he said<lb/>
+               "to M<hi rend="superscript">iss</hi> E. on the 7<hi rend="superscript">th.</hi> of April - <persName ref="./Personography.xml#EdgeF2">my sister Charlotte</persName><lb/>
+               "died - do not be surprised if I die on the<lb/>
+               "7<hi rend="superscript">th.</hi> of May" - He died on that day - as he foretold<lb/>
+               <pb n="3" facs="Edgeworth_Princeton_1829-05_page03.jpg"/>
+
+               -Never did a purer or nobler mind live in<lb/>
+               this world nor one go out of it more tranquilly<lb/>
+               more resigned &amp; better prepared to die -<lb/>
+            </p>
+            <p><persName ref="./Personography.xml#BeauH1">Honora</persName> &amp; <persName ref="./Personography.xml#EdgeF2">M<add>rs.</add> Edgeworth</persName> are wonderfully<lb/>
+               well - <persName ref="./Personography.xml#EdgeL1">Lucy</persName> better - A letter from<lb/>
+               dear <persName ref="./Personography.xml#EdgeH1">Harriet Butler</persName> this morning continues<lb/>
+               to give a good account of <persName ref="./Personography.xml#EdgeS1">Sophy Fox</persName> - <persName ref="./Personography.xml#FoxB1"><unclear>Barry</unclear></persName><lb/>
+               I know has written <add>of</add> all at <placeName ref="./Placeography.xml#Cloonagh_IE">Cloonagh</placeName> to you<lb/>
+            </p>
+            <p>I enclose dear Williams will<lb/>
+            </p>
+            <closer>
+               Ever my dear Charles<lb/>
+               Your affectionate cousin<lb/>
+               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName><lb/>
+            </closer>
+            <postscript>
+            <p>Will you have the goodness to order your<lb/>
+               clerk to send a copy of this will to <del>Mr <unclear>Executor</unclear></del><lb/>
+               <persName ref="./Personography.xml#BeauF1">Capt<hi rend="superscript">n.</hi> Beaufort</persName> <placeName ref="./Placeography.xml#51-Manchester-Street_ENK">51 Manchester Street<lb/>
+               London</placeName> And will you write a line to<lb/>
+               him who is I see Executor along with<lb/>
+               you - <persName ref="./Personography.xml#EdgeL2">Lovell</persName> opened &amp; read the will<lb/>
+               to this family<lb/>
+            </p>
+            <p>I write to <persName ref="./Personography.xml#EdgeC1">Sneyd</persName> today - But you or <persName ref="./Personography.xml#BeauF1">Capt<hi rend="superscript">n.</hi><lb/>
+               B</persName> - will communicate to him the<lb/>
+               contents of the will as I do not say a<lb/>
+               word about it<lb/>
+            </p>
+               <pb n="4" facs="Edgeworth_Princeton_1829-05_page04.jpg"/>
+
+            <p><persName ref="./Personography.xml#EdgeF2">M<hi rend="superscript">rs</hi> E.</persName> sends with William's will a <choice><orig>memo-<lb/>
+               randum</orig><reg>memorandum</reg></choice> about a thousand pounds which<lb/>
+               he desired to leave to <persName ref="./Personography.xml#JephJ1">Johnny Jephson</persName><lb/>
+               - He did not say when the principal<lb/>
+               should be his therefore <persName ref="./Personography.xml#EdgeF2">M<hi rend="superscript">rs</hi> E.</persName> could<lb/>
+               not mention that in her memorandum<lb/>
+               <add>but she presumes when he comes of age</add><lb/>
+               Perhaps you had better in what ever<lb/>
+               may be necessary to make this <choice><orig>memo-<lb/>
+               randum</orig><reg>memorandum</reg></choice> exact in that particular<lb/>
+               and legal &amp; returned to <persName ref="./Personography.xml#EdgeF2">M<hi rend="superscript">rs</hi>. E</persName> <add><persName ref="./Personography.xml#BeauH1">Honora</persName></add> to sign<lb/>
+               - you see what the intentions are<lb/>
+            </p>
+            </postscript>
+            <closer><!--Use the <closer> element again to hold Address Leaf information.-->
+               <pb n="1" facs="Edgeworth_Princeton_1829-05_page0.jpg"/>
+               <address>
+                  <addrLine>Miss E -</addrLine>
+                  <addrLine>8 May 1829</addrLine>
+                  <addrLine><persName ref="./Personography.xml#FoxC4">Charles Fox Esq<hi rend="superscript">re</hi></persName></addrLine>
+                  <addrLine>Rutland Square</addrLine>
+               </address>
+            </closer>
+         </div>
+      </body>
+      <back> </back>
+   </text>
+</TEI>

@@ -50,23 +50,19 @@
                   <collection><!-- Enter specific archival collection if applicable--></collection>
                   <idno><!--Consult library or WorldCat for this info--></idno>
                </msIdentifier>
-               <!-- FROM LAURA: it's here (below) in the head that I added the full information about the author,
-                  and you could add full information about the addressee as well. -->
                <head>Letter from 
                   <persName ref="./Personography.xml#EdgeM1">
                      <forename>Maria</forename>
                      <surname>Edgeworth</surname>
                   </persName>
                   to <persName ref="./Personography.xml#EdgeX1">Major Edgeworth</persName>, <placeName ref="./Placeography.xml#Edgeworthstown_IE">Edgeworths Town</placeName>, 
-                  <date when="1111-01-01">[May 1826]</date>
-                  <!--No date is actually listed on the letter, but this is presumably the date according to metadata-->
+                  <date when="1826-05-01">[May 1826]</date>
+                  <!--No date is listed on the letter, but this is presumably the date according to metadata-->
                </head>
                <physDesc>
                   <p>Small hole where letter seal used to be.</p>
                </physDesc>
             </msDesc>
-            <!-- FROM LAURA: where to put the following information in <bibl> is still a question: 
-               ask TEI List whether it should be in the sourceDesc or elsewhere? -->
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
@@ -92,6 +88,7 @@
       </profileDesc>
       <revisionDesc>
          <change when="2023-10-27" who="Id_who">Created file for letter, encoded letter</change>
+         <change when="2023-11-10" who="Id_who">Removed extra comments</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -130,7 +127,6 @@
                nought excepting that he is nephew to a man<lb/>
                of whom I know a great deal of good -<lb/>
                viz <persName ref="./Personography.xml#KellJ1">James Kelly</persName> of <unclear>Gourte</unclear> &amp; Kilcoursey - one of<lb/>
-               <!--Unsure if Kilcoursey refers to a family barony name or actual location-->
                our very best tenants - <persName ref="./Personography.xml#KellJ1">James Kelly</persName> entreats<lb/>
                me to write to you in favor of a nephew of his<lb/>
                <persName ref="./Personography.xml#JackR1">Mr. Richard Jackson</persName> - one of the Jacksons of<lb/>
@@ -191,12 +187,9 @@
                      <orig>Rich<hi rend="superscript">d</hi>
                      </orig>
                      <reg>Richard</reg>
-                  </choice> Jackson</persName> desir<lb/>
-               <!--How do we do a choice tag for a word that goes across two pages?-->
-            </p>
-            <p>
+                  </choice> Jackson</persName> <choice><orig>desir<lb/>
                <pb n="4" facs="Edgeworth_Princeton_1826-05_page04.jpg"/>
-               ing him to call on <persName ref="./Personography.xml#EdgeX1">Major Edgeworth</persName> at the Paving<lb/>
+               ing</orig><reg>desiring</reg></choice> him to call on <persName ref="./Personography.xml#EdgeX1">Major Edgeworth</persName> at the Paving<lb/>
                Board -</p>
             <lb/>
             <p>Do what your conscience will allow you<lb/>

@@ -61,7 +61,6 @@
                   <date when="1836-09-28">September 28th, 1836</date>
                </head>
                <physDesc>
-                  <!-- optional physical description of the letter goes here: paper size and condition, seal, postmarks, etc.-->
                </physDesc>
             </msDesc>
          </sourceDesc>
@@ -90,15 +89,15 @@
       <revisionDesc>
          <change when="2023-10-20" who="Id_who">Created file for letter, encoded letter based on template</change>
          <change when="2023-10-27" who="Id_who">Updated choice tags</change>
+         <change when="2023-11-10" who="Id_who">Removed extra comments</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <div type="letter">
             <pb n="2" facs="Edgeworth_Princeton_1836-09_page02.jpg"/>
-            <!--Letter begins on page two-->
             <opener>
-               <dateline><!--If there's no date line, omit this element. Record in the order in which it is written on the letter.-->
+               <dateline>
                   <name type="place" ref="Id_where"/>Edgeworth Town
                   <date when="1836-09-28"/>Sep<hi rend="superscript">r</hi> 28<hi rend="superscript">th</hi>. 1836</dateline>
             </opener>
@@ -136,8 +135,6 @@
                - only that it is impossible to drive<lb/>
             </p>
             <p>
-               <!--Where there's a page break record it inside the relevant body paragraph like this, 
-                  with the self-closing page-break element. n="2" indicates the START of the second page.-->
                <pb n="3" facs="Edgeworth_Princeton_1836-09_page03.jpg"/>
                into American republican heads<lb/>
                anything relating to Aristocratic<lb/>
@@ -162,22 +159,10 @@
                him to have the book in question<lb/>
                (which ought to be forfeited) sent<lb/>
                to N<hi rend="superscript">o</hi>. 7 Somerset place-<lb/>
-               <!--This has no XML ID because could not identify if in England or Ireland-->
             </p>
             <closer>
-               <!--include linebreaks, if used. example: <closer> Yours<lb/> Very sincerely<lb/> -->
-            </closer>
-            <postscript>
-               <p><!--A postscript goes here, outside the <closer>. --></p>
-            </postscript>
-            <!--You can include a <pb/> here, or inside the postScript.-->
-            <!-- Format for postscripts. 
-               Postscripts do NOT go inside closer tags. Adjust to take into account the order in your letter. 
-               Sometimes the signature is on page three, the address on page four, then the postscript follows back on the top of page one, for example.-->
-            <closer><!--Use the <closer> element again to hold Address Leaf information.-->
                <address>
                   <addrLine>Miss Edgeworth</addrLine>
-                  <!--This is written on the outside of the letter, so I imagine it is considered the address?-->
                </address>
             </closer>
          </div>
