@@ -1,15 +1,12 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title>Letter from Maria Edgeworth to William Jacob, June 13th, 1824</title>
             <author>Maria Edgeworth</author>
             <editor ref="Id_who"> Jessica Richards </editor>
-            <editor ref="Id_who">Robin Runia<!--Editor on the Maria Edgeworth Letters Project overseeing the coding of this particular letter: FirstName LastName -->
+            <editor ref="Id_who">Robin Runia
             </editor>
             <sponsor>
                <orgName>Maria Edgeworth Letters Project</orgName>
@@ -19,26 +16,21 @@
             <principal>Jessica Richard, Hilary Havens, Robin Runia, Susan Egenolf</principal>
             <respStmt>
                <resp>Transcription and coding by</resp>
-               <persName ref="Id_who">Aryaam Hashi<!--FirstName LastName-->
+               <persName ref="Id_who">Aryaam Hashi
                </persName>
                <persName>Jamie Kramer</persName>
-               <!-- List all transcribers or coders here, editors and students alike, <persName> by <persName>.-->
-               <persName ref="Id_who"><!--FirstName LastName--></persName>
-               <!-- If you're the last person interacting with the file, enter your name last on the list -->
+               <persName ref="Id_who"/>
             </respStmt>
          </titleStmt>
          <editionStmt>
-            <edition>First digital edition in TEI, date: <date when="2023-06-28">
-                  <!--enter the date on which the first coder created and saved this XML file in google drive-->
-               </date>
+            <edition>First digital edition in TEI, date: <date when="2023-06-28"/>
             </edition>
             <respStmt>
                <orgName type="naf" ref="https://id.loc.gov/authorities/names/n78095799">Pierpont Morgan Library
-                  <!--who digitized the letter or gave us permission for to use the file?-->
+                  
                </orgName>
                <resp> photos include: Edgeworth_Morgan_157569_1824_06_13_page01.jpg, Edgeworth_Morgan_157569_1824_06_13_page02.jpg, Edgeworth_Morgan_157569_1824_06_13_page03.jpg, Edgeworth_Morgan_157569_1824_06_13_page04.jpg, Edgeworth_Morgan_157569_1824_06_13_page05.jpg, Edgeworth_Morgan_157569_1824_06_13_page06.jpg
-                  <!-- Make a comma-separated list of each .jpg photo file name associated with your letter. 
-                     For example: DSCF9476.jpg, DSCF9477.jpg, DSCF9478.jpg-->
+                  
                </resp>
             </respStmt>
          </editionStmt>
@@ -46,11 +38,7 @@
             <authority>Maria Edgeworth Letters Project</authority>
             <date>2022</date>
             <availability>
-               <!--Uncomment the appropriate line, based on the archive that holds the physical copy of this letter, 
-                  and delete the other comment line(s).-->
-               <p>Reproduced by courtesy of the <orgName ref="https://id.loc.gov/authorities/names/n78095799">Pierpont Morgan Library</orgName>.<!--Reproduced by courtesy of the <orgName ref="#ReadingCL">Reading Central Library</orgName>.-->
-                  <!--or -->
-                  <!--Courtesy of <orgName ref="#Rylands">The University of Manchester</orgName>.-->
+               <p>Reproduced by courtesy of the <orgName ref="https://id.loc.gov/authorities/names/n78095799">Pierpont Morgan Library</orgName>.
                </p>
                <licence target="https://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons Attribution 4.0 (CC BY 4.0) Unported
             License</licence>
@@ -62,14 +50,11 @@
          </seriesStmt>
          <sourceDesc>
             <msDesc xml:lang="en">
-               <!-- This section of the header identifies the original manuscript source. -->
                <msIdentifier>
                   <repository>Pierpont Morgan Library</repository>
-                  <collection><!-- Enter specific archival collection if applicable--></collection>
-                  <idno><!--Consult library or WorldCat for this info--></idno>
+                  <collection/>
+                  <idno/>
                </msIdentifier>
-               <!-- FROM LAURA: it's here (below) in the head that I added the full information about the author,
-                  and you could add full information about the addressee as well. -->
                <head>Letter from 
                      <persName xml:id="EdgeM1" from="1768" to="1849">
                      <forename>Maria</forename>
@@ -81,23 +66,15 @@
                   to <persName ref="./Personography.xml#JacoW1">William Jacob</persName>, <placeName ref="./Placeography.xml#ENK">London</placeName>, 
                   <date when="1824-06-13"/>
                </head>
-               <physDesc>
-                  <!-- optional physical description of the letter goes here: paper size and condition, seal, postmarks, etc.-->
-               </physDesc>
+               <physDesc/>
             </msDesc>
-            <!-- FROM LAURA: where to put the following information in <bibl> is still a question: 
-               ask TEI List whether it should be in the sourceDesc or elsewhere? -->
             <bibl>In addition to our edited version, this letter was previously published in
-               <!--complete bibiographical info if letter was published in a book here - if not delete-->
+               
             </bibl>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
          <editorialDecl>
-            <!--Where Edgeworth uses nonstandard spelling and hyphenation of words, transcriber-coders 
-               should use TEI elements “choice," “sic," and “reg" to encode both Edgeworth’s 
-               spelling and the regular international standard of Oxford English spelling, 
-               following the first listed spelling in the Oxford English Dictionary. -->
             <p>Edgeworth’s spelling and punctuation are retained in transcription, except where a
                word is split at the end of a line and the beginning of the next in a manuscript. The
                long s and ligatured forms are silently emended.</p>
@@ -219,7 +196,6 @@
       <body>
          <div type="letter">
             <pb n="1" facs="Edgeworth_Morgan_157569_1824_06_13_page01.jpg"/>
-            <!--filenames for photos associated with this letter. Example: <pb n="1" facs="image1.jpg image2.jpg image3.jpg"/> -->
             <opener>
                I wish you<lb/>
                would<lb/>
@@ -248,7 +224,7 @@
                   <reg>report</reg>
                </choice> on the
                Irish schools.<lb/>
-               <dateline><!--If there's no date line, omit this element. Record in the order in which it is written on the letter.-->
+               <dateline>
                   <name type="place" ref="./Placeography.xml#Black-Castle_IE"/>Black Castle<lb/>
                   <date when="1824-06-13"/> June 13th, 1824. </dateline>
                <lb/>
@@ -256,7 +232,6 @@
                   <persName>
                      My dear <persName ref="./Personography.xml#JacoW1">Sir</persName>
                      <lb/>
-                     <!-- Use if letter has a saluation ("Dear Sir," for example). If not, delete this line.-->
                   </persName>
                </salute>
             </opener>
@@ -630,7 +605,6 @@
                your obliged <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
                <lb/>
                <address>
-                  <!--Include any text written on the address leaf; use a separate "addrLine" for each line and indicate line breaks. -->
                   <addrLine>
                      <persName ref="./Personography.xml#JacoW1">W. Jacob Esq<hi rend="superscript">re</hi>
                      </persName>
@@ -648,6 +622,6 @@
             </closer>
          </div>
       </body>
-      <back> </back>
+      <back/>
    </text>
 </TEI>
