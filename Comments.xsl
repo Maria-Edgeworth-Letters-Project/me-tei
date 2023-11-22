@@ -12,9 +12,6 @@
         </xsl:copy>
     </xsl:template>
     
-    <xsl:template match="comment()">
-        <xsl:value-of select="normalize-space(.)"/>
-    </xsl:template>
-    
+    <xsl:template match="comment()"/>
     
 </xsl:stylesheet>

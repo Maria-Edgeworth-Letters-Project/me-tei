@@ -18,7 +18,6 @@
             <respStmt>
                <resp>Transcription and coding by</resp>
                <persName ref="Id_who">Alexandra LaGrand</persName>
-               <!-- If you're the last person interacting with the file, enter your name last on the list -->
             </respStmt>
          </titleStmt>
          <editionStmt>
@@ -38,7 +37,7 @@
                <licence target="https://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons Attribution 4.0 (CC BY 4.0) Unported
             License</licence>
             </availability>
-            <idno>Edgeworth_Princeton_1816-12</idno> 
+            <idno>Edgeworth_Princeton_1816-12</idno>
          </publicationStmt>
          <seriesStmt>
             <title>Maria Edgeworth Letters Project</title>
@@ -47,8 +46,8 @@
             <msDesc xml:lang="en">
                <msIdentifier>
                   <repository>Princeton University Library</repository>
-                  <collection><!-- Enter specific archival collection if applicable--></collection>
-                  <idno><!--Consult library or WorldCat for this info--></idno>
+                  <collection/>
+                  <idno/>
                </msIdentifier>
                <head>Letter from 
                   <persName ref="./Personography.xml#EdgeM1">
@@ -63,10 +62,6 @@
       </fileDesc>
       <encodingDesc>
          <editorialDecl>
-            <!--Where Edgeworth uses nonstandard spelling and hyphenation of words, transcriber-coders 
-               should use TEI elements “choice," “sic," and “reg" to encode both Edgeworth’s 
-               spelling and the regular international standard of Oxford English spelling, 
-               following the first listed spelling in the Oxford English Dictionary. -->
             <p>Edgeworth’s spelling and punctuation are retained in transcription, except where a
                word is split at the end of a line and the beginning of the next in a manuscript. The
                long s and ligatured forms are silently emended.</p>
@@ -94,23 +89,35 @@
             <opener>
                <dateline>
                   <name type="place" ref="Id_where"/>Edgeworths Town
-                  <date when="1816-12-28"/><choice><orig>Dec<hi rend="superscript">r</hi></orig><reg>December</reg></choice>. 28<hi rend="superscript">h</hi> 1816</dateline>
+                  <date when="1816-12-28"/>
+                  <choice>
+                     <orig>Dec<hi rend="superscript">r</hi>
+                     </orig>
+                     <reg>December</reg>
+                  </choice>. 28<hi rend="superscript">h</hi> 1816</dateline>
                <salute>
                   <persName>My dear <persName ref="./Personography.xml#MileX1">M<hi rend="superscript">rs</hi>. Miles</persName> - This</persName>
                </salute>
             </opener>
-            <p>day we received <persName ref="./Personography.xml#MileJ1">M<hi rend="superscript">r</hi>. Miles's</persName><lb/>
+            <p>day we received <persName ref="./Personography.xml#MileJ1">M<hi rend="superscript">r</hi>. Miles's</persName>
+               <lb/>
                answer to my <persName ref="./Personography.xml#EdgeR1">father's</persName> letter<lb/>
                written I think in your<lb/>
                handwriting - Why did not<lb/>
                you tell me that you had<lb/>
-               been ill after your <choice><orig>confine<lb/>
-               ment</orig><reg>confinement</reg></choice>? - You said not one<lb/>
+               been ill after your <choice>
+                  <orig>confine<lb/>
+               ment</orig>
+                  <reg>confinement</reg>
+               </choice>? - You said not one<lb/>
                word of this in your very<lb/>
                kind letter to me and<lb/>
                this led me into doing<lb/>
-               what was very <choice><orig>inconsider<lb/>
-               =ate</orig><reg>inconsiderate</reg></choice> and what if I had<lb/>
+               what was very <choice>
+                  <orig>inconsider<lb/>
+               =ate</orig>
+                  <reg>inconsiderate</reg>
+               </choice> and what if I had<lb/>
                known the circumstances<lb/>
                would have been indeed<lb/>
                most unfeeling &amp; brutal.<lb/>
@@ -143,36 +150,51 @@
             </p>
             <p>
                I am sincerely sorry<lb/>
-               my good friend <persName ref="./Personography.xml#MileJ1">M<hi rend="superscript">r</hi>. Miles</persName><lb/>
+               my good friend <persName ref="./Personography.xml#MileJ1">M<hi rend="superscript">r</hi>. Miles</persName>
+               <lb/>
                has suffered so much and<lb/>
                I beg you will remember<lb/>
                me to him in the kindest<lb/>
                manner - I thank him<lb/>
                for thinking of me and<lb/>
                my books when he was<lb/>
-               suffering - My <persName ref="./Personography.xml#EdgeR1">father</persName><lb/>
+               suffering - My <persName ref="./Personography.xml#EdgeR1">father</persName>
+               <lb/>
                is very much of obliged to<lb/>
                him - He will answer<lb/>
                for himself - But I was<lb/>
-               determined to write <choice><orig>im<lb/>
-               =mediately</orig><reg>immediately</reg></choice> myself to<lb/>
+               determined to write <choice>
+                  <orig>im<lb/>
+               =mediately</orig>
+                  <reg>immediately</reg>
+               </choice> myself to<lb/>
                represent that I really<lb/>
                am not a brute<lb/>
             </p>
             <closer>
-               I am my dear <persName ref="./Personography.xml#MileX1">M<hi rend="superscript">rs</hi>. Miles</persName><lb/>
+               I am my dear <persName ref="./Personography.xml#MileX1">M<hi rend="superscript">rs</hi>. Miles</persName>
+               <lb/>
                yours very sincerely<lb/>
                Maria Edgeworth<lb/>
             </closer>
             <closer>
                <address>
-                  <addrLine><persName ref="./Personography.xml#MileX1">M<hi rend="superscript">rs</hi>. Miles</persName></addrLine><lb/>
-                  <addrLine><placeName ref="./Placeography.xml#West-End-Hampstead_ENK">West End</placeName></addrLine><lb/>
-                  <addrLine><placeName ref="./Placeography.xml#London_ENK">London</placeName></addrLine><lb/>
-                </address>
+                  <addrLine>
+                     <persName ref="./Personography.xml#MileX1">M<hi rend="superscript">rs</hi>. Miles</persName>
+                  </addrLine>
+                  <lb/>
+                  <addrLine>
+                     <placeName ref="./Placeography.xml#West-End-Hampstead_ENK">West End</placeName>
+                  </addrLine>
+                  <lb/>
+                  <addrLine>
+                     <placeName ref="./Placeography.xml#London_ENK">London</placeName>
+                  </addrLine>
+                  <lb/>
+               </address>
             </closer>
          </div>
       </body>
-      <back> </back>
+      <back/>
    </text>
 </TEI>

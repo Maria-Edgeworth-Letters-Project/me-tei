@@ -21,12 +21,10 @@
                <persName ref="Id_who">Jessica Richard
                </persName>
                <persName ref="Id_who">Jamie Kramer</persName>
-               <!-- If you're the last person interacting with the file, enter your name last on the list -->
             </respStmt>
          </titleStmt>
          <editionStmt>
-            <edition>First digital edition in TEI, date: <date when="2022-08-03">
-            </date>
+            <edition>First digital edition in TEI, date: <date when="2022-08-03"/>
             </edition>
             <respStmt>
                <orgName type="naf" ref="http://id.loc.gov/authorities/names/n82003163">Princeton University. Firestone Library</orgName>
@@ -72,11 +70,8 @@
                      <surname>Relfe</surname>
                   </persName>
                </head>
-               <physDesc>
-               </physDesc>
+               <physDesc/>
             </msDesc>
-            <!-- FROM LAURA: where to put the following information in <bibl> is still a question: 
-               ask TEI List whether it should be in the sourceDesc or elsewhere? -->
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
@@ -86,12 +81,9 @@
                long s and ligatured forms are silently emended.</p>
          </editorialDecl>
       </encodingDesc>
-      <profileDesc>
-      </profileDesc>
+      <profileDesc/>
       <revisionDesc>
-         <change when="2021-01-01" who="Id_who">
-            <!--Brief description of what you did here.-->
-         </change>
+         <change when="2021-01-01" who="Id_who"/>
       </revisionDesc>
    </teiHeader>
    <text>

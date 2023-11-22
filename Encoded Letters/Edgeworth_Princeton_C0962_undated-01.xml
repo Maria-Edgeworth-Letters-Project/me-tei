@@ -18,7 +18,6 @@
             <respStmt>
                <resp>Transcription and coding by</resp>
                <persName ref="Id_who">Alexandra LaGrand</persName>
-               <!-- If you're the last person interacting with the file, enter your name last on the list -->
             </respStmt>
          </titleStmt>
          <editionStmt>
@@ -38,7 +37,7 @@
                <licence target="https://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons Attribution 4.0 (CC BY 4.0) Unported
             License</licence>
             </availability>
-            <idno>Edgeworth_Princeton_C0962_undated-01</idno> 
+            <idno>Edgeworth_Princeton_C0962_undated-01</idno>
          </publicationStmt>
          <seriesStmt>
             <title>Maria Edgeworth Letters Project</title>
@@ -47,8 +46,8 @@
             <msDesc xml:lang="en">
                <msIdentifier>
                   <repository>Princeton University Library</repository>
-                  <collection><!-- Enter specific archival collection if applicable--></collection>
-                  <idno><!--Consult library or WorldCat for this info--></idno>
+                  <collection/>
+                  <idno/>
                </msIdentifier>
                <head>Letter from 
                   <persName ref="./Personography.xml#EdgeM1">
@@ -57,18 +56,12 @@
                   </persName>
                    to <persName>Madam Miles</persName>
                </head>
-               <physDesc>
-                  <!-- optional physical description of the letter goes here: paper size and condition, seal, postmarks, etc.-->
-               </physDesc>
+               <physDesc/>
             </msDesc>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
          <editorialDecl>
-            <!--Where Edgeworth uses nonstandard spelling and hyphenation of words, transcriber-coders 
-               should use TEI elements “choice," “sic," and “reg" to encode both Edgeworth’s 
-               spelling and the regular international standard of Oxford English spelling, 
-               following the first listed spelling in the Oxford English Dictionary. -->
             <p>Edgeworth’s spelling and punctuation are retained in transcription, except where a
                word is split at the end of a line and the beginning of the next in a manuscript. The
                long s and ligatured forms are silently emended.</p>
@@ -101,8 +94,12 @@
             <p>Your very obliging letter &amp; little note<lb/>
                enclosed relieved us all from some<lb/>
                anxiety, as we really began to think, &amp;<lb/>
-               not without reason, that we had <choice><orig>trespass<lb/>
-               ed</orig><reg>trespassed</reg></choice> too far upon your good nature.<lb/></p>
+               not without reason, that we had <choice>
+                  <orig>trespass<lb/>
+               ed</orig>
+                  <reg>trespassed</reg>
+               </choice> too far upon your good nature.<lb/>
+            </p>
             <p>
                With respect to the muslin for<lb/>
                the frock which I speak of first, because<lb/>
@@ -120,7 +117,9 @@
                at bottom - bosom &amp; sleeves - &amp; white satin<lb/>
                ribbon if necessary - As to the price &amp; choice of<lb/>
                the lace I leave the <add>choice</add> to your judgment &amp; taste<lb/>
-               &amp; the price to <persName ref="./Personography.xml#EyleX1">M<hi rend="superscript">r</hi>. <unclear>Eyles's</unclear></persName> conscience -<lb/></p>
+               &amp; the price to <persName ref="./Personography.xml#EyleX1">M<hi rend="superscript">r</hi>. <unclear>Eyles's</unclear>
+               </persName> conscience -<lb/>
+            </p>
             <p>
                My brother <persName ref="./Personography.xml#EdgeC1">Sneyd</persName> will take charge of this<lb/>
             </p>
@@ -129,36 +128,43 @@
                muslin &amp; lace, <add>&amp; ribbon</add> &amp; of the veil for me - Probably<lb/>
                you have seen him by this time - He was<lb/>
                suddenly called to London on some business<lb/>
-               relative to his <persName ref="./Personography.xml#EdgeH3">wife's</persName> affairs.<lb/></p>
+               relative to his <persName ref="./Personography.xml#EdgeH3">wife's</persName> affairs.<lb/>
+            </p>
             <p>
                I am delighted to hear that M<hi rend="superscript">rs</hi>. E's lace sleeves<lb/>
                will not be dear as I tempted &amp; indeed<lb/>
                forced her to get them --.<lb/>
-               With respect for the Mechlin lace for <persName ref="./Personography.xml#EdgeH4">Honora's</persName><lb/>
+               With respect for the Mechlin lace for <persName ref="./Personography.xml#EdgeH4">Honora's</persName>
+               <lb/>
                lace frock 4 yds &amp; 3/4 at 8/9 must she thinks<lb/>
                be as much as she wants &amp; she thinks<lb/>
                the price below what she could have hoped.<lb/>
                - I hope it is broad enough for the <hi rend="underline">bottom</hi> of<lb/>
                the dress - If this should not be the case<lb/>
                buy a sufficient quantity for trimming the<lb/>
-               bottom of her dress of what will <hi rend="underline">suit</hi> <add>in general look</add> her broad<lb/>
+               bottom of her dress of what will <hi rend="underline">suit</hi>
+               <add>in general look</add> her broad<lb/>
                lace <add>pattern</add> &amp; I will take the 4 3/4 yds of Mechlin<lb/>
-               with pleasure off her hands.<lb/></p>
+               with pleasure off her hands.<lb/>
+            </p>
             <p>
-               I am tempted to purchase for <hi rend="underline">myself</hi><lb/>
+               I am tempted to purchase for <hi rend="underline">myself</hi>
+               <lb/>
                a pair of sleeves like <persName ref="./Personography.xml#EdgeX2">M<hi rend="superscript">rs</hi>. Edgeworth's</persName> as you<lb/>
                say they are so cheap &amp; pretty - I have none<lb/>
                that are full as the present mode requires -<lb/>
                I therefore beg you to bespeak me a pair<lb/>
-               - My arm is much less than <persName ref="./Personography.xml#EdgeX2">M<hi rend="superscript">rs</hi>. Edgeworths</persName><lb/>
+               - My arm is much less than <persName ref="./Personography.xml#EdgeX2">M<hi rend="superscript">rs</hi>. Edgeworths</persName>
+               <lb/>
                - but as the sleeve draws in, I suppose<lb/>
                an exact pattern is not necessary - I should<lb/>
                not wish mine to be <hi rend="underline">very</hi> full as the effect would<lb/>
-               be to make me look as broad as I am <hi rend="underline">long</hi><lb/>
+               be to make me look as broad as I am <hi rend="underline">long</hi>
+               <lb/>
                or rather as I am <hi rend="underline">short</hi> --<lb/>
             </p>
          </div>
       </body>
-      <back> </back>
+      <back/>
    </text>
 </TEI>

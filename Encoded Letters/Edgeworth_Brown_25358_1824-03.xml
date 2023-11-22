@@ -20,12 +20,10 @@
             <respStmt>
                <resp>Transcription and coding by</resp>
                <persName ref="Id_who">Jamie Kramer</persName>
-               <!-- If you're the last person interacting with the file, enter your name last on the list -->
             </respStmt>
          </titleStmt>
          <editionStmt>
-            <edition>First digital edition in TEI, date: <date when="2023-06-25">
-               </date>
+            <edition>First digital edition in TEI, date: <date when="2023-06-25"/>
             </edition>
             <respStmt>
                <orgName ref="http://id.loc.gov/authorities/names/n81029638">
@@ -59,8 +57,7 @@
                <msIdentifier>
                   <repository>Brown University. Library</repository>
                   <collection>Harry Lyman Koopman Collection</collection>
-                  <idno>                 
-                  </idno>
+                  <idno/>
                </msIdentifier>
                <head>Letter from 
                   <persName ref="./Personography.xml#EdgeM1">
@@ -71,20 +68,12 @@
                   <placeName ref="./Placeography.xml#Philadelphia_PA_US">Philadelphia</placeName>
                   <date when="1824-03-04">March 4, 1824</date>
                </head>
-               <physDesc>
-                  <!-- optional physical description of the letter goes here: paper size and condition, seal, postmarks, etc.-->
-               </physDesc>
+               <physDesc/>
             </msDesc>
-            <!-- FROM LAURA: where to put the following information in <bibl> is still a question: 
-               ask TEI List whether it should be in the sourceDesc or elsewhere? -->
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
          <editorialDecl>
-            <!--Where Edgeworth uses nonstandard spelling and hyphenation of words, transcriber-coders 
-               should use TEI elements “choice," “sic," and “reg" to encode both Edgeworth’s 
-               spelling and the regular international standard of Oxford English spelling, 
-               following the first listed spelling in the Oxford English Dictionary. -->
             <p>Edgeworth’s spelling and punctuation are retained in transcription, except where a
                word is split at the end of a line and the beginning of the next in a manuscript. The
                long s and ligatured forms are silently emended.</p>
@@ -177,9 +166,7 @@
          </classDecl>
       </encodingDesc>
       <revisionDesc>
-         <change when="2021-01-01" who="Id_who">
-            <!--Brief description of what you did here.-->
-         </change>
+         <change when="2021-01-01" who="Id_who"/>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -365,6 +352,6 @@
             </closer>
          </div>
       </body>
-      <back> </back>
+      <back/>
    </text>
 </TEI>

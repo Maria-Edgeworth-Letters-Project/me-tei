@@ -20,27 +20,20 @@
                <resp>Transcription and coding by</resp>
                <persName ref="Id_who">Lindsey Jones
                </persName>
-               <!-- List all transcribers or coders here, editors and students alike, <persName> by <persName>.-->
-               <persName ref="Id_who"><!--FirstName LastName--></persName>
-               <!-- If you're the last person interacting with the file, enter your name last on the list -->
+               <persName ref="Id_who"/>
             </respStmt>
          </titleStmt>
          <editionStmt>
-            <edition>First digital edition in TEI, date: November 3, 2023<date when="2023-11-03">
-                  <!--enter the date on which the first coder created and saved this XML file in google drive-->
-               </date>
+            <edition>First digital edition in TEI, date: November 3, 2023<date when="2023-11-03"/>
             </edition>
             <respStmt>
                <orgName type="naf" ref="http://id.loc.gov/authorities/names/n82003163">
                   Princeton University Library
-                  <!--who digitized the letter or gave us permission for to use the file?-->
-               </orgName>
+                  </orgName>
                <resp> photos include:
                   Edgeworth_Princeton_1814-11_page01.jpg,
                   Edgeworth_Princeton_1814-11_page02.jpg
-                  <!-- Make a comma-separated list of each .jpg photo file name associated with your letter. 
-                     For example: DSCF9476.jpg, DSCF9477.jpg, DSCF9478.jpg-->
-               </resp>
+                  </resp>
             </respStmt>
          </editionStmt>
          <publicationStmt>
@@ -53,44 +46,35 @@
                <licence target="https://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons Attribution 4.0 (CC BY 4.0) Unported
             License</licence>
             </availability>
-            <idno>Edgeworth_Princeton_1814-11</idno> 
+            <idno>Edgeworth_Princeton_1814-11</idno>
          </publicationStmt>
          <seriesStmt>
             <title>Maria Edgeworth Letters Project</title>
          </seriesStmt>
          <sourceDesc>
             <msDesc xml:lang="en">
-               <!-- This section of the header identifies the original manuscript source. -->
                <msIdentifier>
                   <repository>Princeton University Library</repository>
-                  <collection><!-- Enter specific archival collection if applicable--></collection>
+                  <collection/>
                   <idno>Edgeworth_Princeton_1814-11</idno>
-               </msIdentifier>               
-               <!-- FROM LAURA: it's here (below) in the head that I added the full information about the author,
-                  and you could add full information about the addressee as well. -->
+               </msIdentifier>
                <head>Letter from 
                      <persName xml:id="EdgeM1" from="1768" to="1849">
-                        <forename>Maria</forename>
-                        <surname>Edgeworth</surname>
-                        <date>1768-1849</date>
-                        <idno type="VIAF">71477273</idno>
-                        <idno type="SNAC">62567029</idno>
-                     </persName>
+                     <forename>Maria</forename>
+                     <surname>Edgeworth</surname>
+                     <date>1768-1849</date>
+                     <idno type="VIAF">71477273</idno>
+                     <idno type="SNAC">62567029</idno>
+                  </persName>
                   to <persName ref="./Personography.xml#MileX1">Madam Miles</persName>, <placeName ref="./Placeography.xml#Edgeworthstown_IE">Edgeworth's Town</placeName>, 
                   <date when="1814-11-28">Nov <hi rend="superscript">r</hi>. 28<hi rend="superscript">th</hi> 1814</date>
                </head>
-               <physDesc>
-                  <!-- optional physical description of the letter goes here: paper size and condition, seal, postmarks, etc.-->
-               </physDesc>
+               <physDesc/>
             </msDesc>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
          <editorialDecl>
-            <!--Where Edgeworth uses nonstandard spelling and hyphenation of words, transcriber-coders 
-               should use TEI elements “choice," “sic," and “reg" to encode both Edgeworth’s 
-               spelling and the regular international standard of Oxford English spelling, 
-               following the first listed spelling in the Oxford English Dictionary. -->
             <p>Edgeworth’s spelling and punctuation are retained in transcription, except where a
                word is split at the end of a line and the beginning of the next in a manuscript. The
                long s and ligatured forms are silently emended.</p>
@@ -112,9 +96,8 @@
       <body>
          <div type="letter">
             <pb n="1" facs="image1.jpg"/>
-            <!--filenames for photos associated with this letter. Example: <pb n="1" facs="image1.jpg image2.jpg image3.jpg"/> -->
             <opener>
-               <dateline><!--If there's no date line, omit this element. Record in the order in which it is written on the letter.-->
+               <dateline>
                   <name type="place" ref="./Placeography.xml#Edgeworthstown_IE">Edgeworth's Town</name>
                   <lb/>
                   <date when="1814-11-28"/>November 28, 1814. </dateline>
@@ -123,14 +106,19 @@
                </salute>
             </opener>
             <p> 
-               I have just heard of an excellent <choice><orig>op-<lb/>
-               portunity</orig><reg>opportunity</reg></choice> of getting our small parcel<lb/>
+               I have just heard of an excellent <choice>
+                  <orig>op-<lb/>
+               portunity</orig>
+                  <reg>opportunity</reg>
+               </choice> of getting our small parcel<lb/>
                over to <placeName ref="./Placeography.xml#IE">Ireland</placeName> - a friend of ours is now<lb/>
                at <placeName ref="./Placeography.xml#Clifton_ENK">Clifton</placeName> &amp; if you will be so good to<lb/>
                send it directed as follows by the coach<lb/>
                it will reach us in due time.<lb/>
             </p>
-            <p><persName ref="./Personography.xml#GodlM1">Miss Margaret Godley</persName><lb/>
+            <p>
+               <persName ref="./Personography.xml#GodlM1">Miss Margaret Godley</persName>
+               <lb/>
                <placeName ref="./Placeography.xml#14-Hope-Square_ENK">14 Hope Square<lb/>
                Clifton - Bristol</placeName> -<lb/>
             </p>
@@ -139,12 +127,16 @@
             </p>
             <p>If you have time &amp; opportunity<lb/>
                I should be very much obliged to you<lb/>
-               if you would add to my former <choice><orig>com-<lb/>
-               missions</orig><reg>commissions</reg></choice> the following<lb/>
+               if you would add to my former <choice>
+                  <orig>com-<lb/>
+               missions</orig>
+                  <reg>commissions</reg>
+               </choice> the following<lb/>
             </p>
-            <p><unclear></unclear><lb/>
-            <pb n="2" facs="Edgeworth_Princeton_1814-11_page02.jpg"/>
-
+            <p>
+               <unclear/>
+               <lb/>
+               <pb n="2" facs="Edgeworth_Princeton_1814-11_page02.jpg"/>
                <note place="bottom">CO962, Edgeworth</note>
                Mechlin lace sent in my last - same as<lb/>
                what you bought for me before for the<lb/>
@@ -156,39 +148,38 @@
                clear bobbinet on which you can have<lb/>
                an edge of real lace put at<lb/>
             </p>
-            <p><placeName ref="./Placeography.xml#Rickwoods_ENK">Rickwoods</placeName> <placeName ref="./Placeography.xml#104-Piccadilly_ENK">N<hi rend="superscript">o</hi> 104 Piccadilly</placeName> -<lb/>
+            <p>
+               <placeName ref="./Placeography.xml#Rickwoods_ENK">Rickwoods</placeName>
+               <placeName ref="./Placeography.xml#104-Piccadilly_ENK">N<hi rend="superscript">o</hi> 104 Piccadilly</placeName> -<lb/>
             </p>
             <p>It is for the sake of your taste in the choice<lb/>
-               of the edge that I trouble you with this <choice><orig>com-<lb/>
-               mission</orig><reg>commission</reg></choice><lb/>
+               of the edge that I trouble you with this <choice>
+                  <orig>com-<lb/>
+               mission</orig>
+                  <reg>commission</reg>
+               </choice>
+               <lb/>
             </p>
             <p>I saw an edge lately of nearly this pattern<lb/>
                which looked light &amp; elegant<lb/>
                <figure>
                   <figDesc>Pen-drawn illustration of four circles conjoined horizontally which contain a cross-hatched pattern.</figDesc>
-               </figure><lb/>
+               </figure>
+               <lb/>
                I do not like deep heavy borders for such<lb/>
-               <add>a</add> little creature as I am: but I leave it to your taste.<lb/> 
-            
+               <add>a</add> little creature as I am: but I leave it to your taste.<lb/>
             </p>
-            <closer>
-               <!--include linebreaks, if used. example: <closer> Yours<lb/> Very sincerely<lb/> -->
-            </closer>
+            <closer/>
             <postscript>
-               <p><!--A postscript goes here, outside the <closer>. --></p>
+               <p/>
             </postscript>
-            <!--You can include a <pb/> here, or inside the postScript.-->
-            <!-- Format for postscripts. 
-               Postscripts do NOT go inside closer tags. Adjust to take into account the order in your letter. 
-               Sometimes the signature is on page three, the address on page four, then the postscript follows back on the top of page one, for example.-->
-            <closer><!--Use the <closer> element again to hold Address Leaf information.-->
+            <closer>
                <address>
-                  <!--Include any text written on the address leaf; use a separate "addrLine" for each line and indicate line breaks. -->
                   <addrLine/>
                </address>
             </closer>
          </div>
       </body>
-      <back> </back>
+      <back/>
    </text>
 </TEI>
