@@ -1,12 +1,15 @@
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Letter from Maria Edgeworth and Richard Edgeworth to Étienne Dumont, June 30 1811</title>
+            <title>Letter from Maria Edgeworth and Richard Edgeworth to Étienne Dumont, June 30 1811<!--Recipient Name, Month Day, YYYY--></title>
             <author>Maria Edgeworth</author>
             <editor ref="Id_who">
-                    Eliza Wilcox
+                    Eliza Wilcox<!--Editor on the Maria Edgeworth Letters Project overseeing the coding of this particular letter: FirstName LastName -->
                 </editor>
             <sponsor>
                <orgName>Maria Edgeworth Letters Project</orgName>
@@ -16,23 +19,28 @@
             <principal>Jessica Richard, Hilary Havens, Robin Runia, Susan Egenolf</principal>
             <respStmt>
                <resp>Transcription and coding by</resp>
-               <persName ref="Id_who">Eliza Wilcox
+               <persName ref="Id_who">Eliza Wilcox<!--FirstName LastName-->
                     </persName>
-               <persName ref="Id_who"/>
+               <!-- List all transcribers or coders here, editors and students alike, <persName> by <persName>.-->
+               <persName ref="Id_who"><!--FirstName LastName--></persName>
+               <!-- If you're the last person interacting with the file, enter your name last on the list -->
             </respStmt>
          </titleStmt>
          <editionStmt>
-            <edition>First digital edition in TEI, date: May 21, 2023<date when="2023-05-21"/>
+            <edition>First digital edition in TEI, date: May 21, 2023<date when="2023-05-21">
+                    <!--enter the date on which the first coder created and saved this XML file in google drive-->
+                </date>
             </edition>
             <respStmt>
                <orgName type="naf" ref="https://d-nb.info/gnd/5075238-8">
-                        Bibliothèques municipales de la Ville de Genève
+                        Bibliothèques municipales de la Ville de Genève<!--who digitized the letter or gave us permission for to use the file?-->
                     </orgName>
                <resp> photos include:
                         Edgeworth_Geneve_33_2_1811_06_30_page01.jpg,
                         Edgeworth_Geneve_33_2_1811_06_30_page02.jpg,
                         Edgeworth_Geneve_33_2_1811_06_30_page03.jpg,
-                        Edgeworth_Geneve_33_2_1811_06_30_page04.jpb
+                        Edgeworth_Geneve_33_2_1811_06_30_page04.jpb<!-- Make a comma-separated list of each .jpg photo file name associated with your letter. 
+                     For example: DSCF9476.jpg, DSCF9477.jpg, DSCF9478.jpg-->
                     </resp>
             </respStmt>
          </editionStmt>
@@ -40,23 +48,31 @@
             <authority>Maria Edgeworth Letters Project</authority>
             <date>2023</date>
             <availability>
+                    <!--Uncomment the appropriate line, based on the archive that holds the physical copy of this letter, 
+                  and delete the other comment line(s).-->
                <p>Reproduced by courtesy of the <orgName ref="https://d-nb.info/gnd/5075238-8">Bibliothèques municipales de la Ville de Genève</orgName>
+                  <!--Reproduced by courtesy of the <orgName ref="#ReadingCL">Reading Central Library</orgName>.-->
+                  <!--or -->
+                  <!--Courtesy of <orgName ref="#Rylands">The University of Manchester</orgName>.-->
                </p>
                <licence target="https://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons Attribution 4.0 (CC BY 4.0) Unported
             License</licence>
             </availability>
-            <idno/>
+            <idno><!--Change to match the file name and current naming standards, i.e. "Edgeworth_Beinecke_330_1817_01_24" if file name is "Edgeworth_Beinecke_330_1817_01_24.xml"--></idno>
          </publicationStmt>
          <seriesStmt>
             <title>Maria Edgeworth Letters Project</title>
          </seriesStmt>
          <sourceDesc>
             <msDesc xml:lang="en">
+                    <!-- This section of the header identifies the original manuscript source. -->
                <msIdentifier>
                   <repository>Bibliothèques municipales de la Ville de Genève</repository>
-                  <collection/>
-                  <idno/>
+                  <collection><!-- Enter specific archival collection if applicable--></collection>
+                  <idno><!--Consult library or WorldCat for this info--></idno>
                </msIdentifier>
+               <!-- FROM LAURA: it's here (below) in the head that I added the full information about the author,
+                  and you could add full information about the addressee as well. -->
                <head>Letter from 
                         <persName xml:id="ME" from="1768" to="1849">
                      <forename>Maria</forename>
@@ -66,18 +82,26 @@
                      <idno type="SNAC">62567029</idno>
                      <persName ref="./Personography.xml#EdgeR1">Richard Lovell Edgeworth</persName>
                   </persName>
-                        to <persName ref="./Personography.xml#DumoE1">Étienne Dumont</persName>, <placeName ref="./Placeography.xml#19-Haymaret_STK">19 Haymarket, Lansdowne, London</placeName>, 
-                        June 30, 1811<date when="1811-06-30"/>
+                        to <persName ref="./Personography.xml#DumoE1">Étienne Dumont<!--Recipient Name--></persName>, <placeName ref="./Placeography.xml#19-Haymaret_STK">19 Haymarket, Lansdowne, London</placeName>, 
+                        June 30, 1811<date when="1811-06-30"><!-- Transcribe the date as it appears on the letter itself. Enter a numeric standardized date value in @when. --></date>
                </head>
-               <physDesc/>
+               <physDesc>
+                        <!-- optional physical description of the letter goes here: paper size and condition, seal, postmarks, etc.-->
+                    </physDesc>
             </msDesc>
+            <!-- FROM LAURA: where to put the following information in <bibl> is still a question: 
+               ask TEI List whether it should be in the sourceDesc or elsewhere? -->
             <bibl>In addition to our edited version, this letter was previously published in
-                    
+                    <!--complete bibiographical info if letter was published in a book here - if not delete-->
                 </bibl>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
          <editorialDecl>
+                <!--Where Edgeworth uses nonstandard spelling and hyphenation of words, transcriber-coders 
+               should use TEI elements “choice," “sic," and “reg" to encode both Edgeworth’s 
+               spelling and the regular international standard of Oxford English spelling, 
+               following the first listed spelling in the Oxford English Dictionary. -->
             <p>Edgeworth’s spelling and punctuation are retained in transcription, except where a
                     word is split at the end of a line and the beginning of the next in a manuscript. The
                     long s and ligatured forms are silently emended.</p>
@@ -181,20 +205,24 @@
          </correspDesc>
       </profileDesc>
       <revisionDesc>
-         <change when="2021-01-01" who="Id_who"/>
+         <change when="2021-01-01" who="Id_who">
+                <!--Brief description of what you did here.-->
+            </change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <div type="letter">
             <pb n="1" facs="Edgeworth_Geneve_33_2_1811_06_30_page01.jpg"/>
+            <!--filenames for photos associated with this letter. Example: <pb n="1" facs="image1.jpg image2.jpg image3.jpg"/> -->
             <opener>
-               <dateline>
+               <dateline><!--If there's no date line, omit this element. Record in the order in which it is written on the letter.-->
                   <name type="place" ref="./Placeography.xml#Edgeworthstown_IE"/>Edgeworthstown, Ireland
                         <date when="1811-06-30"/>June 30, 1811</dateline>
                <salute>
                   <persName>
                             My Dear Sir<lb/>
+                     <!-- Use if letter has a saluation ("Dear Sir," for example). If not, delete this line.-->
                   </persName>
                </salute>
             </opener>
@@ -230,6 +258,7 @@
             <p>yours truly<lb/>
                <persName ref="./Personography.xml#EdgeR1">Rich<hi rend="superscript">d</hi> Lovell Edgeworth</persName>
                <lb/>
+               <!-- Begin transcibing the body of the letter here. -->
             </p>
             <pb n="2" facs="Edgeworth_Geneve_33_2_1811_06_30_page02.jpg"/>
             <p>Mr dear Sir, My <persName ref="./Personograph.xml#EdgeR1">father</persName> flatters me that the<lb/>
@@ -296,8 +325,9 @@
                     Your obliged<lb/>
                <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
                <lb/>
+               <!--include linebreaks, if used. example: <closer> Yours<lb/> Very sincerely<lb/> -->
             </closer>
-            <closer>
+            <closer><!--Use the <closer> element again to hold Address Leaf information.-->
                <address>
                   <pb n="4" facs="Edgeworth_Geneve_33_2_1811_06_30_page04.jpg"/>
                   <addrLine>Tunbridge</addrLine>

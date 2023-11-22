@@ -1,5 +1,8 @@
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -17,16 +20,20 @@
                <resp>Transcription and coding by</resp>
                <persName ref="Id_who">Lindsey Jones
                </persName>
-               <persName ref="Id_who"/>
+               <!-- List all transcribers or coders here, editors and students alike, <persName> by <persName>.-->
+               <persName ref="Id_who"><!--FirstName LastName--></persName>
+               <!-- If you're the last person interacting with the file, enter your name last on the list -->
             </respStmt>
          </titleStmt>
          <editionStmt>
-            <edition>First digital edition in TEI, date: November 4, 2023<date when="2023-11-04"/>
+            <edition>First digital edition in TEI, date: November 4, 2023<date when="2023-11-04">
+                  <!--enter the date on which the first coder created and saved this XML file in google drive-->
+               </date>
             </edition>
             <respStmt>
                <orgName type="naf" ref="http://id.loc.gov/authorities/names/n82003163">
                   Princeton University Library
-                  
+                  <!--who digitized the letter or gave us permission for to use the file?-->
                </orgName>
                <resp> photos include:
                   Edgeworth_Princeton_1829-06_page01.jpg,
@@ -46,35 +53,45 @@
                <licence target="https://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons Attribution 4.0 (CC BY 4.0) Unported
             License</licence>
             </availability>
-            <idno>Edgeworth_Princeton_1829-06</idno>
+            <idno>Edgeworth_Princeton_1829-06</idno> 
          </publicationStmt>
          <seriesStmt>
             <title>Maria Edgeworth Letters Project</title>
          </seriesStmt>
          <sourceDesc>
             <msDesc xml:lang="en">
+               <!-- This section of the header identifies the original manuscript source. -->
                <msIdentifier>
                   <repository>Princeton University Library</repository>
-                  <collection/>
+                  <collection><!-- Enter specific archival collection if applicable--></collection>
                   <idno>Edgeworth_Princeton_1829-06</idno>
                </msIdentifier>
+               
+               <!-- FROM LAURA: it's here (below) in the head that I added the full information about the author,
+                  and you could add full information about the addressee as well. -->
                <head>Letter from 
                      <persName xml:id="EdgeM1" from="1768" to="1849">
-                     <forename>Maria</forename>
-                     <surname>Edgeworth</surname>
-                     <date>1768-1849</date>
-                     <idno type="VIAF">71477273</idno>
-                     <idno type="SNAC">62567029</idno>
-                  </persName>
+                        <forename>Maria</forename>
+                        <surname>Edgeworth</surname>
+                        <date>1768-1849</date>
+                        <idno type="VIAF">71477273</idno>
+                        <idno type="SNAC">62567029</idno>
+                     </persName>
                   to <persName ref="./Personography.xml#StriJ1">J. E. Strickland</persName>, <placeName ref="./Placeography.xml#Edgeworthstown_IE">Edgeworths Town</placeName>, 
                   <date when="1829-06-07">June 7<hi rend="superscript">th</hi> 1829</date>
                </head>
-               <physDesc/>
+               <physDesc>
+                  <!-- optional physical description of the letter goes here: paper size and condition, seal, postmarks, etc.-->
+               </physDesc>
             </msDesc>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
          <editorialDecl>
+            <!--Where Edgeworth uses nonstandard spelling and hyphenation of words, transcriber-coders 
+               should use TEI elements “choice," “sic," and “reg" to encode both Edgeworth’s 
+               spelling and the regular international standard of Oxford English spelling, 
+               following the first listed spelling in the Oxford English Dictionary. -->
             <p>Edgeworth’s spelling and punctuation are retained in transcription, except where a
                word is split at the end of a line and the beginning of the next in a manuscript. The
                long s and ligatured forms are silently emended.</p>
@@ -96,47 +113,42 @@
       <body>
          <div type="letter">
             <pb n="1" facs="image1.jpg"/>
+            <!--filenames for photos associated with this letter. Example: <pb n="1" facs="image1.jpg image2.jpg image3.jpg"/> -->
             <opener>
                <dateline>
-                  <name type="place" ref="./Placeography.xml#Edgeworthstown_IE">Edgeworths Town</name>
-                  <lb/>
+                  <name type="place" ref="./Placeography.xml#Edgeworthstown_IE">Edgeworths Town</name><lb/>
                   <date when="1829-06-07"/>June 7, 1829. </dateline>
                <salute>
                   My dear Sir
                </salute>
             </opener>
-            <p/>
+            <p><!-- Begin transcibing the body of the letter here. -->
+            </p>
             <p>
                   The chance of this finding<lb/>
                   you in <placeName ref="./Placeography.xml#London_ENK">Town</placeName> is small - but<lb/>
-               <persName ref="./Personography.xml#FrenX1">M<hi rend="superscript">r</hi>. French</persName> will broach this to<lb/>
+                  <persName ref="./Personography.xml#FrenX1">M<hi rend="superscript">r</hi>. French</persName> will broach this to<lb/>
                   you wherever you are &amp; as<lb/>
                   this <unclear>probable</unclear> you may not have<lb/>
                   time to give us the pleasure<lb/>
-                  of seeing you (<unclear>as</unclear> M<hi rend="superscript">r</hi>. <unclear>Jameson</unclear>
-               <lb/>
-                  you wish never <unclear/> as we do)<lb/>
-                  in your way home I am <choice>
-                  <orig>anxi<lb/>
-                  ous</orig>
-                  <reg>anxious</reg>
-               </choice> to get a speedy answer<lb/>
+                  of seeing you (<unclear>as</unclear> M<hi rend="superscript">r</hi>. <unclear>Jameson</unclear><lb/>
+                  you wish never <unclear></unclear> as we do)<lb/>
+                  in your way home I am <choice><orig>anxi<lb/>
+                  ous</orig><reg>anxious</reg></choice> to get a speedy answer<lb/>
                   to this question<lb/>
-            </p>
-            <p>Is there any consul or vice<lb/>
+               </p>
+               <p>Is there any consul or vice<lb/>
                   consulship that you know<lb/>
                   of vacant in any part of the<lb/>
                   world that you would like to<lb/>
                   go to or any manner of a<lb/>
                   place or employment abroad<lb/>
-                  that w<hi rend="superscript">d</hi> suit your <hi rend="underline">health</hi>
-               <lb/>
+                  that w<hi rend="superscript">d</hi> suit your <hi rend="underline">health</hi><lb/>
                   taste &amp; finances &amp; make<lb/>
                   it worth your while to give<lb/>
                   up <placeName ref="./Placeography.xml#Loughglynn_IE">Loughglynn</placeName> &amp; to leave<lb/>
                   or take certain of your family<lb/>
-               <add>&amp; have <unclear>others</unclear> at school or with friends</add>
-               <lb/>
+                  <add>&amp; have <unclear>others</unclear> at school or with friends</add><lb/>
                   with you - Think of it &amp;<lb/>
                   answer me in person if<lb/>
                <pb n="2" facs="Edgeworth_Princeton_1829-06_page02.jpg"/>
@@ -145,26 +157,23 @@
                   talk over &amp; <unclear>I</unclear> understand<lb/>
                   best <hi rend="underline">so</hi> - But if you cannot<lb/>
                   come <hi rend="underline">write</hi>.<lb/>
-            </p>
-            <p>I have another that <persName ref="./Personography.xml#MurrG1">Sir G<lb/>
-                  Murray</persName>
-               <unclear>knows</unclear> you - knew<lb/>
+               </p>
+               <p>I have another that <persName ref="./Personography.xml#MurrG1">Sir G<lb/>
+                  Murray</persName> <unclear>knows</unclear> you - knew<lb/>
                   you in <placeName ref="./Placeography.xml#IN">India</placeName> - If so pray<lb/>
                   see him if you can &amp; just<lb/>
                   revive &amp; leave an impression<lb/>
                   of yourself upon his mind -<lb/>
-            </p>
-            <p>
-               <persName ref="./Personography.xml#EdgeF3">Fanny</persName> has made me<lb/>
+               </p>
+               <p><persName ref="./Personography.xml#EdgeF3">Fanny</persName> has made me<lb/>
                   by her last letter more anxious<lb/>
                   even than I was before that<lb/>
-                  your <unclear/> should not<lb/>
+                  your <unclear></unclear> should not<lb/>
                   be painfully doomed to<lb/>
-               <placeName ref="./Placeography.xml#Loughglynn_IE">Lougha Glynn</placeName> - I have but<lb/>
+                  <placeName ref="./Placeography.xml#Loughglynn_IE">Lougha Glynn</placeName> - I have but<lb/>
                   one scheme &amp; one chance<lb/>
                   which you perhaps will<lb/>
-                  think not worth the <unclear>trying</unclear>
-               <lb/>
+                  think not worth the <unclear>trying</unclear><lb/>
                   - But boldness <del>(</del> I (being a<lb/>
                   woman) have found the best<lb/>
                   thing in doing business, I mean<lb/>
@@ -172,72 +181,49 @@
                   great (Please not to mention it)<lb/>
                <pb n="3" facs="Edgeworth_Princeton_1829-06_page03.jpg"/>
 
-                  even to your own self - <unclear>your</unclear>
-               <lb/>
-               <unclear>sober</unclear> rational self if you<lb/>
-                  can help it -) But my <choice>
-                  <orig>in-<lb/>
-                  tention</orig>
-                  <reg>intention</reg>
-               </choice> is to write straight<lb/>
+                  even to your own self - <unclear>your</unclear><lb/>
+                  <unclear>sober</unclear> rational self if you<lb/>
+                  can help it -) But my <choice><orig>in-<lb/>
+                  tention</orig><reg>intention</reg></choice> is to write straight<lb/>
                   to the <persName ref="./Personography.xml#WellA1">Duke of Wellington</persName> &amp;<lb/>
-                  ask him for what you <choice>
-                  <orig>wd</orig>
-                  <reg>would</reg>
-               </choice>
-               <lb/>
+                  ask him for what you <choice><orig>wd</orig><reg>would</reg></choice><lb/>
                   like if you can shape out<lb/>
                   in any feasible form what<lb/>
                   we could ask -<lb/>
-            </p>
-            <p>Do not <hi rend="underline">pray</hi> mention<lb/>
+               </p>
+               <p>Do not <hi rend="underline">pray</hi> mention<lb/>
                   this to <persName ref="./Personography.xml#EdgeF3">Fanny</persName> because she<lb/>
                   would tremble for my<lb/>
                   temerity.<lb/>
-            </p>
+               </p>
             <closer>
                Ever yours truly<lb/>
-               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
-               <lb/>
+               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName><lb/>
             </closer>
             <postscript>
                <p>
                I know that a new Brazilian<lb/>
-               company <del>
-                     <unclear/>
-                  </del> offered <del>
-                     <unclear>Lord?</unclear>
-                  </del>
-                  <lb/>
-               lately through <add>
-                     <unclear>?A S W <persName ref="./Personography.xml#OgleX1">Ogle</persName> to??</unclear>
-                  </add>
-                  <persName ref="./Personography.xml#EdgeC1">my brother<lb/>
+               company <del><unclear></unclear></del> offered <del><unclear>Lord?</unclear></del><lb/>
+               lately through <add><unclear>?A S W <persName ref="./Personography.xml#OgleX1">Ogle</persName> to??</unclear></add> <persName ref="./Personography.xml#EdgeC1">my brother<lb/>
                Sneyd</persName> to give <persName ref="./Personography.xml#EdgeW1">my poor<lb/>
                brother William</persName> 2000 <hi rend="superscript">£</hi> per,<lb/>
-                  <choice>
-                     <orig>Ann<hi rend="superscript">m</hi>
-                     </orig>
-                     <reg>Annum</reg>
-                  </choice>. salary <add>&amp; a fine house</add> if he would be<lb/>
+               <choice><orig>Ann<hi rend="superscript">m</hi></orig><reg>Annum</reg></choice>. salary <add>&amp; a fine house</add> if he would be<lb/>
                their Engineer - <persName ref="./Personography.xml#EdgeC1">Sneyd</persName> was<lb/>
-                  <pb n="4" facs="Edgeworth_Princeton_1829-06_page04.jpg"/>
+            <pb n="4" facs="Edgeworth_Princeton_1829-06_page04.jpg"/>
 
-               told this a few days ago by <persName ref="./Personography.xml#OgleX1">M<hi rend="superscript">r</hi>. Ogle</persName>
-                  <lb/>
+               told this a few days ago by <persName ref="./Personography.xml#OgleX1">M<hi rend="superscript">r</hi>. Ogle</persName><lb/>
                who did not know that <persName ref="./Personography.xml#EdgeW1">poor<lb/>
                William</persName> was gone from this world.<lb/>
                </p>
             </postscript>
-            <closer>
+            <closer><!--Use the <closer> element again to hold Address Leaf information.-->
                <address>
-                  <addrLine>J. E. Strickland Esq<hi rend="superscript">er</hi>
-                     <lb/>
+                  <addrLine>J. E. Strickland Esq<hi rend="superscript">er</hi><lb/>
                   </addrLine>
                </address>
             </closer>
          </div>
       </body>
-      <back/>
+      <back> </back>
    </text>
 </TEI>

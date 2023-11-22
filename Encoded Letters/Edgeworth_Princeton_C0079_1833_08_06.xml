@@ -1,5 +1,8 @@
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -18,10 +21,12 @@
                <persName ref="Id_who">Jessica Richard
                </persName>
                <persName ref="Id_who">Jamie Kramer</persName>
+               <!-- If you're the last person interacting with the file, enter your name last on the list -->
             </respStmt>
          </titleStmt>
          <editionStmt>
-            <edition>First digital edition in TEI, date: <date when="2022-08-04"/>
+            <edition>First digital edition in TEI, date: <date when="2022-08-04">
+            </date>
             </edition>
             <respStmt>
                <orgName ref="http://id.loc.gov/authorities/names/n82003163">Princeton University. Firestone Library
@@ -66,8 +71,11 @@
                   <date>1780-1859</date>, 
                      <date when="1833-08-06">Aug 6<hi rend="superscript">th</hi> 1833</date>
                </head>
-               <physDesc/>
+               <physDesc>
+               </physDesc>
             </msDesc>
+            <!-- FROM LAURA: where to put the following information in <bibl> is still a question: 
+               ask TEI List whether it should be in the sourceDesc or elsewhere? -->
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
@@ -163,9 +171,12 @@
             </taxonomy>
          </classDecl>
       </encodingDesc>
-      <profileDesc/>
+      <profileDesc>
+      </profileDesc>
       <revisionDesc>
-         <change when="2021-01-01" who="Id_who"/>
+         <change when="2021-01-01" who="Id_who">
+            <!--Brief description of what you did here.-->
+         </change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -173,7 +184,7 @@
          <div type="letter">
             <pb n="1" facs="Edgeworth_Princeton_C0079_1833_08_06_page01.jpg"/>
             <opener>
-               <dateline>
+               <dateline><!--If there's no date line, omit this element. Record in the order in which it is written on the letter.-->
                   <name type="place" ref="./Placeography.xml#Edgeworthstown_IE"/>Edgeworth's Town
                   <date when="1833-08-06">Aug 6<hi rend="superscript">th</hi> 1833</date>
                </dateline>
@@ -336,6 +347,6 @@
             </closer>
          </div>
       </body>
-      <back/>
+      <back> </back>
    </text>
 </TEI>

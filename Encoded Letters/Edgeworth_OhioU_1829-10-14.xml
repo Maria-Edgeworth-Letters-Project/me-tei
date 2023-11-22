@@ -1,10 +1,17 @@
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
+            <!-- The next 6 lines are the title statement.-->
             <title>Letter to Thomas Singleton, October 14, 1829</title>
             <author>Maria Edgeworth</author>
+            <!--FROM LAURA: I have stripped the above of tags. The titleStmt here refers to the digital edition.
+               I recommend putting all the author info. only in one place, in sourceDesc/msDesc as below, which
+               I realized works best after our meeting -->
             <editor ref="Id_who">
                Hilary Havens
             </editor>
@@ -18,11 +25,16 @@
                <resp>Transcription and coding by</resp>
                <persName ref="Id_who">Hilary Havens
                </persName>
-               <persName ref="Id_who"/>
+               <!-- List all transcribers or coders here, editors and students alike, <persName> by <persName>.-->
+               <persName ref="Id_who"><!--name here--></persName>
+               <!-- If you're the last person interacting with the file, enter your name last on the list -->
             </respStmt>
          </titleStmt>
+         <!-- FROM LAURA: I changed the editionStmt below to make it validate -->
          <editionStmt>
-            <edition>First digital edition in TEI, date: <date when="2022-07-14"/>
+            <edition>First digital edition in TEI, date: <date when="2022-07-14">
+                  <!--enter the date on which the first coder created and saved this XML file in google drive-->
+               </date>
             </edition>
             <respStmt>
                <orgName ref="http://id.loc.gov/authorities/names/n2003039990">
@@ -30,7 +42,8 @@
                </orgName>
                <resp> photos include:
                   Edgeworth_OhioU_1829-10-14_page01.jpg, Edgeworth_OhioU_1829-10-14_page02.jpg
-                  
+                  <!-- Make a comma-separated list of each .jpg photo file name associated with your letter. 
+                     For example: DSCF9476.jpg, DSCF9477.jpg, DSCF9478.jpg-->
                </resp>
             </respStmt>
          </editionStmt>
@@ -38,23 +51,33 @@
             <authority>Maria Edgeworth Letters Project</authority>
             <date>2013</date>
             <availability>
+               <!--Uncomment the appropriate line, based on the archive that holds the physical copy of this letter, 
+                  and delete the other comment line(s).-->
                <p>Courtesy of <orgName ref="http://id.loc.gov/authorities/names/n2003039990">Ohio University. Libraries</orgName>.
                </p>
                <licence target="https://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons Attribution 4.0 (CC BY 4.0) Unported
             License</licence>
             </availability>
             <idno>Edgeworth_OhioU_1829-10-14</idno>
+            <!--FROM LAURA: I moved this identifcation of the TEI document itself, the digital surrogate,
+               out of the title statement to the publicationStmt.
+               
+               It is helpful if this id is the same as the filename. So this current document would be saved
+               as MEtoMordecai1816.xml, and the web page will be MEtoMordecai1816.html -->
          </publicationStmt>
          <seriesStmt>
             <title>Maria Edgeworth Letters Project</title>
          </seriesStmt>
          <sourceDesc>
             <msDesc xml:lang="en">
+               <!-- This section of the header identifies the original manuscript source. -->
                <msIdentifier>
                   <repository>Ohio University. Libraries</repository>
                   <collection>Mss 406, Ohio University Library. Dept. of Archives &amp; Special Collections</collection>
+                  <!-- Change to reflect correct ms. collection. -->
                   <idno type="OCLC">12986752</idno>
                   <idno type="NAF">n2003039990</idno>
+                  <!--Consult library or WorldCat for this info-->
                </msIdentifier>
                <head>Letter from 
                   <persName ref="./Personography.xml#EdgeM1">
@@ -69,16 +92,23 @@
                      Ireland</placeName>, 
                   <date when="1829-10-14">October 14, 1829</date>
                </head>
-               <physDesc/>
+               <physDesc>
+                  <!-- optional physical description of the letter goes here: paper size and condition, seal, postmarks, etc.-->
+               </physDesc>
             </msDesc>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
          <editorialDecl>
+            <!--Where Edgeworth uses nonstandard spelling and hyphenation of words, transcriber-coders 
+               should use TEI elements “choice," “sic," and “reg" to encode both Edgeworth’s 
+               spelling and the regular international standard of Oxford English spelling, 
+               following the first listed spelling in the Oxford English Dictionary. -->
             <p>Edgeworth’s spelling and punctuation are retained in transcription, except where a
                word is split at the end of a line and the beginning of the next in a manuscript. The
                long s and ligatured forms are silently emended.</p>
          </editorialDecl>
+         <!-- Meredith's additions for classifying this document -->
       </encodingDesc>
       <profileDesc>
          <correspDesc>
@@ -91,7 +121,9 @@
          </correspDesc>
       </profileDesc>
       <revisionDesc>
-         <change when="2021-01-01" who="Id_who"/>
+         <change when="2021-01-01" who="Id_who">
+            <!--Brief description of what you did here.-->
+         </change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -110,7 +142,7 @@
                <lb/>
             </p>
             <pb n="2" facs="Edgeworth_OhioU_1829-10-14_page02.jpg"/>
-            <p>
+            <p><!-- Begin transcibing the body of the letter here. -->
                <persName ref="./Personography.xml#EdgeM1">Miss Edgeworth</persName> is afraid she<lb/>
                is trespassing too frequently<lb/>
                upon <persName ref="./Personography.xml#SingT1">
@@ -135,12 +167,12 @@
             <closer>
                <placeName ref="./Placeography.xml#Edgeworthstown_IE">Edgeworths Town</placeName>
                <lb/>
-               <dateline>
+               <dateline><!--If there's no date line, omit this element. Record in the order in which it is written on the letter.-->
                   <name type="place" ref="Id_where"/>
                   <date when="1816-08-04"/>Oct 14<hi rend="superscript">th</hi>. 1829 </dateline>
             </closer>
          </div>
       </body>
-      <back/>
+      <back> </back>
    </text>
 </TEI>

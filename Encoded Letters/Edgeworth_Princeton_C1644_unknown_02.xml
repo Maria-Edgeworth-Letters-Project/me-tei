@@ -1,5 +1,8 @@
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -20,10 +23,12 @@
                </persName>
                <persName ref="Id_who">Jessica Richard</persName>
                <persName ref="Id_who">Eliza Wilcox</persName>
+               <!-- If you're the last person interacting with the file, enter your name last on the list -->
             </respStmt>
          </titleStmt>
          <editionStmt>
-            <edition>First digital edition in TEI, date: August 08, 2022<date when="2022-08-01"/>
+            <edition>First digital edition in TEI, date: August 08, 2022<date when="2022-08-01">
+            </date>
             </edition>
             <respStmt>
                <orgName type="naf" ref="http://id.loc.gov/authorities/names/n82003163">
@@ -49,6 +54,7 @@
          </seriesStmt>
          <sourceDesc>
             <msDesc xml:lang="en">
+               <!-- This section of the header identifies the original manuscript source. -->
                <msIdentifier>
                   <repository>Princeton University. Firestone Library</repository>
                   <collection>Manuscripts Division, Department of Special Collections</collection>
@@ -62,12 +68,20 @@
                   to <persName ref="./Personography.xml#RogeX1">
                      <abbr type="title">Mr.</abbr> Rogers</persName>
                </head>
-               <physDesc/>
+               <physDesc>
+                  <!-- optional physical description of the letter goes here: paper size and condition, seal, postmarks, etc.-->
+               </physDesc>
             </msDesc>
+            <!-- FROM LAURA: where to put the following information in <bibl> is still a question: 
+               ask TEI List whether it should be in the sourceDesc or elsewhere? -->
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
          <editorialDecl>
+            <!--Where Edgeworth uses nonstandard spelling and hyphenation of words, transcriber-coders 
+               should use TEI elements “choice," “sic," and “reg" to encode both Edgeworth’s 
+               spelling and the regular international standard of Oxford English spelling, 
+               following the first listed spelling in the Oxford English Dictionary. -->
             <p>Edgeworth’s spelling and punctuation are retained in transcription, except where a
                word is split at the end of a line and the beginning of the next in a manuscript. The
                long s and ligatured forms are silently emended.</p>
@@ -162,16 +176,16 @@
       <profileDesc>
          <correspDesc>
             <correspAction type="sent">
-               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
+               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth<!--SENDER NAME--></persName>
             </correspAction>
             <correspAction type="received">
-               <persName ref="./Personography.xml#RogeX1">Mr. Rogers</persName>
+               <persName ref="./Personography.xml#RogeX1">Mr. Rogers<!--RECIPIENT NAME--></persName>
             </correspAction>
          </correspDesc>
       </profileDesc>
       <revisionDesc>
          <change when="2022-12-07" who="Id_who">
-            Added a correspDesc element to the profileDesc - Eliza Wilcox
+            Added a correspDesc element to the profileDesc - Eliza Wilcox<!--Brief description of what you did here.-->
          </change>
       </revisionDesc>
    </teiHeader>
@@ -182,7 +196,8 @@
             <opener>
                <salute> Dear <persName ref="./Personography.xml#RogeX1">
                      <abbr type="title">Mr.</abbr> Rogers</persName>
-                  <persName/>
+                  <persName>
+                  </persName>
                </salute>
             </opener>
             <p>
@@ -337,6 +352,6 @@
             </postscript>
          </div>
       </body>
-      <back/>
+      <back> </back>
    </text>
 </TEI>

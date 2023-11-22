@@ -1,5 +1,8 @@
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -18,11 +21,14 @@
                <resp>Transcription and coding by</resp>
                <persName ref="Id_who">Jamie Kramer
                </persName>
-               <persName ref="Id_who"/>
+               <!-- List all transcribers or coders here, editors and students alike, <persName> by <persName>.-->
+               <persName ref="Id_who"><!--FirstName LastName--></persName>
+               <!-- If you're the last person interacting with the file, enter your name last on the list -->
             </respStmt>
          </titleStmt>
          <editionStmt>
-            <edition>First digital edition in TEI, date: <date when="2023-10-05"/>
+            <edition>First digital edition in TEI, date: <date when="2023-10-05">
+            </date>
             </edition>
             <respStmt>
                <orgName type="naf" ref="http://id.loc.gov/authorities/names/n79049138">
@@ -70,6 +76,7 @@
                      Manuscripts, Huntington Digital Library. System Identifier: 	
                      622946, https://hdl.huntington.org/digital/collection/p15150coll7/id/55235</collection>
                   <idno/>
+                  <!--Consult library or WorldCat for this info-->
                </msIdentifier>
                <head>Letter from 
                   <persName ref="./Personography.xml#BeauF1">Sir Francis Beaufort</persName>
@@ -77,15 +84,20 @@
                   <date when="1817-03-17"/>
                   <del>April</del> March 17.17
                </head>
-               <physDesc/>
+               <physDesc>
+               </physDesc>
             </msDesc>
             <bibl>In addition to our edited version, this letter was previously published in
-               
+               <!--complete bibiographical info if letter was published in a book here-->
             </bibl>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
          <editorialDecl>
+            <!--Where Edgeworth uses nonstandard spelling and hyphenation of words, transcriber-coders 
+               should use TEI elements “choice," “sic," and “reg" to encode both Edgeworth’s 
+               spelling and the regular international standard of Oxford English spelling, 
+               following the first listed spelling in the Oxford English Dictionary. -->
             <p>Edgeworth’s spelling and punctuation are retained in transcription, except where a
                word is split at the end of a line and the beginning of the next in a manuscript. The
                long s and ligatured forms are silently emended.</p>
@@ -245,7 +257,9 @@
          </textClass>
       </profileDesc>
       <revisionDesc>
-         <change when="2021-01-01" who="Id_who"/>
+         <change when="2021-01-01" who="Id_who">
+            <!--Brief description of what you did here.-->
+         </change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -507,7 +521,7 @@
                - he says its shape is like "the Tail of a white<lb/>
                horse streaming in the wind, such as might<lb/>
                be <unclear>conceived</unclear> would be that of the <hi rend="underline">Pale Horse </hi>
-                  <lb/>
+               <lb/>
                on which Death is mounted in the Apocalypse<lb/>
                neither mist nor water but something between<lb/>
                both, wonderful &amp; indescribable." One of the<lb/>
@@ -516,8 +530,7 @@
                will now be as flat as the country we traverse:<lb/>
                from <placeName ref="./Placeography.xml#Thum_GW">Thum</placeName> to <placeName ref="./Placeography.xml#Bern_SZ">Berne</placeName> we had good roads, good<lb/>
                houses, property and all the commonplace<lb/>
-               tokens of insipid civilization.<lb/>
-               </title>
+               tokens of insipid civilization.<lb/></title>
                It <del>can</del> does not appear to be true that<lb/>
                <persName ref="./Personography.xml#ByroG1">L<hi rend="superscript">d</hi> B.</persName> and his <persName ref="./Personography.xml#ByroA1">lady</persName> have any design of being<lb/>
                again reconciled - I saw a letter this morning<lb/>
@@ -608,9 +621,7 @@
 
                the mean time it would do no harm if<lb/>
                you were to let M<hi rend="superscript">r</hi>
-               <persName ref="./Personography.xml#EarlX1">
-                  <unclear>Earle</unclear>
-               </persName> examine it - <lb/>
+               <persName ref="./Personography.xml#EarlX1"><unclear>Earle</unclear></persName> examine it - <lb/>
                &amp; I do not see why you should object to<lb/>
                it - provided always that the <persName ref="./Personography.xml#GriffX1">Griffith</persName>'s<lb/>
                may not be amazed - but they need not<lb/>
@@ -653,8 +664,7 @@
                <lb/>
                she will have the first charm of <hi rend="underline">disinterested</hi>
                <lb/>
-               affection &amp; friendship. - In truth <persName ref="./Personography.xml#PeacS1">Selina</persName>
-               <lb/>
+               affection &amp; friendship. - In truth <persName ref="./Personography.xml#PeacS1">Selina</persName><lb/>
                has <hi rend="underline">per se</hi> an excellent heart, and needs<lb/>
                only to be gradually (but not too apparently)<lb/>
                strengthened - confidence in her (prudently<lb/>
@@ -680,8 +690,7 @@ And <unclear>hers</unclear> dear <persName ref="./Personography.xml#BeauH2">Henr
                lend even wit to Folly - I solemnly declare<lb/>
                I had no such meaning in my question - <lb/>
                - Whatever I think of the sapiency of <persName ref="./Personography.xml#PeacS1">M<hi rend="superscript">rs</hi>.<lb/>
-                  <unclear>S. Peach</unclear>
-               </persName>, she surely is one of<lb/>
+               <unclear>S. Peach</unclear></persName>, she surely is one of<lb/>
                the last persons that I<lb/>
                would voluntarily insult - she is the wife<lb/>
                of <persName ref="./Personography.xml#WilsL2">your father</persName>'s old friend - Besides there<lb/>

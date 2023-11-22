@@ -1,5 +1,8 @@
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -17,7 +20,9 @@
             <respStmt>
                <resp>Transcription and coding by</resp>
                <persName ref="Id_who">Eliza Wilcox</persName>
-               <persName ref="Id_who"/>
+               <!-- List all transcribers or coders here, editors and students alike, <persName> by <persName>.-->
+               <persName ref="Id_who"><!--FirstName LastName--></persName>
+               <!-- If you're the last person interacting with the file, enter your name last on the list -->
             </respStmt>
          </titleStmt>
          <editionStmt>
@@ -48,20 +53,26 @@
                <msIdentifier>
                   <repository>Beinecke Rare Book and Manuscript Library</repository>
                   <collection>Maria Edgeworth Collection</collection>
-                  <idno/>
+                  <idno><!--Consult library or WorldCat for this info--></idno>
                </msIdentifier>
                <head>Letter from <persName ref="./Personography.xml#EdgeM1">
                      <forename>Maria</forename>
                      <surname>Edgeworth</surname>
                   </persName> to <persName ref="./Personography.xml#MileX1">Mrs. Miles</persName>,
-                        <placeName/>, <date when="1812-08-14">August 14, 1812</date>
+                        <placeName><!--Location where letter was sent--></placeName>, <date when="1812-08-14">August 14, 1812</date>
                </head>
-               <physDesc/>
+               <physDesc>
+                        <!-- optional physical description of the letter goes here: paper size and condition, seal, postmarks, etc.-->
+                    </physDesc>
             </msDesc>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
          <editorialDecl>
+                <!--Where Edgeworth uses nonstandard spelling and hyphenation of words, transcriber-coders 
+               should use TEI elements “choice," “sic," and “reg" to encode both Edgeworth’s 
+               spelling and the regular international standard of Oxford English spelling, 
+               following the first listed spelling in the Oxford English Dictionary. -->
             <p>Edgeworth’s spelling and punctuation are retained in transcription, except where a
                     word is split at the end of a line and the beginning of the next in a manuscript. The
                     long s and ligatured forms are silently emended.</p>
@@ -78,15 +89,18 @@
          </correspDesc>
       </profileDesc>
       <revisionDesc>
-         <change when="2021-01-01" who="Id_who"/>
+         <change when="2021-01-01" who="Id_who">
+                <!--Brief description of what you did here.-->
+            </change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <div type="letter">
             <pb n="1" facs="Edgeworth_Beinecke_330_1812_08_14_page01.jpg"/>
+            <!--filenames for photos associated with this letter. Example: <pb n="1" facs="image1.jpg image2.jpg image3.jpg"/> -->
             <opener>
-               <dateline>
+               <dateline><!--If there's no date line, omit this element. Record in the order in which it is written on the letter.-->
                   <name type="place" ref="./Placeography.xml#Edgeworthstown_IE"/>Edgeworths Town<lb/>
                   <date when="1812-07-22"/>August 14, 1812<lb/>
                </dateline>
@@ -145,9 +159,12 @@
             </p>
             <p> If you get the edging send it<lb/>
             </p>
-            <closer/>
-            <closer>
+            <closer> 
+                </closer>
+            <!-- Removed postscript as no infomation was present to validate -->
+            <closer><!--Use the <closer> element again to hold Address Leaf information.-->
                <address>
+                        <!--Include any text written on the address leaf; use a separate "addrLine" for each line and indicate line breaks. -->
                   <addrLine/>
                   <addrLine/>
                   <addrLine/>
@@ -155,6 +172,6 @@
             </closer>
          </div>
       </body>
-      <back/>
+      <back> </back>
    </text>
 </TEI>

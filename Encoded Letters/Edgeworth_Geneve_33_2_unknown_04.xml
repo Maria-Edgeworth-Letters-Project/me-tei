@@ -9,15 +9,15 @@
             <editor ref="Id_who">
                     Eliza Wilcox
                 </editor>
-            <sponsor>
-               <orgName>Maria Edgeworth Letters Project</orgName>
-            </sponsor>
-            <sponsor>Wake Forest University, University of Tennessee, Xavier University, Texas
+                <sponsor>
+                    <orgName>Maria Edgeworth Letters Project</orgName>
+                </sponsor>
+                <sponsor>Wake Forest University, University of Tennessee, Xavier University, Texas
                     A&amp;M University</sponsor>
-            <principal>Jessica Richard, Hilary Havens, Robin Runia, Susan Egenolf</principal>
-            <respStmt>
-               <resp>Transcription and coding by</resp>
-               <persName ref="Id_who">Eliza Wilcox
+                <principal>Jessica Richard, Hilary Havens, Robin Runia, Susan Egenolf</principal>
+                <respStmt>
+                    <resp>Transcription and coding by</resp>
+                    <persName ref="Id_who">Eliza Wilcox<!--FirstName LastName-->
                     </persName>
                <persName ref="Id_who"/>
             </respStmt>
@@ -29,17 +29,22 @@
                <orgName type="naf" ref="https://d-nb.info/gnd/5075238-8">Bibliothèques municipales de la Ville de Genève</orgName>
                <resp> photos include:
                         Edgeworth_Geneve_33_2_unknown_04_page01.jpg,
-                        Edgeworth_Geneve_33_2_unknown_04_page02.jpg
+                        Edgeworth_Geneve_33_2_unknown_04_page02.jpg<!-- Make a comma-separated list of each .jpg photo file name associated with your letter. 
+                     For example: DSCF9476.jpg, DSCF9477.jpg, DSCF9478.jpg-->
                     </resp>
-            </respStmt>
-         </editionStmt>
-         <publicationStmt>
-            <authority>Maria Edgeworth Letters Project</authority>
-            <date>2023</date>
-            <availability>
-               <p>Reproduced by courtesy of the <orgName ref="https://d-nb.info/gnd/5075238-8">Bibliothèques municipales de la Ville de Genève</orgName>
-               </p>
-               <licence>Distributed under a Creative Commons Attribution-ShareAlike 3.0 Unported
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <authority>Maria Edgeworth Letters Project</authority>
+                <date>2023</date>
+                <availability>
+                    <!--Uncomment the appropriate line, based on the archive that holds the physical copy of this letter, 
+                  and delete the other comment line(s).-->
+                    <p>Reproduced by courtesy of the <orgName ref="https://d-nb.info/gnd/5075238-8">Bibliothèques municipales de la Ville de Genève</orgName><!--Reproduced by courtesy of the <orgName ref="#ReadingCL">Reading Central Library</orgName>.-->
+                        <!--or -->
+                        <!--Courtesy of <orgName ref="#Rylands">The University of Manchester</orgName>.-->
+                    </p>
+                    <licence>Distributed under a Creative Commons Attribution-ShareAlike 3.0 Unported
                         License</licence>
             </availability>
          </publicationStmt>
@@ -87,49 +92,34 @@
                   <reg>reward</reg>
                </choice> can be given to one person<lb/>
                     without injury to some other<lb/>
-                    person or class of persons - by <hi rend="underline">
-                  <choice>
-                     <orig>inju<lb/>
-                        ry</orig>
-                     <reg>injury</reg>
-                  </choice>
-               </hi> here includes the idea of <choice>
-                  <orig>restrain<lb/>
-                            -ing</orig>
-                  <reg>restraining</reg>
-               </choice> their liberty - diminishing their<lb/>
+                    person or class of persons - by <hi rend="underline"><choice><orig>inju<lb/>
+                        ry</orig><reg>injury</reg></choice></hi> here includes the idea of <choice><orig>restrain<lb/>
+                            -ing</orig><reg>restraining</reg></choice> their liberty - diminishing their<lb/>
                     privileges - or enjoyments -<lb/>
                     Perhaps I should express the doctrine<lb/>
                     more exactly by saying that they<lb/>
-                    expect that you cannot give a <choice>
-                  <orig>re
-                        -ward</orig>
-                  <reg>reward</reg>
-               </choice> to one person without it's<lb/>
+                    expect that you cannot give a <choice><orig>re
+                        -ward</orig><reg>reward</reg></choice> to one person without it's<lb/>
                     being at the expense of some other or other<lb/>
-               <pb n="2" facs="Edgeworth_Geneve_33_2_unknown_04_page01.jpg"/> 
+                    <pb n="2" facs="Edgeworth_Geneve_33_2_unknown_04_page01.jpg"/> 
                     - I argued this point with Ricardo &amp; he<lb/>
                     gave up - but I never had an opportunity<lb/>
                     of stating any argument to <persName ref="./Personography.xml#MillJ1">Mill</persName> - What do<lb/>
                     you think of this doctrine? - Take a crown of<lb/>
                     parsley for instance as your reward.<lb/>
-            </p>
-            <p> When you have time to think<lb/>
-                    for me will you next consider my D<hi rend="superscript">r</hi>
-               <lb/>
-                    friend whether <hi rend="underline">travelling</hi> &amp; <hi rend="underline">The Travellers</hi>
-               <lb/>
+                </p>
+                    
+                <p> When you have time to think<lb/>
+                    for me will you next consider my D<hi rend="superscript">r</hi><lb/>
+                    friend whether <hi rend="underline">travelling</hi> &amp; <hi rend="underline">The Travellers</hi><lb/>
                     would make a good subject for a<lb/>
                     story for me to write - the rage for travelling<lb/>
                     you know is prevalent - <hi rend="underline">Eyes</hi> &amp; no <hi rend="underline">Eyes</hi>-<lb/>
-               <hi rend="underline">Ears and no ears</hi> - The affectation - The<lb/>
+                    <hi rend="underline">Ears and no ears</hi> - The affectation - The<lb/>
                     ignorance - The ill humor - The national<lb/>
                     &amp; personal prejudices <add>pulling different ways</add> of a party of travellers<lb/>
-                    might be drawn - the advantages &amp; <choice>
-                  <orig>disadvan<lb/>
-                        -tages</orig>
-                  <reg>disadvantages</reg>
-               </choice> to their country &amp; to their own happiness<lb/>
+                    might be drawn - the advantages &amp; <choice><orig>disadvan<lb/>
+                        -tages</orig><reg>disadvantages</reg></choice> to their country &amp; to their own happiness<lb/>
                     must be shown - You will see in a moment all<lb/>
                     that can be made of the subject - w<hi rend="superscript">d</hi> you advise me to<lb/>
                     follow or abandon it - <hi rend="underline">I</hi> will <hi rend="underline">not</hi>

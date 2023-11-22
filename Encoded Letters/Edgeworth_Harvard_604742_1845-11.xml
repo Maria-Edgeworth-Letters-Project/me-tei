@@ -1,5 +1,8 @@
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -20,15 +23,19 @@
                <resp>Transcription and coding by</resp>
                <persName ref="Id_who">Jamie Kramer
                </persName>
-               <persName ref="Id_who"/>
+               <!-- List all transcribers or coders here, editors and students alike, <persName> by <persName>.-->
+               <persName ref="Id_who"><!--FirstName LastName--></persName>
+               <!-- If you're the last person interacting with the file, enter your name last on the list -->
             </respStmt>
          </titleStmt>
          <editionStmt>
-            <edition>First digital edition in TEI, date: <date when="2023-11-05"/>
+            <edition>First digital edition in TEI, date: <date when="2023-11-05">
+               
+            </date>
             </edition>
             <respStmt>
                <orgName type="naf" ref="http://id.loc.gov/authorities/names/n80097499">
-                  Harvard University, Houghton Library
+                  Harvard University, Houghton Library<!--who digitized the letter or gave us permission for to use the file?-->
                </orgName>
                <resp> photos include:
                   Edgeworth_Harvard_604742_1845-11_page01.jpg,
@@ -59,26 +66,37 @@
          </seriesStmt>
          <sourceDesc>
             <msDesc xml:lang="en">
+               <!-- This section of the header identifies the original manuscript source. -->
                <msIdentifier>
                   <repository>Harvard University, Houghton Library</repository>
-                  <collection/>
-                  <idno/>
+                  <collection><!-- Enter specific archival collection if applicable--></collection>
+                  <idno><!--Consult library or WorldCat for this info--></idno>
                </msIdentifier>
+               <!-- FROM LAURA: it's here (below) in the head that I added the full information about the author,
+                  and you could add full information about the addressee as well. -->
                <head>Letter from 
                   <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
                   to 
                   <persName ref="./Personography.xml#HallA1">Anna Maria Fielding Hall</persName>
-                  <date when="1845-11-14">Nov<hi rend="superscript">r.</hi> 14<hi rend="superscript">h</hi>. 1845</date>
+                  <date when="1845-11-14">Nov<hi rend= "superscript">r.</hi> 14<hi rend= "superscript">h</hi>. 1845</date>
                </head>
-               <physDesc/>
+               <physDesc>
+                  <!-- optional physical description of the letter goes here: paper size and condition, seal, postmarks, etc.-->
+               </physDesc>
             </msDesc>
+            <!-- FROM LAURA: where to put the following information in <bibl> is still a question: 
+               ask TEI List whether it should be in the sourceDesc or elsewhere? -->
             <bibl>In addition to our edited version, this letter was previously published in
-               
+               <!--complete bibiographical info if letter was published in a book here - if not delete-->
             </bibl>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
          <editorialDecl>
+            <!--Where Edgeworth uses nonstandard spelling and hyphenation of words, transcriber-coders 
+               should use TEI elements “choice," “sic," and “reg" to encode both Edgeworth’s 
+               spelling and the regular international standard of Oxford English spelling, 
+               following the first listed spelling in the Oxford English Dictionary. -->
             <p>Edgeworth’s spelling and punctuation are retained in transcription, except where a
                word is split at the end of a line and the beginning of the next in a manuscript. The
                long s and ligatured forms are silently emended.</p>
@@ -95,7 +113,9 @@
          </correspDesc>
       </profileDesc>
       <revisionDesc>
-         <change when="2021-01-01" who="Id_who"/>
+         <change when="2021-01-01" who="Id_who">
+            <!--Brief description of what you did here.-->
+         </change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -107,32 +127,22 @@
                   <placeName ref="./Placeography.xml#Edgeworthstown_IE">Edgeworths Town</placeName>
                   <lb/>
                   <date when="1845-11-14">
-                     <choice>
-                        <abbr>Nov<hi rend="superscript">r.</hi>
-                        </abbr>
-                        <reg>November</reg>
-                     </choice> 14<hi rend="superscript">h</hi>. 1845</date>
+                     <choice><abbr>Nov<hi rend= "superscript">r.</hi></abbr><reg>November</reg></choice> 14<hi rend= "superscript">h</hi>. 1845</date>
                </dateline>
                <lb/>
                <salute>
-                  My dear <persName ref="./Personography.xml#HallA1">M<hi rend="superscript">rs</hi>. Hall</persName>,<lb/>
+                  My dear <persName ref="./Personography.xml#HallA1">M<hi rend= "superscript">rs</hi>. Hall</persName>,<lb/>
                </salute>
             </opener>
-            <p>- I am glad that <persName ref="./Personography.xml#HallS1">M<hi rend="superscript">r</hi>. Hall</persName>'s <choice>
-                  <orig>commis<lb/>
-               sion</orig>
-                  <reg>commission</reg>
-               </choice> gave me the pleasure of<lb/>
+            <p>- I am glad that <persName ref="./Personography.xml#HallS1">M<hi rend= "superscript">r</hi>. Hall</persName>'s <choice><orig>commis<lb/>
+               sion</orig><reg>commission</reg></choice> gave me the pleasure of<lb/>
                hearing from you and of your<lb/>
                welfare and kind remembrance<lb/>
-               of all this family.<lb/>
-            </p>
-            <p>
-               <persName ref="./Personography.xml#PetrF1">Petrarch</persName>'s original inkstand<lb/>
+               of all this family.<lb/></p>
+            <p><persName ref="./Personography.xml#PetrF1">Petrarch</persName>'s original inkstand<lb/>
                is not at <placeName ref="./Placeography.xml#Edgeworthstown_IE">Edgeworths town</placeName> -- But<lb/>
                we have a copy of it, made from<lb/>
-               a <hi rend="underline">cast</hi>, made from a <del>sketch or</del>
-               <lb/>
+               a <hi rend= "underline">cast</hi>, made from a <del>sketch or</del><lb/>
                drawing of the original inkstand<lb/>
                of <persName ref="./Personography.xml#PetrF1">Petrarch</persName>s which <persName ref="./Personography.xml#JersS1">Lady Jersey</persName> saw<lb/>
                at <placeName ref="./Placeography.xml#Vaucluse_FR">Vaucluse</placeName> when she was there<lb/>
@@ -140,22 +150,15 @@
                - <persName ref="./Personography.xml#JersS1">Lady Jersey</persName> gave a sketch of her<lb/>
                drawing to <persName ref="./Personography.xml#LansL1">Lady Lansdowne</persName>; and<lb/>
                when I was at <placeName ref="./Placeography.xml#Bowood-House_ENK">Bowood</placeName> in 1818<lb/>
-               I saw that sketch in <persName ref="./Personography.xml#LansL1">Lady L</persName>'s <choice>
-                  <orig>portfo<lb/>
-                  lio</orig>
-                  <reg>portfolio</reg>
-               </choice> &amp; asked permission to take a<lb/>
+               I saw that sketch in <persName ref="./Personography.xml#LansL1">Lady L</persName>'s <choice><orig>portfo<lb/>
+                  lio</orig><reg>portfolio</reg></choice> &amp; asked permission to take a<lb/>
                tracing of it. From my tracing<lb/>
-               I had a model made at <placeName ref="./Placeography.xml#Birmingham_ENK">
-                  <choice>
-                     <orig>Birming<lb/>
-                  ham</orig>
-                     <reg>Birmingham</reg>
-                  </choice>
-               </placeName> - And from the cast had<lb/>
+               I had a model made at <placeName ref="./Placeography.xml#Birmingham_ENK"><choice><orig>Birming<lb/>
+                  ham</orig><reg>Birmingham</reg></choice></placeName> - And from the cast had<lb/>
                5 or 6 Inkstands made in bronze<lb/>
                -- (very pretty they were -- only that the<lb/>
                stupid workman did not comprehend<lb/>
+               
                <pb n="2" facs="Edgeworth_Harvard_604742_1845-11_page02.jpg"/>
                that Cupids hands were joined in <choice>
                   <orig>suppli<lb/>
@@ -164,10 +167,8 @@
                </choice> &amp; pointing to Heaven in attitude<lb/>
                of prayer and he made the bronze<lb/>
                hands closed and separated as if Cupid<lb/>
-               was going to box -- I think <persName ref="./Personography.xml#LamarA1">La Martine</persName>
-               <lb/>
-               says that <persName ref="./Personography.xml#ByroG1">Lord Byron</persName> "fait <hi rend="underline">boxer</hi>
-               <lb/>
+               was going to box -- I think <persName ref="./Personography.xml#LamarA1">La Martine</persName><lb/>
+               says that <persName ref="./Personography.xml#ByroG1">Lord Byron</persName> "fait <hi rend= "underline">boxer</hi><lb/>
                les Manes" -- but Cupid never was<lb/>
                before represented as condescending<lb/>
                to such vulgar warfare --<lb/></p>
@@ -186,13 +187,15 @@
                - on second thoughts I am not<lb/>
                sure that in this Interior <persName ref="./Personography.xml#ScotW1">Sir Walter<lb/>
                Scott</persName> himself is - But probably you<lb/>
-               &amp; <persName ref="./Personography.xml#HallS1">M<hi rend="superscript">r.</hi> Hall</persName> know the engraving<lb/>
+               &amp; <persName ref="./Personography.xml#HallS1">M<hi rend= "superscript">r.</hi> Hall</persName> know the engraving<lb/>
                You comprehend I trust from<lb/>
                the tracing enclosed that Cupid<lb/>
                <unclear>lurches</unclear> upon the cover of the inkstand<lb/>
-               which fits over the <hi rend="underline">hands</hi> which ought to be<lb/>
+               which fits over the <hi rend= "underline">hands</hi> which ought to be<lb/>
+               
                <pb n="3" facs="Edgeworth_Harvard_604742_1845-11_page03.jpg"/>
-               <hi rend="underline">pretty</hi> nondescripts - but unluckily<lb/>
+               
+               <hi rend= "underline">pretty</hi> nondescripts - but unluckily<lb/>
                turned out ugly vulgar heads in this<lb/>
                tracing - The tracing was made for<lb/>
                you from my old sketch, this morning<lb/>
@@ -250,9 +253,10 @@
                interesting little girl</persName> --<lb/></p>
                <p>If I have time before the Post goes<lb/>
                out I will copy on the sketch of<lb/>
-               <persName ref="./Personography.xml#PetrF1">Petrarch</persName>s Inkstand all that I have<lb/>
-               here told you that <persName ref="./Personography.xml#HallS1">M<hi rend="superscript">r</hi>. Hall</persName> may have<lb/>
+                  <persName ref="./Personography.xml#PetrF1">Petrarch</persName>s Inkstand all that I have<lb/>
+               here told you that <persName ref="./Personography.xml#HallS1">M<hi rend= "superscript">r</hi>. Hall</persName> may have<lb/>
                it for himself with my assurances of<lb/>
+               
                <pb n="5" facs="Edgeworth_Harvard_604742_1845-11_page05.jpg"/>
                of being glad to do any thing to<lb/>
                oblige him even in such a<lb/>
@@ -356,14 +360,13 @@
                sake - and my own -<lb/>
             </p>
             <closer>
-               I am my dear <persName ref="./Personography.xml#HallA1">Mr<hi rend="superscript">s</hi>. Hall</persName>
-               <lb/>
+               I am my dear <persName ref="./Personography.xml#HallA1">Mr<hi rend= "superscript">s</hi>. Hall</persName><lb/>
                Yours sincerely<lb/>
                <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName> -<lb/>
             </closer>
             <postscript>
                <p>I rejoice to know that your Works<lb/>
-                  succeed in <hi rend="underline">every way </hi> to your<lb/>
+                  succeed in <hi rend= "underline">every way </hi> to your<lb/>
                   satisfaction - But I wish you<lb/>
                   would tell me more of this your<lb/>
                   own self - I have seen <persName ref="./Personography.xml#HowdW1">Mr W Howds</persName><lb/>
@@ -371,6 +374,7 @@
                      lars</orig><reg>particulars</reg></choice> of poor <persName ref="./Personography.xml#LxxxL2">L E L</persName> - But confirming I<lb/>
                   fear beyond doubt the fact that I wished not to believe<lb/>
                </p>
+
             </postscript>
          </div>
       </body>

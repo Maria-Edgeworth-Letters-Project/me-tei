@@ -1,5 +1,8 @@
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -17,22 +20,27 @@
                <resp>Transcription and coding by</resp>
                <persName ref="Id_who">Lindsey Jones
                </persName>
-               <persName ref="Id_who"/>
+               <!-- List all transcribers or coders here, editors and students alike, <persName> by <persName>.-->
+               <persName ref="Id_who"><!--FirstName LastName--></persName>
+               <!-- If you're the last person interacting with the file, enter your name last on the list -->
             </respStmt>
          </titleStmt>
          <editionStmt>
-            <edition>First digital edition in TEI, date: November 3, 2023<date when="2023-11-03"/>
+            <edition>First digital edition in TEI, date: November 3, 2023<date when="2023-11-03">
+                  <!--enter the date on which the first coder created and saved this XML file in google drive-->
+               </date>
             </edition>
             <respStmt>
                <orgName type="naf" ref="http://id.loc.gov/authorities/names/n82003163">
                   Princeton University Library
-                  
+                  <!--who digitized the letter or gave us permission for to use the file?-->
                </orgName>
                <resp> photos include:
                   Edgeworth_Princeton_1829-11_page01.jpg,
                   Edgeworth_Princeton_1829-11_page02.jpg,
                   Edgeworth_Princeton_1829-11_page03.jpg
-                  
+                  <!-- Make a comma-separated list of each .jpg photo file name associated with your letter. 
+                     For example: DSCF9476.jpg, DSCF9477.jpg, DSCF9478.jpg-->
                </resp>
             </respStmt>
          </editionStmt>
@@ -46,35 +54,44 @@
                <licence target="https://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons Attribution 4.0 (CC BY 4.0) Unported
             License</licence>
             </availability>
-            <idno>Edgeworth_Princeton_1829-11</idno>
+            <idno>Edgeworth_Princeton_1829-11</idno> 
          </publicationStmt>
          <seriesStmt>
             <title>Maria Edgeworth Letters Project</title>
          </seriesStmt>
          <sourceDesc>
             <msDesc xml:lang="en">
+               <!-- This section of the header identifies the original manuscript source. -->
                <msIdentifier>
                   <repository>Princeton University Library</repository>
-                  <collection/>
+                  <collection><!-- Enter specific archival collection if applicable--></collection>
                   <idno>Edgeworth_Princeton_1829-11</idno>
-               </msIdentifier>
+               </msIdentifier>               
+               <!-- FROM LAURA: it's here (below) in the head that I added the full information about the author,
+                  and you could add full information about the addressee as well. -->
                <head>Letter from 
                      <persName xml:id="EdgeM1" from="1768" to="1849">
-                     <forename>Maria</forename>
-                     <surname>Edgeworth</surname>
-                     <date>1768-1849</date>
-                     <idno type="VIAF">71477273</idno>
-                     <idno type="SNAC">62567029</idno>
-                  </persName>
+                        <forename>Maria</forename>
+                        <surname>Edgeworth</surname>
+                        <date>1768-1849</date>
+                        <idno type="VIAF">71477273</idno>
+                        <idno type="SNAC">62567029</idno>
+                     </persName>
                   to <persName ref="./Personography.xml#StrutW1">William Strutt</persName>,
                   <date when="1829-11-18">Nov<hi rend="superscript">r</hi>. 18<hi rend="superscript">th</hi> 1829</date>
                </head>
-               <physDesc/>
+               <physDesc>
+                  <!-- optional physical description of the letter goes here: paper size and condition, seal, postmarks, etc.-->
+               </physDesc>
             </msDesc>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
          <editorialDecl>
+            <!--Where Edgeworth uses nonstandard spelling and hyphenation of words, transcriber-coders 
+               should use TEI elements “choice," “sic," and “reg" to encode both Edgeworth’s 
+               spelling and the regular international standard of Oxford English spelling, 
+               following the first listed spelling in the Oxford English Dictionary. -->
             <p>Edgeworth’s spelling and punctuation are retained in transcription, except where a
                word is split at the end of a line and the beginning of the next in a manuscript. The
                long s and ligatured forms are silently emended.</p>
@@ -96,8 +113,9 @@
       <body>
          <div type="letter">
             <pb n="1" facs="image1.jpg"/>
+            <!--filenames for photos associated with this letter. Example: <pb n="1" facs="image1.jpg image2.jpg image3.jpg"/> -->
             <opener>
-               <dateline>
+               <dateline><!--If there's no date line, omit this element. Record in the order in which it is written on the letter.-->
                   <date when="1829-11-18"/>November 18, 1829. </dateline>
                <salute>
                   My dear <persName ref="./Personography.xml#StrutW1">Mr. Strutt</persName>
@@ -112,68 +130,49 @@
                of sending it to me is by <placeName ref="./Placeography.xml#Liverpool_ENK">Liverpool</placeName> - by<lb/>
                water carriage - you best know the means<lb/>
                of so doing - If the clock be packed in a<lb/>
-               case and directed <hi rend="underline">For <persName ref="./Personography.xml#EdgeM1">Miss Edgeworth</persName>
-               </hi>
-               <lb/>
-               <hi rend="underline">to the care of Mess<hi rend="superscript">rs</hi>. <persName ref="./Personography.xml#BrowJ1">J</persName> &amp; <persName ref="./Personography.xml#BrowW1">W Brown</persName>
-               </hi>
-               <lb/>
-               <hi rend="underline">
-                  <placeName ref="./Placeography.xml#Liverpool_ENK">Liverpool</placeName>
-               </hi> -<lb/>
+               case and directed <hi rend="underline">For <persName ref="./Personography.xml#EdgeM1">Miss Edgeworth</persName></hi><lb/>
+               <hi rend="underline">to the care of Mess<hi rend="superscript">rs</hi>. <persName ref="./Personography.xml#BrowJ1">J</persName> &amp; <persName ref="./Personography.xml#BrowW1">W Brown</persName></hi><lb/>
+               <hi rend="underline"><placeName ref="./Placeography.xml#Liverpool_ENK">Liverpool</placeName></hi> -<lb/>
             </p>
-            <p>
-               <hi rend="underline">to be forwarded to <placeName ref="./Placeography.xml#Dublin_IE">Dublin</placeName> to <persName ref="./Personography.xml#WillC1">M<hi rend="superscript">r</hi>. William's</persName>
-               </hi>
-               <lb/>
+            <p><hi rend="underline">to be forwarded to <placeName ref="./Placeography.xml#Dublin_IE">Dublin</placeName> to <persName ref="./Personography.xml#WillC1">M<hi rend="superscript">r</hi>. William's</persName></hi><lb/>
                <hi rend="underline">packet-office</hi> -<lb/>
             </p>
             <p>it will reach me safely and soon -<lb/>
                I am very impatient to see it and to try<lb/>
                if I can understand its principle with<lb/>
-               the help of your explanation. I hope I shal<unclear>l</unclear>
-               <lb/>
+               the help of your explanation. I hope I shal<unclear>l</unclear><lb/>
+               
+            
             </p>
             <closer>
-               - I am well now &amp; ever your obliged &amp; <choice>
-                  <orig>affec</orig>
-                  <reg>affectionate</reg>
-               </choice>
-               <lb/>
+               - I am well now &amp; ever your obliged &amp; <choice><orig>affec</orig><reg>affectionate</reg></choice><lb/>
                <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
             </closer>
             <postscript>
                <pb n="2" facs="Edgeworth_Princeton_1829-11_page02.jpg"/>
-               <p>given by <persName ref="./Personography.xml#StrutW1">Wm Strutt Esqr</persName>
-                  <lb/>
-                  To G <unclear>??ynell</unclear>
-                  <lb/>
+               <p>given by <persName ref="./Personography.xml#StrutW1">Wm Strutt Esqr</persName><lb/>
+                  To G <unclear>??ynell</unclear><lb/>
                </p>
                <pb n="3" facs="Edgeworth_Princeton_1829-11_page03.jpg"/>
-               <p>Gift of <persName ref="./Personography.xml#StrutW1">Wm Strutt Esqr</persName>
-                  <lb/>
+               <p>Gift of <persName ref="./Personography.xml#StrutW1">Wm Strutt Esqr</persName><lb/>
                   G. M.<lb/>
                </p>
             </postscript>
-            <closer>
+            <!--You can include a <pb/> here, or inside the postScript.-->
+            <!-- Format for postscripts. 
+               Postscripts do NOT go inside closer tags. Adjust to take into account the order in your letter. 
+               Sometimes the signature is on page three, the address on page four, then the postscript follows back on the top of page one, for example.-->
+            <closer><!--Use the <closer> element again to hold Address Leaf information.-->
                <address>
-                  <addrLine>N<hi rend="superscript">o</hi>2<lb/>
-                  </addrLine>
-                  <addrLine>
-                     <persName ref="./Personography.xml#StrutW1">William Strutt Esq<hi rend="superscript">re</hi>
-                     </persName>
-                     <lb/>
-                  </addrLine>
-                  <addrLine>S<hi rend="superscript">t</hi>. Hellens<lb/>
-                  </addrLine>
-                  <addrLine>
-                     <placeName ref="./Placeography.xml#Derby_ENK">Derby</placeName>
-                     <lb/>
-                  </addrLine>
+                  <!--Include any text written on the address leaf; use a separate "addrLine" for each line and indicate line breaks. -->
+                  <addrLine>N<hi rend="superscript">o</hi>2<lb/></addrLine>
+                  <addrLine><persName ref="./Personography.xml#StrutW1">William Strutt Esq<hi rend="superscript">re</hi></persName><lb/></addrLine>
+                  <addrLine>S<hi rend="superscript">t</hi>. Hellens<lb/></addrLine>
+                  <addrLine><placeName ref="./Placeography.xml#Derby_ENK">Derby</placeName><lb/></addrLine>
                </address>
             </closer>
          </div>
       </body>
-      <back/>
+      <back> </back>
    </text>
 </TEI>
