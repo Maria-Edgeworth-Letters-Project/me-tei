@@ -20,27 +20,20 @@
                <resp>Transcription and coding by</resp>
                <persName ref="Id_who">Lindsey Jones
                </persName>
-               <!-- List all transcribers or coders here, editors and students alike, <persName> by <persName>.-->
-               <persName ref="Id_who"><!--FirstName LastName--></persName>
-               <!-- If you're the last person interacting with the file, enter your name last on the list -->
+               <persName ref="Id_who"/>
             </respStmt>
          </titleStmt>
          <editionStmt>
-            <edition>First digital edition in TEI, date: October 15, 2023<date when="2023-10-15">
-                  <!--enter the date on which the first coder created and saved this XML file in google drive-->
-               </date>
+            <edition>First digital edition in TEI, date: October 15, 2023<date when="2023-10-15"/>
             </edition>
             <respStmt>
                <orgName type="naf" ref="http://id.loc.gov/authorities/names/n82003163">
                   Princeton University Library
-                  <!--who digitized the letter or gave us permission for to use the file?-->
-               </orgName>
+                  </orgName>
                <resp> photos include: 
                   Edgeworth_Princeton_1834-01_page01.jpg,
                   Edgeworth_Princeton_1834-01_page02.jpg
-                  <!-- Make a comma-separated list of each .jpg photo file name associated with your letter. 
-                     For example: DSCF9476.jpg, DSCF9477.jpg, DSCF9478.jpg-->
-               </resp>
+                  </resp>
             </respStmt>
          </editionStmt>
          <publicationStmt>
@@ -60,15 +53,11 @@
          </seriesStmt>
          <sourceDesc>
             <msDesc xml:lang="en">
-               <!-- This section of the header identifies the original manuscript source. -->
                <msIdentifier>
                   <repository>Princeton University Library</repository>
-                  <!--NOTE FROM LJ: Where do you find the info for the next two lines?-->
-                  <collection><!-- Enter specific archival collection if applicable--></collection>
+                  <collection/>
                   <idno>Edgeworth_Princeton_1834-01</idno>
                </msIdentifier>
-               <!-- FROM LAURA: it's here (below) in the head that I added the full information about the author,
-                  and you could add full information about the addressee as well. -->
                <head>Letter from 
                      <persName xml:id="EdgeM1" from="1768" to="1849">
                      <forename>Maria</forename>
@@ -80,23 +69,14 @@
                   to <persName ref="./Personography.xml#BentR1">R. Bentley</persName>, <placeName ref="./Placeography.xml#Edgeworthstown_IE">Edgeworthtown</placeName>, 
                   <date when="1834-01-24">Jan<hi rend="superscript">y</hi> 24<hi rend="superscript">th</hi>. 1834</date>
                </head>
-               <physDesc>
-                  <!-- optional physical description of the letter goes here: paper size and condition, seal, postmarks, etc.-->
-               </physDesc>
+               <physDesc/>
             </msDesc>
-            <!-- FROM LAURA: where to put the following information in <bibl> is still a question: 
-               ask TEI List whether it should be in the sourceDesc or elsewhere? -->
             <bibl>In addition to our edited version, this letter was previously published in
-               <!--complete bibiographical info if letter was published in a book here - if not delete-->
-            </bibl>
+               </bibl>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
          <editorialDecl>
-            <!--Where Edgeworth uses nonstandard spelling and hyphenation of words, transcriber-coders 
-               should use TEI elements “choice," “sic," and “reg" to encode both Edgeworth’s 
-               spelling and the regular international standard of Oxford English spelling, 
-               following the first listed spelling in the Oxford English Dictionary. -->
             <p>Edgeworth’s spelling and punctuation are retained in transcription, except where a
                word is split at the end of a line and the beginning of the next in a manuscript. The
                long s and ligatured forms are silently emended.</p>
@@ -118,7 +98,6 @@
       <body>
          <div type="letter">
             <pb n="1" facs="image1.jpg"/>
-            <!--filenames for photos associated with this letter. Example: <pb n="1" facs="image1.jpg image2.jpg image3.jpg"/> -->
             <opener>
                <dateline>
                   <name type="place" ref="./Placeography.xml#Edgeworthstown_IE">Edgeworthstown</name>
@@ -182,6 +161,6 @@
             </closer>
          </div>
       </body>
-      <back> </back>
+      <back/>
    </text>
 </TEI>

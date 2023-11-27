@@ -18,7 +18,6 @@
             <respStmt>
                <resp>Transcription and coding by</resp>
                <persName ref="Id_who">Alexandra LaGrand</persName>
-               <!-- If you're the last person interacting with the file, enter your name last on the list -->
             </respStmt>
          </titleStmt>
          <editionStmt>
@@ -47,11 +46,9 @@
             <msDesc xml:lang="en">
                <msIdentifier>
                   <repository>Princeton University Library</repository>
-                  <collection><!-- Enter specific archival collection if applicable--></collection>
-                  <idno><!--Consult library or WorldCat for this info--></idno>
+                  <collection/>
+                  <idno/>
                </msIdentifier>
-               <!-- FROM LAURA: it's here (below) in the head that I added the full information about the author,
-                  and you could add full information about the addressee as well. -->
                <head>Letter from 
                   <persName ref="./Personography.xml#BentR1">Richard Bentley</persName> to <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>, <placeName ref="./Placeography.xml#New-Burlington-Street_ENK">New Burlington Street</placeName>, 
                   <date when="1834-06-30">June 30. 1834</date>
@@ -60,16 +57,10 @@
                   <p>Letter includes red seal on address leaf</p>
                </physDesc>
             </msDesc>
-            <!-- FROM LAURA: where to put the following information in <bibl> is still a question: 
-               ask TEI List whether it should be in the sourceDesc or elsewhere? -->
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
          <editorialDecl>
-            <!--Where Edgeworth uses nonstandard spelling and hyphenation of words, transcriber-coders 
-               should use TEI elements “choice," “sic," and “reg" to encode both Edgeworth’s 
-               spelling and the regular international standard of Oxford English spelling, 
-               following the first listed spelling in the Oxford English Dictionary. -->
             <p>Edgeworth’s spelling and punctuation are retained in transcription, except where a
                word is split at the end of a line and the beginning of the next in a manuscript. The
                long s and ligatured forms are silently emended.</p>
@@ -95,7 +86,7 @@
          <div type="letter">
             <pb n="2" facs="Edgeworth_Princeton_1834-06_page002.jpg"/>
             <opener>
-               <dateline><!--If there's no date line, omit this element. Record in the order in which it is written on the letter.-->
+               <dateline>
                   <placeName ref="./Placeography.xml#New-Burlington-Street_ENK"/>New Burlington Street
                   <date when="1834-06-30"/>June 30. 1834 </dateline>
                <salute>
@@ -152,7 +143,7 @@
                </choice> servant,<lb/>
                <persName ref="./Personography.xml#BentR1">Richard Bentley</persName>..<lb/>
             </closer>
-            <closer><!--Use the <closer> element again to hold Address Leaf information.-->
+            <closer>
                <address>
                   <addrLine>
                      <persName ref="./Personography.xml#EdgeM1">Miss Edgeworth</persName>
@@ -179,6 +170,6 @@
             </closer>
          </div>
       </body>
-      <back> </back>
+      <back/>
    </text>
 </TEI>

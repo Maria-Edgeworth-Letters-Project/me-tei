@@ -20,9 +20,7 @@
             <respStmt>
                <resp>Transcription and coding by</resp>
                <persName ref="Id_who">Eliza Wilcox</persName>
-               <!-- List all transcribers or coders here, editors and students alike, <persName> by <persName>.-->
-               <persName ref="Id_who"><!--FirstName LastName--></persName>
-               <!-- If you're the last person interacting with the file, enter your name last on the list -->
+               <persName ref="Id_who"/>
             </respStmt>
          </titleStmt>
          <editionStmt>
@@ -54,28 +52,20 @@
                <msIdentifier>
                   <repository>Beinecke Rare Book and Manuscript Library</repository>
                   <collection>Maria Edgeworth Collection</collection>
-                  <idno><!--Consult library or WorldCat for this info--></idno>
+                  <idno/>
                </msIdentifier>
                <head>Letter from <persName ref="./Personography.xml#EdgeM1">
                      <forename>Maria</forename>
                      <surname>Edgeworth</surname>
                   </persName> to <persName ref="./Personography.xml#MileX1">Mrs. Miles</persName>,
-                        <placeName><!--Location where letter was sent--></placeName>, <date when="1813-11-12">November 12, 1813</date>
+                        <placeName/>, <date when="1813-11-12">November 12, 1813</date>
                </head>
-               <physDesc>
-                        <!-- optional physical description of the letter goes here: paper size and condition, seal, postmarks, etc.-->
-                    </physDesc>
+               <physDesc/>
             </msDesc>
-            <!-- FROM LAURA: where to put the following information in <bibl> is still a question: 
-               ask TEI List whether it should be in the sourceDesc or elsewhere? -->
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
          <editorialDecl>
-                <!--Where Edgeworth uses nonstandard spelling and hyphenation of words, transcriber-coders 
-               should use TEI elements “choice," “sic," and “reg" to encode both Edgeworth’s 
-               spelling and the regular international standard of Oxford English spelling, 
-               following the first listed spelling in the Oxford English Dictionary. -->
             <p>Edgeworth’s spelling and punctuation are retained in transcription, except where a
                     word is split at the end of a line and the beginning of the next in a manuscript. The
                     long s and ligatured forms are silently emended.</p>
@@ -92,18 +82,15 @@
          </correspDesc>
       </profileDesc>
       <revisionDesc>
-         <change when="2021-01-01" who="Id_who">
-                <!--Brief description of what you did here.-->
-            </change>
+         <change when="2021-01-01" who="Id_who"/>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <div type="letter">
             <pb n="1" facs="Edgeworth_Beinecke_330_1813_11_12_page01.jpg"/>
-            <!--filenames for photos associated with this letter. Example: <pb n="1" facs="image1.jpg image2.jpg image3.jpg"/> -->
             <opener>
-               <dateline><!--If there's no date line, omit this element. Record in the order in which it is written on the letter.-->
+               <dateline>
                   <name type="place" ref="Id_where"/>
                   <date when="1813-11-12"/>November 13, 1813<lb/>
                </dateline>
@@ -195,10 +182,8 @@
                   <lb/>
                </p>
             </postscript>
-            <!--You can include a <pb/> here, or inside the postScript.-->
-            <closer><!--Use the <closer> element again to hold Address Leaf information.-->
+            <closer>
                <address>
-                        <!--Include any text written on the address leaf; use a separate "addrLine" for each line and indicate line breaks. -->
                   <addrLine/>
                   <addrLine/>
                   <addrLine/>
@@ -206,6 +191,6 @@
             </closer>
          </div>
       </body>
-      <back> </back>
+      <back/>
    </text>
 </TEI>
