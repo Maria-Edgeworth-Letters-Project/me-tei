@@ -51,10 +51,10 @@
                <p>
                   Courtesy of <orgName ref="#http://id.loc.gov/authorities/names/n82003163">Princeton University Library</orgName>.
                </p>
-               <licence>Distributed under a Creative Commons Attribution-ShareAlike 3.0 Unported
-                  License</licence>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons Attribution 4.0 (CC BY 4.0) Unported
+            License</licence>
             </availability>
-            <idno>Edgeworth_Princeton_1829-11</idno> 
+            <idno>Edgeworth_Princeton_1829-11</idno>
          </publicationStmt>
          <seriesStmt>
             <title>Maria Edgeworth Letters Project</title>
@@ -66,17 +66,17 @@
                   <repository>Princeton University Library</repository>
                   <collection><!-- Enter specific archival collection if applicable--></collection>
                   <idno>Edgeworth_Princeton_1829-11</idno>
-               </msIdentifier>               
+               </msIdentifier>
                <!-- FROM LAURA: it's here (below) in the head that I added the full information about the author,
                   and you could add full information about the addressee as well. -->
                <head>Letter from 
                      <persName xml:id="EdgeM1" from="1768" to="1849">
-                        <forename>Maria</forename>
-                        <surname>Edgeworth</surname>
-                        <date>1768-1849</date>
-                        <idno type="VIAF">71477273</idno>
-                        <idno type="SNAC">62567029</idno>
-                     </persName>
+                     <forename>Maria</forename>
+                     <surname>Edgeworth</surname>
+                     <date>1768-1849</date>
+                     <idno type="VIAF">71477273</idno>
+                     <idno type="SNAC">62567029</idno>
+                  </persName>
                   to <persName ref="./Personography.xml#StrutW1">William Strutt</persName>,
                   <date when="1829-11-18">Nov<hi rend="superscript">r</hi>. 18<hi rend="superscript">th</hi> 1829</date>
                </head>
@@ -84,10 +84,8 @@
                   <!-- optional physical description of the letter goes here: paper size and condition, seal, postmarks, etc.-->
                </physDesc>
             </msDesc>
-            
             <!-- FROM LAURA: where to put the following information in <bibl> is still a question: 
                ask TEI List whether it should be in the sourceDesc or elsewhere? -->
-            
             <bibl>In addition to our edited version, this letter was previously published in
                <!--complete bibiographical info if letter was published in a book here - if not delete-->
             </bibl>
@@ -137,31 +135,46 @@
                of sending it to me is by <placeName ref="./Placeography.xml#Liverpool_ENK">Liverpool</placeName> - by<lb/>
                water carriage - you best know the means<lb/>
                of so doing - If the clock be packed in a<lb/>
-               case and directed <hi rend="underline">For <persName ref="./Personography.xml#EdgeM1">Miss Edgeworth</persName></hi><lb/>
-               <hi rend="underline">to the care of Mess<hi rend="superscript">rs</hi>. <persName ref="./Personography.xml#BrowJ1">J</persName> &amp; <persName ref="./Personography.xml#BrowW1">W Brown</persName></hi><lb/>
-               <hi rend="underline"><placeName ref="./Placeography.xml#Liverpool_ENK">Liverpool</placeName></hi> -<lb/>
+               case and directed <hi rend="underline">For <persName ref="./Personography.xml#EdgeM1">Miss Edgeworth</persName>
+               </hi>
+               <lb/>
+               <hi rend="underline">to the care of Mess<hi rend="superscript">rs</hi>. <persName ref="./Personography.xml#BrowJ1">J</persName> &amp; <persName ref="./Personography.xml#BrowW1">W Brown</persName>
+               </hi>
+               <lb/>
+               <hi rend="underline">
+                  <placeName ref="./Placeography.xml#Liverpool_ENK">Liverpool</placeName>
+               </hi> -<lb/>
             </p>
-            <p><hi rend="underline">to be forwarded to <placeName ref="./Placeography.xml#Dublin_IE">Dublin</placeName> to <persName ref="./Personography.xml#WillC1">M<hi rend="superscript">r</hi>. William's</persName></hi><lb/>
+            <p>
+               <hi rend="underline">to be forwarded to <placeName ref="./Placeography.xml#Dublin_IE">Dublin</placeName> to <persName ref="./Personography.xml#WillC1">M<hi rend="superscript">r</hi>. William's</persName>
+               </hi>
+               <lb/>
                <hi rend="underline">packet-office</hi> -<lb/>
             </p>
             <p>it will reach me safely and soon -<lb/>
                I am very impatient to see it and to try<lb/>
                if I can understand its principle with<lb/>
-               the help of your explanation. I hope I shal<unclear>l</unclear><lb/>
-               
-            
+               the help of your explanation. I hope I shal<unclear>l</unclear>
+               <lb/>
             </p>
             <closer>
-               - I am well now &amp; ever your obliged &amp; <choice><orig>affec</orig><reg>affectionate</reg></choice><lb/>
+               - I am well now &amp; ever your obliged &amp; <choice>
+                  <orig>affec</orig>
+                  <reg>affectionate</reg>
+               </choice>
+               <lb/>
                <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
             </closer>
             <postscript>
                <pb n="2" facs="Edgeworth_Princeton_1829-11_page02.jpg"/>
-               <p>given by <persName ref="./Personography.xml#StrutW1">Wm Strutt Esqr</persName><lb/>
-                  To G <unclear>??ynell</unclear><lb/>
+               <p>given by <persName ref="./Personography.xml#StrutW1">Wm Strutt Esqr</persName>
+                  <lb/>
+                  To G <unclear>??ynell</unclear>
+                  <lb/>
                </p>
                <pb n="3" facs="Edgeworth_Princeton_1829-11_page03.jpg"/>
-               <p>Gift of <persName ref="./Personography.xml#StrutW1">Wm Strutt Esqr</persName><lb/>
+               <p>Gift of <persName ref="./Personography.xml#StrutW1">Wm Strutt Esqr</persName>
+                  <lb/>
                   G. M.<lb/>
                </p>
             </postscript>
@@ -172,10 +185,19 @@
             <closer><!--Use the <closer> element again to hold Address Leaf information.-->
                <address>
                   <!--Include any text written on the address leaf; use a separate "addrLine" for each line and indicate line breaks. -->
-                  <addrLine>N<hi rend="superscript">o</hi>2<lb/></addrLine>
-                  <addrLine><persName ref="./Personography.xml#StrutW1">William Strutt Esq<hi rend="superscript">re</hi></persName><lb/></addrLine>
-                  <addrLine>S<hi rend="superscript">t</hi>. Hellens<lb/></addrLine>
-                  <addrLine><placeName ref="./Placeography.xml#Derby_ENK">Derby</placeName><lb/></addrLine>
+                  <addrLine>N<hi rend="superscript">o</hi>2<lb/>
+                  </addrLine>
+                  <addrLine>
+                     <persName ref="./Personography.xml#StrutW1">William Strutt Esq<hi rend="superscript">re</hi>
+                     </persName>
+                     <lb/>
+                  </addrLine>
+                  <addrLine>S<hi rend="superscript">t</hi>. Hellens<lb/>
+                  </addrLine>
+                  <addrLine>
+                     <placeName ref="./Placeography.xml#Derby_ENK">Derby</placeName>
+                     <lb/>
+                  </addrLine>
                </address>
             </closer>
          </div>

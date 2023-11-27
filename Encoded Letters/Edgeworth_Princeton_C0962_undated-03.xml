@@ -33,11 +33,12 @@
             <authority>Maria Edgeworth Letters Project</authority>
             <date>2022</date>
             <availability>
-               <p>Reproduced by courtesy of <orgName ref="http://id.loc.gov/authorities/names/n82003163">Princeton University Library</orgName></p>
-               <licence>Distributed under a Creative Commons Attribution-ShareAlike 3.0 Unported
-                  License</licence>
+               <p>Reproduced by courtesy of <orgName ref="http://id.loc.gov/authorities/names/n82003163">Princeton University Library</orgName>
+               </p>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons Attribution 4.0 (CC BY 4.0) Unported
+            License</licence>
             </availability>
-            <idno>Edgeworth_Princeton_C0962_undated-03</idno> 
+            <idno>Edgeworth_Princeton_C0962_undated-03</idno>
          </publicationStmt>
          <seriesStmt>
             <title>Maria Edgeworth Letters Project</title>
@@ -60,7 +61,7 @@
                   <!-- optional physical description of the letter goes here: paper size and condition, seal, postmarks, etc.-->
                </physDesc>
             </msDesc>
-           </sourceDesc>
+         </sourceDesc>
       </fileDesc>
       <encodingDesc>
          <editorialDecl>
@@ -94,52 +95,82 @@
             <pb n="2" facs="Edgeworth_Princeton_C0962_undated-03_page02.jpg"/>
             <opener>
                <salute>
-                  <persName><choice><orig>D<hi rend="superscript">r.</hi></orig><reg>Dear</reg></choice> Madam</persName>
+                  <persName>
+                     <choice>
+                        <orig>D<hi rend="superscript">r.</hi>
+                        </orig>
+                        <reg>Dear</reg>
+                     </choice> Madam</persName>
                </salute>
             </opener>
             <p>You have brought trouble on<lb/>
-               yourself by your cordial <choice><orig>man<lb/>
-               ner</orig><reg>manner</reg></choice> of desiring the pleasure<lb/>
+               yourself by your cordial <choice>
+                  <orig>man<lb/>
+               ner</orig>
+                  <reg>manner</reg>
+               </choice> of desiring the pleasure<lb/>
                of doing commissions for me<lb/>
-               in <placeName ref="./Placeography.xml#Paris_FR">Paris</placeName><lb/></p>
+               in <placeName ref="./Placeography.xml#Paris_FR">Paris</placeName>
+               <lb/>
+            </p>
             <p>
                Besides 2 pairs of black<lb/>
                satin slippers (with strings)<lb/>
                I wish for a small gold<lb/>
                chain as nearly like that<lb/>
                which I enclose as you can<lb/>
-               find without looking <hi rend="underline">far &amp;</hi><lb/>
+               find without looking <hi rend="underline">far &amp;</hi>
+               <lb/>
                <hi rend="underline">wide</hi>. - I gave this the other<lb/>
                day to a little child of a friend<lb/>
                and cannot replace it easily<lb/>
                in <placeName ref="./Placeography.xml#London_ENK">London</placeName>. In <placeName ref="./Placeography.xml#Paris_FR">Paris</placeName> where<lb/>
                I bought this I know that<lb/>
-               such chains are cheap <choice><orig>com<lb/>
-               paratively</orig><reg>comparatively</reg></choice> - Take the measure<lb/>
+               such chains are cheap <choice>
+                  <orig>com<lb/>
+               paratively</orig>
+                  <reg>comparatively</reg>
+               </choice> - Take the measure<lb/>
                of the length of this if you<lb/>
                please - A <hi rend="underline">French</hi> foot I believe<lb/>
                &amp; as well as I recollect it<lb/>
-               did not cost above a <choice><orig>Napo-<lb/>
-               leon</orig><reg>Napoleon</reg></choice> - I take the liberty<lb/></p>
+               did not cost above a <choice>
+                  <orig>Napo-<lb/>
+               leon</orig>
+                  <reg>Napoleon</reg>
+               </choice> - I take the liberty<lb/>
+            </p>
             <p>
                <pb n="3" facs="Edgeworth_Princeton_C0962_undated-03_page03.jpg"/>
                of enclosing two sovereigns<lb/>
-               well knowing from <choice><orig>expe<lb/>
-               rience</orig><reg>experience</reg></choice> that one has need<lb/>
+               well knowing from <choice>
+                  <orig>expe<lb/>
+               rience</orig>
+                  <reg>experience</reg>
+               </choice> that one has need<lb/>
                of all one's own money<lb/>
-               during a visit to <placeName ref="./Placeography.xml#Paris_FR">Paris</placeName><lb/>
-               &amp; that it is a great <choice><orig>addi<lb/>
-               tional</orig><reg>additional</reg></choice> inconvenience to<lb/>
+               during a visit to <placeName ref="./Placeography.xml#Paris_FR">Paris</placeName>
+               <lb/>
+               &amp; that it is a great <choice>
+                  <orig>addi<lb/>
+               tional</orig>
+                  <reg>additional</reg>
+               </choice> inconvenience to<lb/>
                have commissions to pay<lb/>
-               for as well as to execute.<lb/></p>
+               for as well as to execute.<lb/>
+            </p>
             <p>
-               My sister begs her <choice><orig>Compls</orig><reg>Compliments</reg></choice>
-               with mine to <persName ref="./Personography.xml#HallX1">M<hi rend="superscript">r.</hi> Hall</persName>               
+               My sister begs her <choice>
+                  <orig>Compls</orig>
+                  <reg>Compliments</reg>
+               </choice>
+               with mine to <persName ref="./Personography.xml#HallX1">M<hi rend="superscript">r.</hi> Hall</persName>
             </p>
             <closer>
                I am D<hi rend="superscript">r.</hi> Madam<lb/>
                Yours sincerely<lb/>
-               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName><lb/>
+               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
+               <lb/>
             </closer>
             <postscript>
                <p>
@@ -157,8 +188,12 @@
             </postscript>
             <closer>
                <address>
-                  <addrLine><persName ref="./Personography.xml#HallX2">Mr<hi rend="superscript">rs.</hi>Hall</persName></addrLine>
-                  <addrLine><placeName ref="./Placeography.xml#59-Sloane-Street_FR">59 Sloane Street</placeName></addrLine>
+                  <addrLine>
+                     <persName ref="./Personography.xml#HallX2">Mr<hi rend="superscript">rs.</hi>Hall</persName>
+                  </addrLine>
+                  <addrLine>
+                     <placeName ref="./Placeography.xml#59-Sloane-Street_FR">59 Sloane Street</placeName>
+                  </addrLine>
                </address>
             </closer>
          </div>

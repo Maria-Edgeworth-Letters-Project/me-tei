@@ -35,10 +35,10 @@
             <availability>
                <p>Reproduced by courtesy of <orgName ref="http://id.loc.gov/authorities/names/n82003163">Princeton University Library</orgName>
                </p>
-               <licence>Distributed under a Creative Commons Attribution-ShareAlike 3.0 Unported
-                  License</licence>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons Attribution 4.0 (CC BY 4.0) Unported
+            License</licence>
             </availability>
-            <idno>Edgeworth_Princeton_C0962_undated-04</idno> 
+            <idno>Edgeworth_Princeton_C0962_undated-04</idno>
          </publicationStmt>
          <seriesStmt>
             <title>Maria Edgeworth Letters Project</title>
@@ -57,9 +57,11 @@
                   </persName>
                   to <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
                </head>
-               <physDesc><p>Black seal present on address leaf</p></physDesc>
+               <physDesc>
+                  <p>Black seal present on address leaf</p>
+               </physDesc>
             </msDesc>
-           </sourceDesc>
+         </sourceDesc>
       </fileDesc>
       <encodingDesc>
          <editorialDecl>
@@ -99,14 +101,20 @@
                for your gardens - as I have<lb/>
                sent some other things<lb/>
                to your brothers - Not<lb/>
-               that these seeds <add>&amp; plants</add> are <choice><orig>particu<lb/>
-               =larly</orig><reg>particularly</reg></choice> valuable - but because<lb/>
+               that these seeds <add>&amp; plants</add> are <choice>
+                  <orig>particu<lb/>
+               =larly</orig>
+                  <reg>particularly</reg>
+               </choice> valuable - but because<lb/>
                when they grow up, they will<lb/>
             </p>
             <p>
                <pb n="3" facs="Edgeworth_Princeton_C0962_undated-04_page03.jpg"/>
-               serve as <add>little</add> tokens of my <choice><orig>affec<lb/>
-               =tion</orig><reg>affection</reg></choice> for you all.<lb/>
+               serve as <add>little</add> tokens of my <choice>
+                  <orig>affec<lb/>
+               =tion</orig>
+                  <reg>affection</reg>
+               </choice> for you all.<lb/>
                Do you <hi rend="underline">quite</hi> understand<lb/>
                what a <hi rend="underline">token</hi> is?<lb/>
             </p>
@@ -124,13 +132,17 @@
                little Wat for me -<lb/>
             </p>
             <closer>
-               &amp; Believe me dear <persName ref="./Personography.xml#HalxX1">Hal</persName> &amp; <persName ref="./Personography.xml#TatxX1">Tat</persName><lb/>
+               &amp; Believe me dear <persName ref="./Personography.xml#HalxX1">Hal</persName> &amp; <persName ref="./Personography.xml#TatxX1">Tat</persName>
+               <lb/>
                your truly affectionate<lb/>
-               <persName ref="./Personography.xml#EdgeL1">Lucy Jane Edgeworth</persName><lb/>
+               <persName ref="./Personography.xml#EdgeL1">Lucy Jane Edgeworth</persName>
+               <lb/>
             </closer>
             <closer>
                <address>
-                  <addrLine><persName ref="./Personography.xml#HalxX1">Hal</persName> &amp; <persName ref="./Personography.xml#TatxX1">Tat</persName></addrLine>
+                  <addrLine>
+                     <persName ref="./Personography.xml#HalxX1">Hal</persName> &amp; <persName ref="./Personography.xml#TatxX1">Tat</persName>
+                  </addrLine>
                </address>
             </closer>
          </div>
