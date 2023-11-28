@@ -54,7 +54,7 @@
                      <forename>Maria</forename>
                      <surname>Edgeworth</surname>
                   </persName>
-                   to <persName>[Unknown]</persName>, <placeName>Black Castle</placeName>,<date when="1836-12-03">December 3<hi rend="superscript">d</hi>. 1836</date>
+                  to <persName ref="./Personography.xml#WilsL1">Lestock Peach Wilson</persName>, <placeName ref="./Placeography.xml#Black-Castle_IE">Black Castle</placeName>,<date when="1836-12-03">December 3<hi rend="superscript">d</hi>. 1836</date>
                </head>
                <physDesc/>
             </msDesc>
@@ -73,12 +73,13 @@
                <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
             </correspAction>
             <correspAction type="received">
-               <persName>Unknown</persName>
+               <persName ref="./Personography.xml#WilsL1">Lestock Peach Wilson</persName>
             </correspAction>
          </correspDesc>
       </profileDesc>
       <revisionDesc>
          <change when="2023-11-02" who="Id_who">Created file for letter, encoded letter</change>
+         <change when="2023-11-28" who="Id_who">Updated taxonomy IDs for Lestock Peach Wilson and Black Castle</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -90,7 +91,7 @@
                   <name type="place" ref="Id_where"/>Black Castle
                   <date when="1836-12-03"/>Dec 3<hi rend="superscript">d</hi>. 1836</dateline>
                <salute>
-                  <persName>My Dear Lestock</persName>
+                  <persName ref="./Personography.xml#WilsL1">My Dear Lestock</persName>
                </salute>
             </opener>
             <p>I must trouble you again - Read the enclosed letters<lb/>
