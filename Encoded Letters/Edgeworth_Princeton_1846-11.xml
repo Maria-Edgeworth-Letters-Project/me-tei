@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from [Unknown] to [Unknown], November 26, 1816</title>
+            <editor ref="Id_who">Alexandra LaGrand</editor>
+            <sponsor>
+               <orgName>Maria Edgeworth Letters Project</orgName>
+            </sponsor>
+            <sponsor>Wake Forest University, University of Tennessee, Xavier University, Texas
+               A&amp;M University</sponsor>
+            <principal>Jessica Richard, Hilary Havens, Robin Runia, Susan Egenolf</principal>
+            <respStmt>
+               <resp>Transcription and coding by</resp>
+               <persName ref="Id_who">Alexandra LaGrand</persName>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>First digital edition in TEI, date: <date when="2023-11-30">November 30, 2023</date>
+            </edition>
+            <respStmt>
+               <orgName ref="http://id.loc.gov/authorities/names/n82003163">Princeton University Library</orgName>
+               <resp> photos include: Edgeworth_Princeton_1846-11_page01, Edgeworth_Princeton_1846-11_page02, Edgeworth_Princeton_1846-11_page03, Edgeworth_Princeton_1846-11_page04</resp>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Maria Edgeworth Letters Project</authority>
+            <date>2022</date>
+            <availability>
+               <p>Reproduced by courtesy of <orgName ref="http://id.loc.gov/authorities/names/n82003163">Princeton University Library</orgName>
+               </p>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons Attribution 4.0 (CC BY 4.0) Unported
+                  License</licence>
+            </availability>
+            <idno>Edgeworth_Princeton_1846-11</idno> 
+         </publicationStmt>
+         <seriesStmt>
+            <title>Maria Edgeworth Letters Project</title>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <repository>Princeton University Library</repository>
+                  <collection></collection>
+                  <idno></idno>
+               </msIdentifier>
+               <head>Letter from <persName>[Unknown]</persName> to <persName>[Unknown]</persName>, <date when="1816-11-26">November 26, 1816</date>
+               </head>
+               <physDesc></physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <!--Where Edgeworth uses nonstandard spelling and hyphenation of words, transcriber-coders 
+               should use TEI elements “choice," “sic," and “reg" to encode both Edgeworth’s 
+               spelling and the regular international standard of Oxford English spelling, 
+               following the first listed spelling in the Oxford English Dictionary. -->
+            <p>Edgeworth’s spelling and punctuation are retained in transcription, except where a
+               word is split at the end of a line and the beginning of the next in a manuscript. The
+               long s and ligatured forms are silently emended.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName>[Unknown]</persName>
+            </correspAction>
+            <correspAction type="received">
+               <persName>[Unknown]</persName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2023-11-30" who="Id_who">Created file for letter, encoded letter</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <pb n="1" facs="Edgeworth_Princeton_1846-11_page01"/>
+            <opener>
+               <dateline>
+                  <date when="1816-11-26"/><choice><orig>Nov<hi rend="superscript">r</hi></orig><reg>November</reg></choice> 26<hi rend="superscript">th</hi>, 1816. </dateline>
+               <salute>
+                  <persName>My dear Sir</persName>
+               </salute>
+            </opener>
+            <p>We heard with real concern<lb/>
+               of your unfortunate accident,<lb/>
+               &amp; we should have written to you, <choice><orig>im<lb/>
+               -mediately</orig><reg>immediately</reg></choice> after we had heard of it<lb/>
+               had we not thought that we should<lb/>
+               ahve heard from you, upon another<lb/>
+               subject.<lb/>
+            </p>
+            <p>
+               I now write for your advice, as a<lb/>
+               common friend to us &amp; to your<lb/>
+               old house - The want of money<lb/>
+               or rather, the want of credit, has<lb/>
+               lowered the demand for everything<lb/>
+               that is saleable - of course, this<lb/>
+               depreciation must affect the sale<lb/>
+            </p>
+            <p>
+               <pb n="2" facs="Edgeworth_Princeton_1846-11_page02"/>
+               of books, as well as of <choice><orig>every thing</orig><reg>everything</reg></choice><lb/>
+               else. -<lb/>
+            </p>
+            <p>
+               I informed you <add>that</add> the beginning of this<lb/>
+               year, was employed in writing some<lb/>
+               plays &amp; tales - With respect to the<lb/>
+               latter, it was intended that they should be <choice><orig>inter<lb/>
+               -spersed</orig><reg>interspersed</reg></choice> with the plays, to <unclear>achieve</unclear><lb/>
+               the attention of the Reader -<lb/>
+               but the first of these tales, soon <choice><orig>as-<lb/>
+               sumed</orig><reg>assumed</reg></choice> a different character from<lb/>
+               that which we had intended - &amp;<lb/> 
+               has swelled into a volume - which<lb/>
+               is in my judgment, inferior to <choice><orig>no-<lb/>
+                  thing</orig><reg>nothing</reg></choice> that <persName ref="./Personography.xml#EdgeM1">Maria</persName> has written -<lb/>
+               The story is interesting &amp; the style<lb/>
+               marked with her peculiar vivacity<lb/>
+            </p>
+            <p>
+               The present state therefore, of our<lb/>
+            </p>
+            <p>
+               <pb n="3" facs="Edgeworth_Princeton_1846-11_page03"/>
+               affair is this - one volume of <choice><orig>come<lb/>
+               =edies</orig><reg>comedies</reg></choice> in three acts - &amp; a tale in one<lb/>
+               volume; - The comedies have <unclear></unclear><lb/>
+               three times the trouble; <del><unclear>of</unclear></del> <add>that</add> writing<lb/>
+               the tale has done - but I do not<lb/>
+               suppose that they will sell, half<lb/>
+               as well. - At the same time, I<lb/>
+               am made to understand by Hunter<lb/>
+               that it is better to publish two volumes<lb/>
+               at a time, than one: - Suppose the title to be as follows -<lb/>
+            </p>
+            <p>
+               <title ref="./Workography.xml#Comic1">Comedies in three acts</title> - 1 vol<lb/>
+               <title ref="./Workography.xml#Harri1">Harrington</title> a tale - 1 vol.<lb/>
+               By <persName ref="./Personography.xml#EdgeM1">Miss Edgeworth</persName><lb/>
+            </p>
+            <p>
+               Now we know that Hunter <choice><orig>w<hi rend="superscript">d</hi></orig><reg>would</reg></choice>.<lb/>
+               give any price, we chose to name<lb/>
+               for whatever we sent him, - &amp; we<lb/>
+               firmly believe, that none of us can<lb/>
+            </p>
+            <p>
+               <pb n="4" facs="Edgeworth_Princeton_1846-11_page04"/>
+               well ascertain the probability of the<lb/>
+               sale of any work at present -<lb/>
+               I therefore suppose, that, <del>with respect</del><lb/>
+               <del></del> the volume containing a tale<lb/>
+               will be called for separately by<lb/>
+               different purchasers. - the demand<lb/>
+               for the tale will be far superior to<lb/>
+               the demand for the plays - in<lb/>
+               consequence each volume should<lb/>
+               be valued separately -<lb/>
+            </p>
+            <p>
+               Of the value of a tale by <persName ref="./Personography.xml#EdgeM1">Miss E.</persName><lb/>
+               there cannot now be much doubt<lb/>
+               even, in the present state of things<lb/>
+            </p>
+            <p>
+               There certainly has not appeared<lb/>
+               any thing new lately in that line<lb/>
+               that could eclipse her -<lb/>
+               A price therefore may be fixed<lb/>
+               upon this volume - but I am inclined<lb/>
+               to think, that no price should be fixed<lb/>
+            </p>
+         </div>
+      </body>
+      <back> </back>
+   </text>
+</TEI>
