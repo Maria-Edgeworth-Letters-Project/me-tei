@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from Maria Edgeworth to Madam Miles, March 14, 1815</title>
+            <author>Maria Edgeworth</author>
+            <editor ref="Id_who">Alexandra LaGrand</editor>
+            <sponsor>
+               <orgName>Maria Edgeworth Letters Project</orgName>
+            </sponsor>
+            <sponsor>Wake Forest University, University of Tennessee, Xavier University, Texas
+               A&amp;M University</sponsor>
+            <principal>Jessica Richard, Hilary Havens, Robin Runia, Susan Egenolf</principal>
+            <respStmt>
+               <resp>Transcription and coding by</resp>
+               <persName ref="Id_who">Alexandra LaGrand</persName>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>First digital edition in TEI, date: <date when="2023-12-01">December 1, 2023</date>
+            </edition>
+            <respStmt>
+               <orgName ref="http://id.loc.gov/authorities/names/n82003163">Princeton University Library</orgName>
+               <resp> photos include: Edgeworth_Princeton_1815-03_page01.jpg, Edgeworth_Princeton_1815-03_page02.jpg, Edgeworth_Princeton_1815-03_page03.jpg</resp>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Maria Edgeworth Letters Project</authority>
+            <date>2022</date>
+            <availability>
+               <p>Reproduced by courtesy of <orgName ref="http://id.loc.gov/authorities/names/n82003163">Princeton University Library</orgName>
+               </p>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons Attribution 4.0 (CC BY 4.0) Unported License</licence>
+            </availability>
+            <idno>Edgeworth_Princeton_1815-03</idno> 
+         </publicationStmt>
+         <seriesStmt>
+            <title>Maria Edgeworth Letters Project</title>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <repository>Princeton University Library</repository>
+                  <collection></collection>
+                  <idno></idno>
+               </msIdentifier>
+               <head>Letter from 
+                     <persName ref="./Personography.xml#EdgeM1">
+                        <forename>Maria</forename>
+                        <surname>Edgeworth</surname>
+                     </persName>
+                  to <persName ref="./Personography.xml#MileX1">Madam Miles</persName>, <placeName ref="./Placeography.xml#15-Baggot-Street_IE">15 Baggot Street, Dublin</placeName>, 
+                  <date when="1815-03-14">March 14, 1815</date>
+               </head>
+               <physDesc></physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <!--Where Edgeworth uses nonstandard spelling and hyphenation of words, transcriber-coders 
+               should use TEI elements “choice," “sic," and “reg" to encode both Edgeworth’s 
+               spelling and the regular international standard of Oxford English spelling, 
+               following the first listed spelling in the Oxford English Dictionary. -->
+            <p>Edgeworth’s spelling and punctuation are retained in transcription, except where a
+               word is split at the end of a line and the beginning of the next in a manuscript. The
+               long s and ligatured forms are silently emended.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="./Personography.xml#MileX1">Madam Miles</persName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2023-12-01" who="Id_who">Created file for letter, encoded letter</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <pb n="1" facs="Edgeworth_Princeton_1815-03_page01.jpg"/>
+            <opener>
+               <dateline>
+                  <name type="place" ref="Id_where"/>Dublin
+                  <name type="place" ref="Id_where"/>15 Baggot Street
+                  <date when="1815-03-14"/>March 14<hi rend="superscript">th</hi>. 1815.</dateline>
+               <salute>
+                  <persName>My dear <persName ref="./Personography.xml#MileX1">Madam</persName>.</persName>
+               </salute>
+            </opener>
+            <p>You will be glad to hear that the long lost<lb/>
+               box has at last arrived in safety - and<lb/>
+               the lace, muslin, <choice><orig>sattin</orig><reg>satin</reg></choice> and white gauze<lb/>
+               gown are all equal to our most <choice><orig>san<lb/>
+               =guine</orig><reg>sanguine</reg></choice> expectations &amp; we thank you for<lb/>
+               having taken so much trouble and for<lb/>
+               <choice><orig>chusing</orig><reg>choosing</reg></choice> so well for us.<lb/>
+            </p>
+            <p>
+               I am afraid you will feel vexed<lb/>
+               at seeing the veil in this parcel, but<lb/>
+               as it is much <hi rend="underline">larger</hi> &amp; more expensive<lb/>
+               than I wished &amp; as the open work in the<lb/>
+               border does not suit my fancy &amp; moreover<lb/>
+               I am told does not wash well I avail<lb/>
+               myself of your permission to return it<lb/>
+               -- I need not say I hope that it has never<lb/>
+               been worn -- Instead of it I should like<lb/>
+               to have a bobbinet veil a yard <del>square</del> <add>wide</add><lb/>
+               is quite large enough for me - rounded at<lb/>
+            </p>
+            <p>
+               <pb n="2" facs="Edgeworth_Princeton_1815-03_page02.jpg"/>
+               The corners &amp; a simple chain border some<lb/>
+               thing like this <figure><figDesc>Hand drawing of circular fabric pattern</figDesc></figure><lb/>
+               If i must take lace to make up the difference<lb/>
+               of price I wish you would <choice><orig>chuse</orig><reg>choose</reg></choice> broad<lb/>
+               lace for the bottom of a gown or any other<lb/>
+               lace you approve - for lace is no loss<lb/>
+            </p>
+            <p>
+               Send the veil &amp; lace between the covers<lb/>
+               of books as I send this parcel - directed<lb/>
+               to <persName ref="./Personography.xml#FoxC1">C.J. Fox Esq.<hi rend="superscript">re</hi></persName> (for Miss E) under an outside<lb/>
+               cover to <persName ref="./Personography.xml#TaylW1">W. Taylor Esq.<hi rend="superscript">re</hi></persName> <placeName ref="./Placeography.xml#Castle-Dublin_IE">Castle - Dublin</placeName><lb/>
+            </p>
+            <p>
+               If <persName ref="./Personography.xml#EyleX1">Mr. Eyles</persName> <choice><orig>chuses</orig><reg>chooses</reg></choice> to give the difference<lb/>
+               between the price of the two veils in<lb/>
+               money I beg you will pay <persName ref="./Personography.xml#SorrX1">Miss Sorrels</persName><lb/>
+               bill for my stay, &amp; if any balance remains<lb/>
+               give it to <persName ref="./Personography.xml#EdgeC1">Sneyd</persName> or his <persName ref="./Personography.xml#EdgeH3">wife</persName> who are now<lb/>
+               in London &amp; who desired that we should<lb/>
+               direct to them at <placeName ref="./Placeography.xml#St-Pauls-Churchyard_ENK">St. Pauls Church yard.</placeName><lb/>
+            </p>
+            <p>
+               Pray <hi rend="underline">tell</hi> that I am not as<lb/>
+               troublesome as I know that I really am<lb/>
+            </p>
+            <closer>
+               Your obliged servant<lb/>
+               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName><lb/>
+            </closer>
+            <postscript>
+               <p>2 <hi rend="superscript">yd</hi> <unclear>Merswitta</unclear><lb/>
+                  6 1/2 fine Irish<lb/>
+                  7 1/2 <unclear>Diaper</unclear><lb/>
+                  10 1/2 Holland<lb/>
+                  Shawl<lb/>
+                  Cravats<lb/>
+                  <unclear>Hand <hi rend="superscript">do</hi></unclear><lb/>
+                  Huckabac<lb/>
+                  Table cloths<lb/>
+                  2 <unclear>House</unclear> cloths<lb/>
+                  Muslin<lb/>
+               </p>
+               <p>
+                  Frogs<lb/>
+                  Bird Eye Net<lb/>
+                  Peach hand <unclear><hi rend="superscript">s</hi></unclear><lb/>
+                  Tape &amp; Needles<lb/>
+                  Flower --<lb/>
+                  Sock-Garters<lb/>
+                  B frock -<lb/>
+               </p>
+               <p>
+                  104 Picadilly<lb/>
+                  28 Hatton Garden<lb/>
+               </p>
+            </postscript>
+            <closer>
+               <address>
+                  <addrLine><persName ref="./Personography.xml#MileX1">M<hi rend="superscript">rs</hi>. Miles</persName></addrLine><lb/>
+                  <addrLine/>
+                  <addrLine/>
+                  <addrLine/>
+               </address>
+            </closer>
+         </div>
+      </body>
+      <back> </back>
+   </text>
+</TEI>
