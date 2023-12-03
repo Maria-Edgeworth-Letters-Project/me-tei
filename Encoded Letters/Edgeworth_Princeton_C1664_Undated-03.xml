@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from Maria Edgeworth to Miles, June 28, YYYY</title>
+            <author>Maria Edgeworth</author>
+            <editor ref="Id_who">Lindsey Jones
+            </editor>
+            <sponsor>
+               <orgName>Maria Edgeworth Letters Project</orgName>
+            </sponsor>
+            <sponsor>Wake Forest University, University of Tennessee, Xavier University, Texas
+               A&amp;M University</sponsor>
+            <principal>Jessica Richard, Hilary Havens, Robin Runia, Susan Egenolf</principal>
+            <respStmt>
+               <resp>Transcription and coding by</resp>
+               <persName ref="Id_who">Lindsey Jones
+               </persName>
+               <persName ref="Id_who"/>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>First digital edition in TEI, date: December 2, 2023<date when="2023-12-02"/>
+            </edition>
+            <respStmt>
+               <orgName type="naf" ref="http://id.loc.gov/authorities/names/n82003163">
+                  Princeton University Library
+               </orgName>
+               <resp> photos include:
+                  Edgeworth_Princeton_C1664_Undated-03_page01.jpg,
+                  Edgeworth_Princeton_C1664_Undated-03_page02.jpg,
+                  Edgeworth_Princeton_C1664_Undated-03_page03.jpg,
+                  Edgeworth_Princeton_C1664_Undated-03_page04.jpg
+               </resp>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Maria Edgeworth Letters Project</authority>
+            <date>2022</date>
+            <availability>
+               <p>
+                  Courtesy of <orgName ref="#http://id.loc.gov/authorities/names/n82003163">Princeton University Library</orgName>.
+               </p>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons Attribution 4.0 (CC BY 4.0) Unported License</licence>
+            </availability>
+            <idno>Edgeworth_Princeton_C1664_Undated-03</idno> 
+         </publicationStmt>
+         <seriesStmt>
+            <title>Maria Edgeworth Letters Project</title>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <repository>Princeton University Library</repository>
+                  <collection/>
+                  <idno>Edgeworth_Princeton_C1664_Undated-03</idno>
+               </msIdentifier>
+               <head>Letter from 
+                     <persName xml:id="EdgeM1" from="1768" to="1849">
+                        <forename>Maria</forename>
+                        <surname>Edgeworth</surname>
+                        <date>1768-1849</date>
+                        <idno type="VIAF">71477273</idno>
+                        <idno type="SNAC">62567029</idno>
+                     </persName>
+                   to <persName>Miles</persName>, <placeName/>, 
+                  <date when="1111-06-28">June 28<hi rend="superscript">th</hi></date>
+               </head>
+               <physDesc/>
+            </msDesc>
+            <bibl>In addition to our edited version, this letter was previously published in
+               <!--complete bibiographical info if letter was published in a book here - if not delete-->
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <!--Where Edgeworth uses nonstandard spelling and hyphenation of words, transcriber-coders 
+               should use TEI elements “choice," “sic," and “reg" to encode both Edgeworth’s 
+               spelling and the regular international standard of Oxford English spelling, 
+               following the first listed spelling in the Oxford English Dictionary. -->
+            <p>Edgeworth’s spelling and punctuation are retained in transcription, except where a
+               word is split at the end of a line and the beginning of the next in a manuscript. The
+               long s and ligatured forms are silently emended.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName>Maria Edgeworth</persName>
+            </correspAction>
+            <correspAction type="received">
+               <persName>Miles</persName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <pb n="1" facs="Edgeworth_Princeton_C1664_Undated-03_page01.jpg"/>
+            <opener>
+               <dateline>
+                  <name type="place" ref="Id_where"/>
+                  <lb/>
+                  <date when="1111-06-28"/>June 28. </dateline>
+               <pb n="2" facs="Edgeworth_Princeton_C1664_Undated-03_page02.jpg"/>
+               <salute>
+                  Dear Sir
+               </salute>
+            </opener>
+            <p><!--     LJ NOTE PAUSED HERE 12/2/23
+               You ask whether we or
+you should mention the price
+of the copy-right of the 4[superscript]th[/superscript], 5[superscript]th[/superscript] & 6[superscript]th[/superscript]
+volumes of Tales of Fash. Life
+I can assure you that neither
+Maria nor I had or have
+formed any opinion upon the
+subject nor, do I think, that you
+can form a safe: judgement
+for some time - Maria's
+name was popular & there-
+fore there was an early run
+for her new publications
+Whether, that popularity may
+or may not be diminished
+
+by her present work, cannot
+I should think, be as yet de-
+termined - At all events
+you may be assured that we
+have the most unbounded
+confidence in your justice
+& in your honor and that we
+shall never name any price
+for any thing we send to you
+It will entertain you to
+hear that Maria has been re-
+proached by some folk
+hear for having endeavoured
+to [underline]lower[/underline] the Irish character
+I have much more reason
+to fear that the English mi
+
+litia should think themselves
+aggrieved, or that London
+cockneys & Long Acre should
+rage against us - or perhaps
+the higher frozen circles
+In all such misfortunes
+we keep silence &
+depend upon time "the
+comforter -
+The idea of Lord Moira's
+being like [unclear]??vian[/unclear] is quite
+absurd - Lord Moira is cer-
+tainly a man most [unclear]firm[/unclear]
+of purpose -
+As for Lady Clonbrony, there
+are so many & so many
+alike, that each will cry
+this [unclear]sister[/unclear] is levelled at you -
+[unclear]M E O[/unclear] 
+            -->
+            </p>
+            <p>
+               <!--More body paragraphs as needed.--></p>
+            <p>
+               <!--More body paragraphs as needed.-->
+               <!--Where there's a page break record it inside the relevant body paragraph like this, 
+                  with the self-closing page-break element. n="2" indicates the START of the second page.-->
+               <pb n="2" facs="image2.jpg"/>
+            </p>
+            <p><!--More body paragraphs as needed.--></p>
+            <closer>
+               <!--include linebreaks, if used. example: <closer> Yours<lb/> Very sincerely<lb/> -->
+            </closer>
+            <postscript>
+               <p><!--A postscript goes here, outside the <closer>. --></p>
+            </postscript>
+            <!--You can include a <pb/> here, or inside the postScript.-->
+            <!-- Format for postscripts. 
+               Postscripts do NOT go inside closer tags. Adjust to take into account the order in your letter. 
+               Sometimes the signature is on page three, the address on page four, then the postscript follows back on the top of page one, for example.-->
+            <closer><!--Use the <closer> element again to hold Address Leaf information.-->
+               <address>
+                  <!--Include any text written on the address leaf; use a separate "addrLine" for each line and indicate line breaks. -->
+                  <addrLine/>
+                  <addrLine/>
+                  <addrLine/>
+               </address>
+            </closer>
+         </div>
+      </body>
+      <back> </back>
+   </text>
+</TEI>
