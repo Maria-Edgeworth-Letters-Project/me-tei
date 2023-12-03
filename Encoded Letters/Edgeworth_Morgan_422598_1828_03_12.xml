@@ -9,11 +9,9 @@
             <title>Letter from Maria Edgeworth to [Thomas Spring-Rice], March 12th, 1828</title>
             <author>Maria Edgeworth</author>
             <editor ref="Id_who"> Jessica Richard
-               <!--Editor on the Maria Edgeworth Letters Project overseeing the coding of this particular letter: FirstName LastName -->
-            </editor>
+               </editor>
             <editor ref="Id_who"> Robin Runia
-               <!--Editor on the Maria Edgeworth Letters Project overseeing the coding of this particular letter: FirstName LastName -->
-            </editor>
+               </editor>
             <sponsor>
                <orgName>Maria Edgeworth Letters Project</orgName>
             </sponsor>
@@ -24,15 +22,11 @@
                <resp>Transcription and coding by</resp>
                <persName ref="Id_who">Mary Outland
                </persName>
-               <!-- List all transcribers or coders here, editors and students alike, <persName> by <persName>.-->
                <persName ref="Id_who">Jamie Kramer</persName>
-               <!-- If you're the last person interacting with the file, enter your name last on the list -->
             </respStmt>
          </titleStmt>
          <editionStmt>
-            <edition>First digital edition in TEI, date: <date when="2023-06-13">
-                  <!--enter the date on which the first coder created and saved this XML file in google drive-->
-               </date>
+            <edition>First digital edition in TEI, date: <date when="2023-06-13"/>
             </edition>
             <respStmt>
                <orgName type="naf" ref="https://id.loc.gov/authorities/names/n78095799">
@@ -46,8 +40,6 @@
             <authority>Maria Edgeworth Letters Project</authority>
             <date>2022</date>
             <availability>
-               <!--Uncomment the appropriate line, based on the archive that holds the physical copy of this letter, 
-                  and delete the other comment line(s).-->
                <p>Reproduced by courtesy of the <orgName ref="https://id.loc.gov/authorities/names/n78095799">Pierpont Morgan Library</orgName>
                </p>
                <licence target="https://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons Attribution 4.0 (CC BY 4.0) Unported
@@ -60,14 +52,11 @@
          </seriesStmt>
          <sourceDesc>
             <msDesc xml:lang="en">
-               <!-- This section of the header identifies the original manuscript source. -->
                <msIdentifier>
                   <repository>Pierpont Morgan Library</repository>
-                  <collection><!-- Enter specific archival collection if applicable--></collection>
-                  <idno><!--Consult library or WorldCat for this info--></idno>
+                  <collection/>
+                  <idno/>
                </msIdentifier>
-               <!-- FROM LAURA: it's here (below) in the head that I added the full information about the author,
-                  and you could add full information about the addressee as well. -->
                <head>Letter from 
                      <persName xml:id="EdgeM1" from="1768" to="1849">
                      <forename>Maria</forename>
@@ -79,23 +68,14 @@
                   to <persName ref="./Personography.xml#SpriT1">Thomas Spring-Rice</persName>, 
                   <date when="1828-03-12">March 12<hi rend="superscript">th</hi>. 1828 </date>
                </head>
-               <physDesc>
-                  <!-- optional physical description of the letter goes here: paper size and condition, seal, postmarks, etc.-->
-               </physDesc>
+               <physDesc/>
             </msDesc>
-            <!-- FROM LAURA: where to put the following information in <bibl> is still a question: 
-               ask TEI List whether it should be in the sourceDesc or elsewhere? -->
             <bibl>In addition to our edited version, this letter was previously published in
-               <!--complete bibiographical info if letter was published in a book here - if not delete-->
-            </bibl>
+               </bibl>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
          <editorialDecl>
-            <!--Where Edgeworth uses nonstandard spelling and hyphenation of words, transcriber-coders 
-               should use TEI elements “choice," “sic," and “reg" to encode both Edgeworth’s 
-               spelling and the regular international standard of Oxford English spelling, 
-               following the first listed spelling in the Oxford English Dictionary. -->
             <p>Edgeworth’s spelling and punctuation are retained in transcription, except where a
                word is split at the end of a line and the beginning of the next in a manuscript. The
                long s and ligatured forms are silently emended.</p>
@@ -218,7 +198,7 @@
          <div type="letter">
             <pb n="1" facs="Edgeworth_Morgan_422598_1828_03_12_page01.jpg"/>
             <opener>
-               <dateline><!--If there's no date line, omit this element. Record in the order in which it is written on the letter.-->
+               <dateline>
                   <placeName ref="./Placeography.xml#Edgeworthstown_IE">Edgeworths Town</placeName>
                   <lb/>
                   <date when="1828-03-12"/>March 12<hi rend="superscript">th</hi>. 1828 </dateline>
@@ -271,6 +251,6 @@
             </closer>
          </div>
       </body>
-      <back> </back>
+      <back/>
    </text>
 </TEI>

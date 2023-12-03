@@ -18,7 +18,6 @@
             <respStmt>
                <resp>Transcription and coding by</resp>
                <persName ref="Id_who">Alexandra LaGrand</persName>
-               <!-- If you're the last person interacting with the file, enter your name last on the list -->
             </respStmt>
          </titleStmt>
          <editionStmt>
@@ -47,8 +46,8 @@
             <msDesc xml:lang="en">
                <msIdentifier>
                   <repository>Princeton University Library</repository>
-                  <collection><!-- Enter specific archival collection if applicable--></collection>
-                  <idno><!--Consult library or WorldCat for this info--></idno>
+                  <collection/>
+                  <idno/>
                </msIdentifier>
                <head>Letter from 
                   <persName ref="./Personography.xml#EdgeM1">
@@ -56,21 +55,16 @@
                      <surname>Edgeworth</surname>
                   </persName>
                   to <persName ref="./Personography.xml#EdgeX1">Major Edgeworth</persName>, <placeName ref="./Placeography.xml#Edgeworthstown_IE">Edgeworths Town</placeName>, 
-                  <date when="1826-05-01">[May 1826]</date>
-                  <!--No date is listed on the letter, but this is presumably the date according to metadata-->
+                  <date when="1826-05-09">May 9, 1826</date>
                </head>
                <physDesc>
-                  <p>Small hole where letter seal used to be.</p>
+                  <p>Small hole where letter seal used to be. Post stamp indicates date of letter.</p>
                </physDesc>
             </msDesc>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
          <editorialDecl>
-            <!--Where Edgeworth uses nonstandard spelling and hyphenation of words, transcriber-coders 
-               should use TEI elements “choice," “sic," and “reg" to encode both Edgeworth’s 
-               spelling and the regular international standard of Oxford English spelling, 
-               following the first listed spelling in the Oxford English Dictionary. -->
             <p>Edgeworth’s spelling and punctuation are retained in transcription, except where a
                word is split at the end of a line and the beginning of the next in a manuscript. The
                long s and ligatured forms are silently emended.</p>
@@ -89,6 +83,7 @@
       <revisionDesc>
          <change when="2023-10-27" who="Id_who">Created file for letter, encoded letter</change>
          <change when="2023-11-10" who="Id_who">Removed extra comments</change>
+         <change when="2023-11-28" who="Id_who">Updated date of letter and ID for Gourte and Kilcoursey</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -126,7 +121,7 @@
                I have never seen and of whom I know<lb/>
                nought excepting that he is nephew to a man<lb/>
                of whom I know a great deal of good -<lb/>
-               viz <persName ref="./Personography.xml#KellJ1">James Kelly</persName> of <unclear>Gourte</unclear> &amp; Kilcoursey - one of<lb/>
+               viz <persName ref="./Personography.xml#KellJ1">James Kelly</persName> of <placeName ref="./Placeography.xml#Gourte-and-Kilcoursey_IE"><unclear>Gourte</unclear> &amp; Kilcoursey</placeName> - one of<lb/>
                our very best tenants - <persName ref="./Personography.xml#KellJ1">James Kelly</persName> entreats<lb/>
                me to write to you in favor of a nephew of his<lb/>
                <persName ref="./Personography.xml#JackR1">Mr. Richard Jackson</persName> - one of the Jacksons of<lb/>
@@ -240,6 +235,6 @@
             </closer>
          </div>
       </body>
-      <back> </back>
+      <back/>
    </text>
 </TEI>

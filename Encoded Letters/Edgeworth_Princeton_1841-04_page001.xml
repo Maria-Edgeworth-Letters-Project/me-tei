@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from Maria Edgeworth to [Unknown], April 19, 1841</title>
+            <author>Maria Edgeworth</author>
+            <editor ref="Id_who">Alexandra LaGrand</editor>
+            <sponsor>
+               <orgName>Maria Edgeworth Letters Project</orgName>
+            </sponsor>
+            <sponsor>Wake Forest University, University of Tennessee, Xavier University, Texas
+               A&amp;M University</sponsor>
+            <principal>Jessica Richard, Hilary Havens, Robin Runia, Susan Egenolf</principal>
+            <respStmt>
+               <resp>Transcription and coding by</resp>
+               <persName ref="Id_who">Alexandra LaGrand</persName>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>First digital edition in TEI, date: <date when="2023-12-01">December 1, 2023</date>
+            </edition>
+            <respStmt>
+               <orgName ref="http://id.loc.gov/authorities/names/n82003163">Princeton University Library</orgName>
+               <resp> photos include: Edgeworth_Princeton_1841-04_page001.jpg, Edgeworth_Princeton_1841-04_page002.jpg</resp>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Maria Edgeworth Letters Project</authority>
+            <date>2022</date>
+            <availability>
+               <p>Reproduced by courtesy of <orgName ref="http://id.loc.gov/authorities/names/n82003163">Princeton University Library</orgName>
+               </p>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons Attribution 4.0 (CC BY 4.0) Unported License</licence>
+            </availability>
+            <idno>Edgeworth_Princeton_1841-04_page001</idno> 
+         </publicationStmt>
+         <seriesStmt>
+            <title>Maria Edgeworth Letters Project</title>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <repository>Princeton University Library</repository>
+                  <collection></collection>
+                  <idno></idno>
+               </msIdentifier>
+               <head>Letter from 
+                  <persName ref="./Personography.xml#EdgeM1">
+                     <forename>Maria</forename>
+                     <surname>Edgeworth</surname>
+                  </persName>
+                   to <persName>[Unknown]</persName>, <date when="1841-04-19">April 19, 1841</date>
+               </head>
+               <physDesc></physDesc>
+            </msDesc>
+          </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <!--Where Edgeworth uses nonstandard spelling and hyphenation of words, transcriber-coders 
+               should use TEI elements “choice," “sic," and “reg" to encode both Edgeworth’s 
+               spelling and the regular international standard of Oxford English spelling, 
+               following the first listed spelling in the Oxford English Dictionary. -->
+            <p>Edgeworth’s spelling and punctuation are retained in transcription, except where a
+               word is split at the end of a line and the beginning of the next in a manuscript. The
+               long s and ligatured forms are silently emended.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
+            </correspAction>
+            <correspAction type="received">
+               <persName>[Unknown]</persName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2023-12-01" who="Id_who">Created file for letter, encoded letter</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <pb n="1" facs="Edgeworth_Princeton_1841-04_page001.jpg"/>
+            <opener>
+               <dateline>
+                  <name type="place" ref="Id_where"/>
+                  <date when="1841-04-19"/>Monday <choice><orig>Morng</orig><reg>Morning</reg></choice></dateline>
+            </opener>
+            <p><persName ref="./Personography.xml#BailJ1">M<hi rend="superscript">rs</hi> Baillie</persName> My sister<lb/>
+               is going on pretty well<lb/>
+               - has had a good<lb/>
+               night - pain not<lb/>
+               yet quite gone - but<lb/>
+               <hi rend="underline">much lessened</hi> - and<lb/>
+               altogether she is improv<lb/>
+               ing - <unclear>frail</unclear> safe<lb/>
+               Thank God<lb/>
+            </p>
+            <postscript>
+            <p>Yours affec<hi rend="superscript">ly</hi><lb/>
+               Maria E<lb/>
+            </p>
+            <p>
+               Now of M<hi rend="superscript">r</hi> E improving<lb/>
+               too - I know not how<lb/>
+               much longer <unclear>Delay</unclear><lb/>
+            </p>
+            </postscript>
+            <closer>
+               <pb n="2" facs="Edgeworth_Princeton_1841-04_page002.jpg"/>
+               <note place="bottom">April 19<hi rend="superscript">th</hi> 1841</note><lb/>
+               <address>
+                  <addrLine/>
+                  <addrLine/>
+                  <addrLine/>
+               </address>
+            </closer>
+         </div>
+      </body>
+      <back> </back>
+   </text>
+</TEI>

@@ -20,29 +20,22 @@
                <resp>Transcription and coding by</resp>
                <persName ref="Id_who">Lindsey Jones
                </persName>
-               <!-- List all transcribers or coders here, editors and students alike, <persName> by <persName>.-->
-               <persName ref="Id_who"><!--FirstName LastName--></persName>
-               <!-- If you're the last person interacting with the file, enter your name last on the list -->
+               <persName ref="Id_who"/>
             </respStmt>
          </titleStmt>
          <editionStmt>
-            <edition>First digital edition in TEI, date: November 12, 2023<date when="2023-11-12">
-                  <!--enter the date on which the first coder created and saved this XML file in google drive-->
-               </date>
+            <edition>First digital edition in TEI, date: November 12, 2023<date when="2023-11-12"/>
             </edition>
             <respStmt>
                <orgName type="naf" ref="http://id.loc.gov/authorities/names/n82003163">
                   Princeton University Library
-                  <!--who digitized the letter or gave us permission for to use the file?-->
-               </orgName>
+                  </orgName>
                <resp> photos include:
                   Edgeworth_Princeton_1829-05_page01.jpg,
                   Edgeworth_Princeton_1829-05_page02.jpg,
                   Edgeworth_Princeton_1829-05_page03.jpg,
                   Edgeworth_Princeton_1829-05_page04.jpg
-                  <!-- Make a comma-separated list of each .jpg photo file name associated with your letter. 
-                     For example: DSCF9476.jpg, DSCF9477.jpg, DSCF9478.jpg-->
-               </resp>
+                  </resp>
             </respStmt>
          </editionStmt>
          <publicationStmt>
@@ -62,14 +55,11 @@
          </seriesStmt>
          <sourceDesc>
             <msDesc xml:lang="en">
-               <!-- This section of the header identifies the original manuscript source. -->
                <msIdentifier>
                   <repository>Princeton University Library</repository>
-                  <collection><!-- Enter specific archival collection if applicable--></collection>
+                  <collection/>
                   <idno>Edgeworth_Princeton_1829-05</idno>
                </msIdentifier>
-               <!-- FROM LAURA: it's here (below) in the head that I added the full information about the author,
-                  and you could add full information about the addressee as well. -->
                <head>Letter from 
                      <persName xml:id="EdgeM1" from="1768" to="1849">
                      <forename>Maria</forename>
@@ -81,23 +71,14 @@
                   to <persName ref="./Personography.xml#FoxC4">Charles Fox</persName>, <placeName>Rutland Square</placeName>, 
                   <date when="1829-05-08">May 8<hi rend="superscript">th</hi>. 1829</date>
                </head>
-               <physDesc>
-                  <!-- optional physical description of the letter goes here: paper size and condition, seal, postmarks, etc.-->
-               </physDesc>
+               <physDesc/>
             </msDesc>
-            <!-- FROM LAURA: where to put the following information in <bibl> is still a question: 
-               ask TEI List whether it should be in the sourceDesc or elsewhere? -->
             <bibl>In addition to our edited version, this letter was previously published in
-               <!--complete bibiographical info if letter was published in a book here - if not delete-->
-            </bibl>
+               </bibl>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
          <editorialDecl>
-            <!--Where Edgeworth uses nonstandard spelling and hyphenation of words, transcriber-coders 
-               should use TEI elements “choice," “sic," and “reg" to encode both Edgeworth’s 
-               spelling and the regular international standard of Oxford English spelling, 
-               following the first listed spelling in the Oxford English Dictionary. -->
             <p>Edgeworth’s spelling and punctuation are retained in transcription, except where a
                word is split at the end of a line and the beginning of the next in a manuscript. The
                long s and ligatured forms are silently emended.</p>
@@ -119,9 +100,8 @@
       <body>
          <div type="letter">
             <pb n="1" facs="image1.jpg"/>
-            <!--filenames for photos associated with this letter. Example: <pb n="1" facs="image1.jpg image2.jpg image3.jpg"/> -->
             <opener>
-               <dateline><!--If there's no date line, omit this element. Record in the order in which it is written on the letter.-->
+               <dateline>
                   <name type="place" ref="./Placeography.xml#Edgeworthstown_IE">Edgeworths Town</name>
                   <date when="1829-05-08"/>May 8, 1829. </dateline>
                <salute>
@@ -173,7 +153,7 @@
                <lb/>
                I know has written <add>of</add> all at <placeName ref="./Placeography.xml#Cloonagh_IE">Cloonagh</placeName> to you<lb/>
             </p>
-            <p>I enclose dear Williams will<lb/>
+            <p>I enclose dear <persName ref="./Personography.xml#EdgeW1">William</persName>s will<lb/>
             </p>
             <closer>
                Ever my dear Charles<lb/>
@@ -201,7 +181,7 @@
                </p>
                <pb n="4" facs="Edgeworth_Princeton_1829-05_page04.jpg"/>
                <p>
-                  <persName ref="./Personography.xml#EdgeF2">M<hi rend="superscript">rs</hi> E.</persName> sends with William's will a <choice>
+                  <persName ref="./Personography.xml#EdgeF2">M<hi rend="superscript">rs</hi> E.</persName> sends with <persName ref="./Personography.xml#EdgeW1">William</persName>'s will a <choice>
                      <orig>memo-<lb/>
                randum</orig>
                      <reg>memorandum</reg>
@@ -226,7 +206,7 @@
                - you see what the intentions are<lb/>
                </p>
             </postscript>
-            <closer><!--Use the <closer> element again to hold Address Leaf information.-->
+            <closer>
                <pb n="1" facs="Edgeworth_Princeton_1829-05_page0.jpg"/>
                <address>
                   <addrLine>Miss E -</addrLine>
@@ -240,6 +220,6 @@
             </closer>
          </div>
       </body>
-      <back> </back>
+      <back/>
    </text>
 </TEI>

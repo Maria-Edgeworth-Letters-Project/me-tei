@@ -6,11 +6,10 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Letter from Maria Edgeworth to Mrs. Miles<!--Recipient Name, Month Day, YYYY--></title>
+            <title>Letter from Maria Edgeworth to Mrs. Miles</title>
             <author>Maria Edgeworth</author>
             <editor ref="Id_who">
-               Eliza Wilcox<!--Editor on the Maria Edgeworth Letters Project overseeing the coding of this particular letter: FirstName LastName -->
-            </editor>
+               Eliza Wilcox</editor>
             <sponsor>
                <orgName>Maria Edgeworth Letters Project</orgName>
             </sponsor>
@@ -21,25 +20,19 @@
                <resp>Transcription and coding by</resp>
                <persName ref="Id_who">Eliza Wilcox
                </persName>
-               <!-- List all transcribers or coders here, editors and students alike, <persName> by <persName>.-->
-               <persName ref="Id_who"><!--FirstName LastName--></persName>
-               <!-- If you're the last person interacting with the file, enter your name last on the list -->
+               <persName ref="Id_who"/>
             </respStmt>
          </titleStmt>
          <editionStmt>
             <edition>First digital edition in TEI, date: <date when="2022-10-24">
-                  October 24, 2022<!--enter the date on which the first coder created and saved this XML file in google drive-->
-               </date>
+                  October 24, 2022</date>
             </edition>
             <respStmt>
                <orgName type="naf" ref="Id_who">
-                   Beinecke Rare Book and Manuscript Library<!--who digitized the letter or gave us permission for to use the file?-->
-               </orgName>
+                   Beinecke Rare Book and Manuscript Library</orgName>
                <resp> photos include:
                 Edgeworth_Beinecke_330_1818_02_25_page01.jpg, Edgeworth_Beinecke_330_1818_02_25_page02.jpg, Edgeworth_Beinecke_330_1818_02_25_page03.jpg, Edgeworth_Beinecke_330_1818_02_25_page04.jpg
-                  <!-- Make a comma-separated list of each .jpg photo file name associated with your letter. 
-                     For example: DSCF9476.jpg, DSCF9477.jpg, DSCF9478.jpg-->
-               </resp>
+                  </resp>
             </respStmt>
          </editionStmt>
          <publicationStmt>
@@ -55,21 +48,18 @@
                <licence target="https://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons Attribution 4.0 (CC BY 4.0) Unported
             License</licence>
             </availability>
-            <idno><!--Change to match the file name and current naming standards, i.e. "Edgeworth_Beinecke_330_1817_01_24" if file name is "Edgeworth_Beinecke_330_1817_01_24.xml"--></idno>
+            <idno/>
          </publicationStmt>
          <seriesStmt>
             <title>Maria Edgeworth Letters Project</title>
          </seriesStmt>
          <sourceDesc>
             <msDesc xml:lang="en">
-               <!-- This section of the header identifies the original manuscript source. -->
                <msIdentifier>
                   <repository>Beinecke Rare Book and Manuscript Library</repository>
-                  <collection><!-- Enter specific archival collection if applicable--></collection>
-                  <idno><!--Consult library or WorldCat for this info--></idno>
+                  <collection/>
+                  <idno/>
                </msIdentifier>
-               <!-- FROM LAURA: it's here (below) in the head that I added the full information about the author,
-                  and you could add full information about the addressee as well. -->
                <head>Letter from 
                      <persName xml:id="EdgeM1" from="1768" to="1849">
                      <forename>Maria</forename>
@@ -78,26 +68,17 @@
                      <idno type="VIAF">71477273</idno>
                      <idno type="SNAC">62567029</idno>
                   </persName>
-                   to <persName ref="./Personography.xml#MileX1">Mrs. Miles<!--Recipient Name--></persName>, <placeName><!--Location where letter was sent--></placeName>, 
-                  <date when="1818-02-25">February 25, 1818<!-- Transcribe the date as it appears on the letter itself. Enter a numeric standardized date value in @when. --></date>
+                   to <persName ref="./Personography.xml#MileX1">Mrs. Miles</persName>, <placeName/>, 
+                  <date when="1818-02-25">February 25, 1818</date>
                </head>
-               <physDesc>
-                  <!-- optional physical description of the letter goes here: paper size and condition, seal, postmarks, etc.-->
-               </physDesc>
+               <physDesc/>
             </msDesc>
-            <!-- FROM LAURA: where to put the following information in <bibl> is still a question: 
-               ask TEI List whether it should be in the sourceDesc or elsewhere? -->
             <bibl>In addition to our edited version, this letter was previously published in
-               <!--complete bibiographical info if letter was published in a book here - if not delete-->
-            </bibl>
+               </bibl>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
          <editorialDecl>
-            <!--Where Edgeworth uses nonstandard spelling and hyphenation of words, transcriber-coders 
-               should use TEI elements “choice," “sic," and “reg" to encode both Edgeworth’s 
-               spelling and the regular international standard of Oxford English spelling, 
-               following the first listed spelling in the Oxford English Dictionary. -->
             <p>Edgeworth’s spelling and punctuation are retained in transcription, except where a
                word is split at the end of a line and the beginning of the next in a manuscript. The
                long s and ligatured forms are silently emended.</p>
@@ -192,33 +173,29 @@
       <profileDesc>
          <correspDesc>
             <correspAction type="sent">
-               <persName ref="./Personography.xml#EdgeworthM1">Maria Edgeworth<!--SENDER NAME--></persName>
+               <persName ref="./Personography.xml#EdgeworthM1">Maria Edgeworth</persName>
             </correspAction>
             <correspAction type="received">
-               <persName ref="./Personography.xml#MileX1">Mrs. Miles<!--RECIPIENT NAME--></persName>
+               <persName ref="./Personography.xml#MileX1">Mrs. Miles</persName>
             </correspAction>
          </correspDesc>
       </profileDesc>
       <revisionDesc>
-         <change when="2021-01-01" who="Id_who">
-            <!--Brief description of what you did here.-->
-         </change>
+         <change when="2021-01-01" who="Id_who"/>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <div type="letter">
             <pb n="2" facs="Edgeworth_Beinecke_330_1818_02_25_page02.jpg"/>
-            <!--filenames for photos associated with this letter. Example: <pb n="1" facs="image1.jpg image2.jpg image3.jpg"/> -->
             <opener>
-               <dateline><!--If there's no date line, omit this element. Record in the order in which it is written on the letter.-->
+               <dateline>
                   <name type="place" ref="./Placeography.xml#Edgeworthstown_IE"/>Edgeworth Town 1818
                   <date when="1818-02-25"/>Feb<hi rend="superscript">y</hi>
                </dateline>
                <salute>
                   <persName>
                      My dear <persName ref="./Personography.xml#MileX1">M<hi rend="superscript">rs</hi>. Miles</persName>
-                     <!-- Use if letter has a saluation ("Dear Sir," for example). If not, delete this line.-->
                   </persName>
                </salute>
             </opener>
@@ -292,19 +269,13 @@
             Madam <add>your</add> obliged and troublesome Servant<lb/>
                <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
                <lb/>
-               <!--include linebreaks, if used. example: <closer> Yours<lb/> Very sincerely<lb/> -->
             </closer>
             <postscript>
-               <p><!--A postscript goes here, outside the <closer>. --></p>
+               <p/>
             </postscript>
-            <!--You can include a <pb/> here, or inside the postScript.-->
-            <!-- Format for postscripts. 
-               Postscripts do NOT go inside closer tags. Adjust to take into account the order in your letter. 
-               Sometimes the signature is on page three, the address on page four, then the postscript follows back on the top of page one, for example.-->
-            <closer><!--Use the <closer> element again to hold Address Leaf information.-->
+            <closer>
                <address>
                   <pb n="1" facs="Edgeworth_Beinecke_330_1818_02_25_page01.jpg"/>
-                  <!--Include any text written on the address leaf; use a separate "addrLine" for each line and indicate line breaks. -->
                   <addrLine/>
                   <persName ref="./Personography.xml#MileX1">M<hi rend="superscript">rs</hi>. Miles</persName>
                   <addrLine/>
@@ -314,6 +285,6 @@
             </closer>
          </div>
       </body>
-      <back> </back>
+      <back/>
    </text>
 </TEI>

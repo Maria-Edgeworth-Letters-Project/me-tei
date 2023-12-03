@@ -6,10 +6,9 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Letter from Maria Edgeworth to Thomas Spring-Rice, March 10th, 1833 <!--Recipient Name, Month Day, YYYY--></title>
+            <title>Letter from Maria Edgeworth to Thomas Spring-Rice, March 10th, 1833 </title>
             <author>Maria Edgeworth</author>
             <editor ref="Id_who">Jessica Richard</editor>
-            <!--Editor on the Maria Edgeworth Letters Project overseeing the coding of this particular letter: FirstName LastName -->
             <editor ref="Id_who">Robin Runia</editor>
             <sponsor>
                <orgName>Maria Edgeworth Letters Project</orgName>
@@ -19,35 +18,25 @@
             <principal>Jessica Richard, Hilary Havens, Robin Runia, Susan Egenolf</principal>
             <respStmt>
                <resp>Transcription and coding by</resp>
-               <persName ref="Id_who"><!--FirstName LastName-->
-               </persName>
-               <!-- List all transcribers or coders here, editors and students alike, <persName> by <persName>.-->
+               <persName ref="Id_who"/>
                <persName ref="Id_who">Khadijah Smith</persName>
                <persName>Eliza Alexander Wilcox</persName>
-               <!-- If you're the last person interacting with the file, enter your name last on the list -->
             </respStmt>
          </titleStmt>
          <editionStmt>
-            <edition>First digital edition in TEI, date: <date when="2023-06-19">
-                  <!--enter the date on which the first coder created and saved this XML file in google drive-->
-               </date>
+            <edition>First digital edition in TEI, date: <date when="2023-06-19"/>
             </edition>
             <respStmt>
                <orgName type="naf" ref="https://id.loc.gov/authorities/names/n78095799.html">Pierpont Morgan Library
-                  <!--who digitized the letter or gave us permission for to use the file?-->
-               </orgName>
+                  </orgName>
                <resp> photos include:Edgeworth_Morgan_422599_1833_03_10_page01.jpg, Edgeworth_Morgan_422599_1833_03_10_page02.jpg, Edgeworth_Morgan_422599_1833_03_10_page03.jpg, Edgeworth_Morgan_422599_1833_03_10_page04.jpg
-                  <!-- Make a comma-separated list of each .jpg photo file name associated with your letter. 
-                     For example: DSCF9476.jpg, DSCF9477.jpg, DSCF9478.jpg-->
-               </resp>
+                  </resp>
             </respStmt>
          </editionStmt>
          <publicationStmt>
             <authority>Maria Edgeworth Letters Project</authority>
             <date>2022</date>
             <availability>
-               <!--Uncomment the appropriate line, based on the archive that holds the physical copy of this letter, 
-                  and delete the other comment line(s).-->
                <p>Reproduced by courtesy of the <orgName ref="http://id.loc.gov/authorities/names/n78095799">Pierpont Morgan Library</orgName>.
                   <!--or -->
                   <!--Courtesy of <orgName ref="#Rylands">The University of Manchester</orgName>.-->
@@ -55,21 +44,18 @@
                <licence target="https://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons Attribution 4.0 (CC BY 4.0) Unported
             License</licence>
             </availability>
-            <idno>Edgeworth_Morgan_422599_1833_03_10<!--Change to match the file name and current naming standards, i.e. "Edgeworth_Beinecke_330_1817_01_24" if file name is "Edgeworth_Beinecke_330_1817_01_24.xml"--></idno>
+            <idno>Edgeworth_Morgan_422599_1833_03_10</idno>
          </publicationStmt>
          <seriesStmt>
             <title>Maria Edgeworth Letters Project</title>
          </seriesStmt>
          <sourceDesc>
             <msDesc xml:lang="en">
-               <!-- This section of the header identifies the original manuscript source. -->
                <msIdentifier>
                   <repository>Pierpont Morgan Library</repository>
-                  <collection><!-- Enter specific archival collection if applicable--></collection>
-                  <idno><!--Consult library or WorldCat for this info--></idno>
+                  <collection/>
+                  <idno/>
                </msIdentifier>
-               <!-- FROM LAURA: it's here (below) in the head that I added the full information about the author,
-                  and you could add full information about the addressee as well. -->
                <head>Letter from 
                      <persName xml:id="EdgeM1" from="1768" to="1849">
                      <forename>Maria</forename>
@@ -78,26 +64,17 @@
                      <idno type="VIAF">71477273</idno>
                      <idno type="SNAC">62567029</idno>
                   </persName>
-                  to <persName ref="./Personography.xml#SpriT1">Thomas Spring-Rice<!--Recipient Name--></persName>, <placeName><!--Location where letter was sent--></placeName>, 
-                  <date when="1833-03-10">March 10 1833<!-- Transcribe the date as it appears on the letter itself. Enter a numeric standardized date value in @when. --></date>
+                  to <persName ref="./Personography.xml#SpriT1">Thomas Spring-Rice</persName>, <placeName/>, 
+                  <date when="1833-03-10">March 10 1833</date>
                </head>
-               <physDesc>
-                  <!-- optional physical description of the letter goes here: paper size and condition, seal, postmarks, etc.-->
-               </physDesc>
+               <physDesc/>
             </msDesc>
-            <!-- FROM LAURA: where to put the following information in <bibl> is still a question: 
-               ask TEI List whether it should be in the sourceDesc or elsewhere? -->
             <bibl>In addition to our edited version, this letter was previously published in
-               <!--complete bibiographical info if letter was published in a book here - if not delete-->
-            </bibl>
+               </bibl>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
          <editorialDecl>
-            <!--Where Edgeworth uses nonstandard spelling and hyphenation of words, transcriber-coders 
-               should use TEI elements “choice," “sic," and “reg" to encode both Edgeworth’s 
-               spelling and the regular international standard of Oxford English spelling, 
-               following the first listed spelling in the Oxford English Dictionary. -->
             <p>Edgeworth’s spelling and punctuation are retained in transcription, except where a
                word is split at the end of a line and the beginning of the next in a manuscript. The
                long s and ligatured forms are silently emended.</p>
@@ -195,7 +172,7 @@
                <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
             </correspAction>
             <correspAction type="received">
-               <persName ref="./Personography.xml#SpriT1">Thomas Spring-Rice<!--RECIPIENT NAME--></persName>
+               <persName ref="./Personography.xml#SpriT1">Thomas Spring-Rice</persName>
             </correspAction>
          </correspDesc>
          <textClass>
@@ -210,25 +187,18 @@
          </textClass>
       </profileDesc>
       <revisionDesc>
-         <change when="2021-01-01" who="Id_who">
-            <!--Brief description of what you did here.-->
-         </change>
+         <change when="2021-01-01" who="Id_who"/>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <div type="letter">
             <pb n="1" facs="Edgeworth_Morgan_422599_1833_03_10_page01.jpg"/>
-            <!--filenames for photos associated with this letter. Example: <pb n="1" facs="image1.jpg image2.jpg image3.jpg"/> -->
             <opener>
-               <dateline><!--If there's no date line, omit this element. Record in the order in which it is written on the letter.-->
+               <dateline>
                   <name type="place" ref="./Placeography.xml#Edgeworthstown_IE"/>Edgeworths Town
                   <date when="1833-03-10"/>March 10 <hi rend="superscript">th</hi> 1833. </dateline>
-               <salute>
-                  
-                     <!-- Use if letter has a saluation ("Dear Sir," for example). If not, delete this line.-->
-                  
-               </salute>
+               <salute/>
             </opener>
             <p>I am not sure that I have<lb/>
                a aright in common honesty<lb/>
@@ -244,7 +214,6 @@
                <lb/>
                from his old friend <unclear/>
                <lb/>
-               <!--More body paragraphs as needed.-->
             </p>
             <p>But as common honesty<lb/>
                knows seldom suffered<lb/>
@@ -254,7 +223,7 @@
                evading that vulgar virtue<lb/>
                I shall avail myself of<lb/>
                my <hi rend="underline">cover</hi> &amp; keep possession<lb/>
-               of my treasure â€”<!-- what is this symbol?--> I think<lb/>
+               of my treasure â€” I think<lb/>
                <pb n="2" facs="Edgeworth_Morgan_422599_1833_03_10_page02.jpg"/>
                is a treasure of good facts<lb/>
                â€” well put â€” and <choice>
@@ -276,9 +245,6 @@
                nor Impudence in any<lb/>
                shape even Dan's own, can<lb/>
                overthrow â€”<lb/>
-               <!--More body paragraphs as needed.-->
-               <!--Where there's a page break record it inside the relevant body paragraph like this, 
-                  with the self-closing page-break element. n="2" indicates the START of the second page.-->
             </p>
             <p>Pray send me a permit<lb/>
                to keep my speech with a<lb/>
@@ -287,7 +253,6 @@
             <closer>Yours truly<lb/>
                <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
                <lb/>
-               <!--include linebreaks, if used. example: <closer> Yours<lb/> Very sincerely<lb/> -->
             </closer>
             <postscript>
                <p>I particularly like the speech<lb/>
@@ -321,13 +286,8 @@
                   of speech â€”<lb/>
                </p>
             </postscript>
-            <!--You can include a <pb/> here, or inside the postScript.-->
-            <!-- Format for postscripts. 
-               Postscripts do NOT go inside closer tags. Adjust to take into account the order in your letter. 
-               Sometimes the signature is on page three, the address on page four, then the postscript follows back on the top of page one, for example.-->
-            <closer><!--Use the <closer> element again to hold Address Leaf information.-->
+            <closer>
                <address>
-                  <!--Include any text written on the address leaf; use a separate "addrLine" for each line and indicate line breaks. -->
                   <addrLine/>
                   <addrLine/>
                   <addrLine/>
@@ -335,6 +295,6 @@
             </closer>
          </div>
       </body>
-      <back> </back>
+      <back/>
    </text>
 </TEI>

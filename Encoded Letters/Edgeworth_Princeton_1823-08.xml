@@ -20,29 +20,22 @@
                <resp>Transcription and coding by</resp>
                <persName ref="Id_who">Lindsey Jones
                </persName>
-               <!-- List all transcribers or coders here, editors and students alike, <persName> by <persName>.-->
-               <persName ref="Id_who"><!--FirstName LastName--></persName>
-               <!-- If you're the last person interacting with the file, enter your name last on the list -->
+               <persName ref="Id_who"/>
             </respStmt>
          </titleStmt>
          <editionStmt>
-            <edition>First digital edition in TEI, date: October 27, 2023<date when="2022-01-01">
-                  <!--enter the date on which the first coder created and saved this XML file in google drive-->
-               </date>
+            <edition>First digital edition in TEI, date: October 27, 2023<date when="2022-01-01"/>
             </edition>
             <respStmt>
                <orgName type="naf" ref="http://id.loc.gov/authorities/names/n82003163">
                   Princeton University Library
-                  <!--who digitized the letter or gave us permission for to use the file?-->
-               </orgName>
+                  </orgName>
                <resp> photos include:
                   Edgeworth_Princeton_1823-08_page01.jpg,
                   Edgeworth_Princeton_1823-08_page02.jpg,
                   Edgeworth_Princeton_1823-08_page03.jpg,
                   Edgeworth_Princeton_1823-08_page04.jpg
-                  <!-- Make a comma-separated list of each .jpg photo file name associated with your letter. 
-                     For example: DSCF9476.jpg, DSCF9477.jpg, DSCF9478.jpg-->
-               </resp>
+                  </resp>
             </respStmt>
          </editionStmt>
          <publicationStmt>
@@ -62,14 +55,11 @@
          </seriesStmt>
          <sourceDesc>
             <msDesc xml:lang="en">
-               <!-- This section of the header identifies the original manuscript source. -->
                <msIdentifier>
                   <repository>Princeton University Library</repository>
-                  <collection><!-- Enter specific archival collection if applicable--></collection>
+                  <collection/>
                   <idno>Edgeworth_Princeton_1823-08</idno>
                </msIdentifier>
-               <!-- FROM LAURA: it's here (below) in the head that I added the full information about the author,
-                  and you could add full information about the addressee as well. -->
                <head>Letter from 
                      <persName xml:id="EdgeM1" from="1768" to="1849">
                      <forename>Maria</forename>
@@ -81,23 +71,14 @@
                   to <persName ref="./Personography.xml#ConsA2">Archibald Constable</persName>, <placeName ref="./Placeography.xml#Glasgow_STK">Glasgow</placeName>, 
                   <date when="1823-08-13">Aug<hi rend="superscript">st</hi> 13<hi rend="superscript">th</hi> 1823</date>
                </head>
-               <physDesc>
-                  <!-- optional physical description of the letter goes here: paper size and condition, seal, postmarks, etc.-->
-               </physDesc>
+               <physDesc/>
             </msDesc>
-            <!-- FROM LAURA: where to put the following information in <bibl> is still a question: 
-               ask TEI List whether it should be in the sourceDesc or elsewhere? -->
             <bibl>In addition to our edited version, this letter was previously published in
-               <!--complete bibiographical info if letter was published in a book here - if not delete-->
-            </bibl>
+               </bibl>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
          <editorialDecl>
-            <!--Where Edgeworth uses nonstandard spelling and hyphenation of words, transcriber-coders 
-               should use TEI elements “choice," “sic," and “reg" to encode both Edgeworth’s 
-               spelling and the regular international standard of Oxford English spelling, 
-               following the first listed spelling in the Oxford English Dictionary. -->
             <p>Edgeworth’s spelling and punctuation are retained in transcription, except where a
                word is split at the end of a line and the beginning of the next in a manuscript. The
                long s and ligatured forms are silently emended.</p>
@@ -119,9 +100,8 @@
       <body>
          <div type="letter">
             <pb n="1" facs="image1.jpg"/>
-            <!--filenames for photos associated with this letter. Example: <pb n="1" facs="image1.jpg image2.jpg image3.jpg"/> -->
             <opener>
-               <dateline><!--If there's no date line, omit this element. Record in the order in which it is written on the letter.-->
+               <dateline>
                   <name type="place" ref="./Placeography.xml#Glasgow_STK">Glasgow</name>
                   <date when="1823-08-13"/>August 13, 1823. </dateline>
                <salute>
@@ -132,7 +112,6 @@
                         <reg>Dear</reg>
                      </choice> Sir
                      <note place="bottom">Cert</note>
-                     <!-- Use if letter has a saluation ("Dear Sir," for example). If not, delete this line.-->
                   </persName>
                </salute>
             </opener>
@@ -202,9 +181,8 @@
                Your obliged<lb/>
                <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>.<lb/>
             </closer>
-            <closer><!--Use the <closer> element again to hold Address Leaf information.-->
+            <closer>
                <address>
-                  <!--Include any text written on the address leaf; use a separate "addrLine" for each line and indicate line breaks. -->
                   <note place="bottom">AM 19710</note>
                   <addrLine>Archibald Constable Esq<hi rend="superscript">r</hi>
                   </addrLine>
@@ -212,6 +190,6 @@
             </closer>
          </div>
       </body>
-      <back> </back>
+      <back/>
    </text>
 </TEI>

@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from Maria Edgeworth to W. Hunter, December 24, 1819</title>
+            <author>Maria Edgeworth</author>
+            <editor ref="Id_who">Alexandra LaGrand</editor>
+            <sponsor>
+               <orgName>Maria Edgeworth Letters Project</orgName>
+            </sponsor>
+            <sponsor>Wake Forest University, University of Tennessee, Xavier University, Texas
+               A&amp;M University</sponsor>
+            <principal>Jessica Richard, Hilary Havens, Robin Runia, Susan Egenolf</principal>
+            <respStmt>
+               <resp>Transcription and coding by</resp>
+               <persName ref="Id_who">Alexandra LaGrand</persName>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>First digital edition in TEI, date: <date when="2023-11-30">November 30, 2023</date>
+            </edition>
+            <respStmt>
+               <orgName ref="http://id.loc.gov/authorities/names/n82003163">Princeton University Library</orgName>
+               <resp> photos include: Edgeworth_Princeton_1819-12_page01.jpg, Edgeworth_Princeton_1819-12_page02.jpg, Edgeworth_Princeton_1819-12_page03.jpg, Edgeworth_Princeton_1819-12_page04.jpg
+               </resp>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Maria Edgeworth Letters Project</authority>
+            <date>2022</date>
+            <availability>
+               <p>Reproduced by courtesy of <orgName ref="http://id.loc.gov/authorities/names/n82003163">Princeton University Library</orgName></p>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons Attribution 4.0 (CC BY 4.0) Unported
+                  License</licence>
+            </availability>
+            <idno>Edgeworth_Princeton_1819-12</idno> 
+         </publicationStmt>
+         <seriesStmt>
+            <title>Maria Edgeworth Letters Project</title>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <repository>Princeton University Library</repository>
+                  <collection></collection>
+                  <idno></idno>
+               </msIdentifier>
+               <head>Letter from 
+                  <persName ref="./Personography.xml#EdgeM1">
+                        <forename>Maria</forename>
+                        <surname>Edgeworth</surname>
+                     </persName>
+                  to <persName ref="./Personography.xml#HuntW1">W. Hunter</persName>, <placeName>St. Paul's Churchyard</placeName>, 
+                  <date when="1819-12-24">December 24, 1819</date>
+               </head>
+               <physDesc></physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <!--Where Edgeworth uses nonstandard spelling and hyphenation of words, transcriber-coders 
+               should use TEI elements “choice," “sic," and “reg" to encode both Edgeworth’s 
+               spelling and the regular international standard of Oxford English spelling, 
+               following the first listed spelling in the Oxford English Dictionary. -->
+            <p>Edgeworth’s spelling and punctuation are retained in transcription, except where a
+               word is split at the end of a line and the beginning of the next in a manuscript. The
+               long s and ligatured forms are silently emended.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="./Personography.xml#HuntW1">W. Hunter</persName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2023-11-30" who="Id_who">Created file for letter, encoded letter</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <pb n="2" facs="Edgeworth_Princeton_1819-12_page02.jpg"/>
+            <opener>
+               <dateline>
+                  <name type="place" ref="Id_where"/><placeName ref="./Placeography.xml#Edgeworthstown_IE">Edgeworth Town</placeName>
+                  <date when="1819-12-24"/><choice><orig>Dec<hi rend="superscript">r</hi>.</orig><reg>December</reg></choice> 24<hi rend="superscript">th</hi> 1819</dateline>
+               <salute>
+                  <persName>Dear Sir</persName>
+               </salute>
+            </opener>
+            <p>I have read <persName ref="./Personography.xml#TaylX2">M<hi rend="superscript">rs</hi> Taylors</persName> <hi rend="underline">insertions</hi> &amp; <hi rend="underline">corrections</hi><lb/>
+               for <unclear>Perseverance</unclear> and the Lottery. I had not<lb/>
+               time to read them all myself and I therefore<lb/>
+               put them into the hands of a judicious<lb/>
+               friend whose opinion is copied for you<lb/>
+               in this letter -<lb/>
+            </p>
+            <p>
+               I did not like what I read of these insertions<lb/>
+               - I thought them of <unclear>flat</unclear> <del></del> <add><unclear>spite &amp; unprofitable</unclear></add><lb/>
+               but perhaps they may be useful to the<lb/>
+               class of people for whom <unclear>might long for description</unclear><lb/>
+               them &amp; I would not <unclear>counteract</unclear> her <choice><orig>benevo<lb/>
+               lent</orig><reg>benevolent</reg></choice> <unclear>experience &amp;</unclear> - Let her try therefore &amp;<lb/>
+               welcome. - &amp; tell her this in as civil a manner<lb/>
+               as you can.<lb/>
+            </p>
+            <p>
+               But I request that you will, as my friend<lb/>
+               advises, confine these inserted paragraphs<lb/>
+               &amp; these <hi rend="underline">corrections</hi> to the edition of which<lb/>
+               <persName ref="./Personography.xml#TaylX2">Miss Taylor</persName> disposes for her purposes <unclear>&amp; by</unclear> I beg<lb/>
+               that you will not adopt these in <hi rend="underline">your</hi><lb/>
+               publications -<lb/>
+            </p>
+            <p>
+               I have received only 3 clean sheets<lb/>
+               from you and have not had any proofs<lb/>
+            </p>
+            <p>
+               <pb n="3" facs="Edgeworth_Princeton_1819-12_page03.jpg"/>
+               These ten days. You can calculate how<lb/>
+               much time it will take to <unclear>present</unclear> this<lb/>
+               volume; but I should think that at the rate<lb/>
+               you go on you will not have it finished<lb/>
+               by Easter which I believe is the 4<hi rend="superscript">th</hi> of April<lb/>
+               - I do not in the least mean to interfere<lb/>
+               with your intentions but I request you<lb/>
+               <del>know</del> will let me know whether I<lb/>
+               understand them rightly. Do you intend<lb/>
+               to publish these memoirs at Easter? -<lb/>
+            </p>
+            <p>
+               I should also be glad to know, if<lb/>
+               you have no objection to tell me <add>of</add> what<lb/>
+               number your edition consists - I ask<lb/>
+               this question that I may judge how often<lb/>
+               the <del>engravings of</del> plates of some engravings<lb/>
+               which I intend to beg <hi rend="underline">your</hi> acceptance<lb/>
+               will require to be <unclear>retouched</unclear> for your<lb/>
+               edition -<lb/>
+            </p>
+            <p>
+               I beg you will send me by post "<hi rend="underline"><unclear>Bingley's</unclear></hi><lb/>
+               <hi rend="underline">useful knowledge</hi> under cover to A <unclear>Marquis</unclear><lb/>
+               <placeName ref="./Placeography.xml#Castle-Dublin_IE">Castle Dublin</placeName><lb/>
+            </p>
+            <p>
+               If it is necessary that I should return<lb/>
+               <persName ref="./Personography.xml#TaylX2">Miss Taylors</persName> interleaved book let me<lb/>
+               know &amp; you shall have it -<lb/>
+            </p>
+            <closer>
+               I am <unclear>thus</unclear> Sir<lb/>
+               your <choice><orig>obed<hi rend="superscript">t</hi></orig><reg>obedient</reg></choice> Servant<lb/>
+               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName><lb/>
+            </closer>
+            <postscript>
+               <p>
+                  <pb n="4" facs="Edgeworth_Princeton_1819-12_page04.jpg"/>
+                  "In some places, she shows very bad <unclear>taste,</unclear> in<lb/>
+                  "the ommissions she seems desirous to have made; Irony<lb/>
+                  "&amp; <unclear>humor</unclear> she can by no means understand - &amp;<lb/>
+                  "she seems to wish to avoid <unclear></unclear> with great care, the<lb/>
+                  "<choice><orig><unclear>encreasing</unclear></orig><reg>increasing</reg></choice> the geographical knowledge of her Norfolk<lb/>
+                  "<unclear>readers</unclear> - or even giving them the trouble of <unclear>reading</unclear><lb/>
+                  "words of three syllables - much good may her<lb/>
+                  "alterations do them - I think they are not worth<lb/>
+                  "talking about, but that the Editor should be confined<lb/>
+                  "<hi rend="underline">absolutely to the <unclear>poor</unclear> of <placeName ref="./Placeography.xml#Norfolk_ENK">Norfolk</placeName></hi> - &amp; - are quite<lb/>
+                  "indignant at her <choice><orig>impertinance</orig><reg>impertinence</reg></choice> &amp; presumption &amp; <unclear></unclear><lb/>
+                  "she ought to write stories herself according to her<lb/>
+                  "flat fancy"<lb/>
+               </p>
+               <p>
+                  Put the letter to <persName ref="./Personography.xml#GranX2">Miss Grant</persName> into 3<hi rend="superscript">d.</hi> Port &amp;<lb/>
+                  Send the enclosed letter to Francis to<lb/>
+                  <persName ref="./Personography.xml#WilsL1">M<hi rend="superscript">r</hi>. L. Wilson's</persName> house who will take<lb/>
+                  it with him to <placeName ref="./Placeography.xml#Epping_ENK"><unclear>Epping</unclear></placeName> where I suppose<lb/>
+                  Francis now is<lb/>
+               </p>
+            </postscript>
+            <closer>
+               <address>
+                  <pb n="1" facs="Edgeworth_Princeton_1819-12_page01.jpg"/>
+                  <addrLine><persName ref="./Personography.xml#HuntW1">W. Hunter</persName> - Bookseller</addrLine><lb/>
+                  <addrLine><placeName ref="./Placeography.xml#St-Pauls-Churchyard_ENK">S<hi rend="superscript">t.</hi> Pauls Ch. Yard</placeName></addrLine><lb/>
+                  <addrLine>78:1:5%</addrLine><lb/>
+                  <addrLine>- : 7 : 6</addrLine><lb/>
+                  <addrLine><hi rend="underline">1 - 6 -</hi></addrLine><lb/>
+                  <addrLine>79:14:11%</addrLine><lb/>
+                  <addrLine><hi rend="underline">14</hi> <hi rend="underline"></hi></addrLine><lb/>
+                  <addrLine>65 <unclear></unclear></addrLine><lb/>
+               </address>
+            </closer>
+         </div>
+      </body>
+      <back> </back>
+   </text>
+</TEI>
