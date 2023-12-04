@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> Letter from Maria Edgeworth to Henry Colman, March 8th,1844</title>
+            <author>Maria Edgeworth</author>
+            <editor ref="Id_who">
+               Hilary Havens
+            </editor>
+            <sponsor>
+               <orgName>Maria Edgeworth Letters Project</orgName>
+            </sponsor>
+            <sponsor>Wake Forest University, University of Tennessee, Xavier University, Texas
+               A&amp;M University</sponsor>
+            <principal>Jessica Richard, Hilary Havens, Robin Runia, Susan Egenolf</principal>
+            <respStmt>
+               <resp>Transcription and coding by</resp>
+               <persName ref="Id_who">Jamie Kramer</persName>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>First digital edition in TEI, date: <date when="2023-12-04">
+            </date>
+            </edition>
+            <respStmt>
+               <orgName type="naf" ref="http://id.loc.gov/authorities/names/n80097499">
+                  Harvard University, Houghton Library
+               </orgName>
+               <resp> photos include:
+                  Edgeworth_Harvard_604742_1844-03_page01.jpg,
+                  Edgeworth_Harvard_604742_1844-03_page02.jpg
+               </resp>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Maria Edgeworth Letters Project</authority>
+            <date>2022</date>
+            <availability>
+               <p>Reproduced by courtesy of <orgName ref="http://id.loc.gov/authorities/names/n80097499">Harvard University, Houghton Library</orgName>
+               </p>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons Attribution 4.0 (CC BY 4.0) Unported License</licence>
+            </availability>
+            <idno>Edgeworth_Harvard_604742_1844-03</idno> 
+         </publicationStmt>
+         <seriesStmt>
+            <title>Maria Edgeworth Letters Project</title>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <!-- This section of the header identifies the original manuscript source. -->
+               <msIdentifier>
+                  <repository>Harvard University, Houghton Library</repository>
+                  <collection><!-- Enter specific archival collection if applicable--></collection>
+                  <idno><!--Consult library or WorldCat for this info--></idno>
+               </msIdentifier>
+               <head>Letter from 
+                  <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
+                  to <persName ref="./Personography.xml#ColmH1">Henry Colman</persName>
+                  <date when="1844-03-08">
+                     March 8[superscript]h[/superscript]. 1844</date>
+               </head>
+               <physDesc>
+                  <!-- optional physical description of the letter goes here: paper size and condition, seal, postmarks, etc.-->
+               </physDesc>
+            </msDesc>
+            <bibl>In addition to our edited version, this letter was previously published in
+               <!--complete bibiographical info if letter was published in a book here - if not delete-->
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <!--Where Edgeworth uses nonstandard spelling and hyphenation of words, transcriber-coders 
+               should use TEI elements “choice," “sic," and “reg" to encode both Edgeworth’s 
+               spelling and the regular international standard of Oxford English spelling, 
+               following the first listed spelling in the Oxford English Dictionary. -->
+            <p>Edgeworth’s spelling and punctuation are retained in transcription, except where a
+               word is split at the end of a line and the beginning of the next in a manuscript. The
+               long s and ligatured forms are silently emended.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="./Personography.xml#EdgeM1">Mariah Edgeworth</persName>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="./Personography.xml#ColmH1">Henry Colman</persName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-01-01" who="Id_who">
+            <!--Brief description of what you did here.-->
+         </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <pb n="1" facs="Edgeworth_Harvard_604742_1844-03_page01.jpg"/>
+            <p>	At <persName ref="./Personography.xml#ColmH1">Mr Colman</persName>'s request<lb/>
+               I do with pleasure what<lb/>
+               I very seldom if ever have<lb/>
+               done with pleasure, even<lb/>
+               for <placeName ref="./Placeography.xml#US">American</placeName> friends<lb/></p>
+               <p>Write my Autograph<lb/>
+               worthless as it is, and worthless<lb/>
+                  as I think all autographs<lb/>
+                  a very few excepted - <persName ref="./Personography.xml#WashG1"><choice><orig>Washing<lb/>
+                     tons</orig><reg>Washington's</reg></choice></persName> for instance - I rejoice in<lb/>
+               possessing his autograph, given<lb/>
+               to me by an American in the<lb/>
+               valuable record of his Public &amp;<lb/>
+               Private account book</p><lb/>
+            <closer>
+               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName><lb/>
+               <placeName ref="./Placeography.xml#London_ENK">London</placeName> - <placeName ref="./Placeography.xml#1-North-Audley-Street_ENK">1 North Audley Street</placeName><lb/>
+               Grosvenor Square<lb/>
+            <date when="1844-03-08">
+               March 8[superscript]h[/superscript]. 1844</date><lb/>
+               For <persName ref="./Personography.xml#ColmH1">Henry Colman Esq[superscript]re[/superscript]</persName><lb/>
+            </closer>
+               
+               <pb n="2" facs="Edgeworth_Harvard_604742_1844-03_page02.jpg"/>
+               
+            <note>To my friend<lb/>
+                  Mr <unclear>Lawrence</unclear><lb/>
+                  <persName ref="./Personography.xml#ColmH1">Henry Colman</persName><lb/>
+                  <placeName ref="./Placeography.xml#London_ENK">London</placeName> <date when="1844-04-25">25 April 1845</date><lb/></note>
+
+         </div>
+      </body>
+      <back> </back>
+   </text>
+</TEI>
