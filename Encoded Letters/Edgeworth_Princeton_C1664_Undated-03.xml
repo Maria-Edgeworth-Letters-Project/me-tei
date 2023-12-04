@@ -113,86 +113,74 @@
                   Dear Sir
                </salute>
             </opener>
-            <p><!--     LJ NOTE PAUSED HERE 12/2/23
-               You ask whether we or
-you should mention the price
-of the copy-right of the 4[superscript]th[/superscript], 5[superscript]th[/superscript] & 6[superscript]th[/superscript]
-volumes of Tales of Fash. Life
-I can assure you that neither
-Maria nor I had or have
-formed any opinion upon the
-subject nor, do I think, that you
-can form a safe: judgement
-for some time - Maria's
-name was popular & there-
-fore there was an early run
-for her new publications
-Whether, that popularity may
-or may not be diminished
-
-by her present work, cannot
-I should think, be as yet de-
-termined - At all events
-you may be assured that we
-have the most unbounded
-confidence in your justice
-& in your honor and that we
-shall never name any price
-for any thing we send to you
-It will entertain you to
-hear that Maria has been re-
-proached by some folk
-hear for having endeavoured
-to [underline]lower[/underline] the Irish character
-I have much more reason
-to fear that the English mi
-
-litia should think themselves
-aggrieved, or that London
-cockneys & Long Acre should
-rage against us - or perhaps
-the higher frozen circles
-In all such misfortunes
-we keep silence &
-depend upon time "the
-comforter -
-The idea of Lord Moira's
-being like [unclear]??vian[/unclear] is quite
-absurd - Lord Moira is cer-
-tainly a man most [unclear]firm[/unclear]
-of purpose -
-As for Lady Clonbrony, there
-are so many & so many
-alike, that each will cry
-this [unclear]sister[/unclear] is levelled at you -
-[unclear]M E O[/unclear] 
-            -->
-            </p>
             <p>
-               <!--More body paragraphs as needed.--></p>
-            <p>
-               <!--More body paragraphs as needed.-->
-               <!--Where there's a page break record it inside the relevant body paragraph like this, 
-                  with the self-closing page-break element. n="2" indicates the START of the second page.-->
-               <pb n="2" facs="image2.jpg"/>
+               You ask whether we or<lb/>
+               you should mention the price<lb/>
+               of the copy-right of the 4<hi rend="superscript">th</hi>, 5<hi rend="superscript">th</hi> &amp; 6<hi rend="superscript">th</hi><lb/>
+               volumes of <title ref="./Workography.xml#Taleo1">Tales of <choice><orig>Fash.</orig><reg>Fashionable</reg></choice> Life</title><lb/>
             </p>
-            <p><!--More body paragraphs as needed.--></p>
+            <p>I can assure you that neither<lb/>
+               <persName ref="./Personography.xml#EdgeM1">Maria</persName> nor <persName ref="./Personography.xml#EdgeR1">I</persName> had or have<lb/>
+               formed any opinion upon the<lb/>
+               subject nor, do I think, that you<lb/>
+               can form a safe: judgement<lb/>
+               for some time - <persName ref="./Personography.xml#EdgeM1">Maria</persName>'s<lb/>
+               name was popular &amp; <choice><orig>there-<lb/>
+               fore</orig><reg>therefore</reg></choice> there was an early run<lb/>
+               for her new publications<lb/>
+               Whether, that popularity may<lb/>
+               or may not be diminished<lb/>
+               <pb n="3" facs="Edgeworth_Princeton_C1664_Undated-03_page03.jpg"/>
+
+               by her present work, cannot<lb/>
+               I should think, be as yet <choice><orig>de-<lb/>
+               termined</orig><reg>determined</reg></choice> - At all events<lb/>
+               you may be assured that we<lb/>
+               have the most unbounded<lb/>
+               confidence in your justice<lb/>
+               &amp; in your honor and that we<lb/>
+               shall never name any price<lb/>
+               for any thing we send to you<lb/>
+            </p>
+            <p>It will entertain you to<lb/>
+               hear that <persName ref="./Personography.xml#EdgeM1">Maria</persName> has been <choice><orig>re-<lb/>
+               proached</orig><reg>reproached</reg></choice> by some folk<lb/>
+               hear for having endeavoured<lb/>
+               to <hi rend="underline">lower</hi> the Irish character<lb/>
+               I have much more reason<lb/>
+               to fear that the English mi<lb/>
+               <pb n="4" facs="Edgeworth_Princeton_C1664_Undated-03_page04.jpg"/>
+
+               litia should think themselves<lb/>
+               aggrieved, or that London<lb/>
+               cockneys &amp; Long Acre should<lb/>
+               rage against us - or perhaps<lb/>
+               the higher frozen circles<lb/>
+            </p>
+            <p>In all such misfortunes<lb/>
+               we keep silence &amp;<lb/>
+               depend upon time "the<lb/>
+               comforter -<lb/>
+            </p>
+            <p>The idea of <persName ref="./Personography.xml#HastF1">Lord Moira</persName>'s<lb/>
+               being like <unclear>??vian</unclear> is quite<lb/>
+               absurd - <persName ref="./Personography.xml#HastF1">Lord Moira</persName> is cer-<lb/>
+               tainly a man most <unclear>firm</unclear><lb/>
+               of purpose -<lb/>
+            </p>
+            <p>As for <title ref="./Workography.xml#Absen1">Lady Clonbrony</title>, there<lb/>
+               are so many &amp; so many<lb/>
+               alike, that each will cry<lb/>
+               this <unclear>sister</unclear> is levelled at you -<lb/>
+            </p>
             <closer>
-               <!--include linebreaks, if used. example: <closer> Yours<lb/> Very sincerely<lb/> -->
+               <persName ref="./Personography.xml#EdgeR1"><unclear>RLE</unclear></persName><lb/>
             </closer>
-            <postscript>
-               <p><!--A postscript goes here, outside the <closer>. --></p>
-            </postscript>
-            <!--You can include a <pb/> here, or inside the postScript.-->
-            <!-- Format for postscripts. 
-               Postscripts do NOT go inside closer tags. Adjust to take into account the order in your letter. 
-               Sometimes the signature is on page three, the address on page four, then the postscript follows back on the top of page one, for example.-->
-            <closer><!--Use the <closer> element again to hold Address Leaf information.-->
+            <closer>
                <address>
-                  <!--Include any text written on the address leaf; use a separate "addrLine" for each line and indicate line breaks. -->
-                  <addrLine/>
-                  <addrLine/>
-                  <addrLine/>
+                  <pb n="1" facs="Edgeworth_Princeton_C1664_Undated-03_page01.jpg"/>
+                  <addrLine>To Miles</addrLine>
+                  <addrLine>June 28<hi rend="superscript">th</hi></addrLine>
                </address>
             </closer>
          </div>
