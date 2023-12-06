@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from Joseph Johnson to Maria Edgeworth, May 30, [1802]</title>
+            <author>M. Johnson</author>
+            <editor ref="Id_who">Alexandra LaGrand</editor>
+            <sponsor>
+               <orgName>Maria Edgeworth Letters Project</orgName>
+            </sponsor>
+            <sponsor>Wake Forest University, University of Tennessee, Xavier University, Texas
+               A&amp;M University</sponsor>
+            <principal>Jessica Richard, Hilary Havens, Robin Runia, Susan Egenolf</principal>
+            <respStmt>
+               <resp>Transcription and coding by</resp>
+               <persName ref="Id_who">Alexandra LaGrand</persName>
+             </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>First digital edition in TEI, date: <date when="2023-12-06">December 6, 2023</date>
+            </edition>
+            <respStmt>
+               <orgName ref="http://id.loc.gov/authorities/names/n82003163">Princeton University Library</orgName>
+               <resp> photos include: Edgeworth_Princeton_1802-05_page01.jpg, Edgeworth_Princeton_1802-05_page02.jpg</resp>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Maria Edgeworth Letters Project</authority>
+            <date>2022</date>
+            <availability>
+               <p>Reproduced by courtesy of <orgName ref="http://id.loc.gov/authorities/names/n82003163">Princeton University Library</orgName></p>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons Attribution 4.0 (CC BY 4.0) Unported License</licence>
+            </availability>
+            <idno>Edgeworth_Princeton_1802-05</idno> 
+         </publicationStmt>
+         <seriesStmt>
+            <title>Maria Edgeworth Letters Project</title>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <repository>Princeton University Library</repository>
+                  <collection></collection>
+                  <idno></idno>
+               </msIdentifier>
+               <head>Letter from 
+                  <persName ref="./Personography.xml#JohnJ1">
+                     <forename>Joseph</forename>
+                     <surname>Johnson</surname>
+                  </persName>
+                  to <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>, <placeName ref="./Placeography.xml#London_ENK">London</placeName>, 
+                  <date when="1802-05-30">May 30. <unclear>1802</unclear></date>
+               </head>
+               <physDesc></physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <!--Where Edgeworth uses nonstandard spelling and hyphenation of words, transcriber-coders 
+               should use TEI elements “choice," “sic," and “reg" to encode both Edgeworth’s 
+               spelling and the regular international standard of Oxford English spelling, 
+               following the first listed spelling in the Oxford English Dictionary. -->
+            <p>Edgeworth’s spelling and punctuation are retained in transcription, except where a
+               word is split at the end of a line and the beginning of the next in a manuscript. The
+               long s and ligatured forms are silently emended.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="./Personography.xml#JohnJ1">Joseph Johnson</persName>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2023-12-06" who="Id_who">Created file for letter, encoded letter</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <pb n="1" facs="Edgeworth_Princeton_1802-05_page01.jpg"/>
+            <opener>
+               <dateline>
+                  <name type="place" ref="Id_where"/><placeName ref="./Placeography.xml#London_ENK"><choice><orig>Lond.</orig><reg>London</reg></choice></placeName>
+                  <date when="1802-05-30"/>May 30. <unclear>1802</unclear></dateline>
+               <salute>
+                  <persName>My Dear Madam</persName>
+               </salute>
+            </opener>
+            <p>Pay no regard to Imperial critics, a moral<lb/>
+               that is not prominent scarcely deserves the <unclear>title</unclear> -<lb/>
+               it's enough for you that it is <choice><orig>clothd</orig><reg>clothed</reg></choice> in a story<lb/>
+               which you have compelled the reader to go through.<lb/>
+               I agree with you that the <del>titles</del> <add>mottos</add> should be altered<lb/>
+               or omitted; but not in substituting <hi rend="underline"><unclear>Miss</unclear></hi> for<lb/>
+               <hi rend="underline">Maria</hi> - however, if authors allow themselves to<lb/>
+               be turned out of the good common sense road <add>by aristocrats or silly people of fashion</add><lb/>
+               I suppose booksellers must stay with them.<lb/>
+               You need not transcribe to the <choice><orig>erata</orig><reg>errata</reg></choice> already<lb/>
+               sent, it's perfectly intelligible, only give me<lb/>
+               any more you have discovered, &amp; your altered<lb/>
+               preface, for we must go to press very soon<lb/>
+               indeed. Give my respect to your corrector <persName ref="./Personography.xml#BeauD1">D. Beaufort.</persName><lb/>
+            </p>
+            <p>
+               There was a mistake, y<hi rend="superscript">r</hi>. copy of <title ref="./Workography.xml#Darwi1">Darwin's Life</title><lb/>
+               with <hi rend="underline">from the author</hi> was not intended for <persName ref="./Personography.xml#EdgeR1">Mr. E</persName>.<lb/>
+            </p>
+            <p>
+               <pb n="2" facs="Edgeworth_Princeton_1802-05_page02.jpg"/>
+               whose candour I admire in speaking of <unclear>book</unclear>,<lb/>
+               &amp; M<hi rend="superscript">rs</hi>. S. shall know it. What is beyond rendering good for <unclear>evil</unclear>?<lb/>
+               <hi rend="underline">Modern Sketches</hi> is a title I believe already occupied,<lb/>
+               I think I once mentioned <title ref="./Workography.xml#Taleo1">Tales for people of fashion<lb/>
+               <del>silly people</del>, or fashionable people, or Tales for<lb/>
+               high life,</title> but your inventive brain will supply<lb/>
+               a better than can be furnished by any one else,<lb/>
+               especially as you but know the subject.<lb/>
+               We should have a longer tale than <title ref="./Workography.xml#Moder1">Griselda</title>, to<lb/>
+               accompany it &amp; make a volume.<lb/>
+            </p>
+            <p>
+               In your late letters you have overpowered me with kindness.<lb/>
+               If I had a title &amp; a fortune, neither of which I wish for<lb/>
+               on my own account, &amp; was thirty years younger, and<lb/>
+               you liked me as much as I admire you, the ladies<lb/>
+               in <choice><orig>y<hi rend="superscript">r</hi></orig><reg>your</reg></choice> house would decide the consequence<lb/>
+            </p>
+            <p>
+               Thank your father for his ready compliance with my request<lb/>
+               respecting the Speaker, &amp; the ladies for thinking of <choice><orig>yr.</orig><reg>your</reg></choice> affect <unclear></unclear> <persName ref="./Personography.xml#JohnJ1">I. Johnson</persName><lb/>
+            </p>
+            <p><persName ref="./Personography.xml#SuarJ1"><hi rend="underline">Suard</hi></persName> has lately <choice><orig>pub<hi rend="superscript">d</hi>.</orig><reg>published</reg></choice> at Paris <title ref="./Workography.xml#Melan1"><hi rend="underline">Melanges de Litterature</hi></title><lb/>
+               in 3 Vol. 8<hi rend="superscript">o</hi>., in the work he has a letter from <placeName ref="./Placeography.xml#IE">Ireland</placeName><lb/>
+               but differs from many thieves for he acknowledges<lb/>
+               the source of his information &amp; pays a tribute of<lb/>
+               respect to the Author. I hardly think that you<lb/>
+               need trouble yourself about sending Pictel, information about<lb/>
+               anything that is <hi rend="underline">published</hi>, he has not doubt <unclear>pland</unclear> sources of intelligence<lb/>
+            </p>
+         </div>
+      </body>
+      <back> </back>
+   </text>
+</TEI>
