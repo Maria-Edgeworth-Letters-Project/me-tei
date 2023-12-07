@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from Frances M. Edgeworth to Claudine Béatrix Terray de Belbauf, May 5, 1824</title>
+            <author>Frances M. Edgeworth</author>
+            <editor ref="Id_who">Alexandra LaGrand</editor>
+            <sponsor>
+               <orgName>Maria Edgeworth Letters Project</orgName>
+            </sponsor>
+            <sponsor>Wake Forest University, University of Tennessee, Xavier University, Texas
+               A&amp;M University</sponsor>
+            <principal>Jessica Richard, Hilary Havens, Robin Runia, Susan Egenolf</principal>
+            <respStmt>
+               <resp>Transcription and coding by</resp>
+               <persName ref="Id_who">Alexandra LaGrand</persName>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>First digital edition in TEI, date: <date when="2023-12-07">December 7, 2023</date>
+            </edition>
+            <respStmt>
+               <orgName ref="http://id.loc.gov/authorities/names/n82003163">Princeton University Library</orgName>
+               <resp> photos include: Edgeworth_Princeton_1824-05_page001.jpg, Edgeworth_Princeton_1824-05_page002.jpg, Edgeworth_Princeton_1824-05_page003.jpg, Edgeworth_Princeton_1824-05_page004.jpg</resp>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Maria Edgeworth Letters Project</authority>
+            <date>2022</date>
+            <availability>
+               <p>Reproduced by courtesy of <orgName ref="http://id.loc.gov/authorities/names/n82003163">Princeton University Library</orgName></p>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons Attribution 4.0 (CC BY 4.0) Unported License</licence>
+            </availability>
+            <idno>Edgeworth_Princeton_1824-05_page001</idno> 
+         </publicationStmt>
+         <seriesStmt>
+            <title>Maria Edgeworth Letters Project</title>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <repository>Princeton University Library</repository>
+                  <collection></collection>
+                  <idno></idno>
+               </msIdentifier>
+               <head>Letter from 
+                  <persName ref="./Personography.xml#EdgeF3">
+                     <forename>Frances M.</forename>
+                     <surname>Edgeworth</surname>
+                  </persName>
+                  to <persName ref="./Personography.xml#BelbC1">Claudine Béatrix Terray de Belbauf</persName>, <placeName></placeName>, 
+                  <date when="1824-05-05">May 5. 24</date>
+               </head>
+               <physDesc></physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <!--Where Edgeworth uses nonstandard spelling and hyphenation of words, transcriber-coders 
+               should use TEI elements “choice," “sic," and “reg" to encode both Edgeworth’s 
+               spelling and the regular international standard of Oxford English spelling, 
+               following the first listed spelling in the Oxford English Dictionary. -->
+            <p>Edgeworth’s spelling and punctuation are retained in transcription, except where a
+               word is split at the end of a line and the beginning of the next in a manuscript. The
+               long s and ligatured forms are silently emended.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="./Personography.xml#EdgeF3">Frances M. Edgeworth</persName>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="./Personography.xml#BelbC1">Claudine Béatrix Terray de Belbauf</persName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2023-05-05" who="Id_who">Created file for letter, encoded letter</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <pb n="1" facs="Edgeworth_Princeton_1824-05_page001.jpg"/>
+            <opener>
+               <dateline>
+                  <name type="place" ref="Id_where"/><placeName ref="./Placeography.xml#Edgeworthstown_IE">Edgeworth Town</placeName>
+                  <date when="1824-05-05"/>May 5. 24</dateline>
+            </opener>
+            <p>It is so very long since I have heard<lb/>
+               any thing of you my dear <persName ref="./Personography.xml#BelbC1">Beatrix</persName><lb/>
+               that I almost fear in writing to you<lb/>
+               lest you should have quite forgotten<lb/>
+               me - and should think me very <choice><orig>im<lb/>
+               pertinent</orig><reg>impertinent</reg></choice> in addressing you as I<lb/>
+               would have done three years ago -<lb/>
+               and yet I cannot believe that <persName ref="./Personography.xml#BelbC1"><choice><orig>M<hi rend="superscript">me</hi></orig><reg>Madame</reg></choice><lb/>
+               la Comtesse de Belbauf</persName> can be so<lb/>
+               very different from the dear <persName ref="./Personography.xml#BelbC1">Beatrix</persName><lb/>
+               that I loved as to be offended at<lb/>
+               what is certainly meant as kindess<lb/>
+               - I had hoped that you would have<lb/>
+               persuaded <persName ref="./Personography.xml#BelbL1"><choice><orig>M</orig><reg>Monsieur</reg></choice>. de Belbauf</persName> to have<lb/>
+               brought you to <placeName ref="./Placeography.xml#ENK">England</placeName> - and that I<lb/>
+               should have had the pleasure of seeing<lb/>
+               you again - This I fear is a vain<lb/>
+            </p>
+            <p>
+               <pb n="2" facs="Edgeworth_Princeton_1824-05_page002.jpg"/>
+               hope - some how you French ladies<lb/>
+               do not find it so easy or so agreeable<lb/>
+               to travel as we Englishwomen do<lb/>
+               - But still I had flattered myself you<lb/>
+               would have written either to me or<lb/>
+               to Harriet - good kind <persName ref="./Personography.xml#VindX1"><choice><orig>M<hi rend="superscript">me</hi><reg>Madame</reg></orig></choice> de Vinde</persName><lb/>
+               has not been at all good or kind to<lb/>
+               us of late - as she had quite left off<lb/>
+               writing to my sister - But I now<lb/>
+               hope to hear of you at least from<lb/>
+               the friend who takes this letter a<lb/>
+               <persName ref="./Personography.xml#StrickX1">M<hi rend="superscript">r.</hi> Strickland</persName> - And if you are still<lb/>
+               the same <choice><orig>goodnatured</orig><reg>good-natured</reg></choice> <persName ref="./Personography.xml#BelbC1">Beatrix</persName> I<lb/>
+               knew I still have a little hope<lb/>
+               that you will write to me - and tell<lb/>
+               me something about yourself - Are<lb/>
+               <del></del> either of your pretty sisters married<lb/>
+               - Your brother I suppose is now in<lb/>
+               the army and quite at his own <choice><orig>dis<lb/>
+               =posal</orig><reg>disposal</reg></choice>. Have you any children<lb/>
+               in short I wish to know of all that<lb/>
+            </p>
+            <p>
+               <pb n="3" facs="Edgeworth_Princeton_1824-05_page003.jpg"/>
+               interests and occupies you.<lb/>
+               One of my sisters whom you do not<lb/>
+               know has just been married very<lb/>
+               much to her satisfcation &amp; that of<lb/>
+               all her family - Her husband is in<lb/>
+               the army - as soon as ever he can<lb/>
+               get leave of absence they intend<lb/>
+               going to the Continent for some<lb/>
+               months - Should they go to <placeName ref="./Placeography.xml#Paris_FR">Paris</placeName><lb/>
+               I should hope that you would be kind<lb/>
+               to my sister - but I do not know<lb/>
+               when that may be.<lb/>
+            </p>
+            <p>
+               I often look back &amp; so does <persName ref="./Personography.xml#EdgeH1">Harriet</persName><lb/>
+               to the pleasant days we spent with<lb/>
+               you at <placeName ref="./Placeography.xml#La-Celle_FR">La Celle</placeName> and above all that<lb/>
+               one that we spent as <placeName ref="./Placeography.xml#Chateau-de-Malmaison_FR">Malmaison</placeName> - I<lb/>
+               should so like to return to <placeName ref="./Placeography.xml#Paris_FR">Paris</placeName> &amp;<lb/>
+               see all my <hi rend="underline">friends</hi> there again for<lb/>
+               I still must think that those who<lb/>
+               were so kind to me &amp; of whom I was<lb/>
+               so fond, must be my friends - When<lb/>
+               I am married I shall certainly as my<lb/>
+               husband to take me to <placeName ref="./Placeography.xml#Paris_FR">Paris</placeName> - At present<lb/>
+            </p>
+            <p>
+               <pb n="4" facs="Edgeworth_Princeton_1824-05_page004.jpg"/>
+               I have no hopes of going - My sister <persName ref="./Personography.xml#EdgeM1">Marian</persName><lb/>
+               has been very unwell for the last<lb/>
+               year and her health is still so un<lb/>
+               certain that she is not equal to a long<lb/>
+               journey - You may believe that it is<lb/>
+               very melancholy to all of us to see so<lb/>
+               good and kind a friend suffer - but<lb/>
+               now that summer is coming I hope<lb/>
+               she will grow stronger<lb/>
+            </p>
+            <p>
+               I am afraid that you have<lb/>
+               never received a book that <persName ref="./Personography.xml#EdgeH1"><choice><orig>Har<lb/>
+               riet</orig><reg>Harriet</reg></choice></persName> and I sent you a long time ago<lb/>
+               according to the promsie we made you<lb/>
+               which I fear you must have thought<lb/>
+               we had forgotten.<lb/>
+            </p>
+            <p>
+               Pray remember me most <choice><orig>affection<lb/>
+               ately</orig><reg>affectionately</reg></choice> to <persName ref="./Personography.xml#VindX2"><choice><orig>M<hi rend="superscript">r</hi>.</orig><reg>Monsieur</reg></choice></persName> &amp; <persName ref="./Personography.xml#VindX1">Madame de Vinde</persName> - &amp;<lb/>
+               to your sisters - Again let me beg<lb/>
+               you to write to me - <persName ref="./Personography.xml#EdgeH1">Harriet</persName> &amp;<lb/>
+               <persName ref="./Personography.xml#EdgeM1">Maria</persName> join me in kind wishes to<lb/>
+               you and yours<lb/>
+            </p>
+            <closer>
+               Believe me dear <persName ref="./Personography.xml#BelbC1">Beatrix</persName><lb/>
+               your sincerely affectionate<lb/>
+               <persName ref="./Personography.xml#EdgeF3">Frances M Edgeworth</persName><lb/>
+            </closer>
+        </div>
+      </body>
+      <back> </back>
+   </text>
+</TEI>
