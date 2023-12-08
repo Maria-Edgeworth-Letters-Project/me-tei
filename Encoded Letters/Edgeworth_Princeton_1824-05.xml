@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from Maria Edgeworth to [Unknown], May 1, 1824</title>
+            <author>Maria Edgeworth</author>
+            <editor ref="Id_who">Alexandra LaGrand</editor>
+            <sponsor>
+               <orgName>Maria Edgeworth Letters Project</orgName>
+            </sponsor>
+            <sponsor>Wake Forest University, University of Tennessee, Xavier University, Texas
+               A&amp;M University</sponsor>
+            <principal>Jessica Richard, Hilary Havens, Robin Runia, Susan Egenolf</principal>
+            <respStmt>
+               <resp>Transcription and coding by</resp>
+               <persName ref="Id_who">Alexandra LaGrand</persName>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>First digital edition in TEI, date: <date when="2023-12-08">December 8, 2023</date>
+            </edition>
+            <respStmt>
+               <orgName ref="http://id.loc.gov/authorities/names/n82003163">Princeton University Library</orgName>
+               <resp> photos include: Edgeworth_Princeton_1824-05_page01.jpg, Edgeworth_Princeton_1824-05_page02.jpg, Edgeworth_Princeton_1824-05_page03.jpg, Edgeworth_Princeton_1824-05_page04.jpg, Edgeworth_Princeton_1824-05_page05.jpg, Edgeworth_Princeton_1824-05_page06.jpg, Edgeworth_Princeton_1824-05_page07.jpg, Edgeworth_Princeton_1824-05_page08.jpg</resp>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Maria Edgeworth Letters Project</authority>
+            <date>2022</date>
+            <availability>
+               <p>Reproduced by courtesy of <orgName ref="http://id.loc.gov/authorities/names/n82003163">Princeton University Library</orgName></p>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons Attribution 4.0 (CC BY 4.0) Unported License</licence>
+            </availability>
+            <idno>Edgeworth_Princeton_1824-05</idno> 
+         </publicationStmt>
+         <seriesStmt>
+            <title>Maria Edgeworth Letters Project</title>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <repository>ORGANIZATION NAME</repository>
+                  <collection></collection>
+                  <idno></idno>
+               </msIdentifier>
+               <head>Letter from 
+                  <persName ref="./Personography.xml#EdgeM1">
+                     <forename>Maria</forename>
+                     <surname>Edgeworth</surname>
+                  </persName>
+                   to <persName>[Unknown]</persName>, <placeName></placeName>, 
+                  <date when="1824-05-01">May 1, 1824</date>
+               </head>
+               <physDesc></physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <!--Where Edgeworth uses nonstandard spelling and hyphenation of words, transcriber-coders 
+               should use TEI elements “choice," “sic," and “reg" to encode both Edgeworth’s 
+               spelling and the regular international standard of Oxford English spelling, 
+               following the first listed spelling in the Oxford English Dictionary. -->
+            <p>Edgeworth’s spelling and punctuation are retained in transcription, except where a
+               word is split at the end of a line and the beginning of the next in a manuscript. The
+               long s and ligatured forms are silently emended.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
+            </correspAction>
+            <correspAction type="received">
+               <persName>[Unknown]</persName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2023-12-08" who="Id_who">Created file for letter, encoded letter</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <pb n="1" facs="Edgeworth_Princeton_1824-05_page01.jpg"/>
+            <opener>
+               <dateline>
+                  <name type="place" ref="Id_where"/><placeName ref="./Placeography.xml#Edgeworthstown_IE">Edgeworths Town</placeName>
+                  <date when="1824-05-01"/>May 1<hi rend="superscript">st</hi>. 1824</dateline>
+            </opener>
+            <p>I have been very negligent<lb/>
+               but not quite so ungrateful<lb/>
+               as I may have appeared<lb/>
+               to <persName ref="./Personography.xml#GranE1">M. de la Grange</persName> - I long<lb/>
+               delayed to thank him for<lb/>
+               a most agreeable letter<lb/>
+               but I have within the last<lb/>
+               two months written to him<lb/>
+               to return him my thanks<lb/>
+               for his attentions to an<lb/>
+               American gentleman<lb/>
+               <persName ref="./Personography.xml#RalsG1">M<hi rend="superscript">r</hi>. <unclear>Ralstone</unclear></persName> to whom I<lb/>
+               gave an introduction to<lb/>
+               him about two years ago<lb/>
+               - <persName ref="./Personography.xml#RalsG1">M<hi rend="superscript">r</hi>. <unclear>Ralstone</unclear></persName> wrote after<lb/>
+               his return to <placeName ref="./Placeography.xml#US">America</placeName> to express his gratitude<lb/>
+               for the Spanish introductions<lb/>
+               which he obtained<lb/>
+            </p>
+            <p>
+               <pb n="2" facs="Edgeworth_Princeton_1824-05_page02.jpg"/>
+               from the friend to whom I<lb/>
+               had introduced him at<lb/>
+               <placeName ref="./Placeography.xml#Paris_FR">Paris</placeName> - Though he did not<lb/>
+               name <persName ref="./Personography.xml#GranE1">M. <del></del> de la Grange</persName><lb/>
+               I am persuaded that you<lb/>
+               were the person who furnished<lb/>
+               him with letters to <placeName ref="./Placeography.xml#SP">Spain</placeName><lb/>
+               which were of the greatest<lb/>
+               service. - I assure you that<lb/>
+               I was sufficiently ashamed<lb/>
+               of my procrastination when<lb/>
+               I received his letter telling<lb/>
+               me how kindly you had<lb/>
+               honored my <choice><orig>recommenda<lb/>
+               =tion</orig><reg>recommendation</reg></choice> &amp; I wrote directly to<lb/>
+               thank you - but I have lately<lb/>
+               learned that this letter and<lb/>
+               a packet containing letters<lb/>
+               from me to our friends the<lb/>
+               <persName ref="./Personography.xml#DeleX1"><unclear>Deleperts</unclear></persName> and our friends the<lb/>
+               <persName ref="./Personography.xml#CreeX1">Creeds</persName> never reached <placeName ref="./Placeography.xml#Paris_FR">Paris</placeName><lb/>
+            </p>
+            <p>
+               You will I am sure believe<lb/>
+               that this is the plain truth<lb/>
+            </p>
+            <p>
+               <pb n="3" facs="Edgeworth_Princeton_1824-05_page03.jpg"/>
+               Permit me then to<lb/>
+               present to you one of our<lb/>
+               most intimate &amp; I think I<lb/>
+               may say agreeable friends<lb/>
+               - <persName ref="./Personography.xml#StrickX2"><hi rend="underline">M<hi rend="superscript">r</hi>. Strickland</hi></persName> - a name<lb/>
+               not so revolting to French<lb/>
+               pronunciation as <hi rend="underline">Edge-<lb/>
+               worth</hi> - but as you mastered<lb/>
+               that <persName ref="./Personography.xml#StrickX2">Strickland</persName> will only<lb/>
+               be too easy for you - <persName ref="./Personography.xml#StrickX2">M<hi rend="superscript">r</hi>. <choice><orig>Strick<lb/>
+               land</orig><reg>Strickland</reg></choice></persName> who has the <choice><orig>adminis<lb/>
+               =tration</orig><reg>administration</reg></choice> of a large estate in<lb/>
+               <placeName ref="./Placeography.xml#IE">Ireland</placeName> gives himself a<lb/>
+               few weeks holidays from<lb/>
+               business to refresh himself<lb/>
+               with travelling &amp; with seeing<lb/>
+               <placeName ref="./Placeography.xml#Paris_FR">Paris</placeName> - <placeName ref="./Placeography.xml#Paris_FR">Paris</placeName> is not new<lb/>
+               to him; but there is always<lb/>
+               something new to every<lb/>
+               man of sense and taste in<lb/>
+               your splendid capital -<lb/>
+               No one can do its honours<lb/>
+               better than <persName ref="./Personography.xml#GranE1">M. Edouard<lb/>
+               de la Grange</persName>; and I beg<lb/>
+            </p>
+            <p>
+               <pb n="4" facs="Edgeworth_Princeton_1824-05_page04.jpg"/>
+               the favor of him to let <persName ref="./Personography.xml#StrickX1">M<hi rend="superscript">r</hi>. <choice><orig>Strick<lb/>
+               land</orig><reg>Strickland</reg></choice></persName> have as much of his<lb/>
+               assistance &amp; time as he can<lb/>
+               spare - <persName ref="./Personography.xml#StrickX1">M<hi rend="superscript">r</hi>. S</persName> - loves walking<lb/>
+               - riding - driving &amp; conversation<lb/>
+               - Reading - painting - music<lb/>
+               - nothing is indifferent to<lb/>
+               him that can interest a<lb/>
+               well informed &amp; well bred<lb/>
+               gentleman. - He speaks<lb/>
+               French easily &amp; will <choice><orig>con-<lb/>
+               verse</orig><reg>converse</reg></choice> with you in whichever<lb/>
+               language you please. -<lb/>
+               He is 1 one of our- first <hi rend="underline"><choice><orig>Catho<lb/>
+               lic</orig><reg>Catholic</reg></choice></hi> families - I cannot<lb/>
+               vouch for his being <hi rend="underline">dans<lb/>
+               les bons principes</hi> in a<lb/>
+               certain exclusive sense of the<lb/>
+               word; but I think that you<lb/>
+               &amp; he will agree well.<lb/>
+            </p>
+            <p>
+               He will tell you every<lb/>
+               thing of us that you can<lb/>
+               wish to hear. Especially that<lb/>
+            </p>
+            <p>
+               <pb n="5" facs="Edgeworth_Princeton_1824-05_page05.jpg"/>
+               that we retain the most &amp; agreeable<lb/>
+               remembrance of our residence<lb/>
+               in <placeName ref="./Placeography.xml#Paris_FR">Paris</placeName> and of all our French<lb/>
+               friends - The very pleasant<lb/>
+               hours you gave us &amp; our<lb/>
+               conversations in the <choice><orig>car<lb/>
+               riage</orig><reg>carriage</reg></choice> where we discussed<lb/>
+               so many points, <hi rend="underline">sentimental</hi><lb/>
+               literary and Metaphysical<lb/>
+               <del>and</del> we all have agreed<lb/>
+               in recolelcting with<lb/>
+               peculiar pleasure - In<lb/>
+               deed a good easy coach<lb/>
+               I consider as better than<lb/>
+               any salon for <choice><orig>conversa<lb/>
+               =tion</orig><reg>conversation</reg></choice> because one is not<lb/>
+               subject to the perpetual <add>change</add><lb/>
+               <add>&amp;</add> interruptions <add>to</add> which good<lb/>
+               breeding subjects us in the<lb/>
+               salon. The motto of <choice><orig>sallon</orig><reg>salon</reg></choice><lb/>
+               conversation must ever be<lb/>
+            </p>
+            <p>
+               "Glissez mortels, n'appuyez pas"<lb/>
+            </p>
+            <p>
+               But I like <hi rend="underline">not</hi> to slide<lb/>
+               over things so very rapidly<lb/>
+               as to have no time or <choice><orig>possibili<lb/>
+               ty</orig><reg>possibility</reg></choice> for understanding them<lb/>
+            </p>
+            <p>
+               <pb n="6" facs="Edgeworth_Princeton_1824-05_page06.jpg"/>
+               - Do you still retain your<lb/>
+               taste for metaphysics?<lb/>
+               and have you advanced<lb/>
+               many paces?- I can never<lb/>
+               touch upon that subject<lb/>
+               without fresh admiration<lb/>
+               of the good humor with<lb/>
+               which you used to endure<lb/>
+               my <hi rend="underline">persiflage</hi>. We have<lb/>
+               no English word which<lb/>
+               exactly translates persiflage<lb/>
+               - <hi rend="underline">Quizzing</hi> - besides being<lb/>
+               too vulgar does not give<lb/>
+               the idea justly by any<lb/>
+               means - <hi rend="underline">bantering</hi> is odious<lb/>
+               &amp; belongs now only to old<lb/>
+               plays - <hi rend="underline">Shewing a person<lb/>
+               up</hi> is still more odious<lb/>
+               though fashionable - It is<lb/>
+               far very far from my idea<lb/>
+               of <hi rend="underline">persiflage</hi> - <hi rend="underline">irony</hi> or<lb/>
+               <hi rend="underline">raillery</hi> come nearest <unclear>but</unclear><lb/>
+               there are many shades<lb/>
+               between this &amp; the French<lb/>
+               - <hi rend="underline">Ironic raillery</hi> might do<lb/>
+            </p>
+            <p>
+               <pb n="7" facs="Edgeworth_Princeton_1824-05_page07.jpg"/>
+               for want of better - but still<lb/>
+               it does but badly - You<lb/>
+               must be a perfect Englishman<lb/>
+               or understand English as<lb/>
+               well as you do French if<lb/>
+               you seize all these shades<lb/>
+               &amp; comprehend my last<lb/>
+               page - If you do not understand<lb/>
+               "Glissez mortel n'appuyez pas"<lb/>
+            </p>
+            <p>
+               You are in the intimate<lb/>
+               society of <persName ref="./Personography.xml#DuraC1">Madame de <unclear>Duras</unclear></persName><lb/>
+               - Among my regrets in<lb/>
+               leaving <placeName ref="./Placeography.xml#Paris_FR">Paris</placeName> was a strong<lb/>
+               regret that I had not been<lb/>
+               able to become better <choice><orig>ac<lb/>
+               quainted</orig><reg>acquainted</reg></choice> with her. I hear<lb/>
+               much of certain novels of<lb/>
+               hers which are printed<lb/>
+               but not published - Given<lb/>
+               to her friends but not to<lb/>
+               the public - It would gratify<lb/>
+               me in every way extremely<lb/>
+               if you could procure for<lb/>
+               me a copy. - My friend<lb/>
+               <persName ref="./Personography.xml#StrickX1">M<hi rend="superscript">r</hi>. Strickland</persName> would<lb/>
+            </p>
+            <p>
+               <pb n="8" facs="Edgeworth_Princeton_1824-05_page08.jpg"/>
+               bring it over for me<lb/>
+            </p>
+            <p>
+               My sisters desire to be<lb/>
+               kindly remembered to<lb/>
+               you - <persName ref="./Personography.xml#EdgeF2">M<hi rend="superscript">rs</hi>. Edgeworth</persName> &amp;<lb/>
+               my brother desire me to<lb/>
+               tell you that they hope<lb/>
+               you will some time <choice><orig>trav<lb/>
+               vel</orig><reg>travel</reg></choice> to this remote <placeName ref="./Placeography.xml#IE">Ireland</placeName><lb/>
+               and that we may have<lb/>
+               the pleasure of seeing you<lb/>
+               at <placeName ref="./Placeography.xml#Edgeworthstown_IE">Edgeworths Town</placeName> - In<lb/>
+               this hope.<lb/>
+            </p>
+            <closer>
+               - Adieu for the present<lb/>
+               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName> -<lb/>
+            </closer>
+         </div>
+      </body>
+      <back> </back>
+   </text>
+</TEI>
