@@ -100,26 +100,166 @@
          </correspDesc>
       </profileDesc>
    </teiHeader>
-   <!--LJ NOTE PAUSED HERE 12/8/23-->
    <text>
       <body>
          <div type="letter">
-            <pb n="1" facs="image1.jpg"/>
-            <!--filenames for photos associated with this letter. Example: <pb n="1" facs="image1.jpg image2.jpg image3.jpg"/> -->
+            <pb n="1" facs="Edgeworth_Princeton_1837-06_page01.jpg"/>
             <opener>
-               <dateline><!--If there's no date line, omit this element. Record in the order in which it is written on the letter.-->
-                  <name type="place" ref="Id_where"/>
-                  <date when="1816-08-04"/>August 4, 1816. </dateline>
+               <dateline>
+                  <name type="place" ref="./Placeography.xml#Edgeworthstown_IE">Edgeworthtown</name>
+                  <lb/>
+                  <date when="1837-06-03"/>June 3, 1837. </dateline>
                <salute>
-                  <persName>
-                     <!-- Use if letter has a saluation ("Dear Sir," for example). If not, delete this line.-->
-                  </persName>
+                  My dear <persName ref="./Personography.xml#BeauF1">Captain Beaufort</persName>
                </salute>
             </opener>
-            <p><!-- Begin transcibing the body of the letter here. -->
-            </p>
             <p>
-               <!--More body paragraphs as needed.--></p>
+               <!--
+               I congratulate you with all<lb/>
+               my heart upon your son<lb/>
+               <persName ref="./Personography.xml#BeauF2">Francis</persName>'s success, and upon<lb/>
+               the prizes he has won, and<lb/>
+               I think this must be more<lb/>
+               satisfactory to you and of<lb/>
+               better promise for his future<lb/>
+               life than if all had been more<lb/>
+               easily and more early attained<lb/>
+            </p>
+            <p>He now knows fully his<lb/>
+               own powers and the <choice><orig>differ<lb/>
+               ence</orig><reg>difference</reg></choice> between what they can<lb/>
+               and will do for him with<lb/>
+               and without <unclear>exention</unclear> and<lb/>
+               application &amp; self control<lb/>
+               - And he is of an age when<lb/>
+               this must make serious <choice><orig>im-<lb/>
+               pression</orig><reg>impression</reg></choice> and in circumstances<lb/>
+               
+               <pb n="2" facs="Edgeworth_Princeton_1837-06_page02.jpg"/>
+
+               which must surely render<lb/>
+               that impression lasting -<lb/>
+               going into has a new world<lb/>
+               where he has a character as<lb/>
+               well as fortune <unclear>to make</unclear> for<lb/>
+               himself and where away<lb/>
+               far from his fond father &amp;<lb/>
+               all his family he <del>is</del> will reflect<lb/>
+               either honor or dishonor upon<lb/>
+               them and be the pride of<lb/>
+               that fathers heart or perhaps<lb/>
+               break that affectionate heart<lb/>
+            </p>
+            <p>Please to read this to him<lb/>
+               with my anxious wishes<lb/>
+               for his health and happiness<lb/>
+               and for his becoming an<lb/>
+               honor to his family and<lb/>
+               worthy in all situations of<lb/>
+               the education he has received<lb/>
+               and the name he bears -<lb/>
+            </p>
+            
+            <pb n="3" facs="Edgeworth_Princeton_1837-06_page03.jpg"/>
+            
+            <p>I am very much<lb/>
+               obliged to you my dear<lb/>
+               <persName ref="./Personography.xml#BeauF1">Francis</persName> for writing to me<lb/>
+               with your own hand this<lb/>
+               account of your son which<lb/>
+               truly gives me very great <choice><orig>plea<lb/>
+               -sure</orig><reg>pleasure</reg></choice> - both from the thing<lb/>
+               itself and from your kindness<lb/>
+               and certainly of my sympathy<lb/>
+            </p>
+            <p>Thank you for <persName ref="./Personography.xml#WhewW1">M<hi rend="superscript">r</hi> <unclear>Whewells</unclear></persName><lb/>
+               book which I particularly<lb/>
+               wished to see before I answer<lb/>
+               <persName ref="./Personography.xml#JoneX1">M<hi rend="superscript">r</hi> Jones</persName>'s letter - I shall write<lb/>
+               to <persName ref="./Personography.xml#JoneX1">M<hi rend="superscript">r</hi> Jones</persName> now; I waited till<lb/>
+               the Examination was over<lb/>
+               when I thought I could do<lb/>
+               so with more propriety than<lb/>
+               while the decision was pending<lb/>
+               - <hi rend="underline">now</hi> it will be delightful<lb/>
+               to me - I <del>shall</del> may say (I hope?<lb/>
+               that you will be glad to become<lb/>
+               acquainted with <persName ref="./Personography.xml#JoneX1">M<hi rend="superscript">r</hi> Jones</persName> when<lb/>
+               ever he comes to Town - And<lb/>
+
+               <pb n="4" facs="Edgeworth_Princeton_1837-06_page04.jpg"/>
+
+               that you never declined the<lb/>
+               interview formerly proposed -<lb/>
+               - I will take care not to throw<lb/>
+               any blame on <persName ref="./Personography.xml#WhewW1">M<hi rend="superscript">r</hi>. Whewell</persName>'s<lb/>
+               forgetfulness or mistake.<lb/>
+            </p>
+            <p>I have read from the page<lb/>
+               143 "Remarks on Mathematical reason<lb/>
+               -ing &amp; on the Logic of induction"<lb/>
+               - But till I have read it again &amp;<lb/>
+               again cannot tell you how <hi rend="underline">much</hi><lb/>
+               pleasure it can give me at<lb/>
+               the first reading I like it much<lb/>
+               - But I think the inquiry must<lb/>
+               be pursued deeper still - This<lb/>
+               proves sufficiently that mathematical<lb/>
+               reasoning and demonstration cannot<lb/>
+               be founded on definitions - only - <choice><orig>with-<lb/>
+               out</orig><reg>withou</reg></choice> axioms - but axioms <add>resolve</add> themselves<lb/>
+               or must be resolved into some action<lb/>
+               of the mind - <add>a</add> conception - <add>an</add> idea - or<lb/>
+               What <persName ref="./Personography.xml#WhewW1">Whewell</persName> (p 156) calls an <hi rend="underline">intellection</hi><lb/>
+               - See also p 166 - idea of statistical <hi rend="underline">force</hi> - <hi rend="underline">pressure</hi><lb/>
+               <hi rend="underline">idea of body</hi> <hi rend="underline">or matter</hi><lb/>
+            </p>
+            <p>All this seems to me to come round again<lb/>
+               to <hi rend="underline">intuitive</hi> <hi rend="underline">ideas</hi> - or <hi rend="underline">intuition</hi> - or what<lb/>
+               <persName ref="./Personography.xml#StewD1">Stewart</persName> &amp; <persName ref="./Personography.xml#ReidT1">Reid</persName> call <hi rend="underline">original instincts</hi> - laws<lb/>
+               of belief<lb/>
+               LJ NOTE PAUSED HERE 12/9/23
+            </p>
+            <p>I do not agree with M[superscript]r[/superscript]. W's objection 157<lb/>
+               by the term [underline]laws[/underline] [underline]of belief[/underline]. I do not understand<lb/>
+               why he conceives that [underline]laws compel results[/underline]<lb/>
+               - I considered laws as synonymous to rules -<lb/>
+               formed from observation of what constantly occurs<lb/>
+               in certain circumstances - or [deletion]between[/deletion] in<lb/>
+
+               <pb n="5" facs="Edgeworth_Princeton_1837-06_page05.jpg"/>
+
+               certain relations of things - persons<lb/>
+               or thoughts to each other<lb/>
+            </p>
+            <p>It seems to me that [unclear]writers[/unclear]<lb/>
+               go round & round again and<lb/>
+               come to the same points & stops<lb/>
+               in [unclear]???[/unclear]physics - & some coin<lb/>
+               new terms instead of saying<lb/>
+               - we know no more -<lb/>
+            </p>
+            <p>Locke who maintains that we<lb/>
+               have no innate ideas -<lb/>
+            </p>
+            <p>Stewart who maintains that we<lb/>
+               have what he calls mental instincts<lb/>
+               including the instinct of credulity<lb/>
+               and the instinct of belief<lb/>
+            </p>
+            <p>M[superscript]r[/superscript]. Whewell who says that "an axiom<lb/>
+               "does not account for an intellection"<lb/>
+               Which he explains elsewhere to<lb/>
+               mean an act of the mind - an idea<lb/>
+               - a clear conception -<lb/>
+            </p>
+            <p>All - all - come to the acknowledg-<lb/>
+               ment that there is something more<lb/>
+               in mind than words can express<lb/>
+               or something more than we know<lb/>
+               of [underline]The act of induction[/underline] what do we know?<lb/>
+               -->
+            </p>
             <p>
                <!--More body paragraphs as needed.-->
                <!--Where there's a page break record it inside the relevant body paragraph like this, 
@@ -128,7 +268,12 @@
             </p>
             <p><!--More body paragraphs as needed.--></p>
             <closer>
-               <!--include linebreaks, if used. example: <closer> Yours<lb/> Very sincerely<lb/> -->
+               <!--
+               I know that I am my dear<lb/>
+               Francis wasting your time<lb/>
+               But I am affectionately yours<lb/>
+               Maria Edgeworth<lb/>
+               -->
             </closer>
             <postscript>
                <p><!--A postscript goes here, outside the <closer>. --></p>
@@ -139,8 +284,12 @@
                Sometimes the signature is on page three, the address on page four, then the postscript follows back on the top of page one, for example.-->
             <closer><!--Use the <closer> element again to hold Address Leaf information.-->
                <address>
-                  <!--Include any text written on the address leaf; use a separate "addrLine" for each line and indicate line breaks. -->
-                  <addrLine/>
+                  <!--
+                  <pb n="6" facs="Edgeworth_Princeton_1837-06_page06.jpg"/>
+                  <addrLine>1837</addrLine>
+                  <addrLine>Maria</addrLine>
+                  <addrLine>F L B</addrLine>
+                  -->
                   <addrLine/>
                   <addrLine/>
                </address>
