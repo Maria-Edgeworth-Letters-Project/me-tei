@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from Maria Edgeworth to Harry, October 4, 1834</title>
+            <author>Maria Edgeworth</author>
+            <editor ref="Id_who">Alexandra LaGrand</editor>
+            <sponsor>
+               <orgName>Maria Edgeworth Letters Project</orgName>
+            </sponsor>
+            <sponsor>Wake Forest University, University of Tennessee, Xavier University, Texas
+               A&amp;M University</sponsor>
+            <principal>Jessica Richard, Hilary Havens, Robin Runia, Susan Egenolf</principal>
+            <respStmt>
+               <resp>Transcription and coding by</resp>
+               <persName ref="Id_who">Alexandra LaGrand</persName>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>First digital edition in TEI, date: <date when="2023-12-15">December 15, 2023</date>
+            </edition>
+            <respStmt>
+               <orgName ref="http://id.loc.gov/authorities/names/n82003163">Princeton University Library</orgName>
+               <resp> photos include: Edgeworth_Princeton_1834-10_page01.jpg, Edgeworth_Princeton_1834-10_page02.jpg, Edgeworth_Princeton_1834-10_page03.jpg, Edgeworth_Princeton_1834-10_page04.jpg</resp>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Maria Edgeworth Letters Project</authority>
+            <date>2022</date>
+            <availability>
+               <p>Reproduced by courtesy of <orgName ref="http://id.loc.gov/authorities/names/n82003163">Princeton University Library</orgName></p>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons Attribution 4.0 (CC BY 4.0) Unported License</licence>
+            </availability>
+            <idno>Edgeworth_Princeton_1834-10</idno> 
+         </publicationStmt>
+         <seriesStmt>
+            <title>Maria Edgeworth Letters Project</title>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <repository>Princeton University Library</repository>
+                  <collection></collection>
+                  <idno></idno>
+               </msIdentifier>
+               <head>Letter from 
+                  <persName ref="./Personography.xml#EdgeM1">
+                     <forename>Maria</forename>
+                     <surname>Edgeworth</surname>
+                  </persName>
+                   to <persName>Harry</persName>, <placeName></placeName>, 
+                  <date when="1834-10-04">Oct 4<hi rend="superscript">th</hi>. 1834</date>
+               </head>
+               <physDesc></physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <!--Where Edgeworth uses nonstandard spelling and hyphenation of words, transcriber-coders 
+               should use TEI elements “choice," “sic," and “reg" to encode both Edgeworth’s 
+               spelling and the regular international standard of Oxford English spelling, 
+               following the first listed spelling in the Oxford English Dictionary. -->
+            <p>Edgeworth’s spelling and punctuation are retained in transcription, except where a
+               word is split at the end of a line and the beginning of the next in a manuscript. The
+               long s and ligatured forms are silently emended.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth></persName>
+            </correspAction>
+            <correspAction type="received">
+               <persName>Harry</persName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2023-12-15" who="Id_who">Created file for letter, encoded letter</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <pb n="1" facs="Edgeworth_Princeton_1834-10_page01.jpg"/>
+            <opener>
+               <dateline>
+                  <name type="place" ref="Id_where"/><placeName ref="./Placeography.xml#Edgeworthstown_IE">Edgeworthstown</placeName>
+                  <date when="1834-10-04"/>Oct 4<hi rend="superscript">th</hi>. 1834</dateline>
+               <salute>
+                  <persName>My dearest Harry,</persName>
+               </salute>
+            </opener>
+            <p>It is very<lb/>
+               dispiriting to us, what must it<lb/>
+               be to you to find that you do<lb/>
+               not mend - <unclear>down</unclear> at <placeName ref="./Placeography.xml#Richmond_ENK">Richmond</placeName><lb/>
+               Still we hope on - tomorrows<lb/>
+               post!<lb/>
+            </p>
+            <p>
+               No answer from <persName ref="./Personography.xml#RiceT1">Spring<lb/>
+               Rice</persName> - perhaps this is a good<lb/>
+               augury - as he says nothing<lb/>
+               he may be doing something<lb/>
+               But it is possible that he said<lb/>
+               nothing to <persName ref="./Personography.xml#BeauF1">Captain Beaufort</persName><lb/>
+               but that he had had a letter<lb/>
+               from <persName ref="./Personography.xml#EdgeM1">Miss E.</persName> - How could<lb/>
+               he avail saying more to such<lb/>
+               a man - a father such as he<lb/>
+               is too and at such a time -<lb/>
+               I am assured ossification of the<lb/>
+               heart come on in certain <choice><orig>situa<lb/>
+               tions</orig><reg>situations</reg></choice> inevitably -<lb/>
+            </p>
+            <p>
+               I enclose <add>the</add> two letters of <persName ref="./Personography.xml#HallX3"><choice><orig>Cap<hi rend="superscript">t</hi>.</orig><reg>Captain</reg></choice><lb/>
+               Halls</persName> which you forwarded<lb/>
+               to me - I think you will<lb/>
+               like to read a great part of them<lb/>
+               though the first pages may<lb/>
+               tire you - Read my answer<lb/>
+               or not my dear just as you<lb/>
+               <add>indeed you must read the lage page because it concerns you</add><lb/>
+               please - and forward it as di<lb/>
+               =rected -- whenever <persName ref="./Personography.xml#HallX3"><choice><orig>Capt<hi rend="superscript">n</hi>.</orig><reg>Captain</reg></choice> Halls</persName><lb/>
+               next letter comes pray open &amp;<lb/>
+               read<lb/>
+            </p>
+            <p>
+               <pb n="2" facs="Edgeworth_Princeton_1834-10_page02.jpg"/>
+               as much as you like to read.<lb/>
+            </p>
+            <p>
+               I am much obliged to <persName ref="./Personography.xml#WilsL1">Lestock</persName><lb/>
+               for having paid my balance<lb/>
+               £102.7.9 to <persName ref="./Personography.xml#HindG1">G J Hinds</persName> <unclear>and</unclear> Houses<lb/>
+               Banks &amp; this be his <unclear>rest</unclear> in fall<lb/>
+               for the same - I have determined<lb/>
+               to postpone building till Spring<lb/>
+               and till I see the school actually<lb/>
+               set a going - The corner plot I<lb/>
+               meant is <persName ref="./Personography.xml#SodeC1">Sodens</persName> - at the corner<lb/>
+               of the road turning up to the Church<lb/>
+               - Your mother will leave me<lb/>
+               a perfect plan &amp; I can use it<lb/>
+               whenever I please - Whenever<lb/>
+               I do build I will engage a good<lb/>
+               carpenter of the name of <persName ref="./Personography.xml#GreeX1">Green</persName><lb/>
+               who is sober all the week - <hi rend="underline">till Sa<lb/>
+               turday night</hi> - I wish I could<lb/>
+               get one perfectly sober - but I fear<lb/>
+               that must come next generation<lb/>
+               after the diffusion of knowledge<lb/>
+               shall I say? - or after the infusion<lb/>
+               of <hi rend="underline">resolution</hi> <add>&amp; self control</add> which is quite <choice><orig>ano<lb/>
+               ther</orig><reg>another</reg></choice> part of education - not always<lb/>
+               comprehended under that misused<lb/>
+               word- We have new commission<lb/>
+               ers of public instruction going<lb/>
+               about and coming here I believe<lb/>
+               next week - But who or what<lb/>
+               I can't say Ma'am any anymore<lb/>
+               than <persName ref="./Personography.xml#CapeX1">Capedy</persName> - <persName ref="./Personography.xml#CapeX1">Capedy</persName> is really<lb/>
+               a wonderful instance of the power<lb/>
+               of <del>late</del> improvement tale in life -<lb/>
+               Do you know he has learned not<lb/>
+            </p>
+            <p>
+               <pb n="3" facs="Edgeworth_Princeton_1834-10_page03.jpg"/>
+               to put the chairs against the <hi rend="underline"><unclear><add>Dining</add></unclear> Hall</hi><lb/>
+               closed door in consequence of my<lb/>
+               once seriously explaining how<lb/>
+               inconvenient it was to us - And<lb/>
+               moreover he has cured himself<lb/>
+               of saying <add>M<hi rend="superscript">r</hi></add> P<hi rend="underline">a</hi>cock and now says<lb/>
+               <persName ref="./Personography.xml#PeacX1">M<hi rend="superscript">r</hi> Peacock</persName> most genteelly - And<lb/>
+               this only after once asking -<lb/>
+            </p>
+            <p>
+               <persName ref="./Personography.xml#EdgeH4">Honora</persName> and my <persName ref="./Personography.xml#EdgeF2">mother</persName><lb/>
+               have given you an account of<lb/>
+               all the terrible events of poor <persName ref="./Personography.xml#StewX2">M<hi rend="superscript">rs</hi><lb/>
+               Stewart</persName> death and the 8 deaths<lb/>
+               by cholera - I wish <persName ref="./Personography.xml#CramX2">Miss Crampton</persName><lb/>
+               had told me what course was<lb/>
+               pursued with her father when<lb/>
+               he had the cholera.<lb/>
+            </p>
+            <p>
+               <persName ref="./Personography.xml#StewX1">M<hi rend="superscript">r</hi>. Stewart</persName> is very amiable<lb/>
+               and interesting from his<lb/>
+               perfectly unaffected feeling<lb/>
+               and goodness - I wish after<lb/>
+               he has been some time away<lb/>
+               for his own sake he may<lb/>
+               come back as he says he will<lb/>
+               and settle here - Though he<lb/>
+               is <hi rend="underline">very good</hi> he is not too good<lb/>
+               - he is of the really charitable &amp;<lb/>
+               <hi rend="underline">hopeful</hi> sort - the truly conciliatory<lb/>
+               &amp; liberal -<lb/>
+            </p>
+            <p>
+               <persName ref="./Personography.xml#BellC1">M<hi rend="superscript">r</hi>. Bell</persName> was here yesterday &amp; tells<lb/>
+               me he has completed my little job<lb/>
+               at <placeName ref="./Placeography.xml#Trim_IE">Trim</placeName> Vicarage &amp; I hope it will<lb/>
+               be approved. .-<lb/>
+               The looking glass with the drawing<lb/>
+               of the building on it is not at all<lb/>
+            </p>
+            <p>
+               <pb n="4" facs="Edgeworth_Princeton_1834-10_page04.jpg"/>
+               confused. I thought it must be <choice><orig>be-<lb/>
+               fore</orig><reg>before</reg></choice> I saw it - but on the contrary<lb/>
+               it has a very good clear effect<lb/>
+               - It is placed over the table at<lb/>
+               which you used to draw <choice><orig>be-<lb/>
+               tween</orig><reg>between</reg></choice> the middle piers opposite<lb/>
+               the bay window - (library<lb/>
+               understood).<lb/>
+            </p>
+            <p>
+               I hope you may be able to get<lb/>
+               <hi rend="underline">in</hi> <persName ref="./Personography.xml#HallX2">Cap<hi rend="superscript">n</hi>. Halls</persName> <hi rend="underline"><choice><orig>pavie=ing</orig><reg>paving</reg></choice> one</hi>-<lb/>
+               self - But fear I have made a<lb/>
+               mistake about that correction<lb/>
+               coming just in time -<lb/>
+            </p>
+            <p>
+               Pray tell me whether you<lb/>
+               think the following sentence<lb/>
+               is or is not good English<lb/>
+               "I will <hi rend="underline">bring</hi> the accounts<lb/>
+               to you when I come"<lb/>
+               The doubt is as to the<lb/>
+               propriety of <hi rend="underline">bring</hi>.<lb/>               
+            </p>
+            <closer>
+               Yours ever affectionately<lb/>
+               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName><lb/>
+            </closer>
+            <postscript>
+               <p>
+                  I do not know whether the<lb/>
+                  <hi rend="underline"><unclear>Hans</unclear></hi> 27 <unclear>S<hi rend="superscript">t</hi>.</unclear> James Street to<lb/>
+                  whom <persName ref="./Personography.xml#HallX2"><choice><orig>Capt<hi rend="superscript">n</hi>.</orig><reg>Captain</reg></choice> Hall</persName> desires me to<lb/>
+                  send letters for him is an Esquire<lb/>
+                  or keeper of a coffee house - You will<lb/>
+                  be so kind to finish my direction as the case<lb/>
+                  may be<lb/>
+               </p>
+            </postscript>
+        </div>
+      </body>
+      <back> </back>
+   </text>
+</TEI>
