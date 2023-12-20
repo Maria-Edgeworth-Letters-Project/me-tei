@@ -20,19 +20,21 @@
                     A&amp;M University</sponsor>
                 <respStmt>
                     <resp>Contributors include:</resp>
-                    <persName>Jessica Richard</persName>
+                    <persName>Katie Haire</persName>
+                    <persName>Meredith Hale</persName>
+                    <persName>Autumn Hall</persName>
                     <persName>Hilary Havens</persName>
-                    <persName>Robin Runia</persName>
                     <persName>Susan Egenolf</persName>
-                    <persName>Eliza Wilcox</persName>
-                    <persName>Jamie Kramer</persName>
-                    <persName>Jamie Kramer</persName>
+                    <persName>Lindsey Jones</persName>
                     <persName>Ivy Kiernan</persName>
                     <persName>Ziona Kocher</persName>
-                    <persName>Katie Haire</persName>
+                    <persName>Jamie Kramer</persName>
                     <persName>Seolha Lee</persName>
-                    <persName>Autumn Hall</persName>
+                    <persName>Alexandra LaGrand</persName>
                     <persName>Savannah Payne</persName>
+                    <persName>Jessica Richard</persName>
+                    <persName>Robin Runia</persName>
+                    <persName>Eliza Alexander Wilcox</persName>
                 </respStmt>
             </titleStmt>
             <publicationStmt>
