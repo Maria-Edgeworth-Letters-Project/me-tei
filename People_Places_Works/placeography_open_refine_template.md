@@ -60,7 +60,7 @@
 ####Body
 
 ```  
-{{if(isBlank(cells['ID'].value), '', '<place xml:id="' + cells['ID'].value + '">' + '<placeName>' + cells['Term'].value + '</placeName>' + if(isBlank(cells['coordinates'].value), '', '<location><geo>' + cells['coordinates'].value + '</geo></location>')+ if(isBlank(cells['Geonames URI'].value), '', '<idno type="URI">' + cells['Geonames URI'].value + '</idno>') + '</place>')}}
+{{if(isBlank(cells['ID'].value), '', '<place xml:id="' + cells['ID'].value + '">' + '<placeName>' + cells['Term'].value + '</placeName>' + if(isBlank(cells['Country'].value), '', '<country>' + cells['Country'].value + '</country>') + if(isBlank(cells['coordinates'].value), '', '<location><geo>' + cells['coordinates'].value + '</geo></location>')+ if(isBlank(cells['Geonames URI'].value), '', '<idno type="URI">' + cells['Geonames URI'].value + '</idno>') + '</place>'))}}
 
 ```
 
