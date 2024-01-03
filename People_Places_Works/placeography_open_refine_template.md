@@ -20,19 +20,21 @@
                     A&amp;M University</sponsor>
                 <respStmt>
                     <resp>Contributors include:</resp>
-                    <persName>Jessica Richard</persName>
+                    <persName>Katie Haire</persName>
+                    <persName>Meredith Hale</persName>
+                    <persName>Autumn Hall</persName>
                     <persName>Hilary Havens</persName>
-                    <persName>Robin Runia</persName>
                     <persName>Susan Egenolf</persName>
-                    <persName>Eliza Wilcox</persName>
-                    <persName>Jamie Kramer</persName>
-                    <persName>Jamie Kramer</persName>
+                    <persName>Lindsey Jones</persName>
                     <persName>Ivy Kiernan</persName>
                     <persName>Ziona Kocher</persName>
-                    <persName>Katie Haire</persName>
+                    <persName>Jamie Kramer</persName>
                     <persName>Seolha Lee</persName>
-                    <persName>Autumn Hall</persName>
+                    <persName>Alexandra LaGrand</persName>
                     <persName>Savannah Payne</persName>
+                    <persName>Jessica Richard</persName>
+                    <persName>Robin Runia</persName>
+                    <persName>Eliza Alexander Wilcox</persName>
                 </respStmt>
             </titleStmt>
             <publicationStmt>
@@ -58,7 +60,7 @@
 ####Body
 
 ```  
-{{if(isBlank(cells['ID'].value), '', '<place xml:id="' + cells['ID'].value + '">' + '<placeName>' + cells['Place Name'].value + '</placeName>' + if(isBlank(cells[' + if(isBlank(cells['coordinates'].value), '', '<location><geo>' + cells['coordinates'].value + '</geo></location>')+ if(isBlank(cells['Geonames URI'].value), '', '<idno type="URI">' + cells['Geonames URI'].value + '</idno>') + '</place>')}}
+{{if(isBlank(cells['ID'].value), '', '<place xml:id="' + cells['ID'].value + '">' + '<placeName>' + cells['Term'].value + '</placeName>' + if(isBlank(cells['Country'].value), '', '<country>' + cells['Country'].value + '</country>') + if(isBlank(cells['coordinates'].value), '', '<location><geo>' + cells['coordinates'].value + '</geo></location>')+ if(isBlank(cells['Geonames URI'].value), '', '<idno type="URI">' + cells['Geonames URI'].value + '</idno>') + '</place>'))}}
 
 ```
 

@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from Maria Edgeworth to Madam Miles, August 25, 1813</title>
+            <author>Maria Edgeworth</author>
+            <editor ref="Id_who">Alexandra LaGrand</editor>
+            <sponsor>
+               <orgName>Maria Edgeworth Letters Project</orgName>
+            </sponsor>
+            <sponsor>Wake Forest University, University of Tennessee, Xavier University, Texas
+               A&amp;M University</sponsor>
+            <principal>Jessica Richard, Hilary Havens, Robin Runia, Susan Egenolf</principal>
+            <respStmt>
+               <resp>Transcription and coding by</resp>
+               <persName ref="Id_who">Alexandra LaGrand</persName>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>First digital edition in TEI, date: <date when="2023-12-22">December 22, 2023</date>
+            </edition>
+            <respStmt>
+               <orgName ref="http://id.loc.gov/authorities/names/n82003163">Princeton University Library</orgName>
+               <resp> photos include: Edgeworth_Princeton_1813-08_page01.jpg, Edgeworth_Princeton_1813-08_page02.jpg, Edgeworth_Princeton_1813-08_page03.jpg, Edgeworth_Princeton_1813-08_page04.jpg</resp>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Maria Edgeworth Letters Project</authority>
+            <date>2022</date>
+            <availability>
+               <p>Reproduced by courtesy of <orgName ref="http://id.loc.gov/authorities/names/n82003163">Princeton University Library</orgName></p>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons Attribution 4.0 (CC BY 4.0) Unported License</licence>
+            </availability>
+            <idno>Edgeworth_Princeton_1813-08</idno> 
+         </publicationStmt>
+         <seriesStmt>
+            <title>Maria Edgeworth Letters Project</title>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <repository>Princeton University Library</repository>
+                  <collection></collection>
+                  <idno></idno>
+               </msIdentifier>
+               <head>Letter from 
+                  <persName ref="./Personography.xml#EdgeM1">
+                     <forename>Maria</forename>
+                     <surname>Edgeworth</surname>
+                  </persName>
+                  to <persName ref="./Personography.xml#MileX1">Madam Miles</persName>, <placeName ref="./Placeography.xml#St-Pauls-Churchyard_ENK">St. Paul's Churchyard, London</placeName>, 
+                  <date when="1813-08-25">Aug<hi rend="superscript">st</hi>. 25<hi rend="superscript">th</hi>.. 1813</date>
+               </head>
+               <physDesc><p>Wax seal included on address leaf</p></physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <!--Where Edgeworth uses nonstandard spelling and hyphenation of words, transcriber-coders 
+               should use TEI elements “choice," “sic," and “reg" to encode both Edgeworth’s 
+               spelling and the regular international standard of Oxford English spelling, 
+               following the first listed spelling in the Oxford English Dictionary. -->
+            <p>Edgeworth’s spelling and punctuation are retained in transcription, except where a
+               word is split at the end of a line and the beginning of the next in a manuscript. The
+               long s and ligatured forms are silently emended.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="./Personography.xml#MileX1">Madam Miles</persName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2023-12-22" who="Id_who">Created file for letter, encoded letter</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <pb n="1" facs="Edgeworth_Princeton_1813-08_page01.jpg"/>
+            <opener>
+               <dateline>
+                  <name type="place" ref="Id_where"/><placeName ref="./Placeography.xml#Edgeworthstown_IE">Edgeworth Town</placeName>
+                  <date when="1813-08-25"/>Aug<hi rend="superscript">st</hi>. 25<hi rend="superscript">th</hi>.. 1813
+               </dateline>
+               <salute>
+                  <persName>Dear Madam</persName>
+               </salute>
+            </opener>
+            <p>I am not sure whether your present <choice><orig>resi<lb/>
+               dence</orig><reg>residence</reg></choice> at <placeName ref="./Placeography.xml#Hampstead_ENK">Hampstead</placeName> will make it <choice><orig>incon<lb/>
+               venient</orig><reg>inconvenience</reg></choice> to you to execute some <choice><orig>commiss<lb/>
+               ions</orig><reg>commissions</reg></choice> for us in Town; but if it should be<lb/>
+               so I hope you will have no scruple in<lb/>
+               telling <persName ref="./Personography.xml#EdgeF2">M<hi rend="superscript">rs</hi>. Edgeworth</persName> and I so and we<lb/>
+               will apply to some other friend<lb/>
+            </p>
+            <p>
+               But if it should be perfectly <choice><orig>con<lb/>
+               venient</orig><reg>convenient</reg></choice> to you to go to Town we should<lb/>
+               be much obliged to you if you could get<lb/>
+               us some things in the choice of which we<lb/>
+               wish to depend on your taste. They can<lb/>
+               be sent well packed in a parcel directed<lb/>
+               to me to <persName ref="./Personography.xml#StrutW1">M<hi rend="superscript">r</hi>. W. Strutt's</persName> correspondent in<lb/>
+               <placeName ref="./Placeography.xml#London_ENK">London</placeName> - I left the direction to his house<lb/>
+               with <persName ref="./Personography.xml#MileJ1">M<hi rend="superscript">r</hi>. Miles</persName> and he can give it to you<lb/>
+               They send a parcel to <persName ref="./Personography.xml#StrutW1">M<hi rend="superscript">r</hi>. W. Strutt</persName> - <placeName ref="./Placeography.xml#St-Helens-House_ENK">S<hi rend="superscript">t</hi>. <choice><orig>Hel=<lb/>
+                  lens</orig><reg>Helen's</reg></choice></placeName> near <placeName ref="./Placeography.xml#Derby_ENK">Derby</placeName> every week and if you<lb/>
+               send the parcel <add>as <hi rend="underline">soon</hi> as you can</add> directed for me<lb/>
+               <del>at</del> to be <choice><orig>for=<lb/>
+                  warded</orig><reg>forwarded</reg></choice> to <persName ref="./Personography.xml#StrutW1">M<hi rend="superscript">r</hi>. W. Strutts</persName> <placeName ref="./Placeography.xml#St-Helens-House_ENK">St. <choice><orig>Hellens</orig><reg>Helen's</reg></choice></placeName> <placeName ref="./Placeography.xml#Derby_ENK">Derby</placeName> I<lb/>
+            </p>
+            <p>
+               <pb n="2" facs="Edgeworth_Princeton_1813-08_page02.jpg"/>
+               I will write to <persName ref="./Personography.xml#StrutW1">M<hi rend="superscript">r</hi>. Strutt</persName> to have it sent over<lb/>
+               from thence to me by my brother <persName ref="./Personography.xml#EdgeC1">Sneyd</persName> who<lb/>
+               <del>will</del> is now at <placeName ref="./Placeography.xml#Derby_ENK">Derby</placeName> and will soon <choice><orig>re=<lb/>
+               turn</orig><reg>return</reg></choice> to us - If you will be so good to let<lb/>
+               me know by post the amount of the money<lb/>
+               you lay out for us or the amount of the<lb/>
+               bills I will take care to send you a draft<lb/>
+               on <persName ref="./Personography.xml#HoarX1">Hoare</persName> for the money by return of the<lb/>
+               post -
+            </p>
+            <p>
+               We have never yet heard more of our<lb/>
+               trunks &amp; than that they were shipped at<lb/>
+               <placeName ref="./Placeography.xml#Liverpool_ENK">Liverpool</placeName> by <persName ref="./Personography.xml#GreaX1">M<hi rend="superscript">r</hi>. J. Greaves</persName> - even in what<lb/>
+               vessel we are ignorant, and we have been<lb/>
+               at considerable inconvenience for want<lb/>
+               of our clothes -<lb/>
+            </p>
+            <p>
+               As I have not had the M<hi rend="superscript">s</hi>. of <title ref="./Workography.xml#Patro1"><hi rend="underline">Patronage</hi></title> to<lb/>
+               correct I fear it will be impossible for me<lb/>
+               even if I should at last receive it safely to<lb/>
+               return it corrected in time for Xmas<lb/>
+               publication -<lb/>
+            </p>
+            <p>
+               I am sure that you and <persName ref="./Personography.xml#MileJ1">M<hi rend="superscript">r</hi>. Miles</persName> &amp; M<hi rend="superscript">r</hi>.<lb/>
+               Hunter will hear with pleasure that my<lb/>
+               brother <persName ref="./Personography.xml#EdgeC1">Sneyd</persName> is just going to be married<lb/>
+               to the satisfaction of all his family to <del><unclear></unclear></del><lb/>
+               <persName ref="./Personography.xml#EdgeH3">Miss <choice><orig>Broadhearst</orig><reg>Broadhurst</reg></choice></persName> of <placeName ref="./Placeography.xml#Derbyshire_ENK">Derbyshire</placeName> (sister of the member for<lb/>
+               <placeName ref="./Placeography.xml#Weymouth_ENK">Weymouth</placeName><lb/>
+            </p>
+            <p>
+               <pb n="3" facs="Edgeworth_Princeton_1813-08_page03.jpg"/>
+               lady of very amiable character, to whom he <del><unclear></unclear></del><lb/>
+               is much attached and who has besides other<lb/>
+               good things a <hi rend="underline">reasonably</hi> good fortune of<lb/>
+               I believe about a thousand a year - not enough<lb/>
+               to make him <unclear></unclear>ssion - but<lb/>
+               sufficient to enable him to marry without<lb/>
+               imprudence<lb/>
+            </p>
+            <closer>
+               With best wishes for your health &amp; hap-<lb/>
+               piness &amp; that of <persName ref="./Personography.xml#MileJ1">M<hi rend="superscript">r</hi>. Miles</persName> &amp; your children<lb/>
+               I am Dear Madam<lb/>
+               Your <choice><orig>Obed<hi rend="superscript">t</hi>.</orig><reg>obedient</reg></choice> <choice><orig>Serv<hi rend="superscript">t</hi>.</orig><reg>servant</reg></choice><lb/>
+               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName><lb/>
+            </closer>
+            <closer>
+               <address>
+                  <addrLine><persName ref="./Personography.xml#MileJ1">M<hi rend="superscript">r</hi> Miles</persName> <placeName ref="./Placeography.xml#St-Pauls-Churchyard_ENK">S<hi rend="superscript">t</hi>. <unclear>Paul</unclear>'s Church Yard</placeName> <placeName ref="./Placeography.xml#London_ENK">London</placeName></addrLine><lb/>
+               </address>
+            </closer>
+         </div>
+      </body>
+      <back> </back>
+   </text>
+</TEI>

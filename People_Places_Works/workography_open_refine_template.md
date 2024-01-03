@@ -20,12 +20,16 @@
                     A&amp;M University</sponsor>
                 <respStmt>
                     <resp>Contributors include:</resp>
-                    <persName>Jessica Richard</persName>
+                    <persName>Autumn Hall</persName>
                     <persName>Hilary Havens</persName>
-                    <persName>Robin Runia</persName>
                     <persName>Susan Egenolf</persName>
-                    <persName>Eliza Wilcox</persName>
+                    <persName>Lindsey Jones</persName>
                     <persName>Jamie Kramer</persName>
+                    <persName>Alexandra LaGrand</persName>
+                    <persName>Savannah Payne</persName>
+                    <persName>Jessica Richard</persName>
+                    <persName>Robin Runia</persName>
+                    <persName>Eliza Alexander Wilcox</persName>
                 </respStmt>
             </titleStmt>
             <publicationStmt>

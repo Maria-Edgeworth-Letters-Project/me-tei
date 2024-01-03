@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from John Murray to Maria Edgeworth, October 15, 1833</title>
+            <author>John Murray</author>
+            <editor ref="Id_who">Alexandra LaGrand</editor>
+            <sponsor>
+               <orgName>Maria Edgeworth Letters Project</orgName>
+            </sponsor>
+            <sponsor>Wake Forest University, University of Tennessee, Xavier University, Texas
+               A&amp;M University</sponsor>
+            <principal>Jessica Richard, Hilary Havens, Robin Runia, Susan Egenolf</principal>
+            <respStmt>
+               <resp>Transcription and coding by</resp>
+               <persName ref="Id_who">Alexandra LaGrand</persName>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>First digital edition in TEI, date: <date when="2023-12-20">December 20, 2023</date>
+            </edition>
+            <respStmt>
+               <orgName ref="http://id.loc.gov/authorities/names/n82003163">Princeton University Library</orgName>
+               <resp> photos include: Edgeworth_ Princeton_1833-10_page01.jpg, Edgeworth_ Princeton_1833-10_page02.jpg, Edgeworth_ Princeton_1833-10_page03.jpg, Edgeworth_ Princeton_1833-10_page04.jpg
+               </resp>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Maria Edgeworth Letters Project</authority>
+            <date>2022</date>
+            <availability>
+               <p>Reproduced by courtesy of <orgName ref="http://id.loc.gov/authorities/names/n82003163">Princeton University Library</orgName>
+               </p>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons Attribution 4.0 (CC BY 4.0) Unported License</licence>
+            </availability>
+            <idno>Edgeworth_Princeton_1833-10</idno> 
+         </publicationStmt>
+         <seriesStmt>
+            <title>Maria Edgeworth Letters Project</title>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <repository>Princeton University Library</repository>
+                  <collection></collection>
+                  <idno></idno>
+               </msIdentifier>
+               <head>Letter from 
+                  <persName ref="./Personography.xml#MurrJ3">
+                     <forename>John</forename>
+                     <surname>Murray</surname>
+                  </persName>
+                  to <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>, <placeName></placeName>, 
+                  <date when="1833-10-15">Oct<hi rend="superscript">r</hi>. 15</date>
+               </head>
+               <physDesc></physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <!--Where Edgeworth uses nonstandard spelling and hyphenation of words, transcriber-coders 
+               should use TEI elements “choice," “sic," and “reg" to encode both Edgeworth’s 
+               spelling and the regular international standard of Oxford English spelling, 
+               following the first listed spelling in the Oxford English Dictionary. -->
+            <p>Edgeworth’s spelling and punctuation are retained in transcription, except where a
+               word is split at the end of a line and the beginning of the next in a manuscript. The
+               long s and ligatured forms are silently emended.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="./Personography.xml#MurrJ3">John Murray</persName>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2023-12-20" who="Id_who">Created file for letter, encoded letter</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <pb n="1" facs="Edgeworth_ Princeton_1833-10_page01.jpg"/>
+            <opener>
+               <dateline>
+                  <name type="place" ref="Albemarle-Street_ENK"/>Albemarle Street
+                  <date when="1833-10-15"/>Oct<hi rend="superscript">r</hi>. 15</dateline>
+               <salute>
+                  <persName>Dear Madam</persName>
+               </salute>
+            </opener>
+            <p>I am desired by <persName ref="./Personography.xml#MurrJ1">Mr<lb/>
+               Murray</persName> to acquaint you that if<lb/>
+               his is intention to publish at<lb/>
+               Christmas a little story of yours<lb/>
+               wch appeared some time ago<lb/>
+               in the work called the <title ref="./Workography.xml#Chris1">Xmas Box</title>.<lb/>
+               The copyright of which he purchased<lb/>
+               from <persName ref="./Personography.xml#AinsW1">Mr. Ainsworth</persName><lb/>
+            </p>
+            <p>
+               I have taken the liberty of enclosing<lb/>
+               a set of the proof sheets in case you<lb/>
+               have any remarks to make on them<lb/>
+               a <del>sheet</del> tale by <persName ref="./Personography.xml#LockJ1">Mr. Lockhart</persName>, extracted<lb/>
+               tracted from the same publication<lb/>
+               from the same publication<lb/>
+            </p>
+            <p>
+               <pb n="2" facs="Edgeworth_ Princeton_1833-10_page02.jpg"/>
+               is intended to accompany it<lb/>
+               <persName ref="./Personography.xml#MurrJ1">Mr Murray</persName> directs me to let<lb/>
+               you know that he has still in<lb/>
+               his case the MS. by the author of<lb/>
+               <title ref="./Workography.xml#Berth1">Bertha</title>, but is not sufficiently<lb/>
+               confident of the result of its <choice><orig>pub-<lb/>
+               lication</orig><reg>publication</reg></choice> to venture to undertake<lb/>
+               it, especially at a moment like<lb/>
+               this, so unfavourable to literature<lb/>
+               generally - He wishes to enquire<lb/>
+               whether it would be possible to<lb/>
+               throw into another shape, the <choice><orig>in-<lb/>
+               formation</orig><reg>information</reg></choice> <choice><orig>wch</orig><reg>which</reg></choice> it contains, also<lb/>
+               to ask whether the author has any<lb/>
+               thoughts of continuing <title ref="./Workography.xml#Berth1">Bertha's<lb/>
+               Journal</title> -<lb/>
+            </p>
+            <p>
+               <pb n="3" facs="Edgeworth_ Princeton_1833-10_page03.jpg"/>
+               I shall esteem it a great favour<lb/>
+               to receive a reply to this at<lb/>
+               your leisure<lb/>
+            </p>
+            <closer>
+               I am dear Madam<lb/>
+               Your most obedient servant<lb/>
+               <persName ref="./Personography.xml#MurrJ3">J Murray <choice><orig>Jun<hi rend="superscript">r</hi></orig><reg>Junior</reg></choice></persName><lb/>
+            </closer>
+            <closer>
+               <address>
+                  <pb n="4" facs="Edgeworth_ Princeton_1833-10_page04.jpg"/>
+                  <addrLine>1832</addrLine><lb/>
+                  <addrLine><persName ref="./Personography.xml#MurrJ3">J Murray</persName></addrLine><lb/>
+              </address>
+            </closer>
+         </div>
+      </body>
+      <back> </back>
+   </text>
+</TEI>

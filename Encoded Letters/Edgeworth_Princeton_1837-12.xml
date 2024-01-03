@@ -1,0 +1,488 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from Maria Edgeworth to Catherine Eliot, December 1, 1837</title>
+            <author>Maria Edgeworth</author>
+            <editor ref="Id_who">Lindsey Jones
+            </editor>
+            <sponsor>
+               <orgName>Maria Edgeworth Letters Project</orgName>
+            </sponsor>
+            <sponsor>Wake Forest University, University of Tennessee, Xavier University, Texas
+               A&amp;M University</sponsor>
+            <principal>Jessica Richard, Hilary Havens, Robin Runia, Susan Egenolf</principal>
+            <respStmt>
+               <resp>Transcription and coding by</resp>
+               <persName ref="Id_who">Lindsey Jones
+               </persName>
+               <persName ref="Id_who"/>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>First digital edition in TEI, date: <date when="2023-12-22">December 22, 2023</date>
+            </edition>
+            <respStmt>
+               <orgName type="naf" ref="http://id.loc.gov/authorities/names/n82003163">
+                  Princeton University Library
+               </orgName>
+               <resp> photos include:
+                  Edgeworth_Princeton_1837-12_page01.jpg,
+                  Edgeworth_Princeton_1837-12_page02.jpg,
+                  Edgeworth_Princeton_1837-12_page03.jpg,
+                  Edgeworth_Princeton_1837-12_page04.jpg,
+                  Edgeworth_Princeton_1837-12_page05.jpg,
+                  Edgeworth_Princeton_1837-12_page06.jpg,
+                  Edgeworth_Princeton_1837-12_page07.jpg,
+                  Edgeworth_Princeton_1837-12_page08.jpg,
+                  Edgeworth_Princeton_1837-12_page09.jpg,
+                  Edgeworth_Princeton_1837-12_page10.jpg
+               </resp>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Maria Edgeworth Letters Project</authority>
+            <date>2022</date>
+            <availability>
+               <p>
+                  Courtesy of <orgName ref="#http://id.loc.gov/authorities/names/n82003163">Princeton University Library</orgName>.
+               </p>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons Attribution 4.0 (CC BY 4.0) Unported License</licence>
+            </availability>
+            <idno>Edgeworth_Princeton_1837-12</idno> 
+         </publicationStmt>
+         <seriesStmt>
+            <title>Maria Edgeworth Letters Project</title>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <repository>Princeton University Library</repository>
+                  <collection/>
+                  <idno>Edgeworth_Princeton_1837-12</idno>
+               </msIdentifier>
+               <head>Letter from 
+                     <persName xml:id="EdgeM1" from="1768" to="1849">
+                        <forename>Maria</forename>
+                        <surname>Edgeworth</surname>
+                        <date>1768-1849</date>
+                        <idno type="VIAF">71477273</idno>
+                        <idno type="SNAC">62567029</idno>
+                     </persName>
+                  to <persName ref="./Personography.xml#ElioC1">Catherine Eliot</persName>, <placeName ref="./Placeography.xml#Edgeworthstown_IE">Edgeworthtown</placeName>, 
+                  <date when="1837-12-01">Dec<hi rend="superscript">r</hi> 1<hi rend="superscript">st</hi>. 1837</date>
+                  <!-- <stamp>Enter description, if applicable</stamp>-->
+               </head>
+               <physDesc/>
+            </msDesc>
+            <bibl>In addition to our edited version, this letter was previously published in
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <!--Where Edgeworth uses nonstandard spelling and hyphenation of words, transcriber-coders 
+               should use TEI elements “choice," “sic," and “reg" to encode both Edgeworth’s 
+               spelling and the regular international standard of Oxford English spelling, 
+               following the first listed spelling in the Oxford English Dictionary. -->
+            <p>Edgeworth’s spelling and punctuation are retained in transcription, except where a
+               word is split at the end of a line and the beginning of the next in a manuscript. The
+               long s and ligatured forms are silently emended.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName>Maria Edgeworth</persName>
+            </correspAction>
+            <correspAction type="received">
+               <persName>Catherine Eliot</persName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <pb n="1" facs="Edgeworth_Princeton_1837-12_page01.jpg"/>
+            <opener>
+               <dateline>
+                  <name type="place" ref="./Placeography.xml#Edgeworthstown_IE">Edgeworthtown</name>
+                  <lb/>
+                  <date when="1837-12-01"/>December 1, 1837.</dateline>
+               <salute>
+                  My dear <persName ref="./Personography.xml#ElioC1">Mrs. Norton,</persName>
+               </salute>
+            </opener>
+            <p>
+               I have now before me<lb/>
+               a most kind and delightful letter of yours<lb/>
+               dated October 16, <hi rend="underline">1836</hi>!!<lb/>
+            </p>
+            <p>I am shocked at the thought of its<lb/>
+               having remained above a year unanswered<lb/>
+               unacknowledge - How ungrateful you have<lb/>
+               had cause to think me and how wanting<lb/>
+               not only in good feeling but in common good<lb/>
+               manners. Believe me my dear Madame<lb/>
+               that I am not to blame though appearances<lb/>
+               are so much against me. The fact is that<lb/>
+               both your letter and dear Louisa's remained<lb/>
+               in one of the books which <persName ref="./Personography.xml#NortA1">M<hi rend="superscript">r</hi>. Norton</persName> sent to<lb/>
+               <placeName ref="./Placeography.xml#London_ENK">London</placeName> for me. The books have remained in<lb/>
+               <placeName ref="./Placeography.xml#London_ENK">London</placeName> ever since and <persName ref="./Personography.xml#EdgeF1">my brother <add>Francis</add></persName> who lately<lb/>
+               opened one of the volumes there found the<lb/>
+               two letters and sent them by post to me -<lb/>
+            </p>
+            <p>- I have but just received them and I hasten<lb/>
+               to thank you with all my heart. Your letter<lb/>
+               not only flattered me in the highest degree<lb/>
+
+               <pb n="2" facs="Edgeworth_Princeton_1837-12_page02.jpg"/>
+
+               by your approbation of my writings but<lb/>
+               delighted my heart with the idea that<lb/>
+               they had been of use and pleasure to you<lb/>
+               and to your family, and that they had called<lb/>
+               in your affectionate mind such benevolent<lb/>
+               partiality for me - I feel very much obliged<lb/>
+               to <persName ref="./Personography.xml#TickA1">M<hi rend="superscript">rs</hi>. Ticknor</persName> for having kept alive these<lb/>
+               kind dispositions by her account of her <choice><orig>vi-<lb/>
+               sit</orig><reg>visit</reg></choice> to our home, I wish you could come and<lb/>
+               judge for yourself - I feel almost sure that there<lb/>
+               are some in this family you would love &amp;<lb/>
+               esteem, and in the happiness of seeing that<lb/>
+               belief confirmed I should I trust be satisfied<lb/>
+               though you might be disappointed in in my little<lb/>
+               self - <persName ref="./Personography.xml#TickG1">M<hi rend="superscript">r</hi>.</persName> and <persName ref="./Personography.xml#TickA1">M<hi rend="superscript">rs</hi>. Ticknor</persName> have set you the<lb/>
+               example and shewn you the possibility of<lb/>
+               <del>g</del><add>c</add>oming to the middle of Ireland and in spite<lb/>
+               of our said disturbances of being safe in <placeName ref="./Placeography.xml#IE">Ireland</placeName><lb/>
+               - The <hi rend="underline">savage</hi> virtue of hospitality <unclear>in trouble</unclear> is not<lb/>
+               yet gone from us - I wish you and M<hi rend="superscript">r</hi>. Dearborn<lb/>
+               would seriously think of it and bring your Louisa<lb/>
+               to us and arrange so as to make us a decently<lb/>
+               long visit and not such a tantalizing short vis as<lb/>
+               <persName ref="./Personography.xml#TickG1">those most</persName> <persName ref="./Personography.xml#TickA1">agreeable Ticknors</persName> made us - They have<lb/>
+               promised to come again before they return to their<lb/>
+               own world - Suppose you were all to arrange to meet<lb/>
+               at <placeName ref="./Placeography.xml#Edgeworthstown_IE">Edgeworthtown</placeName> - Why not? -<lb/>
+            </p>
+
+               <pb n="3" facs="Edgeworth_Princeton_1837-12_page03.jpg"/>
+
+            <p>If I understand rightly the books which<lb/>
+               <persName ref="./Personography.xml#NortA1">M<hi rend="superscript">r</hi>. Norton</persName> sent me and <add>in</add> which your two<lb/>
+               letters were found were a set of an <placeName ref="./Placeography.xml#US">American</placeName><lb/>
+               Edition of my Tales &amp; novels in 18 or vol<hi rend="superscript">s</hi>. - which were<lb/>
+               sent to me, <unclear>as</unclear> a present from <persName ref="./Personography.xml#TickG1">M<hi rend="superscript">r</hi>. Ticknor</persName> - I am not<lb/>
+               sure where <persName ref="./Personography.xml#TickG1">M<hi rend="superscript">r</hi>. Ticknor</persName> is at this moment <add>or</add> I would<lb/>
+               write to thank him. As I have one copy of Har-<lb/>
+               purs <choice><orig>Ed<hi rend="superscript">n</hi>.</orig><reg>Edition</reg></choice> of those books in 18 vol<hi rend="superscript">s</hi>. bound in 9 - sent<lb/>
+               to me by the booksellers themselves, I have <choice><orig>allow<lb/>
+               ed</orig><reg>allowed</reg></choice> the set which <persName ref="./Personography.xml#TickG1">M<hi rend="superscript">r</hi>. Ticknor</persName> sent me to remain<lb/>
+               in the hands of <persName ref="./Personography.xml#EdgeF1">my brother Francis</persName> and <persName ref="./Personography.xml#EdgeR2">his wife</persName><lb/>
+               who reside near <placeName ref="./Placeography.xml#London_ENK">London</placeName>, and who had not those<lb/>
+               books in any forms and they are charmed with<lb/>
+               this beautiful <placeName ref="./Placeography.xml#US">American</placeName> Edition - The paper is very<lb/>
+               good and the printing &amp; it is well corrected and<lb/>
+               the <placeName ref="./Placeography.xml#US">American</placeName> engravings are excellent - The<lb/>
+               Vignette in <title ref="./Workography.xml#Helen1">the last volume of Helen</title>, the hawking<lb/>
+               scene is much the prettiest I have seen - There are<lb/>
+               no embellishments for <title ref="./Workography.xml#Helen1">Helen</title> in either the <placeName ref="./Placeography.xml#London_ENK">London</placeName><lb/>
+               or <placeName ref="./Placeography.xml#FR">French</placeName> editions - I am very proud of her having found<lb/>
+               such favor in <placeName ref="./Placeography.xml#US">America</placeName><lb/>
+            </p>
+            <p>I have been unpardonable if I have never<lb/>
+               written to thank you for the Translation you sent me<lb/>
+               of "my prisons" - I have long had it and have it at<lb/>
+               this moment before me with the inscription in the<lb/>
+               front page written with your own kind hand<lb/>
+               and signed <persName ref="./Personography.xml#ElioC1">C E Norton</persName> - I cannot believe that I never<lb/>
+
+               <pb n="4" facs="Edgeworth_Princeton_1837-12_page04.jpg"/>
+
+               wrote about it - I do think some letter of mine has<lb/>
+               been lost - But I will not assert it as I am not<lb/>
+               sure - Of this I am sure that I like your translation<lb/>
+               very much - It reads quite like an original<lb/>
+               - We never had it in English before <del>and</del> yours<lb/>
+               came and we could only translate bits of it<lb/>
+               to <persName ref="./Personography.xml#SneyM1">my Aunt Mary Sneyd</persName> - an old lady who enjoyed<lb/>
+               it particularly - From your translation she<lb/>
+               heard it afterwards in perfection, and now<lb/>
+               she wishes to hear it again and we will begin<lb/>
+               to read it to her again the moment we have <choice><orig>fi :.<lb/>
+               -nished</orig><reg>finished</reg></choice> a very disagreeable (though clever) novel<lb/>
+               which we are now reading - And to which it is<lb/>
+               in every way &amp; especially in the mild benevolent<lb/><lb/>
+               feelings it excites the greatest contrast imaginable<lb/>
+            </p>
+            <p>- The novel we are reading is <persName ref="./Personography.xml#TrolF1">M<hi rend="superscript">rs</hi>. Trollope'</persName> <title ref="./Workography.xml#Vicar1">Vicar<lb/>
+               of Wrexhill</title> - It would lead me too far &amp; perhaps,<lb/>
+               weary you to enter into any criticism of it - But<lb/>
+               I wish <persName ref="./Personography.xml#NortA1">M<hi rend="superscript">r</hi>. Norton</persName> would write a review of it for<lb/>
+               Your excellent <title ref="./Workography.xml#North2">American Review</title> - It is a subject<lb/>
+               worthy of him - &amp; he would treat it <del>so</del> well -<lb/>
+               - It is not fair in fiction to draw a hypocrite or<lb/>
+               heinously bad character as the representative of<lb/>
+               certain religious tenets - <del><unclear>a desperation &amp; also grace</unclear></del><lb/>
+               I do not at all agree with the evangelical or Calvinestic<lb/>
+               tenets but I do not think this The way to refute them<lb/>
+            </p>
+            <p>If <del>one should</del> <persName ref="./Personography.xml#TrolF1">M<hi rend="superscript">rs</hi>. Trollope</persName> had said "See the comparison<lb/>
+               of separating <hi rend="underline">faith</hi> &amp; <hi rend="underline">good works</hi>" - that would have<lb/>
+               been a fair subject for exemplifying - but this Vicar is only<lb/>
+
+               <pb n="5" facs="Edgeworth_Princeton_1837-12_page05.jpg"/>
+
+               and <persName ref="./Personography.xml#ScotW1">Sir Walters</persName> friendship for us<lb/>
+            </p>
+            <p>But there is <hi rend="underline">one</hi> letter of <persName ref="./Personography.xml#ScotW1">Sir Walters</persName> to me which<lb/>
+               I must regret both for my sake and his own that<lb/>
+               he has published and as I have written to say so to<lb/>
+               himself honestly, as a friend should, I now tell it with<lb/>
+               the less scruple to you - It is the letter in which <del>he</del> <add><persName ref="./Personography.xml#ScotW1">Sir Walter</persName></add><lb/>
+               not only mentions <persName ref="./Personography.xml#GranX3"><hi rend="underline">M<hi rend="superscript">rs</hi>. Grant</hi></persName> of <choice><orig>Ed<hi rend="superscript">n</hi>.</orig><reg>Edition</reg></choice> in a way which I<lb/>
+               am certain he could not mean to publish - but also in which<lb/>
+               he mentions an <placeName ref="./Placeography.xml#US">American</placeName> correspondent of mine -<lb/>
+               (happily not named) But still so described that all who know<lb/>
+               her must find her out - Also in which <persName ref="./Personography.xml#ScotW1">Sir Walter</persName> <del>wrote</del><lb/>
+               writes to me confidentially of the <placeName ref="./Placeography.xml#US">Americans</placeName> in general<lb/>
+               - a "funny people" - wanting cushions to their benches" &amp;c -<lb/>
+            </p>
+            <p>I reproach myself very much for having let<lb/>
+               this letter go with the rest to <persName ref="./Personography.xml#LockJ1">Lockhart</persName> - I had never<lb/>
+               Shewn it - even to <persName ref="./Personography.xml#TickG1">M<hi rend="superscript">r</hi>. Ticknor</persName> who when he was here<lb/>
+               I had treated with a sight of <persName ref="./Personography.xml#ScotW1">Sir W</persName>'s, <add>other</add> letters - I had<lb/>
+               not the least idea that <persName ref="./Personography.xml#LockJ1">Lockhart</persName> would have published<lb/>
+               it - And I am very sure now even that it is published,<lb/>
+               that it was by mistake, &amp; in consequences of his mind's<lb/>
+               being so overwhelmed as it was by the sudden death<lb/>
+               of <persName ref="./Personography.xml#LockS1">his own Sophia that dear wife</persName> upon whom he<lb/>
+               douted &amp; well he might! - <persName ref="./Personography.xml#LockS1">M<hi rend="superscript">rs</hi>. Lockhart</persName> was the<lb/>
+               person who had as long as she lived looked over the<lb/>
+               letters &amp; life with him &amp; copied I know all the <del>letters</del><lb/>
+               papers from the letters for publication - her death<lb/>
+               came upon him just as he had published the 4<hi rend="superscript">th</hi> vol<lb/>
+               and there was a stop in the publication for 2 or 3 months<lb/>
+               - I imagine that <persName ref="./Personography.xml#LockJ1">Lockhart</persName> was unable <del>t</del>himself to look<lb/>
+               over all the papers for the 5<hi rend="superscript">th</hi>. volume <hi rend="underline">carefully</hi> &amp;<lb/>
+               that he only wrote <hi rend="underline">papers</hi> &amp; let others of his friends<lb/>
+               <del><unclear>select</unclear></del> select letters - &amp; only cursorily gave a look at them &amp; <unclear>in this</unclear><lb/>
+               <unclear><!--[bottom of image cropped]-->the letter Lollard ???</unclear> overlooked<lb/>
+
+               <pb n="6" facs="Edgeworth_Princeton_1837-12_page06.jpg"/>
+
+               <hi rend="underline">only</hi> a horrid hypocrite - And his faults<lb/>
+               Spring from his selfishness, profligacy, love<lb/>
+               of power, and hypocrisy but not from the <choice><orig>Reli<lb/>
+               gious</orig><reg>Religious</reg></choice> peculiar touch he holds - at least as far as<lb/>
+               the author of the fiction <hi rend="underline">Shews</hi>. The falsehood or<lb/>
+               truth - the pernicious or beneficial effect of those<lb/>
+               tenets remain untouched <del><unclear>apon</unclear></del>; just as much as<lb/>
+               the Catholic doctrines are untouched by <persName ref="./Personography.xml#Molie1">Moliere</persName>'s<lb/>
+               <title ref="./Workography.xml#Tartu1">Tartuffe</title> - It is hypocrisy only that is unmasked &amp; chastised<lb/>
+            </p>
+            <p>If the author means to charge upon the <choice><orig>Evange-<lb/>
+               -lical</orig><reg>Evangelical</reg></choice> sect the underhand pernicious <add>immoral</add> practices <del>so</del><lb/>
+               ascribed to her <title ref="./Workography.xml#Tartu1">Tartuffe</title> and his <unclear>set</unclear>; &amp; without ascribing<lb/>
+               them to the peculiar tenets to assert that these are<lb/>
+               the general practices &amp; habits of that sect, <hi rend="underline">Then</hi><lb/>
+               the question remains as a matter of fact - whether<lb/>
+               this be true or not? - That is a question which a<lb/>
+               novel cannot possibly decide, in as much as it is not<lb/>
+               true <add>itself in general</add> nor even an example of a particular fact or<lb/>
+               choices of facts - But it may waken public attention to<lb/>
+               the examination into the facts - And it may also<lb/>
+               waken individuals who are of this sect and who are<lb/>
+               <hi rend="underline">not</hi> hypocrites to reflexion upon the consequences<lb/>
+               of the language (<hi rend="underline">cant</hi>) and <hi rend="underline">manners</hi> they have <choice><orig>adopt-<lb/>
+               -ed</orig><reg>adopted</reg></choice> from <hi rend="underline">imitation</hi> <hi rend="underline">perhaps</hi>, without having been<lb/>
+               aware of their <add>bad</add> effects or without having been<lb/>
+               made <unclear>sensible</unclear> of their absurdity - this is a service<lb/>
+               which Ridicule sometimes does for Truth - In the Bazaar<lb/>
+
+               <pb n="7" facs="Edgeworth_Princeton_1837-12_page07.jpg"/>
+
+               drinking scene - it is well done - (<hi rend="underline">If</hi> had not<lb/>
+               been done by a woman - <hi rend="underline">that</hi> disgusts and counter<lb/>
+               acts the effect upon the mind of the reader) -<lb/>
+            </p>
+            <p><del>In</del> The horrid Corbold sleeping room scene - <del>is quite</del><lb/>
+               on the contrary is <hi rend="underline">only</hi> an unmasking of a brutal<lb/>
+               hypocrite - His pretending to be Evangelical is nothing<lb/>
+               to the purpose - he is diabolical - and whatever<lb/>
+               tenets he professed they should not be charged -<lb/>
+               with his (I hope) unnatural character - If it be<lb/>
+               meant that there are <hi rend="underline">many</hi> such among the Evangelicals<lb/>
+               &amp; more than among other sects, this again is a<lb/>
+               question of matter of fact - to be decided by inquiry<lb/>
+               <add>- also it sh<hi rend="superscript">d</hi> be inquired whether independantly of any thesis, otherwise <unclear>we</unclear><lb/>
+               there is by the evangelical sect a fanatical species round the young minds and<lb/>
+               domestic happiness their <unclear>unfuered</unclear> and the<lb/>
+               ties of<lb/>
+               nature<lb/>
+               &amp; the<lb/>
+               affections<lb/>
+               &amp; duties<lb/>
+               of children<lb/>
+               to parents<lb/>
+               overturned<lb/>
+               and<lb/>
+               destroyed<lb/>
+               These<lb/>
+               are all<lb/>
+               to be in<lb/>
+               agreement<lb/>
+               into as<lb/>
+               matters<lb/>
+               either<lb/>
+               of<lb/>
+               fact<lb/>
+               or<lb/>
+               not<lb/>
+               of fact -</add><lb/>
+            </p>
+            <p>I must stop - for I am saying too much<lb/>
+               and too little - It is a subject that ought not<lb/>
+               to be touched unless it be examined to the bottom<lb/>
+               &amp; fully discussed - and that cannot be done in<lb/>
+               a letter - <hi rend="underline">nor</hi> by a woman - because however<lb/>
+               able or well informed, (<hi rend="underline">as in <persName ref="./Personography.xml#TrolF1">M<hi rend="superscript">rs</hi>. T</persName><del>'s</del> is the case</hi>) she<lb/>
+               cannot go into the business without throwing off<lb/>
+               the delicacy modesty &amp; reserve of her sex; and tho<lb/>
+               she may say <hi rend="underline">Truth is of no sex</hi> - yet human nature<lb/>
+               <del>&amp;</del> <hi rend="underline">man's</hi> nature and public opinion <del>is</del> <add>are</add> disgusted<lb/>
+               in the outset, and cannot listen calmly or unprejudiced<lb/>
+               to such an unveiled <del><unclear>p</unclear></del> prophetess - or<lb/>
+               naked <del>female</del> pleader -<lb/>
+            </p>
+            <p>The hand that is fit for this business must be strong but not coarse<lb/>
+               - resolute but not rash - My respects to <persName ref="./Personography.xml#NortA1">M<hi rend="superscript">r</hi>. Norton</persName> I wish he or<lb/>
+               <persName ref="./Personography.xml#ChanW1">Channing</persName> would take it in hand - <unclear>We</unclear> want to know what is thought of<lb/>
+
+               <pb n="8" facs="Edgeworth_Princeton_1837-12_page08.jpg"/>
+
+               this book in <placeName ref="./Placeography.xml#US">America</placeName> or at <placeName ref="./Placeography.xml#Boston_MA_US">Boston</placeName> -<lb/>
+            </p>
+            <p>I am sure that in writing to you my dear<lb/>
+               Madam I need not caution you against publishing<lb/>
+               anything I write in confidence - I am sure<lb/>
+               that from the delicacy of your own mind as<lb/>
+               expressed in your letters you feel upon this<lb/>
+               subject as I do, that it is a breach of confidence<lb/>
+               to make known in any way private letters<lb/>
+               without the authors especial leave<lb/>
+            </p>
+            <p>And this leads me though I have already<lb/>
+               made this letter unconscionably long to add a<lb/>
+               few words about a Work in which you will<lb/>
+               see some letters <add>published</add> <hi rend="underline">not</hi> <hi rend="underline">of</hi> mine but addressed to me -<lb/>
+               - I mean <add>in</add> <persName ref="./Personography.xml#LockJ1">Lockhart</persName>s <title ref="./Workography.xml#Memoi8">life of <persName ref="./Personography.xml#ScotW1">Sir Walter Scott</persName></title> - <del>Sir</del><lb/>
+               <del>Walter to me</del> - At first I had refused to give up<lb/>
+               any of his letters for publication upon the general<lb/>
+               principle that I have stated above - But considering that<lb/>
+               <persName ref="./Personography.xml#LockJ1">Lockhart</persName> who had been empowered by <persName ref="./Personography.xml#ScotW1">Sir W.</persName> to publish<lb/>
+               What he pleased must know his wishes upon the subject<lb/>
+               I did send my whole portfolio full of <persName ref="./Personography.xml#ScotW1">Sir Walter Scott</persName>s<lb/>
+               letters to <persName ref="./Personography.xml#LockJ1">Lockhart</persName> charging him to be very careful in<lb/>
+               the selection for the public - And as far as relates to his<lb/>
+               first business as a biographer I think he ha<del>d</del><add>s</add> accomplished it<lb/>
+               admirably by means of <persName ref="./Personography.xml#ScotW1">Sir Walter</persName>s own letters <del>by</del> making<lb/>
+               him as much as possible his own biographer - And I am not<lb/>
+               not only well pleased but highly gratified by all he has<lb/>
+               published <add>in <persName ref="./Personography.xml#ScotW1">Sir W</persName>'s letter to <persName ref="./Personography.xml#BailJ1">Joanna Baillie</persName> &amp; myself</add> respecting me &amp; my family (<hi rend="underline">especially <persName ref="./Personography.xml#EdgeS1">our dear lost sister</persName></hi><lb/>
+               <hi rend="underline"><persName ref="./Personography.xml#EdgeS1">Sophie</persName></hi>) - This is done with great delicacy particularly<lb/>
+               Where <persName ref="./Personography.xml#LockJ1">Lockhart</persName> writes of <persName ref="./Personography.xml#LockS1">his own Sophia</persName> &amp; in his own person of<lb/>
+               her<lb/>
+
+               <pb n="9" facs="Edgeworth_Princeton_1837-12_page09.jpg"/>
+
+               - and a few a very few other passages I c<hi rend="superscript">d</hi><lb/>
+               wish omitted - But I hope you will<lb/>
+               agree with me, in liking upon the whole<lb/>
+               this interesting work, and in thinking it<lb/>
+               a noble monument to <persName ref="./Personography.xml#ScotW1">Sir Walter Scott</persName>s <choice><orig>benevo-<lb/>
+               -lent</orig><reg>benevolent</reg></choice> &amp; <hi rend="underline">moral character</hi>, as well as to his <choice><orig>astonish<lb/>
+               -ing</orig><reg>astonishing</reg></choice> unparalled literary genius &amp; <hi rend="underline">industry</hi><lb/>
+            </p>
+            <p>I tremble for the <hi rend="underline">2</hi> vol! that are to come<lb/>
+               <hi rend="underline">Two</hi> <persName ref="./Personography.xml#LockJ1">Lockhart</persName> writes me word there must be<lb/>
+               though he had proposed to finish with the 6<hi rend="superscript">th</hi><lb/>
+               - there must be a seventh to complete his task<lb/>
+            </p>
+            <p>He has to tell of the sad reverse in <persName ref="./Personography.xml#ScotW1">Scott</persName>s<lb/>
+               worldly affairs - And this &amp; all his money &amp;<lb/>
+               <hi rend="underline">book</hi>selling or <hi rend="underline">manuscript selling</hi> transactions he<lb/>
+               <hi rend="underline">must</hi> enter into even at the hazard of being<lb/>
+               tedious; because these are all matters which <unclear>???</unclear><lb/>
+               Scotch public, and the Ballantynes &amp; Constable<lb/>
+               <hi rend="underline">Set</hi> require should be laid before the public -<lb/>
+               They have trusted <persName ref="./Personography.xml#LockJ1">Lockhart</persName> with their papers upon<lb/>
+               The faith is that he sh<hi rend="superscript">d</hi> do this - And as <persName ref="./Personography.xml#ScotW1">Sir Walter</persName>s<lb/>
+               friend &amp; biographer he feels bound to do it; for<lb/>
+               if <hi rend="underline">he did not</hi> (as he writes to me) <hi rend="underline">they would</hi> and<lb/>
+               he can do it better than any body else<lb/>
+            </p>
+            <p>He says he longs to get over these details<lb/>
+               and to get to the pa<del><unclear>?</unclear></del>rt where the great catastrophe his<lb/>
+               ruin of fortune comes - because then he has to<lb/>
+               represent a great man struggling with adversity<lb/>
+               a spectacle worthy of the God's <del>&amp; of</del> All good men<lb/>
+               <del>of all who</del> in the civilized &amp; moral world will I<lb/>
+               Think have their sympathesing hearts in this case<lb/>
+
+               <pb n="10" facs="Edgeworth_Princeton_1837-12_page10.jpg"/>
+
+               fixed upon this man of genius who absolutely<lb/>
+               sacrificed his genius, his life, his intellects<lb/>
+               to his sense of honor &amp; honesty - his moral sense<lb/>
+            </p>
+            <p><add>You in your new world are more likely than we here to see &amp; feel this</add><lb/>
+               impartially -
+            </p>
+            <closer>
+               Adieu my dear <persName ref="./Personography.xml#ElioC1">M<hi rend="superscript">rs</hi>. Norton</persName> - forgive<lb/>
+               my too much and believe me very sincerely<lb/>
+               and affectionately your obliged<lb/>
+               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName><lb/>
+            </closer>
+            <postscript>
+               <p>1 Dec<hi rend="superscript">r</hi> 1837<lb/>
+               </p>
+               <p>When you and your daughter write to<lb/>
+                  me, if you are so kind to write please to put your<lb/>
+                  letters in one cover &amp; direct them only on the sealed side<lb/>
+                  there - To <persName ref="./Personography.xml#EdgeM1">Miss Edgeworth</persName> <placeName ref="./Placeography.xml#Edgeworthstown_IE">Edgeworthtown Ireland</placeName> -<lb/>
+                  Then put your packet thus directed into another cover and<lb/>
+                  direct that To the Clerk of the Council <hi rend="underline">in waiting</hi><lb/>
+                  Council Office<lb/>
+                  <placeName ref="./Placeography.xml#London_ENK">London</placeName><lb/>
+                  <add>Each packet may contain<lb/>
+                  any letter or even pamphlet</add><lb/>
+                  pamphlet - but no <hi rend="underline">bound</hi> books must be put into<lb/>
+                  it - and nothing hard <unclear>???</unclear>or in short that is not<lb/>
+                  Manuscript input or pamp<unclear>???</unclear> - This I am bound<lb/>
+                  in honor to abide by - <unclear>???</unclear> hazard the loss if<lb/>
+                  the Clerk of Council my <unclear>???</unclear> place by doing <unclear>otherwise</unclear><lb/>
+               </p>
+            </postscript>
+            <closer>
+               <address>
+                  <addrLine><persName ref="./Personography.xml#ElioC1">M<hi rend="superscript">rs</hi>. Norton</persName><lb/></addrLine>
+                  <addrLine><persName ref="./Personography.xml#NortA1">Professor Norton</persName>'s<lb/></addrLine>
+                  <addrLine><hi rend="underline">Cambridge University</hi><lb/></addrLine>
+                  <addrLine><del><placeName ref="./Placeography.xml#Boston_MA_US">Boston</placeName></del><lb/></addrLine>
+                  <addrLine><placeName ref="./Placeography.xml#US">United States America</placeName><lb/></addrLine>
+               </address>
+            </closer>
+         </div>
+      </body>
+      <back> </back>
+   </text>
+</TEI>
