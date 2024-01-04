@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from Maria Edgeworth to Edward Stanley, June 5th,1848</title>
+            <author>Maria Edgeworth</author>
+            <editor ref="Id_who">
+Hilary Havens
+            </editor>
+            <sponsor>
+               <orgName>Maria Edgeworth Letters Project</orgName>
+            </sponsor>
+            <sponsor>Wake Forest University, University of Tennessee, Xavier University, Texas
+               A&amp;M University</sponsor>
+            <principal>Jessica Richard, Hilary Havens, Robin Runia, Susan Egenolf</principal>
+            <respStmt>
+               <resp>Transcription and coding by</resp>
+               <persName ref="Id_who">Jamie Kramer</persName>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>First digital edition in TEI, date: <date when="2024-01-02">
+            </date>
+            </edition>
+            <respStmt>
+               <orgName type="naf" ref="http://id.loc.gov/authorities/names/n80097499">
+                  Harvard University, Houghton Library
+               </orgName>
+               <resp> photos include:
+                  Edgeworth_Harvard_604757_1848-06_page01.jpg,
+                  Edgeworth_Harvard_604757_1848-06_page02.jpg,
+                  Edgeworth_Harvard_604757_1848-06_page03.jpg,
+                  Edgeworth_Harvard_604757_1848-06_page04.jpg,
+                  Edgeworth_Harvard_604757_1848-06_page05.jpg,
+                  Edgeworth_Harvard_604757_1848-06_page06.jpg
+               </resp>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Maria Edgeworth Letters Project</authority>
+            <date>2022</date>
+            <availability>
+               <p>Reproduced by courtesy of <orgName ref="http://id.loc.gov/authorities/names/n80097499">Harvard University, Houghton Library</orgName>
+               </p>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons Attribution 4.0 (CC BY 4.0) Unported License</licence>
+            </availability>
+            <idno>Edgeworth_Harvard_604757_1848-06</idno> 
+         </publicationStmt>
+         <seriesStmt>
+            <title>Maria Edgeworth Letters Project</title>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <repository>Harvard University, Houghton Library</repository>
+                  <idno><!--Consult library or WorldCat for this info--></idno>
+               </msIdentifier>
+               <head>Letter from 
+                  <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
+                  to <persName ref="./Personography.xml#StanE1">Edward Stanley</persName>
+                  <date when="1848-06-05">
+                     June 5<hi rend="superscript">h</hi>, 1848</date>
+               </head>
+               <physDesc>
+                  <!-- optional physical description of the letter goes here: paper size and condition, seal, postmarks, etc.-->
+               </physDesc>
+            </msDesc>
+            <bibl>In addition to our edited version, this letter was previously published in
+               <!--complete bibiographical info if letter was published in a book here - if not delete-->
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <!--Where Edgeworth uses nonstandard spelling and hyphenation of words, transcriber-coders 
+               should use TEI elements “choice," “sic," and “reg" to encode both Edgeworth’s 
+               spelling and the regular international standard of Oxford English spelling, 
+               following the first listed spelling in the Oxford English Dictionary. -->
+            <p>Edgeworth’s spelling and punctuation are retained in transcription, except where a
+               word is split at the end of a line and the beginning of the next in a manuscript. The
+               long s and ligatured forms are silently emended.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="./Personography.xml#EdgeM1">Mariah Edgeworth</persName>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="./Personography.xml#StanE1">Edward Stanley</persName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-01-01" who="Id_who">
+            <!--Brief description of what you did here.-->
+         </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <pb n="1" facs="Edgeworth_Harvard_604757_1848-06_page01.jpg"/>
+            <opener><note>1</note><lb/>
+               <dateline>
+                  <placeName ref="./Placeography.xml#Edgeworthstown_IE">Edgeworth Town</placeName><lb/>
+                  <date when="1848-06-05">
+                     June 5<hi rend="superscript">h</hi>, 1848</date></dateline><lb/>
+               <salute>
+                  My dear <persName ref="./Personography.xml#StanE1">Lord</persName><lb/>
+               </salute>
+            </opener>
+            <p>So you must permit me to<lb/>
+               call you from remembrance<lb/>
+               of your kindness to one now<lb/>
+               no more whom you honored<lb/>
+               by your approbation and<lb/>
+               delighted by your goodness</p><lb/>
+               <p>Whether your Lordship <choice><orig><unclear>recol<lb/>
+                  lect</unclear></orig><reg>recollect</reg></choice>meeting me at my dear<lb/>
+                  lost sister <persName ref="./Personography.xml#EdgeF3">M<hi rend="superscript">rs</hi>. Wilson</persName>s some<lb/>
+               year ago or not, I think you<lb/>
+               will for her sake permit this<lb/>
+               intrusion and grant me<lb/>
+               the favor I am going to ask</p><lb/>
+               <p>Allow me to present to<lb/>
+               your Lordship a <choice><orig>country<lb/>
+                  -man</orig><reg>countryman</reg></choice> of ours for whom she<lb/>
+               was much interested and<lb/>
+           
+<pb n="2" facs="Edgeworth_Harvard_604757_1848-06_page02.jpg"/>
+               2<lb/>
+               for whom all our family as<lb/>
+               well as myself are much interested</p><lb/>
+            <p>The rev<hi rend="superscript">d</hi>. <persName ref="./Personography.xml#SteeT1">Thomas D<hi rend="superscript">r</hi>. Steele</persName> -<lb/>
+               He was educated at the <placeName ref="./Placeography.xml#Edgeworthstown_IE">Edgeworths<lb/>
+               town</placeName> school and was one of<lb/>
+               my brother <persName ref="./Personography.xml#EdgeL2">Lovell E</persName>'s most esteemed<lb/>
+               scholars and masters and has<lb/>
+               since distinguished himself by<lb/>
+               his learning and conduct so<lb/>
+               as to obtain a degree of Doctor<lb/>
+               of Laws in <placeName ref="./Placeography.xml#Trinity-College_IE">Dublin College</placeName></p><lb/>
+            
+               <p>Some years ago he was presented<lb/>
+                  by the Bishop of <placeName ref="./Placeography.xml#London_ENK">London</placeName> with a<lb/>
+                  living in <placeName ref="./Placeography.xml#AU">Australia</placeName> - at <placeName ref="./Placeography.xml#Sydney_AU">Sidney</placeName><lb/>
+               - His private letters to himself<lb/>
+                  and <add>those</add> to <persName ref="./Personography.xml#SteeX1">M<hi rend="superscript">rs</hi>. Steele</persName> from <persName ref="./Personography.xml#GippG1">Sir George</persName><lb/>
+                  &amp; <persName ref="./Personography.xml#GippE1">Lady Gipps</persName> tell how much<lb/>
+                  they were valued by the <persName ref="./Personography.xml#FitzC1">Governer<lb/>
+                     of <placeName ref="./Placeography.xml#Sydney_AU"><choice><orig>Sidney</orig><reg>Sydney</reg></choice></placeName></persName> and his <persName ref="./Personography.xml#FitzM1">Lady</persName> - them<lb/>
+               selves so valued and beloved<lb/>
+                  in <placeName ref="./Placeography.xml#AU">Australia</placeName> - And the addresses<lb/>
+               enclosed will show how much<lb/>
+               he was appreciated and<lb/>
+               reverenced by his parishioners<lb/>
+               
+<pb n="3" facs="Edgeworth_Harvard_604757_1848-06_page03.jpg"/>
+               
+               3<lb/>
+               and by the inhabitants and<lb/>
+                  civil authorities of <placeName ref="./Placeography.xml#Sydney_AU">Sydney</placeName>.</p><lb/>
+               <p>With the <unclear>more</unclear> confidence<lb/>
+                  I mention <persName ref="./Personography.xml#SteeT1">D<hi rend="superscript">r</hi>. Steele</persName> to you<lb/>
+               my Lord Bishop because I<lb/>
+               am assured that his opinions<lb/>
+               and practice in Church matters<lb/>
+               are in accordance with your<lb/>
+               own and equally <unclear>liberal</unclear><lb/>
+               steady and sincere in the<lb/>
+               true benevolent loving <choice><orig>chari<lb/>
+                  table</orig><reg>charitable</reg></choice> spirit of Christianity<lb/>
+               <unclear>Respecting</unclear> yet above mere forms</p><lb/>
+               <p>I have also another hope<lb/>
+                  that this presentation of <persName ref="./Personography.xml#SteeT1">D<hi rend="superscript">r</hi>. Steele</persName><lb/>
+               to your Lordship may be pleasing<lb/>
+               to you because he has had<lb/>
+               the pleasure to be acquainted<lb/>
+                  with <persName ref="./Personography.xml#StanX2"><choice><abbr>Cap<hi rend="superscript">tn</hi>.</abbr><reg>Captain</reg></choice> Stanley</persName>, and that<lb/>
+               his modesty does not empower<lb/>
+               me to say so I trust I may say<lb/>
+               that he has <persName ref="./Personography.xml#StanX2"><choice><abbr>Cap<hi rend="superscript">tn</hi>.</abbr><reg>Captain</reg></choice> Stanley</persName><unclear>s</unclear> <unclear>upon</unclear><lb/>
+               probation and good will</p><lb/>
+            <p><persName ref="./Personography.xml#SteeT1">D<hi rend="superscript">r</hi>. Steele</persName>'s object is, if it<lb/>
+               be possible to obtain the means<lb/>
+               of<lb/>
+               
+<pb n="4" facs="Edgeworth_Harvard_604757_1848-06_page04.jpg"/>
+               
+               4<lb/>
+               Living and exercising his <choice><orig>func<lb/>
+                  -tions</orig><reg>functions</reg></choice> in this country instead<lb/>
+               of returning to <placeName ref="./Placeography.xml#Sydney_AU">Sidney</placeName> where<lb/>
+               he has been doing hard duty<lb/>
+               for upwards of ten years - His<lb/>
+               health could hardly stand longer<lb/>
+               labor in that situation &amp; climate<lb/>
+               - nor could <persName ref="./Personography.xml#SteeX1">M<hi rend="superscript">rs</hi>. Steele</persName>s health<lb/>
+               or happiness at such a distance<lb/>
+               from all her friends be expected<lb/>
+               much longer to endure that trial<lb/>
+               though her moral courage and<lb/>
+               affection have sustained it during<lb/>
+               such a protracted period - All<lb/>
+               her friends are English - She is the<lb/>
+               niece of <persName ref="./Personography.xml#JameX1">General <unclear>James</unclear></persName> who served<lb/>
+               long in <placeName ref="./Placeography.xml#IN">India</placeName> &amp; is now settled<lb/>
+               at <placeName ref="./Placeography.xml#Bath_ENK">Bath</placeName> - The circumstances of<lb/>
+               his marriage (permit me to tell<lb/>
+               you this <hi rend= "underline">in confidence</hi> as I know<lb/>
+               it will ruin him in your opinion<lb/>
+               though it might <hi rend= "underline">sink</hi> him with<lb/>
+               others) were peculiarly honorable<lb/>
+               - he did not conceal the fact of<lb/>
+               his humble birth, and the lady<lb/>
+               accepted and her friends consented<lb/>
+               and the union has consequently been<lb/>
+               
+<pb n="5" facs="Edgeworth_Harvard_604757_1848-06_page05.jpg"/>
+               
+               5<lb/>
+               eminently happy<lb/>
+               I know how a Bishops patronage<lb/>
+               and power of assisting must<lb/>
+               be limited by the duties of his<lb/>
+               Diocese - <del>But</del> I believe there are<lb/>
+               13 new benefices created by<lb/>
+               S<hi rend="superscript">r</hi>. <persName ref="./Personography.xml#PeelR1">R. Peel</persName>s bill - But perhaps<lb/>
+               and most probably these have<lb/>
+               already been promised or have<lb/>
+               half a dozen expectant <choice><orig>Incum<lb/>
+                  -bents</orig><reg>Incumbents</reg></choice>. I have more hopes for<lb/>
+               <persName ref="./Personography.xml#SteeT1">D<hi rend="superscript">r</hi>. Steele</persName> of his obtaining an<lb/>
+               employment for which he<lb/>
+               is eminently <unclear>uncontacted</unclear> by<lb/>
+               learning morals, &amp; experience<lb/>
+               in tracking, the office of<lb/>
+               Inspector of Schools.</p><lb/>
+               <p>If your Lordship could assist<lb/>
+               him in obtaining this <choice><orig>situa<lb/>
+                  tion</orig><reg>situation</reg></choice> you would do a public<lb/>
+               good - and a private good &amp;<lb/>
+               favor which would be most<lb/>
+               gratefully felt - </p> <closer>Permit me to<lb/>
+               say especially by one who has<lb/>
+               
+<pb n="6" facs="Edgeworth_Harvard_604757_1848-06_page06.jpg"/>
+               
+               6<lb/>
+               the honor to be with the highest<lb/>
+               respect, your Lordship's<lb/>
+               Obed<hi rend="superscript">t</hi>. humble Serv<hi rend="superscript">t</hi><lb/>
+                  <persName ref="./Personography.xml#EdgeM1">Mariah Edgeworth</persName><lb/>            
+               </closer>
+
+            <closer>
+               <address>
+                  <addrLine>To</addrLine>
+                  <addrLine><persName ref="./Personography.xml#StanE1">The Lord Bishop of Norwich</persName>/</addrLine>
+               </address>
+            </closer>
+         </div>
+      </body>
+      <back> </back>
+   </text>
+</TEI>
