@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>
+               Letter from Maria Edgeworth to unknown, 1/11/1837
+            </title>
+            <author>Maria Edgeworth</author>
+            <editor ref="Id_who">
+Hilary Havens
+            </editor>
+            <sponsor>
+               <orgName>Maria Edgeworth Letters Project</orgName>
+            </sponsor>
+            <sponsor>Wake Forest University, University of Tennessee, Xavier University, Texas
+               A&amp;M University</sponsor>
+            <principal>Jessica Richard, Hilary Havens, Robin Runia, Susan Egenolf</principal>
+            <respStmt>
+               <resp>Transcription and coding by</resp>
+               <persName ref="Id_who">Jamie Kramer</persName>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>First digital edition in TEI, date: <date when="2024-01-04">
+            </date>
+            </edition>
+            <respStmt>
+               <orgName type="naf" ref="http://id.loc.gov/authorities/names/n80097499">
+                  Harvard University, Houghton Library
+               </orgName>
+               <resp> photos include:
+                  Edgeworth_NLS_42180_1837_01_11_page01.jpg,
+                  Edgeworth_NLS_42180_1837_01_11_page02.jpg
+               </resp>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Maria Edgeworth Letters Project</authority>
+            <date>2022</date>
+            <availability>
+               <p>Reproduced by courtesy of <orgName type="naf" ref="http://id.loc.gov/authorities/names/n80044899">
+                  National Library of Scotland</orgName>
+               </p>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons Attribution 4.0 (CC BY 4.0) Unported License</licence>
+            </availability>
+            <idno>Edgeworth_NLS_42180_1837_01_11</idno> 
+         </publicationStmt>
+         <seriesStmt>
+            <title>Maria Edgeworth Letters Project</title>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <repository>National Library of Scotland</repository>
+                  <idno><!--Consult library or WorldCat for this info--></idno>
+               </msIdentifier>
+               <head>Letter from 
+                  <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
+                  to unknown
+                  <date when="1837-01-11">
+                     Jan<hi rend= "superscript">y</hi>. 11<hi rend= "superscript">h</hi>. 1837</date>
+               </head>
+               <physDesc>
+               </physDesc>
+            </msDesc>
+            <bibl>In addition to our edited version, this letter was previously published in
+               <!--complete bibiographical info if letter was published in a book here - if not delete-->
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>Edgeworth’s spelling and punctuation are retained in transcription, except where a
+               word is split at the end of a line and the beginning of the next in a manuscript. The
+               long s and ligatured forms are silently emended.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="./Personography.xml#EdgeM1">Mariah Edgeworth</persName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-01-01" who="Id_who">
+            <!--Brief description of what you did here.-->
+         </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <pb n="1" facs="Edgeworth_NLS_42180_1837_01_11_page01.jpg"/>
+            <opener><note>1</note><lb/>
+               <dateline>
+                  <placeName ref="./Placeography.xml#Edgeworthstown_IE">Edgeworths Town</placeName><lb/>
+                  <date when="1837-01-11">
+                     Jan<hi rend= "superscript">y</hi>. 11<hi rend= "superscript">h</hi>. 1837</date></dateline><lb/>
+               <salute>Dear Sir</salute><lb/>
+            </opener>
+            <p>You will never get rid of my<lb/>
+               persecutions about <persName ref="./Personography.xml#CarmA1">Md<hi rend= "superscript">m</hi>. Carmichael</persName> and<lb/>
+               her manuscripts until you oblige me<lb/>
+               by doing what I ask - and I will be as<lb/>
+               reasonable as an unreasonable woman<lb/>
+               can be.<lb/></p>
+               <p>You have a manuscript of hers<lb/>
+               which you declined publishing but which<lb/>
+               you were so kind to offer to dispose of for<lb/>
+               her to Longman &amp; Co or some other publisher<lb/>
+               - She wished to have it back again <add>first</add> to <choice><orig>re-<lb/>
+                  model</orig><reg>remodel</reg></choice> - But I write to advise her against<lb/>
+               this, if you can dispose of it for her - And<lb/>
+               <hi rend= "underline">I pray you to try</hi> - Dispose of it for whatever<lb/>
+               you can get <del>for</del> and let me know the result<lb/>
+               - If you find that the publisher <hi rend= "underline">requires</hi> to<lb/>
+               have any part altered or the whole remodelled<lb/>
+               let me know and it will be time enough<lb/>
+               <hi rend= "underline">then</hi> to send it back &amp; set the poor lady<lb/>
+               to the remodelling labor -<lb/></p>
+               <p>I shall expect to have your answer<lb/>
+               next week my dear Sir -<lb/></p>
+               <p>And at the same time I wish you<lb/>
+               would tell me what you have determined<lb/>
+               
+               <pb n="2" facs="Edgeworth_NLS_42180_1837_01_11_page02.jpg"/>
+               
+               about the <add>history of the</add> Bible <del>stories</del> which she sent you -<lb/>
+               a work for young people - 1<hi rend= "superscript">st</hi> plainly - do you<lb/>
+               intend to publish it? - 2<hi rend= "superscript">ly</hi>. When? - 3<hi rend= "superscript">ly</hi> What<lb/>
+               do you mean to give her for it?<lb/></p>
+               <p>You have also a tale written by<lb/>
+                  <persName ref="./Personography.xml#CarmA1">Miss Carmichael</persName> - pray tell me your decision<lb/>
+               respecting that also -<lb/></p>
+            <p><persName ref="./Personography.xml#CarmA1">M<hi rend= "superscript">m</hi>. Carmichael</persName> has waited months<lb/>
+               for your answers - She is a most patient person -<lb/>
+               I am <del><unclear>No</unclear></del> most impatient - and believe<lb/>
+               me you shall be worried weekly with letters<lb/>
+               untill you answer me -<lb/></p>
+               <p>I know your good nature and will<lb/>
+               prey upon it - </p><closer>I am D<hi rend= "superscript">r</hi>. Sir<lb/>
+               Yours sincerely<lb/>
+                  <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName></closer><lb/>            
+               <postscript><p>
+                  Please to direct to me under cover<lb/>
+                  to <unclear>Lieut<hi rend= "superscript">t</hi>.</unclear> Col<hi rend= "superscript">l</hi> <persName ref="./Personography.xml#YorkX1">Yorke</persName><lb/>
+                  <placeName ref="./Placeography.xml#Dublin-Castle_IE">Dublin Castle</placeName></p><lb/>
+               </postscript>
+         </div>
+      </body>
+      <back> </back>
+   </text>
+</TEI>
