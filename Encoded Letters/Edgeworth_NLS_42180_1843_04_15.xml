@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>
+               Letter from Maria Edgeworth to unknown, 4/15/1843
+            </title>
+            <author>Maria Edgeworth</author>
+            <editor ref="Id_who">
+Hilary Havens
+            </editor>
+            <sponsor>
+               <orgName>Maria Edgeworth Letters Project</orgName>
+            </sponsor>
+            <sponsor>Wake Forest University, University of Tennessee, Xavier University, Texas
+               A&amp;M University</sponsor>
+            <principal>Jessica Richard, Hilary Havens, Robin Runia, Susan Egenolf</principal>
+            <respStmt>
+               <resp>Transcription and coding by</resp>
+               <persName ref="Id_who">Jamie Kramer</persName>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>First digital edition in TEI, date: <date when="2024-01-05">
+            </date>
+            </edition>
+            <respStmt>
+               <orgName type="naf" ref="http://id.loc.gov/authorities/names/n80097499">
+                  Harvard University, Houghton Library
+               </orgName>
+               <resp> photos include:
+                  Edgeworth_NLS_42180_1843_04_15_page01.jpg,
+                  Edgeworth_NLS_42180_1843_04_15_page02.jpg
+               </resp>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Maria Edgeworth Letters Project</authority>
+            <date>2022</date>
+            <availability>
+               <p>Reproduced by courtesy of <orgName type="naf" ref="http://id.loc.gov/authorities/names/n80044899">
+                  National Library of Scotland</orgName>
+               </p>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons Attribution 4.0 (CC BY 4.0) Unported License</licence>
+            </availability>
+            <idno>Edgeworth_NLS_42180_1843_04_15</idno> 
+         </publicationStmt>
+         <seriesStmt>
+            <title>Maria Edgeworth Letters Project</title>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <repository>National Library of Scotland</repository>
+                  <idno><!--Consult library or WorldCat for this info--></idno>
+               </msIdentifier>
+               <head>Letter from 
+                  <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
+                  to unknown
+                  <date when="1843-04-15">
+                     15<hi rend= "superscript">th</hi>. Ap<hi rend= "superscript">l</hi>. 1843</date>
+               </head>
+               <physDesc>
+               </physDesc>
+            </msDesc>
+            <bibl>In addition to our edited version, this letter was previously published in
+               <!--complete bibiographical info if letter was published in a book here - if not delete-->
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>Edgeworth’s spelling and punctuation are retained in transcription, except where a
+               word is split at the end of a line and the beginning of the next in a manuscript. The
+               long s and ligatured forms are silently emended.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-01-01" who="Id_who">
+            <!--Brief description of what you did here.-->
+         </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <pb n="1" facs="Edgeworth_NLS_42180_1843_04_15_page01.jpg"/>
+            <opener><note>1</note><lb/>
+               <dateline>
+                  <placeName ref="./Placeography.xml#Trim_IE">Trim</placeName><lb/>
+                  <date when="1843-04-15">
+                     15<hi rend= "superscript">th</hi>. Ap<hi rend= "superscript">l</hi>. 1843</date></dateline><lb/>
+               <salute>D<hi rend= "superscript">r</hi>. Sir</salute> <note>To be put away</note><lb/>
+            </opener>
+            <p>I congratulate you on the<lb/>
+               success of your Hand bills<lb/>
+               of which I see honorable<lb/>
+               mention and <hi rend= "underline">envious</hi> <choice><orig>men<lb/>
+                  tion</orig><reg>mention</reg></choice> (still more honorable<lb/>
+               properly interpreted) in various<lb/>
+               <hi rend= "underline">periodicals</hi> &amp; newspapers -<lb/></p>
+               <p>I can easily <choice><orig>concieve</orig><reg>conceive</reg></choice> that<lb/>
+               you are too much occupied<lb/>
+               with this and other <choice><orig>specula<lb/>
+                  -tions</orig><reg>speculations</reg></choice> - or that you are<lb/>
+               too lazy - to have been able<lb/>
+               to answer my note to you<lb/>
+               about that little matter of the<lb/>
+               <hi rend= "underline"><placeName ref="./Placeography.xml#Garryowen_IE">Garryowen</placeName> or the <placeName ref="./Placeography.xml#Snowtown_IE">Snow</placeName> woman</hi></p>
+               <p>Ten to one that on <choice><orig>read<lb/>
+                  ing</orig><reg>reading</reg></choice> this you &amp; your son both<lb/>
+               start &amp; recollect that you<lb/>
+               have forgotten all about it<lb/></p>
+               <p>No matter - I write now<lb/>
+               only to tell you that as your<lb/>
+               silence consents and proves<lb/>
+               
+               <pb n="2" facs="Edgeworth_NLS_42180_1843_04_15_page02.jpg"/>
+               
+               to me that you are unconcerned<lb/>
+               in this matter I shall take<lb/>
+               it for granted that I may<lb/>
+               send <placeName ref="./Placeography.xml#Garryowen_IE">Garryowen</placeName> &amp; Poor<lb/>
+               <persName ref="./Personography.xml#XxxxB1">Bob</persName> to M<hi rend= "superscript">r</hi>. <persName ref="./Personography.xml#ChambX1">Chambers</persName> for his<lb/>
+               Journal as he much desires<lb/></p>
+               <p>I shall wait a week <unclear>for</unclear><lb/>
+               this date that you may object<lb/>
+               if you please - But I hope<lb/>
+               you will not <hi rend= "underline">please</hi> to object<lb/>
+               as I wish to oblige <persName ref="./Personography.xml#ChambX1">Chambers</persName><lb/>
+               when it can be done so easily<lb/>
+               - Therefore if I have no <add>answer</add><lb/>
+               from you I shall be<lb/></p>
+            <closer> 
+               Your pleased &amp;amp; <unclear>obliged</unclear><lb/>
+               humble servant<lb/>
+                  <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName></closer><lb/>            
+         </div>
+      </body>
+      <back> </back>
+   </text>
+</TEI>
