@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from Maria Edgeworth to Mrs. Griffith, April 20, 1826</title>
+            <author>Maria Edgeworth</author>
+            <editor ref="Id_who">Alexandra LaGrand</editor>
+            <sponsor>
+               <orgName>Maria Edgeworth Letters Project</orgName>
+            </sponsor>
+            <sponsor>Wake Forest University, University of Tennessee, Xavier University, Texas
+               A&amp;M University</sponsor>
+            <principal>Jessica Richard, Hilary Havens, Robin Runia, Susan Egenolf</principal>
+            <respStmt>
+               <resp>Transcription and coding by</resp>
+               <persName ref="Id_who">Alexandra LaGrand</persName>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>First digital edition in TEI, date: <date when="2024-01-11">January 11, 2024</date>
+            </edition>
+            <respStmt>
+               <orgName ref="http://id.loc.gov/authorities/names/n82003163">Princeton University Library</orgName>
+               <resp> photos include: Edgeworth_Princeton_1826-04_page01.jpg, Edgeworth_Princeton_1826-04_page02.jpg, Edgeworth_Princeton_1826-04_page03.jpg, Edgeworth_Princeton_1826-04_page04.jpg 
+               </resp>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Maria Edgeworth Letters Project</authority>
+            <date>2022</date>
+            <availability>
+               <p>Reproduced by courtesy of <orgName ref="http://id.loc.gov/authorities/names/n82003163">Princeton University Library</orgName></p>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons Attribution 4.0 (CC BY 4.0) Unported License</licence>
+            </availability>
+            <idno>Edgeworth_Princeton_1826-04</idno> 
+         </publicationStmt>
+         <seriesStmt>
+            <title>Maria Edgeworth Letters Project</title>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <repository>Princeton University Library</repository>
+                  <collection></collection>
+                  <idno></idno>
+               </msIdentifier>
+               <head>Letter from 
+                  <persName ref="./Personography.xml#EdgeM1">
+                     <forename>Maria</forename>
+                     <surname>Edgeworth</surname>
+                  </persName>
+                   to <persName>Mrs. Griffith</persName>, <placeName></placeName>, 
+                  <date when="1826-04-20">April 20<hi rend="superscript">th</hi> 1826</date>
+               </head>
+               <physDesc></physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>Edgeworth’s spelling and punctuation are retained in transcription, except where a
+               word is split at the end of a line and the beginning of the next in a manuscript. The
+               long s and ligatured forms are silently emended.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
+            </correspAction>
+            <correspAction type="received">
+               <persName>Mrs. Griffith</persName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2024-04-20" who="Id_who">Created file for letter, encoded letter</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <pb n="1" facs="Edgeworth_Princeton_1826-04_page01.jpg"/>
+            <opener>
+               <dateline>
+                  <name type="place" ref="Id_where"/>Edgeworths Town
+                  <date when="1826-04-20"/>April 20<hi rend="superscript">th</hi> 1826</dateline>
+               <salute>
+                  <persName>Dear M<hi rend="superscript">rs</hi>. Griffith</persName>
+               </salute>
+            </opener>
+            <p>I have made many attempts but have not
+               yet succeeded in collecting means of an-
+               swering the various questions and interest
+               ing subjects of discussion in your last kind
+               letter - I have shown the very pretty and
+               useful &amp; ingenious model of your beehive
+               to all whom it might concern in my neighbor
+               hood - I cannot say that there any among
+               our neighbors who deserve to be called <hi rend="underline">apiarists</hi>
+               <del>as</del> they have none of them a sufficient num-
+               ber of beehives or sufficient experience - But
+               they have sense enough to see the value of your
+               <unclear>b</unclear>ee hive and I am sure it will be imitated
+               successfully. - I have sent, through Lord Oriel
+               a description of it in your own &amp; in M<hi rend="superscript">r</hi>. Balstones
+               words to the Horticultural Society at Kew
+               and have waited with too great patience for
+               their acknowledgment and for their reply
+               to your observations on boring which I also
+               copied for them - From another friend
+               who has experience on the subject I also <hi rend="underline">ex</hi>
+               pect some information &amp; from my brother
+               William hope for some when he returns home
+               - but he is at present absence &amp; engaged so much
+               professionally that he has scarcely time to write
+               the shortest letters home
+            </p>
+            <p>
+               <pb n="2" facs="Edgeworth_Princeton_1826-04_page02.jpg"/>
+               The situation of Sir Walter Scott's affairs <del>has</del>
+               and my knowing how very busy he has been have
+               prevented me from yet forwarding to him the
+               copy of Mr. Bryant's poems which you sent me
+               for him - but I will do so now that he is more
+               at leisure and that I see <hi rend="underline">Woodstock</hi> is out - as
+               this days paper informs me - You will be glad
+               to hear that his losses are not so great as report
+               made them - He has lost about 30,000 Sterling
+               - but Abbotsford and his library - and his tem-
+               per - and his gaité de coeur are all safe -
+               One question of yours I can answer -
+               Why did Sir Walter Scott not mention Miss Austin
+               in his lives of the British novellists <hi rend="underline"><add>Not</add></hi> Because
+               <add>he undervalued her talents - of that he is incapable - But simply because</add>
+               the work was continued only to the time of Cum-
+               berland whose novels were published many years
+               before Miss Austins - The work did not succeed &amp;
+               was discontinued - These lives which were <del>intended</del>
+               to be prefixed to the works of each of the author were
+               never published separately in these countries -
+               Galignani had the sense to republish them in
+               Paris in his newspaper &amp; then finding how much
+               they were admired, published them in two small
+               volumes in the form in which they now appear -
+               Beautiful specimens of biography &amp; criticism they
+               are! - In my opinion fully equal &amp; in some parts
+               superior in interest and literary value to D<hi rend="superscript">r</hi>
+               Johnson's prefaces. - They are not so dogmatic, and
+               they <add>contain</add> <del>are</del> more philosophical criticism - They are
+               peculiarly interesting as containing the opinions
+               &amp; <unclear><del></del></unclear> letting us into some of the principles of com-
+               position of one who has so eminently excelled
+               <del>both</del> as a poet, <del>and</del> an inventor &amp; an author
+               of fictitious narratives - Johnson can hardly
+            </p>
+            <p>
+               <pb n="3" facs="Edgeworth_Princeton_1826-04_page03.jpg"/>
+               be called a poet - except a satirical <unclear>poet</unclear> - (See London
+               &amp; the Vanity of human wishes - that is all - And as
+               for invention, - the only example we have of any
+               invention of his is in Rasselas - <del>I have not time</del>
+               <del>to</del> - and in that <del><unclear></unclear></del> the insane phi
+               losopher who fancied he ruled the weather is
+               the only quite new &amp; original invention I can
+               recollect of Johnson - As to Scott ~~ who alive
+               or dead <add>except Shakespear</add> can stand a comparison with him in
+               invention, - the true test of genius
+               I am very much afraid that I
+               shall never be able to satisfy you about the (<del></del> <add>Last</add> of
+               the Mohicans - But it is early times with us
+               yet - as we began it only last night and have
+               read only 20 pages - Thank you for it however
+               my dear Madam at all events - and give me
+               credit for my sincerity. If in my next letter when
+               we have read the whole I can tell you I like it
+               you will have faith in my praises. 
+               <add>April 21<hi rend="superscript">st</hi>. Last night we got into the cavern <del>&amp;</del> that is a sublime
+               scene - We began to be much interested -</add>
+               I merely wrote a few lines to you at present
+               to assure you that I am not ungrateful for all your
+               kind attentions. The specimens of the ground
+               pine and of the festoon pine have delighted me
+               and many of my more deserving botanical friends
+               - I beg you will not make any more attempts to
+               send me sweetmeats - I am quite ashamed! - I am 
+               assured that no captain of any vessel will take charge
+               of them - except it be a captain of an <add>English</add> man of war or frigate
+               -- I have half a mind to beg from you a draught
+               or chess board <add>or wash bord</add> to be made of specimens of American
+               woods - the beauty of the wood of which your model
+               of a beehive was made put this idea into my head &amp; the
+               nicety of the workmanship shewed me that your American
+            </p>
+            <p>
+               <pb n="4" facs="Edgeworth_Princeton_1826-04_page04.jpg"/>
+               workmen can vye with our best cabinetmakers -
+               I am very sorry indeed to hear such bad accounts
+               of the maddens - But I cannot yet believe that Madden
+               has turned out dishonest -- Tho I said I w<hi rend="superscript">d</hi> write only a few lines
+               I must <add>write more</add> - I am at this moment in great perplexity - A
+               very <add>dear &amp; very</add> amiable - entertaining &amp; <hi rend="underline">improvident</hi> friend of
+               mine, long known &amp; long loved by my father &amp; by
+               all our family has <add>now</add> just <add>suddenly</add> died &amp; left a widow &amp;
+               7 children of all ages from 22 to 10 years old
+               absolutely unprovided for - after having lived
+               till now in affluence &amp; in the best society in
+               this country - The gentleman was a clergyman
+               - I am ashamed to confess to you that he had
+               a living of eighteen hundred a year - but he
+               lived <hi rend="underline">up to it</hi> as we say in this country - M<hi rend="superscript">rs</hi>. J
+               every year attempted to lay by something but
+               he continually broke in upon her fund - And
+               suddenly in the prime of life he was snatched away!
+               M<hi rend="superscript">rs</hi>. Johnson has been an exemplary wife &amp;
+               mother - Her daughters, two of them are <hi rend="superscript">beauti</hi>
+               <hi rend="underline">ful</hi> - all <add>of them</add> accomplished &amp; well informed, with
+               <hi rend="underline">peculiar natural &amp; acquired</hi> talents <add>vocal &amp; instrumental</add> for music -
+               They in the midst of this sudden distress turn
+               their minds at once to consider how they can
+               assist their mother in supporting themselves inde
+               pendantly - It has been suggested that they
+               might take a house at Bath &amp; receive two or 3
+               unmarried young ladies as lodgers who might
+               have the advantage of the protection &amp; society of
+               <add>a lady of good family the habits of good company)
+               good principles With</add> M<hi rend="superscript">rs</hi>. Johnson <unclear>&amp; <add>also</add></unclear> the advantage
+               of <del>her</del> musical practice &amp; instruction from herself
+               and her daughters should be considered
+               Would such a plan succeed in Philadelphia
+               - or new york? Could <add>2 or 3</add> boarders be secured who
+               could pay 2 hundred a year? Would <add>the</add> young
+               ladies be likely to <hi rend="underline">establish</hi> themselves well?               
+            </p>
+         </div>
+      </body>
+      <back> </back>
+   </text>
+</TEI>
