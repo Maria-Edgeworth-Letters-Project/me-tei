@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from Maria Edgeworth to Mrs. Miles, December 1814</title>
+            <author>Maria Edgeworth</author>
+            <editor ref="Id_who">Alexandra LaGrand</editor>
+            <sponsor>
+               <orgName>Maria Edgeworth Letters Project</orgName>
+            </sponsor>
+            <sponsor>Wake Forest University, University of Tennessee, Xavier University, Texas
+               A&amp;M University</sponsor>
+            <principal>Jessica Richard, Hilary Havens, Robin Runia, Susan Egenolf</principal>
+            <respStmt>
+               <resp>Transcription and coding by</resp>
+               <persName ref="Id_who">Alexandra LaGrand</persName>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>First digital edition in TEI, date: <date when="2024-01-17">January 17, 2024</date>
+            </edition>
+            <respStmt>
+               <orgName ref="http://id.loc.gov/authorities/names/n82003163">Princeton University Library</orgName>
+               <resp> photos include: Edgeworth_Princeton_1814-12_page01.jpg, Edgeworth_Princeton_1814-12_page02.jpg</resp>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Maria Edgeworth Letters Project</authority>
+            <date>2022</date>
+            <availability>
+               <p>Reproduced by courtesy of <orgName ref="http://id.loc.gov/authorities/names/n82003163">Princeton University Library</orgName></p>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons Attribution 4.0 (CC BY 4.0) Unported License</licence>
+            </availability>
+            <idno>Edgeworth_Princeton_1814-12</idno> 
+         </publicationStmt>
+         <seriesStmt>
+            <title>Maria Edgeworth Letters Project</title>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <repository>Princeton University Library</repository>
+                  <collection></collection>
+                  <idno></idno>
+               </msIdentifier>
+               <head>Letter from 
+                  <persName ref="./Personography.xml#EdgeM1">
+                     <forename>Maria</forename>
+                     <surname>Edgeworth</surname>
+                  </persName>
+                  to <persName ref="./Personography.xml#MileX1">Mrs. Miles</persName>, <placeName ref="./Placeography.xml#St-Pauls-Churchyard_ENK">St. Paul's Churchyard</placeName>,  
+                  <date when="1814-12">Dec<unclear></unclear> 1814</date>
+               </head>
+               <physDesc>
+                  <p>Rip through center of page and down page, tearing through at least one line of writing and through letter date</p>
+               </physDesc>
+            </msDesc>
+        </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>Edgeworth’s spelling and punctuation are retained in transcription, except where a
+               word is split at the end of a line and the beginning of the next in a manuscript. The
+               long s and ligatured forms are silently emended.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="./Personography.xml#MileX1">Mrs. Miles</persName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-01-01" who="Id_who">Created file for letter, encoded letter</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <pb n="1" facs="Edgeworth_Princeton_1814-12_page01.jpg"/>
+            <p>I am obliged by your mentioning your<lb/>
+               little boys and rejoice to hear that they<lb/>
+               are strong and healthy; but you do not tell<lb/>
+               me how <persName ref="./Personography.xml#MileJ1">M<hi rend="superscript">r</hi>. Miles's</persName> health goes on and<lb/>
+               from a passage in his last I feel <choice><orig>apprehen<lb/>
+               -sive</orig><reg>apprehensive</reg></choice> that he is not quite as firm in health<lb/>
+               as all his friends wish him to be.<lb/>
+            </p>
+            <p>
+               Pray set us at ease if you can upon<lb/>
+               this subject my dear Madam<lb/>
+               <unclear></unclear><lb/>
+               Dec<unclear></unclear> 1814<lb/>
+            </p>
+            <p>
+               I wish you &amp; <persName ref="./Personography.xml#MileJ1">M<hi rend="superscript">r</hi>. Miles</persName> the good old<lb/>
+               fashioned compliments of the season<lb/>
+               which will be <hi rend="underline">due</hi> before this comes<lb/>
+               to your hands<lb/>
+            </p>
+            <p>
+               <pb n="2" facs="Edgeworth_Princeton_1814-12_page02.jpg"/>
+               <persName ref="./Personography.xml#MileX1">M<hi rend="superscript">rs</hi>. Miles</persName><lb/>
+               <placeName ref="./Placeography.xml#St-Pauls-Churchyard_ENK">S<hi rend="superscript">t</hi>. Pauls <unclear>Church</unclear> Yard</placeName><lb/>
+            </p>
+         </div>
+      </body>
+      <back> </back>
+   </text>
+</TEI>
