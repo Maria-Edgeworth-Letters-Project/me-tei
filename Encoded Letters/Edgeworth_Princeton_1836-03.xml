@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from Maria Edgeworth to Unknown, March 4, 1836</title>
+            <author>Maria Edgeworth</author>
+            <editor ref="Id_who">Alexandra LaGrand</editor>
+            <sponsor>
+               <orgName>Maria Edgeworth Letters Project</orgName>
+            </sponsor>
+            <sponsor>Wake Forest University, University of Tennessee, Xavier University, Texas
+               A&amp;M University</sponsor>
+            <principal>Jessica Richard, Hilary Havens, Robin Runia, Susan Egenolf</principal>
+            <respStmt>
+               <resp>Transcription and coding by</resp>
+               <persName ref="Id_who">Alexandra LaGrand</persName>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>First digital edition in TEI, date: <date when="2024-01-18">January 18, 2024</date>
+            </edition>
+            <respStmt>
+               <orgName ref="http://id.loc.gov/authorities/names/n82003163">Princeton University Library</orgName>
+               <resp> photos include: Edgeworth_Princeton_1836-03_page01.jpg, Edgeworth_Princeton_1836-03_page02.jpg</resp>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Maria Edgeworth Letters Project</authority>
+            <date>2022</date>
+            <availability>
+               <p>Reproduced by courtesy of <orgName ref="http://id.loc.gov/authorities/names/n82003163">Princeton University Library</orgName></p>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons Attribution 4.0 (CC BY 4.0) Unported License</licence>
+            </availability>
+            <idno>Edgeworth_Princeton_1836-03</idno> 
+         </publicationStmt>
+         <seriesStmt>
+            <title>Maria Edgeworth Letters Project</title>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <repository>Princeton University Library</repository>
+                  <collection></collection>
+                  <idno></idno>
+               </msIdentifier>
+               <head>Letter from 
+                  <persName ref="./Personography.xml#EdgeM1">
+                     <forename>Maria</forename>
+                     <surname>Edgeworth</surname>
+                  </persName>
+                   to <persName>Unknown</persName>, <placeName></placeName>, 
+                  <date when="1836-03-04">March 4<hi rend="superscript">th</hi>. 1836</date>
+               </head>
+               <physDesc></physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>Edgeworth’s spelling and punctuation are retained in transcription, except where a
+               word is split at the end of a line and the beginning of the next in a manuscript. The
+               long s and ligatured forms are silently emended.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
+            </correspAction>
+            <correspAction type="received">
+               <persName>Unknown</persName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2024-01-18" who="Id_who">Created file for letter, encoded letter</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <pb n="1" facs="Edgeworth_Princeton_1836-03_page01.jpg"/>
+            <opener>
+               <dateline>
+                  <date when="1836-03-04"/>March 4<hi rend="superscript">th</hi>. 1836</dateline>
+               <salute>
+                  <persName>Gentlemen,</persName>
+               </salute>
+            </opener>
+            <p>
+               In consequence of your letter of Feb<hi rend="superscript">y</hi> 19<hi rend="superscript">th</hi> <del></del><lb/>
+               informing me that you now wish for <choice><orig>correc<lb/>
+               =tions</orig><reg>corrections</reg></choice> for <title ref="./Workography.xml#Harry1">Harry and Lucy concluded</title>, for a<lb/>
+               new Edition. I have sent a corrected copy of<lb/>
+               the book for you to my sister <persName ref="./Personography.xml#EdgeF3">M<hi rend="superscript">rs</hi> Lestock Wilson</persName><lb/>
+               <placeName ref="./Placeography.xml#North-Audley-Street-1_ENK">N<hi rend="superscript">o</hi>.1 North Audley Street</placeName><lb/>
+            </p>
+            <p>
+               You will be so good as to go to her <add>&amp; she will give it to you</add><lb/>
+               and she having consulted <persName ref="./Personography.xml#BeauF1">Captain <choice><orig>Beau<lb/>
+               fort</orig><reg>Beaufort</reg></choice></persName> will tell you what we wish to have done<lb/>
+               respecting the line engravings proposed,<lb/>
+            </p>
+            <p>
+               I have spared no labor in looking<lb/>
+               over the 4 volumes page by page to consider<lb/>
+               whether I could as you <del></del><add><unclear>desire</unclear></add> "divide the<lb/>
+               work into chapters or sections with heads<lb/>
+               of the principal subjects" - I have marked<lb/>
+               the divisions <del>into sections <unclear>and so,</unclear></del> which<lb/>
+               I <del>think best, and</del> <add>approve &amp; given</add> the best running titles<lb/>
+               which I could devise. - But <del>I have the it to</del><lb/>
+               <del><persName ref="./Personography.xml#EdgeF3">Mrs. L Wilson</persName> to decide</del> whether <add>all or</add> any of these<lb/>
+               should be used or any <del>further</del> divisions be<lb/>
+               made further than what are in <add>the</add> present <choice><orig>Ed<hi rend="superscript">n</hi></orig><reg>Edition</reg></choice><lb/>
+               I leave it to <persName ref="./Personography.xml#EdgeF3">Mrs L Wilson</persName> to decide - that<lb/>
+               is to say as far as you are so obliging as<lb/>
+               to leave the decision to me - you possess<lb/>
+               the property in the work &amp; of course have the<lb/>
+               sole right to decide <add>on all these points.</add> I thank you for consulting<lb/>
+               me &amp; in return my friends &amp; I have given<lb/>
+               the most careful attention to your suggestions<lb/>
+            </p>
+            <p>
+               <pb n="2" facs="Edgeworth_Princeton_1836-03_page02.jpg"/>
+               with a view to accomplish your objects<lb/>
+            </p>
+            <p>
+               You are so good as to say you " will<lb/>
+               "be happy to discharge your obligation to me<lb/>
+               for my trouble" - All the remuneration<lb/>
+               I <del></del> require or would accept is a<lb/>
+               few copies (say 6) of the new <choice><orig>Ed<hi rend="superscript">n</hi>.</orig><reg>Edition</reg></choice> for the<lb/>
+               friends who have assisted me<lb/>
+            </p>
+            <closer>
+               I am <choice><orig>Gent<hi rend="superscript">n</hi></orig><reg>Gentlemen</reg></choice> your <choice><orig>Obed<hi rend="superscript">t</hi>.</orig><reg>Obedient</reg></choice> <choice><orig>Serv<hi rend="superscript">t</hi></orig><reg>Servant</reg></choice><lb/>
+               <persName ref="./Personography.xml#EdgeM1">M E</persName><lb/>
+            </closer>
+            <closer>
+               <address>
+                  <addrLine>1836 March 4<hi rend="superscript">h</hi></addrLine><lb/>
+                  <addrLine>copy - to <persName ref="./Personography.xml#BaldX2">Baldwin</persName> &amp; <persName ref="./Personography.xml#CradX1">Cradock</persName></addrLine><lb/>
+                  <addrLine>new <choice><orig>Ed<hi rend="superscript">n</hi></orig><reg>Edition</reg></choice> of <title ref="./Workography.xml#Harry1">Harry &amp; Lucy</title></addrLine><lb/>
+               </address>
+            </closer>
+         </div>
+      </body>
+      <back> </back>
+   </text>
+</TEI>
