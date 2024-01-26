@@ -79,6 +79,7 @@
       </profileDesc>
       <revisionDesc>
          <change when="2024-01-16" who="Id_who">Created file for letter, encoded letter</change>
+         <change when="2024-01-26" who="Id_who">Added tag for Maroneia</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -190,7 +191,7 @@
                <persName ref="./Personography.xml#EdgeF2">F Edgeworth</persName><lb/>
             </closer>
             <postscript>
-               <p>Who is the Bishop of <hi rend="underline">Maronia</hi>?<lb/></p>
+               <p>Who is the Bishop of <placeName ref="./Placeography.xml#Maroneia_GR"><hi rend="underline"><choice><orig>Maronia</orig><reg>Maroneia</reg></choice></hi></placeName>?<lb/></p>
             </postscript>
             <closer>
                <address>
