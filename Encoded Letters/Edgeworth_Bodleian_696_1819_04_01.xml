@@ -6,10 +6,10 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Letter from Maria Edgeworth to <!--Recipient Name, Month Day, YYYY--></title>
+            <title>Letter from Maria Edgeworth to Frances Anne Edgeworth, April 1, 1819<!--Recipient Name, Month Day, YYYY--></title>
             <author>Maria Edgeworth</author>
             <editor ref="Id_who">
-               <!--Editor on the Maria Edgeworth Letters Project overseeing the coding of this particular letter: FirstName LastName -->
+               Eliza Alexander Wilcox<!--Editor on the Maria Edgeworth Letters Project overseeing the coding of this particular letter: FirstName LastName -->
             </editor>
             <sponsor>
                <orgName>Maria Edgeworth Letters Project</orgName>
@@ -19,7 +19,7 @@
             <principal>Jessica Richard, Hilary Havens, Robin Runia, Susan Egenolf</principal>
             <respStmt>
                <resp>Transcription and coding by</resp>
-               <persName ref="Id_who"><!--FirstName LastName-->
+               <persName ref="Id_who">Eliza Alexander Wilcox<!--FirstName LastName-->
                </persName>
                <!-- List all transcribers or coders here, editors and students alike, <persName> by <persName>.-->
                <persName ref="Id_who"><!--FirstName LastName--></persName>
@@ -27,16 +27,17 @@
             </respStmt>
          </titleStmt>
          <editionStmt>
-            <edition>First digital edition in TEI, date: <date when="2022-01-01">
+            <edition>First digital edition in TEI, date: January 26, 2024<date when="2024-01-26">
                   <!--enter the date on which the first coder created and saved this XML file in google drive-->
                </date>
             </edition>
             <respStmt>
-               <orgName type="naf" ref="Id_who">
-                  <!--who digitized the letter or gave us permission for to use the file?-->
+               <orgName type="naf" ref="http://id.loc.gov/authorities/names/n80020306">
+                  Bodleian Library<!--who digitized the letter or gave us permission for to use the file?-->
                </orgName>
                <resp> photos include:
-                  <!-- Make a comma-separated list of each .jpg photo file name associated with your letter. 
+                  Edgeworth_Bodleian_696_1819_04_01_page01.jpg, Edgeworth_Bodleian_696_1819_04_01_page02.jpg, Edgeworth_Bodleian_696_1819_04_01_page03.jpg, Edgeworth_Bodleian_696_1819_04_01_page04.jpg, Edgeworth_Bodleian_696_1819_04_01_page05.jpg,
+                  Edgeworth_Bodleian_696_1819_04_01_page06.jpg, Edgeworth_Bodleian_696_1819_04_01_page07.jpg, Edgeworth_Bodleian_696_1819_04_01_page08.jpg, Edgeworth_Bodleian_696_1819_04_01_page09.jpg, Edgeworth_Bodleian_696_1819_04_01_page10.jpg <!-- Make a comma-separated list of each .jpg photo file name associated with your letter. 
                      For example: DSCF9476.jpg, DSCF9477.jpg, DSCF9478.jpg-->
                </resp>
             </respStmt>
@@ -47,13 +48,13 @@
             <availability>
                <!--Uncomment the appropriate line, based on the archive that holds the physical copy of this letter, 
                   and delete the other comment line(s).-->
-               <p><!--Reproduced by courtesy of the <orgName ref="#ReadingCL">Reading Central Library</orgName>.-->
+               <p>Reproduced by courtesy of the <orgName ref="http://id.loc.gov/authorities/names/n80020306">Bodleian Library</orgName><!--Reproduced by courtesy of the <orgName ref="#ReadingCL">Reading Central Library</orgName>.-->
                   <!--or -->
                   <!--Courtesy of <orgName ref="#Rylands">The University of Manchester</orgName>.-->
                </p>
                <licence target="https://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons Attribution 4.0 (CC BY 4.0) Unported License</licence>
             </availability>
-            <idno><!--Change to match the file name and current naming standards, i.e. "Edgeworth_Beinecke_330_1817_01_24" if file name is "Edgeworth_Beinecke_330_1817_01_24.xml"--></idno> 
+            <idno>Edgeworth_Bodleian_696_1819_04_01<!--Change to match the file name and current naming standards, i.e. "Edgeworth_Beinecke_330_1817_01_24" if file name is "Edgeworth_Beinecke_330_1817_01_24.xml"--></idno> 
          </publicationStmt>
          <seriesStmt>
             <title>Maria Edgeworth Letters Project</title>
@@ -62,7 +63,7 @@
             <msDesc xml:lang="en">
                <!-- This section of the header identifies the original manuscript source. -->
                <msIdentifier>
-                  <repository>ORGANIZATION NAME</repository>
+                  <repository>Bodleian Library</repository>
                   <collection><!-- Enter specific archival collection if applicable--></collection>
                   <idno><!--Consult library or WorldCat for this info--></idno>
                </msIdentifier>
@@ -74,7 +75,7 @@
                         <idno type="VIAF">71477273</idno>
                         <idno type="SNAC">62567029</idno>
                      </persName>
-                   to <persName><!--Recipient Name--></persName>, <placeName><!--Location where letter was sent--></placeName>, 
+                   to <persName ref="./Personography.xml#EdgeF1">Frances Anne Edgeworth</persName>, <placeName><!--Location where letter was sent--></placeName>, 
                   <date when="1111-01-01"><!-- Transcribe the date as it appears on the letter itself. Enter a numeric standardized date value in @when. --></date>
                   <!-- <stamp>Enter description, if applicable</stamp>-->
                </head>
