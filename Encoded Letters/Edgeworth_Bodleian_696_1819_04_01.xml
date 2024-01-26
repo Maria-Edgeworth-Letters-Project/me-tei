@@ -76,7 +76,7 @@
                         <idno type="SNAC">62567029</idno>
                      </persName>
                    to <persName ref="./Personography.xml#EdgeF1">Frances Anne Edgeworth</persName>, <placeName><!--Location where letter was sent--></placeName>, 
-                  <date when="1111-01-01"><!-- Transcribe the date as it appears on the letter itself. Enter a numeric standardized date value in @when. --></date>
+                  <date when="1819-04-01">April 1, 1819<!-- Transcribe the date as it appears on the letter itself. Enter a numeric standardized date value in @when. --></date>
                   <!-- <stamp>Enter description, if applicable</stamp>-->
                </head>
                <physDesc>
@@ -102,10 +102,10 @@
       <profileDesc>
          <correspDesc>
             <correspAction type="sent">
-               <persName><!--SENDER NAME--></persName>
+               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth<!--SENDER NAME--></persName>
             </correspAction>
             <correspAction type="received">
-               <persName><!--RECIPIENT NAME--></persName>
+               <persName ref="./Personography.xml#EdgeF1">Frances Edgeworth<!--RECIPIENT NAME--></persName>
             </correspAction>
          </correspDesc>
       </profileDesc>
@@ -118,12 +118,12 @@
    <text>
       <body>
          <div type="letter">
-            <pb n="1" facs="image1.jpg"/>
+            <pb n="1" facs="Edgeworth_Bodleian_696_1819_04_01_page01.jpg"/>
             <!--filenames for photos associated with this letter. Example: <pb n="1" facs="image1.jpg image2.jpg image3.jpg"/> -->
             <opener>
                <dateline><!--If there's no date line, omit this element. Record in the order in which it is written on the letter.-->
                   <name type="place" ref="Id_where"/>
-                  <date when="1816-08-04"/>August 4, 1816. </dateline>
+                  <date when="1819-04-01"/>April 1, 1819</dateline>
                <salute>
                   <persName>
                      <!-- Use if letter has a saluation ("Dear Sir," for example). If not, delete this line.-->
