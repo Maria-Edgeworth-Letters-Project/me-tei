@@ -122,15 +122,27 @@
             <!--filenames for photos associated with this letter. Example: <pb n="1" facs="image1.jpg image2.jpg image3.jpg"/> -->
             <opener>
                <dateline><!--If there's no date line, omit this element. Record in the order in which it is written on the letter.-->
-                  <name type="place" ref="Id_where"/>
-                  <date when="1819-04-01"/>April 1, 1819</dateline>
+                  <name type="place" ref="Id_where"/>J.W. Carr Esq<hi rend="superscript">re</hi>
+                  164
+                  Frognell
+                  Hampstead
+                  Friday morn[superscript]g[/superscript].
+                  <date when="1819-04-01"/>April 1<hi rend="superscript">st</hi>. 1819</dateline>
                <salute>
                   <persName>
-                     <!-- Use if letter has a saluation ("Dear Sir," for example). If not, delete this line.-->
+                     My dearest<persName ref="./Personography.xml#EdgeF1">mother</persName><!-- Use if letter has a saluation ("Dear Sir," for example). If not, delete this line.-->
                   </persName>
                </salute>
             </opener>
-            <p><!-- Begin transcibing the body of the letter here. -->
+            <p>Here we are this delicious spring day<lb/>
+               in the midst of spring delights and<lb/>
+               in the midst of the far greater delights<lb/>
+               of a family happy as our own once<lb/>
+               was and united as they <add>were &amp;</add> are &amp; I hope<lb/>
+               ever will be - Thanks to you - <hi rend="underline"><persName ref="./Personography.xml#EdgeF1">mother</persName></hi><lb/>
+               <hi rend="underline">in law of four families</underline>- a higher title<lb/>
+               to respect than mother of any Fatimia<lb/>
+               sultan or emperor that ever existed<lb/> <!-- Begin transcibing the body of the letter here. -->
             </p>
             <p>
                <!--More body paragraphs as needed.--></p>
