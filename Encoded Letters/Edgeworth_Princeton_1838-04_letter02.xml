@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from Maria Edgeworth to Frances Maria Edgeworth, May 10, 1838</title>
+            <author>Maria Edgeworth</author>
+            <editor ref="Id_who">Alexandra LaGrand</editor>
+            <sponsor>
+               <orgName>Maria Edgeworth Letters Project</orgName>
+            </sponsor>
+            <sponsor>Wake Forest University, University of Tennessee, Xavier University, Texas
+               A&amp;M University</sponsor>
+            <principal>Jessica Richard, Hilary Havens, Robin Runia, Susan Egenolf</principal>
+            <respStmt>
+               <resp>Transcription and coding by</resp>
+               <persName ref="Id_who">Alexandra LaGrand</persName>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>First digital edition in TEI, date: <date when="2024-02-02">February 2, 2024</date>
+            </edition>
+            <respStmt>
+               <orgName ref="http://id.loc.gov/authorities/names/n82003163">Princeton University Library</orgName>
+               <resp> photos include: Edgeworth_Princeton_1838-04_page01.jpg, Edgeworth_Princeton_1838-04_page02.jpg</resp>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Maria Edgeworth Letters Project</authority>
+            <date>2022</date>
+            <availability>
+               <p>Reproduced by courtesy of <orgName ref="http://id.loc.gov/authorities/names/n82003163">Princeton University Library</orgName></p>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons Attribution 4.0 (CC BY 4.0) Unported License</licence>
+            </availability>
+            <idno>Edgeworth_Princeton_1838-04_letter01</idno> 
+         </publicationStmt>
+         <seriesStmt>
+            <title>Maria Edgeworth Letters Project</title>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <repository>Princeton University Library</repository>
+                  <collection></collection>
+                  <idno></idno>
+               </msIdentifier>
+               <head>Letter from 
+                  <persName ref="./Personography.xml#EdgeM1">
+                     <forename>Maria</forename>
+                     <surname>Edgeworth</surname>
+                  </persName>
+                  to <persName ref="./Personography.xml#EdgeF3">Frances Maria Edgeworth</persName>, <placeName></placeName>, 
+                  <date when="1838-05-10">May 10<hi rend="superscript">th</hi> 1838</date>
+               </head>
+               <physDesc>
+                  <p>Includes two cross-written letters on same document</p></physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>Edgeworth’s spelling and punctuation are retained in transcription, except where a
+               word is split at the end of a line and the beginning of the next in a manuscript. The
+               long s and ligatured forms are silently emended.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="./Personography.xml#EdgeF3">Frances Maria Edgeworth</persName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2024-02-02" who="Id_who">Created file for letter, encoded letter</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <pb n="1" facs="Edgeworth_Princeton_1838-04_page01.jpg"/>
+            <opener>
+               <dateline>
+                  <date when="1838-04-06"/>May 10<hi rend="superscript">th</hi> 1838</dateline>
+               <salute>
+                  <persName>To <persName ref="./Personography.xml#EdgeF3">M<hi rend="superscript">rs</hi> Wilson</persName></persName>
+               </salute>
+            </opener>
+            <p>
+               I received this letter<lb/>
+               this morning with <persName ref="./Personography.xml#KnigW1">M<hi rend="superscript">r</hi>. W Knightons</persName><lb/>
+               <title ref="./Workography.xml#Memoi6">Book</title> - It had<lb/>
+               been lying <unclear>at</unclear><lb/>
+               the <placeName ref="./Placeography.xml#Dublin_IE">Dublin</placeName> book<lb/>
+               sellers or somewhere<lb/>
+               a month you see<lb/>
+            </p>
+            <p>
+               In <persName ref="./Personography.xml#WilsL1">Lestocks</persName><lb/>
+               last letter he told<lb/>
+               me that <persName ref="./Personography.xml#BentR1">M<hi rend="superscript">r</hi> Bentley</persName><lb/>
+               would write to<lb/>
+               me in consequence<lb/>
+               of the agreement he<lb/>
+               had made with him<lb/>
+               and would put<lb/>
+               that agreement in<lb/>
+               his letter in the<lb/>
+               form of a proposal<lb/>
+               which I was of course<lb/>
+               to accept in consequence<lb/>
+               of <persName ref="./Personography.xml#WilsL1">Lestocks</persName> agreement<lb/>
+            </p>
+            <p>
+               But I have never heard from <persName ref="./Personography.xml#BentR1">Bentley</persName><lb/>
+               <hi rend="underline">This</hi> letter you<lb/>
+               see is previous to <persName ref="./Personography.xml#WilsL1">Lestocks</persName><lb/>
+               which is date the 23<hi rend="superscript">d</hi> april<lb/>
+               I send a note to Bentley which I beg you to forward to <persName ref="./Personography.xml#WilsL1">Lestock</persName><lb/>
+            </p>
+            <p>
+               <pb n="2" facs="Edgeworth_Princeton_1838-04_page02.jpg"/>
+               as I wish the whole to go<lb/>
+               through her hands<lb/>
+               You ask how I came by<lb/>
+               my new pretty letter <hi rend="underline">Maria</hi><lb/>
+               seal - <persName ref="./Personography.xml#MoorG1">M<hi rend="superscript">r</hi>. George Moore</persName> gave<lb/>
+               it to me with a very nice little<lb/>
+               pencil case with screw in &amp; out<lb/>
+               pencils.<lb/>
+            </p>
+            <closer>
+               Y<hi rend="superscript">r</hi> ever &amp; ever<lb/>
+               <persName ref="./Personography.xml#EdgeM1">Maria E</persName><lb/>
+            </closer>
+         </div>
+      </body>
+      <back> </back>
+   </text>
+</TEI>
