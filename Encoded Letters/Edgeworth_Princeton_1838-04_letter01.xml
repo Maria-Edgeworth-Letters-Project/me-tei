@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from Richard Bentley to Maria Edgeworth, April 6, 1838</title>
+            <author>Richard Bentley</author>
+            <editor ref="Id_who">Alexandra LaGrand</editor>
+            <sponsor>
+               <orgName>Maria Edgeworth Letters Project</orgName>
+            </sponsor>
+            <sponsor>Wake Forest University, University of Tennessee, Xavier University, Texas
+               A&amp;M University</sponsor>
+            <principal>Jessica Richard, Hilary Havens, Robin Runia, Susan Egenolf</principal>
+            <respStmt>
+               <resp>Transcription and coding by</resp>
+               <persName ref="Id_who">Alexandra LaGrand</persName>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>First digital edition in TEI, date: <date when="2024-02-02">February 2, 2024</date>
+            </edition>
+            <respStmt>
+               <orgName ref="http://id.loc.gov/authorities/names/n82003163">Princeton University Library</orgName>
+               <resp> photos include: Edgeworth_Princeton_1838-04_page01.jpg, Edgeworth_Princeton_1838-04_page02.jpg</resp>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Maria Edgeworth Letters Project</authority>
+            <date>2022</date>
+            <availability>
+               <p>Reproduced by courtesy of <orgName ref="http://id.loc.gov/authorities/names/n82003163">Princeton University Library</orgName></p>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons Attribution 4.0 (CC BY 4.0) Unported License</licence>
+            </availability>
+            <idno>Edgeworth_Princeton_1838-04_letter01</idno> 
+         </publicationStmt>
+         <seriesStmt>
+            <title>Maria Edgeworth Letters Project</title>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <repository>Princeton University Library</repository>
+                  <collection></collection>
+                  <idno></idno>
+               </msIdentifier>
+               <head>Letter from 
+                  <persName ref="./Personography.xml#BentR1">
+                        <forename>Richard</forename>
+                        <surname>Bentley</surname>
+                        <date>1794-1871</date>
+                     </persName>
+                  to <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>, <placeName></placeName>, 
+                  <date when="1838-04-06">April 6 1838</date>
+               </head>
+               <physDesc>
+                  <p>Includes two cross-written letters on same document</p></physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>Edgeworth’s spelling and punctuation are retained in transcription, except where a
+               word is split at the end of a line and the beginning of the next in a manuscript. The
+               long s and ligatured forms are silently emended.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="./Personography.xml#BentR1">Richard Bentley</persName>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2024-02-02" who="Id_who">Created file for letter, encoded letter</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <pb n="1" facs="Edgeworth_Princeton_1838-04_page01.jpg"/>
+            <opener>
+               <dateline>
+                  <name type="place" ref="Id_where"/><placeName ref="./Placeography.xml#New-Burlington-Street_ENK">New Burlington Street</placeName>
+                  <date when="1838-04-06"/>April 6 1838</dateline>
+               <salute>
+                  <persName>Madam</persName>
+               </salute>
+            </opener>
+            <p>
+               I do myself the pleasure of<lb/>
+               transmitting to you an early copy of<lb/>
+               the <title ref="./Workography.xml#Memoi6">Memoirs of Sir William <choice><orig>Knighten</orig><reg>Knighton</reg></choice></title><lb/>
+               which will be published in a few days,<lb/>
+               thinking that it may <del>tr</del> be likely to<lb/>
+               afford you some entertainment<lb/>
+            </p>
+            <p>
+               It has given me much <choice><orig>satis-<lb/>
+                  faction</orig><reg>satisfaction</reg></choice> to hear from <persName ref="./Personography.xml#WilsL1">Mr Lestock<lb/>
+               Wilson</persName> that I am to have the <choice><orig>ho-<lb/>
+               nor</orig><reg>honor</reg></choice> of including <title ref="./Workography.xml#Helen1">"Helen"</title> in my<lb/>
+            </p>
+            <p>
+               <pb n="2" facs="Edgeworth_Princeton_1838-04_page02.jpg"/>
+               series of "Standard Novels"<lb/>
+            </p>
+            <closer>
+               I have the honor to be<lb/>
+               Madam<lb/>
+               Your faithful Servant<lb/>
+               <persName ref="./Personography.xml#BentR1">Richard Bentley</persName><lb/>
+            </closer>
+            <closer>
+               <address>
+                  <addrLine>To <persName ref="./Personography.xml#EdgeM1">Miss Edgeworth</persName></addrLine><lb/>
+               </address>
+            </closer>
+         </div>
+      </body>
+      <back> </back>
+   </text>
+</TEI>
