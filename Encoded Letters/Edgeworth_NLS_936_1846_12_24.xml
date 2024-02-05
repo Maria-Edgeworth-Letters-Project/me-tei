@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from John Gibson Lockhart to Maria Edgeworth, December 24, 1846</title>
+            <author>Maria Edgeworth</author>
+            <editor ref="Id_who">Alexandra LaGrand</editor>
+            <sponsor>
+               <orgName>Maria Edgeworth Letters Project</orgName>
+            </sponsor>
+            <sponsor>Wake Forest University, University of Tennessee, Xavier University, Texas
+               A&amp;M University</sponsor>
+            <principal>Jessica Richard, Hilary Havens, Robin Runia, Susan Egenolf</principal>
+            <respStmt>
+               <resp>Transcription and coding by</resp>
+               <persName ref="Id_who">Alexandra LaGrand</persName>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>First digital edition in TEI, date: <date when="2024-02-05">February 5, 2024</date>
+            </edition>
+            <respStmt>
+               <orgName type="naf" ref="Id_who">National Library of Scotland</orgName>
+               <resp> photos include: Edgeworth_NLS_936_1846_12_24_page01.jpg, Edgeworth_NLS_936_1846_12_24_page02.jpg, Edgeworth_NLS_936_1846_12_24_page03.jpg, Edgeworth_NLS_936_1846_12_24_page04.jpg, Edgeworth_NLS_936_1846_12_24_page05.jpg, Edgeworth_NLS_936_1846_12_24_page06.jpg, Edgeworth_NLS_936_1846_12_24_page07.jpg</resp>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Maria Edgeworth Letters Project</authority>
+            <date>2022</date>
+            <availability>
+               <p>Reproduced by courtesy of the <orgName ref="http://id.loc.gov/authorities/names/n80044899">National Library of Scotland</orgName>
+               </p>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons Attribution 4.0 (CC BY 4.0) Unported License</licence>
+            </availability>
+            <idno>Edgeworth_NLS_936_1846_12_24</idno> 
+         </publicationStmt>
+         <seriesStmt>
+            <title>Maria Edgeworth Letters Project</title>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <repository>National Library of Scotland</repository>
+                  <collection></collection>
+                  <idno></idno>
+               </msIdentifier>
+               <head>Letter from 
+                  <persName ref="./Personography.xml#LockJ1">
+                        <forename>John Gibson</forename>
+                        <surname>Lockhart</surname>
+                     </persName>
+                  to <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>, <placeName></placeName>, 
+                  <date when="1846-12-24">Dec 24 1846</date>
+                  <stamp>Archival stamp from National Library of Scotland on second page of letter</stamp>
+               </head>
+               <physDesc></physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>Edgeworth’s spelling and punctuation are retained in transcription, except where a
+               word is split at the end of a line and the beginning of the next in a manuscript. The
+               long s and ligatured forms are silently emended.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="./Personography.xml#LockJ1">John Gibson Lockhart</persName>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2024-02-05" who="Id_who">Created file for letter, began encoding letter</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <pb n="1" facs="Edgeworth_NLS_936_1846_12_24_page01.jpg"/>
+            <opener>
+               <dateline>
+                  <name type="place" ref="Id_where"/>London
+                  <date when="1846-12-24"/>Dec 24 1846</dateline>
+               <salute>
+                  <persName>My dear Friend</persName>
+               </salute>
+            </opener>
+            <p>
+               I shd not have
+               let others be before me in men-
+               -tioning my little woman's intended
+               wedding, but that at the time
+               when I found her romance near
+               its last chapter, I was afflicted
+               sadly by recurring reports of
+               evil abot her uncle in India
+               which indeed [underline]for me[/underline] made it
+               impossible [unclear]to enter[/unclear] rightly at the
+               feelings of the younger generation.
+               Moreover I was then as I am
+               still in a poor uncomfortable
+               state of health myself - but of
+               that no more. And I know how
+               heartily you will rejoice that I can
+               now
+            </p>
+           <p>
+              <pb n="2" facs="Edgeworth_NLS_936_1846_12_24_page02.jpg"/>
+              report favourably as this W. [unclear][/unclear]
+              I had by last mail a letter from
+              himself dated 22[superscript]d[/superscript] October. He
+              had removed on the 10[superscript]th[/superscript] to the
+              home of a friend of his &amp; relation
+              &amp; namesake of mine some few
+              miles on the way frm Bangalore
+              to Madras. During the intervening
+              days he had been sensibly
+              gathering strength &amp; he &amp; his wife
+              &amp; his host (whose letters also I
+              have seen) concurred in
+              thinking that he w[superscript]d[/superscript] speedily
+              be able to continue his journey
+              and embark for England. He
+              cd have no other chance but in
+              the sea voyage &amp; home of a
+              [note]48[/note]
+              permanent care after a most
+              severe case of [unclear]abscess[/unclear] in the
+              liver. I hope &amp; trust I shall
+              have him here anon &amp; that
+              his constitution may have
+              so rallied as [unclear]&amp;[/unclear] to afford him
+              the prospect of a tranquil
+              Evening of life in the country.
+              That he shd be well enough
+              for active service, at least
+              for several years to come, my
+              medical friends assure me is
+              in the highest degree improbable.
+              Since you will not come to
+              Londn I must go to Ireland
+              &amp; bye &amp; bye I am likely to be
+              a free batchelor
+            </p>
+            <p>
+               <pb n="3" facs="Edgeworth_NLS_936_1846_12_24_page03.jpg"/>
+               Eugh! My son is daily expecting
+               to join his regimt at Canterbury
+               &amp; Miss Charlotte will I suppose
+               be taken fr me at Easter
+               or at latest in the Summer.
+               They are both now in Scotland
+               where had I been well engh
+               to travel I shd have been
+               w them at Chrs for line season
+               - but that over they will come
+               up without delay. They have
+               had a very happy Summer &amp;
+               Autum there &amp; [underline]he[/underline] may
+               not have the like again
+               for years to come.
+            </p>
+            <p>
+               <pb n="4" facs="Edgeworth_NLS_936_1846_12_24_page04.jpg"/>
+               [note]49[/note]
+               Charlotte will be a terrible
+               loss to my fireside - but I
+               must consider how soon the
+               railway is to annihilate
+               distance - &amp; let any rate
+               I am not so silly as to
+               let my thoughts rest on anything
+               but the great comfort of
+               knowing that she is to be
+               provided w a kind protector
+               of her own standing in place
+               of[insertion]a[/insertion] worn &amp; weary papa
+               I think myself entitled
+               to count on [unclear]her[/unclear] many chances
+               chances
+            </p>
+            <p>
+               <pb n="5" facs="Edgeworth_NLS_936_1846_12_24_page05.jpg"/>
+               as most fathers ought to
+               anticipate of a tranquil
+               &amp; happy lot for my
+               child: &amp; the residence of
+               her [underline]promisso[/underline] is within
+               15 miles of my brother's
+               place, so that in days to
+               come her brother &amp; she
+               are likely to be my neighbours
+               I know well that you
+               [unclear]have had[/unclear] Sad new
+               affliction - but nothing
+               1846 De[superscript]f[/superscript]
+               Mr Lockhart
+            </p>
+            <p>
+               <pb n="6" facs="Edgeworth_NLS_936_1846_12_24_page06.jpg"/>
+               [note]50[/note
+               can ever render you indifferent
+               to either the good or the evil
+               that befals a friend - I
+               hope Mrs Wilson when
+               she must leave you
+               is to bring me some
+               comfortable tidings
+            </p>
+            <closer>
+               [unclear][/unclear] yrs
+               [underline]J G Lockhart[/underline]
+            </closer>
+            <closer><!--Use the <closer> element again to hold Address Leaf information.-->
+               <address>
+                  <addrLine>
+                     1846
+                     Lockhart
+                  </addrLine>
+               </address>
+            </closer>
+         </div>
+      </body>
+      <back> </back>
+   </text>
+</TEI>
