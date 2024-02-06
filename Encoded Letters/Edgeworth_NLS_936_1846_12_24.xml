@@ -80,6 +80,7 @@
       </profileDesc>
       <revisionDesc>
          <change when="2024-02-05" who="Id_who">Created file for letter, began encoding letter</change>
+         <change when="2024-02-06" who="Id_who">Finished encoding letter</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -88,143 +89,141 @@
             <pb n="1" facs="Edgeworth_NLS_936_1846_12_24_page01.jpg"/>
             <opener>
                <dateline>
-                  <name type="place" ref="Id_where"/>London
+                  <name type="place" ref="Id_where"/><placeName ref="./Placeography.xml#London_ENK">London</placeName>
                   <date when="1846-12-24"/>Dec 24 1846</dateline>
                <salute>
                   <persName>My dear Friend</persName>
                </salute>
             </opener>
             <p>
-               I shd not have
-               let others be before me in men-
-               -tioning my little woman's intended
-               wedding, but that at the time
-               when I found her romance near
-               its last chapter, I was afflicted
-               sadly by recurring reports of
-               evil abot her uncle in India
-               which indeed [underline]for me[/underline] made it
-               impossible [unclear]to enter[/unclear] rightly at the
-               feelings of the younger generation.
-               Moreover I was then as I am
-               still in a poor uncomfortable
-               state of health myself - but of
-               that no more. And I know how
-               heartily you will rejoice that I can
+               I <choice><orig>shd</orig><reg>should</reg></choice> not have<lb/>
+               let others be before me in <choice><orig>men-<lb/>
+               -tioning</orig><reg>mentioning</reg></choice> my little woman's intended<lb/>
+               wedding, but that at the time<lb/>
+               when I found her romance near<lb/>
+               its last chapter, I was afflicted<lb/>
+               sadly by recurring reports of<lb/>
+               evil <choice><orig>abot</orig><reg>about</reg></choice> her uncle in <placeName ref="./Placeography.xml#IN">India</placeName><lb/>
+               which indeed <hi rend="underline">for me</hi> made it<lb/>
+               impossible <unclear>to enter</unclear> rightly at the<lb/>
+               feelings of the younger generation.<lb/>
+               Moreover I was then as I am<lb/>
+               still in a poor uncomfortable<lb/>
+               state of health myself - but of<lb/>
+               that no more. And I know how<lb/>
+               heartily you will rejoice that I can<lb/>
                now
             </p>
            <p>
               <pb n="2" facs="Edgeworth_NLS_936_1846_12_24_page02.jpg"/>
-              report favourably as this W. [unclear][/unclear]
-              I had by last mail a letter from
-              himself dated 22[superscript]d[/superscript] October. He
-              had removed on the 10[superscript]th[/superscript] to the
-              home of a friend of his &amp; relation
-              &amp; namesake of mine some few
-              miles on the way frm Bangalore
-              to Madras. During the intervening
-              days he had been sensibly
-              gathering strength &amp; he &amp; his wife
-              &amp; his host (whose letters also I
-              have seen) concurred in
-              thinking that he w[superscript]d[/superscript] speedily
-              be able to continue his journey
-              and embark for England. He
-              cd have no other chance but in
-              the sea voyage &amp; home of a
-              [note]48[/note]
-              permanent care after a most
-              severe case of [unclear]abscess[/unclear] in the
-              liver. I hope &amp; trust I shall
-              have him here anon &amp; that
-              his constitution may have
-              so rallied as [unclear]&amp;[/unclear] to afford him
-              the prospect of a tranquil
-              Evening of life in the country.
-              That he shd be well enough
-              for active service, at least
-              for several years to come, my
-              medical friends assure me is
-              in the highest degree improbable.
-              Since you will not come to
-              Londn I must go to Ireland
-              &amp; bye &amp; bye I am likely to be
-              a free batchelor
+              report favourably as this W. <unclear>Scott</unclear><lb/>
+              I had by last mail a letter from<lb/>
+              himself dated 22<hi rend="superscript">d</hi> October. He<lb/>
+              had removed on the 10<hi rend="superscript">th</hi> to the<lb/>
+              home of a friend of his &amp; relation<lb/>
+              &amp; namesake of mine some few<lb/>
+              miles on the way <choice><orig>frm</orig><reg>from</reg></choice> <placeName ref="./Placeography.xml#Bangalore_IN">Bangalore</placeName><lb/>
+              to <placeName ref="./Placeography.xml#Madras_IN">Madras</placeName>. During the intervening<lb/>
+              days he had been sensibly<lb/>
+              gathering strength &amp; he &amp; his wife<lb/>
+              &amp; his host (whose letters also I<lb/>
+              have seen) concurred in<lb/>
+              thinking that he <choice><orig>w<hi rend="superscript">d</hi></orig><reg>would</reg></choice> speedily<lb/>
+              be able to continue his journey<lb/>
+              and embark for <placeName ref="./Placeography.xml#ENK">England</placeName>. He<lb/>
+              <choice><orig>cd</orig><reg>could</reg></choice> have no other chance but in<lb/>
+              the sea voyage &amp; home of a<lb/>
+              permanent care after a most<lb/>
+              severe case of <unclear>abscess</unclear> in the<lb/>
+              liver. I hope &amp; trust I shall<lb/>
+              have him here anon &amp; that<lb/>
+              his constitution may have<lb/>
+              so rallied as <unclear>&amp;</unclear> to afford him<lb/>
+              the prospect of a tranquil<lb/>
+              Evening of life in the country.<lb/>
+              That he <choice><orig>shd</orig><reg>should</reg></choice> be well enough<lb/>
+              for active service, at least<lb/>
+              for several years to come, my<lb/>
+              medical friends assure me is<lb/>
+              in the highest degree improbable.<lb/>
+              Since you will not come to<lb/>
+              <placeName ref="./Placeography.xml#London_ENK"><choice><orig>Londn</orig><reg>London</reg></choice></placeName> I must go to <placeName ref="./Placeography.xml#IE">Ireland</placeName><lb/>
+              &amp; bye &amp; bye I am likely to be<lb/>
+              a free <choice><orig>batchelor</orig><reg>bachelor</reg></choice><lb/>
             </p>
             <p>
                <pb n="3" facs="Edgeworth_NLS_936_1846_12_24_page03.jpg"/>
-               Eugh! My son is daily expecting
-               to join his regimt at Canterbury
-               &amp; Miss Charlotte will I suppose
-               be taken fr me at Easter
-               or at latest in the Summer.
-               They are both now in Scotland
-               where had I been well engh
-               to travel I shd have been
-               w them at Chrs for line season
-               - but that over they will come
-               up without delay. They have
-               had a very happy Summer &amp;
-               Autum there &amp; [underline]he[/underline] may
-               not have the like again
-               for years to come.
+               Eugh! <persName ref="./Personography.xml#LockW1">My son</persName> is daily expecting<lb/>
+               to join his <choice><orig>regimt</orig><reg>regiment</reg></choice> at <placeName ref="./Placeography.xml#Canterbury_ENK">Canterbury</placeName><lb/>
+               &amp; <persName ref="./Personography.xml#LockC1">Miss Charlotte</persName> will I suppose<lb/>
+               be taken <choice><orig>fr</orig><reg>from</reg></choice> me at Easter<lb/>
+               or at latest in the Summer.<lb/>
+               They are both now in <placeName ref="./Placeography.xml#STK">Scotland</placeName><lb/>
+               where had I been well <choice><orig>engh</orig><reg>enough</reg></choice><lb/>
+               to travel I <choice><orig>shd</orig><reg>should</reg></choice> have been<lb/>
+               <choice><orig>w</orig><reg>with</reg></choice> them at Chrs for line season<lb/>
+               - but that over they will come<lb/>
+               up without delay. They have<lb/>
+               had a very happy Summer &amp;<lb/>
+               Autum there &amp; <hi rend="underline">he</hi> may<lb/>
+               not have the like again<lb/>
+               for years to come.<lb/>
             </p>
             <p>
                <pb n="4" facs="Edgeworth_NLS_936_1846_12_24_page04.jpg"/>
-               [note]49[/note]
-               Charlotte will be a terrible
-               loss to my fireside - but I
-               must consider how soon the
-               railway is to annihilate
-               distance - &amp; let any rate
-               I am not so silly as to
-               let my thoughts rest on anything
-               but the great comfort of
-               knowing that she is to be
-               provided w a kind protector
-               of her own standing in place
-               of[insertion]a[/insertion] worn &amp; weary papa
-               I think myself entitled
-               to count on [unclear]her[/unclear] many chances
-               chances
+               <persName ref="./Personography.xml#LockC1">Charlotte</persName> will be a terrible<lb/>
+               loss to my fireside - but I<lb/>
+               must consider how soon the<lb/>
+               railway is to annihilate<lb/>
+               distance - &amp; let any rate<lb/>
+               I am not so silly as to<lb/>
+               let my thoughts rest on anything<lb/>
+               but the great comfort of<lb/>
+               knowing that she is to be<lb/>
+               provided <choice><orig>w</orig><reg>with</reg></choice> a kind protector<lb/>
+               of her own standing in place<lb/>
+               of <add>a</add> worn &amp; weary papa<lb/>
+               I think myself entitled<lb/>
+               to count on <unclear>her</unclear> many chances<lb/>
             </p>
             <p>
                <pb n="5" facs="Edgeworth_NLS_936_1846_12_24_page05.jpg"/>
-               as most fathers ought to
-               anticipate of a tranquil
-               &amp; happy lot for my
-               child: &amp; the residence of
-               her [underline]promisso[/underline] is within
-               15 miles of my brother's
-               place, so that in days to
-               come her brother &amp; she
-               are likely to be my neighbours
-               I know well that you
-               [unclear]have had[/unclear] Sad new
-               affliction - but nothing
-               1846 De[superscript]f[/superscript]
-               Mr Lockhart
+               as most fathers ought to<lb/>
+               anticipate of a tranquil<lb/>
+               &amp; happy lot for my<lb/>
+               child: &amp; the residence of<lb/>
+               her <hi rend="underline">promisso</hi> is within<lb/>
+               15 miles of my brother's<lb/>
+               place, so that in days to<lb/>
+               come her <persName ref="./Personography.xml#LockW1">brother</persName> &amp; she<lb/>
+               are likely to be my neighbours<lb/>
+            </p>
+            <p>
+               I know well that you<lb/>
+               <unclear>have had</unclear> Sad new<lb/>
+               affliction - but nothing<lb/>
+               1846 De<hi rend="superscript">f</hi><lb/>
+               <persName ref="./Personography.xml#LockJ1">Mr Lockhart</persName><lb/>
             </p>
             <p>
                <pb n="6" facs="Edgeworth_NLS_936_1846_12_24_page06.jpg"/>
-               [note]50[/note
-               can ever render you indifferent
-               to either the good or the evil
-               that befals a friend - I
-               hope Mrs Wilson when
-               she must leave you
-               is to bring me some
-               comfortable tidings
+               can ever render you indifferent<lb/>
+               to either the good or the evil<lb/>
+               that <choice><orig>befals</orig><reg>befalls</reg></choice> a friend - I<lb/>
+               hope <persName ref="./Personography.xml#EdgeF3">Mrs Wilson</persName> when<lb/>
+               she must leave you<lb/>
+               is to bring me some<lb/>
+               comfortable tidings<lb/>
             </p>
             <closer>
-               [unclear][/unclear] yrs
-               [underline]J G Lockhart[/underline]
+               <unclear></unclear> <choice><orig>yrs</orig><reg>yours</reg></choice><lb/>
+               <persName ref="./Personography.xml#LockJ1"><hi rend="underline">J G Lockhart</hi></persName><lb/>
             </closer>
-            <closer><!--Use the <closer> element again to hold Address Leaf information.-->
+            <closer>
                <address>
                   <addrLine>
-                     1846
-                     Lockhart
+                     1846<lb/>
+                     <persName ref="./Personography.xml#LockJ1">Lockhart</persName><lb/>
                   </addrLine>
                </address>
             </closer>
