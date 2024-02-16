@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from J.G. Lockhart to Maria Edgeworth, July 30, 1842</title>
+            <author>J.G. Lockhart</author>
+            <editor ref="Id_who">Alexandra LaGrand</editor>
+            <sponsor>
+               <orgName>Maria Edgeworth Letters Project</orgName>
+            </sponsor>
+            <sponsor>Wake Forest University, University of Tennessee, Xavier University, Texas
+               A&amp;M University</sponsor>
+            <principal>Jessica Richard, Hilary Havens, Robin Runia, Susan Egenolf</principal>
+            <respStmt>
+               <resp>Transcription and coding by</resp>
+               <persName ref="Id_who">Alexandra LaGrand</persName>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>First digital edition in TEI, date: <date when="2024-02-16">February 16, 2024</date>
+            </edition>
+            <respStmt>
+               <orgName type="naf" ref="Id_who">National Library of Scotland</orgName>
+               <resp> photos include: Edgeworth_NLS_936_1842_07_30_page01.jpg, Edgeworth_NLS_936_1842_07_30_page02.jpg, Edgeworth_NLS_936_1842_07_30_page03.jpg, Edgeworth_NLS_936_1842_07_30_page04.jpg</resp>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Maria Edgeworth Letters Project</authority>
+            <date>2022</date>
+            <availability>
+               <p>Reproduced by courtesy of the <orgName ref="http://id.loc.gov/authorities/names/n80044899">National Library of Scotland</orgName>
+               </p>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons Attribution 4.0 (CC BY 4.0) Unported License</licence>
+            </availability>
+            <idno>Edgeworth_NLS_936_1842_07_30</idno> 
+         </publicationStmt>
+         <seriesStmt>
+            <title>Maria Edgeworth Letters Project</title>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <repository>National Library of Scotland</repository>
+                  <collection></collection>
+                  <idno></idno>
+               </msIdentifier>
+               <head>Letter from 
+                  <persName ref="./Personography.xml#LockJ1">
+                     <forename>John Gibson</forename>
+                     <surname>Lockhart</surname>
+                  </persName>
+                  to <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>, <placeName></placeName>, 
+                  <date when="1842-07-30">July 30. 1842</date>
+               </head>
+               <physDesc></physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>Edgeworth’s spelling and punctuation are retained in transcription, except where a
+               word is split at the end of a line and the beginning of the next in a manuscript. The
+               long s and ligatured forms are silently emended.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="./Personography.xml#LockJ1">John Gibson Lockhart</persName>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2024-02-16" who="Id_who">Created file for letter, encoded letter</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <pb n="1" facs="Edgeworth_NLS_936_1842_07_30_page01.jpg"/>
+            <opener>
+               <dateline>
+                  <date when="1842-07-30"/>July 30. 1842</dateline>
+               <salute>
+                  <persName>My dear <persName ref="./Personography.xml#EdgeM1">Miss Edgeworth</persName></persName>
+               </salute>
+            </opener>
+            <p>
+               After<lb/>
+               sundry vain attempts to see<lb/>
+               <persName ref="./Personography.xml#BentR1">M<hi rend="superscript">r</hi> Bentley</persName> I wrote to him on<lb/>
+               the subject of your last letter &amp;<lb/>
+               I enclose his tardy answer<lb/>
+               which will not perhaps appear<lb/>
+               a very satisfactory one. Alas!<lb/>
+               I fear I have exhausted my<lb/>
+               small powers on this occasion<lb/>
+               - but at any rate I shall be<lb/>
+               glad to be told the result. The<lb/>
+               book <unclear>trade</unclear> has long been in<lb/>
+               a wretched condition - that<lb/>
+               I am sure every literary<lb/>
+               person will attest - and<lb/>
+               until we see a <hi rend="underline">general</hi><lb/>
+               revival I fear there is no<lb/>
+            </p>
+            <p>
+               <pb n="2" facs="Edgeworth_NLS_936_1842_07_30_page02.jpg"/>
+               chance of a beneficial change<lb/>
+               in this department. The numbers<lb/>
+               of cases of <unclear>distress</unclear> that come<lb/>
+               across me are most <unclear>grievous</unclear>,<lb/>
+               - overproduction has ruined this<lb/>
+               like other manufactures and it<lb/>
+               at least looks very much as if<lb/>
+               machinery had interfered fatally<lb/>
+               with the labour of the intellectual<lb/>
+               animal. Thank you for<lb/>
+               your news of <persName ref="./Personography.xml#WilsL1">M<hi rend="superscript">r</hi> Wilson</persName> - I was<lb/>
+               much an invalid when one<lb/>
+               of <choice><orig>y<hi rend="superscript">r</hi></orig><reg>your</reg></choice> brothers was good enough to<lb/>
+               call here otherwise I <choice><orig>shd</orig><reg>should</reg></choice> have<lb/>
+               found him out - but I hope he<lb/>
+               is <unclear>there</unclear> be with you when you delight<lb/>
+            </p>
+            <p>
+               <pb n="3" facs="Edgeworth_NLS_936_1842_07_30_page03.jpg"/>
+               <unclear>in by</unclear> reappearing here in Nov<hi rend="superscript">r</hi><lb/>
+               Your kind messages affair shall<lb/>
+               not be kept from <persName ref="./Personography.xml#LockC1">Charlotte</persName> &amp;<lb/>
+               <persName ref="./Personography.xml#WatKX1">Miss Watkins</persName>. They have been<lb/>
+               bathing at <placeName ref="./Placeography.xml#Scarborough_ENK">Scarborough</placeName> for<lb/>
+               some weeks &amp; removed a day<lb/>
+               or two ago to <placeName ref="./Placeography.xml#Rokeby_ENK">Rokeby</placeName> where I<lb/>
+               hope to join them <unclear>by &amp; bye</unclear>. My<lb/>
+               tall boy is also there, shooting<lb/>
+               rabbits &amp; so forth, in anticipation<lb/>
+               of being allowed to attack<lb/>
+               the grouse farther to the North<lb/>
+               in September. They are all<lb/>
+               well &amp; happy.<lb/>
+               I had not observed <persName ref="./Personography.xml#AlisA1"><unclear>Sir Arh<hi rend="superscript">d</hi></unclear><lb/>
+               Alison's</persName> furious puff of<lb/>
+               <persName ref="./Personography.xml#LondF1">Miladi Londonderry</persName>. Her<lb/>
+            </p>
+            <p>
+               <pb n="4" facs="Edgeworth_NLS_936_1842_07_30_page04.jpg"/>
+               little sketches of <placeName ref="./Placeography.xml#RU">Russia</placeName> - mere<lb/>
+               trifles - chiefly descriptions of<lb/>
+               ladies' dresses - were printed<lb/>
+               3 or 4 years ago in one of the<lb/>
+               Annuals - but which I can't<lb/>
+               say. I remember thinking<lb/>
+               them better than her <persName ref="./Personography.xml#VaneC1">Lord's</persName><lb/>
+               "Narratives" - but not being<lb/>
+               at all sure that either Lord<lb/>
+               or Lady had had much hand<lb/>
+               in what came forth under<lb/>
+               their august names, I<lb/>
+               did not study it carefully as<lb/>
+               the Historian. After all the<lb/>
+               <placeName ref="./Placeography.xml#Moscow_RU">Moscow</placeName> described by <persName ref="./Personography.xml#LondF1">Lady L</persName><lb/>
+               could be that <choice><orig>w</orig><reg>with</reg></choice> which <hi rend="underline">he</hi> had<lb/>
+               to do.
+            </p>
+            <closer>
+               Ever Most truly yours<lb/>
+               <persName ref="./Personography.xml#LockJ1">J G Lockhart</persName><lb/>
+            </closer>
+         </div>
+      </body>
+      <back> </back>
+   </text>
+</TEI>
