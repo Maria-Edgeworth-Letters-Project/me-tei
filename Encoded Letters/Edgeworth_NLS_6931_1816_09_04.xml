@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from Frances and Maria Edgeworth to Esther Brinkley, September 4, 1816</title>
+            <author>Frances Edgeworth</author>
+            <author>Maria Edgeworth</author>
+            <editor ref="Id_who">Alexandra LaGrand</editor>
+            <sponsor>
+               <orgName>Maria Edgeworth Letters Project</orgName>
+            </sponsor>
+            <sponsor>Wake Forest University, University of Tennessee, Xavier University, Texas
+               A&amp;M University</sponsor>
+            <principal>Jessica Richard, Hilary Havens, Robin Runia, Susan Egenolf</principal>
+            <respStmt>
+               <resp>Transcription and coding by</resp>
+               <persName ref="Id_who">Alexandra LaGrand</persName>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>First digital edition in TEI, date: <date when="2024-02-18">February 18, 2024</date>
+            </edition>
+            <respStmt>
+               <orgName type="naf" ref="Id_who">National Library of Scotland</orgName>
+               <resp> photos include: Edgeworth_NLS_6931_1816_09_04_page01.jpg, 	Edgeworth_NLS_6931_1816_09_04_page02.jpg</resp>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Maria Edgeworth Letters Project</authority>
+            <date>2022</date>
+            <availability>
+               <p>Reproduced by courtesy of the <orgName ref="http://id.loc.gov/authorities/names/n80044899">National Library of Scotland</orgName>
+               </p>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons Attribution 4.0 (CC BY 4.0) Unported License</licence>
+            </availability>
+            <idno>Edgeworth_NLS_6931_1816_09_04</idno> 
+         </publicationStmt>
+         <seriesStmt>
+            <title>Maria Edgeworth Letters Project</title>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <repository>National Library of Scotland</repository>
+                  <collection></collection>
+                  <idno></idno>
+               </msIdentifier>
+               <head>Letter from 
+                  <persName ref="./Personography.xml#EdgeF2">
+                     <forename>Frances</forename>
+                     <surname>Edgeworth</surname>
+                  </persName> and
+                  <persName ref="./Personography.xml#EdgeM1">
+                     <forename>Maria</forename>
+                     <surname>Edgeworth</surname>
+                  </persName>
+                  to <persName ref="./Personography.xml#BrinE1">Esther Brinkley</persName>, <placeName ref="./Placeography.xml#Dublin_IE">Dublin</placeName>, 
+                  <date when="1816-09-04">4<hi rend="superscript">th</hi> September 1816</date>
+                  <stamp>Stamp on address leaf, mostly unclear, but readable text includes "SE 9"</stamp>
+               </head>
+               <physDesc></physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>Edgeworth’s spelling and punctuation are retained in transcription, except where a
+               word is split at the end of a line and the beginning of the next in a manuscript. The
+               long s and ligatured forms are silently emended.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="./Personography.xml#EdgeF2">Frances Edgeworth</persName>
+               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="./Personography.xml#BrinE1">Esther Brinkley</persName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2024-02-18" who="Id_who">Created file for letter, encoded letter</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <pb n="1" facs="Edgeworth_NLS_6931_1816_09_04_page01.jpg"/>
+            <opener>
+               <dateline>
+                  <name type="place" ref="Id_where"/><placeName ref="./Placeography.xml#Edgeworthstown_IE">Edgeworthstown</placeName>
+                  <date when="1816-09-04"/>4<hi rend="superscript">th</hi> September 1816</dateline>
+               <salute>
+                  <persName>My dear <persName ref="./Personography.xml#BrinE1">M<hi rend="superscript">rs</hi> Brinkley</persName></persName>
+               </salute>
+            </opener>
+            <p>
+               Both <persName ref="./Personography.xml#EdgeR1">M<hi rend="superscript">r</hi> Edgeworth</persName> and I feel<lb/>
+               great pleasure at the thought of seeing you<lb/>
+               and your family <unclear>and</unclear> feel much obliged by<lb/>
+               you kind recollection of your promise -<lb/>
+               We shall therefore expect to see you and the <persName ref="./Personography.xml#BrinJ1">D<hi rend="superscript">r</hi></persName><lb/>
+               <persName ref="./Personography.xml#BrinS1">Miss Brinkley</persName> and my friend <persName ref="./Personography.xml#JohnX2">M<hi rend="superscript">r</hi> Johns</persName> on Thursday<lb/>
+               <del></del> the 12<hi rend="superscript">th</hi> and I hope the <persName ref="./Personography.xml#PondJ1">Astronomer Royal</persName><lb/>
+               will use his power over the clouds to procure us<lb/>
+               better weather than we now have<lb/>
+               As <persName ref="./Personography.xml#EdgeR1">M<hi rend="superscript">r</hi> Edgeworth</persName> and <persName ref="./Personography.xml#EdgeM1">Maria</persName> both write<lb/>
+            </p>
+            <closer>
+               I will not any longer encroach on your<lb/>
+               time dear <persName ref="./Personography.xml#BrinE1">M<hi rend="superscript">rs</hi> Brinkley</persName> but assure you<lb/>
+               of the sincere regard of your obliged<lb/>
+               &amp; affectionate <persName ref="./Personography.xml#EdgeF2">F. E</persName><lb/>
+            </closer>
+            <postscript>
+               <p>
+                  My dear <persName ref="./Personography.xml#BrinE1">M<hi rend="superscript">rs</hi> Brinkley</persName> I have only to<lb/>
+                  say - Joy! - Joy! &amp; thanks for your<lb/>
+                  affectionate letter and substantial good news<lb/>
+                  Yours with grateful<lb/>
+                  <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName><lb/>
+                  regard<lb/>
+               </p>
+            </postscript>
+            <closer>
+               <address>
+                  <addrLine>Sunday</addrLine><lb/>
+                  <addrLine>My dear <persName ref="./Personography.xml#BrinE1">M<hi rend="superscript">rs</hi> B.</persName> this letter was</addrLine><lb/>
+                  <addrLine>omitted in a packet sent to the</addrLine><lb/>
+                  <addrLine>Castle on Thursday - let me hear</addrLine><lb/>
+                  <addrLine>from you whether we shall see you</addrLine><lb/>
+                  <addrLine>on Wednesday or Thursday</addrLine><lb/>
+                  <addrLine>1816 <del></del></addrLine><lb/>
+                  <addrLine><persName ref="./Personography.xml#BrinE1">M<hi rend="superscript">rs</hi> Brinkley</persName></addrLine><lb/>
+                  <addrLine><placeName ref="./Placeography.xml#Dunsink-Observatory_IE">Observatory</placeName></addrLine><lb/>
+                  <addrLine>near <placeName ref="./Placeography.xml#Dublin_IE">Dublin</placeName></addrLine><lb/>
+               </address>
+            </closer>
+         </div>
+      </body>
+      <back> </back>
+   </text>
+</TEI>
