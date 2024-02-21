@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from Maria Edgeworth to Frances Ann Edgeworth<!--Recipient Name, Month Day, YYYY--></title>
+            <author>Maria Edgeworth</author>
+            <editor ref="Id_who">
+               Eliza Alexander Wilcox<!--Editor on the Maria Edgeworth Letters Project overseeing the coding of this particular letter: FirstName LastName -->
+            </editor>
+            <sponsor>
+               <orgName>Maria Edgeworth Letters Project</orgName>
+            </sponsor>
+            <sponsor>Wake Forest University, University of Tennessee, Xavier University, Texas
+               A&amp;amp;M University</sponsor>
+            <principal>Jessica Richard, Hilary Havens, Robin Runia, Susan Egenolf</principal>
+            <respStmt>
+               <resp>Transcription and coding by</resp>
+               <persName ref="Id_who">Eliza Alexander Wilcox<!--FirstName LastName-->
+               </persName>
+               <!-- List all transcribers or coders here, editors and students alike, <persName> by <persName>.-->
+               <persName ref="Id_who"><!--FirstName LastName--></persName>
+               <!-- If you're the last person interacting with the file, enter your name last on the list -->
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>First digital edition in TEI, date: February 21 2024<date when="2024-02-21">
+                  <!--enter the date on which the first coder created and saved this XML file in google drive-->
+               </date>
+            </edition>
+            <respStmt>
+               <orgName type="naf" ref="http://id.loc.gov/authorities/names/n80020306">
+                  Bodleian Library<!--who digitized the letter or gave us permission for to use the file?-->
+               </orgName>
+               <resp> photos include:
+                  Edgeworth_Bodleian_696_1819_04_07_page01.jpg, Edgeworth_Bodleian_696_1819_04_07_page02.jpg, Edgeworth_Bodleian_696_1819_04_07_page03.jpg, Edgeworth_Bodleian_696_1819_04_07_page04.jpg, Edgeworth_Bodleian_696_1819_04_07_page05.jpg <!-- Make a comma-separated list of each .jpg photo file name associated with your letter. 
+                     For example: DSCF9476.jpg, DSCF9477.jpg, DSCF9478.jpg-->
+               </resp>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Maria Edgeworth Letters Project</authority>
+            <date>2022</date>
+            <availability>
+               <!--Uncomment the appropriate line, based on the archive that holds the physical copy of this letter, 
+                  and delete the other comment line(s).-->
+               <p>Reproduced by courtesy of the <orgName ref="http://id.loc.gov/authorities/names/n80020306">Bodleian Library</orgName><!--Reproduced by courtesy of the <orgName ref="#ReadingCL">Reading Central Library</orgName>.-->
+                  <!--or -->
+                  <!--Courtesy of <orgName ref="#Rylands">The University of Manchester</orgName>.-->
+               </p>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons Attribution 4.0 (CC BY 4.0) Unported License</licence>
+            </availability>
+            <idno>Edgeworth_Bodleian_696_1819_04_07<!--Change to match the file name and current naming standards, i.e. "Edgeworth_Beinecke_330_1817_01_24" if file name is "Edgeworth_Beinecke_330_1817_01_24.xml"--></idno> 
+         </publicationStmt>
+         <seriesStmt>
+            <title>Maria Edgeworth Letters Project</title>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <!-- This section of the header identifies the original manuscript source. -->
+               <msIdentifier>
+                  <repository>Bodleian Library</repository>
+                  <collection><!-- Enter specific archival collection if applicable--></collection>
+                  <idno><!--Consult library or WorldCat for this info--></idno>
+               </msIdentifier>
+               <head>Letter from 
+                     <persName xml:id="EdgeM1" from="1768" to="1849">
+                        <forename>Maria</forename>
+                        <surname>Edgeworth</surname>
+                        <date>1768-1849</date>
+                        <idno type="VIAF">71477273</idno>
+                        <idno type="SNAC">62567029</idno>
+                     </persName>
+                   to <persName>Frances Ann Edgeworth<!--Recipient Name--></persName>, <placeName><!--Location where letter was sent--></placeName>, 
+                  <date when="1819-04-07">April 7 1819<!-- Transcribe the date as it appears on the letter itself. Enter a numeric standardized date value in @when. --></date>
+                  <!-- <stamp>Enter description, if applicable</stamp>-->
+               </head>
+               <physDesc>
+                  <!-- optional physical description of the letter goes here: paper size and condition, seal, postmarks, etc.-->
+               </physDesc>
+            </msDesc>
+            <bibl>In addition to our edited version, this letter was previously published in
+               <!--complete bibiographical info if letter was published in a book here - if not delete-->
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <!--Where Edgeworth uses nonstandard spelling and hyphenation of words, transcriber-coders 
+               should use TEI elements “choice," “sic," and “reg" to encode both Edgeworth’s 
+               spelling and the regular international standard of Oxford English spelling, 
+               following the first listed spelling in the Oxford English Dictionary. -->
+            <p>Edgeworth’s spelling and punctuation are retained in transcription, except where a
+               word is split at the end of a line and the beginning of the next in a manuscript. The
+               long s and ligatured forms are silently emended.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth<!--SENDER NAME--></persName>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="./Personography.xml#EdgeF1">Frances Ann Edgeworth<!--RECIPIENT NAME--></persName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-01-01" who="Id_who">
+            <!--Brief description of what you did here.-->
+         </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <pb n="1" facs="Edgeworth_Bodleian_696_1819_04_07_page01.jpg"/>
+            <!--filenames for photos associated with this letter. Example: <pb n="1" facs="image1.jpg image2.jpg image3.jpg"/> -->
+            <opener>
+               <dateline><!--If there's no date line, omit this element. Record in the order in which it is written on the letter.-->
+                  <name type="place" ref="Id_where"/>
+                  <date when="1816-08-04"/>August 4, 1816. </dateline>
+               <salute>
+                  <persName>
+                     <!-- Use if letter has a saluation ("Dear Sir," for example). If not, delete this line.-->
+                  </persName>
+               </salute>
+            </opener>
+            <p>Dearest mother, <persName ref="./Personography.xml#EdgeF3">Fanny</persName> is
+                better and with the care
+                which she is certain of hav
+                ing in this dear good fami
+                ly and under <persName ref="./Personography.xml#HollP1">D<hi rend="superscript">r</hi>. Hollands</persName>
+                medical skill &amp; friendly
+                care she will in a few
+                days be quite refitted
+                She has had two blisters
+                one on her chest one on
+                her side for that vile pain
+                in her side. She has taken
+                saline draughts &amp; pills &amp;
+                opening medicines &amp; <choice><orig>Anti-
+                mony</orig><reg>Antimony</reg></choice> - and her pulse
+                has come down to a weak
+                state - no fever remains
+                - but very little pain in her
+                side - nothing but weak
+                ness remains - &amp; well she
+                may be weak having <add>had</add> <choice><orig>no-
+                thing</orig><reg>nothing</reg></choice> but barley water &amp;
+                such stuff these 3 days
+
+                <pb n="2" facs="Edgeworth_Bodleian_696_1819_04_07_page02.jpg"/> 
+
+                - while fever lasted she c<hi rend="superscript">d</hi>.
+                have no appetite &amp; <persName ref="./Personography.xml#HollP1">D<hi rend="superscript">r</hi>. Holland</persName>
+                and Common sense says
+                that it was hurtful to press
+                her to eat till she wished
+                it - I enclose <persName ref="./Personography.xml#HollP1">D<hi rend="superscript">r</hi>. Hollands</persName>
+                note of this morning - he
+                insists you see on her being
+                kept from all that can
+                agitate her. I fairly told him
+                her mind had been kept
+                in a harrassing state.
+                Armed with his medical
+                orders I shall insist on
+                no person's seeing her till
+                <persName ref="./Personography.xml#HollP1">D<hi rend="superscript">r</hi>. H</persName> says it is safe.
+
+                <persName ref="./Personography.xml#WilsL1">LW</persName> had before she was
+                ill been promised that
+                he should meet us at <choice><orig>Joan
+                na</orig><persName ref="./Personography.xml#BailJ1"><reg>Joanna</reg></choice> Baillie's</persName> on Thursday.
+
+                That is impossible - I will
+                dine there &amp; meet him &amp;
+                <persName ref="./Personography.xml#BeauF1">Francis</persName> and return here
+                in the eve<hi rend="superscript">g</hi>. - I must dine
+                lest I sh<hi rend="superscript">d</hi>. mortally offend
+                the good Baillie's - I must
+                also dine there on Saturday
+
+                <pb n="3" facs="Edgeworth_Bodleian_696_1819_04_07_page03.jpg"/>
+
+                because we <hi rend="underline">had</hi> engaged and
+                <unclear>loads</unclear> of Baillies &amp; people have
+                been engaged to meet us.
+
+                But depend upon it dear
+                mother <persName ref="./Personography.xml#EdgeF3">Fanny</persName> <hi rend="underline">shall</hi> not
+                go to be stewed &amp; agitated
+                into a fever again. She shall
+                stay in this delightful
+                house &amp; with this dear
+                family till she is quite
+                stout. Then she shall see
+                <persName ref="./Personography.xml#WilsL1">M<hi rend="superscript">r</hi>. L W</persName> once again &amp;
+                then I will insist upon
+                setting off immediately
+                afterwards - To <placeName ref="./Personography.xml#Deep-Dene-Dorking_ENK">Deep Dene</persName>
+                I think on the 17<hi rend="superscript">th</hi>. -
+
+                Whether to cheat or not
+                to cheat the <persName ref="./Personography.xml#TaddX2"><unclear>Taddys</unclear></persName> for
+                the 22<hi rend="superscript">d</hi>. 23 &amp; 29<hi rend="superscript">th</hi>. I have
+                not yet made up my mind
+                - nor can I till I see how
+                <persName ref="./Personography.xml#EdgeF3">Fanny</persName> is
+
+                We must <add>I think</add> spend 2 or 3 days
+                with <persName ref="./Personography.xml#WhitE1">Lady E W</persName> when <persName ref="./Personography.xml#EdgeF3">Fanny</persName>s
+                final answer has been
+                given - This was her request
+                &amp; my promise
+                172
+
+                <pb n="4" facs="Edgeworth_Bodleian_696_1819_04_07_page04.jpg"/>
+
+                I will write again tomorrow
+
+                I know what I write
+                to day is a little in <choice><orig>contra
+                diction</orig><reg>contradiction</reg></choice> to what I wrote
+                to you yesterday of our
+                intentions but I cannot
+                help it - I can only <del>decide</del> <add>judge</add>
+                from day to day according
+                as circumstances occur
+                &amp; as <persName ref="./Personography.xml#EdgeF3">Fanny</persName>s health decides
+
+                I enclose a sugar plum
+                for you my dearest friend
+                - M<hi rend="superscript">r</hi>. <unclear>West Lawson's</unclear> letter about
+                your dear boy who has crept
+                (like cupid into the armor)
+                into <persName ref="./Personography.xml#CarrF1">M<hi rend="superscript">rs</hi>. Carrs</persName> heart -
+
+                I enclose <persName ref="./Personography.xml#HopeX">M<hi rend="superscript">rs</hi>. Hopes</persName> letter
+                to shew she is not tired
+                of us-
+
+                <persName ref="./Personography.xml#BeauF1">Capt<hi rend="superscript">n</hi>. Beaufort</persName> sent me yesterday
+                a letter of M<hi rend="superscript">r</hi>. Newingtons giving
+                better hopes than I have yet seen
+                of W - M<hi rend="superscript">r</hi>. Newingtons account
+                14th. </unclear> Francis also sent me
+                saying he must pay it immediately
+                - I sent a draft to bearer on Hoare
+                for the amount - desiring Francis
+                to tear it if he had any other money
+                lodged to answer the demand
+                - I presume he has not as he
+
+                <pb n="5" facs="Edgeworth_Bodleian_696_1819_04_07_page05.jpg"/> 
+
+                saw me yesterday evening
+                and did not return my
+                draft or say any thing about
+                it - and my head was so full
+                of <persName ref="./Personography.xml#EdgeF3">Fanny</persName> I could not recol-
+                lect to ask him
+
+                Most fortunately I had the
+                money at Hoares- But I
+                was frightened this morn<hi rend="superscript">g</hi>.
+                when on balancing my
+                account I found I had
+                drawn within £5-
+
+                <del>Lovells</del> The draft for
+                £221 Annuity you know
+                was at 21 days <del>sight</del> I
+                have had it presented
+                and in 18 days now
+                it will be due &amp; paid
+                and meantime time I have
+                £90 in my hands in notes
+
+                I fear to be too late
+                173<!-- Begin transcibing the body of the letter here. -->
+            </p>
+            <p>
+               <!--More body paragraphs as needed.--></p>
+            <p>
+               <!--More body paragraphs as needed.-->
+               <!--Where there's a page break record it inside the relevant body paragraph like this, 
+                  with the self-closing page-break element. n="2" indicates the START of the second page.-->
+               <pb n="2" facs="image2.jpg"/>
+            </p>
+            <p><!--More body paragraphs as needed.--></p>
+            <closer>
+               <!--include linebreaks, if used. example: <closer> Yours<lb/> Very sincerely<lb/> -->
+            </closer>
+            <postscript>
+               <p><!--A postscript goes here, outside the <closer>. --></p>
+            </postscript>
+            <!--You can include a <pb/> here, or inside the postScript.-->
+            <!-- Format for postscripts. 
+               Postscripts do NOT go inside closer tags. Adjust to take into account the order in your letter. 
+               Sometimes the signature is on page three, the address on page four, then the postscript follows back on the top of page one, for example.-->
+            <closer><!--Use the <closer> element again to hold Address Leaf information.-->
+               <address>
+                  <!--Include any text written on the address leaf; use a separate "addrLine" for each line and indicate line breaks. -->
+                  <addrLine/>
+                  <addrLine/>
+                  <addrLine/>
+               </address>
+            </closer>
+         </div>
+      </body>
+      <back> </back>
+   </text>
+</TEI>
