@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from John Gibson Lockhart to Maria Edgeworth, August 28, 1847</title>
+            <author>John Gibson Lockhart</author>
+            <editor ref="Id_who">Alexandra LaGrand</editor>
+            <sponsor>
+               <orgName>Maria Edgeworth Letters Project</orgName>
+            </sponsor>
+            <sponsor>Wake Forest University, University of Tennessee, Xavier University, Texas
+               A&amp;M University</sponsor>
+            <principal>Jessica Richard, Hilary Havens, Robin Runia, Susan Egenolf</principal>
+            <respStmt>
+               <resp>Transcription and coding by</resp>
+               <persName ref="Id_who">Alexandra LaGrand</persName>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>First digital edition in TEI, date: <date when="2024-02-23">February 23, 2024</date>
+            </edition>
+            <respStmt>
+               <orgName type="naf" ref="Id_who">National Library of Scotland</orgName>
+               <resp> photos include: Edgeworth_NLS_936_1847_08_28_page01.jpg, Edgeworth_NLS_936_1847_08_28_page02.jpg, Edgeworth_NLS_936_1847_08_28_page03.jpg, Edgeworth_NLS_936_1847_08_28_page04.jpg, Edgeworth_NLS_936_1847_08_28_page05.jpg, Edgeworth_NLS_936_1847_08_28_page06.jpg, Edgeworth_NLS_936_1847_08_28_page07.jpg, Edgeworth_NLS_936_1847_08_28_page08.jpg</resp>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Maria Edgeworth Letters Project</authority>
+            <date>2022</date>
+            <availability>
+               <p>Reproduced by courtesy of the <orgName ref="http://id.loc.gov/authorities/names/n80044899">National Library of Scotland</orgName>
+               </p>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons Attribution 4.0 (CC BY 4.0) Unported License</licence>
+            </availability>
+            <idno>Edgeworth_NLS_936_1847_08_28</idno> 
+         </publicationStmt>
+         <seriesStmt>
+            <title>Maria Edgeworth Letters Project</title>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <repository>National Library of Scotland</repository>
+                  <collection></collection>
+                  <idno></idno>
+               </msIdentifier>
+               <head>Letter from 
+                  <persName ref="./Personography.xml#LockJ1">
+                     <forename>John Gibson</forename>
+                     <surname>Lockhart</surname>
+                  </persName>
+                  to <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>, <placeName></placeName>, 
+                  <date when="1847-08-28">Aug 28 1847</date>
+               </head>
+               <physDesc></physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>Edgeworth’s spelling and punctuation are retained in transcription, except where a
+               word is split at the end of a line and the beginning of the next in a manuscript. The
+               long s and ligatured forms are silently emended.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="./Personography.xml#LockJ1">John Gibson Lockhart</persName>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2024-08-28" who="Id_who">Created file for letter, encoded letter</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <pb n="1" facs="Edgeworth_NLS_936_1847_08_28_page01.jpg"/>
+            <opener>
+               <dateline>
+                  <name type="place" ref="Id_where"/><placeName ref="./Placeography.xml#London_ENK">London</placeName>
+                  <date when="1847-08-28"/>Aug 28 1847</dateline>
+               <salute>
+                  <persName>My dear Miss Edgworth</persName>
+               </salute>
+            </opener>
+            <p>
+               <hi rend="underline">Peccavi</hi><lb/>
+               - but not from anything so bad as<lb/>
+               undervaluing abeing <choice><orig>yr</orig><reg>your</reg></choice> great &amp; constant<lb/>
+               kindness to me and mine. It had<lb/>
+               been settled that <persName ref="./Personography.xml#DavyJ1">Lady Davy</persName>, my<lb/>
+               girl &amp; I were to go <unclear>about</unclear> this day<lb/>
+               to <placeName ref="./Placeography.xml#SP">Spain</placeName> for a 3 or 4 months'<lb/>
+               tour - but after we had begun to<lb/>
+               rub up our Castilian <choice><orig>vocably</orig><reg>vocabulary</reg></choice><lb/>
+               &amp; even <unclear>to think</unclear> of trunks and<lb/>
+               cases &amp; <hi rend="underline">mule saddles</hi> - behold<lb/>
+               a little romance that had been<lb/>
+               going on unsuspected by me<lb/>
+               &amp; perhaps hardly was suspected by<lb/>
+               the hero or at least by the heroine<lb/>
+               was suddenly refined by this<lb/>
+               Spanish announcement and in<lb/>
+               a few days' time I found it all<lb/>
+            </p>
+            <p>
+               <pb n="2" facs="Edgeworth_NLS_936_1847_08_28_page02.jpg"/>
+               settled that our chateau On St Espagne<lb/>
+               must make way for a home in<lb/>
+               Charles <unclear>Street</unclear> <placeName ref="./Placeography.xml#Berkeley-Square_ENK">Berkeley Square</placeName> &amp;<lb/>
+               another in <placeName ref="./Placeography.xml#Fife_STK">Fife</placeName>! But, perhaps <hi rend="underline">you</hi><lb/>
+               will understand me - I had been<lb/>
+               so awfully vexed &amp; mortified<lb/>
+               about certain premature &amp;<lb/>
+               luckily falsified announcements<lb/>
+               of autumn 1846 that I was<lb/>
+               determined not to make any<lb/>
+               announcements at all on this<lb/>
+               occasion &amp; in fact I never<lb/>
+               quite convinced myself that<lb/>
+               the thing was certain until<lb/>
+               I signed the contract. It was<lb/>
+               all done in railway time<lb/>
+               - but no matter - the acquaintance<lb/>
+               had been gradual &amp; the feeling<lb/>
+            </p>
+            <p>
+               <pb n="3" facs="Edgeworth_NLS_936_1847_08_28_page03.jpg"/>
+               was sincere &amp; deep &amp; on both sides<lb/>
+               I am satisfied well bestowed.<lb/>
+               so let us hear no more about my<lb/>
+               foolish silence. Moreover, I<lb/>
+               was far from well &amp; the row<lb/>
+               of eating &amp; drinking <choice><orig>thro'</orig><reg>through</reg></choice> a<lb/>
+               new tribe &amp; troup can &amp; &amp;c<lb/>
+               really bothered me out of half<lb/>
+               my wits. <persName ref="./Personography.xml#LockC1">Charlotte</persName> has<lb/>
+               been there 8 days the wife of<lb/>
+               a highly distinguished man<lb/>
+               - exceedingly loved in his family<lb/>
+               &amp; unusually admired in<lb/>
+               Society, - &amp; considered as having<lb/>
+               every chance of the very highest<lb/>
+               honours in his profession. <choice><orig>Tho'</orig><reg>Though</reg></choice><lb/>
+               only 35, he has already laid by<lb/>
+               a sufficient independence - his<lb/>
+               practice is very great<lb/>
+            </p>
+            <p>
+               <pb n="4" facs="Edgeworth_NLS_936_1847_08_28_page04.jpg"/>
+               - his connections natural &amp; acquired<lb/>
+               of the most respectable kind. To<lb/>
+               conclude he is a handsome fellow<lb/>
+               - and <persName ref="./Personography.xml#DavyJ1">Lady Davy</persName> hardly yet<lb/>
+               forgives us for having seized<lb/>
+               on her favourite Cavalier.<lb/>
+               They are now at the <persName ref="./Personography.xml#ScotW3">D. of<lb/>
+               Buccleuch's</persName> pretty villa at<lb/>
+               <placeName ref="./Placeography.xml#Richmond_ENK">Richmond</placeName> &amp; move thence in<lb/>
+               a few days towards and <placeName ref="./Placeography.xml#STK">Scotland</placeName>. <persName ref="./Personography.xml#HopeJ1">Mr<lb/>
+               Hopes</persName> elder brother having two<lb/>
+               places, he rents one of them<lb/>
+               (<placeName ref="./Placeography.xml#Rankeilour_STK"><unclear>Rankeillor</unclear></placeName>, near <placeName ref="./Placeography.xml#Cupar_STK">Cupar</placeName>, <placeName ref="./Placeography.xml#Fife_STK">Fife</placeName>)<lb/>
+               &amp; is much attached to it. His<lb/>
+               business being chiefly that of<lb/>
+               a Parliamentary Counsel he can<lb/>
+               be there near 6 months in the<lb/>
+               year - &amp; there I hope to <unclear>visit</unclear><lb/>
+               them presently<lb/>
+            </p>
+            <p>
+               <pb n="5" facs="Edgeworth_NLS_936_1847_08_28_page05.jpg"/>
+               I have already dined twice <choice><orig>w</orig><reg>with</reg></choice> them<lb/>
+               in their retreat &amp; if they be not<lb/>
+               most happy they are the cleverest<lb/>
+               of actors. In a word I have<lb/>
+               every reason to be satisfied &amp;<lb/>
+               gratified &amp; I believe there<lb/>
+               really is not a father in <placeName ref="./Placeography.xml#London_ENK">London</placeName><lb/>
+               of almost any rank who<lb/>
+               <choice><orig>w<hi rend="superscript">d</hi></orig><reg>would</reg></choice> not have been glad indeed<lb/>
+               to bestow his daughter on<lb/>
+               <persName ref="./Personography.xml#HopeJ1">James Hope</persName>. My boy is<lb/>
+               now <persName ref="./Personography.xml#LockW1"><hi rend="underline">Walter Lockhart Scott</hi></persName> <choice><orig>Lieut'</orig><reg>Lieutenant</reg></choice><lb/>
+               in the 16<hi rend="superscript">th</hi> Lancers at <placeName ref="./Placeography.xml#Brighton_ENK">Brighton</placeName><lb/>
+               &amp; I think doing well since<lb/>
+               he was indulged <choice><orig>w</orig><reg>with</reg></choice> the cloth<lb/>
+               of his choice. Thus you see<lb/>
+               my domestic cares are<lb/>
+            </p>
+            <p>
+               <pb n="6" facs="Edgeworth_NLS_936_1847_08_28_page06.jpg"/>
+               much lightened - for the present at<lb/>
+               all events. I suppose Childrens<lb/>
+               Children will by &amp; <unclear>bye</unclear> come<lb/>
+               to provide new objects of concern<lb/>
+               &amp; interest.<lb/>
+            </p>
+            <p>
+               As soon as I am well enough to<lb/>
+               work as usual I must now<lb/>
+               begin the almost <unclear></unclear> of the<lb/>
+               <title ref="./Workography.xml#Memoi8">Life of Sir W. S.</title> Your<lb/>
+               suggestions on that head<lb/>
+               are laid by as valuable<lb/>
+               guidance when I do come<lb/>
+               to the job and if you can<lb/>
+               add to the numbers with<lb/>
+               the kind frankness that<lb/>
+               belongs to your most<lb/>
+            </p>
+            <p>
+               <pb n="7" facs="Edgeworth_NLS_936_1847_08_28_page07.jpg"/>
+               thankfully shall I endeavour to<lb/>
+               profit by such advice as yours<lb/>
+               is ever sure to be<lb/>
+            </p>
+            <p>
+               Lady Scott is I believe living<lb/>
+               alone at <placeName ref="./Placeography.xml#Portobello_STK">Portobello</placeName> near<lb/>
+               <placeName ref="./Placeography.xml#Edinburgh_STK">Edinburgh</placeName> - I say I <hi rend="underline">believe</hi> for<lb/>
+               it is most difficult to extract<lb/>
+               a note from her once in 2<lb/>
+               months. Her Mother &amp; <persName ref="./Personography.xml#FergW1">Sir <unclear>W</unclear><lb/>
+               Ferguson</persName> had taken old<lb/>
+               <unclear>Hintly Birr</unclear> on again in the<lb/>
+               view of being near her &amp; her<lb/>
+               poor husband at <placeName ref="./Placeography.xml#Abbotsford-House_STK">Abbotsford</placeName><lb/>
+               &amp; there they are - but she<lb/>
+               cd not, when I heard last,<lb/>
+               make up her mind to revisit<lb/>
+               Tweedside. It is possible that<lb/>
+               she may now<lb/>
+            </p>
+            <p>
+               <pb n="8" facs="Edgeworth_NLS_936_1847_08_28_page08.jpg"/>
+               have made the effort. Where she<lb/>
+               is ultimately <unclear>to free</unclear> herself I<lb/>
+               cannot say - she talked of<lb/>
+               <placeName ref="./Placeography.xml#Brighton_ENK">Brighton</placeName> or <placeName ref="./Placeography.xml#Cheltenham_ENK">Cheltenham</placeName> a while<lb/>
+               ago but I fancy <placeName ref="./Placeography.xml#Edinburgh_STK">Edinburgh</placeName> will<lb/>
+               be the place in the end - at<lb/>
+               all events so long as her Mother<lb/>
+               is spared to her<lb/>
+               Now let me hear that you have<lb/>
+               forgiven me &amp; write to<lb/>
+               <persName ref="./Personography.xml#LockC1">Mrs James Hope</persName> your<lb/>
+               congratulations on her<lb/>
+               most fortunate wedding<lb/>
+            </p>
+            <closer>
+               ever <choice><orig>affecly</orig><reg>affectionately</reg></choice> yours<lb/>
+               <persName ref="./Personography.xml#LockJ1"><hi rend="underline">J G Lockhart</hi></persName><lb/>
+            </closer>
+       </div>
+      </body>
+      <back> </back>
+   </text>
+</TEI>
