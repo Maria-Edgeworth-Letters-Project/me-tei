@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from John Gibson Lockhart to Maria Edgeworth, December 4, 1837</title>
+            <author>John Gibson Lockhart</author>
+            <editor ref="Id_who">Alexandra LaGrand</editor>
+            <sponsor>
+               <orgName>Maria Edgeworth Letters Project</orgName>
+            </sponsor>
+            <sponsor>Wake Forest University, University of Tennessee, Xavier University, Texas
+               A&amp;M University</sponsor>
+            <principal>Jessica Richard, Hilary Havens, Robin Runia, Susan Egenolf</principal>
+            <respStmt>
+               <resp>Transcription and coding by</resp>
+               <persName ref="Id_who">Alexandra LaGrand</persName>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>First digital edition in TEI, date: <date when="2024-02-24">February 24, 2024</date>
+            </edition>
+            <respStmt>
+               <orgName type="naf" ref="Id_who">National Library of Scotland</orgName>
+               <resp> photos include: Edgeworth_NLS_936_1837_12_04_page01.jpg, Edgeworth_NLS_936_1837_12_04_page02.jpg, Edgeworth_NLS_936_1837_12_04_page03.jpg</resp>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Maria Edgeworth Letters Project</authority>
+            <date>2022</date>
+            <availability>
+               <p>Reproduced by courtesy of the <orgName ref="http://id.loc.gov/authorities/names/n80044899">National Library of Scotland</orgName>
+               </p>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons Attribution 4.0 (CC BY 4.0) Unported License</licence>
+            </availability>
+            <idno>Edgeworth_NLS_936_1837_12_04</idno> 
+         </publicationStmt>
+         <seriesStmt>
+            <title>Maria Edgeworth Letters Project</title>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <repository>National Library of Scotland</repository>
+                  <collection></collection>
+                  <idno></idno>
+               </msIdentifier>
+               <head>Letter from 
+                  <persName ref="./Personography.xml#LockJ1">
+                     <forename>John Gibson</forename>
+                     <surname>Lockhart</surname>
+                  </persName>
+                  to <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>, <placeName></placeName>, 
+                  <date when="1837-12-04">Dec<hi rend="superscript">r</hi> 4. 1837</date>
+               </head>
+               <physDesc></physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>Edgeworth’s spelling and punctuation are retained in transcription, except where a
+               word is split at the end of a line and the beginning of the next in a manuscript. The
+               long s and ligatured forms are silently emended.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="./Personography.xml#LockJ1">John Gibson Lockhart</persName>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2024-02-24" who="Id_who">Created file for letter, encoded letter</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <pb n="1" facs="Edgeworth_NLS_936_1837_12_04_page01.jpg"/>
+            <opener>
+               <dateline>
+                  <name type="place" ref="Id_where"/><placeName ref="./Placeography.xml#London_ENK">London</placeName>
+                  <date when="1837-12-04"/>Dec<hi rend="superscript">r</hi> 4. 1837</dateline>
+               <salute>
+                  <persName>My dear <persName ref="./Personography.xml#EdgeM1">Miss Edgeworth</persName></persName>
+               </salute>
+            </opener>
+            <p>
+               I had some<lb/>
+               days ago <choice><orig>yr</orig><reg>your</reg></choice> very kind letter &amp;<lb/>
+               I thank you for it most sincerely<lb/>
+               <choice><orig>tho'</orig><reg>though</reg></choice> very briefly. I much regret<lb/>
+               the circumstances which have given<lb/>
+               pain to you or to others - but the<lb/>
+               truth is the enormous heaps of<lb/>
+               letters <unclear>committed</unclear> to me were all<lb/>
+               copied by Ladies &amp; the originals<lb/>
+               forthwith returned &amp; I fear <unclear>besides</unclear><lb/>
+               innumerable blunders of names,<lb/>
+               &amp; dates which, as the <unclear>most</unclear><lb/>
+               important <unclear>of them</unclear> it cost me no<lb/>
+               small pains to correct, these<lb/>
+               may have been on the part of<lb/>
+            </p>
+            <p>
+               <pb n="2" facs="Edgeworth_NLS_936_1837_12_04_page02.jpg"/>
+               my dear <persName ref="./Personography.xml#LockS1">Sophy</persName> &amp; her assistants<lb/>
+               many omissions or hints about<lb/>
+               omission which had come to hand<lb/>
+               on separate papers. I hope no very<lb/>
+               serious cost has been occasioned<lb/>
+               but consider that she who had<lb/>
+               been my Secretary for years<lb/>
+               is preparing these memoirs only<lb/>
+               lived to see not to read my first<lb/>
+               volume &amp; in her I lost the<lb/>
+               only person who could have<lb/>
+               put &amp; kept me right as to<lb/>
+               a thousand little things.<lb/>
+               I shall bear all you say in<lb/>
+               mind when I come, if ever, to<lb/>
+            </p>
+            <p>
+               <pb n="3" facs="Edgeworth_NLS_936_1837_12_04_page03.jpg"/>
+               a second Edition.<lb/> 
+            </p>
+            <closer>
+               Meantime<lb/>
+               believe me always most<lb/>
+               gratefully and affectionately yours<lb/>
+               <persName ref="./Personography.xml#LockJ1"><hi rend="underline">JGLockhart</hi></persName><lb/>
+            </closer>
+         </div>
+      </body>
+      <back> </back>
+   </text>
+</TEI>
