@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from John Gibson Lockhart to Maria Edgeworth, April 12, 1837</title>
+            <author>John Gibson Lockhart</author>
+            <editor ref="Id_who">Alexandra LaGrand</editor>
+            <sponsor>
+               <orgName>Maria Edgeworth Letters Project</orgName>
+            </sponsor>
+            <sponsor>Wake Forest University, University of Tennessee, Xavier University, Texas
+               A&amp;M University</sponsor>
+            <principal>Jessica Richard, Hilary Havens, Robin Runia, Susan Egenolf</principal>
+            <respStmt>
+               <resp>Transcription and coding by</resp>
+               <persName ref="Id_who">Alexandra LaGrand</persName>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>First digital edition in TEI, date: <date when="2024-02-28">February 28, 2024</date>
+            </edition>
+            <respStmt>
+               <orgName type="naf" ref="Id_who">National Library of Scotland</orgName>
+               <resp> photos include: Edgeworth_NLS_936__1837_04_12_page01.jpg, Edgeworth_NLS_936__1837_04_12_page02.jpg, Edgeworth_NLS_936__1837_04_12_page03.jpg, Edgeworth_NLS_936__1837_04_12_page04.jpg</resp>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Maria Edgeworth Letters Project</authority>
+            <date>2022</date>
+            <availability>
+               <p>Reproduced by courtesy of the <orgName ref="http://id.loc.gov/authorities/names/n80044899">National Library of Scotland</orgName>
+               </p>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons Attribution 4.0 (CC BY 4.0) Unported License</licence>
+            </availability>
+            <idno>Edgeworth_NLS_936_1837_04_12</idno> 
+         </publicationStmt>
+         <seriesStmt>
+            <title>Maria Edgeworth Letters Project</title>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <repository>National Library of Scotland</repository>
+                  <collection></collection>
+                  <idno></idno>
+               </msIdentifier>
+               <head>Letter from 
+                  <persName ref="./Personography.xml#LockJ1">
+                     <forename>John Gibson</forename>
+                     <surname>Lockhart</surname>
+                  </persName>
+                  to <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>, <placeName></placeName>, 
+                  <date when="1837-04-12">April 12 1837</date>
+                  <stamp>Stamp from National Library of Scotland on final page of letter</stamp>
+               </head>
+               <physDesc></physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>Edgeworth’s spelling and punctuation are retained in transcription, except where a
+               word is split at the end of a line and the beginning of the next in a manuscript. The
+               long s and ligatured forms are silently emended.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="./Personography.xml#LockJ1">John Gibson Lockhart</persName>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2024-02-28" who="Id_who">Created file for letter, encoded letter</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <pb n="1" facs="Edgeworth_NLS_936__1837_04_12_page01.jpg"/>
+            <opener>
+               <dateline>
+                  <name type="place" ref="Id_where"/><placeName ref="./Placeography.xml#London_ENK">London</placeName>
+                  <date when="1837-04-12"/>April 12 1837</dateline>
+               <salute>
+                  <persName>Dear <persName ref="./Personography.xml#EdgeM1">Miss Edgeworth</persName></persName>
+               </salute>
+            </opener>
+            <p>
+               I am sure<lb/>
+               you will be very sorry in the<lb/>
+               midst of your own <unclear>distress</unclear> to<lb/>
+               hear that <persName ref="./Personography.xml#LockS1">my wife</persName> so far<lb/>
+               from answering your kind<lb/>
+               letter has not been for many<lb/>
+               weeks able to read one. She<lb/>
+               has gone <choice><orig>thro'</orig><reg>through</reg></choice> a six weeks<lb/>
+               <del>weeks</del> severe treatment<lb/>
+               for a Liver complaint &amp;<lb/>
+               <choice><orig>tho'</orig><reg>though</reg></choice> the Doctors think she<lb/>
+               has now overcome the disease<lb/>
+               the utter prostration of<lb/>
+            </p>
+            <p>
+               <pb n="2" facs="Edgeworth_NLS_936__1837_04_12_page02.jpg"/>
+               strength in which the cure has<lb/>
+               left her is most deplorable<lb/>
+               to witness. I had not heard<lb/>
+               till I read your letter of the<lb/>
+               grievous affliction you have<lb/>
+               sustained in the loss of <persName ref="./Personography.xml#EdgeS1">Mrs<lb/>
+               Fox</persName> - Indeed for a long while<lb/>
+               I have been hardly in the<lb/>
+               world or in the way of<lb/>
+               hearing anything. I<lb/>
+               shall inform you of <persName ref="./Personography.xml#LockS1">Sophias</persName><lb/>
+               progress by &amp; bye &amp; meantime<lb/>
+            </p>
+            <p>
+               <pb n="3" facs="Edgeworth_NLS_936__1837_04_12_page03.jpg"/>
+               beg you to believe that <hi rend="underline">your</hi><lb/>
+               approbation of <title ref="./Workography.xml#Memoi8">my book</title><note type="certainty">It is not clear here to which book "my book" refers, but based on Lockhart's later mention of Sir Walter Scott, it leads us to be reasonably certain that this is the appropriate title.</note><lb/>
+               should it be so fortunate<lb/>
+               as to receive it when<lb/>
+               complete will afford me<lb/>
+               far greater satisfaction<lb/>
+               than I <choice><orig>cd</orig><reg>could</reg></choice> draw from<lb/>
+               all the applauses of all<lb/>
+               the world that did <hi rend="underline">not</hi><lb/>
+               like you Know &amp; love <persName ref="./Personography.xml#ScotW1">Sir<lb/>
+               Walter Scott</persName>. Ever my<lb/>
+               dear <del><unclear></unclear></del> Edgeworth<lb/>
+            </p>
+            <closer>
+               Yours most truly<lb/>
+               <persName ref="./Personography.xml#LockJ1">J G Lockhart</persName><lb/>
+            </closer>
+            <closer>
+               <pb n="4" facs="Edgeworth_NLS_936__1837_04_12_page04.jpg"/>
+               <address>
+                  <addrLine>1837</addrLine><lb/>
+                  <addrLine><persName ref="./Personography.xml#LockJ1">Lockhart</persName></addrLine><lb/>
+               </address>
+            </closer>
+         </div>
+      </body>
+      <back> </back>
+   </text>
+</TEI>
