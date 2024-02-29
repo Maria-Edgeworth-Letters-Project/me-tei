@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from Frances Edgeworth to Esther Brinkley, undated</title>
+            <author>Frances Edgeworth</author>
+            <editor ref="Id_who">Alexandra LaGrand</editor>
+            <sponsor>
+               <orgName>Maria Edgeworth Letters Project</orgName>
+            </sponsor>
+            <sponsor>Wake Forest University, University of Tennessee, Xavier University, Texas
+               A&amp;M University</sponsor>
+            <principal>Jessica Richard, Hilary Havens, Robin Runia, Susan Egenolf</principal>
+            <respStmt>
+               <resp>Transcription and coding by</resp>
+               <persName ref="Id_who">Alexandra LaGrand</persName>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>First digital edition in TEI, date: <date when="2024-02-29">February 29, 2024</date>
+            </edition>
+            <respStmt>
+               <orgName type="naf" ref="Id_who">National Library of Scotland</orgName>
+               <resp> photos include: Edgeworth_NLS_6931_unknown_04_page01.jpg, Edgeworth_NLS_6931_unknown_04_page02.jpg, Edgeworth_NLS_6931_unknown_04_page03.jpg</resp>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Maria Edgeworth Letters Project</authority>
+            <date>2022</date>
+            <availability>
+               <p>Reproduced by courtesy of the <orgName ref="http://id.loc.gov/authorities/names/n80044899">National Library of Scotland</orgName>
+               </p>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons Attribution 4.0 (CC BY 4.0) Unported License</licence>
+            </availability>
+            <idno>Edgeworth_NLS_6931_unknown_04</idno> 
+         </publicationStmt>
+         <seriesStmt>
+            <title>Maria Edgeworth Letters Project</title>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <repository>National Library of Scotland</repository>
+                  <collection></collection>
+                  <idno></idno>
+               </msIdentifier>
+               <head>Letter from 
+                  <persName ref="./Personography.xml#EdgeF2">
+                     <forename>Frances</forename>
+                     <surname>Edgeworth</surname>
+                  </persName>
+                  to <persName ref="./Personography.xml#BrinE1">Esther Brinkley</persName>, <placeName></placeName>, 
+                  <date when="1111-01-01">Undated</date>
+               </head>
+               <physDesc></physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>Edgeworth’s spelling and punctuation are retained in transcription, except where a
+               word is split at the end of a line and the beginning of the next in a manuscript. The
+               long s and ligatured forms are silently emended.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="./Personography.xml#EdgeF2">Frances Edgeworth</persName>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="./Personography.xml#BrinE1">Esther Brinkley</persName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2024-02-29" who="Id_who">Created file for letter, encoded letter</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <pb n="1" facs="Edgeworth_NLS_6931_unknown_04_page01.jpg"/>
+            <opener>
+               <dateline>
+                  <name type="place" ref="Id_where"/>
+                  <date when="1111-01-01"/>Saturday morning</dateline>
+               <salute>
+                  <persName>Mr dear <persName ref="./Personography.xml#BrinE1">Mrs Brinkley</persName></persName>
+               </salute>
+            </opener>
+            <p>
+               I cannot let your<lb/>
+               excellent <persName ref="./Personography.xml#BrinJ1">Doctor</persName> leave us without<lb/>
+               expressing to you our regret<lb/>
+               that you could not have <choice><orig>ac-<lb/>
+               -companied</orig><reg>accompanied</reg></choice> him - and that<lb/>
+               he leaves us so soon-<lb/>
+            </p>
+            <p>
+               I am sure you <del>would</del> even<lb/>
+               you would accuse me<lb/>
+               of exaggeration were I to<lb/>
+               tell you in sober truth how<lb/>
+               much he has delighted<lb/>
+               us all - <unclear>but</unclear> particularly<lb/>
+               <persName ref="./Personography.xml#EdgeM1">Maria</persName> &amp; <persName ref="./Personography.xml#EdgeW1">William</persName> - to whom<lb/>
+               he is not only the greatest<lb/>
+               pleasure but of the greatest<lb/>
+               <unclear>use</unclear> -<lb/>
+            </p>
+            <p>
+               <pb n="2" facs="Edgeworth_NLS_6931_unknown_04_page02.jpg"/>
+               He will tell you all about<lb/>
+               us so that I shall spare<lb/>
+               your <unclear>eyes</unclear> and only say<lb/>
+               that our poor dear <persName ref="./Personography.xml#EdgeL1">Lucy</persName><lb/>
+               has borne her Sisters <choice><orig>depar-<lb/>
+               ture</orig><reg>departure</reg></choice> better than could have<lb/>
+               been expected - but that<lb/>
+               dear little object of our <choice><orig>affec<lb/>
+               tion</orig><reg>affection</reg></choice> <persName ref="./Personography.xml#EdgeS1">Sophy</persName> will soon fly<lb/>
+               off to <placeName ref="./Placeography.xml#ENK">England</placeName> perhaps to<lb/>
+               <placeName ref="./Placeography.xml#IT">Italy</placeName> - and then poor<lb/>
+               <persName ref="./Personography.xml#EdgeL1">Lucy</persName> will be tried <choice><orig>in-<lb/>
+               -deed</orig><reg>indeed</reg></choice> - It is a happy<lb/>
+               thing to settle a daughter &amp;<lb/>
+               a happy thing to see her<lb/>
+               happy - but alas there<lb/>
+               is much bitter mingled<lb/>
+            </p>
+            <p>
+               <pb n="3" facs="Edgeworth_NLS_6931_unknown_04_page03.jpg"/>
+               with the sweet - and I<lb/>
+               am not quite so sure that<lb/>
+               it sets it off as shade does<lb/>
+               light - Howbeit it is the<lb/>
+               will of God that it should be<lb/>
+               so - and we cannot be<lb/>
+               sorry when we say &amp; feel<lb/>
+               that he knows best<lb/>
+            </p>
+            <closer>
+               Ever your dear <persName ref="./Personography.xml#BrinE1">M<hi rend="superscript">rs</hi><lb/>
+               Brinkley</persName> &amp; ever your<lb/>
+               Affectionate <persName ref="./Personography.xml#EdgeF2">F<unclear>E</unclear></persName><lb/>
+            </closer>
+         </div>
+      </body>
+      <back> </back>
+   </text>
+</TEI>
