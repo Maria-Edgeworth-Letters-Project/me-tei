@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from John Gibson Lockhart to Maria Edgeworth, March 23, 1828</title>
+            <author>John Gibson Lockhart</author>
+            <editor ref="Id_who">Alexandra LaGrand</editor>
+            <sponsor>
+               <orgName>Maria Edgeworth Letters Project</orgName>
+            </sponsor>
+            <sponsor>Wake Forest University, University of Tennessee, Xavier University, Texas
+               A&amp;M University</sponsor>
+            <principal>Jessica Richard, Hilary Havens, Robin Runia, Susan Egenolf</principal>
+            <respStmt>
+               <resp>Transcription and coding by</resp>
+               <persName ref="Id_who">Alexandra LaGrand</persName>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>First digital edition in TEI, date: <date when="2024-03-01">March 1, 2024</date>
+            </edition>
+            <respStmt>
+               <orgName type="naf" ref="Id_who">National Library of Scotland</orgName>
+               <resp> photos include: Edgeworth_NLS_936_1828_03_23_page01.jpg, Edgeworth_NLS_936_1828_03_23_page02.jpg, Edgeworth_NLS_936_1828_03_23_page03.jpg, Edgeworth_NLS_936_1828_03_23_page04.jpg, Edgeworth_NLS_936_1828_03_23_page05.jpg, Edgeworth_NLS_936_1828_03_23_page06.jpg, Edgeworth_NLS_936_1828_03_23_page07.jpg, Edgeworth_NLS_936_1828_03_23_page08.jpg, Edgeworth_NLS_936_1828_03_23_page09.jpg</resp>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Maria Edgeworth Letters Project</authority>
+            <date>2022</date>
+            <availability>
+               <p>Reproduced by courtesy of the <orgName ref="http://id.loc.gov/authorities/names/n80044899">National Library of Scotland</orgName>
+               </p>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons Attribution 4.0 (CC BY 4.0) Unported License</licence>
+            </availability>
+            <idno>Edgeworth_NLS_936_1828_03_23</idno> 
+         </publicationStmt>
+         <seriesStmt>
+            <title>Maria Edgeworth Letters Project</title>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <repository>National Library of Scotland</repository>
+                  <collection></collection>
+                  <idno></idno>
+               </msIdentifier>
+               <head>Letter from 
+                  <persName ref="./Personography.xml#LockJ1">
+                     <forename>John Gibson</forename>
+                     <surname>Lockhart</surname>
+                  </persName>
+                  to <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>, <placeName></placeName>, 
+                  <date when="1828-03-23"></date>
+               </head>
+               <physDesc></physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>Edgeworth’s spelling and punctuation are retained in transcription, except where a
+               word is split at the end of a line and the beginning of the next in a manuscript. The
+               long s and ligatured forms are silently emended.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="./Personography.xml#LockJ1">John Gibson Lockhart</persName>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2024-03-01" who="Id_who">Created file for letter, encoded letter</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <pb n="1" facs="Edgeworth_NLS_936_1828_03_23_page01.jpg"/>
+            <opener>
+               <salute>
+                  <persName>My dear <persName ref="./Personography.xml#EdgeM1">Miss Edgeworth</persName></persName>
+               </salute>
+            </opener>
+            <p>
+               I have to<lb/>
+               thank you for a very great deal<lb/>
+               of pleasure to <persName ref="./Personography.xml#LockS1">my wife</persName> &amp; myself<lb/>
+               in the opportunity of becoming<lb/>
+               acquainted with your brother <persName ref="./Personography.xml#EdgeC1">Sneyd<lb/>
+               Edgeworth</persName> of whom we saw during<lb/>
+               his short stay in town just enough<lb/>
+               to make us much regret his departure<lb/>
+               and hope for his speedy return. I<lb/>
+               am also greatly obliged by your<lb/>
+               kind invitation to <placeName ref="./Placeography.xml#Edgeworthstown_IE">Edgeworth town</placeName><lb/>
+               but fear we cannot hope to<lb/>
+               avail ourselves of your tempting<lb/>
+               offer this year. We expect <persName ref="./Personography.xml#ScotW1">Sir<lb/>
+               W. Scott</persName> &amp; <persName ref="./Personography.xml#ScotA1">Anne</persName> here next week<lb/>
+               when he will see all his family<lb/>
+            </p>
+            <p>
+               <pb n="2" facs="Edgeworth_NLS_936_1828_03_23_page02.jpg"/>
+               together the first time for many<lb/>
+               years; for <persName ref="./Personography.xml#ScotC1">Charles</persName> is now living<lb/>
+               with us &amp; labouring in the Foreign<lb/>
+               office under <persName ref="./Personography.xml#WardJ1">Lord Dudley's</persName> auspices<lb/>
+               &amp; <hi rend="underline">Major</hi> Walter is at <placeName ref="./Placeography.xml#Hampton-Court-Palace_ENK">Hampton<lb/>
+               Court</placeName>, whence I write, with his<lb/>
+               Regiment. We shall then arrange<lb/>
+               our schemes for the Summer<lb/>
+               &amp; I think the end of it will be that<lb/>
+               <persName ref="./Personography.xml#LockS1">Sophia</persName> will go to the Coast with<lb/>
+               her children (for <persName ref="./Personography.xml#LockJ2">Johnny</persName> poor<lb/>
+               fellow is always much strengthened<lb/>
+               by a month or two of seabathing<lb/>
+               &amp; has I am sorry to say much<lb/>
+               occasion for such aid this year)<lb/>
+               While <persName ref="./Personography.xml#ScotW1">Sir Walter</persName>, the gallant<lb/>
+               Major &amp; I make a little<lb/>
+            </p>
+            <p>
+               <pb n="3" facs="Edgeworth_NLS_936_1828_03_23_page03.jpg"/>
+               excursion to <placeName ref="./Placeography.xml#DE">Germany</placeName>. I had thought<lb/>
+               of <placeName ref="./Placeography.xml#PO">Portugal</placeName> but the precious <persName ref="./Personography.xml#Migue1">Don<lb/>
+               Miguel</persName> (whom some of the<lb/>
+               Cockneys took for the great<lb/>
+               Mogul) seems to have put<lb/>
+               that out of the question very<lb/>
+               effectually. Is there no hope<lb/>
+               for <choice><orig>yr</orig><reg>your</reg></choice> coming over this Spring<lb/>
+               There will be <persName ref="./Personography.xml#ScotW1">Scott</persName> &amp; <persName ref="./Personography.xml#MoorT1">Tom Moore</persName><lb/>
+               &amp; <persName ref="./Personography.xml#CrabX1">old Crabbe</persName> &amp; I know not<lb/>
+               how many more of your<lb/>
+               Lion species I hear, and surely<lb/>
+               you ought to swell the muster<lb/>
+               if possible. <persName ref="./Personography.xml#CrabX1">Crabbe</persName> has another<lb/>
+               volume of tales forthcoming<lb/>
+               <persName ref="./Personography.xml#MoorT1">Moore</persName> is to bring out his <title ref="./Workography.xml#Lette3">Byroniana</title><lb/>
+               in November &amp; is very busy<lb/>
+            </p>
+            <p>
+               <pb n="5" facs="Edgeworth_NLS_936_1828_03_23_page05.jpg"/>
+               collecting materials for the four<lb/>
+               winds of heaven. I hope he will<lb/>
+               do better than <choice><orig>w</orig><reg>with</reg></choice> <persName ref="./Personography.xml#SherR1">Sheridan</persName> he<lb/>
+               has at least as delicate and<lb/>
+               difficult a task in hand but<lb/>
+               he says he has already got so<lb/>
+               many letters and diaries that<lb/>
+               he expects to have little more<lb/>
+               to answer for than the putting<lb/>
+               together, despite the unhappy<lb/>
+               fire, of an autobiography.<lb/>
+               And is there truth in the good<lb/>
+               news that a novel from<lb/>
+               <persName ref="./Personography.xml#EdgeM1">Miss Edgeworth</persName> is to be<lb/>
+               one of these treasures of 1828?<lb/>
+               I hope so indeed: for with<lb/>
+            </p>
+            <p>
+               <pb n="6" facs="Edgeworth_NLS_936_1828_03_23_page06.jpg"/>
+               reverence be it said I have tried<lb/>
+               in vain to admire very much<lb/>
+               any of the Gentlemen who have<lb/>
+               of late years been trying to<lb/>
+               occupy the domain which you<lb/>
+               first opened &amp; conquered &amp;<lb/>
+               where you ought to make still<lb/>
+               larger conquests. If it <hi rend="underline">be</hi><lb/>
+               true let me take the great liberty<lb/>
+               of suggesting that the money -<lb/>
+               - value of a good novel must<lb/>
+               <hi rend="underline">now</hi> be Great indeed when<lb/>
+               such writers as have been<lb/>
+               suffered to flourish have also<lb/>
+               been enabled to get £1000 &amp;<lb/>
+               £1500 for Each of their productions<lb/>
+            </p>
+            <p>
+               <pb n="7" facs="Edgeworth_NLS_936_1828_03_23_page07.jpg"/>
+               I venture to say that if you will<lb/>
+               submit your <hi rend="underline">Ms</hi> to <persName ref="./Personography.xml#ScotW1">Sir Walter<lb/>
+               Scott</persName> he knows better than any<lb/>
+               one else how to deal with the<lb/>
+               trade when he has such wares<lb/>
+               to vend &amp; that you will be<lb/>
+               somewhat <choice><orig>surprized</orig><reg>surprised</reg></choice> with the<lb/>
+               result of his Management<lb/>
+               Whether <choice><orig>w</orig><reg>with</reg></choice> his own publisher<lb/>
+               or <choice><orig>w</orig><reg>with</reg></choice> the arch-puffer <persName ref="./Personography.xml#ColbH1">M<hi rend="superscript">r</hi><lb/>
+               Colburn</persName> - which last personage<lb/>
+               <choice><orig>w<hi rend="underline">d</hi></orig><reg>would</reg></choice> give his ears for such<lb/>
+               a name as yours to grace<lb/>
+               his lists.<lb/>
+            </p>
+            <p>
+               There is no news here <persName ref="./Personography.xml#Georg1">The King</persName><lb/>
+            </p>
+            <p>
+               <pb n="8" facs="Edgeworth_NLS_936_1828_03_23_page08.jpg"/>
+               is very feeble but in good spirits<lb/>
+               &amp; is to <hi rend="underline">sit</hi> through a levee next<lb/>
+               week, having <choice><orig>w</orig><reg>with</reg></choice> difficulty<lb/>
+               overcome his repugnance to<lb/>
+               making such an exhibition<lb/>
+               of his royal frame.<lb/>
+               Once more then I hope<lb/>
+               wyou will be persuaded to join<lb/>
+               <persName ref="./Personography.xml#ScotW1">Sir W.S.</persName> &amp;c &amp;c here this<lb/>
+               Spring.<lb/>
+            </p>
+            <closer>
+               Ever faithfully yours,<lb/>
+               <persName ref="./Personography.xml#LockJ1"><hi rend="underline">J G Lockhart</hi></persName><lb/>
+            </closer>
+            <postscript>
+               <p>
+                  Sunday March 23. 1828.<lb/>
+                  <placeName ref="./Placeography.xml#Hampton-Court-Palace_ENK">Hampton Court</placeName><lb/>
+                  I am very very sensible to your<lb/>
+                  kind language about <persName ref="./Personography.xml#CrokT1">Crofton</persName><lb/>
+               </p>
+               <p>
+                  <pb n="9" facs="Edgeworth_NLS_936_1828_03_23_page09.jpg"/>
+                  <persName ref="./Personography.xml#CrokT1">Croker's</persName> affairs. To tell you the<lb/>
+                  truth he has been for years<lb/>
+                  engaged to marry a very<lb/>
+                  respectable woman &amp; only<lb/>
+                  his poverty keeps him single<lb/>
+                  so I was anxious some effort<lb/>
+                  shd be made for him. I fear<lb/>
+                  from his bookseller's silly vanity<lb/>
+                  stuffing the book w writings<lb/>
+                  of his <hi rend="underline">own</hi>, the booby, the thing<lb/>
+                  has gone down. If anything<lb/>
+                  can hoist the vessel up again<lb/>
+                  it will be your kind hand.<lb/>
+                  1828 <persName ref="./Personography.xml#LockJ1">Lockhart</persName><lb/>
+                  1829<lb/>
+                  <hi rend="underline">1767</hi><lb/>
+                  62<lb/>
+               </p>
+            </postscript>
+       </div>
+      </body>
+      <back> </back>
+   </text>
+</TEI>
