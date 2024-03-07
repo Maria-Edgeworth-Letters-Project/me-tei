@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from Maria Edgeworth to Sophia Scott Lockhart, April 7, 1837</title>
+            <author>Maria Edgeworth</author>
+            <editor ref="Id_who">Alexandra LaGrand</editor>
+            <sponsor>
+               <orgName>Maria Edgeworth Letters Project</orgName>
+            </sponsor>
+            <sponsor>Wake Forest University, University of Tennessee, Xavier University, Texas
+               A&amp;M University</sponsor>
+            <principal>Jessica Richard, Hilary Havens, Robin Runia, Susan Egenolf</principal>
+            <respStmt>
+               <resp>Transcription and coding by</resp>
+               <persName ref="Id_who">Alexandra LaGrand</persName>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>First digital edition in TEI, date: <date when="2024-03-07">March 7, 2024</date>
+            </edition>
+            <respStmt>
+               <orgName type="naf" ref="Id_who">National Library of Scotland</orgName>
+               <resp> photos include: Edgeworth_NLS_936_1837_04_07_page01.jpg, Edgeworth_NLS_936_1837_04_07_page02.jpg, Edgeworth_NLS_936_1837_04_07_page03.jpg, Edgeworth_NLS_936_1837_04_07_page04.jpg</resp>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Maria Edgeworth Letters Project</authority>
+            <date>2022</date>
+            <availability>
+               <p>Reproduced by courtesy of the <orgName ref="http://id.loc.gov/authorities/names/n80044899">National Library of Scotland</orgName>
+               </p>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons Attribution 4.0 (CC BY 4.0) Unported License</licence>
+            </availability>
+            <idno>Edgeworth_NLS_936_1837_04_07</idno> 
+         </publicationStmt>
+         <seriesStmt>
+            <title>Maria Edgeworth Letters Project</title>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <repository>National Library of Scotland</repository>
+                  <collection></collection>
+                  <idno></idno>
+               </msIdentifier>
+               <head>Letter from 
+                  <persName ref="./Personography.xml#EdgeM1">
+                     <forename>Maria</forename>
+                     <surname>Edgeworth</surname>
+                  </persName>
+                  to <persName ref="./Personography.xml#LockS1">Sophia Scott Lockhart</persName>, <placeName></placeName>, 
+                  <date when="1837-04-07">April 7<hi rend="superscript">th</hi> 1837</date>
+               </head>
+               <physDesc></physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>Edgeworth’s spelling and punctuation are retained in transcription, except where a
+               word is split at the end of a line and the beginning of the next in a manuscript. The
+               long s and ligatured forms are silently emended.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="./Personography.xml#LockS1">Sophia Scott Lockhart</persName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2024-03-07" who="Id_who">Created file for letter, encoded letter</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <pb n="1" facs="Edgeworth_NLS_936_1837_04_07_page01.jpg"/>
+            <opener>
+               <dateline>
+                  <name type="place" ref="Id_where"/>Edgeworth town
+                  <date when="1837-04-07"/>April 7<hi rend="superscript">th</hi> 1837</dateline>
+            </opener>
+            <p>
+               I wish it were the first of May<lb/>
+               - and you my dear <persName ref="./Personography.xml#LockS1">M<hi rend="superscript">rs.</hi><lb/>
+               Lockhart</persName> know why - or<lb/>
+               you <hi rend="underline">may</hi> know why if you<lb/>
+               consider for a moment-<lb/>
+            </p>
+            <p>
+               The biography is most <choice><orig>in=<lb/>
+               teresting</orig><reg>interesting</reg></choice> - The biographer<lb/>
+               of <persName ref="./Personography.xml#LeydJ1"><unclear>Leyden</unclear></persName> deserved him.<lb/>
+               self to have such a <choice><orig>biogra<lb/>
+               pher</orig><reg>biographer</reg></choice> as he has - <persName ref="./Personography.xml#CramP1"><unclear>Crampton</unclear></persName><lb/>
+               our Surgeon General, of<lb/>
+               whom you know nothing<lb/>
+               but who is known to <persName ref="./Personography.xml#LockJ1">M<hi rend="superscript">r</hi>.<lb/>
+               Lockhart</persName>, as a man of abili<lb/>
+               lities out os his own line &amp;<lb/>
+               of real feeling as I can at-<lb/>
+               test, was the first person<lb/>
+               in this country whose opinion<lb/>
+            </p>
+            <p>
+               <pb n="2" facs="Edgeworth_NLS_936_1837_04_07_page02.jpg"/>
+               of the book I heard. He wrote<lb/>
+               to me, delighted with it<lb/>
+               "That is biography indeed!"<lb/>
+               was what he said - and<lb/>
+               I have a notion that in his<lb/>
+               secret soul he compared<lb/>
+               it with his friend <unclear>Anaercon</unclear><lb/>
+               Moores biographies - He is<lb/>
+               very partial to <unclear>Moore</unclear> but<lb/>
+               not so blind as not to see the<lb/>
+               difference-<lb/>
+            </p>
+            <p>
+               <persName ref="./Personography.xml#LockJ1">M<hi rend="superscript">r</hi>. Lockhart</persName> makes<lb/>
+               such admirable use of all<lb/>
+               the letters - they so unfold<lb/>
+               to the reader <persName ref="./Personography.xml#ScotW1">Sir Walter Scotts</persName><lb/>
+               mind from the earliest<lb/>
+               times - <title ref="./Workography.xml#Memoi8"><unclear>Th</unclear> life</title><note type="certainty">Here, Edgeworth is likely referring to Lockhart's publication of Memoirs of the Life of Sir Walter Scott</note> and his own<lb/>
+               admirable fragment throw<lb/>
+               as much light as can be<lb/>
+               given in confirmation of<lb/>
+               the Biographers observations<lb/>
+            </p>
+            <p>
+               <pb n="3" facs="Edgeworth_NLS_936_1837_04_07_page03.jpg"/>
+               Do you think that there is<lb/>
+               any copy to be had of the<lb/>
+               print of <persName ref="./Personography.xml#BunbH1"><unclear>Bunbury's</unclear></persName> which<lb/>
+               <persName ref="./Personography.xml#BurnX2">Burns</persName> saw at <persName ref="./Personography.xml#FergX">Prof.<hi rend="superscript">r</hi> Fergusons</persName><lb/>
+               of the dying soldier - I wish<lb/>
+               you would have the goodness<lb/>
+               to inquire at <placeName ref="./Placeography.xml#Colnaghi_ENK"><unclear>Colnaghis</unclear></placeName> - I<lb/>
+               should very much wish to<lb/>
+               purchase a copy if it can be<lb/>
+               had at any price.<lb/>
+            </p>
+            <p>
+               My dear <persName ref="./Personography.xml#LockS1">M<hi rend="superscript">rs.</hi> Lockhart</persName> you<lb/>
+               told me that if I missed any<lb/>
+               of <persName ref="./Personography.xml#ScotW1">Sir Walter Scotts</persName> letters from<lb/>
+               among those which I sent to<lb/>
+               <persName ref="./Personography.xml#LockJ1">Mr<hi rend="superscript">r</hi> Lockhart</persName> &amp; would tell you<lb/>
+               you would search for them for me<lb/>
+               - I miss one and but one; but<lb/>
+               that one I should be very sorry<lb/>
+               to lose - It is one which I sent<lb/>
+               to <persName ref="./Personography.xml#LockJ1">M<hi rend="superscript">r</hi>. Lockhart</persName> the first before<lb/>
+               the portfolio full was sent<lb/>
+               -It speaks of <persName ref="./Personography.xml#ScotW1">Sir Walters</persName><lb/>
+               having "<hi rend="underline">lost only the trappings</hi><lb/>
+            </p>
+            <p>
+               <pb n="4" facs="Edgeworth_NLS_936_1837_04_07_page04.jpg"/>
+               <hi rend="underline">of wealth"</hi>- and mentions the<lb/>
+               "offers of assistance which had<lb/>
+               "been made him from the<lb/>
+               "highest persons in the land<lb/>
+               "to the lowest"<lb/>
+               You will oblige me very much<lb/>
+               my dear <persName ref="./Personography.xml#LockS1">M<hi rend="superscript">rs</hi> Lockhart</persName> by plaguing<lb/>
+               yourself and every body else<lb/>
+               till you find it - as I hope you<lb/>
+               will and then enclose it to me<lb/>
+               under cover to <persName ref="./Personography.xml#YorkX1">L.<hi rend="superscript">t</hi> Col.<hi rend="superscript">l</hi> Yorke</persName><lb/>
+               <placeName ref="./Placeography.xml#Dublin-Castle_IE">Dublin Castle</placeName>.<lb/>
+            </p>
+            <p>
+               I am sure you know<lb/>
+               what it is to have no power<lb/>
+               of fixing attention in sorrow<lb/>
+               upon any common place<lb/>
+               reading &amp; you may have felt<lb/>
+               the charm of interesting writing<lb/>
+               in <del>taking ones</del> snatching one<lb/>
+               from oneself away in hours<lb/>
+               of affliction - and you<lb/>
+               know how much then we<lb/>
+               have felt obliged to your<lb/>
+               husband for this volume<lb/>
+            </p>
+         </div>
+      </body>
+      <back> </back>
+   </text>
+</TEI>
