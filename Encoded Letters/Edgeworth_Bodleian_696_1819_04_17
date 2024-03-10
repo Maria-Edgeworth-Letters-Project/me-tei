@@ -1,0 +1,657 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from Maria Edgeworth to Frances Anne Edgeworth, April 17, 1819<!--Recipient Name, Month Day, YYYY--></title>
+            <author>Maria Edgeworth</author>
+            <editor ref="Id_who">
+               Eliza Alexander Wilcox<!--Editor on the Maria Edgeworth Letters Project overseeing the coding of this particular letter: FirstName LastName -->
+            </editor>
+            <sponsor>
+               <orgName>Maria Edgeworth Letters Project</orgName>
+            </sponsor>
+            <sponsor>Wake Forest University, University of Tennessee, Xavier University, Texas
+               A&amp;M University</sponsor>
+            <principal>Jessica Richard, Hilary Havens, Robin Runia, Susan Egenolf</principal>
+            <respStmt>
+               <resp>Transcription and coding by</resp>
+               <persName ref="Id_who">Eliza Alexander<!--FirstName LastName-->
+               </persName>
+               <!-- List all transcribers or coders here, editors and students alike, <persName> by <persName>.-->
+               <persName ref="Id_who"><!--FirstName LastName--></persName>
+               <!-- If you're the last person interacting with the file, enter your name last on the list -->
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>First digital edition in TEI, date: March 10, 2024<date when="2024-03-10">
+                  <!--enter the date on which the first coder created and saved this XML file in google drive-->
+               </date>
+            </edition>
+            <respStmt>
+               <orgName type="naf" ref="Id_who">
+                  Bodleian Library<!--who digitized the letter or gave us permission for to use the file?-->
+               </orgName>
+               <resp> photos include:
+                  <!-- Make a comma-separated list of each .jpg photo file name associated with your letter. 
+                     For example: DSCF9476.jpg, DSCF9477.jpg, DSCF9478.jpg-->
+               </resp>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Maria Edgeworth Letters Project</authority>
+            <date>2022</date>
+            <availability>
+               <!--Uncomment the appropriate line, based on the archive that holds the physical copy of this letter, 
+                  and delete the other comment line(s).-->
+               <p><!--Reproduced by courtesy of the <orgName ref="#ReadingCL">Reading Central Library</orgName>.-->
+                  <!--or -->
+                  <!--Courtesy of <orgName ref="#Rylands">The University of Manchester</orgName>.-->
+               </p>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons Attribution 4.0 (CC BY 4.0) Unported License</licence>
+            </availability>
+            <idno><!--Change to match the file name and current naming standards, i.e. "Edgeworth_Beinecke_330_1817_01_24" if file name is "Edgeworth_Beinecke_330_1817_01_24.xml"--></idno> 
+         </publicationStmt>
+         <seriesStmt>
+            <title>Maria Edgeworth Letters Project</title>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <!-- This section of the header identifies the original manuscript source. -->
+               <msIdentifier>
+                  <repository>ORGANIZATION NAME</repository>
+                  <collection><!-- Enter specific archival collection if applicable--></collection>
+                  <idno><!--Consult library or WorldCat for this info--></idno>
+               </msIdentifier>
+               <head>Letter from 
+                     <persName xml:id="EdgeM1" from="1768" to="1849">
+                        <forename>Maria</forename>
+                        <surname>Edgeworth</surname>
+                        <date>1768-1849</date>
+                        <idno type="VIAF">71477273</idno>
+                        <idno type="SNAC">62567029</idno>
+                     </persName>
+                   to <persName><!--Recipient Name--></persName>, <placeName><!--Location where letter was sent--></placeName>, 
+                  <date when="1111-01-01"><!-- Transcribe the date as it appears on the letter itself. Enter a numeric standardized date value in @when. --></date>
+                  <!-- <stamp>Enter description, if applicable</stamp>-->
+               </head>
+               <physDesc>
+                  <!-- optional physical description of the letter goes here: paper size and condition, seal, postmarks, etc.-->
+               </physDesc>
+            </msDesc>
+            <bibl>In addition to our edited version, this letter was previously published in
+               <!--complete bibiographical info if letter was published in a book here - if not delete-->
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <!--Where Edgeworth uses nonstandard spelling and hyphenation of words, transcriber-coders 
+               should use TEI elements “choice," “sic," and “reg" to encode both Edgeworth’s 
+               spelling and the regular international standard of Oxford English spelling, 
+               following the first listed spelling in the Oxford English Dictionary. -->
+            <p>Edgeworth’s spelling and punctuation are retained in transcription, except where a
+               word is split at the end of a line and the beginning of the next in a manuscript. The
+               long s and ligatured forms are silently emended.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName><!--SENDER NAME--></persName>
+            </correspAction>
+            <correspAction type="received">
+               <persName><!--RECIPIENT NAME--></persName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-01-01" who="Id_who">
+            <!--Brief description of what you did here.-->
+         </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <pb n="1" facs="image1.jpg"/>
+            <!--filenames for photos associated with this letter. Example: <pb n="1" facs="image1.jpg image2.jpg image3.jpg"/> -->
+            <opener>
+               <dateline><!--If there's no date line, omit this element. Record in the order in which it is written on the letter.-->
+                  <name type="place" ref="Id_where"/>
+                  <date when="1816-08-04"/>August 4, 1816. </dateline>
+               <salute>
+                  <persName>
+                     <!-- Use if letter has a saluation ("Dear Sir," for example). If not, delete this line.-->
+                  </persName>
+               </salute>
+            </opener>
+            <p>Deep Dene
+                Saturday Ap[superscript]l[/superscript] 17 [superscript]th[/superscript]
+                1819.
+
+                Deep [underline]Dene[/underline] -
+                Dene a saxon word meaning
+                a deep rift in a wood - in
+                short a deep dingle -
+
+                My dearest mother. Your wish that
+                we should be at Deep Dene is accom-
+                -plished. We are at last at this beautiful
+                place in this sweet valley of Dorking. Not
+                as we had last year hoped to be, with the
+                great and good Sir Samuel Bonnelly but
+                still we are with hospitable and kind
+                people and in the midst of all the
+                luxuries of life - and all that the gilding
+                and painting, and bronzing of art can
+                do within, and all that Nature can
+                do with hill and vale, dingle and
+                bushy wood to make the owners and
+                their guests happy.
+
+                The first evening of our arrival we
+                were so late that even in driving thro'
+                the vale of Dorking we were in an agony
+                that prevented our enjoyment. We were
+                cross because we were late. The Carrs who
+                are enthusiasts about the beauties of
+                the vale of Dorking & who know nothing
+                of the Hopes but that he has built a great
+                [insertion]new[/insertion] brick house and pulled down [deletion][unclear]a[/unclear][/deletion]
+                some old house in Chert park which [unclear] very[/unclear]
+                loved had spoken with sufficient in-
+                -dignation of the manufactory looking
+                [insertion]brick[/insertion] [/insertion] edifice which they say has set the valley
+                on fire - At first sight the offices & the
+                house all irregularly joined with [insertion]archways &[/insertion] cupola's
+                and strangenesses of red [insertion]brick[/insertion] certainly did
+                strike us as frightful in the midst of
+                a most beautiful country - Our friend
+                the housekeeper & several footmen standing
+                at the arched door way watching in the dusk
+
+                [page two begins]
+
+                for our arrival, and the first words in
+                answer to mine of " Is it dinner time? "
+                " Yes Ma'am - dinner has been waiting
+                this hour " - increased my uncomforta
+                ble feelings - Fanny was so much tired
+                that we determined she should not go to
+                dinner especially as we heard that Con-
+                versation Sharp and some other gentlemen
+                were here. I had taken it for granted that
+                the Hopes dined at the same hour in Town
+                and country. But instead of 7 they dine
+                at 6 [/unclear] in the country & various operations
+                & leave takings & a visit to Lord - I mean
+                to Lady Carrington had altogether detained
+                us too late in Town - Fanny's health & the
+                pity and interest which it and she ex-
+                cited stood us in good stead. We dressed
+                in the utmost hurry skurry in less than
+                five minutes I am sure made our appear
+                ance in the drawing where luckily the
+                circle were standing & sitting by dim fire
+                light & our guilty faces could scarcely
+                be seen - From the midst two [insertion]black & white[/insertion] figures whom
+                I knew to be M[superscript]r[/superscript]. & M[superscript]rs[/superscript]. Hope each with hand
+                extended came to meet us and with one
+                comfortable pressure of each hand set the
+                mind at ease. I descried by the wood
+                fire light the wooden cut of M[superscript]r[/superscript]. Sharpe's
+                face and was re-introduced to a M[superscript]r[/superscript]. [underline]Harness[/underline]
+                whom you may remember tho' I did
+                not - He told me he was introduced to us [underline]first[/underline]
+                at Lydia Whyte's just after we had been pre-
+                sented to the [underline]Duchess[/underline] [insertion][unclear]Qn[/unclear][/insertion] of Sussex. - He is an agreeable
+                man & M[superscript]r[/superscript]. Sharpe was what they call (and
+                I hate the expression) [underline]in great force[/underline] that day
+                - And there was an admirable dinner
+                of all manner of well disguised French
+                dishes and creams & soufflés and ices
+
+                [page three begins]
+
+                and more than would have sufficed for the
+                dinner of the first bon vivant in Town was
+                se[unclear]n[/unclear]t by [insertion]the [/insertion]goodnatured M[superscript]r[/superscript] Hope[underline]s[/underline] to Fanny
+                - As soon as I could steal away after dinner
+                I got to her & found her as pale as a turnip
+                wrapped in my shawl. After having swal
+                lowed a little jelly she went to bed - A most
+                comfortable [deletion]large [/deletion]French mattress - Canopy
+                bed- large enough for four such as she
+                & I - three rooms opening into one another
+                - Small but superbly furnished - I was
+                cross even with the fine furniture that
+                night & regretted the dear Carrs & the
+                the home comforts we found there.
+                - I was shockingly afraid that Fanny
+                was going to be ill again here - She had
+                but little sleep in the night- and in the
+                morning a new misery! Honora wakened
+                with one of her sad sick headaches- Impos
+                sible that either of them could think of get-
+                ting up to break fast. But there was one
+                comfort. M[superscript]r[/superscript]. and M[superscript]rs[/superscript]. Hope [deletion]a[/deletion] breakfast in
+                their own room. Only Miss Burrowes
+                (M[superscript]rs[/superscript]. Hopes niece) and M[superscript]r[/superscript]. Harness were at
+                the breakfast table - This whole first day
+                was uncomfortable as you may guess
+                But this day all is[deletion] bright and[/deletion] well
+                & bright and happy . Honora and Fanny
+                are both refitted & we have had charm-
+                ing walks & drives . Fanny first was
+                taken out in [deletion]the [/deletion][insertion]a [/insertion]carriage & then had a
+                little walk with M[superscript]r[/superscript] Hope and me -
+                a beautiful walk through [underline]the [/underline]deep dene!
+                -Larch & young beech just come out?.-
+                & grass as green & fresh as Erin's - birds
+                singing - lambs feeding & soft April air [insertion]every[/insertion]
+                182
+
+                [page four begins] 
+
+                thing to delight Fanny going out for the
+                first walk after her illness - she fixed on a
+                beautiful place for a seat which M[superscript]r[/superscript]. Hope
+                says he will have there & will call Fanny's
+                seat. Nothing can be more courteously kind
+                than M[superscript]r[/superscript]. and M[superscript]rs[/superscript]. Hope are to us. I am very glad
+                to see that her looks have improved much
+                within this last fortnight & her spirits
+                are better - But she has too little to do [deletion]and[/deletion]
+                too many real good & fine things & too
+                much time to think over painful recol-
+                lections. Her living children are both fine
+                boys and they will in time I hope re-ani-
+                mate her.
+
+                M[superscript]r[/superscript]. Hope keeps up in my mind the opinion
+                I early formed - not of his taste, for I think
+                his taste is the worst part of his mind, but
+                of his information & general powers of
+                conversation . In a very long tete a tete walk
+                I had with him he gave me a history of the
+                progress of architecture so perfectly clear
+                that it might have been written down
+                as he spoke it and your dear father & Louisa
+                [insertion]w[superscript][/superscript]. [/insertion] have admired it and Leslie Foster with
+                all his memory and all his accuracies
+                could have found no fault. The most
+                [underline]entertaining[/underline] part of the conversation how-
+                ever was on persons not things. You may
+                judge of the degree of [insertion]our [/insertion] intimacy when I
+                tell you that M[superscript]r[/superscript]. H related to me the whole
+                history of his love courtship & marriage
+                and moreover of Miss Berry's courtship of him
+                - disappointment - anger - and quarrel with
+                M[superscript]rs[/superscript]. Hope - All which I must reserve for
+                future fireside conversations - One [insertion]detached [/insertion] anecdote how
+                ever I am afraid of forgetting & it is too good to forget
+                When M[superscript]r[/superscript]. H was a young man & Capt[superscript]n[/superscript]. in the Mary
+                bone volunteers he was at a city dinner, at his Colonels . a young
+                lady sister to the lady of the house sat beside him at dinner
+                - He was shy & she was shy & not a word passed between
+
+                [page five begins]
+
+                them during the first course but towards
+                the end of the second the young lady as it
+                is supposed feeling it incumbent upon her
+                to do the honors of her sisters house & to say
+                something to the young stranger & recollecting
+                that he was just returned from his travels &
+                that he had been [deletion]in[/deletion][insertion]at[/insertion] Constantinople she [deletion]softly[/deletion]
+                hemmed several times & at last the first sound
+                of her voice he heard in this question
+                "Pray Sir how many concubines has the Grand
+                "Seignior?"
+
+                Mr. Hope was so entertaining during this walk that
+                it was as much as I could do to enjoy the beauties
+                of nature. But so beautiful a walk & with such
+                variety of beauty I never had in my life: & my
+                companion judiciously refrained from point
+                ing out beauties or forcing admiration from me
+                - He gently turned or stopped when we came to
+                any delightful point of view but that was all.
+                -And after a long walk one day he took Fanny
+                & me again over the part which I had liked the
+                best to shew it to her. Nothing can be more obliging
+                & kind than he is to us.- I dare not attempt
+                any description of grounds or country . all I
+                can say is that I hope you will some time see
+                them for yourself & that my present pleasure
+                is incomplete for want of your sharing it
+                my dearest mother & friend - I long also to
+                have my aunt Ruxton with me - But one can-
+                not have every thing - Tiresome old [unclear]Truism [/unclear][deletion][unclear]that[/unclear][/deletion]
+                which meets one at every turn in life
+
+                This house is in its present condition
+                [deletion]frightful[/deletion] scarcely handsome in its external
+                appearance. The stable at the bottom of the hill
+                looks like a vast square brick manufactory. The
+                house like some of the views [deletion]of [/deletion][insertion]in[/insertion][underline] Athenian Stewart[/underline]
+                of Turkish buildings [insertion]qrotesque &[/insertion] confused among trees
+                in no one particular taste & [insertion]bend in[/insertion] glaring in red brick
+                instead of stone or marble M[superscript]r[/superscript]. Hope assures me
+                many churches in Lombardy in particular
+                that [deletion]the[/deletion] [insertion]a[/insertion] famous church in Milan Santa Maria della [insertion]Grazia[/insertion] is of red brick
+                - I am sorry for it - and I am glad that he in-
+                tends next year to stucco this house & to take
+                off the reproach from himself of having [underline]set the valley[/underline]
+                5
+                183
+
+                [page six begins]
+
+                [underline]on fire"[/underline]
+
+                This house is magnificently furnished
+                but to my taste much too fine for [insertion]a [/insertion] country house
+                even putting the idea of comfort out of the question.
+                -There is too much Egyptian ornament Egyptian
+                hierogliphic figures bronze & gilt but all hideous
+                In one room called the Egyptian room there is a
+                bed made exactly after the model of Denon's
+                Egyptian bed - a sofa bed broad enough for two
+                aldermen
+                glyphic [underline]frights [/underline] [drawing] all pointing with
+                their hands [drawings] distorted backwards
+                at an Osiris [drawing] or a long armed
+                monster of some sort who sits after their fashion
+                on [deletion]their [/deletion][insertion]her [/insertion] hams & heels and hath the likeness of
+                a globe of gold on her lappetted, scaly lappetted
+                head. - In another room there is a really
+                curious collection of Raphaels designs of orna
+                ments for the Vatican - from Titus's baths. some
+                -thing like those at Lord Sanderlins. How could
+                Raphaels genius turn to such conceits - [insertion]for instance [/insertion]branches
+                of trees with groups of singing birds knocking an
+                owl.- - I should never finish or should make
+                a description fit for an auctioneer if I went
+                through all these rooms. The French furniture
+                is rich & beautiful mahogany v[deletion]a[/deletion]ineered more
+                exquisitely & showing in better taste the veins
+                & knots of the wood than any English workman
+                ship I ever saw. but all with clumsy keep as
+                you saw in Paris - In every passage & hall
+                there are collections of frightful monsters in
+                bronze or stone or plaister - one bronze [underline]genuis[/underline]
+                as I am told he is, about my own height with
+                outstretched long arms offends me most, because
+                I am obliged to come across him ten times a day
+                in passing to my own door. I could with plea-
+                sure knock him down & break him to pieces.
+
+                Private
+                [The first night I came here the impudent monster
+                [kept me a quarter of an hour prisoner in the
+                [water closet because I mistook his shadow for the
+                [shadow of a real man standing near the door. do you
+
+                [page seven begins here]
+
+                wonder I owe him a grudge?]
+
+                - -There are sundry mechanical impossibilities too
+                in some of the statues which hurt my mechanical
+                feelings for instance a resigned female Cariatides [deletion]whose[/deletion]
+                of white stucco whose head in eternal pillory supports
+                a heavy stair [figure]case while her feet stand on a globe so
+                small that it never could support her & it seems al-
+                ways stepping from under her - A candalabra figure
+                [insertion]in the dining room[/insertion]
+                with arms painfully holding 12 candle branches
+                heavier & larger than herself and without a resting
+                place for her poor feet - on the contrary with
+                a cruel gold basket hung on her ancles ! - [/figure]
+                But most I feel for a classical figure
+                never so used before to my knowledge - The slave tak-
+                ing the thorn out of his foot a cast in bronze on
+                a pedestal but the pedestal so small that the leg
+                on which the thorny foot is crossed has no support
+                but sticks out in mid air - an eternally painful
+                impossibility that hurts my eyes whenever I go
+                into the dining room .
+
+                There are some beautiful things however - for instance
+                two casts of Canova's heads of Perseus and of Paris
+                and a Psyche of Torvalsen's - By the by that Danish
+                stone cutter has jilted the highborn Scotchwoman
+                the Miss McKinzie who fell in love with him - He
+                found that her fortune was not equal to his expecta
+                tions & he has set off for Iceland - one way of curing
+                a lady's love - 
+
+                We have had no company here but two or three
+                gentlemen M[superscript]r[/superscript]. Harness - agreeable & open hearted -
+                M[superscript]r[/superscript]. Moore son of the late Archbishop of Canterbury
+                clever - but too much of the Poco Curante for me - but
+                not for the fashion - squinting a little & with a mouth
+                that opens crookedly [figur5e] and lips that express scorn
+                but a cela prés very agreeable and high bred - And
+                fond of his own comforts as Lambeth could make him!
+                -[insertion]of[/insertion] M[superscript]r[/superscript]. Sharpe I need say nothing you know him &
+                his magic lantern of good things - Some new figures
+                on the slides - Miss Burrowes M[superscript]rs[/superscript]. Hopes niece has
+                been the only femal we have seen tho Lady [unclear]Rothus[/unclear]
+                & others called but we escaped from them - Miss
+                Burrowes has been well mastered & has travelled
+                & all that but is but an insipid personnage with
+                a flat back & well curled hair - she can [underline]tell[/underline] a little
+                about Florence but all her words & movements are
+                so measured that I long to shake her to see if I could
+                184
+
+                [page eight begins here]
+
+                [insertion]s[/insertion]hake the affectation out of her to satisfy myself whe-
+                ther there is or is not any thing else within her. She
+                always moves with her toe pointed down on the
+                carpet and as if she was winning her way between
+                brittle glass or precious china and moving, or stand-
+                -ing, or sitting she seems evermore as if she had
+                the fear of the five positions before her eyes - "Bend
+                poor thing! as M[superscript]rs[/superscript]. Candor would say, Who knows
+                but she thinks it her duty - and the whole duty of
+                woman - [insertion] But M[superscript]r[/superscript] Hope really likes her and says that
+                though a spoiled child she is not the least selfish[/insertion]
+                A whole family of [underline]rich[/underline] & [underline]good[/underline] quakers, the Barclays,
+                are to dine here tomorrow - I have made inquiries
+                for the man who married an Irish young lady
+                of the name of Sanderson & have asked for him
+                by the name of Slater and of Turner, and have
+                looked over the list of Book society names for any
+                other name that sounded likely but all in vain!
+                So I must give up looking by your blind direction
+                my dears for a needle in a bundle of hay.
+
+                Sunday morn[superscript]g[/superscript].
+
+                Now to matters of more interest than
+                all this scandal against statues and human
+                creations - Fanny has her own color in her cheeks
+                this morning & looks better after a nights good sleep
+                than I have seen her since she came to England
+                - [deletion]M[superscript]rs[/superscript]. Hope ha[/deletion] She has no cough - no pain in her
+                side - Some appetite & is going to ride for more .
+                - M[superscript]rs[/superscript]. Hope has lent her a habit & a stumbling
+                poney .- It is a fine sunshiny shining day & Heaven
+                speed her - I am a little frightened - but I believe
+                without reason . She is going to ride with Master Henry Hope who rides [insertion]well & is good natured[/insertion]
+                I have full instructions from D[superscript]r[/superscript]. Holland respect-
+                ing every particular about her health. He says
+                that for 2 or 3 years till it becomes regularly good
+                her health will require care - but [underline]with[/underline] care he
+                fears nothing
+
+                [underline]Private[/underline]
+                [Now I am between two fears - Fear the 1[superscript]st[/superscript]. that you
+                [should think Fannys illness has been [insertion]too[/insertion] expensive
+                [to me - Fear the 2[superscript]d[/superscript]. that you should apprehend
+                [that D[superscript]r[/superscript]. Holland has not been fee-d and that your
+                [Fanny has been left under the weight of this obliga-
+                [tion to her young [insertion]admiring[/insertion] physician - No my dear mother
+                [[underline]that[/underline] last I could not do - So I had better set your mind
+
+                [page nine begins] 
+
+                (ease by telling you the simple truth. I found it very
+                (difficult to make him take a fee the first day -
+                (but did - one guinea - I never repeated the attempt till
+                (the last moment at M[superscript]rs[/superscript]. [insertion]J[/insertion] Baillies - He eluded me
+                (wondrous well - but I was too cunning - followed
+                (him down stairs when he thought he was clear off - called
+                (him back to ask another question about Fanny - He
+                (came running back with all zeal good easy man!
+                (You wish that I should let you know when we
+                (return to Lady E W's at Kensington
+                (Oh certainly = Then I will do so upon one
+                (condition & upon no other "- great & real reluctance
+                (upon his part but I conquered & leaving a five pound
+                (note on his cuff for I c[superscript]d[/superscript]. not force it into his hand ran
+                (up stairs - Upon consulting Francis since I fear
+                (it was not enough - I understand that a guinea a
+                (mile when a phys goes out of Town is the usual
+                (rate - But when we go to Lady EW without telling
+                (what has been done I will inquire what should be
+                (done - and it shall be all right - The apothecary
+                (bill was very little only £2 - and now my
+                (dear mother I hope you do not grudge me this
+                (much - Fanny dear Fanny does not.
+
+                If you will permit me to give you
+                my unasked advice about little Francis's [insertion]5 weeks,[/insertion] Whit
+                suntide holidays I should advise his staying with
+                his uncle Francis & his friends in Harley Street
+                instead of going with the Beddoes to Bath. Anna
+                is as kind as kind can be & I am sorry to rob her
+                fraudulently & as it were underhand of the great
+                pleasure I know she would have in being good
+                to the boy & to your son; but I have my reasons
+                for thinking that Tom is not the best companion
+                for him and in Bath there would be danger of
+                Francis being spoiled - Francis & M[superscript]r[/superscript]. Wilson seem
+                to me both of them to understand how to treat
+                a boy - If they go to Epping there is a work shop &
+                employment out of doors - If they stay in Town
+                They will take Francis frequently to M[superscript]r[/superscript] Carrs
+                - Joanna Bailie's & M[superscript]r[/superscript]. Colebrooks at Hampstead
+                - The Carrs in particular [insertion]are [/insertion][deletion]an [/deletion]admirable [insertion]literary [/insertion]acquaintance
+                6
+                185
+                
+                [page ten begins]
+                for him - Colebrook's scientific - and Joanna [insertion]& Agnes [/insertion] Bail
+                lie all that is good & motherly - and all these
+                people judiciously fond of the boy - And all
+                have cordially invited him - And the object of
+                taking him there will draw the acquaintance
+                between our Hampstead & Harley Street friends
+                necessarily closer together - an advantage to all
+                parties concerned - Now dear mother give
+                me a decided answer as soon as you can
+                say whether you chuse that he sh[superscript]d[/superscript]. go to Bath or
+                to Capt[superscript]n[/superscript]. B - for Whitsuntide is a-coming
+
+                He goes to the Carrs & Baillies on the
+                22[superscript]d[/superscript]. for the 3 days Easter Holidays - I told M[superscript]rs[/superscript].
+                Marcet you would give him some leave to go to see
+                her. She asked leave [insertion]very humbly[/insertion] to send for him some Saturday
+                - I asked D[superscript]r[/superscript]. M to shew him his model of a steam
+                engine [deletion]next[/deletion] [deletion]next[/deletion][insertion]this[/insertion] Sunday & have settled that his uncle
+                [deletion]will[/deletion] takes him there . I believe I told you in my last
+                that excellent answer F[superscript]s[/superscript]. made to M[superscript]r[/superscript]. Carr about
+                the steam engine - If I did not say so - for it is
+                but just you sh[superscript]d[/superscript]. know how [insertion]sensible & how[/insertion] modest that dear boy
+                is - M[superscript]r[/superscript]. Hope runs up to Town tomorrow & down next day &
+                We shall stay here till next saturday morning
+                the 24[superscript]th[/superscript]. when we shall go to Lady E. Whitbread -
+                I enclose a note from Lady Harrowby - shall
+                accept her offer and if Fanny is stout as a lion
+                she shall go with me for it was for her chiefly
+                I [deletion]mana[/deletion] begged the favor & I would not take
+                the trouble of going without her -
+                When we are again with Lady E W you
+                know she has promised me to have [deletion]her brother[/deletion]
+                Lord Gray that we may introduce little Francis
+                to him. I particularly wish this because Lord G
+                is excessively fond of his own sons who are fine
+                clever boys & therefore he will [underline]take[/underline] to Francis &
+                once in Francis will never be out of his head &
+                heart - Besides I wish for Francis to become
+                acquainted with the Gray boys - (not Gray Beards)
+                - They will be right good companions for him
+                when he visits Lady EW W - instead of the Battys who
+
+                [page eleven begins here] 
+
+                tho good are vulgar[underline]ish[/underline] & worship him too much
+                Too Besides I know old good Lady Gray will
+                hug him to her breast (bone) when she knows
+                him & all the Gray children cluster & cling
+                round that Eldest of Forms
+
+                Your commissions are all executed &
+                I have bought 30 yards of Canvas (Italian
+                gauze for gowns for the Young Curs Lord
+                send you & they may like the color .- and
+                I have bought ribbons for bonnets & belts -
+                Gillore!- -
+
+                Farewell M[superscript]r[/superscript]. Hope calls me to walk
+                G Bristow in full feather - with a new
+                coat - M[superscript]rs[/superscript]. Hogan the housekeeper calls
+                him " That old gentleman of yours who is
+                walking always about the grounds - Tell
+                Molly - Love to Kitty - [underline]Hate[/underline] to all
+                [deletion]my[/deletion] other inquiring friends
+                I rejoice in all the dear Sheriff's glories
+                & we were infinitely pleased with your
+                account of them - read to Sneyd & Harriette
+                - both well & well pleased - all smooth
+                as velvet - I left them directions to go to
+                see Lady Farnham - & gave them a note
+                to Miss Fox & Miss Vernon
+<!-- Begin transcibing the body of the letter here. -->
+            </p>
+            <p>
+               <!--More body paragraphs as needed.--></p>
+            <p>
+               <!--More body paragraphs as needed.-->
+               <!--Where there's a page break record it inside the relevant body paragraph like this, 
+                  with the self-closing page-break element. n="2" indicates the START of the second page.-->
+               <pb n="2" facs="image2.jpg"/>
+            </p>
+            <p><!--More body paragraphs as needed.--></p>
+            <closer>
+               <!--include linebreaks, if used. example: <closer> Yours<lb/> Very sincerely<lb/> -->
+            </closer>
+            <postscript>
+               <p><!--A postscript goes here, outside the <closer>. --></p>
+            </postscript>
+            <!--You can include a <pb/> here, or inside the postScript.-->
+            <!-- Format for postscripts. 
+               Postscripts do NOT go inside closer tags. Adjust to take into account the order in your letter. 
+               Sometimes the signature is on page three, the address on page four, then the postscript follows back on the top of page one, for example.-->
+            <closer><!--Use the <closer> element again to hold Address Leaf information.-->
+               <address>
+                  <!--Include any text written on the address leaf; use a separate "addrLine" for each line and indicate line breaks. -->
+                  <addrLine/>
+                  <addrLine/>
+                  <addrLine/>
+               </address>
+            </closer>
+         </div>
+      </body>
+      <back> </back>
+   </text>
+</TEI>
