@@ -51,9 +51,7 @@
             <availability>
                <!--Uncomment the appropriate line, based on the archive that holds the physical copy of this letter, 
                   and delete the other comment line(s).-->
-               <p>Reproduced by courtesy of the <orgName ref="http://id.loc.gov/authorities/names/n80020306">Bodleian Library<!--Reproduced by courtesy of the <orgName ref="#ReadingCL">Reading Central Library</orgName>.-->
-                  <!--or -->
-                  <!--Courtesy of <orgName ref="#Rylands">The University of Manchester</orgName>.-->
+               <p>Reproduced by courtesy of the <orgName ref="http://id.loc.gov/authorities/names/n80020306">Bodleian Library</orgName>.
                </p>
                <licence target="https://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons Attribution 4.0 (CC BY 4.0) Unported License</licence>
             </availability>
@@ -97,9 +95,7 @@
                should use TEI elements “choice," “sic," and “reg" to encode both Edgeworth’s 
                spelling and the regular international standard of Oxford English spelling, 
                following the first listed spelling in the Oxford English Dictionary. -->
-            <p>Edgeworth’s spelling and punctuation are retained in transcription, except where a
-               word is split at the end of a line and the beginning of the next in a manuscript. The
-               long s and ligatured forms are silently emended.</p>
+            <p>Edgeworth’s spelling and punctuation are retained in transcription, including non-standard spelling, line breaks, and hyphenation of words. The long s and ligatured forms are silently emended.</p>
          </editorialDecl>
       </encodingDesc>
       <profileDesc>
@@ -133,15 +129,15 @@
                   </persName>
                </salute>
             </opener>
-            <p> <placeName ref="./Placeography.xml#Deep-Dene-Dorking_ENK">Deep <hi rend="underline">Dene</hi></place> -
+            <p> <placeName ref="./Placeography.xml#Deep-Dene-Dorking_ENK">Deep <hi rend="underline">Dene</hi></placeName> -
                 Dene a saxon word meaning<lb/>
                 a deep rift in a wood - in<lb/>
                 short a deep dingle -<lb/> </p>
 
-            <p> My dearest <persName ref="./Personography.xml#EdgeF2">mother<persName>. Your wish that<lb/>
-                we should be at <placeName ref="./Placeography.xml#Deep-Dene-Dorking_ENK">Deep Dene</place> is <choice><orig>accom-<lb/>
+            <p> My dearest <persName ref="./Personography.xml#EdgeF2">mother</persName>. Your wish that<lb/>
+                we should be at <placeName ref="./Placeography.xml#Deep-Dene-Dorking_ENK">Deep Dene</placeName> is <choice><orig>accom-<lb/>
                 -plished</orig><reg>accomplished</reg></choice>. We are at last at this beautiful<lb/>
-                place in this sweet valley of <placeName ref="./Personography.xml#Dorking_ENK">Dorking</persName>. Not<lb/>
+                place in this sweet valley of <placeName ref="./Placeography.xml#Dorking_ENK">Dorking</placeName>. Not<lb/>
                 as we had last year hoped to be, with the<lb/>
                 great and good <persName ref="./Personography.xml#BonnS1">Sir Samuel Bonnelly</persName> but<lb/>
                 still we are with hospitable and kind<lb/>
@@ -155,17 +151,17 @@
 
             <p> The first evening of our arrival we<lb/>
                 were so late that even in driving thro'<lb/>
-                the vale of <placeName ref="./Personography.xml#Dorking_ENK">Dorking</persName>we were in an agony<lb/>
+                the vale of <placeName ref="./Placeography.xml#Dorking_ENK">Dorking</placeName>we were in an agony<lb/>
                 that prevented our enjoyment. We were<lb/>
                 cross because we were late. The <persName ref="./Personography.xml#CarrX1">Carrs</persName> who<lb/>
                 are enthusiasts about the beauties of<lb/>
-                the vale of <placeName ref="./Personography.xml#Dorking_ENK">Dorking</persName>&amp; who know nothing<lb/>
+                the vale of <placeName ref="./Placeography.xml#Dorking_ENK">Dorking</placeName>&amp; who know nothing<lb/>
                 of the <persName ref="./Personography.xml#HopeX3">Hopes</persName> but that he has built a great<lb/>
                 <add>new</add> brick house and pulled down <del><unclear>a</unclear></del><lb/>
                 some old house in <placeName ref="./Placeography.xml#Chart-Park_ENK">Chart park</placeName> which <unclear> very</unclear><lb/>
                 loved had spoken with sufficient <choice><orig>in-<lb/>
                 -dignation</orig><reg>indignation</reg></choice> of the manufactory looking<lb/>
-                <add>brick</add> </add> edifice which they say has set the valley<lb/>
+                <add>brick</add> edifice which they say has set the valley<lb/>
                 on fire - At first sight the offices &amp; the<lb/>
                 house all irregularly joined with <add>archways &amp;</add> cupola's<lb/>
                 and strangenesses of red <add>brick</add> certainly did<lb/>
@@ -183,11 +179,11 @@
                 ble</orig><reg>uncomfortable</reg></choice> feelings - <persName ref="./Personography.xml#EdgeF3">Fanny</persName> was so much tired<lb/>
                 that we determined she should not go to<lb/>
                 dinner especially as we heard that <persName ref="./Personography.xml#SharR1"><choice><orig>Con-<lb/>
-                versation</choice><reg>Conversation</reg></choice> Sharp</persName> and some other gentlemen<lb/>
+                versation</orig><reg>Conversation</reg></choice> Sharp</persName> and some other gentlemen<lb/>
                 were here. I had taken it for granted that<lb/>
                 the <persName ref="./Personography.xml#HopeX3">Hopes</persName> dined at the same hour in Town<lb/>
                 and country. But instead of 7 they dine<lb/>
-                at 6 </unclear> in the country &amp; various operations<lb/>
+                at <unclear>6</unclear> in the country &amp; various operations<lb/>
                 &amp; leave takings &amp; a visit to <persName ref="./Personography.xml#CarrR1">Lord</persName> - I mean<lb/>
                 to <persName ref="./Personography.xml#CarrA1">Lady Carrington</persName> had altogether detained<lb/>
                 us too late in Town - <persName ref="./Personography.xml#EdgeF3">Fanny</persName>'s health &amp; the<lb/>
@@ -208,7 +204,7 @@
                 whom you may remember tho' I did<lb/>
                 not - He told me he was introduced to us <hi rend="underline">first</hi><lb/>
                 at <persName ref="./Personography.xml#WhitL1">Lydia White's</persName> just after we had been <choice><orig>pre-<lb/>
-                sented</persName> to the <hi rend="underline">Duchess</hi> <add><unclear>Qn</unclear></add> of Sussex. - He is an agreeable<lb/>
+                sented</orig><reg>presented</reg></choice> to the <hi rend="underline">Duchess</hi> <add><unclear>Qn</unclear></add> of Sussex. - He is an agreeable<lb/>
                 man &amp; <persName ref="./Personography.xml#SharR1">M<hi rend="superscript">r</hi>. Sharpe</persName> was what they call (and<lb/>
                 I hate the expression) <hi rend="underline">in great force</hi> that day<lb/>
                 - And there was an admirable dinner<lb/>
@@ -219,7 +215,7 @@
 
                 and more than would have sufficed for the<lb/>
                 dinner of the first bon vivant in Town was<lb/>
-                se<unclear>n</unclear>t by <add>the </add>goodnatured <persName refe="./Personography.xml#HopeT1">M<hi rend="superscript">r</hi> Hope<hi rend="underline">s</hi></persName> to <persName ref="./Personography.xml#EdgeF3">Fanny</persName><lb/>
+                se<unclear>n</unclear>t by <add>the </add>goodnatured <persName ref="./Personography.xml#HopeT1">M<hi rend="superscript">r</hi> Hope<hi rend="underline">s</hi></persName> to <persName ref="./Personography.xml#EdgeF3">Fanny</persName><lb/>
                 - As soon as I could steal away after dinner<lb/>
                 I got to her &amp; found her as pale as a turnip<lb/>
                 wrapped in my shawl. After having swal<lb/>
@@ -229,7 +225,7 @@
                 &amp; I - three rooms opening into one another<lb/>
                 - Small but superbly furnished - I was<lb/>
                 cross even with the fine furniture that<lb/>
-                night &amp; regretted the dear <persName ref="./Personography.xml#CarrX1">Carrs &amp; the<lb/>
+                night &amp; regretted the dear <persName ref="./Personography.xml#CarrX1">Carrs</persName> &amp; the<lb/>
                 the home comforts we found there.<lb/>
                 - I was shockingly afraid that <persName ref="./Personography.xml#EdgeF3">Fanny</persName><lb/>
                 was going to be ill again here - She had<lb/>
@@ -249,7 +245,7 @@
                 ing</orig><reg>charming</reg></choice> walks &amp; drives . <persName ref="./Personography.xml#EdgeF3">Fanny</persName> first was<lb/>
                 taken out in <del>the </del><add>a </add>carriage &amp; then had a<lb/>
                 little walk with <persName ref="./Personography.xml#HopeT1">M<hi rend="superscript">r</hi> Hope</persName> and me -<lb/>
-                a beautiful walk through <hi rend="underline">the </hi><placeName ref="./Placeography.xml#Deep-Dene-Dorking_ENK">deep dene</place>!<lb/>
+                a beautiful walk through <hi rend="underline">the </hi><placeName ref="./Placeography.xml#Deep-Dene-Dorking_ENK">deep dene</placeName>!<lb/>
                 -Larch &amp; young beech just come out?.-<lb/>
                 &amp; grass as green &amp; fresh as <placeName ref="./Placeography.xml#IE">Erin's</placeName> - birds<lb/>
                 singing - lambs feeding &amp; soft April air <add>every</add><lb/>
@@ -311,7 +307,7 @@
                 hemmed several times &amp; at last the first sound<lb/>
                 of her voice he heard in this question<lb/>
                 "Pray Sir how many concubines has the Grand<lb/>
-                "Seignior?"<lb/><p>
+                "Seignior?"<lb/></p>
 
             <p> <persName ref="./Personography.xml#HopeT1">Mr. Hope</persName> was so entertaining during this walk that<lb/>
                 it was as much as I could do to enjoy the beauties<lb/>
@@ -343,7 +339,7 @@
                 in no one particular taste &amp; <add>bend in</add> glaring in red brick<lb/>
                 instead of stone or marble <persName ref="./Personography.xml#HopeT1">M<hi rend="superscript">r</hi>. Hope</persName> assures me<lb/>
                 many churches in Lombardy in particular<lb/>
-                that <del>the</del> <add>a</add> famous church in <placeName ref="./Placeography.xml#Milan_IT">Milan</placeName> <placeName ref="./Placeography.xml#Santa-Maria-della-Grazie_IT">Santa Maria della <add>Grazie</add></persName> is of red brick<lb/>
+                that <del>the</del> <add>a</add> famous church in <placeName ref="./Placeography.xml#Milan_IT">Milan</placeName> <placeName ref="./Placeography.xml#Santa-Maria-della-Grazie_IT">Santa Maria della <add>Grazie</add></placeName> is of red brick<lb/>
                 - I am sorry for it - and I am glad that he <choice><orig>in-<lb/>
                 tends</orig><reg>intends</reg></choice> next year to stucco this house &amp; to take<lb/>
                 off the reproach from himself of having <hi rend="underline">set the valley</hi><lb/>
@@ -363,9 +359,9 @@
                 bed made exactly after the model of <persName ref="./Personography.xml#DenoV1">Denon's</persName><lb/>
                 Egyptian bed - a sofa bed broad enough for two<lb/>
                 aldermen<lb/>
-                glyphic <hi rend="underline">frights </hi> <figure></figDesc>three figures, in a kneeling posture,  drawn facing away from a figure of Osiris</figDesc> all pointing with<lb/>
+                glyphic <hi rend="underline">frights </hi> <figure><figDesc>three figures, in a kneeling posture, drawn facing away from a figure of Osiris</figDesc></figure> all pointing with<lb/>
                 their hands distorted backwards<lb/>
-                at an Osiris </figure>> or a long armed<lb/>
+                at an Osiris or a long armed<lb/>
                 monster of some sort who sits after their fashion<lb/>
                 on <del>their </del><add>her </add> hams &amp; heels and hath the likeness of<lb/>
                 a globe of gold on her lappetted, scaly lappetted<lb/>
@@ -405,14 +401,14 @@
                 in some of the statues which hurt my mechanical<lb/>
                 feelings for instance a resigned female Cariatides <del>whose</del><lb/>
                 of white stucco whose head in eternal pillory supports<lb/>
-                a heavy stair <figure><figDesc>a woman holding up twelve candle branches with a small square base</figDesc>case while her feet stand on a globe so<lb/>
+                a heavy stair <figure><figDesc>a woman holding up twelve candle branches with a small square base</figDesc></figure>case while her feet stand on a globe so<lb/>
                 small that it never could support her &amp; it seems al-<lb/>
                 ways stepping from under her - A candalabra figure<lb/>
                 <add>in the dining room</add><lb/>
                 with arms painfully holding 12 candle branches<lb/>
                 heavier &amp; larger than herself and without a resting<lb/>
                 place for her poor feet - on the contrary with<lb/>
-                a cruel gold basket hung on her ancles ! - </figure><lb/>
+                a cruel gold basket hung on her ancles ! - <lb/>
                 But most I feel for a classical figure<lb/>
                 never so used before to my knowledge - The slave <choice><orig>tak-<lb/>
                 ing</orig><reg>taking</reg></choice> the thorn out of his foot a cast in bronze on<lb/>

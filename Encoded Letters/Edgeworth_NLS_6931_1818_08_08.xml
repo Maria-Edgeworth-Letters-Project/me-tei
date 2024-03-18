@@ -36,7 +36,7 @@
                </p>
                <licence target="https://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons Attribution 4.0 (CC BY 4.0) Unported License</licence>
             </availability>
-            <idno>Edgeworth_NLS_6931_1818_08_08</idno> 
+            <idno>Edgeworth_NLS_6931_1818_08_08</idno>
          </publicationStmt>
          <seriesStmt>
             <title>Maria Edgeworth Letters Project</title>
@@ -45,8 +45,8 @@
             <msDesc xml:lang="en">
                <msIdentifier>
                   <repository>National Library of Scotland</repository>
-                  <collection></collection>
-                  <idno></idno>
+                  <collection/>
+                  <idno/>
                </msIdentifier>
                <head>Letter from 
                   <persName ref="./Personography.xml#EdgeF2">
@@ -56,15 +56,13 @@
                   to <persName ref="./Personography.xml#BrinE1">Esther Brinkley</persName>, <placeName ref="./Placeography.xml#Dunsink-Observatory_IE">Dunsink Observatory</placeName>, 
                   <date when="1818-08-08">8 August 1818</date>
                </head>
-               <physDesc></physDesc>
+               <physDesc/>
             </msDesc>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
          <editorialDecl>
-            <p>Edgeworth’s spelling and punctuation are retained in transcription, except where a
-               word is split at the end of a line and the beginning of the next in a manuscript. The
-               long s and ligatured forms are silently emended.</p>
+            <p>Edgeworth’s spelling and punctuation are retained in transcription, including non-standard spelling, line breaks, and hyphenation of words. The long s and ligatured forms are silently emended.</p>
          </editorialDecl>
       </encodingDesc>
       <profileDesc>
@@ -89,7 +87,8 @@
                <dateline>
                   <date when="1818-08-08"/>8 August 1818</dateline>
                <salute>
-                  <persName>My dear <persName ref="./Personography.xml#BrinE1">M<hi rend="superscript">rs</hi> Brinkley</persName></persName>
+                  <persName>My dear <persName ref="./Personography.xml#BrinE1">M<hi rend="superscript">rs</hi> Brinkley</persName>
+                  </persName>
                </salute>
             </opener>
             <p>
@@ -97,8 +96,11 @@
                days have elapsed since the return of<lb/>
                <persName ref="./Personography.xml#EdgeW1">William</persName> and <persName ref="./Personography.xml#EdgeH1">Harriet</persName> without my having<lb/>
                written a single line to you - I feel<lb/>
-               quite ashamed of my seeming <choice><orig>ingrati=<lb/>
-               =tude</orig><reg>ingratitude</reg></choice> for the innumerable and essential<lb/>
+               quite ashamed of my seeming <choice>
+                  <orig>ingrati=<lb/>
+               =tude</orig>
+                  <reg>ingratitude</reg>
+               </choice> for the innumerable and essential<lb/>
                kindnesses that he received from everyone<lb/>
                at the <placeName ref="./Placeography.xml#Dunsink-Observatory_IE">Observatory</placeName> but chiefly from you<lb/>
                his second mother as he calls you. The<lb/>
@@ -115,7 +117,11 @@
                words to express such thanks as would convey<lb/>
                my feelings and be acceptable to your generous<lb/>
                mind. We all thank you and the <persName ref="./Personography.xml#BrinJ1">Doctor</persName> &amp;<lb/>
-               <persName ref="./Personography.xml#BrinM1">M<hi rend="superscript">r</hi> Mat <choice><orig>Brinkly</orig><reg>Brinkley</reg></choice></persName> - and your gentle amiable<lb/>
+               <persName ref="./Personography.xml#BrinM1">M<hi rend="superscript">r</hi> Mat <choice>
+                     <orig>Brinkly</orig>
+                     <reg>Brinkley</reg>
+                  </choice>
+               </persName> - and your gentle amiable<lb/>
                <persName ref="./Personography.xml#BrinS1">daughter</persName> if not with our lips, with our hearts<lb/>
                every hour of the day - and also that good<lb/>
                excellent <persName ref="./Personography.xml#WellC1">Catherine</persName> for whom <persName ref="./Personography.xml#EdgeW1">William</persName> has<lb/>
@@ -124,19 +130,34 @@
             <p>
                Since <persName ref="./Personography.xml#EdgeW1">William's</persName> return he has been very<lb/>
                variable, during these days that we spent<lb/>
-               at <persName ref="./Personography.xml#PakeT2">Admiral Pakenhams</persName> he was <choice><orig>wonderful<lb/>
-               -ly</orig><reg>wonderfully</reg></choice> well. Since that he has had a <choice><orig>consider<lb/>
-               -able</orig><reg>considerable</reg></choice> return of pain - and consequent <choice><orig>feeble<lb/>
-               -ness</orig><reg>feebleness</reg></choice> and last night felt the crackling<lb/>
+               at <persName ref="./Personography.xml#PakeT2">Admiral Pakenhams</persName> he was <choice>
+                  <orig>wonderful<lb/>
+               -ly</orig>
+                  <reg>wonderfully</reg>
+               </choice> well. Since that he has had a <choice>
+                  <orig>consider<lb/>
+               -able</orig>
+                  <reg>considerable</reg>
+               </choice> return of pain - and consequent <choice>
+                  <orig>feeble<lb/>
+               -ness</orig>
+                  <reg>feebleness</reg>
+               </choice> and last night felt the crackling<lb/>
                noise in his head that he noticed while<lb/>
                at the <placeName ref="./Placeography.xml#Dunsink-Observatory_IE">observatory</placeName> - He is better today - no, I should<lb/>
             </p>
             <p>
                <pb n="3" facs="Edgeworth_NLS_6931_1818_08_08_page03.jpg"/>
                say he is better just at this moment - for it<lb/>
-               requires both morning and evening to <unclear>complete</unclear><lb/>
-               a day. Let me not thank you and the <persName ref="./Personography.xml#BrinJ1">Doctor</persName><lb/>
-               for your kindness to him alone but for <add>your</add> <del><unclear>his</unclear></del><lb/>
+               requires both morning and evening to <unclear>complete</unclear>
+               <lb/>
+               a day. Let me not thank you and the <persName ref="./Personography.xml#BrinJ1">Doctor</persName>
+               <lb/>
+               for your kindness to him alone but for <add>your</add>
+               <del>
+                  <unclear>his</unclear>
+               </del>
+               <lb/>
                great goodness to my daughter - She<lb/>
                idolizes <persName ref="./Personography.xml#BrinJ1">D<hi rend="superscript">r</hi> B.</persName> and the seeds he has thrown<lb/>
                into her mind have not fallen into a barren<lb/>
@@ -145,7 +166,13 @@
             <p>
                <persName ref="./Personography.xml#EdgeM1">Maria</persName> and <persName ref="./Personography.xml#EdgeH4">Honora</persName> left us last week<lb/>
                for the <placeName ref="./Placeography.xml#Meath_IE">County of Meath</placeName> on their way<lb/>
-               to <placeName ref="./Placeography.xml#Dublin_IE"><choice><orig>Dubl</orig><reg>Dublin</reg></choice></placeName> and their grand expedition - <unclear>Which</unclear><lb/>
+               to <placeName ref="./Placeography.xml#Dublin_IE">
+                  <choice>
+                     <orig>Dubl</orig>
+                     <reg>Dublin</reg>
+                  </choice>
+               </placeName> and their grand expedition - <unclear>Which</unclear>
+               <lb/>
                I trust will turn out as happily as it seems<lb/>
                well planned. I fear their passage through<lb/>
                <placeName ref="./Placeography.xml#Dublin_IE">Dublin</placeName> will be so short that they cannot<lb/>
@@ -153,17 +180,24 @@
                to be heard of at <placeName ref="./Placeography.xml#Merrion-Street-31_IE">31 Merrion Street</placeName>.<lb/>
             </p>
             <closer>
-               Adieu my dear <persName ref="./Personography.xml#BrinE1"><hi rend="superscript">rs</hi> Brinkley</persName> with most<lb/>
-               affectionate remembrances to the <persName ref="./Personography.xml#BrinJ1">D<hi rend="superscript">r</hi></persName> &amp; <persName ref="./Personography.xml#BrinS1">Miss B.</persName><lb/>
+               Adieu my dear <persName ref="./Personography.xml#BrinE1">
+                  <hi rend="superscript">rs</hi> Brinkley</persName> with most<lb/>
+               affectionate remembrances to the <persName ref="./Personography.xml#BrinJ1">D<hi rend="superscript">r</hi>
+               </persName> &amp; <persName ref="./Personography.xml#BrinS1">Miss B.</persName>
+               <lb/>
                Believe me very sincerely your Obliged<lb/>
                and attached<lb/>
-               <persName ref="./Personography.xml#EdgeF2">F. Edgeworth</persName><lb/>
+               <persName ref="./Personography.xml#EdgeF2">F. Edgeworth</persName>
+               <lb/>
             </closer>
             <closer>
                <pb n="4" facs="Edgeworth_NLS_6931_1818_08_08_page04.jpg"/>
                <address>
-                  <addrLine>M<hi rend="superscript">rs</hi> Brinkley</addrLine><lb/>
-                  <addrLine>at the <placeName ref="./Placeography.xml#Dunsink-Observatory_IE">Observatory</placeName></addrLine><lb/>
+                  <addrLine>M<hi rend="superscript">rs</hi> Brinkley</addrLine>
+                  <lb/>
+                  <addrLine>at the <placeName ref="./Placeography.xml#Dunsink-Observatory_IE">Observatory</placeName>
+                  </addrLine>
+                  <lb/>
                </address>
             </closer>
          </div>

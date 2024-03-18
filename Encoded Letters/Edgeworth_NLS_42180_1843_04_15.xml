@@ -47,7 +47,7 @@ Hilary Havens
                </p>
                <licence target="https://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons Attribution 4.0 (CC BY 4.0) Unported License</licence>
             </availability>
-            <idno>Edgeworth_NLS_42180_1843_04_15</idno> 
+            <idno>Edgeworth_NLS_42180_1843_04_15</idno>
          </publicationStmt>
          <seriesStmt>
             <title>Maria Edgeworth Letters Project</title>
@@ -62,10 +62,14 @@ Hilary Havens
                   <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
                   to unknown
                   <date when="1843-04-15">
-                     15<hi rend= "superscript">th</hi>. Ap<hi rend= "superscript">l</hi>. 1843</date>
+                     15<hi rend="superscript">th</hi>. Ap<hi rend="superscript">l</hi>. 1843</date>
                </head>
                <physDesc>
-                  <decoDesc><decoNote type="border"><p>Black border around page 1.</p></decoNote></decoDesc>
+                  <decoDesc>
+                     <decoNote type="border">
+                        <p>Black border around page 1.</p>
+                     </decoNote>
+                  </decoDesc>
                </physDesc>
             </msDesc>
             <bibl>In addition to our edited version, this letter was previously published in
@@ -75,9 +79,7 @@ Hilary Havens
       </fileDesc>
       <encodingDesc>
          <editorialDecl>
-            <p>Edgeworth’s spelling and punctuation are retained in transcription, except where a
-               word is split at the end of a line and the beginning of the next in a manuscript. The
-               long s and ligatured forms are silently emended.</p>
+            <p>Edgeworth’s spelling and punctuation are retained in transcription, including non-standard spelling, line breaks, and hyphenation of words. The long s and ligatured forms are silently emended.</p>
          </editorialDecl>
       </encodingDesc>
       <profileDesc>
@@ -97,56 +99,87 @@ Hilary Havens
       <body>
          <div type="letter">
             <pb n="1" facs="Edgeworth_NLS_42180_1843_04_15_page01.jpg"/>
-            <opener><note>1</note><lb/>
+            <opener>
+               <note>1</note>
+               <lb/>
                <dateline>
-                  <placeName ref="./Placeography.xml#Trim_IE">Trim</placeName><lb/>
+                  <placeName ref="./Placeography.xml#Trim_IE">Trim</placeName>
+                  <lb/>
                   <date when="1843-04-15">
-                     15<hi rend= "superscript">th</hi>. Ap<hi rend= "superscript">l</hi>. 1843</date></dateline><lb/>
-               <salute>D<hi rend= "superscript">r</hi>. Sir</salute> <note>To be put away</note><lb/>
+                     15<hi rend="superscript">th</hi>. Ap<hi rend="superscript">l</hi>. 1843</date>
+               </dateline>
+               <lb/>
+               <salute>D<hi rend="superscript">r</hi>. Sir</salute>
+               <note>To be put away</note>
+               <lb/>
             </opener>
             <p>I congratulate you on the<lb/>
                success of your Hand bills<lb/>
                of which I see honorable<lb/>
-               mention and <hi rend= "underline">envious</hi> <choice><orig>men<lb/>
-                  tion</orig><reg>mention</reg></choice> (still more honorable<lb/>
+               mention and <hi rend="underline">envious</hi>
+               <choice>
+                  <orig>men<lb/>
+                  tion</orig>
+                  <reg>mention</reg>
+               </choice> (still more honorable<lb/>
                properly interpreted) in various<lb/>
-               <hi rend= "underline">periodicals</hi> &amp; newspapers -<lb/></p>
-               <p>I can easily <choice><orig>concieve</orig><reg>conceive</reg></choice> that<lb/>
+               <hi rend="underline">periodicals</hi> &amp; newspapers -<lb/>
+            </p>
+            <p>I can easily <choice>
+                  <orig>concieve</orig>
+                  <reg>conceive</reg>
+               </choice> that<lb/>
                you are too much occupied<lb/>
-               with this and other <choice><orig>specula<lb/>
-                  -tions</orig><reg>speculations</reg></choice> - or that you are<lb/>
+               with this and other <choice>
+                  <orig>specula<lb/>
+                  -tions</orig>
+                  <reg>speculations</reg>
+               </choice> - or that you are<lb/>
                too lazy - to have been able<lb/>
                to answer my note to you<lb/>
                about that little matter of the<lb/>
-               <hi rend= "underline"><placeName ref="./Placeography.xml#Garryowen_IE">Garryowen</placeName> or the <placeName ref="./Placeography.xml#Snowtown_IE">Snow</placeName> woman</hi></p>
-               <p>Ten to one that on <choice><orig>read<lb/>
-                  ing</orig><reg>reading</reg></choice> this you &amp; your son both<lb/>
+               <hi rend="underline">
+                  <placeName ref="./Placeography.xml#Garryowen_IE">Garryowen</placeName> or the <placeName ref="./Placeography.xml#Snowtown_IE">Snow</placeName> woman</hi>
+            </p>
+            <p>Ten to one that on <choice>
+                  <orig>read<lb/>
+                  ing</orig>
+                  <reg>reading</reg>
+               </choice> this you &amp; your son both<lb/>
                start &amp; recollect that you<lb/>
-               have forgotten all about it<lb/></p>
-               <p>No matter - I write now<lb/>
+               have forgotten all about it<lb/>
+            </p>
+            <p>No matter - I write now<lb/>
                only to tell you that as your<lb/>
                silence consents and proves<lb/>
-               
                <pb n="2" facs="Edgeworth_NLS_42180_1843_04_15_page02.jpg"/>
                
                to me that you are unconcerned<lb/>
                in this matter I shall take<lb/>
                it for granted that I may<lb/>
                send <placeName ref="./Placeography.xml#Garryowen_IE">Garryowen</placeName> &amp; Poor<lb/>
-               <persName ref="./Personography.xml#XxxxB1">Bob</persName> to M<hi rend= "superscript">r</hi>. <persName ref="./Personography.xml#ChambX1">Chambers</persName> for his<lb/>
-               Journal as he much desires<lb/></p>
-               <p>I shall wait a week <unclear>for</unclear><lb/>
+               <persName ref="./Personography.xml#XxxxB1">Bob</persName> to M<hi rend="superscript">r</hi>. <persName ref="./Personography.xml#ChambX1">Chambers</persName> for his<lb/>
+               Journal as he much desires<lb/>
+            </p>
+            <p>I shall wait a week <unclear>for</unclear>
+               <lb/>
                this date that you may object<lb/>
                if you please - But I hope<lb/>
-               you will not <hi rend= "underline">please</hi> to object<lb/>
-               as I wish to oblige <persName ref="./Personography.xml#ChambX1">Chambers</persName><lb/>
+               you will not <hi rend="underline">please</hi> to object<lb/>
+               as I wish to oblige <persName ref="./Personography.xml#ChambX1">Chambers</persName>
+               <lb/>
                when it can be done so easily<lb/>
-               - Therefore if I have no <add>answer</add><lb/>
-               from you I shall be<lb/></p>
+               - Therefore if I have no <add>answer</add>
+               <lb/>
+               from you I shall be<lb/>
+            </p>
             <closer> 
-               Your pleased &amp;amp; <unclear>obliged</unclear><lb/>
+               Your pleased &amp;amp; <unclear>obliged</unclear>
+               <lb/>
                humble servant<lb/>
-                  <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName></closer><lb/>            
+               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
+            </closer>
+            <lb/>
          </div>
       </body>
       <back> </back>

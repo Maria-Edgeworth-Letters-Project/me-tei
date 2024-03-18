@@ -33,10 +33,11 @@
             <authority>Maria Edgeworth Letters Project</authority>
             <date>2022</date>
             <availability>
-               <p>Reproduced by courtesy of <orgName ref="http://id.loc.gov/authorities/names/n82003163">Princeton University Library</orgName></p>
+               <p>Reproduced by courtesy of <orgName ref="http://id.loc.gov/authorities/names/n82003163">Princeton University Library</orgName>
+               </p>
                <licence target="https://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons Attribution 4.0 (CC BY 4.0) Unported License</licence>
             </availability>
-            <idno>Edgeworth_Princeton_1826-04</idno> 
+            <idno>Edgeworth_Princeton_1826-04</idno>
          </publicationStmt>
          <seriesStmt>
             <title>Maria Edgeworth Letters Project</title>
@@ -45,26 +46,24 @@
             <msDesc xml:lang="en">
                <msIdentifier>
                   <repository>Princeton University Library</repository>
-                  <collection></collection>
-                  <idno></idno>
+                  <collection/>
+                  <idno/>
                </msIdentifier>
                <head>Letter from 
                   <persName ref="./Personography.xml#EdgeM1">
                      <forename>Maria</forename>
                      <surname>Edgeworth</surname>
                   </persName>
-                  to <persName ref="./Personography.xml#GrifX2">Mrs. Griffith</persName>, <placeName></placeName>, 
+                  to <persName ref="./Personography.xml#GrifX2">Mrs. Griffith</persName>, <placeName/>, 
                   <date when="1826-04-20">April 20<hi rend="superscript">th</hi> 1826</date>
                </head>
-               <physDesc></physDesc>
+               <physDesc/>
             </msDesc>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
          <editorialDecl>
-            <p>Edgeworth’s spelling and punctuation are retained in transcription, except where a
-               word is split at the end of a line and the beginning of the next in a manuscript. The
-               long s and ligatured forms are silently emended.</p>
+            <p>Edgeworth’s spelling and punctuation are retained in transcription, including non-standard spelling, line breaks, and hyphenation of words. The long s and ligatured forms are silently emended.</p>
          </editorialDecl>
       </encodingDesc>
       <profileDesc>
@@ -88,34 +87,50 @@
             <pb n="1" facs="Edgeworth_Princeton_1826-04_page01.jpg"/>
             <opener>
                <dateline>
-                  <name type="place" ref="Id_where"/><placeName ref="./Placeography.xml#Edgeworthstown_IE">Edgeworths Town</placeName>
+                  <name type="place" ref="Id_where"/>
+                  <placeName ref="./Placeography.xml#Edgeworthstown_IE">Edgeworths Town</placeName>
                   <date when="1826-04-20"/>April 20<hi rend="superscript">th</hi> 1826</dateline>
                <salute>
                   <persName>Dear M<hi rend="superscript">rs</hi>. Griffith</persName>
                </salute>
             </opener>
             <p>I have made many attempts but have not<lb/>
-               yet succeeded in collecting means of <choice><orig>an-<lb/>
-               swering</orig><reg>answering</reg></choice> the various questions and interest<lb/>
+               yet succeeded in collecting means of <choice>
+                  <orig>an-<lb/>
+               swering</orig>
+                  <reg>answering</reg>
+               </choice> the various questions and interest<lb/>
                ing subjects of discussion in your last kind<lb/>
                letter - I have shown the very pretty and<lb/>
                useful &amp; ingenious model of your beehive<lb/>
                to all whom it might concern in my neighbor<lb/>
                hood - I cannot say that there any among<lb/>
-               our neighbors who deserve to be called <hi rend="underline">apiarists</hi><lb/>
-               <del>as</del> they have none of them a sufficient <choice><orig>num-<lb/>
-               ber</orig><reg>number</reg></choice> of beehives or sufficient experience - But<lb/>
+               our neighbors who deserve to be called <hi rend="underline">apiarists</hi>
+               <lb/>
+               <del>as</del> they have none of them a sufficient <choice>
+                  <orig>num-<lb/>
+               ber</orig>
+                  <reg>number</reg>
+               </choice> of beehives or sufficient experience - But<lb/>
                they have sense enough to see the value of your<lb/>
                <unclear>b</unclear>ee hive and I am sure it will be imitated<lb/>
-               successfully. - I have sent, through <persName ref="./Personography.xml#FostJ2">Lord Oriel</persName><lb/>
-               a description of it in your own &amp; in <persName ref="./Personography.xml#BalsX1">M<hi rend="superscript">r</hi>. Balstones</persName><lb/>
-               words to the Horticultural Society at <placeName ref="./Placeography.xml#Kew_ENK">Kew</placeName><lb/>
+               successfully. - I have sent, through <persName ref="./Personography.xml#FostJ2">Lord Oriel</persName>
+               <lb/>
+               a description of it in your own &amp; in <persName ref="./Personography.xml#BalsX1">M<hi rend="superscript">r</hi>. Balstones</persName>
+               <lb/>
+               words to the Horticultural Society at <placeName ref="./Placeography.xml#Kew_ENK">Kew</placeName>
+               <lb/>
                and have waited with too great patience for<lb/>
                their acknowledgment and for their reply<lb/>
                to your observations on boring which I also<lb/>
                copied for them - From another friend<lb/>
-               who has experience on the subject I also <choice><orig><hi rend="underline">ex</hi><lb/>
-               pect</orig><reg>expect</reg></choice> some information &amp; from my brother<lb/>
+               who has experience on the subject I also <choice>
+                  <orig>
+                     <hi rend="underline">ex</hi>
+                     <lb/>
+               pect</orig>
+                  <reg>expect</reg>
+               </choice> some information &amp; from my brother<lb/>
                <persName ref="./Personography.xml#EdgeW1">William</persName> hope for some when he returns home<lb/>
                - but he is at present absence &amp; engaged so much<lb/>
                professionally that he has scarcely time to write<lb/>
@@ -123,7 +138,8 @@
             </p>
             <p>
                <pb n="2" facs="Edgeworth_Princeton_1826-04_page02.jpg"/>
-               The situation of <persName ref="./Personography.xml#ScotW1">Sir Walter Scott's</persName> affairs <del>has</del><lb/>
+               The situation of <persName ref="./Personography.xml#ScotW1">Sir Walter Scott's</persName> affairs <del>has</del>
+               <lb/>
                and my knowing how very busy he has been have<lb/>
                prevented me from yet forwarding to him the<lb/>
                copy of <persName ref="./Personography.xml#BryaX1">Mr. Bryant's</persName> poems which you sent me<lb/>
@@ -137,13 +153,35 @@
             </p>
             <p>
                One question of yours I can answer -<lb/>
-               Why did <persName ref="./Personography.xml#ScotW1">Sir Walter Scott</persName> not mention <persName ref="./Personography.xml#AustJ1">Miss <choice><orig>Austin</orig><reg>Austen</reg></choice></persName><lb/>
-               in his lives of the British <choice><orig>novellists</orig><reg>novelists</reg></choice> <hi rend="underline"><add>Not</add></hi> Because<lb/>
-               <add>he undervalued her talents - of that he is incapable - But simply because</add><lb/>
-               the work was continued only to the time of <persName ref="./Personography.xml#CumbR1"><choice><orig>Cum-<lb/>
-               berland</orig><reg>Cumberland</reg></choice></persName> whose novels were published many years<lb/>
-               before <persName ref="./Personography.xml#AustJ1">Miss <choice><orig>Austins</orig><reg>Austen's</reg></choice></persName> - The work did not succeed &amp;<lb/>
-               was discontinued - These lives which were <del>intended</del><lb/>
+               Why did <persName ref="./Personography.xml#ScotW1">Sir Walter Scott</persName> not mention <persName ref="./Personography.xml#AustJ1">Miss <choice>
+                     <orig>Austin</orig>
+                     <reg>Austen</reg>
+                  </choice>
+               </persName>
+               <lb/>
+               in his lives of the British <choice>
+                  <orig>novellists</orig>
+                  <reg>novelists</reg>
+               </choice>
+               <hi rend="underline">
+                  <add>Not</add>
+               </hi> Because<lb/>
+               <add>he undervalued her talents - of that he is incapable - But simply because</add>
+               <lb/>
+               the work was continued only to the time of <persName ref="./Personography.xml#CumbR1">
+                  <choice>
+                     <orig>Cum-<lb/>
+               berland</orig>
+                     <reg>Cumberland</reg>
+                  </choice>
+               </persName> whose novels were published many years<lb/>
+               before <persName ref="./Personography.xml#AustJ1">Miss <choice>
+                     <orig>Austins</orig>
+                     <reg>Austen's</reg>
+                  </choice>
+               </persName> - The work did not succeed &amp;<lb/>
+               was discontinued - These lives which were <del>intended</del>
+               <lb/>
                to be prefixed to the works of each of the author were<lb/>
                never published separately in these countries -<lb/>
                <persName ref="./Personography.xml#GaliJ1">Galignani</persName> had the sense to republish them in<lb/>
@@ -152,31 +190,53 @@
                volumes in the form in which they now appear -<lb/>
                Beautiful specimens of biography &amp; criticism they<lb/>
                are! - In my opinion fully equal &amp; in some parts<lb/>
-               superior in interest and literary value to <persName ref="./Personography.xml#JohnS1">D<hi rend="superscript">r</hi><lb/>
+               superior in interest and literary value to <persName ref="./Personography.xml#JohnS1">D<hi rend="superscript">r</hi>
+                  <lb/>
                Johnson's</persName> prefaces. - They are not so dogmatic, and<lb/>
-               they <add>contain</add> <del>are</del> more philosophical criticism - They are<lb/>
+               they <add>contain</add>
+               <del>are</del> more philosophical criticism - They are<lb/>
                peculiarly interesting as containing the opinions<lb/>
-               &amp; <unclear><del></del></unclear> letting us into some of the principles of <choice><orig>com-<lb/>
-               position</orig><reg>composition</reg></choice> of one who has so eminently excelled<lb/>
+               &amp; <unclear>
+                  <del/>
+               </unclear> letting us into some of the principles of <choice>
+                  <orig>com-<lb/>
+               position</orig>
+                  <reg>composition</reg>
+               </choice> of one who has so eminently excelled<lb/>
                <del>both</del> as a poet, <del>and</del> an inventor &amp; an author<lb/>
                of fictitious narratives - <persName ref="./Personography.xml#JohnS1">Johnson</persName> can hardly<lb/>
             </p>
             <p>
                <pb n="3" facs="Edgeworth_Princeton_1826-04_page03.jpg"/>
-               be called a poet - except a satirical <unclear>poet</unclear> - (See <placeName ref="./Placeography.xml#London_ENK">London</placeName><lb/>
+               be called a poet - except a satirical <unclear>poet</unclear> - (See <placeName ref="./Placeography.xml#London_ENK">London</placeName>
+               <lb/>
                &amp; the Vanity of human wishes - that is all - And as<lb/>
                for invention, - the only example we have of any<lb/>
-               invention of his is in <title ref="./Workography.xml#Rasse1">Rasselas</title> - <del>I have not time</del><lb/>
-               <del>to</del> - and in that <del><unclear></unclear></del> the insane <choice><orig>phi<lb/>
-               losopher</orig><reg>philosopher</reg></choice> who fancied he ruled the weather is<lb/>
+               invention of his is in <title ref="./Workography.xml#Rasse1">Rasselas</title> - <del>I have not time</del>
+               <lb/>
+               <del>to</del> - and in that <del>
+                  <unclear/>
+               </del> the insane <choice>
+                  <orig>phi<lb/>
+               losopher</orig>
+                  <reg>philosopher</reg>
+               </choice> who fancied he ruled the weather is<lb/>
                the only quite new &amp; original invention I can<lb/>
                recollect of <persName ref="./Personography.xml#JohnS1">Johnson</persName> - As to <persName ref="./Personography.xml#ScotW1">Scott</persName> ~~ who alive<lb/>
-               or dead <add>except <persName ref="./Personography.xml#ShakW1"><choice><orig>Shakespear</orig><reg>Shakespeare</reg></choice></persName></add> can stand a comparison with him in<lb/>
+               or dead <add>except <persName ref="./Personography.xml#ShakW1">
+                     <choice>
+                        <orig>Shakespear</orig>
+                        <reg>Shakespeare</reg>
+                     </choice>
+                  </persName>
+               </add> can stand a comparison with him in<lb/>
                invention, - the true test of genius -<lb/>
             </p>
             <p>
                I am very much afraid that I<lb/>
-               shall never be able to satisfy you about the (<del></del> <title ref="./Workography.xml#LastM1"><add>Last</add> of<lb/>
+               shall never be able to satisfy you about the (<del/>
+               <title ref="./Workography.xml#LastM1">
+                  <add>Last</add> of<lb/>
                the Mohicans</title> - But it is early times with us<lb/>
                yet - as we began it only last night and have<lb/>
                read only 20 pages - Thank you for it however<lb/>
@@ -185,7 +245,8 @@
                we have read the whole I can tell you I like it<lb/>
                you will have faith in my praises.<lb/>
                <add>April 21<hi rend="superscript">st</hi>. Last night we got into the cavern <del>&amp;</del> that is a sublime<lb/>
-               scene - We began to be much interested -</add><lb/>
+               scene - We began to be much interested -</add>
+               <lb/>
                I merely wrote a few lines to you at present<lb/>
                to assure you that I am not ungrateful for all your<lb/>
                kind attentions. The specimens of the ground<lb/>
@@ -196,18 +257,26 @@
                assured that no captain of any vessel will take charge<lb/>
                of them - except it be a captain of an <add>English</add> man of war or frigate<lb/>
                -- I have half a mind to beg from you a draught<lb/>
-               or chess board <add>or wash <choice><orig>bord</orig><reg>board</reg></choice></add> to be made of specimens of American<lb/>
+               or chess board <add>or wash <choice>
+                     <orig>bord</orig>
+                     <reg>board</reg>
+                  </choice>
+               </add> to be made of specimens of American<lb/>
                woods - the beauty of the wood of which your model<lb/>
                of a beehive was made put this idea into my head &amp; the<lb/>
                nicety of the workmanship shewed me that your American<lb/>
             </p>
             <p>
                <pb n="4" facs="Edgeworth_Princeton_1826-04_page04.jpg"/>
-               workmen can <choice><orig>vye</orig><reg>vie</reg></choice> with our best cabinetmakers -<lb/>
+               workmen can <choice>
+                  <orig>vye</orig>
+                  <reg>vie</reg>
+               </choice> with our best cabinetmakers -<lb/>
             </p>
             <p>
                I am very sorry indeed to hear such bad accounts<lb/>
-               of the maddens - But I cannot yet believe that <persName ref="./Personography.xml#MaddX1">Madden</persName><lb/>
+               of the maddens - But I cannot yet believe that <persName ref="./Personography.xml#MaddX1">Madden</persName>
+               <lb/>
                has turned out dishonest -- Tho I said I w<hi rend="superscript">d</hi> write only a few lines<lb/>
                I must <add>write more</add> - I am at this moment in great perplexity - A<lb/>
                very <add>dear &amp; very</add> amiable - entertaining &amp; <hi rend="underline">improvident</hi> friend of<lb/>
@@ -219,12 +288,14 @@
                this country - The gentleman was a clergyman<lb/>
                - I am ashamed to confess to you that he had<lb/>
                a living of eighteen hundred a year - but he<lb/>
-               lived <hi rend="underline">up to it</hi> as we say in this country - <persName ref="./Personography.xml#JohnX1">M<hi rend="superscript">rs</hi>. J</persName><lb/>
+               lived <hi rend="underline">up to it</hi> as we say in this country - <persName ref="./Personography.xml#JohnX1">M<hi rend="superscript">rs</hi>. J</persName>
+               <lb/>
                every year attempted to lay by something but<lb/>
                he continually broke in upon her fund - And<lb/>
                suddenly in the prime of life he was snatched away!<lb/>
                <persName ref="./Personography.xml#JohnX1">M<hi rend="superscript">rs</hi>. Johnson</persName> has been an exemplary wife &amp;<lb/>
-               mother - Her daughters, two of them are <hi rend="superscript">beauti</hi><lb/>
+               mother - Her daughters, two of them are <hi rend="superscript">beauti</hi>
+               <lb/>
                <hi rend="underline">ful</hi> - all <add>of them</add> accomplished &amp; well informed, with<lb/>
                <hi rend="underline">peculiar natural &amp; acquired</hi> talents <add>vocal &amp; instrumental</add> for music -<lb/>
                They in the midst of this sudden distress turn<lb/>
@@ -235,13 +306,17 @@
                unmarried young ladies as lodgers who might<lb/>
                have the advantage of the protection &amp; society of<lb/>
                <add>a lady of good family the habits of good company)<lb/>
-               good principles With</add> <persName ref="./Personography.xml#JohnX1">M<hi rend="superscript">rs</hi>. Johnson</persName> <unclear>&amp; <add>also</add></unclear> the advantage<lb/>
+               good principles With</add>
+               <persName ref="./Personography.xml#JohnX1">M<hi rend="superscript">rs</hi>. Johnson</persName>
+               <unclear>&amp; <add>also</add>
+               </unclear> the advantage<lb/>
                of <del>her</del> musical practice &amp; instruction from herself<lb/>
                and her daughters should be considered<lb/>
-               Would such a plan succeed in <placeName ref="./Placeography.xml#Philadelphia_PA_US">Philadelphia</placeName><lb/>
+               Would such a plan succeed in <placeName ref="./Placeography.xml#Philadelphia_PA_US">Philadelphia</placeName>
+               <lb/>
                - or <placeName ref="./Placeography.xml#New-York_US">new york</placeName>? Could <add>2 or 3</add> boarders be secured who<lb/>
                could pay 2 hundred a year? Would <add>the</add> young<lb/>
-               ladies be likely to <hi rend="underline">establish</hi> themselves well?<lb/>               
+               ladies be likely to <hi rend="underline">establish</hi> themselves well?<lb/>
             </p>
          </div>
       </body>

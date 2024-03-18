@@ -45,7 +45,7 @@
                </p>
                <licence target="https://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons Attribution 4.0 (CC BY 4.0) Unported License</licence>
             </availability>
-            <idno>Edgeworth_Harvard_604742_unknown</idno> 
+            <idno>Edgeworth_Harvard_604742_unknown</idno>
          </publicationStmt>
          <seriesStmt>
             <title>Maria Edgeworth Letters Project</title>
@@ -73,13 +73,7 @@
       </fileDesc>
       <encodingDesc>
          <editorialDecl>
-            <!--Where Edgeworth uses nonstandard spelling and hyphenation of words, transcriber-coders 
-               should use TEI elements “choice," “sic," and “reg" to encode both Edgeworth’s 
-               spelling and the regular international standard of Oxford English spelling, 
-               following the first listed spelling in the Oxford English Dictionary. -->
-            <p>Edgeworth’s spelling and punctuation are retained in transcription, except where a
-               word is split at the end of a line and the beginning of the next in a manuscript. The
-               long s and ligatured forms are silently emended.</p>
+            <p>Edgeworth’s spelling and punctuation are retained in transcription, including non-standard spelling, line breaks, and hyphenation of words. The long s and ligatured forms are silently emended.</p>
          </editorialDecl>
       </encodingDesc>
       <profileDesc>
@@ -104,49 +98,82 @@
             <pb n="1" facs="Edgeworth_Harvard_604742_unknown_page01.jpg"/>
             <p>new, and perfectly true idea - and in<lb/>
                this age of repetition <add>&amp; deception</add>, a perfectly new &amp;<lb/>
-               perfectly true idea is so rare that it is <choice><orig>suffi<lb/>
-                  cient</orig><reg>sufficient</reg></choice> to make a reputation - <del>The</del><lb/></p>
-               <p>I allude to <persName ref="./Personography.xml#ConsB1">M. B. Constant</persName>s remark<lb/>
-               that despotism has produced in <placeName ref="./Placeography.xml#FR">France</placeName><lb/>
+               perfectly true idea is so rare that it is <choice>
+                  <orig>suffi<lb/>
+                  cient</orig>
+                  <reg>sufficient</reg>
+               </choice> to make a reputation - <del>The</del>
+               <lb/>
+            </p>
+            <p>I allude to <persName ref="./Personography.xml#ConsB1">M. B. Constant</persName>s remark<lb/>
+               that despotism has produced in <placeName ref="./Placeography.xml#FR">France</placeName>
+               <lb/>
                a power which has become more than<lb/>
                a match for itself - It has produced<lb/>
                that system of industry which render<lb/>
                men independant of court favor &amp;<lb/>
                which creates that <hi rend="underline">substantive</hi> body of<lb/>
-               public opinion which can stand alone<lb/></p>
-               <p><persName ref="./Personography.xml#ConsB1">M. Constant</persName> might much improve<lb/>
+               public opinion which can stand alone<lb/>
+            </p>
+            <p>
+               <persName ref="./Personography.xml#ConsB1">M. Constant</persName> might much improve<lb/>
                himself as a speaker &amp; a writer by studying<lb/>
                <persName ref="./Personography.xml#BurkE1">Burke</persName> whom he more resembles in<lb/>
-               manner than any of our speakers o<gap></gap><lb/>
-               writers - <del>But</del> he wants more of <persName ref="./Personography.xml#BurkE1">Burke</persName><gap></gap><lb/>
-               strength and has too much of his <unclear>ornament</unclear> <gap></gap><lb/>
-               - too much declamation - too many words - 10 times <gap></gap><lb/></p>
-               <p>You oblige me much by sending <unclear></unclear><lb/>
+               manner than any of our speakers o<gap/>
+               <lb/>
+               writers - <del>But</del> he wants more of <persName ref="./Personography.xml#BurkE1">Burke</persName>
+               <gap/>
+               <lb/>
+               strength and has too much of his <unclear>ornament</unclear>
+               <gap/>
+               <lb/>
+               - too much declamation - too many words - 10 times <gap/>
+               <lb/>
+            </p>
+            <p>You oblige me much by sending <unclear/>
+               <lb/>
                me these tracts which keep me up with<lb/>
                the current of your literature &amp; politics<lb/>
-                  For The 2 numbers of your <title ref="./Workography.xml#Revue1">Revue - <choice><orig>Encyclo-<lb/>
-                  pedique</orig><reg>Encyclopedique</reg></choice></title> which <persName ref="./Personography.xml#ParkE1">Madame Belloc</persName> tells me<lb/>
+                  For The 2 numbers of your <title ref="./Workography.xml#Revue1">Revue - <choice>
+                     <orig>Encyclo-<lb/>
+                  pedique</orig>
+                     <reg>Encyclopedique</reg>
+                  </choice>
+               </title> which <persName ref="./Personography.xml#ParkE1">Madame Belloc</persName> tells me<lb/>
                you have sent to <persName ref="./Personography.xml#DeleX1">M Deleports</persName> for me to<lb/>
                come over with her next parcel I thank<lb/>
-               you sincerely - My brother <persName ref="./Personography.xml#EdgeC1">Sneyd <choice><orig>Edge-<lb/>
-                  worth</orig><reg>Edgeworth</reg></choice></persName> intends to set out from <placeName ref="./Placeography.xml#Paris_FR">Paris</placeName> for<lb/>
+               you sincerely - My brother <persName ref="./Personography.xml#EdgeC1">Sneyd <choice>
+                     <orig>Edge-<lb/>
+                  worth</orig>
+                     <reg>Edgeworth</reg>
+                  </choice>
+               </persName> intends to set out from <placeName ref="./Placeography.xml#Paris_FR">Paris</placeName> for<lb/>
                England in a few days &amp; will bring the<lb/>
-               books to me - He will call out <persName ref="./Personography.xml#DeleX1">M Deleport</persName>s<lb/></p>
-            
+               books to me - He will call out <persName ref="./Personography.xml#DeleX1">M Deleport</persName>s<lb/>
+            </p>
             <pb n="1" facs="Edgeworth_Harvard_604742_unknown_page02.jpg,"/>
-            <p>With a just sense of your continued<reg></reg>
-               attentions to me</p>             <closer>I am<lb/>
-                  <choice><orig>D<hi rend= "superscript">r</hi>.</orig><reg>Dear</reg></choice> Sir<lb/>
+            <p>With a just sense of your continued<reg/>
+               attentions to me</p>
+            <closer>I am<lb/>
+               <choice>
+                  <orig>D<hi rend="superscript">r</hi>.</orig>
+                  <reg>Dear</reg>
+               </choice> Sir<lb/>
                   Your obliged &amp; grateful<lb/>
-                  <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName><lb/>
-               </closer>
+               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
+               <lb/>
+            </closer>
             <closer>
                <address>
                   <addrLine>a</addrLine>
                   <addrLine>Monsieur</addrLine>
-                  <addrLine><persName ref="./Personography.xml#JullM1">Mons<hi rend= "superscript">r</hi>. Jullien</persName></addrLine>
-                  <addrLine><placeName ref="./Placeography.xml#Rue-d'Enfen-Saint-Michel-18_FR">Rue d'Enfen Saint-Michel, N<hi rend= "superscript">o</hi>. 18</placeName></addrLine>
-               </address>               
+                  <addrLine>
+                     <persName ref="./Personography.xml#JullM1">Mons<hi rend="superscript">r</hi>. Jullien</persName>
+                  </addrLine>
+                  <addrLine>
+                     <placeName ref="./Placeography.xml#Rue-d'Enfen-Saint-Michel-18_FR">Rue d'Enfen Saint-Michel, N<hi rend="superscript">o</hi>. 18</placeName>
+                  </addrLine>
+               </address>
             </closer>
          </div>
       </body>

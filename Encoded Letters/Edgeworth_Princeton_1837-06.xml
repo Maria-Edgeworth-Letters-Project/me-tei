@@ -49,7 +49,7 @@
                </p>
                <licence target="https://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons Attribution 4.0 (CC BY 4.0) Unported License</licence>
             </availability>
-            <idno>Edgeworth_Princeton_1837-06</idno> 
+            <idno>Edgeworth_Princeton_1837-06</idno>
          </publicationStmt>
          <seriesStmt>
             <title>Maria Edgeworth Letters Project</title>
@@ -63,12 +63,12 @@
                </msIdentifier>
                <head>Letter from 
                      <persName xml:id="EdgeM1" from="1768" to="1849">
-                        <forename>Maria</forename>
-                        <surname>Edgeworth</surname>
-                        <date>1768-1849</date>
-                        <idno type="VIAF">71477273</idno>
-                        <idno type="SNAC">62567029</idno>
-                     </persName>
+                     <forename>Maria</forename>
+                     <surname>Edgeworth</surname>
+                     <date>1768-1849</date>
+                     <idno type="VIAF">71477273</idno>
+                     <idno type="SNAC">62567029</idno>
+                  </persName>
                   to <persName ref="./Personography.xml#BeauF1">Sir Francis Beaumont</persName>, <placeName ref="./Placeography.xml#Edgeworthstown_IE">Edgeworthtown</placeName>, 
                   <date when="1837-06-03">June 3<hi rend="superscript">d</hi>. 1837</date>
                </head>
@@ -80,13 +80,7 @@
       </fileDesc>
       <encodingDesc>
          <editorialDecl>
-            <!--Where Edgeworth uses nonstandard spelling and hyphenation of words, transcriber-coders 
-               should use TEI elements “choice," “sic," and “reg" to encode both Edgeworth’s 
-               spelling and the regular international standard of Oxford English spelling, 
-               following the first listed spelling in the Oxford English Dictionary. -->
-            <p>Edgeworth’s spelling and punctuation are retained in transcription, except where a
-               word is split at the end of a line and the beginning of the next in a manuscript. The
-               long s and ligatured forms are silently emended.</p>
+            <p>Edgeworth’s spelling and punctuation are retained in transcription, including non-standard spelling, line breaks, and hyphenation of words. The long s and ligatured forms are silently emended.</p>
          </editorialDecl>
       </encodingDesc>
       <profileDesc>
@@ -125,15 +119,20 @@
                easily and more early attained<lb/>
             </p>
             <p>He now knows fully his<lb/>
-               own powers and the <choice><orig>differ<lb/>
-               ence</orig><reg>difference</reg></choice> between what they can<lb/>
+               own powers and the <choice>
+                  <orig>differ<lb/>
+               ence</orig>
+                  <reg>difference</reg>
+               </choice> between what they can<lb/>
                and will do for him with<lb/>
                and without <unclear>exention</unclear> and<lb/>
                application &amp; self control<lb/>
                - And he is of an age when<lb/>
-               this must make serious <choice><orig>im-<lb/>
-               pression</orig><reg>impression</reg></choice> and in circumstances<lb/>
-               
+               this must make serious <choice>
+                  <orig>im-<lb/>
+               pression</orig>
+                  <reg>impression</reg>
+               </choice> and in circumstances<lb/>
                <pb n="2" facs="Edgeworth_Princeton_1837-06_page02.jpg"/>
 
                which must surely render<lb/>
@@ -158,20 +157,24 @@
                the education he has received<lb/>
                and the name he bears -<lb/>
             </p>
-            
             <pb n="3" facs="Edgeworth_Princeton_1837-06_page03.jpg"/>
-            
             <p>I am very much<lb/>
                obliged to you my dear<lb/>
                <persName ref="./Personography.xml#BeauF1">Francis</persName> for writing to me<lb/>
                with your own hand this<lb/>
                account of your son which<lb/>
-               truly gives me very great <choice><orig>plea<lb/>
-               -sure</orig><reg>pleasure</reg></choice> - both from the thing<lb/>
+               truly gives me very great <choice>
+                  <orig>plea<lb/>
+               -sure</orig>
+                  <reg>pleasure</reg>
+               </choice> - both from the thing<lb/>
                itself and from your kindness<lb/>
                and certainly of my sympathy<lb/>
             </p>
-            <p>Thank you for <persName ref="./Personography.xml#WhewW1">M<hi rend="superscript">r</hi> <unclear>Whewells</unclear></persName><lb/>
+            <p>Thank you for <persName ref="./Personography.xml#WhewW1">M<hi rend="superscript">r</hi>
+                  <unclear>Whewells</unclear>
+               </persName>
+               <lb/>
                book which I particularly<lb/>
                wished to see before I answer<lb/>
                <persName ref="./Personography.xml#JoneX1">M<hi rend="superscript">r</hi> Jones</persName>'s letter - I shall write<lb/>
@@ -185,7 +188,6 @@
                that you will be glad to become<lb/>
                acquainted with <persName ref="./Personography.xml#JoneX1">M<hi rend="superscript">r</hi> Jones</persName> when<lb/>
                ever he comes to Town - And<lb/>
-
                <pb n="4" facs="Edgeworth_Princeton_1837-06_page04.jpg"/>
 
                that you never declined the<lb/>
@@ -198,54 +200,68 @@
                143 "Remarks on Mathematical reason<lb/>
                -ing &amp; on the Logic of induction"<lb/>
                - But till I have read it again &amp;<lb/>
-               again cannot tell you how <hi rend="underline">much</hi><lb/>
+               again cannot tell you how <hi rend="underline">much</hi>
+               <lb/>
                pleasure it can give me at<lb/>
                the first reading I like it much<lb/>
                - But I think the inquiry must<lb/>
                be pursued deeper still - This<lb/>
                proves sufficiently that mathematical<lb/>
                reasoning and demonstration cannot<lb/>
-               be founded on definitions - only - <choice><orig>with-<lb/>
-               out</orig><reg>withou</reg></choice> axioms - but axioms <add>resolve</add> themselves<lb/>
+               be founded on definitions - only - <choice>
+                  <orig>with-<lb/>
+               out</orig>
+                  <reg>withou</reg>
+               </choice> axioms - but axioms <add>resolve</add> themselves<lb/>
                or must be resolved into some action<lb/>
                of the mind - <add>a</add> conception - <add>an</add> idea - or<lb/>
-               What <persName ref="./Personography.xml#WhewW1">Whewell</persName> (p 156) calls an <hi rend="underline">intellection</hi><lb/>
-               - See also p 166 - idea of statistical <hi rend="underline">force</hi> - <hi rend="underline">pressure</hi><lb/>
-               <hi rend="underline">idea of body</hi> <hi rend="underline">or matter</hi><lb/>
+               What <persName ref="./Personography.xml#WhewW1">Whewell</persName> (p 156) calls an <hi rend="underline">intellection</hi>
+               <lb/>
+               - See also p 166 - idea of statistical <hi rend="underline">force</hi> - <hi rend="underline">pressure</hi>
+               <lb/>
+               <hi rend="underline">idea of body</hi>
+               <hi rend="underline">or matter</hi>
+               <lb/>
             </p>
             <p>All this seems to me to come round again<lb/>
-               to <hi rend="underline">intuitive</hi> <hi rend="underline">ideas</hi> - or <hi rend="underline">intuition</hi> - or what<lb/>
+               to <hi rend="underline">intuitive</hi>
+               <hi rend="underline">ideas</hi> - or <hi rend="underline">intuition</hi> - or what<lb/>
                <persName ref="./Personography.xml#StewD1">Stewart</persName> &amp; <persName ref="./Personography.xml#ReidT1">Reid</persName> call <hi rend="underline">original instincts</hi> - laws<lb/>
                of belief<lb/>
             </p>
             <p>I do not agree with <persName ref="./Personography.xml#WhewW1">M<hi rend="superscript">r</hi>. W</persName>'s objection 157<lb/>
-               by the term <hi rend="underline">laws</hi> <hi rend="underline">of belief</hi>. I do not understand<lb/>
-               why he conceives that <hi rend="underline">laws compel results</hi><lb/>
+               by the term <hi rend="underline">laws</hi>
+               <hi rend="underline">of belief</hi>. I do not understand<lb/>
+               why he conceives that <hi rend="underline">laws compel results</hi>
+               <lb/>
                - I considered laws as synonymous to rules -<lb/>
                formed from observation of what constantly occurs<lb/>
                in certain circumstances - or <del>between</del> in<lb/>
-
                <pb n="5" facs="Edgeworth_Princeton_1837-06_page05.jpg"/>
 
                certain relations of things - persons<lb/>
                or thoughts to each other<lb/>
             </p>
-            <p>It seems to me that <unclear>writers</unclear><lb/>
+            <p>It seems to me that <unclear>writers</unclear>
+               <lb/>
                go round &amp; round again and<lb/>
                come to the same points &amp; stops<lb/>
                in <unclear>???</unclear>physics - &amp; some coin<lb/>
                new terms instead of saying<lb/>
                - we know no more -<lb/>
             </p>
-            <p><persName ref="./Personography.xml#LockJ2">Locke</persName> who maintains that we<lb/>
+            <p>
+               <persName ref="./Personography.xml#LockJ2">Locke</persName> who maintains that we<lb/>
                have no innate ideas -<lb/>
             </p>
-            <p><persName ref="./Personography.xml#StewD1">Stewart</persName> who maintains that we<lb/>
+            <p>
+               <persName ref="./Personography.xml#StewD1">Stewart</persName> who maintains that we<lb/>
                have what he calls mental instincts<lb/>
                including the instinct of credulity<lb/>
                and the instinct of belief<lb/>
             </p>
-            <p><persName ref="./Personography.xml#WhewW1">M<hi rend="superscript">r</hi>. Whewell</persName> who says that "an axiom<lb/>
+            <p>
+               <persName ref="./Personography.xml#WhewW1">M<hi rend="superscript">r</hi>. Whewell</persName> who says that "an axiom<lb/>
                "does not account for an intellection"<lb/>
                Which he explains elsewhere to<lb/>
                mean an act of the mind - an idea<lb/>
@@ -261,7 +277,8 @@
                I know that I am my dear<lb/>
                <persName ref="./Personography.xml#BeauF1">Francis</persName> wasting your time<lb/>
                But I am affectionately yours<lb/>
-               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName><lb/>
+               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
+               <lb/>
             </closer>
             <closer>
                <address>

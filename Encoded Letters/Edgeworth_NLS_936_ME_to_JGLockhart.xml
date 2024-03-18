@@ -36,7 +36,7 @@
                </p>
                <licence target="https://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons Attribution 4.0 (CC BY 4.0) Unported License</licence>
             </availability>
-            <idno>Edgeworth_NLS_936_ME_to_JGLockhart</idno> 
+            <idno>Edgeworth_NLS_936_ME_to_JGLockhart</idno>
          </publicationStmt>
          <seriesStmt>
             <title>Maria Edgeworth Letters Project</title>
@@ -45,8 +45,8 @@
             <msDesc xml:lang="en">
                <msIdentifier>
                   <repository>National Library of Scotland</repository>
-                  <collection></collection>
-                  <idno></idno>
+                  <collection/>
+                  <idno/>
                </msIdentifier>
                <head>Letter from 
                   <persName ref="./Personography.xml#EdgeM1">
@@ -55,16 +55,14 @@
                   </persName>
                   to <persName ref="./Personography.xml#LockJ1">John Gibson Lockhart</persName>, <placeName ref="./Placeography.xml#Sussex-Place-24_ENK">Sussex Place</placeName>, 
                   <date when="1111-01-01">Undated</date>
-              </head>
-               <physDesc></physDesc>
+               </head>
+               <physDesc/>
             </msDesc>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
          <editorialDecl>
-            <p>Edgeworth’s spelling and punctuation are retained in transcription, except where a
-               word is split at the end of a line and the beginning of the next in a manuscript. The
-               long s and ligatured forms are silently emended.</p>
+            <p>Edgeworth’s spelling and punctuation are retained in transcription, including non-standard spelling, line breaks, and hyphenation of words. The long s and ligatured forms are silently emended.</p>
          </editorialDecl>
       </encodingDesc>
       <profileDesc>
@@ -87,33 +85,53 @@
             <pb n="1" facs="Edgeworth_NLS_936_ME_to_JGLockhart_page01.jpg"/>
             <opener>
                <salute>
-                  <persName>My dear <persName ref="./Personography.xml#LockJ1">M<hi rend="superscript">r</hi>. Lockhart</persName></persName>
+                  <persName>My dear <persName ref="./Personography.xml#LockJ1">M<hi rend="superscript">r</hi>. Lockhart</persName>
+                  </persName>
                </salute>
             </opener>
             <p>
                With pleasure I accept<lb/>
                your invitation for <add>dinner</add> Saturday<lb/>
                next 1/4 before seven-<lb/>
-               We intend to go to <persName ref="./Personography.xml#HallX4">M<hi rend="superscript">rs</hi> <choice><orig>Hal.<lb/>
-               <unclear>lams</unclear></orig><reg>Hallam's</reg></choice></persName> at 1/2 past nine - <choice><orig>there<lb/>
-               fore</orig><reg>therefore</reg></choice> we hope you will be<lb/>
+               We intend to go to <persName ref="./Personography.xml#HallX4">M<hi rend="superscript">rs</hi>
+                  <choice>
+                     <orig>Hal.<lb/>
+                        <unclear>lams</unclear>
+                     </orig>
+                     <reg>Hallam's</reg>
+                  </choice>
+               </persName> at 1/2 past nine - <choice>
+                  <orig>there<lb/>
+               fore</orig>
+                  <reg>therefore</reg>
+               </choice> we hope you will be<lb/>
                here by that time-<lb/>
-               I am my dear <persName ref="./Personography.xml#LockJ1">M<hi rend="superscript">r</hi> Lockhart</persName><lb/>
+               I am my dear <persName ref="./Personography.xml#LockJ1">M<hi rend="superscript">r</hi> Lockhart</persName>
+               <lb/>
             </p>
             <closer>
                Yours affectionately<lb/>
-               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName><lb/>
+               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
+               <lb/>
             </closer>
             <postscript>
                <p>
-                  Monday Eve<hi rend="superscript">n</hi><lb/>
-                  <placeName ref="./Placeography.xml#North-Audley-Street-1_ENK">1 North Audley Street</placeName><lb/>
+                  Monday Eve<hi rend="superscript">n</hi>
+                  <lb/>
+                  <placeName ref="./Placeography.xml#North-Audley-Street-1_ENK">1 North Audley Street</placeName>
+                  <lb/>
                </p>
             </postscript>
             <closer>
                <address>
-                  <addrLine><persName ref="./Personography.xml#LockJ1">M<hi rend="superscript">r</hi> Lockhart</persName></addrLine><lb/>
-                  <addrLine><placeName ref="./Placeography.xml#Sussex-Place-24_ENK">Sussex Place</placeName></addrLine><lb/>
+                  <addrLine>
+                     <persName ref="./Personography.xml#LockJ1">M<hi rend="superscript">r</hi> Lockhart</persName>
+                  </addrLine>
+                  <lb/>
+                  <addrLine>
+                     <placeName ref="./Placeography.xml#Sussex-Place-24_ENK">Sussex Place</placeName>
+                  </addrLine>
+                  <lb/>
                </address>
             </closer>
          </div>

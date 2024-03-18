@@ -44,7 +44,7 @@
                </p>
                <licence target="https://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons Attribution 4.0 (CC BY 4.0) Unported License</licence>
             </availability>
-            <idno>Edgeworth_Harvard_604742_1844-03</idno> 
+            <idno>Edgeworth_Harvard_604742_1844-03</idno>
          </publicationStmt>
          <seriesStmt>
             <title>Maria Edgeworth Letters Project</title>
@@ -59,7 +59,7 @@
                   <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
                   to <persName ref="./Personography.xml#ColmH1">Henry Colman</persName>
                   <date when="1844-03-08">
-                     March 8<hi rend= "superscript">h</hi>. 1844</date>
+                     March 8<hi rend="superscript">h</hi>. 1844</date>
                </head>
                <physDesc>
                   <!-- optional physical description of the letter goes here: paper size and condition, seal, postmarks, etc.-->
@@ -72,13 +72,7 @@
       </fileDesc>
       <encodingDesc>
          <editorialDecl>
-            <!--Where Edgeworth uses nonstandard spelling and hyphenation of words, transcriber-coders 
-               should use TEI elements “choice," “sic," and “reg" to encode both Edgeworth’s 
-               spelling and the regular international standard of Oxford English spelling, 
-               following the first listed spelling in the Oxford English Dictionary. -->
-            <p>Edgeworth’s spelling and punctuation are retained in transcription, except where a
-               word is split at the end of a line and the beginning of the next in a manuscript. The
-               long s and ligatured forms are silently emended.</p>
+            <p>Edgeworth’s spelling and punctuation are retained in transcription, including non-standard spelling, line breaks, and hyphenation of words. The long s and ligatured forms are silently emended.</p>
          </editorialDecl>
       </encodingDesc>
       <profileDesc>
@@ -105,32 +99,46 @@
                I do with pleasure what<lb/>
                I very seldom if ever have<lb/>
                done with pleasure, even<lb/>
-               for <placeName ref="./Placeography.xml#US">American</placeName> friends<lb/></p>
-               <p>Write my Autograph<lb/>
+               for <placeName ref="./Placeography.xml#US">American</placeName> friends<lb/>
+            </p>
+            <p>Write my Autograph<lb/>
                worthless as it is, and worthless<lb/>
                   as I think all autographs<lb/>
-                  a very few excepted - <persName ref="./Personography.xml#WashG1"><choice><orig>Washing<lb/>
-                     tons</orig><reg>Washington's</reg></choice></persName> for instance - I rejoice in<lb/>
+                  a very few excepted - <persName ref="./Personography.xml#WashG1">
+                  <choice>
+                     <orig>Washing<lb/>
+                     tons</orig>
+                     <reg>Washington's</reg>
+                  </choice>
+               </persName> for instance - I rejoice in<lb/>
                possessing his autograph, given<lb/>
                to me by an American in the<lb/>
                valuable record of his Public &amp;<lb/>
-               Private account book</p><lb/>
+               Private account book</p>
+            <lb/>
             <closer>
-               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName><lb/>
-               <placeName ref="./Placeography.xml#London_ENK">London</placeName> - <placeName ref="./Placeography.xml#North-Audley-Street-1_ENK">1 North Audley Street</placeName><lb/>
+               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
+               <lb/>
+               <placeName ref="./Placeography.xml#London_ENK">London</placeName> - <placeName ref="./Placeography.xml#North-Audley-Street-1_ENK">1 North Audley Street</placeName>
+               <lb/>
                Grosvenor Square<lb/>
-            <date when="1844-03-08">
-               March 8<hi rend= "superscript">h</hi>. 1844</date><lb/>
-               For <persName ref="./Personography.xml#ColmH1">Henry Colman Esq<hi rend= "superscript">re</hi></persName><lb/>
+               <date when="1844-03-08">
+               March 8<hi rend="superscript">h</hi>. 1844</date>
+               <lb/>
+               For <persName ref="./Personography.xml#ColmH1">Henry Colman Esq<hi rend="superscript">re</hi>
+               </persName>
+               <lb/>
             </closer>
-               
-               <pb n="2" facs="Edgeworth_Harvard_604742_1844-03_page02.jpg"/>
-               
+            <pb n="2" facs="Edgeworth_Harvard_604742_1844-03_page02.jpg"/>
             <note>To my friend<lb/>
-                  Mr <unclear>Lawrence</unclear><lb/>
-                  <persName ref="./Personography.xml#ColmH1">Henry Colman</persName><lb/>
-                  <placeName ref="./Placeography.xml#London_ENK">London</placeName> <date when="1844-04-25">25 April 1845</date><lb/></note>
-
+                  Mr <unclear>Lawrence</unclear>
+               <lb/>
+               <persName ref="./Personography.xml#ColmH1">Henry Colman</persName>
+               <lb/>
+               <placeName ref="./Placeography.xml#London_ENK">London</placeName>
+               <date when="1844-04-25">25 April 1845</date>
+               <lb/>
+            </note>
          </div>
       </body>
       <back> </back>

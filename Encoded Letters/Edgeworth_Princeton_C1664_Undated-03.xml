@@ -47,7 +47,7 @@
                </p>
                <licence target="https://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons Attribution 4.0 (CC BY 4.0) Unported License</licence>
             </availability>
-            <idno>Edgeworth_Princeton_C1664_Undated-03</idno> 
+            <idno>Edgeworth_Princeton_C1664_Undated-03</idno>
          </publicationStmt>
          <seriesStmt>
             <title>Maria Edgeworth Letters Project</title>
@@ -61,14 +61,15 @@
                </msIdentifier>
                <head>Letter from 
                      <persName xml:id="EdgeM1" from="1768" to="1849">
-                        <forename>Maria</forename>
-                        <surname>Edgeworth</surname>
-                        <date>1768-1849</date>
-                        <idno type="VIAF">71477273</idno>
-                        <idno type="SNAC">62567029</idno>
-                     </persName>
+                     <forename>Maria</forename>
+                     <surname>Edgeworth</surname>
+                     <date>1768-1849</date>
+                     <idno type="VIAF">71477273</idno>
+                     <idno type="SNAC">62567029</idno>
+                  </persName>
                    to <persName>Miles</persName>, <placeName/>, 
-                  <date when="1111-06-28">June 28<hi rend="superscript">th</hi></date>
+                  <date when="1111-06-28">June 28<hi rend="superscript">th</hi>
+                  </date>
                </head>
                <physDesc/>
             </msDesc>
@@ -79,13 +80,7 @@
       </fileDesc>
       <encodingDesc>
          <editorialDecl>
-            <!--Where Edgeworth uses nonstandard spelling and hyphenation of words, transcriber-coders 
-               should use TEI elements “choice," “sic," and “reg" to encode both Edgeworth’s 
-               spelling and the regular international standard of Oxford English spelling, 
-               following the first listed spelling in the Oxford English Dictionary. -->
-            <p>Edgeworth’s spelling and punctuation are retained in transcription, except where a
-               word is split at the end of a line and the beginning of the next in a manuscript. The
-               long s and ligatured forms are silently emended.</p>
+            <p>Edgeworth’s spelling and punctuation are retained in transcription, including non-standard spelling, line breaks, and hyphenation of words. The long s and ligatured forms are silently emended.</p>
          </editorialDecl>
       </encodingDesc>
       <profileDesc>
@@ -116,8 +111,13 @@
             <p>
                You ask whether we or<lb/>
                you should mention the price<lb/>
-               of the copy-right of the 4<hi rend="superscript">th</hi>, 5<hi rend="superscript">th</hi> &amp; 6<hi rend="superscript">th</hi><lb/>
-               volumes of <title ref="./Workography.xml#Taleo1">Tales of <choice><orig>Fash.</orig><reg>Fashionable</reg></choice> Life</title><lb/>
+               of the copy-right of the 4<hi rend="superscript">th</hi>, 5<hi rend="superscript">th</hi> &amp; 6<hi rend="superscript">th</hi>
+               <lb/>
+               volumes of <title ref="./Workography.xml#Taleo1">Tales of <choice>
+                     <orig>Fash.</orig>
+                     <reg>Fashionable</reg>
+                  </choice> Life</title>
+               <lb/>
             </p>
             <p>I can assure you that neither<lb/>
                <persName ref="./Personography.xml#EdgeM1">Maria</persName> nor <persName ref="./Personography.xml#EdgeR1">I</persName> had or have<lb/>
@@ -125,16 +125,22 @@
                subject nor, do I think, that you<lb/>
                can form a safe: judgement<lb/>
                for some time - <persName ref="./Personography.xml#EdgeM1">Maria</persName>'s<lb/>
-               name was popular &amp; <choice><orig>there-<lb/>
-               fore</orig><reg>therefore</reg></choice> there was an early run<lb/>
+               name was popular &amp; <choice>
+                  <orig>there-<lb/>
+               fore</orig>
+                  <reg>therefore</reg>
+               </choice> there was an early run<lb/>
                for her new publications<lb/>
                Whether, that popularity may<lb/>
                or may not be diminished<lb/>
                <pb n="3" facs="Edgeworth_Princeton_C1664_Undated-03_page03.jpg"/>
 
                by her present work, cannot<lb/>
-               I should think, be as yet <choice><orig>de-<lb/>
-               termined</orig><reg>determined</reg></choice> - At all events<lb/>
+               I should think, be as yet <choice>
+                  <orig>de-<lb/>
+               termined</orig>
+                  <reg>determined</reg>
+               </choice> - At all events<lb/>
                you may be assured that we<lb/>
                have the most unbounded<lb/>
                confidence in your justice<lb/>
@@ -143,8 +149,11 @@
                for any thing we send to you<lb/>
             </p>
             <p>It will entertain you to<lb/>
-               hear that <persName ref="./Personography.xml#EdgeM1">Maria</persName> has been <choice><orig>re-<lb/>
-               proached</orig><reg>reproached</reg></choice> by some folk<lb/>
+               hear that <persName ref="./Personography.xml#EdgeM1">Maria</persName> has been <choice>
+                  <orig>re-<lb/>
+               proached</orig>
+                  <reg>reproached</reg>
+               </choice> by some folk<lb/>
                hear for having endeavoured<lb/>
                to <hi rend="underline">lower</hi> the Irish character<lb/>
                I have much more reason<lb/>
@@ -165,7 +174,8 @@
             <p>The idea of <persName ref="./Personography.xml#HastF1">Lord Moira</persName>'s<lb/>
                being like <unclear>??vian</unclear> is quite<lb/>
                absurd - <persName ref="./Personography.xml#HastF1">Lord Moira</persName> is cer-<lb/>
-               tainly a man most <unclear>firm</unclear><lb/>
+               tainly a man most <unclear>firm</unclear>
+               <lb/>
                of purpose -<lb/>
             </p>
             <p>As for <title ref="./Workography.xml#Absen1">Lady Clonbrony</title>, there<lb/>
@@ -174,13 +184,17 @@
                this <unclear>sister</unclear> is levelled at you -<lb/>
             </p>
             <closer>
-               <persName ref="./Personography.xml#EdgeR1"><unclear>RLE</unclear></persName><lb/>
+               <persName ref="./Personography.xml#EdgeR1">
+                  <unclear>RLE</unclear>
+               </persName>
+               <lb/>
             </closer>
             <closer>
                <address>
                   <pb n="1" facs="Edgeworth_Princeton_C1664_Undated-03_page01.jpg"/>
                   <addrLine>To Miles</addrLine>
-                  <addrLine>June 28<hi rend="superscript">th</hi></addrLine>
+                  <addrLine>June 28<hi rend="superscript">th</hi>
+                  </addrLine>
                </address>
             </closer>
          </div>

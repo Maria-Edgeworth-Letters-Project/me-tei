@@ -36,7 +36,7 @@
                </p>
                <licence target="https://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons Attribution 4.0 (CC BY 4.0) Unported License</licence>
             </availability>
-            <idno>Edgeworth_NLS_936_1847_08_28</idno> 
+            <idno>Edgeworth_NLS_936_1847_08_28</idno>
          </publicationStmt>
          <seriesStmt>
             <title>Maria Edgeworth Letters Project</title>
@@ -45,26 +45,24 @@
             <msDesc xml:lang="en">
                <msIdentifier>
                   <repository>National Library of Scotland</repository>
-                  <collection></collection>
-                  <idno></idno>
+                  <collection/>
+                  <idno/>
                </msIdentifier>
                <head>Letter from 
                   <persName ref="./Personography.xml#LockJ1">
                      <forename>John Gibson</forename>
                      <surname>Lockhart</surname>
                   </persName>
-                  to <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>, <placeName></placeName>, 
+                  to <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>, <placeName/>, 
                   <date when="1847-08-28">Aug 28 1847</date>
                </head>
-               <physDesc></physDesc>
+               <physDesc/>
             </msDesc>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
          <editorialDecl>
-            <p>Edgeworth’s spelling and punctuation are retained in transcription, except where a
-               word is split at the end of a line and the beginning of the next in a manuscript. The
-               long s and ligatured forms are silently emended.</p>
+            <p>Edgeworth’s spelling and punctuation are retained in transcription, including non-standard spelling, line breaks, and hyphenation of words. The long s and ligatured forms are silently emended.</p>
          </editorialDecl>
       </encodingDesc>
       <profileDesc>
@@ -87,22 +85,31 @@
             <pb n="1" facs="Edgeworth_NLS_936_1847_08_28_page01.jpg"/>
             <opener>
                <dateline>
-                  <name type="place" ref="Id_where"/><placeName ref="./Placeography.xml#London_ENK">London</placeName>
+                  <name type="place" ref="Id_where"/>
+                  <placeName ref="./Placeography.xml#London_ENK">London</placeName>
                   <date when="1847-08-28"/>Aug 28 1847</dateline>
                <salute>
                   <persName>My dear Miss Edgworth</persName>
                </salute>
             </opener>
             <p>
-               <hi rend="underline">Peccavi</hi><lb/>
+               <hi rend="underline">Peccavi</hi>
+               <lb/>
                - but not from anything so bad as<lb/>
-               undervaluing abeing <choice><orig>yr</orig><reg>your</reg></choice> great &amp; constant<lb/>
+               undervaluing abeing <choice>
+                  <orig>yr</orig>
+                  <reg>your</reg>
+               </choice> great &amp; constant<lb/>
                kindness to me and mine. It had<lb/>
                been settled that <persName ref="./Personography.xml#DavyJ1">Lady Davy</persName>, my<lb/>
                girl &amp; I were to go <unclear>about</unclear> this day<lb/>
                to <placeName ref="./Placeography.xml#SP">Spain</placeName> for a 3 or 4 months'<lb/>
                tour - but after we had begun to<lb/>
-               rub up our Castilian <choice><orig>vocably</orig><reg>vocabulary</reg></choice><lb/>
+               rub up our Castilian <choice>
+                  <orig>vocably</orig>
+                  <reg>vocabulary</reg>
+               </choice>
+               <lb/>
                &amp; even <unclear>to think</unclear> of trunks and<lb/>
                cases &amp; <hi rend="underline">mule saddles</hi> - behold<lb/>
                a little romance that had been<lb/>
@@ -117,8 +124,10 @@
                <pb n="2" facs="Edgeworth_NLS_936_1847_08_28_page02.jpg"/>
                settled that our chateau On St Espagne<lb/>
                must make way for a home in<lb/>
-               Charles <unclear>Street</unclear> <placeName ref="./Placeography.xml#Berkeley-Square_ENK">Berkeley Square</placeName> &amp;<lb/>
-               another in <placeName ref="./Placeography.xml#Fife_STK">Fife</placeName>! But, perhaps <hi rend="underline">you</hi><lb/>
+               Charles <unclear>Street</unclear>
+               <placeName ref="./Placeography.xml#Berkeley-Square_ENK">Berkeley Square</placeName> &amp;<lb/>
+               another in <placeName ref="./Placeography.xml#Fife_STK">Fife</placeName>! But, perhaps <hi rend="underline">you</hi>
+               <lb/>
                will understand me - I had been<lb/>
                so awfully vexed &amp; mortified<lb/>
                about certain premature &amp;<lb/>
@@ -141,7 +150,10 @@
                so let us hear no more about my<lb/>
                foolish silence. Moreover, I<lb/>
                was far from well &amp; the row<lb/>
-               of eating &amp; drinking <choice><orig>thro'</orig><reg>through</reg></choice> a<lb/>
+               of eating &amp; drinking <choice>
+                  <orig>thro'</orig>
+                  <reg>through</reg>
+               </choice> a<lb/>
                new tribe &amp; troup can &amp; &amp;c<lb/>
                really bothered me out of half<lb/>
                my wits. <persName ref="./Personography.xml#LockC1">Charlotte</persName> has<lb/>
@@ -151,7 +163,11 @@
                &amp; unusually admired in<lb/>
                Society, - &amp; considered as having<lb/>
                every chance of the very highest<lb/>
-               honours in his profession. <choice><orig>Tho'</orig><reg>Though</reg></choice><lb/>
+               honours in his profession. <choice>
+                  <orig>Tho'</orig>
+                  <reg>Though</reg>
+               </choice>
+               <lb/>
                only 35, he has already laid by<lb/>
                a sufficient independence - his<lb/>
                practice is very great<lb/>
@@ -170,31 +186,53 @@
                a few days towards and <placeName ref="./Placeography.xml#STK">Scotland</placeName>. <persName ref="./Personography.xml#HopeJ1">Mr<lb/>
                Hopes</persName> elder brother having two<lb/>
                places, he rents one of them<lb/>
-               (<placeName ref="./Placeography.xml#Rankeilour_STK"><unclear>Rankeillor</unclear></placeName>, near <placeName ref="./Placeography.xml#Cupar_STK">Cupar</placeName>, <placeName ref="./Placeography.xml#Fife_STK">Fife</placeName>)<lb/>
+               (<placeName ref="./Placeography.xml#Rankeilour_STK">
+                  <unclear>Rankeillor</unclear>
+               </placeName>, near <placeName ref="./Placeography.xml#Cupar_STK">Cupar</placeName>, <placeName ref="./Placeography.xml#Fife_STK">Fife</placeName>)<lb/>
                &amp; is much attached to it. His<lb/>
                business being chiefly that of<lb/>
                a Parliamentary Counsel he can<lb/>
                be there near 6 months in the<lb/>
-               year - &amp; there I hope to <unclear>visit</unclear><lb/>
+               year - &amp; there I hope to <unclear>visit</unclear>
+               <lb/>
                them presently<lb/>
             </p>
             <p>
                <pb n="5" facs="Edgeworth_NLS_936_1847_08_28_page05.jpg"/>
-               I have already dined twice <choice><orig>w</orig><reg>with</reg></choice> them<lb/>
+               I have already dined twice <choice>
+                  <orig>w</orig>
+                  <reg>with</reg>
+               </choice> them<lb/>
                in their retreat &amp; if they be not<lb/>
                most happy they are the cleverest<lb/>
                of actors. In a word I have<lb/>
                every reason to be satisfied &amp;<lb/>
                gratified &amp; I believe there<lb/>
-               really is not a father in <placeName ref="./Placeography.xml#London_ENK">London</placeName><lb/>
+               really is not a father in <placeName ref="./Placeography.xml#London_ENK">London</placeName>
+               <lb/>
                of almost any rank who<lb/>
-               <choice><orig>w<hi rend="superscript">d</hi></orig><reg>would</reg></choice> not have been glad indeed<lb/>
+               <choice>
+                  <orig>w<hi rend="superscript">d</hi>
+                  </orig>
+                  <reg>would</reg>
+               </choice> not have been glad indeed<lb/>
                to bestow his daughter on<lb/>
                <persName ref="./Personography.xml#HopeJ1">James Hope</persName>. My boy is<lb/>
-               now <persName ref="./Personography.xml#LockW1"><hi rend="underline">Walter Lockhart Scott</hi></persName> <choice><orig>Lieut'</orig><reg>Lieutenant</reg></choice><lb/>
-               in the 16<hi rend="superscript">th</hi> Lancers at <placeName ref="./Placeography.xml#Brighton_ENK">Brighton</placeName><lb/>
+               now <persName ref="./Personography.xml#LockW1">
+                  <hi rend="underline">Walter Lockhart Scott</hi>
+               </persName>
+               <choice>
+                  <orig>Lieut'</orig>
+                  <reg>Lieutenant</reg>
+               </choice>
+               <lb/>
+               in the 16<hi rend="superscript">th</hi> Lancers at <placeName ref="./Placeography.xml#Brighton_ENK">Brighton</placeName>
+               <lb/>
                &amp; I think doing well since<lb/>
-               he was indulged <choice><orig>w</orig><reg>with</reg></choice> the cloth<lb/>
+               he was indulged <choice>
+                  <orig>w</orig>
+                  <reg>with</reg>
+               </choice> the cloth<lb/>
                of his choice. Thus you see<lb/>
                my domestic cares are<lb/>
             </p>
@@ -209,7 +247,7 @@
             <p>
                As soon as I am well enough to<lb/>
                work as usual I must now<lb/>
-               begin the almost <unclear></unclear> of the<lb/>
+               begin the almost <unclear/> of the<lb/>
                <title ref="./Workography.xml#Memoi8">Life of Sir W. S.</title> Your<lb/>
                suggestions on that head<lb/>
                are laid by as valuable<lb/>
@@ -231,11 +269,13 @@
                <placeName ref="./Placeography.xml#Edinburgh_STK">Edinburgh</placeName> - I say I <hi rend="underline">believe</hi> for<lb/>
                it is most difficult to extract<lb/>
                a note from her once in 2<lb/>
-               months. Her Mother &amp; <persName ref="./Personography.xml#FergW1">Sir <unclear>W</unclear><lb/>
+               months. Her Mother &amp; <persName ref="./Personography.xml#FergW1">Sir <unclear>W</unclear>
+                  <lb/>
                Ferguson</persName> had taken old<lb/>
                <unclear>Hintly Birr</unclear> on again in the<lb/>
                view of being near her &amp; her<lb/>
-               poor husband at <placeName ref="./Placeography.xml#Abbotsford-House_STK">Abbotsford</placeName><lb/>
+               poor husband at <placeName ref="./Placeography.xml#Abbotsford-House_STK">Abbotsford</placeName>
+               <lb/>
                &amp; there they are - but she<lb/>
                cd not, when I heard last,<lb/>
                make up her mind to revisit<lb/>
@@ -259,10 +299,16 @@
                most fortunate wedding<lb/>
             </p>
             <closer>
-               ever <choice><orig>affecly</orig><reg>affectionately</reg></choice> yours<lb/>
-               <persName ref="./Personography.xml#LockJ1"><hi rend="underline">J G Lockhart</hi></persName><lb/>
+               ever <choice>
+                  <orig>affecly</orig>
+                  <reg>affectionately</reg>
+               </choice> yours<lb/>
+               <persName ref="./Personography.xml#LockJ1">
+                  <hi rend="underline">J G Lockhart</hi>
+               </persName>
+               <lb/>
             </closer>
-       </div>
+         </div>
       </body>
       <back> </back>
    </text>
