@@ -46,7 +46,7 @@
                </p>
                <licence target="https://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons Attribution 4.0 (CC BY 4.0) Unported License</licence>
             </availability>
-            <idno>Edgeworth_Harvard_604742_1842-10</idno> 
+            <idno>Edgeworth_Harvard_604742_1842-10</idno>
          </publicationStmt>
          <seriesStmt>
             <title>Maria Edgeworth Letters Project</title>
@@ -74,13 +74,7 @@
       </fileDesc>
       <encodingDesc>
          <editorialDecl>
-            <!--Where Edgeworth uses nonstandard spelling and hyphenation of words, transcriber-coders 
-               should use TEI elements “choice," “sic," and “reg" to encode both Edgeworth’s 
-               spelling and the regular international standard of Oxford English spelling, 
-               following the first listed spelling in the Oxford English Dictionary. -->
-            <p>Edgeworth’s spelling and punctuation are retained in transcription, except where a
-               word is split at the end of a line and the beginning of the next in a manuscript. The
-               long s and ligatured forms are silently emended.</p>
+            <p>Edgeworth’s spelling and punctuation are retained in transcription, including non-standard spelling, line breaks, and hyphenation of words. The long s and ligatured forms are silently emended.</p>
          </editorialDecl>
       </encodingDesc>
       <profileDesc>
@@ -106,9 +100,13 @@
             <opener>
                <dateline>
                   <placeName ref="./Placeography.xml#Edgeworthstown_IE">Edgeworths Town</placeName>
-                  <date when="1842-10-29"/><choice><abbr>Oct</abbr><reg>October</reg></choice> 29<hi rend= "superscript">h</hi>. 1842</dateline>
+                  <date when="1842-10-29"/>
+                  <choice>
+                     <abbr>Oct</abbr>
+                     <reg>October</reg>
+                  </choice> 29<hi rend="superscript">h</hi>. 1842</dateline>
                <salute>
-                  Dear <persName ref="./Personography.xml#AshbX1">D<hi rend= "superscript">r</hi>. Ashburner</persName>
+                  Dear <persName ref="./Personography.xml#AshbX1">D<hi rend="superscript">r</hi>. Ashburner</persName>
                </salute>
             </opener>
             <p>Will you be so good to direct the<lb/>
@@ -116,59 +114,85 @@
                   Gibbons</persName>. - Nobody but You that I<lb/>
                can hear of in this world knows<lb/>
                his address - The letter is in favor<lb/>
-               of my poor niece <persName ref="./Personography.xml#GibbP1">Emmeline Gibbons</persName><lb/>
+               of my poor niece <persName ref="./Personography.xml#GibbP1">Emmeline Gibbons</persName>
+               <lb/>
                Her misfortunes and sorrow<lb/>
-               have both meliorated her <choice><orig>tem<lb/>
-                  per</orig><reg>temper</reg></choice> and strengthened her <choice><orig>cha<lb/>
-                  racter</orig><reg>character</reg></choice> so that she is much more<lb/>
-               amiable and estimable in<lb/><lb/>
+               have both meliorated her <choice>
+                  <orig>tem<lb/>
+                  per</orig>
+                  <reg>temper</reg>
+               </choice> and strengthened her <choice>
+                  <orig>cha<lb/>
+                  racter</orig>
+                  <reg>character</reg>
+               </choice> so that she is much more<lb/>
+               amiable and estimable in<lb/>
+               <lb/>
                adversity, than she ever appeared<lb/>
                <unclear>to</unclear> me in her prosperity - She<lb/>
-               has won - earned- - <hi rend= "underline">wrenched</hi><lb/>
+               has won - earned- - <hi rend="underline">wrenched</hi>
+               <lb/>
                from me my esteem: &amp; after<lb/>
                my esteem flowed a certain<lb/>
                stream of sympathy, which<lb/>
                which had been stopped up - I<lb/>
-               don't care to say how, or why. -<lb/></p>
-               <p>She has written to me two<lb/>
+               don't care to say how, or why. -<lb/>
+            </p>
+            <p>She has written to me two<lb/>
                or three excellent letters, in<lb/>
                which her kind, generous, &amp;<lb/>
                grateful feelings charmingly<lb/>
-               
                <pb n="2" facs="Edgeworth_Harvard_604742_1842-10_page02.jpg"/>
                
                predominate - She has got her<lb/>
-               temper <hi rend= "underline">under.</hi> - She now rides &amp; runs<lb/>
+               temper <hi rend="underline">under.</hi> - She now rides &amp; runs<lb/>
                it - instead of letting it run away<lb/>
-               with her, uncurbed, - <del>&amp;</del> <unclear></unclear><lb/>
+               with her, uncurbed, - <del>&amp;</del>
+               <unclear/>
+               <lb/>
                &amp; splashing dirt about "on each<lb/>
                "she doomed her foe"- -<lb/>
                She now is really grateful for<lb/>
                all kindness shown her, - and<lb/>
                reproaches none for want of<lb/>
                kindness - and does not even<lb/>
-               <hi rend= "underline">expect</hi> assistance, like an <choice><orig>Irishwo<lb/>
-                  -man</orig><reg>Irishwoman</reg></choice>, but hopes for it from <choice><orig>Pro-<lb/>
-                     -vidence</orig><reg>Providence</reg></choice> &amp; her fellow creatures,<lb/>
+               <hi rend="underline">expect</hi> assistance, like an <choice>
+                  <orig>Irishwo<lb/>
+                  -man</orig>
+                  <reg>Irishwoman</reg>
+               </choice>, but hopes for it from <choice>
+                  <orig>Pro-<lb/>
+                     -vidence</orig>
+                  <reg>Providence</reg>
+               </choice> &amp; her fellow creatures,<lb/>
                like a good well-trained, thorough<lb/>
-               -well bred English woman, or man<lb/></p>
-               <p>This being all truly so - and<lb/>
+               -well bred English woman, or man<lb/>
+            </p>
+            <p>This being all truly so - and<lb/>
                not mere words, unsupported<lb/>
-               by deeds I now my dear <persName ref="./Personography.xml#AshbX1">D<hi rend= "superscript">r</hi></persName><lb/>
+               by deeds I now my dear <persName ref="./Personography.xml#AshbX1">D<hi rend="superscript">r</hi>
+               </persName>
+               <lb/>
                A proceed from my preface to<lb/>
                my request - I request that you<lb/>
-               will if you can find out and <hi rend= "underline">get</hi><lb/>
-               some <hi rend= "underline">situation</hi> for her in which<lb/>
-               she can earn <hi rend= "underline">bread</hi> (I wont ask<lb/>
+               will if you can find out and <hi rend="underline">get</hi>
+               <lb/>
+               some <hi rend="underline">situation</hi> for her in which<lb/>
+               she can earn <hi rend="underline">bread</hi> (I wont ask<lb/>
                for butter) for her or self &amp; her poor<lb/>
                little children - She is willing<lb/>
-               
                <pb n="3" facs="Edgeworth_Harvard_604742_1842-10_page03.jpg"/>
                
                to undertake any labour<lb/>
-               and not to <del><unclear>turn up her</unclear></del><lb/>
-               start at any seeming <choice><orig>degra<lb/>
-                  dation</orig><reg>degradation</reg></choice> by which she can earn<lb/>
+               and not to <del>
+                  <unclear>turn up her</unclear>
+               </del>
+               <lb/>
+               start at any seeming <choice>
+                  <orig>degra<lb/>
+                  dation</orig>
+                  <reg>degradation</reg>
+               </choice> by which she can earn<lb/>
                subsistence for her family<lb/>
                She thinks she is equal to being<lb/>
                housekeeper to an hospital or to<lb/>
@@ -180,19 +204,26 @@
                she has had experience for the<lb/>
                last two years in nursing an<lb/>
                invalid &amp; that respectable<lb/>
-               medical testimonials <choice><abbr>w<hi rend= "superscript">d</hi></abbr><reg>would</reg></choice><lb/>
+               medical testimonials <choice>
+                  <abbr>w<hi rend="superscript">d</hi>
+                  </abbr>
+                  <reg>would</reg>
+               </choice>
+               <lb/>
                prove this for her -<lb/>
                She has some hopes (but I fear<lb/>
-               vain) of <persName ref="./Personography.xml#StanX1">M<hi rend= "superscript">rs</hi>. Stanley</persName> per favor<lb/>
+               vain) of <persName ref="./Personography.xml#StanX1">M<hi rend="superscript">rs</hi>. Stanley</persName> per favor<lb/>
                of petition from her governess<lb/>
                doing something for her in<lb/>
                procuring some Housekeeper<lb/>
                ship in the Royal house hold<lb/>
                or in the arrangement of the<lb/>
-               House of Commons <choice><orig>house-<lb/>
-                  keeper</orig><reg>housekeeper</reg></choice> ships - But I own<lb/>
+               House of Commons <choice>
+                  <orig>house-<lb/>
+                  keeper</orig>
+                  <reg>housekeeper</reg>
+               </choice> ships - But I own<lb/>
                I have little hopes from Royalty<lb/>
-               
                <pb n="4" facs="Edgeworth_Harvard_604742_1842-10_page04.jpg"/>
                
                patronage there are so many<lb/>
@@ -203,42 +234,67 @@
                no parsnips to be buttered, - which<lb/>
                is worse -<lb/>
                I have more faith in the promise<lb/>
-               of a certain <persName ref="./Personography.xml#ScotX1">Dr. Scott who attended</persName><lb/>
-               poor fretful <persName ref="./Personography.xml#GibbW1">D<hi rend= "superscript">r</hi>. <choice><orig>Gibbon</orig><reg>Gibbons</reg></choice></persName> - I do not well<lb/>
+               of a certain <persName ref="./Personography.xml#ScotX1">Dr. Scott who attended</persName>
+               <lb/>
+               poor fretful <persName ref="./Personography.xml#GibbW1">D<hi rend="superscript">r</hi>. <choice>
+                     <orig>Gibbon</orig>
+                     <reg>Gibbons</reg>
+                  </choice>
+               </persName> - I do not well<lb/>
                know who he is but I know he<lb/>
                has been very kind to them and<lb/>
                I am told <unclear>that</unclear> from his height in<lb/>
                his profession he has a true vue d'oiseau<lb/>
                of a great many good situations<lb/>
                - I wish he may pounce upon<lb/>
-               one for my poor niece<lb/></p>
-               <p>But in my heart of hearts I<lb/>
+               one for my poor niece<lb/>
+            </p>
+            <p>But in my heart of hearts I<lb/>
                own I have more dependance<lb/>
                upon your friendly aid - And<lb/>
                quick eye for a good thing for a<lb/>
-               friend; and my pride <del><unclear></unclear></del><lb/>
-               My Dear <persName ref="./Personography.xml#AshbX1">Doctor Ashburner</persName> w<hi rend= "superscript">d</hi><lb/>
-               be peculiarly gratified by <choice><orig>receiv-<lb/>
-                  ing</orig><reg>receiving</reg></choice> from You, this assistance<lb/>
-               "at her utmost need" for poor <persName ref="./Personography.xml#GibbP1"><choice><orig>Em<lb/>
-                  melene</orig><reg>Emmelene</reg></choice> Gibbons</persName> - I should be<lb/>
+               friend; and my pride <del>
+                  <unclear/>
+               </del>
+               <lb/>
+               My Dear <persName ref="./Personography.xml#AshbX1">Doctor Ashburner</persName> w<hi rend="superscript">d</hi>
+               <lb/>
+               be peculiarly gratified by <choice>
+                  <orig>receiv-<lb/>
+                  ing</orig>
+                  <reg>receiving</reg>
+               </choice> from You, this assistance<lb/>
+               "at her utmost need" for poor <persName ref="./Personography.xml#GibbP1">
+                  <choice>
+                     <orig>Em<lb/>
+                  melene</orig>
+                     <reg>Emmelene</reg>
+                  </choice> Gibbons</persName> - I should be<lb/>
                proud to shew her <add>how</add> just my opinion<lb/>
-               
                <pb n="5" facs="Edgeworth_Harvard_604742_1842-10_page05.jpg"/>
-               
-               <hi rend= "underline">was</hi> and <hi rend= "underline">is</hi> of your generous<lb/>
+               <hi rend="underline">was</hi> and <hi rend="underline">is</hi> of your generous<lb/>
                disposition, freedom from<lb/>
                spite, malice, or any kind of<lb/>
-               uncharitableness - how <choice><orig>forgiv<lb/>
-                  ing</orig><reg>forgiving</reg></choice> of injuries! and disdainful-<lb/>
+               uncharitableness - how <choice>
+                  <orig>forgiv<lb/>
+                  ing</orig>
+                  <reg>forgiving</reg>
+               </choice> of injuries! and disdainful-<lb/>
                of misunderstandings, and<lb/>
-               misinterpretations -<lb/></p>
-               <p>If you <hi rend= "underline">can</hi> find any <choice><orig>situ-<lb/>
-                  tion</orig><reg>situation</reg></choice> for <persName ref="./Personography.xml#GibbP1">Emmeline</persName> - Pray<lb/>
+               misinterpretations -<lb/>
+            </p>
+            <p>If you <hi rend="underline">can</hi> find any <choice>
+                  <orig>situ-<lb/>
+                  tion</orig>
+                  <reg>situation</reg>
+               </choice> for <persName ref="./Personography.xml#GibbP1">Emmeline</persName> - Pray<lb/>
                do - I will say no more<lb/>
                - Except on quite another<lb/>
-               sort of subject - to <choice><orig>congratu-<lb/>
-                  -late</orig><reg>congratulate</reg></choice> you and myself most<lb/>
+               sort of subject - to <choice>
+                  <orig>congratu-<lb/>
+                  -late</orig>
+                  <reg>congratulate</reg>
+               </choice> you and myself most<lb/>
                heartily, upon our dear<lb/>
                <persName ref="./Personography.xml#EdgeF3">Fanny</persName>'s restored health. -<lb/>
                You and Nature may<lb/>
@@ -247,13 +303,13 @@
                Nature will never be the worse<lb/>
                for it - And that you may<lb/>
                be the better I earnestly pray! -<lb/>
-            </p>             
+            </p>
             <closer>
                for I am Your sincerely esteeming &amp;amp;<lb/>
                grateful<lb/>
-                  <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName><lb/>
-               </closer>
-
+               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
+               <lb/>
+            </closer>
          </div>
       </body>
       <back> </back>

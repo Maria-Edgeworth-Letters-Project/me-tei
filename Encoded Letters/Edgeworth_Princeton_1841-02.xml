@@ -32,10 +32,11 @@
             <authority>Maria Edgeworth Letters Project</authority>
             <date>2022</date>
             <availability>
-               <p>Reproduced by courtesy of <orgName ref="http://id.loc.gov/authorities/names/n82003163">Princeton University Library</orgName></p>
+               <p>Reproduced by courtesy of <orgName ref="http://id.loc.gov/authorities/names/n82003163">Princeton University Library</orgName>
+               </p>
                <licence target="https://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons Attribution 4.0 (CC BY 4.0) Unported License</licence>
             </availability>
-            <idno>Edgeworth_Princeton_1841-02</idno> 
+            <idno>Edgeworth_Princeton_1841-02</idno>
          </publicationStmt>
          <seriesStmt>
             <title>Maria Edgeworth Letters Project</title>
@@ -44,8 +45,8 @@
             <msDesc xml:lang="en">
                <msIdentifier>
                   <repository>Princeton University Library</repository>
-                  <collection></collection>
-                  <idno></idno>
+                  <collection/>
+                  <idno/>
                </msIdentifier>
                <head>Letter from 
                   <persName ref="./Personography.xml#EdgeM1">
@@ -55,19 +56,13 @@
                   to <persName ref="./Personography.xml#HallX1">Mr. Hall</persName>, <placeName ref="./Placeography.xml#North-Audley-Street-1_ENK">1 North Audley Street</placeName>, 
                   <date when="1841-02-28">28<hi rend="superscript">th</hi>. February 1841</date>
                </head>
-               <physDesc></physDesc>
+               <physDesc/>
             </msDesc>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
          <editorialDecl>
-            <!--Where Edgeworth uses nonstandard spelling and hyphenation of words, transcriber-coders 
-               should use TEI elements “choice," “sic," and “reg" to encode both Edgeworth’s 
-               spelling and the regular international standard of Oxford English spelling, 
-               following the first listed spelling in the Oxford English Dictionary. -->
-            <p>Edgeworth’s spelling and punctuation are retained in transcription, except where a
-               word is split at the end of a line and the beginning of the next in a manuscript. The
-               long s and ligatured forms are silently emended.</p>
+            <p>Edgeworth’s spelling and punctuation are retained in transcription, including non-standard spelling, line breaks, and hyphenation of words. The long s and ligatured forms are silently emended.</p>
          </editorialDecl>
       </encodingDesc>
       <profileDesc>
@@ -90,10 +85,14 @@
             <pb n="1" facs="Edgeworth_Princeton_1841-02_page01.jpg"/>
             <opener>
                <dateline>
-                  <name type="place" ref="Id_where"/>N<hi rend="superscript">o</hi>. 1 North Audley <choice><orig>Str</orig><reg>Street</reg></choice>
+                  <name type="place" ref="Id_where"/>N<hi rend="superscript">o</hi>. 1 North Audley <choice>
+                     <orig>Str</orig>
+                     <reg>Street</reg>
+                  </choice>
                   <date when="1841-02-28"/>28<hi rend="superscript">th</hi>. February 1841</dateline>
                <salute>
-                  <persName>My dear <persName ref="./Personography.xml#HallX2">M<hi rend="superscript">rs</hi>. Hall</persName></persName>
+                  <persName>My dear <persName ref="./Personography.xml#HallX2">M<hi rend="superscript">rs</hi>. Hall</persName>
+                  </persName>
                </salute>
             </opener>
             <p>While my <persName ref="./Personography.xml#EdgeF3">sister</persName> on her<lb/>
@@ -108,9 +107,13 @@
             <p>
                I write as fast as pen<lb/>
                can go and faster than it<lb/>
-               ought to go, (<unclear>as</unclear> your messenger <unclear></unclear><lb/>
-               to thank you for your <choice><orig>indefati<lb/>
-               gable</orig><reg>indefatigable</reg></choice> goodness to me -<lb/>
+               ought to go, (<unclear>as</unclear> your messenger <unclear/>
+               <lb/>
+               to thank you for your <choice>
+                  <orig>indefati<lb/>
+               gable</orig>
+                  <reg>indefatigable</reg>
+               </choice> goodness to me -<lb/>
             </p>
             <p>
                Your fifth number I am<lb/>
@@ -123,7 +126,8 @@
                that whatever at any time of<lb/>
                these numbers (or whatever you<lb/>
                please) to my sister <persName ref="./Personography.xml#EdgeF3">M<hi rend="superscript">rs</hi> Lestock<lb/>
-               Wilson</persName><lb/>
+               Wilson</persName>
+               <lb/>
             </p>
             <p>
                <pb n="2" facs="Edgeworth_Princeton_1841-02_page02.jpg"/>
@@ -131,7 +135,8 @@
                forward it to me at <placeName ref="./Placeography.xml#Edgeworthstown_IE">Edgeworths<lb/>
                town</placeName> - Where I shall be<lb/>
                Alas too soon &amp; about the<lb/>
-               7<hi rend="superscript">th</hi>. certainly I leave <placeName ref="./Placeography.xml#London_ENK">London</placeName><lb/>
+               7<hi rend="superscript">th</hi>. certainly I leave <placeName ref="./Placeography.xml#London_ENK">London</placeName>
+               <lb/>
                But if it be possible for me<lb/>
                to get out to pay my thanks<lb/>
                &amp; adieus to you in the course<lb/>
@@ -145,27 +150,39 @@
             </p>
             <p>
                I am sincerely sorry you<lb/>
-               have been ill - <persName ref="./Personography.xml#EdgeF3">my sister</persName><lb/>
+               have been ill - <persName ref="./Personography.xml#EdgeF3">my sister</persName>
+               <lb/>
                is a great deal better and I<lb/>
-               trust that under <persName ref="./Personography.xml#AshbX1">D<hi rend="superscript">r</hi>. Ashburners</persName><lb/>
+               trust that under <persName ref="./Personography.xml#AshbX1">D<hi rend="superscript">r</hi>. Ashburners</persName>
+               <lb/>
                care she will get through well<lb/>
                and be blessed with the long<lb/>
                delayed &amp; therefore more<lb/>
                precious blessing - most precious<lb/>
                blessing of happy marriage<lb/>
             </p>
-            <p><pb n="3" facs="Edgeworth_Princeton_1841-02_page03.jpg"/>
+            <p>
+               <pb n="3" facs="Edgeworth_Princeton_1841-02_page03.jpg"/>
                - She desires to be kindly<lb/>
                remembered to you<lb/>
                and joins with me in<lb/>
                entreating you to stop in<lb/>
-               time and not to <persName ref="./Personography.xml#ScotW1"><hi rend="underline">Walter-Scott</hi></persName><lb/>
+               time and not to <persName ref="./Personography.xml#ScotW1">
+                  <hi rend="underline">Walter-Scott</hi>
+               </persName>
+               <lb/>
                yourself by over exertion<lb/>
                You should consider that<lb/>
-               you lose time for ever <unclear><del></del></unclear><lb/>
+               you lose time for ever <unclear>
+                  <del/>
+               </unclear>
+               <lb/>
                power for ever if you lose<lb/>
-               health - And that no <choice><orig>mo=<lb/>
-               =ney</orig><reg>money</reg></choice> can repurchase it for<lb/>
+               health - And that no <choice>
+                  <orig>mo=<lb/>
+               =ney</orig>
+                  <reg>money</reg>
+               </choice> can repurchase it for<lb/>
                you or give you back the<lb/>
                power of writing as now<lb/>
                you do - creating whatever<lb/>
@@ -179,12 +196,14 @@
                good advice - even medical<lb/>
             </p>
             <closer>
-               - I am my dear <persName ref="./Personography.xml#HallX2">M<hi rend="superscript">rs</hi> Hall</persName><lb/>
+               - I am my dear <persName ref="./Personography.xml#HallX2">M<hi rend="superscript">rs</hi> Hall</persName>
+               <lb/>
                Yours sincerely<lb/>
                Perhaps impertinently<lb/>
-               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName><lb/>
+               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
+               <lb/>
             </closer>
-        </div>
+         </div>
       </body>
       <back> </back>
    </text>

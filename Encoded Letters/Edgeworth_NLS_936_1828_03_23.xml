@@ -36,7 +36,7 @@
                </p>
                <licence target="https://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons Attribution 4.0 (CC BY 4.0) Unported License</licence>
             </availability>
-            <idno>Edgeworth_NLS_936_1828_03_23</idno> 
+            <idno>Edgeworth_NLS_936_1828_03_23</idno>
          </publicationStmt>
          <seriesStmt>
             <title>Maria Edgeworth Letters Project</title>
@@ -45,26 +45,24 @@
             <msDesc xml:lang="en">
                <msIdentifier>
                   <repository>National Library of Scotland</repository>
-                  <collection></collection>
-                  <idno></idno>
+                  <collection/>
+                  <idno/>
                </msIdentifier>
                <head>Letter from 
                   <persName ref="./Personography.xml#LockJ1">
                      <forename>John Gibson</forename>
                      <surname>Lockhart</surname>
                   </persName>
-                  to <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>, <placeName></placeName>, 
-                  <date when="1828-03-23"></date>
+                  to <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>, <placeName/>, 
+                  <date when="1828-03-23"/>
                </head>
-               <physDesc></physDesc>
+               <physDesc/>
             </msDesc>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
          <editorialDecl>
-            <p>Edgeworth’s spelling and punctuation are retained in transcription, except where a
-               word is split at the end of a line and the beginning of the next in a manuscript. The
-               long s and ligatured forms are silently emended.</p>
+            <p>Edgeworth’s spelling and punctuation are retained in transcription, including non-standard spelling, line breaks, and hyphenation of words. The long s and ligatured forms are silently emended.</p>
          </editorialDecl>
       </encodingDesc>
       <profileDesc>
@@ -89,7 +87,8 @@
             <pb n="1" facs="Edgeworth_NLS_936_1828_03_23_page01.jpg"/>
             <opener>
                <salute>
-                  <persName>My dear <persName ref="./Personography.xml#EdgeM1">Miss Edgeworth</persName></persName>
+                  <persName>My dear <persName ref="./Personography.xml#EdgeM1">Miss Edgeworth</persName>
+                  </persName>
                </salute>
             </opener>
             <p>
@@ -103,7 +102,8 @@
                to make us much regret his departure<lb/>
                and hope for his speedy return. I<lb/>
                am also greatly obliged by your<lb/>
-               kind invitation to <placeName ref="./Placeography.xml#Edgeworthstown_IE">Edgeworth town</placeName><lb/>
+               kind invitation to <placeName ref="./Placeography.xml#Edgeworthstown_IE">Edgeworth town</placeName>
+               <lb/>
                but fear we cannot hope to<lb/>
                avail ourselves of your tempting<lb/>
                offer this year. We expect <persName ref="./Personography.xml#ScotW1">Sir<lb/>
@@ -139,22 +139,31 @@
                Mogul) seems to have put<lb/>
                that out of the question very<lb/>
                effectually. Is there no hope<lb/>
-               for <choice><orig>yr</orig><reg>your</reg></choice> coming over this Spring<lb/>
-               There will be <persName ref="./Personography.xml#ScotW1">Scott</persName> &amp; <persName ref="./Personography.xml#MoorT1">Tom Moore</persName><lb/>
+               for <choice>
+                  <orig>yr</orig>
+                  <reg>your</reg>
+               </choice> coming over this Spring<lb/>
+               There will be <persName ref="./Personography.xml#ScotW1">Scott</persName> &amp; <persName ref="./Personography.xml#MoorT1">Tom Moore</persName>
+               <lb/>
                &amp; <persName ref="./Personography.xml#CrabX1">old Crabbe</persName> &amp; I know not<lb/>
                how many more of your<lb/>
                Lion species I hear, and surely<lb/>
                you ought to swell the muster<lb/>
                if possible. <persName ref="./Personography.xml#CrabX1">Crabbe</persName> has another<lb/>
                volume of tales forthcoming<lb/>
-               <persName ref="./Personography.xml#MoorT1">Moore</persName> is to bring out his <title ref="./Workography.xml#Lette3">Byroniana</title><lb/>
+               <persName ref="./Personography.xml#MoorT1">Moore</persName> is to bring out his <title ref="./Workography.xml#Lette3">Byroniana</title>
+               <lb/>
                in November &amp; is very busy<lb/>
             </p>
             <p>
                <pb n="5" facs="Edgeworth_NLS_936_1828_03_23_page04.jpg"/>
                collecting materials for the four<lb/>
                winds of heaven. I hope he will<lb/>
-               do better than <choice><orig>w</orig><reg>with</reg></choice> <persName ref="./Personography.xml#SherR1">Sheridan</persName> he<lb/>
+               do better than <choice>
+                  <orig>w</orig>
+                  <reg>with</reg>
+               </choice>
+               <persName ref="./Personography.xml#SherR1">Sheridan</persName> he<lb/>
                has at least as delicate and<lb/>
                difficult a task in hand but<lb/>
                he says he has already got so<lb/>
@@ -178,7 +187,8 @@
                occupy the domain which you<lb/>
                first opened &amp; conquered &amp;<lb/>
                where you ought to make still<lb/>
-               larger conquests. If it <hi rend="underline">be</hi><lb/>
+               larger conquests. If it <hi rend="underline">be</hi>
+               <lb/>
                true let me take the great liberty<lb/>
                of suggesting that the money -<lb/>
                - value of a good novel must<lb/>
@@ -196,23 +206,41 @@
                one else how to deal with the<lb/>
                trade when he has such wares<lb/>
                to vend &amp; that you will be<lb/>
-               somewhat <choice><orig>surprized</orig><reg>surprised</reg></choice> with the<lb/>
+               somewhat <choice>
+                  <orig>surprized</orig>
+                  <reg>surprised</reg>
+               </choice> with the<lb/>
                result of his Management<lb/>
-               Whether <choice><orig>w</orig><reg>with</reg></choice> his own publisher<lb/>
-               or <choice><orig>w</orig><reg>with</reg></choice> the arch-puffer <persName ref="./Personography.xml#ColbH1">M<hi rend="superscript">r</hi><lb/>
+               Whether <choice>
+                  <orig>w</orig>
+                  <reg>with</reg>
+               </choice> his own publisher<lb/>
+               or <choice>
+                  <orig>w</orig>
+                  <reg>with</reg>
+               </choice> the arch-puffer <persName ref="./Personography.xml#ColbH1">M<hi rend="superscript">r</hi>
+                  <lb/>
                Colburn</persName> - which last personage<lb/>
-               <choice><orig>w<hi rend="underline">d</hi></orig><reg>would</reg></choice> give his ears for such<lb/>
+               <choice>
+                  <orig>w<hi rend="underline">d</hi>
+                  </orig>
+                  <reg>would</reg>
+               </choice> give his ears for such<lb/>
                a name as yours to grace<lb/>
                his lists.<lb/>
             </p>
             <p>
-               There is no news here <persName ref="./Personography.xml#Georg1">The King</persName><lb/>
+               There is no news here <persName ref="./Personography.xml#Georg1">The King</persName>
+               <lb/>
             </p>
             <p>
                <pb n="8" facs="Edgeworth_NLS_936_1828_03_23_page07.jpg"/>
                is very feeble but in good spirits<lb/>
                &amp; is to <hi rend="underline">sit</hi> through a levee next<lb/>
-               week, having <choice><orig>w</orig><reg>with</reg></choice> difficulty<lb/>
+               week, having <choice>
+                  <orig>w</orig>
+                  <reg>with</reg>
+               </choice> difficulty<lb/>
                overcome his repugnance to<lb/>
                making such an exhibition<lb/>
                of his royal frame.<lb/>
@@ -223,15 +251,19 @@
             </p>
             <closer>
                Ever faithfully yours,<lb/>
-               <persName ref="./Personography.xml#LockJ1"><hi rend="underline">J G Lockhart</hi></persName><lb/>
+               <persName ref="./Personography.xml#LockJ1">
+                  <hi rend="underline">J G Lockhart</hi>
+               </persName>
+               <lb/>
             </closer>
             <postscript>
                <p>
                   Sunday March 23. 1828.<lb/>
-                  <placeName ref="./Placeography.xml#Hampton-Court-Palace_ENK">Hampton Court</placeName><lb/>
+                  <placeName ref="./Placeography.xml#Hampton-Court-Palace_ENK">Hampton Court</placeName>
+                  <lb/>
                   I am very very sensible to your<lb/>
                   kind language about <persName ref="./Personography.xml#CrokT1">Crofton<lb/>
-                  <pb n="9" facs="Edgeworth_NLS_936_1828_03_23_page08.jpg"/>
+                     <pb n="9" facs="Edgeworth_NLS_936_1828_03_23_page08.jpg"/>
                   Croker's</persName> affairs. To tell you the<lb/>
                   truth he has been for years<lb/>
                   engaged to marry a very<lb/>
@@ -245,13 +277,15 @@
                   has gone down. If anything<lb/>
                   can hoist the vessel up again<lb/>
                   it will be your kind hand.<lb/>
-                  1828 <persName ref="./Personography.xml#LockJ1">Lockhart</persName><lb/>
+                  1828 <persName ref="./Personography.xml#LockJ1">Lockhart</persName>
+                  <lb/>
                   1829<lb/>
-                  <hi rend="underline">1767</hi><lb/>
+                  <hi rend="underline">1767</hi>
+                  <lb/>
                   62<lb/>
                </p>
             </postscript>
-       </div>
+         </div>
       </body>
       <back> </back>
    </text>

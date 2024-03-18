@@ -36,7 +36,7 @@
                </p>
                <licence target="https://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons Attribution 4.0 (CC BY 4.0) Unported License</licence>
             </availability>
-            <idno>Edgeworth_NLS_936_1837_12_04</idno> 
+            <idno>Edgeworth_NLS_936_1837_12_04</idno>
          </publicationStmt>
          <seriesStmt>
             <title>Maria Edgeworth Letters Project</title>
@@ -45,26 +45,24 @@
             <msDesc xml:lang="en">
                <msIdentifier>
                   <repository>National Library of Scotland</repository>
-                  <collection></collection>
-                  <idno></idno>
+                  <collection/>
+                  <idno/>
                </msIdentifier>
                <head>Letter from 
                   <persName ref="./Personography.xml#LockJ1">
                      <forename>John Gibson</forename>
                      <surname>Lockhart</surname>
                   </persName>
-                  to <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>, <placeName></placeName>, 
+                  to <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>, <placeName/>, 
                   <date when="1837-12-04">Dec<hi rend="superscript">r</hi> 4. 1837</date>
                </head>
-               <physDesc></physDesc>
+               <physDesc/>
             </msDesc>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
          <editorialDecl>
-            <p>Edgeworth’s spelling and punctuation are retained in transcription, except where a
-               word is split at the end of a line and the beginning of the next in a manuscript. The
-               long s and ligatured forms are silently emended.</p>
+            <p>Edgeworth’s spelling and punctuation are retained in transcription, including non-standard spelling, line breaks, and hyphenation of words. The long s and ligatured forms are silently emended.</p>
          </editorialDecl>
       </encodingDesc>
       <profileDesc>
@@ -87,25 +85,35 @@
             <pb n="1" facs="Edgeworth_NLS_936_1837_12_04_page01.jpg"/>
             <opener>
                <dateline>
-                  <name type="place" ref="Id_where"/><placeName ref="./Placeography.xml#London_ENK">London</placeName>
+                  <name type="place" ref="Id_where"/>
+                  <placeName ref="./Placeography.xml#London_ENK">London</placeName>
                   <date when="1837-12-04"/>Dec<hi rend="superscript">r</hi> 4. 1837</dateline>
                <salute>
-                  <persName>My dear <persName ref="./Personography.xml#EdgeM1">Miss Edgeworth</persName></persName>
+                  <persName>My dear <persName ref="./Personography.xml#EdgeM1">Miss Edgeworth</persName>
+                  </persName>
                </salute>
             </opener>
             <p>
                I had some<lb/>
-               days ago <choice><orig>yr</orig><reg>your</reg></choice> very kind letter &amp;<lb/>
+               days ago <choice>
+                  <orig>yr</orig>
+                  <reg>your</reg>
+               </choice> very kind letter &amp;<lb/>
                I thank you for it most sincerely<lb/>
-               <choice><orig>tho'</orig><reg>though</reg></choice> very briefly. I much regret<lb/>
+               <choice>
+                  <orig>tho'</orig>
+                  <reg>though</reg>
+               </choice> very briefly. I much regret<lb/>
                the circumstances which have given<lb/>
                pain to you or to others - but the<lb/>
                truth is the enormous heaps of<lb/>
                letters <unclear>committed</unclear> to me were all<lb/>
                copied by Ladies &amp; the originals<lb/>
-               forthwith returned &amp; I fear <unclear>besides</unclear><lb/>
+               forthwith returned &amp; I fear <unclear>besides</unclear>
+               <lb/>
                innumerable blunders of names,<lb/>
-               &amp; dates which, as the <unclear>most</unclear><lb/>
+               &amp; dates which, as the <unclear>most</unclear>
+               <lb/>
                important <unclear>of them</unclear> it cost me no<lb/>
                small pains to correct, these<lb/>
                may have been on the part of<lb/>
@@ -130,13 +138,16 @@
             </p>
             <p>
                <pb n="3" facs="Edgeworth_NLS_936_1837_12_04_page03.jpg"/>
-               a second Edition.<lb/> 
+               a second Edition.<lb/>
             </p>
             <closer>
                Meantime<lb/>
                believe me always most<lb/>
                gratefully and affectionately yours<lb/>
-               <persName ref="./Personography.xml#LockJ1"><hi rend="underline">JGLockhart</hi></persName><lb/>
+               <persName ref="./Personography.xml#LockJ1">
+                  <hi rend="underline">JGLockhart</hi>
+               </persName>
+               <lb/>
             </closer>
          </div>
       </body>

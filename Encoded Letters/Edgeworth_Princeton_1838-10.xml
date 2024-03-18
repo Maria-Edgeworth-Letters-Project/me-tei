@@ -32,10 +32,11 @@
             <authority>Maria Edgeworth Letters Project</authority>
             <date>2022</date>
             <availability>
-               <p>Reproduced by courtesy of <orgName ref="http://id.loc.gov/authorities/names/n82003163">Princeton University Library</orgName></p>
+               <p>Reproduced by courtesy of <orgName ref="http://id.loc.gov/authorities/names/n82003163">Princeton University Library</orgName>
+               </p>
                <licence target="https://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons Attribution 4.0 (CC BY 4.0) Unported License</licence>
             </availability>
-            <idno>Edgeworth_Princeton_1838-10</idno> 
+            <idno>Edgeworth_Princeton_1838-10</idno>
          </publicationStmt>
          <seriesStmt>
             <title>Maria Edgeworth Letters Project</title>
@@ -44,30 +45,24 @@
             <msDesc xml:lang="en">
                <msIdentifier>
                   <repository>Princeton University Library</repository>
-                  <collection></collection>
-                  <idno></idno>
+                  <collection/>
+                  <idno/>
                </msIdentifier>
                <head>Letter from 
                   <persName ref="./Personography.xml#EdgeM1">
                      <forename>Maria</forename>
                      <surname>Edgeworth</surname>
                   </persName>
-                   to <persName>[Unknown]</persName>, <placeName></placeName>, 
+                   to <persName>[Unknown]</persName>, <placeName/>, 
                   <date when="1838-10">October 1838</date>
                </head>
-               <physDesc></physDesc>
+               <physDesc/>
             </msDesc>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
          <editorialDecl>
-            <!--Where Edgeworth uses nonstandard spelling and hyphenation of words, transcriber-coders 
-               should use TEI elements “choice," “sic," and “reg" to encode both Edgeworth’s 
-               spelling and the regular international standard of Oxford English spelling, 
-               following the first listed spelling in the Oxford English Dictionary. -->
-            <p>Edgeworth’s spelling and punctuation are retained in transcription, except where a
-               word is split at the end of a line and the beginning of the next in a manuscript. The
-               long s and ligatured forms are silently emended.</p>
+            <p>Edgeworth’s spelling and punctuation are retained in transcription, including non-standard spelling, line breaks, and hyphenation of words. The long s and ligatured forms are silently emended.</p>
          </editorialDecl>
       </encodingDesc>
       <profileDesc>
@@ -88,32 +83,43 @@
       <body>
          <div type="letter">
             <pb n="1" facs="Edgeworth_Princeton_1838-10_page01.jpg"/>
-            <p><add>his thefts were</add>
+            <p>
+               <add>his thefts were</add>
                <del>thefts were</del> premeditated &amp; systematic - In short
-               <del>occurrences <unclear>but that</unclear></del> he was habitually
-               &amp; without <add>shame</add> <del></del>, yet not without fear
+               <del>occurrences <unclear>but that</unclear>
+               </del> he was habitually
+               &amp; without <add>shame</add>
+               <del/>, yet not without fear
                an intellectual pilferer &amp; plunderer
                Both or either as occasion prompted &amp;
                circumstances required - With the
                timid he was bold, with the bold he
                was timid - Persons without a name
-               <del></del> or with names unknown
+               <del/> or with names unknown
                in the world he treated absolutely as
                barbarians, who did not know the
-               value of their <add>own</add> gold and <del>might have</del> <add>if they chanced to possess</add>
+               value of their <add>own</add> gold and <del>might have</del>
+               <add>if they chanced to possess</add>
                earrings, &amp; nose jewels, frightful things! They
                might <add>be</add> plucked from them without remorse
-               &amp; converted to better use <del><unclear></unclear></del> by
-               any civilised <unclear></unclear>
-               <note place="left"><persName ref="./Personography.xml#EdgeM1">EDGEWORTH, M</persName>
+               &amp; converted to better use <del>
+                  <unclear/>
+               </del> by
+               any civilised <unclear/>
+               <note place="left">
+                  <persName ref="./Personography.xml#EdgeM1">EDGEWORTH, M</persName>
                L.300</note>
             </p>
             <p>
                <pb n="2" facs="Edgeworth_Princeton_1838-10_page02.jpg"/>
                <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
-               <choice><orig>Oct<hi rend="superscript">r</hi></orig><reg>October</reg></choice> 1838
+               <choice>
+                  <orig>Oct<hi rend="superscript">r</hi>
+                  </orig>
+                  <reg>October</reg>
+               </choice> 1838
             </p>
-       </div>
+         </div>
       </body>
       <back> </back>
    </text>

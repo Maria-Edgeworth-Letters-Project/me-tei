@@ -18,7 +18,7 @@
             <respStmt>
                <resp>Transcription and coding by</resp>
                <persName ref="Id_who">Alexandra LaGrand</persName>
-               </respStmt>
+            </respStmt>
          </titleStmt>
          <editionStmt>
             <edition>First digital edition in TEI, date: <date when="2023-12-13">December 13, 2023</date>
@@ -33,10 +33,11 @@
             <authority>Maria Edgeworth Letters Project</authority>
             <date>2022</date>
             <availability>
-               <p>Reproduced by courtesy of <orgName ref="http://id.loc.gov/authorities/names/n82003163">Princeton University Library</orgName></p>
+               <p>Reproduced by courtesy of <orgName ref="http://id.loc.gov/authorities/names/n82003163">Princeton University Library</orgName>
+               </p>
                <licence target="https://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons Attribution 4.0 (CC BY 4.0) Unported License</licence>
             </availability>
-            <idno>Edgeworth_Princeton_1814-09</idno> 
+            <idno>Edgeworth_Princeton_1814-09</idno>
          </publicationStmt>
          <seriesStmt>
             <title>Maria Edgeworth Letters Project</title>
@@ -45,30 +46,30 @@
             <msDesc xml:lang="en">
                <msIdentifier>
                   <repository>Princeton University Library</repository>
-                  <collection></collection>
-                  <idno></idno>
+                  <collection/>
+                  <idno/>
                </msIdentifier>
                <head>Letter from 
                   <persName ref="./Personography.xml#EdgeR1">
                      <forename>Richard Lovell</forename>
                      <surname>Edgeworth</surname>
                   </persName>
-                  to <persName ref="./Personography.xml#RoscW1">William Roscoe</persName>, <placeName></placeName>, 
-                  <date when="1814-09-01"><choice><orig><hi rend="superscript">tr</hi></orig><reg>September</reg></choice>. 1<hi rend="superscript">st</hi>. 1814</date>
+                  to <persName ref="./Personography.xml#RoscW1">William Roscoe</persName>, <placeName/>, 
+                  <date when="1814-09-01">
+                     <choice>
+                        <orig>
+                           <hi rend="superscript">tr</hi>
+                        </orig>
+                        <reg>September</reg>
+                     </choice>. 1<hi rend="superscript">st</hi>. 1814</date>
                </head>
-               <physDesc></physDesc>
+               <physDesc/>
             </msDesc>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
          <editorialDecl>
-            <!--Where Edgeworth uses nonstandard spelling and hyphenation of words, transcriber-coders 
-               should use TEI elements “choice," “sic," and “reg" to encode both Edgeworth’s 
-               spelling and the regular international standard of Oxford English spelling, 
-               following the first listed spelling in the Oxford English Dictionary. -->
-            <p>Edgeworth’s spelling and punctuation are retained in transcription, except where a
-               word is split at the end of a line and the beginning of the next in a manuscript. The
-               long s and ligatured forms are silently emended.</p>
+            <p>Edgeworth’s spelling and punctuation are retained in transcription, including non-standard spelling, line breaks, and hyphenation of words. The long s and ligatured forms are silently emended.</p>
          </editorialDecl>
       </encodingDesc>
       <profileDesc>
@@ -95,14 +96,27 @@
                   Signed by <persName ref="./Personography.xml#EdgeR1">R.L. Edgeworth</persName>
                </note>
                <dateline>
-                  <name type="place" ref="Id_where"/><placeName ref="./Placeography.xml#Edgeworthstown_IE">Edgeworths Town</placeName> <add><placeName ref="./Placeography.xml#IE">Ireland</placeName></add>
-                  <date when="1814-09-01"/><choice><orig><hi rend="superscript">tr</hi></orig><reg>September</reg></choice>. 1<hi rend="superscript">st</hi>. 1814</dateline>
+                  <name type="place" ref="Id_where"/>
+                  <placeName ref="./Placeography.xml#Edgeworthstown_IE">Edgeworths Town</placeName>
+                  <add>
+                     <placeName ref="./Placeography.xml#IE">Ireland</placeName>
+                  </add>
+                  <date when="1814-09-01"/>
+                  <choice>
+                     <orig>
+                        <hi rend="superscript">tr</hi>
+                     </orig>
+                     <reg>September</reg>
+                  </choice>. 1<hi rend="superscript">st</hi>. 1814</dateline>
                <salute>
                   <persName>My Dear Sir</persName>
                </salute>
             </opener>
-            <p>I will not take up your time by <choice><orig>apolo<lb/>
-               =gies</orig><reg>apologies</reg></choice> - The object of this letter will I hope<lb/>
+            <p>I will not take up your time by <choice>
+                  <orig>apolo<lb/>
+               =gies</orig>
+                  <reg>apologies</reg>
+               </choice> - The object of this letter will I hope<lb/>
                be my excuse. A young gentleman<lb/>
                who has had an undue quantity of<lb/>
                latin &amp; greek early hammered into<lb/>
@@ -113,13 +127,19 @@
                which are fully as necessary for the<lb/>
                business of life as classic lore. I have<lb/>
                been desired by a respectable friend<lb/>
-               who has a high esteem for your <choice><orig>charac<lb/>
-               =ter</orig><reg>character</reg></choice> and attainments to request your<lb/>
+               who has a high esteem for your <choice>
+                  <orig>charac<lb/>
+               =ter</orig>
+                  <reg>character</reg>
+               </choice> and attainments to request your<lb/>
                advice upon this important subject.<lb/>
             </p>
             <p>
-               <persName ref="./Personography.xml#EdgeF2">Mrs.</persName> &amp; <persName ref="./Personography.xml#EdgeM1">Miss Edgeworth</persName> send their <choice><orig>res-<lb/>
-               pects</orig><reg>respects</reg></choice> to you &amp; their compliments &amp;<lb/>
+               <persName ref="./Personography.xml#EdgeF2">Mrs.</persName> &amp; <persName ref="./Personography.xml#EdgeM1">Miss Edgeworth</persName> send their <choice>
+                  <orig>res-<lb/>
+               pects</orig>
+                  <reg>respects</reg>
+               </choice> to you &amp; their compliments &amp;<lb/>
             </p>
             <p>
                <pb n="1" facs="Edgeworth_Princeton_1814-09_page02.jpg"/>
@@ -131,13 +151,32 @@
             <closer>
                I am my dear Sir<lb/>
                with much esteem<lb/>
-               Your <choice><orig>obed<hi rend="superscript">t</hi>.</orig><reg>obedient</reg></choice> Servant,<lb/>
-               <persName ref="./Personography.xml#EdgeR1"><choice><orig>Rich<hi rend="superscript">rd</hi></orig><reg>Richard</reg></choice> Lovell Edgeworth</persName><lb/>
+               Your <choice>
+                  <orig>obed<hi rend="superscript">t</hi>.</orig>
+                  <reg>obedient</reg>
+               </choice> Servant,<lb/>
+               <persName ref="./Personography.xml#EdgeR1">
+                  <choice>
+                     <orig>Rich<hi rend="superscript">rd</hi>
+                     </orig>
+                     <reg>Richard</reg>
+                  </choice> Lovell Edgeworth</persName>
+               <lb/>
             </closer>
             <postscript>
                <p>please to address your letter under<lb/>
-                  cover to the <persName ref="./Personography.xml#FostJ2"><choice><orig>R<hi rend="superscript">t</hi>.</orig><reg>Right</reg></choice> <choice><orig>Hon<hi rend="superscript">ble</hi>.</orig><reg>Honorable</reg></choice> John Foster</persName><lb/>
-                  <placeName ref="./Placeography.xml#Collon_IE">Collon Ireland</placeName><lb/>
+                  cover to the <persName ref="./Personography.xml#FostJ2">
+                     <choice>
+                        <orig>R<hi rend="superscript">t</hi>.</orig>
+                        <reg>Right</reg>
+                     </choice>
+                     <choice>
+                        <orig>Hon<hi rend="superscript">ble</hi>.</orig>
+                        <reg>Honorable</reg>
+                     </choice> John Foster</persName>
+                  <lb/>
+                  <placeName ref="./Placeography.xml#Collon_IE">Collon Ireland</placeName>
+                  <lb/>
                </p>
             </postscript>
          </div>

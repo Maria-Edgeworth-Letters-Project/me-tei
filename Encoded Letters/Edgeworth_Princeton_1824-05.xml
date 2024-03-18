@@ -32,10 +32,11 @@
             <authority>Maria Edgeworth Letters Project</authority>
             <date>2022</date>
             <availability>
-               <p>Reproduced by courtesy of <orgName ref="http://id.loc.gov/authorities/names/n82003163">Princeton University Library</orgName></p>
+               <p>Reproduced by courtesy of <orgName ref="http://id.loc.gov/authorities/names/n82003163">Princeton University Library</orgName>
+               </p>
                <licence target="https://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons Attribution 4.0 (CC BY 4.0) Unported License</licence>
             </availability>
-            <idno>Edgeworth_Princeton_1824-05</idno> 
+            <idno>Edgeworth_Princeton_1824-05</idno>
          </publicationStmt>
          <seriesStmt>
             <title>Maria Edgeworth Letters Project</title>
@@ -44,30 +45,24 @@
             <msDesc xml:lang="en">
                <msIdentifier>
                   <repository>Princeton University Library</repository>
-                  <collection></collection>
-                  <idno></idno>
+                  <collection/>
+                  <idno/>
                </msIdentifier>
                <head>Letter from 
                   <persName ref="./Personography.xml#EdgeM1">
                      <forename>Maria</forename>
                      <surname>Edgeworth</surname>
                   </persName>
-                   to <persName>[Unknown]</persName>, <placeName></placeName>, 
+                   to <persName>[Unknown]</persName>, <placeName/>, 
                   <date when="1824-05-01">May 1, 1824</date>
                </head>
-               <physDesc></physDesc>
+               <physDesc/>
             </msDesc>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
          <editorialDecl>
-            <!--Where Edgeworth uses nonstandard spelling and hyphenation of words, transcriber-coders 
-               should use TEI elements “choice," “sic," and “reg" to encode both Edgeworth’s 
-               spelling and the regular international standard of Oxford English spelling, 
-               following the first listed spelling in the Oxford English Dictionary. -->
-            <p>Edgeworth’s spelling and punctuation are retained in transcription, except where a
-               word is split at the end of a line and the beginning of the next in a manuscript. The
-               long s and ligatured forms are silently emended.</p>
+            <p>Edgeworth’s spelling and punctuation are retained in transcription, including non-standard spelling, line breaks, and hyphenation of words. The long s and ligatured forms are silently emended.</p>
          </editorialDecl>
       </encodingDesc>
       <profileDesc>
@@ -90,7 +85,8 @@
             <pb n="1" facs="Edgeworth_Princeton_1824-05_page01.jpg"/>
             <opener>
                <dateline>
-                  <name type="place" ref="Id_where"/><placeName ref="./Placeography.xml#Edgeworthstown_IE">Edgeworths Town</placeName>
+                  <name type="place" ref="Id_where"/>
+                  <placeName ref="./Placeography.xml#Edgeworthstown_IE">Edgeworths Town</placeName>
                   <date when="1824-05-01"/>May 1<hi rend="superscript">st</hi>. 1824</dateline>
             </opener>
             <p>I have been very negligent<lb/>
@@ -104,10 +100,12 @@
                to return him my thanks<lb/>
                for his attentions to an<lb/>
                American gentleman<lb/>
-               <persName ref="./Personography.xml#RalsG1">M<hi rend="superscript">r</hi>. <unclear>Ralstone</unclear></persName> to whom I<lb/>
+               <persName ref="./Personography.xml#RalsG1">M<hi rend="superscript">r</hi>. <unclear>Ralstone</unclear>
+               </persName> to whom I<lb/>
                gave an introduction to<lb/>
                him about two years ago<lb/>
-               - <persName ref="./Personography.xml#RalsG1">M<hi rend="superscript">r</hi>. <unclear>Ralstone</unclear></persName> wrote after<lb/>
+               - <persName ref="./Personography.xml#RalsG1">M<hi rend="superscript">r</hi>. <unclear>Ralstone</unclear>
+               </persName> wrote after<lb/>
                his return to <placeName ref="./Placeography.xml#US">America</placeName> to express his gratitude<lb/>
                for the Spanish introductions<lb/>
                which he obtained<lb/>
@@ -117,24 +115,32 @@
                from the friend to whom I<lb/>
                had introduced him at<lb/>
                <placeName ref="./Placeography.xml#Paris_FR">Paris</placeName> - Though he did not<lb/>
-               name <persName ref="./Personography.xml#GranE1">M. <del></del> de la Grange</persName><lb/>
+               name <persName ref="./Personography.xml#GranE1">M. <del/> de la Grange</persName>
+               <lb/>
                I am persuaded that you<lb/>
                were the person who furnished<lb/>
-               him with letters to <placeName ref="./Placeography.xml#SP">Spain</placeName><lb/>
+               him with letters to <placeName ref="./Placeography.xml#SP">Spain</placeName>
+               <lb/>
                which were of the greatest<lb/>
                service. - I assure you that<lb/>
                I was sufficiently ashamed<lb/>
                of my procrastination when<lb/>
                I received his letter telling<lb/>
                me how kindly you had<lb/>
-               honored my <choice><orig>recommenda<lb/>
-               =tion</orig><reg>recommendation</reg></choice> &amp; I wrote directly to<lb/>
+               honored my <choice>
+                  <orig>recommenda<lb/>
+               =tion</orig>
+                  <reg>recommendation</reg>
+               </choice> &amp; I wrote directly to<lb/>
                thank you - but I have lately<lb/>
                learned that this letter and<lb/>
                a packet containing letters<lb/>
                from me to our friends the<lb/>
-               <persName ref="./Personography.xml#DeleX1"><unclear>Deleperts</unclear></persName> and our friends the<lb/>
-               <persName ref="./Personography.xml#CreeX1">Creeds</persName> never reached <placeName ref="./Placeography.xml#Paris_FR">Paris</placeName><lb/>
+               <persName ref="./Personography.xml#DeleX1">
+                  <unclear>Deleperts</unclear>
+               </persName> and our friends the<lb/>
+               <persName ref="./Personography.xml#CreeX1">Creeds</persName> never reached <placeName ref="./Placeography.xml#Paris_FR">Paris</placeName>
+               <lb/>
             </p>
             <p>
                You will I am sure believe<lb/>
@@ -146,14 +152,23 @@
                present to you one of our<lb/>
                most intimate &amp; I think I<lb/>
                may say agreeable friends<lb/>
-               - <persName ref="./Personography.xml#StriX2"><hi rend="underline">M<hi rend="superscript">r</hi>. Strickland</hi></persName> - a name<lb/>
+               - <persName ref="./Personography.xml#StriX2">
+                  <hi rend="underline">M<hi rend="superscript">r</hi>. Strickland</hi>
+               </persName> - a name<lb/>
                not so revolting to French<lb/>
                pronunciation as <hi rend="underline">Edge-<lb/>
                worth</hi> - but as you mastered<lb/>
                that <persName ref="./Personography.xml#StriX2">Strickland</persName> will only<lb/>
-               be too easy for you - <persName ref="./Personography.xml#StriX2">M<hi rend="superscript">r</hi>. <choice><orig>Strick<lb/>
-               land</orig><reg>Strickland</reg></choice></persName> who has the <choice><orig>adminis<lb/>
-               =tration</orig><reg>administration</reg></choice> of a large estate in<lb/>
+               be too easy for you - <persName ref="./Personography.xml#StriX2">M<hi rend="superscript">r</hi>. <choice>
+                     <orig>Strick<lb/>
+               land</orig>
+                     <reg>Strickland</reg>
+                  </choice>
+               </persName> who has the <choice>
+                  <orig>adminis<lb/>
+               =tration</orig>
+                  <reg>administration</reg>
+               </choice> of a large estate in<lb/>
                <placeName ref="./Placeography.xml#IE">Ireland</placeName> gives himself a<lb/>
                few weeks holidays from<lb/>
                business to refresh himself<lb/>
@@ -169,8 +184,12 @@
             </p>
             <p>
                <pb n="4" facs="Edgeworth_Princeton_1824-05_page04.jpg"/>
-               the favor of him to let <persName ref="./Personography.xml#StriX1">M<hi rend="superscript">r</hi>. <choice><orig>Strick<lb/>
-               land</orig><reg>Strickland</reg></choice></persName> have as much of his<lb/>
+               the favor of him to let <persName ref="./Personography.xml#StriX1">M<hi rend="superscript">r</hi>. <choice>
+                     <orig>Strick<lb/>
+               land</orig>
+                     <reg>Strickland</reg>
+                  </choice>
+               </persName> have as much of his<lb/>
                assistance &amp; time as he can<lb/>
                spare - <persName ref="./Personography.xml#StriX1">M<hi rend="superscript">r</hi>. S</persName> - loves walking<lb/>
                - riding - driving &amp; conversation<lb/>
@@ -179,11 +198,19 @@
                him that can interest a<lb/>
                well informed &amp; well bred<lb/>
                gentleman. - He speaks<lb/>
-               French easily &amp; will <choice><orig>con-<lb/>
-               verse</orig><reg>converse</reg></choice> with you in whichever<lb/>
+               French easily &amp; will <choice>
+                  <orig>con-<lb/>
+               verse</orig>
+                  <reg>converse</reg>
+               </choice> with you in whichever<lb/>
                language you please. -<lb/>
-               He is 1 one of our- first <hi rend="underline"><choice><orig>Catho<lb/>
-               lic</orig><reg>Catholic</reg></choice></hi> families - I cannot<lb/>
+               He is 1 one of our- first <hi rend="underline">
+                  <choice>
+                     <orig>Catho<lb/>
+               lic</orig>
+                     <reg>Catholic</reg>
+                  </choice>
+               </hi> families - I cannot<lb/>
                vouch for his being <hi rend="underline">dans<lb/>
                les bons principes</hi> in a<lb/>
                certain exclusive sense of the<lb/>
@@ -202,21 +229,33 @@
                in <placeName ref="./Placeography.xml#Paris_FR">Paris</placeName> and of all our French<lb/>
                friends - The very pleasant<lb/>
                hours you gave us &amp; our<lb/>
-               conversations in the <choice><orig>car<lb/>
-               riage</orig><reg>carriage</reg></choice> where we discussed<lb/>
-               so many points, <hi rend="underline">sentimental</hi><lb/>
+               conversations in the <choice>
+                  <orig>car<lb/>
+               riage</orig>
+                  <reg>carriage</reg>
+               </choice> where we discussed<lb/>
+               so many points, <hi rend="underline">sentimental</hi>
+               <lb/>
                literary and Metaphysical<lb/>
                <del>and</del> we all have agreed<lb/>
                in recolelcting with<lb/>
                peculiar pleasure - In<lb/>
                deed a good easy coach<lb/>
                I consider as better than<lb/>
-               any salon for <choice><orig>conversa<lb/>
-               =tion</orig><reg>conversation</reg></choice> because one is not<lb/>
-               subject to the perpetual <add>change</add><lb/>
+               any salon for <choice>
+                  <orig>conversa<lb/>
+               =tion</orig>
+                  <reg>conversation</reg>
+               </choice> because one is not<lb/>
+               subject to the perpetual <add>change</add>
+               <lb/>
                <add>&amp;</add> interruptions <add>to</add> which good<lb/>
                breeding subjects us in the<lb/>
-               salon. The motto of <choice><orig>sallon</orig><reg>salon</reg></choice><lb/>
+               salon. The motto of <choice>
+                  <orig>sallon</orig>
+                  <reg>salon</reg>
+               </choice>
+               <lb/>
                conversation must ever be<lb/>
             </p>
             <p>
@@ -225,8 +264,11 @@
             <p>
                But I like <hi rend="underline">not</hi> to slide<lb/>
                over things so very rapidly<lb/>
-               as to have no time or <choice><orig>possibili<lb/>
-               ty</orig><reg>possibility</reg></choice> for understanding them<lb/>
+               as to have no time or <choice>
+                  <orig>possibili<lb/>
+               ty</orig>
+                  <reg>possibility</reg>
+               </choice> for understanding them<lb/>
             </p>
             <p>
                <pb n="6" facs="Edgeworth_Princeton_1824-05_page06.jpg"/>
@@ -251,7 +293,8 @@
                though fashionable - It is<lb/>
                far very far from my idea<lb/>
                of <hi rend="underline">persiflage</hi> - <hi rend="underline">irony</hi> or<lb/>
-               <hi rend="underline">raillery</hi> come nearest <unclear>but</unclear><lb/>
+               <hi rend="underline">raillery</hi> come nearest <unclear>but</unclear>
+               <lb/>
                there are many shades<lb/>
                between this &amp; the French<lb/>
                - <hi rend="underline">Ironic raillery</hi> might do<lb/>
@@ -270,12 +313,17 @@
             </p>
             <p>
                You are in the intimate<lb/>
-               society of <persName ref="./Personography.xml#DuraC1">Madame de <unclear>Duras</unclear></persName><lb/>
+               society of <persName ref="./Personography.xml#DuraC1">Madame de <unclear>Duras</unclear>
+               </persName>
+               <lb/>
                - Among my regrets in<lb/>
                leaving <placeName ref="./Placeography.xml#Paris_FR">Paris</placeName> was a strong<lb/>
                regret that I had not been<lb/>
-               able to become better <choice><orig>ac<lb/>
-               quainted</orig><reg>acquainted</reg></choice> with her. I hear<lb/>
+               able to become better <choice>
+                  <orig>ac<lb/>
+               quainted</orig>
+                  <reg>acquainted</reg>
+               </choice> with her. I hear<lb/>
                much of certain novels of<lb/>
                hers which are printed<lb/>
                but not published - Given<lb/>
@@ -296,8 +344,12 @@
                you - <persName ref="./Personography.xml#EdgeF2">M<hi rend="superscript">rs</hi>. Edgeworth</persName> &amp;<lb/>
                my brother desire me to<lb/>
                tell you that they hope<lb/>
-               you will some time <choice><orig>trav<lb/>
-               vel</orig><reg>travel</reg></choice> to this remote <placeName ref="./Placeography.xml#IE">Ireland</placeName><lb/>
+               you will some time <choice>
+                  <orig>trav<lb/>
+               vel</orig>
+                  <reg>travel</reg>
+               </choice> to this remote <placeName ref="./Placeography.xml#IE">Ireland</placeName>
+               <lb/>
                and that we may have<lb/>
                the pleasure of seeing you<lb/>
                at <placeName ref="./Placeography.xml#Edgeworthstown_IE">Edgeworths Town</placeName> - In<lb/>

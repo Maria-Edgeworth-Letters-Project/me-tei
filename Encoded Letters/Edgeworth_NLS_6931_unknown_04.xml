@@ -36,7 +36,7 @@
                </p>
                <licence target="https://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons Attribution 4.0 (CC BY 4.0) Unported License</licence>
             </availability>
-            <idno>Edgeworth_NLS_6931_unknown_04</idno> 
+            <idno>Edgeworth_NLS_6931_unknown_04</idno>
          </publicationStmt>
          <seriesStmt>
             <title>Maria Edgeworth Letters Project</title>
@@ -45,26 +45,24 @@
             <msDesc xml:lang="en">
                <msIdentifier>
                   <repository>National Library of Scotland</repository>
-                  <collection></collection>
-                  <idno></idno>
+                  <collection/>
+                  <idno/>
                </msIdentifier>
                <head>Letter from 
                   <persName ref="./Personography.xml#EdgeF2">
                      <forename>Frances</forename>
                      <surname>Edgeworth</surname>
                   </persName>
-                  to <persName ref="./Personography.xml#BrinE1">Esther Brinkley</persName>, <placeName></placeName>, 
+                  to <persName ref="./Personography.xml#BrinE1">Esther Brinkley</persName>, <placeName/>, 
                   <date when="1111-01-01">Undated</date>
                </head>
-               <physDesc></physDesc>
+               <physDesc/>
             </msDesc>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
          <editorialDecl>
-            <p>Edgeworth’s spelling and punctuation are retained in transcription, except where a
-               word is split at the end of a line and the beginning of the next in a manuscript. The
-               long s and ligatured forms are silently emended.</p>
+            <p>Edgeworth’s spelling and punctuation are retained in transcription, including non-standard spelling, line breaks, and hyphenation of words. The long s and ligatured forms are silently emended.</p>
          </editorialDecl>
       </encodingDesc>
       <profileDesc>
@@ -90,15 +88,19 @@
                   <name type="place" ref="Id_where"/>
                   <date when="1111-01-01"/>Saturday morning</dateline>
                <salute>
-                  <persName>Mr dear <persName ref="./Personography.xml#BrinE1">Mrs Brinkley</persName></persName>
+                  <persName>Mr dear <persName ref="./Personography.xml#BrinE1">Mrs Brinkley</persName>
+                  </persName>
                </salute>
             </opener>
             <p>
                I cannot let your<lb/>
                excellent <persName ref="./Personography.xml#BrinJ1">Doctor</persName> leave us without<lb/>
                expressing to you our regret<lb/>
-               that you could not have <choice><orig>ac-<lb/>
-               -companied</orig><reg>accompanied</reg></choice> him - and that<lb/>
+               that you could not have <choice>
+                  <orig>ac-<lb/>
+               -companied</orig>
+                  <reg>accompanied</reg>
+               </choice> him - and that<lb/>
                he leaves us so soon-<lb/>
             </p>
             <p>
@@ -118,16 +120,27 @@
                He will tell you all about<lb/>
                us so that I shall spare<lb/>
                your <unclear>eyes</unclear> and only say<lb/>
-               that our poor dear <persName ref="./Personography.xml#EdgeL1">Lucy</persName><lb/>
-               has borne her Sisters <choice><orig>depar-<lb/>
-               ture</orig><reg>departure</reg></choice> better than could have<lb/>
+               that our poor dear <persName ref="./Personography.xml#EdgeL1">Lucy</persName>
+               <lb/>
+               has borne her Sisters <choice>
+                  <orig>depar-<lb/>
+               ture</orig>
+                  <reg>departure</reg>
+               </choice> better than could have<lb/>
                been expected - but that<lb/>
-               dear little object of our <choice><orig>affec<lb/>
-               tion</orig><reg>affection</reg></choice> <persName ref="./Personography.xml#EdgeS1">Sophy</persName> will soon fly<lb/>
+               dear little object of our <choice>
+                  <orig>affec<lb/>
+               tion</orig>
+                  <reg>affection</reg>
+               </choice>
+               <persName ref="./Personography.xml#EdgeS1">Sophy</persName> will soon fly<lb/>
                off to <placeName ref="./Placeography.xml#ENK">England</placeName> perhaps to<lb/>
                <placeName ref="./Placeography.xml#IT">Italy</placeName> - and then poor<lb/>
-               <persName ref="./Personography.xml#EdgeL1">Lucy</persName> will be tried <choice><orig>in-<lb/>
-               -deed</orig><reg>indeed</reg></choice> - It is a happy<lb/>
+               <persName ref="./Personography.xml#EdgeL1">Lucy</persName> will be tried <choice>
+                  <orig>in-<lb/>
+               -deed</orig>
+                  <reg>indeed</reg>
+               </choice> - It is a happy<lb/>
                thing to settle a daughter &amp;<lb/>
                a happy thing to see her<lb/>
                happy - but alas there<lb/>
@@ -145,9 +158,12 @@
                that he knows best<lb/>
             </p>
             <closer>
-               Ever your dear <persName ref="./Personography.xml#BrinE1">M<hi rend="superscript">rs</hi><lb/>
+               Ever your dear <persName ref="./Personography.xml#BrinE1">M<hi rend="superscript">rs</hi>
+                  <lb/>
                Brinkley</persName> &amp; ever your<lb/>
-               Affectionate <persName ref="./Personography.xml#EdgeF2">F<unclear>E</unclear></persName><lb/>
+               Affectionate <persName ref="./Personography.xml#EdgeF2">F<unclear>E</unclear>
+               </persName>
+               <lb/>
             </closer>
          </div>
       </body>

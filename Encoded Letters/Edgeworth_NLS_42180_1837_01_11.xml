@@ -47,7 +47,7 @@ Hilary Havens
                </p>
                <licence target="https://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons Attribution 4.0 (CC BY 4.0) Unported License</licence>
             </availability>
-            <idno>Edgeworth_NLS_42180_1837_01_11</idno> 
+            <idno>Edgeworth_NLS_42180_1837_01_11</idno>
          </publicationStmt>
          <seriesStmt>
             <title>Maria Edgeworth Letters Project</title>
@@ -62,7 +62,7 @@ Hilary Havens
                   <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
                   to unknown
                   <date when="1837-01-11">
-                     Jan<hi rend= "superscript">y</hi>. 11<hi rend= "superscript">h</hi>. 1837</date>
+                     Jan<hi rend="superscript">y</hi>. 11<hi rend="superscript">h</hi>. 1837</date>
                </head>
                <physDesc>
                </physDesc>
@@ -74,9 +74,7 @@ Hilary Havens
       </fileDesc>
       <encodingDesc>
          <editorialDecl>
-            <p>Edgeworth’s spelling and punctuation are retained in transcription, except where a
-               word is split at the end of a line and the beginning of the next in a manuscript. The
-               long s and ligatured forms are silently emended.</p>
+            <p>Edgeworth’s spelling and punctuation are retained in transcription, including non-standard spelling, line breaks, and hyphenation of words. The long s and ligatured forms are silently emended.</p>
          </editorialDecl>
       </encodingDesc>
       <profileDesc>
@@ -96,61 +94,86 @@ Hilary Havens
       <body>
          <div type="letter">
             <pb n="1" facs="Edgeworth_NLS_42180_1837_01_11_page01.jpg"/>
-            <opener><note>1</note><lb/>
+            <opener>
+               <note>1</note>
+               <lb/>
                <dateline>
-                  <placeName ref="./Placeography.xml#Edgeworthstown_IE">Edgeworths Town</placeName><lb/>
+                  <placeName ref="./Placeography.xml#Edgeworthstown_IE">Edgeworths Town</placeName>
+                  <lb/>
                   <date when="1837-01-11">
-                     Jan<hi rend= "superscript">y</hi>. 11<hi rend= "superscript">h</hi>. 1837</date></dateline><lb/>
-               <salute>Dear Sir</salute><lb/>
+                     Jan<hi rend="superscript">y</hi>. 11<hi rend="superscript">h</hi>. 1837</date>
+               </dateline>
+               <lb/>
+               <salute>Dear Sir</salute>
+               <lb/>
             </opener>
             <p>You will never get rid of my<lb/>
-               persecutions about <persName ref="./Personography.xml#CarmA1">Md<hi rend= "superscript">m</hi>. Carmichael</persName> and<lb/>
+               persecutions about <persName ref="./Personography.xml#CarmA1">Md<hi rend="superscript">m</hi>. Carmichael</persName> and<lb/>
                her manuscripts until you oblige me<lb/>
                by doing what I ask - and I will be as<lb/>
                reasonable as an unreasonable woman<lb/>
-               can be.<lb/></p>
-               <p>You have a manuscript of hers<lb/>
+               can be.<lb/>
+            </p>
+            <p>You have a manuscript of hers<lb/>
                which you declined publishing but which<lb/>
                you were so kind to offer to dispose of for<lb/>
                her to Longman &amp; Co or some other publisher<lb/>
-               - She wished to have it back again <add>first</add> to <choice><orig>re-<lb/>
-                  model</orig><reg>remodel</reg></choice> - But I write to advise her against<lb/>
+               - She wished to have it back again <add>first</add> to <choice>
+                  <orig>re-<lb/>
+                  model</orig>
+                  <reg>remodel</reg>
+               </choice> - But I write to advise her against<lb/>
                this, if you can dispose of it for her - And<lb/>
-               <hi rend= "underline">I pray you to try</hi> - Dispose of it for whatever<lb/>
+               <hi rend="underline">I pray you to try</hi> - Dispose of it for whatever<lb/>
                you can get <del>for</del> and let me know the result<lb/>
-               - If you find that the publisher <hi rend= "underline">requires</hi> to<lb/>
+               - If you find that the publisher <hi rend="underline">requires</hi> to<lb/>
                have any part altered or the whole remodelled<lb/>
                let me know and it will be time enough<lb/>
-               <hi rend= "underline">then</hi> to send it back &amp; set the poor lady<lb/>
-               to the remodelling labor -<lb/></p>
-               <p>I shall expect to have your answer<lb/>
-               next week my dear Sir -<lb/></p>
-               <p>And at the same time I wish you<lb/>
+               <hi rend="underline">then</hi> to send it back &amp; set the poor lady<lb/>
+               to the remodelling labor -<lb/>
+            </p>
+            <p>I shall expect to have your answer<lb/>
+               next week my dear Sir -<lb/>
+            </p>
+            <p>And at the same time I wish you<lb/>
                would tell me what you have determined<lb/>
-               
                <pb n="2" facs="Edgeworth_NLS_42180_1837_01_11_page02.jpg"/>
                
                about the <add>history of the</add> Bible <del>stories</del> which she sent you -<lb/>
-               a work for young people - 1<hi rend= "superscript">st</hi> plainly - do you<lb/>
-               intend to publish it? - 2<hi rend= "superscript">ly</hi>. When? - 3<hi rend= "superscript">ly</hi> What<lb/>
-               do you mean to give her for it?<lb/></p>
-               <p>You have also a tale written by<lb/>
-                  <persName ref="./Personography.xml#CarmA1">Miss Carmichael</persName> - pray tell me your decision<lb/>
-               respecting that also -<lb/></p>
-            <p><persName ref="./Personography.xml#CarmA1">M<hi rend= "superscript">m</hi>. Carmichael</persName> has waited months<lb/>
+               a work for young people - 1<hi rend="superscript">st</hi> plainly - do you<lb/>
+               intend to publish it? - 2<hi rend="superscript">ly</hi>. When? - 3<hi rend="superscript">ly</hi> What<lb/>
+               do you mean to give her for it?<lb/>
+            </p>
+            <p>You have also a tale written by<lb/>
+               <persName ref="./Personography.xml#CarmA1">Miss Carmichael</persName> - pray tell me your decision<lb/>
+               respecting that also -<lb/>
+            </p>
+            <p>
+               <persName ref="./Personography.xml#CarmA1">M<hi rend="superscript">m</hi>. Carmichael</persName> has waited months<lb/>
                for your answers - She is a most patient person -<lb/>
-               I am <del><unclear>No</unclear></del> most impatient - and believe<lb/>
+               I am <del>
+                  <unclear>No</unclear>
+               </del> most impatient - and believe<lb/>
                me you shall be worried weekly with letters<lb/>
-               untill you answer me -<lb/></p>
-               <p>I know your good nature and will<lb/>
-               prey upon it - </p><closer>I am D<hi rend= "superscript">r</hi>. Sir<lb/>
+               untill you answer me -<lb/>
+            </p>
+            <p>I know your good nature and will<lb/>
+               prey upon it - </p>
+            <closer>I am D<hi rend="superscript">r</hi>. Sir<lb/>
                Yours sincerely<lb/>
-                  <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName></closer><lb/>            
-               <postscript><p>
+               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
+            </closer>
+            <lb/>
+            <postscript>
+               <p>
                   Please to direct to me under cover<lb/>
-                  to <unclear>Lieut<hi rend= "superscript">t</hi>.</unclear> Col<hi rend= "superscript">l</hi> <persName ref="./Personography.xml#YorkX1">Yorke</persName><lb/>
-                  <placeName ref="./Placeography.xml#Dublin-Castle_IE">Dublin Castle</placeName></p><lb/>
-               </postscript>
+                  to <unclear>Lieut<hi rend="superscript">t</hi>.</unclear> Col<hi rend="superscript">l</hi>
+                  <persName ref="./Personography.xml#YorkX1">Yorke</persName>
+                  <lb/>
+                  <placeName ref="./Placeography.xml#Dublin-Castle_IE">Dublin Castle</placeName>
+               </p>
+               <lb/>
+            </postscript>
          </div>
       </body>
       <back> </back>

@@ -32,10 +32,11 @@
             <authority>Maria Edgeworth Letters Project</authority>
             <date>2022</date>
             <availability>
-               <p>Reproduced by courtesy of <orgName ref="http://id.loc.gov/authorities/names/n82003163">Princeton University Library</orgName></p>
+               <p>Reproduced by courtesy of <orgName ref="http://id.loc.gov/authorities/names/n82003163">Princeton University Library</orgName>
+               </p>
                <licence target="https://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons Attribution 4.0 (CC BY 4.0) Unported License</licence>
             </availability>
-            <idno>Edgeworth_Princeton_1817-09</idno> 
+            <idno>Edgeworth_Princeton_1817-09</idno>
          </publicationStmt>
          <seriesStmt>
             <title>Maria Edgeworth Letters Project</title>
@@ -44,30 +45,28 @@
             <msDesc xml:lang="en">
                <msIdentifier>
                   <repository>Princeton University Library</repository>
-                  <collection></collection>
-                  <idno></idno>
+                  <collection/>
+                  <idno/>
                </msIdentifier>
                <head>Letter from 
                   <persName ref="./Personography.xml#EdgeM1">
                      <forename>Maria</forename>
                      <surname>Edgeworth</surname>
                   </persName>
-                   to <persName>[Unknown]</persName>, <placeName></placeName>, 
-                  <date when="1817-09-05"><choice><orig>Sept<hi rend="superscript">r</hi>.</orig><reg>September</reg></choice> 5<hi rend="superscript">th</hi>. 1817</date>
+                   to <persName>[Unknown]</persName>, <placeName/>, 
+                  <date when="1817-09-05">
+                     <choice>
+                        <orig>Sept<hi rend="superscript">r</hi>.</orig>
+                        <reg>September</reg>
+                     </choice> 5<hi rend="superscript">th</hi>. 1817</date>
                </head>
-               <physDesc></physDesc>
+               <physDesc/>
             </msDesc>
-          </sourceDesc>
+         </sourceDesc>
       </fileDesc>
       <encodingDesc>
          <editorialDecl>
-            <!--Where Edgeworth uses nonstandard spelling and hyphenation of words, transcriber-coders 
-               should use TEI elements “choice," “sic," and “reg" to encode both Edgeworth’s 
-               spelling and the regular international standard of Oxford English spelling, 
-               following the first listed spelling in the Oxford English Dictionary. -->
-            <p>Edgeworth’s spelling and punctuation are retained in transcription, except where a
-               word is split at the end of a line and the beginning of the next in a manuscript. The
-               long s and ligatured forms are silently emended.</p>
+            <p>Edgeworth’s spelling and punctuation are retained in transcription, including non-standard spelling, line breaks, and hyphenation of words. The long s and ligatured forms are silently emended.</p>
          </editorialDecl>
       </encodingDesc>
       <profileDesc>
@@ -90,8 +89,13 @@
             <pb n="1" facs="Edgeworth_Princeton_1817-09_page01.jpg"/>
             <opener>
                <dateline>
-                  <name type="place" ref="Id_where"/><placeName ref="./Placeography.xml#Edgeworthstown_IE">Edgeworthstown</placeName>
-                  <date when="1817-09-05"/><choice><orig>Sept<hi rend="superscript">r</hi>.</orig><reg>September</reg></choice> 5<hi rend="superscript">th</hi>. 1817</dateline>
+                  <name type="place" ref="Id_where"/>
+                  <placeName ref="./Placeography.xml#Edgeworthstown_IE">Edgeworthstown</placeName>
+                  <date when="1817-09-05"/>
+                  <choice>
+                     <orig>Sept<hi rend="superscript">r</hi>.</orig>
+                     <reg>September</reg>
+                  </choice> 5<hi rend="superscript">th</hi>. 1817</dateline>
                <salute>
                   <persName>Dear Sir</persName>
                </salute>
@@ -101,15 +105,19 @@
                - <persName ref="./Personography.xml#EdgeL2">Lovell</persName> &amp; <persName ref="./Personography.xml#EdgeC1">Sneyd</persName> -- to whom, as to the Executors<lb/>
                it properly ought to have been directed<lb/>
                I am however glad that it was sent to<lb/>
-               me, as it gives me an opportunity of <choice><orig>tell<lb/>
-               ing</orig><reg>telling</reg></choice> you my sentiments respecting one<lb/>
+               me, as it gives me an opportunity of <choice>
+                  <orig>tell<lb/>
+               ing</orig>
+                  <reg>telling</reg>
+               </choice> you my sentiments respecting one<lb/>
                particular in that account which I<lb/>
                must request to have altered, before it<lb/>
                goes into my brother's hands. --<lb/>
             </p>
             <p>
                You charge the printing &amp;c - of the second<lb/>
-               edition of my <persName ref="./Personography.xml#EdgeR1">father's</persName> <title ref="./Workography.xml#Essay2">Essay on wheel<lb/>
+               edition of my <persName ref="./Personography.xml#EdgeR1">father's</persName>
+               <title ref="./Workography.xml#Essay2">Essay on wheel<lb/>
                carriages</title> and you admit no copyright<lb/>
                for that work -- This I cannot think<lb/>
                just or feel to be properly respectful<lb/>
@@ -118,29 +126,54 @@
             <p>
                <pb n="2" facs="Edgeworth_Princeton_1817-09_page02.jpg"/>
                I am well aware, that the book in<lb/>
-               question is not like books of mere <choice><orig>amuse<lb/>
-               =ment</orig><reg>amusement</reg></choice>, <hi rend="underline">immediately</hi> profitable to a <choice><orig>pub-<lb/>
-               lisher</orig><reg>publisher</reg></choice>, but a publisher such as it becomes<lb/>
-               the successor of <persName ref="./Personography.xml#JohnJ1">M<hi rend="superscript">r</hi>. Johnson</persName> to prove <choice><orig>him<lb/>
-               -self</orig><reg>himself</reg></choice> ought to take the future as well as<lb/>
+               question is not like books of mere <choice>
+                  <orig>amuse<lb/>
+               =ment</orig>
+                  <reg>amusement</reg>
+               </choice>, <hi rend="underline">immediately</hi> profitable to a <choice>
+                  <orig>pub-<lb/>
+               lisher</orig>
+                  <reg>publisher</reg>
+               </choice>, but a publisher such as it becomes<lb/>
+               the successor of <persName ref="./Personography.xml#JohnJ1">M<hi rend="superscript">r</hi>. Johnson</persName> to prove <choice>
+                  <orig>him<lb/>
+               -self</orig>
+                  <reg>himself</reg>
+               </choice> ought to take the future as well as<lb/>
                the present into his account - and should<lb/>
                consider the solid value &amp; consequent<lb/>
-               permanent tho' perhaps slow <choice><orig>advan<lb/>
-               =tage</orig><reg>advantage</reg></choice> - likely to accrue from any <choice><orig>publica-<lb/>
-               tion</orig><reg>publication</reg></choice>. Now without presuming myself<lb/>
+               permanent tho' perhaps slow <choice>
+                  <orig>advan<lb/>
+               =tage</orig>
+                  <reg>advantage</reg>
+               </choice> - likely to accrue from any <choice>
+                  <orig>publica-<lb/>
+               tion</orig>
+                  <reg>publication</reg>
+               </choice>. Now without presuming myself<lb/>
                to judge of a work of science of which<lb/>
                I am ignorant, &amp; setting aside as far as<lb/>
                it is in my power, my feelings as his<lb/>
                daughter, friend &amp; literary partner --<lb/>
                I do firmly believe from all I have<lb/>
                heard said, &amp; seen written about the <title ref="./Workography.xml#Essay2">Essay<lb/>
-               on Wheel carriages</title> by those who are <choice><orig>res-<lb/>
-               =pected</orig><reg>respected</reg></choice> the best judges on the subject at<lb/>
-               home &amp; abroad, that the book is highly <choice><orig>es=</orig><reg>esteemed</reg></choice><lb/>
+               on Wheel carriages</title> by those who are <choice>
+                  <orig>res-<lb/>
+               =pected</orig>
+                  <reg>respected</reg>
+               </choice> the best judges on the subject at<lb/>
+               home &amp; abroad, that the book is highly <choice>
+                  <orig>es=</orig>
+                  <reg>esteemed</reg>
+               </choice>
+               <lb/>
             </p>
             <p>
                <pb n="3" facs="Edgeworth_Princeton_1817-09_page03.jpg"/>
-               <choice><orig>teemed</orig><reg>esteemed</reg></choice> &amp; is likely to last &amp; to rise &amp; fix<lb/>
+               <choice>
+                  <orig>teemed</orig>
+                  <reg>esteemed</reg>
+               </choice> &amp; is likely to last &amp; to rise &amp; fix<lb/>
                itself in public estimation -. consequently<lb/>
                I must believe that it is at least worthy<lb/>
                the expense of printing &amp; any risk you<lb/>
@@ -153,48 +186,97 @@
                I was so much surprised by the charge<lb/>
                to which I allude in your account that I<lb/>
                immediately conceived it must have<lb/>
-               been by some special request of my <persName ref="./Personography.xml#EdgeR1"><choice><orig>fa-<lb/>
-               -thers</orig><reg>father's</reg></choice></persName> in some letter of which which I <choice><orig>ei-<lb/>
-               -ther</orig><reg>either</reg></choice> had not seen, or had forgotten.<lb/>
+               been by some special request of my <persName ref="./Personography.xml#EdgeR1">
+                  <choice>
+                     <orig>fa-<lb/>
+               -thers</orig>
+                     <reg>father's</reg>
+                  </choice>
+               </persName> in some letter of which which I <choice>
+                  <orig>ei-<lb/>
+               -ther</orig>
+                  <reg>either</reg>
+               </choice> had not seen, or had forgotten.<lb/>
                He kept copies of all his letters to you and<lb/>
                before I answered you last - I felt it best<lb/>
                justice to you, to look over every one of<lb/>
                these for the last two years. -- It has been<lb/>
                a very painful task, for reasons which I<lb/>
                need not explain to you. -- I endeavor not to<lb/>
-               mine <hi rend="underline">sentiment</hi> or my own private <choice><orig>feel-<lb/>
-               =ings</orig><reg>feelings</reg></choice> with business because they have<lb/>
+               mine <hi rend="underline">sentiment</hi> or my own private <choice>
+                  <orig>feel-<lb/>
+               =ings</orig>
+                  <reg>feelings</reg>
+               </choice> with business because they have<lb/>
                nothing to do with each other --<lb/>
             </p>
             <p>
                <pb n="4" facs="Edgeworth_Princeton_1817-09_page04.jpg"/>
-               I do not find in any of his letters any <choice><orig>ex<lb/>
-               =pression</orig><reg>expression</reg></choice> that leads me to suppose that he<lb/>
+               I do not find in any of his letters any <choice>
+                  <orig>ex<lb/>
+               =pression</orig>
+                  <reg>expression</reg>
+               </choice> that leads me to suppose that he<lb/>
                conceived or intended you should print this<lb/>
-               2<hi rend="superscript">d.</hi> <choice><orig>ed<hi rend="superscript">t.</hi></orig><reg>edition</reg></choice> of his <title ref="./Workography.xml#Essay2">work</title> at <hi rend="underline">his</hi> expense or that<lb/>
-               you would not offer him any <choice><orig>renumera<lb/>
-               =tion</orig><reg>renumeration</reg></choice> for it - One or other I think ought<lb/>
+               2<hi rend="superscript">d.</hi>
+               <choice>
+                  <orig>ed<hi rend="superscript">t.</hi>
+                  </orig>
+                  <reg>edition</reg>
+               </choice> of his <title ref="./Workography.xml#Essay2">work</title> at <hi rend="underline">his</hi> expense or that<lb/>
+               you would not offer him any <choice>
+                  <orig>renumera<lb/>
+               =tion</orig>
+                  <reg>renumeration</reg>
+               </choice> for it - One or other I think ought<lb/>
                to be done - If I do not mistake entirely<lb/>
-               in my judgment of your character it <choice><orig>can<lb/>
-               =not</orig><reg>cannot</reg></choice> - when you have read so far in my<lb/>
+               in my judgment of your character it <choice>
+                  <orig>can<lb/>
+               =not</orig>
+                  <reg>cannot</reg>
+               </choice> - when you have read so far in my<lb/>
                letter occur to you Sir, to suspect that the thirty<lb/>
                points in question is my object - You are<lb/>
                at liberty to charge the same sum in any<lb/>
                form <hi rend="underline">but</hi> this, which both hurts my feelings<lb/>
                as a daughter and my sense of justice -<lb/>
-               I observe that you have not charged the <choice><orig>ex-<lb/>
-               pense</orig><reg>expense</reg></choice> of reprinting two cancelled sheets of<lb/>
-               <title ref="./Workography.xml#Ormon1">Ormond</title> - my <persName ref="./Personography.xml#EdgeR1">father</persName> requested that this <choice><orig><unclear>sh<hi rend="superscript">d</hi></unclear></orig><reg>should</reg></choice><lb/>
-               be charged to our <choice><orig>acc<hi rend="superscript">t.</hi></orig><reg>account</reg></choice> - And I likewise beg<lb/>
-               that you will charge the additional <choice><orig>ex=<lb/>
-               pense</orig><reg>expense</reg></choice> to which I am aware you must have<lb/>
+               I observe that you have not charged the <choice>
+                  <orig>ex-<lb/>
+               pense</orig>
+                  <reg>expense</reg>
+               </choice> of reprinting two cancelled sheets of<lb/>
+               <title ref="./Workography.xml#Ormon1">Ormond</title> - my <persName ref="./Personography.xml#EdgeR1">father</persName> requested that this <choice>
+                  <orig>
+                     <unclear>sh<hi rend="superscript">d</hi>
+                     </unclear>
+                  </orig>
+                  <reg>should</reg>
+               </choice>
+               <lb/>
+               be charged to our <choice>
+                  <orig>acc<hi rend="superscript">t.</hi>
+                  </orig>
+                  <reg>account</reg>
+               </choice> - And I likewise beg<lb/>
+               that you will charge the additional <choice>
+                  <orig>ex=<lb/>
+               pense</orig>
+                  <reg>expense</reg>
+               </choice> to which I am aware you must have<lb/>
                been put by hurrying to oblige me - the printing<lb/>
-               of <title ref="./Workography.xml#Harri1"><choice><orig>Har<hi rend="superscript">on</hi>.</orig><reg>Harrington</reg></choice> &amp; Ormond.</title> - Believe me I am as grateful<lb/>
+               of <title ref="./Workography.xml#Harri1">
+                  <choice>
+                     <orig>Har<hi rend="superscript">on</hi>.</orig>
+                     <reg>Harrington</reg>
+                  </choice> &amp; Ormond.</title> - Believe me I am as grateful<lb/>
                for those exertions as I was at the time I so<lb/>
                anxiously urged them. - You will not find<lb/>
                that <del>you</del> I shall object to any thing that you<lb/>
-               may name in this account. Therefore you <choice><orig>com-<lb/>
-               =prehend</orig><reg>comprehend</reg></choice> that I do not desire to lessen my debt<lb/>
+               may name in this account. Therefore you <choice>
+                  <orig>com-<lb/>
+               =prehend</orig>
+                  <reg>comprehend</reg>
+               </choice> that I do not desire to lessen my debt<lb/>
                to you, but simply to cancel an <unclear>offensive</unclear> &amp; substitute a<lb/>
             </p>
             <p>
@@ -204,18 +286,32 @@
             </p>
             <p>
                Be so good to charge all the presentation<lb/>
-               copies of <title ref="./Workography.xml#Comic1">Dramas</title> &amp; <title ref="./Workography.xml#Harri1">Harrington &amp; Ormond</title><lb/>
+               copies of <title ref="./Workography.xml#Comic1">Dramas</title> &amp; <title ref="./Workography.xml#Harri1">Harrington &amp; Ormond</title>
+               <lb/>
                which were above the usual number<lb/>
                allowed --<lb/>
             </p>
             <p>
-               In your note to me you say that at <choice><orig>Mi-<lb/>
-               chaelmas</orig><reg>Michaelmas</reg></choice> you will send me &amp; £315<lb/>
+               In your note to me you say that at <choice>
+                  <orig>Mi-<lb/>
+               chaelmas</orig>
+                  <reg>Michaelmas</reg>
+               </choice> you will send me &amp; £315<lb/>
                for the copy right of <title ref="./Workography.xml#Comic1">Comic Dramas</title> --<lb/>
-               But I find in one of my dear <hi rend="underline">just</hi> <del>fath</del><lb/>
-               <persName ref="./Personography.xml#EdgeR1"><choice><orig>fathers</orig><reg>father's</reg></choice></persName> letters that he particularly<lb/>
-               says that he should not call for this <choice><orig>mo-<lb/>
-               ney</orig><reg>money</reg></choice> till the 7<hi rend="superscript">th</hi>. May being a year after<lb/>
+               But I find in one of my dear <hi rend="underline">just</hi>
+               <del>fath</del>
+               <lb/>
+               <persName ref="./Personography.xml#EdgeR1">
+                  <choice>
+                     <orig>fathers</orig>
+                     <reg>father's</reg>
+                  </choice>
+               </persName> letters that he particularly<lb/>
+               says that he should not call for this <choice>
+                  <orig>mo-<lb/>
+               ney</orig>
+                  <reg>money</reg>
+               </choice> till the 7<hi rend="superscript">th</hi>. May being a year after<lb/>
                the publication of those <title ref="./Workography.xml#Comic1">Dramas</title>. -- Of<lb/>
                course I shall do as he would have<lb/>
                done --<lb/>
@@ -223,14 +319,27 @@
             <closer>
                I am Dear Sir<lb/>
                Yours sincerely<lb/>
-               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName><lb/>
+               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
+               <lb/>
             </closer>
             <closer>
                <address>
-                  <addrLine>copy</addrLine><lb/>
-                  <addrLine>To <persName ref="./Personography.xml#HuntX1">Hunter</persName></addrLine><lb/>
-                  <addrLine><choice><orig>Sep<hi rend="superscript">t.</hi></orig><reg>September</reg></choice> 6<hi rend="superscript">th.</hi> 1817</addrLine><lb/>
-                  <addrLine><persName ref="./Personography.xml#EdgeM1">ME</persName></addrLine><lb/>
+                  <addrLine>copy</addrLine>
+                  <lb/>
+                  <addrLine>To <persName ref="./Personography.xml#HuntX1">Hunter</persName>
+                  </addrLine>
+                  <lb/>
+                  <addrLine>
+                     <choice>
+                        <orig>Sep<hi rend="superscript">t.</hi>
+                        </orig>
+                        <reg>September</reg>
+                     </choice> 6<hi rend="superscript">th.</hi> 1817</addrLine>
+                  <lb/>
+                  <addrLine>
+                     <persName ref="./Personography.xml#EdgeM1">ME</persName>
+                  </addrLine>
+                  <lb/>
                </address>
             </closer>
          </div>

@@ -36,7 +36,7 @@
                </p>
                <licence target="https://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons Attribution 4.0 (CC BY 4.0) Unported License</licence>
             </availability>
-            <idno>Edgeworth_NLS_936_1846_12_24</idno> 
+            <idno>Edgeworth_NLS_936_1846_12_24</idno>
          </publicationStmt>
          <seriesStmt>
             <title>Maria Edgeworth Letters Project</title>
@@ -45,27 +45,25 @@
             <msDesc xml:lang="en">
                <msIdentifier>
                   <repository>National Library of Scotland</repository>
-                  <collection></collection>
-                  <idno></idno>
+                  <collection/>
+                  <idno/>
                </msIdentifier>
                <head>Letter from 
                   <persName ref="./Personography.xml#LockJ1">
-                        <forename>John Gibson</forename>
-                        <surname>Lockhart</surname>
-                     </persName>
-                  to <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>, <placeName></placeName>, 
+                     <forename>John Gibson</forename>
+                     <surname>Lockhart</surname>
+                  </persName>
+                  to <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>, <placeName/>, 
                   <date when="1846-12-24">Dec 24 1846</date>
                   <stamp>Archival stamp from National Library of Scotland on second page of letter</stamp>
                </head>
-               <physDesc></physDesc>
+               <physDesc/>
             </msDesc>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
          <editorialDecl>
-            <p>Edgeworth’s spelling and punctuation are retained in transcription, except where a
-               word is split at the end of a line and the beginning of the next in a manuscript. The
-               long s and ligatured forms are silently emended.</p>
+            <p>Edgeworth’s spelling and punctuation are retained in transcription, including non-standard spelling, line breaks, and hyphenation of words. The long s and ligatured forms are silently emended.</p>
          </editorialDecl>
       </encodingDesc>
       <profileDesc>
@@ -89,21 +87,32 @@
             <pb n="1" facs="Edgeworth_NLS_936_1846_12_24_page01.jpg"/>
             <opener>
                <dateline>
-                  <name type="place" ref="Id_where"/><placeName ref="./Placeography.xml#London_ENK">London</placeName>
+                  <name type="place" ref="Id_where"/>
+                  <placeName ref="./Placeography.xml#London_ENK">London</placeName>
                   <date when="1846-12-24"/>Dec 24 1846</dateline>
                <salute>
                   <persName>My dear Friend</persName>
                </salute>
             </opener>
             <p>
-               I <choice><orig>shd</orig><reg>should</reg></choice> not have<lb/>
-               let others be before me in <choice><orig>men-<lb/>
-               -tioning</orig><reg>mentioning</reg></choice> my little woman's intended<lb/>
+               I <choice>
+                  <orig>shd</orig>
+                  <reg>should</reg>
+               </choice> not have<lb/>
+               let others be before me in <choice>
+                  <orig>men-<lb/>
+               -tioning</orig>
+                  <reg>mentioning</reg>
+               </choice> my little woman's intended<lb/>
                wedding, but that at the time<lb/>
                when I found her romance near<lb/>
                its last chapter, I was afflicted<lb/>
                sadly by recurring reports of<lb/>
-               evil <choice><orig>abot</orig><reg>about</reg></choice> her uncle in <placeName ref="./Placeography.xml#IN">India</placeName><lb/>
+               evil <choice>
+                  <orig>abot</orig>
+                  <reg>about</reg>
+               </choice> her uncle in <placeName ref="./Placeography.xml#IN">India</placeName>
+               <lb/>
                which indeed <hi rend="underline">for me</hi> made it<lb/>
                impossible <unclear>to enter</unclear> rightly at the<lb/>
                feelings of the younger generation.<lb/>
@@ -114,24 +123,37 @@
                heartily you will rejoice that I can<lb/>
                now
             </p>
-           <p>
-              <pb n="2" facs="Edgeworth_NLS_936_1846_12_24_page02.jpg"/>
-              report favourably as this W. <unclear>Scott</unclear><lb/>
+            <p>
+               <pb n="2" facs="Edgeworth_NLS_936_1846_12_24_page02.jpg"/>
+              report favourably as this W. <unclear>Scott</unclear>
+               <lb/>
               I had by last mail a letter from<lb/>
               himself dated 22<hi rend="superscript">d</hi> October. He<lb/>
               had removed on the 10<hi rend="superscript">th</hi> to the<lb/>
               home of a friend of his &amp; relation<lb/>
               &amp; namesake of mine some few<lb/>
-              miles on the way <choice><orig>frm</orig><reg>from</reg></choice> <placeName ref="./Placeography.xml#Bangalore_IN">Bangalore</placeName><lb/>
+              miles on the way <choice>
+                  <orig>frm</orig>
+                  <reg>from</reg>
+               </choice>
+               <placeName ref="./Placeography.xml#Bangalore_IN">Bangalore</placeName>
+               <lb/>
               to <placeName ref="./Placeography.xml#Madras_IN">Madras</placeName>. During the intervening<lb/>
               days he had been sensibly<lb/>
               gathering strength &amp; he &amp; his wife<lb/>
               &amp; his host (whose letters also I<lb/>
               have seen) concurred in<lb/>
-              thinking that he <choice><orig>w<hi rend="superscript">d</hi></orig><reg>would</reg></choice> speedily<lb/>
+              thinking that he <choice>
+                  <orig>w<hi rend="superscript">d</hi>
+                  </orig>
+                  <reg>would</reg>
+               </choice> speedily<lb/>
               be able to continue his journey<lb/>
               and embark for <placeName ref="./Placeography.xml#ENK">England</placeName>. He<lb/>
-              <choice><orig>cd</orig><reg>could</reg></choice> have no other chance but in<lb/>
+               <choice>
+                  <orig>cd</orig>
+                  <reg>could</reg>
+               </choice> have no other chance but in<lb/>
               the sea voyage &amp; home of a<lb/>
               permanent care after a most<lb/>
               severe case of <unclear>abscess</unclear> in the<lb/>
@@ -141,27 +163,58 @@
               so rallied as <unclear>&amp;</unclear> to afford him<lb/>
               the prospect of a tranquil<lb/>
               Evening of life in the country.<lb/>
-              That he <choice><orig>shd</orig><reg>should</reg></choice> be well enough<lb/>
+              That he <choice>
+                  <orig>shd</orig>
+                  <reg>should</reg>
+               </choice> be well enough<lb/>
               for active service, at least<lb/>
               for several years to come, my<lb/>
               medical friends assure me is<lb/>
               in the highest degree improbable.<lb/>
               Since you will not come to<lb/>
-              <placeName ref="./Placeography.xml#London_ENK"><choice><orig>Londn</orig><reg>London</reg></choice></placeName> I must go to <placeName ref="./Placeography.xml#IE">Ireland</placeName><lb/>
+               <placeName ref="./Placeography.xml#London_ENK">
+                  <choice>
+                     <orig>Londn</orig>
+                     <reg>London</reg>
+                  </choice>
+               </placeName> I must go to <placeName ref="./Placeography.xml#IE">Ireland</placeName>
+               <lb/>
               &amp; bye &amp; bye I am likely to be<lb/>
-              a free <choice><orig>batchelor</orig><reg>bachelor</reg></choice><lb/>
+              a free <choice>
+                  <orig>batchelor</orig>
+                  <reg>bachelor</reg>
+               </choice>
+               <lb/>
             </p>
             <p>
                <pb n="3" facs="Edgeworth_NLS_936_1846_12_24_page03.jpg"/>
                Eugh! <persName ref="./Personography.xml#LockW1">My son</persName> is daily expecting<lb/>
-               to join his <choice><orig>regimt</orig><reg>regiment</reg></choice> at <placeName ref="./Placeography.xml#Canterbury_ENK">Canterbury</placeName><lb/>
+               to join his <choice>
+                  <orig>regimt</orig>
+                  <reg>regiment</reg>
+               </choice> at <placeName ref="./Placeography.xml#Canterbury_ENK">Canterbury</placeName>
+               <lb/>
                &amp; <persName ref="./Personography.xml#LockC1">Miss Charlotte</persName> will I suppose<lb/>
-               be taken <choice><orig>fr</orig><reg>from</reg></choice> me at Easter<lb/>
+               be taken <choice>
+                  <orig>fr</orig>
+                  <reg>from</reg>
+               </choice> me at Easter<lb/>
                or at latest in the Summer.<lb/>
-               They are both now in <placeName ref="./Placeography.xml#STK">Scotland</placeName><lb/>
-               where had I been well <choice><orig>engh</orig><reg>enough</reg></choice><lb/>
-               to travel I <choice><orig>shd</orig><reg>should</reg></choice> have been<lb/>
-               <choice><orig>w</orig><reg>with</reg></choice> them at Chrs for line season<lb/>
+               They are both now in <placeName ref="./Placeography.xml#STK">Scotland</placeName>
+               <lb/>
+               where had I been well <choice>
+                  <orig>engh</orig>
+                  <reg>enough</reg>
+               </choice>
+               <lb/>
+               to travel I <choice>
+                  <orig>shd</orig>
+                  <reg>should</reg>
+               </choice> have been<lb/>
+               <choice>
+                  <orig>w</orig>
+                  <reg>with</reg>
+               </choice> them at Chrs for line season<lb/>
                - but that over they will come<lb/>
                up without delay. They have<lb/>
                had a very happy Summer &amp;<lb/>
@@ -180,7 +233,10 @@
                let my thoughts rest on anything<lb/>
                but the great comfort of<lb/>
                knowing that she is to be<lb/>
-               provided <choice><orig>w</orig><reg>with</reg></choice> a kind protector<lb/>
+               provided <choice>
+                  <orig>w</orig>
+                  <reg>with</reg>
+               </choice> a kind protector<lb/>
                of her own standing in place<lb/>
                of <add>a</add> worn &amp; weary papa<lb/>
                I think myself entitled<lb/>
@@ -202,28 +258,42 @@
                I know well that you<lb/>
                <unclear>have had</unclear> Sad new<lb/>
                affliction - but nothing<lb/>
-               1846 De<hi rend="superscript">f</hi><lb/>
-               <persName ref="./Personography.xml#LockJ1">Mr Lockhart</persName><lb/>
+               1846 De<hi rend="superscript">f</hi>
+               <lb/>
+               <persName ref="./Personography.xml#LockJ1">Mr Lockhart</persName>
+               <lb/>
             </p>
             <p>
                <pb n="6" facs="Edgeworth_NLS_936_1846_12_24_page06.jpg"/>
                can ever render you indifferent<lb/>
                to either the good or the evil<lb/>
-               that <choice><orig>befals</orig><reg>befalls</reg></choice> a friend - I<lb/>
+               that <choice>
+                  <orig>befals</orig>
+                  <reg>befalls</reg>
+               </choice> a friend - I<lb/>
                hope <persName ref="./Personography.xml#EdgeF3">Mrs Wilson</persName> when<lb/>
                she must leave you<lb/>
                is to bring me some<lb/>
                comfortable tidings<lb/>
             </p>
             <closer>
-               <unclear></unclear> <choice><orig>yrs</orig><reg>yours</reg></choice><lb/>
-               <persName ref="./Personography.xml#LockJ1"><hi rend="underline">J G Lockhart</hi></persName><lb/>
+               <unclear/>
+               <choice>
+                  <orig>yrs</orig>
+                  <reg>yours</reg>
+               </choice>
+               <lb/>
+               <persName ref="./Personography.xml#LockJ1">
+                  <hi rend="underline">J G Lockhart</hi>
+               </persName>
+               <lb/>
             </closer>
             <closer>
                <address>
                   <addrLine>
                      1846<lb/>
-                     <persName ref="./Personography.xml#LockJ1">Lockhart</persName><lb/>
+                     <persName ref="./Personography.xml#LockJ1">Lockhart</persName>
+                     <lb/>
                   </addrLine>
                </address>
             </closer>

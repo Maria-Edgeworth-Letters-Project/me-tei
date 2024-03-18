@@ -93,13 +93,7 @@
       </fileDesc>
       <encodingDesc>
          <editorialDecl>
-            <!--Where Edgeworth uses nonstandard spelling and hyphenation of words, transcriber-coders 
-               should use TEI elements “choice," “sic," and “reg" to encode both Edgeworth’s 
-               spelling and the regular international standard of Oxford English spelling, 
-               following the first listed spelling in the Oxford English Dictionary. -->
-            <p>Edgeworth’s spelling and punctuation are retained in transcription, except where a
-               word is split at the end of a line and the beginning of the next in a manuscript. The
-               long s and ligatured forms are silently emended.</p>
+            <p>Edgeworth’s spelling and punctuation are retained in transcription, including non-standard spelling, line breaks, and hyphenation of words. The long s and ligatured forms are silently emended.</p>
          </editorialDecl>
       </encodingDesc>
       <profileDesc>
@@ -124,17 +118,24 @@
    <text>
       <body>
          <div type="letter">
-
-            
             <pb n="2" facs="Edgeworth_Harvard_604742_1831-02_page01.jpg"/>
             <opener>
                <dateline>
                   <placeName ref="./Placeography.xml#North-Audley-Street-1_ENK">
-                     N<hi rend= "superscript">o</hi>. 1 North Audley Street
-                  </placeName><lb/>
+                     N<hi rend="superscript">o</hi>. 1 North Audley Street
+                  </placeName>
+                  <lb/>
                   <date when="1831-02-04">
-                     <del><unclear></unclear></del> Friday
-                     4.<hi rend= "superscript">th</hi> <choice><abbr>Feb<hi rend= "superscript">y</hi></abbr><reg>February</reg></choice></date>
+                     <del>
+                        <unclear/>
+                     </del> Friday
+                     4.<hi rend="superscript">th</hi>
+                     <choice>
+                        <abbr>Feb<hi rend="superscript">y</hi>
+                        </abbr>
+                        <reg>February</reg>
+                     </choice>
+                  </date>
                </dateline>
                <salute>
                   Gentlemen<lb/>
@@ -142,8 +143,9 @@
             </opener>
             <p>I was at dinner when the arm<lb/>
                chair you sent arrived and<lb/>
-               I could not then examine it<lb/></p>
-               <p>I observe that it is not<lb/>
+               I could not then examine it<lb/>
+            </p>
+            <p>I observe that it is not<lb/>
                a chair newly made for<lb/>
                me as bespoke, deeper than<lb/>
                that which I sat in at your<lb/>
@@ -151,67 +153,98 @@
                I think it is <unclear>the</unclear> very same to<lb/>
                which I objected as not being<lb/>
                sufficiently deep when used<lb/>
-               with a cushion<lb/></p>
-               <p>I will keep it however<lb/>
+               with a cushion<lb/>
+            </p>
+            <p>I will keep it however<lb/>
                upon condition that the<lb/>
                cushion is not charged<lb/>
                to me - the cushion being<lb/>
-               absolutely useless —<lb/></p>
-               <p>Also I must beg that you<lb/>
+               absolutely useless —<lb/>
+            </p>
+            <p>Also I must beg that you<lb/>
                will send for the chair to<lb/>
                have silk twist put round<lb/>
-
                <pb n="3" facs="Edgeworth_Harvard_604742_1831-02_page02.jpg"/>
-               
                <del>the seat</del> at <add>the</add> bottom &amp; top<lb/>
                of the seat as it looks<lb/>
                quite bare &amp; unfinished<lb/>
                at present<lb/>
-                  <note>drawing of chair seat</note><lb/>
-               If it would be any <choice><orig>conve<lb/>
-                  nience</orig><reg>convenience</reg></choice> to you to send<lb/>
+               <note>drawing of chair seat</note>
+               <lb/>
+               If it would be any <choice>
+                  <orig>conve<lb/>
+                  nience</orig>
+                  <reg>convenience</reg>
+               </choice> to you to send<lb/>
                a work woman or man<lb/>
                to the house to fasten<lb/>
                the twist on here you<lb/>
                are welcome to do so<lb/>
                instead of sending for<lb/>
-               the chair<lb/></p>
-               <p>Remember that I<lb/>
+               the chair<lb/>
+            </p>
+            <p>Remember that I<lb/>
                expect to have the round<lb/>
-               
                <pb n="4" facs="Edgeworth_Harvard_604742_1831-02_page03.jpg"/>
                
-               table I bespoke sent <unclear>ho<gap></gap></unclear><lb/>
+               table I bespoke sent <unclear>ho<gap/>
+               </unclear>
+               <lb/>
                on Saturday - and<lb/>
                the same time. I beg to have<lb/>
                my account with you<lb/>
             </p>
             <closer>
                I am Gentlemen<lb/>
-               Your <choice><abbr>Obed.<hi rend= "superscript">t</hi>.</abbr><reg>Obedient</reg></choice> <choice><abbr>Serv<hi rend= "superscript">t</hi></abbr><reg>Servant</reg></choice><lb/>
-               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName><lb/>
-               <lb/></closer>
+               Your <choice>
+                  <abbr>Obed.<hi rend="superscript">t</hi>.</abbr>
+                  <reg>Obedient</reg>
+               </choice>
+               <choice>
+                  <abbr>Serv<hi rend="superscript">t</hi>
+                  </abbr>
+                  <reg>Servant</reg>
+               </choice>
+               <lb/>
+               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
+               <lb/>
+               <lb/>
+            </closer>
             <closer>
-               <address><addrLine>To</addrLine>
-                  <addrLine>Mess<hi rend= "superscript">rs</hi>. <persName ref="./Personography.xml#FranW1">France</persName> &amp; <persName ref="./Personography.xml#FranW1">France</persName> &amp; <persName ref="./Personography.xml#BantT1">Banting</persName></addrLine>
-                  <addrLine><placeName ref="./Placeography.xml#Pall-Mall_ENK">Pall <unclear>Mall</unclear></placeName></addrLine>
+               <address>
+                  <addrLine>To</addrLine>
+                  <addrLine>Mess<hi rend="superscript">rs</hi>. <persName ref="./Personography.xml#FranW1">France</persName> &amp; <persName ref="./Personography.xml#FranW1">France</persName> &amp; <persName ref="./Personography.xml#BantT1">Banting</persName>
+                  </addrLine>
+                  <addrLine>
+                     <placeName ref="./Placeography.xml#Pall-Mall_ENK">Pall <unclear>Mall</unclear>
+                     </placeName>
+                  </addrLine>
                </address>
             </closer>
-
-            
             <pb n="1" facs="Edgeworth_Harvard_604742_1831-02_page04.jpg"/>
             <closer>
-            
-            <stamp><unclear>M</unclear>.EVEN <unclear>4</unclear>
-               <date when="1831-02-04">4.FE<lb/>
-                  1831</date><lb/></stamp>
+               <stamp>
+                  <unclear>M</unclear>.EVEN <unclear>4</unclear>
+                  <date when="1831-02-04">4.FE<lb/>
+                  1831</date>
+                  <lb/>
+               </stamp>
 
                Miss Edgeworth<lb/>
-               <date when="1831-02-04"><choice><abbr>Feb</abbr><reg>February</reg></choice> 4/31</date><lb/>
+               <date when="1831-02-04">
+                  <choice>
+                     <abbr>Feb</abbr>
+                     <reg>February</reg>
+                  </choice> 4/31</date>
+               <lb/>
                <stamp>Portland</stamp>
                <address>
-                  <addrLine>Mess.<hi rend= "superscript">rs</hi> <persName ref="./Personography.xml#FranW1">France</persName> &amp; <persName ref="./Personography.xml#BantT1">Banting</persName></addrLine>
-                  <addrLine><placeName ref="./Placeography.xml#Pall-Mall_ENK">Pall Mall</placeName></addrLine>
+                  <addrLine>Mess.<hi rend="superscript">rs</hi>
+                     <persName ref="./Personography.xml#FranW1">France</persName> &amp; <persName ref="./Personography.xml#BantT1">Banting</persName>
+                  </addrLine>
+                  <addrLine>
+                     <placeName ref="./Placeography.xml#Pall-Mall_ENK">Pall Mall</placeName>
+                  </addrLine>
                </address>
             </closer>
          </div>

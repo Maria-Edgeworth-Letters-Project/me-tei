@@ -18,7 +18,7 @@
             <respStmt>
                <resp>Transcription and coding by</resp>
                <persName ref="Id_who">Alexandra LaGrand</persName>
-             </respStmt>
+            </respStmt>
          </titleStmt>
          <editionStmt>
             <edition>First digital edition in TEI, date: <date when="2023-12-20">December 20, 2023</date>
@@ -36,7 +36,7 @@
                </p>
                <licence target="https://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons Attribution 4.0 (CC BY 4.0) Unported License</licence>
             </availability>
-            <idno>Edgeworth_Princeton_1838-01_page01</idno> 
+            <idno>Edgeworth_Princeton_1838-01_page01</idno>
          </publicationStmt>
          <seriesStmt>
             <title>Maria Edgeworth Letters Project</title>
@@ -45,30 +45,28 @@
             <msDesc xml:lang="en">
                <msIdentifier>
                   <repository>Princeton University Library</repository>
-                  <collection></collection>
-                  <idno></idno>
+                  <collection/>
+                  <idno/>
                </msIdentifier>
                <head>Letter from 
                   <persName ref="./Personography.xml#EdgeF1">
                      <forename>Francis B.</forename>
                      <surname>Edgeworth</surname>
                   </persName>
-                  to <persName ref="./Personography.xml#LawrX2">Miss Lawrence</persName>, <placeName></placeName>, 
-                  <date when="1838-01-09"><choice><orig>Jan<hi rend="superscript">y</hi>.</orig><reg>January</reg></choice> 9. 1838.</date>
+                  to <persName ref="./Personography.xml#LawrX2">Miss Lawrence</persName>, <placeName/>, 
+                  <date when="1838-01-09">
+                     <choice>
+                        <orig>Jan<hi rend="superscript">y</hi>.</orig>
+                        <reg>January</reg>
+                     </choice> 9. 1838.</date>
                </head>
-               <physDesc></physDesc>
+               <physDesc/>
             </msDesc>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
          <editorialDecl>
-            <!--Where Edgeworth uses nonstandard spelling and hyphenation of words, transcriber-coders 
-               should use TEI elements “choice," “sic," and “reg" to encode both Edgeworth’s 
-               spelling and the regular international standard of Oxford English spelling, 
-               following the first listed spelling in the Oxford English Dictionary. -->
-            <p>Edgeworth’s spelling and punctuation are retained in transcription, except where a
-               word is split at the end of a line and the beginning of the next in a manuscript. The
-               long s and ligatured forms are silently emended.</p>
+            <p>Edgeworth’s spelling and punctuation are retained in transcription, including non-standard spelling, line breaks, and hyphenation of words. The long s and ligatured forms are silently emended.</p>
          </editorialDecl>
       </encodingDesc>
       <profileDesc>
@@ -91,22 +89,40 @@
             <pb n="1" facs="Edgeworth_Princeton_1838-01_page01.jpg"/>
             <opener>
                <dateline>
-                  <date when="1838-01-09"/><choice><orig>Jan<hi rend="superscript">y</hi>.</orig><reg>January</reg></choice> 9. 1838. 
+                  <date when="1838-01-09"/>
+                  <choice>
+                     <orig>Jan<hi rend="superscript">y</hi>.</orig>
+                     <reg>January</reg>
+                  </choice> 9. 1838. 
                   <name type="place" ref="Clewer_ENK"/>Clewer</dateline>
                <salute>
-                  <persName>My dear <persName ref="./Personography.xml#LawrX2">Miss Lawrence</persName></persName>
+                  <persName>My dear <persName ref="./Personography.xml#LawrX2">Miss Lawrence</persName>
+                  </persName>
                </salute>
             </opener>
             <p>I can not refrain from writing to thank you<lb/>
                &amp; your sister, for having procur'd me the acquaintance<lb/>
                of <persName ref="./Personography.xml#CaylX1">Mr</persName> &amp; <persName ref="./Personography.xml#CaylX2">Mrs Cayley</persName>, &amp; of <persName ref="./Personography.xml#ByroA1">Lady Byron</persName>. On Saturday<lb/>
-               last we <choice><orig>din'd</orig><reg>dined</reg></choice> at <persName ref="./Personography.xml#CaylX1">Mr Cayley's</persName> &amp; met some of the <placeName ref="./Placeography.xml#Eton_ENK">Eton<lb/>
+               last we <choice>
+                  <orig>din'd</orig>
+                  <reg>dined</reg>
+               </choice> at <persName ref="./Personography.xml#CaylX1">Mr Cayley's</persName> &amp; met some of the <placeName ref="./Placeography.xml#Eton_ENK">Eton<lb/>
                   Tutors</placeName>. &amp; on Sunday, I met <persName ref="./Personography.xml#DeMoA1">M<hi rend="superscript">r</hi> De Morgan</persName>, one<lb/>
-               of the Professors of the <placeName ref="./Placeography.xml#London-University_ENK">London University</placeName> at <persName ref="./Personography.xml#ByroA1"><choice><orig>L<hi rend="superscript">y</hi>.</orig><reg>Lady</reg></choice> Byrons</persName><lb/>
+               of the Professors of the <placeName ref="./Placeography.xml#London-University_ENK">London University</placeName> at <persName ref="./Personography.xml#ByroA1">
+                  <choice>
+                     <orig>L<hi rend="superscript">y</hi>.</orig>
+                     <reg>Lady</reg>
+                  </choice> Byrons</persName>
+               <lb/>
                I had a very interesting conversation a day or two<lb/>
                before with her, on the subject of education &amp; she was<lb/>
                so good as to say that she would recommend me<lb/>
-               to her relative <persName ref="./Personography.xml#ByroG1"><choice><orig>L<hi rend="superscript">d</hi></orig><reg>Lord</reg></choice> Byron</persName> as Tutor to his son, who is<lb/>
+               to her relative <persName ref="./Personography.xml#ByroG1">
+                  <choice>
+                     <orig>L<hi rend="superscript">d</hi>
+                     </orig>
+                     <reg>Lord</reg>
+                  </choice> Byron</persName> as Tutor to his son, who is<lb/>
                now about to leave <placeName ref="./Placeography.xml#Westminster_ENK">Westminster</placeName>.<lb/>
             </p>
             <p>
@@ -128,7 +144,10 @@
                of Liberty carries him too far, when <add>he</add> talks<lb/>
                of all Establishments melting away - and<lb/>
                of the advantages of plunging into a wild<lb/>
-               <choice><orig>unciviliz'd</orig><reg>uncivilized</reg></choice> state of society. Emotion, &amp; spirit<lb/>
+               <choice>
+                  <orig>unciviliz'd</orig>
+                  <reg>uncivilized</reg>
+               </choice> state of society. Emotion, &amp; spirit<lb/>
                &amp; energetic Effort are certainly very sublime<lb/>
                things, &amp; doubltess the highest qualities in men,<lb/>
                but still I think that Calmness, Rest &amp; Regularity,<lb/>
@@ -139,10 +158,17 @@
             <p>
                It would be <del>hopeless</del> endless to enter by letter<lb/>
                on the great question of the Pure Reason versus<lb/>
-               the Understanding, which you <choice><orig>touch'd</orig><reg>touched</reg></choice> upon the day<lb/>
+               the Understanding, which you <choice>
+                  <orig>touch'd</orig>
+                  <reg>touched</reg>
+               </choice> upon the day<lb/>
                I had the pleasure of spending with you at the Grange.<lb/>
                But I can't resist scribbling a little off the edge<lb/>
-               of it, as it were - If all knowledge be <choice><orig>deriv'd</orig><reg>derived</reg></choice><lb/>
+               of it, as it were - If all knowledge be <choice>
+                  <orig>deriv'd</orig>
+                  <reg>derived</reg>
+               </choice>
+               <lb/>
                from the senses, the knowledge of the immediate<lb/>
                objects of the senses must be the most certain<lb/>
                of all knowledge - as being the primary ground<lb/>
@@ -155,13 +181,24 @@
                not exist, such as the notion of being, sameness,<lb/>
                difference, time space, &amp;c. How could we possibly<lb/>
             </p>
-            <p><pb n="3" facs="Edgeworth_Princeton_1838-01_page03.jpg"/>
+            <p>
+               <pb n="3" facs="Edgeworth_Princeton_1838-01_page03.jpg"/>
                <hi rend="underline">take in</hi> such notions? How could we find out<lb/>
-               sameness, &amp; difference, <del><unclear></unclear></del> <add>if</add> we had not an innate<lb/>
+               sameness, &amp; difference, <del>
+                  <unclear/>
+               </del>
+               <add>if</add> we had not an innate<lb/>
                faculty by which to find it out? Such ideas<lb/>
-               seem to me to be as necessarily <choice><orig>presuppos'd</orig><reg>presupposed</reg></choice><lb/>
+               seem to me to be as necessarily <choice>
+                  <orig>presuppos'd</orig>
+                  <reg>presupposed</reg>
+               </choice>
+               <lb/>
                as innate organs of the mind in all perception,<lb/>
-               as the ear &amp; the eye are <choice><orig>involv'd</orig><reg>involved</reg></choice> in all<lb/>
+               as the ear &amp; the eye are <choice>
+                  <orig>involv'd</orig>
+                  <reg>involved</reg>
+               </choice> in all<lb/>
                seeing &amp; hearing and one might I think as<lb/>
                well that by seeing I acquire an eye, or that<lb/>
                by thinking I acquire the faculties wherewith<lb/>
@@ -171,23 +208,38 @@
                the innate ideas -<lb/>
             </p>
             <p>
-               I have not yet <choice><orig>avail'd</orig><reg>availed</reg></choice> myself of <choice><orig>y<hi rend="superscript">r</hi></orig></choice><reg>your</reg><lb/>
-               <unclear></unclear> to <persName ref="./Personography.xml#LeBrL1">M<hi rend="superscript">r</hi> Le Breton</persName>, as I have not yet <unclear>been</unclear><lb/>
-               able to afford myself a week's visit to the <unclear>Town</unclear><lb/>
+               I have not yet <choice>
+                  <orig>avail'd</orig>
+                  <reg>availed</reg>
+               </choice> myself of <choice>
+                  <orig>y<hi rend="superscript">r</hi>
+                  </orig>
+               </choice>
+               <reg>your</reg>
+               <lb/>
+               <unclear/> to <persName ref="./Personography.xml#LeBrL1">M<hi rend="superscript">r</hi> Le Breton</persName>, as I have not yet <unclear>been</unclear>
+               <lb/>
+               able to afford myself a week's visit to the <unclear>Town</unclear>
+               <lb/>
                But I look forward to doing so with much pleasure<lb/>
                during the ensuing month.<lb/>
             </p>
             <p>
-               <persName ref="./Personography.xml#EdgeR2">My wife</persName> begs to be very kindly <choice><orig>remember'd</orig><reg>remembered</reg></choice><lb/>
+               <persName ref="./Personography.xml#EdgeR2">My wife</persName> begs to be very kindly <choice>
+                  <orig>remember'd</orig>
+                  <reg>remembered</reg>
+               </choice>
+               <lb/>
                to all your hospitable family - in which<lb/>
                wish I beg to join most heartily.<lb/>
             </p>
             <closer>
                And I remain, Dear Madam<lb/>
                Yours very gratefully<lb/>
-               <persName ref="./Personography.xml#EdgeF1">Francis B Edgeworth</persName><lb/>
+               <persName ref="./Personography.xml#EdgeF1">Francis B Edgeworth</persName>
+               <lb/>
             </closer>
-        </div>
+         </div>
       </body>
       <back> </back>
    </text>
