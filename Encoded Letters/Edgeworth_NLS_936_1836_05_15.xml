@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from Maria Edgeworth to Sophia Scott Lockhart, May 15, 1836</title>
+            <author>Maria Edgeworth</author>
+            <editor ref="Id_who">Alexandra LaGrand</editor>
+            <sponsor>
+               <orgName>Maria Edgeworth Letters Project</orgName>
+            </sponsor>
+            <sponsor>Wake Forest University, University of Tennessee, Xavier University, Texas
+               A&amp;M University</sponsor>
+            <principal>Jessica Richard, Hilary Havens, Robin Runia, Susan Egenolf</principal>
+            <respStmt>
+               <resp>Transcription and coding by</resp>
+               <persName ref="Id_who">Alexandra LaGrand</persName>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>First digital edition in TEI, date: <date when="2024-03-22">March 22, 2024</date>
+            </edition>
+            <respStmt>
+               <orgName type="naf" ref="Id_who">National Library of Scotland</orgName>
+               <resp> photos include: Edgeworth_NLS_936_1836_05_15_page01.jpg, Edgeworth_NLS_936_1836_05_15_page02.jpg, Edgeworth_NLS_936_1836_05_15_page03.jpg, Edgeworth_NLS_936_1836_05_15_page04.jpg</resp>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Maria Edgeworth Letters Project</authority>
+            <date>2022</date>
+            <availability>
+               <p>Reproduced by courtesy of the <orgName ref="http://id.loc.gov/authorities/names/n80044899">National Library of Scotland</orgName>
+               </p>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons Attribution 4.0 (CC BY 4.0) Unported License</licence>
+            </availability>
+            <idno>Edgeworth_NLS_936_1836_05_15</idno> 
+         </publicationStmt>
+         <seriesStmt>
+            <title>Maria Edgeworth Letters Project</title>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <repository>National Library of Scotland</repository>
+                  <collection></collection>
+                  <idno></idno>
+               </msIdentifier>
+               <head>Letter from 
+                  <persName ref="./Personography.xml#EdgeM1">
+                     <forename>Maria</forename>
+                     <surname>Edgeworth</surname>
+                  </persName>
+                  to <persName ref="./Personography.xml#LockS1">Sophia Scott Lockhart</persName>, <placeName></placeName>, 
+                  <date when="1836-05-15">May 15<hi rend="superscript">h</hi>. 1836</date>
+                </head>
+               <physDesc></physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>Edgeworth’s spelling and punctuation are retained in transcription, including non-standard spelling, line breaks, and hyphenation of words. The long s and ligatured forms are silently emended.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="./Personography.xml#LockS1">Sophia Scott Lockhart</persName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2024-03-22" who="Id_who">Created file for letter, encoded letter</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <pb n="1" facs="Edgeworth_NLS_936_1836_05_15_page01.jpg"/>
+            <opener>
+               <dateline>
+                  <name type="place" ref="Id_where"/>Edgeworthtown
+                  <date when="1836-05-15"/>May 15<hi rend="superscript">h</hi>. 1836</dateline>
+            </opener>
+            <p>
+               There is no help for it my dear<lb/>
+               <persName ref="./Personography.xml#LockS1">M<hi rend="superscript">rs</hi> Lockhart</persName> I <hi rend="underline">must torment</hi><lb/>
+               you - and you must torment<lb/>
+               <persName ref="./Personography.xml#LockJ1">M<hi rend="superscript">r</hi> Lockhart</persName> for me - about this<lb/>
+               <unclear>poor</unclear> <persName ref="./Personography.xml#CarmA1">M<hi rend="superscript">rs</hi>. Carmichael</persName>. She writes<lb/>
+               to me with such <hi rend="underline">resigned</hi> humility<lb/>
+               <unclear>bout</unclear> the <choice><orig>M<hi rend="superscript">ss</hi>.</orig><reg>Manuscripts</reg></choice> which was put into<lb/>
+               your great Apollo's hands for her<lb/>
+               some half a year ago that I cannot<lb/>
+               forbear plaguing you - All she<lb/>
+               wants is a Verdict poor creature<lb/>
+               let her know in one word whether<lb/>
+               should do or not <del>-</del><persName ref="./Personography.xml#LockJ1"><add>M<hi rend="superscript">r</hi></add> Lockhart</persName> said<lb/>
+               he would recommend to Murray<lb/>
+               to publish if it would do - If it will<lb/>
+               not she humbly prays to have the<lb/>
+               <choice><orig>M<hi rend="superscript">ss</hi>.</orig><reg>Manuscripts</reg></choice> back again and she will<lb/>
+               not go on with it - She has written<lb/>
+               <unclear>one</unclear> volume more and did intend<lb/>
+               <unclear>it</unclear> encouraged to have finished the<lb/>
+               work the<del>se</del> June holidays <unclear>ensuing</unclear><lb/>
+               - She works as a schoolmistress 14 hours<lb/>
+               a day &amp; <add>in</add> her holidays she writes - poor<lb/>
+            </p>
+            <p>
+               <pb n="2" facs="Edgeworth_NLS_936_1836_05_15_page02.jpg"/>
+               devoted creature - Pray rummage<lb/>
+               over <persName ref="./Personography.xml#LockJ1">Lockharts</persName> mountains of<lb/>
+               papers which I have this instant<lb/>
+               in my minds eye! all pele mele!<lb/>
+               And rummage over his mind<lb/>
+               also till you draw out his opinion<lb/>
+               - put it in what words you will to<lb/>
+               me - even if it be only <hi rend="underline">yes</hi> or <hi rend="underline">no</hi><lb/>
+               I will convey it with all kindness.<lb/>
+               or with all joy to the poor mother<lb/>
+               &amp; authoress - If the <choice><orig>M<hi rend="superscript">ss</hi>.</orig><reg>Manuscripts</reg></choice> is to be<lb/>
+               returned &amp; it is not outrageously<lb/>
+               large frank it to me by means<lb/>
+               of <persName ref="./Personography.xml#GranC1">Lord Glenelg Colonial Sec<hi rend="superscript">y</hi></persName><lb/>
+               When most obliging in doing such<lb/>
+               jobs for me - Long life to <unclear>Jobbing</unclear><lb/>
+               &amp; <unclear>Jobbers</unclear> - I remember your<lb/>
+               dear father's saying to me apropos<lb/>
+               to a franking job <persName ref="./Personography.xml#CrokT1">Croker</persName> did for<lb/>
+               us "<persName ref="./Personography.xml#CrokT1">Croker</persName> has too good an Irish<lb/>
+               "heart not to be ready to do a good<lb/>
+               "<hi rend="underline">job</hi> for a friend" -<lb/>
+            </p>
+            <p>
+               I am sure <persName ref="./Personography.xml#MartH1">Miss Martineau</persName><lb/>
+               would tear me to pieces <unclear>to cry</unclear><lb/>
+               tatters for such an antipolitical<lb/>
+            </p>
+            <p>
+               <pb n="3" facs="Edgeworth_NLS_936_1836_05_15_page03.jpg"/>
+               justice phrase even uttered half in jest<lb/>
+               and moreover would <choice><orig>excommu<lb/>
+               =nicate</orig><reg>excommunicate</reg></choice> me perhaps for feeling<lb/>
+               <hi rend="underline">pity</hi> for a poor hardworking<lb/>
+               mother of a family whose works<lb/>
+               I am well aware <hi rend="underline">ought</hi> to<lb/>
+               be judged only according to<lb/>
+               their intrinsic merit and<lb/>
+               exact value in the literary<lb/>
+               market &amp; compared with her<lb/>
+               literary competitors - But <choice><orig>sym-<lb/>
+               pathy</orig><reg>sympathy</reg></choice> &amp; compassion were put in<lb/>
+               to the human heart <unclear>luckily</unclear><lb/>
+               long before <persName ref="./Personography.xml#MartH1">Miss Martineau</persName> began to<lb/>
+               write and she will <hi rend="underline">never write</hi><lb/>
+               <hi rend="underline">them out</hi> &amp; would not mend<lb/>
+               human society or increase the<lb/>
+               sum of human happiness if<lb/>
+               she did succeed in her <choice><orig><hi rend="underline">anti=chari</hi><lb/>
+               ty</orig><reg>anti-charity</reg></choice> crusade - I am quite sure<lb/>
+               your <persName ref="./Personography.xml#LockJ1">M<hi rend="underline">r</hi> Lockhart</persName> thinks as I<lb/>
+               do and has a soft place in his<lb/>
+               heart which <unclear>time</unclear> &amp; the world <choice><orig>can-<lb/>
+               not</orig><reg>cannot</reg></choice> harden - <persName ref="./Personography.xml#ScotW1">Sir Walter Scott</persName> let<lb/>
+               me into that secret about him<lb/>
+               long ago - and I hope my dear<lb/>
+               <persName ref="./Personography.xml#LockS1">M<hi rend="underline">rs L</hi></persName> you will profit by it for me<lb/>
+            </p>
+            <p>
+               <pb n="4" facs="Edgeworth_NLS_936_1836_05_15_page04.jpg"/>
+               for poor <persName ref="./Personography.xml#CarmA1">M<hi rend="superscript">rs</hi>. Carmichael</persName><lb/>
+               Thank you for <hi rend="underline">the message</hi><lb/>
+               <hi rend="superscript">you sent me by <persName ref="./Personography.xml#EdgeH1">Harriet Butler</persName></hi><lb/>
+               who faithfully delivered it - <hi rend="underline">Rack</hi><lb/>
+               your brains till you recollect Ma'am<lb/>
+               what it was. It was about <choice><orig>some-<lb/>
+               body</orig><reg>somebody</reg></choice> &amp; something very interesting<lb/>
+               That warmhearted <persName ref="./Personography.xml#EdgeH1">Harriet</persName> sends<lb/>
+               her <unclear>Sons</unclear> love to you; and her<lb/>
+               <persName ref="./Personography.xml#ButlR1">her husband</persName> desires to add as<lb/>
+               much of his as is decent -<lb/>
+               Pray tell me whether <hi rend="underline">you</hi> are<lb/>
+               well and happy - (You including<lb/>
+               <persName ref="./Personography.xml#LockJ1">your husband</persName> and children)<lb/>
+               - for believe me my dear <persName ref="./Personography.xml#LockS1">M<hi rend="superscript">rs</hi>.<lb/>
+               Lockhart</persName> I have the most <choice><orig>sin-<lb/>
+               cere</orig><reg>sincere</reg></choice> affection &amp; I will say <choice><orig>fond-<lb/>
+               ness</orig><reg>fondness</reg></choice> for your &amp; Your conversation<lb/>
+               &amp; manners &amp; disposition are<lb/>
+               so suited to me - they have left<lb/>
+               an impression on my mind<lb/>
+               which can never wear out -<lb/>
+            </p>
+            <closer>
+               Even if we never meet again as<lb/>
+               long as I last this will last - I<lb/>
+               will ever be Yours affectionately<lb/>
+               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName><lb/>
+            </closer>
+            <postscript>
+               <p>
+                  If <persName ref="./Personography.xml#CarmA1">M<hi rend="superscript">rs</hi>. Carmichaels</persName> <choice><orig>M<hi rend="superscript">ss</hi></orig><reg>Manuscripts</reg></choice> is too bulky to be <del><unclear></unclear></del><lb/>
+                  sent by <persName ref="./Personography.xml#GranC1">Lord Glenelgs</persName> frank send it to my sister<lb/>
+                  <placeName ref="./Placeography.xml#North-Audley-Street-1_ENK">1 North Audley Street</placeName> - <unclear>write to me<add>directly</add></unclear> at all<lb/>
+                  events through <persName ref="./Personography.xml#DrumT1">T.<hi rend="superscript">S.</hi> Drummond</persName> <placeName ref="./Placeography.xml#Dublin-Castle_IE">Dublin Castle</placeName><lb/>
+               </p>
+            </postscript>
+         </div>
+      </body>
+      <back> </back>
+   </text>
+</TEI>
