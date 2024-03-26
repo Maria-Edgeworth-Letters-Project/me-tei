@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from John Gibson Lockhart to Maria Edgeworth, January 4, 1826</title>
+            <author>John Gibson Lockhart</author>
+            <editor ref="Id_who">Alexandra LaGrand</editor>
+            <sponsor>
+               <orgName>Maria Edgeworth Letters Project</orgName>
+            </sponsor>
+            <sponsor>Wake Forest University, University of Tennessee, Xavier University, Texas
+               A&amp;M University</sponsor>
+            <principal>Jessica Richard, Hilary Havens, Robin Runia, Susan Egenolf</principal>
+            <respStmt>
+               <resp>Transcription and coding by</resp>
+               <persName ref="Id_who">Alexandra LaGrand</persName>
+             </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>First digital edition in TEI, date: <date when="2024-03-26">March 26, 2024</date>
+            </edition>
+            <respStmt>
+               <orgName type="naf" ref="Id_who">National Library of Scotland</orgName>
+               <resp> photos include: Edgeworth_NLS_936_1826_01_04_page01.jpg, Edgeworth_NLS_936_1826_01_04_page02.jpg, Edgeworth_NLS_936_1826_01_04_page03.jpg, Edgeworth_NLS_936_1826_01_04_page04.jpg</resp>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Maria Edgeworth Letters Project</authority>
+            <date>2022</date>
+            <availability>
+               <p>Reproduced by courtesy of the <orgName ref="http://id.loc.gov/authorities/names/n80044899">National Library of Scotland</orgName>
+               </p>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons Attribution 4.0 (CC BY 4.0) Unported License</licence>
+            </availability>
+            <idno>Edgeworth_NLS_936_1826_01_04</idno> 
+         </publicationStmt>
+         <seriesStmt>
+            <title>Maria Edgeworth Letters Project</title>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <repository>National Library of Scotland</repository>
+                  <collection></collection>
+                  <idno></idno>
+               </msIdentifier>
+               <head>Letter from 
+                  <persName ref="./Personography.xml#LockJ1">
+                     <forename>John Gibson</forename>
+                     <surname>Lockhart</surname>
+                  </persName>
+                  to <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>, <placeName></placeName>, 
+                  <date when="1826-01-04">Jan<hi rend="superscript">y</hi> 4. 1826</date>
+                  <stamp>National Library of Scotland stamp on final page of letter</stamp>
+               </head>
+               <physDesc></physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>Edgeworth’s spelling and punctuation are retained in transcription, including non-standard spelling, line breaks, and hyphenation of words. The long s and ligatured forms are silently emended.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="./Personography.xml#LockJ1">John Gibson Lockhart</persName>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2024-03-26" who="Id_who">Created file for letter, encoded letter</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <pb n="1" facs="Edgeworth_NLS_936_1826_01_04_page01.jpg"/>
+            <opener>
+               <note place="bottom">January 4<lb/>
+                  1826<lb/></note>
+               <salute>
+                  <persName>My dear Miss Edgeworth.</persName>
+               </salute>
+            </opener>
+            <p>
+               I send you
+               <hi rend="underline">James</hi> an annual volume in which<lb/>
+               you will find the delightful essay you<lb/>
+               entrusted to my care when I had the<lb/>
+               pleasure of being under the roof of<lb/>
+               <placeName ref="./Placeography.xml#Edgeworthstown_IE">Edgeworths town</placeName>. The preliminary memoir<lb/>
+               was not inserted, the Editor thinking the<lb/>
+               paper rather long for such a work at any<lb/>
+               rate. It is safe among my papers<lb/>
+               but these have not yet followed me<lb/>
+               hither from <placeName ref="./Placeography.xml#STK">Scotland</placeName>.<lb/>
+               I fear the volume is rather <unclear>of too</unclear><lb/>
+               serious a complexion. <hi rend="underline">Many</hi> things in it<lb/>
+               are, however, good - and that is more I<lb/>
+               think that can be said of any of the<lb/>
+               other works of the same class we have<lb/>
+               as yet seen here. I have marked with<lb/>
+            </p>
+            <p>
+               <pb n="2" facs="Edgeworth_NLS_936_1826_01_04_page02.jpg"/>
+               a cross in the Index one or two<lb/>
+               articles contributed by myself - And<lb/>
+               shall be happy in receiving your<lb/>
+               permission to say that you will give<lb/>
+               <persName ref="./Personography.xml#BoydX1">Mr Boyd</persName> something for the next<lb/>
+               volume he publishes.<lb/>
+               I enclose also a Bank Post Bill<lb/>
+               for £25 which <persName ref="./Personography.xml#BoydX1">Mr Boyd</persName> has sent<lb/>
+               to me as his acknowledgement of the<lb/>
+               Chapter on <unclear>Roses</unclear>.<lb/>
+               <persName ref="./Personography.xml#LockS1">My wife</persName> has stood her journey<lb/>
+               to London well &amp; <persName ref="./Personography.xml#LockJ2">Johnny</persName> also<lb/>
+               is thriving tolerably. <persName ref="./Personography.xml#LockS1">Sophia</persName> sends<lb/>
+               you &amp; her friends with you her<lb/>
+               Loves &amp; compliments of <hi rend="underline">1826</hi>.<lb/>
+               <persName ref="./Personography.xml#ScotW1">Sir Walter Scott</persName> has had a<lb/>
+               slight illness lately but is now<lb/>
+               quite reestablished at <placeName ref="./Placeography.xml#Abbotsford-House_STK">Abbotsford</placeName>.<lb/>
+            </p>
+            <closer>
+               <pb n="3" facs="Edgeworth_NLS_936_1826_01_04_page03.jpg"/>
+               I beg to be remembered to <persName ref="./Personography.xml#EdgeF2">M<hi rend="superscript">rs</hi><lb/>
+               Edgeworth</persName>, <persName ref="./Personography.xml#EdgeR1">Mr Edgeworth</persName>, and<lb/>
+               the rest of the household with<lb/>
+               whom I spent days not to be<lb/>
+               forgotten, &amp; remain always<lb/>
+               most sincerely yours<lb/>
+               <persName ref="./Personography.xml#LockJ1">JG Lockhart</persName><lb/>
+            </closer>
+            <postscript>
+               <p>
+                  <placeName ref="./Placeography.xml#Pall-Mall-25_ENK">25 Pall Mall</placeName><lb/>
+                  <placeName ref="./Placeography.xml#London_ENK">London</placeName> -<lb/>
+                  Jan<hi rend="superscript">y</hi> 4. 1826<lb/>
+                  <pb n="4" facs="Edgeworth_NLS_936_1826_01_04_page04.jpg"/>
+                  <persName ref="./Personography.xml#LockJ1">Lockhart</persName><lb/>
+               </p>
+            </postscript>
+         </div>
+      </body>
+      <back> </back>
+   </text>
+</TEI>
