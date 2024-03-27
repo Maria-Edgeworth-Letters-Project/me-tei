@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from H. Beaufort to Sarah Jane Brinkley, Unknown Date</title>
+            <author>Esther Brinkley</author>
+            <editor ref="Id_who">Alexandra LaGrand</editor>
+            <sponsor>
+               <orgName>Maria Edgeworth Letters Project</orgName>
+            </sponsor>
+            <sponsor>Wake Forest University, University of Tennessee, Xavier University, Texas
+               A&amp;M University</sponsor>
+            <principal>Jessica Richard, Hilary Havens, Robin Runia, Susan Egenolf</principal>
+            <respStmt>
+               <resp>Transcription and coding by</resp>
+               <persName ref="Id_who">Alexandra LaGrand</persName>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>First digital edition in TEI, date: <date when="2024-03-27">March 27, 2024</date>
+            </edition>
+            <respStmt>
+               <orgName type="naf" ref="Id_who">National Library of Scotland</orgName>
+               <resp> photos include: Edgeworth_NLS_6931_unknown_01_page01.jpg, Edgeworth_NLS_6931_unknown_01_page02.jpg, Edgeworth_NLS_6931_unknown_01_page03.jp</resp>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Maria Edgeworth Letters Project</authority>
+            <date>2022</date>
+            <availability>
+               <p>Reproduced by courtesy of the <orgName ref="http://id.loc.gov/authorities/names/n80044899">National Library of Scotland</orgName>
+               </p>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons Attribution 4.0 (CC BY 4.0) Unported License</licence>
+            </availability>
+            <idno>Edgeworth_NLS_6931_unknown_01</idno> 
+         </publicationStmt>
+         <seriesStmt>
+            <title>Maria Edgeworth Letters Project</title>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <repository>National Library of Scotland</repository>
+                  <collection></collection>
+                  <idno></idno>
+               </msIdentifier>
+               <head>Letter from 
+                  <persName>
+                     <forename>H.</forename>
+                     <surname>Beaufort</surname>
+                  </persName>
+                  to <persName ref="./Personography.xml#BrinS1">Sarah Jane Brinkley</persName>, <placeName></placeName>, 
+                  <date when="1111-01-01">Unknown Date</date>
+               </head>
+               <physDesc></physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>Edgeworth’s spelling and punctuation are retained in transcription, including non-standard spelling, line breaks, and hyphenation of words. The long s and ligatured forms are silently emended.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName>H. Beaufort</persName>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="./Personography.xml#BrinS1">Sarah Jane Brinkley</persName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2024-03-27" who="Id_who">Created file for letter, encoded letter</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <pb n="1" facs="Edgeworth_NLS_6931_unknown_01_page01.jpg"/>
+            <opener>
+               <salute>
+                  <persName>
+                     My dear <persName ref="./Personography.xml#BrinS1">Miss Brinkley</persName>
+                  </persName>
+               </salute>
+            </opener>
+            <p>
+               We are all anxious to<lb/>
+               know how dear <persName ref="./Personography.xml#BrinE1">M<hi rend="superscript">rs</hi> Brinkley</persName><lb/>
+               is, and how she bears the<lb/>
+               loss, which under the most<lb/>
+               alleviating circumstances,<lb/>
+               is always most painful<lb/>
+               From what you said<lb/>
+               of your uncle's having<lb/>
+               long suffered from ill<lb/>
+               health - it is I trust some<lb/>
+               consolation to his friend<lb/>
+            </p>
+            <p>
+               <pb n="2" facs="Edgeworth_NLS_6931_unknown_01_page02.jpg"/>
+               that he is relieved from<lb/>
+               a life of tedious illness;<lb/>
+               but I know well what<lb/>
+               such a heart as <persName ref="./Personography.xml#BrinE1">M<hi rend="superscript">rs</hi> Brinkleys</persName><lb/>
+               must feel at the total<lb/>
+               separation from a long loved<lb/>
+               brother. Will you have<lb/>
+               the kindness to write me<lb/>
+               a line to tell me about<lb/>
+               her - &amp; will you give her<lb/>
+               all our love &amp; assure<lb/>
+               her of the sympathy of<lb/>
+               all her friends of this<lb/>
+               House -<lb/>
+            </p>
+            <p>
+               <pb n="3" facs="Edgeworth_NLS_6931_unknown_01_page03.jpg"/>
+               A little packet from<lb/>
+               <placeName ref="./Placeography.xml#Edgeworthstown_IE">Edgeworthstown</placeName> has this<lb/>
+               moment been left here<lb/>
+               for <persName ref="./Personography.xml#BrinE1">M<hi rend="superscript">rs</hi> Brinkley</persName> - The<lb/>
+               first time you are in<lb/>
+               town will you be so<lb/>
+               good as to call for it<lb/>
+               I am very glad you<lb/>
+               have <persName ref="./Personography.xml#BrinJ1">M<hi rend="superscript">r</hi>. J. Brinkley</persName> with<lb/>
+               you now, it must be such<lb/>
+               a comfort to your moth<unclear>er</unclear><lb/>
+            </p>
+            <closer>
+               Believe me dear <persName ref="./Personography.xml#BrinS1">Miss B</persName>,<lb/>
+               yours affect.<hi rend="superscript">ly</hi><lb/>
+               H Beaufort<lb/>
+            </closer>
+            <postscript>
+               <p>Thursday</p><lb/>
+            </postscript>
+        </div>
+      </body>
+      <back> </back>
+   </text>
+</TEI>
