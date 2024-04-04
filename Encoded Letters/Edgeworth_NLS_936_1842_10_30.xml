@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from John Gibson Lockhart to Maria Edgeworth, October 30, 1842</title>
+            <author>John Gibson Lockhart</author>
+            <editor ref="Id_who">Alexandra LaGrand</editor>
+            <sponsor>
+               <orgName>Maria Edgeworth Letters Project</orgName>
+            </sponsor>
+            <sponsor>Wake Forest University, University of Tennessee, Xavier University, Texas
+               A&amp;M University</sponsor>
+            <principal>Jessica Richard, Hilary Havens, Robin Runia, Susan Egenolf</principal>
+            <respStmt>
+               <resp>Transcription and coding by</resp>
+               <persName ref="Id_who">Alexandra LaGrand</persName>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>First digital edition in TEI, date: <date when="2024-04-04">April 4, 2024</date>
+            </edition>
+            <respStmt>
+               <orgName type="naf" ref="Id_who">National Library of Scotland</orgName>
+               <resp> photos include: Edgeworth_NLS_936_1842_10_30_page01.jpg, Edgeworth_NLS_936_1842_10_30_page02.jpg, Edgeworth_NLS_936_1842_10_30_page03.jpg, Edgeworth_NLS_936_1842_10_30_page04.jpg, Edgeworth_NLS_936_1842_10_30_page05.jpg, Edgeworth_NLS_936_1842_10_30_page06.jpg, Edgeworth_NLS_936_1842_10_30_page07.jpg</resp>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Maria Edgeworth Letters Project</authority>
+            <date>2022</date>
+            <availability>
+               <p>Reproduced by courtesy of the <orgName ref="http://id.loc.gov/authorities/names/n80044899">National Library of Scotland</orgName>
+               </p>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons Attribution 4.0 (CC BY 4.0) Unported License</licence>
+            </availability>
+            <idno>Edgeworth_NLS_936_1842_10_30</idno> 
+         </publicationStmt>
+         <seriesStmt>
+            <title>Maria Edgeworth Letters Project</title>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <repository>National Library of Scotland</repository>
+                  <collection></collection>
+                  <idno></idno>
+               </msIdentifier>
+               <head>Letter from 
+                  <persName ref="./Personography.xml#LockJ1">
+                     <forename>John Gibson</forename>
+                     <surname>Lockhart</surname>
+                  </persName>
+                  to <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>, <placeName></placeName>, 
+                  <date when="1842-04-04">30. October 1842</date>
+                  <stamp>National Library of Scotland stamp on first, fourth, and fifth pages of letter</stamp>
+               </head>
+               <physDesc></physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>Edgeworth’s spelling and punctuation are retained in transcription, including non-standard spelling, line breaks, and hyphenation of words. The long s and ligatured forms are silently emended.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="./Personography.xml#LockJ1">John Gibson Lockhart</persName>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2024-04-04" who="Id_who">Created file for letter, encoded letter</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <pb n="1" facs="Edgeworth_NLS_936_1842_10_30_page01.jpg"/>
+            <opener>
+               <salute>
+                  <persName>My dear Miss Edgeworth</persName>
+               </salute>
+            </opener>
+            <p>
+               Not<lb/>
+               a doubt that <persName ref="./Personography.xml#StanP1">Lord Mahon</persName><lb/>
+               meant to give benefit in<lb/>
+               cases like yours to the literary<lb/>
+               rather than other commercial<lb/>
+               holder of an old copyright<lb/>
+               but he neglected to insert<lb/>
+               any clause which infers<lb/>
+               this effect. The consequence<lb/>
+               is that I was forced to<lb/>
+               <choice><orig>abandone</orig><reg>abandon</reg></choice> a full half or<lb/>
+               nearly so of the advantages<lb/>
+               I had anticipated for my<lb/>
+               brother-in law, for the extension<lb/>
+               of protection for his fathers<lb/>
+            </p>
+            <p>
+               <pb n="2" facs="Edgeworth_NLS_936_1842_10_30_page02.jpg"/>
+               works. The bookseller was<lb/>
+               firm &amp; I saw he could<lb/>
+               not be forced to yield.<lb/>
+               In short, you are at the<lb/>
+               mercy of the holders of<lb/>
+               the stock &amp; of the old<lb/>
+               <choice><orig>Copyrts</orig><reg>Copyrights</reg></choice>; &amp; as <persName ref="./Personography.xml#HuntX1">M<hi rend="superscript">r</hi> Hunter</persName><lb/>
+               understands business of this<lb/>
+               Kind &amp; on mature consideration<lb/>
+               advises you to accept their<lb/>
+               offer, I must acquiesce<lb/>
+               in the vexatious necessity<lb/>
+               It is mortifying but I<lb/>
+               think inevitable. No<lb/>
+               other bookseller can by<lb/>
+            </p>
+            <p>
+               <pb n="3" facs="Edgeworth_NLS_936_1842_10_30_page03.jpg"/>
+               possibility make you any<lb/>
+               offer at all. It is only<lb/>
+               in case you &amp; <choice><orig>yr</orig><reg>your</reg></choice> actual<lb/>
+               Traffickers agree to petition<lb/>
+               <hi rend="underline">jointly</hi> for the benefit of<lb/>
+               the new act, that any<lb/>
+               thing whatever can be got<lb/>
+               out of the Act for the<lb/>
+               behoof of <del>the</del> <add>any</add> holders of<lb/>
+               the Edgeworth Copies.<lb/>
+               The sum is shabby - but it<lb/>
+               is all you are likely to get<lb/>
+               if you choose to make the<lb/>
+               bargain now. Were Trade<lb/>
+               in a better plight, the<lb/>
+            </p>
+            <p>
+               <pb n="4" facs="Edgeworth_NLS_936_1842_10_30_page04.jpg"/>
+               people might take a more<lb/>
+               liberal view of your claim<lb/>
+               as being in better humor<lb/>
+               <choice><orig>w</orig><reg>with</reg></choice> <unclear>their than own</unclear> affairs of the<lb/>
+               till generally - but it<lb/>
+               is only you who can decide<lb/>
+               between the propriety of<lb/>
+               acting now or of deferring<lb/>
+               at the risk which always<lb/>
+               belongs to human life.<lb/>
+            </p>
+            <p>
+               Since I am writing<lb/>
+               I must say I was in hopes<lb/>
+               of hearing that you meant<lb/>
+               to visit <placeName ref="./Placeography.xml#London_ENK">London</placeName> about this<lb/>
+            </p>
+            <p>
+               <pb n="5" facs="Edgeworth_NLS_936_1842_10_30_page05.jpg"/>
+               time. Surely you had given<lb/>
+               me some reason for expecting<lb/>
+               that great pleasure. Say<lb/>
+               it is not to be long deferred.<lb/>
+               I consider your silence as<lb/>
+               good news about <persName ref="./Personography.xml#EdgeF3">Mrs Wilson</persName><lb/>
+               &amp; all the rest of your<lb/>
+               house.<lb/>
+            </p>
+            <p>
+               My children are very well<lb/>
+               - each grown a head since<lb/>
+               you saw them, &amp; doing<lb/>
+               as I could wish. <persName ref="./Personography.xml#ScotW1">Sir W.</persName><lb/>
+               &amp; <persName ref="./Personography.xml#ScotM1">Lady Scott</persName> too are well<lb/>
+               at <placeName ref="./Placeography.xml#Bangalore_IN">Bangalore</placeName> by the last<lb/>
+            </p>
+            <p>
+               <pb n="6" facs="Edgeworth_NLS_936_1842_10_30_page06.jpg"/>
+               letters. And of my own<lb/>
+               family I have been meeting<lb/>
+               , as we must all look<lb/>
+               for when years creep on,<lb/>
+               <choice><orig>w</orig><reg>with</reg></choice> many afflictions &amp;<lb/>
+               not the least truly is thy<lb/>
+               melancholy miserable<lb/>
+               ending of poor <persName ref="./Personography.xml#HallB1">Basil<lb/>
+               Hall</persName>. He had been<lb/>
+               smitten <choice><orig>w</orig><reg>with</reg></choice> palsy in<lb/>
+               the <unclear>Levant</unclear> &amp; reached<lb/>
+               <placeName ref="./Placeography.xml#ENK">England</placeName> a month ago in<lb/>
+               an alarming condition of<lb/>
+               mind as well as of<lb/>
+            </p>
+            <p>
+               <pb n="7" facs="Edgeworth_NLS_936_1842_10_30_page07.jpg"/>
+               body. Then came a brief<lb/>
+               access of <hi rend="underline">violence</hi> - &amp; now<lb/>
+               he is a hopeless idiot in<lb/>
+               the <placeName ref="./Placeography.xml#Royal-Haslar-Hospital_ENK">Haslar hospital</placeName> at<lb/>
+               <placeName ref="./Placeography.xml#Portsmouth_ENK">Portsmouth</placeName>, hardly ever<lb/>
+               recognizing even his devoted<lb/>
+               wife when She makes her<lb/>
+               daily visit to that<lb/>
+               seat of woe! Alas -<lb/>
+               Alas -<lb/>
+             </p>
+            <closer>
+               Ever your affectly<lb/>
+               <hi rend="underline">J G Lockhart</hi><lb/>
+            </closer>
+            <postscript>
+               <p>
+                  30. October 1842<lb/>
+                  <placeName ref="./Placeography.xml#Sussex-Place-24_ENK">Sussex place</placeName><lb/>
+               </p>
+            </postscript>
+        </div>
+      </body>
+      <back> </back>
+   </text>
+</TEI>
