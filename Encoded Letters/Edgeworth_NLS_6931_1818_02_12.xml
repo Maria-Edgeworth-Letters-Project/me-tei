@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from Sophia Edgeworth to Sarah Jane Brinkley, February 12, 1818</title>
+            <author>Sophia Edgeworth</author>
+            <editor ref="Id_who">Alexandra LaGrand</editor>
+            <sponsor>
+               <orgName>Maria Edgeworth Letters Project</orgName>
+            </sponsor>
+            <sponsor>Wake Forest University, University of Tennessee, Xavier University, Texas
+               A&amp;M University</sponsor>
+            <principal>Jessica Richard, Hilary Havens, Robin Runia, Susan Egenolf</principal>
+            <respStmt>
+               <resp>Transcription and coding by</resp>
+               <persName ref="Id_who">Alexandra LaGrand</persName>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>First digital edition in TEI, date: <date when="2024-04-08">April 8, 2024</date>
+            </edition>
+            <respStmt>
+               <orgName type="naf" ref="Id_who">National Library of Scotland</orgName>
+               <resp> photos include: Edgeworth_NLS_6931_1818_02_12_page01.jpg, Edgeworth_NLS_6931_1818_02_12_page02.jpg, Edgeworth_NLS_6931_1818_02_12_page03.jpg, Edgeworth_NLS_6931_1818_02_12_page04.jpg</resp>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Maria Edgeworth Letters Project</authority>
+            <date>2022</date>
+            <availability>
+               <p>Reproduced by courtesy of the <orgName ref="http://id.loc.gov/authorities/names/n80044899">National Library of Scotland</orgName>
+               </p>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons Attribution 4.0 (CC BY 4.0) Unported License</licence>
+            </availability>
+            <idno>Edgeworth_NLS_6931_1818_02_12</idno> 
+         </publicationStmt>
+         <seriesStmt>
+            <title>Maria Edgeworth Letters Project</title>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <repository>National Library of Scotland</repository>
+                  <collection></collection>
+                  <idno></idno>
+               </msIdentifier>
+               <head>Letter from 
+                  <persName ref="./Personography.xml#EdgeS1">
+                     <forename>Sophia</forename>
+                     <surname>Edgeworth</surname>
+                  </persName>
+                  to <persName ref="./Personography.xml#BrinS1">Sarah Jane Brinkley</persName>, <placeName ref="./Placeography.xml#Dunsink-Observatory_IE">Dunsink Observatory</placeName>, <placeName ref="./Placeography.xml#Dublin_IE">Dublin</placeName>
+                  <date when="1818-02-18">Feb<hi rend="superscript">y</hi> 12. 1818.</date>
+                  <stamp>Postage stamp on address leaf of letter with text reading "P.E. Office 13 Feb 13 18 <unclear></unclear>"</stamp>
+               </head>
+               <physDesc></physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>Edgeworth’s spelling and punctuation are retained in transcription, including non-standard spelling, line breaks, and hyphenation of words. The long s and ligatured forms are silently emended.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="./Personography.xml#EdgeS1">Sophia Edgeworth</persName>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="./Personography.xml#BrinS1">Sarah Jane Brinkley</persName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2024-04-08" who="Id_who">Created file for letter, began to encode letter</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <pb n="1" facs="Edgeworth_NLS_6931_1818_02_12_page01.jpg"/>
+            <opener>
+               <dateline>
+                  <name type="place" ref="Id_where"/>Collon
+                  <date when="1818-02-12"/>Feb<hi rend="superscript">y</hi> 12. 1818. Thursday</dateline>
+               <salute>
+                  <persName>My dear Miss Brinkley</persName>
+               </salute>
+            </opener>
+            <p>
+               I am much obliged to you for your letter and good<lb/>
+               account of yourself &amp; <persName ref="./Personography.xml#BrinJ1">D<hi rend="superscript">r</hi>. Brinkley</persName> -<lb/>
+               Your opinion of <title ref="./Workography.xml#RobRo1">Rob Roy</title> almost entirely coincides with<lb/>
+               ours - Diana is certainly a very engaging creature -<lb/>
+               She has such strength of mind - and though she has<lb/>
+               certainly too much severity &amp; satire in her description<lb/>
+               of her cousins, boors as they were - yet it was too much<lb/>
+               to critiscise &amp; laugh at them as she did, almost to their<lb/>
+               face - where Frank was an utter stranger to her, the<lb/>
+               day of his arrival at Osbaldistone Hall, at dinner -<lb/>
+               But after all she, the next time she is brought in, appears<lb/>
+               so clever, so dignified, &amp; so wronged, that it is quite<lb/>
+               impossible not to pity and love her -<lb/>
+               I heard from <placeName ref="./Placeography.xml#Edgeworthstown_IE">Edgeworthstown</placeName> to day, they do not<lb/>
+               seem to like it half as much as we do - <persName ref="./Personography.xml#EdgeH1">Harriet</persName> (who was<lb/>
+               my correspondent on the subject) says that "it is a<lb/>
+            </p>
+            <p>
+               <pb n="2" facs="Edgeworth_NLS_6931_1818_02_12_page02.jpg"/>
+               <hi rend="underline">sickening thing altogether"-!!</hi><lb/>
+               She says that the 3<hi rend="superscript">rd</hi> Vol. is <hi rend="underline">"odious"</hi>- that Fairservice<lb/>
+               is a tiresome useless character- And she cannot imagine<lb/>
+               here anybody could think of marrying Di <unclear>Venese</unclear><lb/>
+               I take care to quarrel with nobody about it - for<lb/>
+               I will never mention what I think about it to any<lb/>
+               one of those who don't like it - for she says after all<lb/>
+               this abuse, <hi rend="underline">"I hope you think so too"</hi><lb/>
+               I am very glad you have become acquainted with<lb/>
+               my dear <unclear></unclear>- - they are delightful- -<lb/>
+               I am afraid notwithstanding, that M<hi rend="superscript">r</hi> Brinkley<lb/>
+               does not feel a sufficient degree of regret, at not having<lb/>
+               been of the party - I hope he will condescend to<lb/>
+               call here on his way to town -<lb/>
+               I find from <persName ref="./Personography.xml#EdgeH1">Aunt Harriet</persName> that I shall not have the<lb/>
+               pleasure of seeing you so soon as I had hoped, as<lb/>
+               she means to stay here till about the beginning or<lb/>
+               the middle of March -<lb/>
+               I send you a puzzle which <persName ref="./Personography.xml#StewF1">Fanny Stewart</persName><lb/>
+               gave me the other day - I don't know who wrote<lb/>
+               it - perhaps you may have seen it before- -<lb/>
+               You are to make sense of it, just as it is written<lb/>
+            </p>
+            <p>
+               <pb n="3" facs="Edgeworth_NLS_6931_1818_02_12_page03.jpg"/>
+               M<hi rend="superscript">rs.</hi> - Wood falsifying at the point of the King<lb/>
+               of Terrors, sent by <figure><figDesc>Small drawing of sealed letter envelope</figDesc></figure>, for his who, which, and what- -<lb/>
+               they sent for D<hi rend="superscript">r</hi> &amp; Doctor, but D<hi rend="superscript">r</hi> what Doctor, they soon<lb/>
+               sent for M<hi rend="superscript">r</hi> Black in Heraldry, <add>the</add> <unclear>taker</unclear> and poor<lb/>
+               M<hi rend="superscript">r.</hi>- Wood changed colour-<lb/>
+               I think it is a remarkably good one, excepting<lb/>
+               the last sentence - which is not so <del>ingenious</del><lb/>
+               ingenious as the rest - You must con<lb/>
+               sider the position of all the words<lb/>
+               after <unclear>one</unclear> sentence about the sending- -<lb/>
+               <persName ref="./Personography.xml#EdgeH4">Honora's</persName> cough is much better- - <persName ref="./Personography.xml#EdgeW1">William</persName> &amp; <persName ref="./Personography.xml#EdgeL2">Lovell</persName><lb/>
+               are in <placeName ref="./Placeography.xml#Dublin_IE">Dublin</placeName>- -<lb/>
+               <persName ref="./Personography.xml#EdgeH1">Aunt Harriet</persName> desires me to ask you if <unclear><persName ref="./Personography.xml#PaleW1">Paleys</persName></unclear><lb/>
+               <title ref="./Workography.xml#Viewo1">Evidences</title>, which <persName ref="./Personography.xml#BrinM1">M<hi rend="superscript">r.</hi> Brinkley</persName> lent to <persName ref="./Personography.xml#EdgeF3">Fanny</persName><lb/>
+               last winter, was returned either to the <placeName ref="./Placeography.xml#Dunsink-Observatory_IE">Observatory</placeName><lb/>
+               or <persName ref="./Personography.xml#BrinM1">your brother</persName>- -<lb/>
+               But I am sure you need not answer her in any<lb/>
+               great hurry, as you say you do not like writing<lb/>
+               letters -<lb/>
+            </p>
+            <closer>
+               Goodbye My dear <persName ref="./Personography.xml#BrinS1">Miss Brinkley</persName> till I see you<lb/>
+               in <placeName ref="./Placeography.xml#Dublin_IE">Dublin</placeName>, yours affectionately, <persName ref="./Personography.xml#EdgeS1">Sophia Edgeworth</persName><lb/>
+            </closer>
+            <closer>
+               <address>
+                  <addrLine><persName ref="./Personography.xml#BrinS1">Miss Brinkley</persName></addrLine><lb/>
+                  <addrLine><placeName ref="./Placeography.xml#Dunsink-Observatory_IE">Observatory</placeName></addrLine><lb/>
+                  <addrLine><persName ref="./Personography.xml#BrinS1">Miss Brinkley</persName></addrLine><lb/>
+                  <addrLine><unclear><placeName ref="./Placeography.xml#Collon_IE">Collon</placeName> February the 10 1813</unclear></addrLine><lb/>
+                  <addrLine><persName ref="./Personography.xml#BrinS1">Miss Brinkley</persName></addrLine><lb/>
+                  <addrLine><placeName ref="./Placeography.xml#Dunsink-Observatory_IE">Observatory</placeName></addrLine><lb/>
+                  <addrLine><unclear>Mortin</unclear></addrLine><lb/>
+                  <addrLine><placeName ref="./Placeography.xml#Dunblin_IE">Dublin</placeName></addrLine><lb/>
+               </address>
+            </closer>
+         </div>
+      </body>
+      <back> </back>
+   </text>
+</TEI>
