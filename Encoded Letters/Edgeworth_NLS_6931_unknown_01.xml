@@ -6,8 +6,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Letter from H. Beaufort to Sarah Jane Brinkley, Unknown Date</title>
-            <author>Esther Brinkley</author>
+            <title>Letter from Honora Beaufort to Sarah Jane Brinkley, Unknown Date</title>
+            <author>Honora Beaufort</author>
             <editor ref="Id_who">Alexandra LaGrand</editor>
             <sponsor>
                <orgName>Maria Edgeworth Letters Project</orgName>
@@ -49,8 +49,8 @@
                   <idno></idno>
                </msIdentifier>
                <head>Letter from 
-                  <persName>
-                     <forename>H.</forename>
+                  <persName ref="./Personography.xml#BeauH1">
+                     <forename>Honora</forename>
                      <surname>Beaufort</surname>
                   </persName>
                   to <persName ref="./Personography.xml#BrinS1">Sarah Jane Brinkley</persName>, <placeName></placeName>, 
@@ -68,7 +68,7 @@
       <profileDesc>
          <correspDesc>
             <correspAction type="sent">
-               <persName>H. Beaufort</persName>
+               <persName ref="./Personography.xml#BeauH1">Honora Beaufort</persName>
             </correspAction>
             <correspAction type="received">
                <persName ref="./Personography.xml#BrinS1">Sarah Jane Brinkley</persName>
@@ -77,6 +77,7 @@
       </profileDesc>
       <revisionDesc>
          <change when="2024-03-27" who="Id_who">Created file for letter, encoded letter</change>
+         <change when="2024-04-14" who="Id_who">Added tags for Honora Beaufort</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -141,7 +142,7 @@
             <closer>
                Believe me dear <persName ref="./Personography.xml#BrinS1">Miss B</persName>,<lb/>
                yours affect.<hi rend="superscript">ly</hi><lb/>
-               H Beaufort<lb/>
+               <persName ref="./Personography.xml#BeauH1">H Beaufort</persName><note type="certainty">Though it remains unclear by which Beaufort sister this letter was written, it seems likely that it was written by Honora Beaufort due to relationship proximity to the Edgeworths and, subsequently, the Brinkleys.</note><lb/>
             </closer>
             <postscript>
                <p>Thursday</p><lb/>
