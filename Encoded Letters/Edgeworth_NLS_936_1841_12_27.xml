@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from John Gibson Lockhart to Maria Edgeworth, December 27, 1841</title>
+            <author>John Gibson Lockhart</author>
+            <editor ref="Id_who">Alexandra LaGrand</editor>
+            <sponsor>
+               <orgName>Maria Edgeworth Letters Project</orgName>
+            </sponsor>
+            <sponsor>Wake Forest University, University of Tennessee, Xavier University, Texas
+               A&amp;M University</sponsor>
+            <principal>Jessica Richard, Hilary Havens, Robin Runia, Susan Egenolf</principal>
+            <respStmt>
+               <resp>Transcription and coding by</resp>
+               <persName ref="Id_who">Alexandra LaGrand</persName>
+           </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>First digital edition in TEI, date: <date when="2024-04-15">April 15, 2024</date>
+            </edition>
+            <respStmt>
+               <orgName type="naf" ref="Id_who">National Library of Scotland</orgName>
+               <resp> photos include: Edgeworth_NLS_936_1841_12_27_page01.jpg, Edgeworth_NLS_936_1841_12_27_page02.jpg, Edgeworth_NLS_936_1841_12_27_page03.jpg, Edgeworth_NLS_936_1841_12_27_page04.jpg</resp>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Maria Edgeworth Letters Project</authority>
+            <date>2022</date>
+            <availability>
+               <p>Reproduced by courtesy of the <orgName ref="http://id.loc.gov/authorities/names/n80044899">National Library of Scotland</orgName>
+               </p>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons Attribution 4.0 (CC BY 4.0) Unported License</licence>
+            </availability>
+            <idno>Edgeworth_NLS_936_1841_12_27</idno> 
+         </publicationStmt>
+         <seriesStmt>
+            <title>Maria Edgeworth Letters Project</title>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+              <msIdentifier>
+                 <repository>National Library of Scotland</repository>
+                 <collection></collection>
+                 <idno></idno>
+               </msIdentifier>
+               <head>Letter from 
+                  <persName ref="./Personography.xml#LockJ1">
+                     <forename>John Gibson</forename>
+                     <surname>Lockhart</surname>
+                  </persName>
+                  to <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>, <placeName></placeName>, 
+                  <date when="1841-12-27">Der 27. 1841</date>
+                  <stamp>National Library of Scotland stamp on final page of letter</stamp>
+               </head>
+               <physDesc></physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>Edgeworth’s spelling and punctuation are retained in transcription, including non-standard spelling, line breaks, and hyphenation of words. The long s and ligatured forms are silently emended.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="./Personography.xml#LockJ1">John Gibson Lockhart</persName>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2024-04-15" who="Id_who">Created file for letter, encoded letter</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <pb n="1" facs="Edgeworth_NLS_936_1841_12_27_page01.jpg"/>
+            <opener>
+               <dateline>
+                  <name type="place" ref="Id_where"/>London
+                  <date when="1841-12-27"/><choice><orig>Der</orig><reg>December</reg></choice> 27. 1841</dateline>
+               <salute>
+                  <persName>My dear Miss Edgeworth.</persName>
+               </salute>
+            </opener>
+            <p>
+               The<lb/>
+               confirmation <unclear>of</unclear> the Newspaper<lb/>
+               Report of <persName ref="./Personography.xml#ScotC1">Charles Scotts</persName> death<lb/>
+               never arrived till last night<lb/>
+               - the Persian ministers <unclear>Messenger</unclear><lb/>
+               having been stopped by our <choice><orig>Ambas<lb/>
+               -ader</orig><reg>Ambassador</reg></choice> at <placeName ref="./Placeography.xml#Vienna_AT">Vienna</placeName> for a <choice><orig>weak</orig><reg>week</reg></choice><lb/>
+               . I had no <choice><orig>dubt</orig><reg>doubt</reg></choice> of the truth of<lb/>
+               the sad story - but still <choice><orig>cd</orig><reg>could</reg></choice><lb/>
+               not write to you as I otherwise<lb/>
+               <choice><orig>w<hi rend="superscript">d</hi></orig><reg>would</reg></choice> have <choice><orig>ben</orig><reg>been</reg></choice> sure to do, in<lb/>
+               the absence of direct intelligence<lb/>
+            </p>
+            <p>
+               I am very grateful for<lb/>
+               all your Kind thoughts and<lb/>
+            </p>
+            <p>
+               <pb n="2" facs="Edgeworth_NLS_936_1841_12_27_page02.jpg"/>
+               recollections. <persName ref="./Personography.xml#ScotC1">Charles</persName> has only<lb/>
+               joined a Company who are<lb/>
+               &amp; ever will be as <choice><orig>presnt</orig><reg>present</reg></choice><lb/>
+               to me while memory remains<lb/>
+               as if they still were partaking<lb/>
+               in what we call Life. It<lb/>
+               is however a very serious<lb/>
+               <choice><orig>calamty</orig><reg>calamity</reg></choice> to me - for we had<lb/>
+               very much in common &amp;<lb/>
+               it was to him I had always<lb/>
+               looked, in case of my<lb/>
+               own death, for protection<lb/>
+               of my children during<lb/>
+               their tender years or rather<lb/>
+            </p>
+            <p>
+               <pb n="3" facs="Edgeworth_NLS_936_1841_12_27_page03.jpg"/>
+               I sh<hi rend="superscript">d</hi> say for giving them<lb/>
+               that caste of mind &amp;<lb/>
+               sentiment<unclear><del>s</del></unclear> which I w<hi rend="superscript">d</hi> fain<lb/>
+               have them inherit from<lb/>
+               their mother.<lb/>
+            </p>
+            <p>
+               But no more - we are all<lb/>
+               pretty well. I enclose some<lb/>
+               letters which you will read<lb/>
+               w a tender interest.<lb/>
+               After the 19<hi rend="superscript">th</hi> October he<lb/>
+               continued to droop &amp; died<lb/>
+               on the 28<hi rend="superscript">th</hi> of that Month.<lb/>
+               without apparent pain -<lb/>
+               having so long as <choice><orig>conscious<lb/>
+               -ness</orig><reg>consciousness</reg></choice> continued spoken<lb/>
+               tranquilly Even cheerfully<lb/>
+            </p>
+            <p>
+               <pb n="4" facs="Edgeworth_NLS_936_1841_12_27_page04.jpg"/>
+               - not indicating to his friends<lb/>
+               any apprehension of the near<lb/>
+               fate. For friends he had -<lb/>
+               <persName ref="./Personography.xml#McNeJ1">Sir John M<hi rend="superscript">c</hi>Niel</persName> &amp; the<lb/>
+               Physician <persName ref="./Personography.xml#BellC1">D<hi rend="superscript">r</hi> Bell</persName> a Nephew<lb/>
+               of <persName ref="./Personography.xml#BellC1">Sir Charles</persName> were both old<lb/>
+               friends of his own as well<lb/>
+               as of mine &amp; Whatever <choice><orig>cd</orig><reg>could</reg></choice><lb/>
+               be done to soothe his pillow<lb/>
+               was done by them - &amp; he now<lb/>
+               Shares the grave of one of<lb/>
+               <persName ref="./Personography.xml#McNeJ1">M<hi rend="superscript">c</hi>Niels</persName> own children who<lb/>
+               died there some years ago.<lb/>
+            </p>
+            <closer>
+               Ever <choice><orig>affectenaly</orig><reg>affectionately</reg></choice> Yours<lb/>
+               <persName ref="./Personography.xml#LockJ1">J G Lockhart</persName><lb/>
+            </closer>
+         </div>
+      </body>
+      <back> </back>
+   </text>
+</TEI>
