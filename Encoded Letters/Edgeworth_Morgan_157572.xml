@@ -29,10 +29,10 @@
                <orgName type="naf" ref="Id_who">
                         Pierpont Morgan Library</orgName>
                <resp> photos include:
-                        Edgeworth_Morgan_157752_page01.jpg,
+                        Edgeworth_Morgan_157572_page01.jpg,
                         Edgeworth_Morgan_157572_page02.jpg,
-                        Edgeworth_Morgan_157752_page03.jpg,
-                        Edgeworth_Morgan_157752_page04.jpg</resp>
+                        Edgeworth_Morgan_157572_page03.jpg,
+                        Edgeworth_Morgan_157572_page04.jpg</resp>
             </respStmt>
          </editionStmt>
          <publicationStmt>
@@ -44,7 +44,7 @@
                <licence target="https://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons Attribution 4.0 (CC BY 4.0) Unported
             License</licence>
             </availability>
-            <idno>Edgeworth_Morgan_157752</idno>
+            <idno>Edgeworth_Morgan_157572</idno>
          </publicationStmt>
          <seriesStmt>
             <title>Maria Edgeworth Letters Project</title>
@@ -65,7 +65,6 @@
                      <idno type="SNAC">62567029</idno>
                   </persName>
                         to <persName>Mary Reeve Kater</persName>, <placeName>Kensington Gore</placeName>, 
-                        <date when="1111-01-01"/>
                </head>
                <physDesc/>
             </msDesc>
@@ -173,16 +172,6 @@
                <persName>Mary Reeve Kater</persName>
             </correspAction>
          </correspDesc>
-         <textClass>
-            <keywords scheme="">
-               <list type="simple">
-                  <item>English literature</item>
-                  <item>History</item>
-               </list>
-            </keywords>
-            <catRef target="#f7" scheme="#f"/>
-            <catRef target="#hist #el" scheme="locSUB"/>
-         </textClass>
       </profileDesc>
       <revisionDesc>
          <change when="2021-01-01" who="Id_who"/>
@@ -191,7 +180,7 @@
    <text>
       <body>
          <div type="letter">
-            <pb n="1" facs="Edgeworth_Morgan_157752_page01.jpg"/>
+            <pb n="1" facs="Edgeworth_Morgan_157572_page01.jpg"/>
             <opener>
                <dateline>
                   <name type="place" ref="Id_where"/>
@@ -238,7 +227,7 @@
                         -missions</orig>
                   <reg>commissions</reg>
                </choice> me to ask if you<lb/>
-               <pb n="2" facs="Edgeworth_Morgan_157752_page02.jpg"/> 
+               <pb n="2" facs="Edgeworth_Morgan_157572_page02.jpg"/> 
                     and <persName ref="./Personography.xml#KateH1">Cap<hi rend="superscript">n</hi>. Kater</persName> will do<lb/>
                     her the pleasure to dine here<lb/>
                     on friday? -- <persName ref="./Personography.xml#WhitE1">Lady Elizabeth<lb/>
@@ -268,7 +257,7 @@
             <p>
                <persName ref="./Personography.xml#WhitE1">Lady E W</persName> begged me to<lb/>
                     write now &amp; not wait till<lb/>
-               <pb n="3" facs="Edgeworth_Morgan_157752_page03.jpg"/> 
+               <pb n="3" facs="Edgeworth_Morgan_157572_page03.jpg"/> 
                     I should see you on <choice>
                   <orig>Thurs-<lb/>
                         day</orig>
@@ -298,17 +287,14 @@
                </p>
             </postscript>
             <closer>
+               <unclear>
                <address>
-                  <pb n="4" facs="Edgeworth_Morgan_157752_page04.jpg"/>
-                  <unclear>
+                  <pb n="4" facs="Edgeworth_Morgan_157572_page04.jpg"/>
                      <persName>M<hi rend="superscript">rs</hi> Thaler</persName>
                      <lb/>
                      <placeName>Union Place</placeName>
-                  </unclear>
-                  <addrLine/>
-                  <addrLine/>
-                  <addrLine/>
                </address>
+               </unclear>
             </closer>
          </div>
       </body>
