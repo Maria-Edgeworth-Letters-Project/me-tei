@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from John Gibson Lockhart to Maria Edgeworth, February 13, 1827</title>
+            <author>John Gibson Lockhart</author>
+            <editor ref="Id_who">Alexandra LaGrand</editor>
+            <sponsor>
+               <orgName>Maria Edgeworth Letters Project</orgName>
+            </sponsor>
+            <sponsor>Wake Forest University, University of Tennessee, Xavier University, Texas
+               A&amp;M University</sponsor>
+            <principal>Jessica Richard, Hilary Havens, Robin Runia, Susan Egenolf</principal>
+            <respStmt>
+               <resp>Transcription and coding by</resp>
+               <persName ref="Id_who">Alexandra LaGrand</persName>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>First digital edition in TEI, date: <date when="2024-04-24">April 24, 2024</date>
+            </edition>
+            <respStmt>
+               <orgName type="naf" ref="Id_who">National Library of Scotland</orgName>
+               <resp> photos include: Edgeworth_NLS_936_1827_07_13_page01.jpg, Edgeworth_NLS_936_1827_07_13_page02.jpg, Edgeworth_NLS_936_1827_07_13_page03.jpg</resp>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Maria Edgeworth Letters Project</authority>
+            <date>2022</date>
+            <availability>
+               <p>Reproduced by courtesy of the <orgName ref="http://id.loc.gov/authorities/names/n80044899">National Library of Scotland</orgName>
+               </p>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons Attribution 4.0 (CC BY 4.0) Unported License</licence>
+            </availability>
+            <idno>Edgeworth_NLS_936_1827_07_13</idno> 
+         </publicationStmt>
+         <seriesStmt>
+            <title>Maria Edgeworth Letters Project</title>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <repository>National Library of Scotland</repository>
+                  <collection></collection>
+                  <idno></idno>
+               </msIdentifier>
+               <head>Letter from 
+                  <persName ref="./Personography.xml#LockJ1">
+                     <forename>John Gibson</forename>
+                     <surname>Lockhart</surname>
+                  </persName>
+                  to <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>, <placeName></placeName>, 
+                  <date when="1827-02-13">Feby. 13. 1827</date>
+               </head>
+               <physDesc></physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>Edgeworth’s spelling and punctuation are retained in transcription, including non-standard spelling, line breaks, and hyphenation of words. The long s and ligatured forms are silently emended.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="./Personography.xml#LockJ1">John Gibson Lockhart</persName>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2024-04-24" who="Id_who">Created file for letter, encoded letter</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <pb n="1" facs="Edgeworth_NLS_936_1827_07_13_page01.jpg"/>
+            <opener>
+               <salute>
+                  <persName>My dear Miss Edgeworth</persName>
+               </salute>
+            </opener>
+            <p>
+               I suppose it is in vain to look for<lb/>
+               the smallest belief in saying what nevertheless <hi rend="underline">is</hi> the fact<lb/>
+               that whether any Irish Mails have been robbed by the<lb/>
+               Pro-Catholic party within the last three weeks or not, I have<lb/>
+               never received up to this hour the letter of which you<lb/>
+               make mention in the note to <persName ref="./Personography.xml#LockS1">Sophia</persName> of yesterday evening<lb/>
+               I fancy however that I sufficiently comprehend its drift<lb/>
+               and have to answer that I know of <placeName ref="./Placeography.xml#London_ENK">London</placeName> Booksellers only<lb/>
+               three - <persName ref="./Personography.xml#MurrJ1">Murray</persName>, <persName ref="./Personography.xml#CadeT1">Cadell</persName> (&amp; <persName ref="./Personography.xml#DaviW1">Davies</persName>) &amp; <persName ref="./Personography.xml#ReesO1">Mr Rees</persName> of the house of<lb/>
+               <persName ref="./Personography.xml#LongT1">Longman</persName> &amp; that I shall be most happy in introducing<lb/>
+               any friend of yours to any or all of them. <persName ref="./Personography.xml#LongT1">Longmans</persName> <unclear>&amp; Co</unclear><lb/>
+               are the great house for publishing Educational books<lb/>
+               - it is their favourite business I believe; &amp; probably<lb/>
+               it is of all the most lucrative. <persName ref="./Personography.xml#MurrJ1">Murray</persName> has some<lb/>
+               books of the class &amp; may have been highly successful<lb/>
+               &amp; he is I know very desirous to have more . of my good<lb/>
+               friend
+            </p>
+            <p>
+               <pb n="2" facs="Edgeworth_NLS_936_1827_07_13_page02.jpg"/>
+               M<hi rend="superscript">r</hi> <persName ref="./Personography.xml#CadeT1">Cadell's</persName> concerns I have no very accurate notion.<lb/>
+               but suspect that house has got out of date except for<lb/>
+               an Episcopal <unclear>charge</unclear> or a new Commentary on the<lb/>
+               Apocalypse or a reprint of <title ref="./Workography.xml#JohnS1">Johnson's</title> <title ref="./Workography.xml#Dicti2">dictionary</title><lb/>
+               or the like.<lb/>
+               Either <persName ref="./Personography.xml#MurrJ1">Murray</persName> or <persName ref="./Personography.xml#LongT1">Longman</persName> will I am sure be glad<lb/>
+               of a <hi rend="underline">good</hi> book for young people; &amp; this is I doubt not<lb/>
+               a good one - in short there is no difficulty in the<lb/>
+               case. It is very different from<lb/>
+               A virgin tragedy an orphan Muse -<lb/>
+               are we to have no more charming <title ref="./Workography.xml#Early1">Lucys &amp;<lb/>
+               <unclear>Harries</unclear></title> &amp; Franks of your own?<lb/>
+               <persName ref="./Personography.xml#LockS1">My wife</persName> &amp; boys (for there are 2 of them now)<lb/>
+               are well - <persName ref="./Personography.xml#LockJ2">Johnny</persName> certainly much better in his<lb/>
+               general health &amp; at least no worse in his<lb/>
+               local complaint.<lb/>
+               <persName ref="./Personography.xml#ScotW1">Sir Walter Scott</persName> was in capital spirits<lb/>
+            </p>
+            <p>
+               <pb n="3" facs="Edgeworth_NLS_936_1827_07_13_page03.jpg"/>
+               when with us a few weeks ago &amp; so he is now but<lb/>
+               for rheumatism that <unclear>makes</unclear> him occasionally grumble<lb/>
+               Not being able to stir about with this companion he has<lb/>
+               been working hard - as witness <title ref="./Workography.xml#LifeN1">6 vols of Napoleon</title><lb/>
+               now on the table, <add>&amp;</add> another or I suppose now others<lb/>
+               nearly ready: to say nothing of the <title ref="./Workography.xml#Chron1">Chronicles of the<lb/>
+               Canongate</title> which is a Miscellany of little Tales he says<lb/>
+               &amp; with which he himself seems to be particularly pleased<lb/>
+               <unclear>A</unclear> I beg to be remembered to <persName ref="./Personography.xml#EdgeF2">M<hi rend="superscript">rs</hi> Edgeworth</persName>, Mr G. L <unclear></unclear><lb/>
+               to <unclear></unclear> your family at <placeName ref="./Placeography.xml#Edgeworthstown_IE">Edgeworthstown</placeName> - I hope <persName ref="./Personography.xml#ButlR1">M<unclear>r</unclear></persName> &amp;<lb/> <persName ref="./Personography.xml#EdgeH1">M<hi rend="superscript"><unclear>rs</unclear></hi><lb/>
+               <unclear>Butler</unclear></persName> are well and well pleased with wedlock. 
+            </p>
+            <closer>
+               Believe<lb/>
+               me ever most truly &amp; faithfully yours<lb/>
+               <persName ref="./Personography.xml#LockJ1"><hi rend="underline">J G Lockhart</hi></persName><lb/>
+               <placeName ref="./Placeography.xml#Wimbledon_ENK">Wimbledon</placeName>, <placeName ref="./Placeography.xml#Surrey_ENK">Surrey</placeName><lb/>
+               <choice><orig>Feby.</orig><reg>February</reg></choice> 13. 1827.
+            </closer>
+        </div>
+      </body>
+      <back> </back>
+   </text>
+</TEI>
