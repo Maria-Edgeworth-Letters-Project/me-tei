@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from Harriet Edgeworth to Esther Brinkley, Unknown Date</title>
+            <author>Harriet Edgeworth</author>
+            <editor ref="Id_who">Alexandra LaGrand</editor>
+            <sponsor>
+               <orgName>Maria Edgeworth Letters Project</orgName>
+            </sponsor>
+            <sponsor>Wake Forest University, University of Tennessee, Xavier University, Texas
+               A&amp;M University</sponsor>
+            <principal>Jessica Richard, Hilary Havens, Robin Runia, Susan Egenolf</principal>
+            <respStmt>
+               <resp>Transcription and coding by</resp>
+               <persName ref="Id_who">Alexandra LaGrand</persName>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>First digital edition in TEI, date: <date when="2024-04-27">April 27, 2024</date>
+            </edition>
+            <respStmt>
+               <orgName type="naf" ref="Id_who">National Library of Scotland</orgName>
+               <resp> photos include: Edgeworth_NLS_6931_unknown_03_page01.jpg</resp>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Maria Edgeworth Letters Project</authority>
+            <date>2022</date>
+            <availability>
+               <p>Reproduced by courtesy of the <orgName ref="http://id.loc.gov/authorities/names/n80044899">National Library of Scotland</orgName>
+               </p>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons Attribution 4.0 (CC BY 4.0) Unported License</licence>
+            </availability>
+            <idno>Edgeworth_NLS_6931_unknown_03</idno> 
+         </publicationStmt>
+         <seriesStmt>
+            <title>Maria Edgeworth Letters Project</title>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <repository>National Library of Scotland</repository>
+                  <collection></collection>
+                  <idno></idno>
+               </msIdentifier>
+               <head>Letter from 
+                  <persName ref="./Personography.xml#EdgeH1">
+                     <forename>Harriet</forename>
+                     <surname>Edgeworth</surname>
+                  </persName>
+                  to <persName ref="./Personography.xml#BrinE1">Esther Brinkley</persName>, <placeName></placeName>, 
+                  <date when="1111-01-01">Unknown Date</date>
+               </head>
+               <physDesc></physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>Edgeworth’s spelling and punctuation are retained in transcription, including non-standard spelling, line breaks, and hyphenation of words. The long s and ligatured forms are silently emended.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="./Personography.xml#EdgeH1">Harriet Edgeworth</persName>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="./Personography.xml#BrinE1">Esther Brinkley</persName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2024-04-27" who="Id_who">Created file for letter, encoded letter</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <pb n="1" facs="Edgeworth_NLS_6931_unknown_03_page01.jpg"/>
+            <p>
+               unlucky illness kept us so long that he was obliged to go on about<lb/>
+               his own pursuits &amp; leave us to our less useful objects - &amp; now we<lb/>
+               only see him here for a few days as our journey home will be circuitous<lb/>
+               on account of various visits &amp; slow on account of <persName ref="./Personography.xml#EdgeM1">Maria's</persName> health, as though<lb/>
+               recovered she is still <del></del> very weak . . Sally, will I am sure enjoy the<lb/>
+               Highlands &amp; perhaps feel too much afterwards that Her heart's in the Highlands &amp;c.<lb/>
+               But I feel now that I have been long enough away indeed two months from<lb/>
+               home is nearly enough to bring on at least a slight fit of the mal du pays.<lb/>
+            </p>
+            <closer>Always yours most gratefully &amp; affectionately<lb/>
+               <persName ref="./Personography.xml#EdgeH1">Harriet Edgeworth</persName><lb/>
+               Thursday<lb/>
+            </closer>
+            <postscript>
+               <p>
+                  sights which do not occur so naturally as the Bank &amp; the College in <placeName ref="./Placeography.xml#Dublin_IE">Dublin</placeName><lb/>
+               Here you will have much to see and all of it most interesting. One<lb/>
+               can hardly be an hour in <persName ref="./Personography.xml#ScotW1">Sir Walters Scotts</persName> company without at once seeing<lb/>
+                  the mind that produced all from <title ref="./Workography.xml#Waver1">Waverley</title> to - <title ref="./Workography.xml#Quent1">Quentin Durward</title> - Of course<lb/>
+               one never alludes to them in his presence, but he often mentions them<lb/>
+               himself with a most careless &amp; easy impudence.<lb/>
+               I send this by <persName ref="./Personography.xml#EdgeW1"><choice><orig>W<hi rend="superscript">m</hi></orig><reg>William</reg></choice></persName> who will tell you much more - we<lb/>
+               had not the delight of having him during our whole journey as <persName ref="./Personography.xml#EdgeM1">Marias</persName><lb/>
+               </p>
+            </postscript>
+            <closer>
+               <address>
+                  <addrLine><persName ref="./Personography.xml#BrinE1">M<hi rend="superscript">rs</hi>. Brinkley</persName><lb/></addrLine>
+                  <addrLine><placeName ref="./Placeography.xml#Gibbs-Hotel_STK">Gibbs Hotel</placeName> <placeName ref="./Placeography.xml#St-Andrews-Square_STK"><unclear>S<hi rend="superscript">t</hi></unclear> Andrews Square</placeName><lb/></addrLine>
+                  <addrLine>is the best I believe in <placeName ref="./Placeography.xml#Edinburgh_STK">Edinburgh</placeName> or if you<lb/></addrLine>
+                  <addrLine>like lodgings <unclear>ours</unclear> <placeName ref="./Placeography.xml#Abercromby-Place-32_STK">32 Abercrombie Place</placeName> will be<lb/></addrLine>
+                  <addrLine>excellent<lb/></addrLine>
+               </address>
+            </closer>
+         </div>
+      </body>
+      <back> </back>
+   </text>
+</TEI>
