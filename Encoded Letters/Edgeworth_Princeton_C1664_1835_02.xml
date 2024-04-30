@@ -30,8 +30,8 @@
             <respStmt>
                <orgName ref="http://id.loc.gov/authorities/names/n82003163">Princeton University. Firestone Library
                </orgName>
-               <resp> photos include: Edgeworth_ Princeton_C1664_1835_02_page01.jpg, Edgeworth_ Princeton_C1664_1835_02_page02.jpg,
-                  Edgeworth_ Princeton_C1664_1835_02_page03.jpg, Edgeworth_ Princeton_C1664_1835_02_page01.jpg
+               <resp> photos include: Edgeworth_Princeton_C1664_1835_02_page01.jpg, Edgeworth_Princeton_C1664_1835_02_page02.jpg,
+                  Edgeworth_Princeton_C1664_1835_02_page03.jpg, Edgeworth_Princeton_C1664_1835_02_page01.jpg
                </resp>
             </respStmt>
          </editionStmt>
@@ -44,7 +44,7 @@
                <licence target="https://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons Attribution 4.0 (CC BY 4.0) Unported
             License</licence>
             </availability>
-            <idno>Edgeworth_ Princeton_C1664_1835_02</idno>
+            <idno>Edgeworth_Princeton_C1664_1835_02</idno>
          </publicationStmt>
          <seriesStmt>
             <title>Maria Edgeworth Letters Project</title>
@@ -77,92 +77,6 @@
          <editorialDecl>
             <p>Edgeworth’s spelling and punctuation are retained in transcription, including non-standard spelling, line breaks, and hyphenation of words. The long s and ligatured forms are silently emended.</p>
          </editorialDecl>
-         <classDecl>
-            <taxonomy xml:id="relators">
-               <bibl>Marc Relators</bibl>
-               <category xml:id="aut">
-                  <catDesc>Author</catDesc>
-               </category>
-            </taxonomy>
-            <taxonomy xml:id="lcsh">
-               <bibl>Subjects</bibl>
-               <category>
-                  <catDesc xml:id="AntislaveryMovements">Antislavery movements
-                     <idno type="loc">sh85123315</idno>
-                  </catDesc>
-                  <catDesc xml:id="Birth">Birth
-                     <idno type="loc">sh86004053</idno>
-                  </catDesc>
-                  <catDesc xml:id="Death">Death
-                     <idno type="loc">sh85036085</idno>
-                  </catDesc>
-                  <catDesc xml:id="Education">Education
-                     <idno type="loc">sh85040989</idno>
-                  </catDesc>
-                  <catDesc xml:id="Imperialism">Imperialism
-                     <idno type="loc">sh85064628</idno>
-                  </catDesc>
-                  <catDesc xml:id="FictitiousCharacters">Fictitious characters
-                     <idno type="loc">sh99004183</idno>
-                  </catDesc>
-                  <catDesc xml:id="Marriage">Marriage
-                     <idno type="loc">sh85081416</idno>
-                  </catDesc>
-                  <catDesc xml:id="Nationalism">Nationalism
-                     <idno type="loc">sh85090150</idno>
-                  </catDesc>
-                  <catDesc xml:id="PoliticsAndCulture">Politics and culture
-                     <idno type="loc">sh85104468</idno>
-                  </catDesc>
-                  <catDesc xml:id="Race">Race  
-                     <idno type="loc">sh85110232</idno>
-                  </catDesc>
-                  <catDesc xml:id="Religion">Religion
-                     <idno type="loc">sh85112549</idno>
-                  </catDesc>
-                  <catDesc xml:id="Science">Science
-                     <idno type="loc">sh85118553</idno>
-                  </catDesc>
-                  <catDesc xml:id="Technology">Technology
-                     <idno type="loc">sh85133147</idno>
-                  </catDesc>
-                  <catDesc xml:id="Slavery">Slavery
-                     <idno type="loc">sh85123314</idno>
-                  </catDesc>
-                  <catDesc xml:id="Travel">Travel
-                     <idno type="loc">sh85137149</idno>
-                  </catDesc>
-               </category>
-            </taxonomy>
-            <taxonomy xml:id="works">
-               <bibl>Works</bibl>
-               <category>
-                  <catDesc xml:id="w1">Belinda</catDesc>
-                  <catDesc xml:id="w2">Castle Rackrent</catDesc>
-                  <catDesc xml:id="w3">Comic Dramas, in Three Acts</catDesc>
-                  <catDesc xml:id="w4">Early Lessons</catDesc>
-                  <catDesc xml:id="w5">Essay on Irish Bulls</catDesc>
-                  <catDesc xml:id="w6">Frank: a Sequel to Frank in Early Lessons</catDesc>
-                  <catDesc xml:id="w7">Harrington, a Tale; and Ormond, a Tale</catDesc>
-                  <catDesc xml:id="w8">Harry and Lucy Concluded</catDesc>
-                  <catDesc xml:id="w9">Leonora</catDesc>
-                  <catDesc xml:id="w10">Letters for Literary Ladies</catDesc>
-                  <catDesc xml:id="w11">Moral Tales for Young People</catDesc>
-                  <catDesc xml:id="w12">Moral Tales</catDesc>
-                  <catDesc xml:id="w13">Patronage</catDesc>
-                  <catDesc xml:id="w14">Popular Tales</catDesc>
-                  <catDesc xml:id="w15">Practical Education</catDesc>
-                  <catDesc xml:id="w16">Readings on Poetry</catDesc>
-                  <catDesc xml:id="w17">Ormond</catDesc>
-                  <catDesc xml:id="w18">The Absentee</catDesc>
-                  <catDesc xml:id="w19">Tales of Fashionable Life</catDesc>
-                  <catDesc xml:id="w20">The Contrast</catDesc>
-                  <catDesc xml:id="w21">The Modern Griselda; a Tale</catDesc>
-                  <catDesc xml:id="w22">The Parent's Assistant</catDesc>
-                  <catDesc xml:id="w23">Tomorrow; or the Dangers of Delay</catDesc>
-               </category>
-            </taxonomy>
-         </classDecl>
       </encodingDesc>
       <revisionDesc>
          <change when="2021-01-01" who="Id_who"/>
@@ -171,7 +85,7 @@
    <text>
       <body>
          <div type="letter">
-            <pb n="1" facs="Edgeworth_ Princeton_C1664_1835_02_page01.jpg"/>
+            <pb n="1" facs="Edgeworth_Princeton_C1664_1835_02_page01.jpg"/>
             <opener>
                <dateline>
                   <placeName ref="./Placeography.xml#Edgeworthstown_IE">Edgeworthstown</placeName>
@@ -226,7 +140,7 @@
                   <reg>particular</reg>
                </choice>works in question, because its merits<lb/>
             </p>
-            <pb n="2" facs="Edgeworth_ Princeton_C1664_1835_02_page02.jpg"/>
+            <pb n="2" facs="Edgeworth_Princeton_C1664_1835_02_page02.jpg"/>
             <p>could not induce me to change my<lb/>
                determination; and my declining your<lb/>
                proposal for these peculiar reasons of my<lb/>
@@ -274,7 +188,7 @@
                <p>I am <del>much</del> obliged for your present of one of<lb/>
                   the other books <title ref="./Workography.xml#Frien1">"The Young Christian"</title> -- which<lb/>
                 I have desired to be reserved for me as if I under<lb/>
-                  <pb n="3" facs="Edgeworth_ Princeton_C1664_1835_02_page03.jpg"/>
+                  <pb n="3" facs="Edgeworth_Princeton_C1664_1835_02_page03.jpg"/>
                   
                   
                 stand rightly you meant that at all events I<lb/>
@@ -290,7 +204,7 @@
                   <lb/>
                </p>
             </postscript>
-            <pb n="4" facs="Edgeworth_ Princeton_C1664_1835_02_page04.jpg"/>
+            <pb n="4" facs="Edgeworth_Princeton_C1664_1835_02_page04.jpg"/>
             <note place="bottom">1835
                Feb 16<lb/>
                Copy of ME's<lb/>
