@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from Walter Scott to Maria Edgeworth, Unknown Date</title>
+            <author>Walter Scott</author>
+            <editor ref="Id_who">Alexandra LaGrand</editor>
+            <sponsor>
+               <orgName>Maria Edgeworth Letters Project</orgName>
+            </sponsor>
+            <sponsor>Wake Forest University, University of Tennessee, Xavier University, Texas
+               A&amp;M University</sponsor>
+            <principal>Jessica Richard, Hilary Havens, Robin Runia, Susan Egenolf</principal>
+            <respStmt>
+               <resp>Transcription and coding by</resp>
+               <persName ref="Id_who">Alexandra LaGrand</persName>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>First digital edition in TEI, date: <date when="2024-05-05">May 5, 2024</date>
+            </edition>
+            <respStmt>
+               <orgName type="naf" ref="Id_who">National Library of Scotland</orgName>
+               <resp> photos include: Edgeworth_NLS_23130_WScott_to_ME_letter01_page01.jpg, Edgeworth_NLS_23130_WScott_to_ME_letter01_page02.jpg</resp>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Maria Edgeworth Letters Project</authority>
+            <date>2022</date>
+            <availability>
+               <p>Reproduced by courtesy of the <orgName ref="http://id.loc.gov/authorities/names/n80044899">National Library of Scotland</orgName>
+               </p>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons Attribution 4.0 (CC BY 4.0) Unported License</licence>
+            </availability>
+            <idno>Edgeworth_NLS_23130_WScott_to_ME_letter01</idno> 
+         </publicationStmt>
+         <seriesStmt>
+            <title>Maria Edgeworth Letters Project</title>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <repository>National Library of Scotland</repository>
+                  <collection></collection>
+                  <idno></idno>
+               </msIdentifier>
+               <head>Letter from 
+                  <persName ref="./Personography.xml#ScotW1">
+                     <forename>Walter</forename>
+                     <surname>Scott</surname>
+                  </persName>
+                  to <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>, <placeName></placeName>, 
+                  <date when="1111-01-01"></date>
+               </head>
+               <physDesc></physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>Edgeworth’s spelling and punctuation are retained in transcription, including non-standard spelling, line breaks, and hyphenation of words. The long s and ligatured forms are silently emended.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="./Personography.xml#ScotW1">Walter Scott</persName>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2024-05-05" who="Id_who">Created file for letter, encoded letter</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <pb n="1" facs="Edgeworth_NLS_23130_WScott_to_ME_letter01_page01.jpg"/>
+            <opener>
+               <salute>
+                  <persName>
+                     My dear <persName ref="./Personography.xml#EdgeM1">Miss Edgeworth</persName>
+                  </persName>
+               </salute>
+            </opener>
+            <p>
+               Your letter has just acquainted<lb/>
+               us that we are to be deprived of the pleasure of<lb/>
+               making your personal acquaintance so much<lb/>
+               desired till Friday when we shall claim you &amp;<lb/>
+               the young ladies - I am this instant arrived from<lb/>
+               <placeName ref="./Placeography.xml#Abbotsford-House_STK">Abbotsford</placeName> where I have been busier than ever was<lb/>
+               <unclear>King</unclear> Cerney and in the same fantastic sort of <choice><orig>labours</orig><reg>labors</reg></choice><lb/>
+               in which <persName ref="./Personography.xml#Willi1">his Majesty</persName> was pleased to delight.<lb/>
+               I have just his to add kind respects to<lb/>
+               M<hi rend="superscript">r</hi>. &amp; <persName ref="./Personography.xml#StuaL1">M<hi rend="superscript">rs</hi> Stuart</persName> &amp; to assure you that I am<lb/>
+               Most sincerely &amp; respectfully<lb/>
+               yours<lb/>
+               Wednesday<lb/>
+               <persName ref="./Personography.xml#ScotW1"><hi rend="underline">Walter Scott</hi></persName><lb/>
+               <placeName ref="./Placeography.xml#Edinburgh_STK"><choice><orig>Edin<hi rend="superscript">h</hi></orig><reg>Edinburgh</reg></choice></placeName> -<lb/>
+               On Saturday a sort of Shoemakers holiday with me I<lb/>
+               propose if the weather be favourable going to <placeName ref="./Placeography.xml#Roslin_STK">Roslin</placeName><lb/>
+               strangely enough my girls have never seen I <choice><orig>ex<lb/>
+               pect</orig><reg>expect</reg></choice><lb/>
+            </p>
+            <p>
+               <pb n="2" facs="Edgeworth_NLS_23130_WScott_to_ME_letter01_page02.jpg"/>
+               just much pleasures from <choice><orig>shewing</orig><reg>showing</reg></choice> you the banks of<lb/>
+               the Eske - long my favourite strolling ground -<lb/>
+               <note type="bottom"><persName ref="./Personography.xml#ScotW1">Sir Walter</persName><lb/>
+               May 1823<lb/></note>
+            </p>
+         </div>
+      </body>
+      <back> </back>
+   </text>
+</TEI>
