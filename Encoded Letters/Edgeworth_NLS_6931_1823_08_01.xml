@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from Unknown to Esther Brinkley, August 1, 1823</title>
+            <author>Unknown</author>
+            <editor ref="Id_who">Alexandra LaGrand</editor>
+            <sponsor>
+               <orgName>Maria Edgeworth Letters Project</orgName>
+            </sponsor>
+            <sponsor>Wake Forest University, University of Tennessee, Xavier University, Texas
+               A&amp;M University</sponsor>
+            <principal>Jessica Richard, Hilary Havens, Robin Runia, Susan Egenolf</principal>
+            <respStmt>
+               <resp>Transcription and coding by</resp>
+               <persName ref="Id_who">Alexandra LaGrand</persName>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>First digital edition in TEI, date: <date when="2024-05-06">May 6, 2024</date>
+            </edition>
+            <respStmt>
+               <orgName type="naf" ref="Id_who">National Library of Scotland</orgName>
+               <resp> photos include: Edgeworth_NLS_6931_1823_08_01_page01.jpg, Edgeworth_NLS_6931_1823_08_01_page02.jpg, Edgeworth_NLS_6931_1823_08_01_page03.jpg, Edgeworth_NLS_6931_1823_08_01_page04.jpg, Edgeworth_NLS_6931_1823_08_01_page05.jpg</resp>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Maria Edgeworth Letters Project</authority>
+            <date>2022</date>
+            <availability>
+               <p>Reproduced by courtesy of the <orgName ref="http://id.loc.gov/authorities/names/n80044899">National Library of Scotland</orgName>
+               </p>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons Attribution 4.0 (CC BY 4.0) Unported License</licence>
+            </availability>
+            <idno>Edgeworth_NLS_6931_1823_08_01</idno> 
+         </publicationStmt>
+         <seriesStmt>
+            <title>Maria Edgeworth Letters Project</title>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <repository>National Library of Scotland</repository>
+                  <collection></collection>
+                  <idno></idno>
+               </msIdentifier>
+               <head>Letter from 
+                  <persName>
+                     <forename></forename>
+                     <surname>Unknown</surname>
+                  </persName>
+                  to <persName ref="./Personography.xml#BrinE1">Esther Brinkley</persName>, <placeName></placeName>, 
+                  <date when="1823-08-01">August 1. 1823</date>
+               </head>
+               <physDesc></physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>Edgeworth’s spelling and punctuation are retained in transcription, including non-standard spelling, line breaks, and hyphenation of words. The long s and ligatured forms are silently emended.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName>Unknown</persName>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="./Personography.xml#BrinE1">Esther Brinkley</persName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2024-05-06" who="Id_who">Alexandra LaGrand</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <pb n="1" facs="Edgeworth_NLS_6931_1823_08_01_page01.jpg"/>
+            <opener>
+               <dateline>
+                  <name type="place" ref="Id_where"/>Abbotsford Melrose
+                  <date when="1823-08-01"/>August 1. 1823</dateline>
+               <salute>
+                  <persName>My dear M<hi rend="superscript">rs</hi> Brinkley,</persName>
+               </salute>
+            </opener>
+            <p>
+               What could be the post town of the Last<lb/>
+               Minstrel but <placeName ref="./Placeography.xml#Melrose_STK">Melrose</placeName> - I think you will like him in his<lb/>
+               domestic circle. <persName ref="./Personography.xml#ScotM1">Lady Scott</persName> is most hospitable not only very<lb/>
+               civil but really quite kind. Knowing that she is not exactly<lb/>
+               the person one would have chosen for <persName ref="./Personography.xml#ScotW1">Sir Walters</persName> wife, people<lb/>
+               in general pay her less attention than is due either to her<lb/>
+               situation or her talents - She can be very amusing.<lb/>
+            </p>
+            <p>
+               When <persName ref="./Personography.xml#ScotW1">Sir Walter</persName> was asked how it had happened that<lb/>
+               two such lions as he &amp; <persName ref="./Personography.xml#EdgeM1">Miss Edgeworth</persName> had not met when<lb/>
+               she was in <placeName ref="./Placeography.xml#Edinburgh_STK">Edinburgh</placeName> twenty years ago - he said Oh at that<lb/>
+               Time <persName ref="./Personography.xml#EdgeM1">Miss Edgeworth</persName> was not the very great Lion she has since become<lb/>
+               I for my part my mane had hardly begun to grow". This<lb/>
+               was repeated by an intimate friend of his to whom he<lb/>
+               said it. He has a wonderful freedom from all vanity he<lb/>
+               <add>never</add> seems to be thinking that he is the great unknown. One almost<lb/>
+               forgets who is speaking except from the brilliancy of what he says<lb/>
+               It was told in <placeName ref="./Placeography.xml#Edinburgh_STK">Edinburgh</placeName> that <persName ref="./Personography.xml#EdgeM1">Miss Edgeworth</persName> said she did know<lb/>
+               she
+            </p>
+            <p>
+               <pb n="2" facs="Edgeworth_NLS_6931_1823_08_01_page02.jpg"/>
+               she had met <persName ref="./Personography.xml#ScotW1">Sir Walter Scott</persName> - &amp; that <persName ref="./Personography.xml#ScotW1">Sir Walter</persName> said he<lb/>
+               did know he had met <persName ref="./Personography.xml#EdgeM1">Miss Edgeworth</persName>. They were both so perfectly<lb/>
+               unpretending.<lb/>
+            </p>
+            <p>
+               You will see here a descendant of the noble race<lb/>
+               of Pepper &amp; Mustard - the yellow terriers being called Mustard<lb/>
+               &amp; the black Pepper, this having a mixture of both is<lb/>
+               called Spice - Poor <persName ref="./Personography.xml#DaviJ1"><choice><orig>Dandy</orig><reg>Dandie</reg></choice> Dinmont</persName> is now dead - but he<lb/>
+               was so well known to be the original of that <title ref="./Workography.xml#GuyMa1">character</title> that he was<lb/>
+               commonly called <choice><orig>Dandy</orig><reg>Dandie</reg></choice> Dinmont <note>Though not explicitly named, "Dandie Dinmont" refers to James Davidson, the real-life inspiration for Sir Walter Scott's character from Guy Mannering.</note>- a few days before his<lb/>
+               death, when he was asked if he was contented to die, . he<lb/>
+               answered Oh yes I am ready to leave this world now. I was<lb/>
+               favored last Monday with a sight of the hounds in full cry<lb/>
+               which I never thought to see again - after such a blessing I<lb/>
+               am ready to die content."<lb/>
+            </p>
+            <p>
+               Our tour in the Highlands was most prosperous as to<lb/>
+               weather &amp; except that <persName ref="./Personography.xml#EdgeM1">Maria</persName> was very unwell for some days,<lb/>
+               at Fosses we had a delightful tour, as we were four<lb/>
+               <persName ref="./Personography.xml#EdgeW1">William</persName> sat with <persName ref="./Personography.xml#EdgeS1">Sophy</persName> or me, or <persName ref="./Personography.xml#EdgeS1">Sophy</persName> &amp; I sat together on<lb/>
+               the barouche seats which made an entertaining variety &amp;<lb/>
+               allowed of our seeing much more of the country than we<lb/>
+               could have done in always sitting in the carriage.-<lb/>
+            </p>
+            <p>
+               I do not know how far you mean to go, but there is no<lb/>
+               place which is not crowded with recollections either <unclear>from</unclear><lb/>
+               what the <unclear>houds</unclear> have described or from real history. Near<lb/>
+               the <placeName ref="./Placeography.xml#Caledonia_STK">Caledonian</placeName> area - at the eight Lochs called Neptunes Staircase<lb/>
+               you are close to <placeName ref="./Placeography.xml#Inverlochy_STK">Inverlochy</placeName> Loches (as those books are not <hi rend="underline">here</hi>, of<lb/>
+               course, I am<lb/>
+               not<lb/>
+            </p>
+            <p>
+               <pb n="3" facs="Edgeworth_NLS_6931_1823_08_01_page03.jpg"/>
+               <placeName ref="./Placeography.xml#Abbotsford-House_STK">Abbotsford</placeName><lb/>
+               <placeName ref="./Placeography.xml#Melrose_STK">Melrose</placeName><lb/>
+               <persName ref="./Personography.xml#EdgeM1">Maria</persName> begs you will thank the <persName ref="./Personography.xml#BrinJ1">D<hi rend="superscript">r</hi>.</persName> for his note to her<lb/>
+               &amp; desires me to tell you that all you need do about<lb/>
+               coming here is to write from <placeName ref="./Placeography.xml#Edinburgh_STK">Edinburgh</placeName> to fix the day<lb/>
+               of your arrival here. For <persName ref="./Personography.xml#ScotW1">Sir Walter</persName> &amp; <persName ref="./Personography.xml#ScotS1">Lady Scott</persName> <choice><orig>enquired</orig><reg>inquired</reg></choice><lb/>
+               most particularly after <persName ref="./Personography.xml#BrinE1">M<hi rend="superscript">rs</hi></persName> &amp; <persName ref="./Personography.xml#BrinS1">Miss Brinkley</persName> &amp; hoped they<lb/>
+               would accompany the <persName ref="./Personography.xml#BrinJ1">Doctor</persName> - so that he has only to name<lb/>
+               his day &amp; he will be received with open arms.<lb/>
+            </p>
+            <p>
+               <persName ref="./Personography.xml#EdgeM1">Maria</persName> hopes you will accept the enclosed<lb/>
+               note of introduction to some very intimate<lb/>
+               friends of ours at <placeName ref="./Placeography.xml#Glengore_STK">Glengore</placeName> who are as good<lb/>
+            </p>
+            <p>
+               &amp; kind as yourselves &amp; will show you all that is best <unclear>worth</unclear><lb/>
+               seeing in that busy town.<lb/>
+            </p>
+            <p>
+               <pb n="4" facs="Edgeworth_NLS_6931_1823_08_01_page04.jpg"/>
+               <add>since</add> as to my spelling/ the castle mentioned in the <title ref="./Workography.xml#Legen1">Legend of<lb/>
+               Montrose</title> - you also see though at a distance the Glen where<lb/>
+               <persName ref="./Personography.xml#StuaC1">Cha<hi rend="superscript">s</hi>. Edward</persName> first displayed his standard -. On your way<lb/>
+               from <placeName ref="./Placeography.xml#Fort-William_STK">Fort William</placeName>, where you see the beginning of the <placeName ref="./Placeography.xml#Caledonian-Canal_STK">Caledonian<lb/>
+               Canal</placeName>. You might see <placeName ref="./Placeography.xml#Locheil-Forest_STK"><choice><orig>Lochiel</orig><reg>Locheil</reg></choice> wood</placeName> &amp; dwelling &amp; you must<lb/>
+               if you go further than <placeName ref="./Placeography.xml#Fort-Augustus_STK">Fort Augustus</placeName> see the <placeName ref="./Placeography.xml#Falls-of-Foyers_STK">Falls of Foyers</placeName> -<lb/>
+               Near Foyer, where <persName ref="./Personography.xml#EdgeM1">Maria</persName> was ill, is the scene of the Witches<lb/>
+               conference with <title ref="./Workography.xml#Macbe1">Macbeth</title> &amp;c &amp;c.<lb/>
+            </p>
+            <p>
+               From <placeName ref="./Placeography.xml#Glasgow_STK">Glasgow</placeName> you can see the Clachan of <placeName ref="./Placeography.xml#Aberfoyle_STK">Aberfoyle</placeName><lb/>
+               &amp; all <title ref="./Workography.xml#RobRo1">Rob Roys</title> country, but I will not bother you with telling<lb/>
+               you what you are to see as you will have <del>mu</del> &amp; have much<lb/>
+               better advisers - but I think I may venture to say you will not<lb/>
+            </p>
+            <p>
+               be disappointed for I think the scenery has far<lb/>
+               exceeded any expectations &amp; that there is <unclear>more</unclear><lb/>
+               <unclear>of</unclear> beauty &amp; of interest than I expected -. We went<lb/>
+            </p>
+            <p>
+               <unclear></unclear> to some of the cabins in <placeName ref="./Placeography.xml#Lochaber_STK">Lochaber</placeName>, generally<lb/>
+               considered the most dreary part of the Highlands, &amp; they were not as<lb/>
+               comfortable as the usual run of Kirk houses - but the people, <choice><orig>par<lb/>
+               =ticularly</orig><reg>particularly</reg></choice> the children are much more tidily &amp; better clothed than<lb/>
+               in poor <placeName ref="./Placeography.xml#IE">Ireland</placeName>. At <placeName ref="./Placeography.xml#Glasgow_STK">Glasgow</placeName>, all <title ref="./Workography.xml#RobRo1">Rob Roy</title> rises before one, but there<lb/>
+               is much worth seeing besides. <persName ref="./Personography.xml#HookJ1">D<hi rend="superscript">r</hi> Hooker</persName> &amp; his Botanic Gardens<lb/>
+               though<lb/>
+               not equally beautiful are equally interesting - <persName ref="./Personography.xml#MontA1">M<hi rend="superscript">r</hi>. Monteiths</persName> dying<lb/>
+               establishment and the steam worked weaving &amp; tambouring machine<lb/>
+               are well worth seeing - I hope you may be there of a Sunday to hear<lb/>
+               <persName ref="./Personography.xml#ChalT1">D<hi rend="superscript">r</hi>. Chalmers</persName> whom we only happened to meet in society - where he<lb/>
+               does not shine. At <placeName ref="./Placeography.xml#Edinburgh_STK">Edinburgh</placeName> I think you will like to see the great<lb/>
+               reservoir of water which is forming to supply the town &amp; which is not only curious<lb/>
+               in itself, but is very near the scenes of the Gentle Shepherd. On the road to<lb/>
+               which is <placeName ref="./Placeography.xml#Merchistoun-Tower_STK"><choice><orig>Merchiston</orig><reg>Merchistoun</reg></choice> Tower</placeName> where <add><hi rend="underline">the</hi></add><lb/>
+               <persName ref="./Personography.xml#NapiF1"><choice><orig>L<hi rend="superscript">d</hi>.</orig><reg>Lord</reg></choice> Napier</persName> lived. You will find a walk<lb/>
+               through the <placeName ref="./Placeography.xml#Cowgate_STK">Cowgate</placeName> &amp; Comongate in "my old romantic town" very well worth<lb/>
+               taking &amp; replete with more historic recollections than I have space or<lb/>
+               remaining for <persName ref="./Personography.xml#AllaD1"><choice><orig>Allens</orig><reg>Allan's</reg></choice></persName> paintings. &amp; <persName ref="./Personography.xml#BewiW1">M<hi rend="superscript">r</hi> Williams</persName> drawings <note type="certainty">Though it remains unclear to which Allan and Williams the author is referring, there is a strong case for the author referring to David Allan and William Bewick.</note>are the only<lb/>
+               other<lb/>
+               sights<lb/>
+            </p>
+            <closer>
+               <address>
+                  <addrLine>M<hi rend="superscript">rs</hi>. Brinkley<lb/></addrLine>
+               </address>
+            </closer>
+         </div>
+      </body>
+      <back> </back>
+   </text>
+</TEI>
