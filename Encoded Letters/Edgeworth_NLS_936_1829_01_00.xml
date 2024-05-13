@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from John Gibson Lockhart to Maria Edgeworth, January 31, 1829</title>
+            <author>John Gibson Lockhart</author>
+            <editor ref="Id_who">Alexandra LaGrand</editor>
+            <sponsor>
+               <orgName>Maria Edgeworth Letters Project</orgName>
+            </sponsor>
+            <sponsor>Wake Forest University, University of Tennessee, Xavier University, Texas
+               A&amp;M University</sponsor>
+            <principal>Jessica Richard, Hilary Havens, Robin Runia, Susan Egenolf</principal>
+            <respStmt>
+               <resp>Transcription and coding by</resp>
+               <persName ref="Id_who">Alexandra LaGrand</persName>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>First digital edition in TEI, date: <date when="2024-05-13">May 13, 2024</date>
+            </edition>
+            <respStmt>
+               <orgName type="naf" ref="Id_who">National Library of Scotland</orgName>
+               <resp> photos include: Edgeworth_NLS_936_1829_01_00_page01.jpg, Edgeworth_NLS_936_1829_01_00_page02.jpg, Edgeworth_NLS_936_1829_01_00_page03.jpg, Edgeworth_NLS_936_1829_01_00_page04.jpg, Edgeworth_NLS_936_1829_01_00_page05.jpg, Edgeworth_NLS_936_1829_01_00_page06.jpg</resp>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Maria Edgeworth Letters Project</authority>
+            <date>2022</date>
+            <availability>
+               <p>Reproduced by courtesy of the <orgName ref="http://id.loc.gov/authorities/names/n80044899">National Library of Scotland</orgName>
+               </p>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons Attribution 4.0 (CC BY 4.0) Unported License</licence>
+            </availability>
+            <idno>Edgeworth_NLS_936_1829_01_00</idno> 
+         </publicationStmt>
+         <seriesStmt>
+            <title>Maria Edgeworth Letters Project</title>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <repository>National Library of Scotland</repository>
+                  <collection></collection>
+                  <idno></idno>
+               </msIdentifier>
+               <head>Letter from 
+                  <persName ref="./Personography.xml#LockJ1">
+                     <forename>John Gibson</forename>
+                     <surname>Lockhart</surname>
+                  </persName>
+                  to <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>, <placeName></placeName>, 
+                  <date when="1829-01-31">Jany 31 1829</date>
+                  <stamp>National Library of Scotland stamp on first and last pages of letter</stamp>
+               </head>
+               <physDesc></physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>Edgeworth’s spelling and punctuation are retained in transcription, including non-standard spelling, line breaks, and hyphenation of words. The long s and ligatured forms are silently emended.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="./Personography.xml#LockJ1">John Gibson Lockhart</persName>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2024-05-13" who="Id_who">Created file for letter, encoded letter</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+           <pb n="1" facs="Edgeworth_NLS_936_1829_01_00_page01.jpg"/>
+           <opener>
+               <dateline>
+                  <date when="1816-08-04"/>Jany <unclear>31</unclear> 1829</dateline>
+               <salute>
+                  <persName>My dear Miss Edgeworth</persName>
+               </salute>
+            </opener>
+            <p>
+               - I have<lb/>
+               just returned <choice><orig>fm</orig><reg>from</reg></choice> <placeName ref="./Placeography.xml#STK">Scotland</placeName> where<lb/>
+               I heard the news of <persName ref="./Personography.xml#EdgeF3">your sister's</persName><lb/>
+               marriage - an event on which<lb/>
+               <persName ref="./Personography.xml#LockS1">my wife</persName> begs leave to join her<lb/>
+               congratulations <choice><orig>w</orig><reg>with</reg></choice> mine. I hope<lb/>
+               the <persName ref="./Personography.xml#EdgeF3">Lady</persName> will permit us to<lb/>
+               make her acquaintance as I<lb/>
+               understand she is to be settled<lb/>
+               in this vicinity.<lb/>
+            </p>
+            <p>
+               I saw at <placeName ref="./Placeography.xml#Abbotsford-House_STK">Abbotsford</placeName> your<lb/>
+               <persName ref="./Personography.xml#EdgeW1">youngest brother</persName> who was then<lb/>
+               visiting the <persName ref="./Personography.xml#BrewX1">Brewsters</persName> - I don't<lb/>
+            </p>
+            <p>
+               <pb n="2" facs="Edgeworth_NLS_936_1829_01_00_page02.jpg"/>
+               know where your brother <persName ref="./Personography.xml#EdgeW1">William</persName><lb/>
+               is but have a message for<lb/>
+               him which perhaps you will be<lb/>
+               kind enough to forward -<lb/>
+            </p>
+            <p>
+               I transcribe a note drawn<lb/>
+               up by a reverend friend of<lb/>
+               mine new here who takes <del></del><lb/>
+               charge of the Scientific department<lb/>
+               of "the Family <unclear>Litany</unclear>" - a<lb/>
+               miscellany about to be <choice><orig><unclear>pub<hi rend="superscript">d</hi></unclear></orig><reg>published</reg></choice><lb/>
+               by <persName ref="./Personography.xml#MurrJ1">Mr Murray</persName> (&amp; of which<lb/>
+               I enclose a prospectus)<lb/>
+            </p>
+            <p>
+               <pb n="3" facs="Edgeworth_NLS_936_1829_01_00_page03.jpg"/>
+               "I want a popular account<lb/>
+               of the rise &amp; present state of<lb/>
+               civil engineering in this<lb/>
+               country &amp; it ocurs to me that<lb/>
+               all the information which<lb/>
+               need be given on the subject<lb/>
+               might be embodied in a<lb/>
+               series of biographies of such<lb/>
+               men as <persName ref="./Personography.xml#BrinJ1">Brindley</persName>, <persName ref="./Personography.xml#SmeaJ1">Smeaton</persName>,<lb/>
+               <persName ref="./Personography.xml#RennJ1">Rennie</persName> &amp;c &amp;c &amp;c. If <persName ref="./Personography.xml#EdgeW1">Mr<lb/>
+               Edgeworth's</persName> avocations<lb/>
+               &amp; inclinations permit him<lb/>
+               to draw up such a book<lb/>
+               perhaps he <choice><orig>w<hi rend="superscript">d</hi></orig><reg>would</reg></choice> take the<lb/>
+               trouble to calculate the<lb/>
+            </p>
+            <p>
+               <pb n="4" facs="Edgeworth_NLS_936_1829_01_00_page04.jpg"/>
+               extent to which he thinks it<lb/>
+               <choice><orig>w<hi rend="superscript">d</hi></orig><reg>would</reg></choice> run - &amp; then, I doubt not,<lb/>
+               we <choice><orig>shd</orig><reg>should</reg></choice> be able to offer him<lb/>
+               ample remuneration for his<lb/>
+               services."<lb/>
+            </p>
+            <p>
+               Perhaps this sort of business<lb/>
+               is wholly out of <persName ref="./Personography.xml#EdgeW1"><choice><orig>yr</orig><reg>your</reg></choice> brother's</persName><lb/>
+               way; but I happened accidentally<lb/>
+               to mention his name &amp; since<lb/>
+               this has come of it, it can<lb/>
+               do little harm to submit the<lb/>
+               proposal. It is possible, if<lb/>
+               he be not <hi rend="underline">very</hi> busy, that<lb/>
+            </p>
+            <p>
+               <pb n="5" facs="Edgeworth_NLS_936_1829_01_00_page05.jpg"/>
+               he may not dislike such an<lb/>
+               exertion - at all events <hi rend="underline">you</hi><lb/>
+               will excuse me for having<lb/>
+               thought so.<lb/>
+            </p>
+            <p>
+               I left <persName ref="./Personography.xml#ScotW1">Sir Walter</persName> &amp; <persName ref="./Personography.xml#ScotA1">Anne Scott</persName><lb/>
+               in the best of health and<lb/>
+               spirits. He has a <title ref="./Workography.xml#AnneG1">Novel</title><lb/>
+               nearly ready of which I<lb/>
+               read &amp; was delighted with<lb/>
+               the first volume - all<lb/>
+               <placeName ref="./Placeography.xml#SZ">Swiss</placeName> scenery &amp; the Burgundian<lb/>
+               period -<lb/>
+               I hope you don't cry a halt<lb/>
+            </p>
+            <p>
+               <pb n="6" facs="Edgeworth_NLS_936_1829_01_00_page06.jpg"/>
+               in <hi rend="underline">Taking for Granted.</hi><lb/>
+               <note>Though Lockhart refers to the novel as "Taking for Granted," Sir Walter Scott named the novel "Anne of Geierstein."</note>
+            </p>
+            <closer>
+               Believe me ever, dear<lb/>
+               <persName ref="./Personography.xml#EdgeM1">Miss Edgeworth</persName>, your<lb/>
+               very faithful servant<lb/>
+               <persName ref="./Personography.xml#LockJ1"><hi rend="underline">J G Lockhart</hi></persName><lb/>
+            </closer>
+            <postscript>
+               <p>
+                  PS &amp; NB. <persName ref="./Personography.xml#PhilH1">D<hi rend="superscript">r</hi> Philpotts</persName><lb/>
+                  has turned a stout <choice><orig>pro-<lb/>
+                  catholic</orig><reg>pro-Catholic</reg></choice><lb/>
+               </p>
+            </postscript>
+        </div>
+      </body>
+      <back> </back>
+   </text>
+</TEI>
