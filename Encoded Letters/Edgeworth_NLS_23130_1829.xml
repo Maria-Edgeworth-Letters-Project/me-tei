@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from Walter Scott to Maria Edgeworth, 1829</title>
+            <author>Walter Scott</author>
+            <editor ref="Id_who">Alexandra LaGrand</editor>
+            <sponsor>
+               <orgName>Maria Edgeworth Letters Project</orgName>
+            </sponsor>
+            <sponsor>Wake Forest University, University of Tennessee, Xavier University, Texas
+               A&amp;M University</sponsor>
+            <principal>Jessica Richard, Hilary Havens, Robin Runia, Susan Egenolf</principal>
+            <respStmt>
+               <resp>Transcription and coding by</resp>
+               <persName ref="Id_who">Alexandra LaGrand</persName>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>First digital edition in TEI, date: <date when="2024-05-17">May 17, 20</date>
+            </edition>
+            <respStmt>
+               <orgName type="naf" ref="Id_who">National Library of Scotland</orgName>
+               <resp> photos include: Edgeworth_NLS_23130_1829_page01.jpg, Edgeworth_NLS_23130_1829_page02.jpg, Edgeworth_NLS_23130_1829_page03.jpg, Edgeworth_NLS_23130_1829_page04.jpg, Edgeworth_NLS_23130_1829_page05.jpg, Edgeworth_NLS_23130_1829_page06.jpg</resp>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Maria Edgeworth Letters Project</authority>
+            <date>2022</date>
+            <availability>
+               <p>Reproduced by courtesy of the <orgName ref="http://id.loc.gov/authorities/names/n80044899">National Library of Scotland</orgName>
+               </p>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons Attribution 4.0 (CC BY 4.0) Unported License</licence>
+            </availability>
+            <idno>Edgeworth_NLS_23130_1829</idno> 
+         </publicationStmt>
+         <seriesStmt>
+            <title>Maria Edgeworth Letters Project</title>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <repository>National Library of Scotland</repository>
+                  <collection></collection>
+                  <idno></idno>
+               </msIdentifier>
+               <head>Letter from 
+                  <persName ref="./Personography.xml#ScotW1">
+                     <forename>Walter</forename>
+                     <surname>Scott</surname>
+                  </persName>
+                  to <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>, <placeName></placeName>, 
+                  <date when="1829-01-01"></date>
+               </head>
+               <physDesc></physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>Edgeworth’s spelling and punctuation are retained in transcription, including non-standard spelling, line breaks, and hyphenation of words. The long s and ligatured forms are silently emended.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="./Personography.xml#ScotW1">Walter Scott</persName>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2024-05-17" who="Id_who">Created file for letter, encoded letter</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <pb n="1" facs="Edgeworth_NLS_23130_1829_page01.jpg"/>
+            <opener>
+               <salute>
+                  <persName>My dear Miss Edgeworth</persName>
+               </salute>
+            </opener>
+            <p>
+               I have had your letter for several days and only <choice><orig>an=<lb/>
+               swer</orig><reg>answer</reg></choice> just now not you may believe from what of interest in<lb/>
+               the contents but from the odd circumstance of being so <del></del>much<lb/>
+               <choice><orig>aflicted</orig><reg>afflicted</reg></choice> with chill blains in the fingers that my pen<lb/>
+               scrambles every way but the right one: Assuredly I should secure<lb/>
+               the character of a most crabbed fellow from these modern<lb/>
+               sages who judge of a man from his <choice><orig>hand writing</orig><reg>handwriting</reg></choice>. But as<lb/>
+               an old man becomes twice a child I must expect I suppose<lb/>
+               measles &amp; <choice><orig>small pox</orig><reg>smallpox</reg></choice> I only wish I could get a first set<lb/>
+               of teeth. To tell you the truth I feel the advance of age more<lb/>
+               than I like though my general health is excellent but<lb/>
+               I am not able to walk as I did and I fear I could not now<lb/>
+               visit <placeName ref="./Placeography.xml#St-Kevins-Bed_IE">Saint <choice><orig>Kevans</orig><reg>Kevin's</reg></choice> bed</placeName> This is a great affliction to one<lb/>
+               who has been so active as I have been in spite of all <choice><orig>disad=<lb/>
+               vantages</orig><reg>disadvantages</reg></choice> I must now have a friendly arm instead of<lb/>
+               relying on my own exertions and it is sad to think I<lb/>
+               shall be worse before I am better. However the mild<lb/>
+               weather may help me in some degree &amp; the worst is<lb/>
+               a quiet perry (I use to detest a quiet perry) as perhaps<lb/>
+               a garden chair<lb/>
+            </p>
+            <p>
+               All this does not prevent my sincere sympathy in<lb/>
+               the increase of your family happiness which I hope <persName ref="./Personography.xml#EdgeF3">Miss Fannys</persName><lb/>
+               marriage will afford to herself to you and all who love her<lb/>
+               I have not had the same opportunity to know her merits<lb/>
+            </p>
+            <p>
+               <pb n="2" facs="Edgeworth_NLS_23130_1829_page02.jpg"/>
+               those of my friends <persName ref="./Personography.xml#EdgeH1">M<hi rend="superscript">rs</hi> Butler</persName> and<lb/>
+               <persName ref="./Personography.xml#EdgeS2">M<hi rend="superscript">rs</hi>. Fox</persName> <del></del> But I saw<lb/>
+               enough of her (being your sister) when at <placeName ref="./Placeography.xml#Dublin_IE">Dublin</placeName> to feel most<lb/>
+               sincerely interested in a young person whose exterior is so amiable<lb/>
+               and I am sure she must partake of the talents and <del></del> good<lb/>
+               feelings of her sisters to deserve the kindest and best wishes<lb/>
+               of a friend of your family on the present interesting occasion<lb/>
+               In <persName ref="./Personography.xml#WilsL1">M<hi rend="superscript">r</hi> Wilson</persName> you describe the national character <persName ref="./Personography.xml#BullJ1">John Bull</persName><lb/>
+               who is not the worst of three natures though he has not the greater<lb/>
+               feeling and rich humour of your countrymen nor the shrewd <unclear>sagacity</unclear><lb/>
+               <del>of <unclear></unclear><add><unclear></unclear></add></del> or the <del></del> romantic spirit of thinking and adventuring<lb/>
+               which <add><unclear></unclear></add> the Scotch often conceal under their apparent coldness and which you<lb/>
+               have so well painted in that of <title ref="./Workography.xml#Ennui1">M<hi rend="superscript">c</hi>Leod in <unclear>ennui</unclear></title> Depend and<lb/>
+               I will find <placeName ref="./Placeography.xml#Russell-Square_ENK">Russell Square</placeName> when I go to <placeName ref="./Placeography.xml#London_ENK">London</placeName> were I be here a vessel<lb/>
+               of discovery to make it out and it will be <persName ref="./Personography.xml#WilsL1">M<hi rend="superscript">r</hi> Wilsons</persName> fault if we do<lb/>
+               not make an internal-acquaintance.<lb/>
+            </p>
+            <p>
+               I had the pleasure of receiving your <placeName ref="./Placeography.xml#US">American</placeName> friend <persName ref="./Personography.xml#CrugH1">Miss Douglas</persName><lb/>
+               who seems a mot ingenuous person She is sad want however of<lb/>
+               some one to teach her some points of tact in society which are<lb/>
+               necessary to regulate the best feelings and to correct the enthusiasm<lb/>
+               of <placeName ref="./Placeography.xml#CO">Columbian</placeName> independence. But I was as kind and civil<lb/>
+               to her as her time and my own permitted me to be and I hope<lb/>
+               I was successful in making her happy during her short visit<lb/>
+               at <placeName ref="./Placeography.xml#Abbotsford-House_STK">abbotsford</placeName> for I was <choice><orig>compelld</orig><reg>compelled</reg></choice> to leave her to pay suit &amp; service<lb/>
+               at the circuit<lb/>
+            </p>
+            <p>
+               The mention of the Circuit brings me to the horrors which you<lb/>
+               have so well described and which resemble nothing so much<lb/>
+               as a wild dream. Certainly I thought like you that the <choice><orig>publick</orig><reg>public</reg></choice><lb/>
+               alarm was but an exaggeration of vulgar rumour but the tragedy<lb/>
+               is too true &amp; I look in vain for a remedy of the evils though it<lb/>
+               easy to see them in which this black &amp; unnatural business<lb/>
+               has found its accursed origin<lb/>
+            </p>
+            <p>
+               The principal source certainly originates in the feelings<lb/>
+            </p>
+            <p>
+               <pb n="3" facs="Edgeworth_NLS_23130_1829_page03.jpg"/>
+               of attachment which the Scotch have for their deceased friends &amp; they are curious<lb/>
+               in the choice of their <add>place</add> of <unclear><choice><orig>sepuhlre</orig><reg>sepulchre</reg></choice></unclear> and a common <unclear>shepherd</unclear> is often at Whateve<lb/>
+               ruinous expence to his family transported many miles to some favoured place<lb/>
+               of <unclear><choice><orig>sepuhlre</orig><reg>sepulchre</reg></choice></unclear> which has been occupied by his fathers It follows of course<lb/>
+               that any interference with their remains <del>are</del> <add>is</add> considered <del>th</del> with most<lb/>
+               utter horror &amp; indignation To each of their super<add>r</add>iors as they live from clan<lb/>
+               ship or habits of dependence, they attach the same feeling of attachment<lb/>
+               I experienced it when I had a great domestic loss for I learned <choice><orig>after<lb/>
+               ward</orig><reg>afterward</reg></choice> that the cemetery was guarded, out of good will by the<lb/>
+               servants and <choice><orig>dependants</orig><reg>dependents</reg></choice> who had been attached to her during life and<lb/>
+               were I to be laid beside <persName ref="./Personography.xml#ScotM1">my lost companion</persName> just now I have no doubt it would<lb/>
+               be long before my humble friends would discontinue the same watch over my<lb/>
+               remains and that it would incur mortal <unclear><choice><orig>risque</orig><reg>risk</reg></choice></unclear> to approach them with<lb/>
+               the purpose of violation. This is on a kind and virtuous principle which<lb/>
+               every one so far partakes that although an unprejudiced person would<lb/>
+               have no <del><unclear></unclear></del> objections to the idea of his own remains undergoing dissection<lb/>
+               if their being exposed to scientific research could be of the least service to<lb/>
+               humanity yet we all shudder at the exposure of any who had<lb/>
+               been dear to us especially a wife or sister being subjected to a scalpel<lb/>
+               among a gazing and unfeeling crowd of students - One would<lb/>
+               fight and die to prevent it - This current of feeling is encouraged by the<lb/>
+               law which as distinguishing murderers and other atrocious criminals orders<lb/>
+               that their bodies should be given for <choice><orig>publick</orig><reg>public</reg></choice> dissection. This makes it <choice><orig>al=<lb/>
+               most</orig><reg>almost</reg></choice> impossible to assign <choice><orig>publickly</orig><reg>publicly</reg></choice> the bodies of those who die in<lb/>
+               the <choice><orig>publick</orig><reg>public</reg></choice> hospitals to the same fate for it would <unclear>bring</unclear> inflicting<lb/>
+               on poverty the penalty which wisely or unwisely the <del>same</del> law of the<lb/>
+               <del>court</del> country has denounced against guilt of the highest degree &amp; it<lb/>
+               would assuredly deprive all who have a remaining spark of feeling or<lb/>
+               shame, of the benefit of those consolations of charity of which they<lb/>
+               are the best objects. This <unclear>natural</unclear> prejudice <unclear></unclear>deeply seated<lb/>
+               to be eradicated. If not very liberal, it is surely natural <unclear></unclear> of the<lb/>
+               best feelings must be destroyed ere it can be eradicated What then<lb/>
+               remains - The only <unclear>idea</unclear> I see is to permit importatation from other <choice><orig>coun<lb/>
+               tries</orig></choice><lb/>
+            </p>
+            <p>
+               <pb n="4" facs="Edgeworth_NLS_23130_1829_page04.jpg"/>
+               countries If a subject can be hard in <placeName ref="./Placeography.xml#Paris_FR">Paris</placeName> for 10 or 20 franks it will surely<lb/>
+               pay the importer who brings it to <placeName ref="./Placeography.xml#STK">Scotland</placeName> &amp; if the medical<unclear></unclear> find<lb/>
+               it convenient to use more economy they will teach anatomy <del>g</del> in all<lb/>
+               surgical purposes equally will though they may not make such advances<lb/>
+               in physiology. Something must be done for there is an end of the Cantabit<lb/>
+               vacuus the last prerogative of beggary which entitled him to laugh at the <unclear><choice><orig>risque</orig></choice></unclear><lb/>
+               of robbery. the veriest wretch in the highway may be better booty than<lb/>
+               a person of consideration since the last <del>has</del> may have but a few shillings<lb/>
+               in his pocket and the beggar being once dead is worth ten pounds to his<lb/>
+               murderer<lb/>
+            </p>
+            <p>
+               The great number of the lower Irish which have come over here since<lb/>
+               the peace is like all important occurrences attended with its own share<lb/>
+               of good and evil. It must relieve <placeName ref="./Placeography.xml#IE">Ireland</placeName> in part of the excess of population<lb/>
+               which is one of its greatest evils and it accommodates <placeName ref="./Placeography.xml#STK">Scotland</placeName> <del>into</del> with<lb/>
+               a race of hardy and indefatigable labourers without which it would<lb/>
+               impossible to carry on the very expensive improvements which have been<lb/>
+               executed Our canals our railrods and our various public works are all<lb/>
+               wrought by Irish I have often employed them myself at burning clay<lb/>
+               and similar operations - I have found these labourers quiet and<lb/>
+               tractable light-spirited too, and <del></del>happy to a degree beyond <choice><orig>be<lb/>
+               -lief</orig><reg>belief</reg></choice> and in no <add>degree</add> quarrelsome Keep whisky from them and them from<lb/>
+               whisky - But most unhappily for all parties they work at far too<lb/>
+               <add>low</add> a rate, at a rate in short, which can but just procure salt and <choice><orig>po-<lb/>
+               tatoes</orig><reg>potatoes</reg></choice> They become reckless of course of all the comforts and decencies<lb/>
+               of life which they have no means of procuring Extreme poverty brings<lb/>
+               ignorance and vice and these are the mothers of crime If <placeName ref="./Placeography.xml#IE">Ireland</placeName><lb/>
+               were to submit to some kind of poor rate (I do not mean that of<lb/>
+               <placeName ref="./Placeography.xml#ENK">England</placeName>) but something that should secure to the indigent their<lb/>
+               natural share of the fruits of the earth and might enable them<lb/>
+               at least to feed while others are feasting it would apparently <unclear></unclear><lb/>
+               the character of the lower-orders, and deprive them of that <choice><orig>reckless<lb/>
+               ness</orig><reg>recklessness</reg></choice> of futurity which leads them to think only of the present. Indeed<lb/>
+               where intoxication of the lower ranks is mentioned as a vice we<lb/>
+               must<lb/>
+            </p>
+            <p>
+               <pb n="5" facs="Edgeworth_NLS_23130_1829_page05.jpg"/>
+               allow the<lb/>
+            </p>
+            <p>
+               temptation is well nigh inevitable Meat clothes, fire all that men<lb/>
+               can and do want are supplied by <add>a</add> drop of whisky, and no one<lb/>
+               should be surprised that the relief (too often the only one within<lb/>
+               the wretches power) is eagerly grasped at. We pay back I suspect<lb/>
+               the inconveniences we receive from the character of our Irish <choice><orig>impor<lb/>
+               tation</orig><reg>importation</reg></choice> by sending you a set of <choice><orig>half educated</orig><reg>half-educated</reg></choice>, <choice><orig>cold hearted</orig><reg>cold-hearted</reg></choice><lb/>
+               Scotchmen to be agents and middlemen Among them too, there are<lb/>
+               good and excellent characters yet I can conceive they often <choice><orig>mis<lb/>
+               lead</orig><reg>mislead</reg></choice> their English employers.<lb/>
+            </p>
+            <p>
+               I am no great believer in the extreme degree of <del>inform</del> improvement<lb/>
+               to be derived from the advancement of science for every pursuit of that<lb/>
+               nature tends when pushed to a certain extent to harden the heart &amp;<lb/>
+               render the philosopher reckless of every thing save the objects of his<lb/>
+               own pursuit; all equilibrium in the character is destroyed and<lb/>
+               the visual nerve of the understanding is perverted by being fixed<lb/>
+               on one object exclusively. Thus we see theological sects (although<lb/>
+               inculcating the moral doctrines) are eternally placing man’s zeal<lb/>
+               in opposition to them &amp; even in the calling it is astonishing how<lb/>
+               we become callous to right and wrong when the question is to gain<lb/>
+               or lose a cause &amp; I have myself often wondered how I became so<lb/>
+               indifferent to the horrors of a criminal trial <del>In</del> if it involved a<lb/>
+               point of law In like manner the pursuit of physical studies <choice><orig>in<lb/>
+               flicts</orig><reg>inflicts</reg></choice> tortures on the lower animals of creation and at length<lb/>
+               comes to rub shoulders against the <unclear>West Port</unclear>. The state of high<lb/>
+               <choice><orig>civilisation</orig><reg>civilization</reg></choice> to which we have arrived, is perhaps scarcely a<lb/>
+               national blessing since while the <hi rend="underline">few</hi> are improved to the highest<lb/>
+               point the many are in proportion tantalized and degraded &amp;<lb/>
+               the same nation displays at the same time the very highest and the<lb/>
+               very lowest state in which the human race can exist in point of<lb/>
+               intellect. Here is a <persName ref="./Personography.xml#KnoxR1">D<hi rend="superscript">r</hi></persName> who is able to take down the whole clock work<lb/>
+               of the human frame &amp; may in <unclear>time</unclear> find some way of repairing<lb/>
+               and putting it together again and <hi rend="underline">there</hi> is <persName ref="./Personography.xml#BurkW1">Burke</persName> with the body<lb/>
+               <note>Here, Scott is referring to the Burke and Hare murders. These murders were a string of sixteen killings where Burke and Hare killed and sold corpses to Dr. Knox for medical dissection.</note>
+            </p>
+            <p>
+               <pb n="6" facs="Edgeworth_NLS_23130_1829_page06.jpg"/>
+               murdered countrywoman on his back &amp; her blood on his hands<lb/>
+               asking his price for the body <del></del>from the learned carcass<lb/>
+               butcher. After all the Golden Age was the period for general hap<lb/>
+               piness when the Earth gave its <unclear>stores</unclear> Without labour and the<lb/>
+               people <del>were</del>existed only in the numbers which it could easily<lb/>
+               subsist but this was too good to last As our numbers increased our<lb/>
+               wants multiplied and here we are contending with increasing<lb/>
+               difficulties by the force of repeated inventions. Whether we shall<lb/>
+               at last eat each other as of yore, or whether the earth will get a<lb/>
+               flap with a comets tail first <del></del> who but the <persName ref="./Personography.xml#IrviE1">reverend M<hi rend="superscript">r</hi><lb/>
+               Irving</persName> will venture to pronounce.<lb/>
+               Now here is a fearful long letter and the next thing<lb/>
+               is to send under <persName ref="./Personography.xml#LeveG1">Lord Levesen Gowers</persName> omnipotent frank.<lb/>
+               <persName ref="./Personography.xml#ScotA1">Anne</persName> sends best compliments she says she had the honour to<lb/>
+               despatch her congratulations to you already. <persName ref="./Personography.xml#ScotW4">Walter</persName> and his<lb/>
+               little wife are at <placeName ref="./Placeography.xml#Nice_FR">Nice</placeName> He is now Major of his Regiment, which<lb/>
+               is rapid advancement &amp; so has gone abroad to see the world.<lb/>
+               <persName ref="./Personography.xml#LockJ1">Lockhart</persName> has been here for a week but is now gone for England I<lb/>
+               suspect he is at this moment stopped by the snow storm and <choice><orig>so<lb/>
+                  =lacing</orig><reg>solacing</reg></choice> himself with a cigar <del></del>somewhere in <placeName ref="./Placeography.xml#Northumberland_ENK"><choice><orig>North<lb/>
+               humberland</orig><reg>Northumberland</reg></choice></placeName>. That is all the news that can interest you<lb/>
+               <persName ref="./Personography.xml#BrewD1">D<hi rend="superscript">r</hi></persName> and <persName ref="./Personography.xml#BrewM1">M<hi rend="superscript">rs</hi> Brewster</persName> are rather getting over their heavy loss<lb/>
+               but it is still too visible on their brows and that broad river lying<lb/>
+               daily before them is a cruel remembrancer I saw a brother of<lb/>
+               yours on a visit there, he dined with us one day and promised to<lb/>
+               come and see us which I hope he will make good My pen has<lb/>
+               been declaring itself independent this half hour which is the<lb/>
+               more unnatural as it is engaged in writing to its <del></del>former<lb/>
+               mistress<lb/>
+            </p>
+        </div>
+      </body>
+      <back> </back>
+   </text>
+</TEI>
