@@ -6,7 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Letter from Unknown to Unknown, October 14, 1842</title>
+            <title>Letter from Richard Marshall to Rowland Hunter, October 14, 1842</title>
             <author/>
             <editor ref="Id_who">Alexandra LaGrand</editor>
             <sponsor>
@@ -25,7 +25,7 @@
             </edition>
             <respStmt>
                <orgName ref="http://id.loc.gov/authorities/names/n82003163">Princeton University Library</orgName>
-               <resp> photos include: Edgeworth_Princeton_1842_10_page01.jpg, Edgeworth_Princeton_1842_10_page02.jpg, Edgeworth_Princeton_1842_10_page03.jpg, Edgeworth_Princeton_1842_10_page04.jpg</resp>
+               <resp> photos include: Edgeworth_Princeton_1842_10_14_page01.jpg, Edgeworth_Princeton_1842_10_14_page02.jpg, Edgeworth_Princeton_1842_10_14_page03.jpg, Edgeworth_Princeton_1842_10_14_page04.jpg</resp>
             </respStmt>
          </editionStmt>
          <publicationStmt>
@@ -36,7 +36,7 @@
                </p>
                <licence target="https://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons Attribution 4.0 (CC BY 4.0) Unported License</licence>
             </availability>
-            <idno>Edgeworth_Princeton_1842_10</idno>
+            <idno>Edgeworth_Princeton_1842_10_14</idno>
          </publicationStmt>
          <seriesStmt>
             <title>Maria Edgeworth Letters Project</title>
@@ -49,8 +49,8 @@
                   <idno/>
                </msIdentifier>
                <head>Letter from 
-                  <persName>Unknown</persName>
-                   to <persName>Unknown</persName>, 
+                  <persName ref="./Personography.xml#MarsR1">Richard Marshall</persName>
+                  to <persName ref="./Personography.xml#HuntR1">Rowland Hunter</persName>, 
                   <date when="1842-10-14">Oct. 14 1842</date>
                </head>
                <physDesc/>
@@ -65,22 +65,23 @@
       <profileDesc>
          <correspDesc>
             <correspAction type="sent">
-               <persName>Unknown</persName>
+               <persName ref="./Personography.xml#MarsR1">Richard Marshall</persName>
             </correspAction>
             <correspAction type="received">
-               <persName>Unknown</persName>
+               <persName ref="./Personography.xml#HuntR1">Rowland Hunter</persName>
             </correspAction>
          </correspDesc>
       </profileDesc>
       <revisionDesc>
          <change when="2024-01-22" who="Id_who">Created file for letter, encoded letter</change>
          <change when="2024-01-26" who="Id_who">Added tag for Stationer's Hall Court</change>
+         <change when="2024-05-17">Corrected dates and names of sender and recipient</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <div type="letter">
-            <pb n="1" facs="Edgeworth_Princeton_1842_10_page01.jpg"/>
+            <pb n="1" facs="Edgeworth_Princeton_1842_10_14_page01.jpg"/>
             <opener>
                <dateline>
                   <name type="place" ref="Id_where"/>
@@ -120,7 +121,7 @@
                <unclear/>
             </p>
             <p>
-               <pb n="2" facs="Edgeworth_Princeton_1842_10_page02.jpg"/>
+               <pb n="2" facs="Edgeworth_Princeton_1842_10_14_page02.jpg"/>
                <add>then</add> call a meeting of the <unclear>Partners</unclear>, whose <unclear>consent</unclear>
                <lb/>
                I must obtain before I can take upon myself<lb/>
@@ -177,7 +178,7 @@
                   most of these are still on hand.<lb/>
                </p>
                <p>
-                  <pb n="3" facs="Edgeworth_Princeton_1842_10_page03.jpg"/>
+                  <pb n="3" facs="Edgeworth_Princeton_1842_10_14_page03.jpg"/>
                   <title ref="./Workography.xml#Frank1">
                      <hi rend="underline">Frank - 3 Vols.</hi>
                   </title> 2000 were printed in 1837, and<lb/>
@@ -230,7 +231,7 @@
             </postscript>
             <closer>
                <address>
-                  <pb n="4" facs="Edgeworth_Princeton_1842_10_page04.jpg"/>
+                  <pb n="4" facs="Edgeworth_Princeton_1842_10_14_page04.jpg"/>
                   <addrLine>
                      <persName ref="./Personography.xml#EdgeM1">Maria's</persName>
                   </addrLine>
