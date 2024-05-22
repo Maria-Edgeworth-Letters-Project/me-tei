@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from Walter Scott to Maria Edgeworth, March 23, 1825</title>
+            <author>Walter Scott</author>
+            <editor ref="Id_who">Alexandra LaGrand</editor>
+            <sponsor>
+               <orgName>Maria Edgeworth Letters Project</orgName>
+            </sponsor>
+            <sponsor>Wake Forest University, University of Tennessee, Xavier University, Texas
+               A&amp;M University</sponsor>
+            <principal>Jessica Richard, Hilary Havens, Robin Runia, Susan Egenolf</principal>
+            <respStmt>
+               <resp>Transcription and coding by</resp>
+               <persName ref="Id_who">Alexandra LaGrand</persName>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>First digital edition in TEI, date: <date when="2024-05-22">May 22, 2024</date>
+            </edition>
+            <respStmt>
+               <orgName type="naf" ref="Id_who">National Library of Scotland</orgName>
+               <resp> photos include: Edgeworth_NLS_23130_1825_03_23_page01.jpg, Edgeworth_NLS_23130_1825_03_23_page02.jpg, Edgeworth_NLS_23130_1825_03_23_page03.jpg, Edgeworth_NLS_23130_1825_03_23_page04.jpg, Edgeworth_NLS_23130_1825_03_23_page05.jpg, Edgeworth_NLS_23130_1825_03_23_page06.jpg</resp>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Maria Edgeworth Letters Project</authority>
+            <date>2022</date>
+            <availability>
+               <p>Reproduced by courtesy of the <orgName ref="http://id.loc.gov/authorities/names/n80044899">National Library of Scotland</orgName>
+               </p>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons Attribution 4.0 (CC BY 4.0) Unported License</licence>
+            </availability>
+            <idno>Edgeworth_NLS_23130_1825_03_23</idno> 
+         </publicationStmt>
+         <seriesStmt>
+            <title>Maria Edgeworth Letters Project</title>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <repository>National Library of Scotland</repository>
+                  <collection></collection>
+                  <idno></idno>
+               </msIdentifier>
+               <head>Letter from 
+                  <persName ref="./Personography.xml#ScotW1">
+                     <forename>Walter</forename>
+                     <surname>Scott</surname>
+                  </persName>
+                  to <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>, <placeName></placeName>, 
+                  <date when="1825-03-23">March 23 1825</date>
+               </head>
+               <physDesc></physDesc>
+            </msDesc>
+            <bibl>In addition to our edited version, this letter was previously published in
+               <!--complete bibiographical info if letter was published in a book here - if not delete-->
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>Edgeworth’s spelling and punctuation are retained in transcription, including non-standard spelling, line breaks, and hyphenation of words. The long s and ligatured forms are silently emended.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="./Personography.xml#ScotW1">Walter Scott</persName>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2024-05-22" who="Id_who">Created file for letter, encoded letter</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <pb n="1" facs="Edgeworth_NLS_23130_1825_03_23_page01.jpg"/>
+            <opener>
+               <salute>
+                  <persName>My dear Miss Edgeworth</persName>
+               </salute>
+            </opener>
+            <p>
+               I calculate as the <placeName ref="./Placeography.xml#US">Americans</placeName><lb/>
+               say that this will find the Lady of<lb/>
+               <placeName ref="./Placeography.xml#Lochore_STK">Lochore</placeName> with her <del>Schwazritter</del> Schwarz=<lb/>
+               Ritter as a friend of mine calls <persName ref="./Personography.xml#ScotW4">Walter</persName><lb/>
+               (alleging that he is a croat in <choice><orig>disguize</orig><reg>disguise</reg></choice><lb/>
+               and that he longs to ask him about<lb/>
+               the battle of Austerlitz) I say <add>I hope</add> that<lb/>
+               this will find the black hussar and<lb/>
+               his <persName ref="./Personography.xml#ScotJ1">little bride</persName> at quiet mornings at<lb/>
+               <placeName ref="./Placeography.xml#Edgeworthstown_IE">Edgeworthstown</placeName> though I suppose<lb/>
+               the gentleman's stay will be very<lb/>
+               brief. I hope my dear little <persName ref="./Personography.xml#ScotJ1">Jane</persName> will<lb/>
+               get over her fears and <add>that</add> to such advantage<lb/>
+               as her quiet nature will permit as with<lb/>
+               all her humility and shyness she has at<lb/>
+               the <unclear>foundation</unclear> a strong share both of<lb/>
+               principle and good sense with fortitude<lb/>
+               where it is necessary. I am anxious to<lb/>
+               hear that she is safe as your <unclear>side</unclear> of<lb/>
+               that vile channel and under the<lb/>
+               protection of the kind friends who<lb/>
+            </p>
+            <p>
+               <pb n="2" facs="Edgeworth_NLS_23130_1825_03_23_page02.jpg"/>
+               have <choice><orig>offerd</orig><reg>offered</reg></choice> her hospitality<lb/>
+               You wished to have for a mutual<lb/>
+               friend I think one of Spice's puppies I<lb/>
+               did not send you one of <del>any</del> indeed<lb/>
+               keep any of the first little which is<lb/>
+               seldom good for much but she will<lb/>
+               have a family this spring &amp; as the Sire<lb/>
+               is of high favor and he herself one of<lb/>
+               best-bred <unclear>terriers</unclear> in <placeName ref="./Placeography.xml#STK">Scotland</placeName> I wish<lb/>
+               to know whether you still wish me<lb/>
+               to keep <del>one</del> a whelp and whether it<lb/>
+               should be male or female or if you<lb/>
+               would prefer a brace. Spice is quite<lb/>
+               recovered of her <unclear>Asthma</unclear> notwithstanding<lb/>
+               <persName ref="./Personography.xml#EdgeH1">Miss Harriets</persName> most anxious dream<lb/>
+               She dispatches <unclear>rats</unclear> and <unclear>vermin</unclear> in<lb/>
+               the most knowing <choice><orig>stile</orig><reg>style</reg></choice> and is an<lb/>
+               extremely kind &amp; sociable creature She<lb/>
+               is a capital specimen of the,<lb/>
+               <unclear>Fierce</unclear> terriers wont in high-<choice><orig>hilld</orig><reg>hilled</reg></choice><lb/>
+               <placeName ref="./Placeography.xml#Liddesdale_STK">Liddesdale</placeName><lb/>
+               To <unclear>storm</unclear> the wild-cat's lodge and badgers<lb/>
+               <unclear>rough</unclear><lb/>
+            </p>
+            <p>
+               <pb n="3" facs="Edgeworth_NLS_23130_1825_03_23_page03.jpg"/>
+               How does your literary undertaking come<lb/>
+               on? and have you determined to play<lb/>
+               the <unclear>incognita</unclear>? if so it will cost you bold<lb/>
+               fibbing if it can be termed so when one<lb/>
+               denies what no one has a right to <choice><orig>enquire</orig><reg>inquire</reg></choice><lb/>
+               into. Have you heard from <persName ref="./Personography.xml#FoxX2">M<hi rend="superscript">rs</hi> Fox Lane</persName><lb/>
+               whose absence at this time I sincerely<lb/>
+               regret as I know she would have been<lb/>
+               kind to <persName ref="./Personography.xml#ScotJ1">Jane</persName>. I hope she will bring<lb/>
+               some <placeName ref="./Placeography.xml#Venice_IT"><unclear>Venetian</unclear></placeName> or <placeName ref="./Placeography.xml#Sicily_STK"><unclear>Sicilian</unclear></placeName> ballads home<lb/>
+               with her the prettiest musical <choice><orig><unclear>impor-</unclear><lb/>
+               <unclear>tations</unclear></orig><reg>importations</reg></choice> in the opinion of such vulgar<lb/>
+               <unclear>hearers</unclear> as I am. We are rather lonely<lb/>
+               here having nobody but <persName ref="./Personography.xml#ScotM1">Lady S.</persName> <persName ref="./Personography.xml#ScotA1">Anne</persName><lb/>
+               and myself at <placeName ref="./Placeography.xml#Abbotsford-House_STK">Abbotsford</placeName> <persName ref="./Personography.xml#LockJ1">Lockhart's</persName><lb/>
+               <unclear>business detaining him</unclear> in town: the<lb/>
+               want of <persName ref="./Personography.xml#LockS1">Sophia</persName> and little <persName ref="./Personography.xml#LockJ3">Johnie</persName> is<lb/>
+               rather annoying I have given <persName ref="./Personography.xml#LockJ3">Johnie</persName><lb/>
+               a pony so very small that it is less<lb/>
+               than many dogs otherwise so beautiful<lb/>
+               made &amp; so calm that it might serve<lb/>
+               the King of Li<add>l</add>liput God save his grace.<lb/>
+            </p>
+            <p>
+               <pb n="4" facs="Edgeworth_NLS_23130_1825_03_23_page04.jpg"/>
+               <persName ref="./Personography.xml#LockJ3">Johnie</persName> with a little <unclear>assistance</unclear> rides<lb/>
+               into the hall and dining parlour and<lb/>
+               like the <unclear>minstrels</unclear> of old "up to the<lb/>
+               fur board-head" and the pony <choice><orig>per<lb/>
+               -fectly</orig><reg>perfectly</reg></choice> understands, the value of a<lb/>
+               clumsy piece of bread When I write<lb/>
+               about these trifles you may be sure I<lb/>
+               have little else to say. The people are<lb/>
+               all much here about joint stock <choice><orig><unclear>compa<lb/>
+               -nies</unclear></orig><reg>companies</reg></choice> and the <unclear>madness</unclear> which possesses<lb/>
+               <persName ref="./Personography.xml#BullJ1">John Bull</persName> has caught his speculative<lb/>
+               brother <persName ref="./Personography.xml#SawnX1">Sawney</persName> No man can commit<lb/>
+               the extremity of fully with so grave a<lb/>
+               <unclear>countenance</unclear> and under the influence<lb/>
+               of such admirable <unclear>reasoning</unclear> as a<lb/>
+               Scotchman The whole nation indeed de<lb/>
+               sires the church is given to the Sapient<lb/>
+               Monarch of old "that of the wisest fools<lb/>
+               in Christendom." Such folly however<lb/>
+               has a better chance to pass <unclear>unnoticed</unclear><lb/>
+               as the perpetrator completely possesses<lb/>
+               his own self opinion. They <unclear>treat</unclear> <unclear>laughers</unclear><lb/>
+               as<lb/>
+            </p>
+            <p>
+               <pb n="5" facs="Edgeworth_NLS_23130_1825_03_23_page05.jpg"/>
+               as the <placeName ref="./Placeography.xml#Newcastle_ENK">Newcastle</placeName> Keel-men did the owl. The keel (a <choice><orig>parti<lb/>
+               cular</orig><reg>particular</reg></choice> boat for carrying the coal down the Tyne) had run ashore<lb/>
+               under the ruins of the old <placeName ref="./Placeography.xml#St-Pauls-Church-Jarrow_ENK">abbey of Jarrow</placeName> and the shock startled<lb/>
+               out an owl from her place of strength the Hand who was afore<lb/>
+               having never seen such bird in his life concluded from its<lb/>
+               appearance &amp; cry that it must be a spirit and exhorted his <choice><orig>com<lb/>
+               -rade</orig><reg>comrade</reg></choice> to come ahead &amp; speak to it which he did to this purpose<lb/>
+               The supposed ghost you must understand had treated them<lb/>
+               with two or three shrieks "<hi rend="underline">Hoo</hi>! <hi rend="underline">hoo</hi>!" said the keeler who thought<lb/>
+               the expression of the owls wonder too <unclear>strong</unclear> for the occasion " What's<lb/>
+               thee <hi rend="underline">hoo hoo-ing</hi> at - didst never see a keel ashore before?" I<lb/>
+               believe we shall see a few keels<lb/>
+               Ashore before the play is <choice><orig>playd</orig><reg>played</reg></choice><lb/>
+               out whether we are all <unclear>allowed</unclear> to<lb/>
+               laugh at them or no. We are<lb/>
+               <choice><orig><unclear>endeavouring</unclear></orig><reg>endeavoring</reg></choice> to profit by the<lb/>
+               mania to get a rail road<lb/>
+               brought up from <placeName ref="./Placeography.xml#Kelso_STK">Kelso</placeName> which<lb/>
+               would accomodate a valuable track of country with coal and<lb/>
+               lime from which we are twenty miles distant We had a meeting<lb/>
+               of our committee here on tuesday on which occasion <persName ref="./Personography.xml#ScotA1">Anne</persName> (who<lb/>
+               is a decided punstress) hearing more of the undertaking I supposed<lb/>
+               than she relished observed if our conversation was deficient<lb/>
+               in <hi rend="underline">wit</hi> there was no want of <hi rend="underline">raillery</hi>. Did it ever strike you<lb/>
+               that <persName ref="./Personography.xml#ScotA1">Anne</persName> (talent apart) has an odd cast of <title ref="./Workography.xml#MuchA1">Beatrices</title> <choice><orig>humour</orig><reg>humor</reg></choice><lb/>
+            </p>
+            <closer>
+               <address>
+                  <addrLine>1825</addrLine>
+                  <addrLine><unclear></unclear>.</addrLine>
+                  <addrLine>E</addrLine>
+                  <addrLine><persName ref="./Personography.xml#EdgeM1">Miss Maria Edgeworth</persName> -</addrLine>
+               </address>
+            </closer>
+         </div>
+      </body>
+      <back> </back>
+   </text>
+</TEI>
