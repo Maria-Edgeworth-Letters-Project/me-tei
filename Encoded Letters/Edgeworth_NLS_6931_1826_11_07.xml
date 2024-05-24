@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from Maria Edgeworth to Mrs. Brinkley, November 7, 1826</title>
+            <author>Maria Edgeworth</author>
+            <editor ref="Id_who">Alexandra LaGrand</editor>
+            <sponsor>
+               <orgName>Maria Edgeworth Letters Project</orgName>
+            </sponsor>
+            <sponsor>Wake Forest University, University of Tennessee, Xavier University, Texas
+               A&amp;M University</sponsor>
+            <principal>Jessica Richard, Hilary Havens, Robin Runia, Susan Egenolf</principal>
+            <respStmt>
+               <resp>Transcription and coding by</resp>
+               <persName ref="Id_who">Alexandra LaGrand</persName>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>First digital edition in TEI, date: <date when="2024-05-24">May 24, 2024</date>
+            </edition>
+            <respStmt>
+               <orgName type="naf" ref="Id_who">National Library of Scotland</orgName>
+               <resp> photos include: Edgeworth_NLS_6931_1826_11_07_page01.jpg, Edgeworth_NLS_6931_1826_11_07_page02.jpg, Edgeworth_NLS_6931_1826_11_07_page03.jpg, Edgeworth_NLS_6931_1826_11_07_page04.jpg</resp>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Maria Edgeworth Letters Project</authority>
+            <date>2022</date>
+            <availability>
+               <p>Reproduced by courtesy of the <orgName ref="http://id.loc.gov/authorities/names/n80044899">National Library of Scotland</orgName>
+               </p>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons Attribution 4.0 (CC BY 4.0) Unported License</licence>
+            </availability>
+            <idno>Edgeworth_NLS_6931_1826_11_07</idno> 
+         </publicationStmt>
+         <seriesStmt>
+            <title>Maria Edgeworth Letters Project</title>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <repository>National Library of Scotland</repository>
+                  <collection></collection>
+                  <idno></idno>
+               </msIdentifier>
+               <head>Letter from 
+                  <persName ref="./Personography.xml#EdgeM1">
+                     <forename>Maria</forename>
+                     <surname>Edgeworth</surname>
+                  </persName>
+                  to <persName ref="./Personography.xml#BrinE1">Esther Brinkley</persName>, <placeName ref="./Placeography.xml#Dunsink-Observatory_IE">The Observatory</placeName>, <placeName ref="./Placeography.xml#Dublin_IE">Dublin</placeName>, <date when="1826-11-07">Nov<hi rend="superscript">r</hi>. 7<hi rend="superscript">th</hi> 1826</date>
+                  <stamp>Postage stamp on address leaf with text: "A 3 NO 3 1826"</stamp>
+               </head>
+               <physDesc></physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>Edgeworth’s spelling and punctuation are retained in transcription, including non-standard spelling, line breaks, and hyphenation of words. The long s and ligatured forms are silently emended.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="./Personography.xml#BrinE1">Esther Brinkley</persName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2024-05-24" who="Id_who">Created file for letter, encoded letter</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <pb n="1" facs="Edgeworth_NLS_6931_1826_11_07_page01.jpg"/>
+            <opener>
+               <dateline>
+                  <name type="place" ref="Id_where"/>Black Castle / I stay here till Dec<hi rend="superscript">r</hi>. 1<hi rend="superscript">st</hi>
+                  <date when="1826-11-07"/>Nov<hi rend="superscript">r</hi>. 7<hi rend="superscript">th</hi> 1826</dateline>
+            </opener>
+            <p>
+               Surely my dear <persName ref="./Personography.xml#BrinE1">M<hi rend="superscript">rs</hi> Brinkley</persName> you know as<lb/>
+               well as if you were with their side of me that<lb/>
+               I have the warmest interest in all that<lb/>
+               has happened and have been feeling<lb/>
+               for you and with you - though I have not<lb/>
+               written to say so - I have seen all your letters<lb/>
+               - know all you have said - done - felt -<lb/>
+               thought - and love you all the better -<lb/>
+            </p>
+            <p>
+               Now that the first tide of congratulations<lb/>
+               have passed over, and that the overwhelming<lb/>
+               truth has subsided you can have time for<lb/>
+               mine - most sincere - most cordial they<lb/>
+               are-<lb/>
+            </p>
+            <p>
+               All things considered - and balanced<lb/>
+               I can honestly tell you that I do believe you will<lb/>
+               be as happy in a palace as you <del>were</del> have been<lb/>
+               in the observatory - more I cannot say - and<lb/>
+               you will feel that this is saying quite enough<lb/>
+               - I wish ... (<persName ref="./Personography.xml#BrinJ1">Doctor Brinkley's</persName>) I was going to say<lb/>
+               I mean the <persName ref="./Personography.xml#CoppW1">Bishop of Cloyne's</persName> parting with<lb/>
+               his instrument were well over - and your<lb/>
+               parting with your daughter - you can neither<lb/>
+               of you bear to hear me mention these things - but<lb/>
+               I am doing you a service - It is surprising how<lb/>
+            </p>
+            <p>
+               <pb n="2" facs="Edgeworth_NLS_6931_1826_11_07_page02.jpg"/>
+               the mind learns to submit to necessity - and when<lb/>
+               we have heard and said to ourselves repeatedly<lb/>
+               that any anything must be the <hi rend="underline">must be</hi> at last becomes<lb/>
+               easy - at least to good &amp; well regulated minds-<lb/>
+            </p>
+            <p>
+               I was delighted to hear through <persName ref="./Personography.xml#EdgeF2">M<hi rend="superscript">rs</hi> Edgeworth</persName><lb/>
+               the description of your new residence - the palace<lb/>
+               built by <unclear>bits</unclear> at such different times by such<lb/>
+               different people with the different views of what<lb/>
+               is <hi rend="underline">necessary for living</hi> according to the progress of<lb/>
+               refinement &amp; luxury - I am glad you have<lb/>
+               good gardens - <hi rend="underline">that</hi> will be a great source of<lb/>
+               pleasure to you all - to <hi rend="underline">you</hi> especially.<lb/>
+            </p>
+            <p>
+               I heard of your most hospitable wish to receive<lb/>
+               us all in your <del>new</del> palace some time or other<lb/>
+               and I assure you I look forward to the possibility<lb/>
+               as one great pleasure in store for us in future<lb/>
+               life<lb/>
+            </p>
+            <p>
+               <persName ref="./Personography.xml#EdgeF2">M<hi rend="superscript">rs</hi> Edgeworth</persName> had the joy of passing a few<lb/>
+               days with <persName ref="./Personography.xml#EdgeH1">Harriet Butler</persName> at the Vicarage at Town<lb/>
+               - I know how sincerely you all love her and<lb/>
+               you would I am sure be delighted to see how<lb/>
+               happily she is established - married to a man<lb/>
+               who appreciates all her qualities &amp; (may I say) <choice><orig>ta-<lb/>
+               lents</orig><reg>talents</reg></choice> - who has literary tastes and loves her the<lb/>
+               more for having them &amp; whose strict integrity &amp;<lb/>
+               truth of character in small things as well as great<lb/>
+               peculiarly suit her own habits and principles -<lb/>
+               Their tempers too are excellently suited - <add><choice><orig>tho</orig><reg>though</reg></choice></add> one is lively &amp; the<lb/>
+            </p>
+            <p>
+               <pb n="3" facs="Edgeworth_NLS_6931_1826_11_07_page03.jpg"/>
+               other grave - one remarkably active - the other slow<lb/>
+               to rouse - I did not say <hi rend="underline">indolent</hi> - <hi rend="underline">quite</hi> did I?-<lb/>
+               - often the differences of character make people suit<lb/>
+               all the better for living together - defects in one are<lb/>
+               felt to be compensated <add>by the other</add> &amp; deficiencies supplied<lb/>
+               on each side happily - for which both are grateful<lb/>
+               to each other - &amp; life goes on better than if both<lb/>
+               were perfect - after all who is?- -<lb/>
+            </p>
+            <p>
+               Tell me now I pray you as much as you can<lb/>
+               of yourselves and of <persName ref="./Personography.xml#GravX2">M<hi rend="superscript">rs</hi>.. Graves</persName> - that I may feel<lb/>
+               <del>that</del> I have not been <add>too</add> guilty of that family =<lb/>
+               <hi rend="underline">egotism</hi> for which I believe we Edgeworths are<lb/>
+               infamous - Show me that your heart overflows to<lb/>
+               <unclear>mine as</unclear> mine does to you - My most affection<lb/>
+               <unclear>and con</unclear>gratulations to the <persName ref="./Personography.xml#CoppW1">Bishop</persName> - No <unclear></unclear><lb/>
+               <unclear></unclear> - or fortune can add to the respe<unclear>ct</unclear><lb/>
+               I have always felt for him<lb/>
+            </p>
+            <closer>
+               Yours my dear <persName ref="./Personography.xml#BrinE1">M<hi rend="superscript">rs</hi> Brinkley</persName><lb/>
+               sincerely &amp; affectionately<lb/>
+               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName> -<lb/>
+            </closer>
+            <postscript>
+               <p>
+                  I have heard from <persName ref="./Personography.xml#EdgeF1">Francis</persName> &amp; from <placeName ref="./Placeography.xml#Trinity-College_ENK"><unclear>Trin<hi rend="superscript">y</hi></unclear> Coll.<lb/>
+                     Cambridge</placeName> where he is comfortably settled - He<lb/>
+                  writes in good spirits and as if he was <hi rend="underline">taking</hi><lb/>
+                  to the place kindly - He likes his tutor - <persName ref="./Personography.xml#ThorT1">Thorpe</persName> -<lb/>
+                  as well as he can judge on a weeks acquaintance<lb/>
+                  -pays 14<choice><orig><hi rend="superscript">sh</hi></orig><reg>shillings</reg></choice> a week for his lodgings - &amp; has bought<lb/>
+                  <add>describes his legs &amp; arms at war with his new gown</add><lb/>
+                  cups &amp; saucers &amp; honey=dish too &amp; made a most<lb/>
+                  entertaining &amp; interesting letter of all these petty concerns<lb/>
+               </p>
+            </postscript>
+            <postscript>
+               <p>
+                  <pb n="4" facs="Edgeworth_NLS_6931_1826_11_07_page04.jpg"/>
+                  -Well for those who <hi rend="underline">can</hi> write &amp; do write all that comes<lb/>
+                  uppermost to their <add>own</add> family - That kind of openness &amp;<lb/>
+                  playfulness is always a good symptom - &amp; a good<lb/>
+                  safeguard - Nonsense - and art - seldom go<lb/>
+                  together - except in Cromwell - and a few others<lb/>
+                  - but theirs was not playful nonsense - but <choice><orig>hy<lb/>
+                  pocritical</orig><reg>hypocritical</reg></choice> slang -<lb/>
+                  I feel very much <hi rend="underline">afraid</hi> for our dear friend <persName ref="./Personography.xml#ScotW1">Sir Walters</persName><lb/>
+                  <title ref="./Workography.xml#LifeN1">life of <choice><orig>Bonaparte</orig><reg>Buonaparte</reg></choice></title> - I wish he never had undertaken<lb/>
+                  it - History <choice><orig>sh<hi rend="superscript">d</hi></orig><reg>should</reg></choice> not be sent sheet by sheet fresh<lb/>
+                  from the pen to the press - I hope <hi rend="underline">that</hi> is only a<lb/>
+                  newspaper lie - He <choice><orig>sh<hi rend="superscript">d</hi></orig><reg>should</reg></choice> contradict it - or some friend<lb/>
+                  rather <choice><orig>sh<hi rend="superscript">d</hi></orig><reg>should</reg></choice> contradict it for him -<lb/>
+               </p>
+            </postscript>
+            <closer>
+               <address>
+                  <addrLine><persName ref="./Personography.xml#BrinE1">M<hi rend="superscript">rs</hi> Brinkley</persName><lb/></addrLine>
+                  <addrLine><placeName ref="./Placeography.xml#Dunsink-Observatory_IE">The Observatory</placeName><lb/></addrLine>
+                  <addrLine><placeName ref="./Placeography.xml#Dublin_IE">Dublin</placeName><lb/></addrLine>
+                  <addrLine><persName ref="./Personography.xml#TeurG1">G. Teurner Esq</persName><lb/></addrLine>
+               </address>
+            </closer>
+         </div>
+      </body>
+      <back> </back>
+   </text>
+</TEI>
