@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from Frances Anne Edgeworth to Esther Brinkley, May 9, 1829</title>
+            <author>Frances Edgeworth</author>
+            <editor ref="Id_who">Alexandra LaGrand</editor>
+            <sponsor>
+               <orgName>Maria Edgeworth Letters Project</orgName>
+            </sponsor>
+            <sponsor>Wake Forest University, University of Tennessee, Xavier University, Texas
+               A&amp;M University</sponsor>
+            <principal>Jessica Richard, Hilary Havens, Robin Runia, Susan Egenolf</principal>
+            <respStmt>
+               <resp>Transcription and coding by</resp>
+               <persName ref="Id_who">Alexandra LaGrand</persName>
+              </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>First digital edition in TEI, date: <date when="2024-05-26">May 26, 2024</date>
+            </edition>
+            <respStmt>
+               <orgName type="naf" ref="Id_who">National Library of Scotland</orgName>
+               <resp> photos include: Edgeworth_NLS_6931_1829_05_09_page01.jpg, Edgeworth_NLS_6931_1829_05_09_page02.jpg, Edgeworth_NLS_6931_1829_05_09_page03.jpg, Edgeworth_NLS_6931_1829_05_09_page04.jpg, Edgeworth_NLS_6931_1829_05_09_page05.jpg, Edgeworth_NLS_6931_1829_05_09_page06.jpg</resp>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Maria Edgeworth Letters Project</authority>
+            <date>2022</date>
+            <availability>
+               <p>Reproduced by courtesy of the <orgName ref="http://id.loc.gov/authorities/names/n80044899">National Library of Scotland</orgName>
+               </p>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons Attribution 4.0 (CC BY 4.0) Unported License</licence>
+            </availability>
+            <idno>Edgeworth_NLS_6931_1829_05_09</idno> 
+         </publicationStmt>
+         <seriesStmt>
+            <title>Maria Edgeworth Letters Project</title>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <repository>National Library of Scotland</repository>
+                  <collection></collection>
+                  <idno></idno>
+               </msIdentifier>
+               <head>Letter from 
+                  <persName ref="./Personography.xml#EdgeF2">
+                     <forename>Frances Anne</forename>
+                     <surname>Edgeworth</surname>
+                  </persName>
+                  to <persName ref="./Personography.xml#BrinE1">Esther Brinkley</persName>, <placeName></placeName>, 
+                  <date when="1829-05-09">May 9<hi rend="superscript">th</hi> 1829</date>
+               </head>
+               <physDesc></physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>Edgeworth’s spelling and punctuation are retained in transcription, including non-standard spelling, line breaks, and hyphenation of words. The long s and ligatured forms are silently emended.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="./Personography.xml#EdgeF2">Frances Anne Edgeworth</persName>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="./Personography.xml#BrinE1">Esther Brinkley</persName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2024-05-26" who="Id_who">Created file for letter, encoded letter</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <pb n="1" facs="Edgeworth_NLS_6931_1829_05_09_page01.jpg"/>
+            <opener>
+               <dateline>
+                  <date when="1829-05-09"/>May 9<hi rend="superscript">th</hi> 1829</dateline>
+                  <name type="place" ref="Id_where"/>Edgeworthstown
+            </opener>
+            <p>
+               It was but a few days ago dear <persName ref="./Personography.xml#BrinE1">M<hi rend="superscript">rs</hi> Brinkley</persName><lb/>
+               that I was reading over your beautiful and touching<lb/>
+               letter on the death of your beautiful and young<lb/>
+               <persName ref="./Personography.xml#BrinA1"><choice><orig>daughter in law</orig><reg>daughter-in-law</reg></choice></persName> - little thinking that in two<lb/>
+               short weeks I was to call on your feelings again<lb/>
+               and open the scarcely closed wounds of your<lb/>
+               sorrowing heart by telling you that we have lost<lb/>
+               our dear <persName ref="./Personography.xml#EdgeW1">William</persName> - our dear son I might say with<lb/>
+               truth - for though neither you nor I brought him<lb/>
+               in to the world he loved &amp; treated us as if we had<lb/>
+               been his real mothers - During this fatal illness<lb/>
+               his thoughts often recurred to the time when he<lb/>
+               was so ill at the <placeName ref="./Placeography.xml#Dunsink-Observatory_IE">observatory</placeName> when you and the<lb/>
+               <persName ref="./Personography.xml#BrinJ1">Bishop</persName> and every one were so kind to him<lb/>
+               and often said "dear <persName ref="./Personography.xml#BrinE1">M<hi rend="superscript">rs</hi> Brinkley</persName> my dear other<lb/>
+               "mother - do write to her and tell her how ill<lb/>
+               "I am and how tenderly and how gratefully I<lb/>
+               "think of her" - I did not write because I<lb/>
+               still hoped that in a few days I might tell<lb/>
+               you of <del>your</del> his illness as of a thing that was past<lb/>
+            </p>
+            <p>
+               <pb n="2" facs="Edgeworth_NLS_6931_1829_05_09_page02.jpg"/>
+               and only call upon you to rejoice with me<lb/>
+               at his convalescence.<lb/>
+            </p>
+            <p>
+               The disease was inflammation of the Lungs -<lb/>
+               and had I fear taken too fast hold of him<lb/>
+               before he returned home for medical art<lb/>
+               to save him - The <choice><orig>skilful</orig><reg>skillful</reg></choice> surgeon near us<lb/>
+               and a physician from <placeName ref="./Placeography.xml#Dublin_IE">Dublin</placeName> had a bad opinion<lb/>
+               of him from the first - they agreed in ordering<lb/>
+               repeated bleedings which relieved the cough &amp; pain<lb/>
+               but never touched the pulse; it continued from<lb/>
+               first to last above a 100 generally 120 -<lb/>
+               At first blisters on the chest could not be made<lb/>
+               to rise - or even to produce a prickly feeling &amp;<lb/>
+               at last when they did rise - the discharge<lb/>
+               produced no relief. Yet for two days (monday<lb/>
+               &amp; tuesday last) he seemed to mend - and even<lb/>
+               on wednesday morning his pulse was a little <unclear>bett</unclear><lb/>
+               but that day some most fatal change took place<lb/>
+               between my first and second visit to him, which<lb/>
+               so altered his looks that I was shocked when<lb/>
+               I saw him and from that moment he declined<lb/>
+               so rapidly - that no hope could be recalled<lb/>
+            </p>
+            <p>
+               <pb n="3" facs="Edgeworth_NLS_6931_1829_05_09_page03.jpg"/>
+               twelve hours! I have allowed my pen to <unclear>run</unclear><lb/>
+               on more at length to you my dear <persName ref="./Personography.xml#BrinE1">M<hi rend="superscript">rs</hi> Brinkley</persName><lb/>
+               than to any one else to whom I have written<lb/>
+               for he wished that you and the dear <persName ref="./Personography.xml#BrinJ1">Bishop</persName><lb/>
+               should know as much about <add>him</add> as possible<lb/>
+               and I know so much of your kind natures<lb/>
+               that you will feel sympathy with all of us<lb/>
+               for the irreparable loss we have sustained<lb/>
+               and forgive me for renewing your own<lb/>
+               sorrow by describing ours.<lb/>
+            </p>
+            <p>
+               I think that the all wise disposer of events<lb/>
+               will strengthen our bodies - and teach our<lb/>
+               minds to receive benefit from this severe<lb/>
+               lesson - by preparing each of us for our latter<lb/>
+               end and increasing the faith that is in us<lb/>
+               that may be worthy servants of Christ and<lb/>
+               keep us from murmuring at the decrees of God.<lb/>
+               <persName ref="./Personography.xml#EdgeW1">William</persName> died at half past 4 on thursday morning the<lb/>
+               7<hi rend="superscript">th</hi>.! and the grave will soon contain all that<lb/>
+               once was him.<lb/>
+            </p>
+            <p>
+               <pb n="4" facs="Edgeworth_NLS_6931_1829_05_09_page04.jpg"/>
+               How closely are life and death brought together! -<lb/>
+               On the 5<hi rend="superscript">th</hi> at 3 <choice><orig>oclock</orig><reg>o'clock</reg></choice> my dear <persName ref="./Personography.xml#EdgeS1">Sophy</persName> gave me another<lb/>
+               <choice><orig>Grandaughter</orig><reg>granddaughter</reg></choice> - born 14 days before her time - but<lb/>
+               both mother and child were doing well when <persName ref="./Personography.xml#EdgeH1">Harriet Butler</persName><lb/>
+               who was fortunately with her - wrote to me -<lb/>
+               I perceive that I have omitted to mention - that dear<lb/>
+               <persName ref="./Personography.xml#EdgeW1">William's</persName> head remained perfectly clear - and<lb/>
+               though he had so much fever had no tendency<lb/>
+               to delirium - but one day - &amp; then only slightly<lb/>
+            </p>
+            <p>
+               <pb n="5" facs="Edgeworth_NLS_6931_1829_05_09_page05.jpg"/>
+               Dear fellow - he knew us all to the last moment<lb/>
+               wished so much that his brother <persName ref="./Personography.xml#EdgeF1">Francis</persName> had been<lb/>
+               with him - begged I would not leave him &amp;<lb/>
+               died while I held his dear cold hand -<lb/>
+               It still appears a frightful dream to me, and<lb/>
+               I can hardly persuade myself that I shall never<lb/>
+               again hear that affectionate voice; or see those<lb/>
+               eyes look upon me again. To me he was a most<lb/>
+               kind son - a living image of his dear <persName ref="./Personography.xml#EdgeR1">father</persName> in<lb/>
+               many ways - and most particularly in an<lb/>
+               uncompromising honesty and independence<lb/>
+               of character which rested on its own integrity;<lb/>
+               and <add>also</add> in the incomparable fertility of his <choice><orig>inven<lb/>
+               -tive</orig><reg>inventive</reg></choice> powers - which continued to the last<lb/>
+               and alas, contributed to their own destruction<lb/>
+               for it was not possible to enforce the tranquility<lb/>
+               that was so necessary. It was not possible to<lb/>
+               keep him from inventing, speaking, directing.<lb/>
+               How do I now regret the mistaken tenderness<lb/>
+               that permitted those exertions - or rather that<lb/>
+               I made so unwise a calculation when I thought<lb/>
+               the opposing of these exertions would fret &amp; hurry him<lb/>
+            </p>
+            <p>
+               <pb n="6" facs="Edgeworth_NLS_6931_1829_05_09_page06.jpg"/>
+               him more than the letting him get them off<lb/>
+               his mind! - Perhaps the end would have been<lb/>
+               equally fatal - and he would have been less<lb/>
+               comfortable - As it was he frequently said<lb/>
+               he felt perfectly happy - that the delight of<lb/>
+               being at home surrounded with kind and<lb/>
+               <choice><orig>sympathising</orig><reg>sympathizing</reg></choice> friends gave him a degree of <choice><orig>com<lb/>
+               -fort</orig><reg>comfort</reg></choice> he had been a stranger to for many months -<lb/>
+               That he could not call to mind the having willingly<lb/>
+               done harm to any human creature - That he<lb/>
+               could not reproach himself with having seduced<lb/>
+               or corrupted or blasted the fair fame of any female<lb/>
+               whatever - That he had not lived in the practice<lb/>
+               of any sin - and that the sufferings and trials of<lb/>
+               this life of which he had borne many, were wisely<lb/>
+               ordained by providence both as trials of what we<lb/>
+               could bear - and as means of weaning us from<lb/>
+               the love of this world.<lb/>
+            </p>
+            <p>
+               Yet when he said his he had not a thought that<lb/>
+               his latter end was so near - Recovery - and the<lb/>
+               hope of spending the next winter at <placeName ref="./Placeography.xml#Naples_IT">Naples</placeName> were<lb/>
+               uppermost in his mint till within the last<lb/>
+            </p>
+         </div>
+      </body>
+      <back> </back>
+   </text>
+</TEI>
