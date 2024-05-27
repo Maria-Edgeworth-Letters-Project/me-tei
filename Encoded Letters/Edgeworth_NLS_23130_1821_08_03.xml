@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from Walter Scott to Maria Edgeworth, August 3, 1821</title>
+            <author>Walter Scott</author>
+            <editor ref="Id_who">Alexandra LaGrand</editor>
+            <sponsor>
+               <orgName>Maria Edgeworth Letters Project</orgName>
+            </sponsor>
+            <sponsor>Wake Forest University, University of Tennessee, Xavier University, Texas
+               A&amp;M University</sponsor>
+            <principal>Jessica Richard, Hilary Havens, Robin Runia, Susan Egenolf</principal>
+            <respStmt>
+               <resp>Transcription and coding by</resp>
+               <persName ref="Id_who">Alexandra LaGrand</persName>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>First digital edition in TEI, date: <date when="2024-05-27">May 27, 2024</date>
+            </edition>
+            <respStmt>
+               <orgName type="naf" ref="Id_who">National Library of Scotland</orgName>
+               <resp> photos include: Edgeworth_NLS_23130_1821_08_03_page01.jpg, Edgeworth_NLS_23130_1821_08_03_page02.jpg, Edgeworth_NLS_23130_1821_08_03_page03.jpg</resp>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Maria Edgeworth Letters Project</authority>
+            <date>2022</date>
+            <availability>
+               <p>Reproduced by courtesy of the <orgName ref="http://id.loc.gov/authorities/names/n80044899">National Library of Scotland</orgName>
+               </p>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons Attribution 4.0 (CC BY 4.0) Unported License</licence>
+            </availability>
+            <idno>Edgeworth_NLS_23130_1821_08_03</idno> 
+         </publicationStmt>
+         <seriesStmt>
+            <title>Maria Edgeworth Letters Project</title>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <repository>National Library of Scotland</repository>
+                  <collection></collection>
+                  <idno></idno>
+               </msIdentifier>
+               <head>Letter from 
+                  <persName ref="./Personography.xml#ScotW1">
+                     <forename>Walter</forename>
+                     <surname>Scott</surname>
+                  </persName>
+                  to <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>, <placeName></placeName>, 
+                  <date when="1829-08-03">3 August 1821</date>
+               </head>
+               <physDesc></physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>Edgeworth’s spelling and punctuation are retained in transcription, including non-standard spelling, line breaks, and hyphenation of words. The long s and ligatured forms are silently emended.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="./Personography.xml#ScotW1">Walter Scott</persName>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2024-05-27" who="Id_who">Created file for letter, encoded letter</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <pb n="1" facs="Edgeworth_NLS_23130_1821_08_03_page01.jpg"/>
+            <opener>
+               <dateline>
+                  <date when="1821-08-03"/>3 August 1821</dateline>
+               <salute>
+                  <persName>My dear Miss Edgeworth</persName>
+               </salute>
+            </opener>
+            <p>
+               I am equally grateful and surprized at your <unclear></unclear><lb/>
+               all about the <hi rend="underline">bar paper</hi> letter which has thus strangely fallen<lb/>
+               into your hands and which I should have thought as awkward<lb/>
+               <unclear>sishay</unclear> as possible to all but the writer and the young person to<lb/>
+               whence it was addressed. I suppose my young <unclear>nephew</unclear> had given<lb/>
+               it to some person who was found as is not uncommon of collecting<lb/>
+               the parings of the nails of literary liens. He is just now on duty<lb/>
+               at a place called <placeName ref="./Placeography.xml#Cappoquin_IE">Cappoquin</placeName> and has had the bad fortune to<lb/>
+               be <choice><orig>employd</orig><reg>employed</reg></choice> on some disagreeable <unclear>severumbus</unclear> concerning<lb/>
+               <del>seag</del> culling of turf attached with the loss of several lives. I <choice><orig>under=<lb/>
+               stand</orig><reg>understand</reg></choice> my youngster behaved shadily and with humanity at<lb/>
+               the same time but this is a horrid <del>state</del> <add>kind</add> of warfare - As for my<lb/>
+               manuscript all there can be said of it is that it was ever<lb/>
+               like <title ref="./Workography.xml#Merry1">M<hi rend="superscript">r</hi> Pages greyhound "good and fair" but the greyhound<lb/>
+               was outrun in <placeName ref="./Placeography.xml#Cotswold-District_ENK">Cotswold</placeName> as Slender informs us</title> and time &amp;<lb/>
+               too much writing have reduced my ever current halftext<lb/>
+               to such pieds de mouche as I am now forming for the <choice><orig>exer<lb/>
+               cise</orig><reg>exercise</reg></choice> of your eyes. I fear <persName ref="./Personography.xml#ScotW4">my son</persName> will not ever have the right<lb/>
+               to say his hand <hi rend="underline">has been</hi> a fine one for the writers most<lb/>
+               military scrawl at present. He has a letter for you when<lb/>
+               ever his local situation and duty will permit him the<lb/>
+               honor of delivering it.<lb/>
+            </p>
+            <p>
+               I am just returned from <placeName ref="./Placeography.xml#London_ENK">London</placeName> where I had the<lb/>
+               curiosity to go for the Coronation which was really a<lb/>
+               pageant worth going a great way to see. I did not think<lb/>
+               there had been quite so much virtue in lace and cloth of<lb/>
+            </p>
+            <p>
+               <pb n="2" facs="Edgeworth_NLS_23130_1821_08_03_page02.jpg"/>
+               cloth of gold as they displayd on this occasion. I am now<lb/>
+               returned to my own humble residence to think over all this<lb/>
+               magnificence during my own solitary rides over hill and<lb/>
+               dale "between the thorn and the sloe" as our old songs have it.<lb/>
+               My welch <unclear>Handcart</unclear> has returned not much cured of his concern<lb/>
+               but with a good deal more to be conceited of as I am pleased<lb/>
+               with the progress he has made in his studies. He goes back<lb/>
+               after the holidays - I beg my most respectful compliments<lb/>
+               for <persName ref="./Personography.xml#EdgeF2">M<hi rend="superscript">rs</hi>. Edgeworth</persName> and thanks to her for believing that<lb/>
+               whatever you can possibly wish from me within my limited<lb/>
+               power is to be had for the asking -<lb/>
+               I hope you do not <unclear>suffer</unclear> to rest living in your <unclear>ears</unclear><lb/>
+               after having so well discharged the pious duty <unclear>in flow</unclear> in<lb/>
+               your last interesting work - I should long since have thanked<lb/>
+               you for the valued present of a copy but that which is not<lb/>
+               done when it ought to be done at all as no one knows<lb/>
+               better in <unclear>the evy</unclear> <del></del> <del></del> than the author of<lb/>
+               Tomorrow -
+            </p>
+            <closer>
+               Believe me dear <persName ref="./Personography.xml#EdgeM1">Miss Edgeworth</persName><lb/>
+               with the greatest respect &amp; regard<lb/>
+               Your most <del></del><lb/>
+               humble servant<lb/>
+               <persName ref="./Personography.xml#ScotW1">Walter Scott</persName><lb/>
+               <placeName ref="./Placeography.xml#Abbotsford-House_STK">Abbotsford</placeName>}<lb/>
+               3 August}<lb/>
+            </closer>
+         </div>
+      </body>
+      <back> </back>
+   </text>
+</TEI>
