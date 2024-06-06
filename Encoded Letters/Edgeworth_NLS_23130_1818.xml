@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from Walter Scott to Maria Edgeworth, 1818</title>
+            <author>Walter Scott</author>
+            <editor ref="Id_who">Alexandra LaGrand</editor>
+            <sponsor>
+               <orgName>Maria Edgeworth Letters Project</orgName>
+            </sponsor>
+            <sponsor>Wake Forest University, University of Tennessee, Xavier University, Texas
+               A&amp;M University</sponsor>
+            <principal>Jessica Richard, Hilary Havens, Robin Runia, Susan Egenolf</principal>
+            <respStmt>
+               <resp>Transcription and coding by</resp>
+               <persName ref="Id_who">Alexandra LaGrand</persName>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>First digital edition in TEI, date: <date when="2024-06-06">June 6, 2024</date>
+            </edition>
+            <respStmt>
+               <orgName type="naf" ref="Id_who">National Library of Scotland</orgName>
+               <resp> photos include: Edgeworth_NLS_23130_1818_page01.jpg, Edgeworth_NLS_23130_1818_page02.jpg, Edgeworth_NLS_23130_1818_page03.jpg, Edgeworth_NLS_23130_1818_page04.jpg</resp>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Maria Edgeworth Letters Project</authority>
+            <date>2022</date>
+            <availability>
+               <p>Reproduced by courtesy of the <orgName ref="http://id.loc.gov/authorities/names/n80044899">National Library of Scotland</orgName>
+               </p>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons Attribution 4.0 (CC BY 4.0) Unported License</licence>
+            </availability>
+            <idno>Edgeworth_NLS_23130_1818</idno> 
+         </publicationStmt>
+         <seriesStmt>
+            <title>Maria Edgeworth Letters Project</title>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <repository>National Library of Scotland</repository>
+                  <collection></collection>
+                  <idno></idno>
+               </msIdentifier>
+               <head>Letter from 
+                  <persName ref="./Personography.xml#ScotW1">
+                     <forename>Walter</forename>
+                     <surname>Scott</surname>
+                  </persName>
+                  to <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>, <placeName></placeName>, 
+                  <date when="1818-01-01">1818</date>
+               </head>
+               <physDesc></physDesc>
+            </msDesc>
+            <bibl>In addition to our edited version, this letter was previously published in
+               <!--complete bibiographical info if letter was published in a book here - if not delete-->
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>Edgeworth’s spelling and punctuation are retained in transcription, including non-standard spelling, line breaks, and hyphenation of words. The long s and ligatured forms are silently emended.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="./Personography.xml#ScotW1">Walter Scott</persName>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2024-06-06" who="Id_who">Created file for letter, encoded letter</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <pb n="1" facs="Edgeworth_NLS_23130_1818_page01.jpg"/>
+            <opener>
+               <salute>
+                  <persName>Dear Miss Edgeworth</persName>
+               </salute>
+            </opener>
+            <p>
+               <note>Archival note with "Autumn 1818?" at top of letter</note>
+               I have to return you my best &amp; grateful thanks<lb/>
+               for making me acquainted with M<hi rend="superscript">r</hi> &amp; M<hi rend="superscript">rs</hi>. Hamilton whom<lb/>
+               we found very pleasant people as your <choice><orig>favourites</orig><reg>favorites</reg></choice> must <choice><orig>necessari<lb/>
+               =ly</orig><reg>necessarily</reg></choice> be. We could not detain them above two days but as<lb/>
+               they <choice><orig>seem'd</orig><reg>seemed</reg></choice> to take our rough northern hospitality in good<lb/>
+               part I hope we parted with mutual regret.<lb/>
+            </p>
+            <p>
+               I reinclose <persName ref="./Personography.xml#BootB1">Sir B. Boothby's</persName> letter. I have no doubt he may<lb/>
+               be right in his general position for certainly <persName ref="./Personography.xml#SeweA1">Miss Seward</persName><lb/>
+               did not act liberally in reclaiming her own verses supposing<lb/>
+               them to be hers at the expense of an <choice><orig>infer'd</orig><reg>inferred</reg></choice> charge of <choice><orig>plagi=<lb/>
+               arism</orig><reg>plagiarism</reg></choice> against the memory of her deceased friend. But literary<lb/>
+               jealousy seems a passion as violent &amp; unreasonable as that<lb/>
+               of love and <title ref="./Workography.xml#Othel1">Othello himself could hardly be more frantic<lb/>
+               against Cassio</title> than we often see wise &amp; <unclear>sensible</unclear> men become<lb/>
+               for the sake of a sentence or a sonnet and after all the <title ref="./Workography.xml#Othel1"><choice><orig><hi rend="underline">Desde<lb/>
+               =mona</hi></orig><reg>Desdemona</reg></choice></title> is frequently not worth quarrelling about. The affected<lb/>
+               brilliancy of <persName ref="./Personography.xml#DarwE1"><choice><orig>Darwins</orig><reg>Darwin's</reg></choice></persName> <choice><orig>stile</orig><reg>style</reg></choice> which <persName ref="./Personography.xml#SeweA1">Miss Seward</persName> copied <hi rend="underline">a la <choice><orig>dis=<lb/>
+               tance</orig><reg>distance</reg></choice></hi> has already <del></del><add>slain his reputation</add> though his genius might have<lb/>
+               done much to preserve it. And by the bye our friend <persName ref="./Personography.xml#BootB1">Sir B</persName> ought<lb/>
+               not to have been too severe on mediocrity in poetry. But so<lb/>
+               goes the world &amp; I could say many pretty things on the<lb/>
+               difference betwixt self-criticism &amp; criticism administered<lb/>
+               to others only I could teach you little on those subjects being<lb/>
+            </p>
+            <p>
+               <pb n="2" facs="Edgeworth_NLS_23130_1818_page02.jpg"/>
+               one of those whose observation looks close into the souls of men<lb/>
+               I fancy it is with criticism as with medicine he who reckons<lb/>
+               his skill all sufficient to cure others is seldom fit to be his own<lb/>
+               physician or if he has such an opinion may be shrewdly<lb/>
+               suspected to have a fool for his patient.<lb/>
+               I have not the <title ref="./Workography.xml#Accou1">life of Robertson</title> by <persName ref="./Personography.xml#StewD1">D. Stuart</persName> by me<lb/>
+               in this <placeName ref="./Placeography.xml#Abbotsford-House_STK">hermitage</placeName> so I must be innocent of guessing your<lb/>
+               <unclear><choice><orig>riddell</orig><reg>riddle</reg></choice></unclear> till I go to town - I mean to <placeName ref="./Placeography.xml#Edinburgh_STK">Edinburgh</placeName> - that being<lb/>
+               our <hi rend="underline">town</hi> par excellence. As you are now on the larger isle<lb/>
+               I trust you will extend your travels northward Many people<lb/>
+               will be delighted to have an opportunity of looking on you &amp;<lb/>
+               touching the hem of your garment - now more than <del>me</del><add>I</add> &amp; mine<lb/>
+               who live much aloof from general society &amp; are therefore<lb/>
+               delighted in proportion with any valuable addition to our<lb/>
+               domestic circle. You have been I believe in <placeName ref="./Placeography.xml#Edinburgh_STK">Edinburgh</placeName> but<lb/>
+               you will not know it scarce so much is it <choice><orig>alterd</orig><reg>altered</reg></choice> - in outward<lb/>
+               appearance it is quite elaborate - in the interior - not I think<lb/>
+               quite so accurate as of formerly. We remain here till 12 Nov,-<lb/>
+               I dare not indulge in so flattering a hope - but if you<lb/>
+               come down I hope you will make this your headquarters<lb/>
+               till you have seen all our country has to <choice><orig>shew</orig><reg>show</reg></choice><lb/>
+               I am writing in the vicinity of workmen who are<lb/>
+               engaged in filling up an addition to my cottage which<lb/>
+               resembles the temple of <choice><orig>Soloman</orig><reg>Solomon</reg></choice> as little in the silence<lb/>
+               with which it proceeds as Mr Laird <note>It seems that here, Scott is referring to himself as "Mr. Laird".</note>resembles that sage<lb/>
+               monarch. So that tired of the symphony &amp; accompaniment<lb/>
+            </p>
+            <p>
+               <pb n="3" facs="Edgeworth_NLS_23130_1818_page03.jpg"/>
+               M<hi rend="superscript">r</hi>. &amp; M<hi rend="superscript">rs</hi>. Hamilton left us on Monday on their return for<lb/>
+               the <placeName ref="./Placeography.xml#IE">Emerald isle</placeName>.<lb/>
+            </p>
+            <p>
+               <pb n="4" facs="Edgeworth_NLS_23130_1818_page04.jpg"/>
+               <persName ref="./Personography.xml#EdgeM1">Miss Edgeworth</persName><lb/>
+               Care of the <persName ref="./Personography.xml#LansH1"><choice><orig>Marq<hi rend="superscript">s</hi>.</orig><reg>Marquess</reg></choice> of Lansdowne</persName><lb/>
+               &amp;c &amp;c &amp;c<lb/>
+            </p>
+         </div>
+      </body>
+      <back> </back>
+   </text>
+</TEI>
