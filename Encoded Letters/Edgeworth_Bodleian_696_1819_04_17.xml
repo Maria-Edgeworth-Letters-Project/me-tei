@@ -122,7 +122,7 @@
             <opener>
                <dateline><!--If there's no date line, omit this element. Record in the order in which it is written on the letter.-->
                   <name type="place" ref="./Placeography.xml#Deep-Dene-Dorking_ENK"/>Deep Dene
-                  <date when="1819-04-17"/>Saturday Ap<hi rend="superscript">l</hi> 17<hi rend="superscript">th</hi></dateline>
+                  <date when="1819-04-17">Saturday Ap<hi rend="superscript">l</hi> 17<hi rend="superscript">th</hi></date></dateline>
                <salute>
                   <persName>
                      <!-- Use if letter has a saluation ("Dear Sir," for example). If not, delete this line.-->
@@ -618,16 +618,7 @@
                 as velvet - I left them directions to go to<lb/>
                 see <persName ref="./Personography.xml#FarnX1">Lady Farnham</persName> - &amp; gave them a note<lb/>
                 to Miss Fox &amp; <persName ref="./Personography.xml#VernX1">Miss Vernon</persName><lb/>
-<!-- Begin transcibing the body of the letter here. -->
             </p>
-            <p>
-               <!--More body paragraphs as needed.--></p>
-            <p>
-               <!--More body paragraphs as needed.-->
-               <!--Where there's a page break record it inside the relevant body paragraph like this, 
-                  with the self-closing page-break element. n="2" indicates the START of the second page.-->
-            </p>
-            <p><!--More body paragraphs as needed.--></p>
             <closer>
                Affectionately yours
                Maria E<!--include linebreaks, if used. example: <closer> Yours<lb/> Very sincerely<lb/> -->
