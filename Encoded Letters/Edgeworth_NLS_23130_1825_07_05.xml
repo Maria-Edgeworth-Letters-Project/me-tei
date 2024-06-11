@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from Walter Scott to Maria Edgeworth, July 5, 1825</title>
+            <author>Walter Scott</author>
+            <editor ref="Id_who">Alexandra LaGrand</editor>
+            <sponsor>
+               <orgName>Maria Edgeworth Letters Project</orgName>
+            </sponsor>
+            <sponsor>Wake Forest University, University of Tennessee, Xavier University, Texas
+               A&amp;M University</sponsor>
+            <principal>Jessica Richard, Hilary Havens, Robin Runia, Susan Egenolf</principal>
+            <respStmt>
+               <resp>Transcription and coding by</resp>
+               <persName ref="Id_who">Alexandra LaGrand</persName>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>First digital edition in TEI, date: <date when="2024-06-11">June 11, 2024</date>
+            </edition>
+            <respStmt>
+               <orgName type="naf" ref="Id_who">National Library of Scotland</orgName>
+               <resp> photos include: Edgeworth_NLS_23130_1825_07_05_page01.jpg, Edgeworth_NLS_23130_1825_07_05_page02.jpg, Edgeworth_NLS_23130_1825_07_05_page03.jpg, Edgeworth_NLS_23130_1825_07_05_page04.jpg</resp>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Maria Edgeworth Letters Project</authority>
+            <date>2022</date>
+            <availability>
+               <p>Reproduced by courtesy of the <orgName ref="http://id.loc.gov/authorities/names/n80044899">National Library of Scotland</orgName>
+               </p>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons Attribution 4.0 (CC BY 4.0) Unported License</licence>
+            </availability>
+            <idno>Edgeworth_NLS_23130_1825_07_05</idno> 
+         </publicationStmt>
+         <seriesStmt>
+            <title>Maria Edgeworth Letters Project</title>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <repository>National Library of Scotland</repository>
+                  <collection></collection>
+                  <idno></idno>
+               </msIdentifier>
+               <head>Letter from 
+                  <persName ref="./Personography.xml#ScotW1">
+                     <forename>Walter</forename>
+                     <surname>Scott</surname>
+                  </persName>
+                  to <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>, <placeName ref="./Placeography.xml#Edgeworthstown_IE">Edgeworthstown</placeName>, 
+                  <date when="1825-07-05">5 July 1825.</date>
+                  <stamp>Postage stamp reading "<unclear>G JY 3 1825</unclear>" on address leaf</stamp>
+               </head>
+               <physDesc></physDesc>
+            </msDesc>
+            <bibl>In addition to our edited version, this letter was previously published in the fifth volume of <hi rend="italic">The Letters of Sir Walter Scott</hi> (London: Constable, 1932-1937) and online through the <hi rend="italic">Walter Scott Digital Archive</hi>.</bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>Edgeworth’s spelling and punctuation are retained in transcription, including non-standard spelling, line breaks, and hyphenation of words. The long s and ligatured forms are silently emended.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="./Personography.xml#ScotW1">Walter Scott</persName>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2024-06-11" who="Id_who">Created file for letter, encoded letter</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <pb n="1" facs="Edgeworth_NLS_23130_1825_07_05_page01.jpg"/>
+            <opener>
+               <dateline>
+                  <name type="place" ref="Id_where"/>Abbotsford
+                  <date when="1825-07-05"/>5 July 1825. </dateline>
+               <salute>
+                  <persName>My dear Miss Edgeworth</persName>
+               </salute>
+            </opener>
+            <p>
+               My letter <add>of 2<hi rend="superscript">d</hi> or 3<hi rend="superscript">d</hi></add> and yours of 29<hi rend="superscript">th</hi> June have crossed each other<lb/>
+               and I might dispense with writing an answer to yours <choice><orig>espe<lb/>
+               cially</orig><reg>especially</reg></choice> as it will <del>prof</del> cost more postage than it is worth But<lb/>
+               I like to be as precise as possible in my appointments having<lb/>
+               incurred much disgrace for neglecting them in my youth &amp;<lb/>
+               all the world knows that a prudent old age with no passions<lb/>
+               to disturb its tranquility makes an <hi rend="underline">easy</hi> amends at least<lb/>
+               if not an <hi rend="underline">ample</hi> one for the erratic courses of a wayward youth.<lb/>
+               My friend <persName ref="./Personography.xml#HartM1">Hartstonge</persName> may like <hi rend="underline">Wisdom</hi> uplifts his<lb/>
+               voice in the streets of <placeName ref="./Placeography.xml#Dublin_IE">Dublin</placeName> But there is not the least purpose<lb/>
+               on my part to enter under any society there. I must dine with<lb/>
+               <persName ref="./Personography.xml#ScotW4">my <choice><orig>sons</orig><reg>son's</reg></choice></persName> mess I suppose one day &amp; with said <persName ref="./Personography.xml#HartM1">Hartstonge</persName><lb/>
+               another if he asks me. But as I do not intend to be above<lb/>
+               a week at <placeName ref="./Placeography.xml#Dublin_IE">Dublin</placeName> in all the remaining days will be<lb/>
+               few enough to spend with <persName ref="./Personography.xml#ScotC1">my son</persName> and <persName ref="./Personography.xml#ScotA1">daughter</persName> in a<lb/>
+               quiet way.<lb/><note>Though it is unclear to which son Scott is referring here, it seems likely that he is grouping <persName ref="./Personography.xml#ScotC1">Charles</persName> and <persName ref="./Personography.xml#ScotA1">Anne</persName> together, as he mentions <persName ref="./Personography.xml#ScotW4">Walter</persName> later.</note>
+            </p>
+            <p>
+               My purpose is certainly for <placeName ref="./Placeography.xml#Killarney_IE">Killarney</placeName> and I am happy<lb/>
+               to learn from your letter that I can make my route by<lb/>
+               <placeName ref="./Placeography.xml#Edgeworthstown_IE"><choice><orig>Edgeworths town</orig><reg>Edgeworthstown</reg></choice></placeName>. I wish to Heaven you would make some<lb/>
+               arrangements to go to <placeName ref="./Placeography.xml#Killarney_IE">Killarney</placeName> with us I <persName ref="./Personography.xml#ScotW4">Walter</persName> &amp; his<lb/>
+            </p>
+            <p>
+               <pb n="2" facs="Edgeworth_NLS_23130_1825_07_05_page02.jpg"/>
+               <persName ref="./Personography.xml#ScotJ1">cara sposa</persName> will also make it out. Indeed I have long<lb/>
+               tired of seeing fine places alone and though I could dispense<lb/>
+               with the company of <title ref="./Workography.xml#Ennui1">Lady Jocunda</title> I find my excursions<lb/>
+               go much better on our adays with good company by way<lb/>
+               of sauce - once I loved my beefsteak best without pickles<lb/>
+               and my romantic scenery was most enjoyed in solitary<lb/>
+               blessedness<lb/>
+            </p>
+            <p>
+               Not hearing from you about the dog I was afraid he might<lb/>
+               be rather a troublesome present and give him away to <persName ref="./Personography.xml#ChanF1"><choice><orig>Chan<lb/>
+               trey</orig><reg>Chantrey</reg></choice></persName> the sculptor who fell in high fancy with him. But<lb/>
+               I will keep as fine a puppy for you next spring that is<lb/>
+               if you really wish to have one for I never bring up more than<lb/>
+               one or two puppies for <del>want</del> fear of <del>weaken</del> weakening the<lb/>
+               dam. In fact that designed for <placeName ref="./Placeography.xml#Edgeworthstown_IE">Edgeworthtown</placeName> was<lb/>
+               put out to nurse. But I will keep a fine puppy for<lb/>
+               you next spring.<lb/>
+            </p>
+            <p>
+               To speak of a puppy of a different litter - I know well<lb/>
+               that <persName ref="./Personography.xml#ScotW4">Walter</persName> is deeply infected with that sort of <unclear>mauvaise<lb/>
+               honte</unclear> which make people seem uncivil when they are<lb/>
+               only bashful and awkward. He has a holy Dread of<lb/>
+               any thing which he considers as highly gifted with<lb/>
+               talent and has not yet learned the simple fact that<lb/>
+               <del>massip</del> clever folks are in reality the least to be found<lb/>
+               in the shape of criticals I fancy you have <persName ref="./Personography.xml#ScotJ1"><choice><orig>Janes</orig><reg>Jane's</reg></choice></persName> answer<lb/>
+               for the last time I heard from her she was sitting down<lb/>
+            </p>
+            <p>
+               <pb n="3" facs="Edgeworth_NLS_23130_1825_07_05_page03.jpg"/>
+               with much apprehension and I dare say, after a much<lb/>
+               careful mending of pens and folding of paper to write a<lb/>
+               note to <persName ref="./Personography.xml#EdgeM1">Miss Maria Edgeworth</persName> you are well aware of the terrors<lb/>
+               of your own reputation. But you are an old acquaintance of<lb/>
+               <persName ref="./Personography.xml#ScotJ1"><choice><orig>Janes</orig><reg>Jane's</reg></choice></persName> for I found almost all your works in her little<lb/>
+               boudoir at <placeName ref="./Placeography.xml#Lochore_STK">Lochore</placeName> reasonably well thumbed. <persName ref="./Personography.xml#ScotW1"><choice><orig>Walters</orig><reg>Walter's</reg></choice></persName> regimental<lb/>
+               leave of absence is difficult to be obtained and keeps him<lb/>
+               short by the halter and <choice><orig>untill</orig><reg>until</reg></choice> I learn how that stands I can<lb/>
+            </p>
+            <p>
+               form no definitive plan He has hopes<lb/>
+               but no certainty of getting with us<lb/>
+               to <placeName ref="./Placeography.xml#Killarney_IE">Killarney</placeName> but field days and<lb/>
+               reviews are things which interfere<lb/>
+               much with the plans of young<lb/>
+               officers. This is the reason that<lb/>
+            </p>
+            <p>
+               there is such rapid promotion in these light corps considering the<lb/>
+               times - a young man of fortune enters smitten with the delight of<lb/>
+               ploughing the earth with a sabre and sweeping heaven with a<lb/>
+               plume and in a few months he finds himself <hi rend="underline">gone</hi> by the<lb/>
+               severity of the discipline exit Dandy and there is a step in<lb/>
+               the regiment<lb/>
+            </p>
+            <closer>
+               I have little to add except kindest love to <persName ref="./Personography.xml#EdgeF2">M<hi rend="superscript">rs</hi> <choice><orig>Edge<lb/>
+               worth</orig><reg>Edgeworth</reg></choice></persName> <persName ref="./Personography.xml#EdgeH1">Harriet</persName> and all friends known and unknown - We<lb/>
+               must manage to see <persName ref="./Personography.xml#EdgeW1">Mr W. Edgeworth</persName> I regret to say our limited<lb/>
+               stay gives us no hope of seeing my charming young friend <persName ref="./Personography.xml#FoxX2">M<hi rend="superscript">rs</hi> Fox<lb/>
+               Lane</persName> or making her husbands acquaintance. <persName ref="./Personography.xml#ScotM1">Lady Scott</persName> begs<lb/>
+               kind love always yours with equal respect &amp; sincerity<lb/>
+               <persName ref="./Personography.xml#ScotW1"><hi rend="underline">Walter Scott</hi></persName><lb/>
+            </closer>
+            <closer>
+               <address>
+                  <addrLine><persName ref="./Personography.xml#EdgeM1">Miss Maria Edgeworth</persName></addrLine>
+                  <addrLine><placeName ref="./Placeography.xml#Edgeworthstown_IE">Edgeworthstown</placeName></addrLine>
+                  <addrLine><placeName ref="./Placeography.xml#IE">Ireland</placeName></addrLine>
+               </address>
+            </closer>
+         </div>
+      </body>
+      <back> </back>
+   </text>
+</TEI>
