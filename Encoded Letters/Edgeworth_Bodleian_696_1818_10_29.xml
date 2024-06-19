@@ -6,11 +6,10 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Letter from Maria Edgeworth to Frances Anne Edgeworth, October 29, 1818<!--Recipient Name, Month Day, YYYY--></title>
+            <title>Letter from Maria Edgeworth to Frances Anne Edgeworth, October 29, 1818</title>
             <author>Maria Edgeworth</author>
             <editor ref="Id_who">
-               Eliza Alexander Wilcox<!--Editor on the Maria Edgeworth Letters Project overseeing the coding of this particular letter: FirstName LastName -->
-            </editor>
+               Eliza Alexander Wilcox</editor>
             <sponsor>
                <orgName>Maria Edgeworth Letters Project</orgName>
             </sponsor>
@@ -19,66 +18,46 @@
             <principal>Jessica Richard, Hilary Havens, Robin Runia, Susan Egenolf</principal>
             <respStmt>
                <resp>Transcription and coding by</resp>
-               <persName ref="Id_who">Eliza Alexander Wilcox<!--FirstName LastName-->
+               <persName ref="Id_who">Eliza Alexander Wilcox
                </persName>
-               <!-- List all transcribers or coders here, editors and students alike, <persName> by <persName>.-->
-               <persName ref="Id_who"><!--FirstName LastName--></persName>
-               <!-- If you're the last person interacting with the file, enter your name last on the list -->
+               <persName ref="Id_who"></persName>
             </respStmt>
          </titleStmt>
          <editionStmt>
-            <edition>First digital edition in TEI, date: January 25, 2024<date when="2024-01-25">
-                  <!--enter the date on which the first coder created and saved this XML file in google drive-->
-               </date>
+            <edition>First digital edition in TEI, date: January 25, 2024<date when="2024-01-25"></date>
             </edition>
             <respStmt>
                <orgName type="naf" ref="http://id.loc.gov/authorities/names/n80020306">
-                  Bodleian Library<!--who digitized the letter or gave us permission for to use the file?-->
-               </orgName>
+                  Bodleian Library</orgName>
                <resp> photos include:
-                  Edgeworth_Bodleian_696_1818-10-29_page01.jpg, Edgeworth_Bodleian_696_1818-10-29_page02.jpg, Edgeworth_Bodleian_696_1818-10-29_page03.jpg, Edgeworth_Bodleian_696_1818-10-29_page04.jpg<!-- Make a comma-separated list of each .jpg photo file name associated with your letter. 
-                     For example: DSCF9476.jpg, DSCF9477.jpg, DSCF9478.jpg-->
-               </resp>
+                  Edgeworth_Bodleian_696_1818-10-29_page01.jpg, Edgeworth_Bodleian_696_1818-10-29_page02.jpg, Edgeworth_Bodleian_696_1818-10-29_page03.jpg, Edgeworth_Bodleian_696_1818-10-29_page04.jpg</resp>
             </respStmt>
          </editionStmt>
          <publicationStmt>
             <authority>Maria Edgeworth Letters Project</authority>
             <date>2022</date>
             <availability>
-               <!--Uncomment the appropriate line, based on the archive that holds the physical copy of this letter, 
-                  and delete the other comment line(s).-->
-               <p>Reproduced by courtesy of the <orgName ref="http://id.loc.gov/authorities/names/n80020306">Bodleian Library</orgName>
-                  <!--Reproduced by courtesy of the <orgName ref="#ReadingCL">Reading Central Library</orgName>.-->
-                  <!--or -->
-                  <!--Courtesy of <orgName ref="#Rylands">The University of Manchester</orgName>.-->
-               </p>
+               <p>Reproduced by courtesy of the <orgName ref="http://id.loc.gov/authorities/names/n80020306">Bodleian Library</orgName></p>
                <licence target="https://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons Attribution 4.0 (CC BY 4.0) Unported License</licence>
             </availability>
-            <idno>Edgeworth_Bodleian_696_1819_10_29<!--Change to match the file name and current naming standards, i.e. "Edgeworth_Beinecke_330_1817_01_24" if file name is "Edgeworth_Beinecke_330_1817_01_24.xml"--></idno>
+            <idno>Edgeworth_Bodleian_696_1819_10_29</idno>
          </publicationStmt>
          <seriesStmt>
             <title>Maria Edgeworth Letters Project</title>
          </seriesStmt>
          <sourceDesc>
             <msDesc xml:lang="en">
-               <!-- This section of the header identifies the original manuscript source. -->
                <msIdentifier>
                   <repository>Bodleian Library</repository>
-                  <collection><!-- Enter specific archival collection if applicable--></collection>
-                  <idno><!--Consult library or WorldCat for this info--></idno>
+                  <collection></collection>
+                  <idno></idno>
                </msIdentifier>
                <head>Letter from <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth, 1768-1849</persName>
-                   to <persName ref="./Personography.xml#EdgeF1">Frances Anne Edgeworth</persName>, <placeName><!--Location where letter was sent--></placeName>, 
+                   to <persName ref="./Personography.xml#EdgeF1">Frances Anne Edgeworth</persName>, <placeName></placeName>, 
                   <date when="1819-10-29">October 29, 1819</date>
-                  <!-- <stamp>Enter description, if applicable</stamp>-->
                </head>
-               <physDesc>
-                  <!-- optional physical description of the letter goes here: paper size and condition, seal, postmarks, etc.-->
-               </physDesc>
+               <physDesc></physDesc>
             </msDesc>
-            <bibl>In addition to our edited version, this letter was previously published in
-               <!--complete bibiographical info if letter was published in a book here - if not delete-->
-            </bibl>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
@@ -92,29 +71,24 @@
                <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
             </correspAction>
             <correspAction type="received">
-               <persName ref="./Personography.xml#EdgeF1">Frances Ann Edgeworth<!--RECIPIENT NAME--></persName>
+               <persName ref="./Personography.xml#EdgeF1">Frances Anne Edgeworth</persName>
             </correspAction>
          </correspDesc>
       </profileDesc>
       <revisionDesc>
-         <change when="2021-01-01" who="Id_who">
-            <!--Brief description of what you did here.-->
-         </change>
+         <change when="2021-01-01" who="Id_who"></change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <div type="letter">
             <pb n="1" facs="Edgeworth_Bodlein_696_1818-10-29_page01.jpg"/>
-            <!--filenames for photos associated with this letter. Example: <pb n="1" facs="image1.jpg image2.jpg image3.jpg"/> -->
             <opener>
-               <dateline><!--If there's no date line, omit this element. Record in the order in which it is written on the letter.-->
+               <dateline>
                   <name type="place" ref="./Placeography.xml#Harley-Street-31_ENK"/>31 Harley S<hi rend="superscript">t</hi>
-                  <date when="1818-10-29"/>29<hi rend="superscript">th</hi> Octo<hi rend="superscript">r</hi> 1818</dateline>
+                  <date when="1818-10-29">29<hi rend="superscript">th</hi> Octo<hi rend="superscript">r</hi> 1818</date></dateline>
                <salute>
-                  <persName>
-                     <!-- Use if letter has a saluation ("Dear Sir," for example). If not, delete this line.-->
-                  </persName>
+                  <persName></persName>
                </salute>
             </opener>
             <p>
@@ -275,18 +249,12 @@
                 Your affec<lb/>
                <persName ref="./Personography.xml#EdgeM1">Maria E</persName>
                <lb/>
-               <!--include linebreaks, if used. example: <closer> Yours<lb/> Very sincerely<lb/> -->
             </closer>
             <postscript>
-               <p><!--A postscript goes here, outside the <closer>. --></p>
+               <p></p>
             </postscript>
-            <!--You can include a <pb/> here, or inside the postScript.-->
-            <!-- Format for postscripts. 
-               Postscripts do NOT go inside closer tags. Adjust to take into account the order in your letter. 
-               Sometimes the signature is on page three, the address on page four, then the postscript follows back on the top of page one, for example.-->
-            <closer><!--Use the <closer> element again to hold Address Leaf information.-->
+            <closer>
                <address>
-                  <!--Include any text written on the address leaf; use a separate "addrLine" for each line and indicate line breaks. -->
                   <addrLine/>
                   <addrLine/>
                   <addrLine/>
