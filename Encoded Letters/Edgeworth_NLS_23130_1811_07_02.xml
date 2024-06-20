@@ -170,7 +170,7 @@
             </correspAction>
          </correspDesc>
          <textClass>
-            <keywords scheme="">
+            <keywords>
                <list type="simple">
                   <item>English literature</item>
                   <item>History</item>
@@ -191,7 +191,7 @@
             <opener>
                <dateline>
                   <name type="place" ref="Id_where"/>
-                  <date when="1811-07-02"/>2<hi rend="superscript">d</hi> July 1811</dateline>
+                  <date when="1811-07-02">2<hi rend="superscript">d</hi> July 1811</date></dateline>
                <salute>
                   <persName>
                             Sir
@@ -292,17 +292,14 @@
             <closer>
                <address>
                   <pb n="4" facs="Edgeworth_NLS_23130_1811_07_02_page04.jpg"/>
-                  <persName ref="./Personography.xml#ScotW1">M. Scott</persName>
-                        July 2
-                        -11
-                        1811
-                        <persName ref="./Personography.xml#EdgeR1">Richard Lovell Edgeworth Esq</persName>
-                  <placeName ref="./Placeography.xml#Edgeworthstown_IE">Edgeworthstown</placeName>
-                  <unclear>Donahudin</unclear>
-                  <unclear>Portpatrick</unclear>
-                  <addrLine/>
-                  <addrLine/>
-                  <addrLine/>
+                  <addrLine><persName ref="./Personography.xml#ScotW1">M. Scott</persName></addrLine>
+                        <addrLine>July 2</addrLine>
+                        <addrLine>-11</addrLine>
+                        <addrLine>1811</addrLine>
+                        <addrLine><persName ref="./Personography.xml#EdgeR1">Richard Lovell Edgeworth Esq</persName></addrLine>
+                  <addrLine><placeName ref="./Placeography.xml#Edgeworthstown_IE">Edgeworthstown</placeName></addrLine>
+                  <addrLine><unclear>Donahudin</unclear></addrLine>
+                  <addrLine><unclear>Portpatrick</unclear></addrLine>
                </address>
             </closer>
          </div>
