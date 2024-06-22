@@ -175,7 +175,7 @@
             </correspAction>
          </correspDesc>
          <textClass>
-            <keywords scheme="">
+            <keywords>
                <list type="simple">
                   <item>English literature</item>
                   <item>History</item>
@@ -196,7 +196,7 @@
             <opener>
                <dateline>
                   <name type="place" ref="Id_where"/>
-                  <date when="1822-04-23"/>April 23, 1822</dateline>
+                  <date when="1822-04-23">April 23, 1822</date></dateline>
                <salute>
                   <persName ref="./Personography.xml#BowrJ1">
                             Dear sir
@@ -270,19 +270,16 @@
             <closer>
                <address>
                   <pb n="3" facs="Edgeworth_Birmingham_1822_04_23_page03.jpg"/>
-                  <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
-                  <lb/>
-                        23 April 1822<lb/>
+                  <addrLine><persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
+                  <lb/></addrLine>
+                        <addrLine>23 April 1822<lb/></addrLine>
                   <pb n="4" facs="Edgeworth_Birmingham_1822_04_23_page04.jpg"/>
-                  <persName ref="./Personography.xml#BowrJ1">John Bowring Esq<hi rend="superscript">re</hi>
-                  </persName>
+                  <addrLine><persName ref="./Personography.xml#BowrJ1">John Bowring Esq<hi rend="superscript">re</hi>
+                  </persName></addrLine>
                   <lb/>
-                  <placeName ref="./Placeography.xml#London-Fields-Hackney-London_ENK">London fields<lb/>
-                            Hackney</placeName>
+                  <addrLine><placeName ref="./Placeography.xml#London-Fields-Hackney-London_ENK">London fields<lb/>
+                            Hackney</placeName></addrLine>
                   <lb/>
-                  <addrLine/>
-                  <addrLine/>
-                  <addrLine/>
                </address>
             </closer>
          </div>
