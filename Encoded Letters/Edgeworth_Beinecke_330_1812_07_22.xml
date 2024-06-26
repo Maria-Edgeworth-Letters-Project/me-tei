@@ -90,9 +90,6 @@
          <div type="letter">
             <pb n="1" facs="Edgeworth_Beinecke_330_1812_07_22_page01.jpg"/>
             <opener>
-               <dateline>
-                  <name type="place" ref="Id_where"/>
-                  <date when="1812-07-22">July 22, 1812</date></dateline>
                <salute> To <persName ref="./Personography.xml#MileX1">Mrs. Miles</persName><lb/>
                </salute>
             </opener>
@@ -124,11 +121,10 @@
             <closer> Yours truly<lb/>
                <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
                <lb/>
+               <dateline>
+                  <name type="place" ref="Id_where"/>
+                  <date when="1812-07-22">July 24<hi rend="superscript">th</hi>. 1812</date></dateline><lb/>
             </closer>
-            <postscript>
-               <p>July 24<hi rend="superscript">th</hi>. 1812<lb/>
-               </p>
-            </postscript>
          </div>
       </body>
       <back/>
