@@ -6,7 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Letter from Maria Edgeworth to Mrs. Miles October 30, 1812</title>
+            <title>Letter from Maria Edgeworth to Mrs. Miles, October 30, 1812</title>
             <author>Maria Edgeworth</author>
             <editor ref="Id_who">
                <persName ref="Id_who">Eliza Wilcox</persName>
@@ -20,7 +20,6 @@
             <respStmt>
                <resp>Transcription and coding by</resp>
                <persName ref="Id_who">Eliza Wilcox</persName>
-               <persName ref="Id_who"/>
             </respStmt>
          </titleStmt>
          <editionStmt>
@@ -28,7 +27,7 @@
             </edition>
             <respStmt>
                <orgName ref="http://id.loc.gov/authorities/names/n80097790">Beinecke Rare Book and Manuscript Library</orgName>
-               <resp> photos include: Edgeworth_Beinecke_330_1812_10_30_page01
+               <resp> photos include: Edgeworth_Beinecke_330_1812_10_30_page01,
                         Edgeworth_Beinecke_330_10_30_page02
                     </resp>
             </respStmt>
@@ -56,8 +55,7 @@
                <head>Letter from <persName ref="./Personography.xml#EdgeM1">
                      <forename>Maria</forename>
                      <surname>Edgeworth</surname>
-                  </persName> to <persName ref="./Personography.xml#MileX1">Mrs. Miles</persName>,
-                        <placeName/>, <date when="1812-10-30">October 30, 1812</date>
+                  </persName> to <persName ref="./Personography.xml#MileX1">Mrs. Miles</persName>, <date when="1812-10-30">October 30, 1812</date>
                </head>
                <physDesc/>
             </msDesc>
@@ -90,7 +88,7 @@
                <salute> To <persName ref="./Personography.xml#MileX1">Mrs. Miles</persName>
                </salute>
             </opener>
-            <p>Dear Madam I thank<lb/>
+            <p>Dear <persName ref="./Personography.xml#MileX1">Madam</persName> I thank<lb/>
                     you for the 2 yards of<lb/>
                     edging, which are very<lb/>
                     pretty -- I am glad you<lb/>
@@ -99,7 +97,7 @@
                     such an ingenious trick<lb/>
                     -- You may depend upon <add>it</add>
                <lb/>
-                    that the first time <persName>M<hi rend="superscript">rs</hi>.<lb/>
+               that the first time <persName ref="./Personography.xml#EdgeF2">M<hi rend="superscript">rs</hi>.<lb/>
                         Edgeworth</persName> or I have any<lb/>
                     dress commission to execute<lb/>
                     in <placeName ref="./Placeography.xml#London_ENK">London</placeName> we shall<lb/>
@@ -119,29 +117,21 @@
                   <quote>in <del>a</del> robes of<lb/>
                      thin woven air</quote></hi>till<lb/>
                     spring, when we shall<lb/>
-                    (I am told) be in <placeName ref="http://vocab.getty.edu/tgn/7011781">London</placeName>
+               (I am told) be in <placeName ref="./Placeography.xml#London_ENK">London</placeName>
                <lb/>
             </p>
             <closer>In the meantime<lb/>
-                    I am Dear Madam<lb/>
+               I am Dear <persName ref="./Personography.xml#MileX1">Madam</persName><lb/>
                     Yours truly<lb/>
                <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
                <lb/>
             </closer>
-            <postscript>
-               <p>
+            <dateline>
+               
                   <placeName ref="./Placeography.xml#Edgeworthstown_IE">Edgeworthstown</placeName>
                   <lb/>
-                        Oct<hi rend="superscript">r</hi>. 30<hi rend="superscript">h</hi> 1812<lb/>
-               </p>
-            </postscript>
-            <closer>
-               <address>
-                  <addrLine/>
-                  <addrLine/>
-                  <addrLine/>
-               </address>
-            </closer>
+               <date when="1812-10-30">Oct<hi rend="superscript">r</hi>. 30<hi rend="superscript">h</hi> 1812</date><lb/>
+            </dateline>
          </div>
       </body>
       <back/>

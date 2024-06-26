@@ -6,7 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title> Letter from Maria Edgeworth to Dr. Ashburner, October 29th,1842</title>
+            <title> Letter from Maria Edgeworth to Dr. Ashburner, October 29, 1842</title>
             <author>Maria Edgeworth</author>
             <editor ref="Id_who">Hilary Havens
             </editor>
@@ -53,23 +53,18 @@
          </seriesStmt>
          <sourceDesc>
             <msDesc xml:lang="en">
-               <!-- This section of the header identifies the original manuscript source. -->
                <msIdentifier>
                   <repository>Harvard University, Houghton Library</repository>
-                  <collection><!-- Enter specific archival collection if applicable--></collection>
-                  <idno><!--Consult library or WorldCat for this info--></idno>
+                  <collection></collection>
+                  <idno></idno>
                </msIdentifier>
                <head>Letter from 
                   <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
                   to <persName ref="./Personography.xml#AshbX1">Dr. Ashburner</persName>
                </head>
-               <physDesc>
-                  <!-- optional physical description of the letter goes here: paper size and condition, seal, postmarks, etc.-->
-               </physDesc>
+               <physDesc></physDesc>
             </msDesc>
-            <bibl>In addition to our edited version, this letter was previously published in
-               <!--complete bibiographical info if letter was published in a book here - if not delete-->
-            </bibl>
+            <bibl>In addition to our edited version, this letter was previously published in</bibl>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
@@ -88,9 +83,7 @@
          </correspDesc>
       </profileDesc>
       <revisionDesc>
-         <change when="2021-01-01" who="Id_who">
-            <!--Brief description of what you did here.-->
-         </change>
+         <change when="2021-01-01" who="Id_who"></change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -100,11 +93,11 @@
             <opener>
                <dateline>
                   <placeName ref="./Placeography.xml#Edgeworthstown_IE">Edgeworths Town</placeName>
-                  <date when="1842-10-29"/>
+                  <date when="1842-10-29">
                   <choice>
                      <abbr>Oct</abbr>
                      <reg>October</reg>
-                  </choice> 29<hi rend="superscript">h</hi>. 1842</dateline>
+                  </choice> 29<hi rend="superscript">h</hi>. 1842</date></dateline>
                <salute>
                   Dear <persName ref="./Personography.xml#AshbX1">D<hi rend="superscript">r</hi>. Ashburner</persName>
                </salute>

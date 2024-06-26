@@ -6,7 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Letter from Maria Edgeworth to Mrs. Miles October 10, 1814</title>
+            <title>Letter from Maria Edgeworth to Mrs. Miles, October 10, 1814</title>
             <author>Maria Edgeworth</author>
             <editor ref="Id_who">
                <persName ref="Id_who">Eliza Wilcox</persName>
@@ -28,9 +28,9 @@
             </edition>
             <respStmt>
                <orgName ref="http://id.loc.gov/authorities/names/n80097790">Beinecke Rare Book and Manuscript Library</orgName>
-               <resp> photos include: Edgeworth_Beinecke_330_1814_10_10_page01
-                        Edgeworth_Beinecke_330_1814_10_10_page02
-                        Edgeworth_Beinecke_330_1814_10_10_page03
+               <resp> photos include: Edgeworth_Beinecke_330_1814_10_10_page01,
+                        Edgeworth_Beinecke_330_1814_10_10_page02,
+                        Edgeworth_Beinecke_330_1814_10_10_page03,
                         Edgeworth_Beinecke_330_1814_10_10_page04
                     </resp>
             </respStmt>
@@ -90,8 +90,8 @@
             <pb n="1" facs="Edgeworth_Beinecke_330_1814_10_10_page01.jpg"/>
             <opener>
                <dateline>
-                  <name type="place" ref="http://vocab.getty.edu/tgn/1042937"/>Edgeworth's Town<lb/>
-                  <date when="1814-10-10"/>October 10, 1814<lb/>
+                  <placeName ref="./Placeography.xml#Edgeworthstown_IE">Edgeworth's Town</placeName><lb/>
+                  <date when="1814-10-10">October 10, 1814</date><lb/>
                </dateline>
                <salute> Dear <persName ref="./Personography.xml#MileX1">Madam</persName>,<lb/>
                </salute>
@@ -191,7 +191,7 @@
                <lb/>
             </p>
             <closer> 
-                    I am dear Madam<lb/>
+               I am dear <persName ref="./Personography.xml#MileX1">Madam</persName><lb/>
                     Sincerely yours<lb/>
                <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
                <lb/>
@@ -221,13 +221,6 @@
                         two cards in one or two common franks<lb/>
                </p>
             </postscript>
-            <closer>
-               <address>
-                  <addrLine/>
-                  <addrLine/>
-                  <addrLine/>
-               </address>
-            </closer>
          </div>
       </body>
       <back/>

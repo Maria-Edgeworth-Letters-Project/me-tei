@@ -6,7 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Letter from Maria Edgeworth to Mrs. Miles July 22, 1812</title>
+            <title>Letter from Maria Edgeworth to Mrs. Miles, July 22, 1812</title>
             <author>Maria Edgeworth</author>
             <editor ref="Id_who">
                <persName ref="Id_who">Eliza Wilcox</persName>
@@ -28,9 +28,11 @@
             </edition>
             <respStmt>
                <orgName ref="http://id.loc.gov/authorities/names/n80097790">Beinecke Rare Book and Manuscript Library</orgName>
-               <resp> photos include: Edgeworth_Beinecke_330_1812_07_22_page01,
-                  Edgeworth_Beinecke_330_1812_07_22_page02,
-                  Edgeworth_Beinecke_330_1812_07_22_page03, Edgeworth_Beinecke_330_1812_07_22_page04
+               <resp> photos include: 
+                  Edgeworth_Beinecke_330_1812_07_22_page01.jpg,
+                  Edgeworth_Beinecke_330_1812_07_22_page02.jpg,
+                  Edgeworth_Beinecke_330_1812_07_22_page03.jpg, 
+                  Edgeworth_Beinecke_330_1812_07_22_page04.jpg
                </resp>
             </respStmt>
          </editionStmt>
@@ -88,10 +90,7 @@
          <div type="letter">
             <pb n="1" facs="Edgeworth_Beinecke_330_1812_07_22_page01.jpg"/>
             <opener>
-               <dateline>
-                  <name type="place" ref="Id_where"/>
-                  <date when="1812-07-22"/>July 22, 1812</dateline>
-               <salute> To <persName ref="./Personography.xml#MileX1">Mrs. Miles</persName>
+               <salute> To <persName ref="./Personography.xml#MileX1">Mrs. Miles</persName><lb/>
                </salute>
             </opener>
             <pb n="2" facs="Edgeworth_Beinecke_330_1812_07_22_page02.jpg"/>
@@ -122,17 +121,9 @@
             <closer> Yours truly<lb/>
                <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
                <lb/>
-            </closer>
-            <postscript>
-               <p>July 24<hi rend="superscript">th</hi>. 1812<lb/>
-               </p>
-            </postscript>
-            <closer>
-               <address>
-                  <addrLine/>
-                  <addrLine/>
-                  <addrLine/>
-               </address>
+               <dateline>
+                  <name type="place" ref="Id_where"/>
+                  <date when="1812-07-22">July 24<hi rend="superscript">th</hi>. 1812</date></dateline><lb/>
             </closer>
          </div>
       </body>
