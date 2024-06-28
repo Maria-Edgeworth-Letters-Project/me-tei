@@ -95,7 +95,8 @@
             <opener>
                <dateline>
                   <name type="place" ref="Id_where"/>
-                  <date when="1816-05-06">May 06, 1816</date><lb/>
+                  <date when="1816-05-06">May 06, 1816</date>
+                  <lb/>
                </dateline>
             </opener>
             <p> My dear Madam, I am <choice>
@@ -122,7 +123,12 @@
                     ther</orig>
                   <reg>brother</reg>
                </choice>
-               <persName ref="./Personography.xml#EdgeC1"><choice><orig>Sneyds</orig><reg>Sneyd's</reg></choice></persName> house in <placeName ref="./Placeography.xml#Dublin_IE">
+               <persName ref="./Personography.xml#EdgeC1">
+                  <choice>
+                     <orig>Sneyds</orig>
+                     <reg>Sneyd's</reg>
+                  </choice>
+               </persName> house in <placeName ref="./Placeography.xml#Dublin_IE">
                   <choice>
                      <orig>Dub<lb/>
                         lin</orig>
@@ -216,10 +222,15 @@
                   </choice>
                </title>of mine which are just<lb/>
                     coming out - Let him call at<lb/>
-               <choice><orig>Hunters</orig><reg><persName ref="./Personography.xml#HuntW1" cert= "medium">Hunter</persName>'s</reg></choice> for a copy for you<lb/>
+               <choice>
+                  <orig>Hunters</orig>
+                  <reg>
+                     <persName ref="./Personography.xml#HuntW1" cert="medium">Hunter</persName>'s</reg>
+               </choice> for a copy for you<lb/>
                     or for himself -- The same thing <lb/>
             </p>
-            <p> <persName ref="./Personography.xml#EdgeR1">My father</persName> has been rather<lb/>
+            <p>
+               <persName ref="./Personography.xml#EdgeR1">My father</persName> has been rather<lb/>
                     better these last 3 days<lb/>
             </p>
             <closer> 

@@ -55,14 +55,14 @@
             <msDesc xml:lang="en">
                <msIdentifier>
                   <repository>Harvard University, Houghton Library</repository>
-                  <collection></collection>
-                  <idno></idno>
+                  <collection/>
+                  <idno/>
                </msIdentifier>
                <head>Letter from 
                   <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
                   to <persName ref="./Personography.xml#AshbX1">Dr. Ashburner</persName>
                </head>
-               <physDesc></physDesc>
+               <physDesc/>
             </msDesc>
             <bibl>In addition to our edited version, this letter was previously published in</bibl>
          </sourceDesc>
@@ -83,7 +83,7 @@
          </correspDesc>
       </profileDesc>
       <revisionDesc>
-         <change when="2021-01-01" who="Id_who"></change>
+         <change when="2021-01-01" who="Id_who"/>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -94,10 +94,11 @@
                <dateline>
                   <placeName ref="./Placeography.xml#Edgeworthstown_IE">Edgeworths Town</placeName>
                   <date when="1842-10-29">
-                  <choice>
-                     <abbr>Oct</abbr>
-                     <reg>October</reg>
-                  </choice> 29<hi rend="superscript">h</hi>. 1842</date></dateline>
+                     <choice>
+                        <abbr>Oct</abbr>
+                        <reg>October</reg>
+                     </choice> 29<hi rend="superscript">h</hi>. 1842</date>
+               </dateline>
                <salute>
                   Dear <persName ref="./Personography.xml#AshbX1">D<hi rend="superscript">r</hi>. Ashburner</persName>
                </salute>

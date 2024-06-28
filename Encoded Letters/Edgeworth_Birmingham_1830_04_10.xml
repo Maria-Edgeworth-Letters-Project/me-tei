@@ -100,10 +100,13 @@
             <opener>
                <dateline>
                   <name type="place" ref="Id_where"/>
-                  <placeName ref="./Placeography.xml#Edgeworthstown_IE">Edgeworth's Town</placeName><lb/>
-                     <placeName ref="./Placeography.xml#IE">Ireland</placeName><lb/>
-                  <date when="1830-04-10">April 10<hi rend="superscript">th</hi>, 1830</date><lb/>
-                    </dateline>
+                  <placeName ref="./Placeography.xml#Edgeworthstown_IE">Edgeworth's Town</placeName>
+                  <lb/>
+                  <placeName ref="./Placeography.xml#IE">Ireland</placeName>
+                  <lb/>
+                  <date when="1830-04-10">April 10<hi rend="superscript">th</hi>, 1830</date>
+                  <lb/>
+               </dateline>
             </opener>
             <p>I wish that I could write to you my dear<lb/>
                     Madam in your own delightful language<lb/>
@@ -154,8 +157,11 @@
                   <reg>pleasure</reg>
                </choice> by a rising generation of Italian children<lb/>
                     and that children yet unborn may bless<lb/>
-                    me, through your means, for easy Early <choice><orig>read-
-                       ing</orig><reg>reading</reg></choice> -<lb/>
+                    me, through your means, for easy Early <choice>
+                  <orig>read-
+                       ing</orig>
+                  <reg>reading</reg>
+               </choice> -<lb/>
                     Miss Smith with whom I understand<lb/>
                     you are well acquainted informs me that<lb/>
                you were for some time in <placeName ref="./Placeography.xml#London_ENK">London</placeName> - I am sorry<lb/>
@@ -209,7 +215,8 @@
             </p>
             <closer>
                     grateful servant<lb/>
-               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName><lb/>
+               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
+               <lb/>
                <unclear>fo</unclear> frontiere
                     <unclear>dl</unclear> Signora,
                     Signora Majone

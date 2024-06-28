@@ -36,7 +36,7 @@
                </p>
                <licence target="https://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons Attribution 4.0 (CC BY 4.0) Unported License</licence>
             </availability>
-            <idno>Edgeworth_NLS_936_1829_01_00</idno> 
+            <idno>Edgeworth_NLS_936_1829_01_00</idno>
          </publicationStmt>
          <seriesStmt>
             <title>Maria Edgeworth Letters Project</title>
@@ -45,19 +45,19 @@
             <msDesc xml:lang="en">
                <msIdentifier>
                   <repository>National Library of Scotland</repository>
-                  <collection></collection>
-                  <idno></idno>
+                  <collection/>
+                  <idno/>
                </msIdentifier>
                <head>Letter from 
                   <persName ref="./Personography.xml#LockJ1">
                      <forename>John Gibson</forename>
                      <surname>Lockhart</surname>
                   </persName>
-                  to <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>, <placeName></placeName>, 
+                  to <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>, <placeName/>, 
                   <date when="1829-01-31">Jany 31 1829</date>
                   <stamp>National Library of Scotland stamp on first and last pages of letter</stamp>
                </head>
-               <physDesc></physDesc>
+               <physDesc/>
             </msDesc>
          </sourceDesc>
       </fileDesc>
@@ -83,21 +83,30 @@
    <text>
       <body>
          <div type="letter">
-           <pb n="1" facs="Edgeworth_NLS_936_1829_01_00_page01.jpg"/>
-           <opener>
+            <pb n="1" facs="Edgeworth_NLS_936_1829_01_00_page01.jpg"/>
+            <opener>
                <dateline>
-                  <date when="1829-01-31">Jany <unclear>31</unclear> 1829</date></dateline>
+                  <date when="1829-01-31">Jany <unclear>31</unclear> 1829</date>
+               </dateline>
                <salute>
                   <persName>My dear Miss Edgeworth</persName>
                </salute>
             </opener>
             <p>
                - I have<lb/>
-               just returned <choice><orig>fm</orig><reg>from</reg></choice> <placeName ref="./Placeography.xml#STK">Scotland</placeName> where<lb/>
-               I heard the news of <persName ref="./Personography.xml#EdgeF3">your sister's</persName><lb/>
+               just returned <choice>
+                  <orig>fm</orig>
+                  <reg>from</reg>
+               </choice>
+               <placeName ref="./Placeography.xml#STK">Scotland</placeName> where<lb/>
+               I heard the news of <persName ref="./Personography.xml#EdgeF3">your sister's</persName>
+               <lb/>
                marriage - an event on which<lb/>
                <persName ref="./Personography.xml#LockS1">my wife</persName> begs leave to join her<lb/>
-               congratulations <choice><orig>w</orig><reg>with</reg></choice> mine. I hope<lb/>
+               congratulations <choice>
+                  <orig>w</orig>
+                  <reg>with</reg>
+               </choice> mine. I hope<lb/>
                the <persName ref="./Personography.xml#EdgeF3">Lady</persName> will permit us to<lb/>
                make her acquaintance as I<lb/>
                understand she is to be settled<lb/>
@@ -110,7 +119,8 @@
             </p>
             <p>
                <pb n="2" facs="Edgeworth_NLS_936_1829_01_00_page02.jpg"/>
-               know where your brother <persName ref="./Personography.xml#EdgeW1">William</persName><lb/>
+               know where your brother <persName ref="./Personography.xml#EdgeW1">William</persName>
+               <lb/>
                is but have a message for<lb/>
                him which perhaps you will be<lb/>
                kind enough to forward -<lb/>
@@ -118,10 +128,18 @@
             <p>
                I transcribe a note drawn<lb/>
                up by a reverend friend of<lb/>
-               mine new here who takes <del></del><lb/>
+               mine new here who takes <del/>
+               <lb/>
                charge of the Scientific department<lb/>
                of "the Family <unclear>Litany</unclear>" - a<lb/>
-               miscellany about to be <choice><orig><unclear>pub<hi rend="superscript">d</hi></unclear></orig><reg>published</reg></choice><lb/>
+               miscellany about to be <choice>
+                  <orig>
+                     <unclear>pub<hi rend="superscript">d</hi>
+                     </unclear>
+                  </orig>
+                  <reg>published</reg>
+               </choice>
+               <lb/>
                by <persName ref="./Personography.xml#MurrJ1">Mr Murray</persName> (&amp; of which<lb/>
                I enclose a prospectus)<lb/>
             </p>
@@ -140,20 +158,36 @@
                Edgeworth's</persName> avocations<lb/>
                &amp; inclinations permit him<lb/>
                to draw up such a book<lb/>
-               perhaps he <choice><orig>w<hi rend="superscript">d</hi></orig><reg>would</reg></choice> take the<lb/>
+               perhaps he <choice>
+                  <orig>w<hi rend="superscript">d</hi>
+                  </orig>
+                  <reg>would</reg>
+               </choice> take the<lb/>
                trouble to calculate the<lb/>
             </p>
             <p>
                <pb n="4" facs="Edgeworth_NLS_936_1829_01_00_page04.jpg"/>
                extent to which he thinks it<lb/>
-               <choice><orig>w<hi rend="superscript">d</hi></orig><reg>would</reg></choice> run - &amp; then, I doubt not,<lb/>
-               we <choice><orig>shd</orig><reg>should</reg></choice> be able to offer him<lb/>
+               <choice>
+                  <orig>w<hi rend="superscript">d</hi>
+                  </orig>
+                  <reg>would</reg>
+               </choice> run - &amp; then, I doubt not,<lb/>
+               we <choice>
+                  <orig>shd</orig>
+                  <reg>should</reg>
+               </choice> be able to offer him<lb/>
                ample remuneration for his<lb/>
                services."<lb/>
             </p>
             <p>
                Perhaps this sort of business<lb/>
-               is wholly out of <persName ref="./Personography.xml#EdgeW1"><choice><orig>yr</orig><reg>your</reg></choice> brother's</persName><lb/>
+               is wholly out of <persName ref="./Personography.xml#EdgeW1">
+                  <choice>
+                     <orig>yr</orig>
+                     <reg>your</reg>
+                  </choice> brother's</persName>
+               <lb/>
                way; but I happened accidentally<lb/>
                to mention his name &amp; since<lb/>
                this has come of it, it can<lb/>
@@ -164,14 +198,17 @@
             <p>
                <pb n="5" facs="Edgeworth_NLS_936_1829_01_00_page05.jpg"/>
                he may not dislike such an<lb/>
-               exertion - at all events <hi rend="underline">you</hi><lb/>
+               exertion - at all events <hi rend="underline">you</hi>
+               <lb/>
                will excuse me for having<lb/>
                thought so.<lb/>
             </p>
             <p>
-               I left <persName ref="./Personography.xml#ScotW1">Sir Walter</persName> &amp; <persName ref="./Personography.xml#ScotA1">Anne Scott</persName><lb/>
+               I left <persName ref="./Personography.xml#ScotW1">Sir Walter</persName> &amp; <persName ref="./Personography.xml#ScotA1">Anne Scott</persName>
+               <lb/>
                in the best of health and<lb/>
-               spirits. He has a <title ref="./Workography.xml#AnneG1">Novel</title><lb/>
+               spirits. He has a <title ref="./Workography.xml#AnneG1">Novel</title>
+               <lb/>
                nearly ready of which I<lb/>
                read &amp; was delighted with<lb/>
                the first volume - all<lb/>
@@ -181,23 +218,32 @@
             </p>
             <p>
                <pb n="6" facs="Edgeworth_NLS_936_1829_01_00_page06.jpg"/>
-               in <hi rend="underline">Taking for Granted.</hi><lb/>
+               in <hi rend="underline">Taking for Granted.</hi>
+               <lb/>
                <note>Though Lockhart refers to the novel as "Taking for Granted," Sir Walter Scott named the novel "Anne of Geierstein."</note>
             </p>
             <closer>
                Believe me ever, dear<lb/>
                <persName ref="./Personography.xml#EdgeM1">Miss Edgeworth</persName>, your<lb/>
                very faithful servant<lb/>
-               <persName ref="./Personography.xml#LockJ1"><hi rend="underline">J G Lockhart</hi></persName><lb/>
+               <persName ref="./Personography.xml#LockJ1">
+                  <hi rend="underline">J G Lockhart</hi>
+               </persName>
+               <lb/>
             </closer>
             <postscript>
                <p>
-                  PS &amp; NB. <persName ref="./Personography.xml#PhilH1">D<hi rend="superscript">r</hi> Philpotts</persName><lb/>
-                  has turned a stout <choice><orig>pro-<lb/>
-                  catholic</orig><reg>pro-Catholic</reg></choice><lb/>
+                  PS &amp; NB. <persName ref="./Personography.xml#PhilH1">D<hi rend="superscript">r</hi> Philpotts</persName>
+                  <lb/>
+                  has turned a stout <choice>
+                     <orig>pro-<lb/>
+                  catholic</orig>
+                     <reg>pro-Catholic</reg>
+                  </choice>
+                  <lb/>
                </p>
             </postscript>
-        </div>
+         </div>
       </body>
       <back> </back>
    </text>

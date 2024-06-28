@@ -18,7 +18,7 @@
             <respStmt>
                <resp>Transcription and coding by</resp>
                <persName ref="Id_who">Alexandra LaGrand</persName>
-           </respStmt>
+            </respStmt>
          </titleStmt>
          <editionStmt>
             <edition>First digital edition in TEI, date: <date when="2024-04-15">April 15, 2024</date>
@@ -36,28 +36,28 @@
                </p>
                <licence target="https://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons Attribution 4.0 (CC BY 4.0) Unported License</licence>
             </availability>
-            <idno>Edgeworth_NLS_936_1841_12_27</idno> 
+            <idno>Edgeworth_NLS_936_1841_12_27</idno>
          </publicationStmt>
          <seriesStmt>
             <title>Maria Edgeworth Letters Project</title>
          </seriesStmt>
          <sourceDesc>
             <msDesc xml:lang="en">
-              <msIdentifier>
-                 <repository>National Library of Scotland</repository>
-                 <collection></collection>
-                 <idno></idno>
+               <msIdentifier>
+                  <repository>National Library of Scotland</repository>
+                  <collection/>
+                  <idno/>
                </msIdentifier>
                <head>Letter from 
                   <persName ref="./Personography.xml#LockJ1">
                      <forename>John Gibson</forename>
                      <surname>Lockhart</surname>
                   </persName>
-                  to <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>, <placeName></placeName>, 
+                  to <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>, <placeName/>, 
                   <date when="1841-12-27">Der 27. 1841</date>
                   <stamp>National Library of Scotland stamp on final page of letter</stamp>
                </head>
-               <physDesc></physDesc>
+               <physDesc/>
             </msDesc>
          </sourceDesc>
       </fileDesc>
@@ -87,7 +87,12 @@
             <opener>
                <dateline>
                   <name type="place" ref="Id_where"/>London
-                  <date when="1841-12-27"><choice><orig>Der</orig><reg>December</reg></choice> 27. 1841</date></dateline>
+                  <date when="1841-12-27">
+                     <choice>
+                        <orig>Der</orig>
+                        <reg>December</reg>
+                     </choice> 27. 1841</date>
+               </dateline>
                <salute>
                   <persName>My dear Miss Edgeworth.</persName>
                </salute>
@@ -97,13 +102,35 @@
                confirmation <unclear>of</unclear> the Newspaper<lb/>
                Report of <persName ref="./Personography.xml#ScotC1">Charles Scotts</persName> death<lb/>
                never arrived till last night<lb/>
-               - the Persian ministers <unclear>Messenger</unclear><lb/>
-               having been stopped by our <choice><orig>Ambas<lb/>
-               -ader</orig><reg>Ambassador</reg></choice> at <placeName ref="./Placeography.xml#Vienna_AT">Vienna</placeName> for a <choice><orig>weak</orig><reg>week</reg></choice><lb/>
-               . I had no <choice><orig>dubt</orig><reg>doubt</reg></choice> of the truth of<lb/>
-               the sad story - but still <choice><orig>cd</orig><reg>could</reg></choice><lb/>
+               - the Persian ministers <unclear>Messenger</unclear>
+               <lb/>
+               having been stopped by our <choice>
+                  <orig>Ambas<lb/>
+               -ader</orig>
+                  <reg>Ambassador</reg>
+               </choice> at <placeName ref="./Placeography.xml#Vienna_AT">Vienna</placeName> for a <choice>
+                  <orig>weak</orig>
+                  <reg>week</reg>
+               </choice>
+               <lb/>
+               . I had no <choice>
+                  <orig>dubt</orig>
+                  <reg>doubt</reg>
+               </choice> of the truth of<lb/>
+               the sad story - but still <choice>
+                  <orig>cd</orig>
+                  <reg>could</reg>
+               </choice>
+               <lb/>
                not write to you as I otherwise<lb/>
-               <choice><orig>w<hi rend="superscript">d</hi></orig><reg>would</reg></choice> have <choice><orig>ben</orig><reg>been</reg></choice> sure to do, in<lb/>
+               <choice>
+                  <orig>w<hi rend="superscript">d</hi>
+                  </orig>
+                  <reg>would</reg>
+               </choice> have <choice>
+                  <orig>ben</orig>
+                  <reg>been</reg>
+               </choice> sure to do, in<lb/>
                the absence of direct intelligence<lb/>
             </p>
             <p>
@@ -114,12 +141,19 @@
                <pb n="2" facs="Edgeworth_NLS_936_1841_12_27_page02.jpg"/>
                recollections. <persName ref="./Personography.xml#ScotC1">Charles</persName> has only<lb/>
                joined a Company who are<lb/>
-               &amp; ever will be as <choice><orig>presnt</orig><reg>present</reg></choice><lb/>
+               &amp; ever will be as <choice>
+                  <orig>presnt</orig>
+                  <reg>present</reg>
+               </choice>
+               <lb/>
                to me while memory remains<lb/>
                as if they still were partaking<lb/>
                in what we call Life. It<lb/>
                is however a very serious<lb/>
-               <choice><orig>calamty</orig><reg>calamity</reg></choice> to me - for we had<lb/>
+               <choice>
+                  <orig>calamty</orig>
+                  <reg>calamity</reg>
+               </choice> to me - for we had<lb/>
                very much in common &amp;<lb/>
                it was to him I had always<lb/>
                looked, in case of my<lb/>
@@ -131,7 +165,9 @@
                <pb n="3" facs="Edgeworth_NLS_936_1841_12_27_page03.jpg"/>
                I sh<hi rend="superscript">d</hi> say for giving them<lb/>
                that caste of mind &amp;<lb/>
-               sentiment<unclear><del>s</del></unclear> which I w<hi rend="superscript">d</hi> fain<lb/>
+               sentiment<unclear>
+                  <del>s</del>
+               </unclear> which I w<hi rend="superscript">d</hi> fain<lb/>
                have them inherit from<lb/>
                their mother.<lb/>
             </p>
@@ -144,8 +180,11 @@
                continued to droop &amp; died<lb/>
                on the 28<hi rend="superscript">th</hi> of that Month.<lb/>
                without apparent pain -<lb/>
-               having so long as <choice><orig>conscious<lb/>
-               -ness</orig><reg>consciousness</reg></choice> continued spoken<lb/>
+               having so long as <choice>
+                  <orig>conscious<lb/>
+               -ness</orig>
+                  <reg>consciousness</reg>
+               </choice> continued spoken<lb/>
                tranquilly Even cheerfully<lb/>
             </p>
             <p>
@@ -157,7 +196,11 @@
                Physician <persName ref="./Personography.xml#BellC1">D<hi rend="superscript">r</hi> Bell</persName> a Nephew<lb/>
                of <persName ref="./Personography.xml#BellC1">Sir Charles</persName> were both old<lb/>
                friends of his own as well<lb/>
-               as of mine &amp; Whatever <choice><orig>cd</orig><reg>could</reg></choice><lb/>
+               as of mine &amp; Whatever <choice>
+                  <orig>cd</orig>
+                  <reg>could</reg>
+               </choice>
+               <lb/>
                be done to soothe his pillow<lb/>
                was done by them - &amp; he now<lb/>
                Shares the grave of one of<lb/>
@@ -165,8 +208,12 @@
                died there some years ago.<lb/>
             </p>
             <closer>
-               Ever <choice><orig>affectenaly</orig><reg>affectionately</reg></choice> Yours<lb/>
-               <persName ref="./Personography.xml#LockJ1">J G Lockhart</persName><lb/>
+               Ever <choice>
+                  <orig>affectenaly</orig>
+                  <reg>affectionately</reg>
+               </choice> Yours<lb/>
+               <persName ref="./Personography.xml#LockJ1">J G Lockhart</persName>
+               <lb/>
             </closer>
          </div>
       </body>

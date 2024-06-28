@@ -18,7 +18,7 @@
             <respStmt>
                <resp>Transcription and coding by</resp>
                <persName ref="Id_who">Alexandra LaGrand</persName>
-             </respStmt>
+            </respStmt>
          </titleStmt>
          <editionStmt>
             <edition>First digital edition in TEI, date: <date when="2024-03-26">March 26, 2024</date>
@@ -36,7 +36,7 @@
                </p>
                <licence target="https://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons Attribution 4.0 (CC BY 4.0) Unported License</licence>
             </availability>
-            <idno>Edgeworth_NLS_936_1826_01_04</idno> 
+            <idno>Edgeworth_NLS_936_1826_01_04</idno>
          </publicationStmt>
          <seriesStmt>
             <title>Maria Edgeworth Letters Project</title>
@@ -45,19 +45,19 @@
             <msDesc xml:lang="en">
                <msIdentifier>
                   <repository>National Library of Scotland</repository>
-                  <collection></collection>
-                  <idno></idno>
+                  <collection/>
+                  <idno/>
                </msIdentifier>
                <head>Letter from 
                   <persName ref="./Personography.xml#LockJ1">
                      <forename>John Gibson</forename>
                      <surname>Lockhart</surname>
                   </persName>
-                  to <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>, <placeName></placeName>, 
+                  to <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>, <placeName/>, 
                   <date when="1826-01-04">Jan<hi rend="superscript">y</hi> 4. 1826</date>
                   <stamp>National Library of Scotland stamp on final page of letter</stamp>
                </head>
-               <physDesc></physDesc>
+               <physDesc/>
             </msDesc>
          </sourceDesc>
       </fileDesc>
@@ -86,14 +86,16 @@
             <pb n="1" facs="Edgeworth_NLS_936_1826_01_04_page01.jpg"/>
             <opener>
                <note place="bottom">January 4<lb/>
-                  1826<lb/></note>
+                  1826<lb/>
+               </note>
                <salute>
                   <persName>My dear Miss Edgeworth.</persName>
                </salute>
             </opener>
             <p>
                I send you
-               <title ref="./Workography.xml#Janus1"><hi rend="underline">Janus</hi> an annual volume</title> in which<lb/>
+               <title ref="./Workography.xml#Janus1">
+                  <hi rend="underline">Janus</hi> an annual volume</title> in which<lb/>
                you will find the delightful essay you<lb/>
                entrusted to my care when I had the<lb/>
                pleasure of being under the roof of<lb/>
@@ -103,7 +105,8 @@
                rate. It is safe among my papers<lb/>
                but these have not yet followed me<lb/>
                hither from <placeName ref="./Placeography.xml#STK">Scotland</placeName>.<lb/>
-               I fear the volume is rather <unclear>of too</unclear><lb/>
+               I fear the volume is rather <unclear>of too</unclear>
+               <lb/>
                serious a complexion. <hi rend="underline">Many</hi> things in it<lb/>
                are, however, good - and that is more I<lb/>
                think that can be said of any of the<lb/>
@@ -133,21 +136,25 @@
             </p>
             <closer>
                <pb n="3" facs="Edgeworth_NLS_936_1826_01_04_page03.jpg"/>
-               I beg to be remembered to <persName ref="./Personography.xml#EdgeF2">M<hi rend="superscript">rs</hi><lb/>
+               I beg to be remembered to <persName ref="./Personography.xml#EdgeF2">M<hi rend="superscript">rs</hi>
+                  <lb/>
                Edgeworth</persName>, <persName ref="./Personography.xml#EdgeR1">Mr Edgeworth</persName>, and<lb/>
                the rest of the household with<lb/>
                whom I spent days not to be<lb/>
                forgotten, &amp; remain always<lb/>
                most sincerely yours<lb/>
-               <persName ref="./Personography.xml#LockJ1">JG Lockhart</persName><lb/>
+               <persName ref="./Personography.xml#LockJ1">JG Lockhart</persName>
+               <lb/>
             </closer>
             <postscript>
                <p>
-                  <placeName ref="./Placeography.xml#Pall-Mall-25_ENK">25 Pall Mall</placeName><lb/>
+                  <placeName ref="./Placeography.xml#Pall-Mall-25_ENK">25 Pall Mall</placeName>
+                  <lb/>
                   <placeName ref="./Placeography.xml#London_ENK">London</placeName> -<lb/>
                   Jan<hi rend="superscript">y</hi> 4. 1826<lb/>
                   <pb n="4" facs="Edgeworth_NLS_936_1826_01_04_page04.jpg"/>
-                  <persName ref="./Personography.xml#LockJ1">Lockhart</persName><lb/>
+                  <persName ref="./Personography.xml#LockJ1">Lockhart</persName>
+                  <lb/>
                </p>
             </postscript>
          </div>

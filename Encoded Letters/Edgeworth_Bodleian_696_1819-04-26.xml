@@ -20,11 +20,11 @@
                <resp>Transcription and coding by</resp>
                <persName ref="Id_who">Eliza Alexander Wilcox
                </persName>
-               <persName ref="Id_who"></persName>
+               <persName ref="Id_who"/>
             </respStmt>
          </titleStmt>
          <editionStmt>
-            <edition>First digital edition in TEI, date: April 10 2024<date when="2024-04-10"></date>
+            <edition>First digital edition in TEI, date: April 10 2024<date when="2024-04-10"/>
             </edition>
             <respStmt>
                <orgName type="naf" ref="Id_who">
@@ -39,10 +39,11 @@
             <authority>Maria Edgeworth Letters Project</authority>
             <date>2022</date>
             <availability>
-               <p>Reproduced by courtesy of the <orgName ref="http://id.loc.gov/authorities/names/n80020306">Bodleian Library</orgName></p>
+               <p>Reproduced by courtesy of the <orgName ref="http://id.loc.gov/authorities/names/n80020306">Bodleian Library</orgName>
+               </p>
                <licence target="https://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons Attribution 4.0 (CC BY 4.0) Unported License</licence>
             </availability>
-            <idno>Edgeworth_Bodleian_696_1819_04_26</idno> 
+            <idno>Edgeworth_Bodleian_696_1819_04_26</idno>
          </publicationStmt>
          <seriesStmt>
             <title>Maria Edgeworth Letters Project</title>
@@ -51,21 +52,21 @@
             <msDesc xml:lang="en">
                <msIdentifier>
                   <repository>Bodleian Library</repository>
-                  <collection></collection>
-                  <idno></idno>
+                  <collection/>
+                  <idno/>
                </msIdentifier>
                <head>Letter from 
                      <persName xml:id="EdgeM1" from="1768" to="1849">
-                        <forename>Maria</forename>
-                        <surname>Edgeworth</surname>
-                        <date>1768-1849</date>
-                        <idno type="VIAF">71477273</idno>
-                        <idno type="SNAC">62567029</idno>
-                     </persName>
-                   to <persName ref="./Personography.xml#EdgeF2">Frances Anne Edgeworth</persName>, <placeName></placeName>, 
+                     <forename>Maria</forename>
+                     <surname>Edgeworth</surname>
+                     <date>1768-1849</date>
+                     <idno type="VIAF">71477273</idno>
+                     <idno type="SNAC">62567029</idno>
+                  </persName>
+                   to <persName ref="./Personography.xml#EdgeF2">Frances Anne Edgeworth</persName>, <placeName/>, 
                   <date when="1819-04-26">April 26 1819</date>
                </head>
-               <physDesc></physDesc>
+               <physDesc/>
             </msDesc>
          </sourceDesc>
       </fileDesc>
@@ -85,7 +86,7 @@
          </correspDesc>
       </profileDesc>
       <revisionDesc>
-         <change when="2021-01-01" who="Id_who"></change>
+         <change when="2021-01-01" who="Id_who"/>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -95,9 +96,10 @@
             <opener>
                <dateline>
                   <name type="place" ref="Id_where"/>
-                  <date when="1816-08-04">August 4, 1816.</date></dateline>
+                  <date when="1816-08-04">August 4, 1816.</date>
+               </dateline>
                <salute>
-                  <persName></persName>
+                  <persName/>
                </salute>
             </opener>
             <p>Dearest <persName ref="./Personography.xml#EdgeF2">Mother</persName>; Here we are again with<lb/>
@@ -105,18 +107,25 @@
             met us with open arms &amp; open heart at<lb/>
             the head of the stairs when we returned<lb/>
             and made us feel immediately at home<lb/>
-            again in her house and as if we had <choice><orig>ne-<lb/>
-            ver</orig><reg>never</reg></choice> separated from her. Every thing in our<lb/>
+            again in her house and as if we had <choice>
+                  <orig>ne-<lb/>
+            ver</orig>
+                  <reg>never</reg>
+               </choice> separated from her. Every thing in our<lb/>
             rooms prepared in perfect comfort for<lb/>
             us. The low arm chair at the fire - the foot<lb/>
             stool - the writing table turned <del>to</del> the right<lb/>
-            way for the light for me - Oh my dear <choice><orig>mo-<lb/>
-            ther</orig><reg>mother</reg></choice> politeness in the manner of doing<lb/>
+            way for the light for me - Oh my dear <choice>
+                  <orig>mo-<lb/>
+            ther</orig>
+                  <reg>mother</reg>
+               </choice> politeness in the manner of doing<lb/>
             kindness, as you and <persName ref="./Personography.xml#RuxtM1">Aunt Ruxton</persName> so<lb/>
             well know adds incalculably to the<lb/>
-            value of the favors conferred.<lb/></p>
-
-            <p><persName ref="./Personography.xml#EdgeF3">Fanny</persName> who is scribbling to you<lb/>
+            value of the favors conferred.<lb/>
+            </p>
+            <p>
+               <persName ref="./Personography.xml#EdgeF3">Fanny</persName> who is scribbling to you<lb/>
             says she has told you what a dreary drive<lb/>
             we had from <placeName ref="./Placeography.xml#Deep-Dene-Dorking_ENK">Deep Dene</placeName> to <placeName ref="./Placeography.xml#Kensington_ENK">Kensington</placeName> &amp;<lb/>
             how completely we were prevented from<lb/>
@@ -128,16 +137,21 @@
             (had her own recollections! -) But we have<lb/>
             had so few little disappointments of this<lb/>
             sort during our journies that we <hi rend="underline">have no </hi>right<lb/>
-            to complain<lb/></p>
-
+            to complain<lb/>
+            </p>
             <pb n="2" facs="Edgeworth_Bodleian_696_1819-04-26_page02.jpg"/>
-
-            <p>  <persName ref="./Personography.xml#EdgeF3">Fan</persName> has told you of M<hi rend="superscipt">r</hi>. &amp; M<hi rend="superscipt">rs</hi>. Waldegrave<lb/>
-            &amp; all we have heard from them - <del>So</del><lb/>
+            <p>
+               <persName ref="./Personography.xml#EdgeF3">Fan</persName> has told you of M<hi rend="superscipt">r</hi>. &amp; M<hi rend="superscipt">rs</hi>. Waldegrave<lb/>
+            &amp; all we have heard from them - <del>So</del>
+               <lb/>
             I have written to <persName ref="./Personography.xml#GreyC1">Lord Grey</persName> to ask<lb/>
-            when &amp; where I may present <add><unclear>little</unclear></add> <persName ref="./Personography.xml#EdgeF1">Francis</persName> to him<lb/></p>
-
-            <p> <persName ref="./Personography.xml#HollP1">D<hi rend="superscipt">r</hi>. Holland</persName> dines here tomorrow<lb/>
+            when &amp; where I may present <add>
+                  <unclear>little</unclear>
+               </add>
+               <persName ref="./Personography.xml#EdgeF1">Francis</persName> to him<lb/>
+            </p>
+            <p>
+               <persName ref="./Personography.xml#HollP1">D<hi rend="superscipt">r</hi>. Holland</persName> dines here tomorrow<lb/>
             and you shall hear immediately what he<lb/>
             says of <persName ref="./Personography.xml#EdgeF3">Fanny</persName>. But I know all he can say<lb/>
             is that he is <hi rend="underline">proud</hi> to see her looking so well<lb/>
@@ -152,19 +166,23 @@
             ride in the park with <persName ref="./Personography.xml#XxxxJ2">Jack</persName> riding behind<lb/>
             them - After <persName ref="./Personography.xml#XxxxJ2">Jack</persName> had gone a few yards<lb/>
             he said he must turn back he bethought him<lb/>
-            thus the silk hand<unclear><hi rend="superscipt"></hi></unclear>. he had tied round his<lb/>
+            thus the silk hand<unclear>
+                  <hi rend="superscipt"/>
+               </unclear>. he had tied round his<lb/>
             neck was not smart enough or as he said<lb/>
-            <hi rend="underline">respectful enough for riding with a lady</hi><lb/>
+               <hi rend="underline">respectful enough for riding with a lady</hi>
+               <lb/>
             so back he went to equip himself more<lb/>
-            to his notions of propriety<lb/></p>
-
+            to his notions of propriety<lb/>
+            </p>
             <p> Good natured <persName ref="./Personography.xml#GranX2">Miss Grant</persName> ( <add>of the</add> dear<lb/>
-            <persName ref="./Personography.xml#RuxtM1">Aunt Mary</persName> kind) came out with me &amp;<lb/>
+               <persName ref="./Personography.xml#RuxtM1">Aunt Mary</persName> kind) came out with me &amp;<lb/>
             &amp; walked without her bonnet &amp; with<lb/>
             one end of her shawl round her &amp; the other<lb/>
             end round myself up the <placeName ref="./Placeography.xml#Kensington_ENK">Kensington</placeName> road<lb/>
             to the park for the pleasure of seeing them<lb/>
-            trit-a-trot till they were quite out of sight<lb/></p>
+            trit-a-trot till they were quite out of sight<lb/>
+            </p>
          </div>
       </body>
       <back> </back>

@@ -100,7 +100,8 @@
             <opener>
                <dateline>
                   <name type="place" ref="Id_where"/>
-                  <date when="1816-08-04">August 4, 1816.</date></dateline>
+                  <date when="1816-08-04">August 4, 1816.</date>
+               </dateline>
                <salute>
                   <persName/>
                </salute>
@@ -258,11 +259,15 @@
             </postscript>
             <closer>
                <address>
-                  <addrLine><persName ref="./Personography.xml#BeauF1">Captain Beaufort</persName></addrLine>
+                  <addrLine>
+                     <persName ref="./Personography.xml#BeauF1">Captain Beaufort</persName>
+                  </addrLine>
                   <addrLine>31 Harley Street</addrLine>
                   <addrLine>London</addrLine>
                   <addrLine>Hunter</addrLine>
-                  <addrLine><unclear>MY 23</unclear></addrLine>
+                  <addrLine>
+                     <unclear>MY 23</unclear>
+                  </addrLine>
                   <addrLine>1817</addrLine>
                </address>
             </closer>
