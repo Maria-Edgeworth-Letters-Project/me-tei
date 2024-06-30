@@ -99,11 +99,14 @@
             <opener>
                <dateline>
                   8 - Holles Street<lb/>
-                  <date when="1822-04-23">April 23<hi rend="superscript">d</hi>. 1822</date><lb/></dateline>
+                  <date when="1822-04-23">April 23<hi rend="superscript">d</hi>. 1822</date>
+                  <lb/>
+               </dateline>
                <salute>
                   <persName ref="./Personography.xml#BowrJ1">
-                     Dear <persName ref="./Personography.xml#BowrJ1">Sir</persName><lb/>
-                        </persName>
+                     Dear <persName ref="./Personography.xml#BowrJ1">Sir</persName>
+                     <lb/>
+                  </persName>
                </salute>
             </opener>
             <p>I am happy to be <choice>
@@ -122,7 +125,12 @@
                     acquainted with those who<lb/>
                     have served <del>so</del> eminently<lb/>
                     the African cause - my<lb/>
-               friend is <persName ref="./Personography.xml#BeauF1"><choice><abbr>Capt<hi rend="superscript">n</hi></abbr><reg>Captain</reg></choice> Beaufort</persName>
+               friend is <persName ref="./Personography.xml#BeauF1">
+                  <choice>
+                     <abbr>Capt<hi rend="superscript">n</hi>
+                     </abbr>
+                     <reg>Captain</reg>
+                  </choice> Beaufort</persName>
                <lb/>
                     (author of a book you may<lb/>
                     have met with, <hi rend="underline">
@@ -153,33 +161,45 @@
                         -ment</orig>
                   <reg>predicament</reg>
                </choice> of being one too many<lb/>
-               With my sisters <choice><abbr>comp<hi rend="superscript">ts</hi></abbr><reg>compliments</reg></choice>
+               With my sisters <choice>
+                  <abbr>comp<hi rend="superscript">ts</hi>
+                  </abbr>
+                  <reg>compliments</reg>
+               </choice>
                <lb/>
-               and my own to <persName ref="./Personography.xml#BowrX1">M<hi rend="superscript">rs</hi>. Bowring</persName><lb/>
+               and my own to <persName ref="./Personography.xml#BowrX1">M<hi rend="superscript">rs</hi>. Bowring</persName>
+               <lb/>
             </p>
             <closer>
-               I am Dear <persName ref="./Personography.xml#BowrJ1">Sir</persName><lb/>
+               I am Dear <persName ref="./Personography.xml#BowrJ1">Sir</persName>
+               <lb/>
                     Yours truly<lb/>
                <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
                <lb/>
             </closer>
             <postscript>
                <p>You do not name your<lb/>
-                        dinner hour.</p><lb/>
+                        dinner hour.</p>
+               <lb/>
             </postscript>
             <closer>
-               
-                  <pb n="3" facs="Edgeworth_Birmingham_1822_04_23_page03.jpg"/>
-                  <note><persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
+               <pb n="3" facs="Edgeworth_Birmingham_1822_04_23_page03.jpg"/>
+               <note>
+                  <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
                   <lb/>
-                     23 April 1822<lb/></note>
-                  <pb n="4" facs="Edgeworth_Birmingham_1822_04_23_page04.jpg"/>
+                     23 April 1822<lb/>
+               </note>
+               <pb n="4" facs="Edgeworth_Birmingham_1822_04_23_page04.jpg"/>
                <address>
-                  <addrLine><persName ref="./Personography.xml#BowrJ1">John Bowring Esq<hi rend="superscript">re</hi>
-                  </persName></addrLine>
+                  <addrLine>
+                     <persName ref="./Personography.xml#BowrJ1">John Bowring Esq<hi rend="superscript">re</hi>
+                     </persName>
+                  </addrLine>
                   <lb/>
-                  <addrLine><placeName ref="./Placeography.xml#London-Fields-Hackney-London_ENK">London fields<lb/>
-                            Hackney</placeName></addrLine>
+                  <addrLine>
+                     <placeName ref="./Placeography.xml#London-Fields-Hackney-London_ENK">London fields<lb/>
+                            Hackney</placeName>
+                  </addrLine>
                   <lb/>
                </address>
             </closer>

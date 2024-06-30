@@ -36,28 +36,28 @@
                </p>
                <licence target="https://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons Attribution 4.0 (CC BY 4.0) Unported License</licence>
             </availability>
-            <idno>Edgeworth_NLS_6931_1818_03_16</idno> 
+            <idno>Edgeworth_NLS_6931_1818_03_16</idno>
          </publicationStmt>
          <seriesStmt>
             <title>Maria Edgeworth Letters Project</title>
          </seriesStmt>
          <sourceDesc>
             <msDesc xml:lang="en">
-              <msIdentifier>
+               <msIdentifier>
                   <repository>National Library of Scotland</repository>
-                  <collection></collection>
-                  <idno></idno>
+                  <collection/>
+                  <idno/>
                </msIdentifier>
                <head>Letter from 
                   <persName ref="./Personography.xml#EdgeF2">
                      <forename>Frances Anne</forename>
                      <surname>Edgeworth</surname>
                   </persName>
-                  to <persName ref="./Personography.xml#BrinE1">Esther Brinkley</persName>, <placeName ref="./Placeography.xml#Dunsink-Observatory_IE">Observatory</placeName>, near <placeName ref="./Placeography.xml#Dublin_IE">Dublin</placeName> 
+                  to <persName ref="./Personography.xml#BrinE1">Esther Brinkley</persName>, <placeName ref="./Placeography.xml#Dunsink-Observatory_IE">Observatory</placeName>, near <placeName ref="./Placeography.xml#Dublin_IE">Dublin</placeName>
                   <date when="1818-03-16">16 March 1818</date>
-                  <stamp>Postage stamp reading "P.P. OFFICE 21 MA. 21 18 <unclear></unclear>"</stamp>
+                  <stamp>Postage stamp reading "P.P. OFFICE 21 MA. 21 18 <unclear/>"</stamp>
                </head>
-               <physDesc></physDesc>
+               <physDesc/>
             </msDesc>
          </sourceDesc>
       </fileDesc>
@@ -87,9 +87,11 @@
             <opener>
                <dateline>
                   <name type="place" ref="Id_where"/>Cheltenham
-                  <date when="1818-03-16">16 March<lb/> 1818</date></dateline>
+                  <date when="1818-03-16">16 March<lb/> 1818</date>
+               </dateline>
                <salute>
-                  <persName>My dear <persName ref="./Personography.xml#BrinE1">M<hi rend="superscript">rs</hi> Brinkley</persName></persName>
+                  <persName>My dear <persName ref="./Personography.xml#BrinE1">M<hi rend="superscript">rs</hi> Brinkley</persName>
+                  </persName>
                </salute>
             </opener>
             <p>
@@ -102,13 +104,25 @@
                diminished since he has taken<lb/>
                the cold shower Bath. The waters<lb/>
                have been of use to his bowels &amp;<lb/>
-               <del></del> the company of <persName ref="./Personography.xml#BeauF1" cert="high">my brother</persName><lb/>
+               <del/> the company of <persName ref="./Personography.xml#BeauF1" cert="high">my brother</persName>
+               <lb/>
                who has been so good as to join<lb/>
-               us here has given him <choice><orig>re-<lb/>
-                  -newed</orig><reg>renewed</reg></choice> spirits - As <persName ref="./Personography.xml#BeauF1" cert="high">my brother</persName><lb/>
-               must return to <placeName ref="./Placeography.xml#London_ENK">London</placeName> on <choice><orig>Wednes<lb/>
-               -day</orig><reg>Wednesday</reg></choice> <persName ref="./Personography.xml#EdgeW1">William</persName> means to <choice><orig>accompa<lb/>
-               =ny</orig><reg>accompany</reg></choice> him thither - and I am<lb/>
+               us here has given him <choice>
+                  <orig>re-<lb/>
+                  -newed</orig>
+                  <reg>renewed</reg>
+               </choice> spirits - As <persName ref="./Personography.xml#BeauF1" cert="high">my brother</persName>
+               <lb/>
+               must return to <placeName ref="./Placeography.xml#London_ENK">London</placeName> on <choice>
+                  <orig>Wednes<lb/>
+               -day</orig>
+                  <reg>Wednesday</reg>
+               </choice>
+               <persName ref="./Personography.xml#EdgeW1">William</persName> means to <choice>
+                  <orig>accompa<lb/>
+               =ny</orig>
+                  <reg>accompany</reg>
+               </choice> him thither - and I am<lb/>
                sure that nothing could give<lb/>
                <note>On this page of the letter, when referring to her brother, Frances Anne Edgeworth is likely referring to her brother, Sir Francis Beaufort. Though she has two brothers, due to his assignment with the Royal Navy, it seems likely that he would be based in London at this time.</note>
             </p>
@@ -117,7 +131,10 @@
                him the pleasure or be of<lb/>
                more use to him than <del>a</del> letters<lb/>
                from <persName ref="./Personography.xml#BrinJ1">Doctor Brinkley</persName> to <persName ref="./Personography.xml#WollW1">Doctor<lb/>
-               <hi rend="underline">Wollaston</hi></persName> - <hi rend="underline"><persName ref="./Personography.xml#PondJ1">M<hi rend="superscript">r</hi> Pond</persName></hi> or any<lb/>
+                  <hi rend="underline">Wollaston</hi>
+               </persName> - <hi rend="underline">
+                  <persName ref="./Personography.xml#PondJ1">M<hi rend="superscript">r</hi> Pond</persName>
+               </hi> or any<lb/>
                other scientific man who<lb/>
                would admit a young Irishman<lb/>
                who is ardent in the pursuit of<lb/>
@@ -127,7 +144,8 @@
             <p>
                I expect that <persName ref="./Personography.xml#EdgeW1">William</persName> will<lb/>
                find great improvement &amp;<lb/>
-               great amusement in <placeName ref="./Placeography.xml#London_ENK">London</placeName><lb/>
+               great amusement in <placeName ref="./Placeography.xml#London_ENK">London</placeName>
+               <lb/>
                not in the common way of<lb/>
                young man's dissipation but<lb/>
                in the rational enlargement<lb/>
@@ -136,16 +154,20 @@
                in his own mind.<lb/>
             </p>
             <p>
-               I hope the <persName ref="./Personography.xml#BrinJ1">D<hi rend="superscript">r</hi></persName> is quite <choice><orig>recover<lb/>
-               -ed</orig></choice> from the cold which had<lb/>
+               I hope the <persName ref="./Personography.xml#BrinJ1">D<hi rend="superscript">r</hi>
+               </persName> is quite <choice>
+                  <orig>recover<lb/>
+               -ed</orig>
+               </choice> from the cold which had<lb/>
             </p>
             <p>
                <pb n="3" facs="Edgeworth_NLS_6931_1818_03_16_page03.jpg"/>
                confined him to his bed at the<lb/>
                time when you were so<lb/>
                good as to call on us - and<lb/>
-               as I suppose he is going <unclear>to</unclear><lb/>
-               <unclear></unclear> for Easter is not<lb/>
+               as I suppose he is going <unclear>to</unclear>
+               <lb/>
+               <unclear/> for Easter is not<lb/>
                gone - I beg he will convey<lb/>
                to <persName ref="./Personography.xml#BrinJ3">John Brinkley</persName> the good<lb/>
                intelligence of his friends<lb/>
@@ -155,16 +177,34 @@
             <closer>
                To the <persName ref="./Personography.xml#BrinJ1">Doctor</persName> &amp; <persName ref="./Personography.xml#BrinS1">Miss B.</persName> pray<lb/>
                give my love - and believe<lb/>
-               me <hi rend="underline">always dear</hi> <persName ref="./Personography.xml#BrinE1">M<hi rend="superscript">rs</hi> B.</persName><lb/>
+               me <hi rend="underline">always dear</hi>
+               <persName ref="./Personography.xml#BrinE1">M<hi rend="superscript">rs</hi> B.</persName>
+               <lb/>
                Your obliged &amp; affectionate<lb/>
-               <persName ref="./Personography.xml#EdgeF2">F. Edgeworth</persName><lb/>
+               <persName ref="./Personography.xml#EdgeF2">F. Edgeworth</persName>
+               <lb/>
             </closer>
             <closer>
                <address>
-                  <addrLine><persName ref="./Personography.xml#EdgeF2">M<hi rend="superscript">rs</hi> Edgeworth's</persName> &amp; <persName ref="./Personography.xml#BeauF1"><choice><orig>Capt<hi rend="superscript">n</hi></orig><reg>Captain</reg></choice> Beaufort's</persName> Letters</addrLine><lb/>
-                  <addrLine><persName ref="./Personography.xml#BrinE1">M<hi rend="superscript">rs</hi> Brinkley</persName></addrLine><lb/>
-                  <addrLine><placeName ref="./Placeography.xml#Dunsink-Observatory_IE">Observatory</placeName></addrLine><lb/>
-                  <addrLine>Near <placeName ref="./Placeography.xml#Dublin_IE">Dublin</placeName></addrLine><lb/>
+                  <addrLine>
+                     <persName ref="./Personography.xml#EdgeF2">M<hi rend="superscript">rs</hi> Edgeworth's</persName> &amp; <persName ref="./Personography.xml#BeauF1">
+                        <choice>
+                           <orig>Capt<hi rend="superscript">n</hi>
+                           </orig>
+                           <reg>Captain</reg>
+                        </choice> Beaufort's</persName> Letters</addrLine>
+                  <lb/>
+                  <addrLine>
+                     <persName ref="./Personography.xml#BrinE1">M<hi rend="superscript">rs</hi> Brinkley</persName>
+                  </addrLine>
+                  <lb/>
+                  <addrLine>
+                     <placeName ref="./Placeography.xml#Dunsink-Observatory_IE">Observatory</placeName>
+                  </addrLine>
+                  <lb/>
+                  <addrLine>Near <placeName ref="./Placeography.xml#Dublin_IE">Dublin</placeName>
+                  </addrLine>
+                  <lb/>
                </address>
             </closer>
          </div>

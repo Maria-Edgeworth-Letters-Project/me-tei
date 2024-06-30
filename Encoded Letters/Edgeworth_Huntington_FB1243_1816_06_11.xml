@@ -100,7 +100,8 @@
             <opener>
                <dateline>
                   <placeName ref="./Placeography.xml#Edgeworthstown_IE">EdgeworthsTown</placeName>
-                  <date when="1816-06-11">June 11<hi rend="superscript">th</hi>. 16<lb/></date>
+                  <date when="1816-06-11">June 11<hi rend="superscript">th</hi>. 16<lb/>
+                  </date>
                </dateline>
                <salute>
                   My dear <persName ref="./Personography.xml#BeauF1">Francis</persName>
@@ -187,7 +188,16 @@
                both companies, and to the survey of the two<lb/>
                countries. Then we shall have a chance of their<lb/>
                attempting some improvements.<lb/>
-               The <title ref="./Workography.xml#Janus1"> <choice><abbr>Ed.</abbr><reg>Edinburgh</reg></choice> <choice><orig>review</orig><reg>Review</reg></choice></title> will drive them to something new<lb/>
+               The <title ref="./Workography.xml#Janus1">
+                  <choice>
+                     <abbr>Ed.</abbr>
+                     <reg>Edinburgh</reg>
+                  </choice>
+                  <choice>
+                     <orig>review</orig>
+                     <reg>Review</reg>
+                  </choice>
+               </title> will drive them to something new<lb/>
                in the Scotch mountains. I do not in this plan<lb/>
                look forward to being employed under this new<lb/>
                Corps, because without I was well paid it would<lb/>
@@ -208,8 +218,14 @@
                for two years more. Most fortunately the three<lb/>
                   months that you <add>so promptly</add> allowed me, induced <persName ref="./Personography.xml#TaylX1">Major Taylor</persName>
                <lb/>
-               to have my name put in the <choice><orig>Engineers</orig><reg>Engineer's</reg></choice> warrant<lb/>
-               from the Post <choice><orig>Masters</orig><reg>Master's</reg></choice> General, for laying out two<lb/>
+               to have my name put in the <choice>
+                  <orig>Engineers</orig>
+                  <reg>Engineer's</reg>
+               </choice> warrant<lb/>
+               from the Post <choice>
+                  <orig>Masters</orig>
+                  <reg>Master's</reg>
+               </choice> General, for laying out two<lb/>
                   new lines of road chiefly thro' <placeName ref="./Placeography.xml#Roscommon_IE">Roscommon</placeName> and<lb/>
                <placeName ref="./Placeography.xml#Longford_IE">Longford</placeName>. This work, will not take up the whole<lb/>
                <pb n="4" facs="Edgeworth_Huntington_FB1243_1816_06_11_page04.jpg"/>             
@@ -237,13 +253,25 @@
             </p>
             <closer>I am<lb/>
 Your most affectionate<lb/>
-               <persName ref="./Personography.xml#EdgeW1"><choice><abbr>W</abbr><reg>William</reg></choice> Edgeworth</persName>
+               <persName ref="./Personography.xml#EdgeW1">
+                  <choice>
+                     <abbr>W</abbr>
+                     <reg>William</reg>
+                  </choice> Edgeworth</persName>
                <lb/>
             </closer>
             <closer>
                <address>
                   <addrLine/>
-                  <persName ref="./Personography.xml#BeauF1">Captain Beaufort <choice><abbr>R</abbr><reg>Royal</reg></choice> <choice><abbr>N</abbr><reg>Navy</reg></choice></persName>
+                  <persName ref="./Personography.xml#BeauF1">Captain Beaufort <choice>
+                        <abbr>R</abbr>
+                        <reg>Royal</reg>
+                     </choice>
+                     <choice>
+                        <abbr>N</abbr>
+                        <reg>Navy</reg>
+                     </choice>
+                  </persName>
                   <addrLine/>
                   <street>31 Harley Street</street>
                   <addrLine/>

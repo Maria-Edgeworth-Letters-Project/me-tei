@@ -20,11 +20,11 @@
                <resp>Transcription and coding by</resp>
                <persName ref="Id_who">Eliza Alexander Wilcox
                </persName>
-               <persName ref="Id_who"></persName>
+               <persName ref="Id_who"/>
             </respStmt>
          </titleStmt>
          <editionStmt>
-            <edition>First digital edition in TEI, date: February 21 2024<date when="2024-02-21"></date>
+            <edition>First digital edition in TEI, date: February 21 2024<date when="2024-02-21"/>
             </edition>
             <respStmt>
                <orgName type="naf" ref="http://id.loc.gov/authorities/names/n80020306">
@@ -41,10 +41,11 @@
             <authority>Maria Edgeworth Letters Project</authority>
             <date>2022</date>
             <availability>
-               <p>Reproduced by courtesy of the <orgName ref="http://id.loc.gov/authorities/names/n80020306">Bodleian Library</orgName></p>
+               <p>Reproduced by courtesy of the <orgName ref="http://id.loc.gov/authorities/names/n80020306">Bodleian Library</orgName>
+               </p>
                <licence target="https://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons Attribution 4.0 (CC BY 4.0) Unported License</licence>
             </availability>
-            <idno>Edgeworth_Bodleian_696_1819_04_07</idno> 
+            <idno>Edgeworth_Bodleian_696_1819_04_07</idno>
          </publicationStmt>
          <seriesStmt>
             <title>Maria Edgeworth Letters Project</title>
@@ -53,17 +54,17 @@
             <msDesc xml:lang="en">
                <msIdentifier>
                   <repository>Bodleian Library</repository>
-                  <collection></collection>
-                  <idno></idno>
+                  <collection/>
+                  <idno/>
                </msIdentifier>
                <head>Letter from 
                      <persName xml:id="EdgeM1" from="1768" to="1849">
-                        <forename>Maria</forename>
-                        <surname>Edgeworth</surname>
-                        <date>1768-1849</date>
-                        <idno type="VIAF">71477273</idno>
-                        <idno type="SNAC">62567029</idno>
-                     </persName>
+                     <forename>Maria</forename>
+                     <surname>Edgeworth</surname>
+                     <date>1768-1849</date>
+                     <idno type="VIAF">71477273</idno>
+                     <idno type="SNAC">62567029</idno>
+                  </persName>
                   to <persName ref="./Personography.xml#EdgeF1">Frances Ann Edgeworth</persName>,
                   <date when="1819-04-07">April 7 1819</date>
                </head>
@@ -86,7 +87,7 @@
          </correspDesc>
       </profileDesc>
       <revisionDesc>
-         <change when="2021-01-01" who="Id_who"></change>
+         <change when="2021-01-01" who="Id_who"/>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -98,42 +99,57 @@
                   <date when="1819-04-07">April 7, 1819</date>
                </dateline>
                <salute>
-                  <persName></persName>
+                  <persName/>
                </salute>
             </opener>
             <p>Dearest mother, <persName ref="./Personography.xml#EdgeF3">Fanny</persName> is<lb/>
                 better and with the care<lb/>
-                which she is certain of <choice><orig>hav<lb/>
-                ing</orig><reg>having</reg></choice> in this dear good <choice><orig>fami<lb/>
-                ly</orig><reg>family</reg></choice> and under <persName ref="./Personography.xml#HollP1">D<hi rend="superscript">r</hi>. Hollands</persName><lb/>
+                which she is certain of <choice>
+                  <orig>hav<lb/>
+                ing</orig>
+                  <reg>having</reg>
+               </choice> in this dear good <choice>
+                  <orig>fami<lb/>
+                ly</orig>
+                  <reg>family</reg>
+               </choice> and under <persName ref="./Personography.xml#HollP1">D<hi rend="superscript">r</hi>. Hollands</persName>
+               <lb/>
                 medical skill &amp; friendly<lb/>
                 care she will in a few<lb/>
-                days be quite refitted<lb/></p>
-
-             <p>   She has had two blisters<lb/>
+                days be quite refitted<lb/>
+            </p>
+            <p>   She has had two blisters<lb/>
                 one on her chest one on<lb/>
                 her side for that vile pain<lb/>
                 in her side. She has taken<lb/>
                 saline draughts &amp; pills &amp;<lb/>
-                opening medicines &amp; <choice><orig>Anti-<lb/>
-                mony</orig><reg>Antimony</reg></choice> - and her pulse<lb/>
+                opening medicines &amp; <choice>
+                  <orig>Anti-<lb/>
+                mony</orig>
+                  <reg>Antimony</reg>
+               </choice> - and her pulse<lb/>
                 has come down to a weak<lb/>
                 state - no fever remains<lb/>
                 - but very little pain in her<lb/>
                 side - nothing but weak<lb/>
                 ness remains - &amp; well she<lb/>
-                may be weak having <add>had</add> <choice><orig>no-<lb/>
-                thing</orig><reg>nothing</reg></choice> but barley water &amp;<lb/>
+                may be weak having <add>had</add>
+               <choice>
+                  <orig>no-<lb/>
+                thing</orig>
+                  <reg>nothing</reg>
+               </choice> but barley water &amp;<lb/>
                 such stuff these 3 days<lb/>
-
-                <pb n="2" facs="Edgeworth_Bodleian_696_1819_04_07_page02.jpg"/> 
+               <pb n="2" facs="Edgeworth_Bodleian_696_1819_04_07_page02.jpg"/> 
 
                 - while fever lasted she c<hi rend="superscript">d</hi>.<lb/>
-                have no appetite &amp; <persName ref="./Personography.xml#HollP1">D<hi rend="superscript">r</hi>. Holland</persName><lb/>
+                have no appetite &amp; <persName ref="./Personography.xml#HollP1">D<hi rend="superscript">r</hi>. Holland</persName>
+               <lb/>
                 and Common sense says<lb/>
                 that it was hurtful to press<lb/>
                 her to eat till she wished<lb/>
-                it - I enclose <persName ref="./Personography.xml#HollP1">D<hi rend="superscript">r</hi>. Hollands</persName><lb/>
+                it - I enclose <persName ref="./Personography.xml#HollP1">D<hi rend="superscript">r</hi>. Hollands</persName>
+               <lb/>
                 note of this morning - he<lb/>
                 insists you see on her being<lb/>
                 kept from all that can<lb/>
@@ -143,29 +159,34 @@
                 Armed with his medical<lb/>
                 orders I shall insist on<lb/>
                 no person's seeing her till<lb/>
-                <persName ref="./Personography.xml#HollP1">D<hi rend="superscript">r</hi>. H</persName> says it is safe.<lb/></p>
-
-            <p>    <persName ref="./Personography.xml#WilsL1">LW</persName> had before she was<lb/>
+               <persName ref="./Personography.xml#HollP1">D<hi rend="superscript">r</hi>. H</persName> says it is safe.<lb/>
+            </p>
+            <p>
+               <persName ref="./Personography.xml#WilsL1">LW</persName> had before she was<lb/>
                 ill been promised that<lb/>
-               he should meet us at <persName ref="./Personography.xml#BailJ1"><choice><orig>Joan<lb/>
-                  na</orig><reg>Joanna</reg></choice> Baillie</persName>'s on Thursday.<lb/></p>
-
+               he should meet us at <persName ref="./Personography.xml#BailJ1">
+                  <choice>
+                     <orig>Joan<lb/>
+                  na</orig>
+                     <reg>Joanna</reg>
+                  </choice> Baillie</persName>'s on Thursday.<lb/>
+            </p>
             <p>    That is impossible - I will<lb/>
                 dine there &amp; meet him &amp;<lb/>
-                <persName ref="./Personography.xml#BeauF1">Francis</persName> and return here<lb/>
+               <persName ref="./Personography.xml#BeauF1">Francis</persName> and return here<lb/>
                 in the eve<hi rend="superscript">g</hi>. - I must dine<lb/>
                 lest I sh<hi rend="superscript">d</hi>. mortally offend<lb/>
                 the good Baillie's - I must<lb/>
                 also dine there on Saturday<lb/>
-
-                <pb n="3" facs="Edgeworth_Bodleian_696_1819_04_07_page03.jpg"/>
+               <pb n="3" facs="Edgeworth_Bodleian_696_1819_04_07_page03.jpg"/>
 
                 because we <hi rend="underline">had</hi> engaged and<lb/>
-                <unclear>loads</unclear> of Baillies &amp; people have<lb/>
-                been engaged to meet us.<lb/></p>
-
+               <unclear>loads</unclear> of Baillies &amp; people have<lb/>
+                been engaged to meet us.<lb/>
+            </p>
             <p>    But depend upon it dear
-                mother <persName ref="./Personography.xml#EdgeF3">Fanny</persName> <hi rend="underline">shall</hi> not
+                mother <persName ref="./Personography.xml#EdgeF3">Fanny</persName>
+               <hi rend="underline">shall</hi> not
                 go to be stewed &amp; agitated
                 into a fever again. She shall
                 stay in this delightful
@@ -177,15 +198,16 @@
                 setting off immediately
                 afterwards - To <placeName ref="./Placeography.xml#Deep-Dene-Dorking_ENK">Deep Dene</placeName>
                 I think on the 17<hi rend="superscript">th</hi>. -</p>
-
             <p>    Whether to cheat or not<lb/>
-                to cheat the <persName ref="./Personography.xml#TaddX2"><unclear>Taddys</unclear></persName> for<lb/>
+                to cheat the <persName ref="./Personography.xml#TaddX2">
+                  <unclear>Taddys</unclear>
+               </persName> for<lb/>
                 the 22<hi rend="superscript">d</hi>. 23 &amp; 29<hi rend="superscript">th</hi>. I have<lb/>
                 not yet made up my mind<lb/>
                 - nor can I till I see how<lb/>
-                <persName ref="./Personography.xml#EdgeF3">Fanny</persName> is<lb/></p>
-
-             <p>   We must <add>I think</add> spend 2 or 3 days<lb/>
+               <persName ref="./Personography.xml#EdgeF3">Fanny</persName> is<lb/>
+            </p>
+            <p>   We must <add>I think</add> spend 2 or 3 days<lb/>
                 with <persName ref="./Personography.xml#WhitE1">Lady E W</persName> when <persName ref="./Personography.xml#EdgeF3">Fanny</persName>s<lb/>
                 final answer has been<lb/>
                 given - This was her request<lb/>
@@ -194,73 +216,86 @@
 
                 <pb n="4" facs="Edgeworth_Bodleian_696_1819_04_07_page04.jpg"/>
 
-                I will write again tomorrow<lb/></p>
-
-             <p>   I know what I write<lb/>
-                to day is a little in <choice><orig>contra<lb/>
-                diction</orig><reg>contradiction</reg></choice> to what I wrote<lb/>
+                I will write again tomorrow<lb/>
+            </p>
+            <p>   I know what I write<lb/>
+                to day is a little in <choice>
+                  <orig>contra<lb/>
+                diction</orig>
+                  <reg>contradiction</reg>
+               </choice> to what I wrote<lb/>
                 to you yesterday of our<lb/>
                 intentions but I cannot<lb/>
-                help it - I can only <del>decide</del> <add>judge</add><lb/>
+                help it - I can only <del>decide</del>
+               <add>judge</add>
+               <lb/>
                 from day to day according<lb/>
                 as circumstances occur<lb/>
-                &amp; as <persName ref="./Personography.xml#EdgeF3">Fanny</persName>s health decides<lb/></p>
-
+                &amp; as <persName ref="./Personography.xml#EdgeF3">Fanny</persName>s health decides<lb/>
+            </p>
             <p>    I enclose a sugar plum<lb/>
                 for you my dearest friend<lb/>
-                - <persName ref="./Personography.xml#LawsW1">M<hi rend="superscript">r</hi>. <unclear>West Lawson's</unclear></persName> letter about<lb/>
+                - <persName ref="./Personography.xml#LawsW1">M<hi rend="superscript">r</hi>. <unclear>West Lawson's</unclear>
+               </persName> letter about<lb/>
                 your dear boy who has crept<lb/>
                 (like cupid into the armor)<lb/>
-                into <persName ref="./Personography.xml#CarrF1">M<hi rend="superscript">rs</hi>. Carrs</persName> heart -<lb/></p>
+                into <persName ref="./Personography.xml#CarrF1">M<hi rend="superscript">rs</hi>. Carrs</persName> heart -<lb/>
+            </p>
             <p>
                 I enclose <persName ref="./Personography.xml#HopeX">M<hi rend="superscript">rs</hi>. Hopes</persName> letter<lb/>
                 to shew she is not tired<lb/>
                of us-</p>
-
-            <p>    <persName ref="./Personography.xml#BeauF1">Capt<hi rend="superscript">n</hi>. Beaufort</persName> sent me yesterday<lb/>
+            <p>
+               <persName ref="./Personography.xml#BeauF1">Capt<hi rend="superscript">n</hi>. Beaufort</persName> sent me yesterday<lb/>
                 a letter of <persName ref="./Personography.xml#NewiX1">M<hi rend="superscript">r</hi>. Newingtons</persName> giving<lb/>
                 better hopes than I have yet seen<lb/>
                 of <persName ref="./Personography.xml#XxxxW1">W</persName> - <persName ref="./Personography.xml#NewiX1">M<hi rend="superscript">r</hi>. Newingtons</persName> account<lb/>
-                <unclear>14th. </unclear> <persName ref="./Personography.xml#BeauF1">Francis</persName> also sent me<lb/>
+               <unclear>14th. </unclear>
+               <persName ref="./Personography.xml#BeauF1">Francis</persName> also sent me<lb/>
                 saying he must pay it immediately<lb/>
-                - I sent a draft to bearer on <placeName ref="./Placeography.xml#Fleet-Street-37_ENK">Hoare</placeName><lb/>
-                for the amount - desiring <persName ref="./Personography.xml#BeauF1">Francis</persName><lb/>
+                - I sent a draft to bearer on <placeName ref="./Placeography.xml#Fleet-Street-37_ENK">Hoare</placeName>
+               <lb/>
+                for the amount - desiring <persName ref="./Personography.xml#BeauF1">Francis</persName>
+               <lb/>
                 to tear it if he had any other money<lb/>
                 lodged to answer the demand<lb/>
                 - I presume he has not as he<lb/>
-
-                <pb n="5" facs="Edgeworth_Bodleian_696_1819_04_07_page05.jpg"/> 
+               <pb n="5" facs="Edgeworth_Bodleian_696_1819_04_07_page05.jpg"/> 
 
                 saw me yesterday evening<lb/>
                 and did not return my<lb/>
                 draft or say any thing about<lb/>
                 it - and my head was so full<lb/>
-                of <persName ref="./Personography.xml#EdgeF3">Fanny</persName> I could not <choice><orig>recol-<lb/>
-                lect</orig><reg>recollect</reg></choice> to ask him<lb/></p>
-
-             <p>   Most fortunately I had the<lb/>
+                of <persName ref="./Personography.xml#EdgeF3">Fanny</persName> I could not <choice>
+                  <orig>recol-<lb/>
+                lect</orig>
+                  <reg>recollect</reg>
+               </choice> to ask him<lb/>
+            </p>
+            <p>   Most fortunately I had the<lb/>
                 money at <placeName ref="./Placeography.xml#Fleet-Street-37_ENK">Hoares</placeName>- But I<lb/>
                 was frightened this morn<hi rend="superscript">g</hi>.<lb/>
                 when on balancing my<lb/>
                 account I found I had<lb/>
-                drawn within £5-<lb/></p>
-
-           <p>     <del>Lovells</del> The draft for<lb/>
+                drawn within £5-<lb/>
+            </p>
+            <p>
+               <del>Lovells</del> The draft for<lb/>
                 £221 Annuity you know<lb/>
                 was at 21 days <del>sight</del> I<lb/>
                 have had it presented<lb/>
                 and in 18 days now<lb/>
                 it will be due &amp; paid<lb/>
                 and meantime time I have<lb/>
-                £90 in my hands in notes<lb/></p>
-
+                £90 in my hands in notes<lb/>
+            </p>
             <p>    I fear to be too late<lb/>
                 173
             </p>
-            <p></p>
-            <closer></closer>
+            <p/>
+            <closer/>
             <postscript>
-               <p></p>
+               <p/>
             </postscript>
             <closer>
                <address>
