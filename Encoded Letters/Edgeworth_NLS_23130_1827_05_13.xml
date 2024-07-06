@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from Walter Scott to Maria Edgeworth, May 15, 1827</title>
+            <author>Walter Scott</author>
+            <editor ref="Id_who">Alexandra LaGrand</editor>
+            <sponsor>
+               <orgName>Maria Edgeworth Letters Project</orgName>
+            </sponsor>
+            <sponsor>Wake Forest University, University of Tennessee, Xavier University, Texas
+               A&amp;M University</sponsor>
+            <principal>Jessica Richard, Hilary Havens, Robin Runia, Susan Egenolf</principal>
+            <respStmt>
+               <resp>Transcription and coding by</resp>
+               <persName ref="Id_who">Alexandra LaGrand</persName>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>First digital edition in TEI, date: <date when="2024-07-06">July 6, 2024</date>
+            </edition>
+            <respStmt>
+               <orgName type="naf" ref="Id_who">National Library of Scotland</orgName>
+               <resp> photos include: Edgeworth_NLS_23130_1827_05_13_page01.jpg, Edgeworth_NLS_23130_1827_05_13_page02.jpg, Edgeworth_NLS_23130_1827_05_13_page03.jpg</resp>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Maria Edgeworth Letters Project</authority>
+            <date>2022</date>
+            <availability>
+               <p>Reproduced by courtesy of the <orgName ref="http://id.loc.gov/authorities/names/n80044899">National Library of Scotland</orgName>
+               </p>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons Attribution 4.0 (CC BY 4.0) Unported License</licence>
+            </availability>
+            <idno>Edgeworth_NLS_23130_1827_05_13</idno> 
+         </publicationStmt>
+         <seriesStmt>
+            <title>Maria Edgeworth Letters Project</title>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <repository>National Library of Scotland</repository>
+                  <collection/>
+                  <idno/>
+               </msIdentifier>
+               <head>Letter from 
+                  <persName ref="./Personography.xml#ScotW1">
+                     <forename>Walter</forename>
+                     <surname>Scott</surname>
+                  </persName>
+                  to <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>, <placeName></placeName>, 
+                  <date when="1827-05-15">15 May 1827</date>
+               </head>
+               <physDesc></physDesc>
+            </msDesc>
+            <bibl>In addition to our edited version, this letter was previously published in Sir Herbert Grierson's <hi rend="italic">Letters of Sir Walter Scott</hi> (London: Constable, 1932-37) and online in the <hi rend="italic">Walter Scott Digital Archive</hi>.</bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>Edgeworth’s spelling and punctuation are retained in transcription, including non-standard spelling, line breaks, and hyphenation of words. The long s and ligatured forms are silently emended.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="./Personography.xml#ScotW1">Walter Scott</persName>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2024-07-06" who="Id_who">Created file for letter, encoded letter</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <pb n="1" facs="Edgeworth_NLS_23130_1827_05_13_page01.jpg"/>
+            <opener>
+               <dateline>
+                  <date when="1827-05-15">May 15, 1827</date></dateline>
+               <salute>
+                  <persName>My dear Miss Edgeworth</persName>
+               </salute>
+            </opener>
+            <p>
+               your very undeserving friend begs to intrude on your<lb/>
+               Observe I only mean undeserving in the way of letter writing for<lb/>
+               as to sentiments of true regard and friends <title ref="./Workography.xml#Damon1">Damon and Pithias</title><lb/>
+               Pylades and Orestes and all the other models of friendly<lb/>
+               regard were a joke to me. But it is a world to see how long<lb/>
+               I will sometimes be in writing to them I must respect and <choice><orig><choice><orig>hon-<lb/>
+               our</orig><reg>honour</reg></choice></orig><reg>honor</reg></choice> and how often I want in doing what I ought to do till I<lb/>
+               get some thrust or push operating like a flapper to compel me<lb/>
+               to my duty. The flapper on this occasion is the departure of a<lb/>
+               young friend of mine <persName ref="./Personography.xml#DavyV1">Count <del>Davidoff</del> <choice><orig>Davidow</orig><reg>Davydov</reg></choice></persName> a Russian of<lb/>
+               high rank and very considerable observation and talent who<lb/>
+               proposes visiting Green <placeName ref="./Placeography.xml#IE">Ireland</placeName>. For his time of life you will<lb/>
+               find he has collected a great deal of information and now<lb/>
+               with much advantage the various opportunities which his <choice><orig>ex-<lb/>
+               tensive</orig><reg>extensive</reg></choice> travels have afforded him. He has been a good deal<lb/>
+               with me at <placeName ref="./Placeography.xml#Abbotsford-House_STK">Abbotsford</placeName> and will bring you news of our<lb/>
+               household. The gentlemen who travels with him is <persName ref="./Personography.xml#ColyX1">M<hi rend="superscript">r</hi>.<lb/>
+               Colyer</persName> a Catholic young <persName ref="./Personography.xml#DavyV1"><choice><orig>Davidoff</orig><reg>Davydov</reg></choice></persName> himself is of the Greek Church<lb/>
+               He does not take his title of Count but remains a simple<lb/>
+               <hi rend="underline">Mister</hi>.<lb/>
+            </p>
+            <p>
+               Well how is a new world in politics - will it be a better<lb/>
+               one - Who dare answer the question, I have a great confidence<lb/>
+               in fortune and hope for the best. I suppose you will soon<lb/>
+               get the Catholic question which will be our grievance <add>out</add> of the<lb/>
+            </p>
+            <p>
+               <pb n="2" facs="Edgeworth_NLS_23130_1827_05_13_page02.jpg"/>
+               list <placeName ref="./Placeography.xml#IE">Green Erin</placeName> has to show. After all though the worst will remain<lb/>
+               and I have some doubt <del>withe</del> whether <placeName ref="./Placeography.xml#IE">Ireland</placeName> may not be like<lb/>
+               the old Frenchman who regretted being cured of his tape-worm which<lb/>
+               supplied him with a certain degree of interesting employment <del>by</del><lb/>
+               in order to wind an inch of it up every day. Now here is the<lb/>
+               Catholic emancipation occupies every eye and ear and folks endure<lb/>
+               worse evils because they hope that carrying this power will operate<lb/>
+               as an universal panacea.<lb/>
+            </p>
+            <p>
+               I wrote to you acquainting you with the mishap of the little<lb/>
+               terrier which was carried off by what is emphatically called<lb/>
+               The Distemper which is particularly fatal to dogs of high blood<lb/>
+               It was inoculation that is vaccinated but all efforts were<lb/>
+               in vain All my other dogs are well only Nimrod the great<lb/>
+               wolf-dog has worried my ancient domestic cat which was<lb/>
+               great a loss to me as it would have been to <title ref="./Workography.xml#Robin1">Robinson Crusoe.</title><lb/>
+            </p>
+            <p>
+               How often I think of <placeName ref="./Placeography.xml#IE">Ireland</placeName> and all the fine scenery<lb/>
+               I saw there, aye and all the never to be forgotten kindness of<lb/>
+               the inhabitants above all at the hospitable <placeName ref="./Placeography.xml#IE"><choice><orig>Edgeworths town</orig><reg>Edgeworthstown</reg></choice></placeName>.<lb/>
+               But I am inclined to quarrel with its most distinguished<lb/>
+               inhabitants for wasting or rather hiding under a napkin her<lb/>
+               fine talent and ceasing to amuse us with as some tale<lb/>
+               which nobody dare tell but herself. You should not be<lb/>
+               the manners and peculiarities of <placeName ref="./Placeography.xml#IE">Ireland</placeName> which it is of so much<lb/>
+               importance that the legislature ought to be acquainted with. You<lb/>
+               have already shewn us the kindness talent and disinterested<lb/>
+               fidelity of the Crown orders in <placeName ref="./Placeography.xml#IE">Ireland</placeName>. Do a little more and <choice><orig>shew</orig><reg>show</reg></choice><lb/>
+               us how to cure the evils which prevent them rising in the scale of<lb/>
+               society possessed as they are of so much that is amiable and excellent<lb/>
+               Why is it the poor Irish should fill all the hard and laborious<lb/>
+               duties not only in <placeName ref="./Placeography.xml#ENK">England</placeName> but now even in <placeName ref="./Placeography.xml#STK">Scotland</placeName> for within<lb/>
+               this ten years the Irish have occupied almost all the ballast-<del></del><lb/>
+               heaving<lb/>
+            </p>
+            <p>
+               <pb n="3" facs="Edgeworth_NLS_23130_1827_05_13_page03.jpg"/>
+               hod-carrying canal digging kind of work at which the inhabitants will<lb/>
+               not work so cheap because they must observe certain decencies of apparel<lb/>
+               and possess some comfort in their mode of living. Pat is so good a nag<lb/>
+               that I cannot help thinking <hi rend="underline">you</hi> would be able to find some bridle<lb/>
+               which would suit him and admit his being ridden with a light hand<lb/>
+               with all deference to scientific researches into the philosophy of <choice><orig>mechan<lb/>
+               ical</orig><reg>mechanical</reg></choice> pursuits I think you could do so much for us in showing<lb/>
+               is how to mend the worst part of our British machine<lb/>
+               Here being interrupted by the necessity of packing and<lb/>
+               having my papers to put to rights ommitted save in case of absolute <choice><orig>neces<lb/>
+               sity</orig><reg>necessity</reg></choice>, I finish the enclosed half letter written to you on the subject of<lb/>
+               the dog which has never it seems been sent How that has happened<lb/>
+               as Paddy O Rourke says is hard to determine My recollection was that<lb/>
+               it was sent off However I enclose it as her official document of the<lb/>
+               vague events so my letter will be <hi rend="underline">a letter for a half</hi> a Scottish<lb/>
+               mode of expressing any thing that is very extraordinary,<lb/>
+               <title ref="./Workography.xml#LifeN1"><choice><orig>Boneparte</orig><reg>Bonaparte</reg></choice></title> draws on to a conclusion but I fear will with the necessary<lb/>
+               new documents which I design to print run on to <del>at least</del><lb/>
+               nine volumes for though I have won the battle of <placeName ref="./Placeography.xml#Waterloo_BE">Waterloo</placeName> There<lb/>
+               is much remains behind. I must not blink <placeName ref="./Placeography.xml#SH">Saint Helena</placeName><lb/>
+               the most unpleasant part of the work<lb/>
+               Beg your kind <persName ref="./Personography.xml#EdgeF2">mother</persName> and <persName ref="./Personography.xml#SneyM1">Mrs Sneyd</persName> to accept my love<lb/>
+               and the invalid who is I hope one no longer - to <persName ref="./Personography.xml#FoxX2">M<hi rend="superscript">rs</hi> Lane Fox</persName> and<lb/>
+               <persName ref="./Personography.xml#EdgeH1">M<hi rend="superscript">rs</hi> Butler</persName> &amp; <persName ref="./Personography.xml#ButlR1">M<hi rend="superscript">r</hi> Butler</persName> (and some of you a rolling this year<lb/>
+               I believe <persName ref="./Personography.xml#LockJ1">Lockhart</persName> will be with us at <placeName ref="./Placeography.xml#Abbotsford-House_STK">Abbotsford</placeName> so with<lb/>
+               <persName ref="./Personography.xml#ScotA1">Beatrices</persName> assistance and a few rough cuts from the "Poor<lb/>
+               wounded Hussar" who is just come to <placeName ref="./Placeography.xml#ENK">England</placeName> as caught up<lb/>
+               a goodnatured My kind Compliments to the Squire and to<lb/>
+               your brother <lb/>
+               <persName ref="./Personography.xml#EdgeW1">William</persName> my kind <placeName ref="./Placeography.xml#Killarney_IE">Killarney</placeName> pilot Always<lb/>
+               <del>Abbot</del> <placeName ref="./Placeography.xml#Edinburgh_STK">Edin<hi rend="superscript">h</hi>.</placeName> 15 May<lb/>
+            </p>
+          </div>
+      </body>
+      <back> </back>
+   </text>
+</TEI>
