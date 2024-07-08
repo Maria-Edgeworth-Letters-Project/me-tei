@@ -54,13 +54,7 @@
                   <idno/>
                </msIdentifier>
                <head>Letter from 
-                        <persName xml:id="ME" from="1768" to="1849">
-                     <forename>Maria</forename>
-                     <surname>Edgeworth</surname>
-                     <date>1768-1849</date>
-                     <idno type="VIAF">71477273</idno>
-                     <idno type="SNAC">62567029</idno>
-                  </persName>
+                  <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
                         to <persName>Mrs. Pakenham</persName>, <placeName/>, 
                         <date when="1841-01-19">January 19, 1841</date>
                </head>
@@ -78,7 +72,7 @@
       <profileDesc>
          <correspDesc>
             <correspAction type="sent">
-               <persName>Maria Edgeworth</persName>
+               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
             </correspAction>
             <correspAction type="received">
                <persName>Mrs. Pakenham</persName>
