@@ -24,7 +24,7 @@
             <edition>First digital edition in TEI, date: <date when="2024-04-24">April 24, 2024</date>
             </edition>
             <respStmt>
-               <orgName type="naf" ref="Id_who">National Library of Scotland</orgName>
+               <orgName type="naf" ref="http://id.loc.gov/authorities/names/n80044899">National Library of Scotland</orgName>
                <resp> photos include: Edgeworth_NLS_936_1827_07_13_page01.jpg, Edgeworth_NLS_936_1827_07_13_page02.jpg, Edgeworth_NLS_936_1827_07_13_page03.jpg</resp>
             </respStmt>
          </editionStmt>
@@ -54,7 +54,7 @@
                      <surname>Lockhart</surname>
                   </persName>
                   to <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>, <placeName/>, 
-                  <date when="1827-02-13">Feby. 13. 1827</date>
+                  <date when="1827-02-13"><choice><abbr>Feby.</abbr><reg>February</reg></choice> 13. 1827</date>
                </head>
                <physDesc/>
             </msDesc>
@@ -108,8 +108,7 @@
                books of the class &amp; may have been highly successful<lb/>
                &amp; he is I know very desirous to have more . of my good<lb/>
                friend
-            </p>
-            <p>
+
                <pb n="2" facs="Edgeworth_NLS_936_1827_07_13_page02.jpg"/>
                M<hi rend="superscript">r</hi>
                <persName ref="./Personography.xml#CadeT1">Cadell's</persName> concerns I have no very accurate notion.<lb/>
@@ -118,8 +117,8 @@
                Apocalypse or a reprint of <title ref="./Workography.xml#JohnS1">Johnson's</title>
                <title ref="./Workography.xml#Dicti2">dictionary</title>
                <lb/>
-               or the like.<lb/>
-               Either <persName ref="./Personography.xml#MurrJ1">Murray</persName> or <persName ref="./Personography.xml#LongT1">Longman</persName> will I am sure be glad<lb/>
+               or the like.<lb/></p>
+               <p>Either <persName ref="./Personography.xml#MurrJ1">Murray</persName> or <persName ref="./Personography.xml#LongT1">Longman</persName> will I am sure be glad<lb/>
                of a <hi rend="underline">good</hi> book for young people; &amp; this is I doubt not<lb/>
                a good one - in short there is no difficulty in the<lb/>
                case. It is very different from<lb/>
