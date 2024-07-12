@@ -6,7 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Letter from Maria Edgeworth to Madame Recamier, May 18, 1819</title>
+            <title>Letter from Maria Edgeworth to Madame Récamier, May 18, 1819</title>
             <author>Maria Edgeworth</author>
             <editor ref="Id_who">
                Jamie Kramer
@@ -80,6 +80,16 @@
             <p>Edgeworth’s spelling and punctuation are retained in transcription, including non-standard spelling, line breaks, and hyphenation of words. The long s and ligatured forms are silently emended.</p>
          </editorialDecl>
       </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="./Personography.xml#ArraF1">François Arago</persName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
       <revisionDesc>
          <change when="2021-01-01" who="Id_who"/>
       </revisionDesc>
