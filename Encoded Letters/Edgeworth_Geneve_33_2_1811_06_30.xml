@@ -19,7 +19,6 @@
             <respStmt>
                <resp>Transcription and coding by</resp>
                <persName ref="Id_who">Eliza Wilcox</persName>
-               <persName ref="Id_who"/>
             </respStmt>
          </titleStmt>
          <editionStmt>
@@ -98,7 +97,7 @@
                </dateline>
                <salute>
                   <persName>
-                            My Dear Sir<lb/>
+                     My Dear <persName ref="./Personography.xml#DumoE1">Sir</persName><lb/>
                   </persName>
                </salute>
             </opener>
