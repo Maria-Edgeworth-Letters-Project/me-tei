@@ -17,7 +17,6 @@
             <principal>Jessica Richard, Hilary Havens, Robin Runia, Susan Egenolf</principal>
             <respStmt>
                <resp>Transcription and coding by</resp>
-               <persName ref="Id_who"/>
                <persName ref="Id_who">Eliza Wilcox</persName>
             </respStmt>
          </titleStmt>
@@ -30,7 +29,7 @@
                   Beinecke Rare Book and Manuscript Library</orgName>
                <resp> photos include:
                   Edgeworth_Beinecke_330_unknown_01_page01.jpg,
-                  Edgeworth_Beinecke_330_unknown_01_page02.jpg,
+                  Edgeworth_Beinecke_330_unknown_01_page02.jpg
                 </resp>
             </respStmt>
          </editionStmt>
@@ -73,10 +72,10 @@
       <profileDesc>
          <correspDesc>
             <correspAction type="sent">
-               <persName/>
+               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
             </correspAction>
             <correspAction type="received">
-               <persName/>
+               <persName ref="./Personography.xml#DarnE1">Lady Elizabeth Darnley</persName>
             </correspAction>
          </correspDesc>
       </profileDesc>
