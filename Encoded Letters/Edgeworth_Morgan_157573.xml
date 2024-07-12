@@ -19,7 +19,6 @@
             <respStmt>
                <resp>Transcription and coding by</resp>
                <persName ref="Id_who">Eliza Wilcox</persName>
-               <persName ref="Id_who"/>
             </respStmt>
          </titleStmt>
          <editionStmt>
@@ -60,7 +59,7 @@
                </msIdentifier>
                <head>Letter from 
                   <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
-                        to <persName>François Arago</persName>, <placeName/>, 
+                  to <persName ref="./Personography.xml#ArraF1">François Arago</persName>, <placeName/>, 
                         <date when="1111-01-01"/>
                </head>
                <physDesc/>
@@ -77,10 +76,10 @@
       <profileDesc>
          <correspDesc>
             <correspAction type="sent">
-               <persName>Maria Edgeworth</persName>
+               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
             </correspAction>
             <correspAction type="received">
-               <persName>François Arago</persName>
+               <persName ref="./Personography.xml#ArraF1">François Arago</persName>
             </correspAction>
          </correspDesc>
       </profileDesc>
