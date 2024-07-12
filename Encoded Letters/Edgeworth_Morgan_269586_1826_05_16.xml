@@ -6,7 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Letter from Maria Edgeworth to August Louis, May 16, 1826</title>
+            <title>Letter from Maria Edgeworth to August Louis, M. le. Baron de Staël, May 16, 1826</title>
             <author>Maria Edgeworth</author>
             <editor ref="Id_who">
                Jessica Richard
@@ -63,13 +63,7 @@
                   <idno/>
                </msIdentifier>
                <head>Letter from 
-                     <persName xml:id="EdgeM1" from="1768" to="1849">
-                     <forename>Maria</forename>
-                     <surname>Edgeworth</surname>
-                     <date>1768-1849</date>
-                     <idno type="VIAF">71477273</idno>
-                     <idno type="SNAC">62567029</idno>
-                  </persName>
+                  <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
                    to <persName/>, <placeName/>, 
                   <date when="1111-01-01"/>
                </head>
@@ -87,10 +81,10 @@
       <profileDesc>
          <correspDesc>
             <correspAction type="sent">
-               <persName/>
+               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
             </correspAction>
             <correspAction type="received">
-               <persName/>
+               <persName ref="./Personography.xml#StaeA2">Auguste-Louis Staël-Holstein</persName>
             </correspAction>
          </correspDesc>
       </profileDesc>
