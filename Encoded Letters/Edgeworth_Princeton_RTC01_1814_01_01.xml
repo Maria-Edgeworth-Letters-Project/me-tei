@@ -6,7 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Letter from Maria Edgeworth to Mrs. Joseph Wedgeworth, January 1, 1814</title>
+            <title>Letter from Maria Edgeworth to Mrs. Joseph Wedgwood, January 1, 1814</title>
             <author>Maria Edgeworth</author>
             <editor ref="Id_who"> Jamie Kramer
             </editor>
@@ -74,6 +74,16 @@
             </msDesc>
          </sourceDesc>
       </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="./Personography.xml#WedgS1">Mrs. Joseph Wedgwood</persName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
       <encodingDesc>
          <editorialDecl>
             <p>Edgeworth’s spelling and punctuation are retained in transcription, including non-standard spelling, line breaks, and hyphenation of words. The long s and ligatured forms are silently emended.</p>
@@ -299,7 +309,10 @@
                   </addrLine>
                   <lb/>
                   <addrLine>
-                     <persName ref="./Personography.xml#WedgS1">M<hi rend="superscript">rs</hi> Jos. Wedgewood</persName>
+                     <persName ref="./Personography.xml#WedgS1">M<hi rend="superscript">rs</hi> Jos. <choice>
+                        <orig>Wedgewood</orig>
+                        <reg>Wedgwood</reg>
+                     </choice></persName>
                   </addrLine>
                   <lb/>
                   <addrLine>
