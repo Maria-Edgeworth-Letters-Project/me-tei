@@ -84,10 +84,10 @@
       <profileDesc>
          <correspDesc>
             <correspAction type="sent">
-               <persName>Maria Edgeworth</persName>
+               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
             </correspAction>
             <correspAction type="received">
-               <persName>L. Relfe</persName>
+               <persName ref="./Personography.xml#RelfL1">Lupton Relfe</persName>
             </correspAction>
          </correspDesc>
       </profileDesc>
@@ -103,7 +103,7 @@
                   <date when="1825-12-24">December 24, 1825</date>
                </dateline>
                <salute>
-                  <persName>
+                  <persName ref="./Personography.xml#RelfL1">
                      Sir
                   </persName>
                </salute>
@@ -198,7 +198,7 @@
             <closer>
                <pb n="4" facs="Edgeworth_Princeton_1825-12_page04.jpg"/>
                <address>
-                  <addrLine>M<hi rend="superscript">r</hi> L. Relfe - Bookseller</addrLine>
+                  <addrLine><persName ref="./Personography.xml#RelfL1">M<hi rend="superscript">r</hi> L. Relfe</persName> - Bookseller</addrLine>
                   <lb/>
                   <addrLine>Cornhill</addrLine>
                   <lb/>
