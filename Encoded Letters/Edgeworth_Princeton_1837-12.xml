@@ -66,13 +66,7 @@
                   <idno>Edgeworth_Princeton_1837-12</idno>
                </msIdentifier>
                <head>Letter from 
-                     <persName xml:id="EdgeM1" from="1768" to="1849">
-                     <forename>Maria</forename>
-                     <surname>Edgeworth</surname>
-                     <date>1768-1849</date>
-                     <idno type="VIAF">71477273</idno>
-                     <idno type="SNAC">62567029</idno>
-                  </persName>
+                  <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
                   to <persName ref="./Personography.xml#ElioC1">Catherine Eliot</persName>, <placeName ref="./Placeography.xml#Edgeworthstown_IE">Edgeworthtown</placeName>, 
                   <date when="1837-12-01">Dec<hi rend="superscript">r</hi> 1<hi rend="superscript">st</hi>. 1837</date>
                </head>
@@ -90,10 +84,10 @@
       <profileDesc>
          <correspDesc>
             <correspAction type="sent">
-               <persName>Maria Edgeworth</persName>
+               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
             </correspAction>
             <correspAction type="received">
-               <persName>Catherine Eliot</persName>
+               <persName ref="./Personography.xml#ElioC1">Catherine Eliot</persName>
             </correspAction>
          </correspDesc>
       </profileDesc>
