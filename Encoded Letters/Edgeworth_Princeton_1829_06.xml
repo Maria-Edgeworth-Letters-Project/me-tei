@@ -61,13 +61,7 @@
                   <idno>Edgeworth_Princeton_1829-06</idno>
                </msIdentifier>
                <head>Letter from 
-                     <persName xml:id="EdgeM1" from="1768" to="1849">
-                     <forename>Maria</forename>
-                     <surname>Edgeworth</surname>
-                     <date>1768-1849</date>
-                     <idno type="VIAF">71477273</idno>
-                     <idno type="SNAC">62567029</idno>
-                  </persName>
+                  <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
                   to <persName ref="./Personography.xml#StriJ1">J. E. Strickland</persName>, <placeName ref="./Placeography.xml#Edgeworthstown_IE">Edgeworths Town</placeName>, 
                   <date when="1829-06-07">June 7<hi rend="superscript">th</hi> 1829</date>
                </head>
@@ -83,10 +77,10 @@
       <profileDesc>
          <correspDesc>
             <correspAction type="sent">
-               <persName>Maria Edgeworth</persName>
+               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
             </correspAction>
             <correspAction type="received">
-               <persName>J. E. Strickland</persName>
+               <persName ref="./Personography.xml#StriJ1">J. E. Strickland</persName>
             </correspAction>
          </correspDesc>
       </profileDesc>
