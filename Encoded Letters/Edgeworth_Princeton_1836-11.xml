@@ -6,7 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Letter from Maria Edgeworth to <!--Recipient Name, Month Day, YYYY--></title>
+            <title>Letter from Maria Edgeworth, August 4, 1816.</title>
             <author>Maria Edgeworth</author>
             <editor ref="Id_who">
                <!--Editor on the Maria Edgeworth Letters Project overseeing the coding of this particular letter: FirstName LastName -->
@@ -67,13 +67,7 @@
                   <idno><!--Consult library or WorldCat for this info--></idno>
                </msIdentifier>
                <head>Letter from 
-                     <persName xml:id="EdgeM1" from="1768" to="1849">
-                     <forename>Maria</forename>
-                     <surname>Edgeworth</surname>
-                     <date>1768-1849</date>
-                     <idno type="VIAF">71477273</idno>
-                     <idno type="SNAC">62567029</idno>
-                  </persName>
+                  <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
                    to <persName><!--Recipient Name--></persName>, <placeName><!--Location where letter was sent--></placeName>, 
                   <date when="1111-01-01"><!-- Transcribe the date as it appears on the letter itself. Enter a numeric standardized date value in @when. --></date>
                </head>
@@ -94,10 +88,7 @@
       <profileDesc>
          <correspDesc>
             <correspAction type="sent">
-               <persName><!--SENDER NAME--></persName>
-            </correspAction>
-            <correspAction type="received">
-               <persName><!--RECIPIENT NAME--></persName>
+               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
             </correspAction>
          </correspDesc>
       </profileDesc>
