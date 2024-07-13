@@ -61,13 +61,7 @@
                   <idno>Edgeworth_Princeton_1823-08</idno>
                </msIdentifier>
                <head>Letter from 
-                     <persName xml:id="EdgeM1" from="1768" to="1849">
-                     <forename>Maria</forename>
-                     <surname>Edgeworth</surname>
-                     <date>1768-1849</date>
-                     <idno type="VIAF">71477273</idno>
-                     <idno type="SNAC">62567029</idno>
-                  </persName>
+                  <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
                   to <persName ref="./Personography.xml#ConsA2">Archibald Constable</persName>, <placeName ref="./Placeography.xml#Glasgow_STK">Glasgow</placeName>, 
                   <date when="1823-08-13">Aug<hi rend="superscript">st</hi> 13<hi rend="superscript">th</hi> 1823</date>
                </head>
@@ -85,10 +79,10 @@
       <profileDesc>
          <correspDesc>
             <correspAction type="sent">
-               <persName>Maria Edgeworth</persName>
+               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
             </correspAction>
             <correspAction type="received">
-               <persName>Archibald Constable</persName>
+               <persName ref="./Personography.xml#ConsA2">Archibald Constable</persName>
             </correspAction>
          </correspDesc>
       </profileDesc>
@@ -183,7 +177,7 @@
                <address>
                   <pb n="1" facs="Edgeworth_Princeton_1823_08_page04.jpg"/>
                   <note place="bottom">AM 19710</note>
-                  <addrLine>Archibald Constable Esq<hi rend="superscript">r</hi>
+                  <addrLine><persName ref="./Personography.xml#ConsA2">Archibald Constable Esq</persName><hi rend="superscript">r</hi>
                   </addrLine>
                </address>
             </closer>
