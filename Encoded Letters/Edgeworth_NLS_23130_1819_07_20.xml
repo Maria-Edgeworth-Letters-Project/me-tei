@@ -56,10 +56,7 @@
                </msIdentifier>
                <head>Letter from 
                         <persName ref="./Personography.xml#ScotW1">Walter Scott</persName>
-                        to <persName xml:id="ME" from="1768" to="1849">
-                     <forename>Maria</forename>
-                     <surname>Edgeworth</surname>
-                  </persName>
+                  to <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
                   <date>1768-1849</date>
                   <idno type="VIAF">71477273</idno>
                   <idno type="SNAC">62567029</idno>, <placeName/>, 
@@ -79,10 +76,10 @@
       <profileDesc>
          <correspDesc>
             <correspAction type="sent">
-               <persName>Walter Scott</persName>
+               <persName ref="./Personography.xml#ScotW1">Walter Scott</persName>
             </correspAction>
             <correspAction type="received">
-               <persName>Maria Edgeworth</persName>
+               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
             </correspAction>
          </correspDesc>
       </profileDesc>
