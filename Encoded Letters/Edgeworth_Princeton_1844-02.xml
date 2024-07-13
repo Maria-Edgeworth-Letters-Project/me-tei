@@ -49,14 +49,8 @@
                   <idno/>
                </msIdentifier>
                <head>Letter from 
-                  <persName ref="./Personography.xml#EdgeM1">
-                     <forename>Maria</forename>
-                     <surname>Edgeworth</surname>
-                  </persName>
-                  to <persName ref="./Personography.xml#BentR1">
-                     <forename>Richard</forename>
-                     <surname>Bentley</surname>
-                  </persName>, <placeName/>, 
+                  <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
+                  to <persName ref="./Personography.xml#BentR1">Richard Bentley</persName>, <placeName/>, 
                   <date when="1844-02-22">February 22, 1844</date>
                </head>
                <physDesc>
@@ -73,10 +67,10 @@
       <profileDesc>
          <correspDesc>
             <correspAction type="sent">
-               <persName>Maria Edgeworth</persName>
+               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
             </correspAction>
             <correspAction type="received">
-               <persName>Richard Bentley</persName>
+               <persName ref="./Personography.xml#BentR1">Richard Bentley</persName>
             </correspAction>
          </correspDesc>
       </profileDesc>
