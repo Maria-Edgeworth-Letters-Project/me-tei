@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <text>
+      <body>
+         <div type="letter">
+            <pb n="1" facs="Edgeworth_Birmingham_1848_03_27_page01.jpg"/>
+            <opener>
+               <dateline><!--If there's no date line, remove this element. Record in the order in which it is written on the letter.-->
+                  <name type="place" ref="Id_where"/>
+                  <date when="1848-03-27"> March 27, 1848</date>
+               </dateline>
+               <salute>
+                  <persName><!-- Use if letter has a saluation ("Dear Sir," for example). If not, delete this line.--></persName>
+               </salute>
+            </opener>
+            <p><!-- Begin transcibing the body of the letter here. --></p>
+            <p><!--More body paragraphs as needed.--></p>
+            <p><!--More body paragraphs as needed.--><!--Where there's a page break record it inside the relevant body paragraph like this, 
+                      with the self-closing page-break element. n="2" indicates the START of the second page.-->
+               <pb n="2" facs="Edgeworth_Birmingham_1848_03_27_page02.jpg"/>
+            </p>
+            <p><!--More body paragraphs as needed.--></p>
+            <closer><!--include linebreaks, if used. example: <closer> Yours<lb/> Very sincerely<lb/> --></closer>
+            <postscript>
+               <p><!--A postscript goes here, outside the <closer>. --></p>
+            </postscript>
+            <!--You can include a <pb/> here, or inside the postScript.-->
+            <!-- Format for postscripts. 
+                   Postscripts do NOT go inside closer tags. Adjust to take into account the order in your letter. 
+                   Sometimes the signature is on page three, the address on page four, then the postscript follows back on the top of page one, for example.-->
+            <closer><!--Use the <closer> element again to hold Address Leaf information.-->
+               <address><!--Include any text written on the address leaf; use a separate "addrLine" for each line and indicate line breaks. -->
+                  <addrLine/>
+                  <addrLine/>
+                  <addrLine/>
+               </address>
+            </closer>
+            <!-- Page breaks will need to be rearranged and inserted into the text -->
+         </div>
+      </body>
+      <back/>
+   </text>
+</TEI>
