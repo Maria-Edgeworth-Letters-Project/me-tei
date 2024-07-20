@@ -21,6 +21,10 @@
                <resp>Transcription and coding by</resp>
                <persName ref="Id_who">Jamie Kramer</persName>
             </respStmt>
+            <respStmt>
+               <resp>Reviewed by</resp>
+               <persName ref="Id_who">Hilary Havens</persName>
+            </respStmt>
          </titleStmt>
          <editionStmt>
             <edition>First digital edition in TEI, date: <date when="2023-12-04">
@@ -106,7 +110,7 @@
                   </choice>
                </persName> for instance - I rejoice in<lb/>
                possessing his autograph, given<lb/>
-               to me by an American in the<lb/>
+               to me by an <placeName ref="./Placeography.xml#US">American</placeName> in the<lb/>
                valuable record of his Public &amp;<lb/>
                Private account book</p>
             <lb/>
@@ -125,7 +129,7 @@
             </closer>
             <pb n="2" facs="Edgeworth_Harvard_604742_1844-03_page02.jpg"/>
             <note>To my friend<lb/>
-                  Mr <unclear>Lawrence</unclear>
+               <persName ref="./Personography.xml#LiveG1" cert="high">Mr Livermore</persName>
                <lb/>
                <persName ref="./Personography.xml#ColmH1">Henry Colman</persName>
                <lb/>
