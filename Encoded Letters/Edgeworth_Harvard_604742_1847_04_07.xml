@@ -25,6 +25,10 @@
                     </persName>
                <persName ref="Id_who"/>
             </respStmt>
+            <respStmt>
+               <resp>Reviewed by</resp>
+               <persName ref="Id_who">Hilary Havens</persName>
+            </respStmt>
          </titleStmt>
          <editionStmt>
             <edition>First digital edition in TEI, date: <date when="2023-08-27"/>
@@ -66,7 +70,7 @@
                <head>Letter from 
                         <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
                         to 
-                        <persName ref="./Personography.xml#HodgX1">D. Hodgson</persName>
+                        <persName ref="./Personography.xml#HodgD1">D. Hodgson</persName>
                   <date when="1847-04-07"/>Apr. 7 1847
                     </head>
                <physDesc/>
@@ -86,7 +90,7 @@
                <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
             </correspAction>
             <correspAction type="received">
-               <persName ref="./Personography.xml#HodgX1">D. Hodgson</persName>
+               <persName ref="./Personography.xml#HodgD1">D. Hodgson</persName>
             </correspAction>
          </correspDesc>
       </profileDesc>
@@ -99,7 +103,7 @@
          <div type="letter">
             <pb n="1" facs="Edgeworth_Harvard_604742_1847_04_07_page01.jpg"/>
             <opener>
-               <note>To D Hodgeson Esq</note>
+               <note>To D Hodgson Esq</note>
                <lb/>
                <dateline>
                   <placeName>Edgeworths Town</placeName>
