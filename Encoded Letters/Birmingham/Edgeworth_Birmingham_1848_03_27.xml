@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <text>
       <body>
@@ -7,7 +9,7 @@
             <opener>
                <dateline><!--If there's no date line, remove this element. Record in the order in which it is written on the letter.-->
                   <name type="place" ref="Id_where"/>
-                  <date when="1848-03-27"> March 27, 1848</date>
+                  <date when="1848-03-27">March 27, 1848</date>
                </dateline>
                <salute>
                   <persName><!-- Use if letter has a saluation ("Dear Sir," for example). If not, delete this line.--></persName>

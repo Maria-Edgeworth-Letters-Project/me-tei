@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -20,17 +22,10 @@
             </respStmt>
          </titleStmt>
          <editionStmt>
-            <edition>First digital edition in TEI, date: <!-- <date when="1111-11-11"> --><!--enter the date on which the first coder created and saved this XML file in google drive--><!-- </date> --></edition>
+            <edition>First digital edition in TEI, date:<!-- <date when="1111-11-11"> --><!--enter the date on which the first coder created and saved this XML file in google drive--><!-- </date> --></edition>
             <respStmt>
                <orgName type="naf" ref="http://id.loc.gov/authorities/names/n83137759">University of Birmingham. Library</orgName>
-               <resp> photos include:
-    
-    Edgeworth_Birmingham_xxxx_11_27_page01.jpg, Edgeworth_Birmingham_xxxx_11_27_page02.jpg
-    
-    
-    
-    
-                        </resp>
+               <resp>photos include: Edgeworth_Birmingham_xxxx_11_27_page01.jpg, Edgeworth_Birmingham_xxxx_11_27_page02.jpg</resp>
             </respStmt>
          </editionStmt>
          <publicationStmt>
@@ -38,7 +33,7 @@
             <!--<date>YYYY</date>-->
             <availability><!--Uncomment the appropriate line, based on the archive that holds the physical copy of this letter, 
                       and delete the other comment line(s).-->
-               <p>Reproduced by courtesy of <orgName ref="http://id.loc.gov/authorities/names/n83137759">University of Birmingham. Library</orgName>.</p>
+               <p>Reproduced by courtesy of<orgName ref="http://id.loc.gov/authorities/names/n83137759">University of Birmingham. Library</orgName>.</p>
                <licence target="https://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons Attribution 4.0 (CC BY 4.0) Unported License</licence>
             </availability>
             <idno>Edgeworth_Birmingham_xxxx_11_27</idno>
@@ -53,16 +48,10 @@
                   <collection><!-- Enter specific archival collection if applicable--></collection>
                   <idno>Edgeworth_Birmingham_xxxx_11_27</idno>
                </msIdentifier>
-               <head>Letter from 
-                            <persName>Maria Edgeworth</persName>
-                            to <persName>Mrs. Sutton</persName>, <placeName><!--Location where letter was sent--></placeName>, 
-    
-    
-                      <!-- <stamp>Enter description, if applicable</stamp>--></head>
+               <head>Letter from<persName>Maria Edgeworth</persName>to<persName>Mrs. Sutton</persName>,<placeName><!--Location where letter was sent--></placeName>,<!-- <stamp>Enter description, if applicable</stamp>--></head>
                <physDesc><!-- optional physical description of the letter goes here: paper size and condition, seal, postmarks, etc.--></physDesc>
             </msDesc>
-            <bibl>In addition to our edited version, this letter was previously published in
-                   <!--complete bibiographical info if letter was published in a book here - if not delete--></bibl>
+            <bibl>In addition to our edited version, this letter was previously published in<!--complete bibiographical info if letter was published in a book here - if not delete--></bibl>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
