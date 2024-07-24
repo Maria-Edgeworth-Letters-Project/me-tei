@@ -25,6 +25,10 @@
                     </persName>
                <persName ref="Id_who"/>
             </respStmt>
+            <respStmt>
+               <resp>Reviewed by</resp>
+               <persName ref="Id_who">Hilary Havens</persName>
+            </respStmt>
          </titleStmt>
          <editionStmt>
             <edition>First digital edition in TEI, date: <date when="2023-08-25"/>
@@ -33,8 +37,8 @@
                <orgName type="naf" ref="http://id.loc.gov/authorities/names/n80097499">
                         Harvard University, Houghton Library</orgName>
                <resp> photos include:
-                        Edgeworth_Harvard_604757_1845-04_page01.jpg,
-                        Edgeworth_Harvard_604757_1845-04_page02.jpg
+                  Edgeworth_Harvard_604757_1845_04_08_page01.jpg,
+                  Edgeworth_Harvard_604757_1845_04_08_page02.jpg
                     </resp>
             </respStmt>
          </editionStmt>
@@ -48,7 +52,7 @@
             License</licence>
             </availability>
             <idno>
-                    Edgeworth_Harvard_604757_1845-04
+               Edgeworth_Harvard_604757_1845_04_08
                 </idno>
          </publicationStmt>
          <seriesStmt>
@@ -92,10 +96,10 @@
    <text>
       <body>
          <div type="letter">
-            <pb n="1" facs="Edgeworth_Harvard_604757_1845-04_page01.jpg"/>
+            <pb n="1" facs="Edgeworth_Harvard_604757_1845_04_08_page01.jpg"/>
             <p>that the publishers of New York<lb/>
-                    have sent <persName ref="./Personography.xml#PortJ1">Miss Porter</persName> a memo<lb/>
-                    deal of American gratitude<lb/>
+                    have sent <persName ref="./Personography.xml#PortJ1">Miss Porter</persName> a <choice><orig>memo<lb/>
+                    rial</orig><reg>memorial</reg></choice> of American gratitude<lb/>
                     and appreciation of <unclear>merit</unclear>
                <lb/>
                     - An arm chair I think the<lb/>
@@ -105,12 +109,11 @@
                <lb/>
                     a little table of American<lb/>
                     wood as a memorial of<lb/>
-               <gap/>
-               <unclear>portion</unclear> of your <unclear>Towns</unclear>
+               <damage><unclear><gap></gap>contribution</unclear></damage> of your Coun <damage><gap></gap></damage>
                <lb/>
-               <pb n="2" facs="Edgeworth_Harvard_604757_1845-04_page02.jpg"/>
+               <pb n="2" facs="Edgeworth_Harvard_604757_1845_04_08_page02.jpg"/>
                     
-                    and form the Board of Works<lb/>
+                    <unclear>out</unclear> from the Board of Works<lb/>
                     in <placeName ref="./Placeography.xml#London_ENK">London</placeName> to <placeName ref="./Placeography.xml#Hong-Kong_CN">
                   <choice>
                      <orig>Hong Cong</orig>
@@ -130,7 +133,7 @@
                <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
                <lb/>
                <dateline>
-                  <date when="1845-04-08"/>April 8<hi rend="superscript">h</hi> 1845</dateline>
+                  <date when="1845-04-08"/>April 8<hi rend="superscript">h</hi>. 1845</dateline>
                <lb/>
                <lb/>
             </closer>
