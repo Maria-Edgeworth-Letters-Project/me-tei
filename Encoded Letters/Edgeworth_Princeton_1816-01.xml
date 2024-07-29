@@ -21,6 +21,11 @@
                <persName ref="Id_who">Lindsey Jones</persName>
                <persName ref="Id_who"/>
             </respStmt>
+            <respStmt>
+               <resp>Reviewed by</resp>
+               <persName ref="Id_who">Robin Runia</persName>
+            </respStmt>
+            
          </titleStmt>
          <editionStmt>
             <edition>First digital edition in TEI, date: October 22, 2023<date when="2023-10-22"/>
@@ -28,11 +33,11 @@
             <respStmt>
                <orgName type="naf" ref="http://id.loc.gov/authorities/names/n82003163">
                   Princeton University Library
-                  </orgName>
+               </orgName>
                <resp> photos include:
                   Edgeworth_Princeton_1816-01_page01.jpg,
                   Edgeworth_Princeton_1816-01_page02.jpg
-                  </resp>
+               </resp>
             </respStmt>
          </editionStmt>
          <publicationStmt>
@@ -43,7 +48,7 @@
                   Courtesy of <orgName ref="#http://id.loc.gov/authorities/names/n82003163">Princeton University Library</orgName>.
                </p>
                <licence target="https://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons Attribution 4.0 (CC BY 4.0) Unported
-            License</licence>
+                  License</licence>
             </availability>
             <idno>Edgeworth_Princeton_1816-01</idno>
          </publicationStmt>
@@ -58,14 +63,14 @@
                   <idno/>
                </msIdentifier>
                <head>Letter from 
-                  <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
-                   to <persName>M. Miles</persName>, <placeName>11 Corn Hill</placeName>, 
+                  <persName ref="./Personography.xml#EdgeM1">Edgeworth, Maria, 1768-1849</persName>
+                  to <persName ref="MileJ1">Miles, John</persName>, <placeName>11 Corn Hill</placeName>, 
                   <date when="1816-01"> Jan<hi rend="superscript">ry.</hi> 1816</date>
                </head>
                <physDesc/>
             </msDesc>
             <bibl>In addition to our edited version, this letter was previously published in
-               </bibl>
+            </bibl>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
@@ -79,7 +84,7 @@
                <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
             </correspAction>
             <correspAction type="received">
-               <persName ref="./Personography.xml#MileX2">M. Miles</persName>
+               <persName ref="./Personography.xml#MileJ1">Miles, John</persName>
             </correspAction>
          </correspDesc>
       </profileDesc>
@@ -89,10 +94,6 @@
          <div type="letter">
             <pb n="1" facs="Edgeworth_Princeton_1816-01_page01.jpg"/>
             <opener>
-               <dateline>
-                  <name type="place" ref="Id_where"/>
-                  <date when="1816-01-01">January 1816.</date>
-               </dateline>
                <salute>
                   <persName>
                      My dear Sir
@@ -101,16 +102,16 @@
             </opener>
             <p>
                We thank you for your very<lb/>
-               obliging letter of the <unclear>8nt<hi rend="superscript">h</hi>
+               obliging letter of the <unclear>2n<hi rend="superscript">d</hi>
                </unclear>
                <lb/>
             </p>
             <p>We have been offered <del>
-                  <unclear>three</unclear>
-               </del>
+               <unclear>three</unclear>
+            </del>
                <add>four</add> hundred <choice>
                   <orig>gui<lb/>
-               neas</orig>
+                     neas</orig>
                   <reg>guineas</reg>
                </choice> for two volumes of <title ref="./Workography.xml#Early1">Early Lessons</title>
                <lb/>
@@ -121,8 +122,8 @@
                volumes - of<lb/>
             </p>
             <p>
-               <title ref="./Workography.xml#Comic1">'Juvenile dramas"</title>
-               <del>same size as <title ref="./Workography.xml#Early1">Early Lessons</title>,</del>
+               <title ref="./Workography.xml#Comic1">'Juvenile dramas</title>
+               <del>"same size as <title ref="./Workography.xml#Early1">Early Lessons</title>,</del>
                <lb/>
                <hi rend="underline">not intended for representation"</hi>
                <lb/>
@@ -134,10 +135,10 @@
                <lb/>
             </p>
             <p>Be so kind as to tell me your <choice>
-                  <orig>opi-<lb/>
-               nion</orig>
-                  <reg>opinion</reg>
-               </choice> upon this subject.<lb/>
+               <orig>opi-<lb/>
+                  nion</orig>
+               <reg>opinion</reg>
+            </choice> upon this subject.<lb/>
             </p>
             <closer>
                I am Dear Sir<lb/>
@@ -154,7 +155,7 @@
             <closer>
                <pb n="2" facs="Edgeworth_Princeton_1816-01_page02.jpg"/>
                <address>
-                  <addrLine>Copy to <persName ref="./Personography.xml#MileX2">M<hi rend="superscript">r.</hi> Miles</persName> Jan<hi rend="superscript">ry.</hi> 1816</addrLine>
+                  <addrLine>Copy to <persName ref="./Personography.xml#MileJ1">M<hi rend="superscript">r.</hi> Miles</persName> Jan<hi rend="superscript">ry.</hi> 1816</addrLine>
                   <lb/>
                   <addrLine>M<hi rend="superscript">r.</hi> Chater</addrLine>
                   <lb/>
