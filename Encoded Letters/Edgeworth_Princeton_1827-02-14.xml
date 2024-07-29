@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from Maria Edgeworth, February 14, 1827</title>
+            <author>Maria Edgeworth</author>
+            <editor ref="Id_who">Lindsey Jones
+            </editor>
+            <sponsor>
+               <orgName>Maria Edgeworth Letters Project</orgName>
+            </sponsor>
+            <sponsor>Wake Forest University, University of Tennessee, Xavier University, Texas
+               A&amp;M University</sponsor>
+            <principal>Jessica Richard, Hilary Havens, Robin Runia, Susan Egenolf</principal>
+            <respStmt>
+               <resp>Transcription and coding by</resp>
+               <persName ref="Id_who">Lindsey Jones
+               </persName>
+               <persName ref="Id_who"/>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>First digital edition in TEI, date: November 4, 2023<date when="2023-11-04"/>
+            </edition>
+            <respStmt>
+               <orgName type="naf" ref="http://id.loc.gov/authorities/names/n82003163">
+                  Princeton University Library
+               </orgName>
+               <resp> photos include:
+                  Edgeworth_Princeton_1827-02-14_page01.jpg,
+                  Edgeworth_Princeton_1827-02-14_page02.jpg
+               </resp>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Maria Edgeworth Letters Project</authority>
+            <date>2022</date>
+            <availability>
+               <p>
+                  Courtesy of <orgName ref="#http://id.loc.gov/authorities/names/n82003163">Princeton University Library</orgName>.
+               </p>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons Attribution 4.0 (CC BY 4.0) Unported
+            License</licence>
+            </availability>
+            <idno>Edgeworth_Princeton_1827-02</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Maria Edgeworth Letters Project</title>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <repository>Princeton University. Library</repository>
+                  <collection/>
+                  <idno>Edgeworth_Princeton_1827-02</idno>
+               </msIdentifier>
+               <head>Letter from 
+                     <persName xml:id="EdgeM1" from="1768" to="1849">
+                     <forename>Maria</forename>
+                     <surname>Edgeworth</surname>
+                     <date>1768-1849</date>
+                     <idno type="VIAF">71477273</idno>
+                     <idno type="SNAC">62567029</idno>
+                  </persName>
+                  <placeName ref="./Placeography.xml#Edgeworthstown_IE">Edgeworthstown</placeName>, 
+                  <date when="1827-02-14">February 14. 1827</date>
+               </head>
+               <physDesc/>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>Edgeworth’s spelling and punctuation are retained in transcription, including non-standard spelling, line breaks, and hyphenation of words. The long s and ligatured forms are silently emended.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <pb n="1" facs="Edgeworth_Princeton_1827-02-14_page01.jpg"/>
+            <opener>
+               <dateline>
+                  <name type="place" ref="./Placeography.xml#Edgeworthstown_IE">Edgeworths Town</name>
+                  <lb/>
+                  <date when="1827-02-14">February 14, 1827</date>
+               </dateline>
+               <salute>
+                  Dear Sir.
+               </salute>
+            </opener>
+            <p>
+               Then we are agreed about <title ref="./Workography.xml#Littl1">the little plays</title> - an<lb/>
+               hundred guineas for a <choice>
+                  <orig>vol</orig>
+                  <reg>volume</reg>
+               </choice> to match the size<lb/>
+               of <title ref="./Workography.xml#Paren1">Parents Ass<del>s</del>istant</title>.  and permission to me to<lb/>
+               send any <choice>
+                  <orig>Ms.</orig>
+                  <reg>manuscript</reg>
+               </choice> over to <placeName ref="./Placeography.xml#US">America</placeName> as soon as I<lb/>
+               deliver it to you - So far so good. But observe I<lb/>
+               do not wish that the plays should appear as a<lb/>
+               new work, only as an additional volume of a<lb/>
+               new edition of <title ref="./Workography.xml#Paren1">Parents Assistant</title>. You do not say any thing<lb/>
+               in reply to what I said about your letting the<lb/>
+               purchases of former Editions of <title ref="./Workography.xml#Paren1">Parents assistant</title>
+               <unclear>buy</unclear>
+               <lb/>
+               this <choice>
+                  <orig>vol.</orig>
+                  <reg>volume</reg>
+               </choice> of plays separately to make up their set if<lb/>
+               they choose. I lay stress on this as I think it but<lb/>
+               fair to said purchasers - You need not send<lb/>
+               <title ref="./Workography.xml#Paren1">
+                  <unclear>Pa</unclear>rents assistant</title> to us to be recorrected for a<lb/>
+               <unclear>ne</unclear>w edition as we have no <add>new</add> corrections to make<lb/>
+               <unclear/> But I should like to know what size you<lb/>
+               propose your new <choice>
+                  <orig>ed<hi rend="superscript">n</hi>
+                  </orig>
+                  <reg>edition</reg>
+               </choice> to be and what number of <choice>
+                  <orig>vols.</orig>
+                  <reg>volumes</reg>
+               </choice>
+               <lb/>
+            </p>
+            <p>Wherever you are standing or sitting when<lb/>
+               you receive this letter, be pleased to issue imme<unclear>diate</unclear>
+               <lb/>
+               orders that search should be made in your house<lb/>
+               for a <choice>
+                  <orig>ms</orig>
+                  <reg>manuscript</reg>
+               </choice> which I sent you in 1820, when you<lb/>
+               <pb n="2" facs="Edgeworth_Princeton_1827-02-14_page02.jpg"/>
+               you were printing the sequel of Rosamond -<lb/>
+            </p>
+            <p>The ms is called <title ref="./Workography.xml#Littl1">
+                  <hi rend="underline">The Dame School"</hi>
+               </title>- W<unclear>e</unclear> had<lb/>
+               once intended to insert it in <title ref="./Workography.xml#Rosam1">Rosamond</title>, but we<lb/>
+               thought it best on second thoughts to reserve it<lb/>
+               for a vol of Plays - You never returned me the ms<lb/>
+            </p>
+            <p>When you have found it will you make your<lb/>
+               printer cast it off and see and tell me how many<lb/>
+               pages it will make of the size you mean to m<unclear>ake</unclear>
+               <lb/>
+               your new edition - When that is done, send the<lb/>
+               ms in <hi rend="underline">one</hi> or <hi rend="underline">two</hi> packets <unclear>as</unclear> maybe most <choice>
+                  <orig>conven<lb/>
+               - ient</orig>
+                  <reg>convenient</reg>
+               </choice> directed to the East of Rosse <placeName ref="./Placeography.xml#Parsonstown-House_IE">Parsonstown</placeName>.<lb/>
+               At the same time write and tell me whether<lb/>
+               you accede to what I say about the mode of<lb/>
+               publication of the little plays -<lb/>
+            </p>
+            <p>You take no notice at all of my<lb/>
+               request that you would send me various books<lb/>
+               I have repeatedly <del>written</del> for and that you would<lb/>
+               send me the parcel of books from <placeName ref="./Placeography.xml#FR">France</placeName> which
+               <lb/>
+               Either is at your house or <persName ref="./Personography.xml#BeauF1">Capt<hi rend="superscript">n</hi> Beauforts</persName>.<lb/>
+               And ask yourself whether it be reasonable that I<lb/>
+               should go without all the books I want - rather than<lb/>
+               employ any other bookseller than <persName ref="./Personography.xml#HuntR1">M<hi rend="superscript">r</hi> Hunter</persName> who<lb/>
+               will not take the trouble to send what is desired.<lb/>
+            </p>
+            <closer>
+               I am dear Sir-<lb/>
+               very truly (but not <hi rend="underline">stupidly</hi>
+               <lb/>
+               <hi rend="underline">or blindly</hi>), yours sincerely<lb/>
+               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
+               <lb/>
+            </closer>
+         </div>
+      </body>
+      <back/>
+   </text>
+</TEI>
