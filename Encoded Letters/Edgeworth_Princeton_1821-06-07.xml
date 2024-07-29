@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from Maria Edgeworth, June 7, 1821</title>
+            <author>Maria Edgeworth</author>
+            <editor ref="Id_who">
+               Lindsey Jones
+            </editor>
+            <sponsor>
+               <orgName>Maria Edgeworth Letters Project</orgName>
+            </sponsor>
+            <sponsor>Wake Forest University, University of Tennessee, Xavier University, Texas
+               A&amp;M University</sponsor>
+            <principal>Jessica Richard, Hilary Havens, Robin Runia, Susan Egenolf</principal>
+            <respStmt>
+               <resp>Transcription and coding by</resp>
+               <persName ref="Id_who">Lindsey Jones
+               </persName>
+               <persName ref="Id_who"/>
+            </respStmt>
+            <respStmt>
+               <resp>Reviewed by</resp>
+               <persName ref="Id_who">Robin Runia</persName>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>First digital edition in TEI, date: November 16, 2023 <date when="2023-11-16"/>
+            </edition>
+            <respStmt>
+               <orgName type="naf" ref="http://id.loc.gov/authorities/names/n82003163">
+                  Princeton University Library
+                  </orgName>
+               <resp> photos include:
+                  Edgeworth_Princeton_1821-06-07_page01.jpg,
+                  Edgeworth_Princeton_1821-06-07_page02.jpg,
+                  Edgeworth_Princeton_1821-06-07_page03.jpg,
+                  Edgeworth_Princeton_1821-06-07_page04.jpg
+                  </resp>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Maria Edgeworth Letters Project</authority>
+            <date>2022</date>
+            <availability>
+               <p>
+                  Courtesy of <orgName ref="http://id.loc.gov/authorities/names/n82003163">Princeton University Library</orgName>.
+               </p>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons Attribution 4.0 (CC BY 4.0) Unported
+            License</licence>
+            </availability>
+            <idno>Edgeworth_Princeton_1821-06</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Maria Edgeworth Letters Project</title>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <repository>Princeton University. Library</repository>
+                  <collection/>
+                  <idno>Edgeworth_ Princeton_1821-06-07</idno>
+               </msIdentifier>
+               <head>Letter from 
+                     <persName xml:id="EdgeM1" from="1768" to="1849">
+                     <forename>Maria</forename>
+                     <surname>Edgeworth</surname>
+                     <date>1768-1849</date>
+                     <idno type="VIAF">71477273</idno>
+                     <idno type="SNAC">62567029</idno>
+                  </persName>
+                  to <persName>Unknown</persName>,  <date when="1821-06-07">June <del>5</del>
+                     <add>7</add><hi rend="superscript">h.</hi> 1821</date>
+                  <placeName ref="./Placeography.xml#Edgeworthstown_IE">Edgeworths Town</placeName>, 
+                 
+               </head>
+               <physDesc/>
+            </msDesc>
+            <bibl>In addition to our edited version, this letter was previously published in
+               </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>Edgeworth’s spelling and punctuation are retained in transcription, including non-standard spelling, line breaks, and hyphenation of words. The long s and ligatured forms are silently emended.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <pb n="2" facs="Edgeworth_Princeton_1821-06_page01.jpg"/>
+            <opener>
+               <dateline>
+                  <name type="place" ref="./Placeography.xml#Edgeworthstown_IE">Edgeworths Town</name>
+                  <lb/>
+                  <date when="1821-06-07">June 7, 1821</date>
+               </dateline>
+               <salute>
+                  Dear Sir
+               </salute>
+            </opener>
+            <p>I thank you for writing to me so <choice>
+                  <orig>punc-<lb/>
+               -tually</orig>
+                  <reg>punctually</reg>
+               </choice> to inform me of your having<lb/>
+               paid my note to <persName ref="./Personography.xml#MoilJ1">M<hi rend="superscript">r.</hi>
+                  <unclear>Moilliet</unclear>
+               </persName> for<lb/>
+               £525: 12: 6. <del>a week before the time</del>
+               <lb/>
+            </p>
+            <p>I thank you in the first place you see<lb/>
+               for <hi rend="underline">writing punctually</hi> because<lb/>
+               <hi rend="underline">that</hi> might be some effort to you<lb/>
+               - handsome <add>conduct</add> costs you no effort and<lb/>
+               perhaps you will not even like to<lb/>
+               receive thanks for it - Gratitude <choice>
+                  <orig>how<lb/>
+               ever</orig>
+                  <reg>however</reg>
+               </choice> does not simply surprise - I am<lb/>
+               delighted that you should have<lb/>
+               had - even at the expense of my<lb/>
+               mistaking the week in which my note
+               
+               <hi rend="underline">was payable</hi> - This fresh opportunity<lb/>
+               of showing me your generous<lb/>
+               <hi rend="underline">promptitude.</hi>
+            </p>
+            <p>
+               <del>Though</del> I did forget <unclear>the</unclear>
+               <del>day when<lb/>
+               my note became due</del>, &amp; <del>
+                  <unclear>tho</unclear>
+               </del> I did<lb/>
+               forget whether the money was to<lb/>
+               <pb n="3" facs="Edgeworth_Princeton_1821-06_page02.jpg"/>
+
+               be paid at <unclear>Hoares</unclear> bank or at your<lb/>
+               house &amp; <del>though</del> in fact I was not<lb/>
+               aware that my note was ever to be<lb/>
+               presented for payment, having<lb/>
+               conceived that it was to be in <persName Molliet, John Lewis ref="./Personography.xml#MoulJ1">M<hi rend="superscript">r</hi>.<lb/>
+                Moilliets
+               </persName> hands till I should write<lb/>
+               to let him know that the money<lb/>
+               was ready, which I did last week<lb/>
+               - But though, I partly from ignora<unclear>nce</unclear>
+               <lb/>
+               &amp; partly from negligence made<lb/>
+               these errors, yet in essential points<lb/>
+               my memory for business is good<lb/>
+               I remember well that you wrote<lb/>
+               when I was abroad last year to say<lb/>
+               that you <del>thought</del>
+               <add>found</add> the quantity of<lb/>
+               the sequel to <title ref="./Workography.xml#Rosam1">Rosamond</title> fell short<lb/>
+               of what your printer required and<lb/>
+               that you could not afford to give<lb/>
+               what had been originally proposed<lb/>
+               500<hi rend="superscript">
+                  <unclear>£</unclear>
+               </hi> for the copy right &amp; in consequence<lb/>
+               I promised to deduct if necessary<lb/>
+               <pb n="4" facs="Edgeworth_Princeton_1821-06_page03.jpg"/>
+
+               a hundred guineas rather than to<lb/>
+               extend the work by writing more<lb/>
+               in a hurry - I send you a draft<lb/>
+               on Hoare for a hundred guineas<lb/>
+               &amp; <add>for</add> the odd 12<unclear>
+                  <hi rend="superscript">o</hi>
+               </unclear>/6 which was tacked<lb/>
+               to my note for the price of stamps -<lb/>
+            </p>
+            <postscript>
+               <p>PS If I ought to give you a stamped<lb/>
+                  receipt for the copy right of <title ref="./Workography.xml#Rosam1">Rosamond</title>
+                  <lb/>
+                  let me know or send me a receipt<lb/>
+                  on a proper stamp &amp; I will sign it.<lb/>
+                  You cannot <del>feel</del>
+                  <add>be</add> more delighted<lb/>
+                  than I am, I will add than all<lb/>
+                  my family feel that my hereditary<lb/>
+                  confidence in you ought to continue<lb/>
+               </p>
+            </postscript>
+            <closer>
+               I am Dear Sir<lb/>
+               Your obliged humble <choice>
+                  <orig>serv<hi rend="superscript">t</hi>
+                  </orig>
+                  <reg>servant</reg>
+               </choice>
+               <lb/>
+            </closer>
+            <pb n="1" facs="Edgeworth_Princeton_1821-06_page04.jpg"/>
+            <closer>
+               <address>
+                  <addrLine>Copy to <persName Hunter, Rowland ref="./Personography.xml#HuntR1">
+                  </persName>Hunter
+                     <lb/>
+                  </addrLine>
+                  <addrLine>June 7<hi rend="superscript">h.</hi> 1821<lb/>
+                  </addrLine>
+               </address>
+            </closer>
+         </div>
+      </body>
+      <back/>
+   </text>
+</TEI>
