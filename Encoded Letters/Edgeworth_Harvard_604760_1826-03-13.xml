@@ -21,6 +21,10 @@
                <persName ref="Id_who">Eliza Wilcox</persName>
                <persName ref="Id_who"/>
             </respStmt>
+            <respStmt>
+               <resp>Reviewed by</resp>
+               <persName ref="Id_who">Hilary Havens</persName>
+            </respStmt>
          </titleStmt>
          <editionStmt>
             <edition>First digital edition in TEI, date: November 26, 2022<date when="2022-11-26"/>
@@ -29,9 +33,9 @@
                <orgName type="naf" ref="http://id.loc.gov/authorities/names/n80097499">
                         Harvard University, Houghton Library</orgName>
                <resp> photos include:
-                        Edgeworth_Harvard_604760_1826-03_pageo01.jpg,
-                        Edgeworth_Harvard_604760_1826-03_page02.jpg,
-                        Edgeworth_Harvard_604760_1826-03_page03.jpg</resp>
+                        Edgeworth_Harvard_604760_1826-03-13_pageo01.jpg,
+                        Edgeworth_Harvard_604760_1826-03-13_page02.jpg,
+                        Edgeworth_Harvard_604760_1826-03-13_page03.jpg</resp>
             </respStmt>
          </editionStmt>
          <publicationStmt>
@@ -58,7 +62,7 @@
                <head>Letter from 
                   <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
                   to <persName ref="./Personography.xml#NortA1">Professor Andrews Norton</persName>, <placeName/>, 
-                        <date when="1826-03-18"/>
+                        <date when="1826-03-13"/>
                </head>
                <physDesc/>
             </msDesc>
@@ -88,16 +92,16 @@
    <text>
       <body>
          <div type="letter">
-            <pb n="1" facs="Edgeworth_Harvard_604760_1826-03_page01.jpg"/>
+            <pb n="1" facs="Edgeworth_Harvard_604760_1826-03-13_page01.jpg"/>
             <p>Miss Edgeworths respects to<lb/>
                <persName ref="./Personography.xml#NortA1">Professor Norton</persName> She returns<lb/>
                     him her sincere thanks for<lb/>
                     the honor he has done her<lb/>
                     by the present of a copy of<lb/>
-               <persName ref="./Personography.xml#FrisL1">Professor Frisbie's</persName> writings<lb/>
+               <persName ref="./Personography.xml#FrisL1">Professor Frisbie's</persName> <title ref="./Workography.xml#Colle1">writings</title><lb/>
                     and of his notice of <persName ref="./Personography.xml#FrisL1">Frisbie's</persName>
                <lb/>
-                    life and works.<lb/>
+                    life and Works.<lb/>
             </p>
             <p>  The metaphysical <choice>
                   <orig>discus<lb/>
@@ -112,14 +116,14 @@
                <lb/>
                <title ref="./Workography.xml#Theor1">theory of moral sentiments</title>
                <lb/>
-                    and those on Brown -<lb/>
+               and those on <persName ref="./Personography.xml#BrowT1">Brown</persName> -<lb/>
             </p>
             <p>  In the remarks on <persName ref="./Personography.xml#TaciP1">Tacitus</persName>
                <lb/>
                     Miss E was <hi rend="underline">astonished</hi> and<lb/>
                <hi rend="underline">gratified</hi>, and <hi rend="underline">ashamed</hi> to<lb/>
                     find her own name in such<lb/>
-               <pb n="2" facs="Edgeworth_Harvard_604760_1826-03_page02.jpg"/>
+               <pb n="2" facs="Edgeworth_Harvard_604760_1826-03-13_page02.jpg"/>
                     high company &amp; - mentioned<lb/>
                     in such terms - ! - She dares<lb/>
                     not say more lest she should<lb/>
@@ -133,7 +137,7 @@
                     she is sincerely grateful<lb/>
                     to him - <lb/>
             </p>
-            <p>  She has desired her book<lb/>
+            <p>  She has desired her book-<lb/>
                     seller to send him the <title ref="./Workography.xml#Janus1">
                   <choice>
                      <orig>Edin-<lb/>
@@ -141,7 +145,7 @@
                      <reg>Edinburgh</reg>
                   </choice> Literary Almanac</title> for<lb/>
                     this year in which there are<lb/>
-                    some remarks on Brown<lb/>
+               some remarks on <persName ref="./Personography.xml#BrowT1">Brown</persName><lb/>
                     &amp; other metaphysical Essays<lb/>
                     which perhaps may interest<lb/>
                     him - <lb/>
@@ -150,7 +154,7 @@
                <persName ref="./Personography.xml#LockJ1">M<hi rend="superscript">r</hi>. Lockhart</persName>  one or two she<lb/>
                <hi rend="underline">guesses</hi> are by <persName ref="./Personography.xml#ScotW1">Sir Walter Scott</persName>
                <lb/>
-               <pb n="3" facs="Edgeworth_Harvard_604760_1826-03_page03.jpg"/>   
+               <pb n="3" facs="Edgeworth_Harvard_604760_1826-03-13_page03.jpg"/>   
                     but this <hi rend="underline">last</hi> is only her <choice>
                   <orig>conjec<lb/>
                         ture</orig>
@@ -163,8 +167,8 @@
                </choice> were his - </p>
             <p> If <persName ref="./Personography.xml#NortA1">Professor Norton</persName> or<lb/>
                     any of her friends should<lb/>
-                    visit <placeName ref="./Placeography.xml#IE">Ireland</placeName> Miss Edgworths<lb/>
-                    family hope to have the <choice>
+               visit <placeName ref="./Placeography.xml#IE">Ireland</placeName> <persName ref="./Personography.xml#EdgeX2">Miss Edgeworths<lb/>
+                       family</persName> hope to have the <choice>
                   <orig>honer</orig>
                   <reg>honor</reg>
                </choice>
@@ -174,19 +178,19 @@
                <lb/>
             </p>
             <closer>
-               <placeName ref="./Placeography.xml#Edgeworthstown_IE">Edgeworths Town</placeName>
-                    March 18<hi rend="superscript">th</hi>. 1826
+               <placeName ref="./Placeography.xml#Edgeworthstown_IE">Edgeworths Town</placeName><lb/>
+                    March 13<hi rend="superscript">th</hi>. 1826
                 </closer>
             <postscript>
                <p>
-                  <persName ref="./Personography.xml#EdgeM1">Miss E</persName> hopes a <hi rend="underline">lady</hi> may
-                        be excused for noticing the
-                        beauty of the binding of
-                        the vol sent to her -
-                        <hi rend="underline">American</hi> binding is equal
+                  <persName ref="./Personography.xml#EdgeM1">Miss E</persName> hopes a <hi rend="underline">lady</hi> may<lb/>
+                  be excused for noticing the<lb/>
+                  beauty of the binding of<lb/>
+                  the vol sent to her -<lb/>
+                  <hi rend="underline">American</hi> binding is equal<lb/>
                         to <placeName ref="./Placeography.xml#London_ENK">
                      <hi rend="underline">London</hi>
-                  </placeName>
+                        </placeName><lb/>
                </p>
             </postscript>
             <closer>
