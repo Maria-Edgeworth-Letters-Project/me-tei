@@ -25,6 +25,10 @@
                </persName>
                <persName ref="Id_who"/>
             </respStmt>
+            <respStmt>
+               <resp>Reviewed by</resp>
+               <persName ref="Id_who">Hilary Havens</persName>
+            </respStmt>            
          </titleStmt>
          <editionStmt>
             <edition>First digital edition in TEI, date: <date when="2023-11-05"/>
@@ -86,10 +90,10 @@
       <profileDesc>
          <correspDesc>
             <correspAction type="sent">
-               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
+               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth, 1768-1849</persName>
             </correspAction>
             <correspAction type="received">
-               <persName ref="./Personography.xml#HallA1">Anna Maria Fielding Hall</persName>
+               <persName ref="./Personography.xml#HallA1">Anna Maria Fielding Hall, 1800-1881</persName>
             </correspAction>
          </correspDesc>
       </profileDesc>
@@ -165,9 +169,9 @@
                hands closed and separated as if Cupid<lb/>
                was going to box -- I think <persName ref="./Personography.xml#LamaA1">La Martine</persName>
                <lb/>
-               says that <persName ref="./Personography.xml#ByroG1">Lord Byron</persName> "fait <hi rend="underline">boxer</hi>
+               says that <persName ref="./Personography.xml#ByroG1">Lord Byron</persName> "fait <hi rend="underline">boxér</hi>
                <lb/>
-               les Manes" -- but Cupid never was<lb/>
+               les Muses" -- but Cupid never was<lb/>
                before represented as condescending<lb/>
                to such vulgar warfare --<lb/>
             </p>
@@ -186,8 +190,9 @@
                - on second thoughts I am not<lb/>
                sure that in this Interior <persName ref="./Personography.xml#ScotW1">Sir Walter<lb/>
                Scott</persName> himself is - But probably you<lb/>
-               &amp; <persName ref="./Personography.xml#HallS1">M<hi rend="superscript">r.</hi> Hall</persName> know the engraving<lb/>
-               You comprehend I trust from<lb/>
+               &amp; <persName ref="./Personography.xml#HallS1">M<hi rend="superscript">r.</hi> Hall</persName> know the engraving<lb/></p>
+               
+            <p>You comprehend I trust from<lb/>
                the tracing enclosed that Cupid<lb/>
                <unclear>lurches</unclear> upon the cover of the inkstand<lb/>
                which fits over the <hi rend="underline">hands</hi> which ought to be<lb/>
@@ -196,7 +201,7 @@
                turned out ugly vulgar heads in this<lb/>
                tracing - The tracing was made for<lb/>
                you from my old sketch, this morning<lb/>
-               by <persName ref="./Personography.xml#EdgeF1">Francis</persName> (my brother) oldest boy<lb/>
+               by <persName ref="./Personography.xml#EdgeF1">Francis</persName> (my brothers) oldest boy<lb/>
                commonly called <persName ref="./Personography.xml#EdgeA3">my nephew <unclear>Torly</unclear>
                   <lb/>
                E</persName> who hopes you will accept of<lb/>
@@ -208,7 +213,7 @@
                learn before and after he goes to<lb/>
                school being no 10 years old that<lb/>
                his parents cannot allow him much<lb/>
-               time for drawing of wh<hi rend="superscript">h</hi> he is very fond<lb/>
+               time for drawing of <choice><orig>wh<hi rend="superscript">h</hi></orig><reg>which</reg></choice> he is very fond<lb/>
             </p>
             <p>I wish you had mentioned <persName ref="./Personography.xml#RochF1">your<lb/>
                little girl</persName> who interested me both<lb/>
@@ -221,13 +226,13 @@
                   </choice>
                </persName>
                <lb/>
-               &amp;, <hi rend="underline">I forget who</hi> the gent<hi rend="superscript">n</hi>. who possess<lb/>
+               &amp;, <persName ref="./Personography.xml#SimpW1"><hi rend="underline">I forget who</hi> the gent<hi rend="superscript">n</hi>.</persName> who possess<lb/>
                the copyright of my books inform<lb/>
                me that in consequence of numerous<lb/>
                requests to have my <title ref="./Workography.xml#Paren1">stories for<lb/>
                children</title> &amp; <title ref="./Workography.xml#Popul1">popular tales</title> published<lb/>
-               cheaply &amp; in separate <choice>
-                  <abbr>vol<hi rend="superscript">s</hi>.</abbr>
+               cheaply &amp; in separate <choice><orig>
+                  vol<hi rend="superscript">s</hi>.</orig>
                   <reg>volumes</reg>
                </choice> or parts<lb/>
                they are about to do so at last<lb/>
@@ -240,11 +245,11 @@
                only consult me out of civility <del>and</del>
                <lb/>
                to know in what manner &amp; size I<lb/>
-               should approve -- I have said<lb/>
+               should approve - I have said<lb/>
                Print all <title ref="./Workography.xml#Early1">Early Lessons</title> in one &amp; the<lb/>
                same size And <title ref="./Workography.xml#Paren1">Parents Assistant</title>
                <lb/>
-               in another larger size -- And <title ref="./Workography.xml#Moral1">Moral&gt;<lb/>
+               in another larger size - And <title ref="./Workography.xml#Moral1">Moral<lb/>
                   Tales</title> and <title ref="./Workography.xml#Popul1">Popular</title> may go in the<lb/>
                same size with all the other later or<lb/>
                <hi rend="underline">Novels</hi> whichever they <choice>
