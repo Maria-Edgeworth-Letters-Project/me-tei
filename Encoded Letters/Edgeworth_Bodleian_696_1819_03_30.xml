@@ -19,7 +19,6 @@
             <respStmt>
                <resp>Transcription and coding by</resp>
                <persName ref="Id_who">Eliza Wilcox</persName>
-               <persName ref="Id_who"/>
             </respStmt>
          </titleStmt>
          <editionStmt>
@@ -62,7 +61,7 @@
                </msIdentifier>
                <head>Letter from 
                   <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
-                  to <persName ref="./Personography.xml#EdgeF2">Frances Anne Edgeworth</persName>, <placeName ref="Harley-Street-31_ENK">31 Harley St.</placeName>, 
+                  to <persName ref="./Personography.xml#EdgeF2">Frances Anne Edgeworth</persName>, <placeName ref="./Placeography.xml#Harley-Street-31_ENK">31 Harley St.</placeName>, 
                         <date when="1819-03-30">March 30, 1819</date>
                </head>
                <physDesc/>
@@ -179,9 +178,9 @@
                     reasonably in <hi rend="underline">summing</hi> up<lb/>
                     &amp; in her charge to <persName ref="./Personography.xml#EdgeF3">Fanny</persName> at<lb/>
                     last to decide quite for her,<lb/>
-                    self - <persName ref="./Personography.xml#WhitE1">Lady EW's</persName>
+                       self - <persName ref="./Personography.xml#WhitE1">Lady <choice><abbr>E</abbr><reg>Elizabeth</reg></choice> <choice><abbr>W</abbr><reg>Whitbread</reg></choice></persName>'s
                <hi rend="underline">last</hi> opinion<lb/>
-                    was favorable to <persName ref="./Personography.xml#WilsL2">LW</persName> in every<lb/>
+                       was favorable to <persName ref="./Personography.xml#WilsL2"><choice><abbr>L</abbr><reg>Lestock</reg></choice><choice><abbr>W</abbr><reg>Wilson</reg></choice></persName> in every<lb/>
                     respect except wishing him<lb/>
                     to be the husband of <persName ref="./Personography.xml#EdgeF3">Fanny</persName>
                <lb/>
@@ -190,7 +189,7 @@
                     - She was very much struck<lb/>
                     with his self command &amp;<lb/>
                     his honorable conduct toward<lb/>
-               <persName ref="./Personography.xml#EdgeF3">F</persName> in company - and with<lb/>
+                       <persName ref="./Personography.xml#EdgeF3"><choice><abbr>F</abbr><reg>Fanny</reg></choice></persName> in company - and with<lb/>
                     his good temper - and (like<lb/>
                     my <persName ref="./Personography.xml#RuxtM1">aunt Ruxton</persName>) his <choice>
                   <orig>man<lb/>
@@ -206,7 +205,7 @@
                     saw a man more in love"<lb/>
             </p>
             <p>
-               <persName ref="./Personography.xml#WhitE1">Lady E W</persName> has never <del>allowed</del>
+               <persName ref="./Personography.xml#WhitE1">Lady <choice><abbr>E</abbr><reg>Elizabeth</reg></choice> <choice><abbr>W</abbr><reg>Whitbread</reg></choice></persName> has never <del>allowed</del>
                <lb/>
                     told any body what we have told her<lb/>
                <pb n="4" facs="Edgeworth_Bodleian_696_1819_03_30_page04.jpg"/>
@@ -223,7 +222,7 @@
                     has seen brilliant &amp; highly<lb/>
                     cultivated society. She is not<lb/>
                     to pass her life in this high<lb/>
-                    London nor would it be <choice>
+               <placeName ref="./Placeography.xml#London_ENK">London</placeName> nor would it be <choice>
                   <orig>de-<lb/>
                         sireable</orig>
                   <reg>desireable</reg>
