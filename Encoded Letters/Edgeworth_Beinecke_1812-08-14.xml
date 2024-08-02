@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from Maria Edgeworth to Mrs. Miles, August 14, 1812</title>
+            <author><persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName></author>
+            <editor ref="Id_who">
+               <persName ref="Id_who">Eliza Wilcox</persName>
+            </editor>
+            <sponsor>
+               <orgName>Maria Edgeworth Letters Project</orgName>
+            </sponsor>
+            <sponsor>Wake Forest University, University of Tennessee, Xavier University, Texas
+                    A&amp;M University</sponsor>
+            <principal>Jessica Richard, Hilary Havens, Robin Runia, Susan Egenolf</principal>
+            <respStmt>
+               <resp>Transcription and coding by</resp>
+               <persName ref="Id_who">Eliza Wilcox</persName>
+               <persName ref="Id_who"/>
+            </respStmt>
+            <respStmt>
+               <resp>Reviewed by</resp>
+               <persName ref="Id_who">Robin Runia</persName>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>First digital edition in TEI, date: <date when="2022-07-28"> 2022-07-28 </date>
+            </edition>
+            <respStmt>
+               <orgName ref="http://id.loc.gov/authorities/names/n80097790">Beinecke Rare Book and Manuscript Library</orgName>
+               <resp> photos include: Edgeworth_Beinecke_1812-08-14_page01
+                        Edgeworth_Beinecke_1812-08-14_page02
+                    </resp>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Maria Edgeworth Letters Project</authority>
+            <date>2022</date>
+            <availability>
+               <p>Reproduced by courtesy of the <orgName ref="http://id.loc.gov/authorities/names/n80097790">Beinecke Rare Book and Manuscript Library</orgName>. </p>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons Attribution 4.0 (CC BY 4.0) Unported
+            License</licence>
+            </availability>
+            <idno>Edgeworth_Beinecke_1812-08-14</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Maria Edgeworth Letters Project</title>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <repository>Beinecke Rare Book and Manuscript Library</repository>
+                  <collection>Maria Edgeworth Collection</collection>
+                  <idno/>
+               </msIdentifier>
+               <head>Letter from <persName ref="./Personography.xml#EdgeM1">
+                     <forename>Maria</forename>
+                     <surname>Edgeworth</surname>
+                  </persName> to <persName ref="./Personography.xml#MileX1">Mrs. Miles</persName>,
+                        <placeName/>, <date when="1812-08-14">August 14, 1812</date>
+               </head>
+               <physDesc/>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>Edgeworth’s spelling and punctuation are retained in transcription, including non-standard spelling, line breaks, and hyphenation of words. The long s and ligatured forms are silently emended.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="./Personography.xml#MileX1">Mrs. Miles</persName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-01-01" who="Id_who"/>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <pb n="1" facs="Edgeworth_Beinecke_1812-08-14_page01.jpg"/>
+            <opener>
+               <dateline>
+                  <placeName ref="./Placeography.xml#Edgeworthstown_IE"/>Edgeworths Town<lb/>
+                  <date when="1812-07-22">August 14, 1812</date>
+                  <lb/>
+               </dateline>
+               <salute> Dear <persName ref="./Personography.xml#MileX1">Madam</persName>,<lb/>
+               </salute>
+            </opener>
+            <p> I felt <choice>
+                  <orig>unwil-<lb/>
+                    ling</orig>
+                  <reg>unwilling</reg>
+               </choice> to trouble you further<lb/>
+                    about the little mistake in<lb/>
+                    the quantity of the lace; but<lb/>
+                    since you desire it I may<lb/>
+                    venture. - Our Irish yards<lb/>
+                    are not like our Irish miles<lb/>
+                    longer than the English, but<lb/>
+                    precisely the same &amp; lest you<lb/>
+                    should have any doubts of<lb/>
+                    the accuracy of measurement<lb/>
+                    of our Irish fingers I enclose<lb/>
+                    the whole of the lace is it came<lb/>
+                    to us- It never was in any<lb/>
+                    hands but those of <persName ref="./Personography.xml#LongX1">Lord <choice>
+                     <orig>Long<lb/>
+                        ford</orig>
+                     <reg>Longford</reg>
+                  </choice>
+               </persName>
+               <lb/>
+                    ford or his sister <persName ref="./Personography.xml#HamiX1">M<hi rend="superscript">rs</hi>rs. Hamilton</persName>
+               <lb/>
+                    who brought it over -<lb/>
+            </p>
+            <p> We were obliged to get other<lb/>
+               <pb n="2" facs="Edgeworth_Beinecke_1812-08-14_page02.jpg"/>   
+                    lace for our dresses, and as 3/4<lb/>
+                    of a yard of the broad would<lb/>
+                    be too little for the bosom of a gown<lb/>
+                    &amp; a quarter pieced-on would<lb/>
+                    look ugly &amp; <add>as</add> we don't want the<lb/>
+                    narrow now, we should like<lb/>
+                    to take any pretty <add>fine</add>white edging<lb/>
+                    of any breadth, in exchange<lb/>
+                    for <add>all</add>the lace, if the shopkeeper<lb/>
+                    who sold it is willing to settle<lb/>
+                    it in this manner - If not -<lb/>
+                    we are quite <hi rend="underline">resigned</hi>, and<lb/>
+                    beg that you will not be <choice>
+                  <orig>con<lb/>
+                        -cerned</orig>
+                  <reg>concerned</reg>
+               </choice>about it , for such things<lb/>
+                    do not weigh heavily upon<lb/>
+                    our spirits -<lb/>
+            </p>
+            <p> If you get the edging send it<lb/>
+            </p>
+            <p> wrapped in silver paper in<lb/>
+               <pb n="3" facs="Edgeworth_Beinecke_1812-08-14_page03.jpg"/>   
+               the first frank Mr. Miles can<lb/>
+               procure - not by Sir E B Little-<lb/>
+               hales for I have promised<lb/>
+               never to use his franking<lb/>
+               privilege for any article of<lb/>
+               dress --<lb/>
+               Will you be so good my dear<lb/>
+               Madame to write me a line<lb/>
+               to say what the <hi rend="underline">gowns</hi> cost<lb/>
+               exactly, as I am to divide the<lb/>
+               piece with Mrs. E - and let<lb/>
+               me know if I am any thing<lb/>
+               in your debt.<lb/>
+               <pb/>
+               Though you say that we<lb/>
+               must not hope to see you and<lb/>
+               Mr. Miles this summer we<lb/>
+               are persuaded that you will<lb/>
+               take the first opportunity in<lb/>
+               your power of coming to us<lb/>
+            </p>
+            <p> &amp; we thank you for saying that<lb/>
+               <pb n="3" facs="Edgeworth_Beinecke_1812-08-14_page04.jpg"/>   
+               our little dirty channel shall<lb/>
+               be no impediment<lb/>
+               I am Dear Madame<lb/>
+        
+            </p>
+            
+            
+            <closer> Yours sincerely<lb/>
+               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
+               <lb/>
+               
+               <lb/>
+            </closer>
+         </div>
+      </body>
+      <back/>
+   </text>
+</TEI>
