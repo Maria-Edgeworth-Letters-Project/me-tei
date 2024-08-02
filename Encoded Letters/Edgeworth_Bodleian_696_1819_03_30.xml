@@ -62,7 +62,7 @@
                </msIdentifier>
                <head>Letter from 
                   <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
-                        to <persName ref="./Personography.xml#EdgeF2">Frances Anne Edgeworth</persName>, <placeName/>, 
+                  to <persName ref="./Personography.xml#EdgeF2">Frances Anne Edgeworth</persName>, <placeName ref="Harley-Street-31_ENK">31 Harley St.</placeName>, 
                         <date when="1819-03-30">March 30, 1819</date>
                </head>
                <physDesc/>
@@ -87,7 +87,7 @@
          </correspDesc>
       </profileDesc>
       <revisionDesc>
-         <change when="2021-01-01" who="Id_who"/>
+         <change when="2024-08-02" who="Jamie Kramer"></change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -100,7 +100,7 @@
                   <date when="1819-03-30">March 30<hi rend="superscript">th</hi> 1819</date>
                </dateline>
             </opener>
-            <p> My dearest mother, your <choice>
+            <p> My dearest <persName ref="./Personography.xml#EdgeF2">mother</persName>, your <choice>
                   <orig>cal-<lb/>
                     -culations</orig>
                   <reg>calculations</reg>
@@ -112,16 +112,15 @@
                     put into our hands five<lb/>
                     minutes after we had arrived<lb/>
                     at <persName ref="./Personography.xml#HopeT1">M<hi rend="superscript">r</hi>
-               </persName>Hopes just when we<lb/>
+                       Hope</persName>s just when we<lb/>
                     had run up to our <hi rend="underline">attics</hi>
                <lb/>
                     to take off our pelisses &amp; unpack<lb/>
-                    before we saw <persName ref="./Personography.xml#BereL1">M<hi rend="superscript">rs</hi>
-               </persName>. Hopes or<lb/>
+               before we saw <persName ref="./Personography.xml#BereL1">M<hi rend="superscript">rs</hi>. Hope</persName>s or<lb/>
                     any body -- Most happy were<lb/>
                     we to devour it in our snugs<lb/>
             </p>
-            <p> -- <persName ref="./Personography.xml#WhitE1">Lady E Whitbreads</persName>
+            <p> -- <persName ref="./Personography.xml#WhitE1">Lady <choice><abbr>E</abbr><reg>Elizabeth</reg></choice> Whitbread</persName>s
                <choice>
                   <orig>kind-<lb/>
                     ness</orig>
@@ -139,9 +138,8 @@
                         wards</orig>
                   <reg>homewards</reg>
                </choice> we should come to her<lb/>
-            </p>
             <pb n="2" facs="Edgeworth_Bodleian_696_1819_03_30_page02.jpg"/>
-            <p>on our way &amp; repose with<lb/>
+            on our way &amp; repose with<lb/>
                      her for 3 or 4 quiet days<lb/>
                      "and I will take care to<lb/>
                      have my brother here for<lb/>
@@ -149,8 +147,8 @@
                      to him your dear little<lb/>
                <persName ref="./Personography.xml#EdgeF1">Francis</persName> -- the most intelligent<lb/>
                      agreeable little boy I ever<lb/>
-                     saw"<lb/>
-            </p>
+                     saw"<lb/></p>
+            
             <p>
                <persName ref="./Personography.xml#GreyE1">Old Lady Gray</persName> came in<lb/>
                      with 4 of her grand children<lb/>
@@ -161,7 +159,7 @@
                      to any of them.<lb/>
             </p>
             <p>
-               <persName ref="./Personography.xml#WhitE1">Lady E W</persName> expressed the kindest<lb/>
+               <persName ref="./Personography.xml#WhitE1">Lady <choice><abbr>E</abbr><reg>Elizabeth</reg></choice> <choice><abbr>W</abbr><reg>Whitbread</reg></choice></persName> expressed the kindest<lb/>
                     and I am sure most sincere<lb/>
                     interest about <persName ref="./Personography.xml#EdgeF3">Fanny</persName> &amp; her<lb/>
                     affairs - She is in some points<lb/>
@@ -173,9 +171,9 @@
                   <orig>de-<lb/>
                         cided</orig>
                   <reg>decided</reg>
-               </choice> - and instantly -<lb/>
+               </choice> - and instantly -<lb/></p>
                     
-                    She spoke however very<lb/>
+                    <p>She spoke however very<lb/>
                <pb n="3" facs="Edgeworth_Bodleian_696_1819_03_30_page03.jpg"/>
                     
                     reasonably in <hi rend="underline">summing</hi> up<lb/>
@@ -200,8 +198,8 @@
                   <reg>manner</reg>
                </choice> of coming into the room<lb/>
                     the last evening made a<lb/>
-                    great impression in his favor<lb/>
-                    "Far from vulgar it was<lb/>
+                    great impression in his favor<lb/></p>
+                    <p>"Far from vulgar it was<lb/>
                     really quite gentlemanlike<lb/>
                     &amp; interesting - my daughter<lb/>
                <persName ref="./Personography.xml#ShawE1">Emma</persName> observed that she never<lb/>
