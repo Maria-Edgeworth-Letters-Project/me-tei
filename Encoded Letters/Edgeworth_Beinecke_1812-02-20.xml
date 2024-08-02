@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from Maria Edgeworth to Mrs. Miles, February 20, 1812</title>
+            <author><persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName></author>
+            <editor ref="Id_who">
+               <persName ref="Id_who">Eliza Wilcox</persName>
+            </editor>
+            <sponsor>
+               <orgName>Maria Edgeworth Letters Project</orgName>
+            </sponsor>
+            <sponsor>Wake Forest University, University of Tennessee, Xavier University, Texas
+                    A&amp;M University</sponsor>
+            <principal>Jessica Richard, Hilary Havens, Robin Runia, Susan Egenolf</principal>
+            <respStmt>
+               <resp>Transcription and coding by</resp>
+               <persName ref="Id_who">Eliza Wilcox</persName>
+               <persName ref="Id_who"/>
+            </respStmt>
+            <respStmt><resp>Reviewed by</resp><persName ref="Id_who">Robin Runia</persName></respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>First digital edition in TEI, date: <date when="2022-08-02"> 2022-08-02 </date>
+            </edition>
+            <respStmt>
+               <orgName ref="http://id.loc.gov/authorities/names/n80097790">Beinecke Rare Book and Manuscript Library</orgName>
+               <resp> photos include: 
+                  Edgeworth_Beinecke_1812-02-20_page01,
+                  Edgeworth_Beinecke_1812-02-20_page02
+                    </resp>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Maria Edgeworth Letters Project</authority>
+            <date>2022</date>
+            <availability>
+               <p>Reproduced by courtesy of the <orgName ref="http://id.loc.gov/authorities/names/n80097790">Beinecke Rare Book and Manuscript Library</orgName>. </p>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons Attribution 4.0 (CC BY 4.0) Unported
+            License</licence>
+            </availability>
+            <idno>Edgeworth_Beinecke_1812-02-20</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Maria Edgeworth Letters Project</title>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <repository>Beinecke Rare Book and Manuscript Library</repository>
+                  <collection>Maria Edgeworth Collection</collection>
+                  <idno/>
+               </msIdentifier>
+               <head>Letter from <persName ref="./Personography.xml#EdgeM1">
+                     <forename>Maria</forename>
+                     <surname>Edgeworth</surname>
+                  </persName> to <persName ref="./Personography.xml#MileX1">Mrs. Miles</persName>,
+                        <placeName ref="./Placeography.xml#St-Pauls-Churchyard_ENK">St. Paul's Churchyard, London</placeName>, <date when="1812-02-20">February 20, 1812</date>
+               </head>
+               <physDesc/>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>Edgeworth’s spelling and punctuation are retained in transcription, including non-standard spelling, line breaks, and hyphenation of words. The long s and ligatured forms are silently emended.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="./Personography.xml#MileX1">Mrs. Miles</persName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-01-01" who="Id_who"/>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <opener>
+               <dateline>
+                  <placeName ref="Id_where"/>
+                  <date when="1812-02-20">February 20, 1812</date>
+               </dateline>
+               <salute> To <persName ref="./Personography.xml#MileX1">Mrs. Miles</persName>
+               </salute>
+            </opener>
+            <pb n="2" facs="Edgeworth_Beinecke_1812-02-20_page02.jpg"/>
+            <p>
+               <persName ref="./Personography.xml#EdgeM1">Miss <choice>
+                     <orig>Edgeworths</orig>
+                     <reg>Edgeworth's</reg>
+                  </choice>
+               </persName> Compliments<lb/>
+                    to <persName ref="./Personography.xml#MileX1">M<hi rend="superscript">rs</hi> Miles</persName> she begs she will<lb/>
+                    be so good to deliver the two<lb/>
+                    black lace gowns made into<lb/>
+                    as small &amp; neat a parcel in<lb/>
+                    thin paper as may be <choice><orig>conve<lb/>
+                       nient</orig><reg>convenient</reg></choice>, to <persName ref="./Personography.xml#HamiX1">M<hi rend="superscript">rs</hi>. Hamilton</persName>, <del>who</del>
+               <lb/>
+               <del>is a</del> who will bring them<lb/>
+                    over to <placeName ref="./Placeography.xml#IE">Ireland</placeName>.</p>
+            <lb/>
+            <closer>
+               <placeName ref="./Placeography.xml#Edgeworthstown_IE">Edgeworth Town</placeName>
+               <lb/>
+               <date when="1812-02-20">Feb<hi rend="superscript">r</hi>: 20<hi rend="superscript">th</hi>.1812</date><lb/>
+            </closer>
+            <closer>
+               <address>
+                  <pb n="1" facs="Edgeworth_Beinecke_1812-02-20_page01.jpg"/>
+                  <persName ref="./Personography.xml#MileX1">M<hi rend="superscript">rs</hi> Miles</persName>
+                  <addrLine/>
+                  <persName>Johnson &amp; C<hi rend="superscript">o</hi>.</persName>
+                  <addrLine/>
+                  <placeName ref="./Placeography.xml#St-Pauls-Churchyard_ENK">S<hi rend="superscript">t</hi>. Pauls Church Yard
+                            London</placeName>
+                  <addrLine/>
+               </address>
+            </closer>
+         </div>
+      </body>
+      <back/>
+   </text>
+</TEI>
