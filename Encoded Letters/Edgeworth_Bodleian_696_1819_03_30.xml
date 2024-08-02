@@ -62,7 +62,7 @@
                </msIdentifier>
                <head>Letter from 
                   <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
-                        to <persName ref="./Personography.xml#EdgeF2">Frances Anne Edgeworth</persName>, <placeName/>, 
+                  to <persName ref="./Personography.xml#EdgeF2">Frances Anne Edgeworth</persName>, <placeName ref="Harley-Street-31_ENK">31 Harley St.</placeName>, 
                         <date when="1819-03-30">March 30, 1819</date>
                </head>
                <physDesc/>
@@ -87,7 +87,7 @@
          </correspDesc>
       </profileDesc>
       <revisionDesc>
-         <change when="2021-01-01" who="Id_who"/>
+         <change when="2024-08-02" who="Jamie Kramer"></change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -100,7 +100,7 @@
                   <date when="1819-03-30">March 30<hi rend="superscript">th</hi> 1819</date>
                </dateline>
             </opener>
-            <p> My dearest mother, your <choice>
+            <p> My dearest <persName ref="./Personography.xml#EdgeF2">mother</persName>, your <choice>
                   <orig>cal-<lb/>
                     -culations</orig>
                   <reg>calculations</reg>
