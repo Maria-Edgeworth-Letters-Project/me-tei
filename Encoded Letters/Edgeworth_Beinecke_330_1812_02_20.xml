@@ -22,6 +22,7 @@
                <persName ref="Id_who">Eliza Wilcox</persName>
                <persName ref="Id_who"/>
             </respStmt>
+            <respStmt><resp>Reviewed by</resp><persName ref="Id_who">Robin Runia</persName></respStmt>
          </titleStmt>
          <editionStmt>
             <edition>First digital edition in TEI, date: <date when="2022-08-02"> 2022-08-02 </date>
@@ -29,8 +30,8 @@
             <respStmt>
                <orgName ref="http://id.loc.gov/authorities/names/n80097790">Beinecke Rare Book and Manuscript Library</orgName>
                <resp> photos include: 
-                  Edgeworth_Beinecke_330_1812_02_20_page01,
-                  Edgeworth_Beinecke_330_1812_02_20_page02
+                  Edgeworth_Beinecke_1812-02-20_page01,
+                  Edgeworth_Beinecke_1812-02-20_page02
                     </resp>
             </respStmt>
          </editionStmt>
@@ -42,7 +43,7 @@
                <licence target="https://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons Attribution 4.0 (CC BY 4.0) Unported
             License</licence>
             </availability>
-            <idno>Edgeworth_Beinecke_330_1812_02_20</idno>
+            <idno>Edgeworth_Beinecke_1812-02-20</idno>
          </publicationStmt>
          <seriesStmt>
             <title>Maria Edgeworth Letters Project</title>
@@ -94,7 +95,7 @@
                <salute> To <persName ref="./Personography.xml#MileX1">Mrs. Miles</persName>
                </salute>
             </opener>
-            <pb n="2" facs="Edgeworth_Beinecke_330_1812_07_22_page02.jpg"/>
+            <pb n="2" facs="Edgeworth_Beinecke_1812-02-20_page02.jpg"/>
             <p>
                <persName ref="./Personography.xml#EdgeM1">Miss <choice>
                      <orig>Edgeworths</orig>
@@ -118,7 +119,7 @@
             </closer>
             <closer>
                <address>
-                  <pb n="1" facs="Edgeworth_Beinecke_330_1812_02_20_page01.jpg"/>
+                  <pb n="1" facs="Edgeworth_Beinecke_1812-02-20_page01.jpg"/>
                   <persName ref="./Personography.xml#MileX1">M<hi rend="superscript">rs</hi> Miles</persName>
                   <addrLine/>
                   <persName>Johnson &amp; C<hi rend="superscript">o</hi>.</persName>
