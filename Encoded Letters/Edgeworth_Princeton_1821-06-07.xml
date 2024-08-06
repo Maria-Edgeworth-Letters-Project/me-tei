@@ -23,10 +23,6 @@
                </persName>
                <persName ref="Id_who"/>
             </respStmt>
-            <respStmt>
-               <resp>Reviewed by</resp>
-               <persName ref="Id_who">Robin Runia</persName>
-            </respStmt>
          </titleStmt>
          <editionStmt>
             <edition>First digital edition in TEI, date: November 16, 2023 <date when="2023-11-16"/>
@@ -53,7 +49,7 @@
                <licence target="https://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons Attribution 4.0 (CC BY 4.0) Unported
             License</licence>
             </availability>
-            <idno>Edgeworth_Princeton_1821-06</idno>
+            <idno>Edgeworth_Princeton_1821-06-07</idno>
          </publicationStmt>
          <seriesStmt>
             <title>Maria Edgeworth Letters Project</title>
@@ -73,10 +69,10 @@
                      <idno type="VIAF">71477273</idno>
                      <idno type="SNAC">62567029</idno>
                   </persName>
-                  to <persName>Unknown</persName>,  <date when="1821-06-07">June <del>5</del>
-                     <add>7</add><hi rend="superscript">h.</hi> 1821</date>
-                  <placeName ref="./Placeography.xml#Edgeworthstown_IE">Edgeworths Town</placeName>, 
-                 
+                  to <persName>Unknown</persName>, <placeName ref="./Placeography.xml#Edgeworthstown_IE">Edgeworths Town</placeName>, 
+                  <date when="1821-06-07">June <del>5</del>
+                     <add>7</add>
+                     <hi rend="superscript">h.</hi> 1821</date>
                </head>
                <physDesc/>
             </msDesc>
@@ -100,10 +96,10 @@
    <text>
       <body>
          <div type="letter">
-            <pb n="2" facs="Edgeworth_Princeton_1821-06_page01.jpg"/>
+            <pb n="2" facs="Edgeworth_Princeton_1821-06-07_page02.jpg"/>
             <opener>
                <dateline>
-                  <placeName ref="./Placeography.xml#Edgeworthstown_IE">Edgeworths Town</name>
+                  <placeName ref="./Placeography.xml#Edgeworthstown_IE">Edgeworths Town</placeName>
                   <lb/>
                   <date when="1821-06-07">June 7, 1821</date>
                </dateline>
@@ -134,27 +130,27 @@
                </choice> does not simply surprise - I am<lb/>
                delighted that you should have<lb/>
                had - even at the expense of my<lb/>
-               mistaking the week in which my note
-               
-               <hi rend="underline">was payable</hi> - This fresh opportunity<lb/>
+               mistaking the week in which my <unclear>note</unclear>
+               <lb/>
+               was payable - This fresh opportunity<lb/>
                of showing me your generous<lb/>
-               <hi rend="underline">promptitude.</hi>
+               promptitude.<lb/>
             </p>
             <p>
-               <del>Though</del> I did forget <unclear>the</unclear>
+               <del>Though</del> I did forget <unclear>this</unclear>
                <del>day when<lb/>
                my note became due</del>, &amp; <del>
-                  <unclear>tho</unclear>
+                  <unclear>this</unclear>
                </del> I did<lb/>
                forget whether the money was to<lb/>
-               <pb n="3" facs="Edgeworth_Princeton_1821-06_page02.jpg"/>
+               <pb n="3" facs="Edgeworth_Princeton_1821-06-07_page03.jpg"/>
 
                be paid at <unclear>Hoares</unclear> bank or at your<lb/>
                house &amp; <del>though</del> in fact I was not<lb/>
                aware that my note was ever to be<lb/>
                presented for payment, having<lb/>
-               conceived that it was to be in <persName Molliet, John Lewis ref="./Personography.xml#MoulJ1">M<hi rend="superscript">r</hi>.<lb/>
-                Moilliets
+               conceived that it was to be in <persName ref="./Personography.xml#MoulJ1">M<hi rend="superscript">r</hi>.<lb/>
+                  <unclear>Moilliets</unclear>
                </persName> hands till I should write<lb/>
                to let him know that the money<lb/>
                was ready, which I did last week<lb/>
@@ -175,7 +171,7 @@
                   <unclear>£</unclear>
                </hi> for the copy right &amp; in consequence<lb/>
                I promised to deduct if necessary<lb/>
-               <pb n="4" facs="Edgeworth_Princeton_1821-06_page03.jpg"/>
+               <pb n="4" facs="Edgeworth_Princeton_1821-06-07_page04.jpg"/>
 
                a hundred guineas rather than to<lb/>
                extend the work by writing more<lb/>
@@ -208,11 +204,10 @@
                </choice>
                <lb/>
             </closer>
-            <pb n="1" facs="Edgeworth_Princeton_1821-06_page04.jpg"/>
+            <pb n="1" facs="Edgeworth_Princeton_1821-06-07_page01.jpg"/>
             <closer>
                <address>
-                  <addrLine>Copy to <persName Hunter, Rowland ref="./Personography.xml#HuntR1">
-                  </persName>Hunter
+                  <addrLine>Copy to <unclear>Hunter</unclear>
                      <lb/>
                   </addrLine>
                   <addrLine>June 7<hi rend="superscript">h.</hi> 1821<lb/>
