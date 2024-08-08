@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from Maria Edgeworth to Mrs. Miles, October 10, 1814</title>
+            <author><persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName></author>
+            <editor ref="Id_who">
+               <persName ref="Id_who">Eliza Wilcox</persName>
+            </editor>
+            <sponsor>
+               <orgName>Maria Edgeworth Letters Project</orgName>
+            </sponsor>
+            <sponsor>Wake Forest University, University of Tennessee, Xavier University, Texas
+                    A&amp;M University</sponsor>
+            <principal>Jessica Richard, Hilary Havens, Robin Runia, Susan Egenolf</principal>
+            <respStmt>
+               <resp>Transcription and coding by</resp>
+               <persName ref="Id_who">Eliza Wilcox</persName>
+               <persName ref="Id_who"/>
+            </respStmt>
+            <respStmt>
+               <resp>Reviewed by</resp>
+               <persName ref="Id_who">Robin Runia</persName>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>First digital edition in TEI, date: <date when="2022-08-03"> 2022-08-03 </date>
+            </edition>
+            <respStmt>
+               <orgName ref="http://id.loc.gov/authorities/names/n80097790">Beinecke Rare Book and Manuscript Library</orgName>
+               <resp> photos include: Edgeworth_Beinecke_1814-10-10_page01,
+                        Edgeworth_Beinecke_1814-10-10_page02,
+                        Edgeworth_Beinecke_1814-10-10_page03,
+                        Edgeworth_Beinecke_1814-10-10_page04
+                    </resp>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Maria Edgeworth Letters Project</authority>
+            <date>2022</date>
+            <availability>
+               <p>Reproduced by courtesy of the <orgName ref="#Beinecke">Beinecke Rare Book and Manuscript Library</orgName>. </p>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons Attribution 4.0 (CC BY 4.0) Unported
+            License</licence>
+            </availability>
+            <idno>Edgeworth_Beinecke_1814-10-10</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Maria Edgeworth Letters Project</title>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <repository>Beinecke Rare Book and Manuscript Library</repository>
+                  <collection>Maria Edgeworth Collection</collection>
+                  <idno/>
+               </msIdentifier>
+               <head>Letter from <persName ref="./Personography.xml#EdgeM1">
+                     <forename>Maria</forename>
+                     <surname>Edgeworth</surname>
+                  </persName> to <persName ref="./Personography.xml#MileX1">Mrs. Miles</persName>,
+                        <placeName/>, <date when="1814-10-10">October 10, 1814</date>
+               </head>
+               <physDesc/>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>Edgeworth’s spelling and punctuation are retained in transcription, including non-standard spelling, line breaks, and hyphenation of words. The long s and ligatured forms are silently emended.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="./Personography.xml#MileX1">Mrs. Miles</persName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-01-01" who="Id_who"/>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <pb n="1" facs="Edgeworth_Beinecke_1814-10-10_page01.jpg"/>
+            <opener>
+               <dateline>
+                  <placeName ref="./Placeography.xml#Edgeworthstown_IE">Edgeworth's Town</placeName>
+                  <lb/>
+                  <date when="1814-10-10">October 10, 1814</date>
+                  <lb/>
+               </dateline>
+               <salute> Dear <persName ref="./Personography.xml#MileX1">Madam</persName>,<lb/>
+               </salute>
+            </opener>
+            <p> Inclosed I send a draft<lb/>
+                    for ten pounds - Out of<lb/>
+                    which I should be much<lb/>
+                    obliged to you if you would<lb/>
+                    pay <persName ref="./Personography.xml#FarrX1">Miss Farrell</persName> the amount<lb/>
+                    of her account enclosed and<lb/>
+                    take a <hi rend="underline">settled</hi> at the bottom of<lb/>
+                    her account - Give her also<lb/>
+                    the enclosed note which I<lb/>
+                    have written expressly to <choice>
+                  <orig>re<lb/>
+                        proach</orig>
+                  <reg>reproach</reg>
+               </choice> her with sending the<lb/>
+                    dresses in a box to <placeName ref="http://vocab.getty.edu/tgn/7001181">Ireland in</placeName>
+               <lb/>
+                    stead of sending them to you as<lb/>
+                    had been desired &amp; I have <choice>
+                  <orig>request<lb/>
+                        ed</orig>
+                  <reg>requested</reg>
+               </choice>that she will never do so<lb/>
+                    in the future.<lb/>
+            </p>
+            <p> The balance of the ten pound<lb/>
+                    Which will remain after<lb/>
+               <persName ref="./Personography.xml#FarrX1">Miss Farrell</persName> is paid I request<lb/>
+               <pb n="2" facs="Edgeworth_Beinecke_1814-10-10_page02.jpg"/>                      
+                    My dear <persName ref="./Personography.xml#MileX1">Madam</persName> you will<lb/>
+                    be so kind to keep in your<lb/>
+                    hands to pay for any <choice>
+                  <orig>commis<lb/>
+                        sions</orig>
+                  <reg>commissions</reg>
+               </choice> with which I may trouble<lb/>
+               you - <hi rend="underline">Though</hi> <persName ref="./Personography.xml#MileJ1">Mr. Miles</persName> is so<lb/>
+                    very obliging to me, or rather<lb/>
+               <hi rend="underline">because</hi> he is so obliging to me<lb/>
+                    I wish to avoid calling upon<lb/>
+                    him &amp; plaguing him upon<lb/>
+                    very trifling occasion. - I <choice>
+                  <orig>in<lb/>
+                        close</orig>
+                  <reg>inclose</reg>
+               </choice> with many thanks a<lb/>
+                    draft for the £2..14..0. which<lb/>
+                    Line out of place<lb/>
+                    he paid <persName ref="./Personography.xml#MoutX1">M<hi rend="superscript">rs</hi>. Moutray</persName> for me<lb/>
+            </p>
+            <p> I regret that he was not in<lb/>
+                    the way when <persName ref="./Personography.xml#MoutX1">M<hi rend="superscript">rs</hi>. Moutray</persName> &amp;<lb/>
+                    her daughter called as they<lb/>
+                    are two of the most amiable<lb/>
+                    &amp; charming of our friends, whom<lb/>
+                    I should have been proud that<lb/>
+               <pb n="3" facs="Edgeworth_Beinecke_1814-10-10_page03.jpg"/>                   
+                    he should have seen &amp; whom<lb/>
+                    I am sure he would have been<lb/>
+                    pleased to see<lb/>
+            </p>
+            <p> Quite at your leisure when<lb/>
+                    you are looking for any thing<lb/>
+                    at a haberdashers for yourself<lb/>
+                    will you get for me 6 yards<lb/>
+                    of ribbon same as the pattern<lb/>
+                    of ribbon which you bought<lb/>
+                    for me - If the color matches<lb/>
+                    I do not mind what the pattern<lb/>
+                    may be as I want it for sashes<lb/>
+                    for my <unclear>sarsnet</unclear> gown of this color<lb/>
+            </p>
+            <p> I rejoice to hear that you<lb/>
+                    like the continuation of <title ref="./Workography.xml#Early1">Early Lessons</title>
+               <lb/>
+                    the most agreeable compliments<lb/>
+                    we ever have or ever shall receive<lb/>
+                    are those which we are sometimes<lb/>
+                    so fortunate to hear from really<lb/>
+                    good mothers who are interestd<lb/>
+                    upon the education of their children<lb/>
+            </p>
+            <p> Pray if the <title ref="./Workography.xml#Robin1">
+                  <hi rend="underline">Robins petition</hi>
+               </title> or the<lb/>
+               songs in the <title ref="./Workography.xml#Knaps1">
+                  <hi rend="underline">Knapsack</hi>
+               </title> have been set to<lb/>
+                    music make <persName ref="./Personography.xml#MileX1">M<hi rend="superscript">rs</hi>. Miles</persName> send them to<lb/>
+                    me as a Christmas box for one of my<lb/>
+                    little sisters <persName ref="./Personography.xml#RuxtS1">(Sophy)</persName> who has an agreeable<lb/>
+                    voice &amp; will take pleasure &amp; pride in<lb/>
+                    singing them to my <persName ref="./Personography.xml#EdgeR1">father</persName>
+               <lb/>
+            </p>
+            <closer> 
+               I am dear <persName ref="./Personography.xml#MileX1">Madam</persName>
+               <lb/>
+                    Sincerely yours<lb/>
+               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
+               <lb/>
+                    Excuse my mistake<lb/>
+                        in tearing this paper<lb/>
+            </closer>
+            <postscript>
+               <pb n="4" facs="Edgeworth_Beinecke_1814-10-10_page04.jpg"/>
+               <p>
+                  <persName ref="./Personography.xml#MileX1">M<hi rend="superscript">rs</hi>. Miles</persName>
+                  <lb/>
+                    I will further trouble you to<lb/>
+                    buy for me a dozen gilt <hi rend="underline">catches</hi>
+                  <lb/>
+                    such as are used for bracelets or<lb/>
+                    any kind that will fasten a cloth<lb/>
+                    pelisse - they will not be seen as<lb/>
+                    they will fasten it within side<lb/>
+                    so that I shall think more of the<lb/>
+                    goodness of the <hi rend="underline">catch</hi> than of the beauty<lb/>
+                        - <persName ref="./Personography.xml#MileJ1">M<hi rend="superscript">r</hi>. Miles</persName> will soon send a packet<lb/>
+                    under a government frank but<lb/>
+                    do <hi rend="underline">not</hi> send them in that because I<lb/>
+                    have promised not to do so - wait till<lb/>
+                    some member of parliament can frank<lb/>
+                    them - they will come safely between<lb/>
+                        two cards in one or two common franks<lb/>
+               </p>
+            </postscript>
+         </div>
+      </body>
+      <back/>
+   </text>
+</TEI>
