@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from Maria Edgeworth to Elizabeth Inchbald, May 17, 1817</title>
+            <author><persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName></author>
+            <editor ref="Id_who"> Hilary Havens
+               </editor>
+            <sponsor>
+               <orgName>Maria Edgeworth Letters Project</orgName>
+            </sponsor>
+            <sponsor>Wake Forest University, University of Tennessee, Xavier University, Texas
+               A&amp;M University</sponsor>
+            <principal>Jessica Richard, Hilary Havens, Robin Runia, Susan Egenolf</principal>
+            <respStmt>
+               <resp>Transcription and coding by</resp>
+               <persName ref="Id_who">Hilary Havens</persName>
+               <persName ref="Id_who"/>
+            </respStmt>
+            <respStmt>
+               <resp>Reviewed by</resp>
+               <persName ref="Id_who">Robin Runia</persName>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>First digital edition in TEI, date: <date when="2021-01-20"/>
+            </edition>
+            <respStmt>
+               <orgName ref="http://id.loc.gov/authorities/names/n80097790">Beinecke Rare Book and Manuscript Library</orgName>
+               <resp> photos include: Edgeworth_Beinecke_1817-05-17_page01.jpg,
+                  Edgeworth_Beinecke_1817-05-17_page02.jpg
+                  </resp>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Maria Edgeworth Letters Project</authority>
+            <date>2013</date>
+            <availability>
+               <p>Courtesy of <orgName ref="http://id.loc.gov/authorities/names/n80097790">Beinecke Rare Book and Manuscript Library</orgName>. </p>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons Attribution 4.0 (CC BY 4.0) Unported
+            License</licence>
+            </availability>
+            <idno>Edgeworth_Beinecke_1817-05-17</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Maria Edgeworth Letters Project</title>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <repository>Beinecke Rare Book and Manuscript Library</repository>
+                  <collection>Series I, Bertha Coolidge Slade Gift, Correspondence of Maria
+                     Edgeworth, Beinecke Library</collection>
+                  <idno type="NAF">n80097790
+                  </idno>
+               </msIdentifier>
+               <head>Letter from <persName ref="./Personography.xml#EdgeM1">
+                     <forename>Maria</forename>
+                     <surname>Edgeworth</surname>
+                  </persName> to <persName ref="./Personography.xml#InchE1">
+                     <forename>Elizabeth</forename>
+                     <surname>Inchbald</surname>
+                  </persName>
+                  <placeName ref="./Placeography.xml#Edgeworthstown_IE">Edgeworthstown, Ireland</placeName>, <date when="1817-05-17">May 17,
+                     1817</date>
+               </head>
+               <physDesc/>
+            </msDesc>
+            <bibl>In addition to our edited version, this letter was previously published in <hi rend="italic">A Study of Maria Edgeworth: With Notices of Her Father and
+                  Friends</hi>, ed. Grace Atkinson Oliver (Boston: A. Williams and Company, 1882),
+               pp. 309-10. </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>Edgeworth’s spelling and punctuation are retained in transcription, including non-standard spelling, line breaks, and hyphenation of words. The long s and ligatured forms are silently emended.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="./Personography.xml#InchE1">Elizabeth Inchbald</persName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2022-07-17" who="Hilary_Havens"> Updated TEI template and improved XML
+            file. </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <pb n="1" facs="Edgeworth_Beinecke_1817-05-17_page01.jpg"/>
+            <opener>
+               <dateline>
+                  <placeName ref="./Placeography.xml#Edgeworthstown_IE">
+                     <choice>
+                        <orig>Edgeworth's Town</orig>
+                        <reg>Edgeworthstown</reg>
+                     </choice>
+                  </placeName>
+                  <date when="1817-05-17">May 17<hi rend="superscript">th</hi>. 1817.</date>
+               </dateline>
+               <salute>
+                  My dear <persName ref="./Personography.xml#InchE1">
+                     <choice>
+                        <orig>M<hi rend="superscript">rs</hi>. Inchbald</orig>
+                        <reg>Elizabeth Inchbald</reg>
+                     </choice>
+                  </persName>- 
+               </salute>
+            </opener>
+            <p>I am really anxious to<lb/> hear your opinion of my<lb/> little <title ref="./Workography.xml#Comic1">Comic
+                  dramas</title> – because<lb/> you are one of the very few persons in the<lb/>
+               world who <hi rend="underline">can</hi> form a <choice>
+                  <orig>de-<lb/> cided</orig>
+                  <reg>decided</reg>
+               </choice> opinion &amp; who <hi rend="underline">will</hi>
+               <lb/> have the courage to
+               tell the truth to an author. –<lb/>
+            </p>
+            <p>Let me request then my<lb/> dear madam that <del>you<lb/> will</del> as soon as
+               you<lb/> have read these dramatic <hi rend="underline">attempts</hi>
+               <lb/> you will
+               write to me–<lb/> One of your truly original<lb/> &amp; entertaining letters
+               will<lb/> gratify us independently<lb/> of all selfish considerations.<lb/>
+            </p>
+            <p>
+               <persName ref="./Personography.xml#EdgeR1">
+                  My <choice>
+                     <orig>fathers</orig>
+                     <reg>father's</reg>
+                  </choice>
+               </persName> health continues<lb/> to be very precarious – His <choice>
+                  <orig>plea-<lb/> sures</orig>
+                  <reg>pleasures</reg>
+               </choice> all now depend on his<lb/>
+            </p>
+            <pb n="2" facs="Edgeworth_Beinecke_1817-05-17_page02.jpg"/>
+            <p>taste for literature and on<lb/> the affection of his friends –<lb/> He is fortunate
+               in having<lb/> excellent correspondents<lb/> among the wisest and best people now
+               living<lb/>
+            </p>
+            <p>You will not consider it<lb/> as an idle or a <hi rend="underline">propitiatory</hi>
+               <lb/> compliment if I assure you<lb/> that he is now more
+               anxious<lb/> for a letter from <persName ref="./Personography.xml#InchE1">
+                  <choice>
+                     <orig>M<hi rend="superscript">rs</hi>. Inchbald</orig>
+                     <reg>Elizabeth Inchbald</reg>
+                  </choice>
+               </persName>
+               <lb/> 
+               than from any person in <placeName ref="./Placeography.xml#ENK">England</placeName>.<lb/>
+            </p>
+            <closer>
+               Your obliged &amp; affectionate<lb/>
+               <persName ref="./Personography.xml#EdgeM1"> Maria Edgeworth</persName>
+            </closer>
+            <postscript>
+               <p/>
+            </postscript>
+         </div>
+      </body>
+      <back/>
+   </text>
+</TEI>
