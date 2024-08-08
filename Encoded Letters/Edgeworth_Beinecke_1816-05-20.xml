@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from Maria Edgeworth to Mrs. Miles, May 20, 1816</title>
+            <author><persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName></author>
+            <editor ref="Id_who">
+               <persName ref="Id_who">Eliza Wilcox</persName>
+            </editor>
+            <sponsor>
+               <orgName>Maria Edgeworth Letters Project</orgName>
+            </sponsor>
+            <sponsor>Wake Forest University, University of Tennessee, Xavier University, Texas
+                    A&amp;M University</sponsor>
+            <principal>Jessica Richard, Hilary Havens, Robin Runia, Susan Egenolf</principal>
+            <respStmt>
+               <resp>Transcription and coding by</resp>
+               <persName ref="Id_who">Eliza Wilcox</persName>
+               <persName ref="Id_who"/>
+            </respStmt>
+            <respStmt>
+               <resp>Reviewd by</resp>
+               <persName ref="Id_who">Robin Runia</persName>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>First digital edition in TEI, date: <date when="2022-08-05"> 2022-08-05</date>
+            </edition>
+            <respStmt>
+               <orgName ref="http://id.loc.gov/authorities/names/n80097790">Beinecke Rare Book and Manuscript Library</orgName>
+               <resp> photos include: Edgeworth_Beinecke_1816-05-20_page01,
+                        Edgeworth_Beinecke_1816-05-20_page02,
+                        Edgeworth_Beinecke_1816-05-20_page03,
+                        Edgeworth_Beinecke_1816-05-20_page04
+                    </resp>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Maria Edgeworth Letters Project</authority>
+            <date>2022</date>
+            <availability>
+               <p>Reproduced by courtesy of the <orgName ref="http://id.loc.gov/authorities/names/n80097790">Beinecke Rare Book and Manuscript Library</orgName>
+               </p>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons Attribution 4.0 (CC BY 4.0) Unported
+            License</licence>
+            </availability>
+            <idno>Edgeworth_Beinecke_1816-05-20</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Maria Edgeworth Letters Project</title>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <repository>Beinecke Rare Book and Manuscript Library</repository>
+                  <collection>Maria Edgeworth Collection</collection>
+                  <idno/>
+               </msIdentifier>
+               <head>Letter from <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName> to <persName>Mrs. Miles</persName>
+                  <date when="1816-05-20">May 20, 1816</date>
+               </head>
+               <physDesc/>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>Edgeworth’s spelling and punctuation are retained in transcription, including non-standard spelling, line breaks, and hyphenation of words. The long s and ligatured forms are silently emended.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="./Personography.xml#MileX1">Mrs. Miles</persName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-01-01" who="Id_who"/>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <pb n="1" facs="Edgeworth_Beinecke_1816-05-20_page01.jpg"/>
+            <opener>
+               <dateline>
+                  <date when="1816-05-20">May 20, 1816</date>
+               </dateline>
+               <salute>
+                  My dear
+                  <persName ref="./Personography.xml#MileX1">M<hi rend="superscript">rs</hi>.
+                     Miles</persName> 
+               </salute>
+            </opener>
+            <p>I should be much<lb/>
+               obliged to you if you<lb/>
+               could buy for me a<lb/>
+               yard &amp; half of thin <hi rend="underline">fine</hi>
+               <lb/>
+               clear<del> muslin</del> India<lb/>
+               muslin for morning<lb/>
+               handkerchiefs &amp; borders<lb/>
+            </p>
+            <p>- I should wish to have<lb/>
+               it finer and <hi rend="underline">clearer</hi>
+               <lb/>
+               than the last you were<lb/>
+               so good to get for me<lb/>
+               &amp; I should not think<lb/>
+               15 or 16 shillings too high<lb/>
+               a price for what would<lb/>
+               be really good - There<lb/>
+               <pb n="2" facs="Edgeworth_Beinecke_1816-05-20_page02.jpg"/>
+               is a kind of muslin which<lb/>
+               is not so thick as Jaconette<lb/>
+               nor so thin as buck<lb/>
+               muslin I believe it<lb/>
+               is called <hi rend="underline">Mull</hi> &amp; this<lb/>
+               is the kind I sh<hi rend="superscript">d</hi>. prefer<lb/>
+            </p>
+            <p> I am not in any<lb/>
+               hurry therefore pray<lb/>
+               do not inconvenience<lb/>
+               yourself as to <hi rend="underline">time</hi>
+               <lb/>
+            </p>
+            <p> Whenever you have<lb/>
+               bought it send it over<lb/>
+               as you did <del>befo</del> the last<lb/>
+               between the leaves of any<lb/>
+               book or pamphlet.<lb/>
+               Which <persName ref="./Personography.xml#MileJ1">M<hi rend="superscript">r</hi>.
+                  Miles</persName>  may<lb/>
+               recommend &amp; direct<lb/> 
+               <pb n="3" facs="Edgeworth_Beinecke_1816-05-20_page03.jpg"/>
+               - 1<hi rend="superscript">st</hi>. cover to <persName ref="./Personography.xml#EdgeM1"> Miss E.</persName>
+               <lb/>
+               2<hi rend="superscript">d</hi> cover to <persName ref="./Personography.xml#FoxC1">CJ Fox Esq<hi rend="superscript">r</hi></persName>
+               
+               <lb/>
+               3 cover to <persName ref="./Personography,xml#TaylW1">W Taylor Esq</persName>
+               <lb/>
+               <placeName ref="./Placeography.xml#Dublin-Castle_IE">Castle Dublin</placeName>
+               <lb/>
+            </p>
+            <p> I hope you will be<lb/>
+               able to send me a<lb/>
+               good account of<lb/>
+               your own <persName ref="Personography.xml#MileX1"></persName> &amp; <persName ref="./Personography.xml#MileJ1"> M<hi rend="superscript">r</hi>. Miles's</persName>
+               <lb/>
+               health - I have the<lb/>
+               pleasure to tell you<lb/>
+               that my <persName ref="Personography.xml#EdgeR1">father's</persName> is<lb/>
+               wonderfully recovered<lb/>
+               - within this last month<lb/>
+               - <persName ref="./Personography.xml#EdgeR1">He</persName> &amp; <persName ref="./Personography.xml#EdgeF2">M<hi rend="superscript">rs</hi>. E</persName> are in<lb/>
+               <placeName ref="./Placeography.xml#Dublin_IE">Dublin</placeName> &amp; will be there<lb/>
+               a few days - my <persName ref="./Personography.xml#EdgeR1">father</persName>
+               <lb/>
+               is still trying Expt<hi rend="superscript">s</hi> on<lb/>
+               wheel carriages - I wish<lb/>
+               <persName ref="./Personography.xml#MileJ1">M<hi rend="superscript">r</hi>
+               </persName>. Miles would sometimes<lb/>
+               <pb n="4" facs="Edgeworth_Beinecke_1816-05-20_page04.jpg"/>
+               write to me - I always like<lb/>
+               to hear from him <lb/>
+            </p>
+            <p> I enclose a<add>
+                  <hi rend="underline">note</hi>
+               </add>
+               <del>draft</del> on Hoare<lb/>
+               to him for £5 - with this I beg<lb/>
+               you to pay for the muslin<lb/>
+               <pb n="1" facs="Edgeworth_Beinecke_1816-05-20_page01.jpg"/>
+               and<lb/>
+               to pay<lb/>
+               <persName ref="./Personography#HuntX1">M<hi rend="superscript">r</hi>
+                  <lb/>
+                  Hunter</persName>
+               <lb/>
+               for any<lb/>
+               muslin<lb/>
+               &amp; lace<lb/>
+               he may<lb/>
+               have<lb/>
+               paid<lb/>
+               you<lb/>
+               for<lb/>
+               that no<lb/>
+               such<lb/>
+               articles<lb/>
+               may<lb/>
+               appear<lb/>
+               in his<lb/>
+               accounts<lb/>
+               against<lb/>
+               y<hi rend="superscript">r</hi>
+            </p>
+            <closer>
+               <persName ref="./Personagraphy.xml#EdgeM1">ME</persName>
+               20 May 1816   
+            </closer>
+            <postscript>
+               <p/>
+            </postscript>
+         </div>
+      </body>
+      <back/>
+   </text>
+</TEI>
