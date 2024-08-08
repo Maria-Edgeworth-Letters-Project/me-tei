@@ -21,6 +21,10 @@ Hilary Havens
                <resp>Transcription and coding by</resp>
                <persName ref="Id_who">Jamie Kramer</persName>
             </respStmt>
+            <respStmt>
+               <resp>Reviewed by</resp>
+               <persName ref="Id_who">Hilary Havens</persName>
+            </respStmt>
          </titleStmt>
          <editionStmt>
             <edition>First digital edition in TEI, date: <date when="2024-01-02">
@@ -61,7 +65,7 @@ Hilary Havens
                </msIdentifier>
                <head>Letter from 
                   <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
-                  to <persName ref="./Personography.xml#StanE1">Edward Stanley</persName>
+                  to <persName ref="./Personography.xml#StanE1">Edward Stanley, 1779-1849</persName>
                   <date when="1848-06-05">
                      June 5<hi rend="superscript">h</hi>, 1848</date>
                </head>
@@ -87,7 +91,7 @@ Hilary Havens
                <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
             </correspAction>
             <correspAction type="received">
-               <persName ref="./Personography.xml#StanE1">Edward Stanley</persName>
+               <persName ref="./Personography.xml#StanE1">Edward Stanley, 1779-1849</persName>
             </correspAction>
          </correspDesc>
       </profileDesc>
@@ -110,7 +114,7 @@ Hilary Havens
                </dateline>
                <lb/>
                <salute>
-                  My dear <persName ref="./Personography.xml#StanE1">Lord</persName>
+                  My <hi rend="underline">dear</hi> <persName ref="./Personography.xml#StanE1">Lord</persName>
                   <lb/>
                </salute>
             </opener>
@@ -119,9 +123,8 @@ Hilary Havens
                of your kindness to one now<lb/>
                no more whom you honored<lb/>
                by your approbation and<lb/>
-               delighted by your goodness</p>
-            <lb/>
-            <p>Whether your Lordship <choice>
+               delighted by your goodness<lb/></p>
+              <p>Whether your Lordship <choice>
                   <orig>
                      <unclear>recol<lb/>
                   lect</unclear>
@@ -129,11 +132,10 @@ Hilary Havens
                   <reg>recollect</reg>
                </choice>meeting me at my dear<lb/>
                   lost sister <persName ref="./Personography.xml#EdgeF3">M<hi rend="superscript">rs</hi>. Wilson</persName>s some<lb/>
-               year ago or not, I think you<lb/>
+               years ago or not, I think you<lb/>
                will for her sake permit this<lb/>
                intrusion and grant me<lb/>
-               the favor I am going to ask</p>
-            <lb/>
+                 the favor I am going to ask<lb/></p>
             <p>Allow me to present to<lb/>
                your Lordship a <choice>
                   <orig>country<lb/>
@@ -144,8 +146,7 @@ Hilary Havens
                <pb n="2" facs="Edgeworth_Harvard_604757_1848-06-05_page02.jpg"/>
                2<lb/>
                for whom all our family as<lb/>
-               well as myself are much interested</p>
-            <lb/>
+               well as myself are much interested<lb/></p>
             <p>The rev<hi rend="superscript">d</hi>. <persName ref="./Personography.xml#SteeT1">Thomas D<hi rend="superscript">r</hi>. Steele</persName> -<lb/>
                He was educated at the <placeName ref="./Placeography.xml#Edgeworthstown_IE">Edgeworths<lb/>
                town</placeName> school and was one of<lb/>
@@ -198,8 +199,7 @@ Hilary Havens
                   table</orig>
                   <reg>charitable</reg>
                </choice> spirit of Christianity<lb/>
-               <unclear>Respecting</unclear> yet above mere forms</p>
-            <lb/>
+               <unclear>Respecting</unclear> yet above mere forms<lb/></p>
             <p>I have also another hope<lb/>
                   that this presentation of <persName ref="./Personography.xml#SteeT1">D<hi rend="superscript">r</hi>. Steele</persName>
                <lb/>
@@ -208,23 +208,18 @@ Hilary Havens
                the pleasure to be acquainted<lb/>
                   with <persName ref="./Personography.xml#StanX2">
                   <choice>
-                     <abbr>Cap<hi rend="superscript">tn</hi>.</abbr>
+                     <orig>Capt<hi rend="superscript">n</hi>.</orig>
                      <reg>Captain</reg>
                   </choice> Stanley</persName>, and that<lb/>
                his modesty does not empower<lb/>
                me to say so I trust I may say<lb/>
                that he has <persName ref="./Personography.xml#StanX2">
                   <choice>
-                     <abbr>Cap<hi rend="superscript">tn</hi>.</abbr>
+                     <orig>Capt<hi rend="superscript">n</hi>.</orig>
                      <reg>Captain</reg>
-                  </choice> Stanley</persName>
-               <unclear>s</unclear>
-               <unclear>upon</unclear>
-               <lb/>
-               probation and good will</p>
-            <lb/>
-            <p>
-               <persName ref="./Personography.xml#SteeT1">D<hi rend="superscript">r</hi>. Steele</persName>'s object is, if it<lb/>
+                  </choice> Stanleys</persName>
+               <choice><orig>ap-<lb/> probation</orig><reg>approbation</reg></choice> and good will<lb/></p>
+            <p><persName ref="./Personography.xml#SteeT1">D<hi rend="superscript">r</hi>. Steele</persName>'s object is, if it<lb/>
                be possible to obtain the means<lb/>
                of<lb/>
                <pb n="4" facs="Edgeworth_Harvard_604757_1848-06-05_page04.jpg"/>
@@ -240,7 +235,7 @@ Hilary Havens
                for upwards of ten years - His<lb/>
                health could hardly stand longer<lb/>
                labor in that situation &amp; climate<lb/>
-               - nor could <persName ref="./Personography.xml#SteeX1">M<hi rend="superscript">rs</hi>. Steele</persName>s health<lb/>
+               - nor could <persName ref="./Personography.xml#SteeX1">M<hi rend="superscript">rs</hi>. Steele's</persName> health<lb/>
                or happiness at such a distance<lb/>
                from all her friends be expected<lb/>
                much longer to endure that trial<lb/>
@@ -248,13 +243,13 @@ Hilary Havens
                affection have sustained it during<lb/>
                such a protracted period - All<lb/>
                her friends are English - She is the<lb/>
-               niece of <persName ref="./Personography.xml#JameX1">General <unclear>James</unclear>
+               niece of <persName ref="./Personography.xml#InneX1">General Innes
                </persName> who served<lb/>
                long in <placeName ref="./Placeography.xml#IN">India</placeName> &amp; is now settled<lb/>
                at <placeName ref="./Placeography.xml#Bath_ENK">Bath</placeName> - The circumstances of<lb/>
                his marriage (permit me to tell<lb/>
                you this <hi rend="underline">in confidence</hi> as I know<lb/>
-               it will ruin him in your opinion<lb/>
+               it will raise him in your opinion<lb/>
                though it might <hi rend="underline">sink</hi> him with<lb/>
                others) were peculiarly honorable<lb/>
                - he did not conceal the fact of<lb/>
@@ -263,13 +258,13 @@ Hilary Havens
                and the union has consequently been<lb/>
                <pb n="5" facs="Edgeworth_Harvard_604757_1848-06-05_page05.jpg"/>
                5<lb/>
-               eminently happy<lb/>
-               I know how a Bishops patronage<lb/>
+               eminently happy<lb/></p>
+               <p>I know how a Bishops patronage<lb/>
                and power of assisting must<lb/>
                be limited by the duties of his<lb/>
                Diocese - <del>But</del> I believe there are<lb/>
                13 new benefices created by<lb/>
-               S<hi rend="superscript">r</hi>. <persName ref="./Personography.xml#PeelR1">R. Peel</persName>s bill - But perhaps<lb/>
+                  <persName ref="./Personography.xml#PeelR1">S<hi rend="superscript">r</hi>. R. Peels</persName> bill - But perhaps<lb/>
                and most probably these have<lb/>
                already been promised or have<lb/>
                half a dozen expectant <choice>
@@ -279,11 +274,10 @@ Hilary Havens
                </choice>. I have more hopes for<lb/>
                <persName ref="./Personography.xml#SteeT1">D<hi rend="superscript">r</hi>. Steele</persName> of his obtaining an<lb/>
                employment for which he<lb/>
-               is eminently <unclear>uncontacted</unclear> by<lb/>
+               is eminently <unclear>calculated</unclear> by<lb/>
                learning morals, &amp; experience<lb/>
                in tracking, the office of<lb/>
-               Inspector of Schools.</p>
-            <lb/>
+               Inspector of Schools.<lb/></p>
             <p>If your Lordship could assist<lb/>
                him in obtaining this <choice>
                   <orig>situa<lb/>
@@ -309,7 +303,7 @@ Hilary Havens
                <address>
                   <addrLine>To</addrLine>
                   <addrLine>
-                     <persName ref="./Personography.xml#StanE1">The Lord Bishop of Norwich</persName>/</addrLine>
+                     <persName ref="./Personography.xml#StanE1">The Lord Bishop of Norwich</persName></addrLine>
                </address>
             </closer>
          </div>
