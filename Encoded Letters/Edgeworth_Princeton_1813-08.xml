@@ -6,7 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Letter from Maria Edgeworth to Madam Miles, August 25, 1813</title>
+            <title>Letter from Maria Edgeworth to Mrs. Miles, August 25, 1813</title>
             <author>Maria Edgeworth</author>
             <editor ref="Id_who">Alexandra LaGrand</editor>
             <sponsor>
@@ -19,13 +19,17 @@
                <resp>Transcription and coding by</resp>
                <persName ref="Id_who">Alexandra LaGrand</persName>
             </respStmt>
+            <respStmt>
+               <resp>Reviewed by</resp>
+               <persName ref="Id_who">Jessica Richard</persName>
+            </respStmt>
          </titleStmt>
          <editionStmt>
             <edition>First digital edition in TEI, date: <date when="2023-12-22">December 22, 2023</date>
             </edition>
             <respStmt>
                <orgName ref="http://id.loc.gov/authorities/names/n82003163">Princeton University. Library</orgName>
-               <resp> photos include: Edgeworth_Princeton_1813-08_page01.jpg, Edgeworth_Princeton_1813-08_page02.jpg, Edgeworth_Princeton_1813-08_page03.jpg, Edgeworth_Princeton_1813-08_page04.jpg</resp>
+               <resp> photos include: Edgeworth_Princeton_1813-08-25_page01.jpg, Edgeworth_Princeton_1813-08-25_page02.jpg, Edgeworth_Princeton_1813-08-25_page03.jpg, Edgeworth_Princeton_1813-08-25_page04.jpg</resp>
             </respStmt>
          </editionStmt>
          <publicationStmt>
@@ -36,7 +40,7 @@
                </p>
                <licence target="https://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons Attribution 4.0 (CC BY 4.0) Unported License</licence>
             </availability>
-            <idno>Edgeworth_Princeton_1813-08</idno>
+            <idno>Edgeworth_Princeton_1813-08-25</idno>
          </publicationStmt>
          <seriesStmt>
             <title>Maria Edgeworth Letters Project</title>
@@ -73,7 +77,7 @@
                <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
             </correspAction>
             <correspAction type="received">
-               <persName ref="./Personography.xml#MileX1">Madam Miles</persName>
+               <persName ref="./Personography.xml#MileX1">Mrs. Miles</persName>
             </correspAction>
          </correspDesc>
       </profileDesc>
@@ -84,7 +88,7 @@
    <text>
       <body>
          <div type="letter">
-            <pb n="1" facs="Edgeworth_Princeton_1813-08_page01.jpg"/>
+            <pb n="1" facs="Edgeworth_Princeton_1813-08-25_page01.jpg"/>
             <opener>
                <dateline>
                   <placeName ref="Id_where"/>
@@ -103,7 +107,7 @@
                </choice> at <placeName ref="./Placeography.xml#Hampstead_ENK">Hampstead</placeName> will make it <choice>
                   <orig>incon<lb/>
                venient</orig>
-                  <reg>inconvenience</reg>
+                  <reg>inconvenient</reg>
                </choice> to you to execute some <choice>
                   <orig>commiss<lb/>
                ions</orig>
@@ -143,10 +147,8 @@
                      <reg>Helen's</reg>
                   </choice>
                </placeName>
-               <placeName ref="./Placeography.xml#Derby_ENK">Derby</placeName> I<lb/>
-            </p>
-            <p>
-               <pb n="2" facs="Edgeworth_Princeton_1813-08_page02.jpg"/>
+               <placeName ref="./Placeography.xml#Derby_ENK">Derby</placeName> I<lb/>           
+               <pb n="2" facs="Edgeworth_Princeton_1813-08-25_page02.jpg"/>
                I will write to <persName ref="./Personography.xml#StrutW1">M<hi rend="superscript">r</hi>. Strutt</persName> to have it sent over<lb/>
                from thence to me by my brother <persName ref="./Personography.xml#EdgeC1">Sneyd</persName> who<lb/>
                <del>will</del> is now at <placeName ref="./Placeography.xml#Derby_ENK">Derby</placeName> and will soon <choice>
@@ -162,8 +164,8 @@
             </p>
             <p>
                We have never yet heard more of our<lb/>
-               trunks &amp; than that they were shipped at<lb/>
-               <placeName ref="./Placeography.xml#Liverpool_ENK">Liverpool</placeName> by <persName ref="./Personography.xml#GreaX1">M<hi rend="superscript">r</hi>. J. Greaves</persName> - even in what<lb/>
+               trunks than that they were shipped at<lb/>
+               <placeName ref="./Placeography.xml#Liverpool_ENK">Liverpool</placeName> by <persName ref="./Personography.xml#GreaJ1">M<hi rend="superscript">r</hi>. J. Greaves</persName> - even in what<lb/>
                vessel we are ignorant, and we have been<lb/>
                at considerable inconvenience for want<lb/>
                of our clothes -<lb/>
@@ -178,8 +180,8 @@
                publication -<lb/>
             </p>
             <p>
-               I am sure that you and <persName ref="./Personography.xml#MileJ1">M<hi rend="superscript">r</hi>. Miles</persName> &amp; M<hi rend="superscript">r</hi>.<lb/>
-               Hunter will hear with pleasure that my<lb/>
+               I am sure that you and <persName ref="./Personography.xml#MileJ1">M<hi rend="superscript">r</hi>. Miles</persName> &amp; <persName ref="./Personography.xml#HuntR1">M<hi rend="superscript">r</hi>.<lb/>
+               Hunter</persName> will hear with pleasure that my<lb/>
                brother <persName ref="./Personography.xml#EdgeC1">Sneyd</persName> is just going to be married<lb/>
                to the satisfaction of all his family to <del>
                   <unclear/>
@@ -191,18 +193,14 @@
                   </choice>
                </persName> of <placeName ref="./Placeography.xml#Derbyshire_ENK">Derbyshire</placeName> (sister of the member for<lb/>
                <placeName ref="./Placeography.xml#Weymouth_ENK">Weymouth</placeName>
-               <lb/>
-            </p>
-            <p>
-               <pb n="3" facs="Edgeworth_Princeton_1813-08_page03.jpg"/>
-               lady of very amiable character, to whom he <del>
-                  <unclear/>
-               </del>
+               <lb/>           
+               <pb n="3" facs="Edgeworth_Princeton_1813-08-25_page03.jpg"/>
+               lady of very amiable character, to whom he <del>has</del>
                <lb/>
                is much attached and who has besides other<lb/>
                good things a <hi rend="underline">reasonably</hi> good fortune of<lb/>
                I believe about a thousand a year - not enough<lb/>
-               to make him <unclear/>ssion - but<lb/>
+               to make him <damage><unclear><gap></gap> profession</unclear></damage> - but<lb/>
                sufficient to enable him to marry without<lb/>
                imprudence<lb/>
             </p>
