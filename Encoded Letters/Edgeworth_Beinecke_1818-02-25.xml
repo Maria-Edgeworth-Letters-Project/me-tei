@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from Maria Edgeworth to Mrs. Miles</title>
+            <author><persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName></author>
+            <editor ref="Id_who">
+              </editor>
+            <sponsor>
+               <orgName>Maria Edgeworth Letters Project</orgName>
+            </sponsor>
+            <sponsor>Wake Forest University, University of Tennessee, Xavier University, Texas
+               A&amp;M University</sponsor>
+            <principal>Jessica Richard, Hilary Havens, Robin Runia, Susan Egenolf</principal>
+            <respStmt>
+               <resp>Transcription and coding by</resp>
+               <persName ref="Id_who">Eliza Wilcox
+               </persName>
+               <persName ref="Id_who"/>
+            </respStmt>
+            <respStmt>
+               <resp>Reviewed by</resp>
+               <persName ref="Id_who">Robin Runia</persName>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>First digital edition in TEI, date: <date when="2022-10-24">
+                  October 24, 2022</date>
+            </edition>
+            <respStmt>
+               <orgName type="naf" ref="http://id.loc.gov/authorities/names/n80097790">
+                   Beinecke Rare Book and Manuscript Library</orgName>
+               <resp> photos include:
+                Edgeworth_Beinecke_1818-02-25_page01.jpg, Edgeworth_Beinecke_1818-02-25_page02.jpg, Edgeworth_Beinecke_1818-02-25_page03.jpg, Edgeworth_Beinecke_1818-02-25_page04.jpg
+                  </resp>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Maria Edgeworth Letters Project</authority>
+            <date>2022</date>
+            <availability>
+               <p>Reproduced by courtesy of the <orgName ref="http://id.loc.gov/authorities/names/n80097790">Beinecke Rare Book and Manuscript Library</orgName>
+               </p>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons Attribution 4.0 (CC BY 4.0) Unported
+            License</licence>
+            </availability>
+            <idno/>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Maria Edgeworth Letters Project</title>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <repository>Beinecke Rare Book and Manuscript Library</repository>
+                  <collection/>
+                  <idno/>
+               </msIdentifier>
+               <head>Letter from 
+                  <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
+                   to <persName ref="./Personography.xml#MileX1">Mrs. Miles</persName>, <placeName/>, 
+                  <date when="1818-02-25">February 25, 1818</date>
+               </head>
+               <physDesc/>
+            </msDesc>
+            <bibl>In addition to our edited version, this letter was previously published in
+               </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>Edgeworth’s spelling and punctuation are retained in transcription, including non-standard spelling, line breaks, and hyphenation of words. The long s and ligatured forms are silently emended.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="./Personography.xml#EdgeworthM1">Maria Edgeworth</persName>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="./Personography.xml#MileX1">Mrs. Miles</persName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-01-01" who="Id_who"/>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <pb n="1" facs="Edgeworth_Beinecke_1818-02-25_page01.jpg"/>
+            <opener>
+               <dateline>
+                  <placeName ref="./Placeography.xml#Edgeworthstown_IE"/>Edgeworth Town 1818
+                  <date when="1818-02-25">Feb <hi rend="superscript">y</hi> 25</date><lb/>
+               </dateline>
+               <salute>
+                  <persName>
+                     My dear <persName ref="./Personography.xml#MileX1">M<hi rend="superscript">rs</hi>. Miles</persName>
+                  </persName>
+               </salute>
+            </opener>
+            <p>I have received a note this day from<lb/>
+               <persName ref="./Personography.xml#WardX1">M<hi rend="superscript">r</hi> Ward</persName>, which assures me of his entire<lb/>
+            confidence in his chief <hi rend="underline">messengers honesty<lb/>
+            &amp; accuracy</hi>. "I cannot doubt" says he "that<lb/>
+               <persName ref="./Personography.xml#CrewX1">M<hi rend="superscript">r</hi> Crewe</persName> franked it upon his recollection<lb/>
+            but the messenger cannot remember, whether<lb/>
+            the packet was delivered to the man who<lb/>
+            brought it, or went with the office letters".<lb/>
+            </p>
+            <p>As you will see by the note<lb/>
+            from <persName ref="./Personography.xml#CrewX1">M<hi rend="superscript">r</hi> Crewe</persName> &amp; by the letters I enclosed<lb/>
+            you from the Post office, it is notwithstanding<lb/>
+               <persName ref="./Personography.xml#WardX1">M<hi rend="superscript">r</hi> Wards</persName> believe to the contrary, most<lb/>
+            probable that the packet never was franked<lb/>
+            by <persName ref="./Personography.xml#CrewX1">M<hi rend="superscript">r</hi> Crewe</persName> and was never put into the<lb/>
+               <pb n="2" facs="Edgeworth_Beinecke_1818-02-25_page02.jpg"/>
+            Post office. My only remaining chance<lb/>
+            is to your having it to your own messenger or<lb/>
+            to his own immaculate messenger -- <lb/>
+            </p>
+            <p>If as I believe that shawl cannot be <choice>
+                  <orig>re<lb/>
+            covered</orig>
+                  <reg>recovered</reg>
+               </choice> I must set the loss down to the <unclear></unclear>
+               <lb/>
+            of my own childish impatience &amp; after<lb/>
+            this seven guinea check resolve to be wiser<lb/>
+            in future &amp; save the money on something<lb/>
+            else. My <hi rend="underline">eagerness</hi> however, (I won't call<lb/>
+            it impatience this time) to present a shawl<lb/>
+            to my dear Aunt, is yet unabated, but I will<lb/>
+            be wise and patient this time as to the means of getting it over - A friend<lb/>
+            come over, in the course of the next month who<lb/>
+            will bring it over &amp; in the course of the<lb/>
+            next fortnight I will send you accurate<lb/>
+            directions - If you are not tired of buying<lb/>
+            Shawls &amp; are not afraid of again suffering<lb/>
+            anxiety, I will begin the business over<lb/>
+            again, thus, Buy me a Crimson or a<lb/>
+            </p>
+            <pb n="3" facs="Edgeworth_Beinecke_1818-02-25_page03.jpg"/>
+            <p>Morone Colour, the border narrow, the border<lb/>
+            of the first white shawl you sent me, was<lb/>
+            elegant, &amp; well put on, the border of the last<lb/>
+            Green Shawl, was ill put on &amp; the corners<lb/>
+            ill turned down, so that it betrayed it to be<lb/>
+            an imitation - I think more of the <unclear/>
+               <lb/>
+            of the colour &amp; of the elegance of the border than<lb/>
+            the size, the white shawl was quite large<lb/>
+            enough. As to the price, I don't limit<lb/>
+            you, for I can pinch it <add>out</add> of of anything else<lb/>
+            as I wish to have the Shawl for my Aunt<lb/>
+            handsome and elegant -<lb/>
+            </p>
+            <p>Do pray tell me something of the Man<lb/>
+            who is going out to <placeName ref="./Placeography.xml#II">India</placeName> to improve the<lb/>
+               <unclear></unclear> there? I have the great pleasure<lb/>
+            to tell you that my <persName ref="./Personography.xml#EdgeR1">father</persName> has been consider<lb/>
+            ably better for the last two or three days.<lb/>
+            I hope this may find <persName ref="./Personography.xml#MileJ1">M<hi rend="superscript">r.</hi> Miles</persName> as well<lb/>
+            as we wish him to be. I hope you received<lb/>
+            the draught for £6..10..0 - <lb/>
+            </p>
+            <closer>
+            I am dear<lb/>
+            Madam <add>your</add> obliged and troublesome Servant<lb/>
+               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
+               <lb/>
+            </closer>
+            <postscript>
+               <p/>
+            </postscript>
+            <closer>
+               <address>
+                  <pb n="4" facs="Edgeworth_Beinecke_1818-02-25_page04.jpg"/>
+                  <addrLine/>
+                  <persName ref="./Personography.xml#MileX1">M<hi rend="superscript">rs</hi>. Miles</persName>
+                  <addrLine/>West End<lb/>
+                  <placeName ref="./Personography.xml#Hampstead_ENK">Hampstead</placeName>
+               </address>
+            </closer>
+         </div>
+      </body>
+      <back/>
+   </text>
+</TEI>
