@@ -21,6 +21,10 @@
                <persName ref="Id_who">Eliza Wilcox</persName>
                <persName ref="Id_who"/>
             </respStmt>
+            <respStmt>
+               <resp>Reviewed by</resp>
+               <persName ref="Id_who">Hilary Havens</persName>
+            </respStmt>  
          </titleStmt>
          <editionStmt>
             <edition>First digital edition in TEI, date: November 26, 2022<date when="2022-11-26"/>
@@ -29,7 +33,7 @@
                <orgName type="naf" ref="http://id.loc.gov/authorities/names/n80097499">
                         Harvard University, Houghton Library</orgName>
                <resp> photos include:
-                        Edgeworth_Harvard_604762_unknown_page01.jpg</resp>
+                  Edgeworth_Harvard_604762_1848-12-20_page01.jpg</resp>
             </respStmt>
          </editionStmt>
          <publicationStmt>
@@ -41,7 +45,7 @@
                <licence target="https://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons Attribution 4.0 (CC BY 4.0) Unported
             License</licence>
             </availability>
-            <idno>Edgeworth_Harvard_604762_unknown</idno>
+            <idno>Edgeworth_Harvard_604762_1848-12-20</idno>
          </publicationStmt>
          <seriesStmt>
             <title>Maria Edgeworth Letters Project</title>
@@ -56,7 +60,7 @@
                <head>Letter from 
                   <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
                         to <persName>Dr. Ashburner</persName>, <placeName/>, 
-                        <date when="1848-12-28">December 28, 1848</date>
+                        <date when="1848-12-20">December 28, 1848</date>
                </head>
                <physDesc/>
             </msDesc>
@@ -86,11 +90,11 @@
    <text>
       <body>
          <div type="letter">
-            <pb n="1" facs="Edgeworth_Harvard_604762_unknown_page01.jpg"/>
+            <pb n="1" facs="Edgeworth_Harvard_604762_1848-12-20_page01.jpg"/>
             <opener>
                <dateline>
-                  <placeName ref="./Placeography.xml#Edgeworthstown_IE"/>51 Edgeworthstown
-                        <date when="1848-12-28">Dec<hi rend="superscript">r</hi> 28<hi rend="superscript">th</hi> 1848</date>
+                  <note>51</note> <placeName ref="./Placeography.xml#Edgeworthstown_IE">Edgeworths Town</placeName> 
+                        <date when="1848-12-20">Dec<hi rend="superscript">r</hi> 20<hi rend="superscript">th</hi> 1848</date>
                </dateline>
                <salute>
                   <persName>
@@ -106,33 +110,23 @@
                   <orig>recd</orig>
                   <reg>received</reg>
                </choice> this morning<lb/>
-                    from <persName ref="./Personography.xml#TickA1">M<hi rend="superscript">rs</hi>. Tickenor</persName>
+               from <persName ref="./Personography.xml#TickA1">M<hi rend="superscript">rs</hi>. <choice><orig>Tickenor</orig><reg>Ticknor</reg></choice></persName>
                <hi rend="underline">wife</hi>
                <lb/>
-                    or <hi rend="underline">lady</hi> of <persName ref="./Personography.xml#TickG1">Prof<hi rend="superscript">r</hi> Tickenor</persName>
+               or <hi rend="underline">lady</hi> of <persName ref="./Personography.xml#TickG1">Prof<hi rend="superscript">r</hi> <choice><orig>Tickenor</orig><reg>Ticknor</reg></choice></persName>
                <lb/>
-                    of Boston) thinks that<lb/>
+               of <placeName ref="./Placeography.xml#Boston_MA_US">Boston</placeName>) thinks that<lb/>
                     you may be interested<lb/>
                     in the account of a <add>new</add> discovery<lb/>
                     - at least of a discovery new<lb/>
-                    to us - <persName ref="./Personography.xml#WilsL1">M<hi rend="superscript">r</hi>.Wilson</persName>has copied the<lb/>
-                    paragraph in this letter for yourself<lb/>
+               to us - <persName ref="./Personography.xml#EdgeF3">M<hi rend="superscript">rs</hi>.Wilson</persName>has copied the<lb/>
+                    paragraph in this letter for you -<lb/>
             </p>
             <closer>
                     With best wishes &amp; sincere regards I<lb/>
                     am dear <persName ref="./Personography.xml#AshbX1">D<hi rend="superscript">r.</hi> Ashburner</persName> truly yours<lb/>
                <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
                <lb/>
-            </closer>
-            <postscript>
-               <p/>
-            </postscript>
-            <closer>
-               <address>
-                  <addrLine/>
-                  <addrLine/>
-                  <addrLine/>
-               </address>
             </closer>
          </div>
       </body>
