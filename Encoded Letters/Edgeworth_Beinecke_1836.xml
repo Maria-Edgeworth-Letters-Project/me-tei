@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from Maria Edgeworth to Richard Bentley, 1836</title>
+            <author><persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName></author>
+            <editor ref="Id_who">
+                    
+                </editor>
+            <sponsor>
+               <orgName>Maria Edgeworth Letters Project</orgName>
+            </sponsor>
+            <sponsor>Wake Forest University, University of Tennessee, Xavier University, Texas
+                    A&amp;M University</sponsor>
+            <principal>Jessica Richard, Hilary Havens, Robin Runia, Susan Egenolf</principal>
+            <respStmt>
+               <resp>Transcription and coding by</resp>
+               <persName ref="Id_who">Eliza Wilcox
+                    </persName>
+            </respStmt>
+            <respStmt><resp>Reviewed by</resp><persName ref="Id_who">Robin Runia</persName></respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>First digital edition in TEI, date: <date when="2022-10-18"/>
+            </edition>
+            <respStmt>
+               <orgName type="naf" ref="http://id.loc.gov/authorities/names/n80097790">
+                        Beinecke Rare Book and Manuscript Library
+                    </orgName>
+               <resp> photos include:
+                        Edgeworth_Beinecke_1836_page01.jpg, Edgeworth_Beinecke_1836_page02.jpg
+                    </resp>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Maria Edgeworth Letters Project</authority>
+            <date>2022</date>
+            <availability>
+               <p>Reproduced by courtesy of the <orgName ref="http://id.loc.gov/authorities/names/n80097790">Beinecke Rare Book and Manucscript Library</orgName>.
+                    </p>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons Attribution 4.0 (CC BY 4.0) Unported
+            License</licence>
+            </availability>
+            <idno/>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Maria Edgeworth Letters Project</title>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <repository>Beinecke Rare Book and Manuscript Library</repository>
+                  <collection/>
+                  <idno/>
+               </msIdentifier>
+               <head>Letter from 
+                  <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
+                        to <persName ref="./Personography.xml#BentR1">Richard Bentley</persName>, <placeName/>,
+                        <date when="1817-05-21"/>
+               </head>
+               <physDesc/>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>Edgeworth’s spelling and punctuation are retained in transcription, including non-standard spelling, line breaks, and hyphenation of words. The long s and ligatured forms are silently emended.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="./Personography.xml#BentR1">Richard Bentley</persName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-01-01" who="Id_who"/>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <pb n="1" facs="Edgeworth_Beinecke_1836_page01.jpg"/>
+            <p>
+                    As soon as I hear from Mess.rs <persName ref="./Personography.xml#BaldX2">Baldwin</persName>
+               <lb/>
+                    and <persName ref="./Personography.xml#CradX1">Cradoch</persName> I will let you know the result<lb/>
+            </p>
+            <p>If they should answer that they do<lb/>
+               not desire to have <title ref="./Workography.xml#Helen1">Helen</title> till they are called<lb/>
+               upon by the public for a new <choice>
+                  <orig>Ed<hi rend="superscript">n.</hi>
+                  </orig>
+                  <reg>Edition</reg>
+               </choice> of the<lb/>
+                    whole collection of my tales &amp; novels, and<lb/>
+                    if that should be at a distant period perhaps<lb/>
+                    it may not interfere with your wishes<lb/>
+            </p>
+            <p>At all events you now know all that<lb/>
+                    I have done or mean to do; and shall<lb/>
+                    know as soon as I know more –<lb/>
+            </p>
+            <p>I have every reason to be satisfied <unclear>with</unclear>
+               <lb/>
+                    your liberal fair dealing, and obliging<lb/>
+                    conduct – and have so expressed myself<lb/>
+               <add>of you</add>to others as well as to yourself<lb/>
+            </p>
+            <closer>
+                    I am Sir<lb/>
+               Your <choice><orig>Obed.t</orig><reg>Obedient</reg></choice> Servant
+                    <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
+               <address>
+                  <pb n="2" facs="Edgeworth_Beinecke_1836_page042.jpg"/>
+                  <persName ref="./Personography.xml#BentR1">Richard Bentley Esq<hi rend="superscript">re</hi>
+                  </persName>
+                  <addrLine/>
+                  <placeName ref="./Placeography.xml#Old-Burlington-Street_ENK">Old Burlington Street</placeName>
+                  <addrLine/>
+                  <addrLine/>
+               </address>
+            </closer>
+         </div>
+      </body>
+   
+      <back/>
+   </text>
+</TEI>
