@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from Maria Edgeworth to Madame Récamier, May 18, 1819</title>
+            <author>Maria Edgeworth</author>
+            <editor ref="Id_who">
+               Jamie Kramer
+            </editor>
+            <sponsor>
+               <orgName>Maria Edgeworth Letters Project</orgName>
+            </sponsor>
+            <sponsor>Wake Forest University, University of Tennessee, Xavier University, Texas
+               A&amp;M University</sponsor>
+            <principal>Jessica Richard, Hilary Havens, Robin Runia, Susan Egenolf</principal>
+            <respStmt>
+               <resp>Transcription and coding by</resp>
+               <persName ref="Id_who">Jamie Kramer</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Reviewed by</resp>
+            <persName ref="Id_who">Robin Runia</persName>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>First digital edition in TEI, date: <date when="2023-06-25">2023-06-25</date>
+            </edition>
+            <respStmt>
+               <orgName ref="http://id.loc.gov/authorities/names/no95028191">Bibliothèque nationale de France
+               </orgName>
+               <resp> photos include: Edgeworth_BibNatdeFrance_1819-05-18_page01.jpg, 
+                  Edgeworth_BibNatdeFrance_1819-05-18_page02.jpg,
+                  Edgeworth_BibNatdeFrance_1819-05-18_page03.jpg, 
+                  Edgeworth_BibNatdeFrance_1819-05-18_page04.jpg
+               </resp>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Maria Edgeworth Letters Project</authority>
+            <date>2022</date>
+            <availability>
+               <p>Reproduced by courtesy of the <orgName ref="http://id.loc.gov/authorities/names/no95028191">Bibliothèque nationale de France</orgName>. 
+               </p>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons Attribution 4.0 (CC BY 4.0) Unported
+            License</licence>
+            </availability>
+            <idno>Edgeworth_BibNatdeFrance_1819-05-18</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Maria Edgeworth Letters Project</title>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <repository>Bibliothèque nationale de France</repository>
+                  <collection>Papiers et correspondances provenant de Mme Récamier.XIXe s. XXXIII-XL Lettres adressées à Mme Récamier. XXXVI Edgeworth - Lamartine.</collection>
+                  <idno>NAF 14102 
+                     XXXVI Edgeworth-Lamartine.
+                     419 f.
+                     Substitute documents
+                     Black and white microfilm. Reference number in the reading room: MF 3062. Matrix number (to order a reproduction): R 65024.
+                     
+                     Scan made from a substitute document: R 65024. URL: https://gallica.bnf.fr/ark:/12148/btv1b100838542                    
+                  </idno>
+               </msIdentifier>
+               <head>Letter from 
+                  <persName ref="./Personography.xml#EdgeM1">
+                     <forename>Maria</forename>
+                     <surname>Edgeworth</surname>
+                  </persName>
+                  to <persName ref="./Personography.xml#RecaJ1">Madame Juliette Récamier</persName>, <placeName ref="./Placeography.xml#FR">France</placeName>, 
+                  <date when="1819-05-18">May 18, 1819</date>
+               </head>
+               <physDesc/>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>Edgeworth’s spelling and punctuation are retained in transcription, including non-standard spelling, line breaks, and hyphenation of words. The long s and ligatured forms are silently emended.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="./Personography.xml#RecaJ1">Madam Juliette Récamier</persName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-01-01" who="Id_who"/>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <pb n="1" facs="Edgeworth_BibNatdeFrance_1819-05-18_page01.jpg"/>
+            <opener>
+               <dateline>
+                  <date when="1819-05-18">May 10<hi rend="superscript">th</hi> 1819.</date>
+                  <note>1</note>
+               </dateline>
+               <lb/>
+               <salute>
+                  My dear <persName ref="./Personography.xml#RecaJ1">Madame Recamier</persName>
+               </salute>
+            </opener>
+            <p>You have done me the<lb/>
+               favor to show so much <choice>
+                  <orig>atten-<lb/>
+               -tion</orig>
+                  <reg>attention</reg>
+               </choice> to the English friends<lb/>
+               - whom I have presumed to<lb/>
+               present to you, that I feel<lb/>
+               the hope you will receive<lb/>
+               with your most <choice>
+                  <orig>encourag-<lb/>
+               ing</orig>
+                  <reg>encouraging</reg>
+               </choice> smile and graceful<lb/>
+               kindness those whom I<lb/>
+               now present to you.<lb/>
+               My <persName ref="./Personography.xml#EdgeC1">brother</persName> &amp; <persName ref="./Personography.xml#EdgeH3">his wife</persName>
+               <lb/>
+               <persName ref="./Personography.xml#EdgeC1">M<hi rend="superscript">r</hi>.</persName> and <persName ref="./Personography.xml#EdgeH3">M<hi rend="superscript">rs</hi>.. Sneyd Edgeworth</persName>
+               <lb/>
+               <pb n="2" facs="Edgeworth_BibNatdeFrance_1819-05-18_page02.jpg"/>
+               - My <persName ref="./Personography.xml#EdgeC1">brother</persName> is the author<lb/>
+               of those <title ref="./Workography.xml#Memoi5">memoirs of the<lb/>
+                  <persName ref="./Personography.xml#EdgeA1">Abbé Edgeworth</persName>
+               </title> which<lb/>
+               have been I believe <del>
+                  <unclear>much</unclear>
+               </del>
+               <lb/>
+               read with interest<lb/>
+               in the French translation<lb/>
+               - <persName ref="./Personography.xml#EdgeC1">He</persName> is still fonder of good<lb/>
+               society than of books,<lb/>
+               <persName ref="./Personography.xml#EdgeH3">M<hi rend="superscript">rs</hi>. Edgeworth</persName> joins him<lb/>
+               in this taste, and I <choice>
+                  <orig>can-<lb/>
+                  not</orig>
+                  <reg>cannot</reg>
+               </choice> do them therefore a<lb/>
+               greater favor than by<lb/>
+               presenting them to<lb/>
+               <pb n="3" facs="Edgeworth_BibNatdeFrance_1819-05-18_page03.jpg"/>
+               <persName ref="./Personography.xml#RecaJ1">Madame Recamier</persName>
+            </p>
+            <lb/>
+            <p>Will you have the <choice>
+                  <orig>good<lb/>
+                  -ness</orig>
+                  <reg>goodness</reg>
+               </choice> to make them known<lb/>
+                  to <persName ref="./Personography.xml#JordC1"> M Camille <choice>
+                     <orig>Jordain</orig>
+                     <reg>Jordan</reg>
+                  </choice>
+               </persName> if he<lb/>
+                  be in <placeName ref="./Placeography.xml#Paris_FR">Paris</placeName> and to <persName ref="./Personography.xml#GeraJ1"> M</persName> &amp;<lb/>
+               <persName ref="./Personography.xml#GeraA1">Madame <choice>
+                     <orig>Degerando</orig>
+                     <reg>de Gerando</reg>
+                  </choice>
+               </persName> to<lb/>
+               whom I beg to be most<lb/>
+               kindly remembered.</p>
+            <lb/>
+            <p>Your bracelet my<lb/>
+               dear Madam may <choice>
+                  <orig>per-<lb/>
+                  haps</orig>
+                  <reg>perhaps</reg>
+               </choice> sometime return<lb/>
+                  to <placeName ref="./Placeography.xml#Paris_FR">Paris</placeName> &amp; be seen by you<lb/>
+               I hope on the arm of one<lb/>
+               of my young sisters<lb/>
+               <pb n="4" facs="Edgeworth_BibNatdeFrance_1819-05-18_page04.jpg"/>
+               whom I promise myself<lb/>
+               the pleasure of presenting<lb/>
+               to you.<lb/>
+            </p>
+            <closer>
+               Mean time accept<lb/>
+               my affectionate respect.<lb/>
+               and believe me<lb/>
+               My dear <persName ref="./Personography.xml#RecaJ1">Madame Recamier</persName>
+               <lb/>
+               with sentiments of<lb/>
+               esteem &amp; admiration<lb/>
+               Yours sincerely<lb/>
+               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
+               <lb/>
+               <lb/>
+            </closer>
+         </div>
+      </body>
+      <back/>
+   </text>
+</TEI>
