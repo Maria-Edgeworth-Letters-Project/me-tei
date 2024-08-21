@@ -19,6 +19,10 @@
                <resp>Transcription and coding by</resp>
                <persName ref="Id_who">Eliza Wilcox</persName>
             </respStmt>
+            <respStmt>
+               <resp>Reviewed by</resp>
+               <persName ref="Id_who">Robin Runia</persName>
+            </respStmt>
          </titleStmt>
          <editionStmt>
             <edition>First digital edition in TEI, date: <date when="2022-10-25">
@@ -28,8 +32,8 @@
                <orgName type="naf" ref="http://id.loc.gov/authorities/names/n80097790">
                   Beinecke Rare Book and Manuscript Library</orgName>
                <resp> photos include:
-                  Edgeworth_Beinecke_330_unknown_01_page01.jpg,
-                  Edgeworth_Beinecke_330_unknown_01_page02.jpg
+                  Edgeworth_Beinecke_unknown_01_page01.jpg,
+                  Edgeworth_Beinecke_unknown_01_page02.jpg
                 </resp>
             </respStmt>
          </editionStmt>
@@ -86,7 +90,7 @@
    <text>
       <body>
          <div type="letter">
-            <pb n="1" facs="Edgeworth_Beinecke_330_unknown_01_page01.jpg"/>
+            <pb n="1" facs="Edgeworth_Beinecke_unknown_01_page01.jpg"/>
             <opener>
                <salute>
                   <persName ref="./Personography.xml#DarnX1">
@@ -116,11 +120,11 @@
             of the delay -<lb/>
             </p>
             <p>It will give me pleasure<lb/>
-               <pb n="2" facs="Edgeworth_Beinecke_330_unknown_01_page02.jpg"/>
+               <pb n="2" facs="Edgeworth_Beinecke_unknown_01_page02.jpg"/>
                <del/> I am now at<lb/>
-               <placeName ref="/.Placeography.xml#Black-Castle_IE">Black Castle</placeName> with <persName ref="./Personography.xml#BuxtX1">M<hi rend="superscript">r</hi>
+               <placeName ref="/.Placeography.xml#Black-Castle_IE">Black Castle</placeName> with <persName ref="./Personography.xml#RuxtJ1">M<hi rend="superscript">r</hi>
                   <lb/>
-            Buxton</persName> who desires<lb/>
+            Ruxton</persName> who desires<lb/>
             to be kindly remembered<lb/>
             to your Ladyship<lb/>
             </p>
