@@ -8,7 +8,7 @@
          <titleStmt>
             <title>Letter from Maria Edgeworth to Frances Anne Edgeworth, August 24, 1818</title>
             <author>Maria Edgeworth</author>
-            <editor ref="Id_who">Alexandra LaGrand</editor>
+            <editor ref="Id_who"></editor>
             <sponsor>
                <orgName>Maria Edgeworth Letters Project</orgName>
             </sponsor>
@@ -19,13 +19,17 @@
                <resp>Transcription and coding by</resp>
                <persName ref="Id_who">Alexandra LaGrand</persName>
             </respStmt>
+            <respStmt>
+               <resp>Reviewed by</resp>
+               <persName ref="Id_who">Robin Runia </persName>
+            </respStmt>
          </titleStmt>
          <editionStmt>
             <edition>First digital edition in TEI, date: <date when="2024-01-29">January 29, 2024</date>
             </edition>
             <respStmt>
                <orgName type="naf" ref="http://id.loc.gov/authorities/names/n80020306">Bodleian Library</orgName>
-               <resp> photos include: Edgeworth_Bodleian_696_1818-08-24_letter01_page01.jpg, Edgeworth_Bodleian_696_1818-08-24_letter01_page02.jpg, Edgeworth_Bodleian_696_1818-08-24_letter01_page03.jpg, Edgeworth_Bodleian_696_1818-08-24_letter01_page04.jpg, Edgeworth_Bodleian_696_1818-08-24_letter01_page05.jpg, Edgeworth_Bodleian_696_1818-08-24_letter01_page06.jpg</resp>
+               <resp> photos include: Edgeworth_Bodleian_1818-08-24_page01.jpg, Edgeworth_Bodleian_1818-08-24_page02.jpg, Edgeworth_Bodleian_1818-08-24_page03.jpg, Edgeworth_Bodleian_1818-08-24_page04.jpg, Edgeworth_Bodleian_1818-08-24_page05.jpg, Edgeworth_Bodleian_1818-08-24_page06.jpg</resp>
             </respStmt>
          </editionStmt>
          <publicationStmt>
@@ -87,11 +91,11 @@
    <text>
       <body>
          <div type="letter">
-            <pb n="1" facs="Edgeworth_Bodleian_696_1818-08-24_letter01_page01.jpg"/>
+            <pb n="1" facs="Edgeworth_Bodleian_1818-08-24_page01.jpg"/>
             <opener>
                <dateline>
                   <placeName ref="Id_where"/>
-                  <placeName ref="./Placeography.xml#Nelson-Place-2_ENK">2 Nelson Place</placeName> <placeName ref="./Placeography.xml#Bath_ENK">Bath</placeName>
+                  <placeName ref="./Placeography.xml#Nelson-Place-2_ENK">2 Nelson Place</placeName> <placeName ref="./Placeography.xml#Bath_ENK">Bath</placeName><lb/>
                   <date when="1818-08-24">Aug<hi rend="superscript">st</hi>. 24<hi rend="superscript">th</hi>. 1818</date>
                </dateline>
                <salute>
@@ -146,7 +150,7 @@
                terrible circumstances in<lb/>
             </p>
             <p>
-               <pb n="2" facs="Edgeworth_Bodleian_696_1818-08-24_letter01_page02.jpg"/>
+               <pb n="2" facs="Edgeworth_Bodleian_1818-08-24_page02.jpg"/>
                feeling <hi rend="underline">sure</hi> that wherever<lb/>
                your daughters &amp; sons are<lb/>
                they are in all that depends<lb/>
@@ -188,7 +192,7 @@
                to you again - I have read your<lb/>
             </p>
             <p>
-               <pb n="3" facs="Edgeworth_Bodleian_696_1818-08-24_letter01_page03.jpg"/>
+               <pb n="3" facs="Edgeworth_Bodleian_1818-08-24_page03.jpg"/>
                letter to Aunt C - and will <choice>
                   <orig>deli<lb/>
                ver</orig>
@@ -244,7 +248,7 @@
                This morning I read a most kind<lb/>
             </p>
             <p>
-               <pb n="4" facs="Edgeworth_Bodleian_696_1818-08-24_letter01_page04.jpg"/>
+               <pb n="4" facs="Edgeworth_Bodleian_1818-08-24_page04.jpg"/>
                letter from <persName ref="./Personography.xml#LansL1">Lady Lansdowne</persName>
                <lb/>
                begging us to come to her as<lb/>
@@ -259,7 +263,7 @@
                   <orig>There-<lb/>
                fore</orig>
                   <reg>Therefore</reg>
-               </choice> I wish to put off the visit -<lb/>
+               </choice><hi rend="underline">I</hi>  wish to put off the visit -<lb/>
                <del>I will write</del> As soon as I get to <placeName ref="./Placeography.xml#Clifton_ENK">Clifton</placeName>
                <lb/>
                &amp; hear what my aunts say - I will<lb/>
@@ -267,7 +271,7 @@
                <lb/>
                - I will tell <persName ref="./Personography.xml#LansL1">Lady L</persName> my brother<lb/>
                is exceedingly ill - that we do<lb/>
-               not wish &amp;c - &amp; I will write to<lb/>
+               not wish &amp; c - &amp; I will write to<lb/>
                <persName ref="./Personography.xml#DumoE1">D-</persName> to ask if he can now read the<lb/>
                M<hi rend="superscript">s</hi>. <add>I will send it to him</add> &amp; if I <hi rend="underline">can</hi> see him in <choice>
                   <orig>Nov<hi rend="superscript">r</hi>.</orig>
@@ -275,7 +279,7 @@
                </choice>
                <lb/>
                or if he stays at <placeName ref="./Placeography.xml#Bowood-House_ENK">Bowood</placeName> suppose<lb/>
-               in <choice><abbr>Sep<hi rend="superscript">r</hi>.</abbr><reg>September</reg></choice>? <persName ref="./Personography.xml#EdgeA2">Anna</persName> asks us to stay<lb/>
+               in <choice>Sep<hi rend="superscript">r</hi>.<reg>September</reg></choice>? <persName ref="./Personography.xml#EdgeA2">Anna</persName> asks us to stay<lb/>
                here a fortnight &amp; promises she<lb/>
                will let no company in - that<lb/>
                she will say at once W. has a<lb/>
@@ -296,7 +300,7 @@
                she says is hopeless but no <hi rend="underline">danger of death</hi>.<lb/>
             </p>
             <p>
-               <pb n="5" facs="Edgeworth_Bodleian_696_1818-08-24_letter01_page05.jpg"/>
+               <pb n="5" facs="Edgeworth_Bodleian_1818-08-24_page05.jpg"/>
                - I wrote to your ex brother &amp; have had<lb/>
                a most touchingly kind letter from<lb/>
                him - <persName ref="./Personography.xml#BailM1">D<hi rend="superscript">r</hi>. Baillie</persName> is very ill &amp; I have<lb/>
@@ -339,7 +343,7 @@
                <lb/>
             </closer>
             <closer>
-               <pb n="6" facs="Edgeworth_Bodleian_696_1818-08-24_letter01_page06.jpg"/>
+               <pb n="6" facs="Edgeworth_Bodleian_1818-08-24_page06.jpg"/>
                <address>
                   <addrLine>
                      <persName ref="./Personography.xml#EdgeM1">Maria</persName>
