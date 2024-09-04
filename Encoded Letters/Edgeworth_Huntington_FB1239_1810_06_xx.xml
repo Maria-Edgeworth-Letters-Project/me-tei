@@ -21,6 +21,10 @@
                <persName ref="Id_who">Eliza Wilcox</persName>
                <persName ref="Id_who"/>
             </respStmt>
+            <respStmt>
+               <resp>Reviewed by</resp>
+               <persName ref="Id_who">Hilary Havens</persName>
+            </respStmt>
          </titleStmt>
          <editionStmt>
             <edition>First digital edition in TEI, date: January 10, 2023<date when="2023-01-10"/>
@@ -29,10 +33,10 @@
                <orgName type="naf" ref="http://id.loc.gov/authorities/names/n79049138">
                         Henry E. Huntington Library and Art Gallery</orgName>
                <resp> photos include:
-                        Edgeworth_Huntington_FB1239_1810_06_xx_page01.jpg,
-                        Edgeworth_Huntington_FB1239_1810_06_xx_page02.jpg,
-                        Edgeworth_Huntington_FB1239_1810_06_xx_page03.jpg,
-                        Edgeworth_Huntington_FB1239_1810_06_xx_page04.jpg</resp>
+                        Edgeworth_Huntington_FB1239_1810-06-05_page01.jpg,
+                        Edgeworth_Huntington_FB1239_1810-06-05_page02.jpg,
+                        Edgeworth_Huntington_FB1239_1810-06-05_page03.jpg,
+                        Edgeworth_Huntington_FB1239_1810-06-05_page04.jpg</resp>
             </respStmt>
          </editionStmt>
          <publicationStmt>
@@ -44,7 +48,7 @@
                <licence target="https://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons Attribution 4.0 (CC BY 4.0) Unported
             License</licence>
             </availability>
-            <idno>Edgeworth_Huntington_FB1239_1810_06_xx</idno>
+            <idno>Edgeworth_Huntington_FB1239_1810-06-05</idno>
          </publicationStmt>
          <seriesStmt>
             <title>Maria Edgeworth Letters Project</title>
@@ -57,10 +61,11 @@
                   <idno/>
                </msIdentifier>
                <head>Letter from 
-                  <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
-                  <persName ref="./Personography.xml#EdgeR1">Richard Edgeworth</persName>, <persName ref="./Personography.xml#EdgeF3">Frances Beaufort Edgeworth</persName>, <persName ref="./Personography.xml#BeauH2">Henrietta Beaufort</persName>, <persName ref="./Personography.xml#SneyM1">Mary Sneyd</persName>, and <persName ref="./Personography.xml#EdgeC1">Charles Sneyd</persName>
-                        to <persName ref="./Personography.xml#BeauF1">Sir Francis Beaufort</persName>, <placeName ref="./Placeography.xml#London_ENK">London</placeName>, 
-                        <date when="1810-06">June 1810</date>
+                  <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth, 1768-1849</persName>
+                  <persName ref="./Personography.xml#EdgeR1">Richard Lovell Edgeworth, 1744-1817</persName>, <persName ref="./Personography.xml#EdgeF3">Frances Beaufort Edgeworth, 1809-1846</persName>, <persName ref="./Personography.xml#BeauH2">Henrietta Beaufort, 1778-1865</persName>, <persName ref="./Personography.xml#SneyM1">Mary Sneyd, -1841</persName>, and <persName ref="./Personography.xml#EdgeC1">Charles Sneyd Edgeworth, 1786-1864</persName>
+                  to <persName ref="./Personography.xml#BeauF1">Sir Frances Beaufort, 1774-1857</persName>, <placeName ref="./Placeography.xml#London_ENK">London</placeName>, 
+                        <date when="1810-06-05">June 5, 1810</date>
+                  <stamp>Postage stamp of JU 5 1810 has confirmed the dating.</stamp>
                </head>
                <physDesc/>
             </msDesc>
@@ -76,15 +81,15 @@
       <profileDesc>
          <correspDesc>
             <correspAction type="sent">
-               <persName ref="./Personography.xml#EdgeM1">Maria Edgworth</persName>
-               <persName ref="./Personography.xml#EdgeR1">Richard Lovell Edgeworth</persName>
-               <persName ref="./Personography.xml#EdgeF3">Frances Beaufort Edgeworth</persName>
-               <persName ref="./Personography.xml#BeauH2">Henrietta Beaufort</persName>
-               <persName ref="./Personography.xml#SneyM1">Mary Sneyd</persName>
-               <persName ref="./Personography.xml#EdgeC1">Charles Sneyd</persName>
+               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth, 1768-1849</persName>
+               <persName ref="./Personography.xml#EdgeR1">Richard Lovell Edgeworth, 1744-1817</persName>
+               <persName ref="./Personography.xml#EdgeF3">Frances Beaufort Edgeworth, 1809-1846</persName>
+               <persName ref="./Personography.xml#BeauH2">Henrietta Beaufort, 1778-1865</persName>
+               <persName ref="./Personography.xml#SneyM1">Mary Sneyd, -1841</persName>
+               <persName ref="./Personography.xml#EdgeC1">Charles Sneyd Edgeworth, 1786-1864</persName>
             </correspAction>
             <correspAction type="received">
-               <persName ref="./Personography.xml#BeauF1">Francis Beaufort</persName>
+               <persName ref="./Personography.xml#BeauF1">Sir Frances Beaufort, 1774-1857</persName>
             </correspAction>
          </correspDesc>
       </profileDesc>
@@ -95,15 +100,11 @@
    <text>
       <body>
          <div type="letter">
-            <pb n="1" facs="Edgeworth_Huntington_FB1239_1810_06_xx_page01.jpg"/>
+            <pb n="1" facs="Edgeworth_Huntington_FB1239_1810-06-05_page01.jpg"/>
             <opener>
-               <dateline>
-                  <placeName ref="Id_where"/>
-                  <date when="1810-06"/>
-               </dateline>
                <salute>
                   <persName>
-                     <persName ref="./Personography.xml#BeauF1">My Dear Brother</persName> &amp; dearer friend.</persName>
+                     My Dear <persName ref="./Personography.xml#BeauF1">Brother</persName> &amp; dearer friend.</persName>
                   <lb/>
                </salute>
             </opener>
@@ -117,8 +118,8 @@
                merit; which I have always<lb/>
                known how to appreciate and<lb/>
                which I sincerely rely on for your<lb/>
-               Future advancement above<lb/>
-               your fellow's - I take some<lb/>
+               future advancement above<lb/>
+               your fellows - I take some<lb/>
                subordinate pleasure in being<lb/>
                conscious that I always<lb/>
                     foretold what has now <choice>
@@ -136,16 +137,17 @@
                attained by old experience -<lb/>
                To morrow is my 66 <hi rend="superscript">th</hi>. birth<lb/>
                day &amp; <persName ref="./Personography.xml#EdgeM1">Maria</persName> in her secret<lb/>
-               <pb n="2" facs="Edgeworth_Huntington_FB1239_1810_06_xx_page02.jpg"/>
+               
+               <pb n="2" facs="Edgeworth_Huntington_FB1239_1810-06-05_page02.jpg"/>
                heart, but she dare not say so,<lb/>
                wishes that your letter had come<lb/>
-               a day later. Indeed I do not<lb/>
+               a day later. - Indeed I do not<lb/>
                think that your sisters felt more<lb/>
-               pleasure at hearing <add>of</add>your <choice>
+               pleasure at hearing <add>of</add> your <choice>
                   <orig>promo<lb/>
                   -tion</orig>
                   <reg>promotion</reg>
-               </choice>than she did -<lb/>
+               </choice> than she did -<lb/>
             </p>
             <p>I have the remainder of the<lb/>
                sheet to the congratulations of<lb/>
@@ -158,6 +160,7 @@
                </persName> is not the<lb/>
                coldest. - </p>
             <lb/>
+            <p>-</p>
             <p>We do indeed <persName ref="./Personography.xml#BeauF1">my dearest brother</persName> most <choice>
                   <orig>unanimous<lb/>
                   -ly</orig>
@@ -170,8 +173,8 @@
                proud heart - and proud enough God knows you are<lb/>
                I have not told you yet how greatly <persName ref="./Personography.xml#EdgeR1">M<hi rend="superscript">r</hi>Edgeworth</persName> was<lb/>
                delighted with your independant refusal to <hi rend="underline">ax</hi> a<lb/>
-               peer for anything but an axe. I never will ask you<lb/>
-               again to <hi rend="underline">pay court</hi> to any one so dont be afraid - and <choice>
+               peer for anything but an <hi rend="underline">axe</hi>. I never will ask you<lb/>
+               again to <hi rend="underline">pay court</hi> to any one so <choice><orig>dont</orig><reg>don't</reg></choice> be afraid - and <choice>
                   <orig>Ill</orig>
                   <reg>I'll</reg>
                </choice>
@@ -182,22 +185,17 @@
                   some</orig>
                   <reg>handsome</reg>
                </choice> letter if I did not believe that <persName ref="./Personography.xml#BeauL2">Louisa</persName> had already done<lb/>
-               so - but I will conclude with his words "I never happened to <del/>
+               so - but I will conclude with his words "I never happened to <del>meet</del>
                <add>hear</add> -<lb/>
-               of a gentleman so generally and so highly commended as he is -<lb/>
-               May God preserve your life both for your country &amp; your friends<lb/>
-               <persName ref="./Personography.xml#EdgeF3">
+               of a gentleman so generally and so highly commended as he is -<lb/></p>
+               <p>May God preserve your life both for your country &amp; your friends<lb/>
+               <persName ref="./Personography.xml#EdgeF1">
                   <choice>
-                     <abbr>F</abbr>
-                     <reg>Francis</reg>
-                  </choice>
-                  <choice>
-                     <abbr>E</abbr>
-                     <reg>Edgeworth</reg>
+                     <orig>FE</orig><reg>Frances Edgeworth</reg>
                   </choice>
                </persName>
-               <lb/>
-            </p>
+               <lb/></p>
+            <p>-</p>
             <p>To tell you my most dear brother that my heart is rejoiced<lb/>
                at your certainty of promotion would be to tell you what<lb/>
                you know; I can only say that you have my warmest<lb/>
@@ -205,24 +203,20 @@
                a source of happiness to you, &amp; that you may continue<lb/>
                the same excellent hero &amp; be long preserved to all your friends<lb/>
                &amp; to your own attach'd friend <persName ref="./Personography.xml#BeauH2">
-                  <choice>
-                     <abbr>H</abbr>
-                     <reg>Harriet</reg>
-                  </choice> Beaufort</persName>
+                  <choice><orig>H</orig><reg>Harriet</reg></choice> Beaufort</persName>
                <lb/>
             </p>
-            <pb n="3" facs="Edgeworth_Huntington_FB1239_1810_06_xx_page03.jpg"/>
+            
+            <pb n="3" facs="Edgeworth_Huntington_FB1239_1810-06-05_page03.jpg"/>
             <p>May your happiness my kind &amp; excellent<lb/>
                friend increase with your promotion -<lb/>
                you cannot be more esteemed &amp; beloved by<lb/>
                those who know your merits than you have<lb/>
-               ever been - <persName ref="./Personography.xml#Sneym1">
-                  <choice>
-                     <abbr>M.</abbr>
-                     <reg>Mary</reg>
-                  </choice> Sneyd</persName>
+               ever been - <persName ref="./Personography.xml#SneyM1">
+                  <choice><orig>M.</orig><reg>Mary</reg></choice> Sneyd</persName>
                <lb/>
             </p>
+            <p>-</p>
             <p>I cannot find better words nor any<lb/>
                more entirely suited to my own <choice>
                   <orig>senti-<lb/>
@@ -231,15 +225,10 @@
                </choice>&amp; feelings my dear <persName ref="./Personography.xml#BeauF1">Cap<hi rend="superscript">t</hi> Beaufort</persName>
                <lb/>
                than dear <persName ref="./Personography.xml#SneyM1">Mary</persName> has used to which with<lb/>
-               all my heart <hi rend="underline">I sub scribe</hi>
-               <lb/>
-               <persName ref="./Personography.xml#EdgeC1">
-                  <choice>
-                     <abbr>C</abbr>
-                     <reg>Charles</reg>
-                  </choice> Sneyd</persName>
-               <lb/>
+               all my heart <hi rend="underline">I subscribe</hi><lb/>
+               <persName ref="./Personography.xml#EdgeC1"><choice><orig>C</orig><reg>Charles</reg></choice> Sneyd</persName><lb/>
             </p>
+            <p>-</p>
             <p>
                <persName ref="./Personography.xml#EdgeR1">My father</persName> has said for me and in the best <choice>
                   <orig>man-<lb/>
@@ -255,14 +244,12 @@
                </persName> that he has told you exactly the truth,<lb/>
                - I congratulate you upon your promotion<lb/>
                being made in the manner you desired &amp;<lb/>
-               deserve, - not the result of any little di<unclear/>
+               deserve, - not the result of any little <damage><unclear>di<gap></gap></unclear></damage>
                <lb/>
-               or patronage -</p>
-            <lb/>
-            <p>All the men who served under you on <unclear/>
-               <lb/>
-               -phic duty are invited by <persName ref="./Personography.xml#EdgeR1">my father</persName> to <unclear/>
-               <lb/>
+               or patronage -<lb/></p>
+            <p>-</p>
+            <p>All the men who served under you on <damage><gap></gap></damage><lb/>
+               -phic duty are invited by <persName ref="./Personography.xml#EdgeR1">my father</persName> to <damage><gap></gap></damage><lb/>
                this day to celebrate <persName ref="./Personography.xml#BeauF1">their Captain</persName>'s <choice>
                   <orig>promo-<lb/>
                   -tion</orig>
@@ -271,13 +258,13 @@
                such as you made them they have continued<lb/>
                punctual, orderly, useful men,- who are now<lb/>
                employed by <persName ref="./Personography.xml#EdgeR1">my father</persName> in his Bog-survey'ing<lb/>
-               and are able to earn each 3 shillings a day<lb/>
+               and are able to earn each, 3 shillings a day<lb/>
                - which they do not turn into whiskey -</p>
             <lb/>
             <p>How happy poor <persName ref="./Personography.xml#XxxxQ1">Quin</persName> must be! -<lb/>
                I have just written to <persName ref="./Personography.xml#XxxxX1">his mother</persName> to tell her the<lb/>
                good news - I think you have in store a solid<lb/>
-               fund of <add>self</add>satisfaction in the thoughts of the<lb/>
+               fund of <add>self</add> satisfaction in the thoughts of the<lb/>
                good you have done that young man - And in<lb/>
                     this &amp; every source of happiness to you I rejoice<lb/>
             </p>
@@ -287,8 +274,8 @@
                <lb/>
             </closer>
             <postscript>
-               <pb n="4" facs="Edgeworth_Huntington_FB1239_1810_06_xx_page04.jpg"/>
-               <p>I advise you to read <unclear>Alfieri's</unclear> life<lb/>
+               <pb n="4" facs="Edgeworth_Huntington_FB1239_1810-06-05_page04.jpg"/>
+               <p>I advise you to read <title ref="./Workography.xml#Memoi3">Alfieri's life</title><lb/>
                </p>
             </postscript>
             <closer>
@@ -297,13 +284,14 @@
                      <persName ref="./Personography.xml#BeauF1">Capt<hi rend="superscript">n</hi>. Beaufort</persName>
                   </addrLine>
                   <addrLine>H: M Sloop</addrLine>
-                  <addrLine>R. N</addrLine>
+                  <addrLine><choice><orig>R. N</orig><reg>Royal Navy</reg></choice></addrLine>
                   <addrLine>
-                     <del>Mess<hi rend="superscript">r</hi> Brummany &amp; Dence</del>
+                     <del>Mess<hi rend="superscript">rs</hi> <unclear>Ommany &amp; Drince</unclear></del>
                   </addrLine>
                   <addrLine>- Blossom Cecil Street</addrLine>
                   <addrLine>
                      <placeName ref="./Placeography.xml#London_ENK">London</placeName>
+                     <lb/>
                   </addrLine>
                   <addrLine>
                      <placeName ref="./Placeography.xml#Portsmouth_ENK">Portsmouth</placeName>
@@ -311,7 +299,7 @@
                </address>
                     Edgew<hi rend="superscript">h</hi>. 1810<lb/>
                     Congratulations from<lb/>
-                    All hands<lb/>
+                    all hands -<lb/>
             </closer>
          </div>
       </body>
