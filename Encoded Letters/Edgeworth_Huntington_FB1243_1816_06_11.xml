@@ -22,6 +22,10 @@
                <persName ref="Id_who">Jamie Kramer</persName>
                <persName ref="Id_who"/>
             </respStmt>
+            <respStmt>
+               <resp>Reviewed by</resp>
+               <persName ref="Id_who">Hilary Havens</persName>
+            </respStmt>
          </titleStmt>
          <editionStmt>
             <edition>First digital edition in TEI, date: <date when="2023-02-24"/>
@@ -103,29 +107,11 @@
                   <date when="1816-06-11">June 11<hi rend="superscript">th</hi>. 16<lb/>
                   </date>
                </dateline>
-               <salute>
-                  My dear <persName ref="./Personography.xml#BeauF1">Francis</persName>
-               </salute>
             </opener>
-            <p>I trust you will not<lb/>
-               think my interference<lb/>
-               troublesome but I cannot help saying that for<lb/>
-               your sake and for <persName ref="./Personography.xml#EdgeW1">William</persName> &amp; the public's I wish<lb/>
-               that your letter to M<hi rend="superscript">r</hi>. <persName ref="./Personography.xml#CrokT1">Croker</persName> were published-<lb/>
-               and I request you will tell me whether <del>
-                  <choice>
-                     <orig>suppos<lb/>
-               ing</orig>
-                     <reg>supposing</reg>
-                  </choice> Mr <persName ref="./Personography.xml#CrokT1">Croker</persName>
-               </del> you would have any objection to<lb/>
-               it being published if M<hi rend="superscript">r.</hi>
-               <persName ref="./Personography.xml#CrokT1">Croker</persName> wished it as much<lb/>
-               as I do- <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
-               <lb/>
-            </p>
+               
             <p>My dear <persName ref="./Personography.xml#BeauF1">Francis</persName>
                <lb/>
+
                I am glad that I have received the copy<lb/>
                of your letter to M<hi rend="superscript">r</hi>
                <persName ref="./Personography.xml#CrokT1">Croker</persName>, before my <persName ref="./Personography.xml#EdgeR1">fathers</persName>
@@ -260,7 +246,29 @@ Your most affectionate<lb/>
                   </choice> Edgeworth</persName>
                <lb/>
             </closer>
-            <closer>
+            
+            <pb n="1" facs="Edgeworth_Huntington_FB1243_1816_06_11_page01.jpg"/> 
+            <postscript>
+            <p>My dear <persName ref="./Personography.xml#BeauF1">Francis</persName></p>
+            <p>I trust you will not<lb/>
+                  think my interference<lb/>
+                  troublesome but I cannot help saying that for<lb/>
+                  your sake and for <persName ref="./Personography.xml#EdgeW1">William</persName> &amp; the public's I wish<lb/>
+                  that your letter to M<hi rend="superscript">r</hi>. <persName ref="./Personography.xml#CrokT1">Croker</persName> were published-<lb/>
+                  and I request you will tell me whether <del>
+                     <choice>
+                        <orig>suppos<lb/>
+                           ing</orig>
+                        <reg>supposing</reg>
+                     </choice> Mr <persName ref="./Personography.xml#CrokT1">Croker</persName>
+                  </del> you would have any objection to<lb/>
+                  it being published if M<hi rend="superscript">r.</hi>
+                  <persName ref="./Personography.xml#CrokT1">Croker</persName> wished it as much<lb/>
+                  as I do- <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
+                  <lb/>
+               </p>
+            </postscript>     
+            <closer> 
                <address>
                   <addrLine/>
                   <persName ref="./Personography.xml#BeauF1">Captain Beaufort <choice>
