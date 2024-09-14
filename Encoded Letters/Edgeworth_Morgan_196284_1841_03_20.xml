@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from Maria Edgeworth to <!--Recipient Name, Month Day, YYYY--></title>
+            <author>Maria Edgeworth</author>
+            <editor ref="Id_who">Jessica Richard</editor>
+               <editor ref="Id_who"> Robin Runia   
+               <!--Editor on the Maria Edgeworth Letters Project overseeing the coding of this particular letter: FirstName LastName -->
+            </editor>
+            <sponsor>
+               <orgName>Maria Edgeworth Letters Project</orgName>
+            </sponsor>
+            <sponsor>Wake Forest University, University of Tennessee, Xavier University, Texas
+               A&amp;M University</sponsor>
+            <principal>Jessica Richard, Hilary Havens, Robin Runia, Susan Egenolf</principal>
+            <respStmt>
+               <resp>Transcription and coding by</resp>
+               <persName ref="Id_who">Jamie Kramer
+               </persName>
+               <persName ref="Id_who">Ella Caldwell</persName>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>First digital edition in TEI, date: <date when="2023-06-16">
+               </date>
+            </edition>
+            <respStmt>
+               <orgName type="naf" ref="https://id.loc.gov/authorities/names/n78095799.html">
+                  Pierpont Morgan Library
+               </orgName>
+               <resp> photos include:
+                  Edgeworth_Morgan_196284_1841_03_20_page01.jpg, Edgeworth_Morgan_196284_1841_03_20_page02.jpg
+               </resp>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Maria Edgeworth Letters Project</authority>
+            <date>2022</date>
+            <availability>
+               <p>Reproduced by courtesy of the <orgName ref="https://id.loc.gov/authorities/names/n78095799.html">Pierpont Morgan Library</orgName>
+               </p>
+               <licence>Distributed under a Creative Commons Attribution-ShareAlike 3.0 Unported
+                  License</licence>
+            </availability>
+            <idno>Edgeworth_Morgan_196284_1841_03_20</idno> 
+         </publicationStmt>
+         <seriesStmt>
+            <title>Maria Edgeworth Letters Project</title>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <repository>Pierpont Morgan Library</repository>
+                  <collection></collection>
+                  <idno></idno>
+               </msIdentifier>
+               <head>Letter from 
+                  <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
+                  to <persName ref="./Personography.xml#SothX1">Miss Sotherby</persName>, <date when="1841-03-20"><note>March 20<hi rend="superscript">th</hi>, 1841</note></date>
+               </head>
+               <physDesc>
+               </physDesc>
+            </msDesc>
+            <bibl>In addition to our edited version, this letter was previously published in
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>Edgeworth’s spelling and punctuation are retained in transcription, except where a
+               word is split at the end of a line and the beginning of the next in a manuscript. The
+               long s and ligatured forms are silently emended.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="./Personography.xml#SothX1">Miss Sotherby</persName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-01-01" who="Id_who">
+         </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <pb n="1" facs="Edgeworth_Morgan_196284_1841_03_20_page01.jpg"/>
+            <opener>
+               <salute>
+                  <persName>
+                    Dear <persName ref="./Personography.xml#SothX1">Miss Sotherby</persName>
+                  </persName><lb/>
+               </salute>
+            </opener>
+            <p>will you be so good<lb/>
+               to return to me the<lb/>
+               paper I sent you<lb/>
+               about <persName ref="./Personography.xml#BridL1">Laura Bridgman</persName><lb/>
+               because I am called<lb/>
+               on to send it to<lb/>
+               the person who lent<lb/>
+               it to me -</p><lb/>
+            <closer>
+               Yours sincerely<lb/>
+               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
+                  <address><placeName ref="./Placeography.xml#1-North-Audley-Street_ENK">1 North Audley Street</placeName><lb/></address>
+               Saturday morning<lb/>
+               <note>March 20 <hi rend="superscript">th</hi> 1841</note><lb/>
+            </closer>
+<pb n="2" facs="Edgeworth_Morgan_196284_1841_03_20_page02.jpg"/><note>MA 14229</note>
+         </div>
+      </body>
+   </text>
+</TEI>
