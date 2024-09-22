@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from Maria Edgeworth to Wiley and Pickram, 5/16/1845</title>
+            <author>Maria Edgeworth</author>
+            <editor ref="Id_who"> 
+                  Jamie Kramer
+               </editor>
+            <sponsor>
+               <orgName>Maria Edgeworth Letters Project</orgName>
+            </sponsor>
+            <sponsor>Wake Forest University, University of Tennessee, Xavier University, Texas
+                  A&amp;M University</sponsor>
+            <principal>Jessica Richard, Hilary Havens, Robin Runia, Susan Egenolf</principal>
+            <respStmt>
+               <resp>Transcription and coding by</resp>
+               <persName ref="Id_who">Jamie Kramer</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Reviewed by</resp>
+               <persName ref="Id_who">Hilary Havens</persName>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>First digital edition in TEI, date: <date when="2024-09-18"/>
+            </edition>
+            <respStmt>
+               <orgName type="naf" ref="http://id.loc.gov/authorities/names/n79049138">
+                  Henry E. Huntington Library and Art Gallery
+               </orgName>
+               <resp> photos include: Edgeworth_Huntington_F15153_1845_05_16_page01.jpg
+               </resp>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Maria Edgeworth Letters Project</authority>
+            <date>2024</date>
+            <availability>
+               <p>Reproduced by courtesy of the <orgName ref="http://id.loc.gov/authorities/names/n79049138">
+                  Henry E. Huntington Library and Art Gallery</orgName>. 
+               </p>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons Attribution 4.0 (CC BY 4.0) Unported
+            License</licence>
+            </availability>
+            <idno>Edgeworth_Huntington_F15153_1845_05_16</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Maria Edgeworth Letters Project</title>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <repository>Henry E. Huntington Library and Art Gallery</repository>
+                  <collection>Manuscripts, Huntington Digital Library, call number 	
+                     mssFI 5153, James Thomas Fields papers and addenda, 1767-1914 (bulk 1850-1914). System Identifier: 622808, https://hdl.huntington.org/digital/collection/p15150coll7/id/55077</collection>
+                  <idno/>
+               </msIdentifier>
+               <head>Letter from 
+                  <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
+                  to <persName ref="./Personography.xml#WileX1">Wiley</persName> &amp; <persName ref="./Personography.xml#PickX1">Pickram</persName>,
+                  <date when="1845-05-16">16. May .45</date>
+               </head>
+               <physDesc/>
+            </msDesc>
+            <bibl>In addition to our edited version, this letter was previously published in
+               </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>Edgeworth’s spelling and punctuation are retained in transcription, including non-standard spelling, line breaks, and hyphenation of words. The long s and ligatured forms are silently emended.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="./Personography.xml#WileX1">Wiley</persName>
+               <persName ref="./Personography.xml#PickX1">Pickram</persName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-01-01" who="Id_who"/>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <pb n="1" facs="Edgeworth_Huntington_F15153_1845_05_16_page01.jpg"/>
+            <p> <persName ref="./Personography.xml#EdgeM1">Miss Edgeworth</persName> understands<lb/>
+               from D[superscript]r[/superscript]. H[unclear]aree[/unclear] of <placeName ref="./Placeography.xml#Boston_MA_US">Boston</placeName> that<lb/>
+               he has sent the 13[superscript]th[/superscript]. Report of<lb/>
+               the Perkins Instruction for<lb/>
+               the Blind to Mess[superscript]r[s/superscript]. <persName ref="./Personography.xml#WileX1">Wiley</persName> &amp; <persName ref="./Personography.xml#PickX1">Pick[unclear]ram[/unclear]</persName><lb/>
+               for her— She requests that they<lb/>
+               will be so good as to send it<lb/>
+               for her to care of <persName ref="./Personography.xml#WilsL1"><choice><orig>L.</orig><reg>Lestock</reg></choice> <choice><orig>P.</orig><reg>Peach</reg></choice> Wilson</persName> Esq<lb/>
+               <placeName ref="./Placeography.xml#North-Audley-Street-1_ENK">1 North Audley Street</placeName><lb/>
+</p>
+            <closer>
+               <dateline>
+                  <placeName ref="./Placeography.xml#Edgeworthstown_IE">Edgeworthstown</placeName><lb/>
+                  <date when="1845-05-16"/>  16. May .45<lb/>
+               </dateline></closer>
+         </div>
+      </body>
+      <back/>
+   </text>
+</TEI>
