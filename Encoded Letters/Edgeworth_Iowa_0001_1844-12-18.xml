@@ -8,7 +8,7 @@
          <titleStmt>
             <title>Letter from Maria Edgeworth, December 18, 1844</title>
             <author>Maria Edgeworth</author>
-            <editor ref="Id_who">
+            <editor>
                Jamie Kramer
             </editor>
             <sponsor>
@@ -19,7 +19,11 @@
             <principal>Jessica Richard, Hilary Havens, Robin Runia, Susan Egenolf</principal>
             <respStmt>
                <resp>Transcription and coding by</resp>
-               <persName ref="Id_who">Jamie Kramer</persName>
+               <persName>Jamie Kramer</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Reviewed by</resp>
+               <persName>Hilary Havens</persName>
             </respStmt>
          </titleStmt>
          <editionStmt>
@@ -27,10 +31,10 @@
             </edition>
             <respStmt>
                <orgName ref="http://id.loc.gov/authorities/names/n85303271">University of Iowa. Libraries. Special Collections Department</orgName>
-               <resp> photos include: Edgeworth_Iowa_0001_1844-12_page01.jpg, 
-                  Edgeworth_Iowa_0001_1844-12_page02.jpg,
-                  Edgeworth_Iowa_0001_1844-12_page03.jpg, 
-                  Edgeworth_Iowa_0001_1844-12_page04.jpg
+               <resp> photos include: Edgeworth_Iowa_0001_1844-12-18_page01.jpg, 
+                  Edgeworth_Iowa_0001_1844-12-18_page02.jpg,
+                  Edgeworth_Iowa_0001_1844-12-18_page03.jpg, 
+                  Edgeworth_Iowa_0001_1844-12-18_page04.jpg
                </resp>
             </respStmt>
          </editionStmt>
@@ -43,7 +47,7 @@
                <licence target="https://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons Attribution 4.0 (CC BY 4.0) Unported
             License</licence>
             </availability>
-            <idno>Edgeworth_Iowa_0001_1844-12</idno>
+            <idno>Edgeworth_Iowa_0001_1844-12-18</idno>
          </publicationStmt>
          <seriesStmt>
             <title>Maria Edgeworth Letters Project</title>
@@ -90,9 +94,9 @@
    <text>
       <body>
          <div type="letter">
-            <pb n="1" facs="Edgeworth_Iowa_0001_1844-12_page01.jpg"/>
+            <pb n="1" facs="Edgeworth_Iowa_0001_1844-12-18_page01.jpg"/>
             <opener>
-               <note>MSL E23 1844</note>
+               <note place="bottom">MSL E23 1844</note>
                <dateline>
                   <placeName ref="./Placeography.xml#Edgeworthstown_IE">Edgeworths Town</placeName>
                   <lb/>
@@ -142,10 +146,11 @@
                which you mention to me; I was<lb/>
                aware that I possessed it; but I<lb/>
                did not purpose transferring it<lb/>
-               with the whole share to M<hi rend="superscript">r</hi>
+               with the whole share to M<hi rend="superscript">rs</hi>
                <lb/>
-               <pb n="2" facs="Edgeworth_Iowa_0001_1844-12_page02.jpg"/>
-               <persName ref="./Personography.xml#EdgeF1">Francis Edgeworth</persName>
+               
+               <pb n="2" facs="Edgeworth_Iowa_0001_1844-12-18_page02.jpg"/>
+               <persName ref="./Personography.xml#EdgeF2">Frances Edgeworth</persName>
                <lb/>
             </p>
             <p>I do wish to sell it - since it<lb/>
@@ -155,8 +160,7 @@
             <p>Be the same more or less <del>I <choice>
                      <orig>sh<hi rend="superscript">d</hi>.</orig>
                      <reg>should</reg>
-                  </choice>
-               </del>
+                  </choice></del>
                <lb/>
                within a few shillings or so<lb/>
                I request you will have the<lb/>
@@ -180,10 +184,11 @@
                   -ber</orig>
                   <reg>remember</reg>
                </choice> me in the kindest manner<lb/>
-                  to <persName ref="./Personography.xml#LawrX1">M<hi rend="superscript">r</hi>. Lawrence</persName>. I have now<lb/>
+                  to <persName ref="./Personography.xml#LawrX1" cert="medium">M<hi rend="superscript">rs</hi>. Lawrence</persName>. I have now<lb/>
                recovered from illness sufficiently<lb/>
                to be allowed to come down to<lb/>
-               <pb n="3" facs="Edgeworth_Iowa_0001_1844-12_page03.jpg"/>
+               
+               <pb n="3" facs="Edgeworth_Iowa_0001_1844-12-18_page03.jpg"/>
                <hi rend="underline">the Library</hi> our common sitting<lb/>
                room &amp; I have been permitted<lb/>
                the use of pen and ink. But<lb/>
@@ -211,7 +216,7 @@
                <lb/>
                good people - I am told that<lb/>
                this book is written by a very<lb/>
-               young <del>Lady</del> Miss <persName ref="./Personography.xml#GoodX1">Goodrick</persName> of <placeName ref="./Placeography.xml#Beaufort_Cheltenham_ENK">
+               young <del>Lady</del> - <add>Miss <persName ref="./Personography.xml#GoodX1">Goodrick</persName> of <placeName ref="./Placeography.xml#Beaufort_Cheltenham_ENK">
                   <choice>
                      <orig>Beau-<lb/>
                fort</orig>
@@ -219,8 +224,9 @@
                   </choice> House</placeName>
                <placeName ref="./Placeography.xml#Cheltenham_ENK">Cheltenham</placeName> - Does <persName ref="./Personography.xml#LawrX1">M<hi rend="superscript">rs</hi>. L</persName>
                <lb/>
-               <pb n="4" facs="Edgeworth_Iowa_0001_1844-12_page04.jpg"/>
-               know any thing about her? I Pray tell me. I am go<lb/>
+               
+               <pb n="4" facs="Edgeworth_Iowa_0001_1844-12-18_page04.jpg"/>
+                  know any thing about her? Pray tell me. I am go<damage><unclear>ing<gap></gap></unclear></damage></add><lb/>
                to write to her as I can do so<lb/>
                with pleasure having heartfelt<lb/>
                praise to offer - I never <hi rend="underline">can</hi>
