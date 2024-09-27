@@ -1,4 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<schema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" elementFormDefault="qualified" xmlns="http://www.w3.org/2001/XMLSchema">
-    <import namespace="http://www.tei-c.org/ns/1.0" schemaLocation="https://www.tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd"/>
-</schema>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           elementFormDefault="qualified">
+    <xs:import namespace="http://www.tei-c.org/ns/1.0"
+               schemaLocation="../schema_copies/tei_all.xsd"/>
+    <xs:import namespace="http://www.tei-c.org/ns/Examples"
+               schemaLocation="../schema_copies/tei_examples.xsd"/>
+    <xs:import namespace="http://www.w3.org/XML/1998/namespace"
+               schemaLocation="../schema_copies/tei_all_xml.xsd"/>
+    <xs:import namespace="http://www.w3.org/2001/XMLSchema"
+               schemaLocation="../schema_copies/tei_all_teix.xsd"/>
+</xs:schema>
