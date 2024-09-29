@@ -1,0 +1,18 @@
+name: Test If Letters Are Valid
+
+permissions:
+  contents: read
+
+on: [pull_request]
+
+jobs:
+    tests:
+        runs-on: ubuntu-latest
+        steps:
+            - uses: actions/checkout@v4
+            - name: change to tests
+              run: cd tests
+            - name: run my tests
+              uses: sudo-bot/action-shunit2@latest
+              with:
+                  cli: "./validate_records.sh"
