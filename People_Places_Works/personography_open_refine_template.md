@@ -44,7 +44,7 @@
                 </availability>
             </publicationStmt>
             <sourceDesc>
-                <p>Personal names and identifiers are derived from the Virtal International Authority File (VIAF) and the Library of Congress Name Authority File
+                <p>Personal names and identifiers are derived from the Virtual International Authority File (VIAF) and the Library of Congress Name Authority File
                 (LCNAF).</p>
             </sourceDesc>
         </fileDesc>
