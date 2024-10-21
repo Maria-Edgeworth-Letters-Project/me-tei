@@ -24,6 +24,10 @@
                <persName>Jamie Kramer</persName>
                <persName/>
             </respStmt>
+            <respStmt>
+               <resp>Reviewed by</resp>
+               <persName>Hilary Havens</persName>
+            </respStmt>
          </titleStmt>
          <editionStmt>
             <edition>First digital edition in TEI, date: <date when="2023-08-19"/>
@@ -33,10 +37,10 @@
                   Henry E. Huntington Library and Art Gallery
                </orgName>
                <resp> photos include: 
-                  Edgeworth_Huntington_HM28586_1782_10_07_page01.jpg,
-                  Edgeworth_Huntington_HM28586_1782_10_07_page02.jpg,
-                  Edgeworth_Huntington_HM28586_1782_10_07_page03.jpg,
-                  Edgeworth_Huntington_HM28586_1782_10_07_page04.jpg
+                  Edgeworth_Huntington_HM28586_1782-10-07_page01.jpg,
+                  Edgeworth_Huntington_HM28586_1782-10-07_page02.jpg,
+                  Edgeworth_Huntington_HM28586_1782-10-07_page03.jpg,
+                  Edgeworth_Huntington_HM28586_1782-10-07_page04.jpg
                </resp>
             </respStmt>
          </editionStmt>
@@ -51,7 +55,7 @@
             License</licence>
             </availability>
             <idno>
-               Edgeworth_Huntington_HM28586_1782_10_07
+               Edgeworth_Huntington_HM28586_1782-10-07
             </idno>
          </publicationStmt>
          <seriesStmt>
@@ -105,7 +109,7 @@
    <text>
       <body>
          <div type="letter">
-            <pb n="1" facs="Edgeworth_Huntington_HM28586_1782_10_07_page01.jpg"/>
+            <pb n="1" facs="Edgeworth_Huntington_HM28586_1782-10-07_page01.jpg"/>
             <opener>
                <dateline>
                   <placeName ref="./Placeography.xml#Edgeworthstown_IE">Edgeworth's Town</placeName>
@@ -126,7 +130,7 @@
                <lb/>
                by different motives; the young ladies who were so obliging to request of<lb/>
                me to write to them would I doubt not have been very glad to hear from<lb/>
-               me for a month or two, but when once a correspondace is begun, I<lb/>
+               me, for a month or two, but when once a correspondace is begun, I<lb/>
                think it must be more agreeable to both the parties to carry it<lb/>
                on. Time becomes more valuable as we grow older and it<lb/>
                requires a greater proportion of it to carry on a constant <choice>
@@ -139,16 +143,16 @@
                   <reg>acquaintance</reg>
                </choice>; I should think one must feel no small degree of<lb/>
                friendship for any one before one can always find something<lb/>
-               to say to them, and what a task it is to be obliged to write to<lb/>
-               <unclear>one</unclear>when when one has nothing to say, I hope my Dear <persName ref="./Personography.xml#HoarF1">Fanny</persName>
+               to say <add>to</add> them, and what a task it is to be obliged to write to<lb/>
+               <del>any</del> when when one has nothing to say, I hope my Dear <persName ref="./Personography.xml#HoarF1">Fanny</persName>
                <lb/>
                this will never be the case with us, but if it ever should<lb/>
                I shall be sincere enough to tell you so, and let me request<lb/>
                the same sincerity from you, for surely it will be better for<lb/>
-               both of us to stop, before we have compleatly tired each other<lb/>
-               <pb n="2" facs="Edgeworth_Huntington_HM28586_1782_10_07_page02.jpg"/>
+               both of us to stop, before we have <choice><orig>compleatly</orig><reg>completely</reg></choice> tired each other<lb/></p>
+               <pb n="2" facs="Edgeworth_Huntington_HM28586_1782-10-07_page02.jpg"/>
                
-               I hope what I have said will not lead you to suspect<lb/>
+               <p>I hope what I have said will not lead you to suspect<lb/>
                that I am already tired of your correspondence for I assure<lb/>
                you I mean it should have a quite contrary Effect, I mean to<lb/>
                convince you that it is entirely through inclination I write to<lb/>
@@ -157,14 +161,13 @@
             <p>
                <persName ref="./Personography.xml#GoldX1">A Brother</persName> of <persName ref="./Personography.xml#GoldO1">Doctor Goldsmith</persName>'s was here a few days<lb/>
                ago. I daresay you have read and admired <persName ref="./Personography.xml#GoldO1">The D<hi rend="superscript">r</hi>
-               </persName>'s <unclear/>
+               </persName>'s <unclear>poetic</unclear>
                <lb/>
                Works; we always are desirous to see any friend or relation<lb/>
                of an ingenious man, if Abilities could be left like Elisha's<lb/>
                Mantle to a successor their prejudice would be justifiable<lb/>
                But Alas! I fear the Heir or relation of a celebrated man<lb/>
-               <del/>
-               <lb/>
+               <del>often partial only of the esteemed resemblance</del><lb/>
                seldom resembles him in any thing but a name or some<lb/>
                external peculiarity; but I think another and a more <choice>
                   <orig>rea-<lb/>
@@ -176,7 +179,7 @@
                   <reg>discover</reg>
                </choice> the private character of one whose writings have given<lb/>
                us pleasure, or whom we have admired in a public capacity<lb/>
-               <unclear>which</unclear> may be more readily discovered from little anecdotes<lb/>
+               <del>which</del><add>this</add> may be more readily discovered from little anecdotes<lb/>
                in his domestic life, than can be expected <add>from</add> the faint portrait<lb/>
                Historians have given us of him - <persName ref="./Personography.xml#GoldX1">M<hi rend="superscript">r</hi>. G.</persName> is a Cabinet Maker<lb/>
                and is esteemed ingenious in <hi rend="underline">his line of life</hi>. I fancy he is in<lb/>
@@ -186,8 +189,7 @@
                   <reg>ingenious</reg>
                </choice> a Man should<lb/>
                pass through life neglected and unknown we expect that<lb/>
-               one who was so nearly connected with <del/>
-               <add>him</add> who has <choice>
+               one who was so nearly connected with <del>one</del><add>him</add> who has <choice>
                   <orig>render-<lb/>
                   -ed</orig>
                   <reg>rendered</reg>
@@ -196,15 +198,15 @@
                -tomed</orig>
                   <reg>accustomed</reg>
                </choice> to respect should share in that respect &amp; partake in<lb/>
-               the fame he has acquired. -<lb/>
+               <del>his</del><add>the</add> fame he has acquired. -<lb/>
             </p>
             <p>
                <persName ref="./Personography.xml#VanhX1">M<hi rend="superscript">rs</hi>.. Vanhock</persName> and <persName ref="./Personography.xml#VanX1">Miss Van</persName> often used to speak<lb/>
-               in high terms of a <persName ref="./Personography.xml#IrwiX2">M<hi rend="superscript">r</hi>.. Irwin</persName> &amp; of his account of his Travels<lb/>
-               <persName ref="./Personography.xml#IrwiX1">M<hi rend="superscript">rs</hi>.. Irwin</persName> is our nearest Neighbour, she has a very pretty<lb/>
-               <persName ref="./Personography.xml#IrwiX3">Sister</persName> - she <del>is</del> seems generally liked by all the Neighbourhood<lb/>
+               in high terms of a <persName ref="./Personography.xml#IrwiE1">M<hi rend="superscript">r</hi>.. Irwin</persName> &amp; of his account of his Travels<lb/>
+               <persName ref="./Personography.xml#IrwiS1">M<hi rend="superscript">rs</hi>.. Irwin</persName> is our nearest Neighbour, she has a very pretty<lb/>
+               <persName ref="./Personography.xml#BealX1">Sister</persName> - she <del>is</del> seems generally liked by all the Neighbourhood<lb/>
                I have not seen enough of her to form any opinion of her<lb/>
-               <pb n="3" facs="Edgeworth_Huntington_HM28586_1782_10_07_page03.jpg"/>
+               <pb n="3" facs="Edgeworth_Huntington_HM28586_1782-10-07_page03.jpg"/>
                   
                myself, and even if I had, I should be very cautious of giving<lb/>
                it, in <hi rend="underline">writing</hi> until I was fearfully convinced it was a <hi rend="underline">just</hi>
@@ -254,7 +256,7 @@
                <lb/>
                gone over to <placeName ref="./Placeography.xml#IT">Italy</placeName>! well he will be happier there than in<lb/>
                <placeName ref="./Placeography.xml#London_ENK">London</placeName>, for with all his discernment &amp; good sense he<lb/>
-               <pb n="4" facs="Edgeworth_Huntington_HM28586_1782_10_07_page04.jpg"/>
+               <pb n="4" facs="Edgeworth_Huntington_HM28586_1782-10-07_page04.jpg"/>
                
                appeared rather too strongly tinctured with partiality<lb/>
                for the manners &amp; customs of his Countrymen<lb/>
