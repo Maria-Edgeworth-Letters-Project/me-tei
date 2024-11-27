@@ -98,31 +98,14 @@ Dear Sir<lb/>
                promise of sending the letters by you but<lb/>
                they are perfectly safe and if on my<lb/>
                return to town I find she is not returning<lb/>
-               with M<hi rend="superscript">rs</hi>. Wilson I shall send them per<lb/>
-               favour of Sir Francis Freeling<lb/>
-               Sincerely Yours<lb/>
-               <unclear>C.</unclear> Sophia Lockhart<lb/>
+               with <persName ref="./Personography.xml#EdgeF3" cert="medium">M<hi rend="superscript">rs</hi>. Wilson</persName> I shall send them per<lb/>
+               favour of <persName ref="./Personography.xml#FreeF1">Sir Francis Freeling</persName><lb/>            
             </p>
             <closer>
-               <!--include linebreaks, if used. example: <closer> Yours<lb/> Very sincerely<lb/> -->
-            </closer>
-            <postscript>
-               <p><!--A postscript goes here, outside the <closer>. --></p>
-            </postscript>
-            <!--You can include a <pb/> here, or inside the postScript.-->
-            <!-- Format for postscripts. 
-               Postscripts do NOT go inside closer tags. Adjust to take into account the order in your letter. 
-               Sometimes the signature is on page three, the address on page four, then the postscript follows back on the top of page one, for example.-->
-            <closer><!--Use the <closer> element again to hold Address Leaf information.-->
-               <address>
-                  <!--Include any text written on the address leaf; use a separate "addrLine" for each line and indicate line breaks. -->
-                  <addrLine/>
-                  <addrLine/>
-                  <addrLine/>
-               </address>
+               Sincerely Yours<lb/>
+               <persName ref="./Personography.xml#LockS1"><choice><orig>C.</orig><reg>Charlotte</reg></choice> Sophia Lockhart</persName><lb/>
             </closer>
          </div>
       </body>
-      <back> </back>
    </text>
 </TEI>
