@@ -51,8 +51,7 @@
                   <repository>National Library of Scotland</repository>
                </msIdentifier>
                <head>Letter from 
-                  <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
-                  to <persName ref="./Personography.xml#LockS1">Sophia Lockhart</persName>, <placeName ref="./Placeography.xml#Rokeby-Park_ENK">Rokeby Park</placeName>
+                  <persName ref="./Personography.xml#LockS1">Sophia Lockhart</persName>, <placeName ref="./Placeography.xml#Rokeby-Park_ENK">Rokeby Park</placeName>
                   <date>14th August</date>
                </head>
                <physDesc> <decoDesc><decoNote type="border">
@@ -60,27 +59,17 @@
                </decoNote></decoDesc>
                </physDesc>
             </msDesc>
-            <bibl>In addition to our edited version, this letter was previously published in
-               <!--complete bibiographical info if letter was published in a book here - if not delete-->
-            </bibl>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
          <editorialDecl>
-            <!--Where Edgeworth uses nonstandard spelling and hyphenation of words, transcriber-coders 
-               should use TEI elements “choice," “sic," and “reg" to encode both Edgeworth’s 
-               spelling and the regular international standard of Oxford English spelling, 
-               following the first listed spelling in the Oxford English Dictionary. -->
             <p>Edgeworth’s spelling and punctuation are retained in transcription, including non-standard spelling, line breaks, and hyphenation of words. The long s and ligatured forms are silently emended.</p>
          </editorialDecl>
       </encodingDesc>
       <profileDesc>
          <correspDesc>
             <correspAction type="sent">
-               <persName><!--SENDER NAME--></persName>
-            </correspAction>
-            <correspAction type="received">
-               <persName><!--RECIPIENT NAME--></persName>
+               <persName ref="./Personography.xml#LockS1">Sophia Lockhart</persName>
             </correspAction>
          </correspDesc>
       </profileDesc>
