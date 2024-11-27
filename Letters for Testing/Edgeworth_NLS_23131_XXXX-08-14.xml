@@ -28,7 +28,7 @@
             </edition>
             <respStmt>
                <orgName type="naf" ref="http://id.loc.gov/authorities/names/n80044899">National Library of Scotland</orgName>
-               <resp> photos include: Edgeworth_NLS_23131_08_14_page01.jpg
+               <resp> photos include: Edgeworth_NLS_23131_XXXX-08-14_page01.jpg
                </resp>
             </respStmt>
          </editionStmt>
@@ -39,7 +39,7 @@
                </p>
                   <licence target="https://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons Attribution 4.0 (CC BY 4.0) Unported License</licence>
             </availability>
-            <idno>Edgeworth_NLS_23131_08-14</idno> 
+            <idno>Edgeworth_NLS_23131_XXXX-08-14</idno> 
          </publicationStmt>
          <seriesStmt>
             <title>Maria Edgeworth Letters Project</title>
@@ -80,7 +80,7 @@
    <text>
       <body>
          <div type="letter">
-            <pb n="1" facs="Edgeworth_NLS_23131_08_14_page01.jpg"/>
+            <pb n="1" facs="Edgeworth_NLS_23131_XXXX-08-14_page01.jpg"/>
             <opener>
                <dateline>
                   <placeName ref="./Placeography.xml#Rokeby-Park_ENK">Rokeby Park</placeName><lb/>
@@ -89,21 +89,19 @@
 Dear Sir<lb/>
                </salute>
             </opener>
-            <p><!-- Begin transcibing the body of the letter here. -->
-            </p>
-            <p>On my return from Ramsgate I only
-               remained a few hours in [unclear][/unclear] Place tho little
-               time to make up Miss Edgeworths packet [underline]My[/underline] affect-
-               ion to her and my illness and distress
-               [unclear]love[/unclear] to her and my illness and distress
-               must be my excuse for not performing my
-               promise of sending the letters by you but
-               they are perfectly safe and if on my
-               return to town I find she is not returning
-               with M[superscript]rs[/superscript]. Wilson I shall send them per
-               favour of Sir Francis Freeling
-               Sincerely Yours
-               [unclear]C.[/unclear] Sophia Lockhart
+            <p>On my return from <placeName ref="./Placeography.xml#Ramsgate_ENK">Ramsgate</placeName> I only<lb/>
+               remained a few hours in <unclear></unclear> Place tho little<lb/>
+               time to make up <persName ref="./Personography.xml#EdgeM1">Miss <choice><orig>Edgeworths</orig><reg>Edgeworth's</reg></choice></persName> packet <hi rend="superscript">My</hi> <choice><orig>affect-<lb/>
+                  ion</orig><reg>affection</reg></choice> to her and my illness and distress<lb/>
+               <unclear>love</unclear> to her and my illness and distress<lb/>
+               must be my excuse for not performing my<lb/>
+               promise of sending the letters by you but<lb/>
+               they are perfectly safe and if on my<lb/>
+               return to town I find she is not returning<lb/>
+               with M<hi rend="superscript">rs</hi>. Wilson I shall send them per<lb/>
+               favour of Sir Francis Freeling<lb/>
+               Sincerely Yours<lb/>
+               <unclear>C.</unclear> Sophia Lockhart<lb/>
             </p>
             <closer>
                <!--include linebreaks, if used. example: <closer> Yours<lb/> Very sincerely<lb/> -->
