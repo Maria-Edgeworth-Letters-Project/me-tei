@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from John Lockhart to Maria Edgeworth, June 25, 1833</title>
+            <author>John Lockhart</author>
+            <editor>Jamie Kramer
+            </editor>
+            <sponsor>
+               <orgName>Maria Edgeworth Letters Project</orgName>
+            </sponsor>
+            <sponsor>Wake Forest University, University of Tennessee, Xavier University, Texas
+               A&amp;M University</sponsor>
+            <principal>Susan Egenolf, Meredith Hale, Hilary Havens, Jessica Richard, and Robin Runia</principal>
+            <respStmt>
+               <resp>Transcription and coding by</resp>
+               <persName>Jamie Kramer
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>First digital edition in TEI, date: <date when="2024-12-05">
+            </date>
+            </edition>
+            <respStmt>
+               <orgName type="naf" ref="http://id.loc.gov/authorities/names/n80044899">National Library of Scotland</orgName>
+               <resp> photos include: Edgeworth_NLS_23131_1833-06-25_page01.jpg
+               </resp>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Maria Edgeworth Letters Project</authority>
+            <date>2022</date>
+            <availability><p>Reproduced by courtesy of <orgName ref="http://id.loc.gov/authorities/names/n80097499">Harvard University, Houghton Library</orgName>
+               </p>
+                  <licence target="https://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons Attribution 4.0 (CC BY 4.0) Unported License</licence>
+            </availability>
+            <idno>Edgeworth_NLS_23131_XXXX-08-14</idno> 
+         </publicationStmt>
+         <seriesStmt>
+            <title>Maria Edgeworth Letters Project</title>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <repository>National Library of Scotland</repository>
+               </msIdentifier>
+               <head>Letter from 
+                  <persName ref="./Personography.xml#LockJ1">Sophia Lockhart</persName>, <placeName ref="./Placeography.xml#Rokeby-Park_ENK">Rokeby Park</placeName>
+                  <date>14<hi rend= "superscript">th</hi> August</date>
+               </head>
+               <physDesc> <decoDesc><decoNote type="border">
+                  <p>Four-sided black border indicates that the writer is in mourning.</p>
+               </decoNote></decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>Edgeworth’s spelling and punctuation are retained in transcription, including non-standard spelling, line breaks, and hyphenation of words. The long s and ligatured forms are silently emended.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="./Personography.xml#LockS1">Sophia Lockhart</persName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-01-01" who="Id_who">
+         </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <pb n="1" facs="Edgeworth_NLS_23131_XXXX-08-14_page01.jpg"/>
+            <opener>
+               <dateline>
+                  <placeName ref="./Placeography.xml#Rokeby-Park_ENK">Rokeby Park</placeName><lb/>
+                  <date>14<hi rend= "superscript">th</hi> August</date></dateline><lb/>
+               <salute>
+Dear Sir<lb/>
+               </salute>
+               
+            </opener>
+            <p>[note]12[/note]
+               My dear Miss Edgeworth You will be shocked to hear
+               that we have this day lost Anne Scott
+               carried off in 14 days by brain fever in
+               the prime of her life - apparently but
+               yesterday in high health. The calamities
+               of latter years had been too much for her
+               nerves.
+               Sophia in her distress reminds me to send
+               you this line ever yours very Sincerely
+               J[unclear][/unclear] Lockhart
+               London June 25[superscript]th[/superscript] 1833
+               
+               <lb/>            
+            </p>
+            <closer>
+               Sincerely Yours<lb/>
+               <persName ref="./Personography.xml#LockS1"><choice><orig>C.</orig><reg>Charlotte</reg></choice> Sophia Lockhart</persName><lb/>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>
