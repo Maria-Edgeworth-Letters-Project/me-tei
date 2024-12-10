@@ -21,6 +21,14 @@
                <persName>Eliza Wilcox</persName>
                <persName/>
             </respStmt>
+            <respStmt>
+               <resp>Reviewed by</resp>
+               <persName>Hilary Havens</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Reviewed by</resp>
+               <persName>Robin Runia</persName>
+            </respStmt>
          </titleStmt>
          <editionStmt>
             <edition>First digital edition in TEI, date: October 27, 2022<date when="2022-10-27"/>
@@ -30,9 +38,9 @@
                         Beinecke Rare Book and Manuscript Library
                         </orgName>
                <resp> photos include:
-                        Edgeworth_Beinecke_330_1817_02_16_page01.jpg,
-                        Edgeworth_Beinecke_330_1817_02_16_page02.jpg,
-                        Edgeworth_Beinecke_330_1817_02_16_page03.jpg
+                        Edgeworth_Beinecke_1817-02-16_page01.jpg,
+                        Edgeworth_Beinecke_1817-02-16_page02.jpg,
+                        Edgeworth_Beinecke_1817-02-16_page03.jpg
                         </resp>
             </respStmt>
          </editionStmt>
@@ -45,7 +53,7 @@
                <licence target="https://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons Attribution 4.0 (CC BY 4.0) Unported
             License</licence>
             </availability>
-            <idno/>
+            <idno>Edgeworth_Beinecke_1817-02-16</idno>
          </publicationStmt>
          <seriesStmt>
             <title>Maria Edgeworth Letters Project</title>
@@ -90,7 +98,7 @@
    <text>
       <body>
          <div type="letter">
-            <pb n="2" facs="Edgeworth_Beinecke_330_1817_02_16_page02.jpg"/>
+            <pb n="1" facs="Edgeworth_Beinecke_1817-02-16_page02.jpg"/>
             <opener>
                <dateline>
                   <placeName ref="./Placeography.xml#Edgeworthstown_ENK"/>Edgeworthstown. town. 1817<lb/>
@@ -107,7 +115,7 @@
                     manner in which it was packed, for the<lb/>
                     corners were quite split, and the green <unclear>shawl</unclear>
                <lb/>
-                    very apparent, &amp; had not the custom house<lb/>
+                    very apparent, &amp; had not the Custom house<lb/>
                     officers been blind, they would have seized<lb/>
                     both it and <persName ref="./Personography.xml#BeauF1">Captain Beaufort</persName> too - it is<lb/>
                     much approved of &amp; thought very cheap<lb/>
@@ -119,11 +127,12 @@
                     thing that he could <del/>, but has not heard<lb/>
                     anything, he has written to the English Post<lb/>
                     Master <del/>, but I do believe that <add>it</add> was lost,<lb/>
-               <pb n="3" facs="Edgeworth_Beinecke_330_1817_02_16_page03.jpg"/>  
+               
+               <pb n="2" facs="Edgeworth_Beinecke_1817-02-16_page03.jpg"/>  
                     either going from the Ordnance Office or in it - <lb/>
             </p>
             <p> Now will you be so kind as to inform me by<lb/>
-                     whom it was sent and to whom it was deliverd<lb/>
+               whom it was sent and to whom it was <choice><orig>deliverd</orig><reg>delivered</reg></choice><lb/>
                      And how it was packed, was it put between<lb/>
                     two pieces of pasteboard, or was it packed<lb/>
                     according to your way, merely in paper? I assure<lb/>
@@ -153,7 +162,7 @@
                <p/>
             </postscript>
             <closer>
-               <pb n="1" facs="Edgeworth_Beinecke_330_1817_02_16_page01.jpg"/>
+               <pb n="1" facs="Edgeworth_Beinecke_1817-02-16_page01.jpg"/>
                <address>
                   <addrLine>
                      <persName ref="./Personography.xml#MileX1">M<hi rend="superscript">rs</hi>. Miles.</persName>
