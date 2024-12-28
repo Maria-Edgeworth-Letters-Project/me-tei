@@ -39,7 +39,7 @@
                </p>
                   <licence target="https://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons Attribution 4.0 (CC BY 4.0) Unported License</licence>
             </availability>
-            <idno>Edgeworth_NLS_23131_XXXX-08-14</idno> 
+            <idno>Edgeworth_NLS_23131_1833-06-25</idno> 
          </publicationStmt>
          <seriesStmt>
             <title>Maria Edgeworth Letters Project</title>
@@ -50,8 +50,8 @@
                   <repository>National Library of Scotland</repository>
                </msIdentifier>
                <head>Letter from 
-                  <persName ref="./Personography.xml#LockJ1">Sophia Lockhart</persName>, <placeName ref="./Placeography.xml#Rokeby-Park_ENK">Rokeby Park</placeName>
-                  <date>14<hi rend= "superscript">th</hi> August</date>
+                  <persName ref="./Personography.xml#LockJ1">John Lockhart</persName>, <placeName ref="./Placeography.xml#London_ENK">London</placeName>,
+                  <date when="1833-06-25">June 25<hi rend= "superscript">th</hi>1833</date>
                </head>
                <physDesc> <decoDesc><decoNote type="border">
                   <p>Four-sided black border indicates that the writer is in mourning.</p>
@@ -68,7 +68,10 @@
       <profileDesc>
          <correspDesc>
             <correspAction type="sent">
-               <persName ref="./Personography.xml#LockS1">Sophia Lockhart</persName>
+               <persName ref="./Personography.xml#LockJ1">John Lockhart</persName>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
             </correspAction>
          </correspDesc>
       </profileDesc>
@@ -80,35 +83,20 @@
    <text>
       <body>
          <div type="letter">
-            <pb n="1" facs="Edgeworth_NLS_23131_XXXX-08-14_page01.jpg"/>
+            <pb n="1" facs="Edgeworth_NLS_23131_XXXX-08-14_page01.jpg"/><note>12</note>
             <opener>
+               <salute>My dear <persName ref="./Personography.xml#EdgeM1">Miss Edgeworth</persName></salute></opener><p>You will be shocked to hear<lb/>
+                  that we have this day lost <persName ref="./Personography.xml#ScotA1">Anne Scott</persName><lb/>
+                  carried off in 14 days by brain fever in<lb/>
+                  the prime of her life - apparently but<lb/>
+                  yesterday in high health. The calamities<lb/>
+                  of latter years had been too much for her<lb/>
+                  nerves.<lb/>
+                  <persName ref="./Personography.xml#LockS1">Sophia</persName> in her distress reminds me to send<lb/>
+                  you this line ever</p><closer>yours very Sincerely<lb/>
+               <persName ref="./Personography.xml#LockJ1">J<unclear></unclear> Lockhart<lb/></persName><lb/>
                <dateline>
-                  <placeName ref="./Placeography.xml#Rokeby-Park_ENK">Rokeby Park</placeName><lb/>
-                  <date>14<hi rend= "superscript">th</hi> August</date></dateline><lb/>
-               <salute>
-Dear Sir<lb/>
-               </salute>
-               
-            </opener>
-            <p>[note]12[/note]
-               My dear Miss Edgeworth You will be shocked to hear
-               that we have this day lost Anne Scott
-               carried off in 14 days by brain fever in
-               the prime of her life - apparently but
-               yesterday in high health. The calamities
-               of latter years had been too much for her
-               nerves.
-               Sophia in her distress reminds me to send
-               you this line ever yours very Sincerely
-               J[unclear][/unclear] Lockhart
-               London June 25[superscript]th[/superscript] 1833
-               
-               <lb/>            
-            </p>
-            <closer>
-               Sincerely Yours<lb/>
-               <persName ref="./Personography.xml#LockS1"><choice><orig>C.</orig><reg>Charlotte</reg></choice> Sophia Lockhart</persName><lb/>
-            </closer>
+                  <placeName ref="./Placeography.xml#London_ENK">London</placeName><date when="1833-06-25">June 25<hi rend= "superscript">th</hi>1833</date></dateline></closer> 
          </div>
       </body>
    </text>
