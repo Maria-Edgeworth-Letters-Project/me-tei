@@ -50,7 +50,7 @@
                   <repository>National Library of Scotland</repository>
                </msIdentifier>
                <head>Letter from 
-                  <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>, <placeName ref="./Placeography.xml#1-North-Audley-Street_ENK">1 North Audley Street, London</placeName>,
+                  <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>, <placeName ref="./Placeography.xml#1-North-Audley-Street_ENK">1 North Audley Street</placeName>,
                   <date>May 1841</date>
                </head>
                <physDesc> <decoDesc><decoNote type="border">
@@ -82,11 +82,31 @@
          <div type="letter">
             <pb n="1" facs="Edgeworth_NLS_42180_1841-05-XX_page01.jpg"/>
             <opener>
-               <salute></salute></opener>
-            <p></p><closer><lb/>
-               
-               <dateline></dateline></closer>
-
+               <dateline>
+                  <placeName ref="./Placeography.xml#1-North-Audley-Street_ENK">1 North Audley Street</placeName><lb/>
+                  <date>May 1841</date><lb/>
+               </dateline>
+               <salute>D.<hi rend="superscript">r</hi> Sir</salute></opener><lb/>
+            <p>Pray remember that you have<lb/>
+               not sent me any answer<lb/>
+               about <persName ref="./Personography.xml#MoorG1">Mr. G Moore</persName>'s <unclear>MP</unclear><lb/>
+               --<persName ref="./Personography.xml#MoorX1">M.<hi rend="superscript">rs</hi> Moore</persName> will be with me<lb/>
+               tomorrow at one o'clock and<lb/>
+               what am I to say to her?---<lb/></p>
+               <p>I request you will send<lb/>
+               me some answer - If you<lb/>
+               do not wish to have the <unclear></unclear><lb/>
+               send it to me by the Bearer<lb/>
+               of this note I entreat that<lb/>
+               I may not be obliged to<lb/>
+               break my good word which<lb/>
+               I have passed for you -</p><lb/>
+            <closer>I am D.<hi rend="superscript">r</hi> Sir<lb/>
+               Yours sincerely<lb/>
+               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName><lb/></closer>
+               <postscript><p>Did you not receive a note
+               from me last week on this subject?
+               shame! ---</p></postscript>
          </div>
       </body>
    </text>
