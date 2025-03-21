@@ -22,6 +22,7 @@
             <respStmt>
                <resp>Reviewed by</resp>
                <persName>Robin Runia</persName>
+               <persName>Hilary Havens</persName>
             </respStmt>
          </titleStmt>
          <editionStmt>
@@ -32,8 +33,8 @@
                <orgName type="naf" ref="http://id.loc.gov/authorities/names/n80097790">
                   Beinecke Rare Book and Manuscript Library</orgName>
                <resp> photos include:
-                  Edgeworth_Beinecke_unknown_01_page01.jpg,
-                  Edgeworth_Beinecke_unknown_01_page02.jpg
+                  Edgeworth_Beinecke_ME-to-LEDarnley_page01.jpg,
+                  Edgeworth_Beinecke_ME-to-LEDarnley_page02.jpg
                 </resp>
             </respStmt>
          </editionStmt>
@@ -46,7 +47,7 @@
                <licence target="https://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons Attribution 4.0 (CC BY 4.0) Unported
             License</licence>
             </availability>
-            <idno/>
+            <idno>Edgeworth_Edgeworth_Beinecke_ME-to-LEDarnley</idno>
          </publicationStmt>
          <seriesStmt>
             <title>Maria Edgeworth Letters Project</title>
@@ -90,7 +91,7 @@
    <text>
       <body>
          <div type="letter">
-            <pb n="1" facs="Edgeworth_Beinecke_unknown_01_page01.jpg"/>
+            <pb n="1" facs="Edgeworth_Beinecke_ME-to-LEDarnley_page01.jpg"/>
             <opener>
                <salute>
                   <persName ref="./Personography.xml#DarnX1">
@@ -120,9 +121,9 @@
             of the delay -<lb/>
             </p>
             <p>It will give me pleasure<lb/>
-               <pb n="2" facs="Edgeworth_Beinecke_unknown_01_page02.jpg"/>
-               <del/> I am now at<lb/>
-               <placeName ref="/.Placeography.xml#Black-Castle_IE">Black Castle</placeName> with <persName ref="./Personography.xml#RuxtJ1">M<hi rend="superscript">r</hi>
+               <pb n="2" facs="Edgeworth_Beinecke_ME-to-LEDarnley_page02.jpg"/>
+               <del>with</del> I am now at<lb/>
+               <placeName ref="/.Placeography.xml#Black-Castle_IE">Black Castle</placeName> with <persName ref="./Personography.xml#RuxtM1">M<hi rend="superscript">rs</hi>.
                   <lb/>
             Ruxton</persName> who desires<lb/>
             to be kindly remembered<lb/>
@@ -137,7 +138,7 @@
             My dear <persName ref="./Personography.xml#DarnE1">Lady Darnley</persName>
                <lb/>
             your Ladyships<lb/>
-            Affec<hi rend="superscript">e</hi> Servant<lb/>
+            Affec<hi rend="superscript">t</hi> Servant<lb/>
                <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
                <lb/>
             </closer>
