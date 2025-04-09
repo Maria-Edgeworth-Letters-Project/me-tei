@@ -6,10 +6,10 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Letter from Maria Edgeworth to <!--Recipient Name, Month Day, YYYY--></title>
+            <title>Letter fragment from Maria Edgeworth to Mrs. Edgeworth, 1843</title>
             <author>Maria Edgeworth</author>
             <editor>
-               <!--Editor on the Maria Edgeworth Letters Project overseeing the coding of this particular letter: FirstName LastName -->
+               <persName>Hilary Havens</persName>
             </editor>
             <sponsor>
                <orgName>Maria Edgeworth Letters Project</orgName>
@@ -18,26 +18,25 @@
                A&amp;M University</sponsor>
             <principal>Susan Egenolf, Meredith Hale, Hilary Havens, Jessica Richard, and Robin Runia</principal>
             <respStmt>
-               <resp>Transcription and coding by</resp>
-               <persName><!--FirstName LastName-->
-               </persName>
+               <resp>Transcription and encoding by</resp>
+               <persName>Paris Weber</persName>
+               <persName>Hilary Havens</persName>
                <!-- List all transcribers or coders here, editors and students alike, <persName> by <persName>.-->
                <persName><!--FirstName LastName--></persName>
                <!-- If you're the last person interacting with the file, enter your name last on the list -->
             </respStmt>
          </titleStmt>
          <editionStmt>
-            <edition>First digital edition in TEI, date: <date when="2022-01-01">
+            <edition>First digital edition in TEI, date: <date when="2025-04-09">
                   <!--enter the date on which the first coder created and saved this XML file-->
                </date>
             </edition>
             <respStmt>
                <orgName type="naf" ref="Id_who">
-                  <!--who digitized the letter or gave us permission for to use the file?-->
+                  Bodleian Library
                </orgName>
                <resp> photos include:
-                  <!-- Make a comma-separated list of each .jpg photo file name associated with your letter. 
-                     For example: DSCF9476.jpg, DSCF9477.jpg, DSCF9478.jpg-->
+                  Edgeworth_Bodleian_702_1843-XX_page01.jpg, Edgeworth_Bodleian_702_1843-XX_page02.jpg
                </resp>
             </respStmt>
          </editionStmt>
@@ -47,13 +46,10 @@
             <availability>
                <!--Uncomment the appropriate line, based on the archive that holds the physical copy of this letter, 
                   and delete the other comment line(s).-->
-               <p><!--Reproduced by courtesy of the <orgName ref="#ReadingCL">Reading Central Library</orgName>.-->
-                  <!--or -->
-                  <!--Courtesy of <orgName ref="#Rylands">The University of Manchester</orgName>.-->
+               <p>Reproduced by courtesy of the <orgName ref="http://id.loc.gov/authorities/names/n80020306">Bodleian Library</orgName>.
                </p>
-               <licence target="https://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons Attribution 4.0 (CC BY 4.0) Unported License</licence>
             </availability>
-            <idno><!--Change to match the file name and current naming standards, i.e. "Edgeworth_Beinecke_330_1817_01_24" if file name is "Edgeworth_Beinecke_330_1817_01_24.xml"--></idno> 
+            <idno>Edgeworth_Bodleian_702_1843-XX</idno> 
          </publicationStmt>
          <seriesStmt>
             <title>Maria Edgeworth Letters Project</title>
@@ -62,20 +58,20 @@
             <msDesc xml:lang="en">
                <!-- This section of the header identifies the original manuscript source. -->
                <msIdentifier>
-                  <repository>ORGANIZATION NAME</repository>
-                  <collection><!-- Enter specific archival collection if applicable--></collection>
+                  <repository>Bodleian Library</repository>
+                  <collection>MS. Eng. lett. c. 702</collection>
                   <idno><!--Consult library or WorldCat for this info--></idno>
                </msIdentifier>
                <head>Letter from 
-                     <persName xml:id="EdgeM1" from="1768" to="1849">
+                  <persName ref="./Personography.xml#EdgeM1" from="1768" to="1849">
                         <forename>Maria</forename>
                         <surname>Edgeworth</surname>
                         <date>1768-1849</date>
                         <idno type="VIAF">71477273</idno>
                         <idno type="SNAC">62567029</idno>
                      </persName>
-                   to <persName><!--Recipient Name--></persName>, <placeName><!--Location where letter was sent--></placeName>, 
-                  <date when="1111-01-01"><!-- Transcribe the date as it appears on the letter itself. Enter a numeric standardized date value in @when. --></date>
+                  to <persName ref="./Personography.xml#EdgeF2">Edgeworth, Frances Anne, 1769-1865</persName>, <placeName><!--Location where letter was sent--></placeName>, 
+                  <date when="1843"><!-- Transcribe the date as it appears on the letter itself. Enter a numeric standardized date value in @when. --></date>
                   <!-- <stamp>Enter description, if applicable</stamp>-->
                </head>
                <physDesc>
@@ -99,10 +95,10 @@
       <profileDesc>
          <correspDesc>
             <correspAction type="sent">
-               <persName><!--SENDER NAME--></persName>
+               <persName ref="./Personography.xml#EdgeM1">Edgeworth, Maria, 1768-1849</persName>
             </correspAction>
             <correspAction type="received">
-               <persName><!--RECIPIENT NAME--></persName>
+               <persName ref="./Personography.xml#EdgeF2">Edgeworth, Frances Anne, 1769-1865</persName>
             </correspAction>
          </correspDesc>
       </profileDesc>
@@ -115,47 +111,96 @@
    <text>
       <body>
          <div type="letter">
-            <pb n="1" facs="image1.jpg"/>
+            <pb n="1" facs="Edgeworth_Bodleian_702_1843-XX_page01.jpg"/>
             <!--filenames for photos associated with this letter. Example: <pb n="1" facs="image1.jpg image2.jpg image3.jpg"/> -->
-            <opener>
-               <dateline><!--If there's no date line, remove this element. Record in the order in which it is written on the letter.-->
-                  <placeName ref="Id_where"/>
-                  <date when="1111-11-11">Month DD, YYYY</date></dateline>
-               <salute>
-                  <persName>
-                     <!-- Use if letter has a saluation ("Dear Sir," for example). If not, delete this line.-->
-                  </persName>
-               </salute>
-            </opener>
-            <p><!-- Begin transcibing the body of the letter here. -->
-            </p>
-            <p>
-               <!--More body paragraphs as needed.--></p>
-            <p>
-               <!--More body paragraphs as needed.-->
-               <!--Where there's a page break record it inside the relevant body paragraph like this, 
-                  with the self-closing page-break element. n="2" indicates the START of the second page.-->
-               <pb n="2" facs="image2.jpg"/>
-            </p>
-            <p><!--More body paragraphs as needed.--></p>
-            <closer>
-               <!--include linebreaks, if used. example: <closer> Yours<lb/> Very sincerely<lb/> -->
-            </closer>
-            <postscript>
-               <p><!--A postscript goes here, outside the <closer>. --></p>
-            </postscript>
-            <!--You can include a <pb/> here, or inside the postScript.-->
-            <!-- Format for postscripts. 
-               Postscripts do NOT go inside closer tags. Adjust to take into account the order in your letter. 
-               Sometimes the signature is on page three, the address on page four, then the postscript follows back on the top of page one, for example.-->
-            <closer><!--Use the <closer> element again to hold Address Leaf information.-->
-               <address>
-                  <!--Include any text written on the address leaf; use a separate "addrLine" for each line and indicate line breaks. -->
-                  <addrLine/>
-                  <addrLine/>
-                  <addrLine/>
-               </address>
-            </closer>
+            <p><note>78</note><lb/>
+               that I could not help coveting the<lb/>
+               like for you - But upon inquiry<lb/>
+               I find wages impracticable -<lb/>
+               a good cook &amp; housekeeper from <add>£</add>25 to <add>£</add>30<lb/>
+               a Butler such as I see here <hi rend="underline">good</hi> 40 - not a<lb/>
+               <add>penny less - finding their own clothes</add><lb/>
+               a housemaid - good - not under 10 and<lb/>
+               usually from ten to <hi rend="underline">fourteen</hi><lb/>
+               <hi rend="underline">finding</hi> their own tea &amp; sugar -<lb/></p>
+            
+               <p>- I must put all this as you<lb/>
+               will say out of my head - &amp; so I will if<lb/>
+               I can - But I do so long for your<lb/>
+               comfort dear mother that you<lb/>
+               had even two good servants<lb/>
+               cook - &amp; butler - for credit - care<lb/>
+               and really Economy as well as comfort<lb/>
+               - if one could but afford it - "I beg<lb/>
+               your pardon" - "for what what my dear?"<lb/></p>
+            
+               <p>Thank you for the lines you<lb/>
+               crammed in at the end of your letter<lb/>
+               about the <persName ref="./Personography.xml#OHigW1" cert="medium">Lord Bishop Higgins</persName> &amp;<lb/>
+               the Pope &amp; the prayers of his Holiness<lb/>
+               for <persName>OConnell</persName> - this made <unclear><persName ref="./Personography.xml#MoilJ1">Mr <choice><orig>Moil<lb/>
+                  liet</orig><reg>Moilliet</reg></choice></persName></unclear> laugh till he cried - he could not <add>have</add><lb/>
+               believed it he said unless it had<lb/>
+               come from such good authority<lb/></p>
+               
+               <p>It is very amusing to me to hear<lb/>
+               his odd ignorant, inconsistent, <choice><orig>bene-<lb/>
+                  volent</orig><reg>benevolent</reg></choice>, intolerant, liberal almost <choice><orig>ra-<lb/>
+                     dical</orig><reg>radical</reg></choice> opinions all mixed up together<lb/>
+               frying &amp; hissing <add>within him</add> &amp; boiling over sometimes<lb/>
+               - He conceives that <placeName ref="./Placeography.xml#IE">Ireland</placeName> is still<lb/>
+               a dreadfully persecuted country - treated<lb/>
+               quite as a conquered country - shockingly<lb/>
+               therefore he cannot but wish for the repeal<lb/>
+               of the Union to set Ireland free at last<lb/>
+               
+               <pb n="2" facs="Edgeworth_Bodleian_702_1843-XX_page02.jpg"/>
+                  - It is so horridly unjust he says that she <placeName ref="./Placeography.xml#IE">Ireland</placeName><lb/>
+                  should be <hi rend="underline">oppressed</hi> by the English debt<lb/>
+                  But then I tell him <placeName ref="./Placeography.xml#ENK">England</placeName> does not<lb/>
+                  tax us - and opens her markets to us<lb/>
+                  &amp;c But still says he she is insulted<lb/>
+                  as a conquered country has no parliament of<lb/>
+                  her own - &amp; was taken from her by the Union<lb/></p>
+            
+            <p>There must be a repeal of that Union<lb/>
+               stamping about on the hearth<lb/>
+               (and the tear full in his eye about nothing)<lb/></p>
+                  
+            <p>- Then your Irish tenants are so<lb/>
+               cruelly oppressed by your Irish landlord<lb/>
+               There must be a redress of grievances<lb/>
+               &amp; fixity of tenure<lb/>
+               Stay till you hear more - A<lb/>
+               commission is now appointed in<lb/>
+               <choice><orig>Parl</orig><reg>Parliament</reg></choice>? &amp; you will find that our tenants<lb/>
+                  rights are respected &amp; that they may<lb/>
+               have fixity of tenure without more ado<lb/>
+               If you mean certainly that their<lb/>
+               farms will be relet to them &amp; <unclear>input</unclear> allowed<lb/></p>
+               
+               <p>If you mean by fixity of tenure that<lb/>
+               all the tenants sh<hi rend="superscript">d</hi> remain in fixed possession<lb/>
+               of the landlords property the landlord<lb/>
+               must have <unclear>Income</unclear> because they<lb/>
+               cannot live upon nothing - Both<lb/>
+               catholic &amp; protestant landlords must go<lb/></p>
+            
+               <p>At the word <hi rend="underline">Catholic</hi> quite a<lb/>
+               new train of ideas are in <persName ref="./Personography.xml#MoilJ1">M<hi rend="superscript">r</hi> Moilliets</persName><lb/>
+               mind - Observe the Catholics are<lb/>
+               his great plagues at <placeName ref="./Placeography.xml#Geneva_SZ">Geneva</placeName> where<lb/>
+               they are now all at sixes &amp; sevens<lb/></p>
+            
+               <p>He cant abide <add>a</add> Catholic priest - he<lb/>
+               turns short round, <del/> and<lb/>
+               throws his hands out as if pushing<lb/>
+               the idea of a Catholic priest from him<lb/>
+               with abhorrence - But the seven millions<lb/>
+               of Catholic poor I own he thinks should have<lb/>
+               perfect toleration <add>&amp; emancipation</add> I tell him they have - only<lb/>
+               May none can be <choice><orig>Arch<hi rend="superscript">h</hi></orig><reg>Archbishop</reg></choice> of <choice><orig>Cant<hi rend="superscript">y</hi></orig><reg>Canterbury</reg></choice> or York<lb/>
+               and cannot be Generals <unclear/> of the armies<lb/></p>
          </div>
       </body>
       <back> </back>
