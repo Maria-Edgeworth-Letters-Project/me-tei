@@ -6,10 +6,10 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Letter from Maria Edgeworth to <!--Recipient Name, Month Day, YYYY--></title>
-            <author>Maria Edgeworth</author>
+            <title>Letter from Maria Edgeworth to Frances Anne Edgeworth, March 30, 1843</title>
+            <author><persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName></author>
             <editor>
-               <!--Editor on the Maria Edgeworth Letters Project overseeing the coding of this particular letter: FirstName LastName -->
+            <persName>Paris Weber</persName>
             </editor>
             <sponsor>
                <orgName>Maria Edgeworth Letters Project</orgName>
@@ -19,25 +19,24 @@
             <principal>Susan Egenolf, Meredith Hale, Hilary Havens, Jessica Richard, and Robin Runia</principal>
             <respStmt>
                <resp>Transcription and coding by</resp>
-               <persName><!--FirstName LastName-->
-               </persName>
-               <!-- List all transcribers or coders here, editors and students alike, <persName> by <persName>.-->
-               <persName><!--FirstName LastName--></persName>
-               <!-- If you're the last person interacting with the file, enter your name last on the list -->
+               <persName>Paris Weber</persName>
+               <persName/>
             </respStmt>
          </titleStmt>
          <editionStmt>
-            <edition>First digital edition in TEI, date: <date when="2022-01-01">
-                  <!--enter the date on which the first coder created and saved this XML file-->
-               </date>
+            <edition>First digital edition in TEI, date: <date when="2025-04-22"> 2025-04-22 </date>
+           
+            
             </edition>
             <respStmt>
-               <orgName type="naf" ref="Id_who">
-                  <!--who digitized the letter or gave us permission for to use the file?-->
-               </orgName>
+               <orgName  ref="http://id.loc.gov/authorities/names/n80020306">Bodleian Library</orgName>
+                  
+              
                <resp> photos include:
-                  <!-- Make a comma-separated list of each .jpg photo file name associated with your letter. 
-                     For example: DSCF9476.jpg, DSCF9477.jpg, DSCF9478.jpg-->
+                  Edgeworth_Bodleian_702_1843-03-30_page01.jpg,
+                  Edgeworth_Bodleian_702_1843-03-30_page02.jpg,
+                  Edgeworth_Bodleian_702_1843-03-30_page03.jpg,
+                  Edgeworth_Bodleian_702_1843-03-30_page04.jpg
                </resp>
             </respStmt>
          </editionStmt>
@@ -45,15 +44,12 @@
             <authority>Maria Edgeworth Letters Project</authority>
             <date>2022</date>
             <availability>
-               <!--Uncomment the appropriate line, based on the archive that holds the physical copy of this letter, 
-                  and delete the other comment line(s).-->
-               <p><!--Reproduced by courtesy of the <orgName ref="#ReadingCL">Reading Central Library</orgName>.-->
-                  <!--or -->
-                  <!--Courtesy of <orgName ref="#Rylands">The University of Manchester</orgName>.-->
+              
+               <p><Reproduced by courtesy of the <orgName ref="http://id.loc.gov/authorities/names/n80020306"> Bodleian Library</orgName></Reproduced>
                </p>
                <licence target="https://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons Attribution 4.0 (CC BY 4.0) Unported License</licence>
             </availability>
-            <idno><!--Change to match the file name and current naming standards, i.e. "Edgeworth_Beinecke_330_1817_01_24" if file name is "Edgeworth_Beinecke_330_1817_01_24.xml"--></idno> 
+            <idno>Edgeworth_Bodleian_702_1843-03-30</idno> 
          </publicationStmt>
          <seriesStmt>
             <title>Maria Edgeworth Letters Project</title>
@@ -62,7 +58,7 @@
             <msDesc xml:lang="en">
                <!-- This section of the header identifies the original manuscript source. -->
                <msIdentifier>
-                  <repository>ORGANIZATION NAME</repository>
+                  <repository>Bodleian Library</repository>
                   <collection><!-- Enter specific archival collection if applicable--></collection>
                   <idno><!--Consult library or WorldCat for this info--></idno>
                </msIdentifier>
@@ -74,8 +70,8 @@
                         <idno type="VIAF">71477273</idno>
                         <idno type="SNAC">62567029</idno>
                      </persName>
-                   to <persName><!--Recipient Name--></persName>, <placeName><!--Location where letter was sent--></placeName>, 
-                  <date when="1111-01-01"><!-- Transcribe the date as it appears on the letter itself. Enter a numeric standardized date value in @when. --></date>
+                  to <persName> ref=" ./Personography.xml#EdgeF2"> Frances Anne Edgeworth</persName>, <placeName><!--Location where letter was sent--></placeName>, 
+                  <date when="1843-03-30"><!-- Transcribe the date as it appears on the letter itself. Enter a numeric standardized date value in @when. --></date>
                   <!-- <stamp>Enter description, if applicable</stamp>-->
                </head>
                <physDesc>
@@ -99,10 +95,10 @@
       <profileDesc>
          <correspDesc>
             <correspAction type="sent">
-               <persName><!--SENDER NAME--></persName>
+               <persName>Maria Edgeworth</persName>
             </correspAction>
             <correspAction type="received">
-               <persName><!--RECIPIENT NAME--></persName>
+               <persName>Frances Anne Edgeworth</persName>
             </correspAction>
          </correspDesc>
       </profileDesc>
@@ -120,14 +116,95 @@
             <opener>
                <dateline><!--If there's no date line, remove this element. Record in the order in which it is written on the letter.-->
                   <placeName ref="Id_where"/>
-                  <date when="1111-11-11">Month DD, YYYY</date></dateline>
+                  <date when="1843-03-30">March 30, 1843</date></dateline>
                <salute>
                   <persName>
                      <!-- Use if letter has a saluation ("Dear Sir," for example). If not, delete this line.-->
                   </persName>
                </salute>
             </opener>
-            <p><!-- Begin transcibing the body of the letter here. -->
+            <p>Trim - March 30<superscript>th</superscript> 1843
+               Your <underline>lark</underline> sang delight
+               fully at its rising, and in
+               the whole of its flight &
+               descent - How much plea
+               sure you gave dearest mo-
+               ther you can hardly know
+               unless you could see & hear
+               behind your back as well
+               as before your face -
+               I never was more delighted
+               than by the surprise of
+               seeing your dear rosy face
+               lightening upon me and so
+               affectionately & unexpectedly
+               and I only wish I had that
+               hug over again -
+               We all, - meaning Harriet
+               & myself
+               [LibNote] 68 [/LibNote]
+               
+               have agreed that under
+               your staid, prove, every
+               day demeanour and
+               matronly [deletion]habits[/deletion] and
+               Grandmotherian habits
+               you have a [underline]deal[/underline] of romance
+               deep down that sprouts up
+               to day unexpectedly every
+               now and then - Kind fa
+               ther for you - And God bless
+               you for it - and often may
+               it sprout for our delight
+               I hope dearest mother
+               that the pleasure you have
+               given & received I trust
+               on this little occasion will
+               encourage you to indulge
+               yourself in future when
+               
+               ever opportunity & tempta-
+               tion well join for a [underline]Spry[/underline]
+               (an American word acknow
+               (ledged by American dictionary
+               (which Harriet rich in Dic[superscript]s[/superscript]possesses
+               I am so glad that
+               you had the luck at
+               the last moment to
+               catch the unpacking
+               of the picture of Walter
+               though between you &
+               I it is but a sorry drawing
+               and does not suit (in my
+               opinion the place where it
+               now is viz over the Bishop
+               of Meaths admirable head
+               and between you & Francis
+               I hope Mary Anne & Charlotte
+               will take it up to their own
+               [LibNote]69[/LibNote]
+               
+               room - It does not match any
+               thing in this room - & I cant
+               abide it - But it was very good
+               of Aunt Henrietta to get it done
+               and to send it to Mary Anne & C
+               A new music has just ar-
+               rived & the room is all ears
+               And Lucy is judging - and
+               I am no judge but very
+               affectionately yours
+               ME
+               I am so glad you have
+               Conde - Do you see in
+               todays paper the report that
+               Lord Mahon is to go Embassa
+               dor to Spain - I hope it is
+               done - it would suit &
+               gratify him so much
+               Thank you for mentioning
+               Marys delight on her sealed
+               packet - Love to all
             </p>
             <p>
                <!--More body paragraphs as needed.--></p>
