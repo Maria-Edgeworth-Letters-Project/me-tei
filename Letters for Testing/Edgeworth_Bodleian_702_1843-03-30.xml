@@ -54,7 +54,7 @@
                <!-- This section of the header identifies the original manuscript source. -->
                <msIdentifier>
                   <repository>Bodleian Library</repository>
-                  <collection><!-- Enter specific archival collection if applicable--></collection>
+                  <collection>MS. Eng. lett. c. 702</collection>
                   <idno><!--Consult library or WorldCat for this info--></idno>
                </msIdentifier>
                <head>Letter from 
@@ -65,8 +65,8 @@
                         <idno type="VIAF">71477273</idno>
                         <idno type="SNAC">62567029</idno>
                      </persName>
-                  to <persName> ref=" ./Personography.xml#EdgeF2"> Frances Anne Edgeworth</persName>, <placeName><!--Location where letter was sent--></placeName>, 
-                  <date when="1843-03-30"><!-- Transcribe the date as it appears on the letter itself. Enter a numeric standardized date value in @when. --></date>
+                  to <persName> ref=" ./Personography.xml#EdgeF2"> Frances Anne Edgeworth</persName>, <placeName>Trim</placeName>, 
+                  <date when="1843-03-30">March 30<hi rend="superscript">th</hi></date>
                   <!-- <stamp>Enter description, if applicable</stamp>-->
                </head>
                <physDesc>
@@ -90,15 +90,15 @@
       <profileDesc>
          <correspDesc>
             <correspAction type="sent">
-               <persName>Maria Edgeworth</persName>
+               <persName>ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
             </correspAction>
             <correspAction type="received">
-               <persName>Frances Anne Edgeworth</persName>
+               <persName> ref=./Personography.xml#EdgeF2"> Frances Anne Edgeworth</persName>
             </correspAction>
          </correspDesc>
       </profileDesc>
       <revisionDesc>
-         <change when="2021-01-01" who="Id_who">
+         <change when="2025-04-22" who="Id_who">
             <!--Brief description of what you did here.-->
          </change>
       </revisionDesc>
@@ -106,19 +106,18 @@
    <text>
       <body>
          <div type="letter">
-            <pb n="1" facs="image1.jpg"/>
+            <pb n="1" facs="Edgeworth_Bodleian_702_1843-03-30_page01.jpg"/>
             <!--filenames for photos associated with this letter. Example: <pb n="1" facs="image1.jpg image2.jpg image3.jpg"/> -->
             <opener>
-               <dateline><!--If there's no date line, remove this element. Record in the order in which it is written on the letter.-->
-                  <placeName ref="Id_where"/>
-                  <date when="1843-03-30">March 30, 1843</date></dateline>
+               <dateline>March 30<hi rend="superscript">th</hi>
+                  <placeName ref=".Placeography.xml#Trim_IE">Trim</placeName>
+                  <date when="1843-03-30">March 30<hi rend="superscript">th</hi> 1843</date></dateline>
                <salute>
                   <persName>
-                     <!-- Use if letter has a saluation ("Dear Sir," for example). If not, delete this line.-->
                   </persName>
                </salute>
             </opener>
-            <p>Trim - March 30<hi rend="superscript">th</hi> 1843
+            <p><placeName>ref=".Placeography.xml#Trim_IE">Trim</placeName> - March 30<hi rend="superscript">th</hi> 1843
                Your <hi rend="underline">lark</hi> sang delight<lb/>
                fully at its rising, and in<lb/>
                the whole of its flight &amp;<lb/>
@@ -132,7 +131,7 @@
                      ther</orig>
                   <reg>mother</reg>
                </choice>
-               ther you can hardly know<lb/>
+               you can hardly know<lb/>
                unless you could see &amp; hear<lb/>
                behind your back as well<lb/>
                as before your face -<lb/>
@@ -144,9 +143,9 @@
                and I only wish I had that<lb/>
                hug over again -<lb/>
                
-               We all, - meaning Harriet<lb/>
+               We all, - meaning <persName> ref=./Personography.xml#EdgeH1"> Edgeworth, Harriet (née Butler)</persName>Harriet<lb/>
                &amp; myself<lb/></p>
-               
+            <pb n="2" facs="Edgeworth_Bodleian_702_1843-03-30_page02.jpg"/>
                
             <p>have agreed that under<lb/>
                your staid, prove, every <lb/>
@@ -171,6 +170,7 @@
                on this little occasion will<lb/>
                encourage you to indulge<lb/>
                yourself in future when<lb/></p>
+            <pb n="3" facs="Edgeworth_Bodleian_702_1843-03-30_page03.jpg"/>
                
                <p>ever opportunity &amp; <choice>
                     <orig>tempta-<lb/>
@@ -180,7 +180,7 @@
                   well join for a <hi rend="underline">Spry</hi>
                   (an American word acknow<lb/>
                   (ledged by American dictionary<lb/>
-                  (which Harriet rich in Dic<hi rend="superscript">s</hi>possesses
+                  (which <persName> ref=./Personography.xml#EdgeH1"> Edgeworth, Harriet (née Butler)</persName> Harriet rich in Dic<hi rend="superscript">s</hi>possesses<lb/>
                I am so glad that<lb/>
                   you had the luck at<lb/>
                   the last moment to<lb/>
@@ -192,9 +192,10 @@
                   opinion the place where it<lb/>
                   now is viz over the Bishop<lb/>
                   of Meaths admirable head<lb/>
-                  and between you &amp; Francis<lb/>
+                  and between you &amp; <persName> ref=./Personography.xml#BeauF2"> Beaufort, Francis Lestock </persName> Francis<lb/>
                   I hope Mary Anne &amp; Charlotte<lb/>
                   will take it up to their own<lb/></p>
+            <pb n="4" facs="Edgeworth_Bodleian_702_1843-03-30_page04.jpg"/>
             
                <p>room - It does not match any<lb/>
                   thing in this room - &amp; I cant<lb/>
