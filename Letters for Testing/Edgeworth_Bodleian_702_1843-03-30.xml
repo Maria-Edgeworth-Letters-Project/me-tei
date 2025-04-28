@@ -25,13 +25,9 @@
          </titleStmt>
          <editionStmt>
             <edition>First digital edition in TEI, date: <date when="2025-04-22"> 2025-04-22 </date>
-           
-            
             </edition>
             <respStmt>
                <orgName  ref="http://id.loc.gov/authorities/names/n80020306">Bodleian Library</orgName>
-                  
-              
                <resp> photos include:
                   Edgeworth_Bodleian_702_1843-03-30_page01.jpg,
                   Edgeworth_Bodleian_702_1843-03-30_page02.jpg,
@@ -43,9 +39,8 @@
          <publicationStmt>
             <authority>Maria Edgeworth Letters Project</authority>
             <date>2022</date>
-            <availability>
-              
-  <p><Reproduced by courtesy of the <orgName ref="http://id.loc.gov/authorities/names/n80020306"> Bodleian Library</orgName></Reproduced>
+            <availability>     
+  <p> Reproduced by courtesy of <orgName ref="http://id.loc.gov/authorities/names/n80020306"> Bodleian Library</orgName>
                </p>
                <licence target="https://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons Attribution 4.0 (CC BY 4.0) Unported License</licence>
             </availability>
@@ -123,8 +118,8 @@
                   </persName>
                </salute>
             </opener>
-            <p>Trim - March 30<superscript>th</superscript> 1843
-               Your <underline>lark</underline> sang delight<lb/>
+            <p>Trim - March 30<hi rend="superscript">th</hi> 1843
+               Your <hi rend="underline">lark</hi> sang delight<lb/>
                fully at its rising, and in<lb/>
                the whole of its flight &amp;<lb/>
                descent - How much<choice> 
@@ -150,60 +145,72 @@
                hug over again -<lb/>
                
                We all, - meaning Harriet<lb/>
-               &amp; myself<lb/>
+               &amp; myself<lb/></p>
                
                
-               have agreed that under
-               your staid, prove, every
-               day demeanour and
-               matronly [deletion]habits[/deletion] and
-               Grandmotherian habits
-               you have a [underline]deal[/underline] of romance
-               deep down that sprouts up
-               to day unexpectedly every
-               now and then - Kind fa
-               ther for you - And God bless
-               you for it - and often may
-               it sprout for our delight
-               I hope dearest mother
-               that the pleasure you have
-               given &amp; received I trust
-               on this little occasion will
-               encourage you to indulge
-               yourself in future when
+            <p>have agreed that under<lb/>
+               your staid, prove, every <lb/>
+               day demeanour and <lb/>
+               matronly <del>habits</del> and<lb/>
+               Grandmotherian habits<lb/>
+               you have a <hi rend="underline">deal</hi> of romance<lb/>
+               deep down that sprouts up<lb/>
+               to day unexpectedly every<lb/>
+               now and then - Kind <choice>
+                <orig>fa<lb/> 
+                   ther</orig>
+                  <reg>father</reg>
+               </choice>
+               ther for you - And God bless<lb/>
+               you for it - and often may<lb/>
+               it sprout for our delight<lb/>
                
-               ever opportunity &amp; tempta-
-               tion well join for a [underline]Spry[/underline]
-               (an American word acknow
-               (ledged by American dictionary
-               (which Harriet rich in Dic[superscript]s[/superscript]possesses
-               I am so glad that
-               you had the luck at
-               the last moment to
-               catch the unpacking
-               of the picture of Walter
-               though between you &amp;
-               I it is but a sorry drawing
-               and does not suit (in my
-               opinion the place where it
-               now is viz over the Bishop
-               of Meaths admirable head
-               and between you &amp; Francis
-               I hope Mary Anne &amp; Charlotte
-               will take it up to their own
-               [LibNote]69[/LibNote]
+               I hope dearest mother<lb/>
+               that the pleasure you have<lb/>
+               given &amp; received I trust<lb/>
+               on this little occasion will<lb/>
+               encourage you to indulge<lb/>
+               yourself in future when<lb/></p>
                
-               room - It does not match any
-               thing in this room - &amp; I cant
-               abide it - But it was very good
-               of Aunt Henrietta to get it done
-               and to send it to Mary Anne &amp; C
-               A new music has just ar-
-               rived &amp; the room is all ears
-               And Lucy is judging - and
-               I am no judge but very
-               affectionately yours
-               ME
+               <p>ever opportunity &amp; <choice>
+                    <orig>tempta-<lb/>
+                       tion</orig>
+                    <reg>temptation</reg>
+               </choice>
+                  well join for a <hi rend="underline">Spry</hi>
+                  (an American word acknow<lb/>
+                  (ledged by American dictionary<lb/>
+                  (which Harriet rich in Dic<hi rend="superscript">s</hi>possesses
+               I am so glad that<lb/>
+                  you had the luck at<lb/>
+                  the last moment to<lb/>
+                  catch the unpacking<lb/>
+                  of the picture of Walter<lb/>
+                  though between you &amp;<lb/>
+                  I it is but a sorry drawing<lb/>
+                  and does not suit (in my<lb/>
+                  opinion the place where it<lb/>
+                  now is viz over the Bishop<lb/>
+                  of Meaths admirable head<lb/>
+                  and between you &amp; Francis<lb/>
+                  I hope Mary Anne &amp; Charlotte<lb/>
+                  will take it up to their own<lb/></p>
+            
+               <p>room - It does not match any<lb/>
+                  thing in this room - &amp; I cant<lb/>
+                  abide it - But it was very good<lb/>
+                  of Aunt Henrietta to get it done<lb/>
+                  and to send it to Mary Anne &amp; C<lb/>
+               A new music has just <choice>
+                  <orig>ar-<lb/>
+                  rived </orig>
+                  <reg>arrived</reg>
+               </choice>
+               &amp; the room is all ears<lb/>
+                  And Lucy is judging - and<lb/>
+                  I am no judge but very<lb/>
+                  affectionately yours<lb/>
+                  ME<lb/>
                
             </p>
             <p>
@@ -219,16 +226,20 @@
                <!--include linebreaks, if used. example: <closer> Yours<lb/> Very sincerely<lb/> -->
             </closer>
             <postscript>
-               <p>I am so glad you have
-                  Conde - Do you see in
-                  todays paper the report that
-                  Lord Mahon is to go Embassa
-                  dor to Spain - I hope it is
-                  done - it would suit &amp;
-                  gratify him so much
-                  Thank you for mentioning
-                  Marys delight on her sealed
-                  packet - Love to all</p>
+               <p>I am so glad you have <lb/>
+                  Conde - Do you see in<lb/>
+                  todays paper the report that<lb/>
+                  Lord Mahon is to go <choice>
+                     <orig>Embassa<lb/>
+                        dor</orig>
+                     <reg>Embassador</reg>
+                  </choice>
+                  to Spain - I hope it is<lb/>
+                  done - it would suit &amp;<lb/>
+                  gratify him so much<lb/>
+                  Thank you for mentioning<lb/>
+                  Marys delight on her sealed<lb/>
+                  packet - Love to all<lb/></p>
             </postscript>
             <!--You can include a <pb/> here, or inside the postScript.-->
             <!-- Format for postscripts. 
