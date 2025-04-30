@@ -23,8 +23,8 @@
                <persName/>
             </respStmt>
          </titleStmt>
-         <editionStmt>
-            <edition>First digital edition in TEI, date: <date when="2025-04-22"> 2025-04-22 </date>
+         <editionStmt>  
+         <edition>First digital edition in TEI, date: <date when="2025-04-22"> 2025-04-22 </date>
             </edition>
             <respStmt>
                <orgName  ref="http://id.loc.gov/authorities/names/n80020306">Bodleian Library</orgName>
@@ -74,7 +74,6 @@
                </physDesc>
             </msDesc>
             <bibl>In addition to our edited version, this letter was previously published in
-               <!--complete bibiographical info if letter was published in a book here - if not delete-->
             </bibl>
          </sourceDesc>
       </fileDesc>
@@ -143,7 +142,7 @@
                and I only wish I had that<lb/>
                hug over again -<lb/>
                
-               We all, - meaning <persName> ref=./Personography.xml#EdgeH1"> Edgeworth, Harriet (née Butler)</persName>Harriet<lb/>
+               We all, - meaning <persName> ref=./Personography.xml#EdgeH1"> Edgeworth, Harriet (née Butler)</persName><lb/>
                &amp; myself<lb/></p>
             <pb n="2" facs="Edgeworth_Bodleian_702_1843-03-30_page02.jpg"/>
                
@@ -180,80 +179,57 @@
                   well join for a <hi rend="underline">Spry</hi>
                   (an American word acknow<lb/>
                   (ledged by American dictionary<lb/>
-                  (which <persName> ref=./Personography.xml#EdgeH1"> Edgeworth, Harriet (née Butler)</persName> Harriet rich in Dic<hi rend="superscript">s</hi>possesses<lb/>
+                  (which <persName> ref=./Personography.xml#EdgeH1"> Edgeworth, Harriet (née Butler)</persName> rich in Dic<hi rend="superscript">s</hi>possesses<lb/>
                I am so glad that<lb/>
                   you had the luck at<lb/>
                   the last moment to<lb/>
                   catch the unpacking<lb/>
-                  of the picture of Walter<lb/>
+                  of the picture of <persName> ref=./Personography.xml#FoxW1">Fox, Walter</persName><lb/>
                   though between you &amp;<lb/>
                   I it is but a sorry drawing<lb/>
                   and does not suit (in my<lb/>
                   opinion the place where it<lb/>
                   now is viz over the Bishop<lb/>
                   of Meaths admirable head<lb/>
-                  and between you &amp; <persName> ref=./Personography.xml#BeauF2"> Beaufort, Francis Lestock </persName> Francis<lb/>
-                  I hope Mary Anne &amp; Charlotte<lb/>
+                  and between you &amp; <persName> ref=./Personography.xml#BeauF2"> Beaufort, Francis Lestock </persName><lb/>
+                  I hope <persName> ref=./Personography.xml#FoxM1"> Fox, Mary Anne</persName> &amp; <persName> ref=./Personography.xml#EdgeC2"> Edgeworth, Charlotte </persName><lb/>
                   will take it up to their own<lb/></p>
-            <pb n="4" facs="Edgeworth_Bodleian_702_1843-03-30_page04.jpg"/>
+            <pb n="4" facs="Edgeworth_Bodleian_702_1843-03-30_page04.jpg"/> 
             
                <p>room - It does not match any<lb/>
                   thing in this room - &amp; I cant<lb/>
                   abide it - But it was very good<lb/>
-                  of Aunt Henrietta to get it done<lb/>
-                  and to send it to Mary Anne &amp; C<lb/>
+                  of Aunt <persName> ref=./Personography.xml#BeauH2">Beaufort, Henrietta</persName> to get it done<lb/>
+                  and to send it to Mary Anne &amp; C<lb/> 
                A new music has just <choice>
                   <orig>ar-<lb/>
                   rived </orig>
                   <reg>arrived</reg>
                </choice>
                &amp; the room is all ears<lb/>
-                  And Lucy is judging - and<lb/>
-                  I am no judge but very<lb/>
-                  affectionately yours<lb/>
-                  ME<lb/>
-               
-            </p>
-            <p>
-               <!--More body paragraphs as needed.--></p>
-            <p>
-               <!--More body paragraphs as needed.-->
-               <!--Where there's a page break record it inside the relevant body paragraph like this, 
-                  with the self-closing page-break element. n="2" indicates the START of the second page.-->
-               <pb n="2" facs="image2.jpg"/>
-            </p>
-            <p><!--More body paragraphs as needed.--></p>
+                  And <persName> ref=./Personography.xml#EdgeL1">Edgeworth, Lucy Jane</persName> is judging - and<lb/>
+                  I am no judge but very<lb/> </p>
             <closer>
-               <!--include linebreaks, if used. example: <closer> Yours<lb/> Very sincerely<lb/> -->
+               affectionately yours<lb/>
+               ME<lb/>
             </closer>
             <postscript>
                <p>I am so glad you have <lb/>
                   Conde - Do you see in<lb/>
                   todays paper the report that<lb/>
-                  Lord Mahon is to go <choice>
+                  <persName> ref=./Personography.xml#StanP1">Stanhope, Philip</persName>Lord Mahon is to go <choice>
                      <orig>Embassa<lb/>
                         dor</orig>
                      <reg>Embassador</reg>
                   </choice>
-                  to Spain - I hope it is<lb/>
+                  to <placeName>ref=".Placeography.xml#SP">Spain </placeName>- I hope it is<lb/>
                   done - it would suit &amp;<lb/>
                   gratify him so much<lb/>
                   Thank you for mentioning<lb/>
-                  Marys delight on her sealed<lb/>
+                  <persName> ref=./Personography.xml#SneyM1">Sneyd, Mary</persName>Marys delight on her sealed<lb/>
                   packet - Love to all<lb/></p>
             </postscript>
-            <!--You can include a <pb/> here, or inside the postScript.-->
-            <!-- Format for postscripts. 
-               Postscripts do NOT go inside closer tags. Adjust to take into account the order in your letter. 
-               Sometimes the signature is on page three, the address on page four, then the postscript follows back on the top of page one, for example.-->
-            <closer><!--Use the <closer> element again to hold Address Leaf information.-->
-               <address>
-                  <!--Include any text written on the address leaf; use a separate "addrLine" for each line and indicate line breaks. -->
-                  <addrLine/>
-                  <addrLine/>
-                  <addrLine/>
-               </address>
-            </closer>
+               
          </div>
       </body>
       <back> </back>
