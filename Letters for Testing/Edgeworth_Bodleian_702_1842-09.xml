@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from Maria Edgeworth to Unknown, September 1842</title>
+            <author><persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName></author>
+            <editor>
+               <persName>Anna Grace Barnett</persName>
+            </editor>
+            <sponsor>
+               <orgName>Maria Edgeworth Letters Project</orgName>
+            </sponsor>
+            <sponsor>Wake Forest University, University of Tennessee, Xavier University, Texas
+               A&amp;M University</sponsor>
+            <principal>Susan Egenolf, Meredith Hale, Hilary Havens, Jessica Richard, and Robin Runia</principal>
+            <respStmt>
+               <resp>Transcription and coding by</resp>
+               <persName>Anna Grace Barnett</persName>
+               <persName/>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+         <edition>First digital edition in TEI, date: <date when="2025-04-30"> 2025-04-30 </date>
+            </edition>
+            <respStmt>
+               <orgName ref="http://id.loc.gov/authorities/names/n80020306">Bodleian Library</orgName>
+               <resp> photos include:
+                  Edgeworth_Bodleian_702_1842-09_page01.jpg,
+                  Edgeworth_Bodleian_702_1842-09_page02.jpg
+               </resp>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Maria Edgeworth Letters Project</authority>
+            <date>2022</date>
+            <availability>
+        <p>Reproduced by courtesy of the <orgName ref="http://id.loc.gov/authorities/names/n80020306">Bodleian Library</orgName>.-->
+               </p>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons Attribution 4.0 (CC BY 4.0) Unported License</licence>
+            </availability>
+            <idno>Edgeworth_Bodleian_702_1842-09</idno> 
+         </publicationStmt>
+         <seriesStmt>
+            <title>Maria Edgeworth Letters Project</title>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <repository>Bodleian Library</repository>
+                  <collection>MS. Eng. lett. c. 702</collection>
+                  <idno><!--Consult library or WorldCat for this info--></idno>
+               </msIdentifier>
+               <head>Letter from 
+                     <persName xml:id="EdgeM1" from="1768" to="1849">
+                        <forename>Maria</forename>
+                        <surname>Edgeworth</surname>
+                        <date>1768-1849</date>
+                        <idno type="VIAF">71477273</idno>
+                        <idno type="SNAC">62567029</idno>
+                     </persName>
+                   to <persName>Unknown</persName>, <placeName>Unknown</placeName>, 
+                  <date when="1842">1842</date>
+               </head>
+               <physDesc>
+               </physDesc>
+            </msDesc>
+            <bibl>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <!--Where Edgeworth uses nonstandard spelling and hyphenation of words, transcriber-coders 
+               should use TEI elements “choice," “sic," and “reg" to encode both Edgeworth’s 
+               spelling and the regular international standard of Oxford English spelling, 
+               following the first listed spelling in the Oxford English Dictionary. -->
+            <p>Edgeworth’s spelling and punctuation are retained in transcription, including non-standard spelling, line breaks, and hyphenation of words. The long s and ligatured forms are silently emended.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
+            </correspAction>
+            <correspAction type="received">
+               <persName>Unknown</persName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-01-01" who="Id_who">
+         </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <pb n="1" facs="Edgeworth_Bodleian_702_1842-09_page01.jpg"/>
+            <opener>
+               <salute>
+               </salute>
+            </opener>
+            <p><note>62</note>
+               <note>1842</note><lb/>
+               know then that <persName ref="./personography.xml#EdgeL1">Lucy</persName>and<persName ref="./personography.xml#EdgeF3">Fanny</persName><lb/>
+               <persName ref="./personography.xml#EdgeF3">M<hi rend="superscript">rs.</hi>Wilson</persName> are now both well<lb/>
+               and they and Packenham<lb/>
+               and the Butlers &amp; the Fox<lb/>
+               children all having been<lb/>
+               with us round M[superscript]rs[/superscript]. Edgeworth<lb/>
+               This summer have made<lb/>
+               it a memorable summer<lb/>
+               for happiness to which we shall<lb/>
+               look back with pleasure all<lb/>
+               the rest of our lives<lb/>
+               " You may break, you may injure<lb/>
+               the vase as you will "<lb/>
+               " But the smell of the roses will stick<lb/>
+               to it still "<lb/>
+            </p>
+            <p>
+               M[superscript]rs[/superscript]. Edgeworth has perfectly<lb/>
+               recovered her health this year<lb/>
+               after the severe rheumatic<lb/>
+               fever she had last year - She is<lb/>
+               now not only as strong and<lb/>
+               active as ever but almost with<lb/>
+               as fresh a bloom in her cheeks<lb/>
+               which seems like the expression<lb/>
+               of mind that never fades -<lb/>
+               Her silver grey hairs both contrast<lb/>
+               <note>? Sept 1842.</note></p>
+            <p>
+               <!--More body paragraphs as needed.-->
+               <!--Where there's a page break record it inside the relevant body paragraph like this, 
+                  with the self-closing page-break element. n="2" indicates the START of the second page.-->
+               <pb n="2" facs="image2.jpg"/>
+            </p>
+            <p><!--More body paragraphs as needed.--></p>
+            <closer>
+               <!--include linebreaks, if used. example: <closer> Yours<lb/> Very sincerely<lb/> -->
+            </closer>
+            <postscript>
+               <p><!--A postscript goes here, outside the <closer>. --></p>
+            </postscript>
+            <!--You can include a <pb/> here, or inside the postScript.-->
+            <!-- Format for postscripts. 
+               Postscripts do NOT go inside closer tags. Adjust to take into account the order in your letter. 
+               Sometimes the signature is on page three, the address on page four, then the postscript follows back on the top of page one, for example.-->
+            <closer><!--Use the <closer> element again to hold Address Leaf information.-->
+               <address>
+                  <!--Include any text written on the address leaf; use a separate "addrLine" for each line and indicate line breaks. -->
+                  <addrLine/>
+                  <addrLine/>
+                  <addrLine/>
+               </address>
+            </closer>
+         </div>
+      </body>
+      <back> </back>
+   </text>
+</TEI>
