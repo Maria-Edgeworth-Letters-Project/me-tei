@@ -6,8 +6,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Letter from Sophia Lockhart, August 14</title>
-            <author>Sophia Lockhart</author>
+            <title>Letter from Sir Walter Scott to Maria Edgeworth, April 28, 1825</title>
+            <author>Sir Walter Scott</author>
             <editor>Jamie Kramer
             </editor>
             <sponsor>
@@ -23,23 +23,25 @@
             </respStmt>
          </titleStmt>
          <editionStmt>
-            <edition>First digital edition in TEI, date: <date when="2024-11-27">
+            <edition>First digital edition in TEI, date: <date when="2024-12-29">
             </date>
             </edition>
             <respStmt>
                <orgName type="naf" ref="http://id.loc.gov/authorities/names/n80044899">National Library of Scotland</orgName>
-               <resp> photos include: Edgeworth_NLS_23131_XXXX-08-14_page01.jpg
+               <resp> photos include: Edgeworth_NLS_23131_1825-04-28_page01.jpg
                </resp>
             </respStmt>
          </editionStmt>
          <publicationStmt>
             <authority>Maria Edgeworth Letters Project</authority>
             <date>2022</date>
-            <availability><p>Reproduced by courtesy of <orgName ref="http://id.loc.gov/authorities/names/n80097499">Harvard University, Houghton Library</orgName>
-            </p>
+            <availability>
+               <p>Reproduced by courtesy of <orgName type="naf" ref="http://id.loc.gov/authorities/names/n80044899">
+                  National Library of Scotland</orgName>
+               </p>
                <licence target="https://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons Attribution 4.0 (CC BY 4.0) Unported License</licence>
             </availability>
-            <idno>Edgeworth_NLS_23131_XXXX-08-14</idno> 
+            <idno>Edgeworth_NLS_23131_1825-04-28</idno> 
          </publicationStmt>
          <seriesStmt>
             <title>Maria Edgeworth Letters Project</title>
@@ -50,12 +52,9 @@
                   <repository>National Library of Scotland</repository>
                </msIdentifier>
                <head>Letter from 
-                  <persName ref="./Personography.xml#LockS1">Sophia Lockhart</persName>, <placeName ref="./Placeography.xml#Rokeby-Park_ENK">Rokeby Park</placeName>
-                  <date>14<hi rend= "superscript">th</hi> August</date>
+                  <persName ref="./Personography.xml#ScotW4">Sir Walter Scott</persName> to <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>, <placeName ref="./Placeography.xml#Cork_IE">Cork</placeName>, <date when="1825-04-28">28<hi rend= "superscript">th</hi> April. 1825</date>
                </head>
-               <physDesc> <decoDesc><decoNote type="border">
-                  <p>Four-sided black border indicates that the writer is in mourning.</p>
-               </decoNote></decoDesc>
+               <physDesc>
                </physDesc>
             </msDesc>
          </sourceDesc>
@@ -68,7 +67,10 @@
       <profileDesc>
          <correspDesc>
             <correspAction type="sent">
-               <persName ref="./Personography.xml#LockS1">Sophia Lockhart</persName>
+               <persName ref="./Personography.xml#ScotW4">Sir Walter Scott</persName>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
             </correspAction>
          </correspDesc>
       </profileDesc>
@@ -80,31 +82,25 @@
    <text>
       <body>
          <div type="letter">
-            <pb n="1" facs="Edgeworth_NLS_23131_XXXX-08-14_page01.jpg"/>
-            <opener>
-               <dateline>
-                  <placeName ref="./Placeography.xml#Rokeby-Park_ENK">Rokeby Park</placeName><lb/>
-                  <date>14<hi rend= "superscript">th</hi> August</date></dateline><lb/>
-               <salute>
-                  Dear Sir<lb/>
-               </salute>
-            </opener>
-            <p>On my return from <placeName ref="./Placeography.xml#Ramsgate_ENK">Ramsgate</placeName> I only<lb/>
-               remained a few hours in <unclear></unclear> Place tho little<lb/>
-               time to make up <persName ref="./Personography.xml#EdgeM1">Miss <choice><orig>Edgeworths</orig><reg>Edgeworth's</reg></choice></persName> packet <hi rend="superscript">My</hi> <choice><orig>affect-<lb/>
-                  ion</orig><reg>affection</reg></choice> to her and my illness and distress<lb/>
-               <unclear>love</unclear> to her and my illness and distress<lb/>
-               must be my excuse for not performing my<lb/>
-               promise of sending the letters by you but<lb/>
-               they are perfectly safe and if on my<lb/>
-               return to town I find she is not returning<lb/>
-               with <persName ref="./Personography.xml#EdgeF3" cert="medium">M<hi rend="superscript">rs</hi>. Wilson</persName> I shall send them per<lb/>
-               favour of <persName ref="./Personography.xml#FreeF1">Sir Francis Freeling</persName><lb/>            
-            </p>
-            <closer>
-               Sincerely Yours<lb/>
-               <persName ref="./Personography.xml#LockS1"><choice><orig>C.</orig><reg>Charlotte</reg></choice> Sophia Lockhart</persName><lb/>
-            </closer>
+            <pb n="1" facs="Edgeworth_NLS_23131_1825-04-28_page01.jpg"/><note>12</note>
+            <opener>                          
+                  <dateline>
+                     <placeName ref="./Placeography.xml#Cork_IE">Cork</placeName>.
+                     <date when="1825-04-28">28<hi rend= "superscript">th</hi> April. 1825</date>
+                  </dateline>
+               <salute>Dear Madam</salute></opener><lb/>
+            <p><persName ref="./Personography.xml#ScotJ1">Jane</persName> and I regret very much that it was<lb/>
+               not in our power to make out our visit to you<lb/>
+               at <placeName ref="./Placeography.xml#Edgeworthstown_IE">Edgeworthstown</placeName>, as we overstaid our time in <placeName ref="./Placeography.xml#London_ENK">London</placeName><lb/>
+               as we leave this on the <date when="1825-04-20">20<hi rend= "superscript">th</hi> of April</date> for <placeName ref="./Placeography.xml#Dublin_IE">Dublin</placeName>, we<lb/>
+               hope to have an opportunity of paying our respects<lb/>
+               to you whilst in that Quarter.<lb/>
+               Should my father have sent any letters for us to<lb/>
+               your charge you would greatly oblige us by forwarding<lb/>
+               them to <placeName ref="./Placeography.xml#Cork_IE">Cork</placeName><lb/></p>
+            <closer>I remain<lb/>
+               Yours very truly<lb/>
+               W Scott<lb/></closer>
          </div>
       </body>
    </text>

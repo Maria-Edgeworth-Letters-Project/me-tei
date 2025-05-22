@@ -6,8 +6,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Letter from Sir Walter Scott to Maria Edgeworth, April 28, 1825</title>
-            <author>Sir Walter Scott</author>
+            <title>Letter from John Lockhart to Maria Edgeworth, June 25, 1833</title>
+            <author>John Lockhart</author>
             <editor>Jamie Kramer
             </editor>
             <sponsor>
@@ -23,23 +23,24 @@
             </respStmt>
          </titleStmt>
          <editionStmt>
-            <edition>First digital edition in TEI, date: <date when="2024-12-29">
+            <edition>First digital edition in TEI, date: <date when="2024-12-05">
             </date>
             </edition>
             <respStmt>
                <orgName type="naf" ref="http://id.loc.gov/authorities/names/n80044899">National Library of Scotland</orgName>
-               <resp> photos include: Edgeworth_NLS_23131_1825-04-28_page01.jpg
+               <resp> photos include: Edgeworth_NLS_23131_1833-06-25_page01.jpg
                </resp>
             </respStmt>
          </editionStmt>
          <publicationStmt>
             <authority>Maria Edgeworth Letters Project</authority>
             <date>2022</date>
-            <availability><p>Reproduced by courtesy of <orgName ref="http://id.loc.gov/authorities/names/n80097499">Harvard University, Houghton Library</orgName>
+            <availability>
+               <p>Reproduced by courtesy of <orgName type="naf" ref="http://id.loc.gov/authorities/names/n80044899">National Library of Scotland</orgName>
                </p>
-                  <licence target="https://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons Attribution 4.0 (CC BY 4.0) Unported License</licence>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons Attribution 4.0 (CC BY 4.0) Unported License</licence>
             </availability>
-            <idno>Edgeworth_NLS_23131_1825-04-28</idno> 
+            <idno>Edgeworth_NLS_23131_1833-06-25</idno> 
          </publicationStmt>
          <seriesStmt>
             <title>Maria Edgeworth Letters Project</title>
@@ -50,9 +51,12 @@
                   <repository>National Library of Scotland</repository>
                </msIdentifier>
                <head>Letter from 
-                  <persName ref="./Personography.xml#ScotW4">Sir Walter Scott</persName> to <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>, <placeName ref="./Placeography.xml#Cork_IE">Cork</placeName>, <date when="1825-04-28">28<hi rend= "superscript">th</hi> April. 1825</date>
+                  <persName ref="./Personography.xml#LockJ1">John Lockhart</persName>, <placeName ref="./Placeography.xml#London_ENK">London</placeName>,
+                  <date when="1833-06-25">June 25<hi rend= "superscript">th</hi>1833</date>
                </head>
-               <physDesc>
+               <physDesc> <decoDesc><decoNote type="border">
+                  <p>Four-sided black border indicates that the writer is in mourning.</p>
+               </decoNote></decoDesc>
                </physDesc>
             </msDesc>
          </sourceDesc>
@@ -65,7 +69,7 @@
       <profileDesc>
          <correspDesc>
             <correspAction type="sent">
-               <persName ref="./Personography.xml#ScotW4">Sir Walter Scott</persName>
+               <persName ref="./Personography.xml#LockJ1">John Lockhart</persName>
             </correspAction>
             <correspAction type="received">
                <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
@@ -80,25 +84,20 @@
    <text>
       <body>
          <div type="letter">
-            <pb n="1" facs="Edgeworth_NLS_23131_1825-04-28_page01.jpg"/><note>12</note>
-            <opener>                          
-                  <dateline>
-                     <placeName ref="./Placeography.xml#Cork_IE">Cork</placeName>.
-                     <date when="1825-04-28">28<hi rend= "superscript">th</hi> April. 1825</date>
-                  </dateline>
-               <salute>Dear Madam</salute></opener><lb/>
-            <p><persName ref="./Personography.xml#ScotJ1">Jane</persName> and I regret very much that it was<lb/>
-               not in our power to make out our visit to you<lb/>
-               at <placeName ref="./Placeography.xml#Edgeworthstown_IE">Edgeworthstown</placeName>, as we overstaid our time in <placeName ref="./Placeography.xml#London_ENK">London</placeName><lb/>
-               as we leave this on the <date when="1825-04-20">20<hi rend= "superscript">th</hi> of April</date> for <placeName ref="./Placeography.xml#Dublin_IE">Dublin</placeName>, we<lb/>
-               hope to have an opportunity of paying our respects<lb/>
-               to you whilst in that Quarter.<lb/>
-               Should my father have sent any letters for us to<lb/>
-               your charge you would greatly oblige us by forwarding<lb/>
-               them to <placeName ref="./Placeography.xml#Cork_IE">Cork</placeName><lb/></p>
-            <closer>I remain<lb/>
-               Yours very truly<lb/>
-               W Scott<lb/></closer>
+            <pb n="1" facs="Edgeworth_NLS_23131_1833-06-25_page01.jpg"/><note>12</note>
+            <opener>
+               <salute>My dear <persName ref="./Personography.xml#EdgeM1">Miss Edgeworth</persName></salute></opener><p>You will be shocked to hear<lb/>
+                  that we have this day lost <persName ref="./Personography.xml#ScotA1">Anne Scott</persName><lb/>
+                  carried off in 14 days by brain fever in<lb/>
+                  the prime of her life - apparently but<lb/>
+                  yesterday in high health. The calamities<lb/>
+                  of latter years had been too much for her<lb/>
+                  nerves.<lb/></p>
+                  <p><persName ref="./Personography.xml#LockS1">Sophia</persName> in her distress reminds me to send<lb/>
+                  you this line ever</p><closer>yours very Sincerely<lb/>
+               <persName ref="./Personography.xml#LockJ1">J<unclear></unclear> Lockhart<lb/></persName><lb/>
+               <dateline>
+                  <placeName ref="./Placeography.xml#London_ENK">London</placeName><date when="1833-06-25">June 25<hi rend= "superscript">th</hi>1833</date></dateline></closer> 
          </div>
       </body>
    </text>

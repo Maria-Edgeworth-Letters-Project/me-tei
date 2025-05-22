@@ -1,5 +1,5 @@
 SCHEMAS="test_schemas/schemas.xsd"
-ENCODED_LETTERS="../Encoded Letters"
+LETTERS_FOR_TESTING="../Letters for Testing"
 
 
 testShunitInstalled() {
@@ -7,7 +7,7 @@ testShunitInstalled() {
 }
 
 testIfLettersAreValid() {
-    for filename in "$ENCODED_LETTERS"/*.xml; do
+    for filename in "$LETTERS_FOR_TESTING"/*.xml; do
         echo "\nTesting $filename"
         RESPONSE=$(xmllint --noout --schema "$SCHEMAS" "$filename" 2>&1)
         EXIT_STATUS=$?

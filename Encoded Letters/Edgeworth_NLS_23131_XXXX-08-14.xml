@@ -6,8 +6,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Letter from John Lockhart to Maria Edgeworth, June 25, 1833</title>
-            <author>John Lockhart</author>
+            <title>Letter from Sophia Lockhart, August 14</title>
+            <author>Sophia Lockhart</author>
             <editor>Jamie Kramer
             </editor>
             <sponsor>
@@ -23,23 +23,24 @@
             </respStmt>
          </titleStmt>
          <editionStmt>
-            <edition>First digital edition in TEI, date: <date when="2024-12-05">
+            <edition>First digital edition in TEI, date: <date when="2024-11-27">
             </date>
             </edition>
             <respStmt>
                <orgName type="naf" ref="http://id.loc.gov/authorities/names/n80044899">National Library of Scotland</orgName>
-               <resp> photos include: Edgeworth_NLS_23131_1833-06-25_page01.jpg
+               <resp> photos include: Edgeworth_NLS_23131_XXXX-08-14_page01.jpg
                </resp>
             </respStmt>
          </editionStmt>
          <publicationStmt>
             <authority>Maria Edgeworth Letters Project</authority>
             <date>2022</date>
-            <availability><p>Reproduced by courtesy of <orgName ref="http://id.loc.gov/authorities/names/n80097499">Harvard University, Houghton Library</orgName>
+            <availability>
+               <p>Reproduced by courtesy of <orgName type="naf" ref="http://id.loc.gov/authorities/names/n80044899">National Library of Scotland</orgName>
                </p>
-                  <licence target="https://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons Attribution 4.0 (CC BY 4.0) Unported License</licence>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons Attribution 4.0 (CC BY 4.0) Unported License</licence>
             </availability>
-            <idno>Edgeworth_NLS_23131_1833-06-25</idno> 
+            <idno>Edgeworth_NLS_23131_XXXX-08-14</idno> 
          </publicationStmt>
          <seriesStmt>
             <title>Maria Edgeworth Letters Project</title>
@@ -50,8 +51,8 @@
                   <repository>National Library of Scotland</repository>
                </msIdentifier>
                <head>Letter from 
-                  <persName ref="./Personography.xml#LockJ1">John Lockhart</persName>, <placeName ref="./Placeography.xml#London_ENK">London</placeName>,
-                  <date when="1833-06-25">June 25<hi rend= "superscript">th</hi>1833</date>
+                  <persName ref="./Personography.xml#LockS1">Sophia Lockhart</persName>, <placeName ref="./Placeography.xml#Rokeby-Park_ENK">Rokeby Park</placeName>
+                  <date>14<hi rend= "superscript">th</hi> August</date>
                </head>
                <physDesc> <decoDesc><decoNote type="border">
                   <p>Four-sided black border indicates that the writer is in mourning.</p>
@@ -68,10 +69,7 @@
       <profileDesc>
          <correspDesc>
             <correspAction type="sent">
-               <persName ref="./Personography.xml#LockJ1">John Lockhart</persName>
-            </correspAction>
-            <correspAction type="received">
-               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
+               <persName ref="./Personography.xml#LockS1">Sophia Lockhart</persName>
             </correspAction>
          </correspDesc>
       </profileDesc>
@@ -83,20 +81,31 @@
    <text>
       <body>
          <div type="letter">
-            <pb n="1" facs="Edgeworth_NLS_23131_1833-06-25_page01.jpg"/><note>12</note>
+            <pb n="1" facs="Edgeworth_NLS_23131_XXXX-08-14_page01.jpg"/>
             <opener>
-               <salute>My dear <persName ref="./Personography.xml#EdgeM1">Miss Edgeworth</persName></salute></opener><p>You will be shocked to hear<lb/>
-                  that we have this day lost <persName ref="./Personography.xml#ScotA1">Anne Scott</persName><lb/>
-                  carried off in 14 days by brain fever in<lb/>
-                  the prime of her life - apparently but<lb/>
-                  yesterday in high health. The calamities<lb/>
-                  of latter years had been too much for her<lb/>
-                  nerves.<lb/></p>
-                  <p><persName ref="./Personography.xml#LockS1">Sophia</persName> in her distress reminds me to send<lb/>
-                  you this line ever</p><closer>yours very Sincerely<lb/>
-               <persName ref="./Personography.xml#LockJ1">J<unclear></unclear> Lockhart<lb/></persName><lb/>
                <dateline>
-                  <placeName ref="./Placeography.xml#London_ENK">London</placeName><date when="1833-06-25">June 25<hi rend= "superscript">th</hi>1833</date></dateline></closer> 
+                  <placeName ref="./Placeography.xml#Rokeby-Park_ENK">Rokeby Park</placeName><lb/>
+                  <date>14<hi rend= "superscript">th</hi> August</date></dateline><lb/>
+               <salute>
+                  Dear Sir<lb/>
+               </salute>
+            </opener>
+            <p>On my return from <placeName ref="./Placeography.xml#Ramsgate_ENK">Ramsgate</placeName> I only<lb/>
+               remained a few hours in <unclear></unclear> Place tho little<lb/>
+               time to make up <persName ref="./Personography.xml#EdgeM1">Miss <choice><orig>Edgeworths</orig><reg>Edgeworth's</reg></choice></persName> packet <hi rend="superscript">My</hi> <choice><orig>affect-<lb/>
+                  ion</orig><reg>affection</reg></choice> to her and my illness and distress<lb/>
+               <unclear>love</unclear> to her and my illness and distress<lb/>
+               must be my excuse for not performing my<lb/>
+               promise of sending the letters by you but<lb/>
+               they are perfectly safe and if on my<lb/>
+               return to town I find she is not returning<lb/>
+               with <persName ref="./Personography.xml#EdgeF3" cert="medium">M<hi rend="superscript">rs</hi>. Wilson</persName> I shall send them per<lb/>
+               favour of <persName ref="./Personography.xml#FreeF1">Sir Francis Freeling</persName><lb/>            
+            </p>
+            <closer>
+               Sincerely Yours<lb/>
+               <persName ref="./Personography.xml#LockS1"><choice><orig>C.</orig><reg>Charlotte</reg></choice> Sophia Lockhart</persName><lb/>
+            </closer>
          </div>
       </body>
    </text>
