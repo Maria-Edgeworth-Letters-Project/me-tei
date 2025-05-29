@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter from Maria Edgeworth to Frances Anne Edgeworth, <date> May 14, 1841</date></title>
+                <author><persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName></author>
+                <editor>
+                    Paris Weber
+                </editor>
+                <sponsor>
+                    <orgName>Maria Edgeworth Letters Project</orgName>
+                </sponsor>
+                <sponsor>Wake Forest University, University of Tennessee, Xavier University, Texas
+                    A&amp;M University</sponsor>
+                <principal>Susan Egenolf, Meredith Hale, Hilary Havens, Jessica Richard, and Robin Runia</principal>
+                <respStmt>
+                    <resp>Transcription  by
+                    <persName>Gregory Gillespie
+                    </persName> 
+                        Coding by</resp>
+                    <persName> Paris Weber </persName>
+                                   
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>First digital edition in TEI, date: <date when="2025-05-29">
+                </date>
+                </edition>
+                <respStmt>
+                    <orgName 
+                        ref="/http://id.loc.gov/authorities/names/n80020306">Bodleian Library</orgName>
+                    <resp> photos include:
+                        Edgeworth_Bodleian_702_1841-05-30_page 01.jpg,
+                        Edgeworth_Bodleian_702_1841-05-30_page 02.jpg,
+                        Edgeworth_Bodleian_702_1841-05-30_page 03.jpg
+                        
+                    </resp>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <authority>Maria Edgeworth Letters Project</authority>
+                <date>2022</date>
+                <availability>
+                    <p>Reproduced by courtesy of <orgName ref="http://id.loc.gov/authorities/names/n80020306"> Bodleian Library</orgName>
+                    </p>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons Attribution 4.0 (CC BY 4.0) Unported License</licence>
+                </availability>
+                <idno>Edgeworth_Bodleian_702_1841-05-30</idno> 
+            </publicationStmt>
+            <seriesStmt>
+                <title>Maria Edgeworth Letters Project</title>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc xml:lang="en">
+                    <msIdentifier>
+                        <repository>Bodleian Library</repository>
+                        <collection>MS. Eng. lett. c. 702</collection>
+                    </msIdentifier>
+                    <head>Letter from 
+                        <persName xml:id="EdgeM1" from="1768" to="1849">
+                            <forename>Maria</forename>
+                            <surname>Edgeworth</surname>
+                            <date>1768-1849</date>
+                            <idno type="VIAF">71477273</idno>
+                            <idno type="SNAC">62567029</idno>
+                        </persName>
+                        to <persName ref="./Personography.xml#EdgeF2">Frances Anne Edgeworth</persName>
+                        <date when="1111-01-01">1841</date>              
+                    </head>
+                </msDesc>
+                <bibl>In addition to our edited version, this letter was previously published in
+                    <!--complete bibiographical info if letter was published in a book here - if not delete-->
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p>Edgeworth’s spelling and punctuation are retained in transcription, including non-standard spelling, line breaks, and hyphenation of words. The long s and ligatured forms are silently emended.</p>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="./Personography.xml#EdgeF2"> Frances Anne Edgeworth</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2021-01-01" who="Id_who">
+                <!--Brief description of what you did here.-->
+            </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="letter">
+                <pb n="1" facs="Edgeworth_Bodleian_702_1841-05-30_page01.jpg"/>
+                <opener>
+                    <dateline>1841
+                        <placeName ref="./Placeography.xml#Hatch-Street-9_IE"> 9 Hatch Street Dublin</placeName>
+                        <date></date> when="1841-05-30"> cert="high"> May 30, 1841<date/></dateline>
+                    <salute>
+                        <persName></persName>
+                    </salute>
+                </opener>
+                <p>
+                [LibNote]53[/LibNote]
+                I North Audley Street
+                No longer --------------------------
+                ----- Riegate - ten oclock clock
+                Friday night May 14[superscript]h 1841
+                My dear mother -- Fanny is
+                here safe and sound and com
+                fortably in bed in a very good
+                [unclear] - and her head as low
+                as she likes -- All right -- and
+                she has had tea &amp; eaten bread
+                &amp; butter &amp; a bit of dry[underline] toast nicely
+                buttered by no hands as you
+                may guess but those of Blac[unclear][/unclear]ly-
+                -black &amp; Kindly -- friend - To be
+                sure Lestock is the fondest &amp;
+                most tender of husbands &amp; con-
+                [insertion]gentle to her[underline][/underline]
+                stantly [insertion]gentle gentle to [underline]her[/underline][/insertion] - But that is not what
+                I was going to say - or you
+                wanting to know [insertion](You impatient people 
+                I see and I hear you!)
+                </p>
+                <p>
+                Fanny is not nearly as
+                much tired as I feared and
+                I am sure as you feared she
+                would be --- Perhaps however
+                the bruise of tiredness may not
+                appear immediately &amp; I must
+                wait till I see how she is in
+                the morning -- However you
+                
+                may as well have the pleasure
+                of this good report while it
+                is fresh &amp; true - </p>
+                
+                <p>
+                We left London about five &amp;
+                twenty minutes before six
+                and were here a quarter
+                before 9 - three and twenty
+                miles- - not quite half way
+                to Brighton - seven and twenty
+                miles further to Brighton
+                [deletion][unclear]TSoc [deletion][/deletion] So we cannot yet look
+                back on the hardest part &amp;
+                laugh - But we did smile
+                often on the way hither, for
+                it was a very good smooth
+                road - one long hill to go
+                down excepted she did not
+                feel any inconvenience but
+                the downhill motion pains </p>
+                
+                <p>
+                - The evening was delightful
+                and all the air perfumed
+                (too much for her taste) with
+                hawthorn and lilacs &amp;
+                laburnams &amp; Judas trees in
+                such full flower &amp; horse ches
+                nuts in such full candalabra
+                beauty - as she lay in the
+                
+                carriage she could see some
+                of these [deletion]and[/deletion] her dear cheerful
+                ready to be pleased temper
+                is charming! - </p>
+                
+               <p>
+                Lestock had contrived her
+                diagonal couch so that
+                she lay almost at full length
+                her legs just humoring the
+                thing.
+                [Figure]
+                "Je renonce a ça"
+                myself and therefore I must
+                leave that square with M, [insertion]a black blot [/insertion] to repre-
+                sent [deletion]both[/deletion] my seat &amp; myself-
+                I am sorry to have made Lestock
+                such a dumpy man -
+                - But you may comprehend
+                by these Scribbloglyphics of [unclear][/unclear]
+                how we sat- tho not what like we were -
+                Tell Dr Francis that the case wh[superscript]h[/superscript]
+                he had made for my writing
+                &amp; dressing &amp; work-box made
+                my seat standing on end &amp; put
+                in a green-baize-bag &amp; with
+                a horse hair cushion [insertion]at tuppence [/insertion]for me
+                to sit upon- Oh! exactly the
+                thing! [deletion]&amp;[/deletion] I had it made the day
+                before by a charming man I went &amp;
+                [unclear]beseeched[/unclear] to and [underline]prayed[/underline] to about it in
+                Oxford S[superscript]t[/superscript] - Honora directed me to
+                him and he is [underline]impayable[/underline] but I paid him - &amp; only 3/6
+                This part my
+                skill to foreshorten
+                54
+                
+                It was thought impossible that
+                I could be squeezed into the
+                carriage and so it would,
+                have been, [underline]but [/underline]for this device
+                &amp; this darling [deletion]box of[/deletion] Case of -
+                cases - never sat so comfortably
+                [unclear][/unclear] FMWs [insertion]writing [/insertion]Box for footstool &amp; all! </p>
+                
+                <p>
+                Barry joins us tomorrow
+                by 3 o clock - waits till letters
+                come in in London at 10 o clock
+                in hopes of hearing from [underline]AB[/underline]
+                - And when I know Harriet Butlers
+                intentions as to coming I can settle
+                [underline]his[/underline] HB - And when I know Harriet Butlers intentions as to coming I can settle mine as to going &amp; will let you know
+                [underline]mine[/underline] as to going &amp; will [underline]let you [/underline]know
+                We go to Hotel at Brighton first
+                day, while Barry &amp; Lestock
+                house=hunt - The gentle Giant
+                -ess, Mary, is with us - came with
+                John the best of Johns [deletion](except[/deletion]
+                ([underline]King John[/underline], (Lucy) always excepted
+                for your sake) </p>
+                
+                <p>
+                - Ross and Lewen will
+                come on Morrow to us &amp; then
+                we shall be ourselves again
+                with all our North Audley
+                comforts full upon us
+                and I hope to be able [underline]to give[/underline]
+                you a good [insertion]acct [/insertion]of Fanny tomorrow
+                </p>
+                
+                <closer> 
+                Good bye now dearest
+                mother - I hope this will [underline]still[/underline]
+                your anxiety, which I know
+                [underline]must[/underline] be very great ) your affec
+                at a [underline]distance! [/underline]when even
+                Maria E
+                mine on the spot was great enough
+                </closer>
+            </div>
+        </body>
+        <back> </back>
+    </text>
+</TEI>
+
