@@ -6,10 +6,10 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Letter from Maria Edgeworth to <!--Recipient Name, Month Day, YYYY--></title>
-            <author>Maria Edgeworth</author>
+            <title>Letter from Maria Edgeworth to Frances Anne Edgeworth, <date> January 13, 1841</date></title>
+            <author><persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName></author>
             <editor>
-               <!--Editor on the Maria Edgeworth Letters Project overseeing the coding of this particular letter: FirstName LastName -->
+               Paris Weber
             </editor>
             <sponsor>
                <orgName>Maria Edgeworth Letters Project</orgName>
@@ -18,26 +18,29 @@
                A&amp;M University</sponsor>
             <principal>Susan Egenolf, Meredith Hale, Hilary Havens, Jessica Richard, and Robin Runia</principal>
             <respStmt>
-               <resp>Transcription and coding by</resp>
-               <persName><!--FirstName LastName-->
-               </persName>
-               <!-- List all transcribers or coders here, editors and students alike, <persName> by <persName>.-->
-               <persName><!--FirstName LastName--></persName>
-               <!-- If you're the last person interacting with the file, enter your name last on the list -->
+               <resp>Transcription  by
+                  <persName>Gregory Gillespie
+                  </persName> 
+                  Coding by</resp>
+               <persName> Paris Weber </persName>
+               
             </respStmt>
          </titleStmt>
          <editionStmt>
-            <edition>First digital edition in TEI, date: <date when="2022-01-01">
-                  <!--enter the date on which the first coder created and saved this XML file-->
-               </date>
+            <edition>First digital edition in TEI, date: May 30,2025 <date when="2025-05-30">
+            </date>
             </edition>
             <respStmt>
-               <orgName type="naf" ref="Id_who">
-                  <!--who digitized the letter or gave us permission for to use the file?-->
-               </orgName>
+               <orgName 
+                  ref="/http://id.loc.gov/authorities/names/n80020306">Bodleian Library</orgName>
                <resp> photos include:
-                  <!-- Make a comma-separated list of each .jpg photo file name associated with your letter. 
-                     For example: DSCF9476.jpg, DSCF9477.jpg, DSCF9478.jpg-->
+                  Edgeworth_Bodleian_702_1841-01-13_page01.jpg,
+                  Edgeworth_Bodleian_702_1841-01-13_page02.jpg,
+                  Edgeworth_Bodleian_702_1841-01-13_page03.jpg,
+                  Edgeworth_Bodleian_702_1841-01-13_page04.jpg,
+                  Edgeworth_Bodleian_702_1841-01-13_page05.jpg,
+                  Edgeworth_Bodleian_702_1841-01-13_page06.jpg
+                  
                </resp>
             </respStmt>
          </editionStmt>
@@ -45,42 +48,32 @@
             <authority>Maria Edgeworth Letters Project</authority>
             <date>2022</date>
             <availability>
-               <!--Uncomment the appropriate line, based on the archive that holds the physical copy of this letter, 
-                  and delete the other comment line(s).-->
-               <p><!--Reproduced by courtesy of the <orgName ref="#ReadingCL">Reading Central Library</orgName>.-->
-                  <!--or -->
-                  <!--Courtesy of <orgName ref="#Rylands">The University of Manchester</orgName>.-->
+               <p>Reproduced by courtesy of <orgName ref="http://id.loc.gov/authorities/names/n80020306"> Bodleian Library</orgName>
                </p>
                <licence target="https://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons Attribution 4.0 (CC BY 4.0) Unported License</licence>
             </availability>
-            <idno><!--Change to match the file name and current naming standards, i.e. "Edgeworth_Beinecke_330_1817_01_24" if file name is "Edgeworth_Beinecke_330_1817_01_24.xml"--></idno> 
+            <idno>Edgeworth_Bodleian_702_1841-05-14</idno> 
          </publicationStmt>
          <seriesStmt>
             <title>Maria Edgeworth Letters Project</title>
          </seriesStmt>
          <sourceDesc>
             <msDesc xml:lang="en">
-               <!-- This section of the header identifies the original manuscript source. -->
                <msIdentifier>
-                  <repository>ORGANIZATION NAME</repository>
-                  <collection><!-- Enter specific archival collection if applicable--></collection>
-                  <idno><!--Consult library or WorldCat for this info--></idno>
+                  <repository>Bodleian Library</repository>
+                  <collection>MS. Eng. lett. c. 702</collection>
                </msIdentifier>
                <head>Letter from 
-                     <persName xml:id="EdgeM1" from="1768" to="1849">
-                        <forename>Maria</forename>
-                        <surname>Edgeworth</surname>
-                        <date>1768-1849</date>
-                        <idno type="VIAF">71477273</idno>
-                        <idno type="SNAC">62567029</idno>
-                     </persName>
-                   to <persName><!--Recipient Name--></persName>, <placeName><!--Location where letter was sent--></placeName>, 
-                  <date when="1111-01-01"><!-- Transcribe the date as it appears on the letter itself. Enter a numeric standardized date value in @when. --></date>
-                  <!-- <stamp>Enter description, if applicable</stamp>-->
+                  <persName xml:id="EdgeM1" from="1768" to="1849">
+                     <forename>Maria</forename>
+                     <surname>Edgeworth</surname>
+                     <date>1768-1849</date>
+                     <idno type="VIAF">71477273</idno>
+                     <idno type="SNAC">62567029</idno>
+                  </persName>
+                  to <persName ref="./Personography.xml#EdgeF2">Frances Anne Edgeworth</persName>
+                  <date> 1769-1865</date>              
                </head>
-               <physDesc>
-                  <!-- optional physical description of the letter goes here: paper size and condition, seal, postmarks, etc.-->
-               </physDesc>
             </msDesc>
             <bibl>In addition to our edited version, this letter was previously published in
                <!--complete bibiographical info if letter was published in a book here - if not delete-->
@@ -89,73 +82,264 @@
       </fileDesc>
       <encodingDesc>
          <editorialDecl>
-            <!--Where Edgeworth uses nonstandard spelling and hyphenation of words, transcriber-coders 
-               should use TEI elements “choice," “sic," and “reg" to encode both Edgeworth’s 
-               spelling and the regular international standard of Oxford English spelling, 
-               following the first listed spelling in the Oxford English Dictionary. -->
             <p>Edgeworth’s spelling and punctuation are retained in transcription, including non-standard spelling, line breaks, and hyphenation of words. The long s and ligatured forms are silently emended.</p>
          </editorialDecl>
       </encodingDesc>
       <profileDesc>
          <correspDesc>
             <correspAction type="sent">
-               <persName><!--SENDER NAME--></persName>
+               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
             </correspAction>
             <correspAction type="received">
-               <persName><!--RECIPIENT NAME--></persName>
+               <persName ref="./Personography.xml#EdgeF2"> Frances Anne Edgeworth</persName>
             </correspAction>
          </correspDesc>
       </profileDesc>
       <revisionDesc>
          <change when="2021-01-01" who="Id_who">
-            <!--Brief description of what you did here.-->
          </change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <div type="letter">
-            <pb n="1" facs="image1.jpg"/>
-            <!--filenames for photos associated with this letter. Example: <pb n="1" facs="image1.jpg image2.jpg image3.jpg"/> -->
+            <pb n="1" facs="Edgeworth_Bodleian_702_1841-01-13_page01.jpg"/>
             <opener>
-               <dateline><!--If there's no date line, remove this element. Record in the order in which it is written on the letter.-->
-                  <placeName ref="Id_where"/>
-                  <date when="1111-11-11">Month DD, YYYY</date></dateline>
-               <salute>
-                  <persName>
-                     <!-- Use if letter has a saluation ("Dear Sir," for example). If not, delete this line.-->
-                  </persName>
-               </salute>
+               <dateline>
+                  <placeName ref="./Placeography.xml#North-Audley-Street-1_ENK">1 North Audley Street</placeName>
+                  <date when="1841-01-13">Jan<hi rend="superscript">y</hi>13<hi rend="superscript">h</hi>1841</date></dateline>
+               
             </opener>
-            <p><!-- Begin transcibing the body of the letter here. -->
+            <p>
+             
+               Dearest mother<lb/>
+               I left off I believe where Fanny<lb/>
+               was about to give a dinner and<lb/>
+               I go on with -<lb/>
+               It was a most agreeable dinner<lb/>
+               in the first place in [underline]my opinion<lb/>
+               [insertion]for[/insertion] whom it was most intended and<lb/>
+               next in the opinions of [deletion]all[/deletion] the<lb/>
+               guests who evidently in and<lb/>
+               proved with out a doubt by their<lb/>
+               laughing talking and eating<lb/>
+               their fill were jointly and severally<lb/>
+               pleased and happily satisfied<lb/>
             </p>
             <p>
-               <!--More body paragraphs as needed.--></p>
+               The Convives were D.[superscript]r[/superscript] Lushington<lb/>
+               [underline]primo [/underline]- M[superscript]r[/superscript]. Andrews - secundo -<lb/>
+               M[superscript]r. M[superscript]c[/superscript].Intosh Into[unclear] (Sir James' son) tertio<lb/>
+               (The males being always put first in play bill)<lb/>
+               Females<lb/>
+               Miss Carr - &amp; M[superscript]rs [insertion]Hercules Beaufort - who kindly<lb/>
+               came to supply the place of M[superscript]rs[/superscript]. Andrews<lb/>
+               who at the last sent a [underline]regret[/underline]- / in bed headache<lb/>
+               who at last sent a [underline/]regret[/underline] -- in bed headache<lb/></p>
             <p>
-               <!--More body paragraphs as needed.-->
-               <!--Where there's a page break record it inside the relevant body paragraph like this, 
-                  with the self-closing page-break element. n="2" indicates the START of the second page.-->
-               <pb n="2" facs="image2.jpg"/>
-            </p>
-            <p><!--More body paragraphs as needed.--></p>
+               So you see Miss Carr was the only<lb/>
+               [underline]strange[/underline] lady - But Honora supplied<lb/>
+               the place of M[superscript]rs[/superscript]. Andrews to perfection,<lb/>
+               Well dressed in pretty flowered cap &amp;<lb/>
+               nice curled hair looking &amp; talking<lb/>
+               highbred beside M[superscript]r[/superscript]. Andrews who<lb/>
+               [underline]took her[/underline] down &amp; Lestock who liked to<lb/>
+               have her beside him -- D[superscript]r[/superscript]. Lushington<lb/>
+               beside J M W -- proper &amp; very agreeable<lb/>
+               [unclear] [unclear] [unclear]remarkably well<lb/>
+               with her &amp; without her talking away<lb/>
+               not a word of Politics or Religion &amp; then<lb/>
+               he is the most entertaining &amp; agreeable<lb/>
+               
+               <pb n="2" facs="Edgeworth_Bodleian_702_1841-01-13_page02.jpg"/>
+               - and he has left off being in facti-<lb/>
+               -tious enthusiasm about every<lb/>
+               thing &amp; her natural high spirits<lb/>
+               (poor man) have been lowered<lb/>
+               to sympathy - point or [insertion]to[/insertion] my sympa-<lb/>
+               -thising possibility - He raised the<lb/>
+               hearts laugh frequently &amp; the<lb/>
+               heads by [deletion]anecdotes[/deletion] &amp; [underline]fresh[/underline]<lb/>
+               not old faded London diner out<lb/>
+               bon mots and anecdotes &amp;<lb/>
+               facts if not secret worth knowing<lb/>
+               - all with the connivance &amp;<lb/>
+               assistance of M[superscript]r[/superscript]. Andrews who<lb/>
+               (pray tell Harriet Butler)<lb/>
+               I think a remarkably agreeable<lb/>
+               gentlemanly gentleman<lb/>
+               They played into each others hands<lb/>
+               and mine delightfully and Frances,<lb/>
+               and Honoras &amp; the ball came to every<lb/>
+               body's hands pat - in turn<lb/>
+               the Ball - did I say - Boomarang I had<lb/>
+               better have said - for it came back<lb/>
+               always nicely to the thrower<lb/></p>
+            <p>
+               a more agreeable conversation dinner<lb/> 
+               I never heard - nor a better more [insertion]cooked[/insertion] well<lb/>
+               elegant [insertion]proportioned [/insertion] &amp; well served dinner I never<lb/>
+               saw - eat or saw eaten<lb/></p>
+            <p>
+               Coffee time &amp; evening and all to<lb/>
+               match - ending past eleven without<lb/>
+               anybody knowing how<lb/></p>
+            <p>
+               D[superscript]r[/superscript]. Lushington as I have since learned from<lb/>
+               Miss Carr reiterated in the carriage as they<lb/>
+               went home "What a merry pleasant dinner<lb/>
+               we had !"- But what is much more to<lb/>
+               my mind Lestock enjoyed it &amp; joined<lb/>
+               
+               <pb n="3" facs="Edgeworth_Bodleian_702_1841-01-13_page03.jpg"/>
+               in at the time (excellent wines too not<lb/>
+               throw away on Lushington<lb/>
+               and afterward Lestock said to Fanny<lb/>
+               how much he had been pleased<lb/>
+               with it all - How well he thought it<lb/>
+               went off - and especially how agree<lb/>
+               -able he thought D[superscript]r[/superscript]. L - Now this<lb/>
+               was particularly pleasing both to<lb/>
+               Fanny &amp; to me - for she had asked<lb/>
+               Lushington [underline]for me[/underline] ( to save my going<lb/>
+               to dine with them ) and tho' Lestock<lb/>
+               kindly [underline]gave-in[/underline] to it, it was rather<lb/>
+               a contre coeur; as Lushington had<lb/>
+               not won her heart formerly - [insertion]being [/insertion]a desper<lb/>
+               ate Whig as he is ! How should he?-<lb/></p>
+            <p>
+               But having kept clear of politics &amp;c<lb/>
+               no man could be as Lestock him<lb/>
+               -self said more agreeable - QED-<lb/>
+               and a delightful QED to me<lb/>
+               for I do hate to bore Lestock with<lb/>
+               the old lioness's worshippers [insertion]all[/insertion] coming<lb/>
+               to feed, or be fed; Some [insertion]of them[/insertion] Roaring-lions<lb/>
+               themselves [deletion]to [/deletion][insertion]by[/insertion]stand[insertion]ing[/insertion] on their hind<lb/>
+               legs opposite to Lestocks [underline]silent [/underline]face -<lb/>
+               - a face! -enough (as I should feel)<lb/>
+               to turn any living lion rampant [insertion]= roaring[/insertion]<lb/>
+               into a lion couchant = mute, - on<lb/>
+               the spot -<lb/></p>
+            <p>
+               You see I am happy &amp; in<lb/>
+               good spirits - and you feel without<lb/>
+               my saying it (but I will say it<lb/>
+               nevertheless ) that Fanny is not the<lb/>
+               worse in the least any way for<lb/>
+               this dinner - Whether she is the<lb/>
+               
+               <pb n="4" facs="Edgeworth_Bodleian_702_1841-01-13_page04.jpg"/>
+               different from what I last saw what<lb/>
+               suited her former figure that<lb/>
+               altogether it made me feel the<lb/>
+               lapse of [insertion]the ten[/insertion] years since we had met<lb/>
+               a rich stand [unclear]an-end[/unclear] end[/unclear] watered silk<lb/>
+               by candle light<lb/>
+               of amber color<lb/>
+               perhaps by day light golden yellow<lb/>
+               such as Rosa &amp; Francis patronise<lb/>
+               Double Ruffles of light lace [deletion]&amp;[/deletion] light<lb/>
+               sleeves like old Vandyke picture<lb/></p>
+            <p>
+               Quick from Emmas most<lb/>
+               politely kind welcome I turned to<lb/>
+               look for M[superscript]rs[/superscript]. Sneyd who was making<lb/>
+               her way between Wall flowers &amp;<lb/>
+               Quadrille circles up to [deletion]the[/deletion] us -<lb/>
+               ( She too was so changed that I<lb/>
+               could not at all have known<lb/>
+               her - grown downwards - and<lb/>
+               huddled up with black satin<lb/>
+               shawl hiding neck &amp; pinned<lb/>
+               unmercifully across whole figure<lb/>
+               hiding all outline of limb &amp; form<lb/>
+               and surmounted by [insertion]the likeness of[/insertion] a little<lb/>
+               old womans morning cape of blonde<lb/>
+               it might be but dowged &amp; not in<lb/>
+               its first freshness it looked to me<lb/>
+               - and the whole face so squeezed<lb/>
+               together &amp; brow &amp; mouth so wrinkled<lb/>
+               &amp; crinkled I could not concieve it<lb/>
+               to be in the once [insertion]young &amp;[/insertion] radiant [insertion]not the afterwards[/insertion] fashionable<lb/>
+               [underline]well set up[/underline] M[superscript]rs[/superscript] Sneyd of Byrkley Lodge<lb/>
+               however - When she came so near<lb/>
+               that I could see her [underline]countenance[/underline]<lb/>
+               I recognised the unchanged<lb/>
+               expression of cheerful, polite bene<lb/>
+               volence - As she greeted me &amp;<lb/>
+               thanked<lb/>
+               
+               <pb n="5" facs="Edgeworth_Bodleian_702_1841-01-13_page05.jpg"/>
+               that last sentence about D[superscript]r[/superscript]<lb/>
+               Ashburnam was quite a [unclear][/unclear]<lb/>
+               as proved by his heads appearing<lb/>
+               coming in at the door behind<lb/>
+               the red skreen at the very instant<lb/>
+               I came to the last words of last page<lb/></p>
+            <p>
+               He felt her pulse &amp; finds it only<lb/>
+               eighty [underline]four [/underline]- &amp; is [underline]well satisfied[/underline]<lb/>
+               and thats enough -<lb/></p>
+            <p>
+               He brought with him a M[superscript]r[/superscript].<lb/>
+               Kennion a brother of Lord Kennions<lb/>
+               one of the best [insertion]of the[/insertion] jovial class of London<lb/>
+               diners, a breakfaster-out - He<lb/>
+               has been interrupting [insertion]me full hour yet[/insertion] in spite<lb/>
+               of that entertaining me unto the last<lb/>
+               gasp - The last thing he told I<lb/>
+               give as a specimen - a saying<lb/>
+               of M[deletion]iss[/deletion][insertion]rs[/insertion] Brooke's sister of Baron Garrow<lb/></p>
+            <p>
+               The Baron notwithstanding his<lb/>
+               bullying manner as a lawyer in court<lb/>
+               was a man easily swayed in private<lb/>
+               and one of those who always are in-<lb/>
+               -fluenced by the last thing said &amp; the<lb/>
+               last person who is in their company<lb/>
+               - all which [insertion]ideas [/insertion]M[superscript]rs[/superscript]. Brooke compressed into<lb/>
+               " With my brother [insertion]always [/insertion][underline]"Presence is power[/underline] "<lb/></p>
+            <p>
+               But now I must quit your<lb/>
+               presence &amp; go to dress to go to M[superscript]rs[/superscript] Sneyd<lb/>
+               - Honora is to call for me at half<lb/>
+               after<lb/>
+               
+               <pb n="6" facs="Edgeworth_Bodleian_702_1841-01-13_page06.jpg"/>
+               half part seven - Half past 6 now<lb/>
+               and I have to dress &amp; dine<lb/></p>
+            <p>
+               Goodbye - It is snowing as<lb/>
+               hard as it can - But snow or not snow<lb/>
+               Go we must - we must go<lb/>
+               It is astonishing how soon and<lb/>
+               London [underline]musts[/underline] - and [underline]must goes[/underline]<lb/>
+               the human heart hardens towards<lb/>
+               horses and men!- And even<lb/>
+               my own in one short month begins<lb/>
+               I feel to ossify apace<lb/></p>
+            <p>
+               I must go - But<lb/>
+               still I am heartily glad Fannys<lb/>
+               John is not to go with us<lb/>
+               Honoras man is to go and<lb/>
+               I don't care for him - he is not<lb/>
+               one of our ownselves.- And<lb/>
+               as to horses - by the job - who<lb/>
+               cares for job horses!- they are<lb/>
+               scarcely animals only moving<lb/>
+               machines - and steam will<lb/>
+               soon take their hay &amp; oats out<lb/>
+               of their mouths<lb/></p>
             <closer>
-               <!--include linebreaks, if used. example: <closer> Yours<lb/> Very sincerely<lb/> -->
-            </closer>
-            <postscript>
-               <p><!--A postscript goes here, outside the <closer>. --></p>
-            </postscript>
-            <!--You can include a <pb/> here, or inside the postScript.-->
-            <!-- Format for postscripts. 
-               Postscripts do NOT go inside closer tags. Adjust to take into account the order in your letter. 
-               Sometimes the signature is on page three, the address on page four, then the postscript follows back on the top of page one, for example.-->
-            <closer><!--Use the <closer> element again to hold Address Leaf information.-->
-               <address>
-                  <!--Include any text written on the address leaf; use a separate "addrLine" for each line and indicate line breaks. -->
-                  <addrLine/>
-                  <addrLine/>
-                  <addrLine/>
-               </address>
-            </closer>
+               yours humanely &amp;<lb/>
+               [insertion]Emily B is delighted<lb/>
+               to go to this little<lb/>
+               dance -[/insertion]<lb/>
+               Maria Edgeworth<lb/></closer>
+               
+            
          </div>
       </body>
       <back> </back>
