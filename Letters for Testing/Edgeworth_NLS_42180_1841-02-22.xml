@@ -53,8 +53,7 @@
                   <idno/>
                </msIdentifier>
                <head>Letter from 
-                  <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
-                  to unknown,
+                  <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>,
                   <date when="1111-01-01"><!-- Transcribe the date as it appears on the letter itself. Enter a numeric standardized date value in @when. --></date>
                   <!-- <stamp>Enter description, if applicable</stamp>-->
                </head>
@@ -69,10 +68,6 @@
       </fileDesc>
       <encodingDesc>
          <editorialDecl>
-            <!--Where Edgeworth uses nonstandard spelling and hyphenation of words, transcriber-coders 
-               should use TEI elements “choice," “sic," and “reg" to encode both Edgeworth’s 
-               spelling and the regular international standard of Oxford English spelling, 
-               following the first listed spelling in the Oxford English Dictionary. -->
             <p>Edgeworth’s spelling and punctuation are retained in transcription, including non-standard spelling, line breaks, and hyphenation of words. The long s and ligatured forms are silently emended.</p>
          </editorialDecl>
       </encodingDesc>
@@ -107,58 +102,41 @@
                   </persName>
                </salute>
             </opener>
-            <p>1 North Audley Street
-               Feb[superscript]y[/superscript] 22[superscript]d[/superscript] 1841
-               Dear Sir
-               Your offer of 50 guineas, guineas, at six
-               months date after publication
-               for the copy right of a translation
-               by my sister Lucy E from the
-               French of the three stories of
-               Barnabe - Pierre &amp; Pierrette
-               and Marguerite, with a
-               preface, and explanatory
-               remarks for young English
-               readers to be written by me
-               I accept for my sister and
-               myself and consider as
-               liberal
-               I am [underline]D[superscript]r[/superscript] Sir[/underline] with the belief
-               that the putting this our little
-               agreement thus carefully in
-               writing, trifling though it
-               be compared with your
-               great affairs, is the way to
-               ensure our being as well
-               pleased with each other
-               at the end as we are at
-               this beginning of our connexion
-               as publishers &amp; authors
-               Yours sincerely
-               Maria Edgeworth
-               To
-               John Murray Esq[superscript]re[/superscript]
-               
-               
-               <pb n="2" facs="image2.jpg"/>
+            <p>1 North Audley Street<lb/>
+               Feb<hi rend= "superscript">y</hi> 22<hi rend= "superscript">d</hi> 1841<lb/>
+               Dear Sir<lb/>
+               Your offer of 50 guineas, guineas, at six<lb/>
+               months date after publication<lb/>
+               for the copy right of a translation<lb/>
+               by my sister Lucy E from the<lb/>
+               French of the three stories of<lb/>
+               Barnabe - Pierre &amp; Pierrette<lb/>
+               and Marguerite, with a<lb/>
+               preface, and explanatory<lb/>
+               remarks for young English<lb/>
+               readers to be written by me<lb/>
+               I accept for my sister and<lb/>
+               myself and consider as<lb/>
+               liberal<lb/>
+               I am <hi rend= "underline">D<hi rend= "superscript">r</hi> Sir</hi> with the belief<lb/>
+               that the putting this our little<lb/>
+               agreement thus carefully in<lb/>
+               writing, trifling though it<lb/>
+               be compared with your<lb/>
+               great affairs, is the way to<lb/>
+               ensure our being as well<lb/>
+               pleased with each other<lb/>
+               at the end as we are at<lb/>
+               this beginning of our connexion<lb/>
+               as publishers &amp; authors<lb/>
             </p>
-            <p><!--More body paragraphs as needed.--></p>
             <closer>
-               <!--include linebreaks, if used. example: <closer> Yours<lb/> Very sincerely<lb/> -->
-            </closer>
-            <postscript>
-               <p><!--A postscript goes here, outside the <closer>. --></p>
-            </postscript>
-            <!--You can include a <pb/> here, or inside the postScript.-->
-            <!-- Format for postscripts. 
-               Postscripts do NOT go inside closer tags. Adjust to take into account the order in your letter. 
-               Sometimes the signature is on page three, the address on page four, then the postscript follows back on the top of page one, for example.-->
-            <closer><!--Use the <closer> element again to hold Address Leaf information.-->
+              Yours sincerely<lb/>
+                  Maria Edgeworth<lb/></closer>
+            <closer>
                <address>
-                  <!--Include any text written on the address leaf; use a separate "addrLine" for each line and indicate line breaks. -->
-                  <addrLine/>
-                  <addrLine/>
-                  <addrLine/>
+                  <addrLine>To</addrLine>
+                  <addrLine>John Murray Esq<hi rend= "superscript">re</hi></addrLine>
                </address>
             </closer>
          </div>
