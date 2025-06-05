@@ -6,10 +6,10 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Letter from Maria Edgeworth to <!--Recipient Name, Month Day, YYYY--></title>
+            <title>Letter from Maria Edgeworth to Frances Anne Edgeworth, April 4, 1841</title>
             <author>Maria Edgeworth</author>
             <editor>
-               <!--Editor on the Maria Edgeworth Letters Project overseeing the coding of this particular letter: FirstName LastName -->
+               Paris Weber
             </editor>
             <sponsor>
                <orgName>Maria Edgeworth Letters Project</orgName>
@@ -19,25 +19,25 @@
             <principal>Susan Egenolf, Meredith Hale, Hilary Havens, Jessica Richard, and Robin Runia</principal>
             <respStmt>
                <resp>Transcription and coding by</resp>
-               <persName><!--FirstName LastName-->
+               <persName>Paris Weber
                </persName>
-               <!-- List all transcribers or coders here, editors and students alike, <persName> by <persName>.-->
-               <persName><!--FirstName LastName--></persName>
-               <!-- If you're the last person interacting with the file, enter your name last on the list -->
+             
+               <persName></persName>
+              
+              
             </respStmt>
          </titleStmt>
          <editionStmt>
-            <edition>First digital edition in TEI, date: <date when="2022-01-01">
-                  <!--enter the date on which the first coder created and saved this XML file-->
-               </date>
+            <edition>First digital edition in TEI, date: June 05,2025 <date when="2025-06-05">
+            </date>
             </edition>
             <respStmt>
-               <orgName type="naf" ref="Id_who">
-                  <!--who digitized the letter or gave us permission for to use the file?-->
-               </orgName>
+               <orgName 
+                  ref="/http://id.loc.gov/authorities/names/n80020306">Bodleian Library</orgName>
                <resp> photos include:
-                  <!-- Make a comma-separated list of each .jpg photo file name associated with your letter. 
-                     For example: DSCF9476.jpg, DSCF9477.jpg, DSCF9478.jpg-->
+                  Edgeworth_Bodleian_702_1841-01-04_page01.jpg,
+                  Edgeworth_Bodleian_702_1841-01-04_page02.jpg
+                  
                </resp>
             </respStmt>
          </editionStmt>
@@ -45,42 +45,32 @@
             <authority>Maria Edgeworth Letters Project</authority>
             <date>2022</date>
             <availability>
-               <!--Uncomment the appropriate line, based on the archive that holds the physical copy of this letter, 
-                  and delete the other comment line(s).-->
-               <p><!--Reproduced by courtesy of the <orgName ref="#ReadingCL">Reading Central Library</orgName>.-->
-                  <!--or -->
-                  <!--Courtesy of <orgName ref="#Rylands">The University of Manchester</orgName>.-->
+               <p>Reproduced by courtesy of <orgName ref="http://id.loc.gov/authorities/names/n80020306"> Bodleian Library</orgName>
                </p>
                <licence target="https://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons Attribution 4.0 (CC BY 4.0) Unported License</licence>
             </availability>
-            <idno><!--Change to match the file name and current naming standards, i.e. "Edgeworth_Beinecke_330_1817_01_24" if file name is "Edgeworth_Beinecke_330_1817_01_24.xml"--></idno> 
+            <idno>Edgeworth_Bodleian_702_1841-05-14</idno> 
          </publicationStmt>
          <seriesStmt>
             <title>Maria Edgeworth Letters Project</title>
          </seriesStmt>
          <sourceDesc>
             <msDesc xml:lang="en">
-               <!-- This section of the header identifies the original manuscript source. -->
                <msIdentifier>
-                  <repository>ORGANIZATION NAME</repository>
-                  <collection><!-- Enter specific archival collection if applicable--></collection>
-                  <idno><!--Consult library or WorldCat for this info--></idno>
+                  <repository>Bodleian Library</repository>
+                  <collection>MS. Eng. lett. c. 702</collection>
                </msIdentifier>
                <head>Letter from 
-                     <persName xml:id="EdgeM1" from="1768" to="1849">
-                        <forename>Maria</forename>
-                        <surname>Edgeworth</surname>
-                        <date>1768-1849</date>
-                        <idno type="VIAF">71477273</idno>
-                        <idno type="SNAC">62567029</idno>
-                     </persName>
-                   to <persName><!--Recipient Name--></persName>, <placeName><!--Location where letter was sent--></placeName>, 
-                  <date when="1111-01-01"><!-- Transcribe the date as it appears on the letter itself. Enter a numeric standardized date value in @when. --></date>
-                  <!-- <stamp>Enter description, if applicable</stamp>-->
+                  <persName xml:id="EdgeM1" from="1768" to="1849">
+                     <forename>Maria</forename>
+                     <surname>Edgeworth</surname>
+                     <date>1768-1849</date>
+                     <idno type="VIAF">71477273</idno>
+                     <idno type="SNAC">62567029</idno>
+                  </persName>
+                  to <persName ref="./Personography.xml#EdgeF2">Frances Anne Edgeworth</persName>
+                  <date> 1769-1865</date>              
                </head>
-               <physDesc>
-                  <!-- optional physical description of the letter goes here: paper size and condition, seal, postmarks, etc.-->
-               </physDesc>
             </msDesc>
             <bibl>In addition to our edited version, this letter was previously published in
                <!--complete bibiographical info if letter was published in a book here - if not delete-->
@@ -89,60 +79,134 @@
       </fileDesc>
       <encodingDesc>
          <editorialDecl>
-            <!--Where Edgeworth uses nonstandard spelling and hyphenation of words, transcriber-coders 
-               should use TEI elements “choice," “sic," and “reg" to encode both Edgeworth’s 
-               spelling and the regular international standard of Oxford English spelling, 
-               following the first listed spelling in the Oxford English Dictionary. -->
             <p>Edgeworth’s spelling and punctuation are retained in transcription, including non-standard spelling, line breaks, and hyphenation of words. The long s and ligatured forms are silently emended.</p>
          </editorialDecl>
       </encodingDesc>
       <profileDesc>
          <correspDesc>
             <correspAction type="sent">
-               <persName><!--SENDER NAME--></persName>
+               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
             </correspAction>
             <correspAction type="received">
-               <persName><!--RECIPIENT NAME--></persName>
+               <persName ref="./Personography.xml#EdgeF2"> Frances Anne Edgeworth</persName>
             </correspAction>
          </correspDesc>
       </profileDesc>
       <revisionDesc>
          <change when="2021-01-01" who="Id_who">
-            <!--Brief description of what you did here.-->
          </change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <div type="letter">
-            <pb n="1" facs="image1.jpg"/>
-            <!--filenames for photos associated with this letter. Example: <pb n="1" facs="image1.jpg image2.jpg image3.jpg"/> -->
-            <opener>
-               <dateline><!--If there's no date line, remove this element. Record in the order in which it is written on the letter.-->
+            <pb n="1" facs="Edgeworth_Bodleian_702_1841-04-04_page01.jpg"/>
+            
+               <dateline>
                   <placeName ref="Id_where"/>
-                  <date when="1111-11-11">Month DD, YYYY</date></dateline>
+                  <date when="1841-04-04"><add>Ap 4. 1841</add></date></dateline>
                <salute>
                   <persName>
                      <!-- Use if letter has a saluation ("Dear Sir," for example). If not, delete this line.-->
                   </persName>
                </salute>
-            </opener>
-            <p><!-- Begin transcibing the body of the letter here. -->
-            </p>
+            
             <p>
-               <!--More body paragraphs as needed.--></p>
+               
+               (7
+               Apprehension had I of her danger insomuch<lb/>
+               had Ashburner assured me she was going on well<lb/>
+               (I remember his expression she may build Chateaux<lb/>
+               on Espagne now -if she pleases)<lb/>
+               that I accepted yesterday morning actually<lb/>
+               yesterday morning an invitation which had <lb/>
+               been a dozen times repeated [deletion]&amp; wished for[/deletion] by<lb/>
+               M[superscript]r[/superscript] Rogers to go to one of his breakfasts [deletion]&amp; it was[/deletion]<lb/>
+               a breakfast made on purpose for me with carte<lb/>
+               blanche for my kith &amp; kin whom Rogers discovered<lb/>
+               good natured man to be essential to my pleasure<lb/> </p>
+            
             <p>
-               <!--More body paragraphs as needed.-->
-               <!--Where there's a page break record it inside the relevant body paragraph like this, 
-                  with the self-closing page-break element. n="2" indicates the START of the second page.-->
-               <pb n="2" facs="image2.jpg"/>
-            </p>
-            <p><!--More body paragraphs as needed.--></p>
+               Capt[superscript]n[/superscript] Beaufort, thinks of that too! wished to<lb/>
+               go and asked me to introduce him &amp; Honora and<lb/>
+               Rosa and Emily all dined much to [unclear][/unclear] so they<lb/>
+               had invites special and Lestock but he c[superscript]d[/superscript] not<lb/> </p>
+            <p>
+               So we all went and saw his fine pictures<lb/>
+               &amp; all his delightful things himself by far the<lb/>
+               most delightful among them notwithstanding<lb/>
+               all that nature did to forbid - If not the best<lb/>
+               worth seeing Rogers is certainly one of the men best<lb/>
+               worth hearing of modern conversation men<lb/></p>
+            <p>
+               Too [unclear]tender[/unclear] there was an admirable break<lb/>
+               fast and we had it and him &amp; all of it to ourselves<lb/>
+               the only thing I thought de trop was<lb/>
+               one of the footmen - there were two in<lb/>
+               waiting all Breakfast now one I<lb/>
+               thought was [unclear][/unclear] de trop -<lb/>
+               in former times 20 years or 10 years<lb/>
+               ago one footman or man of some kind<lb/>
+               at a private breakfast was enough for a [underline]marquess [/underline]or [underline]quis[/underline]<lb/></p>
+            <p>
+               But let this pass nobody complained of it - and I<lb/>
+               enjoyed the full and complete satisfaction of seeing <lb/>
+               all my kith and kin pleased - delighted - even<lb/>
+               the fastidious captain his self -<lb/></p>
+            <p>
+               But only think how near pleasure &amp; pain - feast<lb/>
+               ing &amp; revelry and all that happened that night<lb/>
+               At parting with Rogers he holding both my hands<lb/>
+               so pressed me to come back again &amp; breakfast once more all<lb/>
+               [unclear][/unclear] - yes these young ones whom I find [unclear]are of[/unclear][unclear][/unclear]<lb/>
+               
+               <pb n="2" facs="Edgeworth_Bodleian_702_1841-04-04_page02.jpg"/>
+               8) 
+               have adopted" that I could not refuse the dear dead<lb/>
+               dandy the sincerely good natured benevolent<lb/>
+               flattering sensitive sensible charming ugly oldest<lb/>
+               of men extant - so I accepted for Monday or Wednesday<lb/>
+               &amp; agreed to write and say which -<lb/></p>
+            <p>
+               And this day I have been writing to him to<lb/>
+               say how it is with us now! - And to break this<lb/>
+               and all other engagements specially one with<lb/>
+               Lady Cornwallis the object &amp; cause of which I have<lb/>
+               not time here to explain nor can you care about<lb/>
+               it - at present.<lb/></p>
+            
+               <p>
+                  I will now make up my packet that I<lb/>
+                  may go into the post this sunday night for that<lb/>
+                  much it [underline]can[/underline] do and that will secure its going<lb/>
+                  by first mail that steams -<lb/></p>
+            
+               <p>
+                  Never did I see a more tender kind husband<lb/>
+                  than Lestock - [unclear]Mariguetta [/unclear] may think or say<lb/>
+                  what she pleases about Francis! - he has never<lb/>
+                  been so tried &amp; I hope never will<lb/></p>
+               
             <closer>
-               <!--include linebreaks, if used. example: <closer> Yours<lb/> Very sincerely<lb/> -->
+               Farewell dearest mother &amp; do let your<lb/>
+               self be taken care of &amp; your legs tied till you<lb/>
+               are fit to go - or come Yours affectionately <lb/>
+               Maria Edgeworth<lb/>
             </closer>
+            
             <postscript>
-               <p><!--A postscript goes here, outside the <closer>. --></p>
+               <p> 1/2 after 5 Eve[superscript]g[/superscript]<lb/>
+                  I have opened my letter to insert something Ashburn<lb/>
+                  er said (of which I have not a very clear idea<lb/>
+                  but the words may never nevertheless convey some<lb/>
+                  dear and important idea to you<lb/>
+                  [deletion][unclear][/unclear] keep up this discharge this discharge[/deletion]<lb/>
+                  [deletion]must be kept up "-[/deletion]<lb/>
+                  [deletion]and I am not sure but that the fomentation was[/deletion]<lb/>
+                  [deletion]for that purpose instead of for aiding [unclear] medicine [/unclear][unclear][/deletion]<lb/>
+                  [deletion][unclear]in xxx too as[/unclear] well - all the satisfaction is that I have[/deletion]<lb/>
+                  [deletion]told you all this now - &amp; [unclear][/unclear][/deletion]<lb/>
+                  [deletion]for you to make the best of it[/deletion]<lb/></p>
             </postscript>
             <!--You can include a <pb/> here, or inside the postScript.-->
             <!-- Format for postscripts. 
