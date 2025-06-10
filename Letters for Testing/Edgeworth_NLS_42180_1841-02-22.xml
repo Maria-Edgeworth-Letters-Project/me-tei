@@ -54,7 +54,7 @@
                </msIdentifier>
                <head>Letter from 
                   <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>,
-                  <date when="1842-02-22"></date>
+                  <date when="1841-02-22">Feb<hi rend= "superscript">y</hi> 22<hi rend= "superscript">d</hi> 1841</date>
                </head>
                <physDesc>
                </physDesc>
@@ -90,24 +90,18 @@
          <div type="letter">
             <pb n="1" facs="Edgeworth_NLS_42180_1841_02_22_page01.jpg"/>
             <opener>
-               <dateline><!--If there's no date line, remove this element. Record in the order in which it is written on the letter.-->
-                  <placeName ref="Id_where"/>
-                  <date when="1111-11-11">Month DD, YYYY</date></dateline>
-               <salute>
-                  <persName>
-                     <!-- Use if letter has a saluation ("Dear Sir," for example). If not, delete this line.-->
-                  </persName>
+               <dateline>
+                  <placeName ref="Id_where">1 North Audley Street<lb/></placeName>
+                  <date when="1841-02-22"><choice><orig>Feb<hi rend= "superscript">y</hi></orig><reg>February</reg></choice> 22<hi rend= "superscript">d</hi> 1841<lb/></date></dateline>
+               <salute>Dear Sir<lb/>
                </salute>
             </opener>
-            <p>1 North Audley Street<lb/>
-               Feb<hi rend= "superscript">y</hi> 22<hi rend= "superscript">d</hi> 1841<lb/>
-               Dear Sir<lb/>
-               Your offer of 50 guineas, guineas, at six<lb/>
+            <p>Your offer of 50 guineas, guineas, at six<lb/>
                months date after publication<lb/>
                for the copy right of a translation<lb/>
-               by my sister Lucy E from the<lb/>
+               by my sister <persName ref="EdgeL1">Lucy E</persName> from the<lb/>
                French of the three stories of<lb/>
-               Barnabe - Pierre &amp; Pierrette<lb/>
+               <persName ref="DuroB1">Barnabe</persName> - Pierre &amp; Pierrette<lb/>
                and Marguerite, with a<lb/>
                preface, and explanatory<lb/>
                remarks for young English<lb/>
@@ -115,7 +109,7 @@
                I accept for my sister and<lb/>
                myself and consider as<lb/>
                liberal<lb/>
-               I am <hi rend= "underline">D<hi rend= "superscript">r</hi> Sir</hi> with the belief<lb/>
+               I am <choice><orig><hi rend= "underline">D<hi rend= "superscript">r</hi> Sir</hi></orig><reg>Dear Sir</reg></choice> with the belief<lb/>
                that the putting this our little<lb/>
                agreement thus carefully in<lb/>
                writing, trifling though it<lb/>
@@ -129,7 +123,7 @@
             </p>
             <closer>
               Yours sincerely<lb/>
-                  Maria Edgeworth<lb/></closer>
+               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName><lb/></closer>
             <closer>
                <address>
                   <addrLine>To</addrLine>
