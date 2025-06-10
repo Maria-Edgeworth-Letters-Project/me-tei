@@ -75,7 +75,7 @@
                <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
             </correspAction>
             <correspAction type="received">
-               <persName>John Murray</persName>
+               <persName ref="./Personography.xml#MurrJ1">John Murray</persName>
             </correspAction>
          </correspDesc>
       </profileDesc>
@@ -91,7 +91,7 @@
             <pb n="1" facs="Edgeworth_NLS_42180_1841_02_22_page01.jpg"/>
             <opener>
                <dateline>
-                  <placeName ref="Id_where">1 North Audley Street<lb/></placeName>
+                  <placeName ref="North-Audley-Street-1_ENK">1 North Audley Street<lb/></placeName>
                   <date when="1841-02-22"><choice><orig>Feb<hi rend= "superscript">y</hi></orig><reg>February</reg></choice> 22<hi rend= "superscript">d</hi> 1841<lb/></date></dateline>
                <salute>Dear Sir<lb/>
                </salute>
@@ -101,15 +101,15 @@
                for the copy right of a translation<lb/>
                by my sister <persName ref="EdgeL1">Lucy E</persName> from the<lb/>
                French of the three stories of<lb/>
-               <persName ref="DuroB1">Barnabe</persName> - Pierre &amp; Pierrette<lb/>
-               and Marguerite, with a<lb/>
+               <persName ref="DuroB1">Barnabe</persName> - <title ref="./Workography.xml#Pierr1">Pierre</title> &amp; <title ref="./Workography.xml#Pierr2">Pierrette</title><lb/>
+               and <title ref="./Workography.xml#Margu1">Marguerite</title>, with a<lb/>
                preface, and explanatory<lb/>
                remarks for young English<lb/>
                readers to be written by me<lb/>
-               I accept for my sister and<lb/>
+               I accept for <persName ref="EdgeL1">my sister</persName> and<lb/>
                myself and consider as<lb/>
-               liberal<lb/>
-               I am <choice><orig><hi rend= "underline">D<hi rend= "superscript">r</hi> Sir</hi></orig><reg>Dear Sir</reg></choice> with the belief<lb/>
+               liberal<lb/></p>
+               <p>I am <choice><orig><hi rend= "underline">D<hi rend= "superscript">r</hi> Sir</hi></orig><reg>Dear Sir</reg></choice> with the belief<lb/>
                that the putting this our little<lb/>
                agreement thus carefully in<lb/>
                writing, trifling though it<lb/>
@@ -127,7 +127,7 @@
             <closer>
                <address>
                   <addrLine>To</addrLine>
-                  <addrLine>John Murray Esq<hi rend= "superscript">re</hi></addrLine>
+                  <addrLine><persName ref="./Personography.xml#MurrJ1">John Murray Esq</persName><hi rend= "superscript">re</hi></addrLine>
                </address>
             </closer>
          </div>
