@@ -51,11 +51,9 @@
          </seriesStmt>
          <sourceDesc>
             <msDesc xml:lang="en">
-               <!-- This section of the header identifies the original manuscript source. -->
                <msIdentifier>
                   <repository>Bodleian Library</repository>
                   <collection>MS. Eng. lett. c. 702</collection>
-                  <idno><!--Consult library or WorldCat for this info--></idno>
                </msIdentifier>
                <head>Letter from 
                   <persName xml:id="EdgeM1" from="1768" to="1849">
@@ -67,11 +65,8 @@
                   </persName>
                   to <persName ref="./Personography.xml#EdgeF2">Frances Anne Edgeworth</persName>, <placeName>Trim</placeName>, 
                   <date when="1843-03-30">March 30<hi rend="superscript">th</hi></date>
-                  <!-- <stamp>Enter description, if applicable</stamp>-->
                </head>
-               <physDesc>
-                  <!-- optional physical description of the letter goes here: paper size and condition, seal, postmarks, etc.-->
-               </physDesc>
+               
             </msDesc>
             <bibl>In addition to our edited version, this letter was previously published in
             </bibl>
@@ -79,10 +74,6 @@
       </fileDesc>
       <encodingDesc>
          <editorialDecl>
-            <!--Where Edgeworth uses nonstandard spelling and hyphenation of words, transcriber-coders 
-               should use TEI elements “choice," “sic," and “reg" to encode both Edgeworth’s 
-               spelling and the regular international standard of Oxford English spelling, 
-               following the first listed spelling in the Oxford English Dictionary. -->
             <p>Edgeworth’s spelling and punctuation are retained in transcription, including non-standard spelling, line breaks, and hyphenation of words. The long s and ligatured forms are silently emended.</p>
          </editorialDecl>
       </encodingDesc>
@@ -92,7 +83,7 @@
                <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
             </correspAction>
             <correspAction type="received">
-               <persName ref="./Personography.xml#EdgeF2"> Frances Anne Edgeworth</persName>
+               <persName ref="./Personography.xml#EdgeF2">Frances Anne Edgeworth</persName>
             </correspAction>
          </correspDesc>
       </profileDesc>
@@ -106,9 +97,8 @@
       <body>
          <div type="letter">
             <pb n="1" facs="Edgeworth_Bodleian_702_1843-03-30_page01.jpg"/>
-            <!--filenames for photos associated with this letter. Example: <pb n="1" facs="image1.jpg image2.jpg image3.jpg"/> -->
             <opener>
-               <dateline>March 30<hi rend="superscript">th</hi>
+               <dateline>March 30 <hi rend="superscript">th</hi>
                   <placeName ref="./Placeography.xml#Trim_IE">Trim</placeName>
                   <date when="1843-03-30">March 30<hi rend="superscript">th</hi> 1843</date></dateline>
                <salute>
@@ -116,9 +106,10 @@
                   </persName>
                </salute>
             </opener>
- <p><placeName ref="./Placeography.xml#Trim_IE">Trim</placeName> - March 30<hi rend="superscript">th</hi> 1843</p>
+            <p><placeName ref="./Placeography.xml#Trim_IE">Trim</placeName> - March 30 <hi rend="superscript">th</hi> 1843
+               <note>68</note> </p>
                <p> 
-                  Your <hi rend="underline">lark</hi> sang delight<lb/>
+               Your <hi rend="underline">lark</hi> sang delight<lb/>
                fully at its rising, and in<lb/>
                the whole of its flight &amp;<lb/>
                descent - How much<choice> 
@@ -129,7 +120,7 @@
                you gave dearest <choice>
                   <orig>mo-<lb/>
                      ther</orig>
-                  <reg>mother</reg>
+                  <reg><persName ref="./Personography.xml#EdgeF2">mother</persName> </reg>
                </choice>
                you can hardly know<lb/>
                unless you could see &amp; hear<lb/>
@@ -145,11 +136,11 @@
             </p>
           
                <p>
-                  We all, - meaning <persName ref="./Personography.xml#EdgeH1">Harriet</persName><lb/>
+               We all, - meaning <persName ref="./Personography.xml#EdgeH1">Harriet</persName><lb/>
                &amp; myself<lb/>
             <pb n="2" facs="Edgeworth_Bodleian_702_1843-03-30_page02.jpg"/>
       
-            have agreed that under<lb/>
+               have agreed that under<lb/>
                your staid, prove, every <lb/>
                day demeanour and <lb/>
                matronly <del>habits</del> and<lb/>
@@ -174,6 +165,7 @@
                yourself in future when<lb/>
             <pb n="3" facs="Edgeworth_Bodleian_702_1843-03-30_page03.jpg"/>
             
+            <note>69</note>
             ever opportunity &amp; <choice>
                   <orig>tempta-<lb/>
                      tion</orig>
@@ -182,7 +174,7 @@
                well join for a <hi rend="underline">Spry</hi>
                (an American word acknow<lb/>
                (ledged by American dictionary<lb/>
-               (which <persName ref="./Personography.xml#EdgeH1">Harriet</persName> rich in Dic<hi rend="superscript">s</hi>possesses<lb/></p>
+               (which <persName ref="./Personography.xml#EdgeH1">Harriet</persName> rich in Dic <hi rend="superscript">s</hi> possesses<lb/></p>
                
                <p>I am so glad that<lb/>
                you had the luck at<lb/>
@@ -203,14 +195,14 @@
                will take it up to their own<lb/>
             <pb n="4" facs="Edgeworth_Bodleian_702_1843-03-30_page04.jpg"/> 
             
-           room - It does not match any<lb/>
+               room - It does not match any<lb/>
                thing in this room - &amp; I cant<lb/>
                abide it - But it was very good<lb/>
                of Aunt <persName ref="./Personography.xml#BeauH2">Henrietta</persName> to get it done<lb/>
                and to send it to <persName ref="./Personography.xml#FoxM1">Mary Anne</persName> &amp; <persName ref="./Personography.xml#EdgeC2">C</persName><lb/></p>
                
-                  <p>
-                     A new music has just <choice>
+               <p>
+                A new music has just <choice>
                   <orig>ar-<lb/>
                      rived </orig>
                   <reg>arrived</reg>
@@ -221,19 +213,19 @@
                   </p>
             <closer>
                affectionately yours<lb/>
-               ME<lb/>
+               <persName ref="./Personography.xml#EdgeM1">ME</persName><lb/>
             </closer>
             <postscript>
                <p>
                   I am so glad you have <lb/>
                   Conde - Do you see in<lb/>
                   todays paper the report that<lb/>
-                  <persName ref="./Personography.xml#StanP1">Lord Mahon</persName>is to go <choice>
+                  <persName ref="./Personography.xml#StanP1">Lord Mahon</persName> is to go <choice>
                      <orig>Embassa<lb/>
                         dor</orig>
                      <reg>Embassador</reg>
                   </choice>
-                  to <placeName ref="./Placeography.xml#SP">Spain</placeName>- I hope it is<lb/>
+                  to <placeName ref="./Placeography.xml#SP">Spain</placeName> - I hope it is<lb/>
                   done - it would suit &amp;<lb/>
                   gratify him so much<lb/>
                   Thank you for mentioning<lb/>
