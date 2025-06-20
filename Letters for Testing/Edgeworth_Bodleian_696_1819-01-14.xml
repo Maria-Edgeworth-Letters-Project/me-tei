@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter from Maria Edgeworth to Frances Anne Edgeworth, January 14, 1819</title>
+                <author>Maria Edgeworth</author>
+                <editor>
+                    Paris Weber
+                </editor>
+                <sponsor>
+                    <orgName>Maria Edgeworth Letters Project</orgName>
+                </sponsor>
+                <sponsor>Wake Forest University, University of Tennessee, Xavier University, Texas
+                    A&amp;M University</sponsor>
+                <principal>Susan Egenolf, Meredith Hale, Hilary Havens, Jessica Richard, and Robin Runia</principal>
+                <respStmt>
+                    <resp>Transcription  by
+                        <persName>Anna Grace Barnett
+                        </persName> 
+                        Coding by</resp>
+                    <persName> Paris Weber </persName>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>First digital edition in TEI, date: June 20,2025 <date when="2025-06-20">
+                </date>
+                </edition>
+                <respStmt>
+                    <orgName 
+                        ref="/http://id.loc.gov/authorities/names/n80020306">Bodleian Library</orgName>
+                    <resp> photos include:
+                        Edgeworth_Bodleian_696_1819-01-14_page01.jpg,
+                        Edgeworth_Bodleian_696_1819-01-14_page02.jpg,
+                        Edgeworth_Bodleian_696_1819-01-14_page03.jpg,
+                        Edgeworth_Bodleian_696_1819-01-14_page04.jpg,
+                        Edgeworth_Bodleian_696_1819-01-14_page05.jpg,
+                        Edgeworth_Bodleian_696_1819-01-14_page06.jpg,
+                        Edgeworth_Bodleian_696_1819-01-14_page07.jpg,
+                        Edgeworth_Bodleian_696_1819-01-14_page08.jpg
+                        
+                    </resp>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <authority>Maria Edgeworth Letters Project</authority>
+                <date>2022</date>
+                <availability>
+                    <p>Reproduced by courtesy of <orgName ref="http://id.loc.gov/authorities/names/n80020306"> Bodleian Library</orgName>
+                    </p>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons Attribution 4.0 (CC BY 4.0) Unported License</licence>
+                </availability>
+                <idno>Edgeworth_Bodleian_702_1842-11</idno> 
+            </publicationStmt>
+            <seriesStmt>
+                <title>Maria Edgeworth Letters Project</title>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc xml:lang="en">
+                    <msIdentifier>
+                        <repository>Bodleian Library</repository>
+                        <collection>MS. Eng. lett. c. 696</collection>
+                    </msIdentifier>
+                    <head>Letter from 
+                        <persName xml:id="EdgeM1" from="1768" to="1849">
+                            <forename>Maria</forename>
+                            <surname>Edgeworth</surname>
+                            <date>1768-1849</date>
+                            <idno type="VIAF">71477273</idno>
+                            <idno type="SNAC">62567029</idno>
+                        </persName>
+                        to <persName ref="./Personography.xml#EdgeF2">Frances Anne Edgeworth</persName>
+                        <date> 1769-1865</date>              
+                    </head>
+                </msDesc>
+                <bibl>In addition to our edited version, this letter was previously published in
+                    <!--complete bibiographical info if letter was published in a book here - if not delete-->
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p>Edgeworth’s spelling and punctuation are retained in transcription, including non-standard spelling, line breaks, and hyphenation of words. The long s and ligatured forms are silently emended.</p>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="./Personography.xml#EdgeF2"> Frances Anne Edgeworth</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2021-01-01" who="Id_who">
+            </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="letter">
+                <pb n="1" facs="Edgeworth_Bodleian_696_1819-01-14_page01.jpg"/>
+                
+                <dateline>
+                    <date when="1819-01-14"></date></dateline>
+                
+                <p> 
+                    [LibNote]104[/LibNote]<lb/>
+                    Trentham<lb/>
+                    Thursday 14[superscript]th[/superscript]. Jan[superscript]y[/superscript]. 1819<lb/>
+                    You see we are here still - M[superscript]r[/superscript]. &amp; M[superscript]rs[/superscript]<lb/>.
+                    Sneyd and Emma returned home<lb/>
+                    on tuesday - but Lord &amp; Lady Stafford<lb/>
+                    expressed such an earnest wish that<lb/>
+                    we should stay a little longer that<lb/>
+                    finding M[superscript]rs[/superscript]. Sneyd would not take<lb/>
+                    it unkindly I consented - Lady<lb/>
+                    Elizabeth when I told her I had de-<lb/>
+                    termined to stay leaped from the<lb/>
+                    ground at least 18 inches &amp; no<lb/>
+                    eyes could doubt the expression<lb/>
+                    of joy in her beautiful countenance<lb/>
+                    nor could any ear mistake the<lb/>
+                    sound of the clapping of her hands<lb/>
+                    - She is so kind to Honora and<lb/>
+                    Fanny &amp; seems to value them<lb/>
+                    so justly &amp; so to enjoy their compa<lb/>
+                    ny that even independently of<lb/>
+                    L[superscript]d[/superscript]. &amp; Lady Stafford I would have staid<lb/>
+                    for her sake - But before I go<lb/>
+                
+                <pb n="2" facs="Edgeworth_Bodleian_696_1819-01-14_page02.jpg"/>
+                    on any farther let me put your mind<lb/>
+                    at ease dearest mother about Fanny's<lb/>
+                    health - Her cold is going off - her<lb/>
+                    own looks are coming on - The pink<lb/>
+                    shell color is gaining &amp; spreading over<lb/>
+                    the turnip cheek - &amp; the pleased and<lb/>
+                    pleasing expression is lighting in those<lb/>
+                    of which Admiral Pakenham said -<lb/>
+                    nothing but the truth - She has<lb/>
+                    ridden out these last two mornings<lb/>
+                    on a nice pon[insertion]e[/insertion]y with Lady Elizabeth<lb/>
+                    - the rest of the morning she has past<lb/>
+                    in trying to take a likeness of Lady<lb/>
+                    Elizabeth - She &amp; I sit up in Lady E's<lb/>
+                    comfortable little room (about the<lb/>
+                    size of your cabinet but very light) -<lb/>
+                    and I talk while Fanny draws &amp;<lb/>
+                    we are all delightfully happy &amp;<lb/>
+                    agreeable of course - Honora mean<lb/>
+                    time is in the library drawing in<lb/>
+                    water colors under Lady Stafford's eye<lb/>
+                    &amp; instruction - Lady S. has been doing<lb/>
+                    a drawing on purpose to shew her<lb/>
+                    her method - She draws beautifully<lb/>
+                
+                <pb n="3" facs="Edgeworth_Bodleian_696_1819-01-14_page03.jpg"/>
+                    [LibNote]105[/LibNote]<lb/>
+                    and is like yourself about her drawings<lb/>
+                    perfectly free from all vanity or<lb/>
+                    care about them &amp; from all affecta-<lb/>
+                    tion of humility - I would not for<lb/>
+                    any consideration have missed<lb/>
+                    this near &amp; intimate view of her<lb/>
+                    character &amp; domestic habits - What<lb/>
+                    an instinct [insertion]for work &amp; genius - What an[/insertion] an intuitive glance<lb/>
+                    into both head &amp; heart that dear<lb/>
+                    father of mine possessed -<lb/> </p>
+                
+                <p>
+                    - It is impossible to tell you [underline]how[/underline] kind<lb/>
+                    Lady Stafford has been to us - And<lb/>
+                    you would be still more satisfied<lb/>
+                    - as I am - on Honora &amp; Fanny's ac-<lb/>
+                    count than on my own if you could<lb/>
+                    see how [underline]they[/underline] are treated - not as<lb/>
+                    appendages to an authoress - but<lb/>
+                    as persons standing upon their<lb/>
+                    own merits &amp; their own powers<lb/>
+                    of pleasing in conversation and<lb/>
+                    society - Lady Stafford has found<lb/>
+                    many most gratifying occasions<lb/>
+                    for expressing this - She has repeatedly<lb/>
+                
+                <pb n="4" facs="Edgeworth_Bodleian_696_1819-01-14_page04.jpg"/>
+                    said to me What amiable, sensible<lb/>
+                    pleasing young women those two sis-<lb/>
+                    ters of yours are - how unlike com<lb/>
+                    -mon missies ! -<lb/> </p>
+                
+                <p>
+                    of Honora she said to me - " She is I sh[superscript]d[/superscript].<lb/>
+                    think a most trust worthy young per-<lb/>
+                    son - one on whom one could depend<lb/>
+                    that her head w[superscript]d[/superscript]. not turn in any si-<lb/>
+                    tuation - steady - sensible - - like<lb/>
+                    her cousin Miss Sneyd in face &amp; figure<lb/>
+                    &amp; something in manner.<lb/></p>
+                
+                <p>
+                    Fanny she [underline]particularly[/underline] likes<lb/>
+                    - " She [deletion]answers one[/deletion] gives one such<lb/>
+                    sensible answers when one asks<lb/>
+                    her any thing - She is a most pleasing<lb/>
+                    intelligent person - And very pretty -<lb/>
+                    [insertion](disqualifying speech of mine)[/insertion] - Oh more than that - She is certainly<lb/>
+                    [underline]very pretty[/underline] - L[superscript]d[/superscript]. Stafford says so - the<lb/>
+                    gentlemen all say so </p><lb/>
+                
+                <p>
+                    Then Lord Stafford found her like<lb/>
+                    half a dozen Lady This's &amp; That's -<lb/>
+                    " I hope those ladies are all people<lb/>
+                    you like tolerably? "<lb/>
+                    " Tolerably! - [insertion]said Lord Stafford[/insertion] particularly - They<lb/>
+                    are some of our most admired beau-<lb/>
+                    ties " - Then liking that she should be<lb/>
+                
+                <pb n="5" facs="Edgeworth_Bodleian_696_1819-01-14_page05.jpg"/>
+                    so much with Lady Elizabeth &amp; with<lb/>
+                    [LibNote]106[/LibNote]<lb/>
+                    Lord Francis says more than<lb/>
+                    all these compliments - </p><lb/>
+                
+                <p>
+                    Lord Francis is very clever and original<lb/>
+                    &amp; simple &amp; affectionate &amp; fond of his<lb/>
+                    sister &amp; as far from a dandy of any<lb/>
+                    kind - solemn - or vain - as can be<lb/>
+                    conceived - His drawings &amp; his poetry<lb/>
+                    would both be excellent even if a<lb/>
+                    Lord did not own the happy lines<lb/></p>
+                
+                <p>
+                    I am afraid you will think<lb/>
+                    that I am exaggerating &amp; that I<lb/>
+                    have fallen too suddenly in love<lb/>
+                    with all these people - But I assure<lb/>
+                    you I have not colored even to the<lb/>
+                    life in representing their kindness<lb/>
+                    - nor have I nor dare I repeat<lb/>
+                    to you half the handsome things<lb/>
+                    Lady S. has said to me of Fanny.<lb/></p>
+                
+                <p>
+                    I am just returned from a walk<lb/>
+                in which Fanny [insertion]&amp; her being so well informed[/insertion] was great part of<lb/>
+                    the subject matter of Lady Staffords<lb/>
+                    conversation - And she ended with<lb/>
+                    saying " [deletion][unclear][/unclear][/deletion] - " That M[superscript]rs[/superscript]. Edge-<lb/>
+                    " worth must be a woman of great<lb/>
+                    " merit " - These words were cetainly<lb/>
+                    " merit " - These words were certainly<lb/>
+                    106<lb/>
+                
+                <pb n="6" facs="Edgeworth_Bodleian_696_1819-01-14_page06.jpg"/>
+                    [underline]comfortable[/underline] to me - for in the midst of<lb/>
+                    all the pleasure I had felt in Fannys<lb/>
+                    praises I had one uneasy regret<lb/>
+                    that they were not addressed to<lb/>
+                    that dear mother who best deserved<lb/>
+                    to have the exquisite delight of<lb/>
+                    hearing them - I seem to reap the<lb/>
+                    harvest sown by another - But<lb/>
+                    believe me though I am [insertion]proud[/insertion] at the<lb/>
+                    harvest home [deletion]&amp; though you have[/deletion]<lb/>
+                    [deletion][unclear]trusted me with the[/unclear][/deletion] I have the<lb/>
+                    common honesty to say this rich<lb/>
+                    harvest is not of my sowing -<lb/></p>
+                
+                <p>
+                    Every hour of every day apro-<lb/>
+                    pos to every thing picture, book<lb/>
+                    tree shrub &amp; flower we wish you<lb/>
+                    were here - There is so much you<lb/>
+                    could tell Fanny &amp; so much she<lb/>
+                must lose of all she sees from<lb/>
+                    not having you with her! - But<lb/>
+                    I will be content - God bless you<lb/>
+                    dearest friend for trusting me with<lb/>
+                    her - And hitherto at least this<lb/>
+                    beginning promises well - The plea<lb/>
+                
+                <pb n="7" facs="Edgeworth_Bodleian_696_1819-01-14_page07.jpg"/>
+                    [LibNote]107[/LibNote]<lb/>
+                    sure I have felt and the success she<lb/>
+                    has had is beyond my most sanguine<lb/>
+                    expectations - </p><lb/>
+                
+                <p>
+                    I have not time to attempt any de-<lb/>
+                    scription of the beauties or magnifi<lb/>
+                    cence of this [deletion]place[/deletion] [insertion]Park - or [/insertion]House - [deletion]P[unclear][/unclear][/deletion]<lb/>
+                    - pictures - and whole establish-<lb/>
+                    ment - that must be for hereafter<lb/>
+                    - But just NB - 10 livery servants<lb/>
+                    and four servants out of livery<lb/>
+                    - in black - [insertion]these last only[/insertion] appear in the sitting<lb/>
+                    rooms - or stand in the hall &amp;<lb/>
+                    antichambers con-ti-nu-ally -<lb/>
+                    - But the magnificence does not<lb/>
+                    interfere with the comfort - It is<lb/>
+                    [underline]splendid happiness[/underline] - not [underline]splendid[/underline]<lb/>
+                    [underline]misery[/underline] </p><lb/>
+                
+                <p>
+                    We go [underline]home[/underline] to Byrkley Lodge tomor-<lb/>
+                    row - and Lady S sends her horses<lb/>
+                    first stage with us - We shall<lb/>
+                    call to pay a visit to M[superscript]rs[/superscript]. Cameron<lb/>
+                    who is at M[superscript]r[/superscript]. Butts -<lb/>
+                    These last 2 days quite alone -<lb/>
+                    except M[superscript]r[/superscript]. Ralph not John Sneyd -<lb/>
+                    (dont like) -<lb/></p>
+                
+                <p>   
+                    Send me news for Lady Spencer about<lb/>
+                    Saffron Castle<lb/>
+                
+                <pb n="8" facs="Edgeworth_Bodleian_696_1819-01-14_page08.jpg"/>
+                    - and pray ask Harriet to look for<lb/>
+                    any letters of Scotts or Bannatynes<lb/>
+                    that she can find &amp; send them in<lb/>
+                    the first packet to me for people are<lb/>
+                    so curious to see anything of Walter<lb/>
+                    Scotts that this gives me means of<lb/>
+                    obliging them<lb/></p>
+                
+                <p>
+                    Heaphy has written Miss Sneyd such<lb/>
+                    a letter about Charlottes drawings! -<lb/>
+                    [insertion]I will send it you per first packet[/insertion] Pray send me the drawing you<lb/>
+                    promised to copy for Joanna<lb/>
+                    Baillie of Harriet carrying Pakenham <lb/></p>
+                
+                <p>
+                    - That careless Fanny forgot<lb/>
+                    to [deletion]forget[/deletion] deliver to me a packet<lb/>
+                    of letters till this moment<lb/>
+                    one from you - one from Paken<lb/>
+                    ham on my birthday with his<lb/>
+                    wonderful [deletion][unclear]little[/unclear][/deletion] lines - Thank him<lb/>
+                    dear little fellow - I will write to<lb/>
+                    him in my next - At present I<lb/>
+                    must say Goodbye for Lord S waits<lb/>
+                    to frank <lb/></p>
+                
+                <closer>
+                    y[superscript]s[/superscript]. affec[superscript]y[/superscript].<lb/>
+                    Maria E<lb/>
+                </closer> 
+                
+                
+                
+                
+                
+                
+            </div>
+        </body>
+        <back> </back>
+    </text>
+</TEI>
+
