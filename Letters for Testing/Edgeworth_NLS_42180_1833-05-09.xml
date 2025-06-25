@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from Maria Edgeworth to John Murray, February 22, 1841</title>
+            <author>Maria Edgeworth</author>
+            <editor>Hilary Havens
+            </editor>
+            <sponsor>
+               <orgName>Maria Edgeworth Letters Project</orgName>
+            </sponsor>
+            <sponsor>Wake Forest University, University of Tennessee, Xavier University, Texas
+               A&amp;M University</sponsor>
+            <principal>Susan Egenolf, Meredith Hale, Hilary Havens, Jessica Richard, and Robin Runia</principal>
+            <respStmt>
+               <resp>Transcription and coding by</resp>
+               <persName>Jamie Kramer</persName>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>First digital edition in TEI, date: <date when="2025-06-24">
+            </date>
+            </edition>
+            <respStmt>
+               <orgName type="naf" ref="http://id.loc.gov/authorities/names/n80044899">National Library of Scotland
+               </orgName>
+               <resp> photos include: Edgeworth_NLS_42180_1833_05_09_page01.jpg, Edgeworth_NLS_42180_1833_05_09_page02.jpg, Edgeworth_NLS_42180_1833_05_09_page03.jpg
+               </resp>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Maria Edgeworth Letters Project</authority>
+            <date>2022</date>
+            <availability>
+               <p>Reproduced by courtesy of <orgName type="naf" ref="http://id.loc.gov/authorities/names/n80044899">
+                  National Library of Scotland</orgName>
+               </p>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons Attribution 4.0 (CC BY 4.0) Unported License</licence>
+            </availability>
+            <idno>Edgeworth_NLS_42180_1833-05-09</idno> 
+         </publicationStmt>
+         <seriesStmt>
+            <title>Maria Edgeworth Letters Project</title>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <repository>National Library of Scotland</repository>
+                  <idno/>
+               </msIdentifier>
+               <head>Letter from 
+                  <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName> to Robert Baldwin and Charles Craddock,
+                  <date when="1833-05-09">May [unclear]9[/unclear] [superscript]h[/superscript]. 1833</date>
+               </head>
+               <physDesc>
+               </physDesc>
+            </msDesc>
+            <bibl>In addition to our edited version, this letter was previously published in
+               <!--complete bibiographical info if letter was published in a book here - if not delete-->
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>Edgeworth’s spelling and punctuation are retained in transcription, including non-standard spelling, line breaks, and hyphenation of words. The long s and ligatured forms are silently emended.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="./Personography.xml#">Robert Baldwin</persName>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="./Personography.xml#">Charles Craddock</persName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-01-01" who="Id_who">
+            <!--Brief description of what you did here.-->
+         </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <pb n="1" facs="Edgeworth_NLS_42180_1833_05_09_page01.jpg"/>
+            <opener>
+               <dateline>
+                  <placeName ref="./Personography.xml#Edgeworthstown_IE">Edgeworth Town<lb/></placeName>
+                  <date when="1833-05-09">May [unclear]9[/unclear] [superscript]h[/superscript]. 1833</date><lb/></dateline>
+               <salute>D[superscript]r[/superscript]. Sir<lb/>
+               </salute>
+            </opener>
+            <p>M[superscript]rs[/superscript]. E. Perceiving that an essential charac<lb/>
+               teristic of a chimney sweeper - [underline]his brush[/underline]<lb/>
+               was omitted in the drawing we sent<lb/>
+               you now sends a sketch which you<lb/>
+               must [deletion]show[/deletion] [insertion]give[/insertion] the engraver when<lb/>
+               you put the little drawing in his<lb/>
+               hands - It is merely to show that<lb/>
+               the boy must have brush in hand<lb/>
+               - the first drawing sent, is to be followed<lb/>
+               in all other respects -<lb/>
+               You will be so good to send<lb/>
+               us a proof [deletion][unclear][/unclear][/deletion] [underline]for correction[/underline]<lb/>
+               - Enclose to Sir William Gosset<lb/>
+               Castle Dublin -<lb/>
+               I am much obliged by your having sent for<lb/>
+               me Sir James M[superscript]c[/superscript].Intosh's discourse on Meta<lb/>
+               physics to North Audley Street<lb/>
+               <pb n="2" facs="Edgeworth_NLS_42180_1833_05_09_page02.jpg"/>
+               I have sent your message to the author<lb/>
+               of Bertha and an answer will be<lb/>
+               sent to you I am sure punctually<lb/>
+               She does not reside with us, but<lb/>
+               is a friend &amp; near connexion for<lb/>
+               whom we have the highest esteem &amp;<lb/>
+               greatest interest - I rejoice that Ber<lb/>
+               tha has succeeded so well &amp; that<lb/>
+               you desire more by the same hand,<lb/>
+               &amp; [unclear][/unclear] young people - I wish your son<lb/>
+               success in that line which I think<lb/>
+               he is wise to pursue as it is likely to<lb/>
+               last better than [insertion]the[/insertion] more fancy line of litera<lb/>
+               ture that must be subject to the changes<lb/>
+               of fashion politics &amp;c - But as long<lb/>
+               as people have children [deletion][unclear][/unclear][/deletion] and<lb/>
+               any sense &amp; any money they must<lb/>
+               <pb n="3" facs="Edgeworth_NLS_42180_1833_05_09_page03.jpg"/>
+               have books for them &amp; the best will infallibly<lb/>
+               make their way best [insertion]&amp; last longer[/insertion] because [unclear]put[/unclear] to the<lb/>
+               proof constantly<lb/>
+            </p>
+            <closer>
+               I am D[superscript]r[/superscript] Sir<lb/>
+               Yours truly<lb/>
+               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName><lb/></closer>
+            <postscript><p>Be so good as to send the letter<lb/>
+               enclosed by the Gen[superscript]l[/superscript]. Post the<lb/>
+               day you receive this packet<lb/></p></postscript>
+         </div>
+      </body>
+   </text>
+</TEI>
