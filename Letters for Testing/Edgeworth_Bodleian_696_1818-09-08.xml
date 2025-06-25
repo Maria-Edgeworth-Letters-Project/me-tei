@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter from Maria Edgeworth to Frances Anne Edgeworth, September 8, 1818</title>
+                <author>Maria Edgeworth</author>
+                <editor>
+                    Paris Weber
+                </editor>
+                <sponsor>
+                    <orgName>Maria Edgeworth Letters Project</orgName>
+                </sponsor>
+                <sponsor>Wake Forest University, University of Tennessee, Xavier University, Texas
+                    A&amp;M University</sponsor>
+                <principal>Susan Egenolf, Meredith Hale, Hilary Havens, Jessica Richard, and Robin Runia</principal>
+                <respStmt>
+                    <resp>Transcription  by
+                        <persName>
+                        </persName> 
+                        Coding by</resp>
+                    <persName> Paris Weber </persName>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>First digital edition in TEI, date: June 25,2025 <date when="2025-06-25">
+                </date>
+                </edition>
+                <respStmt>
+                    <orgName 
+                        ref="/http://id.loc.gov/authorities/names/n80020306">Bodleian Library</orgName>
+                    <resp> photos include:
+                        Edgeworth_Bodleian_696_1818-09-08_page01.jpg,
+                        Edgeworth_Bodleian_696_1818-09-08_page02.jpg,
+                        Edgeworth_Bodleian_696_1818-09-08_page03.jpg,
+                        Edgeworth_Bodleian_696_1818-09-08_page01.jpg
+                        
+                    </resp>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <authority>Maria Edgeworth Letters Project</authority>
+                <date>2022</date>
+                <availability>
+                    <p>Reproduced by courtesy of <orgName ref="http://id.loc.gov/authorities/names/n80020306"> Bodleian Library</orgName>
+                    </p>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons Attribution 4.0 (CC BY 4.0) Unported License</licence>
+                </availability>
+                <idno>Edgeworth_Bodleian_696_1818-09-081</idno> 
+            </publicationStmt>
+            <seriesStmt>
+                <title>Maria Edgeworth Letters Project</title>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc xml:lang="en">
+                    <msIdentifier>
+                        <repository>Bodleian Library</repository>
+                        <collection>MS. Eng. lett. c. 696</collection>
+                    </msIdentifier>
+                    <head>Letter from 
+                        <persName xml:id="EdgeM1" from="1768" to="1849">
+                            <forename>Maria</forename>
+                            <surname>Edgeworth</surname>
+                            <date>1768-1849</date>
+                            <idno type="VIAF">71477273</idno>
+                            <idno type="SNAC">62567029</idno>
+                        </persName>
+                        to <persName ref="./Personography.xml#EdgeF2">Frances Anne Edgeworth</persName>
+                        <date> 1769-1865</date>              
+                    </head>
+                </msDesc>
+                <bibl>In addition to our edited version, this letter was previously published in
+                    <!--complete bibiographical info if letter was published in a book here - if not delete-->
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p>Edgeworth’s spelling and punctuation are retained in transcription, including non-standard spelling, line breaks, and hyphenation of words. The long s and ligatured forms are silently emended.</p>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="./Personography.xml#EdgeF2"> Frances Anne Edgeworth</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2021-01-01" who="Id_who">
+            </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="letter">
+                <pb n="1" facs="Edgeworth_Bodleian_696_1818-09-08_page01.jpg"/>
+                
+                <dateline>
+                    <date when="1818-09-08"></date></dateline>
+                
+                <p>
+                [LibNote]30[/LibNote]
+                Bowood Tuesday Sep[superscript]r[/superscript].
+                8th. - we arrived here yes-
+                terday to dinner &amp; were
+                most cordially received
+                - no one here but M[superscript]r[/superscript]. Dumont
+                - a young French [underline]judge[/underline] -
+                and Sir George Paul - gone
+                both this morning - no
+                company expected for
+                some days -
+                Your letter to Honora of
+                the 3[superscript]d[/superscript]. Sep reached us just
+                as we were getting into
+                the carriage to come here
+                - But yours &amp; Lovells which
+                you mention as having
+                sent by M[superscript]r[/superscript]. Lees's frank
+                has not yet reached us
+                - and most anxious we
+                are to receive it - The mo
+                ment I receive it I will
+                write
+                
+                <pb n="2" facs="Edgeworth_Bodleian_696_1818-09-08_page02.jpg"/>
+                I now merely write this
+                time in utmost haste to
+                say we are at last where
+                you, kindest of friends,
+                have so much wished us
+                to be - Honora is well &amp;
+                tho thin looked extremely
+                pretty &amp; nice yesterday at
+                dinner - Miss Wilkinson
+                &amp; Miss Briscoe have done
+                all you could have wished
+                for her - Lady Lansdowne
+                is very kind in her man-
+                ner towards her - I think
+                Lady L just the same per
+                -son - only fatter &amp; more
+                formed in manner.
+                This place as far as I can
+                judge not naturally hand
+                some - the house magnifi
+                cent - Our rooms opening
+                one into another just what
+                
+                <pb n="3" facs="Edgeworth_Bodleian_696_1818-09-08_page03.jpg"/>
+                [LibNote]31[/LibNote]
+                you would wish for us -
+                George lodged near us -
+                He is well &amp; I believe happy
+                - and desires poor Molly
+                sh[superscript]d[/superscript]. be told he is well.
+                I send this note through
+                M[superscript]r[/superscript]. Ward - and send many
+                letters as the shortest me-
+                thod of communicating
+                many things to you which
+                I literally have not time
+                to copy -
+                I have just written to my
+                Aunt R. the first letter
+                since one from Bangor,
+                - I have copied [underline]for[/underline] her from
+                Dumonts letter all that
+                relates to the M[superscript]s[/superscript]. -
+                I long to rest my mind by
+                going to my [underline]work[/underline] again -
+                What a contrast between
+                all [deletion]the [unclear][/unclear][/deletion] round us
+                at this moment and all at
+                
+                <pb n="4" facs="Edgeworth_Bodleian_696_1818-09-08_page04.jpg"/>
+                home -!
+                I [underline]endeavor[/underline] dear mother to hope
+                that this sleep so sound &amp;
+                often repeated will restore
+                him - But a secret feeling
+                at the bottom of my mind
+                arising I believe from Cramp
+                ton's predictions &amp; [underline]his[/underline] likeness
+                to Henry make me tremble -
+                I agree with you that if
+                he does not recover it will
+                be better to place him in Eng-
+                land than any where in
+                land than anywhere in
+                Ireland - the worst place in
+                the world for the reasons
+                you mention would be
+                M[superscript]r[/superscript]. Fox's -
+                </p>
+                <closer>
+                I am called away
+                affec[superscript]y[/superscript]. y[superscript]r[/superscript].
+                Maria E
+                </closer>
+                
+                
+               <postscript> <p> 
+                I find that [deletion]mem[/deletion] Lord &amp; Lady
+                Grenville are to be here
+                tomorrow.
+                I must answer that I cannot
+                recommend a governess -
+                for I dont know of a good
+                one - [underline]do you?[/underline] - [underline]answer[/underline] this
+                Maria Sept[superscript]r[/superscript].
+                1818
+               </p> </postscript>
+                
+                
+                
+                
+                
+                
+                
+            </div>
+        </body>
+        <back> </back>
+    </text>
+</TEI>
+
