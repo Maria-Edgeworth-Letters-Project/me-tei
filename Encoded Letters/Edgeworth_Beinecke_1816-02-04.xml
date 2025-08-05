@@ -89,7 +89,7 @@
          </correspDesc>
       </profileDesc>
       <revisionDesc>
-         <change when="2021-01-01" who="Id_who"/>
+         <change when="2025-07-17" who="Jamie Kramer">Add person, place, and word choice tags.</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -164,21 +164,21 @@
                     of any pamphlet <persName ref="./Personography.xml#MileJ1">M<hi rend="superscript">r</hi>. Miles</persName>
                <lb/>
                     would recommend - Or if<lb/>
-                    all London should not afford<lb/>
+               all <placeName ref="./Placeography.xml#London_ENK">London</placeName> should not afford<lb/>
                     one pamphlet worth <del/>
                <lb/>
                     reading put the muslin<lb/>
                     between the outside pasteboard<lb/>
                     covers of any old book &amp; direct<lb/>
-                    the same to <persName ref="./Personography.xml#EdgeM1">Miss E.</persName>
-               <placeName>Edgeworths Town</placeName>
+               the same to <persName ref="./Personography.xml#EdgeM1">Miss <choice><orig>E.</orig><reg>Edgeworth</reg></choice></persName>
+               <placeName ref="./Placeography.xml#Edgeworthstown_IE">Edgeworths Town</placeName>
                <lb/>
                     under cover to <persName ref="./Personography.xml#FoxC1">CJ. Fox Esq<hi rend="superscript">re</hi>
                </persName>.<lb/>
                     under a third outside cover<lb/>
                     to <persName ref="./Personography.xml#TaylW1">W. Taylor Esq<hi rend="superscript">re</hi>
                </persName>
-               <placeName>Castle Dublin</placeName>
+               <placeName ref="./Placeography.xml#Castle-Dublin_IE">Castle Dublin</placeName>
                <lb/>
             </p>
             <p> In the same packet be<lb/>
@@ -202,7 +202,7 @@
                     all this time or so negligent<lb/>
                     as not to know it.<lb/>
             </p>
-            <p> My father is rather better<lb/>
+            <p> <persName ref="./Personography.xml#EdgeR1">My father</persName> is rather better<lb/>
                     than he has been for some time<lb/>
                     But his health is far from<lb/>
                     being reestablished &amp; we are<lb/>
