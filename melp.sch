@@ -46,21 +46,21 @@
             <sch:assert test="matches(., '[A-Z][a-z]{2,3}[A-Z][1-9][0-9]?')">The @ref attribute
                 value does not match the ID format in the Personography</sch:assert>
             <sch:assert test="$pe-id = $pe//tei:person/@xml:id" role="warning">Please confirm that
-                the ID <value-of select="$pe-id"/> is listed in MELP's Personography</sch:assert>
+                the ID <sch:value-of select="$pe-id"/> is listed in MELP's Personography</sch:assert>
         </sch:rule>
         <sch:rule context="tei:TEI//tei:placeName/@ref">
             <sch:let name="pl-id" value="substring-after(., '#')"/>
             <sch:assert test="matches(., '[A-Za-z\-]*[0-9]*[_]?[A-Z]{2,3}')">The @ref attribute
                 value does not match the ID format in the Placeography</sch:assert>
             <sch:assert test="$pl-id = $pl//tei:place/@xml:id" role="warning">Please confirm that
-                the ID <value-of select="$pl-id"/> is listed in MELP's Placeography</sch:assert>
+                the ID <sch:value-of select="$pl-id"/> is listed in MELP's Placeography</sch:assert>
         </sch:rule>
         <sch:rule context="tei:TEI//tei:title/@ref">
             <sch:let name="wo-id" value="substring-after(., '#')"/>
             <sch:assert test="matches(., '[A-Z][A-Za-z]{3,4}[1-9][0-9]?')">The @ref attribute value
                 does not match the ID format in the Workography</sch:assert>
             <sch:assert test="$wo-id = $wo//tei:bibl/@xml:id" role="warning">Please confirm that the
-                ID <value-of select="$wo-id"/> is listed in MELP's Workography</sch:assert>
+                ID <sch:value-of select="$wo-id"/> is listed in MELP's Workography</sch:assert>
         </sch:rule>
     </sch:pattern>
 
