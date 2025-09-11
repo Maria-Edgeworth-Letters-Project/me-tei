@@ -2,6 +2,7 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/Maria-Edgeworth-Letters-Project/me-tei/refs/heads/main/melp.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -122,7 +123,7 @@
                   <placeName ref="Id_where"/>
                   <date when="1111-11-11">Month DD, YYYY</date></dateline>
                <salute>
-                  <persName>
+                  <persName ref="Id_who">
                      <!-- Use if letter has a saluation ("Dear Sir," for example). If not, delete this line.-->
                   </persName>
                </salute>
