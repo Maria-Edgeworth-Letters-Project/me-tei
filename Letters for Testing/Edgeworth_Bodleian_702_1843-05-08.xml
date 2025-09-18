@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/Maria-Edgeworth-Letters-Project/me-tei/refs/heads/main/melp.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter from Maria Edgeworth to Frances Anne Edgeworth, May 8 1843</title>
+                <author>Maria Edgeworth</author>
+                <editor>
+                    <!--Editor on the Maria Edgeworth Letters Project overseeing the coding of this particular letter: FirstName LastName -->
+                </editor>
+                <sponsor>
+                    <orgName>Maria Edgeworth Letters Project</orgName>
+                </sponsor>
+                <sponsor>Wake Forest University, University of Tennessee, Xavier University, Texas
+                    A&amp;M University</sponsor>
+                <principal>Susan Egenolf, Meredith Hale, Hilary Havens, Jessica Richard, and Robin Runia</principal>
+                <respStmt>
+                    <resp>Transcription and coding by</resp>
+                    <persName>Paris Weber
+                    </persName>
+                    <!-- If you're the last person interacting with the file, enter your name last on the list -->
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>First digital edition in TEI, date: Septemeber 18, 2025 <date when="2025-09-18">
+                </date>
+                </edition>
+                <respStmt>
+                    <orgName ref="/http://id.loc.gov/authorities/names/n80020306">Bodleian Library
+                    </orgName>
+                    <resp> photos include:
+                        Edgeworth_Bodleian_702_1843-05-08_page01.jpg
+                        Edgeworth_Bodleian_702_1843-05-08_page02.jpg
+                        Edgeworth_Bodleian_702_1843-05-08_page03.jpg
+                    </resp>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <authority>Maria Edgeworth Letters Project</authority>
+                <date>2022</date>
+                <availability>
+                    
+                    <p>Reproduced by courtesy of <orgName ref="http://id.loc.gov/authorities/names/n80020306"> Bodleian Library</orgName>
+                    </p>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons Attribution 4.0 (CC BY 4.0) Unported License</licence>
+                </availability>
+                <idno>Edgeworth_Bodleian_702_1843-05-08</idno> 
+            </publicationStmt>
+            <seriesStmt>
+                <title>Maria Edgeworth Letters Project</title>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc xml:lang="en">
+                    <msIdentifier>
+                        <repository>Bodleian Library</repository>
+                        <collection><!-- Enter specific archival collection if applicable--></collection>
+                        <idno>Edgeworth_Bodleian_702_1843-05-08</idno>
+                    </msIdentifier>
+                    <head>Letter from 
+                        <persName xml:id="EdgeM1" from="1768" to="1849">
+                            <forename>Maria</forename>
+                            <surname>Edgeworth</surname>
+                            <date>1768-1849</date>
+                            <idno type="VIAF">71477273</idno>
+                            <idno type="SNAC">62567029</idno>
+                        </persName>
+                        to <persName><persName ref="./Personography.xml#EdgeF2">Frances Anne Edgeworth</persName></persName>, 
+                        <date when="1841-05-08"></date>
+                    </head>
+                    <physDesc>
+                    </physDesc>
+                </msDesc>
+                
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <!--Where Edgeworth uses nonstandard spelling and hyphenation of words, transcriber-coders 
+               should use TEI elements “choice," “sic," and “reg" to encode both Edgeworth’s 
+               spelling and the regular international standard of Oxford English spelling, 
+               following the first listed spelling in the Oxford English Dictionary. -->
+                <p>Edgeworth’s spelling and punctuation are retained in transcription, including non-standard spelling, line breaks, and hyphenation of words. The long s and ligatured forms are silently emended.</p>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="./Personography.xml#EdgeF2">Frances Anne Edgeworth</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2021-01-01" who="Id_who">
+                <!--Brief description of what you did here.-->
+            </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="letter">
+                <pb n="1" facs="Edgeworth_Bodleian_702_1843-05-08_page01.jpg"/>
+                
+                <opener>
+                    
+                    <date when="1841-05-08">May 8, 1843</date>
+                </opener>
+                <p>
+                Trim Monday 8[superscript]th[/superscript]. 1843<lb/>
+                74<lb/>
+                My dearest mother,<lb/>
+                I am steady and true to my<lb/>
+                promise about the week and<lb/>
+                remember I said I would not<lb/>
+                pin myself to the day - There=<lb/>
+                fore though I at first said<lb/>
+                Thursday I now say Saturday<lb/>
+                next if you please - the 13th -<lb/>
+                I will be at home to dinner<lb/>
+                - My dear you cannot come<lb/>
+                to meet me unless you were<lb/>
+                to ride one of the coach horses<lb/>
+                which I think would be un-<lb/>
+                seemly and rather uncom<lb/>
+                fortably - you know that I<lb/>
+                come home in your carriage<lb/>
+                so I want only horses - If<lb/>
+                yours are in good trim and<lb/>
+                peculiarly engaged on Satur<lb/>
+                day next you will be so good<lb/>
+                as to send them to meet me at<lb/>
+                [unclear]Mulligans[/unclear] - Harriet who is<lb/>
+                
+                always kinder than one can<lb/>
+                conceive or invent, has contrived<lb/>
+                for herself how she can give me<lb/>
+                the pleasure of her company to<lb/>
+                Mullingar and can return<lb/>
+                without the chaise which carries<lb/>
+                us there - She will never<lb/>
+                heeding the [unclear] ignoming [/unclear] return<lb/>
+                on a jaunt - or jaunting car<lb/>
+                which she assures me she thinks<lb/>
+                a delightful vehicle - See the<lb/>
+                magic of that dearest of Faeries<lb/>
+                Goodwill which can convert<lb/>
+                the worst into the best! and al<lb/>
+                ways prove herself a gainer<lb/>
+                by the bargain<lb/>
+                You hear I am quite well<lb/>
+                ans happy and you shall<lb/>
+                see the same on Saturday -<lb/>
+                Love I will send to nobody<lb/>
+                But will bring for everybody<lb/>
+                on Saturday from all here<lb/>
+                ever affectionately yours<lb/>
+                to command but never to obey Maria E<lb/>
+                
+                75<lb/>
+                I forgot my dear mother where<lb/>
+                I said about Trysting place &amp;<lb/>
+                that Maria [deletion]wee [/deletion]had your<lb/>
+                chaise here, &amp; when I said about<lb/>
+                the jaunt I still thought of<lb/>
+                your meeting at Mullingar<lb/>
+                - but I should not like to leave<lb/>
+                her for that last 12 miles &amp; so<lb/>
+                will go on home with her &amp;<lb/>
+                return [unclear][/unclear] Coach. Or suppose -<lb/>
+                suppose - that [underline]you [/underline]- I would<lb/>
+                not trust her out of my hand to<lb/>
+                any one else's - she caught cold<lb/>
+                her last going home - could come<lb/>
+                &amp; take her -? - It is too much<lb/>
+                care to suppose I [unclear] fear [/unclear] after your<lb/>
+                generous deed before - so it may<lb/>
+                be as aforsaid -<lb/>
+                </p>
+                
+            </div>
+        </body>
+        <back> </back>
+    </text>
+</TEI>
+
+
