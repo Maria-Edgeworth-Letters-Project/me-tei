@@ -26,7 +26,7 @@
                 </respStmt>
             </titleStmt>
             <editionStmt>
-                <edition>First digital edition in TEI, date: <date when="2025-09-25">
+                <edition>First digital edition in TEI, date: <date when="2025-10-01">
                 </date>
                 </edition>
                 <respStmt>
@@ -59,7 +59,7 @@
                    
                     <msIdentifier>
                         <repository>Bodleian Library</repository>
-                        <collection><!-- Enter specific archival collection if applicable--></collection>
+                        <collection></collection>
                         <idno>Edgeworth_Bodleian_702_1842-07-12</idno>
                     </msIdentifier>
                     <head>Letter from 
@@ -70,25 +70,20 @@
                             <idno type="VIAF">71477273</idno>
                             <idno type="SNAC">62567029</idno>
                         </persName>
-                        to <persName ref="./Personography.xml#EdgeF2">Frances Anne Edgeworth</persName>, <placeName><!--Location where letter was sent--></placeName>, 
-                        <date when="1111-01-01"><!-- Transcribe the date as it appears on the letter itself. Enter a numeric standardized date value in @when. --></date>
-                        <!-- <stamp>Enter description, if applicable</stamp>-->
+                        to <persName ref="./Personography.xml#EdgeF2">Frances Anne Edgeworth</persName>, 
+                        <date when="1842-07-12"> Tuesday 12<hi rend="superscript">h</hi> 1842 </date>
                     </head>
                     <physDesc>
-                        <!-- optional physical description of the letter goes here: paper size and condition, seal, postmarks, etc.-->
+                       
                     </physDesc>
                 </msDesc>
                 <bibl>In addition to our edited version, this letter was previously published in
-                    <!--complete bibiographical info if letter was published in a book here - if not delete-->
+                    
                 </bibl>
             </sourceDesc>
         </fileDesc>
         <encodingDesc>
             <editorialDecl>
-                <!--Where Edgeworth uses nonstandard spelling and hyphenation of words, transcriber-coders 
-               should use TEI elements “choice," “sic," and “reg" to encode both Edgeworth’s 
-               spelling and the regular international standard of Oxford English spelling, 
-               following the first listed spelling in the Oxford English Dictionary. -->
                 <p>Edgeworth’s spelling and punctuation are retained in transcription, including non-standard spelling, line breaks, and hyphenation of words. The long s and ligatured forms are silently emended.</p>
             </editorialDecl>
         </encodingDesc>
@@ -117,18 +112,25 @@
                         <note> 60 </note>
                         <date when="1842-07-12">July 12, 1842</date>
                         <note> July </note></dateline> </opener>
-                   
-                 
+                  
                    <p> 
                        How shocked you must have<lb/>
                        been my dearest <persName ref="./Personography.xml#EdgeF2">mother</persName> by<lb/>
-                       the death of our friend Les-<lb/>
-                       lie Foster - You heard it from<lb/>
+                       the death of our friend <persName ref="./Personography.xml#FostJ1"><choice>
+                       <orig>Les-<lb/>
+                       lie</orig>
+                       <reg>Leslie</reg>
+                       </choice>
+                       Foster</persName> - You heard it from<lb/>
                        the newspapers I suppose<lb/>
                        I heard it from <persName ref="./Personography.xml#FoxC4">Charles Fox</persName><lb/>
                        at the moment of my arrival<lb/>
-                       here. I never was more sur<lb/>
-                       prised and shocked ! There<lb/>
+                       here. I never was more <choice> 
+                       <orig>sur<lb/>
+                       prised</orig>
+                       <reg>surprised</reg>
+                       </choice>
+                       and shocked ! There<lb/>
                        is no mention in the papers<lb/>
                        of his son except that he went<lb/>
                        up to <placeName ref="./Placeography.xml#Dublin_IE">Dublin</placeName> next day --! Poor<lb/>
@@ -147,7 +149,7 @@
                        pains had been taken and upon this<lb/>
                        recollection she persisted in believing<lb/>
                        that her husband might be recovered<lb/>
-                       and she wanted to <del>send or</del> to take Marsh<lb/>
+                       and she wanted to <del>send or</del> to take <persName ref="./Personography.xml#MarsH1" cert="high">Marsh</persName><lb/>
                        down to <placeName ref="./Placeography.xml#Cavan_IE">Cavan</placeName> immediately But he<lb/>
                        would not go: he said here are two <choice> 
                        <orig>phy<lb/>
@@ -181,17 +183,25 @@
                        <orig>Bannims</orig>
                        <reg>Banims</reg>
                        </choice></persName> , An admirable description<lb/>
-                       of a benevolent Cat<hi rend="superscript">c</hi> . Priest who robs him<lb/>
-                       self and his housekeeper of their<lb/>
+                       of a benevolent Cat<hi rend="superscript">c</hi> . Priest who robs <choice> 
+                       <orig>him<lb/>
+                       self</orig>
+                       <reg>himself</reg>
+                       </choice>
+                       and his housekeeper of their<lb/>
                        blankets one night for a wretched family<lb/>
                        and is <hi rend="underline">told</hi> of to his supreme housekeeper<lb/>
                        by a spy of a <unclear>gosvon</unclear> who has been lurking<lb/>
-                       in the kitchen chimney corner &amp; has been direct<lb/>
-                       ly to housekeeper who is out unknownst at<lb/>
+                       in the kitchen chimney corner &amp; has been <choice> 
+                       <orig>direct<lb/>
+                       ly</orig>
+                       <reg>directly</reg>
+                       </choice>
+                       to housekeeper who is out unknownst at<lb/>
                        her tea drinking &amp; had left him locked in to <unclear>watch</unclear><lb/>
                        - The final battle between priest &amp; his<lb/>
-                       housekeeper is admirable &amp; I wish that Fanny<lb/>
-                       and you <add>&amp; Lucy</add> could see it<lb/> </p>
+                       housekeeper is admirable &amp; I wish that <persName ref="./Personography.xml#EdgeF3">Fanny</persName><lb/>
+                       and you <add>&amp; <persName ref="./Personography.xml#EdgeL1">Lucy</persName></add> could see it<lb/> </p>
                     
                    <p>
                        But you are thinking of my teeth - All<lb/>
@@ -214,8 +224,12 @@
                    
                    <pb n="3" facs="Edgeworth_Bodleian_702_1842-07-12_page03.jpg"/>
                        yet seen the brother - nor the dog <note>61</note><lb/>
-                       - but will certainly see both this morn<lb/>
-                       ing - We are to be with him by 10 o clock<lb/>
+                       - but will certainly see both this <choice> 
+                       <orig>morn<lb/>
+                       ing</orig>
+                       <reg>morning</reg>
+                       </choice>
+                       - We are to be with him by 10 o clock<lb/>
                        - It is now 1/2 past 8) - He has taken a<lb/>
                        mould of the upper jaw but cannot of<lb/>
                        the lower till the gums harden where<lb/>
@@ -234,34 +248,50 @@
                        today - 12 o clock - set out -<lb/> </p>
                     
                    <p>
-                       Your packet has this instant ar-<lb/>
-                       rived. I am very glad you approve<lb/>
-                       of the Margaret Ruxton scheme - <del>And</del><lb/>
+                       Your packet has this instant <choice> 
+                       <orig>ar-<lb/>
+                       rived.</orig>
+                       <reg>arrived</reg>
+                       </choice>
+                       I am very glad you approve<lb/>
+                       of the <persName ref="./Personography.xml#RuxtM1">Margaret Ruxton</persName> scheme - <del>And</del><lb/>
                        But as <persName ref="./Personography.xml#EdgeF3">Fanny</persName> desires I will not<lb/>
                        decide in a hurry -<lb/> </p>
                     
                    <p>
-                       Thank you for sending the dress-<lb/>
-                       ing gown - I begin to believe that<lb/>
+                       Thank you for sending the <choice> 
+                       <orig>dress-<lb/>
+                       ing</orig>
+                       <reg>dressing</reg>
+                       </choice>
+                       gown - I begin to believe that<lb/>
                        the thin one is my own after all<lb/>
                        <del></del> I suppose you are now in<lb/>
-                       the midst of the greatest to whurry=<lb/>
+                       the midst of the greatest to wherry=<lb/>
                        go nimble about the packing up<lb/>
-                       and the new cook and the house<lb/>
-                       maid who has not arrived &amp; all<lb/>
+                       and the new cook and the <choice> 
+                       <orig>house<lb/>
+                       maid</orig>
+                       <reg>housemaid</reg>
+                       </choice>
+                       who has not arrived &amp; all<lb/>
                        all upon your shoulders!<lb/> </p>
                     
                    <closer> 
-                       Gold help you &amp; God bless you. I<lb/>
+                       God help you &amp; God bless you. I<lb/>
                        must go to breakfast and am<lb/>
-                       in all circumstances, even before break<lb/>
-                       fast ever affectionately, your old Maria E<lb/>  </closer>
+                       in all circumstances, even before <choice> 
+                       <orig>break<lb/>
+                       fast</orig>
+                       <reg>breakfast</reg>
+                       </choice>
+                       ever affectionately, your old <persName ref="./Personography.xml#EdgeM1">Maria E</persName><lb/>  </closer>
                    
                    <postscript>
                        <p>
-                           Dear Pakenham my love to him<lb/> </p>
+                       Dear <persName ref="./Personography.xml#PakeX3" cert="high">Pakenham</persName> my love to him<lb/> </p>
                    <p>
-                       I return here on Monday - Charles<lb/>
+                       I return here on Monday - <persName ref="./Personography.xml#FoxC4">Charles</persName><lb/>
                    
                    <pb n="4" facs="Edgeworth_Bodleian_702_1842-07-12_page04.jpg"/>
                        goes tomorrow - I dont know<lb/>
@@ -278,9 +308,9 @@
                        Dear good creature<lb/> </p>
                    
                    <p>
-                       I hope Francis will<lb/>
+                       I hope <persName ref="./Personography.xml#EdgeF1" cert="high">Francis</persName> will<lb/>
                        be satisfied with<lb/>
-                       Mary Moffatts<lb/>
+                       <persName ref="./Personography.xml#MoffM1">Mary Moffatts</persName><lb/>
                        proposal - I<lb/>
                        will see her brother<lb/>
                        at <placeName ref="./Placeography.xml#Trim_IE">Trim</placeName> &amp; get<lb/>
@@ -290,7 +320,7 @@
                        for swearing the<lb/>
                        £5p<hi rend="superscript">r</hi> ann<hi rend="superscript">m</hi> rent<lb/>
                        &amp; I will send it<lb/>
-                       in to FBE and then<lb/>
+                       in to <persName ref="./Personography.xml#EdgeF1" cert="high"><choice><orig>FBE</orig><reg>Francis Beaufort Edgeworth</reg></choice></persName>and then<lb/>
                        she may be let in<lb/>
                        to the house I think<lb/>
                        But not till then<lb/>
