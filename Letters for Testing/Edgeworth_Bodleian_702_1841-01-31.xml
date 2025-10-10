@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/Maria-Edgeworth-Letters-Project/me-tei/refs/heads/main/melp.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter from Maria Edgeworth to Frances Anne Edgeworth, January 31, 1841</title>
+                <author>Maria Edgeworth</author>
+                <editor>
+                    <!--Editor on the Maria Edgeworth Letters Project overseeing the coding of this particular letter: FirstName LastName -->
+                </editor>
+                <sponsor>
+                    <orgName>Maria Edgeworth Letters Project</orgName>
+                </sponsor>
+                <sponsor>Wake Forest University, University of Tennessee, Xavier University, Texas
+                    A&amp;M University</sponsor>
+                <principal>Susan Egenolf, Meredith Hale, Hilary Havens, Jessica Richard, and Robin Runia</principal>
+                <respStmt>
+                    <resp>Transcription and coding by</resp>
+                    <persName>Paris Weber
+                    </persName>
+                    <!-- List all transcribers or coders here, editors and students alike, <persName> by <persName>.-->
+                    <persName><!--FirstName LastName--></persName>
+                    <!-- If you're the last person interacting with the file, enter your name last on the list -->
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>First digital edition in TEI, date: <date when="2022-01-01">
+                        <!--enter the date on which the first coder created and saved this XML file-->
+                </date>
+                </edition>
+                <respStmt>
+                    <orgName type="naf" ref="Id_who">
+                        <!--who digitized the letter or gave us permission for to use the file?-->
+                    </orgName>
+                    <resp> photos include:
+                        <!-- Make a comma-separated list of each .jpg photo file name associated with your letter. 
+                     For example: DSCF9476.jpg, DSCF9477.jpg, DSCF9478.jpg-->
+                    </resp>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <authority>Maria Edgeworth Letters Project</authority>
+                <date>2022</date>
+                <availability>
+                    <!--Uncomment the appropriate line, based on the archive that holds the physical copy of this letter, 
+                  and delete the other comment line(s).-->
+                    <p><!--Reproduced by courtesy of the <orgName ref="#ReadingCL">Reading Central Library</orgName>.-->
+                        <!--or -->
+                        <!--Courtesy of <orgName ref="#Rylands">The University of Manchester</orgName>.-->
+                    </p>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons Attribution 4.0 (CC BY 4.0) Unported License</licence>
+                </availability>
+                <idno><!--Change to match the file name and current naming standards, i.e. "Edgeworth_Beinecke_330_1817_01_24" if file name is "Edgeworth_Beinecke_330_1817_01_24.xml"--></idno> 
+            </publicationStmt>
+            <seriesStmt>
+                <title>Maria Edgeworth Letters Project</title>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc xml:lang="en">
+                    <!-- This section of the header identifies the original manuscript source. -->
+                    <msIdentifier>
+                        <repository>ORGANIZATION NAME</repository>
+                        <collection><!-- Enter specific archival collection if applicable--></collection>
+                        <idno><!--Consult library or WorldCat for this info--></idno>
+                    </msIdentifier>
+                    <head>Letter from 
+                        <persName xml:id="EdgeM1" from="1768" to="1849">
+                            <forename>Maria</forename>
+                            <surname>Edgeworth</surname>
+                            <date>1768-1849</date>
+                            <idno type="VIAF">71477273</idno>
+                            <idno type="SNAC">62567029</idno>
+                        </persName>
+                        to <persName><!--Recipient Name--></persName>, <placeName><!--Location where letter was sent--></placeName>, 
+                        <date when="1111-01-01"><!-- Transcribe the date as it appears on the letter itself. Enter a numeric standardized date value in @when. --></date>
+                        <!-- <stamp>Enter description, if applicable</stamp>-->
+                    </head>
+                    <physDesc>
+                        <!-- optional physical description of the letter goes here: paper size and condition, seal, postmarks, etc.-->
+                    </physDesc>
+                </msDesc>
+                <bibl>In addition to our edited version, this letter was previously published in
+                    <!--complete bibiographical info if letter was published in a book here - if not delete-->
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <!--Where Edgeworth uses nonstandard spelling and hyphenation of words, transcriber-coders 
+               should use TEI elements “choice," “sic," and “reg" to encode both Edgeworth’s 
+               spelling and the regular international standard of Oxford English spelling, 
+               following the first listed spelling in the Oxford English Dictionary. -->
+                <p>Edgeworth’s spelling and punctuation are retained in transcription, including non-standard spelling, line breaks, and hyphenation of words. The long s and ligatured forms are silently emended.</p>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName><!--SENDER NAME--></persName>
+                </correspAction>
+                <correspAction type="received">
+                    <persName><!--RECIPIENT NAME--></persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2021-01-01" who="Id_who">
+                <!--Brief description of what you did here.-->
+            </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="letter">
+                <pb n="1" facs="Edgeworth_Bodleian_702_1841-01-31_page01.jpg"/>
+                <opener>
+                        
+                    <salute>
+                       
+                    </salute>
+                </opener>
+                <p><note>21</note>
+                    I wrote on Saturday to <hi rend="underline">the house<lb/>
+                    keeper</hi> at <placeName ref="./Placeography.xml#Grove-House-Kensington-Gore_ENK">Grove house</placeName> to inquire<lb/>
+                    whether <persName ref="./Personography.xml#WhitE1"><choice><orig>Lady E W</orig><reg>Lady Elizabeth Whitbread</reg></choice></persName>was expected<lb/>
+                    and <hi rend="underline">when</hi> for I was quite tired of<lb/>
+                    fruitless inquiries from neighbours<lb/>
+                    <persName ref="./Personography.xml#MarcJ1">M<hi rend="superscript">rs</hi> . Marcet</persName> <add>referred me to M<hi rend="superscript">rs</hi> .Villan</add> and M<hi rend="superscript">rs</hi>. Villan &amp; Lady<lb/>
+                    <unclear>Theresa Lyles</unclear> and all so near <del>Lady</del><lb/>
+                    <placeName ref="./Placeography.xml#Grove-House-Kensington-Gore_ENK">Grove house</placeName> knew no more than<lb/>
+                    the man on the moon - Next door<lb/>
+                    neighbors here know nothing of<lb/>
+                    one another unless the Houses have<lb/>
+                    been introduced to each other regularly<lb/>
+                    My note arrived just the very<lb/>
+                    day that <persName ref="./Personography.xml#WhitE1"><choice><orig>Lady E W</orig><reg>Lady Elizabeth Whitbread</reg></choice></persName> and Miss Grant<lb/>
+                    returned &amp; yesterday A servant brought<lb/>
+                    a note from <persName ref="./Personography.xml#GranX2">miss Grant</persName> saying that <persName ref="./Personography.xml#WhitE1"><choice><orig>Lady E</orig><reg>Lady Elizabeth</reg></choice></persName><lb/>
+                    had a dreadful cold &amp; could not stir<lb/>
+                    after her journey - longed to see me<lb/>
+                    So I could not let that warm heart<lb/>
+                    long for me in vain &amp; I answered that<lb/>
+                    snow permitting I would be at <placeName ref="./Placeography.xml#Grove-House-Kensington-Gore_ENK">Grove<lb/>
+                    house</placeName> between 3 &amp; 4 to day -<lb/>
+                    Snow does not seem to know whe<lb/>
+                    ther it will permit or not for it<lb/>
+                    has been showering scant feathers<lb/>
+                    all morning &amp; yet not coming fairly<lb/>
+                    to snowing - I have ordered horses for 2<lb/>
+                    o clock &amp; then as may be after luncheon<lb/>
+                    I had asked <persName ref="./Personography.xml#EdgeR2">Rosa</persName> to accompany<lb/>
+                    me and take drive in park after<lb/>
+                    But Dentist and tooth ache poor<lb/>
+                    body &amp; soul interfere &amp; she <unclear>past</unclear> now<lb/>
+                    <unclear>annim</unclear> - sorry - cant -<lb/>
+                    I forgot to mention the evening<lb/>
+                    party at <persName ref="./Personography.xml#MarcJ1">M<hi rend="superscript">rs</hi> . Marcets</persName> to which I<lb/>
+                    went the evening after <persName ref="./Personography.xml#BeauH1">Honora</persName><lb/>
+                    left<lb/>
+                    
+                    <pb n="2" facs="Edgeworth_Bodleian_702_1841-01-31_page02.jpg"/>
+                    <placeName ref="./Placeography.xml#London_ENK">London</placeName> &amp; to which she was to have<lb/>
+                    gone &amp; <unclear>even one proved</unclear> me to make<lb/>
+                    her apologies - I did so and <persName ref="./Personography.xml#MarcJ1">M<hi rend="superscript">rs</hi> <lb/>
+                    Marcet</persName> was and <persName ref="./Personography.xml#RomiS2">M<hi rend="superscript">rs</hi> . E Romilly</persName><lb/>
+                    since she was very sorry - and for<lb/>
+                    the cause - <persName ref="./Personography.xml#MarcJ1">M<hi rend="superscript">rs</hi> . Marcet</persName> has the most<lb/>
+                    lively &amp; pert notions about <persName ref="./Personography.xml#SneyM1">Aunt<lb/>
+                    Mary</persName> &amp; about you<lb/>
+                    The party was rather blue<lb/>
+                    but true blue <del>and</del> <persName ref="./Personography.xml#LyelC1">M<hi rend="superscript">r</hi> . Lyell</persName> and<lb/>
+                    <persName ref="./Personography.xml#LyelM1">M<hi rend="superscript">rs</hi> . Lyell nee Horner</persName> - M<hi rend="superscript">r</hi> and M<hi rend="superscript">rs</hi> Mil-<lb/>
+                    -man nee I dont know who - but whoever<lb/>
+                    she was is a very fine woman - and said<lb/>
+                    she knew me but I did not know her<lb/>
+                    from Abraham - A great deal of agreeable<lb/>
+                    conversation with Lyell about whom<lb/>
+                    I had luckily just been reading in<lb/>
+                    Hall's Patchwork and knew all how<lb/>
+                    to ask for further information<lb/>
+                    &amp; it was not I only ask for informa<lb/>
+                    tion sake totally d-me if I care<lb/>
+                    Quite the contrary - and he saw<lb/>
+                    that and gave me plainly most <unclear></unclear><lb/>
+                    Lord Lansdowne so terribly <unclear></unclear> in<lb/> 
+                    person I didn't know him<lb/>
+                    but as kind as ever to little me<lb/>
+                    M<hi rend="superscript">r</hi> Milman black &amp; grey -<lb/>
+                    square and solemn stood &amp; stared<lb/>
+                    at me but I never got to the speech<lb/>
+                    of him &amp; did care much - <unclear>Hinton</unclear><lb/>
+                    of the Jews &amp; all I could do without<lb/>
+                    M<hi rend="superscript">r</hi> Babbage white as tallow can<lb/>
+                    dle as ever, was there - not a abit<lb/>
+                    more burnt out than he was 10 years<lb/>
+                    ago - but quite an odious to look<lb/>
+                    at - touching! how horrible that must be<lb/>
+                    - He said graciously to me - but<lb/>
+                    forgot I had ever seen his magnum <hi rend="underline">opus</hi><lb/>
+                    till I reminded him of his own explanations<lb/>
+                    
+                    <pb n="3" facs="Edgeworth_Bodleian_702_1841-01-31_page03.jpg"/>
+                    - He gave me cards of admittance<lb/>
+                    to his Wednesday &amp; Saturday <note>21</note><lb/>
+                    <unclear>service</unclear> for which I thanked him<lb/>
+                    sincerely but sincerely determined<lb/>
+                    never to use for what should I<lb/>
+                    do on that galere - in that are<lb/>
+                    na of all the show beasts and<lb/>
+                    their worshippers &amp; feeders<lb/>
+                    and bear leaders - Lady Morgan<lb/>
+                    &amp; all! and all quarrelling<lb/>
+                    - if I had time or it were at<lb/>
+                    all worth while I could tell you<lb/>
+                    of such fights between Lady Morgan<lb/>
+                    and Lover - between Countess<lb/>
+                    de Sales and Lady Stepney<lb/>
+                    The Countess having turned Lady<lb/>
+                    S out of her house when she came<lb/>
+                    by mistake-on-purpose to a grand<lb/>
+                    dinner having been asked only to tea<lb/>
+                    I think Honora knows this anec<lb/>
+                    dote and may amuse you with it<lb/>
+                    tell her that I asked the Countess<lb/>
+                    about it - and she said true I turned<lb/>
+                    her out and Abel Smith pronounced<lb/>
+                    " as great an instance as I have heard<lb/>
+                    of moral courage in London this<lb/>
+                    many a day<lb/>
+                    It was not true that Madame de S<lb/>
+                    had made or intended 2 dinners<lb/>
+                    on succeeding days - one for fine<lb/>
+                    &amp; the next of scraps for second sale<lb/>
+                    She said I c<hi rend="superscript">d</hi> not have been guilty<lb/>
+                    of such meanness - I never invited<lb/>
+                    Lady S to dinner at all - only to <unclear>Sod</unclear><lb/>
+                    Whenever you come to work<lb/>
+                    
+                    <pb n="4" facs="Edgeworth_Bodleian_702_1841-01-31_page04.jpg"/>
+                    have the support of feeling how<lb/>
+                    completely she fulfilled all<lb/>
+                    that she desired all that she<lb/>
+                    undertook for aunt Mary &amp;<lb/>
+                    supplied that place which none<lb/>
+                    else could have supplied<lb/>
+                    <hi rend="underline">supplied</hi> without <hi rend="underline">supplanting</hi><lb/>
+                    Lucy must have many inter<lb/>
+                    nal sources of satisfaction which<lb/>
+                    I trust will soothe her mind<lb/>
+                    and support her bodily weakness<lb/>
+                    Whenever her mind can turn<lb/>
+                    to any other objects I have some<lb/>
+                    preparing for her - I have been<lb/>
+                    long foreseeing how necessary<lb/>
+                    some interesting occupation wch<lb/>
+                    presently be to her<lb/>
+                    you have much that that is pain<lb/>
+                    ful dearest mother still to go<lb/>
+                    through - Thank you for writing<lb/>
+                    to me at the first moment as you<lb/>
+                    did and what you wrote answered<lb/>
+                    the purpose of communicating<lb/>
+                    to Fanny in the best manner<lb/>
+                    what your previous note had<lb/>
+                    prepared her to hear<lb/>
+                    I will wait to hear again<lb/>
+                    from you before I make any<lb/>
+                    further observations or proposals<lb/>
+                </p>
+               
+             
+            </div>
+        </body>
+        <back> </back>
+    </text>
+</TEI>
+
