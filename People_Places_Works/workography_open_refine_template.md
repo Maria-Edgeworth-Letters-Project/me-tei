@@ -30,6 +30,7 @@
                     <persName>Jessica Richard</persName>
                     <persName>Robin Runia</persName>
                     <persName>Eliza Alexander Wilcox</persName>
+                    <persName>Paris Weber</persName>
                 </respStmt>
             </titleStmt>
             <publicationStmt>
