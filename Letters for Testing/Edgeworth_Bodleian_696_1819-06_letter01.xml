@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/Maria-Edgeworth-Letters-Project/me-tei/refs/heads/main/melp.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter from Maria Edgeworth to Frances Anne Edgeworth, June 1819</title>  
+                <author>Maria Edgeworth</author>
+                <editor>
+                    <!--Editor on the Maria Edgeworth Letters Project overseeing the coding of this particular letter: FirstName LastName -->
+                </editor>
+                <sponsor>
+                    <orgName>Maria Edgeworth Letters Project</orgName>
+                </sponsor>
+                <sponsor>Wake Forest University, University of Tennessee, Xavier University, Texas
+                    A&amp;M University</sponsor>
+                <principal>Susan Egenolf, Meredith Hale, Hilary Havens, Jessica Richard, and Robin Runia</principal>
+                <respStmt>
+                    <resp>Transcription and coding by</resp>
+                    <persName>Paris Weber 
+                    </persName>
+                    <!-- List all transcribers or coders here, editors and students alike, <persName> by <persName>.-->
+                    <persName><!--FirstName LastName--></persName>
+                    <!-- If you're the last person interacting with the file, enter your name last on the list -->
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>First digital edition in TEI, date: <date when="2022-01-01">
+                        <!--enter the date on which the first coder created and saved this XML file-->
+                </date>
+                </edition>
+                <respStmt>
+                    <orgName type="naf" ref="Id_who">
+                        <!--who digitized the letter or gave us permission for to use the file?-->
+                    </orgName>
+                    <resp> photos include:
+                        Edgeworth_Bodleian_696_1819-06_letter01_page01.jpg
+                        Edgeworth_Bodleian_696_1819-06_letter01_page02.jpg
+                    </resp>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <authority>Maria Edgeworth Letters Project</authority>
+                <date>2022</date>
+                <availability>
+                    
+                    <p> Reproduced by courtesy of <orgName ref="http://id.loc.gov/authorities/names/n80020306"> Bodleian Library</orgName>
+                    </p>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons Attribution 4.0 (CC BY 4.0) Unported License</licence>
+                </availability>
+                <idno>Edgeworth_Bodleian_696_1819-06_letter01</idno> 
+            </publicationStmt>
+            <seriesStmt>
+                <title>Maria Edgeworth Letters Project</title>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc xml:lang="en">
+                    <msIdentifier>
+                        <repository>Bodleian Library</repository>
+                        <collection></collection>
+                        <idno>Edgeworth_Bodleian_696_1819-06_letter01</idno>
+                    </msIdentifier>
+                    <head>Letter from 
+                        <persName xml:id="EdgeM1" from="1768" to="1849">
+                            <forename>Maria</forename>
+                            <surname>Edgeworth</surname>
+                            <date>1768-1849</date>
+                            <idno type="VIAF">71477273</idno>
+                            <idno type="SNAC">62567029</idno>
+                        </persName>
+                        to <persName ref="./Personography.xml#EdgeF2">Frances Anne Edgeworth</persName>,
+                        <date when="1819-06"></date>
+                    </head>
+                </msDesc>
+                
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p>Edgeworth’s spelling and punctuation are retained in transcription, including non-standard spelling, line breaks, and hyphenation of words. The long s and ligatured forms are silently emended.</p>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="./Personography.xml#EdgeF2">Frances Anne Edgeworth</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2021-01-01" who="Id_who">
+                
+            </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="letter">
+                <pb n="1" facs="Edgeworth_Bodleian_696_1819-06_letter01_page01.jpg"/>
+                
+                <note>211</note>
+                <p>
+                        Pray my dear <persName ref="./Personography.xml#EdgeF2">mother</persName> send me a <hi rend="underline">finished</hi> miniat<damage><unclear>ure<gap></gap></unclear></damage><lb/>
+                        head of Lord Longford - Fannys tho excellent is not mi<damage><gap></gap></damage><lb/>
+                        Sneyd says finished enough for the engraver -<lb/>
+                        <del>The man who engraved her drawings of <unclear>Needwood</unclear></del><lb/>
+                        Heaphy told her that in portraits the drawing must be<lb/>
+                        <hi rend="underline">highly</hi> finished -</p><lb/>
+                    <p>
+                        Her original drawings were returned without the<lb/>
+                        slightest damage or speck of dust from the engravers<lb/>
+                        - I therefore think we may hazard Charlottes<lb/>
+                        originals - I beg you to send me the original<lb/>
+                        of the Knave &amp; slave - of Flannigan &amp; his companion<lb/>
+                        &amp; of the French traiteur &amp; French heads -<lb/>
+                        You will see by Heaphy's letter that the<lb/>
+                        originals are necessary.<lb/></p>
+                    <p> 
+                        <damage><gap></gap></damage> we decided to have engraved at my <damage><gap></gap></damage><lb/>
+                        <damage><unclear>ex<gap></gap></unclear></damage>pense under Heaphy's correction of<lb/>
+                        The Irish dance.<lb/>
+                        Knave &amp; slave<lb/>
+                        Traiteur &amp; French heads -</p><lb/>
+                    <p>
+                        If the engravings do not do justice to the<lb/>
+                        originals I will not let them be published<lb/></p>
+                    <p>
+                        If they do I will present them to<lb/>
+                        Hunter - In my opinion the handsomest<lb/>
+                        present I can make him - <del>and in my<lb/>
+                            opinion the</del> Miss Sneyd &amp; her father &amp; mother<lb/>
+                        M<hi rend="superscript">r</hi>. John Sneyd - the Staffords &amp; al who<lb/>
+                        have <del>heard of or</del> seen the sketches or heard<lb/>
+                        of the manner in which they wil be mentioned<lb/>
+                        in my fathers life decidedly approve<lb/></p>
+                    <p>
+                        I beg you however to say nothing about<lb/>
+                        this to Francis B - or any one in Ireland who<lb/>
+                        writes to him<lb/>
+                    
+                    <pb n="2" facs="Edgeworth_Bodleian_696_1819-06_letter01_page02.jpg"/>
+                        <damage><gap></gap></damage>The engraving outlines is not expensive -<lb/>
+                        <damage><gap></gap></damage>shall know in a few days <add>from Heaphy</add> the expense of having<lb/>
+                        <damage><gap></gap></damage>se outlines &amp; Days - Darwins &amp; Longfords<lb/>
+                        heads engraved - I suppose 100 guineas<lb/></p>
+                    <p>
+                        I have not said a word<lb/>
+                        of Fanny's health<lb/>
+                        So you may believe<lb/>
+                        she will not die this time -<lb/></p>
+                    <p>
+                        Francis will have the heads engraved<lb/>
+                        - Heaphy shall manage the drawings<lb/>
+                        He i<unclear>s</unclear> exquisitely careful about his own<lb/>
+                        Return h<unclear>is</unclear> letter by first packet<lb/>
+                        D<unclear>i</unclear>rect to Ward - under cover to RH<lb/>
+                        Cr<unclear>e</unclear> whenever you are in distress<lb/></p>
+                    <p>
+                        I hope yo<damage><gap></gap></damage> like this<lb/>
+                        <unclear>Hands<hi rend="superscript">r</hi></unclear> <damage><gap></gap></damage>- send your<lb/>
+                        cloth you <damage><gap></gap></damage>y Lovell if I<lb/>
+                        can catch him flying<lb/></p>
+                
+                    <closer>
+                    <address>
+                        <addrLine/><persName ref="./Personography.xml#EdgeF2">M<hi rend="superscript">rs</hi>.Edgeworth</persName></address>
+                    </closer>   
+            </div>
+        </body>
+        <back> </back>
+    </text>
+</TEI>
+
