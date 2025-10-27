@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/Maria-Edgeworth-Letters-Project/me-tei/refs/heads/main/melp.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter from Maria Edgeworth to Frances Anne Edgeworth, Unknown</title>
+                <author>Maria Edgeworth</author>
+                <editor>
+                    <!--Editor on the Maria Edgeworth Letters Project overseeing the coding of this particular letter: FirstName LastName -->
+                </editor>
+                <sponsor>
+                    <orgName>Maria Edgeworth Letters Project</orgName>
+                </sponsor>
+                <sponsor>Wake Forest University, University of Tennessee, Xavier University, Texas
+                    A&amp;M University</sponsor>
+                <principal>Susan Egenolf, Meredith Hale, Hilary Havens, Jessica Richard, and Robin Runia</principal>
+                <respStmt>
+                    <resp>Transcription and coding by</resp>
+                    <persName>Paris Weber
+                    </persName>
+                    <!-- List all transcribers or coders here, editors and students alike, <persName> by <persName>.-->
+                    <persName><!--FirstName LastName--></persName>
+                    <!-- If you're the last person interacting with the file, enter your name last on the list -->
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>First digital edition in TEI, date: <date when="2025-10-27">
+                        
+                </date>
+                </edition>
+                <respStmt>
+                    <orgName ref="http://id.loc.gov/authorities/names/n80020306">Bodleian Library
+                        <!--who digitized the letter or gave us permission for to use the file?-->
+                    </orgName>
+                    <resp> photos include:
+                        Edgeworth_Bodleian_696_to-FE_letter01_page01.jpg
+                        Edgeworth_Bodleian_696_to-FE_letter01_page02.jpg
+                    </resp>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <authority>Maria Edgeworth Letters Project</authority>
+                <date>2022</date>
+                <availability>
+                    
+                    <p> Reproduced by courtesy of <orgName ref="http://id.loc.gov/authorities/names/n80020306"> Bodleian Library</orgName>
+                    </p>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons Attribution 4.0 (CC BY 4.0) Unported License</licence>
+                </availability>
+                <idno>Edgeworth_Bodleian_696_1819-06_letter01</idno> 
+            </publicationStmt>
+            <seriesStmt>
+                <title>Maria Edgeworth Letters Project</title>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc xml:lang="en">
+                    <msIdentifier>
+                        <repository>Bodleian Library</repository>
+                        <collection></collection>
+                        <idno>Edgeworth_Bodleian_696_to-ME_letter01</idno>
+                    </msIdentifier>
+                    <head>Letter from 
+                        <persName xml:id="EdgeM1" from="1768" to="1849">
+                            <forename>Maria</forename>
+                            <surname>Edgeworth</surname>
+                            <date>1768-1849</date>
+                            <idno type="VIAF">71477273</idno>
+                            <idno type="SNAC">62567029</idno>
+                        </persName>
+                        to <persName ref="./Personography.xml#EdgeF2">Frances Anne Edgeworth</persName>,
+                       
+                    </head>
+                </msDesc>
+                
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p>Edgeworth’s spelling and punctuation are retained in transcription, including non-standard spelling, line breaks, and hyphenation of words. The long s and ligatured forms are silently emended.</p>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="./Personography.xml#EdgeF2">Frances Anne Edgeworth</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2021-01-01" who="Id_who">
+                
+            </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="letter">
+                <pb n="1" facs="image1.jpg"/>
+                <!--filenames for photos associated with this letter. Example: <pb n="1" facs="image1.jpg image2.jpg image3.jpg"/> -->
+               <p>
+                    Odd Replies to [underline]odd[/underline]questions		[LibNote]60[/LibNote]
+                    I asked the Baillies about the princesses -
+                    The princess Sophia is not insane - only very
+                    nervous &amp; weak - this is the truth and [underline]nervous[/underline] is
+                    [underline]not here[/underline] used as a soft equivocal word.
+                    The princess Amelia - was said to have died a martyr
+                    to the Kings evil &amp; all scars [deletion]and[/deletion] &amp; sores - absolutely
+                    false - D[superscript]r. [/superscript]Baillie saw her [insertion]during all her illness[/insertion] [underline]after death[/underline][insertion][unclear][/unclear][/insertion] - told his sister
+                    that her neck &amp; every part of her was free from all
+                    scar or sore or swelling or any symptom of that
+                    disease - She died of atrophy - really worn out - anxiety
+                    of mind accelerating or producing it - all about her
+                    children true - [insertion]Fitzroy[/insertion] Her husband I [underline]think[/underline] she said but am not
+                    [underline]sure - was not[/underline] always kind to her
+                    The princess [gap][/gap] is married it is believed to
+                    Gen[superscript]l[/superscript]. Garth [deletion]and as[/deletion] Miss Baillie says you w[superscript]d[/superscript]
+                    [underline]be surprised[/underline] at her choice if you saw him -
+                    All the stories about the Kings apartments being
+                    
+                    
+                    [underline]stuffed[/underline] to prevent cries being heard [deletion]is [/deletion] false -
+                    D[superscript]r.[/superscript] Baillie says the rooms are just as they always
+                    were -
+                    As to the Queen no mortal knows whether she
+                    will die tomorrow - or live months - All the
+                    physicians say she may die any hour or
+                    may hold out a month or 2 -
+                    D[superscript]r.[/superscript] Baillie never sees her - never has seen
+                    [underline]her[/underline] since her illness
+               </p>
+            </div>
+        </body>
+        <back> </back>
+    </text>
+</TEI>
+
