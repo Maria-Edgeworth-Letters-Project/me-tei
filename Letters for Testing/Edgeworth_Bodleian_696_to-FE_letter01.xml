@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/Maria-Edgeworth-Letters-Project/me-tei/refs/heads/main/melp.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter from Maria Edgeworth to Frances Anne Edgeworth, Unknown</title>
+                <author>Maria Edgeworth</author>
+                <editor>
+                    <!--Editor on the Maria Edgeworth Letters Project overseeing the coding of this particular letter: FirstName LastName -->
+                </editor>
+                <sponsor>
+                    <orgName>Maria Edgeworth Letters Project</orgName>
+                </sponsor>
+                <sponsor>Wake Forest University, University of Tennessee, Xavier University, Texas
+                    A&amp;M University</sponsor>
+                <principal>Susan Egenolf, Meredith Hale, Hilary Havens, Jessica Richard, and Robin Runia</principal>
+                <respStmt>
+                    <resp>Transcription and coding by</resp>
+                    <persName>Paris Weber
+                    </persName>
+                    <!-- List all transcribers or coders here, editors and students alike, <persName> by <persName>.-->
+                    <persName><!--FirstName LastName--></persName>
+                    <!-- If you're the last person interacting with the file, enter your name last on the list -->
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>First digital edition in TEI, date: <date when="2025-10-29">
+                        
+                </date>
+                </edition>
+                <respStmt>
+                    <orgName ref="http://id.loc.gov/authorities/names/n80020306">Bodleian Library
+                    </orgName>
+                    <resp> photos include:
+                        Edgeworth_Bodleian_696_to-FE_letter01_page01.jpg
+                        Edgeworth_Bodleian_696_to-FE_letter01_page02.jpg
+                    </resp>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <authority>Maria Edgeworth Letters Project</authority>
+                <date>2022</date>
+                <availability>
+                    
+                    <p> Reproduced by courtesy of <orgName ref="http://id.loc.gov/authorities/names/n80020306"> Bodleian Library</orgName>
+                    </p>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons Attribution 4.0 (CC BY 4.0) Unported License</licence>
+                </availability>
+                <idno>Edgeworth_Bodleian_696_to-FE_letter01</idno> 
+            </publicationStmt>
+            <seriesStmt>
+                <title>Maria Edgeworth Letters Project</title>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc xml:lang="en">
+                    <msIdentifier>
+                        <repository>Bodleian Library</repository>
+                        <collection></collection>
+                        <idno>Edgeworth_Bodleian_696_to-FE_letter01</idno>
+                    </msIdentifier>
+                    <head>Letter from 
+                        <persName xml:id="EdgeM1" from="1768" to="1849">
+                            <forename>Maria</forename>
+                            <surname>Edgeworth</surname>
+                            <date>1768-1849</date>
+                            <idno type="VIAF">71477273</idno>
+                            <idno type="SNAC">62567029</idno>
+                        </persName>
+                        to <persName ref="./Personography.xml#EdgeF2">Frances Anne Edgeworth</persName>,
+                   </head>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p>Edgeworth’s spelling and punctuation are retained in transcription, including non-standard spelling, line breaks, and hyphenation of words. The long s and ligatured forms are silently emended.</p>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="./Personography.xml#EdgeF2">Frances Anne Edgeworth</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2021-01-01" who="Id_who">
+            </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="letter">
+                <pb n="1" facs="Edgeworth_Bodleian_696_to-FE_letter01_page01.jpg"/>
+               <p>
+                   <note>60</note>
+                   Odd Replies to <hi rend="underline">odd</hi> questions<lb/>	
+                   I asked the <persName ref="./Personography.xml#BailX1">Baillies</persName> about the princesses -<lb/>
+                   The <persName ref="./Personography.xml#SophG1">princess Sophia</persName> is not insane - only very<lb/>
+                   nervous &amp; weak - this is the truth and <hi rend="underline">nervous</hi> is<lb/>
+                   <hi rend="underline">not here</hi> used as a soft equivocal word.<lb/>
+                   The <persName ref="./Personography.xml#AmelG1">princess Amelia</persName> - was said to have died a martyr<lb/>
+                   to the <persName ref="./Personography.xml#GeorG2">Kings</persName> evil &amp; all scars <del>and</del> &amp; sores - absolutely<lb/>
+                   false - <persName ref="./Personography.xml#BailM1">D<hi rend="superscript">r</hi>. Baillie</persName> saw her <add>during all her illness</add> <hi rend="underline">after death</hi> <add><unclear></unclear></add> - told his <persName ref="./Personography.xml#BailJ1">sister</persName><lb/>
+                   that her neck &amp; every part of her was free from all<lb/>
+                   scar or sore or swelling or any symptom of that<lb/>
+                   disease - She died of atrophy - really worn out - anxiety<lb/>
+                   of mind accelerating or producing it - all about her<lb/>
+                   children true - <add><persName ref="./Personography.xml#FitzC2">Fitzroy</persName></add> Her husband I <hi rend="underline">think</hi> she said but am not<lb/>
+                   <hi rend="underline">sure - was not</hi> always kind to her<lb/></p>
+                    <p>
+                   The <persName ref="./Personography.xml#SophG1">princess</persName> <gap></gap> is married it is believed to<lb/>
+                   <persName ref="./Personography.xml#GartT1">Gen<hi rend="superscript">l</hi>. Garth</persName> <del>and as</del> <persName ref="./Personography.xml#BailJ1">Miss Baillie</persName> says you w<hi rend="superscript">d</hi><lb/>
+                   <hi rend="underline">be surprised</hi> at her choice if you saw him -<lb/>
+                   All the stories about the Kings apartments being<lb/>
+                    
+                   <pb n="2" facs="Edgeworth_Bodleian_696_to-FE_letter01_page02.jpg"/>
+                   <hi rend="underline">stuffed</hi> to prevent cries being heard <del>is</del> false -<lb/>
+                   <persName ref="./Personography.xml#BailM1">D<hi rend="superscript">r</hi>. Baillie</persName> says the rooms are just as they always<lb/>
+                   were -<lb/></p>
+                   <p>
+                   As to the <persName ref="./Personography.xml#CharL1">Queen</persName> no mortal knows whether she<lb/>
+                   will die tomorrow - or live months - All the<lb/>
+                   physicians say she may die any hour or<lb/>
+                   may hold out a month or 2 -<lb/></p>
+                    <p>
+                   <persName ref="./Personography.xml#BailM1">D<hi rend="superscript">r</hi>. Baillie</persName> never sees her - never has seen<lb/>
+                   <hi rend="underline">her since her</hi> illness<lb/></p>
+            </div>
+        </body>
+        <back> </back>
+    </text>
+</TEI>
+
