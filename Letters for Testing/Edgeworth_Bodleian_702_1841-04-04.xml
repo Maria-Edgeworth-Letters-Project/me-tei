@@ -2,6 +2,8 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/Maria-Edgeworth-Letters-Project/me-tei/refs/heads/main/melp.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+    ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -12,25 +14,24 @@
                Paris Weber
             </editor>
             <sponsor>
-               <orgName>Maria Edgeworth Letters Project</orgName>
+               <orgName instant="false" full="yes">Maria Edgeworth Letters Project</orgName>
             </sponsor>
             <sponsor>Wake Forest University, University of Tennessee, Xavier University, Texas
                A&amp;M University</sponsor>
             <principal>Susan Egenolf, Meredith Hale, Hilary Havens, Jessica Richard, and Robin Runia</principal>
             <respStmt>
                <resp>Transcription and coding by</resp>
-               <persName>Paris Weber
+               <persName instant="false" full="yes">Paris Weber
                </persName>
-            
             </respStmt>
          </titleStmt>
          <editionStmt>
-            <edition>First digital edition in TEI, date: June 06,2025 <date when="2025-06-06">
-            </date>
+            <edition>First digital edition in TEI, date: June 06,2025 <date when="2025-06-06" instant="false"/>
             </edition>
             <respStmt>
-               <orgName 
-                  ref="/http://id.loc.gov/authorities/names/n80020306">Bodleian Library</orgName>
+               <orgName ref="/http://id.loc.gov/authorities/names/n80020306"
+                        instant="false"
+                        full="yes">Bodleian Library</orgName>
                <resp> photos include:
                   Edgeworth_Bodleian_702_1841-01-04_page01.jpg,
                   Edgeworth_Bodleian_702_1841-01-04_page02.jpg
@@ -40,186 +41,230 @@
          </editionStmt>
          <publicationStmt>
             <authority>Maria Edgeworth Letters Project</authority>
-            <date>2022</date>
-            <availability>
-               <p>Reproduced by courtesy of <orgName ref="http://id.loc.gov/authorities/names/n80020306"> Bodleian Library</orgName>
+            <date instant="false">2022</date>
+            <availability default="false">
+               <p part="N">Reproduced by courtesy of <orgName ref="http://id.loc.gov/authorities/names/n80020306"
+                           instant="false"
+                           full="yes"> Bodleian Library</orgName>
                </p>
                <licence target="https://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons Attribution 4.0 (CC BY 4.0) Unported License</licence>
             </availability>
-            <idno>Edgeworth_Bodleian_702_1841-05-14</idno> 
+            <idno>Edgeworth_Bodleian_702_1841-05-14</idno>
          </publicationStmt>
-         <seriesStmt>
+         <seriesStmt default="false">
             <title>Maria Edgeworth Letters Project</title>
          </seriesStmt>
-         <sourceDesc>
-            <msDesc xml:lang="en">
+         <sourceDesc default="false">
+            <msDesc xml:lang="en" status="draft">
                <msIdentifier>
                   <repository>Bodleian Library</repository>
                   <collection>MS. Eng. lett. c. 702</collection>
                </msIdentifier>
                <head>Letter from 
-                  <persName xml:id="EdgeM1" from="1768" to="1849">
-                     <forename>Maria</forename>
-                     <surname>Edgeworth</surname>
-                     <date>1768-1849</date>
+                  <persName xml:id="EdgeM1"
+                            from="1768"
+                            to="1849"
+                            instant="false"
+                            full="yes">
+                     <forename full="yes">Maria</forename>
+                     <surname full="yes">Edgeworth</surname>
+                     <date instant="false">1768-1849</date>
                      <idno type="VIAF">71477273</idno>
                      <idno type="SNAC">62567029</idno>
                   </persName>
-                  to <persName ref="./Personography.xml#EdgeF2">Frances Anne Edgeworth</persName>
-                  <date> 1769-1865</date>              
+                  to <persName ref="./Personography.xml#EdgeF2" instant="false" full="yes">Frances Anne Edgeworth</persName>
+                  <date instant="false"> 1769-1865</date>
                </head>
             </msDesc>
-            <bibl>In addition to our edited version, this letter was previously published in
-               <!--complete bibiographical info if letter was published in a book here - if not delete-->
-            </bibl>
+            <bibl default="false" status="draft">In addition to our edited version, this letter was previously published in
+               <!--complete bibiographical info if letter was published in a book here - if not delete--></bibl>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <editorialDecl>
-            <p>Edgeworth’s spelling and punctuation are retained in transcription, including non-standard spelling, line breaks, and hyphenation of words. The long s and ligatured forms are silently emended.</p>
+         <editorialDecl default="false">
+            <p part="N">Edgeworth’s spelling and punctuation are retained in transcription, including non-standard spelling, line breaks, and hyphenation of words. The long s and ligatured forms are silently emended.</p>
          </editorialDecl>
       </encodingDesc>
       <profileDesc>
-         <correspDesc>
+         <correspDesc default="false">
             <correspAction type="sent">
-               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
+               <persName ref="./Personography.xml#EdgeM1" instant="false" full="yes">Maria Edgeworth</persName>
             </correspAction>
             <correspAction type="received">
-               <persName ref="./Personography.xml#EdgeF2">Frances Anne Edgeworth</persName>
+               <persName ref="./Personography.xml#EdgeF2" instant="false" full="yes">Frances Anne Edgeworth</persName>
             </correspAction>
          </correspDesc>
       </profileDesc>
-      <revisionDesc>
-         <change when="2021-01-01" who="Id_who">
-         </change>
+      <revisionDesc status="draft">
+         <change when="2021-01-01" who="Id_who" status="draft"/>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
-         <div type="letter">
+         <div type="letter" part="N" org="uniform" sample="complete">
             <pb n="1" facs="Edgeworth_Bodleian_702_1841-04-04_page01.jpg"/>
-            
-               <dateline>
-                  <date when="1841-04-04"><note>Ap 4. 1841</note></date></dateline>
-                
-            <p>
+            <dateline>
+               <date when="1841-04-04" instant="false">
+                  <note anchored="true">Ap 4. 1841</note>
+               </date>
+            </dateline>
+            <p part="N">
                
                (7
                Apprehension had I of her danger insomuch<lb/>
-               had <persName ref="./Personography.xml#AshbX1">Ashburner</persName> assured me she was going on well<lb/>
+               had <persName ref="./Personography.xml#AshbX1" instant="false" full="yes">Ashburner</persName> assured me she was going on well<lb/>
                (I remember his expression she may build Chateaux<lb/>
-               on <placeName ref="./Placeography.xml#SP">Espagne</placeName> now -if she pleases)<lb/>
+               on <placeName ref="./Placeography.xml#SP" instant="false" full="yes">Espagne</placeName> now -if she pleases)<lb/>
                that I accepted yesterday morning actually<lb/>
                yesterday morning an invitation which had <lb/>
-               been a dozen times repeated <del>&amp; wished for</del> by<lb/>
-               <persName ref="./Personography.xml#RogeX1">M<hi rend="superscript">r</hi>Rogers</persName> to go to one of his breakfasts <del>&amp; it was</del><lb/>
+               been a dozen times repeated <del instant="false" status="unremarkable">&amp; wished for</del> by<lb/>
+               <persName ref="./Personography.xml#RogeX1" instant="false" full="yes">M<hi rend="superscript">r</hi>Rogers</persName> to go to one of his breakfasts <del instant="false" status="unremarkable">&amp; it was</del>
+               <lb/>
                a breakfast made on purpose for me with carte<lb/>
-               blanche for my kith &amp; kin whom <persName ref="./Personography.xml#RogeX1">Rogers</persName> discovered<lb/>
-               good natured man to be essential to my pleasure<lb/> </p>
-            
-            <p>
-               <persName ref="./Personography.xml#BeauF1">Capt<hi rend="superscript">n</hi> Beaufort</persName> , thinks of that too! wished to<lb/>
-               go and asked me to introduce him &amp; <persName ref="./Personography.xml#BeauH1">Honora</persName> and<lb/>
-               <persName ref="./Personography.xml#EdgeR2">Rosa</persName>and <persName ref="./Personography.xml#HollX1" cert="low">Emily</persName> all dined much to <unclear></unclear> so they<lb/>
-               had invites special and <persName ref="./Personography.xml#WilsL1">Lestock</persName> but he c<hi rend="superscript">d</hi> not<lb/> </p>
-            <p>
+               blanche for my kith &amp; kin whom <persName ref="./Personography.xml#RogeX1" instant="false" full="yes">Rogers</persName> discovered<lb/>
+               good natured man to be essential to my pleasure<lb/>
+            </p>
+            <p part="N">
+               <persName ref="./Personography.xml#BeauF1" instant="false" full="yes">Capt<hi rend="superscript">n</hi> Beaufort</persName> , thinks of that too! wished to<lb/>
+               go and asked me to introduce him &amp; <persName ref="./Personography.xml#BeauH1" instant="false" full="yes">Honora</persName> and<lb/>
+               <persName ref="./Personography.xml#EdgeR2" instant="false" full="yes">Rosa</persName>and <persName ref="./Personography.xml#HollX1"
+                         cert="low"
+                         instant="false"
+                         full="yes">Emily</persName> all dined much to <unclear instant="false"/> so they<lb/>
+               had invites special and <persName ref="./Personography.xml#WilsL1" instant="false" full="yes">Lestock</persName> but he c<hi rend="superscript">d</hi> not<lb/>
+            </p>
+            <p part="N">
                So we all went and saw his fine pictures<lb/>
                &amp; all his delightful things himself by far the<lb/>
                most delightful among them notwithstanding<lb/>
                all that nature did to forbid - If not the best<lb/>
-               worth seeing <persName ref="./Personography.xml#RogeX1">Rogers</persName> is certainly one of the men best<lb/>
-               worth hearing of modern conversation men<lb/></p>
-            <p>
-               Too <unclear>tender</unclear> there was an admirable <choice>
+               worth seeing <persName ref="./Personography.xml#RogeX1" instant="false" full="yes">Rogers</persName> is certainly one of the men best<lb/>
+               worth hearing of modern conversation men<lb/>
+            </p>
+            <p part="N">
+               Too <unclear instant="false">tender</unclear> there was an admirable <choice>
                   <orig>breaf<lb/> 
                      fast</orig>
-                  <reg>breakfast</reg>
+                  <reg instant="false">breakfast</reg>
                </choice>
                and we had it and him &amp; all of it to ourselves<lb/>
                the only thing I thought de trop was<lb/>
                one of the footmen - there were two in<lb/>
                waiting all Breakfast now one I<lb/>
-               thought was <unclear></unclear> de trop -<lb/>
+               thought was <unclear instant="false"/> de trop -<lb/>
                in former times 20 years or 10 years<lb/>
                ago one footman or man of some kind<lb/>
-               at a private breakfast was enough for a <hi rend="underline">marquess</hi>or <hi rend="underline">quis</hi>quis<lb/></p>
-            <p>
+               at a private breakfast was enough for a <hi rend="underline">marquess</hi>or <hi rend="underline">quis</hi>quis<lb/>
+            </p>
+            <p part="N">
                But let this pass nobody complained of it - and I<lb/>
                enjoyed the full and complete satisfaction of seeing <lb/>
                all my kith and kin pleased - delighted - even<lb/>
-               the fastidious captain his self -<lb/></p>
-            <p>
+               the fastidious captain his self -<lb/>
+            </p>
+            <p part="N">
                But only think how near pleasure &amp; pain - <choice>
                   <orig>feast<lb/> 
                      ing</orig>
-                  <reg>feasting</reg>
+                  <reg instant="false">feasting</reg>
                </choice>
                &amp; revelry and all that happened that night<lb/>
-               At parting with <persName ref="./Personography.xml#RogeX1">Rogers</persName> he holding both my hands<lb/>
+               At parting with <persName ref="./Personography.xml#RogeX1" instant="false" full="yes">Rogers</persName> he holding both my hands<lb/>
                so pressed me to come back again &amp; breakfast once more all<lb/>
-               <unclear></unclear> - yes these young ones whom I find <unclear>are of</unclear><unclear></unclear><lb/>
-               
+               <unclear instant="false"/> - yes these young ones whom I find <unclear instant="false">are of</unclear>
+               <unclear instant="false"/>
+               <lb/>
                <pb n="2" facs="Edgeworth_Bodleian_702_1841-04-04_page02.jpg"/>
                8) 
                have adopted" that I could not refuse the dear dead<lb/>
                dandy the sincerely good natured benevolent<lb/>
                flattering sensitive sensible charming ugly oldest<lb/>
                of men extant - so I accepted for Monday or Wednesday<lb/>
-               &amp; agreed to write and say which -<lb/></p>
-            <p>
+               &amp; agreed to write and say which -<lb/>
+            </p>
+            <p part="N">
                And this day I have been writing to him to<lb/>
                say how it is with us now! - And to break this<lb/>
                and all other engagements specially one with<lb/>
-               <persName ref="./Personography.xml#CornX1">Lady Cornwallis</persName> the object &amp; cause of which I have<lb/>
+               <persName ref="./Personography.xml#CornX1" instant="false" full="yes">Lady Cornwallis</persName> the object &amp; cause of which I have<lb/>
                not time here to explain nor can you care about<lb/>
-               it - at present.<lb/></p>
-            
-               <p>
+               it - at present.<lb/>
+            </p>
+            <p part="N">
                I will now make up my packet that I<lb/>
                may go into the post this sunday night for that<lb/>
-               much it <unclear>can</unclear>do and that will secure its going<lb/>
-               by first mail that steams -<lb/></p>
-            
-               <p>
+               much it <unclear instant="false">can</unclear>do and that will secure its going<lb/>
+               by first mail that steams -<lb/>
+            </p>
+            <p part="N">
                   Never did I see a more tender kind husband<lb/>
-                  than <persName ref="./Personography.xml#WilsL1">Lestock</persName>- <persName ref="./Personography.xml#TennM1" cert="medium"><choice>
-                        <orig>Mariquetta</orig><reg>Mariquita</reg></choice></persName> may think or say<lb/>
+                  than <persName ref="./Personography.xml#WilsL1" instant="false" full="yes">Lestock</persName>- <persName ref="./Personography.xml#TennM1"
+                         cert="medium"
+                         instant="false"
+                         full="yes">
+                  <choice>
+                     <orig>Mariquetta</orig>
+                     <reg instant="false">Mariquita</reg>
+                  </choice>
+               </persName> may think or say<lb/>
                  
-                  what she pleases about <persName ref="./Personography.xml#EdgeF1" cert="high">Francis</persName> ! - he has never<lb/>
-                  been so tried &amp; I hope never will<lb/></p>
-               
+                  what she pleases about <persName ref="./Personography.xml#EdgeF1"
+                         cert="high"
+                         instant="false"
+                         full="yes">Francis</persName> ! - he has never<lb/>
+                  been so tried &amp; I hope never will<lb/>
+            </p>
             <closer>
-               Farewell dearest <persName ref="./Personography.xml#EdgeF2">mother</persName> &amp; do let your<lb/>
+               Farewell dearest <persName ref="./Personography.xml#EdgeF2" instant="false" full="yes">mother</persName> &amp; do let your<lb/>
                self be taken care of &amp; your legs tied till you<lb/>
                are fit to go - or come<lb/> 
                Yours affectionately<lb/>
-               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName><lb/>
+               <persName ref="./Personography.xml#EdgeM1" instant="false" full="yes">Maria Edgeworth</persName>
+               <lb/>
             </closer>
-            
             <postscript>
-               <p> 1/2 after 5 Eve<hi rend="superscript">g</hi><lb/>
+               <p part="N"> 1/2 after 5 Eve<hi rend="superscript">g</hi>
+                  <lb/>
                   I have opened my letter to insert something <choice>
                      <orig>Asburn<lb/> 
                         -er</orig>
-                     <reg><persName ref="./Personography.xml#AshbX1">Ashburner</persName></reg>
+                     <reg instant="false">
+                        <persName ref="./Personography.xml#AshbX1" instant="false" full="yes">Ashburner</persName>
+                     </reg>
                   </choice>
                   said (of which I have not a very clear idea<lb/>
                   but the words may never nevertheless convey some<lb/>
                   dear and important idea to you<lb/>
-                  <del><unclear>"We must</unclear> keep up this <hi rend="underline">discharge</hi> this discharge</del><lb/>
-                  <del>must be kept up "-</del><lb/>
-                  <del>and I am not sure but that the fomentation was</del><lb/>
-                  <del>for that purpose instead of for aiding <unclear>medicine</unclear>
-                     <choice><orig>operat<lb/> 
+                  <del instant="false" status="unremarkable">
+                     <unclear instant="false">"We must</unclear> keep up this <hi rend="underline">discharge</hi> this discharge</del>
+                  <lb/>
+                  <del instant="false" status="unremarkable">must be kept up "-</del>
+                  <lb/>
+                  <del instant="false" status="unremarkable">and I am not sure but that the fomentation was</del>
+                  <lb/>
+                  <del instant="false" status="unremarkable">for that purpose instead of for aiding <unclear instant="false">medicine</unclear>
+                     <choice>
+                        <orig>operat<lb/> 
                         ing</orig>
-                     <reg>operating</reg></choice></del><lb/>
-                  <del>ing on the bowels - all the satisfaction is that I have</del><lb/>
-                  <del>told you all this now - &amp; <unclear><choice><orig>alott</orig><reg>a lot</reg></choice> more</unclear></del><lb/>
-                  <del>for you to make the best of it</del><lb/></p>
+                        <reg instant="false">operating</reg>
+                     </choice>
+                  </del>
+                  <lb/>
+                  <del instant="false" status="unremarkable">ing on the bowels - all the satisfaction is that I have</del>
+                  <lb/>
+                  <del instant="false" status="unremarkable">told you all this now - &amp; <unclear instant="false">
+                        <choice>
+                           <orig>alott</orig>
+                           <reg instant="false">a lot</reg>
+                        </choice> more</unclear>
+                  </del>
+                  <lb/>
+                  <del instant="false" status="unremarkable">for you to make the best of it</del>
+                  <lb/>
+               </p>
             </postscript>
-          
          </div>
       </body>
-      <back> </back>
+      <back/>
    </text>
 </TEI>

@@ -2,32 +2,38 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/Maria-Edgeworth-Letters-Project/me-tei/refs/heads/main/melp.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+    ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title>Letter from Maria Edgeworth to Frances Anne Edgeworth, March 30, 1843</title>
-            <author><persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName></author>
+            <author>
+               <persName ref="./Personography.xml#EdgeM1" instant="false" full="yes">Maria Edgeworth</persName>
+            </author>
             <editor>
-               <persName>Paris Weber</persName>
-            </editor> 
+               <persName instant="false" full="yes">Paris Weber</persName>
+            </editor>
             <sponsor>
-               <orgName>Maria Edgeworth Letters Project</orgName>
+               <orgName instant="false" full="yes">Maria Edgeworth Letters Project</orgName>
             </sponsor>
             <sponsor>Wake Forest University, University of Tennessee, Xavier University, Texas
                A&amp;M University</sponsor>
             <principal>Susan Egenolf, Meredith Hale, Hilary Havens, Jessica Richard, and Robin Runia</principal>
             <respStmt>
                <resp>Transcription and coding by</resp>
-               <persName>Paris Weber</persName>
-               <persName/>
+               <persName instant="false" full="yes">Paris Weber</persName>
+               <persName instant="false" full="yes"/>
             </respStmt>
          </titleStmt>
-         <editionStmt>  
-            <edition>First digital edition in TEI, date: <date when="2025-04-22"> 2025-04-22 </date>
+         <editionStmt>
+            <edition>First digital edition in TEI, date: <date when="2025-04-22" instant="false"> 2025-04-22 </date>
             </edition>
             <respStmt>
-               <orgName  ref="http://id.loc.gov/authorities/names/n80020306">Bodleian Library</orgName>
+               <orgName ref="http://id.loc.gov/authorities/names/n80020306"
+                        instant="false"
+                        full="yes">Bodleian Library</orgName>
                <resp> photos include:
                   Edgeworth_Bodleian_702_1843-03-30_page01.jpg,
                   Edgeworth_Bodleian_702_1843-03-30_page02.jpg,
@@ -38,89 +44,97 @@
          </editionStmt>
          <publicationStmt>
             <authority>Maria Edgeworth Letters Project</authority>
-            <date>2022</date>
-            <availability>     
-               <p> Reproduced by courtesy of <orgName ref="http://id.loc.gov/authorities/names/n80020306"> Bodleian Library</orgName>
+            <date instant="false">2022</date>
+            <availability default="false">
+               <p part="N"> Reproduced by courtesy of <orgName ref="http://id.loc.gov/authorities/names/n80020306"
+                           instant="false"
+                           full="yes"> Bodleian Library</orgName>
                </p>
                <licence target="https://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons Attribution 4.0 (CC BY 4.0) Unported License</licence>
             </availability>
-            <idno>Edgeworth_Bodleian_702_1843-03-30</idno> 
+            <idno>Edgeworth_Bodleian_702_1843-03-30</idno>
          </publicationStmt>
-         <seriesStmt>
+         <seriesStmt default="false">
             <title>Maria Edgeworth Letters Project</title>
          </seriesStmt>
-         <sourceDesc>
-            <msDesc xml:lang="en">
+         <sourceDesc default="false">
+            <msDesc xml:lang="en" status="draft">
                <msIdentifier>
                   <repository>Bodleian Library</repository>
                   <collection>MS. Eng. lett. c. 702</collection>
                </msIdentifier>
                <head>Letter from 
-                  <persName xml:id="EdgeM1" from="1768" to="1849">
-                     <forename>Maria</forename>
-                     <surname>Edgeworth</surname>
-                     <date>1768-1849</date>
+                  <persName xml:id="EdgeM1"
+                            from="1768"
+                            to="1849"
+                            instant="false"
+                            full="yes">
+                     <forename full="yes">Maria</forename>
+                     <surname full="yes">Edgeworth</surname>
+                     <date instant="false">1768-1849</date>
                      <idno type="VIAF">71477273</idno>
                      <idno type="SNAC">62567029</idno>
                   </persName>
-                  to <persName ref="./Personography.xml#EdgeF2">Frances Anne Edgeworth</persName>, <placeName>Trim</placeName>, 
-                  <date when="1843-03-30">March 30<hi rend="superscript">th</hi></date>
+                  to <persName ref="./Personography.xml#EdgeF2" instant="false" full="yes">Frances Anne Edgeworth</persName>, <placeName instant="false" full="yes">Trim</placeName>, 
+                  <date when="1843-03-30" instant="false">March 30<hi rend="superscript">th</hi>
+                  </date>
                </head>
-               
             </msDesc>
-            <bibl>In addition to our edited version, this letter was previously published in
+            <bibl default="false" status="draft">In addition to our edited version, this letter was previously published in
             </bibl>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <editorialDecl>
-            <p>Edgeworth’s spelling and punctuation are retained in transcription, including non-standard spelling, line breaks, and hyphenation of words. The long s and ligatured forms are silently emended.</p>
+         <editorialDecl default="false">
+            <p part="N">Edgeworth’s spelling and punctuation are retained in transcription, including non-standard spelling, line breaks, and hyphenation of words. The long s and ligatured forms are silently emended.</p>
          </editorialDecl>
       </encodingDesc>
       <profileDesc>
-         <correspDesc>
+         <correspDesc default="false">
             <correspAction type="sent">
-               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
+               <persName ref="./Personography.xml#EdgeM1" instant="false" full="yes">Maria Edgeworth</persName>
             </correspAction>
             <correspAction type="received">
-               <persName ref="./Personography.xml#EdgeF2">Frances Anne Edgeworth</persName>
+               <persName ref="./Personography.xml#EdgeF2" instant="false" full="yes">Frances Anne Edgeworth</persName>
             </correspAction>
          </correspDesc>
       </profileDesc>
-      <revisionDesc>
-         <change when="2025-04-22" who="Id_who">
-            <!--Brief description of what you did here.-->
-         </change>
+      <revisionDesc status="draft">
+         <change when="2025-04-22" who="Id_who" status="draft"><!--Brief description of what you did here.--></change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
-         <div type="letter">
+         <div type="letter" part="N" org="uniform" sample="complete">
             <pb n="1" facs="Edgeworth_Bodleian_702_1843-03-30_page01.jpg"/>
             <opener>
                <dateline>March 30 <hi rend="superscript">th</hi>
-                  <placeName ref="./Placeography.xml#Trim_IE">Trim</placeName>
-                  <date when="1843-03-30">March 30<hi rend="superscript">th</hi> 1843</date></dateline>
+                  <placeName ref="./Placeography.xml#Trim_IE" instant="false" full="yes">Trim</placeName>
+                  <date when="1843-03-30" instant="false">March 30<hi rend="superscript">th</hi> 1843</date>
+               </dateline>
                <salute>
-                  <persName>
-                  </persName>
+                  <persName instant="false" full="yes"/>
                </salute>
             </opener>
-            <p><placeName ref="./Placeography.xml#Trim_IE">Trim</placeName> - March 30 <hi rend="superscript">th</hi> 1843
-               <note>68</note> </p>
-               <p> 
+            <p part="N">
+               <placeName ref="./Placeography.xml#Trim_IE" instant="false" full="yes">Trim</placeName> - March 30 <hi rend="superscript">th</hi> 1843
+               <note anchored="true">68</note>
+            </p>
+            <p part="N"> 
                Your <hi rend="underline">lark</hi> sang delight<lb/>
                fully at its rising, and in<lb/>
                the whole of its flight &amp;<lb/>
-               descent - How much<choice> 
+               descent - How much<choice>
                   <orig>plea<lb/>
                      sure</orig>
-                  <reg>pleasure</reg>
+                  <reg instant="false">pleasure</reg>
                </choice>
                you gave dearest <choice>
                   <orig>mo-<lb/>
                      ther</orig>
-                  <reg><persName ref="./Personography.xml#EdgeF2">mother</persName> </reg>
+                  <reg instant="false">
+                     <persName ref="./Personography.xml#EdgeF2" instant="false" full="yes">mother</persName>
+                  </reg>
                </choice>
                you can hardly know<lb/>
                unless you could see &amp; hear<lb/>
@@ -134,16 +148,16 @@
                and I only wish I had that<lb/>
                hug over again -<lb/>
             </p>
-          
-               <p>
-               We all, - meaning <persName ref="./Personography.xml#EdgeH1">Harriet</persName><lb/>
+            <p part="N">
+               We all, - meaning <persName ref="./Personography.xml#EdgeH1" instant="false" full="yes">Harriet</persName>
+               <lb/>
                &amp; myself<lb/>
-            <pb n="2" facs="Edgeworth_Bodleian_702_1843-03-30_page02.jpg"/>
+               <pb n="2" facs="Edgeworth_Bodleian_702_1843-03-30_page02.jpg"/>
       
                have agreed that under<lb/>
                your staid, prove, every <lb/>
                day demeanour and <lb/>
-               matronly <del>habits</del> and<lb/>
+               matronly <del instant="false" status="unremarkable">habits</del> and<lb/>
                Grandmotherian habits<lb/>
                you have a <hi rend="underline">deal</hi> of romance<lb/>
                deep down that sprouts up<lb/>
@@ -151,92 +165,94 @@
                now and then - Kind <choice>
                   <orig>fa<lb/> 
                      ther</orig>
-                  <reg>father</reg>
+                  <reg instant="false">father</reg>
                </choice>
                ther for you - And God bless<lb/>
                you for it - and often may<lb/>
-               it sprout for our delight<lb/></p>
-               
-               <p>I hope dearest mother<lb/>
+               it sprout for our delight<lb/>
+            </p>
+            <p part="N">I hope dearest mother<lb/>
                that the pleasure you have<lb/>
                given &amp; received I trust<lb/>
                on this little occasion will<lb/>
                encourage you to indulge<lb/>
                yourself in future when<lb/>
-            <pb n="3" facs="Edgeworth_Bodleian_702_1843-03-30_page03.jpg"/>
-            
-            <note>69</note>
+               <pb n="3" facs="Edgeworth_Bodleian_702_1843-03-30_page03.jpg"/>
+               <note anchored="true">69</note>
             ever opportunity &amp; <choice>
                   <orig>tempta-<lb/>
                      tion</orig>
-                  <reg>temptation</reg>
-            </choice>
+                  <reg instant="false">temptation</reg>
+               </choice>
                well join for a <hi rend="underline">Spry</hi>
                (an American word acknow<lb/>
                (ledged by American dictionary<lb/>
-               (which <persName ref="./Personography.xml#EdgeH1">Harriet</persName> rich in Dic <hi rend="superscript">s</hi> possesses<lb/></p>
-               
-               <p>I am so glad that<lb/>
+               (which <persName ref="./Personography.xml#EdgeH1" instant="false" full="yes">Harriet</persName> rich in Dic <hi rend="superscript">s</hi> possesses<lb/>
+            </p>
+            <p part="N">I am so glad that<lb/>
                you had the luck at<lb/>
                the last moment to<lb/>
                catch the unpacking<lb/>
-               of the picture of <persName ref="./Personography.xml#FoxW1">Walter</persName><lb/>
-               </p>
-                <p>
+               of the picture of <persName ref="./Personography.xml#FoxW1" instant="false" full="yes">Walter</persName>
+               <lb/>
+            </p>
+            <p part="N">
                though between you &amp;<lb/>
                I it is but a sorry drawing<lb/>
                and does not suit (in my<lb/>
                opinion the place where it<lb/>
                now is viz over the Bishop<lb/>
                of Meaths admirable head<lb/>
-               and between you &amp; <persName ref="./Personography.xml#BeauF2">Francis</persName><lb/></p>
-            
-               <p>I hope <persName ref="./Personography.xml#FoxM1">Mary Anne</persName> &amp; <persName ref="./Personography.xml#EdgeC2">Charlotte</persName><lb/>
+               and between you &amp; <persName ref="./Personography.xml#BeauF2" instant="false" full="yes">Francis</persName>
+               <lb/>
+            </p>
+            <p part="N">I hope <persName ref="./Personography.xml#FoxM1" instant="false" full="yes">Mary Anne</persName> &amp; <persName ref="./Personography.xml#EdgeC2" instant="false" full="yes">Charlotte</persName>
+               <lb/>
                will take it up to their own<lb/>
-            <pb n="4" facs="Edgeworth_Bodleian_702_1843-03-30_page04.jpg"/> 
+               <pb n="4" facs="Edgeworth_Bodleian_702_1843-03-30_page04.jpg"/> 
             
                room - It does not match any<lb/>
                thing in this room - &amp; I cant<lb/>
                abide it - But it was very good<lb/>
-               of Aunt <persName ref="./Personography.xml#BeauH2">Henrietta</persName> to get it done<lb/>
-               and to send it to <persName ref="./Personography.xml#FoxM1">Mary Anne</persName> &amp; <persName ref="./Personography.xml#EdgeC2">C</persName><lb/></p>
-               
-               <p>
+               of Aunt <persName ref="./Personography.xml#BeauH2" instant="false" full="yes">Henrietta</persName> to get it done<lb/>
+               and to send it to <persName ref="./Personography.xml#FoxM1" instant="false" full="yes">Mary Anne</persName> &amp; <persName ref="./Personography.xml#EdgeC2" instant="false" full="yes">C</persName>
+               <lb/>
+            </p>
+            <p part="N">
                 A new music has just <choice>
                   <orig>ar-<lb/>
                      rived </orig>
-                  <reg>arrived</reg>
+                  <reg instant="false">arrived</reg>
                </choice>
                &amp; the room is all ears<lb/>
-               And <persName ref="./Personography.xml#EdgeL1">Lucy</persName> is judging - and<lb/>
+               And <persName ref="./Personography.xml#EdgeL1" instant="false" full="yes">Lucy</persName> is judging - and<lb/>
                I am no judge but very<lb/>
-                  </p>
+            </p>
             <closer>
                affectionately yours<lb/>
-               <persName ref="./Personography.xml#EdgeM1">ME</persName><lb/>
+               <persName ref="./Personography.xml#EdgeM1" instant="false" full="yes">ME</persName>
+               <lb/>
             </closer>
             <postscript>
-               <p>
+               <p part="N">
                   I am so glad you have <lb/>
                   Conde - Do you see in<lb/>
                   todays paper the report that<lb/>
-                  <persName ref="./Personography.xml#StanP1">Lord Mahon</persName> is to go <choice>
+                  <persName ref="./Personography.xml#StanP1" instant="false" full="yes">Lord Mahon</persName> is to go <choice>
                      <orig>Embassa<lb/>
                         dor</orig>
-                     <reg>Embassador</reg>
+                     <reg instant="false">Embassador</reg>
                   </choice>
-                  to <placeName ref="./Placeography.xml#SP">Spain</placeName> - I hope it is<lb/>
+                  to <placeName ref="./Placeography.xml#SP" instant="false" full="yes">Spain</placeName> - I hope it is<lb/>
                   done - it would suit &amp;<lb/>
                   gratify him so much<lb/>
                   Thank you for mentioning<lb/>
-                  <persName ref="./Personography.xml#SneyM1">Marys</persName> delight on her sealed<lb/>
+                  <persName ref="./Personography.xml#SneyM1" instant="false" full="yes">Marys</persName> delight on her sealed<lb/>
                   packet - Love to all<lb/>
                </p>
             </postscript>
-            
          </div>
       </body>
-      <back> </back>
+      <back/>
    </text>
 </TEI>
-           

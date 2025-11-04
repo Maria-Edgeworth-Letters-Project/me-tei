@@ -2,115 +2,122 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/Maria-Edgeworth-Letters-Project/me-tei/refs/heads/main/melp.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+    ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>Letter from Maria Edgeworth to Margaret Ruxton, March 17, 1818</title>
-                <author>Maria Edgeworth</author>
-                <editor>
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from Maria Edgeworth to Margaret Ruxton, March 17, 1818</title>
+            <author>Maria Edgeworth</author>
+            <editor>
                     Paris Weber
                 </editor>
-                <sponsor>
-                    <orgName>Maria Edgeworth Letters Project</orgName>
-                </sponsor>
-                <sponsor>Wake Forest University, University of Tennessee, Xavier University, Texas
+            <sponsor>
+               <orgName instant="false" full="yes">Maria Edgeworth Letters Project</orgName>
+            </sponsor>
+            <sponsor>Wake Forest University, University of Tennessee, Xavier University, Texas
                     A&amp;M University</sponsor>
-                <principal>Susan Egenolf, Meredith Hale, Hilary Havens, Jessica Richard, and Robin Runia</principal>
-                <respStmt>
-                    <resp>Transcription  by
-                        <persName>
+            <principal>Susan Egenolf, Meredith Hale, Hilary Havens, Jessica Richard, and Robin Runia</principal>
+            <respStmt>
+               <resp>Transcription  by
+                        <persName instant="false" full="yes">
                          Robin Runia
                         </persName> 
                         Coding by</resp>
-                    <persName> Paris Weber </persName>
-                </respStmt>
-            </titleStmt>
-            <editionStmt>
-                <edition>First digital edition in TEI, date: June 18,2025 <date when="2025-06-18">
-                </date>
-                </edition>
-                <respStmt>
-                    <orgName 
-                        ref="/http://id.loc.gov/authorities/names/n80020306">Bodleian Library</orgName>
-                    <resp> photos include:
+               <persName instant="false" full="yes"> Paris Weber </persName>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>First digital edition in TEI, date: June 18,2025 <date when="2025-06-18" instant="false"/>
+            </edition>
+            <respStmt>
+               <orgName ref="/http://id.loc.gov/authorities/names/n80020306"
+                        instant="false"
+                        full="yes">Bodleian Library</orgName>
+               <resp> photos include:
                         Edgeworth_Bodleian_717_1818-03-17_page01.jpg,
                         Edgeworth_Bodleian_717_1818-03-17_page02.jpg,
                         Edgeworth_Bodleian_717_1818-03-17_page03.jpg,
                         Edgeworth_Bodleian_717_1818-03-17_page04.jpg
                         
                     </resp>
-                </respStmt>
-            </editionStmt>
-            <publicationStmt>
-                <authority>Maria Edgeworth Letters Project</authority>
-                <date>2022</date>
-                <availability>
-                    <p>Reproduced by courtesy of <orgName ref="http://id.loc.gov/authorities/names/n80020306"> Bodleian Library</orgName>
-                    </p>
-                    <licence target="https://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons Attribution 4.0 (CC BY 4.0) Unported License</licence>
-                </availability>
-                <idno>Edgeworth_Bodleian_717_1818-03-17</idno> 
-            </publicationStmt>
-            <seriesStmt>
-                <title>Maria Edgeworth Letters Project</title>
-            </seriesStmt>
-            <sourceDesc>
-                <msDesc xml:lang="en">
-                    <msIdentifier>
-                        <repository>Bodleian Library</repository>
-                        <collection>MS. Eng. lett. c. 717</collection>
-                    </msIdentifier>
-                    <head>Letter from 
-                        <persName xml:id="EdgeM1" from="1768" to="1849">
-                            <forename>Maria</forename>
-                            <surname>Edgeworth</surname>
-                            <date>1768-1849</date>
-                            <idno type="VIAF">71477273</idno>
-                            <idno type="SNAC">62567029</idno>
-                        </persName>
-                        to <persName ref="./Personography.xml#RuxtM1">Margaret Ruxton</persName>
-                        <date> 1746-1830</date>              
-                    </head>
-                </msDesc>
-                <bibl>In addition to our edited version, this letter was previously published in
-                    <!--complete bibiographical info if letter was published in a book here - if not delete-->
-                </bibl>
-            </sourceDesc>
-        </fileDesc>
-        <encodingDesc>
-            <editorialDecl>
-                <p>Edgeworth’s spelling and punctuation are retained in transcription, including non-standard spelling, line breaks, and hyphenation of words. The long s and ligatured forms are silently emended.</p>
-            </editorialDecl>
-        </encodingDesc>
-        <profileDesc>
-            <correspDesc>
-                <correspAction type="sent">
-                    <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
-                </correspAction>
-                <correspAction type="received">
-                    <persName ref="./Personography.xml#RuxtM1">Margaret Ruxton</persName>
-                </correspAction>
-            </correspDesc>
-        </profileDesc>
-        <revisionDesc>
-            <change when="2021-01-01" who="Id_who">
-            </change>
-        </revisionDesc>
-    </teiHeader>
-    <text>
-        <body>
-            <div type="letter">
-                <pb n="1" facs="Edgeworth_Bodleian_717_1818-03-17_page01.jpg"/>
-                
-                <dateline>
-                 <date when="1818-03-17">Tuesday <lb/>
-                  March 17.<hi rend="superscript">h</hi>1818<lb/></date></dateline>
-                
-                <p>
-                             <note>16</note>﻿
-                Dearest <persName ref="./Personography.xml#RuxtM1">Aunt</persName> —I hope you<lb/>
-                read my dear <persName ref="./Personography.xml#RuxtJ1">Uncle's</persName><lb/>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Maria Edgeworth Letters Project</authority>
+            <date instant="false">2022</date>
+            <availability default="false">
+               <p part="N">Reproduced by courtesy of <orgName ref="http://id.loc.gov/authorities/names/n80020306"
+                           instant="false"
+                           full="yes"> Bodleian Library</orgName>
+               </p>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons Attribution 4.0 (CC BY 4.0) Unported License</licence>
+            </availability>
+            <idno>Edgeworth_Bodleian_717_1818-03-17</idno>
+         </publicationStmt>
+         <seriesStmt default="false">
+            <title>Maria Edgeworth Letters Project</title>
+         </seriesStmt>
+         <sourceDesc default="false">
+            <msDesc xml:lang="en" status="draft">
+               <msIdentifier>
+                  <repository>Bodleian Library</repository>
+                  <collection>MS. Eng. lett. c. 717</collection>
+               </msIdentifier>
+               <head>Letter from 
+                        <persName xml:id="EdgeM1"
+                            from="1768"
+                            to="1849"
+                            instant="false"
+                            full="yes">
+                     <forename full="yes">Maria</forename>
+                     <surname full="yes">Edgeworth</surname>
+                     <date instant="false">1768-1849</date>
+                     <idno type="VIAF">71477273</idno>
+                     <idno type="SNAC">62567029</idno>
+                  </persName>
+                        to <persName ref="./Personography.xml#RuxtM1" instant="false" full="yes">Margaret Ruxton</persName>
+                  <date instant="false"> 1746-1830</date>
+               </head>
+            </msDesc>
+            <bibl default="false" status="draft">In addition to our edited version, this letter was previously published in
+                    <!--complete bibiographical info if letter was published in a book here - if not delete--></bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl default="false">
+            <p part="N">Edgeworth’s spelling and punctuation are retained in transcription, including non-standard spelling, line breaks, and hyphenation of words. The long s and ligatured forms are silently emended.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc default="false">
+            <correspAction type="sent">
+               <persName ref="./Personography.xml#EdgeM1" instant="false" full="yes">Maria Edgeworth</persName>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="./Personography.xml#RuxtM1" instant="false" full="yes">Margaret Ruxton</persName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+      <revisionDesc status="draft">
+         <change when="2021-01-01" who="Id_who" status="draft"/>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter" part="N" org="uniform" sample="complete">
+            <pb n="1" facs="Edgeworth_Bodleian_717_1818-03-17_page01.jpg"/>
+            <dateline>
+               <date when="1818-03-17" instant="false">Tuesday <lb/>
+                  March 17.<hi rend="superscript">h</hi>1818<lb/>
+               </date>
+            </dateline>
+            <p part="N">
+               <note anchored="true">16</note>﻿
+                Dearest <persName ref="./Personography.xml#RuxtM1" instant="false" full="yes">Aunt</persName> —I hope you<lb/>
+                read my dear <persName ref="./Personography.xml#RuxtJ1" instant="false" full="yes">Uncle's</persName>
+               <lb/>
                 letter to me? I think it<lb/> 
                 was one of the very best<lb/>
                 playful notes I ever read<lb/>
@@ -119,92 +126,105 @@
                 of applause &amp; laughter<lb/>
                 as I read it—and the<lb/> 
                 warm hearted praise to<lb/> 
-                my dear <persName ref="./Personography.xml#EdgeF2">mother</persName> in sober<lb/>
-                <del></del> earnest at the end<lb/> 
+                my dear <persName ref="./Personography.xml#EdgeF2" instant="false" full="yes">mother</persName> in sober<lb/>
+               <del instant="false" status="unremarkable"/> earnest at the end<lb/> 
                 brought tears into the<lb/>
                 laughing eyes—I could not<lb/> 
                 forbear sending it least<lb/>
-                first to my <persName ref="./Personography.xml#EdgeF2">mother</persName> —<lb/>
-                
-                <pb n="2" facs="Edgeworth_Bodleian_717_1818-03-17_page02.jpg"/>
+                first to my <persName ref="./Personography.xml#EdgeF2" instant="false" full="yes">mother</persName> —<lb/>
+               <pb n="2" facs="Edgeworth_Bodleian_717_1818-03-17_page02.jpg"/>
                 I know it will give her<lb/> 
                 great pleasure &amp; surely<lb/>
                 she deserves all we can<lb/> 
                 give—We heard from<lb/> 
-                her this morning (Tuesday)<lb/> 
-                <persName ref="./Personography.xml#EdgeW1">William</persName> much better<lb/>
-                — <persName ref="./Personography.xml#BeauF1">Capt.<hi rend="superscript">n</hi> Beaufort</persName> will<lb/> 
-                come to them immediately<lb/> 
-                </p>
-                <p>
-                — <persName ref="./Personography.xml#XxxxA1">Anne</persName> has arrived at<lb/> 
-                <placeName ref="./Placeography.xml#Cheltenham_ENK">Cheltenham</placeName> on purpose<lb/> 
+                her this morning (Tuesday)<lb/>
+               <persName ref="./Personography.xml#EdgeW1" instant="false" full="yes">William</persName> much better<lb/>
+                — <persName ref="./Personography.xml#BeauF1" instant="false" full="yes">Capt.<hi rend="superscript">n</hi> Beaufort</persName> will<lb/> 
+                come to them immediately<lb/>
+            </p>
+            <p part="N">
+                — <persName ref="./Personography.xml#XxxxA1" instant="false" full="yes">Anne</persName> has arrived at<lb/>
+               <placeName ref="./Placeography.xml#Cheltenham_ENK" instant="false" full="yes">Cheltenham</placeName> on purpose<lb/> 
                 to see them—This has<lb/> 
                 given them all great<lb/>
                 pleasure- The place was<lb/> 
-                exceedingly dull &amp; <choice> 
-                <orig>disa<lb/>
+                exceedingly dull &amp; <choice>
+                  <orig>disa<lb/>
                 greeable</orig>
-                <reg>disagreeable</reg>
-                </choice>
-                before <del>they</del> she<lb/> 
+                  <reg instant="false">disagreeable</reg>
+               </choice>
+                before <del instant="false" status="unremarkable">they</del> she<lb/> 
                 arrived—There was only<lb/>
                 a stupid old man &amp;<lb/>
-                
-                <pb n="3" facs="Edgeworth_Bodleian_717_1818-03-17_page03.jpg"/>
-                               <note>17</note>
+               <pb n="3" facs="Edgeworth_Bodleian_717_1818-03-17_page03.jpg"/>
+               <note anchored="true">17</note>
                 a noisy rantipole young<lb/>
                 man there and a most<lb/> 
-                stupid <persName ref="./Personography.xml#LoweX1">Miss Lowe</persName> —<lb/> 
-                <persName ref="./Personography.xml#DandX1">M <hi rend="superscript">rs</hi> Dandridge</persName><persName ref="./Personography.xml#WheeX1">M <hi rend="superscript">rs</hi> Wheelers</persName><lb/> 
+                stupid <persName ref="./Personography.xml#LoweX1" instant="false" full="yes">Miss Lowe</persName> —<lb/>
+               <persName ref="./Personography.xml#DandX1" instant="false" full="yes">M <hi rend="superscript">rs</hi> Dandridge</persName>
+               <persName ref="./Personography.xml#WheeX1" instant="false" full="yes">M <hi rend="superscript">rs</hi> Wheelers</persName>
+               <lb/> 
                 mother they have not<lb/> 
-                yet seen— <persName ref="./Personography.xml#BoisX1">D <hi rend="superscript">r</hi> Boisogon</persName><lb/> 
+                yet seen— <persName ref="./Personography.xml#BoisX1" instant="false" full="yes">D <hi rend="superscript">r</hi> Boisogon</persName>
+               <lb/> 
                 very civil -&amp; a man of the<lb/> 
-                world- advises <unclear>amunmen</unclear><lb/>
+                world- advises <unclear instant="false">amunmen</unclear>
+               <lb/>
                 to W<hi rend="superscript">m</hi> eating often &amp; little at<lb/> 
                 a time- little meat- no wine<lb/>
                 — a warm bath at 96— &amp;<lb/>
-                <placeName ref="./Placeography.xml#Cheltenham_ENK">Cheltenham</placeName> waters before<lb/>
+               <placeName ref="./Placeography.xml#Cheltenham_ENK" instant="false" full="yes">Cheltenham</placeName> waters before<lb/>
                 Breakfast—pills—I know<lb/> 
-                not what—<lb/> </p>
-                
-                <p>
-                <persName ref="./Personography.xml#EdgeF3">Fanny</persName> delighted in journey<lb/> 
-                Through <placeName ref="./Placeography.xml#WLK">wales</placeName> - <del>but</del>but <persName ref="./Personography.xml#EdgeW1">William</persName><lb/> 
-                Charmed with <persName ref="./Personography.xml#LoweX1" cert="medium">Telford's</persName><lb/>
-                Works—<lb/> </p>
-                
-                <p>
+                not what—<lb/>
+            </p>
+            <p part="N">
+               <persName ref="./Personography.xml#EdgeF3" instant="false" full="yes">Fanny</persName> delighted in journey<lb/> 
+                Through <placeName ref="./Placeography.xml#WLK" instant="false" full="yes">wales</placeName> - <del instant="false" status="unremarkable">but</del>but <persName ref="./Personography.xml#EdgeW1" instant="false" full="yes">William</persName>
+               <lb/> 
+                Charmed with <persName ref="./Personography.xml#LoweX1"
+                         cert="medium"
+                         instant="false"
+                         full="yes">Telford's</persName>
+               <lb/>
+                Works—<lb/>
+            </p>
+            <p part="N">
                 All well here &amp; happy—<lb/> 
-                — <persName ref="./Personography.xml#EdgeL2">Lovell</persName> gone to <placeName ref="./Placeography.xml#Castleforbes_IE">Castle Forbes</placeName><lb/>
+                — <persName ref="./Personography.xml#EdgeL2" instant="false" full="yes">Lovell</persName> gone to <placeName ref="./Placeography.xml#Castleforbes_IE" instant="false" full="yes">Castle Forbes</placeName>
+               <lb/>
                 for two days—I am going on<lb/>
                 pretty well with my work<lb/>
-                
                <pb n="4" facs="Edgeworth_Bodleian_717_1818-03-17_page04.jpg"/>
-               <persName ref="./Personography.xml#BeauH1">Honora</persName> has not the least cough<lb/>
+               <persName ref="./Personography.xml#BeauH1" instant="false" full="yes">Honora</persName> has not the least cough<lb/>
                 — is quite well &amp; I am ever<lb/> 
-                yours affectionately<lb/> 
-                <persName ref="./Personography.xml#EdgeM1">Maria E</persName><lb/></p>
-                    
-                <postscript> <p> 
-                — My <persName ref="./Personography.xml#RuxtJ1">uncle</persName> shall soon here<lb/> 
-                from me- Pray desire some <persName ref="./Personography.xml#EverX1">Everard</persName><lb/>
-                or other friend to call at <placeName ref="./Placeography.xml#Merrion-Street-31_IE">31 Merrion St<hi rend="superscript">t</hi> </placeName> for a<lb/> 
-                small packet- a book for my <persName ref="./Personography.xml#RuxtJ1">uncle</persName> do not<lb/> 
-                forget this- I beg—<lb/> </p> </postscript>
-                
-                <closer>
-                <address>
-                    <addrLine>
+                yours affectionately<lb/>
+               <persName ref="./Personography.xml#EdgeM1" instant="false" full="yes">Maria E</persName>
+               <lb/>
+            </p>
+            <postscript>
+               <p part="N"> 
+                — My <persName ref="./Personography.xml#RuxtJ1" instant="false" full="yes">uncle</persName> shall soon here<lb/> 
+                from me- Pray desire some <persName ref="./Personography.xml#EverX1" instant="false" full="yes">Everard</persName>
+                  <lb/>
+                or other friend to call at <placeName ref="./Placeography.xml#Merrion-Street-31_IE"
+                             instant="false"
+                             full="yes">31 Merrion St<hi rend="superscript">t</hi>
+                  </placeName> for a<lb/> 
+                small packet- a book for my <persName ref="./Personography.xml#RuxtJ1" instant="false" full="yes">uncle</persName> do not<lb/> 
+                forget this- I beg—<lb/>
+               </p>
+            </postscript>
+            <closer>
+               <address>
+                  <addrLine>
                         To<lb/>
-                        <persName ref="./Personography.xml#RuxtM1">M<hi rend="superscript">rs</hi>. Ruxton</persName><lb/>
-                    </addrLine>
-                </address>
-                </closer>
-            </div>
-        </body>
-        <back> </back>
-    </text>
+                     <persName ref="./Personography.xml#RuxtM1" instant="false" full="yes">M<hi rend="superscript">rs</hi>. Ruxton</persName>
+                     <lb/>
+                  </addrLine>
+               </address>
+            </closer>
+         </div>
+      </body>
+      <back/>
+   </text>
 </TEI>
-
-

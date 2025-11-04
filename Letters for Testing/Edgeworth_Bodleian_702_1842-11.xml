@@ -2,116 +2,125 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/Maria-Edgeworth-Letters-Project/me-tei/refs/heads/main/melp.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+    ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>Letter from Maria Edgeworth to Frances Anne Edgeworth, November 1842</title>
-                <author>Maria Edgeworth</author>
-                <editor>
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from Maria Edgeworth to Frances Anne Edgeworth, November 1842</title>
+            <author>Maria Edgeworth</author>
+            <editor>
                     Paris Weber
                 </editor>
-                <sponsor>
-                    <orgName>Maria Edgeworth Letters Project</orgName>
-                </sponsor>
-                <sponsor>Wake Forest University, University of Tennessee, Xavier University, Texas
+            <sponsor>
+               <orgName instant="false" full="yes">Maria Edgeworth Letters Project</orgName>
+            </sponsor>
+            <sponsor>Wake Forest University, University of Tennessee, Xavier University, Texas
                     A&amp;M University</sponsor>
-                <principal>Susan Egenolf, Meredith Hale, Hilary Havens, Jessica Richard, and Robin Runia</principal>
-                <respStmt>
-                    <resp>Transcription  by
-                    <persName>Hilary Havens
+            <principal>Susan Egenolf, Meredith Hale, Hilary Havens, Jessica Richard, and Robin Runia</principal>
+            <respStmt>
+               <resp>Transcription  by
+                    <persName instant="false" full="yes">Hilary Havens
                     </persName> 
                     Coding by</resp>
-                    <persName> Paris Weber </persName>
-                </respStmt>
-            </titleStmt>
-            <editionStmt>
-                <edition>First digital edition in TEI, date: June 19,2025 <date when="2025-06-19">
-                </date>
-                </edition>
-                <respStmt>
-                    <orgName 
-                        ref="/http://id.loc.gov/authorities/names/n80020306">Bodleian Library</orgName>
-                    <resp> photos include:
+               <persName instant="false" full="yes"> Paris Weber </persName>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>First digital edition in TEI, date: June 19,2025 <date when="2025-06-19" instant="false"/>
+            </edition>
+            <respStmt>
+               <orgName ref="/http://id.loc.gov/authorities/names/n80020306"
+                        instant="false"
+                        full="yes">Bodleian Library</orgName>
+               <resp> photos include:
                         Edgeworth_Bodleian_702_1842-11_page01.jpg,
                         Edgeworth_Bodleian_702_1842-11_page02.jpg
                         
                     </resp>
-                </respStmt>
-            </editionStmt>
-            <publicationStmt>
-                <authority>Maria Edgeworth Letters Project</authority>
-                <date>2022</date>
-                <availability>
-                    <p>Reproduced by courtesy of <orgName ref="http://id.loc.gov/authorities/names/n80020306"> Bodleian Library</orgName>
-                    </p>
-                    <licence target="https://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons Attribution 4.0 (CC BY 4.0) Unported License</licence>
-                </availability>
-                <idno>Edgeworth_Bodleian_702_1842-11</idno> 
-            </publicationStmt>
-            <seriesStmt>
-                <title>Maria Edgeworth Letters Project</title>
-            </seriesStmt>
-            <sourceDesc>
-                <msDesc xml:lang="en">
-                    <msIdentifier>
-                        <repository>Bodleian Library</repository>
-                        <collection>MS. Eng. lett. c. 702</collection>
-                    </msIdentifier>
-                    <head>Letter from 
-                        <persName xml:id="EdgeM1" from="1768" to="1849">
-                            <forename>Maria</forename>
-                            <surname>Edgeworth</surname>
-                            <date>1768-1849</date>
-                            <idno type="VIAF">71477273</idno>
-                            <idno type="SNAC">62567029</idno>
-                        </persName>
-                        to <persName ref="./Personography.xml#EdgeF2">Frances Anne Edgeworth</persName>
-                        <date> 1769-1865</date>              
-                    </head>
-                </msDesc>
-                <bibl>In addition to our edited version, this letter was previously published in
-                    <!--complete bibiographical info if letter was published in a book here - if not delete-->
-                </bibl>
-            </sourceDesc>
-        </fileDesc>
-        <encodingDesc>
-            <editorialDecl>
-                <p>Edgeworth’s spelling and punctuation are retained in transcription, including non-standard spelling, line breaks, and hyphenation of words. The long s and ligatured forms are silently emended.</p>
-            </editorialDecl>
-        </encodingDesc>
-        <profileDesc>
-            <correspDesc>
-                <correspAction type="sent">
-                    <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
-                </correspAction>
-                <correspAction type="received">
-                    <persName ref="./Personography.xml#EdgeF2"> Frances Anne Edgeworth</persName>
-                </correspAction>
-            </correspDesc>
-        </profileDesc>
-        <revisionDesc>
-            <change when="2021-01-01" who="Id_who">
-            </change>
-        </revisionDesc>
-    </teiHeader>
-    <text>
-        <body>
-            <div type="letter">
-                <pb n="1" facs="Edgeworth_Bodleian_702_1842-11_page01.jpg"/>
-                
-                <dateline>
-                    <date when="1842-11"></date></dateline>
-             
-                <p>
-                    <note>Nov <unclear>26</unclear></note> 1842<lb/>
-                    <note>65</note><lb/>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Maria Edgeworth Letters Project</authority>
+            <date instant="false">2022</date>
+            <availability default="false">
+               <p part="N">Reproduced by courtesy of <orgName ref="http://id.loc.gov/authorities/names/n80020306"
+                           instant="false"
+                           full="yes"> Bodleian Library</orgName>
+               </p>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons Attribution 4.0 (CC BY 4.0) Unported License</licence>
+            </availability>
+            <idno>Edgeworth_Bodleian_702_1842-11</idno>
+         </publicationStmt>
+         <seriesStmt default="false">
+            <title>Maria Edgeworth Letters Project</title>
+         </seriesStmt>
+         <sourceDesc default="false">
+            <msDesc xml:lang="en" status="draft">
+               <msIdentifier>
+                  <repository>Bodleian Library</repository>
+                  <collection>MS. Eng. lett. c. 702</collection>
+               </msIdentifier>
+               <head>Letter from 
+                        <persName xml:id="EdgeM1"
+                            from="1768"
+                            to="1849"
+                            instant="false"
+                            full="yes">
+                     <forename full="yes">Maria</forename>
+                     <surname full="yes">Edgeworth</surname>
+                     <date instant="false">1768-1849</date>
+                     <idno type="VIAF">71477273</idno>
+                     <idno type="SNAC">62567029</idno>
+                  </persName>
+                        to <persName ref="./Personography.xml#EdgeF2" instant="false" full="yes">Frances Anne Edgeworth</persName>
+                  <date instant="false"> 1769-1865</date>
+               </head>
+            </msDesc>
+            <bibl default="false" status="draft">In addition to our edited version, this letter was previously published in
+                    <!--complete bibiographical info if letter was published in a book here - if not delete--></bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl default="false">
+            <p part="N">Edgeworth’s spelling and punctuation are retained in transcription, including non-standard spelling, line breaks, and hyphenation of words. The long s and ligatured forms are silently emended.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc default="false">
+            <correspAction type="sent">
+               <persName ref="./Personography.xml#EdgeM1" instant="false" full="yes">Maria Edgeworth</persName>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="./Personography.xml#EdgeF2" instant="false" full="yes"> Frances Anne Edgeworth</persName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+      <revisionDesc status="draft">
+         <change when="2021-01-01" who="Id_who" status="draft"/>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter" part="N" org="uniform" sample="complete">
+            <pb n="1" facs="Edgeworth_Bodleian_702_1842-11_page01.jpg"/>
+            <dateline>
+               <date when="1842-11" instant="false"/>
+            </dateline>
+            <p part="N">
+               <note anchored="true">Nov <unclear instant="false">26</unclear>
+               </note> 1842<lb/>
+               <note anchored="true">65</note>
+               <lb/>
                     Here is the irreverend<lb/>
                     scrap that your reverend<lb/>
                     daughter has handed me with<lb/>
                     an air, to write to you upon<lb/>
-                    my dearest <persName ref="./Personography.xml#EdgeF2">mother</persName><lb/></p>
-                <p>
+                    my dearest <persName ref="./Personography.xml#EdgeF2" instant="false" full="yes">mother</persName>
+               <lb/>
+            </p>
+            <p part="N">
                     I have no objection in life to<lb/>
                     dirty notes but I do not want<lb/>
                     dirty or clean here - Keep<lb/>
@@ -119,121 +128,147 @@
                     but I thought we had settled<lb/>
                     that you were <hi rend="underline">not</hi>to pay me my<lb/>
                     Quarter Div<hi rend="superscript">d</hi>due July 1<hi rend="superscript">st</hi> if that<lb/>
-                    is what you are talking of<lb/></p>
-                <p>
+                    is what you are talking of<lb/>
+            </p>
+            <p part="N">
                     I see before me this<lb/>
                     instant an entry in my book<lb/>
                     shewing that you paid me<lb/>
                     Aug<hi rend="superscript">t</hi>13 10<hi rend="superscript">h</hi>that Quarter -} 85 .. 7 . 8<lb/>
-                    by <del>draft</del><add><unclear>codicdal</unclear></add> <add><unclear>lodged on Balls -}</unclear></add><lb/>
+                    by <del instant="false" status="unremarkable">draft</del>
+               <add instant="false" status="unremarkable">
+                  <unclear instant="false">codicdal</unclear>
+               </add>
+               <add instant="false" status="unremarkable">
+                  <unclear instant="false">lodged on Balls -}</unclear>
+               </add>
+               <lb/>
                     And that I paid you in cash - 21.. 12.. 4<lb/>
                     making up my House acct 107 . 0 . 0<lb/>
-                    quarter due Sep<hi rend="superscript">r</hi> 1<hi rend="superscript">st</hi>-<lb/></p>
-                
-                <p>
+                    quarter due Sep<hi rend="superscript">r</hi> 1<hi rend="superscript">st</hi>-<lb/>
+            </p>
+            <p part="N">
                     So what you are now talking<lb/>
-                    of my dear <persName ref="./Personography.xml#EdgeF2">Madam</persName> about notes due<lb/>
+                    of my dear <persName ref="./Personography.xml#EdgeF2" instant="false" full="yes">Madam</persName> about notes due<lb/>
                     to me dirty or clean I do not know<lb/>
                     - But shall be very glad to have<lb/>
                     any due &amp; honestly mine - only you keep<lb/>
-                    them till we meet on the 21<hi rend="superscript">st</hi>. Prox <del></del><lb/></p>
-                
-                <p>
-                    <persName ref="./Personography.xml#RalsG1">M<hi rend="superscript">r</hi>. Ralstones</persName> is a most <choice> 
-                    <orig>touch<lb/>
+                    them till we meet on the 21<hi rend="superscript">st</hi>. Prox <del instant="false" status="unremarkable"/>
+               <lb/>
+            </p>
+            <p part="N">
+               <persName ref="./Personography.xml#RalsG1" instant="false" full="yes">M<hi rend="superscript">r</hi>. Ralstones</persName> is a most <choice>
+                  <orig>touch<lb/>
                      ing</orig>
-                     <reg>touching</reg>
-                    </choice>
+                  <reg instant="false">touching</reg>
+               </choice>
                     manly letter - I had written<lb/>
-                    to him before breakfast this morn<hi rend="superscript">g</hi><lb/>
+                    to him before breakfast this morn<hi rend="superscript">g</hi>
+               <lb/>
                     and found his letter on your<lb/>
                     cover when I came down - I shall send it as<lb/>
                     it was truly written - I am afraid you did not<lb/>
-                    read <persName ref="./Personography.xml#MoorX1">M<hi rend="superscript">rs</hi>rs Moores</persName> characteristic &amp; really ex letter I<lb/>
+                    read <persName ref="./Personography.xml#MoorX1" instant="false" full="yes">M<hi rend="superscript">rs</hi>rs Moores</persName> characteristic &amp; really ex letter I<lb/>
                     return it therefore - I will<lb/>
-                
-                <pb n="2" facs="Edgeworth_Bodleian_702_1842-11_page02.jpg"/>
+               <pb n="2" facs="Edgeworth_Bodleian_702_1842-11_page02.jpg"/>
                     answer what you are pleased<lb/>
                     to call <hi rend="underline">the politest note I ever<lb/>
                     received</hi> - polite enough I<lb/>
                     grant - but the polit<hi rend="underline">est!</hi> Oh<lb/>
                     - exaggeration -<lb/>
-                    I shall refer him to <persName ref="./Personography.xml#HallX2">M<hi rend="superscript">rs</hi> Hall</persName> <unclear></unclear><lb/>
+                    I shall refer him to <persName ref="./Personography.xml#HallX2" instant="false" full="yes">M<hi rend="superscript">rs</hi> Hall</persName>
+               <unclear instant="false"/>
+               <lb/>
                     for my part I can have no objection<lb/>
                     to republishing him, what has been<lb/>
                     published &amp; the <hi rend="underline">truths</hi> which<lb/>
                     every one knows! - What is modesty<lb/>
                     those who have it may answer<lb/>
-                    &amp; throw the first stone.<lb/></p>
-                <p>
+                    &amp; throw the first stone.<lb/>
+            </p>
+            <p part="N">
                     Thank you my dear for your<lb/>
-                    history of Dole's delights - and <persName ref="./Personography.xml#FoxM1" cert="low">Marys</persName><lb/>
+                    history of Dole's delights - and <persName ref="./Personography.xml#FoxM1"
+                         cert="low"
+                         instant="false"
+                         full="yes">Marys</persName>
+               <lb/>
                     which delighted your affectionately<lb/>
                     very much <lb/>
-                    <persName ref="./Personography.xml#EdgeM1">ME</persName><lb/> </p> 
-               
-                    <postscript><p>
+               <persName ref="./Personography.xml#EdgeM1" instant="false" full="yes">ME</persName>
+               <lb/>
+            </p>
+            <postscript>
+               <p part="N">
                     The carriage is coming at eleven<lb/>
                     (&amp; it is now I do not know how much<lb/>
-                    passed <del>eleven</del> ten) to carry us to<lb/>
-                    <placeName ref="./Placeography.xml#Black-Castle_IE">Black Castle</placeName> by appointment<lb/>
-                    Morning vis - paid a very <choice> 
-                    <orig>agree<lb/>
+                    passed <del instant="false" status="unremarkable">eleven</del> ten) to carry us to<lb/>
+                  <placeName ref="./Placeography.xml#Black-Castle_IE" instant="false" full="yes">Black Castle</placeName> by appointment<lb/>
+                    Morning vis - paid a very <choice>
+                     <orig>agree<lb/>
                     able</orig>
-                    <reg>agreeable</reg>
-                    </choice>
+                     <reg instant="false">agreeable</reg>
+                  </choice>
                     Vis yester morn &amp; rather evening<lb/>
-                    after luncheon bagged, to <persName ref="./Personography.xml#HarrX5">Lady Harriet<unclear>Knowles</unclear></persName><lb/>
-                    &amp; knew that <persName ref="./Personography.xml#XxxxF3">Rev<hi rend="superscript">d</hi>Frank</persName> old boy is <persName ref="./Personography.xml#XxxxF3">Frank</persName><lb/>
+                    after luncheon bagged, to <persName ref="./Personography.xml#HarrX5" instant="false" full="yes">Lady Harriet<unclear instant="false">Knowles</unclear>
+                  </persName>
+                  <lb/>
+                    &amp; knew that <persName ref="./Personography.xml#XxxxF3" instant="false" full="yes">Rev<hi rend="superscript">d</hi>Frank</persName> old boy is <persName ref="./Personography.xml#XxxxF3" instant="false" full="yes">Frank</persName>
+                  <lb/>
                     My cidevant Creditor - not a word about<lb/>
                     vile trash - quite full of wit and classics<lb/>
-                    &amp; regrets that he <unclear></unclear><lb/>
-                    &amp; <unclear></unclear> that he <unclear>never</unclear><lb/>
+                    &amp; regrets that he <unclear instant="false"/>
+                  <lb/>
+                    &amp; <unclear instant="false"/> that he <unclear instant="false">never</unclear>
+                  <lb/>
                     a regular classical Ed<hi rend="superscript">n</hi>.<lb/>
-                    and the more <choice> 
-                    <orig>enter<lb/>
+                    and the more <choice>
+                     <orig>enter<lb/>
                     taining</orig>
-                    <reg>entertaining</reg>
-                    </choice>
+                     <reg instant="false">entertaining</reg>
+                  </choice>
                     he is for being<lb/>
                     quite inconsistent in<lb/>
                     all he says &amp; does -<lb/>
-                    The most <unclear>decousee</unclear><lb/>
-                    mind &amp; conversation<lb/><lb/>
-                    you can conceive<lb/></p>
-                    <p>
+                    The most <unclear instant="false">decousee</unclear>
+                  <lb/>
+                    mind &amp; conversation<lb/>
+                  <lb/>
+                    you can conceive<lb/>
+               </p>
+               <p part="N">
                         
                     Mica of ability -<lb/>
                     glittering thin brittle<lb/>
-                    lamina or <unclear>no</unclear><lb/>
+                    lamina or <unclear instant="false">no</unclear>
+                  <lb/>
                     thats all - told many<lb/>
                     things which if ascertained<lb/>
                     to be facts w<hi rend="superscript">d</hi>be interesting<lb/>
                     and curious - But at every<lb/>
-                    <unclear>close</unclear>or pause <persName ref="./Personography.xml#FowlX1">M<hi rend="superscript">r</hi>. Fowler</persName><lb/>
-                    rev<hi rend="superscript">d</hi> husband of <persName ref="./Personography.xml#HarrX5">Lady<lb/>
+                  <unclear instant="false">close</unclear>or pause <persName ref="./Personography.xml#FowlX1" instant="false" full="yes">M<hi rend="superscript">r</hi>. Fowler</persName>
+                  <lb/>
+                    rev<hi rend="superscript">d</hi> husband of <persName ref="./Personography.xml#HarrX5" instant="false" full="yes">Lady<lb/>
                     Harriet</persName>, asked<lb/>
                     Where did you hear that<lb/>
                     Frank - Where did you speak<lb/>
-                    up <hi rend="underline">that</hi> <unclear><persName ref="./Personography.xml#SaunX1">Saunderson</persName></unclear><lb/></p>
-                        
-                    <p>
+                    up <hi rend="underline">that</hi>
+                  <unclear instant="false">
+                     <persName ref="./Personography.xml#SaunX1" instant="false" full="yes">Saunderson</persName>
+                  </unclear>
+                  <lb/>
+               </p>
+               <p part="N">
                     For instance he<lb/>
                     told of a poisonous acre<lb/>
-                    near <unclear>athboy</unclear> on which cattle<lb/>
+                    near <unclear instant="false">athboy</unclear> on which cattle<lb/>
                     infallibly lose their hoofs &amp;<lb/>
                     their horns &amp; on which the potatoes that grow are reported to<lb/>
-                    be poisonous<lb/></p>
-                 </postscript>
-
-                   
-                
-
-                    
-                
-            </div>
-        </body>
-        <back> </back>
-    </text>
+                    be poisonous<lb/>
+               </p>
+            </postscript>
+         </div>
+      </body>
+      <back/>
+   </text>
 </TEI>
-
