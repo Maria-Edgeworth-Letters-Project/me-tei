@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/Maria-Edgeworth-Letters-Project/me-tei/refs/heads/main/melp.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter from Maria Edgeworth to Margaret Ruxton, September 16, 1819</title>
+                <author>Maria Edgeworth</author>
+                <editor>
+                    <!--Editor on the Maria Edgeworth Letters Project overseeing the coding of this particular letter: FirstName LastName -->
+                </editor>
+                <sponsor>
+                    <orgName>Maria Edgeworth Letters Project</orgName>
+                </sponsor>
+                <sponsor>Wake Forest University, University of Tennessee, Xavier University, Texas
+                    A&amp;M University</sponsor>
+                <principal>Susan Egenolf, Meredith Hale, Hilary Havens, Jessica Richard, and Robin Runia</principal>
+                <respStmt>
+                    <resp>Transcription and coding by</resp>
+                    <persName>Paris Weber
+                    </persName>
+                    <!-- List all transcribers or coders here, editors and students alike, <persName> by <persName>.-->
+                    <persName><!--FirstName LastName--></persName>
+                    <!-- If you're the last person interacting with the file, enter your name last on the list -->
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>First digital edition in TEI, date: <date when="2025-11-05">
+                        
+                </date>
+                </edition>
+                <respStmt>
+                    <orgName ref="http://id.loc.gov/authorities/names/n80020306">Bodleian Library
+                    </orgName>
+                    <resp> photos include:
+                        Edgeworth_Bodleian_717_1819-09-16_page01.jpg
+                        Edgeworth_Bodleian_717_1819-09-16_page02.jpg
+                    </resp>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <authority>Maria Edgeworth Letters Project</authority>
+                <date>2022</date>
+                <availability>
+                    
+                    <p> Reproduced by courtesy of <orgName ref="http://id.loc.gov/authorities/names/n80020306"> Bodleian Library</orgName>
+                    </p>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons Attribution 4.0 (CC BY 4.0) Unported License</licence>
+                </availability>
+                <idno>Edgeworth_Bodleian_717_1819-09-16</idno> 
+            </publicationStmt>
+            <seriesStmt>
+                <title>Maria Edgeworth Letters Project</title>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc xml:lang="en">
+                    <msIdentifier>
+                        <repository>Bodleian Library</repository>
+                        <collection></collection>
+                        <idno>Edgeworth_Bodleian_717_1819-09-16</idno>
+                    </msIdentifier>
+                    <head>Letter from 
+                        <persName xml:id="EdgeM1" from="1768" to="1849">
+                            <forename>Maria</forename>
+                            <surname>Edgeworth</surname>
+                            <date>1768-1849</date>
+                            <idno type="VIAF">71477273</idno>
+                            <idno type="SNAC">62567029</idno>
+                        </persName>
+                        to <persName ref="./Personography.xml#RuxtM1">Margaret Ruxton</persName>,
+                    </head>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p>Edgeworth’s spelling and punctuation are retained in transcription, including non-standard spelling, line breaks, and hyphenation of words. The long s and ligatured forms are silently emended.</p>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="./Personography.xml#RuxtM1">Margaret Ruxton</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2021-01-01" who="Id_who">
+            </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="letter">
+                <pb n="1" facs="Edgeworth_Bodleian_717_1819-09-16"/>
+                <p>
+                [LibNote]Between 1817 &amp; 1821[/LibNote] [LibNote] 59 [LibNote]
+                [LibNote] 5) [/LibNote]
+                I agree with you that Riley is beyond the
+                truth - but [deletion]I am glad[/deletion], liar or not that is
+                his affair - I am glad he entertains my
+                uncle - and I hope my uncle's snuffers
+                have come to hand &amp; that he is not angry
+                with me for sending him such a vulgar
+                souvenir -
+                Thank dear little Tom for remembering
+                [underline]Malia[/underline] and [underline]Jenny[/underline] - I admire little
+                John's performance of his manifold
+                duties - I never thought he was little John
+                Nobody - he has now proved himself to be
+                little John Somebody, and if he stands
+                the trial of the new coat &amp; tucker to shirt
+                I do not despair of his walking with
+                unblenched virtue through the mud=
+                -ordeal &amp; vice=ordeal of Navan - worse
+                than any fire or water ordeal or any
+                burning plough shares on which Q Emma
+                or others ever walked ! -
+                There is said to be some marvellous moral
+                or immoral fracas in the Devonshire
+                family; but I have not got the story by the
+                right end yet - So, for fear of spoiling a
+                choice bit of scandal in the telling, shall
+                wait till I [underline]am perfect[/underline] in it - and mean
+                time perhaps you may have it fresh &amp; fresh
+                from my mother - or the newspapers -
+                I am glad Sophy goes to dear M[superscript]rs.[/superscript] P. Ruxton
+                
+                
+                Me having deprived her of that visit long sat
+                heavy as the night mare on my conscience -
+                - To Miss Garnett alias M[superscript]rs.[/superscript] Ratcliffe's other sins
+                must be a [unclear]alloted[/unclear] that of preventing Sophy from
+                must be added that of preventing Sophy from
+                seeing the archdeacons pictures! - Well! when
+                a person is down in the moral world sins
+                enough are always ready to be heaped upon
+                Their heads - I think [deletion]mit[/deletion] Ellen G- is just a
+                heroine &amp; [insertion]hers just[/insertion] [underline]a[/underline] story fit for the author of North-
+                -anger Abbey - and no letter in any novel
+                was ever better in its own way than [underline]hers[/underline] -
+                Sneyd and his gout go on finely - Poor
+                M[superscript]rs.[/superscript] Sneyd E: as headachy as usual -
+                [deletion]William and[/deletion] Lovell returns to us on Wed=
+                nesday - Honora is well - And I have nothing
+                more to say - except that I am sorry M[superscript]r.[/superscript]
+                R. Dillon &amp; the Bishop are going to war -
+                - But in fact there must be war about
+                nonsense in this world. - I wonder that
+                anxiety about M[superscript]rs[/superscript]. O OBeirne does not in
+                the bishop's mind swallow up all other
+                feelings - I am most sincerely sorry
+                for her - Send her Miss Bailly's letter to amuse her.
+                As soon as I have my Jewess's letter [insertion]again[/insertion] you shall
+                have it - Adieu dearest Aunt - What
+                pleasure I shall have in being with you
+                again - when I have [underline]earned [/underline]that pleasure -
+                - The greatest I think I have now left upon
+                earth -
+                Maria Edgeworth </p>
+               
+            </div>
+        </body>
+        <back> </back>
+    </text>
+</TEI>
+
