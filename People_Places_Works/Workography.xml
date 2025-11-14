@@ -3,594 +3,751 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Maria Edgeworth Letters Project Workography</title>
-            <author>Meredith Hale</author>
-            <sponsor>Wake Forest University, University of Tennessee, Xavier University, Texas
-                    A&amp;M University</sponsor>
-            <respStmt>
-               <resp>Contributors include:</resp>
-               <persName>Jessica Richard</persName>
-               <persName>Hilary Havens</persName>
-               <persName>Robin Runia</persName>
-               <persName>Susan Egenolf</persName>
-               <persName>Eliza Wilcox</persName>
-               <persName>Jamie Kramer</persName>
-            </respStmt>
-         </titleStmt>
-         <publicationStmt>
-            <authority>Maria Edgeworth Letters Project</authority>
-            <availability>
-               <licence target="https://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons Attribution 4.0 (CC BY 4.0) Unported
-                  License</licence>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <p>The form of the titles shared are established by Wikidata or transcribed from the letters of Maria Edgeworth. Only first-edition texts are defined in the workography, except in special circumstances.</p>
-         </sourceDesc>
-      </fileDesc>
-   </teiHeader>
-   <text>
-      <body>
-         <p>This is a workography that defines literary works associated with the Maria Edgeworth
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Maria Edgeworth Letters Project Workography</title>
+                <author>Meredith Hale</author>
+                <sponsor>Wake Forest University, University of Tennessee, Xavier University, Texas
+                    A&amp;amp;M University</sponsor>
+                <respStmt>
+                    <resp>Contributors include:</resp>
+                    <persName>Autumn Hall</persName>
+                    <persName>Hilary Havens</persName>
+                    <persName>Susan Egenolf</persName>
+                    <persName>Lindsey Jones</persName>
+                    <persName>Jamie Kramer</persName>
+                    <persName>Alexandra LaGrand</persName>
+                    <persName>Savannah Payne</persName>
+                    <persName>Jessica Richard</persName>
+                    <persName>Robin Runia</persName>
+                    <persName>Eliza Alexander Wilcox</persName>
+                    <persName>Paris Weber</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Maria Edgeworth Letters Project</authority>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Distributed under
+                        a Creative Commons Attribution 4.0 (CC BY 4.0) Unported License</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p>The form of the titles shared are established by Wikidata or transcribed from the
+                    letters of Maria Edgeworth. Only first-edition texts are defined in the
+                    workography, except in special circumstances.</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p>This is a workography that defines literary works associated with the Maria Edgeworth
                 Letters project.</p>
-         <listBibl>
-            <bibl xml:id="Absen1">
-               <title>The Absentee</title>
-               <idno>https://www.wikidata.org/wiki/Q7712149</idno>
-               <author>
-                  <persName>Edgeworth, Maria, 1768-1849</persName>
-                  <idno type="VIAF">http://viaf.org/viaf/315684946</idno>
-               </author>
-            </bibl>
-            <bibl xml:id="Adela1">
-               <title>Adelaide and Theodore, or Letters on Education</title>
-               <title>
-                  <foreign>Adèle et Théodore, ou Lettres sur l'Education</foreign>
-               </title>
-               <author>
-                  <persName>Genlis, Stéphanie Félicité, comtesse de, 1746-1830</persName>
-                  <idno type="VIAF">http://viaf.org/viaf/71391471</idno>
-               </author>
-            </bibl>
-            <bibl xml:id="Ameri1">
-               <title>American Journal of Science and Arts [alternatively known as Sillimans Journal]</title>
-               <idno>https://www.wikidata.org/wiki/Q22305255</idno>
-               <author>
-                  <persName>Benjamin Silliman (1779 -1864) </persName>
-                  <idno type="VIAF">https://viaf.org/viaf/10644545/</idno>
-               </author>
-            </bibl>
-            <bibl xml:id="Ancie1">
-               <title>The Ancient history of the Egyptians, Carthaginians, Assyrians, Babylonians, Medes &amp; Persians, Macedonians and Grecians, translated from the French in seven volumes</title>
-            </bibl>
-            <bibl xml:id="Anecd1">
-               <title>
-                  <foreign>Anecdotes Historiques, Militaires et Politiques de l'Europe</foreign>
-               </title>
-               <author>
-                  <persName>Raynal, abbé (Guillaume-Thomas-François), 1713-1796</persName>
-                  <idno type="VIAF">http://viaf.org/viaf/89354395</idno>
-               </author>
-            </bibl>
-            <bibl xml:id="Annal1">
-               <title>Annals of the Reign of King George the Third</title>
-               <author>
-                  <persName>Aikin, John, 1747-1822</persName>
-                  <idno type="VIAF">http://viaf.org/viaf/59180443</idno>
-               </author>
-            </bibl>
-            <bibl xml:id="Annal2">
-               <title>
-                  <foreign>Les Annales de la Vertu</foreign>
-               </title>
-               <author>
-                  <persName>Genlis, Stéphanie Félicité, comtesse de, 1746-1830</persName>
-                  <idno type="VIAF">http://viaf.org/viaf/71391471</idno>
-               </author>
-            </bibl>
-            <bibl xml:id="Arabi1">
-               <title>Arabian Tales</title>
-               <idno>https://www.wikidata.org/wiki/Q110214248</idno>
-            </bibl>
-            <bibl xml:id="Artic1">
-               <title>Articles in Varieties in Monthly Magazine, February 1818</title>
-            </bibl>
-            <bibl xml:id="Athen1">
-               <title>The Athentian Captive</title>
-               <idno>https://www.wikidata.org/wiki/Q110355491</idno>
-               <author>
-                  <persName>Talfourd, Thomas Noon, 1795-1854</persName>
-                  <idno type="VIAF">http://viaf.org/viaf/61904095</idno>
-               </author>
-            </bibl>
-            <bibl xml:id="Belin1">
-               <title>Belinda</title>
-               <idno>https://www.wikidata.org/wiki/Q2894491</idno>
-               <author>
-                  <persName>Edgeworth, Maria, 1768-1849</persName>
-                  <idno type="VIAF">http://viaf.org/viaf/315684946</idno>
-               </author>
-            </bibl>
-            <bibl xml:id="Bentl1">
-               <title>Bentley's Miscellany</title>
-               <idno>https://www.wikidata.org/wiki/Q2896754</idno>
-               <author>
-                  <persName>Bentley, Richard, 1794-1871</persName>
-                  <idno type="VIAF">https://viaf.org/viaf/30279325/</idno>
-               </author>
-            </bibl>
-            <bibl xml:id="BritRe1">
-               <title>The British Review, and London Critical Journal</title>
-               <idno>https://www.wikidata.org/wiki/Q68672023</idno>
-               <author>
-                  <persName>various</persName>
-               </author>
-            </bibl>
-            <bibl xml:id="Botan1">
-               <title>Botany &amp; Entymology </title>
-            </bibl>
-            <bibl xml:id="Buria1">
-               <title>"The Burial of Sir John Moore after Corunna"</title>
-               <author>
-                  <persName>Wolfe, Charles, 1791-1823</persName>
-                  <idno type="VIAF">https://viaf.org/viaf/61813744/</idno>
-               </author>
-            </bibl>
-            <bibl xml:id="Castl1">
-               <title>Castle Rackrent</title>
-               <idno>https://www.wikidata.org/wiki/Q5050238</idno>
-               <author>
-                  <persName>Edgeworth, Maria, 1768-1849</persName>
-                  <idno type="VIAF">http://viaf.org/viaf/315684946</idno>
-               </author>
-            </bibl>
-            <bibl xml:id="Child1">
-               <title>Childe Harold's Pilgrimage</title>
-               <idno>https://www.wikidata.org/wiki/Q1072741</idno>
-               <author>
-                  <persName>Byron, George Gordon Byron, Baron, 1788-1824</persName>
-                  <idno type="VIAF">http://viaf.org/viaf/95230688</idno>
-               </author>
-            </bibl>
-            <bibl xml:id="Circo1">
-               <title>
-                  <foreign>Des Circonstances Actuelles qui Peuvent Terminer la Révolution et des Principes qui Doivent Fonder la République en France</foreign>
-               </title>
-               <author>
-                  <persName>Staël, Madame de (Anne-Louise-Germaine), 1766-1817</persName>
-                  <idno type="VIAF">http://viaf.org/viaf/89204033</idno>
-               </author>
-            </bibl>
-            <bibl xml:id="Cityo1">
-               <title>City of the Plague</title>
-               <idno>https://www.loc.gov/item/29024281/</idno>
-               <author>
-                  <persName>Wilson, John, 1785-1854</persName>
-               </author>
-            </bibl>
-            <bibl xml:id="Comic1">
-               <title>Comic Dramas, in Three Acts</title>
-               <idno>https://www.wikidata.org/wiki/Q78219472</idno>
-               <author>
-                  <persName>Edgeworth, Maria, 1768-1849</persName>
-                  <idno type="VIAF">http://viaf.org/viaf/315684946</idno>
-               </author>
-            </bibl>
-            <bibl xml:id="Contr1">
-               <title>The Contrast</title>
-               <idno>https://www.wikidata.org/wiki/Q80225037</idno>
-               <author>
-                  <persName>Edgeworth, Maria, 1768-1849</persName>
-                  <idno type="VIAF">http://viaf.org/viaf/315684946</idno>
-               </author>
-            </bibl>
-            <bibl xml:id="Dange1">
-               <title>
-                  <foreign>Les Dangers du Monde</foreign>
-               </title>
-               <author>
-                  <persName>Genlis, Stéphanie Félicité, comtesse de, 1746-1830</persName>
-                  <idno type="VIAF">http://viaf.org/viaf/71391471</idno>
-               </author>
-            </bibl>
-            <bibl xml:id="Early1">
-               <title>Early Lessons</title>
-               <idno>https://www.wikidata.org/wiki/Q80031478</idno>
-               <author>
-                  <persName>Edgeworth, Maria, 1768-1849</persName>
-                  <idno type="VIAF">http://viaf.org/viaf/315684946</idno>
-               </author>
-               <ref corresp="Early1">
-                  <bibl xml:id="Robin1">
-                     <title>The Robin's Petition</title>
-                     <idno>https://www.wikidata.org/wiki/Q80031478</idno>
-                  </bibl>
-               </ref>
-            </bibl>
-            <bibl xml:id="Early2">
-               <title>Continuation of Early Lessons</title>
-               <idno>https://www.wikidata.org/wiki/Q80031478</idno>
-               <author>
-                  <persName>Edgeworth, Maria, 1768-1849</persName>
-                  <idno type="VIAF">http://viaf.org/viaf/315684946</idno>
-               </author>
-            </bibl>
-            <bibl xml:id="Essay1">
-               <title>Essay on Irish Bulls</title>
-               <idno>https://www.wikidata.org/wiki/Q80225011</idno>
-               <author>
-                  <persName>Edgeworth, Maria, 1768-1849</persName>
-                  <idno type="VIAF">http://viaf.org/viaf/315684946</idno>
-               </author>
-            </bibl>
-            <bibl xml:id="Frank1">
-               <title>Frank: a Sequel to Frank in Early Lessons</title>
-               <idno>https://www.wikidata.org/wiki/Q80225013</idno>
-               <author>
-                  <persName>Edgeworth, Maria, 1768-1849</persName>
-                  <idno type="VIAF">http://viaf.org/viaf/315684946</idno>
-               </author>
-            </bibl>
-            <bibl xml:id="Frien1">
-               <title>Friendship's Offering</title>
-               <idno>https://id.loc.gov/resources/works/5914795</idno>
-               <author>
-                  <persName>Hervey, Thomas Kibble, 1799-1859</persName>
-               </author>
-            </bibl>
-            <bibl xml:id="Glena1">
-               <title>Glenavon</title>
-            </bibl>
-            <bibl xml:id="Harri1">
-               <title>Harrington, a Tale; and Ormond, a Tale</title>
-               <idno>https://www.wikidata.org/wiki/Q16385930</idno>
-               <author>
-                  <persName>Edgeworth, Maria, 1768-1849</persName>
-                  <idno type="VIAF">http://viaf.org/viaf/315684946</idno>
-               </author>
-            </bibl>
-            <bibl xml:id="Harry1">
-               <title>Harry and Lucy Concluded</title>
-               <idno>https://www.wikidata.org/wiki/Q80225018</idno>
-               <author>
-                  <persName>Edgeworth, Maria, 1768-1849</persName>
-                  <idno type="VIAF">http://viaf.org/viaf/315684946</idno>
-               </author>
-            </bibl>
-            <bibl xml:id="Helen1">
-               <title>Helen</title>
-               <idno>https://www.wikidata.org/wiki/Q16385982</idno>
-               <author>
-                  <persName>Edgeworth, Maria, 1768-1849</persName>
-                  <idno type="VIAF">http://viaf.org/viaf/315684946</idno>
-               </author>
-            </bibl>
-            <bibl xml:id="Hesio1">
-               <title>Hesiod: or, the Rise of Woman</title>
-               <author>
-                  <persName>Parnell, Thomas, 1679-1718</persName>
-                  <idno type="VIAF">https://viaf.org/viaf/32041540/</idno>
-               </author>
-            </bibl>
-            <bibl xml:id="Janus1">
-               <title>Janus; or, Edinburgh Literary Review</title>
-               <idno>https://lccn.loc.gov/20008548</idno>
-               <author>
-                  <persName>Lockhart, J. G. (John Gibson), 1794-1854</persName>
-               </author>
-            </bibl>
-            <bibl xml:id="Julia1">
-               <title>Julia de Roubigné, a sentimental novel. In a series of letters.</title>
-               <idno>https://www.wikidata.org/wiki/Q110364540</idno>
-               <author>
-                  <persName>Mackenzie, Henry, 1745-1831</persName>
-                  <idno type="VIAF">http://viaf.org/viaf/12354244</idno>
-               </author>
-            </bibl>
-            <bibl xml:id="Karam1">
-               <title>Karamania Or A Brief Description of the South Coast of Asia-Minor and of 1818</title>
-               <author>
-                  <persName>Beaufort, Francis, Sir, 1774-1857</persName>
-                  <idno type="VIAF">http://viaf.org/viaf/42580519</idno>
-               </author>
-            </bibl>
-            <bibl xml:id="Ladys1">
-               <title>Lady's Remembrancer</title>
-            </bibl>
-            <bibl xml:id="Leono1">
-               <title>Leonora</title>
-               <idno>https://www.wikidata.org/wiki/Q6526682</idno>
-               <author>
-                  <persName>Edgeworth, Maria, 1768-1849</persName>
-                  <idno type="VIAF">http://viaf.org/viaf/315684946</idno>
-               </author>
-            </bibl>
-            <bibl xml:id="Lette1">
-               <title>Letters for Literary Ladies</title>
-               <idno>https://www.wikidata.org/wiki/Q80225019</idno>
-               <author>
-                  <persName>Edgeworth, Maria, 1768-1849</persName>
-                  <idno type="VIAF">http://viaf.org/viaf/315684946</idno>
-               </author>
-            </bibl>
-            <bibl xml:id="LitGa1">
-               <title>The Literary Gazette and Journal of the Belles Lettres</title>
-               <idno>https://www.wikidata.org/wiki/Q6647602</idno>
-               <author>
-                  <persName>Henry Coulburn, ?-1855 (founder)</persName>
-                  <idno type="VIAF">http://viaf.org/viaf/90644401</idno>
-               </author>
-            </bibl>
-            <bibl xml:id="Lordo1">
-               <title>The Lord of the Isles</title>
-               <author>
-                  <persName>Scott, Walter, 1771-1832</persName>
-               </author>
-            </bibl>
-            <bibl xml:id="Macbe1">
-               <title>Macbeth</title>
-               <idno>https://www.wikidata.org/wiki/Q130283</idno>
-               <author>
-                  <persName>Shakespeare, William, 1564-1616</persName>
-               </author>
-            </bibl>
-            <bibl xml:id="Memoi1">
-               <title>Memoirs of Richard Lovell Edgeworth</title>
-               <author>
-                  <persName>Edgeworth, Maria, 1768-1849</persName>
-                  <idno type="VIAF">http://viaf.org/viaf/315684946</idno>
-               </author>
-            </bibl>
-            <bibl xml:id="Memoi2">
-               <title>Memoirs of the Court of Queen Elizabeth</title>
-               <idno>https://www.wikidata.org/wiki/Q80224914</idno>
-            </bibl>
-            <bibl xml:id="Memoi3">
-               <title>Memoirs of the Life and Writings of Victor Alfieri</title>
-            </bibl>
-            <bibl xml:id="Moder1">
-               <title>The Modern Griselda; a Tale</title>
-               <idno>https://www.wikidata.org/wiki/Q80225039</idno>
-               <author>
-                  <persName>Edgeworth, Maria, 1768-1849</persName>
-                  <idno type="VIAF">http://viaf.org/viaf/315684946</idno>
-               </author>
-            </bibl>
-            <bibl xml:id="Moral1">
-               <title>Moral Tales for Young People</title>
-               <idno>https://www.wikidata.org/wiki/Q80225023</idno>
-               <author>
-                  <persName>Edgeworth, Maria, 1768-1849</persName>
-                  <idno type="VIAF">http://viaf.org/viaf/315684946</idno>
-               </author>
-               <ref corresp="Moral1">
-                  <bibl xml:id="Knaps1">
-                     <title>The Knapsack</title>
-                     <idno>https://www.wikidata.org/wiki/Q80031478</idno>
-                  </bibl>
-               </ref>
-               <ref corresp="Moral1">
-                  <bibl xml:id="Fores1">
-                     <title>Forester</title>
-                  </bibl>
-               </ref>
-               <ref corresp="Moral1">
-                  <bibl xml:id="Pruss1">
-                     <title>The Prussian Vase</title>
-                  </bibl>
-               </ref>
-               <ref corresp="Moral1">
-                  <bibl xml:id="GoodA1">
-                     <title>The Good Aunt</title>
-                  </bibl>
-               </ref>
-               <ref corresp="Moral1">
-                  <bibl xml:id="Angel1">
-                     <title>Angelina; or L'amie Inconnue</title>
-                  </bibl>
-               </ref>
-               <ref corresp="Moral1">
-                  <bibl xml:id="GoodF1">
-                     <title>The Good French Governess</title>
-                  </bibl>
-               </ref>
-               <ref corresp="Moral1">
-                  <bibl xml:id="Madem1">
-                     <title>Mademoiselle Panache</title>
-                  </bibl>
-               </ref>
-            </bibl>
-            <bibl xml:id="Moral2">
-               <title>Moral Tales</title>
-               <idno>https://www.wikidata.org/wiki/Q80225021</idno>
-               <author>
-                  <persName>Edgeworth, Maria, 1768-1849</persName>
-                  <idno type="VIAF">http://viaf.org/viaf/315684946</idno>
-               </author>
-            </bibl>
-            <bibl xml:id="Moral3">
-               <title>Moral Tales</title>
-               <title>
-                  <foreign>Contes Moreaux</foreign>
-               </title>
-               <author>
-                  <persName>Marmontel, Jean-François, 1723-1799</persName>
-               </author>
-            </bibl>
-            <bibl xml:id="North1">
-               <title>Northanger Abbey</title>
-               <idno>https://www.wikidata.org/wiki/Q477508</idno>
-               <author>
-                  <persName>Austen, Jane, 1775-1817</persName>
-                  <idno type="VIAF">http://viaf.org/viaf/102333412</idno>
-               </author>
-            </bibl>
-            <bibl xml:id="Ormon1">
-               <title>Ormond</title>
-               <idno>https://www.wikidata.org/wiki/Q7103428</idno>
-               <author>
-                  <persName>Edgeworth, Maria, 1768-1849</persName>
-                  <idno type="VIAF">http://viaf.org/viaf/315684946</idno>
-               </author>
-            </bibl>
-            <bibl xml:id="Paren1">
-               <title>The Parent's Assistant</title>
-               <idno>https://www.wikidata.org/wiki/Q3522169</idno>
-               <author>
-                  <persName>Edgeworth, Maria, 1768-1849</persName>
-                  <idno type="VIAF">http://viaf.org/viaf/315684946</idno>
-               </author>
-            </bibl>
-            <bibl xml:id="Patro1">
-               <title>Patronage</title>
-               <idno>https://www.wikidata.org/wiki/Q7148133</idno>
-               <author>
-                  <persName>Edgeworth, Maria, 1768-1849</persName>
-                  <idno type="VIAF">http://viaf.org/viaf/315684946</idno>
-               </author>
-            </bibl>
-            <bibl xml:id="Popul1">
-               <title>Popular Tales</title>
-               <idno>https://www.wikidata.org/wiki/Q80225026</idno>
-               <author>
-                  <persName>Edgeworth, Maria, 1768-1849</persName>
-                  <idno type="VIAF">http://viaf.org/viaf/315684946</idno>
-               </author>
-            </bibl>
-            <bibl xml:id="Pract1">
-               <title>Practical Education</title>
-               <idno>https://www.wikidata.org/wiki/Q7237318</idno>
-               <author>
-                  <persName>Edgeworth, Maria, 1768-1849</persName>
-                  <idno type="VIAF">http://viaf.org/viaf/315684946</idno>
-               </author>
-            </bibl>
-            <bibl xml:id="Treat1">
-               <title>The Preliminary Treatise</title>
-            </bibl>
-            <bibl xml:id="Proff1">
-               <title>Professional Education</title>
-               <author>
-                  <persName>Edgeworth, Richard Lovell, 1744-1817</persName>
-                  <idno type="VIAF">http://viaf.org/viaf/66511092</idno>
-               </author>
-               <author>
-                  <persName>Edgeworth, Maria, 1768-1849</persName>
-                  <idno type="VIAF">http://viaf.org/viaf/71477273</idno>
-               </author>
-            </bibl>
-            <bibl xml:id="Quart1">
-               <title>Quarterly Review</title>
-            </bibl>
-            <bibl xml:id="Readi1">
-               <title>Readings on Poetry</title>
-               <idno>https://www.wikidata.org/wiki/Q80225028</idno>
-               <author>
-                  <persName>Edgeworth, Maria, 1768-1849</persName>
-                  <idno type="VIAF">http://viaf.org/viaf/315684946</idno>
-               </author>
-            </bibl>
-            <bibl xml:id="Refle1">
-               <title>Reflections on the Subject of Emigration from Europe</title>
-               <author>
-                  <persName>Carey, Mathew, 1760-1839</persName>
-                  <idno type="VIAF">http://viaf.org/viaf/2526487</idno>
-               </author>
-            </bibl>
-            <bibl xml:id="Rehea1">
-               <title>The Rehearsal</title>
-               <idno>https://www.wikidata.org/wiki/Q3212601</idno>
-               <author>
-                  <persName>Buckingham, George Villiers, Duke of, 1628-1687</persName>
-                  <idno type="VIAF">https://viaf.org/viaf/41858327/</idno>
-               </author>
-            </bibl>
-            <bibl xml:id="Rimin1">
-               <title>Rimini</title>
-               <idno>https://www.wikidata.org/wiki/Q7766791</idno>
-               <author>
-                  <persName>Hunt, Leigh, 1784-1859</persName>
-                  <idno type="VIAF">http://viaf.org/viaf/54166412</idno>
-               </author>
-            </bibl>
-            <bibl xml:id="Taleo1">
-               <title>Tales of Fashionable Life</title>
-               <idno>https://www.wikidata.org/wiki/Q80225034</idno>
-               <author>
-                  <persName>Edgeworth, Maria, 1768-1849</persName>
-                  <idno type="VIAF">http://viaf.org/viaf/315684946</idno>
-               </author>
-            </bibl>
-            <bibl xml:id="Theat1">
-               <title>The Theater of Education</title>
-               <title>
-                  <foreign>Le Théâtre d'Éducation au XVIIIe Siècle</foreign>
-               </title>
-               <idno>https://www.wikidata.org/wiki/Q80225006</idno>
-               <author>
-                  <persName>Genlis, Stéphanie Félicité, comtesse de, 1746-1830</persName>
-                  <idno type="VIAF">http://viaf.org/viaf/71391471</idno>
-               </author>
-            </bibl>
-            <bibl xml:id="Theor1">
-               <title>The Theory of Moral Sentiments</title>
-               <idno>https://www.wikidata.org/wiki/Q1438448</idno>
-               <author>
-                  <persName>Smith, Adam, 1723-1790</persName>
-               </author>
-            </bibl>
-            <bibl xml:id="Tomor1">
-               <title>Tomorrow; or the Dangers of Delay</title>
-               <idno>https://www.wikidata.org/wiki/Q80225042</idno>
-               <author>
-                  <persName>Edgeworth, Maria, 1768-1849</persName>
-                  <idno type="VIAF">http://viaf.org/viaf/315684946</idno>
-               </author>
-            </bibl>
-            <bibl xml:id="Waver1">
-               <title>Waverley</title>
-               <idno>https://www.wikidata.org/wiki/Q678251</idno>
-               <author>
-                  <persName>Scott, Walter, 1771-1832</persName>
-                  <idno type="VIAF">http://viaf.org/viaf/95207079</idno>
-               </author>
-            </bibl>
-            <bibl xml:id="Young1">
-               <title>The Young Christian</title>
-            </bibl>
-            <bibl xml:id="Resid1">
-               <title>Rush's Residence at the Court of London, second series/volume</title>
-               <author>
-                  <persName>Richard Rush, 1780-1859</persName>
-                  <idno type="VIAF">http://viaf.org/viaf/17595732</idno>
-               </author>
-            </bibl>
-            <bibl xml:id="Ennui1">
-               <title>Ennui</title>
-               <author>
-                  <persName>Edgeworth, Maria, 1768-1849</persName>
-                  <idno type="VIAF">http://viaf.org/viaf/315684946</idno>
-               </author>
-            </bibl>
-            <bibl xml:id="Woman1">
-               <title>The Woman of the World</title>
-               <author>
-                  <persName>Catherine Grace Frances Gore</persName>
-                  <idno type="VIAF">http://viaf.org/viaf/74020526</idno>
-               </author>
-            </bibl>
-            <bibl xml:id="Reliq1">
-               <title>Reliques of Ancient English Poetry</title>
-               <idno>https://www.wikidata.org/wiki/Q2142806</idno>
-               <author>
-                  <persName>Thomas Percy</persName>
-                  <idno type="VIAF">http://viaf.org/viaf/68971787</idno>
-               </author>
-            </bibl>
-         </listBibl>
-      </body>
-   </text>
+            <listBibl>
+                <bibl xml:id="Absen1"><title>The
+                        Absentee</title><idno>https://www.wikidata.org/wiki/Q7712149</idno><author><persName>Edgeworth,
+                            Maria, 1768-1849</persName><idno type="VIAF"
+                            >http://viaf.org/viaf/315684946</idno></author></bibl>
+                <bibl xml:id="Accou1"><title>Account of the Life and Writings of William
+                        Robertson</title><author><persName>Stewart, Dugald,
+                            1753-1828</persName><idno type="VIAF"
+                            >http://viaf.org/viaf/27111748</idno></author></bibl>
+                <bibl xml:id="Adela1"><title>Adelaide and Theodore, or Letters on
+                            Education</title><title><foreign>Adèle et Théodore, ou Lettres sur
+                            l'Education</foreign></title><author><persName>Genlis, Stéphanie
+                            Félicité, comtesse de, 1746-1830</persName><idno type="VIAF"
+                            >http://viaf.org/viaf/71391471</idno></author></bibl>
+                <bibl xml:id="Adven1"><title>The Adventures Of Hajji Baba Of
+                        Ispahan</title><idno>https://www.wikidata.org/wiki/Q6409749</idno><author><persName>Morier,
+                            James Justinian, 1780?-1849</persName><idno type="VIAF"
+                            >http://viaf.org/viaf/54151785</idno></author></bibl>
+                <bibl xml:id="AFath1"><title>A Father's Legacy to His
+                        Daughters</title><idno>https://www.wikidata.org/wiki/Q108777419</idno><author><persName>Gregory,
+                            Dr. John 1724-1773</persName><idno type="VIAF"
+                            >http://viaf.org/viaf/14799615</idno></author></bibl>
+                <bibl xml:id="Alonzo1"><title><foreign>Don Alonzo; ou, L'Espagne; histoire
+                            contemporaine</foreign></title><author><persName>Salvandy, Narcisse
+                            Achille de 1795-1856</persName><idno type="VIAF"
+                            >http://viaf.org/viaf/39510411</idno></author></bibl>
+                <bibl xml:id="Ameri1"><title>American Journal of Science and Arts [alternatively
+                        known as Sillimans
+                        Journal]</title><idno>https://www.wikidata.org/wiki/Q22305255</idno><author><persName>Silliman,
+                            Benjamin, Sr., 1779-1864</persName><idno type="VIAF"
+                            >http://viaf.org/viaf/10644545</idno></author></bibl>
+                <bibl xml:id="AmiEn1"><title><foreign>L'Ami des
+                        Enfans</foreign></title><idno>https://www.wikidata.org/wiki/Q21211649</idno><author><persName>Berquin,
+                            Arnaud, 1747-1791</persName><idno type="VIAF"
+                            >http://viaf.org/viaf/100160188</idno></author></bibl>
+                <bibl xml:id="Ancie1"><title>The Ancient History of the Egyptians, Carthaginians,
+                        Assyrians, Babylonians, Medes and Persians, Macedonians and Grecians,
+                        translated from the French in seven volumes</title><author><persName>Rollin,
+                            Charles (1661-1741)</persName><idno type="VIAF"
+                            >http://viaf.org/viaf/2450402</idno></author></bibl>
+                <bibl xml:id="Anecd1"><title><foreign>Anecdotes Historiques, Militaires et
+                            Politiques de l'Europe</foreign></title><author><persName>Raynal, abbé
+                            (Guillaume-Thomas-François), 1713-1796</persName><idno type="VIAF"
+                            >http://viaf.org/viaf/89354395</idno></author></bibl>
+                <bibl xml:id="Annal1"><title>Annals of the Reign of King George the
+                            Third</title><author><persName>Aikin, John, 1747-1822</persName><idno
+                            type="VIAF">http://viaf.org/viaf/59180443</idno></author></bibl>
+                <bibl xml:id="Annal2"><title>The Annals of Virtue</title><title><foreign>Les Annales
+                            de la Vertu</foreign></title><author><persName>Genlis, Stéphanie
+                            Félicité, comtesse de, 1746-1830</persName><idno type="VIAF"
+                            >http://viaf.org/viaf/71391471</idno></author></bibl>
+                <bibl xml:id="AnneG1"><title>Anne of Geierstein, or The Maiden of the
+                        Mist</title><idno>https://www.wikidata.org/wiki/Q2851345</idno><author><persName>Walter,
+                            Scott</persName><idno type="VIAF"
+                        >http://viaf.org/viaf/95207079</idno></author></bibl>
+                <bibl xml:id="Antici1"><title>Anticipation: or, the
+                            Countess</title><author><persName>Edgeworth, Maria,
+                            1768-1849</persName><idno type="VIAF"
+                            >http://viaf.org/viaf/315684946</idno></author></bibl>
+                <bibl xml:id="Antiq1"><title>The
+                        Antiquary</title><idno>https://www.wikidata.org/wiki/Q1157183</idno><author><persName>Walter,
+                            Scott</persName><idno type="VIAF"
+                        >http://viaf.org/viaf/95207079</idno></author></bibl>
+                <bibl xml:id="Arabi1"><title>Arabian
+                        Tales</title><idno>https://www.wikidata.org/wiki/Q110214248</idno></bibl>
+                <bibl xml:id="Artic1"><title>Articles in Varieties in Monthly Magazine, February
+                        1818</title></bibl>
+                <bibl xml:id="Athen1"><title>The Athentian
+                        Captive</title><idno>https://www.wikidata.org/wiki/Q110355491</idno><author><persName>Talfourd,
+                            Thomas Noon, 1795-1854</persName><idno type="VIAF"
+                            >http://viaf.org/viaf/61904095</idno></author></bibl>
+                <bibl xml:id="Barna1"><title>Unidentified work containing the stories of Pierre,
+                        Pierrette, and Marguerite, translated by Lucy Jane Edgeworth
+                        Robinson</title><author><persName>Durosoy, Barnabé Farmian
+                            1745-1792</persName><idno type="VIAF"
+                            >http://viaf.org/viaf/32040299</idno></author><ref corresp="Barna1"
+                            ><bibl xml:id="Pierr1"><title>Pierre</title></bibl></ref><ref
+                        corresp="Barna1"><bibl xml:id="Pierr2"
+                        ><title>Pierrette</title></bibl></ref><ref corresp="Barna1"><bibl
+                            xml:id="Margu1"><title>Marguerite</title></bibl></ref></bibl>
+                <bibl xml:id="Bath1"><title>The New Bath Guide: or, Memoirs of the B-R-D
+                        Family</title><idno>https://www.wikidata.org/wiki/Q42193424</idno><author><persName>Christopher
+                            Antsey, 1724-1805</persName></author></bibl>
+                <bibl xml:id="Belin1"
+                        ><title>Belinda</title><idno>https://www.wikidata.org/wiki/Q2894491</idno><author><persName>Edgeworth,
+                            Maria, 1768-1849</persName><idno type="VIAF"
+                            >http://viaf.org/viaf/315684946</idno></author></bibl>
+                <bibl xml:id="Bentl1"><title>Bentley's
+                        Miscellany</title><idno>https://www.wikidata.org/wiki/Q2896754</idno><author><persName>Bentley,
+                            Richard, 1794-1871</persName><idno type="VIAF"
+                            >http://viaf.org/viaf/30279325</idno></author></bibl>
+                <bibl xml:id="Berth1"><title>Bertha's Journal During a Visit to Her Uncle in
+                        England</title><author><persName>Marcet, Mrs. (Jane Haldimand),
+                            1769-1858</persName><idno type="VIAF"
+                            >http://viaf.org/viaf/44549255</idno></author></bibl>
+                <bibl xml:id="Bibli2"><title>British Library</title><title><foreign>Bibliothèque
+                            Britannique</foreign></title><idno>https://www.wikidata.org/wiki/Q2901323</idno><author><persName>periodical</persName></author></bibl>
+                <bibl xml:id="Bibli1"><title>Village Stories</title><title><foreign>Bibliotheque de
+                            village</foreign></title><author><persName>Berquin, Arnaud,
+                            1747-1791</persName><idno type="VIAF"
+                            >http://viaf.org/viaf/100160188</idno></author></bibl>
+                <bibl xml:id="BritRe1"><title>The British Review, and London Critical
+                        Journal</title><idno>https://www.wikidata.org/wiki/Q68672023</idno><author><persName>various</persName></author></bibl>
+                <bibl xml:id="Botan1"><title>Botany &amp; Entymology</title></bibl>
+                <bibl xml:id="Buria1"><title>"The Burial of Sir John Moore after
+                            Corunna"</title><author><persName>Wolfe, Charles,
+                            1791-1823</persName><idno type="VIAF"
+                            >http://viaf.org/viaf/61813744</idno></author></bibl>
+                <bibl xml:id="Castl1"><title>Castle
+                        Rackrent</title><idno>https://www.wikidata.org/wiki/Q5050238</idno><author><persName>Edgeworth,
+                            Maria, 1768-1849</persName><idno type="VIAF"
+                            >http://viaf.org/viaf/315684946</idno></author></bibl>
+                <bibl xml:id="Cecil1"><title>Cecila, Or, Memoirs of an
+                            Heiress</title><author><persName>Burney, Frances (Fanny),
+                            1752-1840</persName><idno type="VIAF"
+                            >http://viaf.org/viaf/95297439</idno></author></bibl>
+                <bibl xml:id="Chamb1"><title>"Chambers"</title></bibl>
+                <bibl xml:id="Chris1"><title>The Christmas Box: An Annual Present for
+                        Children</title><author><persName>T. Crofton Croker (editor)</persName><idno
+                            type="VIAF">http://viaf.org/viaf/8122395</idno></author></bibl>
+                <bibl xml:id="Child1"><title>Childe Harold's
+                        Pilgrimage</title><idno>https://www.wikidata.org/wiki/Q1072741</idno><author><persName>Byron,
+                            George Gordon Byron, Baron, 1788-1824</persName><idno type="VIAF"
+                            >http://viaf.org/viaf/95230688</idno></author></bibl>
+                <bibl xml:id="Circo1"><title><foreign>Des Circonstances Actuelles qui Peuvent
+                            Terminer la Révolution et des Principes qui Doivent Fonder la République
+                            en France</foreign></title><author><persName>Staël, Madame de
+                            (Anne-Louise-Germaine), 1766-1817</persName><idno type="VIAF"
+                            >http://viaf.org/viaf/89204033</idno></author></bibl>
+                <bibl xml:id="Chron1"><title>Chronicles of the
+                        Canongate</title><idno>https://www.wikidata.org/wiki/Q17352486</idno><author><persName>Scott,
+                            Walter, Sir, 1771-1832</persName><idno type="VIAF"
+                            >http://viaf.org/viaf/95207079</idno></author></bibl>
+                <bibl xml:id="Cityo1"><title>City of the
+                        Plague</title><idno>https://www.loc.gov/item/29024281/</idno><author><persName>Wilson,
+                            John, 1785-1854</persName></author></bibl>
+                <bibl xml:id="Colle1"><title>A Collection of the Miscellaneous Writings of Professor
+                        Frisbie</title><author><persName>Frisbie, Levi, 1783-1822</persName><idno
+                            type="VIAF"
+                            >http://viaf.org/viaf/66830202</idno></author><author><persName>Norton,
+                            Andrews, 1786-1853</persName><idno type="VIAF"
+                            >http://viaf.org/viaf/69698265/</idno></author></bibl>
+                <bibl xml:id="Comic1"><title>Comic Dramas, in Three
+                        Acts</title><idno>https://www.wikidata.org/wiki/Q78219472</idno><author><persName>Edgeworth,
+                            Maria, 1768-1849</persName><idno type="VIAF"
+                            >http://viaf.org/viaf/315684946</idno></author></bibl>
+                <bibl xml:id="Const1"><title>Constancy and Contrition, vol.
+                            I-III</title><author><persName>Anonymous</persName></author></bibl>
+                <bibl xml:id="Conve1"><title>Conversations on Vegetable Physiology : Comprehending
+                        the Elements of Botany, with their Application to
+                            Agriculture</title><author><persName>Marcet, Mrs. (Jane Haldimand),
+                            1769-1858</persName><idno type="VIAF"
+                            >http://viaf.org/viaf/44549255</idno></author></bibl>
+                <bibl xml:id="Cotta1"><title>Cottage Dialogues Among the Irish
+                        Peasantry</title><idno>https://www.wikidata.org/wiki/Q80024115</idno><author><persName>Leadbeater,
+                            Mary, 1758-1826</persName><idno type="VIAF"
+                            >http://viaf.org/viaf/57977374</idno></author></bibl>
+                <bibl xml:id="Craft1"><title>The
+                        Craftsman</title><idno>https://www.wikidata.org/wiki/Q9357909</idno><author><persName>Established
+                            by Lord Bolingbroke and William Pulteney</persName><idno type="VIAF"
+                            >http://viaf.org/en/viaf/61539796
+                            http://viaf.org/en/viaf/68924186</idno></author></bibl>
+                <bibl xml:id="Cyclo1"><title>Rees's
+                        Cyclopædia</title><idno>https://www.wikidata.org/wiki/Q2916259</idno><author><persName>Rees,
+                            Abraham, 1743-1825 (Editor)</persName><idno type="VIAF"
+                            >http://viaf.org/en/viaf/76753602</idno></author></bibl>
+                <bibl xml:id="Damon1"><title>Damon and
+                        Pythias</title><idno>https://www.wikidata.org/wiki/Q901481</idno></bibl>
+                <bibl xml:id="Dange1"><title>The Dangers of the World</title><title><foreign>Les
+                            Dangers du Monde</foreign></title><author><persName>Genlis, Stéphanie
+                            Félicité, comtesse de, 1746-1830</persName><idno type="VIAF"
+                            >http://viaf.org/viaf/71391471</idno></author></bibl>
+                <bibl xml:id="Dicti1"><title>Dictionary of the French
+                            Academy</title><title><foreign>Dictionnaire de l'Académie
+                            Française</foreign></title></bibl>
+                <bibl xml:id="Dicti2"><title>A Dictionary of the English
+                            Language</title><author><persName>Johnson, Samuel,
+                            1709-1784</persName><idno type="VIAF"
+                            >http://viaf.org/viaf/7406725</idno></author></bibl>
+                <bibl xml:id="Drumm1"><title>The Drummer; or, The Haunted House. A
+                            Comedy.</title><author><persName>Addison, Joseph,
+                            1672-1719</persName><idno type="VIAF"
+                            >http://viaf.org/viaf/7413288</idno></author></bibl>
+                <bibl xml:id="Early1"><title>Early
+                        Lessons</title><idno>https://www.wikidata.org/wiki/Q80031478</idno><author><persName>Edgeworth,
+                            Maria, 1768-1849</persName><idno type="VIAF"
+                            >http://viaf.org/viaf/315684946</idno></author><ref corresp="Early1"
+                            ><bibl xml:id="Robin1"><title>The Robin's
+                                Petition</title><idno>https://www.wikidata.org/wiki/Q80031478</idno></bibl></ref></bibl>
+                <bibl xml:id="Early2"><title>Continuation of Early
+                        Lessons</title><idno>https://www.wikidata.org/wiki/Q80031478</idno><author><persName>Edgeworth,
+                            Maria, 1768-1849</persName><idno type="VIAF"
+                            >http://viaf.org/viaf/315684946</idno></author></bibl>
+                <bibl xml:id="Edinb1"><title>The Edinburgh
+                        Encyclopaedia</title><idno>https://www.wikidata.org/wiki/Q51467461</idno><author><persName>Brewster,
+                            David, 1781-1868</persName><idno type="VIAF"
+                            >http://viaf.org/viaf/2774127</idno></author></bibl>
+                <bibl xml:id="Encyc1"><title>Encyclopædia
+                        Britannica</title><idno>https://www.wikidata.org/wiki/Q455</idno></bibl>
+                <bibl xml:id="Encyc2"
+                            ><title>Encyclopédie</title><title><foreign>Encyclopédie</foreign></title><idno>https://www.wikidata.org/wiki/Q447</idno><author><persName>Diderot,
+                            Denis</persName><idno type="VIAF"
+                        >http://viaf.org/viaf/54146831</idno></author><ref corresp="Encyc2"><bibl
+                            xml:id="Eloqu1"><title>Eloquence</title><author><persName>Voltaire,
+                                    1694-1778</persName><idno type="VIAF"
+                                    >http://viaf.org/viaf/36925746</idno></author></bibl></ref></bibl>
+                <bibl xml:id="Essay2"><title>Essay on Construction of Roads and
+                            Carriages</title><author><persName>Edgeworth, Richard Lovell,
+                            1744-1817</persName><idno type="VIAF"
+                            >http://viaf.org/viaf/66511092</idno></author></bibl>
+                <bibl xml:id="Essay1"><title>Essay on Irish
+                        Bulls</title><idno>https://www.wikidata.org/wiki/Q80225011</idno><author><persName>Edgeworth,
+                            Maria, 1768-1849</persName><idno type="VIAF"
+                            >http://viaf.org/viaf/315684946</idno></author></bibl>
+                <bibl xml:id="Eveli1"><title>Evelina; or, The History of a Young Lady's Entrance
+                        Into the
+                            World</title><idno>https://www.wikidata.org/wiki/Q1635110</idno><author><persName>Burney,
+                            Frances (Fanny), 1752-1840</persName><idno type="VIAF"
+                            >http://viaf.org/viaf/95297439</idno></author></bibl>
+                <bibl xml:id="Fragm1"><title>Fragments of Voyages and Travels, Including Anecdotes
+                        of a Naval Life</title><author><persName>Hall, Basil</persName><idno
+                            type="VIAF">http://viaf.org/viaf/5019799</idno></author></bibl>
+                <bibl xml:id="Frank1"><title>Frank: a Sequel to Frank in Early
+                        Lessons</title><idno>https://www.wikidata.org/wiki/Q80225013</idno><author><persName>Edgeworth,
+                            Maria, 1768-1849</persName><idno type="VIAF"
+                            >http://viaf.org/viaf/315684946</idno></author></bibl>
+                <bibl xml:id="Frien1"><title>Friendship's
+                        Offering</title><idno>https://id.loc.gov/resources/works/5914795</idno><author><persName>Hervey,
+                            Thomas Kibble, 1799-1859</persName></author></bibl>
+                <bibl xml:id="Garry1"><title>Garry Owen; or, The Snow-Woman; and Poor Bob, the
+                        Chimney-Sweeper</title><author><persName>Edgeworth, Maria,
+                            1768-1849</persName><idno type="VIAF"
+                            >http://viaf.org/viaf/315684946</idno></author></bibl>
+                <bibl xml:id="Gathe1"><title>Gatherings from Spain</title><author><persName>Ford,
+                            Richard, 1796-1858</persName><idno type="VIAF"
+                            >http://viaf.org/viaf/49427515</idno></author></bibl>
+                <bibl xml:id="Gentl1"><title>The Gentle Shepherd</title><author><persName>Ramsay,
+                            Allan, 1686-1758</persName><idno type="VIAF"
+                            >http://viaf.org/viaf/77108557</idno></author></bibl>
+                <bibl xml:id="Glena1"><title>Glenavon</title></bibl>
+                <bibl xml:id="Grant1"><title>Granting for Granted</title></bibl>
+                <bibl xml:id="GuyMa1"><title>Guy Mannering</title><author><persName>Scott, Walter,
+                            Sir, 1771-1832</persName><idno type="VIAF"
+                            >http://viaf.org/viaf/95207079</idno></author></bibl>
+                <bibl xml:id="Hamle1"
+                        ><title>Hamlet</title><idno>https://www.wikidata.org/wiki/Q41567</idno><author><persName>Shakespeare,
+                            William, 1564-1616</persName><idno type="VIAF"
+                            >http://viaf.org/viaf/96994048</idno></author></bibl>
+                <bibl xml:id="Harri1"><title>Harrington, a Tale; and Ormond, a
+                        Tale</title><idno>https://www.wikidata.org/wiki/Q16385930</idno><author><persName>Edgeworth,
+                            Maria, 1768-1849</persName><idno type="VIAF"
+                            >http://viaf.org/viaf/315684946</idno></author></bibl>
+                <bibl xml:id="Harry1"><title>Harry and Lucy Concluded: Being the Last Part of Early
+                        Lessons</title><idno>https://www.wikidata.org/wiki/Q80225018</idno><author><persName>Edgeworth,
+                            Maria, 1768-1849</persName><idno type="VIAF"
+                            >http://viaf.org/viaf/315684946</idno></author></bibl>
+                <bibl xml:id="Helen1"
+                        ><title>Helen</title><idno>https://www.wikidata.org/wiki/Q16385982</idno><author><persName>Edgeworth,
+                            Maria, 1768-1849</persName><idno type="VIAF"
+                            >http://viaf.org/viaf/315684946</idno></author></bibl>
+                <bibl xml:id="Hesio1"><title>Hesiod: or, the Rise of
+                            Woman</title><author><persName>Parnell, Thomas,
+                            1679-1718</persName><idno type="VIAF"
+                            >http://viaf.org/viaf/32041540</idno></author></bibl>
+                <bibl xml:id="Histo1"><title>History of the Conquest of Mexico, with a Preliminary
+                        View of the Ancient Mexican Civilization, and the Life of the Conqueror,
+                        Hernando
+                            Cortez</title><idno>https://www.wikidata.org/wiki/Q42191085</idno><author><persName>Prescott,
+                            William Hickling, 1796-1859</persName><idno type="VIAF"
+                            >http://viaf.org/viaf/14775490</idno></author></bibl>
+                <bibl xml:id="Histo2"><title>The History of Scotland, volume
+                            II</title><author><persName>Scott, Walter, Sir,
+                            1771-1832</persName><idno type="VIAF"
+                            >http://viaf.org/viaf/95207079</idno></author></bibl>
+                <bibl xml:id="HolyB1"><title>The Holy Bible: Newly Translated from the Original
+                        Hebrew, with Notes Critical and
+                            Explanatory</title><author><persName>Bellamy, John,
+                            1755-1842</persName><idno type="VIAF"
+                            >http://viaf.org/viaf/66319206</idno></author></bibl>
+                <bibl xml:id="Horac1"><title>Horace in London: Consisting of Imitations of the First
+                        Two Books of the Odes of Horace</title><author><persName>Smith, James,
+                            1775-1839</persName><idno type="VIAF"
+                            >http://viaf.org/viaf/32164295</idno></author><author><persName>Smith,
+                            Horace, 1779-1849</persName><idno type="VIAF"
+                            >https://viaf.org/viaf/207338554</idno></author></bibl>
+                <bibl xml:id="Janus1"><title>Janus; or, Edinburgh Literary
+                        Review</title><idno>https://lccn.loc.gov/20008548</idno><author><persName>Lockhart,
+                            J. G. (John Gibson), 1794-1854</persName></author></bibl>
+                <bibl xml:id="Journ1"><title>Journey through
+                            Albania</title><author><persName>Hobhouse, John Cam, 1st baron
+                            Broughton, 1786-1869</persName><idno type="VIAF"
+                            >http://viaf.org/viaf/56611273</idno></author></bibl>
+                <bibl xml:id="Julia1"><title>Julia de Roubigné, a Sentimental Novel. In a Series of
+                        Letters.</title><idno>https://www.wikidata.org/wiki/Q110364540</idno><author><persName>Mackenzie,
+                            Henry, 1745-1831</persName><idno type="VIAF"
+                            >http://viaf.org/viaf/12354244</idno></author></bibl>
+                <bibl xml:id="Karam1"><title>Karamania or a Brief Description of the South Coast of
+                        Asia-Minor and of 1818</title><author><persName>Beaufort, Francis, Sir,
+                            1774-1857</persName><idno type="VIAF"
+                            >http://viaf.org/viaf/42580519</idno></author></bibl>
+                <bibl xml:id="Knigh1"><title>The Knight of Gwynne</title><author><persName>Lever,
+                            Charles James, 1806-1872</persName><idno type="VIAF"
+                            >http://viaf.org/viaf/32083550</idno></author></bibl>
+                <bibl xml:id="Ladyo1"><title>The Lady of the
+                        Lake</title><idno>https://www.wikidata.org/wiki/Q2456670</idno><author><persName>Scott,
+                            Walter, 1771-1832</persName></author></bibl>
+                <bibl xml:id="Ladys1"><title>Lady's Remembrancer</title></bibl>
+                <bibl xml:id="LastM1"><title>The Last of the Mohicans: A Narrative of
+                            1757</title><author><persName>Cooper, James Fenimore,
+                            1789-1851</persName><idno type="VIAF"
+                            >http://viaf.org/viaf/27062769</idno></author></bibl>
+                <bibl xml:id="Legen1"><title>A Legend of
+                        Montrose</title><idno>https://www.wikidata.org/wiki/Q3549611</idno><author><persName>Scott,
+                            Walter, Sir, 1771-1832</persName><idno type="VIAF"
+                            >http://viaf.org/viaf/95207079</idno></author></bibl>
+                <bibl xml:id="Leono1"
+                        ><title>Leonora</title><idno>https://www.wikidata.org/wiki/Q6526682</idno><author><persName>Edgeworth,
+                            Maria, 1768-1849</persName><idno type="VIAF"
+                            >http://viaf.org/viaf/315684946</idno></author></bibl>
+                <bibl xml:id="Lette3"><title>Letters and Journals of Lord Byron: with Notices of His
+                        Life, by Thomas Moore</title><author><persName>Byron, George Gordon Byron,
+                            baron, 1788-1824</persName><idno type="VIAF"
+                            >http://viaf.org/viaf/95230688</idno></author></bibl>
+                <bibl xml:id="Lette1"><title>Letters for Literary
+                        Ladies</title><idno>https://www.wikidata.org/wiki/Q80225019</idno><author><persName>Edgeworth,
+                            Maria, 1768-1849</persName><idno type="VIAF"
+                            >http://viaf.org/viaf/315684946</idno></author></bibl>
+                <bibl xml:id="Lette2"><title>The letters and works of Lady Mary Wortley Montagu
+                        Edited by her great-grandson Lord
+                        Wharncliffe</title><idno>https://www.wikidata.org/wiki/Q23654021</idno><author><persName>Montagu,
+                            Mary Wortley, Lady, 1689-1762</persName><idno type="VIAF"
+                            >http://viaf.org/viaf/7394587</idno></author></bibl>
+                <bibl xml:id="Lette4"><title>A Letter to the Dublin Society Relative to Experiments
+                        on Wheel
+                        Carriages</title><idno>https://www.wikidata.org/wiki/Q114638338</idno><author><persName>Edgeworth,
+                            Richard Lovell, 1744-1817</persName><idno type="VIAF"
+                            >http://viaf.org/viaf/66511092</idno></author></bibl>
+                <bibl xml:id="LifeL1"><title>The Life of Lorenzo de' Medici, Called the
+                        Magnificent</title><author><persName>Roscoe, William,
+                            1753-1831</persName><idno type="VIAF"
+                            >http://viaf.org/viaf/15550259</idno></author></bibl>
+                <bibl xml:id="LifeN1"><title>The Life of Napoleon Buonaparte, Emperor of the
+                        French</title><title><foreign>Vie De Napoléon
+                            Buonaparte</foreign></title><author><persName>Scott, Walter,
+                            1771-1832</persName><idno type="VIAF"
+                            >http://viaf.org/viaf/95207079</idno></author></bibl>
+                <bibl xml:id="LitGa1"><title>The Literary Gazette and Journal of the Belles
+                        Lettres</title><idno>https://www.wikidata.org/wiki/Q6647602</idno><author><persName>Henry
+                            Coulburn, ?-1855 (founder)</persName><idno type="VIAF"
+                            >http://viaf.org/viaf/90644401</idno></author></bibl>
+                <bibl xml:id="Littl1"><title>Little Plays for
+                            Children</title><author><persName>Edgeworth, Maria,
+                            1768-1849</persName><idno type="VIAF"
+                            >http://viaf.org/viaf/315684946</idno></author></bibl>
+                <bibl xml:id="Lordo1"><title>The Lord of the Isles</title><author><persName>Scott,
+                            Walter, 1771-1832</persName><idno type="VIAF"
+                            >http://viaf.org/viaf/95207079</idno></author></bibl>
+                <bibl xml:id="Loung1"><title>The
+                            Lounger</title><author><persName>Periodical</persName></author></bibl>
+                <bibl xml:id="Lucia1"><title>The Lusiads</title><title><foreign>Os
+                            Lusíadas</foreign></title><idno>https://www.wikidata.org/wiki/Q781898</idno><author><persName>Camões,
+                            Luís de, 1524?-1580</persName><idno type="VIAF"
+                            >http://viaf.org/viaf/34454091</idno></author></bibl>
+                <bibl xml:id="Macbe1"
+                        ><title>Macbeth</title><idno>https://www.wikidata.org/wiki/Q130283</idno><author><persName>Shakespeare,
+                            William, 1564-1616</persName><idno type="VIAF"
+                            >http://viaf.org/viaf/96994048</idno></author></bibl>
+                <bibl xml:id="Melan1"><title>Literature Mixtures</title><title><foreign>Mélanges de
+                            littérature</foreign></title><author><persName>Jean Baptise Antoine
+                            Suard</persName><idno type="VIAF"
+                        >http://viaf.org/viaf/89808442</idno></author></bibl>
+                <bibl xml:id="Memoi7"><title>Memoirs of Colonel George
+                            Turnbull</title><author><persName>Turnbull, Lieut. Col. George, 1729 -
+                            1810</persName></author></bibl>
+                <bibl xml:id="Memoi6"><title>Memoirs Of Count Lally: From His Embarking for the East
+                        Indies, as Commander in Chief of the French Forces in that Country, to His
+                        Being Sent Prisoner of War to England</title><title><foreign>Mémoire pour
+                            le comte de Lally, Lieutenant-Général des Armées du Roi, Grand-Croix
+                            de l'Ordre Royal &amp; Militaire de Saint-Louis, ci-devant Colonel d'un
+                            Régiment Irlandois de son nom, Commissaire du Roi &amp; Commandant en Chef
+                            dans l'Inde : contre Monsieur le
+                            Procureur-Général.</foreign></title><author><persName>Lally-Tolendal,
+                            Trophime-Gérard, marquis de, 1751-1830</persName><idno type="VIAF"
+                            >http://viaf.org/viaf/122120074</idno></author></bibl>
+                <bibl xml:id="Memoi1"><title>Memoirs of Richard Lovell Edgeworth, Esq Begun by
+                        Himself, and Concluded by His Daughter, Maria
+                            Edgeworth</title><author><persName>Edgeworth, Richard Lovell,
+                            1744-1817</persName><idno type="VIAF"
+                            >http://viaf.org/viaf/66511092</idno></author><author><persName>Edgeworth,
+                            Maria, 1768-1849</persName><idno type="VIAF"
+                            >http://viaf.org/viaf/71477273</idno></author></bibl>
+                <bibl xml:id="Memoi2"><title>Memoirs of the Court of Queen
+                        Elizabeth</title><idno>https://www.wikidata.org/wiki/Q80224914</idno></bibl>
+                <bibl xml:id="Memoi3"><title>Memoirs of the Life and Writings of Victor
+                        Alfieri</title><author><persName>Alfieri, Vittorio,
+                            1749-1803</persName><idno type="VIAF"
+                            >http://viaf.org/viaf/39389587</idno></author></bibl>
+                <bibl xml:id="Memoi11"><title>Memoirs of the Life of Dr.
+                            Darwin</title><author><persName>Seward, Anna, 1742-1809</persName><idno
+                            type="VIAF">http://viaf.org/viaf/27208300</idno></author></bibl>
+                <bibl xml:id="Memoi8"><title>Memoirs of the Life of Sir Walter Scott,
+                            Bart</title><author><persName>Lockhart, J.G. (John Gibson),
+                            1794-1854</persName><idno type="VIAF"
+                            >http://viaf.org/viaf/32120479</idno></author></bibl>
+                <bibl xml:id="Memoi4"><title>Memoirs of the Life of William Collins, Esq., R.
+                        A.</title><author><persName>Collins, Wilkie, 1824-1889</persName><idno
+                            type="VIAF">http://viaf.org/viaf/95173526</idno></author></bibl>
+                <bibl xml:id="Memoi5"><title>Memoirs of the Abbe Edgeworth: Containing His Narrative
+                        of the Last Hours Of Louis XVI</title><author><persName>Edgeworth, Charles
+                            Sneyd, 1786-1864</persName><idno type="VIAF"
+                            >http://viaf.org/viaf/47115638</idno></author></bibl>
+                <bibl xml:id="Memoi10"><title>Memoirs of Sir William
+                            Knighton</title><author><persName>Knighton, Sir William
+                            (1776-1836)</persName><idno type="VIAF"
+                            >http://viaf.org/viaf/25382261</idno></author></bibl>
+                <bibl xml:id="Memoi9"><title>Memoirs of the Life of Richard Brinsley
+                        Sheridan</title><idno>https://www.wikidata.org/wiki/Q6815289</idno><author><persName>Moore,
+                            Thomas, 1779-1852</persName><idno type="VIAF"
+                            >http://viaf.org/viaf/24616222</idno></author></bibl>
+                <bibl xml:id="Merry1"><title>The Merry Wives of
+                        Windsor</title><idno>https://www.wikidata.org/wiki/Q844836</idno><author><persName>Shakespeare,
+                            William</persName><idno type="VIAF"
+                        >http://viaf.org/viaf/96994048</idno></author></bibl>
+                <bibl xml:id="Mexic1"><title>Mexico in
+                        1827</title><idno>https://www.wikidata.org/wiki/Q19041009</idno><author><persName>Ward,
+                            Sir Henry George, 1797-1860</persName><idno type="VIAF"
+                            >http://viaf.org/viaf/72174631</idno></author></bibl>
+                <bibl xml:id="Midsu1"><title>A Midsummer Night's
+                        Dream</title><idno>https://www.wikidata.org/wiki/Q104871</idno><author><persName>Shakespeare,
+                            William</persName><idno type="VIAF"
+                        >http://viaf.org/viaf/96994048</idno></author></bibl>
+                <bibl xml:id="Mirro1"><title>The Monthly
+                        Mirror</title><idno>https://www.wikidata.org/wiki/Q21187334</idno><author><persName>Periodical</persName></author></bibl>
+                <bibl xml:id="Moder1"><title>The Modern Griselda; a
+                        Tale</title><idno>https://www.wikidata.org/wiki/Q80225039</idno><author><persName>Edgeworth,
+                            Maria, 1768-1849</persName><idno type="VIAF"
+                            >http://viaf.org/viaf/315684946</idno></author></bibl>
+                <bibl xml:id="Moral1"><title>Moral Tales for Young
+                        People</title><idno>https://www.wikidata.org/wiki/Q80225023</idno><author><persName>Edgeworth,
+                            Maria, 1768-1849</persName><idno type="VIAF"
+                            >http://viaf.org/viaf/315684946</idno></author><ref corresp="Moral1"
+                            ><bibl xml:id="Knaps1"><title>The
+                                Knapsack</title><idno>https://www.wikidata.org/wiki/Q80031478</idno></bibl></ref><ref
+                        corresp="Moral1"><bibl xml:id="Fores1"
+                        ><title>Forester</title></bibl></ref><ref corresp="Moral1"><bibl
+                            xml:id="Pruss1"><title>The Prussian Vase</title></bibl></ref><ref
+                        corresp="Moral1"><bibl xml:id="GoodA1"><title>The Good
+                        Aunt</title></bibl></ref><ref corresp="Moral1"><bibl xml:id="Angel1"
+                                ><title>Angelina; or L'amie Inconnue</title></bibl></ref><ref
+                        corresp="Moral1"><bibl xml:id="GoodF1"><title>The Good French
+                                Governess</title></bibl></ref><ref corresp="Moral1"><bibl
+                            xml:id="Madem1"><title>Mademoiselle Panache</title></bibl></ref></bibl>
+                <bibl xml:id="Moral2"><title>Moral
+                        Tales</title><idno>https://www.wikidata.org/wiki/Q80225021</idno><author><persName>Edgeworth,
+                            Maria, 1768-1849</persName><idno type="VIAF"
+                            >http://viaf.org/viaf/315684946</idno></author></bibl>
+                <bibl xml:id="Moral3"><title>Moral Tales</title><title><foreign>Contes
+                            Moreaux</foreign></title><author><persName>Marmontel, Jean-François,
+                            1723-1799</persName><idno type="VIAF"
+                            >http://viaf.org/viaf/7393886</idno></author></bibl>
+                <bibl xml:id="Morni1"><title>The Morning
+                        Chronicle</title><idno>https://www.wikidata.org/wiki/Q2381797</idno><author><persName>Periodical</persName></author></bibl>
+                <bibl xml:id="MuchA1"><title>Much Ado About
+                        Nothing</title><idno>https://www.wikidata.org/wiki/Q130851</idno><author><persName>Shakespeare,
+                            William</persName><idno type="VIAF"
+                        >http://viaf.org/viaf/96994048</idno></author></bibl>
+                <bibl xml:id="North2"><title>North American
+                        Review</title><idno>https://www.wikidata.org/wiki/Q3344093</idno><author><persName>Periodical</persName></author></bibl>
+                <bibl xml:id="North1"><title>Northanger
+                        Abbey</title><idno>https://www.wikidata.org/wiki/Q477508</idno><author><persName>Austen,
+                            Jane, 1775-1817</persName><idno type="VIAF"
+                            >http://viaf.org/viaf/102333412</idno></author></bibl>
+                <bibl xml:id="Orlan1"><title>Orlandino: A Story of Self
+                            Denial</title><author><persName>Edgeworth, Maria,
+                            1768-1849</persName><idno type="VIAF"
+                            >http://viaf.org/viaf/315684946</idno></author></bibl>
+                <bibl xml:id="Orlan2"><title>The Frenzy of Orlando</title><title><foreign>Orlando
+                            Furioso</foreign></title><idno>https://www.wikidata.org/wiki/Q48922</idno><author><persName>Ariosto,
+                            Ludovico, 1474-1533</persName><idno type="VIAF"
+                            >http://viaf.org/viaf/71386455</idno></author></bibl>
+                <bibl xml:id="Ormon1"
+                        ><title>Ormond</title><idno>https://www.wikidata.org/wiki/Q7103428</idno><author><persName>Edgeworth,
+                            Maria, 1768-1849</persName><idno type="VIAF"
+                            >http://viaf.org/viaf/315684946</idno></author></bibl>
+                <bibl xml:id="Othel1"
+                        ><title>Othello</title><idno>https://www.wikidata.org/wiki/Q26833</idno><author><persName>Shakespeare,
+                            William</persName><idno type="VIAF"
+                        >http://viaf.org/viaf/96994048</idno></author></bibl>
+                <bibl xml:id="Paren1"><title>The Parent's Assistant, Or, Stories for
+                        Children</title><idno>https://www.wikidata.org/wiki/Q3522169</idno><author><persName>Edgeworth,
+                            Maria, 1768-1849</persName><idno type="VIAF"
+                            >http://viaf.org/viaf/315684946</idno></author><ref corresp="Paren1"
+                            ><bibl xml:id="Barri1"><title>The Barring Out</title></bibl></ref><ref
+                        corresp="Paren1"><bibl xml:id="LazyL1"><title>Lazy
+                        Lawrence</title></bibl></ref><ref corresp="Paren1"><bibl xml:id="Rivul1"
+                                ><title>Rivuletta</title></bibl></ref></bibl>
+                <bibl xml:id="Patch1"><title>Patchwork</title><author><persName>Hall, Basil,
+                            1788-1844</persName><idno type="VIAF"
+                            >http://viaf.org/viaf/5019799</idno></author></bibl>
+                <bibl xml:id="Patro1"
+                        ><title>Patronage</title><idno>https://www.wikidata.org/wiki/Q7148133</idno><author><persName>Edgeworth,
+                            Maria, 1768-1849</persName><idno type="VIAF"
+                            >http://viaf.org/viaf/315684946</idno></author></bibl>
+                <bibl xml:id="Pilot1"><title>The Pilot: A Tale of the
+                        Sea</title><idno>https://www.wikidata.org/wiki/Q4864923</idno><author><persName>Cooper,
+                            James Fenimore, 1789-1851</persName><idno type="VIAF"
+                            >http://viaf.org/viaf/27062769</idno></author></bibl>
+                <bibl xml:id="Pione1"><title>The Pioneers, or the Sources of Susquehanna; a
+                        Descriptive
+                            Tale</title><idno>https://www.wikidata.org/wiki/Q83438583</idno><author><persName>Cooper,
+                            James Fenimore, 1789-1851</persName><idno type="VIAF"
+                            >http://viaf.org/viaf/27062769</idno></author></bibl>
+                <bibl xml:id="Pirate1"><title>The
+                        Pirate</title><idno>https://www.wikidata.org/wiki/Q3225628</idno><author><persName>Scott,
+                            Walter, Sir, 1771-1832</persName><idno type="VIAF"
+                            >http://viaf.org/viaf/95207079</idno></author></bibl>
+                <bibl xml:id="Popul1"><title>Popular
+                        Tales</title><idno>https://www.wikidata.org/wiki/Q80225026</idno><author><persName>Edgeworth,
+                            Maria, 1768-1849</persName><idno type="VIAF"
+                            >http://viaf.org/viaf/315684946</idno></author><ref corresp="Popul1"
+                            ><bibl xml:id="Contr1"><title>The
+                                Contrast</title><idno>https://www.wikidata.org/wiki/Q80225037</idno></bibl></ref></bibl>
+                <bibl xml:id="Pract1"><title>Practical
+                        Education</title><idno>https://www.wikidata.org/wiki/Q7237318</idno><author><persName>Edgeworth,
+                            Maria, 1768-1849</persName><idno type="VIAF"
+                            >http://viaf.org/viaf/315684946</idno></author></bibl>
+                <bibl xml:id="Treat1"><title>The Preliminary Treatise</title></bibl>
+                <bibl xml:id="Proff1"><title>Professional
+                            Education</title><author><persName>Edgeworth, Richard Lovell,
+                            1744-1817</persName><idno type="VIAF"
+                            >http://viaf.org/viaf/66511092</idno></author><author><persName>Edgeworth,
+                            Maria, 1768-1849</persName><idno type="VIAF"
+                            >http://viaf.org/viaf/71477273</idno></author></bibl>
+                <bibl xml:id="Quart1"><title>Quarterly Review</title></bibl>
+                <bibl xml:id="Quent1"><title>Quentin
+                        Durward</title><idno>https://www.wikidata.org/wiki/Q2469230</idno><author><persName>Scott,
+                            Walter, Sir, 1771-1832</persName><idno type="VIAF"
+                            >http://viaf.org/viaf/95207079</idno></author></bibl>
+                <bibl xml:id="Rasse1"><title>The History of Rasselas, Prince of
+                            Abissinia</title><author><persName>Johnson, Samuel,
+                            1709-1784</persName><idno type="VIAF"
+                            >http://viaf.org/viaf/7406725</idno></author></bibl>
+                <bibl xml:id="Readi1"><title>Readings on
+                        Poetry</title><idno>https://www.wikidata.org/wiki/Q80225028</idno><author><persName>Edgeworth,
+                            Maria, 1768-1849</persName><idno type="VIAF"
+                            >http://viaf.org/viaf/315684946</idno></author></bibl>
+                <bibl xml:id="Refle1"><title>Reflections on the Subject of Emigration from
+                        Europe</title><author><persName>Carey, Mathew, 1760-1839</persName><idno
+                            type="VIAF">http://viaf.org/viaf/2526487</idno></author></bibl>
+                <bibl xml:id="Rehea1"><title>The
+                        Rehearsal</title><idno>https://www.wikidata.org/wiki/Q3212601</idno><author><persName>Buckingham,
+                            George Villiers, Duke of, 1628-1687</persName><idno type="VIAF"
+                            >http://viaf.org/viaf/41858327</idno></author></bibl>
+                <bibl xml:id="Rejec1"><title>Rejected
+                        Addresses</title><idno>https://www.wikidata.org/wiki/Q7310534</idno><author><persName>Smith,
+                            James, 1775-1839</persName></author><author><persName>Smith, Horatio,
+                            1779-1849</persName><idno type="VIAF"
+                            >http://viaf.org/viaf/207338554</idno></author></bibl>
+                <bibl xml:id="Remin1"><title>Reminiscences: Written in 1788, for the Amusement of
+                        Miss Mary and Miss Agnes B***y: Lord Orford's
+                            Reminiscences</title><author><persName>Walpole, Horace,
+                            1717-1797</persName><idno type="VIAF"
+                            >http://viaf.org/viaf/17231985</idno></author></bibl>
+                <bibl xml:id="Resea1"><title>Researches in Greece</title><author><persName>Leake,
+                            William Martin, 1777-1860</persName><idno type="VIAF"
+                            >http://viaf.org/viaf/27833332</idno></author></bibl>
+                <bibl xml:id="Revue1"><title><foreign>Revue
+                        encyclopédique</foreign></title><idno>https://www.wikidata.org/wiki/Q3428714</idno><author><persName>Jullien,
+                            Marc-Antoine, 1775-1848 (editor)</persName><idno type="VIAF"
+                            >http://viaf.org/viaf/76375537</idno></author></bibl>
+                <bibl xml:id="Rimin1"
+                        ><title>Rimini</title><idno>https://www.wikidata.org/wiki/Q7766791</idno><author><persName>Hunt,
+                            Leigh, 1784-1859</persName><idno type="VIAF"
+                            >http://viaf.org/viaf/54166412</idno></author></bibl>
+                <bibl xml:id="Robin1"><title>Robinson
+                        Crusoe</title><idno>https://www.wikidata.org/wiki/Q483034</idno><author><persName>Defoe,
+                            Daniel, 1660-1731</persName><idno type="VIAF"
+                            >http://viaf.org/viaf/2283158188232920260006</idno></author></bibl>
+                <bibl xml:id="RobRo1"><title>Rob
+                        Roy</title><idno>https://www.wikidata.org/wiki/Q2156104</idno><author><persName>Scott,
+                            Walter, Sir, 1771-1832</persName><idno type="VIAF"
+                            >http://viaf.org/viaf/95207079</idno></author></bibl>
+                <bibl xml:id="Rolli1"
+                        ><title>Rolliad</title><idno>https://www.wikidata.org/wiki/Q7361114</idno></bibl>
+                <bibl xml:id="Rosam1"><title>Rosamond: A Sequel to Early
+                            Lessons</title><author><persName>Edgeworth, Maria,
+                            1768-1849</persName><idno type="VIAF"
+                            >http://viaf.org/viaf/315684946</idno></author></bibl>
+                <bibl xml:id="Salmo1"><title>Salmonia, or Days of Fly
+                        Fishing</title><idno>https://www.wikidata.org/wiki/Q42195262</idno><author><persName>Davy,
+                            Humphry, 1778-1829</persName><idno type="VIAF"
+                            >http://viaf.org/viaf/29630108</idno></author></bibl>
+                <bibl xml:id="Serie1"><title>A Series of Adventures in the Course of a Voyage up the
+                        Red Sea, on the coasts of Arabia and Egypt, and of a Route through the
+                        Desarts of Thebais, in the Year 1777</title><author><persName>Irwin, Eyles,
+                            1751?-1817</persName><idno type="VIAF"
+                            >http://viaf.org/viaf/261819177</idno></author></bibl>
+                <bibl xml:id="Sketch1"><title>Sketches from Flemish Life, in Three
+                            Tales</title><author><persName>Conscience, Hendrik,
+                            1812-1883</persName><idno type="VIAF"
+                            >http://viaf.org/viaf/46807576</idno></author></bibl>
+                <bibl xml:id="Sketch2"><title>Sketches of China; Partly during an Inland Journey of
+                        Four Months, between Peking, Nanking, and Canton; with Notices and
+                        Observations Relative to the Present War</title><author><persName>Davis,
+                            John Francis, 1795-1890</persName><idno type="VIAF"
+                            >http://viaf.org/viaf/45166049</idno></author></bibl>
+                <bibl xml:id="Spy1"><title>The Spy: A Tale of Neutral
+                        Ground</title><idno>https://www.wikidata.org/wiki/Q16932623</idno><author><persName>Cooper,
+                            James Fenimore, 1789-1851</persName><idno type="VIAF"
+                            >http://viaf.org/viaf/27062769</idno></author></bibl>
+                <bibl xml:id="Talea1"><title>Tales and Novels by Maria
+                        Edgeworth</title><idno>https://www.wikidata.org/wiki/Q80225031</idno><author><persName>Edgeworth,
+                            Maria, 1768-1849</persName><idno type="VIAF"
+                            >http://viaf.org/viaf/315684946</idno></author></bibl>
+                <bibl xml:id="Taleo1"><title>Tales of Fashionable
+                        Life</title><idno>https://www.wikidata.org/wiki/Q80225034</idno><author><persName>Edgeworth,
+                            Maria, 1768-1849</persName><idno type="VIAF"
+                            >http://viaf.org/viaf/315684946</idno></author><ref corresp="Taleo1"
+                            ><bibl xml:id="Ennui2"><title>Ennui</title></bibl></ref><ref
+                        corresp="Taleo1"><bibl xml:id="Almer1"
+                        ><title>Almeria</title></bibl></ref><ref corresp="Taleo1"><bibl
+                            xml:id="Madam1"><title>Madame de Fleury</title></bibl></ref><ref
+                        corresp="Taleo1"><bibl xml:id="Dun1"><title>The Dun</title></bibl></ref><ref
+                        corresp="Taleo1"><bibl xml:id="Manoe1"
+                        ><title>Manoevring</title></bibl></ref><ref corresp="Taleo1"><bibl
+                            xml:id="Vivian1"><title>Vivian</title></bibl></ref><ref corresp="Taleo1"
+                            ><bibl xml:id="Emilie1"><title>Emilie de
+                        Coulanges</title></bibl></ref><ref corresp="Taleo1"><bibl xml:id="Absentee2"
+                                ><title>The Absentee</title></bibl></ref></bibl>
+                <bibl xml:id="Tartu1"><title>Tartuffe</title><title><foreign>Tartuffe, ou
+                            l'Imposteur</foreign></title><idno>https://www.wikidata.org/wiki/Q205875</idno><author><persName>Molière,
+                            1622-1673</persName><idno type="VIAF"
+                            >http://viaf.org/viaf/2474502</idno></author></bibl>
+                <bibl xml:id="Theat1"><title>The Theater of Education</title><title><foreign>Le
+                            Théâtre d'Éducation au XVIIIe
+                        Siècle</foreign></title><idno>https://www.wikidata.org/wiki/Q80225006</idno><author><persName>Genlis,
+                            Stéphanie Félicité, comtesse de, 1746-1830</persName><idno type="VIAF"
+                            >http://viaf.org/viaf/71391471</idno></author></bibl>
+                <bibl xml:id="Theor1"><title>The Theory of Moral
+                        Sentiments</title><idno>https://www.wikidata.org/wiki/Q1438448</idno><author><persName>Smith,
+                            Adam, 1723-1790</persName><idno type="VIAF"
+                            >http://viaf.org/viaf/49231791</idno></author></bibl>
+                <bibl xml:id="Theor2"><title>Theoretical-Practical
+                            Theology</title><title><foreign>theologiæ
+                        theoretico-practicæ</foreign></title><author><persName>Mastricht, Petrus
+                            van, 1630-1706</persName><idno type="VIAF"
+                            >http://viaf.org/viaf/22482143</idno></author></bibl>
+                <bibl xml:id="Thoug1"><title>Thoughts on Bores</title><author><persName>Edgeworth,
+                            Maria, 1768-1849</persName><idno type="VIAF"
+                            >http://viaf.org/viaf/315684946</idno></author></bibl>
+                <bibl xml:id="TomJo1"><title>The History of Tom Jones, A
+                        Foundling</title><idno>https://www.wikidata.org/wiki/Q248096</idno><author><persName>Fielding,
+                            Henry, 1707-1754</persName><idno type="VIAF"
+                            >http://viaf.org/viaf/61545697</idno></author></bibl>
+                <bibl xml:id="Tomor1"><title>Tomorrow; or the Dangers of
+                        Delay</title><idno>https://www.wikidata.org/wiki/Q80225042</idno><author><persName>Edgeworth,
+                            Maria, 1768-1849</persName><idno type="VIAF"
+                            >http://viaf.org/viaf/315684946</idno></author></bibl>
+                <bibl xml:id="Trans1"><title>A Translation of the
+                            Gospels</title><author><persName>Norton, Andrews</persName><idno
+                            type="VIAF">http://viaf.org/viaf/69698265</idno></author></bibl>
+                <bibl xml:id="Trave1"><title>Travels in North America during the Years 1834, 1835 &amp;
+                        1836 : Including a Summer Residence with the Pawnee Tribe of Indians and a
+                        Visit to Cuba and the Azore Islands</title><author><persName>Murray, Charles
+                            Augustus, Sir, 1806-1895</persName><idno type="VIAF"
+                            >http://viaf.org/viaf/22486983</idno></author></bibl>
+                <bibl xml:id="Veille1"><title><foreign>Les Veillées du
+                            Château</foreign></title><author><persName>Genlis, Stéphanie Félicité,
+                            comtesse de, 1746-1830</persName><idno type="VIAF"
+                            >http://viaf.org/viaf/71391471</idno></author></bibl>
+                <bibl xml:id="Vicar1"><title>The Vicar of
+                        Wrexhill</title><idno>https://www.wikidata.org/wiki/Q60172756</idno><author><persName>Trollope,
+                            Frances Milton, 1780-1863</persName><idno type="VIAF"
+                            >http://viaf.org/viaf/34551336</idno></author></bibl>
+                <bibl xml:id="Viewo1"><title>View of the Evidences of
+                            Christianity</title><author><persName>Paley, William,
+                            1743-1805</persName><idno type="VIAF"
+                            >http://viaf.org/viaf/19975235</idno></author></bibl>
+                <bibl xml:id="Depech1"><title><foreign>Vos Depêches</foreign></title></bibl>
+                <bibl xml:id="WatTy1"><title>Wat
+                        Tyler</title><idno>https://www.wikidata.org/wiki/Q42197532</idno><author><persName>Southey,
+                            Robert, 1774-1843</persName><idno type="VIAF"
+                            >http://viaf.org/viaf/61576896</idno></author></bibl>
+                <bibl xml:id="Waver1"
+                        ><title>Waverley</title><idno>https://www.wikidata.org/wiki/Q678251</idno><author><persName>Scott,
+                            Walter, 1771-1832</persName><idno type="VIAF"
+                            >http://viaf.org/viaf/95207079</idno></author></bibl>
+                <bibl xml:id="Works1"><title>The Works of the British
+                            Poets</title><author><persName>Park, Thomas 1758?-1834</persName><idno
+                            type="VIAF">http://viaf.org/viaf/315634120</idno></author></bibl>
+                <bibl xml:id="Young1"><title>The Young Christian</title></bibl>
+                <bibl xml:id="Resid1"><title>Rush's Residence at the Court of
+                            London</title><author><persName>Richard Rush, 1780-1859</persName><idno
+                            type="VIAF">http://viaf.org/viaf/17595732</idno></author></bibl>
+                <bibl xml:id="Ennui1"><title>Ennui</title><author><persName>Edgeworth, Maria,
+                            1768-1849</persName><idno type="VIAF"
+                            >http://viaf.org/viaf/315684946</idno></author></bibl>
+                <bibl xml:id="Woman1"><title>The Woman of the
+                            World</title><author><persName>Catherine Grace Frances
+                            Gore</persName><idno type="VIAF">http://viaf.org/viaf/74020526</idno></author></bibl>
+                <bibl xml:id="Reliq1"><title>Reliques of Ancient English
+                        Poetry</title><idno>https://www.wikidata.org/wiki/Q2142806</idno><author><persName>Thomas
+                            Percy</persName><idno type="VIAF"
+                        >http://viaf.org/viaf/68971787</idno></author></bibl>
+            </listBibl>
+        </body>
+    </text>
 </TEI>
