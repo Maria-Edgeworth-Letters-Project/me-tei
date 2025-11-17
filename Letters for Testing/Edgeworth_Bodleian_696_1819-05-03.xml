@@ -22,13 +22,11 @@
                     <resp>Transcription and coding by</resp>
                     <persName>Paris Weber
                     </persName>
-                    <!-- List all transcribers or coders here, editors and students alike, <persName> by <persName>.-->
-                    <persName><!--FirstName LastName--></persName>
                     <!-- If you're the last person interacting with the file, enter your name last on the list -->
                 </respStmt>
             </titleStmt>
             <editionStmt>
-                <edition>First digital edition in TEI, date: <date when="2025-10-30">
+                <edition>First digital edition in TEI, date: <date when="2025-11-17">
                        
                 </date>
                 </edition>
@@ -63,7 +61,7 @@
                     <msIdentifier>
                         <repository>Bodleian Library</repository>
                         <collection></collection>
-                        <idno>Edgeworth_Bodleian_696_to-FE_letter01</idno>
+                        <idno>Edgeworth_Bodleian_696_1819-05-03</idno>
                     </msIdentifier>
                     <head>Letter from 
                         <persName xml:id="EdgeM1" from="1768" to="1849">
@@ -94,7 +92,7 @@
         </profileDesc>
         <revisionDesc>
             <change when="2021-01-01" who="Id_who">
-                <!--Brief description of what you did here.-->
+    
             </change>
         </revisionDesc>
     </teiHeader>
@@ -107,28 +105,31 @@
                             12 o clock P.M.
                             <placeName ref="./Placeography.xml#Kensington-Gore_ENK">Kensington Gore</placeName></date></dateline>
                  
-                <p>     Many answers which <persName ref="./Personography.xml#EdgeF1">Francis</persName><lb/>
-                        makes to the Carr's Markets &amp;c when they<lb/>
-                        ask him questions! <persName ref="./Personography.xml#CarrX1">M<hi rend="superscript">r</hi>. Carr</persName>told him a curious<lb/>
-                        story of a dog - I said, I think this is more<lb/>
-                        than we c<hi rend="superscript">d</hi>. call instinct. = What do you<lb/>
-                        (A)<lb/></p>
+          
                     <p>
                     <note>194</note>
                         Now that every thing is packed up &amp;<lb/>
-                        ready to put into the carriage I may in..<lb/>
-                        dulge myself in scribbling a few lines<lb/>
-                        to my dear mother<lb/></p>
+                        ready to put into the carriage I may <choice> 
+                        <orig>in..<lb/>
+                        dulge</orig>
+                        <reg>indulge</reg>
+                        </choice>
+                        myself in scribbling a few lines<lb/>
+                        to my dear <persName ref="./Personography.xml#EdgeF2">mother</persName><lb/></p>
                     <p>
                         Little dear <persName ref="./Personography.xml#EdgeF1">Francis</persName> is with us &amp; we are<lb/>
                         all going together to <placeName ref="./Placeography.xml#High-Wycombe_ENK">High Wycombe</placeName> - a fine<lb/>
                         day - the carriage will be open - <del>for</del> the first<lb/>
                         7 or 8 miles <persName ref="./Personography.xml#EdgeF3">Fanny</persName> will ride with <persName ref="./Personography.xml#WhitS1">M<hi rend="superscript">r</hi><lb/>
-                        S Whitbread</persName> and F will be in the open<lb/>
+                        S Whitbread</persName> and <persName ref="./Personography.xml#EdgeF1">F</persName> will be in the open<lb/>
                         carriage between her and I - delighted we are<lb/>
-                        to have him - after wards George will smug..<lb/>
-                        gle him up in the seat behind &amp; we can<lb/>
-                        talk to him over the head. NB two grown<lb/>
+                        to have him - after wards George will <choice> 
+                        <orig>smug..<lb/>
+                        gle</orig>
+                        <reg>smuggle</reg>
+                        </choice>
+                        him up in the seat behind &amp; we can<lb/>
+                        talk to him over the head. <choice><orig>NB</orig><reg>Nota Bene</reg></choice> two grown<lb/>
                         up people have sat in it before therefore do<lb/>
                         not imagine it will not hold him<lb/></p>
                     <p>
@@ -145,8 +146,12 @@
                     
                         <pb n="2" facs="Edgeworth_Bodleian_696_1819-05-03_page02.jpg"/>
                         amiable creature as well as so intelligent<lb/>
-                        and so able to occupy &amp; to take care of him<lb/>
-                        self that it will not be a charge but a pleasure<lb/>
+                        and so able to occupy &amp; to take care of <choice> 
+                        <orig>him<lb/>
+                        self</orig>
+                        <reg>himself</reg>
+                        </choice>
+                        that it will not be a charge but a pleasure<lb/>
                         to me to have him at any time &amp; for any time<lb/></p>
                     <p>
                         I thanked for you with all the warmth<lb/>
@@ -158,43 +163,67 @@
                         not yet equal to it . <persName ref="./Personography.xml#GranX2">Miss Grant</persName> wishes it<lb/>
                         for <persName ref="./Personography.xml#WhitE1">Lady E</persName> as well as for herself - and her<lb/>
                         youngest son <add><persName ref="./Personography.xml#WhitS2">M<hi rend="superscript">r</hi>. SW</persName></add> would delight in it - As I am<lb/>
-                        in the habit of inviting people to other peo-<lb/>
-                        ple's houses I must say that I wish Lovell<lb/>
+                        in the habit of inviting people to other <choice> 
+                        <orig>peo-<lb/>
+                        ple's</orig>
+                        <reg>people's</reg>
+                        </choice>
+                        houses I must say that I wish <persName ref="./Personography.xml#EdgeL2">Lovell</persName><lb/>
                         &amp; you would write to <persName ref="./Personography.xml#WhitE1">Lady E W</persName> expressing<lb/>
                         a desire to see her &amp; <persName ref="./Personography.xml#GranX2">Miss Grant</persName> &amp; <del>M<hi rend="superscript">r</hi>. S</del><lb/>
                         Either of her sons who could accompany<lb/>
                         her. - I know she would be gratified . We<lb/>
-                        read to her your account of <persName ref="./Personography.xml#EdgeL2">Lovell's</persName> sherif<lb/>
-                        =alty - the jail - the Judge's just <del>compli=</del><lb/>
-                        <del>ment</del> praise of the High Sheriff of the C<hi rend="superscript">y</hi> of<lb/>
+                        read to her your account of <persName ref="./Personography.xml#EdgeL2">Lovell's</persName> <choice> 
+                        <orig>sherif<lb/>
+                        =alty</orig>
+                        <reg>sheriffalty</reg>
+                        </choice>
+                        - the jail - the Judge's just <del><choice> 
+                        <orig>compli=<lb/>
+                        ment</orig>
+                        <reg>compliment</reg>
+                        </choice></del>
+                        praise of the High Sheriff of the C<hi rend="superscript">y</hi> of<lb/>
                         <placeName ref="./Placeography.xml#Longford_IE">Longford</placeName> . She was much pleased and<lb/>
                         from this &amp; various circumstances has<lb/>
                         a great desire to know <persName ref="./Personography.xml#EdgeL2">Lovell</persName> - You she<lb/>
                         loves from seeing you reflected in your<lb/>
-                        child &amp; your child in law &amp; your brother<lb/>
-                        &amp; little son. She says she thinks she could<lb/>
+                        <persName ref="./Personography.xml#EdgeF3">child</persName> &amp; your <persName ref="./Personography.xml#EdgeM1" cert="medium">child in law</persName> &amp; your <persName ref="./Personography.xml#BeauF1" cert="medium">brother</persName><lb/>
+                        &amp; little <persName ref="./Personography.xml#EdgeF1">son</persName> . She says she thinks she could<lb/>
                         be more at ease <unclear>at</unclear> <placeName ref="./Placeography.xml#Edgeworthstown_IE">Edgeworths Town</placeName> than any<lb/>
                         where but in her own <unclear>home &amp; family</unclear><lb/></p>
                 
                 <pb n="3" facs="Edgeworth_Bodleian_696_1819-05-03_page03.jpg"/>
                     <p><note>195</note>
+                        <gap></gap><unclear>spoken</unclear> of<lb/>
                         When <persName ref="./Personography.xml#CarrX1">M<hi rend="superscript">r</hi>. Carr</persName> was telling a story of a dog he asked <persName ref="./Personography.xml#EdgeF1">F.</persName> if he knew<lb/>
                         (A) ^<add>what was</add> mean<add>t</add> by instinct? = F<hi rend="superscript">s</hi> answered<lb/>
                         I mean a power which animals possess not<lb/>
-                        derived from <del>experience</del> reason nor to be im<lb/>
-                        proved by experience<lb/></p>
+                        derived from <del>experience</del> reason nor to be <choice> 
+                        <orig>im<lb/>
+                        proved</orig>
+                        <reg>improved</reg>
+                        </choice>
+                        by experience<lb/></p>
                     <p>
                         I do not think <persName ref="./Personography.xml#StewD1">Dugald Stewart</persName> or <del><persName ref="./Personography.xml#NewtI1">Newton</persName></del> <add><persName ref="./Personography.xml#LockJ2">Locke</persName>Locke</add> c<hi rend="superscript">d</hi> have<lb/>
-                        worded it more exactly - and <persName ref="./Personography.xml#CarrX1">M<hi rend="superscript">r</hi>.</persName> M<hi rend="superscript">rs</hi>. &amp; Miss Carr<lb/>
+                        worded it more exactly - and <persName ref="./Personography.xml#CarrX1">M<hi rend="superscript">r</hi>.</persName> <persName ref="./Personography.xml#CarrX3">M<hi rend="superscript">rs</hi>. &amp; Miss Carr</persName><lb/>
                         aver that this is word for word his answer.<lb/>
-                        <unclear>no himself</unclear><lb/>
-                        <unclear></unclear><lb/></p>
+                        <add>spoken of</add><lb/>
+                        </p>
+                
+                <pb n="1" facs="Edgeworth_Bodleian_696_1819-05-03_page01.jpg"/>
+                <p>     Many answers which <persName ref="./Personography.xml#EdgeF1">Francis</persName><lb/>
+                        makes to the <persName ref="./Personography.xml#CarrX4">Carr's</persName> <persName ref="./Personography.xml#MarcX1">Marcets</persName> &amp;c when they<lb/>
+                        ask him questions! <persName ref="./Personography.xml#CarrX1">M<hi rend="superscript">r</hi>. Carr</persName>told him a curious<lb/>
+                        story of a dog - I said, I think this is more<lb/>
+                        than we c<hi rend="superscript">d</hi>. call instinct. = What do you<lb/>
+                        (A)<lb/></p>
                     
-               
-                    
+                 
                 <pb n="4" facs="Edgeworth_Bodleian_696_1819-05-03_page04.jpg"/>
-                <p>blank page
-                </p>
+                
+                
                 
             </div>
         </body>
