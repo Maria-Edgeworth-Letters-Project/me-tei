@@ -22,13 +22,11 @@
                     <resp>Transcription and coding by</resp>
                     <persName>Paris Weber
                     </persName>
-                    <!-- List all transcribers or coders here, editors and students alike, <persName> by <persName>.-->
-                    <persName><!--FirstName LastName--></persName>
                     <!-- If you're the last person interacting with the file, enter your name last on the list -->
                 </respStmt>
             </titleStmt>
             <editionStmt>
-                <edition>First digital edition in TEI, date: <date when="2025-11-06">
+                <edition>First digital edition in TEI, date: <date when="2025-11-17">
                         
                 </date>
                 </edition>
@@ -94,7 +92,7 @@
         </profileDesc>
         <revisionDesc>
             <change when="2021-01-01" who="Id_who">
-                <!--Brief description of what you did here.-->
+               
             </change>
         </revisionDesc>
     </teiHeader>
@@ -103,9 +101,9 @@
             <div type="letter">
                 <pb n="1" facs="Edgeworth_Bodleian_702_1844-01-23_page01.jpg"/>
                 <opener>
-                    <dateline><!--If there's no date line, remove this element. Record in the order in which it is written on the letter.-->
+                    <dateline>
                         <placeName ref="./Placeography.xml#North-Audley-Street-1_ENK">1)     1 North Audley</placeName>
-                        <date when="1844-01-23">Jan 23 44</date></dateline>
+                        <date when="1844-01-23">Jan 23<hi rend="superscript">d</hi> 44</date></dateline>
                     <salute>
                         Dearest <persName ref="./Personography.xml#EdgeF2">mother</persName><lb/>
                     </salute>
@@ -159,7 +157,7 @@
                     penny that I can rap or<lb/>
                     run I shall want to get<lb/>
                     me over Easter, whether<lb/>
-                    in London most expensive<lb/>
+                   in <placeName ref="./Placeography.xml#London_ENK">London</placeName> most expensive<lb/>
                     or on the road almost<lb/>
                     equally expensive visiting<lb/>
                     friends &amp; bails to servants<lb/>
@@ -175,12 +173,12 @@
                     this moment or perhaps<lb/>
                     before this moment say to<lb/>
                     yourself that on or about<lb/>
-                    Feb<hi rend="superscript">y</hi> . 9 - or 10t<hi rend="superscript">h</hi> . Maria will<lb/>
+                    Feb<hi rend="superscript">y</hi> . 9 - or 10t<hi rend="superscript">h</hi> . <persName ref="./Personography.xml#EdgeM1">Maria</persName> will<lb/>
                     have Quarter Ann<hi rend="superscript">y</hi> . (due Jan<hi rend="superscript">y</hi> -) £85,,10,,0<lb/>
                     <add>out of</add> which surely she can afford<lb/>
                     this poor little £3 for her rose trellis<lb/></p>
                     <p>
-                    But dear madam please<lb/>
+                    But dear <persName ref="./Personography.xml#EdgeF2">madam</persName> please<lb/>
                     comprehend that the above named<lb/>
                     £85,,10 - plus £21,,10- must go to<lb/>
                     your Ladyship for House acct<lb/>
@@ -191,7 +189,7 @@
                     (3
                     now I cannot replace it then<lb/>
                     without pinching difficulty<lb/>
-                    to my clearing out of London -<lb/> </p> <note>94</note>
+                    to my clearing out of <placeName ref="./Placeography.xml#London_ENK">London</placeName> -<lb/> </p> <note>94</note>
                     <p>
                     I hate pinching difficulties &amp;<lb/>
                     always avoid them to the best of<lb/>
@@ -202,13 +200,13 @@
                     beautiful birds (just received<lb/>
                     from <persName ref="./Personography.xml#CarmA1" cert="medium">M<hi rend="superscript">rs</hi> Carmichael</persName>) and which<lb/>
                     I have destined for a recess in<lb/>
-                    Fannys drawing room where they<lb/>
+                    <persName ref="./Personography.xml#EdgeF3">Fannys</persName> drawing room where they<lb/>
                     will look beautiful &amp; she likes the<lb/>
                     thought - The mere setting up will<lb/>
                     cost £5 - the glass and frame<lb/>
                     work habitation for the beauties<lb/>
                     will come to about £5.10 -<lb/>
-                    Fanny insists upon paying for<lb/>
+                    <persName ref="./Personography.xml#EdgeF3">Fanny</persName> insists upon paying for<lb/>
                     the house - I for the birds -<lb/>
                     " Each pleasure has its price " &amp;c<lb/></p>
                     <p>
@@ -227,15 +225,15 @@
                     
                     <pb n="4" facs="Edgeworth_Bodleian_702_1844-01-23_page04.jpg"/>
                     <unclear></unclear><lb/>
-                    We go to Lady Raffles on Friday<lb/>
+                    We go to <persName ref="./Personography.xml#RaffS1" cert="medium">Lady Raffles</persName> on Friday<lb/>
                     morning - return same day -<lb/>
-                    Tea at Lady Dinman's on<lb/>
+                    Tea at <persName ref="./Personography.xml#DenmA1" cert="medium">Lady Dinman's</persName>Lady Dinman's on<lb/>
                     Saturday to meet my Lord whom<lb/>
                     I much like or admire - else I<lb/>
                     would not stir a foot for him and<lb/>
                     would rather take tea at home<lb/></p>
                     <p>
-                    Sunday to Capt<hi rend="superscript">n</hi> . Griffths <persName ref="./Personography.xml#WilsL1">Lestocks</persName><lb/>
+                    Sunday to <persName ref="./Personography.xml#GrifF1" cert="medium">Capt<hi rend="superscript">n</hi> . Griffths</persName> <persName ref="./Personography.xml#WilsL1">Lestocks</persName><lb/>
                     friend - and the friend of Order<lb/>
                     wrote the <unclear>mel</unclear><hi rend="superscript">g</hi> . regulation book you know<lb/>
                     or if you don't <unclear>vide</unclear> <unclear>Hall closet</unclear><lb/>
@@ -253,7 +251,7 @@
                     <p>
                     I cannot yet positively say on which<lb/>
                     day tuesday wednesday thursday<lb/>
-                    we go to the Moilliets but will<lb/>
+                    we go to the <persName ref="./Personography.xml#MoilX1">Moillets</persName> but will<lb/>
                     write again when quite near my<lb/>
                     projection<lb/></p>
                     <p>
