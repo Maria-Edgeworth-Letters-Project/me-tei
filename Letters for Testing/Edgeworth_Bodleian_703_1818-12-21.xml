@@ -2,6 +2,8 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/Maria-Edgeworth-Letters-Project/me-tei/refs/heads/main/melp.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+    ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -22,8 +24,7 @@
             </respStmt>
          </titleStmt>
          <editionStmt>
-            <edition>First digital edition in TEI, date: <date when="2025-07-01">
-            </date>
+            <edition>First digital edition in TEI, date: <date when="2025-07-01"/>
             </edition>
             <respStmt>
                <orgName ref="http://id.loc.gov/authorities/names/n80020306"> Bodleian Library</orgName>
@@ -39,7 +40,7 @@
                </p>
                <licence target="https://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons Attribution 4.0 (CC BY 4.0) Unported License</licence>
             </availability>
-            <idno>Edgeworth_Bodleian_703_1818-12-21</idno> 
+            <idno>Edgeworth_Bodleian_703_1818-12-21</idno>
          </publicationStmt>
          <seriesStmt>
             <title>Maria Edgeworth Letters Project</title>
@@ -52,14 +53,12 @@
                </msIdentifier>
                <head>Letter from 
                   <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName> to <persName ref="./Personography.xml#EdgeC1" cert="medium">Charles Sneyd Edgeworth</persName>, <placeName ref="./Placeography.xml#Elford_ENK">Elford</placeName>,
-                  <date when="1818-12-21">Dec<hi rend= "superscript">r</hi>. 21 <hi rend= "superscript">st</hi>. 1818</date>
+                  <date when="1818-12-21">Dec<hi rend="superscript">r</hi>. 21 <hi rend="superscript">st</hi>. 1818</date>
                </head>
-               <physDesc>
-               </physDesc>
+               <physDesc/>
             </msDesc>
             <bibl>In addition to our edited version, this letter was previously published in
-               <!--complete bibiographical info if letter was published in a book here - if not delete-->
-            </bibl>
+               <!--complete bibiographical info if letter was published in a book here - if not delete--></bibl>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
@@ -78,8 +77,7 @@
          </correspDesc>
       </profileDesc>
       <revisionDesc>
-         <change when="2021-01-01" who="Id_who">
-         </change>
+         <change when="2021-01-01" who="Id_who"/>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -89,41 +87,71 @@
             <opener>
                <dateline>
                   <placeName ref="./Placeography.xml#Elford_ENK">Elford</placeName>
-                  <date when="1818-12-21">Dec<hi rend= "superscript">r</hi>. 21 <hi rend= "superscript">st</hi>. 1818</date><lb/></dateline>
-               <salute>My dear <del><persName ref="./Personography.xml#EdgeH3" cert="medium">Harriette</persName> and</del> <persName ref="./Personography.xml#EdgeC1" cert="medium">Sneyd</persName>.</salute>This little</opener><p>This little<lb/>
+                  <date when="1818-12-21">Dec<hi rend="superscript">r</hi>. 21 <hi rend="superscript">st</hi>. 1818</date>
+                  <lb/>
+               </dateline>
+               <salute>My dear <del>
+                     <persName ref="./Personography.xml#EdgeH3" cert="medium">Harriette</persName> and</del>
+                  <persName ref="./Personography.xml#EdgeC1" cert="medium">Sneyd</persName>.</salute>This little</opener>
+            <p>This little<lb/>
                   pebble brooch will reach you I hope just<lb/>
-                  in time for your to give it <del><unclear>for</unclear></del> with my<lb/>
+                  in time for your to give it <del>
+                  <unclear>for</unclear>
+               </del> with my<lb/>
                   true love to <persName ref="./Personography.xml#EdgeH3" cert="medium">Harriette</persName> for a christmas box<lb/>
                   - a very <hi rend="underline">very</hi> little one it is - but it is that<lb/>
                   which you preferred and it has been<lb/>
                   set exactly. like the others and by the<lb/>
                   same person Gray-<lb/>
                   We have spent a very pleasant day<lb/>
-                  and a half <unclear>at</unclear> <persName ref="./Personography.xml#SneyE1">M<hi rend= "superscript">r</hi>.</persName> &amp; <persName ref="./Personography.xml#SneyM3">M<hi rend= "superscript">rs</hi>. Sneyd</persName> <persName ref="./Personography.xml#SneyM2">Emma</persName><lb/>
-                  <persName ref="./Personography.xml#BeauH1">Honora</persName> and I at this delightfully neat<lb/>
-                  pretty place with <persName ref="./Personography.xml#SneyJ1">M<hi rend= "superscript">r</hi>. John Sneyd</persName>, who<lb/>
-                  <hi rend="underline">notwithstanding</hi> all I had heard be<lb/>
+                  and a half <unclear>at</unclear>
+               <persName ref="./Personography.xml#SneyE1">M<hi rend="superscript">r</hi>.</persName> &amp; <persName ref="./Personography.xml#SneyM3">M<hi rend="superscript">rs</hi>. Sneyd</persName>
+               <persName ref="./Personography.xml#SneyM2">Emma</persName>
+               <lb/>
+               <persName ref="./Personography.xml#BeauH1">Honora</persName> and I at this delightfully neat<lb/>
+                  pretty place with <persName ref="./Personography.xml#SneyJ1">M<hi rend="superscript">r</hi>. John Sneyd</persName>, who<lb/>
+               <hi rend="underline">notwithstanding</hi> all I had heard be<lb/>
                   forehand of his agreeableness does not<lb/>
-                  disappoint me - but far exceeds my <choice><orig>ex<lb/>
-                     -pectations</orig><reg>expectations</reg></choice> - His humor is so easy and<lb/>
+                  disappoint me - but far exceeds my <choice>
+                  <orig>ex<lb/>
+                     -pectations</orig>
+                  <reg>expectations</reg>
+               </choice> - His humor is so easy and<lb/>
                   joined with such quiet good breeding<lb/>
-                  that it always pleases me much as it <choice><orig>amus<lb/>
-                     es</orig><reg>amuses</reg></choice> and never goes a <choice><orig>hairs</orig><reg>hair's</reg></choice> breadth too<lb/>
+                  that it always pleases me much as it <choice>
+                  <orig>amus<lb/>
+                     es</orig>
+                  <reg>amuses</reg>
+               </choice> and never goes a <choice>
+                  <orig>hairs</orig>
+                  <reg>hair's</reg>
+               </choice> breadth too<lb/>
                   far nor half a note nor a hundredth part<lb/>
                   of a note too high for the most delicate<lb/>
                   soul of sympathy. He has treated us<lb/>
                   with the sight of a great number of his<lb/>
                   own drawings which are admirable<lb/>
                   in the style of <persName ref="./Personography.xml#BunbH1">Bunbury</persName> or rather in an<lb/>
-                  original style of his own - 1<hi rend= "superscript">st</hi>. course<lb/>
+                  original style of his own - 1<hi rend="superscript">st</hi>. course<lb/>
                   served to us was a set of designs for <title ref="./Workography.xml#Castl1">Castle<lb/>
                      Rackrent</title> - these he shewed me at <placeName ref="./Placeography.xml#Byrkley-Lodge_ENK">Byrkley<lb/>
-            
-            <pb n="2" facs="Edgeworth_Bodleian_703_1818-12-21_page02.jpg"/>
-               Lodge</placeName> <del>and as</del> I expressed a wish to have <choice><orig>pos<lb/>
-               session</orig><reg>possession</reg></choice> of a striking likeness of <title ref="./Workography.xml#Castl1">Captain <choice><orig>Mony<lb/>
-                  gawl</orig><reg>Monygawl</reg></choice></title> a charming officer whose <del>looks</del> <choice><orig>conde<lb/>
-                     scending</orig><reg>condescending</reg></choice> smile becomes the hero lowering<lb/>
+                  <pb n="2" facs="Edgeworth_Bodleian_703_1818-12-21_page02.jpg"/>
+               Lodge</placeName>
+               <del>and as</del> I expressed a wish to have <choice>
+                  <orig>pos<lb/>
+               session</orig>
+                  <reg>possession</reg>
+               </choice> of a striking likeness of <title ref="./Workography.xml#Castl1">Captain <choice>
+                     <orig>Mony<lb/>
+                  gawl</orig>
+                     <reg>Monygawl</reg>
+                  </choice>
+               </title> a charming officer whose <del>looks</del>
+               <choice>
+                  <orig>conde<lb/>
+                     scending</orig>
+                  <reg>condescending</reg>
+               </choice> smile becomes the hero lowering<lb/>
                himself to the level of the ladies’ capacity<lb/>
                - <persName ref="./Personography.xml#SneyJ1">Mr. J. Sneyd</persName> said he would copy this for<lb/>
                me if he could but to my surprise when<lb/>
@@ -133,99 +161,178 @@
                   us his designs for <title ref="./Workography.xml#TomJo1">Tom Jones</title> - Then a<lb/>
                   set for <persName ref="./Personography.xml#CrabbG1">Crabbe</persName>’s tales- excellent - but I do not<lb/>
                   know <persName ref="./Personography.xml#CrabbG1">Crabbe</persName> well enough to feel all their<lb/>
-                  merit. I will take a course of <persName ref="./Personography.xml#CrabbG1">Crabbe</persName> on <choice><orig>pur<lb/>
-                  pose</orig><reg>purpose</reg></choice> to understand these designs - Those he<lb/> 
+                  merit. I will take a course of <persName ref="./Personography.xml#CrabbG1">Crabbe</persName> on <choice>
+                  <orig>pur<lb/>
+                  pose</orig>
+                  <reg>purpose</reg>
+               </choice> to understand these designs - Those he<lb/> 
                   has done for the <title ref="./Workography.xml#Bath1">Bath Guide</title> are admirable<lb/>
                - - How I wish we could have seen all<lb/>
-                  these things together my dear <persName ref="./Personography.xml#EdgeC1" cert="medium"><choice><orig>S</orig><reg>Sneyd</reg></choice></persName> &amp; <persName ref="./Personography.xml#EdgeH3" cert="medium"><choice><orig>H</orig><reg>Harriette</reg></choice></persName> - And<lb/>
+                  these things together my dear <persName ref="./Personography.xml#EdgeC1" cert="medium">
+                  <choice>
+                     <orig>S</orig>
+                     <reg>Sneyd</reg>
+                  </choice>
+               </persName> &amp; <persName ref="./Personography.xml#EdgeH3" cert="medium">
+                  <choice>
+                     <orig>H</orig>
+                     <reg>Harriette</reg>
+                  </choice>
+               </persName> - And<lb/>
                particularly I wish we could have looked<lb/>
                over together a portfolio of drawings &amp;<lb/>
                   etchings from drawings of <persName ref="./Personography.xml#WortE1">Lady Caroline<lb/>
-                     Wortley</persName>’s - the parting of Hector and <choice><orig>Androma<lb/>
-                        che</orig><reg>Andromache</reg></choice> - and a representation of Andromache<lb/>
+                     Wortley</persName>’s - the parting of Hector and <choice>
+                  <orig>Androma<lb/>
+                        che</orig>
+                  <reg>Andromache</reg>
+               </choice> - and a representation of Andromache<lb/>
                with her child - and alone. the hour after<lb/>
                            the parting - also Coriolanus &amp; his wife -<lb/>
                and many others that reminded me<lb/>
-                  <persName ref="./Personography.xmlFlaxJ1">Flaxman</persName> &amp; of <persName ref="./Personography.xml#SneyJ1">Sneyd</persName>’s tracings from them<lb/>
+               <persName ref="./Personography.xmlFlaxJ1">Flaxman</persName> &amp; of <persName ref="./Personography.xml#SneyJ1">Sneyd</persName>’s tracings from them<lb/>
                - He shewed me these in consequence of<lb/>
                my shewing him some tracings I had<lb/>
-                  made from <persName ref="./Personography.xml#EdgeC2" cert= "medium">Charlotte</persName>’s drawings which<lb/>
+                  made from <persName ref="./Personography.xml#EdgeC2" cert="medium">Charlotte</persName>’s drawings which<lb/>
                he much admired - I consulted him on<lb/>
                the propriety of publishing a few specimens<lb/>
-                  of these in <persName ref="./Personography.xmlEdgeR1">my <choice><orig>fathers</orig><reg>father's</reg></choice></persName> life - he much approved</p><lb/>
+                  of these in <persName ref="./Personography.xmlEdgeR1">my <choice>
+                     <orig>fathers</orig>
+                     <reg>father's</reg>
+                  </choice>
+               </persName> life - he much approved</p>
+            <lb/>
             <pb n="3" facs="Edgeworth_Bodleian_703_1818-12-21_page03.jpg"/>
             <p>- - The extreme neatness - comfort and ingenious<lb/>
                luxury and elegance of various contrivances<lb/>
                at <placeName ref="./Placeography.xml#Elford_ENK">Elford</placeName> reminded me of the Vicarage at<lb/>
-               <placeName ref="./Placeography.xml#Collon_IE">Collon</placeName> but this is far superior in <hi rend="underline">trellices</hi><lb/>
+               <placeName ref="./Placeography.xml#Collon_IE">Collon</placeName> but this is far superior in <hi rend="underline">trellices</hi>
+               <lb/>
                - porches - green houses - pheasants - swans<lb/>
                &amp;c - dining room hung with choice drawings<lb/>
                and paintings opening with glass doors into<lb/>
                a jewel (for I would not say a <hi rend="underline">bijou</hi> of a little<lb/>
-               green house perfuming <add>not<unclear>overcoming</unclear></add> the air with Oleas<lb/>
+               green house perfuming <add>not<unclear>overcoming</unclear>
+               </add> the air with Oleas<lb/>
                &amp;c- - We have not half time to examine<lb/>
                or enjoy all the luxuries of this sweet<lb/>
                place where “the sun always shines”<lb/>
                Literally they say it is never winter here<lb/>
-               and assuredly on this <date when="1818-12-21">21<hi rend= "superscript">st</hi>. of <choice><orig>Dec<hi rend= "superscript">r</hi>.</orig><reg>December</reg></choice></date> I never<lb/>
+               and assuredly on this <date when="1818-12-21">21<hi rend="superscript">st</hi>. of <choice>
+                     <orig>Dec<hi rend="superscript">r</hi>.</orig>
+                     <reg>December</reg>
+                  </choice>
+               </date> I never<lb/>
                could have told by any thing I see or<lb/>
                feel in this room that it is so not the middle<lb/>
                of summer - blinds down to to keep out<lb/>
                the too bright too hot sun. - grass <add>fresh</add> green &amp;<lb/>
                - flowers in green house in blow all<lb/>
                conspire to deceive the eye &amp; smell and<lb/>
-               feeling - <persName ref="./Personography.xml#SneyJ1"><choice><orig>Sneyds</orig><reg>Sneyd's</reg></choice></persName> motto from <persName ref="./Personography.xml#DrydJ1">Dryden</persName> is<lb/>
-               quite applicable to <hi rend="underline">this sweet place.</hi><lb/>
-               Poor <persName ref="./Personography.xml#FxxxC2">M<hi rend= "superscript">r</hi>. C. J. F.</persName> by the by forgot to <hi rend="underline">frank</hi><lb/>
-               to me the last packet from <placeName ref="./Placeography.xml#Edgeworthstown_IE">Edgeworthstown</placeName><lb/>
-               <del>We</del><add>&amp;</add> sent <add>it</add> with <persName ref="./Personography.xml#FxxxC2">C. J. F.</persName>’s best wishes written in<lb/>
+               feeling - <persName ref="./Personography.xml#SneyJ1">
+                  <choice>
+                     <orig>Sneyds</orig>
+                     <reg>Sneyd's</reg>
+                  </choice>
+               </persName> motto from <persName ref="./Personography.xml#DrydJ1">Dryden</persName> is<lb/>
+               quite applicable to <hi rend="underline">this sweet place.</hi>
+               <lb/>
+               Poor <persName ref="./Personography.xml#FxxxC2">M<hi rend="superscript">r</hi>. C. J. F.</persName> by the by forgot to <hi rend="underline">frank</hi>
+               <lb/>
+               to me the last packet from <placeName ref="./Placeography.xml#Edgeworthstown_IE">Edgeworthstown</placeName>
+               <lb/>
+               <del>We</del>
+               <add>&amp;</add> sent <add>it</add> with <persName ref="./Personography.xml#FxxxC2">C. J. F.</persName>’s best wishes written in<lb/>
                his own hand on the outside &amp; those best<lb/>
-               wishes not being seconded by a <unclear>Maxxxx’s</unclear><lb/>
-               cost me 12/10 - But I am sure I do not <choice><orig>grum<lb/>
-                  ble </orig><reg>grumble</reg></choice><del>nor</del> I should be unpardonable if I did<lb/>
-               considering how very careful &amp; kind <persName ref="./Personography.xml#FxxxC2">M<hi rend= "superscript">r</hi>. F</persName><lb/>
+               wishes not being seconded by a <unclear>Maxxxx’s</unclear>
+               <lb/>
+               cost me 12/10 - But I am sure I do not <choice>
+                  <orig>grum<lb/>
+                  ble </orig>
+                  <reg>grumble</reg>
+               </choice>
+               <del>nor</del> I should be unpardonable if I did<lb/>
+               considering how very careful &amp; kind <persName ref="./Personography.xml#FxxxC2">M<hi rend="superscript">r</hi>. F</persName>
+               <lb/>
                is and the innumerable blunders I have<lb/>
                made myself.<lb/>
                <persName ref="./Personography.xml#BeauH1">Honora</persName> &amp; I and all the party felt exceedingly<lb/>
-               sorry that my <persName ref="./Personography.xml#SneyM1">aunt Mary</persName> and <persName ref="./Personography.xml#SneyC1">Charlotte</persName> <choice><orig>c<hi rend= "superscript">d</hi></orig><reg>could</reg></choice><lb/>
-            <pb n="4" facs="Edgeworth_Bodleian_703_1818-12-21_page04.jpg"/>
+               sorry that my <persName ref="./Personography.xml#SneyM1">aunt Mary</persName> and <persName ref="./Personography.xml#SneyC1">Charlotte</persName>
+               <choice>
+                  <orig>c<hi rend="superscript">d</hi>
+                  </orig>
+                  <reg>could</reg>
+               </choice>
+               <lb/>
+               <pb n="4" facs="Edgeworth_Bodleian_703_1818-12-21_page04.jpg"/>
                not come with us - But they have determined<lb/>
                not to go out to dinner any where in winter<lb/>
                - and indeed my <persName ref="./Personography.xml#SneyC1">aunt Charlotte</persName> takes cold<lb/>
                so very easily that they could not venture<lb/>
                it till she has been <hi rend="underline">better seasoned</hi> or till<lb/>
-               spring returns - Her health though not <choice><orig>ac<lb/>
-                  tually</orig><reg>actually</reg></choice> bad appears to me precarious &amp;<lb/>
+               spring returns - Her health though not <choice>
+                  <orig>ac<lb/>
+                  tually</orig>
+                  <reg>actually</reg>
+               </choice> bad appears to me precarious &amp;<lb/>
                my <persName ref="./Personography.xml#SneyM1">aunt Mary</persName> is certainly much thinner<lb/>
                &amp; in less good spirits than when we saw<lb/>
                her at <placeName ref="./Placeography.xml#Clifton_ENK">Clifton</placeName> and <placeName ref="./Placeography.xml#Bath_ENK">Bath</placeName>. Their spirits cannot<lb/>
                recover - Nothing can be more kind and<lb/>
-               constantly attentive than <persName ref="./Personography.xml#SneyM3">M<hi rend= "superscript">rs</hi>. Sneyd</persName> and<lb/>
+               constantly attentive than <persName ref="./Personography.xml#SneyM3">M<hi rend="superscript">rs</hi>. Sneyd</persName> and<lb/>
                <persName ref="./Personography.xml#SneyM2">Emma</persName> are to them - and to us their affec<lb/>
                -tionate kindness has passed all bounds<lb/>
                You ask about our plans for the winter<lb/>
-               - We are waiting for a letter from <persName ref="./Personography.xml#EdgeF2">M<hi rend= "superscript">rs</hi>. <choice><orig>E</orig><reg>Edgeworth</reg></choice></persName><lb/>
-               to decide - <persName ref="./Personography.xml#SneyE1">M<hi rend= "superscript">r</hi>.</persName> &amp; <persName ref="./Personography.xml#SneyM3">M<hi rend= "superscript">rs</hi>. Sneyd</persName> have asked her<lb/>
+               - We are waiting for a letter from <persName ref="./Personography.xml#EdgeF2">M<hi rend="superscript">rs</hi>. <choice>
+                     <orig>E</orig>
+                     <reg>Edgeworth</reg>
+                  </choice>
+               </persName>
+               <lb/>
+               to decide - <persName ref="./Personography.xml#SneyE1">M<hi rend="superscript">r</hi>.</persName> &amp; <persName ref="./Personography.xml#SneyM3">M<hi rend="superscript">rs</hi>. Sneyd</persName> have asked her<lb/>
                &amp; <persName ref="./Personography.xml#EdgeF3">Fanny</persName> to come over to stay till spring. - <lb/>
                She cannot decide, (as she tells me in her<lb/>
-               last letter rec<hi rend= "superscript">d</hi>. yesterday). till <persName ref="./Personography.xml#EdgeL2">Lovell</persName> comes<lb/>
+               last letter rec<hi rend="superscript">d</hi>. yesterday). till <persName ref="./Personography.xml#EdgeL2">Lovell</persName> comes<lb/>
                home from <placeName ref="./Placeography.xml#Waterford_IE">Waterford</placeName>- He was expected<lb/>
-               on Sunday. She promises to write on <choice><orig>Mon<lb/>
-                  day</orig><reg>Monday</reg></choice> - We shall have her letter <choice><orig>friday</orig><reg>Friday</reg></choice> or<lb/>
+               on Sunday. She promises to write on <choice>
+                  <orig>Mon<lb/>
+                  day</orig>
+                  <reg>Monday</reg>
+               </choice> - We shall have her letter <choice>
+                  <orig>friday</orig>
+                  <reg>Friday</reg>
+               </choice> or<lb/>
                Saturday &amp; as soon as <del>you</del> we know you<lb/>
                shall hear either from <persName ref="./Personography.xml#BeauH1">Honora</persName> or from me<lb/>
                - We shall at all events stay at <placeName ref="./Placeography.xml#Byrkley-Lodge_ENK">Byrkley<lb/>
-                  Lodge</placeName> till the <date when="1819-01-09">9<hi rend= "superscript">h</hi>.</date> - -<lb/>
-               <persName ref="./Personography.xml#GoweE1">Lady Stafford</persName> has in the most pressing <choice><orig>man<lb/>
-                  er</orig><reg>manner</reg></choice> invited <del>me</del><add>us</add> to <placeName ref="./Placeography.xml#Trentham_ENK">Trentham</placeName> to spend some<lb/>
-               <add>they have also invited <persName ref="./Personography.xml#SneyE1">M<hi rend= "superscript">r</hi>.</persName> &amp; <persName ref="./Personography.xml#SneyM3">M<hi rend= "superscript">rs</hi>. <choice><orig>S</orig><reg>Sneyd</reg></choice></persName> and <persName ref="./Personography.xml#SneyM2">Emma</persName></add><lb/>
+                  Lodge</placeName> till the <date when="1819-01-09">9<hi rend="superscript">h</hi>.</date> - -<lb/>
+               <persName ref="./Personography.xml#GoweE1">Lady Stafford</persName> has in the most pressing <choice>
+                  <orig>man<lb/>
+                  er</orig>
+                  <reg>manner</reg>
+               </choice> invited <del>me</del>
+               <add>us</add> to <placeName ref="./Placeography.xml#Trentham_ENK">Trentham</placeName> to spend some<lb/>
+               <add>they have also invited <persName ref="./Personography.xml#SneyE1">M<hi rend="superscript">r</hi>.</persName> &amp; <persName ref="./Personography.xml#SneyM3">M<hi rend="superscript">rs</hi>. <choice>
+                        <orig>S</orig>
+                        <reg>Sneyd</reg>
+                     </choice>
+                  </persName> and <persName ref="./Personography.xml#SneyM2">Emma</persName>
+               </add>
+               <lb/>
                days - We shall go there probably the end<lb/>
                of next week &amp; whether we shall thence<lb/>
-               proceed to <persName ref="./Personography.xml#PowyA1" cert= "medium">M<hi rend= "superscript">rs</hi>. Powys</persName> &amp; the <persName ref="./Personography.xml#Hollan1">Holland</persName>s &amp;<lb/>
-               so homeward or not depends on <persName ref="./Personography.xml#EdgeF2">M<hi rend= "superscript">rs</hi>. <choice><orig>E</orig><reg>Edgeworth</reg></choice></persName>’s<lb/>
-               last letter - On the <date when="1818-12-30">30<hi rend= "superscript">th</hi></date> we go to a ball at<lb/>
+               proceed to <persName ref="./Personography.xml#PowyA1" cert="medium">M<hi rend="superscript">rs</hi>. Powys</persName> &amp; the <persName ref="./Personography.xml#Hollan1">Holland</persName>s &amp;<lb/>
+               so homeward or not depends on <persName ref="./Personography.xml#EdgeF2">M<hi rend="superscript">rs</hi>. <choice>
+                     <orig>E</orig>
+                     <reg>Edgeworth</reg>
+                  </choice>
+               </persName>’s<lb/>
+               last letter - On the <date when="1818-12-30">30<hi rend="superscript">th</hi>
+               </date> we go to a ball at<lb/>
                <placeName ref="./Placeography.xml#Derby_ENK">Derby</placeName> and we mean to <add>offer to</add> pay the streets a visit of<lb/>
-               a day &amp; <unclear>h</unclear></p><lb/>
+               a day &amp; <unclear>h</unclear>
+            </p>
+            <lb/>
          </div>
       </body>
    </text>

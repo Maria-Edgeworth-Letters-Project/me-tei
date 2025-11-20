@@ -2,6 +2,8 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/Maria-Edgeworth-Letters-Project/me-tei/refs/heads/main/melp.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+    ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -128,7 +130,6 @@
                &amp; I wish the size of my thank<lb/>
                you could convey the<lb/>
                warmth of the feeling</p>
-            
             <p>I have profited by all<lb/>
                your &amp; <persName ref="./Personography.xml#BeauH1">Honora</persName>s corrections<lb/>
                and suggestions - I agree<lb/>
@@ -151,8 +152,7 @@
                their interest in the<lb/>
                affair is not as strong<lb/>
                as yours.</p>
-               
-               <p>Pray in future spare<lb/>
+            <p>Pray in future spare<lb/>
                yourself the trouble<lb/>
                of so fully illustrating<lb/>
                and illuminating<lb/>
@@ -175,7 +175,9 @@
                </choice> effect on my mind<lb/>
                that related only to the<lb/>
                effect while I was<lb/>
-               <damage><gap></gap></damage>
+               <damage>
+                  <gap/>
+               </damage>
                <pb n="4" facs="Edgeworth_Huntington_FB1232_1824-10-24_page04.jpg"/>
                
                only to save my friends<lb/>
@@ -190,7 +192,9 @@
                to read &amp; correct that<lb/>
                sheet before she went<lb/>
                to bed the night<lb/>
-               <damage><gap></gap></damage>
+               <damage>
+                  <gap/>
+               </damage>
             </p>
             <lb/>
          </div>

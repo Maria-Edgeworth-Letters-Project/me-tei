@@ -2,12 +2,16 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/Maria-Edgeworth-Letters-Project/me-tei/refs/heads/main/melp.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+    ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title>Letter from Maria Edgeworth to Mrs. Miles, November 12, 1813</title>
-            <author><persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName></author>
+            <author>
+               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
+            </author>
             <editor>
                <persName>Eliza Wilcox</persName>
             </editor>
@@ -178,7 +182,8 @@
                   <persName ref="./Personography.xml#FarrX1">Miss Farrel</persName> - 4..6..0<lb/>
                   <persName ref="./Personography.xml#BeadX1">Beadnell</persName> - 10 y<hi rend="superscript">ds</hi>. muslin - 2..5..0<lb/>
                     £19..3..1 1/2<lb/>
-                  <unclear>C<hi rend="superscript">r</hi>.</unclear><lb/>
+                  <unclear>C<hi rend="superscript">r</hi>.</unclear>
+                  <lb/>
                         By draft of <persName ref="./Personography.xml#BeauH1">Miss Honora<lb/>
                         Edgeworth's</persName> on Hoare<lb/>
                         dated Nov. 6<hi rend="superscript">th</hi> 1813 - £19..3..1/2<lb/>

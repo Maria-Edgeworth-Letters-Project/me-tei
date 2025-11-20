@@ -2,6 +2,8 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/Maria-Edgeworth-Letters-Project/me-tei/refs/heads/main/melp.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+    ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -27,8 +29,7 @@ Hilary Havens
             </respStmt>
          </titleStmt>
          <editionStmt>
-            <edition>First digital edition in TEI, date: <date when="2024-01-02">
-            </date>
+            <edition>First digital edition in TEI, date: <date when="2024-01-02"/>
             </edition>
             <respStmt>
                <orgName type="naf" ref="http://id.loc.gov/authorities/names/n80097499">
@@ -116,7 +117,8 @@ Hilary Havens
                </dateline>
                <lb/>
                <salute>
-                  My <hi rend="underline">dear</hi> <persName ref="./Personography.xml#StanE1">Lord</persName>
+                  My <hi rend="underline">dear</hi>
+                  <persName ref="./Personography.xml#StanE1">Lord</persName>
                   <lb/>
                </salute>
             </opener>
@@ -125,8 +127,9 @@ Hilary Havens
                of your kindness to one now<lb/>
                no more whom you honored<lb/>
                by your approbation and<lb/>
-               delighted by your goodness<lb/></p>
-              <p>Whether your Lordship <choice>
+               delighted by your goodness<lb/>
+            </p>
+            <p>Whether your Lordship <choice>
                   <orig>
                      <unclear>recol<lb/>
                   lect</unclear>
@@ -137,7 +140,8 @@ Hilary Havens
                years ago or not, I think you<lb/>
                will for her sake permit this<lb/>
                intrusion and grant me<lb/>
-                 the favor I am going to ask<lb/></p>
+                 the favor I am going to ask<lb/>
+            </p>
             <p>Allow me to present to<lb/>
                your Lordship a <choice>
                   <orig>country<lb/>
@@ -148,7 +152,8 @@ Hilary Havens
                <pb n="2" facs="Edgeworth_Harvard_604757_1848-06-05_page02.jpg"/>
                2<lb/>
                for whom all our family as<lb/>
-               well as myself are much interested<lb/></p>
+               well as myself are much interested<lb/>
+            </p>
             <p>The rev<hi rend="superscript">d</hi>. <persName ref="./Personography.xml#SteeT1">Thomas D<hi rend="superscript">r</hi>. Steele</persName> -<lb/>
                He was educated at the <placeName ref="./Placeography.xml#Edgeworthstown_IE">Edgeworths<lb/>
                town</placeName> school and was one of<lb/>
@@ -201,7 +206,8 @@ Hilary Havens
                   table</orig>
                   <reg>charitable</reg>
                </choice> spirit of Christianity<lb/>
-               <unclear>Respecting</unclear> yet above mere forms<lb/></p>
+               <unclear>Respecting</unclear> yet above mere forms<lb/>
+            </p>
             <p>I have also another hope<lb/>
                   that this presentation of <persName ref="./Personography.xml#SteeT1">D<hi rend="superscript">r</hi>. Steele</persName>
                <lb/>
@@ -220,8 +226,13 @@ Hilary Havens
                      <orig>Capt<hi rend="superscript">n</hi>.</orig>
                      <reg>Captain</reg>
                   </choice> Stanleys</persName>
-               <choice><orig>ap-<lb/> probation</orig><reg>approbation</reg></choice> and good will<lb/></p>
-            <p><persName ref="./Personography.xml#SteeT1">D<hi rend="superscript">r</hi>. Steele</persName>'s object is, if it<lb/>
+               <choice>
+                  <orig>ap-<lb/> probation</orig>
+                  <reg>approbation</reg>
+               </choice> and good will<lb/>
+            </p>
+            <p>
+               <persName ref="./Personography.xml#SteeT1">D<hi rend="superscript">r</hi>. Steele</persName>'s object is, if it<lb/>
                be possible to obtain the means<lb/>
                of<lb/>
                <pb n="4" facs="Edgeworth_Harvard_604757_1848-06-05_page04.jpg"/>
@@ -260,13 +271,14 @@ Hilary Havens
                and the union has consequently been<lb/>
                <pb n="5" facs="Edgeworth_Harvard_604757_1848-06-05_page05.jpg"/>
                5<lb/>
-               eminently happy<lb/></p>
-               <p>I know how a Bishops patronage<lb/>
+               eminently happy<lb/>
+            </p>
+            <p>I know how a Bishops patronage<lb/>
                and power of assisting must<lb/>
                be limited by the duties of his<lb/>
                Diocese - <del>But</del> I believe there are<lb/>
                13 new benefices created by<lb/>
-                  <persName ref="./Personography.xml#PeelR1">S<hi rend="superscript">r</hi>. R. Peels</persName> bill - But perhaps<lb/>
+               <persName ref="./Personography.xml#PeelR1">S<hi rend="superscript">r</hi>. R. Peels</persName> bill - But perhaps<lb/>
                and most probably these have<lb/>
                already been promised or have<lb/>
                half a dozen expectant <choice>
@@ -279,7 +291,8 @@ Hilary Havens
                is eminently <unclear>calculated</unclear> by<lb/>
                learning morals, &amp; experience<lb/>
                in tracking, the office of<lb/>
-               Inspector of Schools.<lb/></p>
+               Inspector of Schools.<lb/>
+            </p>
             <p>If your Lordship could assist<lb/>
                him in obtaining this <choice>
                   <orig>situa<lb/>
@@ -305,11 +318,12 @@ Hilary Havens
                <address>
                   <addrLine>To</addrLine>
                   <addrLine>
-                     <persName ref="./Personography.xml#StanE1">The Lord Bishop of Norwich</persName></addrLine>
+                     <persName ref="./Personography.xml#StanE1">The Lord Bishop of Norwich</persName>
+                  </addrLine>
                </address>
             </closer>
          </div>
       </body>
-      <back> </back>
+      <back/>
    </text>
 </TEI>

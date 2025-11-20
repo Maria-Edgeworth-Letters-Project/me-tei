@@ -2,6 +2,8 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/Maria-Edgeworth-Letters-Project/me-tei/refs/heads/main/melp.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+    ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -115,14 +117,19 @@
                <del>copy</del> all her works except<lb/>
                <title ref="./Workography.xml#Helen1">Helen</title> and the <title ref="./Workography.xml#Memoi1">3<hi rend="superscript">d</hi> edition<lb/>
                   of the Memoirs of <persName ref="./Personography.xml#EdgeR1">R Lovell <choice>
-                     <orig>Edge<lb/>
+                        <orig>Edge<lb/>
                      worth</orig>
-                     <reg>Edgeworth</reg>
-                  </choice></persName> Esq</title> which 2 works are<lb/>
+                        <reg>Edgeworth</reg>
+                     </choice>
+                  </persName> Esq</title> which 2 works are<lb/>
                published by <persName ref="./Personography.xml#BentR1">Bentley</persName>.<lb/>
             </p>
             <p>
-               <persName ref="./Personography.xml#EdgeM1">Miss <choice><orig>E</orig><reg>Edgeworth</reg></choice></persName> long ago sold the<lb/>
+               <persName ref="./Personography.xml#EdgeM1">Miss <choice>
+                     <orig>E</orig>
+                     <reg>Edgeworth</reg>
+                  </choice>
+               </persName> long ago sold the<lb/>
                copy right of all but <title ref="./Workography.xml#Helen1">Helen</title>
                <lb/>
                &amp; those mem<hi rend="superscript">s</hi>. - She has no<lb/>
@@ -138,7 +145,10 @@
             </p>
             <pb n="2" facs="Edgeworth_Morgan_422515_1844_05_02_page01.jpg"/>
             <p>She believes the American<lb/>
-               <choice><orig>Ed<hi rend="superscript">n</hi>.</orig><reg>Education</reg></choice> is the most full and<lb/>
+               <choice>
+                  <orig>Ed<hi rend="superscript">n</hi>.</orig>
+                  <reg>Education</reg>
+               </choice> is the most full and<lb/>
                perfect of <add>all</add> her own &amp; her<lb/>
                fathers works - including<lb/>
                <title ref="./Workography.xml#Pract1">Practical Education</title> &amp;<lb/>

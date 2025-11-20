@@ -2,6 +2,8 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/Maria-Edgeworth-Letters-Project/me-tei/refs/heads/main/melp.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+    ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -100,7 +102,11 @@
             <pb n="1" facs="Edgeworth_Princeton_1800_01_27_page01.jpg"/>
             <opener>
                <dateline>
-                  <date when="1800-01-27">27 <choice><orig>Jan.<hi rend="superscript">y</hi></orig><reg>January</reg></choice> 1800.</date>
+                  <date when="1800-01-27">27 <choice>
+                        <orig>Jan.<hi rend="superscript">y</hi>
+                        </orig>
+                        <reg>January</reg>
+                     </choice> 1800.</date>
                </dateline>
                <salute>
                   Dear Sir,
@@ -126,7 +132,7 @@
                the types that are immediately<lb/>
                wanting for £5 &amp; I<lb/>
                think if I can find a moments<lb/>
-               <unclear></unclear> me next week when I go<lb/>
+               <unclear/> me next week when I go<lb/>
                to <placeName ref="./Placeography.xml#Dublin_IE">Dublin</placeName> to attend <unclear>Cast<hi rend="superscript">l</hi>
                </unclear> that<lb/>
                I can have them cast &amp; sent<lb/>
@@ -200,7 +206,11 @@
             <p>I understand that <persName ref="./Personography.xml#EdgeL2">Lovell</persName> is to<lb/>
                offer you a translation of <persName ref="./Personography.xml#BerqA1">Berquins</persName>
                <lb/>
-               <title ref="./Workography.xml#Bibli1"><choice><orig>Bibliotheque de village</orig><reg>Bibliotheque de villages</reg></choice>
+               <title ref="./Workography.xml#Bibli1">
+                  <choice>
+                     <orig>Bibliotheque de village</orig>
+                     <reg>Bibliotheque de villages</reg>
+                  </choice>
                </title> — the<lb/>
                original is excellent &amp; I know that<lb/>
                the translators are fully equal to a<lb/>
@@ -242,8 +252,10 @@
                <pb n="4" facs="Edgeworth_Princeton_1800_01_27_page04.jpg"/>
                <p>
                   <persName ref="./Personography.xml#EdgeL2">Lovell</persName> wrote to us to say that he thought<lb/>
-                  <hi rend="underline"><title ref="./Workography.xml#Rivul1">
-                     Rivuletta</title></hi> should not be thrown away<lb/>
+                  <hi rend="underline">
+                     <title ref="./Workography.xml#Rivul1">
+                     Rivuletta</title>
+                  </hi> should not be thrown away<lb/>
                   upon <title ref="./Workography.xml#Early1">
                      <hi rend="underline">Early Lessons</hi>
                   </title> that it should be kept<lb/>

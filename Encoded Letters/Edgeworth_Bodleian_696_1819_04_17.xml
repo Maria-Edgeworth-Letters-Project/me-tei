@@ -2,6 +2,8 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/Maria-Edgeworth-Letters-Project/me-tei/refs/heads/main/melp.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+    ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -81,23 +83,23 @@
          </correspDesc>
       </profileDesc>
       <revisionDesc>
-        <change when="2024-08-27" who="Jamie Kramer"> Jamie Kramer: add person and place tags; revise page breaks.</change>
+         <change when="2024-08-27" who="Jamie Kramer"> Jamie Kramer: add person and place tags; revise page breaks.</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <div type="letter">
             <pb n="1" facs="Edgeworth_Bodleian_696_1819_04_17_page01.jpg"/>
-   
-           <opener>      
-             <placeName ref="./Placeography.xml#Deep-Dene-Dorking_ENK">Deep <hi rend="underline">Dene</hi>
-             </placeName> -
+            <opener>
+               <placeName ref="./Placeography.xml#Deep-Dene-Dorking_ENK">Deep <hi rend="underline">Dene</hi>
+               </placeName> -
              Dene a saxon word meaning<lb/>
              a deep rift in a wood - in<lb/>
              short a deep dingle -<lb/>
-               <dateline> 
-                 <placeName ref="./Placeography.xml#Deep-Dene-Dorking_ENK"/>Deep Dene<lb/>
-                 <date when="1819-04-17">Saturday Ap<hi rend="superscript">l</hi> 17<hi rend="superscript">th</hi><lb/>
+               <dateline>
+                  <placeName ref="./Placeography.xml#Deep-Dene-Dorking_ENK"/>Deep Dene<lb/>
+                  <date when="1819-04-17">Saturday Ap<hi rend="superscript">l</hi> 17<hi rend="superscript">th</hi>
+                     <lb/>
                    1819.<lb/>
                   </date>
                </dateline>
@@ -150,8 +152,9 @@
                <pb n="2" facs="Edgeworth_Bodleian_696_1819_04_17_page02.jpg"/>
 
                 for our arrival, and the first words in<lb/>
-                answer to mine of " Is it dinner time? "<lb/></p>
-                <p>"Yes Ma'am - dinner has been waiting<lb/>
+                answer to mine of " Is it dinner time? "<lb/>
+            </p>
+            <p>"Yes Ma'am - dinner has been waiting<lb/>
                 this hour " - increased my <choice>
                   <orig>uncomforta
                 ble</orig>
@@ -886,6 +889,6 @@
             </postscript>
          </div>
       </body>
-      <back> </back>
+      <back/>
    </text>
 </TEI>

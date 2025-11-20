@@ -2,6 +2,8 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/Maria-Edgeworth-Letters-Project/me-tei/refs/heads/main/melp.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+    ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -163,9 +165,10 @@
                fear the effects on my self - finding<lb/>
                my name floating down to future fame<lb/>
                with your's I shall become as<lb/>
-               insolent as the children <del>themselves</del><add>to whom it is dedicated.</add></p>
-               
-               <p>- They indeed will desire benefit,<lb/>
+               insolent as the children <del>themselves</del>
+               <add>to whom it is dedicated.</add>
+            </p>
+            <p>- They indeed will desire benefit,<lb/>
                <pb n="3" facs="Edgeworth_Huntington_FB901_1825-06-28_page03.jpg"/>
                
                for if any thing on earth can stimulate<lb/>
@@ -181,15 +184,20 @@
                of the work now that it is all<lb/>
                before you - I long also to<lb/>
                hear but with some little<lb/>
-               <choice><orig>timouressness</orig><reg>timorousness</reg></choice> if there be such<lb/>
+               <choice>
+                  <orig>timouressness</orig>
+                  <reg>timorousness</reg>
+               </choice> if there be such<lb/>
                a word how far you approve<lb/>
                of such parts as being within my<lb/>
                immediate knowledge - I dared to<lb/>
                <unclear>alter</unclear> - and with a still deeper<lb/>
-               feeling than even <choice><orig>timourousness</orig><reg>timorousness</reg></choice> how<lb/>
+               feeling than even <choice>
+                  <orig>timourousness</orig>
+                  <reg>timorousness</reg>
+               </choice> how<lb/>
                you brook the curtailments which<lb/>
                were requisite to reduce the 4<hi rend="superscript">th</hi>. vol. &amp; which<lb/>
-               
                <pb n="4" facs="Edgeworth_Huntington_FB901_1825-06-28_page04.jpg"/>
                <add>though</add> you empowered me to make I may<lb/>
                not have made in the right places.<lb/>
@@ -243,7 +251,6 @@
                whose constant opinion is that his<lb/>
                opinion is wrong - consider that his<lb/>
                only child has some deep seated<lb/>
-               
                <pb n="6" facs="Edgeworth_Huntington_FB901_1825-06-28_page06.jpg"/>
                
                disease which has required a <choice>
@@ -376,7 +383,8 @@
                3 weeks !! - 
             Have you any command<lb/>
                there for your very very affectionate<lb/>
-               <persName ref="./Personography.xml#BeauF1">F Beau</persName> -<lb/></p>
+               <persName ref="./Personography.xml#BeauF1">F Beau</persName> -<lb/>
+            </p>
             <postscript>
                <p>I cannot get any of <persName ref="./Personography.xml#BartC1">Barton</persName>'s <del>ornamented</del> Iris clasps - Why<lb/>
                they do not make them I cannot discover<lb/>

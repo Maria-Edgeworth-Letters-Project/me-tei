@@ -2,6 +2,8 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/Maria-Edgeworth-Letters-Project/me-tei/refs/heads/main/melp.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+    ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -66,7 +68,11 @@
                   <date when="1829-05-11">May 11<hi rend="superscript">th</hi> 1829 <lb/>
                   </date>
                </head>
-               <physDesc><objectDesc><ab>Page 2 of this letter contains newspaper clippings of printed letters by Maria Edgeworth, dated March 11, 1849, and January 21, 1849.</ab></objectDesc></physDesc>
+               <physDesc>
+                  <objectDesc>
+                     <ab>Page 2 of this letter contains newspaper clippings of printed letters by Maria Edgeworth, dated March 11, 1849, and January 21, 1849.</ab>
+                  </objectDesc>
+               </physDesc>
             </msDesc>
             <bibl>In addition to our edited version, this letter was previously published in
                </bibl>
@@ -139,7 +145,8 @@
                believe to be true &amp; just -<lb/>
             </p>
             <closer>
-               <date when="1829-05-11">May 11<hi rend="superscript">th</hi>. 1829</date><lb/>
+               <date when="1829-05-11">May 11<hi rend="superscript">th</hi>. 1829</date>
+               <lb/>
                <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
                <lb/>
                <pb n="3" facs="Edgeworth_Morgan_196281_1829_05_11_page03.jpg"/>
@@ -153,7 +160,8 @@
                   <lb/>
                   <placeName ref="./Placeography.xml#Edgeworthstown_IE">Edgeworthtown Ireland</placeName>
                   <lb/>
-                  <date when="1829-05-11">May 11<hi rend="superscript">th</hi> 1829</date> </note>
+                  <date when="1829-05-11">May 11<hi rend="superscript">th</hi> 1829</date>
+               </note>
                <lb/>
             </closer>
          </div>

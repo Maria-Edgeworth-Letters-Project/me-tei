@@ -2,12 +2,16 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/Maria-Edgeworth-Letters-Project/me-tei/refs/heads/main/melp.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+    ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title>Letter from Anna Laetitia Barbauld to Maria Edgeworth, August 23, 1816</title>
-            <author><persName ref="./Personography.xml#BarbA1">Anna Laetitia Barbauld</persName></author>
+            <author>
+               <persName ref="./Personography.xml#BarbA1">Anna Laetitia Barbauld</persName>
+            </author>
             <editor/>
             <sponsor>
                <orgName>Maria Edgeworth Letters Project</orgName>
@@ -123,7 +127,10 @@
                beyond imagination. Days pass, &amp; the more honour &amp; esteem I have for my<lb/>
                correspondent, the more I feel that I have nothing worth communicating<lb/>
                &amp; my brain feels dry, - "<hi rend="underline">as the remaining biscuit</hi> -<lb/>
-               <hi rend="underline">after a voyage</hi>". With regard to yourself, <choice><orig>tho</orig><reg>though</reg></choice> longing to write, I<lb/>
+               <hi rend="underline">after a voyage</hi>". With regard to yourself, <choice>
+                  <orig>tho</orig>
+                  <reg>though</reg>
+               </choice> longing to write, I<lb/>
                doubt if I should have had the courage, but for a hint communi-<lb/>
                cated by <persName ref="./Personography.xml#BailJ1">M<hi rend="superscript">rs</hi> Baillie</persName> intimating that I might have taken amiss not<lb/>
                seeing more of you <add>when you were in <placeName ref="./Placeography.xml#London_ENK">London</placeName>
@@ -167,26 +174,35 @@
                   seen my <persName ref="./Personography.xml#AikiJ1">Brother's</persName>
                <title ref="./Workography.xml#Annal1">
                   <hi rend="underline">Annals</hi>
-               </title> &amp; <choice><orig>tho</orig><reg>though</reg></choice> necessarily somewhat dry from the<lb/>
+               </title> &amp; <choice>
+                  <orig>tho</orig>
+                  <reg>though</reg>
+               </choice> necessarily somewhat dry from the<lb/>
                   necessary compression of such an eventful period, I think you will have<lb/>
                   been pleased with the fairness &amp; impartiality with which they are<lb/>
                   written.<unclear/> My neice, <persName ref="./Personography.xml#AikiL1">Miss Aikin</persName>, has made some progress in <unclear/>
                <lb/>
                <title ref="./Workography.xml#Memoi2">
                   <hi rend="underline">Memoirs of the reign of Elizabeth</hi>
-               </title>. She is taking great pains <damage><unclear>with<gap></gap></unclear></damage>
+               </title>. She is taking great pains <damage>
+                  <unclear>with<gap/>
+                  </unclear>
+               </damage>
                <lb/>
                   it &amp; I hope it will answer her expectation &amp; her friends' - We are<lb/>
                   expecting every day another Canto of <hi rend="underline">
-                  <title ref="./Workography.xml#Child1">Child Harold</title></hi>, but I apprehend the<lb/>
+                  <title ref="./Workography.xml#Child1">Child Harold</title>
+               </hi>, but I apprehend the<lb/>
                <persName ref="./Personography.xml#ByroG1">Author</persName> has lost too much of the public favour by his late cruel behaviour to<lb/>
                <persName ref="./Personography.xml#ByroA1">his wife</persName> to be as popular as he has been. I have now upon my table the<lb/>
                   strangest Poem - <persName ref="./Personography.xml#WilsJ1">Wilson's</persName>
                <hi rend="underline">
-                  <title ref="./Workography.xml#Cityo1">City of the Plague</title></hi>, a heap of horrors natural &amp;<lb/>
+                  <title ref="./Workography.xml#Cityo1">City of the Plague</title>
+               </hi>, a heap of horrors natural &amp;<lb/>
                   moral - and <hi rend="underline">
                   <persName ref="./Personography.xml#HuntL1">Lee Hunt's</persName>
-                  <title ref="./Workography.xml#Rimin1">Rimini</title></hi>, the most fantastic. Thus it is when<lb/>
+                  <title ref="./Workography.xml#Rimin1">Rimini</title>
+               </hi>, the most fantastic. Thus it is when<lb/>
                   the natural &amp; easy has become a beaten path &amp; the intellectual taste<lb/>
                   wants excitement, as the sensitive by more pungent relishes the originally<lb/>
                   disagreeable - My dear Madam have I not tired you? Will<lb/>

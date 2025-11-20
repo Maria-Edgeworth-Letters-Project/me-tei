@@ -2,6 +2,8 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/Maria-Edgeworth-Letters-Project/me-tei/refs/heads/main/melp.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+    ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -164,9 +166,9 @@
                   <orig>un-<lb/>
                   -interesting</orig>
                   <reg>uninteresting</reg>
-               </choice> stranger -<lb/></p>
-               
-               <p>Is there any chance of<lb/>
+               </choice> stranger -<lb/>
+            </p>
+            <p>Is there any chance of<lb/>
                your visiting <placeName ref="./Placeography.xml#IE">Ireland</placeName>? -<lb/>
                - To see the <placeName ref="./Placeography.xml#Dunsink_IE">Observatory of<lb/>
                Dublin</placeName> &amp; the celebrated<lb/>
@@ -206,8 +208,10 @@
                you - and whose tastes<lb/>
                &amp; if I may say so, talents<lb/>
                are deserving of that<lb/>
-               honor.<lb/></p>
-               <p><persName ref="./Personography.xml#EdgeR1">My father</persName> &amp; <persName ref="./Personography.xml#EdgeF2">M<hi rend="superscript">rs</hi>. Edgeworth</persName>
+               honor.<lb/>
+            </p>
+            <p>
+               <persName ref="./Personography.xml#EdgeR1">My father</persName> &amp; <persName ref="./Personography.xml#EdgeF2">M<hi rend="superscript">rs</hi>. Edgeworth</persName>
                <lb/>
                desire their respectful<lb/>
                remembrances<lb/>
@@ -223,7 +227,9 @@
                <address>
                   <addrLine>A</addrLine>
                   <addrLine>Monsieur</addrLine>
-                  <addrLine><persName ref="./Personography.xml#BiotJ1">Monsieur Biot.</persName></addrLine>
+                  <addrLine>
+                     <persName ref="./Personography.xml#BiotJ1">Monsieur Biot.</persName>
+                  </addrLine>
                </address>
             </closer>
          </div>

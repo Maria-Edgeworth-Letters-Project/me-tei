@@ -2,6 +2,8 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/Maria-Edgeworth-Letters-Project/me-tei/refs/heads/main/melp.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+    ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -27,9 +29,7 @@
             </respStmt>
          </titleStmt>
          <editionStmt>
-            <edition>First digital edition in TEI, date: <date when="2023-11-23">
-               
-            </date>
+            <edition>First digital edition in TEI, date: <date when="2023-11-23"/>
             </edition>
             <respStmt>
                <orgName type="naf" ref="http://id.loc.gov/authorities/names/n80097499">
@@ -151,7 +151,9 @@
                of the seat as it looks<lb/>
                quite bare &amp; unfinished<lb/>
                at present<lb/>
-               <figure><figDesc>drawing of chair seat</figDesc></figure>
+               <figure>
+                  <figDesc>drawing of chair seat</figDesc>
+               </figure>
                <lb/>
                If it would be any <choice>
                   <orig>conve<lb/>

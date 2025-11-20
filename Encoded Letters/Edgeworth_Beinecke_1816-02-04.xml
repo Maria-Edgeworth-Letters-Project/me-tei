@@ -2,12 +2,16 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/Maria-Edgeworth-Letters-Project/me-tei/refs/heads/main/melp.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+    ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title>Letter from Maria Edgeworth to Mrs. Miles and Mr. Chaters, February 4, 1816</title>
-            <author><persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName></author>
+            <author>
+               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
+            </author>
             <editor>
                <persName>Eliza Wilcox</persName>
             </editor>
@@ -93,7 +97,7 @@
          <change when="2024-08-08" who="Id_who">
                Robin Runia completed final editorial review on 08-02-2024.
             </change>
-         </revisionDesc>
+      </revisionDesc>
    </teiHeader>
    <text>
       <body>
@@ -101,7 +105,8 @@
             <pb n="2" facs="Edgeworth_Beinecke_1816-02-04_page02.jpg"/>
             <opener>
                <dateline>
-                  <placeName ref="./Placeography.xml#Edgeworthstown_IE">Edgeworth's Town</placeName><lb/>
+                  <placeName ref="./Placeography.xml#Edgeworthstown_IE">Edgeworth's Town</placeName>
+                  <lb/>
                   <date when="1816-02-04">February 04, 1816</date>
                   <lb/>
                </dateline>
@@ -110,9 +115,9 @@
                   <persName xml:id="MileX1">M<hi rend="superscript">rs</hi>. Miles</persName>
                   <addrLine/>
                   <persName xml:id="ChatE1">M<hi rend="superscript">r</hi>. <choice>
-                     <orig>Chaters</orig>
-                     <reg>Chater</reg>
-                  </choice>
+                        <orig>Chaters</orig>
+                        <reg>Chater</reg>
+                     </choice>
                   </persName>
                   <addrLine/>
                   <placeName>Corn Hill</placeName>
@@ -122,7 +127,7 @@
             <p>
                <note place="top">1 1/2 Muslin<lb/>
                     6 Footing<lb/>
-                    <unclear>B for d</unclear> - 4<lb/>
+                  <unclear>B for d</unclear> - 4<lb/>
                     Shoe strings<lb/>
                   <unclear>Curls</unclear> - H -Pins<lb/>
                   <unclear>Barnard</unclear>
@@ -173,7 +178,11 @@
                     reading put the muslin<lb/>
                     between the outside pasteboard<lb/>
                     covers of any old book &amp; direct<lb/>
-               the same to <persName ref="./Personography.xml#EdgeM1">Miss <choice><orig>E.</orig><reg>Edgeworth</reg></choice></persName>
+               the same to <persName ref="./Personography.xml#EdgeM1">Miss <choice>
+                     <orig>E.</orig>
+                     <reg>Edgeworth</reg>
+                  </choice>
+               </persName>
                <placeName ref="./Placeography.xml#Edgeworthstown_IE">Edgeworths Town</placeName>
                <lb/>
                     under cover to <persName ref="./Personography.xml#FoxC1">CJ. Fox Esq<hi rend="superscript">re</hi>
@@ -205,7 +214,8 @@
                     all this time or so negligent<lb/>
                     as not to know it.<lb/>
             </p>
-            <p> <persName ref="./Personography.xml#EdgeR1">My father</persName> is rather better<lb/>
+            <p>
+               <persName ref="./Personography.xml#EdgeR1">My father</persName> is rather better<lb/>
                     than he has been for some time<lb/>
                     But his health is far from<lb/>
                     being reestablished &amp; we are<lb/>
@@ -229,9 +239,7 @@
                  your <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
                <lb/>
             </closer>
-            <closer>
-               
-            </closer>
+            <closer/>
          </div>
       </body>
       <back/>

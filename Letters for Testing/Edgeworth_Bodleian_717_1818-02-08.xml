@@ -2,38 +2,38 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/Maria-Edgeworth-Letters-Project/me-tei/refs/heads/main/melp.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+    ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>Letter from Maria Edgeworth to Margaret Ruxton, February 8, 1818</title>
-                <author>Maria Edgeworth</author>
-                <editor>
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from Maria Edgeworth to Margaret Ruxton, February 8, 1818</title>
+            <author>Maria Edgeworth</author>
+            <editor>
                     Paris Weber
                 </editor>
-                <sponsor>
-                    <orgName>Maria Edgeworth Letters Project</orgName>
-                </sponsor>
-                <sponsor>Wake Forest University, University of Tennessee, Xavier University, Texas
+            <sponsor>
+               <orgName>Maria Edgeworth Letters Project</orgName>
+            </sponsor>
+            <sponsor>Wake Forest University, University of Tennessee, Xavier University, Texas
                     A&amp;M University</sponsor>
-                <principal>Susan Egenolf, Meredith Hale, Hilary Havens, Jessica Richard, and Robin Runia</principal>
-                <respStmt>
-                    <resp>Transcription  by
+            <principal>Susan Egenolf, Meredith Hale, Hilary Havens, Jessica Richard, and Robin Runia</principal>
+            <respStmt>
+               <resp>Transcription  by
                         <persName>
                          Aryaam Hashi   
                         </persName> 
                         Coding by</resp>
-                    <persName> Paris Weber </persName>
-                </respStmt>
-            </titleStmt>
-            <editionStmt>
-                <edition>First digital edition in TEI, date: July 04,2025 <date when="2025-07-04">
-                </date>
-                </edition>
-                <respStmt>
-                    <orgName 
-                        ref="/http://id.loc.gov/authorities/names/n80020306">Bodleian Library</orgName>
-                    <resp> photos include:
+               <persName> Paris Weber </persName>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>First digital edition in TEI, date: July 04,2025 <date when="2025-07-04"/>
+            </edition>
+            <respStmt>
+               <orgName ref="/http://id.loc.gov/authorities/names/n80020306">Bodleian Library</orgName>
+               <resp> photos include:
                         Edgeworth_Bodleian_717_1818-02-08_page01.jpg,
                         Edgeworth_Bodleian_717_1818-02-08_page02.jpg,
                         Edgeworth_Bodleian_717_1818-02-08_page03.jpg,
@@ -41,206 +41,208 @@
                         
                         
                     </resp>
-                </respStmt>
-            </editionStmt>
-            <publicationStmt>
-                <authority>Maria Edgeworth Letters Project</authority>
-                <date>2022</date>
-                <availability>
-                    <p>Reproduced by courtesy of <orgName ref="http://id.loc.gov/authorities/names/n80020306"> Bodleian Library</orgName>
-                    </p>
-                    <licence target="https://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons Attribution 4.0 (CC BY 4.0) Unported License</licence>
-                </availability>
-                <idno>Edgeworth_Bodleian_717_1818-02-08</idno> 
-            </publicationStmt>
-            <seriesStmt>
-                <title>Maria Edgeworth Letters Project</title>
-            </seriesStmt>
-            <sourceDesc>
-                <msDesc xml:lang="en">
-                    <msIdentifier>
-                        <repository>Bodleian Library</repository>
-                        <collection>MS. Eng. lett. c. 717</collection>
-                    </msIdentifier>
-                    <head>Letter from 
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Maria Edgeworth Letters Project</authority>
+            <date>2022</date>
+            <availability>
+               <p>Reproduced by courtesy of <orgName ref="http://id.loc.gov/authorities/names/n80020306"> Bodleian Library</orgName>
+               </p>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons Attribution 4.0 (CC BY 4.0) Unported License</licence>
+            </availability>
+            <idno>Edgeworth_Bodleian_717_1818-02-08</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Maria Edgeworth Letters Project</title>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <repository>Bodleian Library</repository>
+                  <collection>MS. Eng. lett. c. 717</collection>
+               </msIdentifier>
+               <head>Letter from 
                         <persName xml:id="EdgeM1" from="1768" to="1849">
-                            <forename>Maria</forename>
-                            <surname>Edgeworth</surname>
-                            <date>1768-1849</date>
-                            <idno type="VIAF">71477273</idno>
-                            <idno type="SNAC">62567029</idno>
-                        </persName>
+                     <forename>Maria</forename>
+                     <surname>Edgeworth</surname>
+                     <date>1768-1849</date>
+                     <idno type="VIAF">71477273</idno>
+                     <idno type="SNAC">62567029</idno>
+                  </persName>
                         to <persName ref="./Personography.xml#RuxtM1">Margaret Ruxton</persName>
-                        <date> 1746-1830</date>              
-                    </head>
-                </msDesc>
-                <bibl>In addition to our edited version, this letter was previously published in
-                    <!--complete bibiographical info if letter was published in a book here - if not delete-->
-                </bibl>
-            </sourceDesc>
-        </fileDesc>
-        <encodingDesc>
-            <editorialDecl>
-                <p>Edgeworth’s spelling and punctuation are retained in transcription, including non-standard spelling, line breaks, and hyphenation of words. The long s and ligatured forms are silently emended.</p>
-            </editorialDecl>
-        </encodingDesc>
-        <profileDesc>
-            <correspDesc>
-                <correspAction type="sent">
-                    <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
-                </correspAction>
-                <correspAction type="received">
-                    <persName ref="./Personography.xml#RuxtM1">Margaret Ruxton</persName>
-                </correspAction>
-            </correspDesc>
-        </profileDesc>
-        <revisionDesc>
-            <change when="2021-01-01" who="Id_who">
-            </change>
-        </revisionDesc>
-    </teiHeader>
-    <text>
-        <body>
-            <div type="letter">
-                <pb n="1" facs="Edgeworth_Bodleian_717_1818-02-08_page01.jpg"/>
-                
-                <dateline>
-                    <date when="1818-02-08"> </date></dateline>
-                      
-                         <p>
+                  <date> 1746-1830</date>
+               </head>
+            </msDesc>
+            <bibl>In addition to our edited version, this letter was previously published in
+                    <!--complete bibiographical info if letter was published in a book here - if not delete--></bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>Edgeworth’s spelling and punctuation are retained in transcription, including non-standard spelling, line breaks, and hyphenation of words. The long s and ligatured forms are silently emended.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="./Personography.xml#RuxtM1">Margaret Ruxton</persName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-01-01" who="Id_who"/>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <pb n="1" facs="Edgeworth_Bodleian_717_1818-02-08_page01.jpg"/>
+            <dateline>
+               <date when="1818-02-08"/>
+            </dateline>
+            <p>
                           Sunday Feb<hi rend="superscript">y</hi> 8<hi rend="superscript">th</hi> 1818<lb/>
-                               <note>8</note><lb/>
-                       
-                          <persName ref="./Personography.xml#BailJ1">Miss Baillie's</persName> letter will not<lb/> 
+               <note>8</note>
+               <lb/>
+               <persName ref="./Personography.xml#BailJ1">Miss Baillie's</persName> letter will not<lb/> 
                           be quite intelligible to you <lb/>
                           my dear <persName ref="./Personography.xml#RuxtM1">Aunt</persName> without a<lb/>
                           note from <persName ref="./Personography.xml#EdgeM1">Me</persName>.—You must<lb/> 
                           know that just after you<lb/> 
                           left <placeName ref="./Placeography.xml#Dublin_IE">Dublin</placeName> there appeared<lb/> 
-                          in some <placeName ref="./Placeography.xml#Dublin_IE">Dublin</placeName> paper a <choice> 
-                          <orig>let-<lb/>
+                          in some <placeName ref="./Placeography.xml#Dublin_IE">Dublin</placeName> paper a <choice>
+                  <orig>let-<lb/>
                           ter</orig>
-                          <reg>letter</reg>
-                          </choice>
+                  <reg>letter</reg>
+               </choice>
                           taken from a <placeName ref="./Placeography.xml#STK">Scotch</placeName> paper<lb/>
-                          called the <title ref="./Workography.xml#Craft1">Craftsman</title> <choice> 
-                          <orig>con-<lb/>
+                          called the <title ref="./Workography.xml#Craft1">Craftsman</title>
+               <choice>
+                  <orig>con-<lb/>
                           taining</orig>
-                          <reg>containing</reg>
-                          </choice>
+                  <reg>containing</reg>
+               </choice>
                           a sort of critique<lb/> 
                           or comparision between the<lb/> 
-                          novels of <persName ref="./Personography.xml#EdgeM1">miss E</persName> and of the<lb/> 
-                          <persName ref="./Personography.xml#ScotW1">author</persName> of <title ref="./Workography.xml#Waver1">Waverly</title> &amp;c—I <del>was</del><lb/> 
+                          novels of <persName ref="./Personography.xml#EdgeM1">miss E</persName> and of the<lb/>
+               <persName ref="./Personography.xml#ScotW1">author</persName> of <title ref="./Workography.xml#Waver1">Waverly</title> &amp;c—I <del>was</del>
+               <lb/> 
                           believing as I always have<lb/> 
                           done that <persName ref="./Personography.xml#ScotW1">Walter Scott</persName> if<lb/> 
-                          not the sole author at<lb/> 
-                       
-                       <pb n="2" facs="Edgeworth_Bodleian_717_1818-02-08_page02.jpg"/>
+                          not the sole author at<lb/>
+               <pb n="2" facs="Edgeworth_Bodleian_717_1818-02-08_page02.jpg"/>
                           least the directing soul of those<lb/> 
                           works, and being really<lb/>
                           fond of him &amp; grateful for<lb/> 
                           his kindness to me was<lb/> 
                           particularly vexed to see<lb/>
-                          this insidious <choice> 
-                          <orig>compari<lb/>
+                          this insidious <choice>
+                  <orig>compari<lb/>
                           son</orig>
-                          <reg>comparison</reg>
-                          </choice>
+                  <reg>comparison</reg>
+               </choice>
                           instituted between us<lb/>
-                          for in the course of the <choice> 
-                          <orig>de-<lb/>
+                          for in the course of the <choice>
+                  <orig>de-<lb/>
                           fence</orig>
-                          <reg>defence</reg>
-                          </choice>
+                  <reg>defence</reg>
+               </choice>
                           of <persName ref="./Personography.xml#EdgeM1">miss E</persName> which this<lb/> 
                           purported to be many things<lb/> 
                           were said about him in<lb/>
                           which I should be very sorry<lb/>
-                          he could think that <choice> 
-                          <orig>under<lb/>
+                          he could think that <choice>
+                  <orig>under<lb/>
                           hand</orig>
-                          <reg>underhand</reg>
-                          </choice>
+                  <reg>underhand</reg>
+               </choice>
                           or any way I had<lb/> 
                           any concern—I wrote to<lb/> 
-                          my friend <persName ref="./Personography.xml#BailJ1">Joanna</persName> <choice> 
-                          <orig>express-<lb/>
+                          my friend <persName ref="./Personography.xml#BailJ1">Joanna</persName>
+               <choice>
+                  <orig>express-<lb/>
                           ing</orig>
-                          <reg>expressing</reg>
-                          </choice>
-                          these feelings—<lb/> </p>
-                       
-                       <pb n="3" facs="Edgeworth_Bodleian_717_1818-02-08_page03.jpg"/>
-                          <p>
+                  <reg>expressing</reg>
+               </choice>
+                          these feelings—<lb/>
+            </p>
+            <pb n="3" facs="Edgeworth_Bodleian_717_1818-02-08_page03.jpg"/>
+            <p>
                           Now the first part of her<lb/> 
                           letter will be intelligence<lb/> 
                           but you will come to a story<lb/> 
-                          about <persName ref="./Personography.xml#GordA2" cert="medium">Sir Alex<hi rend="superscript">r</hi> Gordon</persName> wh<hi rend="superscript">h</hi><lb/>
+                          about <persName ref="./Personography.xml#GordA2" cert="medium">Sir Alex<hi rend="superscript">r</hi> Gordon</persName> wh<hi rend="superscript">h</hi>
+               <lb/>
                           requires an explanatory<lb/> 
-                          preface—<lb/> </p>
-                
-                          <p>
-                          All <placeName ref="./Placeography.xml#Dublin_IE">Dublin</placeName> you know was <choice> 
-                          <orig>talk<lb/>
+                          preface—<lb/>
+            </p>
+            <p>
+                          All <placeName ref="./Placeography.xml#Dublin_IE">Dublin</placeName> you know was <choice>
+                  <orig>talk<lb/>
                           ing</orig>
-                          <reg>talking</reg>
-                          </choice>
+                  <reg>talking</reg>
+               </choice>
                           over the long canvassed<lb/> 
                           question Is <persName ref="./Personography.xml#ScotW1">W. Scott</persName> or not the<lb/> 
                           author of the 3 unclaimed<lb/>
                           novels? — Now one of the <persName ref="./Personography.xml#HamiX2">Miss<lb/> 
-                          Hamilton’s</persName> told <persName ref="./Personography.xml#EdgeH1">Harriet B</persName><lb/>
+                          Hamilton’s</persName> told <persName ref="./Personography.xml#EdgeH1">Harriet B</persName>
+               <lb/>
                           who told me the following<lb/>
-                          anecdote.<lb/> </p>
-                
-                          <p>
+                          anecdote.<lb/>
+            </p>
+            <p>
                           That <persName ref="./Personography.xml#GordA2" cert="medium">Sir Alex Gordon</persName> had<lb/> 
                           declared to her his conviction<lb/> 
                           of <persName ref="./Personography.xml#ScotW1">W. Scott</persName> being the author<lb/> 
-                          because before the <choice> 
-                          <orig>publica<lb/>
+                          because before the <choice>
+                  <orig>publica<lb/>
                           tion</orig>
-                          <reg>publication</reg>
-                          </choice>
+                  <reg>publication</reg>
+               </choice>
                           of <title ref="./Workography.xml#GuyMa1">Guy Mannering</title> he<lb/> 
-                          the said <persName ref="./Personography.xml#GordA2">Sir Alex<hi rend="superscript">r</hi></persName> went<lb/>
-                       
-                       <pb n="4" facs="Edgeworth_Bodleian_717_1818-02-08_page04.jpg"/>
+                          the said <persName ref="./Personography.xml#GordA2">Sir Alex<hi rend="superscript">r</hi>
+               </persName> went<lb/>
+               <pb n="4" facs="Edgeworth_Bodleian_717_1818-02-08_page04.jpg"/>
                           to one of his tenants houses<lb/>
                           where he met <persName ref="./Personography.xml#ScotW1">W. Scott</persName> &amp; where<lb/> 
                           first such a scene passed as is<lb/> 
-                          painted in <title ref="./Workography.xml#GuyMa1">Guy Mannering</title><lb/>
+                          painted in <title ref="./Workography.xml#GuyMa1">Guy Mannering</title>
+               <lb/>
                           at the funeral of <persName ref="./Personography.xml#SteeX2">Steeney</persName> -<lb/> 
-                          The said <persName ref="./Personography.xml#GordA2">Sir Alex<hi rend="superscript">r</hi></persName> further<lb/>
+                          The said <persName ref="./Personography.xml#GordA2">Sir Alex<hi rend="superscript">r</hi>
+               </persName> further<lb/>
                           declared that when he again<lb/>
-                          met <persName ref="./Personography.xml#ScotW1">Walter Scott</persName> after the <choice> 
-                          <orig>pub<lb/>
+                          met <persName ref="./Personography.xml#ScotW1">Walter Scott</persName> after the <choice>
+                  <orig>pub<lb/>
                           lication</orig>
-                          <reg>publication</reg>
-                          </choice>
-                          of <title ref="./Workography.xml#GuyMa1">Guy Mannering</title><lb/>
+                  <reg>publication</reg>
+               </choice>
+                          of <title ref="./Workography.xml#GuyMa1">Guy Mannering</title>
+               <lb/>
                           &amp; reminded him or was<lb/> 
                           going to remind him of<lb/> 
                           this circumstance <persName ref="./Personography.xml#ScotW1">Walter<lb/>
                           Scott</persName> put his finger on his<lb/> 
                           lips in token of silence<lb/> 
-                          &amp; secrecy—<lb/> </p>
-                
-                          <p>
+                          &amp; secrecy—<lb/>
+            </p>
+            <p>
                           It appears you will see<lb/> 
                           that the knight would<lb/> 
                           have done better to be silent<lb/>
-                          </p>
-                
-                         <closer> 
-                           Y<hi rend="superscript">s</hi> affectionately<lb/> 
-                          <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName><lb/>
-                        </closer>
-                                
-            </div>
-        </body>
-        <back> </back>
-    </text>
+            </p>
+            <closer> 
+                           Y<hi rend="superscript">s</hi> affectionately<lb/>
+               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
+               <lb/>
+            </closer>
+         </div>
+      </body>
+      <back/>
+   </text>
 </TEI>
-

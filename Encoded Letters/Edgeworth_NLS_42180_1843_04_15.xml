@@ -2,6 +2,8 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/Maria-Edgeworth-Letters-Project/me-tei/refs/heads/main/melp.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+    ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -25,8 +27,7 @@ Hilary Havens
             </respStmt>
          </titleStmt>
          <editionStmt>
-            <edition>First digital edition in TEI, date: <date when="2024-01-05">
-            </date>
+            <edition>First digital edition in TEI, date: <date when="2024-01-05"/>
             </edition>
             <respStmt>
                <orgName type="naf" ref="http://id.loc.gov/authorities/names/n80044899">
@@ -72,8 +73,7 @@ Hilary Havens
                </physDesc>
             </msDesc>
             <bibl>In addition to our edited version, this letter was previously published in
-               <!--complete bibiographical info if letter was published in a book here - if not delete-->
-            </bibl>
+               <!--complete bibiographical info if letter was published in a book here - if not delete--></bibl>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
@@ -89,8 +89,7 @@ Hilary Havens
          </correspDesc>
       </profileDesc>
       <revisionDesc>
-         <change when="2021-01-01" who="Id_who">
-         </change>
+         <change when="2021-01-01" who="Id_who"/>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -180,6 +179,6 @@ Hilary Havens
             <lb/>
          </div>
       </body>
-      <back> </back>
+      <back/>
    </text>
 </TEI>

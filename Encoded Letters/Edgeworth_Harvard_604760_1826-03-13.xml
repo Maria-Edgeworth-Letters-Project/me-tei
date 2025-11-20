@@ -2,6 +2,8 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/Maria-Edgeworth-Letters-Project/me-tei/refs/heads/main/melp.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+    ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -100,7 +102,9 @@
                     him her sincere thanks for<lb/>
                     the honor he has done her<lb/>
                     by the present of a copy of<lb/>
-               <persName ref="./Personography.xml#FrisL1">Professor Frisbie's</persName> <title ref="./Workography.xml#Colle1">writings</title><lb/>
+               <persName ref="./Personography.xml#FrisL1">Professor Frisbie's</persName>
+               <title ref="./Workography.xml#Colle1">writings</title>
+               <lb/>
                     and of his notice of <persName ref="./Personography.xml#FrisL1">Frisbie's</persName>
                <lb/>
                     life and Works.<lb/>
@@ -147,7 +151,8 @@
                      <reg>Edinburgh</reg>
                   </choice> Literary Almanac</title> for<lb/>
                     this year in which there are<lb/>
-               some remarks on <persName ref="./Personography.xml#BrowT1">Brown</persName><lb/>
+               some remarks on <persName ref="./Personography.xml#BrowT1">Brown</persName>
+               <lb/>
                     &amp; other metaphysical Essays<lb/>
                     which perhaps may interest<lb/>
                     him - <lb/>
@@ -169,7 +174,8 @@
                </choice> were his - </p>
             <p> If <persName ref="./Personography.xml#NortA1">Professor Norton</persName> or<lb/>
                     any of her friends should<lb/>
-               visit <placeName ref="./Placeography.xml#IE">Ireland</placeName> <persName ref="./Personography.xml#EdgeX2">Miss Edgeworths<lb/>
+               visit <placeName ref="./Placeography.xml#IE">Ireland</placeName>
+               <persName ref="./Personography.xml#EdgeX2">Miss Edgeworths<lb/>
                        family</persName> hope to have the <choice>
                   <orig>honer</orig>
                   <reg>honor</reg>
@@ -180,7 +186,8 @@
                <lb/>
             </p>
             <closer>
-               <placeName ref="./Placeography.xml#Edgeworthstown_IE">Edgeworths Town</placeName><lb/>
+               <placeName ref="./Placeography.xml#Edgeworthstown_IE">Edgeworths Town</placeName>
+               <lb/>
                     March 13<hi rend="superscript">th</hi>. 1826
                 </closer>
             <postscript>
@@ -192,7 +199,8 @@
                   <hi rend="underline">American</hi> binding is equal<lb/>
                         to <placeName ref="./Placeography.xml#London_ENK">
                      <hi rend="underline">London</hi>
-                        </placeName><lb/>
+                  </placeName>
+                  <lb/>
                </p>
             </postscript>
             <closer>

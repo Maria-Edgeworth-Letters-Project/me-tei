@@ -2,6 +2,8 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/Maria-Edgeworth-Letters-Project/me-tei/refs/heads/main/melp.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+    ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -124,7 +126,8 @@
                the old lady to carry a box for you to <persName ref="./Personography.xml#HuntR1"> M<hi rend="superscript">r</hi>.<lb/>
                   Hunter</persName>'s containing paper for all the roads<lb/>
                in <placeName ref="./Placeography.xml#IE">Ireland</placeName> - Sundry rulers and<lb/>
-               <persName ref="./Personography.xml#EdgeR1">M<hi rend="superscript">r</hi> E's</persName> <del>m</del> valve. - My friend <persName ref="./Personography.xml#GallW1">M<hi rend="superscript">r</hi> Galloway</persName>
+               <persName ref="./Personography.xml#EdgeR1">M<hi rend="superscript">r</hi> E's</persName>
+               <del>m</del> valve. - My friend <persName ref="./Personography.xml#GallW1">M<hi rend="superscript">r</hi> Galloway</persName>
                <lb/>
                the Machinist &amp; Engineer made the latter<lb/>
                article - He could not staunch either of<lb/>
@@ -184,7 +187,6 @@
                thanks for your <unclear>fables</unclear>, and both my<lb/>
                little boys who already point to your<lb/>
                picture and repeat your difficult<lb/>
-               
                <pb n="4" facs="Edgeworth_Huntington_FB823_1817-06-12_page04.jpg"/>   
                name, will have an additional <choice>
                   <orig>ob-<lb/>
@@ -214,7 +216,6 @@
                two sheets which were cancelled from the<lb/>
                change in the division of the volumes <del/>
                <lb/>
-               
                <pb n="5" facs="Edgeworth_Huntington_FB823_1817-06-12_page05.jpg"/>  
                you are already aware. -<lb/>
             </p>
@@ -240,7 +241,6 @@
                writers are in the <title ref="./Workography.xml#BritRe1">British Review</title> - the<lb/>
                work is however known to be in the<lb/>
                hands of what is called the High Church<lb/>
-               
                <pb n="6" facs="Edgeworth_Huntington_FB823_1817-06-12_page06.jpg"/>         
                as opposed to the Methodists. -<lb/>
             </p>
@@ -288,10 +288,10 @@
                </persName> is the very man you recollect<lb/>
                at <placeName ref="./Placeography.xml#Bristol_ENK">Bristol</placeName> - I have now answered<lb/>
                all your questions, and the only commission<lb/>
-               unnoticed is <persName ref="./Personography.xml#GillX1">M<hi rend="superscript">r</hi>. <unclear>Gillock</unclear></persName>'s whom I have<lb/>
+               unnoticed is <persName ref="./Personography.xml#GillX1">M<hi rend="superscript">r</hi>. <unclear>Gillock</unclear>
+               </persName>'s whom I have<lb/>
                not yet been able to meet as he lives in<lb/>
                the Country and only comes to his office<lb/>
-               
                <pb n="8" facs="Edgeworth_Huntington_FB823_1817-06-12_page08.jpg"/>          
                in the morning. - <persName ref="./Personography.xml#BeauA1">Alicia</persName> and the<lb/>
                boys are all well - Pray have any<lb/>

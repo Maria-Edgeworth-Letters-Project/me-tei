@@ -2,6 +2,8 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/Maria-Edgeworth-Letters-Project/me-tei/refs/heads/main/melp.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+    ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -139,7 +141,6 @@
                attained by old experience -<lb/>
                To morrow is my 66 <hi rend="superscript">th</hi>. birth<lb/>
                day &amp; <persName ref="./Personography.xml#EdgeM1">Maria</persName> in her secret<lb/>
-               
                <pb n="2" facs="Edgeworth_Huntington_FB1239_1810-06-05_page02.jpg"/>
                heart, but she dare not say so,<lb/>
                wishes that your letter had come<lb/>
@@ -176,7 +177,10 @@
                I have not told you yet how greatly <persName ref="./Personography.xml#EdgeR1">M<hi rend="superscript">r</hi>Edgeworth</persName> was<lb/>
                delighted with your independant refusal to <hi rend="underline">ax</hi> a<lb/>
                peer for anything but an <hi rend="underline">axe</hi>. I never will ask you<lb/>
-               again to <hi rend="underline">pay court</hi> to any one so <choice><orig>dont</orig><reg>don't</reg></choice> be afraid - and <choice>
+               again to <hi rend="underline">pay court</hi> to any one so <choice>
+                  <orig>dont</orig>
+                  <reg>don't</reg>
+               </choice> be afraid - and <choice>
                   <orig>Ill</orig>
                   <reg>I'll</reg>
                </choice>
@@ -189,14 +193,17 @@
                </choice> letter if I did not believe that <persName ref="./Personography.xml#BeauL2">Louisa</persName> had already done<lb/>
                so - but I will conclude with his words "I never happened to <del>meet</del>
                <add>hear</add> -<lb/>
-               of a gentleman so generally and so highly commended as he is -<lb/></p>
-               <p>May God preserve your life both for your country &amp; your friends<lb/>
+               of a gentleman so generally and so highly commended as he is -<lb/>
+            </p>
+            <p>May God preserve your life both for your country &amp; your friends<lb/>
                <persName ref="./Personography.xml#EdgeF1">
                   <choice>
-                     <orig>FE</orig><reg>Frances Edgeworth</reg>
+                     <orig>FE</orig>
+                     <reg>Frances Edgeworth</reg>
                   </choice>
                </persName>
-               <lb/></p>
+               <lb/>
+            </p>
             <p>-</p>
             <p>To tell you my most dear brother that my heart is rejoiced<lb/>
                at your certainty of promotion would be to tell you what<lb/>
@@ -205,17 +212,22 @@
                a source of happiness to you, &amp; that you may continue<lb/>
                the same excellent hero &amp; be long preserved to all your friends<lb/>
                &amp; to your own attach'd friend <persName ref="./Personography.xml#BeauH2">
-                  <choice><orig>H</orig><reg>Harriet</reg></choice> Beaufort</persName>
+                  <choice>
+                     <orig>H</orig>
+                     <reg>Harriet</reg>
+                  </choice> Beaufort</persName>
                <lb/>
             </p>
-            
             <pb n="3" facs="Edgeworth_Huntington_FB1239_1810-06-05_page03.jpg"/>
             <p>May your happiness my kind &amp; excellent<lb/>
                friend increase with your promotion -<lb/>
                you cannot be more esteemed &amp; beloved by<lb/>
                those who know your merits than you have<lb/>
                ever been - <persName ref="./Personography.xml#SneyM1">
-                  <choice><orig>M.</orig><reg>Mary</reg></choice> Sneyd</persName>
+                  <choice>
+                     <orig>M.</orig>
+                     <reg>Mary</reg>
+                  </choice> Sneyd</persName>
                <lb/>
             </p>
             <p>-</p>
@@ -227,8 +239,14 @@
                </choice>&amp; feelings my dear <persName ref="./Personography.xml#BeauF1">Cap<hi rend="superscript">t</hi> Beaufort</persName>
                <lb/>
                than dear <persName ref="./Personography.xml#SneyM1">Mary</persName> has used to which with<lb/>
-               all my heart <hi rend="underline">I subscribe</hi><lb/>
-               <persName ref="./Personography.xml#EdgeC1"><choice><orig>C</orig><reg>Charles</reg></choice> Sneyd</persName><lb/>
+               all my heart <hi rend="underline">I subscribe</hi>
+               <lb/>
+               <persName ref="./Personography.xml#EdgeC1">
+                  <choice>
+                     <orig>C</orig>
+                     <reg>Charles</reg>
+                  </choice> Sneyd</persName>
+               <lb/>
             </p>
             <p>-</p>
             <p>
@@ -246,12 +264,22 @@
                </persName> that he has told you exactly the truth,<lb/>
                - I congratulate you upon your promotion<lb/>
                being made in the manner you desired &amp;<lb/>
-               deserve, - not the result of any little <damage><unclear>di<gap></gap></unclear></damage>
+               deserve, - not the result of any little <damage>
+                  <unclear>di<gap/>
+                  </unclear>
+               </damage>
                <lb/>
-               or patronage -<lb/></p>
+               or patronage -<lb/>
+            </p>
             <p>-</p>
-            <p>All the men who served under you on <damage><gap></gap></damage><lb/>
-               -phic duty are invited by <persName ref="./Personography.xml#EdgeR1">my father</persName> to <damage><gap></gap></damage><lb/>
+            <p>All the men who served under you on <damage>
+                  <gap/>
+               </damage>
+               <lb/>
+               -phic duty are invited by <persName ref="./Personography.xml#EdgeR1">my father</persName> to <damage>
+                  <gap/>
+               </damage>
+               <lb/>
                this day to celebrate <persName ref="./Personography.xml#BeauF1">their Captain</persName>'s <choice>
                   <orig>promo-<lb/>
                   -tion</orig>
@@ -277,7 +305,8 @@
             </closer>
             <postscript>
                <pb n="4" facs="Edgeworth_Huntington_FB1239_1810-06-05_page04.jpg"/>
-               <p>I advise you to read <title ref="./Workography.xml#Memoi3">Alfieri's life</title><lb/>
+               <p>I advise you to read <title ref="./Workography.xml#Memoi3">Alfieri's life</title>
+                  <lb/>
                </p>
             </postscript>
             <closer>
@@ -286,9 +315,16 @@
                      <persName ref="./Personography.xml#BeauF1">Capt<hi rend="superscript">n</hi>. Beaufort</persName>
                   </addrLine>
                   <addrLine>H: M Sloop</addrLine>
-                  <addrLine><choice><orig>R. N</orig><reg>Royal Navy</reg></choice></addrLine>
                   <addrLine>
-                     <del>Mess<hi rend="superscript">rs</hi> <unclear>Ommany &amp; Drince</unclear></del>
+                     <choice>
+                        <orig>R. N</orig>
+                        <reg>Royal Navy</reg>
+                     </choice>
+                  </addrLine>
+                  <addrLine>
+                     <del>Mess<hi rend="superscript">rs</hi>
+                        <unclear>Ommany &amp; Drince</unclear>
+                     </del>
                   </addrLine>
                   <addrLine>- Blossom Cecil Street</addrLine>
                   <addrLine>

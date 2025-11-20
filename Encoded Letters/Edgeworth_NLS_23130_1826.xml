@@ -2,6 +2,8 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/Maria-Edgeworth-Letters-Project/me-tei/refs/heads/main/melp.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+    ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -85,7 +87,7 @@
          </correspDesc>
       </profileDesc>
       <revisionDesc>
-         <change when="2025-05-08" who="Jamie Kramer">added line breaks; added LOC naf ID</change> 
+         <change when="2025-05-08" who="Jamie Kramer">added line breaks; added LOC naf ID</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -108,10 +110,10 @@
                child have been deprived by the sudden &amp; shocking accident of his death<lb/>
                on the eve of departing from <placeName ref="./Placeography.xml#Halifax_ENK">Halifax</placeName>. He was a brave soldier regular in<lb/>
                     all his habits attached to his <del/>wife &amp; family and maintaining <choice>
-                       <orig>com-<lb/>
+                  <orig>com-<lb/>
                         plete</orig>
                   <reg>complete</reg>
-                    </choice>independence on very limited Means. Their <unclear/> had of<lb/>
+               </choice>independence on very limited Means. Their <unclear/> had of<lb/>
                late enlarged by a bequest to my sister in law from her late brother<lb/>
                <persName ref="./Personography.xml#MacCD1">David Macculloch</persName> to the amount sum of £10,000 which established the<lb/>
                whole family in complete independence - and now when they expected<lb/>
@@ -128,11 +130,12 @@
                to be lifted out of the carriage so compleatly were my joints<lb/>
                disabled by the rheumatism. But the hot bath &amp; <del>opost</del> opodeledic<lb/>
                have put a little verve in Harlequin <unclear/> day I would have<lb/>
-                    <pb n="2" facs="Edgeworth_NLS_23130_1826_page02.jpg"/>   
+               <pb n="2" facs="Edgeworth_NLS_23130_1826_page02.jpg"/>   
                however pressure to scale <persName ref="./Personography.xml#KevaS1">Sam Kevans</persName> bed for a fortnight to come Walter<lb/>
                is going about the house wearing the little harness in memoriam<lb/>
                because none of the cavalry <unclear>immediately</unclear> on the run for <placeName ref="./Placeography.xml#PO">Portugal</placeName>
-               <unclear>believes</unclear><lb/>
+               <unclear>believes</unclear>
+               <lb/>
                to the 15<hi rend="superscript">th</hi>. but he has some <hi rend="underline">hopes</hi> from the newspapers as your countryman<lb/>
                said when for a Crtt be <unclear>awarded</unclear> to be carried up to the Nursery of a<lb/>
                of <del>sto</del>house &amp; felt his <unclear>braces totter </unclear> under him when he reached the summit<lb/>
@@ -146,7 +149,8 @@
                supply the plan of the exhausted Cruett. It is rather a hard choice for<lb/>
                I picked him out of three which we brought up &amp; the other two are<lb/>
                with <persName ref="Personography.xml#DundR1">Dundas of Arniston</persName> the other with very very active friend<lb/>
-               <persName ref="./Personography.xml#HughX1">Mrs Hughes</persName> hers both <unclear>got well over</unclear> the distemper.</p><lb/>
+               <persName ref="./Personography.xml#HughX1">Mrs Hughes</persName> hers both <unclear>got well over</unclear> the distemper.</p>
+            <lb/>
             <closer/>
             <postscript>
                <p/>

@@ -2,6 +2,8 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/Maria-Edgeworth-Letters-Project/me-tei/refs/heads/main/melp.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+    ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -117,7 +119,10 @@
                things in <placeName ref="./Placeography.xml#ENK">England</placeName>, <placeName ref="./Placeography.xml#STK">Scotland</placeName>, <placeName ref="./Placeography.xml#FR">France</placeName>
                <lb/>
                <placeName ref="./Placeography.xml#Geneva_SZ">Geneva</placeName>, and <placeName ref="./Placeography.xml#SZ">
-               <choice><orig>Swisserland</orig><reg>Switzerland</reg></choice>
+                  <choice>
+                     <orig>Swisserland</orig>
+                     <reg>Switzerland</reg>
+                  </choice>
                </placeName>, which my sisters<lb/>
                <add>&amp; I</add> have recently visited - And many of the<lb/>
                persons whom you mention are our<lb/>
@@ -143,7 +148,8 @@
                   <hi rend="underline">Watts</hi>
                </persName> |-<lb/>
                Your work has reached me but<lb/> 
-               a few days and I have not yet <choice><orig>finish<lb/>
+               a few days and I have not yet <choice>
+                  <orig>finish<lb/>
                   ed</orig>
                   <reg>finished</reg>
                </choice> reading it; but as I have an <choice>

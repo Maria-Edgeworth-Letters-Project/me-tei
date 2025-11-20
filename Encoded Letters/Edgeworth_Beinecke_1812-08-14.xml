@@ -2,12 +2,16 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/Maria-Edgeworth-Letters-Project/me-tei/refs/heads/main/melp.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+    ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title>Letter from Maria Edgeworth to Mrs. Miles, August 14, 1812</title>
-            <author><persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName></author>
+            <author>
+               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
+            </author>
             <editor>
                <persName>Eliza Wilcox</persName>
             </editor>
@@ -152,7 +156,6 @@
                     our spirits -<lb/>
             </p>
             <p> If you get the edging send it<lb/>
-           
                <pb n="3" facs="Edgeworth_Beinecke_1812-08-14_page03.jpg"/>
                wrapped in silver paper in<lb/>
                the first frank Mr. Miles can<lb/>
@@ -175,16 +178,15 @@
                are persuaded that you will<lb/>
                take the first opportunity in<lb/>
                your power of coming to us<lb/>
-            
                <pb n="4" facs="Edgeworth_Beinecke_1812-08-14_page04.jpg"/> 
                &amp; we thank you for saying that<lb/>
                our little dirty channel shall<lb/>
                be no impediment<lb/>
-               I am Dear Madame<lb/></p>
+               I am Dear Madame<lb/>
+            </p>
             <closer> Yours sincerely<lb/>
                <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
                <lb/>
-               
                <lb/>
             </closer>
          </div>

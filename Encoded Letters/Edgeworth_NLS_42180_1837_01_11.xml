@@ -2,6 +2,8 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/Maria-Edgeworth-Letters-Project/me-tei/refs/heads/main/melp.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+    ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -25,8 +27,7 @@ Hilary Havens
             </respStmt>
          </titleStmt>
          <editionStmt>
-            <edition>First digital edition in TEI, date: <date when="2024-01-04">
-            </date>
+            <edition>First digital edition in TEI, date: <date when="2024-01-04"/>
             </edition>
             <respStmt>
                <orgName type="naf" ref="http://id.loc.gov/authorities/names/n80044899">
@@ -64,12 +65,10 @@ Hilary Havens
                   <date when="1837-01-11">
                      Jan<hi rend="superscript">y</hi>. 11<hi rend="superscript">h</hi>. 1837</date>
                </head>
-               <physDesc>
-               </physDesc>
+               <physDesc/>
             </msDesc>
             <bibl>In addition to our edited version, this letter was previously published in
-               <!--complete bibiographical info if letter was published in a book here - if not delete-->
-            </bibl>
+               <!--complete bibiographical info if letter was published in a book here - if not delete--></bibl>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
@@ -174,6 +173,6 @@ Hilary Havens
             </postscript>
          </div>
       </body>
-      <back> </back>
+      <back/>
    </text>
 </TEI>

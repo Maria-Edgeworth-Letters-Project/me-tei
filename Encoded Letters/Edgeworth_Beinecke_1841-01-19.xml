@@ -2,14 +2,19 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/Maria-Edgeworth-Letters-Project/me-tei/refs/heads/main/melp.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+    ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title>Letter from Maria Edgeworth to Mrs. Pakenham, January 19, 1841</title>
-            <author><persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName></author>
-            <editor><persName>Eliza Alexander Wilcox</persName>
-                    </editor>
+            <author>
+               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
+            </author>
+            <editor>
+               <persName>Eliza Alexander Wilcox</persName>
+            </editor>
             <sponsor>
                <orgName>Maria Edgeworth Letters Project</orgName>
             </sponsor>
@@ -132,10 +137,15 @@
                </choice> him to do my sister &amp; myself<lb/>
                     the pleasure of calling again whenever<lb/>
                     he can &amp; Believe me sincerely &amp;<lb/>
-               <choice><orig>affect<hi rend="superscript">ly</hi></orig><reg>affectionately</reg></choice> yours<lb/>
+               <choice>
+                  <orig>affect<hi rend="superscript">ly</hi>
+                  </orig>
+                  <reg>affectionately</reg>
+               </choice> yours<lb/>
             </p>
             <closer>
-               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName><lb/>
+               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
+               <lb/>
                <placeName ref="./Placeography.xml#North-Audley-Street-1_ENK">1 North Audley Street</placeName>
             </closer>
             <postscript>
