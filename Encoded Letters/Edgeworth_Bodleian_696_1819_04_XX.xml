@@ -2,6 +2,8 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/Maria-Edgeworth-Letters-Project/me-tei/refs/heads/main/melp.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+    ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -91,16 +93,18 @@
             <pb n="1" facs="Edgeworth_Bodleian_696_1819_04_XX_page01.jpg"/>
             <opener>
                <dateline>
-                  <placeName></placeName>
+                  <placeName/>
                   <date when="1819-04">April 1819</date>
                </dateline>
                <salute>
                   <persName>
-                            My dearest <persName ref="./Personography.xml#EdgeF2">Mother,</persName><lb/>
+                            My dearest <persName ref="./Personography.xml#EdgeF2">Mother,</persName>
+                     <lb/>
                   </persName>
                </salute>
             </opener>
-               <p><persName ref="./Personography.xml#EdgeF3">Fanny</persName> is well. We have<lb/>
+            <p>
+               <persName ref="./Personography.xml#EdgeF3">Fanny</persName> is well. We have<lb/>
                     just been at <placeName ref="./Placeography.xml#Harley-Street_ENK">Harley S<hi rend="superscript">t</hi>
                </placeName>.<lb/>
                     Received your last letters<lb/>
@@ -134,7 +138,11 @@
             </p>
             <pb n="2" facs="Edgeworth_Bodleian_696_1819_04_XX_page02.jpg"/>
             <lb/>
-            <p> He then asked if we <choice><orig>sh<hi rend="superscript">d</hi></orig><reg></reg></choice>
+            <p> He then asked if we <choice>
+                  <orig>sh<hi rend="superscript">d</hi>
+                  </orig>
+                  <reg/>
+               </choice>
                <lb/>
                     like to have little <persName ref="./Personography.xml#XxxxF4">F</persName>? for<lb/>
                     the Easter holidays at <placeName ref="./Placeography.xml#Deep-Dene-Dorking_ENK">Deep<lb/>
@@ -191,12 +199,20 @@
                   <reg>promised</reg>
                </choice> not to engage<lb/>
                <hi rend="underline">when</hi> we shall have<lb/>
-               <persName ref="./Personography.xml#CarrR1">Lord <choice><orig>C</orig><reg>Carrington</reg></choice></persName>till we get there<lb/>
+               <persName ref="./Personography.xml#CarrR1">Lord <choice>
+                     <orig>C</orig>
+                     <reg>Carrington</reg>
+                  </choice>
+               </persName>till we get there<lb/>
             </p>
             <closer>
                     No more <hi rend="underline">possible</hi>
                <lb/>
-               from your <choice><orig>affec</orig><reg>affectionate</reg></choice><lb/>
+               from your <choice>
+                  <orig>affec</orig>
+                  <reg>affectionate</reg>
+               </choice>
+               <lb/>
                <persName ref="./Personography.xml#EdgeM1">ME</persName>
                <lb/>
             </closer>

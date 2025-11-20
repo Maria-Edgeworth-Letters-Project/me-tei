@@ -2,12 +2,17 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/Maria-Edgeworth-Letters-Project/me-tei/refs/heads/main/melp.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+    ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Letter from Maria Edgeworth to Frances Anne Edgeworth, <date> January 13, 1841</date></title>
-            <author><persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName></author>
+            <title>Letter from Maria Edgeworth to Frances Anne Edgeworth, <date> January 13, 1841</date>
+            </title>
+            <author>
+               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
+            </author>
             <editor>
                Paris Weber
             </editor>
@@ -23,16 +28,13 @@
                   </persName> 
                   Coding by</resp>
                <persName> Paris Weber </persName>
-               
             </respStmt>
          </titleStmt>
          <editionStmt>
-            <edition>First digital edition in TEI, date: June 05,2025 <date when="2025-06-05">
-            </date>
+            <edition>First digital edition in TEI, date: June 05,2025 <date when="2025-06-05"/>
             </edition>
             <respStmt>
-               <orgName 
-                  ref="/http://id.loc.gov/authorities/names/n80020306">Bodleian Library</orgName>
+               <orgName ref="/http://id.loc.gov/authorities/names/n80020306">Bodleian Library</orgName>
                <resp> photos include:
                   Edgeworth_Bodleian_702_1841-01-13_page01.jpg,
                   Edgeworth_Bodleian_702_1841-01-13_page02.jpg,
@@ -52,7 +54,7 @@
                </p>
                <licence target="https://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons Attribution 4.0 (CC BY 4.0) Unported License</licence>
             </availability>
-            <idno>Edgeworth_Bodleian_702_1841-01-13</idno> 
+            <idno>Edgeworth_Bodleian_702_1841-01-13</idno>
          </publicationStmt>
          <seriesStmt>
             <title>Maria Edgeworth Letters Project</title>
@@ -72,12 +74,11 @@
                      <idno type="SNAC">62567029</idno>
                   </persName>
                   to <persName ref="./Personography.xml#EdgeF2">Frances Anne Edgeworth</persName>
-                  <date> 1769-1865</date>              
+                  <date> 1769-1865</date>
                </head>
             </msDesc>
             <bibl>In addition to our edited version, this letter was previously published in
-               <!--complete bibiographical info if letter was published in a book here - if not delete-->
-            </bibl>
+               <!--complete bibiographical info if letter was published in a book here - if not delete--></bibl>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
@@ -96,8 +97,7 @@
          </correspDesc>
       </profileDesc>
       <revisionDesc>
-         <change when="2021-01-01" who="Id_who">
-         </change>
+         <change when="2021-01-01" who="Id_who"/>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -107,13 +107,15 @@
             <opener>
                <dateline>
                   <placeName ref="./Placeography.xml#North-Audley-Street-1_ENK">1 North Audley Street</placeName>
-                  <date when="1841-01-13">Jan<hi rend="superscript">y</hi>13<hi rend="superscript">h</hi>1841</date></dateline>
-               
+                  <date when="1841-01-13">Jan<hi rend="superscript">y</hi>13<hi rend="superscript">h</hi>1841</date>
+               </dateline>
             </opener>
             <p>
              
-               Dearest <persName ref="./Personography.xml#EdgeF2">mother</persName><lb/>
-               I left off I believe where <persName ref="./Personography.xml#EdgeF3">Fanny</persName><lb/>
+               Dearest <persName ref="./Personography.xml#EdgeF2">mother</persName>
+               <lb/>
+               I left off I believe where <persName ref="./Personography.xml#EdgeF3">Fanny</persName>
+               <lb/>
                was about to give a dinner and<lb/>
                I go on with -<lb/>
                It was a most agreeable dinner<lb/>
@@ -127,13 +129,17 @@
                pleased and happily satisfied<lb/>
             </p>
             <p>
-               The Convives were <persName ref="./Personography.xml#LushS2">D.<hi rend="superscript">r</hi> Lushington</persName><lb/>
+               The Convives were <persName ref="./Personography.xml#LushS2">D.<hi rend="superscript">r</hi> Lushington</persName>
+               <lb/>
                <hi rend="underline">primo</hi> - <persName ref="./Personography.xml#AndrX1">M <hi rend="superscript">r</hi> .Andrews</persName> - secundo -<lb/>
                <persName ref="./Personography.xml#MackR1" cert="medium">M <hi rend="superscript">r</hi>. M <hi rend="superscript">c</hi> .Intosh</persName> (<persName ref="./Personography.xml#MackJ2" cert="medium">Sir James'</persName> son) tertio<lb/>
                (The males being always put first in play bill)<lb/>
-               <add>Females</add><lb/>
-               <persName ref="./Personography.xml#CarrX3">Miss Carr</persName>- &amp; M <hi rend="supercripts">rs</hi> <persName ref="./Personography.xml#BeauH1">Beaufort</persName>- who kindly<lb/>
-               came to supply the place of M<hi rend="superscript">rs</hi>. <persName ref="./Personography.xml#AndrX2">Andrews</persName><lb/>
+               <add>Females</add>
+               <lb/>
+               <persName ref="./Personography.xml#CarrX3">Miss Carr</persName>- &amp; M <hi rend="supercripts">rs</hi>
+               <persName ref="./Personography.xml#BeauH1">Beaufort</persName>- who kindly<lb/>
+               came to supply the place of M<hi rend="superscript">rs</hi>. <persName ref="./Personography.xml#AndrX2">Andrews</persName>
+               <lb/>
                who at the last sent a <hi rend="underline">regret</hi>- in bed headache<lb/>
             </p>
             <p>
@@ -144,17 +150,21 @@
                nice curled hair looking &amp; talking<lb/>
                highbred beside <persName ref="./Personography.xml#AndrX2">M <hi rend="superscript">r</hi> .Andrews</persName> who<lb/>
                <hi rend="underline">took her</hi>down &amp; <persName ref="./Personography.xml#WilsL1">Lestock</persName> who liked to<lb/>
-               have her beside him -- <persName ref="./Personography.xml#LushS2">D <hi rend="superscript">r</hi> .Lushington</persName><lb/>
-               beside <persName ref="./Personography.xml#EdgeF3" cert="high"><choice>
+               have her beside him -- <persName ref="./Personography.xml#LushS2">D <hi rend="superscript">r</hi> .Lushington</persName>
+               <lb/>
+               beside <persName ref="./Personography.xml#EdgeF3" cert="high">
+                  <choice>
                      <orig>F M W  
                      </orig>
                      <reg>Fanny </reg>
-               </choice></persName> -- proper &amp; very agreeable<lb/>
-               <add><unclear>carving</unclear> remarkably well</add><lb/>
+                  </choice>
+               </persName> -- proper &amp; very agreeable<lb/>
+               <add>
+                  <unclear>carving</unclear> remarkably well</add>
+               <lb/>
                with her &amp; without her talking away<lb/>
                not a word of Politics or Religion &amp; then<lb/>
                he is the most entertaining &amp; agreeable<lb/>
-               
                <pb n="2" facs="Edgeworth_Bodleian_702_1841-01-13_page02.jpg"/>
                - and he has left off being in <choice>
                   <orig>facti-<lb/> 
@@ -171,7 +181,8 @@
                </choice>
                possibility - He raised the<lb/>
                hearts laugh frequently &amp; the<lb/>
-               heads by <del>anecdotes</del> &amp; <hi rend="underline">fresh</hi><lb/>
+               heads by <del>anecdotes</del> &amp; <hi rend="underline">fresh</hi>
+               <lb/>
                not old faded <placeName ref="./Placeography.xml#London_ENK">London</placeName> diner out<lb/>
                bon mots and anecdotes &amp;<lb/>
                facts if not secret worth knowing<lb/>
@@ -186,35 +197,41 @@
                body's hands pat - in turn<lb/>
                the Ball - did I say - Boomarang I had<lb/>
                better have said - for it came back<lb/>
-               always nicely to the thrower<lb/></p>
+               always nicely to the thrower<lb/>
+            </p>
             <p>
                a more agreeable conversation dinner<lb/> 
                I never heard - nor a better more <add>cooked</add> well<lb/>
                elegant <add>proportioned</add> &amp; well served dinner I never<lb/>
-               saw - eat or saw eaten<lb/></p>
+               saw - eat or saw eaten<lb/>
+            </p>
             <p>
                Coffee time &amp; evening and all to<lb/>
                match - ending past eleven without<lb/>
-               anybody knowing how<lb/></p>
+               anybody knowing how<lb/>
+            </p>
             <p>
                <persName ref="./Personography.xml#LushS2">D <hi rend="superscript">r</hi> . Lushington</persName> as I have since learned from<lb/>
                <persName ref="./Personography.xml#CarrX3">Miss Carr</persName> reiterated in the carriage as they<lb/>
                went home "What a merry pleasant dinner<lb/>
                we had !"- But what is much more to<lb/>
                my mind <persName ref="./Personography.xml#WilsL1">Lestock</persName> enjoyed it &amp; joined<lb/>
-               
                <pb n="3" facs="Edgeworth_Bodleian_702_1841-01-13_page03.jpg"/>
                in at the time (excellent wines too not<lb/>
-               throw away on <persName ref="./Personography.xml#LushS2">Lushington</persName><lb/>
-               and afterward <persName ref="./Personography.xml#WilsL1">Lestock</persName>said to <persName ref="./Personography.xml#EdgeF3">Fanny</persName><lb/>
+               throw away on <persName ref="./Personography.xml#LushS2">Lushington</persName>
+               <lb/>
+               and afterward <persName ref="./Personography.xml#WilsL1">Lestock</persName>said to <persName ref="./Personography.xml#EdgeF3">Fanny</persName>
+               <lb/>
                how much he had been pleased<lb/>
                with it all - How well he thought it<lb/>
                went off - and especially how agree<lb/>
                -able he thought <persName ref="./Personography.xml#LushS2">D<hi rend="superscript">r</hi> .L</persName> - Now this<lb/>
                was particularly pleasing both to<lb/>
                <persName ref="./Personography.xml#EdgeF3">Fanny</persName> &amp; to me - for she had asked<lb/>
-               <persName ref="./Personography.xml#LushS2">Lushington</persName> <hi rend="underline">for me</hi> ( to save my going<lb/>
-               to dine with them ) and tho' <persName ref="./Personography.xml#WilsL1">Lestock</persName><lb/>
+               <persName ref="./Personography.xml#LushS2">Lushington</persName>
+               <hi rend="underline">for me</hi> ( to save my going<lb/>
+               to dine with them ) and tho' <persName ref="./Personography.xml#WilsL1">Lestock</persName>
+               <lb/>
                kindly <hi rend="underline">gave-in</hi> to it, it was rather<lb/>
                a contre coeur; as <persName ref="./Personography.xml#LushS2">Lushington</persName> had<lb/>
                not won her heart formerly - <add>being</add> a <choice>
@@ -222,10 +239,12 @@
                      ate</orig>
                   <reg>desperate</reg>
                </choice>
-               Whig as he is ! How should he?-<lb/></p>
+               Whig as he is ! How should he?-<lb/>
+            </p>
             <p>
                But having kept clear of politics &amp;c<lb/>
-               no man could be as <persName ref="./Personography.xml#WilsL1">Lestock</persName> <choice>
+               no man could be as <persName ref="./Personography.xml#WilsL1">Lestock</persName>
+               <choice>
                   <orig>him<lb/>
                      -self </orig>
                   <reg>himself</reg>
@@ -235,12 +254,18 @@
                for I do hate to bore <persName ref="./Personography.xml#WilsL1">Lestock</persName> with<lb/>
                the old lioness's worshippers <add>all</add> coming<lb/>
                to feed, or be fed; Some <add>of them</add> Roaring-lions<lb/>
-               themselves <del>to</del><add>by</add><add>stand</add><add>ing</add> on their hind<lb/>
-               legs opposite to <persName ref="./Personography.xml#WilsL1">Lestocks</persName> <hi rend="underline">silent</hi> face -<lb/>
+               themselves <del>to</del>
+               <add>by</add>
+               <add>stand</add>
+               <add>ing</add> on their hind<lb/>
+               legs opposite to <persName ref="./Personography.xml#WilsL1">Lestocks</persName>
+               <hi rend="underline">silent</hi> face -<lb/>
                - a face! -enough (as I should feel)<lb/>
-               to turn any living lion rampant <add>= roaring</add><lb/>
+               to turn any living lion rampant <add>= roaring</add>
+               <lb/>
                into a lion couchant = mute, - on<lb/>
-               the spot -<lb/></p>
+               the spot -<lb/>
+            </p>
             <p>
                You see I am happy &amp; in<lb/>
                good spirits - and you feel without<lb/>
@@ -248,7 +273,6 @@
                nevertheless ) that <persName ref="./Personography.xml#EdgeF3">Fanny</persName> is not the<lb/>
                worse in the least any way for<lb/>
                this dinner - Whether she is the<lb/>
-               
                <pb n="4" facs="Edgeworth_Bodleian_702_1841-01-13_page04.jpg"/>
                different from what I last saw what<lb/>
                suited her former figure that<lb/>
@@ -260,7 +284,8 @@
                perhaps by day light golden yellow<lb/>
                such as <persName ref="./Personography.xml#EdgeR2">Rosa</persName> &amp; <persName ref="./Personography.xml#EdgeF1">Francis</persName> patronise<lb/>
                Double Ruffles of light lace <del>&amp;</del> light<lb/>
-               sleeves like old <persName ref="./Personography.xml#VandA1" cert="medium">Vandyke</persName> picture<lb/></p>
+               sleeves like old <persName ref="./Personography.xml#VandA1" cert="medium">Vandyke</persName> picture<lb/>
+            </p>
             <p>
                Quick from <persName ref="./Personography.xml#SneyM2" cert="high">Emmas</persName> most<lb/>
                politely kind welcome I turned to<lb/>
@@ -282,9 +307,12 @@
                together &amp; brow &amp; mouth so wrinkled<lb/>
                &amp; crinkled I could not concieve it<lb/>
                to be in the once <add>young &amp;</add> radiant <add>not the afterwards</add> fashionable<lb/>
-               <hi rend="underline">well set up</hi> <persName ref="./Personography.xml#SneyM3" cert="high">M <hi rend="superscript">rs</hi> Sneyd</persName> of <placeName ref="./Placeography.xml#Byrkley-Lodge_ENK">Byrkley Lodge</placeName><lb/>
+               <hi rend="underline">well set up</hi>
+               <persName ref="./Personography.xml#SneyM3" cert="high">M <hi rend="superscript">rs</hi> Sneyd</persName> of <placeName ref="./Placeography.xml#Byrkley-Lodge_ENK">Byrkley Lodge</placeName>
+               <lb/>
                however - When she came so near<lb/>
-               that I could see her <hi rend="underline">countenance</hi><lb/>
+               that I could see her <hi rend="underline">countenance</hi>
+               <lb/>
                I recognised the unchanged<lb/>
                expression of cheerful, polite <choice>
                   <orig>bene<lb/> 
@@ -293,28 +321,36 @@
                </choice>
                - As she greeted me &amp;<lb/>
                thanked<lb/>
-               
                <pb n="5" facs="Edgeworth_Bodleian_702_1841-01-13_page05.jpg"/>
-               that last sentence about D<hi rend="superscript">r</hi><lb/>
-               <persName ref="./Personography.xml#AshbX1">Ashburner</persName> was quite a <unclear></unclear><lb/>
+               that last sentence about D<hi rend="superscript">r</hi>
+               <lb/>
+               <persName ref="./Personography.xml#AshbX1">Ashburner</persName> was quite a <unclear/>
+               <lb/>
                as proved by his heads appearing<lb/>
                coming in at the door behind<lb/>
                the red skreen at the very instant<lb/>
-               I came to the last words of last page<lb/></p>
+               I came to the last words of last page<lb/>
+            </p>
             <p>
                He felt her pulse &amp; finds it only<lb/>
-               eighty <hi rend="underline">four</hi> - &amp; is <hi rend="underline">well satisfied</hi><lb/>
-               and thats enough -<lb/></p>
+               eighty <hi rend="underline">four</hi> - &amp; is <hi rend="underline">well satisfied</hi>
+               <lb/>
+               and thats enough -<lb/>
+            </p>
             <p>
                He brought with him a M<hi rend="superscript">r</hi> .<lb/>
-               Kennion a brother of <persName ref="./Personography.xml#KenyL1" cert="medium">Lord Kennions</persName><lb/>
-               one of the best <add>of the</add> jovial class of <placeName ref="./Placeography.xml#London_ENK">London</placeName><lb/>
+               Kennion a brother of <persName ref="./Personography.xml#KenyL1" cert="medium">Lord Kennions</persName>
+               <lb/>
+               one of the best <add>of the</add> jovial class of <placeName ref="./Placeography.xml#London_ENK">London</placeName>
+               <lb/>
                diners, a breakfaster-out - He<lb/>
                has been interrupting <add>me full hour yet</add> in spite<lb/>
                of that entertaining me unto the last<lb/>
                gasp - The last thing he told I<lb/>
                give as a specimen - a saying<lb/>
-               of <persName ref="./Personography.xml#BrooX1">M<del>iss</del><add>rs</add> Brooke's</persName> sister of Baron Garrow<lb/></p>
+               of <persName ref="./Personography.xml#BrooX1">M<del>iss</del>
+                  <add>rs</add> Brooke's</persName> sister of Baron Garrow<lb/>
+            </p>
             <p>
                The Baron notwithstanding his<lb/>
                bullying manner as a lawyer in court<lb/>
@@ -326,30 +362,39 @@
                </choice>
                by the last thing said &amp; the<lb/>
                last person who is in their company<lb/>
-               - all which <add>ideas</add> <persName ref="./Personography.xml#BrooX1">M <hi rend="superscript">rs</hi>. Brooke</persName> compressed into<lb/>
-               " With my brother <add>always</add><hi rend="underline">"Presence is power"</hi><lb/></p>
+               - all which <add>ideas</add>
+               <persName ref="./Personography.xml#BrooX1">M <hi rend="superscript">rs</hi>. Brooke</persName> compressed into<lb/>
+               " With my brother <add>always</add>
+               <hi rend="underline">"Presence is power"</hi>
+               <lb/>
+            </p>
             <p>
                But now I must quit your<lb/>
-               presence &amp; go to dress to go to <persName ref="./Personography.xml#SneyM3" cert="high">M <hi rend="superscript">rs</hi> Sneyd</persName><lb/>
+               presence &amp; go to dress to go to <persName ref="./Personography.xml#SneyM3" cert="high">M <hi rend="superscript">rs</hi> Sneyd</persName>
+               <lb/>
                - <persName ref="./Personography.xml#BeauH1">Honora</persName> is to call for me at half<lb/>
                after<lb/>
-               
                <pb n="6" facs="Edgeworth_Bodleian_702_1841-01-13_page06.jpg"/>
                half part seven - Half past 6 now<lb/>
-               and I have to dress &amp; dine<lb/></p>
+               and I have to dress &amp; dine<lb/>
+            </p>
             <p>
                Goodbye - It is snowing as<lb/>
                hard as it can - But snow or not snow<lb/>
                Go we must - we must go<lb/>
                It is astonishing how soon and<lb/>
-               <placeName ref="./Placeography.xml#London_ENK">London</placeName> <hi rend="underline">musts</hi> - and <hi rend="underline"> must goes</hi><lb/>
+               <placeName ref="./Placeography.xml#London_ENK">London</placeName>
+               <hi rend="underline">musts</hi> - and <hi rend="underline"> must goes</hi>
+               <lb/>
                the human heart hardens towards<lb/>
                horses and men!- And even<lb/>
                my own in one short month begins<lb/>
-               I feel to ossify apace<lb/></p>
+               I feel to ossify apace<lb/>
+            </p>
             <p>
                I must go - But<lb/>
-               still I am heartily glad <persName ref="./Personography.xml#EdgeF3">Fannys</persName><lb/>
+               still I am heartily glad <persName ref="./Personography.xml#EdgeF3">Fannys</persName>
+               <lb/>
                <persName ref="./Personography.xml#XxxxJ3">John</persName> is not to go with us<lb/>
                <persName ref="./Personography.xml#BeauH1">Honoras</persName> man is to go and<lb/>
                I don't care for him - he is not<lb/>
@@ -359,17 +404,20 @@
                scarcely animals only moving<lb/>
                machines - and steam will<lb/>
                soon take their hay &amp; oats out<lb/>
-               of their mouths<lb/></p>
+               of their mouths<lb/>
+            </p>
             <closer>
                yours humanely &amp;<lb/>
-               <add><persName ref="./Personography.xml#HollX1" cert="medium">Emily B</persName> is delighted<lb/>
+               <add>
+                  <persName ref="./Personography.xml#HollX1" cert="medium">Emily B</persName> is delighted<lb/>
                to go to this little<lb/>
-               dance -</add><lb/>
-               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName><lb/></closer>
-               
-            
+               dance -</add>
+               <lb/>
+               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
+               <lb/>
+            </closer>
          </div>
       </body>
-      <back> </back>
+      <back/>
    </text>
 </TEI>

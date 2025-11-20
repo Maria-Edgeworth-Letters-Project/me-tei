@@ -2,15 +2,19 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/Maria-Edgeworth-Letters-Project/me-tei/refs/heads/main/melp.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+    ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title>Letter from Maria Edgeworth to Richard Bentley, 1836</title>
-            <author><persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName></author>
+            <author>
+               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
+            </author>
             <editor>
                <persName>Eliza Alexander Wilcox</persName>
-                </editor>
+            </editor>
             <sponsor>
                <orgName>Maria Edgeworth Letters Project</orgName>
             </sponsor>
@@ -22,7 +26,10 @@
                <persName>Eliza Wilcox
                     </persName>
             </respStmt>
-            <respStmt><resp>Reviewed by</resp><persName>Robin Runia</persName></respStmt>
+            <respStmt>
+               <resp>Reviewed by</resp>
+               <persName>Robin Runia</persName>
+            </respStmt>
          </titleStmt>
          <editionStmt>
             <edition>First digital edition in TEI, date: <date when="2022-10-18"/>
@@ -82,11 +89,11 @@
          </correspDesc>
       </profileDesc>
       <revisionDesc status="approved">
-         <change when="2025-06-30" who="Jamie Kramer">Revised person tag for unknown Baldwin and Cradock to identify as publisher Robert Baldwin and Charles Cradock. Corrected Cradoch to Cradock.</change> 
+         <change when="2025-06-30" who="Jamie Kramer">Revised person tag for unknown Baldwin and Cradock to identify as publisher Robert Baldwin and Charles Cradock. Corrected Cradoch to Cradock.</change>
          <change when="2024-08-14" who="Id_who">
                Robin Runia completed final editorial review on 08-14-2024.
          </change>
-     </revisionDesc>
+      </revisionDesc>
    </teiHeader>
    <text>
       <body>
@@ -120,8 +127,12 @@
             </p>
             <closer>
                     I am Sir<lb/>
-               Your <choice><orig>Obed<hi rend="superscript">t</hi>.</orig><reg>Obedient</reg></choice> Servant<lb/>
-               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName><lb/>
+               Your <choice>
+                  <orig>Obed<hi rend="superscript">t</hi>.</orig>
+                  <reg>Obedient</reg>
+               </choice> Servant<lb/>
+               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
+               <lb/>
                <address>
                   <pb n="2" facs="Edgeworth_Beinecke_1836_page02.jpg"/>
                   <persName ref="./Personography.xml#BentR1">Richard Bentley Esq<hi rend="superscript">re</hi>
@@ -134,7 +145,6 @@
             </closer>
          </div>
       </body>
-   
       <back/>
    </text>
 </TEI>

@@ -2,6 +2,8 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/Maria-Edgeworth-Letters-Project/me-tei/refs/heads/main/melp.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+    ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -22,8 +24,7 @@
             </respStmt>
          </titleStmt>
          <editionStmt>
-            <edition>First digital edition in TEI, date: <date when="2025-07-18">
-            </date>
+            <edition>First digital edition in TEI, date: <date when="2025-07-18"/>
             </edition>
             <respStmt>
                <orgName type="naf" ref="http://id.loc.gov/authorities/names/n80044899">National Library of Scotland
@@ -41,7 +42,7 @@
                </p>
                <licence target="https://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons Attribution 4.0 (CC BY 4.0) Unported License</licence>
             </availability>
-            <idno>Edgeworth_NLS_42180_1828-08-22</idno> 
+            <idno>Edgeworth_NLS_42180_1828-08-22</idno>
          </publicationStmt>
          <seriesStmt>
             <title>Maria Edgeworth Letters Project</title>
@@ -56,12 +57,10 @@
                   <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName> to <persName ref="./Personography.xml#MurrJ1" cert="medium">[John Murray]</persName>,
                   <date when="1828-08-22">Augs. 22<hi rend="superscript">d</hi>. 1828</date>
                </head>
-               <physDesc>
-               </physDesc>
+               <physDesc/>
             </msDesc>
             <bibl>In addition to our edited version, this letter was previously published in
-               <!--complete bibiographical info if letter was published in a book here - if not delete-->
-            </bibl>
+               <!--complete bibiographical info if letter was published in a book here - if not delete--></bibl>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
@@ -80,8 +79,7 @@
          </correspDesc>
       </profileDesc>
       <revisionDesc>
-         <change when="2021-01-01" who="Id_who">
-         </change>
+         <change when="2021-01-01" who="Id_who"/>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -90,34 +88,62 @@
             <pb n="1" facs="Edgeworth_NLS_42180_1828_08_22_page01.jpg"/>
             <opener>
                <dateline>
-                  <placeName ref="./Personography.xml#Edgeworthstown_IE">Edgeworth Town<lb/></placeName>
-                  <date when="1828-08-22"><choice><orig>Augs.</orig><reg>August</reg></choice> 22<hi rend= "superscript">d</hi>. 1828</date><lb/></dateline>
+                  <placeName ref="./Personography.xml#Edgeworthstown_IE">Edgeworth Town<lb/>
+                  </placeName>
+                  <date when="1828-08-22">
+                     <choice>
+                        <orig>Augs.</orig>
+                        <reg>August</reg>
+                     </choice> 22<hi rend="superscript">d</hi>. 1828</date>
+                  <lb/>
+               </dateline>
                <salute>Sir,<lb/>
                </salute>
             </opener>
-            <p><persName ref="./Personography.xml#BeauF1"><choice><orig>Capt<hi rend= "superscript">n</hi>.</orig><reg>Captain</reg></choice> Beaufort</persName> agrees with me in <choice><orig>accept<lb/>
-               ing</orig><reg>accepting</reg></choice> for <persName ref="./Personography.xml#MarcJ1">our friend the author</persName> of <title ref= "./Workography.xml#Berth1">Bertha</title><lb/>
+            <p>
+               <persName ref="./Personography.xml#BeauF1">
+                  <choice>
+                     <orig>Capt<hi rend="superscript">n</hi>.</orig>
+                     <reg>Captain</reg>
+                  </choice> Beaufort</persName> agrees with me in <choice>
+                  <orig>accept<lb/>
+               ing</orig>
+                  <reg>accepting</reg>
+               </choice> for <persName ref="./Personography.xml#MarcJ1">our friend the author</persName> of <title ref="./Workography.xml#Berth1">Bertha</title>
+               <lb/>
                your offer of three hundred pounds<lb/>
                for the copy right, payable at - six, nine<lb/>
                and twelve months from the first of<lb/>
                next December - about which time you<lb/>
-               engage to publish it<lb/></p>
+               engage to publish it<lb/>
+            </p>
             <p>Whatever may be the advantages of<lb/>
                the other offer which you made we<lb/>
                are contented with that which is here<lb/>
                specified ; and shall only further request<lb/>
                that the proof sheets may be sent to<lb/>
-               <persName ref="./Personography.xml#BeauF1"><choice><orig>Capt<hi rend= "superscript">n</hi>.</orig><reg>Captain</reg></choice> Beaufort</persName> to correct who will<lb/>
+               <persName ref="./Personography.xml#BeauF1">
+                  <choice>
+                     <orig>Capt<hi rend="superscript">n</hi>.</orig>
+                     <reg>Captain</reg>
+                  </choice> Beaufort</persName> to correct who will<lb/>
                   let <persName ref="./Personography.xml#MurrJ3" cert="medium">Mr. Murray</persName> know when he arrives<lb/>
                in Town which will be in about a<lb/>
                month -<lb/>
             </p>
             <closer>
-               I am Sir, - with due <choice><orig>approba<lb/>
-                  -tion</orig><reg>approbation</reg></choice> of your mode of doing business<lb/>
-               Your <choice><orig>Obed<hi rend= "superscript">t</hi>.</orig><reg>Obedient</reg></choice> Servant<lb/>
-               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName><lb/></closer>
-
+               I am Sir, - with due <choice>
+                  <orig>approba<lb/>
+                  -tion</orig>
+                  <reg>approbation</reg>
+               </choice> of your mode of doing business<lb/>
+               Your <choice>
+                  <orig>Obed<hi rend="superscript">t</hi>.</orig>
+                  <reg>Obedient</reg>
+               </choice> Servant<lb/>
+               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
+               <lb/>
+            </closer>
          </div>
       </body>
    </text>

@@ -2,12 +2,16 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/Maria-Edgeworth-Letters-Project/me-tei/refs/heads/main/melp.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+    ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title>Letter from Maria Edgeworth to Mrs. Miles, February 16, 1817</title>
-            <author><persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName></author>
+            <author>
+               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
+            </author>
             <editor>
                     Eliza Wilcox</editor>
             <sponsor>
@@ -100,7 +104,6 @@
    <text>
       <body>
          <div type="letter">
-           
             <pb n="1" facs="Edgeworth_Beinecke_1817-02-16_page02.jpg"/>
             <opener>
                <dateline>
@@ -130,11 +133,14 @@
                     thing that he could <del/>, but has not heard<lb/>
                     anything, he has written to the English Post<lb/>
                     Master <del/>, but I do believe that <add>it</add> was lost,<lb/>
-               
-            <pb n="2" facs="Edgeworth_Beinecke_1817-02-16_page03.jpg"/>  
+               <pb n="2" facs="Edgeworth_Beinecke_1817-02-16_page03.jpg"/>  
                     either going from the Ordnance Office or in it - <lb/>
                Now will you be so kind as to inform me by<lb/>
-               whom it was sent and to whom it was <choice><orig>deliverd</orig><reg>delivered</reg></choice><lb/>
+               whom it was sent and to whom it was <choice>
+                  <orig>deliverd</orig>
+                  <reg>delivered</reg>
+               </choice>
+               <lb/>
                      And how it was packed, was it put between<lb/>
                     two pieces of pasteboard, or was it packed<lb/>
                     according to your way, merely in paper? I assure<lb/>
@@ -160,7 +166,6 @@
                <lb/>
                     Sunday<lb/>
             </closer>
-            
             <pb n="3" facs="Edgeworth_Beinecke_1817-02-16_page01.jpg"/>
             <closer>
                <address>
