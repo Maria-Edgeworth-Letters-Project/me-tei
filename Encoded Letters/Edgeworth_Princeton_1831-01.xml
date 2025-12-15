@@ -2,6 +2,8 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/Maria-Edgeworth-Letters-Project/me-tei/refs/heads/main/melp.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+    ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -36,7 +38,7 @@
                <p>Reproduced by courtesy of <orgName ref="http://id.loc.gov/authorities/names/n82003163">Princeton University. Library</orgName>.</p>
                <licence target="https://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons Attribution 4.0 (CC BY 4.0) Unported License</licence>
             </availability>
-            <idno>Edgeworth_Princeton_1831-01</idno> 
+            <idno>Edgeworth_Princeton_1831-01</idno>
          </publicationStmt>
          <seriesStmt>
             <title>Maria Edgeworth Letters Project</title>
@@ -45,8 +47,8 @@
             <msDesc xml:lang="en">
                <msIdentifier>
                   <repository>Princeton University. Library</repository>
-                  <collection></collection>
-                  <idno></idno>
+                  <collection/>
+                  <idno/>
                </msIdentifier>
                <head>Letter from 
                   <persName ref="./Personography.xml#EdgeM1">
@@ -62,7 +64,7 @@
                   </persName>, <placeName/>, 
                   <date when="1813-01-17">January 17, 1813</date>
                </head>
-               <physDesc></physDesc>
+               <physDesc/>
             </msDesc>
             <bibl>In addition to our edited version, this letter was previously published in</bibl>
          </sourceDesc>
@@ -93,44 +95,90 @@
             <pb n="1" facs="Edgeworth_Princeton_1831-01_page01.jpg"/>
             <opener>
                <dateline>
-                  <placeName ref="./Placeography.xml#Edgeworthstown_IE"><choice><orig>Edgeworth's Town</orig><reg>Edgeworthstown</reg></choice></placeName>
-                  <date when="1813-01-17"><choice><orig>Jan<hi rend="superscript">y</hi>.</orig><reg>January</reg></choice> 17<hi rend="superscript">th</hi> 1813.</date></dateline>
+                  <placeName ref="./Placeography.xml#Edgeworthstown_IE">
+                     <choice>
+                        <orig>Edgeworth's Town</orig>
+                        <reg>Edgeworthstown</reg>
+                     </choice>
+                  </placeName>
+                  <date when="1813-01-17">
+                     <choice>
+                        <orig>Jan<hi rend="superscript">y</hi>.</orig>
+                        <reg>January</reg>
+                     </choice> 17<hi rend="superscript">th</hi> 1813.</date>
+               </dateline>
                <salute>
                   <persName>My dear Sir,</persName>
                </salute>
             </opener>
             <p>
-               We have just <choice><orig><unclear>rec</unclear><hi rend="superscript">d</hi></orig><reg>received</reg></choice> a copy of a second part<lb/>
-               of <persName ref="./Personography.xml#LeadM1">M<hi rend="superscript">rs</hi>. Leadbeaters</persName> <title ref="./Workography.xml#Cotta1">Cottage dialogues</title> which<lb/>
-               are <hi rend="underline">admirable</hi>. Instead of falling <choice><orig>of</orig><reg>off</reg></choice> as second<lb/>
+               We have just <choice>
+                  <orig>
+                     <unclear>rec</unclear>
+                     <hi rend="superscript">d</hi>
+                  </orig>
+                  <reg>received</reg>
+               </choice> a copy of a second part<lb/>
+               of <persName ref="./Personography.xml#LeadM1">M<hi rend="superscript">rs</hi>. Leadbeaters</persName>
+               <title ref="./Workography.xml#Cotta1">Cottage dialogues</title> which<lb/>
+               are <hi rend="underline">admirable</hi>. Instead of falling <choice>
+                  <orig>of</orig>
+                  <reg>off</reg>
+               </choice> as second<lb/>
                parts to popular works too frequently do<lb/>
-               this in over unanimous opinion far <choice><orig>ex=<lb/>
-               cels</orig><reg>excels</reg></choice> the first part equally well adapted<lb/>
-               to the moral purposes for which it is <choice><orig>in=<lb/>
-               tended</orig><reg>intended</reg></choice> and surpassing in <del></del><lb/>
+               this in over unanimous opinion far <choice>
+                  <orig>ex=<lb/>
+               cels</orig>
+                  <reg>excels</reg>
+               </choice> the first part equally well adapted<lb/>
+               to the moral purposes for which it is <choice>
+                  <orig>in=<lb/>
+               tended</orig>
+                  <reg>intended</reg>
+               </choice> and surpassing in <del/>
+               <lb/>
                interest &amp; pathos - some of the scenes are<lb/>
                exquisitely pathetic &amp; as my <persName ref="./Personography.xml#EdgeR1">father</persName> has<lb/>
                just written to tell her nothing since the<lb/>
-               time of <persName ref="./Personography.xml#RamsA1"><unclear>Ramsays</unclear></persName> <title ref="./Workography.xml#Gentl1">Gentle Shepherd</title> has<lb/>
+               time of <persName ref="./Personography.xml#RamsA1">
+                  <unclear>Ramsays</unclear>
+               </persName>
+               <title ref="./Workography.xml#Gentl1">Gentle Shepherd</title> has<lb/>
                appeared so truly pastoral.<lb/>
             </p>
             <p>
                I am anxious to make you fully and<lb/>
-               early aware that this <hi rend="underline">second part of</hi><lb/>
-               <title ref="./Workography.xml#Cotta1"><hi rend="underline">Cottage dialogues</hi></title> has nothing to do with<lb/>
-               those higher life dialogues which I <choice><orig>men=<lb/>
-               tioned</orig><reg>mentioned</reg></choice> to you some time ago &amp; which I<lb/>
+               early aware that this <hi rend="underline">second part of</hi>
+               <lb/>
+               <title ref="./Workography.xml#Cotta1">
+                  <hi rend="underline">Cottage dialogues</hi>
+               </title> has nothing to do with<lb/>
+               those higher life dialogues which I <choice>
+                  <orig>men=<lb/>
+               tioned</orig>
+                  <reg>mentioned</reg>
+               </choice> to you some time ago &amp; which I<lb/>
                desired you would judge of for yourself<lb/>
             </p>
             <p>
                <pb n="2" facs="Edgeworth_Princeton_1831-01_page02.jpg"/>
-               and not take it for granted that we <choice><orig><unclear>recommend</unclear><lb/>
-               ed</orig><reg>recommended</reg></choice> -<lb/>
+               and not take it for granted that we <choice>
+                  <orig>
+                     <unclear>recommend</unclear>
+                     <lb/>
+               ed</orig>
+                  <reg>recommended</reg>
+               </choice> -<lb/>
             </p>
             <p>
-               <persName ref="./Personography.xml#LeadM1">M<hi rend="superscript">rs</hi> <unclear>Leadbeater</unclear></persName> has she tells me sold<lb/>
-               <del>4000</del><lb/>
-               "To <persName ref="./Personography.xml#CummX1"><unclear>Cummins</unclear></persName> the liberty of printing 4000 copies<lb/>
+               <persName ref="./Personography.xml#LeadM1">M<hi rend="superscript">rs</hi>
+                  <unclear>Leadbeater</unclear>
+               </persName> has she tells me sold<lb/>
+               <del>4000</del>
+               <lb/>
+               "To <persName ref="./Personography.xml#CummX1">
+                  <unclear>Cummins</unclear>
+               </persName> the liberty of printing 4000 copies<lb/>
                "<unclear>extending</unclear> them to <placeName ref="./Placeography.xml#ENK">England</placeName> for 40 Guineas<lb/>
                - Poor woman she has sold them like a<lb/>
                goose - you would certainly have been more<lb/>
@@ -145,14 +193,22 @@
                She has reserved the copyright to herself -<lb/>
                - she wishes to know how to enter her<lb/>
                works at <placeName ref="./Placeography.xml#Stationers-Hall_ENK">stationers Hall</placeName> - Tell me or tell<lb/>
-               her - I believe the book is not yet <choice><orig>pub=<lb/>
-               lished</orig><reg>published</reg></choice> -<lb/>
+               her - I believe the book is not yet <choice>
+                  <orig>pub=<lb/>
+               lished</orig>
+                  <reg>published</reg>
+               </choice> -<lb/>
             </p>
             <p>
-               Thank you my dear sir for <title ref="./Workography.xml#Rejec1">Rejected Addresses</title><lb/>
-               which have amused us much - my <persName ref="./Personography.xml#EdgeR1">father</persName><lb/>
+               Thank you my dear sir for <title ref="./Workography.xml#Rejec1">Rejected Addresses</title>
+               <lb/>
+               which have amused us much - my <persName ref="./Personography.xml#EdgeR1">father</persName>
+               <lb/>
                says they are the best things which have<lb/>
-               appeared since the <title ref="./Workography.xml#Rolli1"><unclear>Rolliad</unclear></title> &amp; the <unclear>Deaboliad</unclear><lb/>
+               appeared since the <title ref="./Workography.xml#Rolli1">
+                  <unclear>Rolliad</unclear>
+               </title> &amp; the <unclear>Deaboliad</unclear>
+               <lb/>
                - I had a letter from <persName ref="./Personography.xml#ScotW1">Walter Scott</persName> yesterday<lb/>
             </p>
             <p>
@@ -160,39 +216,62 @@
                who says the very same thing.<lb/>
             </p>
             <p>
-               We have not yet heard from <persName ref="./Personography.xml#CummX1"><unclear>Cummins</unclear></persName><lb/>
-               of the arrival of my <persName ref="./Personography.xml#EdgeR1">fathers</persName> <title ref="./Workography.xml#Lette4">paper on wheel<lb/>
+               We have not yet heard from <persName ref="./Personography.xml#CummX1">
+                  <unclear>Cummins</unclear>
+               </persName>
+               <lb/>
+               of the arrival of my <persName ref="./Personography.xml#EdgeR1">fathers</persName>
+               <title ref="./Workography.xml#Lette4">paper on wheel<lb/>
                carriages</title> or of the other things you mention<lb/>
             </p>
             <p>
-               I am glad <persName ref="./Personography.xml#MileX1">M<hi rend="superscript">rs</hi> <unclear>Miles</unclear></persName> &amp; you liked the<lb/>
-               <choice><orig>plumbs</orig><reg>plums</reg></choice> - I hope you are now quite well<lb/>
+               I am glad <persName ref="./Personography.xml#MileX1">M<hi rend="superscript">rs</hi>
+                  <unclear>Miles</unclear>
+               </persName> &amp; you liked the<lb/>
+               <choice>
+                  <orig>plumbs</orig>
+                  <reg>plums</reg>
+               </choice> - I hope you are now quite well<lb/>
             </p>
             <closer>
-               Your faithful <choice><orig>serv<hi rend="superscript">t</hi></orig><reg>servant</reg></choice><lb/>
-               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName><lb/>
+               Your faithful <choice>
+                  <orig>serv<hi rend="superscript">t</hi>
+                  </orig>
+                  <reg>servant</reg>
+               </choice>
+               <lb/>
+               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
+               <lb/>
             </closer>
             <postscript>
                <p>
                   This <persName ref="./Personography.xml#LeadM1">M<hi rend="superscript">rs</hi> Leadbeater</persName> is a sad goose -<lb/>
                   She<lb/>
-                  has disposed of a little parcel at <unclear></unclear><lb/>
-                  more, a parcel of glass - I am <unclear></unclear><lb/>
-                  g<unclear></unclear> that <persName ref="./Personography.xml#CummX1"><unclear>Cummins</unclear></persName> will <unclear>gain</unclear> by<lb/>
-                  <unclear></unclear><lb/>
-                  rather than some <unclear></unclear> fellows -<lb/>
+                  has disposed of a little parcel at <unclear/>
+                  <lb/>
+                  more, a parcel of glass - I am <unclear/>
+                  <lb/>
+                  g<unclear/> that <persName ref="./Personography.xml#CummX1">
+                     <unclear>Cummins</unclear>
+                  </persName> will <unclear>gain</unclear> by<lb/>
+                  <unclear/>
+                  <lb/>
+                  rather than some <unclear/> fellows -<lb/>
                </p>
                <p>
                   Pray when you work let us know<lb/>
-                  how <unclear>Rookeby</unclear> succeeds - to <unclear></unclear> <unclear></unclear> are<lb/>
+                  how <unclear>Rookeby</unclear> succeeds - to <unclear/>
+                  <unclear/> are<lb/>
                   excellent, free from affectation, full of matter<lb/>
-                  <del></del> <add>told</add> in the best manners -<lb/>
+                  <del/>
+                  <add>told</add> in the best manners -<lb/>
                </p>
                <p>
                   As <persName ref="./Personography.xml#EdgeM1">Maria</persName> has a <unclear>quiet</unclear> regard for you, I beg you<lb/>
                   will point out for her the impropriety of<lb/>
                   sending me &amp; laughing at me! - A miserable<lb/>
-                  epigram in her <unclear></unclear> <del></del> appeared in a<lb/>
+                  epigram in her <unclear/>
+                  <del/> appeared in a<lb/>
                   Dublin newspaper; - this she would insist upon<lb/>
                   if was my writing; and in consequence<lb/>
                </p>
@@ -200,19 +279,39 @@
             <closer>
                <pb n="4" facs="Edgeworth_Princeton_1831-01_page04.jpg"/>
                <address>
-                  <addrLine>she <hi rend="underline">roasted</hi> me continually - I apply to you</addrLine><lb/>
-                  <addrLine>for <unclear>receipts</unclear>, as if is void, that you wrote the</addrLine><lb/>
-                  <addrLine>following epigram on her undutiful conduct</addrLine><lb/>
-                  <addrLine>What filial piety <persName ref="./Personography.xml#EdgeM1">Maria</persName> boasts!</addrLine><lb/>
-                  <addrLine>Medea boiled her she, <persName ref="./Personography.xml#EdgeM1">Maria</persName> - roasts.</addrLine><lb/>
-                  <addrLine><persName ref="./Personography.xml#EdgeR1">RLE</persName></addrLine><lb/>
-                  <addrLine><persName ref="./Personography.xml#JohnM2">Miss <unclear>Malan</unclear> Johnson</persName> v G</addrLine><lb/>
-                  <addrLine><placeName ref="./Placeography.xml#St-Pauls-Churchyard_ENK">S<hi rend="superscript">t</hi> Pauls <choice><orig>Chy<hi rend="superscript">d</hi></orig><reg>Churchyard</reg></choice></placeName></addrLine><lb/>
-                  <addrLine><placeName ref="./Placeography.xml#London_ENK">London</placeName></addrLine>
+                  <addrLine>she <hi rend="underline">roasted</hi> me continually - I apply to you</addrLine>
+                  <lb/>
+                  <addrLine>for <unclear>receipts</unclear>, as if is void, that you wrote the</addrLine>
+                  <lb/>
+                  <addrLine>following epigram on her undutiful conduct</addrLine>
+                  <lb/>
+                  <addrLine>What filial piety <persName ref="./Personography.xml#EdgeM1">Maria</persName> boasts!</addrLine>
+                  <lb/>
+                  <addrLine>Medea boiled her she, <persName ref="./Personography.xml#EdgeM1">Maria</persName> - roasts.</addrLine>
+                  <lb/>
+                  <addrLine>
+                     <persName ref="./Personography.xml#EdgeR1">RLE</persName>
+                  </addrLine>
+                  <lb/>
+                  <addrLine>
+                     <persName ref="./Personography.xml#JohnM2">Miss <unclear>Malan</unclear> Johnson</persName> v G</addrLine>
+                  <lb/>
+                  <addrLine>
+                     <placeName ref="./Placeography.xml#St-Pauls-Churchyard_ENK">S<hi rend="superscript">t</hi> Pauls <choice>
+                           <orig>Chy<hi rend="superscript">d</hi>
+                           </orig>
+                           <reg>Churchyard</reg>
+                        </choice>
+                     </placeName>
+                  </addrLine>
+                  <lb/>
+                  <addrLine>
+                     <placeName ref="./Placeography.xml#London_ENK">London</placeName>
+                  </addrLine>
                </address>
             </closer>
          </div>
       </body>
-      <back> </back>
+      <back/>
    </text>
 </TEI>

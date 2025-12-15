@@ -2,6 +2,8 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/Maria-Edgeworth-Letters-Project/me-tei/refs/heads/main/melp.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+    ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -74,7 +76,7 @@
       </profileDesc>
       <revisionDesc>
          <change when="2024-01-18" who="Id_who">Created file for letter, encoded letter</change>
-            <change when="2025-06-30" who="Jamie Kramer">Revised person tag for unknown Baldwin and Cradock to identify as publisher Robert Baldwin and Charles Cradock.</change> 
+         <change when="2025-06-30" who="Jamie Kramer">Revised person tag for unknown Baldwin and Cradock to identify as publisher Robert Baldwin and Charles Cradock.</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -199,6 +201,6 @@
             </closer>
          </div>
       </body>
-      <back> </back>
+      <back/>
    </text>
 </TEI>

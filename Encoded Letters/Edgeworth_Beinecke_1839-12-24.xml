@@ -2,14 +2,19 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/Maria-Edgeworth-Letters-Project/me-tei/refs/heads/main/melp.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+    ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title>Letter from Maria Edgeworth to Richard Bentley, December 24, 1839</title>
-            <author><persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName></author>
-            <editor><persName>Eliza Alexander Wilcox</persName>
-                    </editor>
+            <author>
+               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
+            </author>
+            <editor>
+               <persName>Eliza Alexander Wilcox</persName>
+            </editor>
             <sponsor>
                <orgName>Maria Edgeworth Letters Project</orgName>
             </sponsor>
@@ -108,16 +113,26 @@
                </salute>
             </opener>
             <p>I am very much obliged to<lb/>
-               you for your present of <title ref="./Workography.xml#Trave1"><persName ref="./Personography.xml#MurrC1" cert = "medium">M<hi rend="superscript">r</hi>
-                  <lb/>
-                  <choice><reg>Murray's</reg><orig>Murrays</orig></choice></persName> travels</title>, which I had<lb/>
+               you for your present of <title ref="./Workography.xml#Trave1">
+                  <persName ref="./Personography.xml#MurrC1" cert="medium">M<hi rend="superscript">r</hi>
+                     <lb/>
+                     <choice>
+                        <reg>Murray's</reg>
+                        <orig>Murrays</orig>
+                     </choice>
+                  </persName> travels</title>, which I had<lb/>
                     read and liked and wished<lb/>
                     to possess - The book is very<lb/>
                     gentlemanlike both in style<lb/>
                     and feeling - and free from<lb/>
                     national prejudice, for or<lb/>
                     against - How very striking<lb/>
-               the contrast between <persName ref="./Personography.xml#MurrC1">M<hi rend="superscript">r</hi> <choice><reg>Murray's</reg><orig>Murrays</orig></choice></persName>
+               the contrast between <persName ref="./Personography.xml#MurrC1">M<hi rend="superscript">r</hi>
+                  <choice>
+                     <reg>Murray's</reg>
+                     <orig>Murrays</orig>
+                  </choice>
+               </persName>
                <lb/>
                     past life in <placeName ref="./Placeography.xml#US">America</placeName> and<lb/>
                     present life at Court must be<lb/>
@@ -172,7 +187,7 @@
                and <del>yet</del> without any of that<lb/>
                     ostentation of knowledge of<lb/>
                     fashionable life which <choice>
-                       <orig>preten<lb/>
+                  <orig>preten<lb/>
                         ders</orig>
                   <reg>
                      pretenders

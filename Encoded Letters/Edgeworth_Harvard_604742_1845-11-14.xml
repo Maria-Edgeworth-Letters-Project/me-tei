@@ -2,6 +2,8 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/Maria-Edgeworth-Letters-Project/me-tei/refs/heads/main/melp.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+    ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -28,7 +30,7 @@
             <respStmt>
                <resp>Reviewed by</resp>
                <persName>Hilary Havens</persName>
-            </respStmt>            
+            </respStmt>
          </titleStmt>
          <editionStmt>
             <edition>First digital edition in TEI, date: <date when="2023-11-05"/>
@@ -192,8 +194,8 @@
                - on second thoughts I am not<lb/>
                sure that in this Interior <persName ref="./Personography.xml#ScotW1">Sir Walter<lb/>
                Scott</persName> himself is - But probably you<lb/>
-               &amp; <persName ref="./Personography.xml#HallS1">M<hi rend="superscript">r.</hi> Hall</persName> know the engraving<lb/></p>
-               
+               &amp; <persName ref="./Personography.xml#HallS1">M<hi rend="superscript">r.</hi> Hall</persName> know the engraving<lb/>
+            </p>
             <p>You comprehend I trust from<lb/>
                the tracing enclosed that Cupid<lb/>
                <unclear>lurches</unclear> upon the cover of the inkstand<lb/>
@@ -215,7 +217,11 @@
                learn before and after he goes to<lb/>
                school being no 10 years old that<lb/>
                his parents cannot allow him much<lb/>
-               time for drawing of <choice><orig>wh<hi rend="superscript">h</hi></orig><reg>which</reg></choice> he is very fond<lb/>
+               time for drawing of <choice>
+                  <orig>wh<hi rend="superscript">h</hi>
+                  </orig>
+                  <reg>which</reg>
+               </choice> he is very fond<lb/>
             </p>
             <p>I wish you had mentioned <persName ref="./Personography.xml#RochF1">your<lb/>
                little girl</persName> who interested me both<lb/>
@@ -228,12 +234,14 @@
                   </choice>
                </persName>
                <lb/>
-               &amp;, <persName ref="./Personography.xml#SimpW1"><hi rend="underline">I forget who</hi> the gent<hi rend="superscript">n</hi>.</persName> who possess<lb/>
+               &amp;, <persName ref="./Personography.xml#SimpW1">
+                  <hi rend="underline">I forget who</hi> the gent<hi rend="superscript">n</hi>.</persName> who possess<lb/>
                the copyright of my books inform<lb/>
                me that in consequence of numerous<lb/>
                requests to have my <title ref="./Workography.xml#Paren1">stories for<lb/>
                children</title> &amp; <title ref="./Workography.xml#Popul1">popular tales</title> published<lb/>
-               cheaply &amp; in separate <choice><orig>
+               cheaply &amp; in separate <choice>
+                  <orig>
                   vol<hi rend="superscript">s</hi>.</orig>
                   <reg>volumes</reg>
                </choice> or parts<lb/>

@@ -2,6 +2,8 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/Maria-Edgeworth-Letters-Project/me-tei/refs/heads/main/melp.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+    ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -81,7 +83,7 @@
             <pb n="1" facs="Edgeworth_Bodleian_696_1819-04-13_page01.jpg"/>
             <opener>
                <dateline>
-                  <placeName></placeName>
+                  <placeName/>
                   <placeName ref="./Placeography.xml#Harley-Street-31_ENK">Harley S<hi rend="superscript">t</hi>.</placeName>
                   <date when="1819-04-13">Tuesday 13 <hi rend="superscript">th</hi> 1819</date>
                </dateline>
@@ -115,8 +117,9 @@
                <persName ref="./Personography.xml#SebrJ1">J. Seebright</persName> &amp; daughter came in - He gave<lb/>
                me a frank &amp; I must tho I have not<lb/>
                2 minutes send you this bulletin of<lb/>
-               <persName ref="./Personography.xml#EdgeF3">Fanny</persName>.<lb/></p>
-               <p>On thursday morning we breakfast at<lb/>
+               <persName ref="./Personography.xml#EdgeF3">Fanny</persName>.<lb/>
+            </p>
+            <p>On thursday morning we breakfast at<lb/>
                <persName ref="./Personography.xml#EdgeC1">Sneyds</persName> then come here at 12 - And<lb/>
                <persName ref="./Personography.xml#EdgeF3">Fanny</persName> pronounces her farewell &amp;<lb/> 
                gives her parting advice to <persName cert="high" ref="./Personography.xml#WilsL1">J.L.</persName> I pity<lb/>
@@ -126,9 +129,12 @@
             </p>
             <p>
                I have requested for the sake of her<lb/>
-               health &amp; to save them both from <choice><orig>unne<lb/>
-               <pb n="2" facs="Edgeworth_Bodleian_696_1819-04-13_page02.jpg"/>
-                  cessary</orig><reg></reg></choice> pain that there should be but<lb/>
+               health &amp; to save them both from <choice>
+                  <orig>unne<lb/>
+                     <pb n="2" facs="Edgeworth_Bodleian_696_1819-04-13_page02.jpg"/>
+                  cessary</orig>
+                  <reg/>
+               </choice> pain that there should be but<lb/>
                this one decisive meeting - <persName ref="./Personography.xml#EdgeF3">Fanny</persName>
                <lb/>
                wished this &amp; <persName cert="high" ref="./Personography.xml#WilsL1">J L</persName> submits - I have<lb/>
@@ -146,7 +152,12 @@
                <lb/>
                <persName ref="./Personography.xml#TaddX1">M<hi rend="superscript">rs</hi>. Taddy</persName> for the 22 &amp; 23<hi rend="superscript">d</hi>. - I thought<lb/>
                it best to quit <placeName ref="./Placeography.xml#London_ENK">London</placeName> at once both<lb/>
-               for <persName ref="./Personography.xml#EdgeF3"><choice><orig>Fannys</orig><reg>Fanny's</reg></choice></persName> sake &amp; from delicacy to<lb/>
+               for <persName ref="./Personography.xml#EdgeF3">
+                  <choice>
+                     <orig>Fannys</orig>
+                     <reg>Fanny's</reg>
+                  </choice>
+               </persName> sake &amp; from delicacy to<lb/>
                <persName cert="high" ref="./Personography.xml#WilsL1">L W's</persName> feelings who should be spared<lb/>
                surely as much as possible<lb/>
             </p>
@@ -157,7 +168,14 @@
                the kindness of the <persName ref="./Personography.xml#CarrX4">Carrs</persName> to us -<lb/>
             </p>
             <p>
-               <choice><orig>Y<hi rend="superscript">r</hi>.</orig><reg>Your</reg></choice> ever <choice><orig>affec<hi rend="superscript">t</hi>.</orig><reg>affectionate</reg></choice><lb/>
+               <choice>
+                  <orig>Y<hi rend="superscript">r</hi>.</orig>
+                  <reg>Your</reg>
+               </choice> ever <choice>
+                  <orig>affec<hi rend="superscript">t</hi>.</orig>
+                  <reg>affectionate</reg>
+               </choice>
+               <lb/>
                <persName ref="./Personography.xml#EdgeM1">M E</persName>
                <lb/>
                I will write again the moment we get to<lb/>
@@ -241,6 +259,6 @@
             </p>
          </div>
       </body>
-      <back> </back>
+      <back/>
    </text>
 </TEI>
