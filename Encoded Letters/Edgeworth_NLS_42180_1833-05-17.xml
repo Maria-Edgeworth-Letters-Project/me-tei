@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/Maria-Edgeworth-Letters-Project/me-tei/refs/heads/main/melp.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+    ?>
+<?xml-model href="https://raw.githubusercontent.com/Maria-Edgeworth-Letters-Project/me-tei/refs/heads/main/melp.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+    ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from Maria Edgeworth to [John Murray], May 17, 1833</title>
+            <author>Maria Edgeworth</author>
+            <editor>Hilary Havens</editor>
+            <sponsor>
+               <orgName>Maria Edgeworth Letters Project</orgName>
+            </sponsor>
+            <sponsor>Wake Forest University, University of Tennessee, Xavier University, Texas A&amp;M University</sponsor>
+            <principal>Susan Egenolf, Meredith Hale, Hilary Havens, Jessica Richard, and Robin Runia</principal>
+            <respStmt>
+               <resp>Transcription and coding by</resp>
+               <persName>Jamie Kramer</persName>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>First digital edition in TEI, date:<date when="2025-07-25"/>
+            </edition>
+            <respStmt>
+               <orgName type="naf" ref="http://id.loc.gov/authorities/names/n80044899">National Library of Scotland</orgName>
+               <resp>photos include: Edgeworth_NLS_42180_1833_05_17_page01.jpg, Edgeworth_NLS_42180_1833_05_17_page02.jpg, Edgeworth_NLS_42180_1833_05_17_page03.jpg</resp>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Maria Edgeworth Letters Project</authority>
+            <date>2022</date>
+            <availability>
+               <p>Reproduced by courtesy of<orgName type="naf" ref="http://id.loc.gov/authorities/names/n80044899">National Library of Scotland</orgName>
+               </p>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons Attribution 4.0 (CC BY 4.0) Unported License</licence>
+            </availability>
+            <idno>Edgeworth_NLS_42180_1833_05-17</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Maria Edgeworth Letters Project</title>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <repository>National Library of Scotland</repository>
+                  <idno/>
+               </msIdentifier>
+               <head>Letter from<persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>to<persName ref="./Personography.xml#MurrJ1" cert="medium">[John Murray]</persName>,<date when="1833-05-17">May 17<hi rend="superscript">th</hi>1833</date>
+               </head>
+               <physDesc/>
+            </msDesc>
+            <bibl>In addition to our edited version, this letter was previously published in<!--complete bibiographical info if letter was published in a book here - if not delete--></bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>Edgeworth’s spelling and punctuation are retained in transcription, including non-standard spelling, line breaks, and hyphenation of words. The long s and ligatured forms are silently emended.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="./Personography.xml#MurrJ1" cert="medium">John Murray</persName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-01-01" who="Id_who"/>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <pb n="1" facs="Edgeworth_NLS_42180_1833_05_17_page01.jpg"/>
+            <opener>
+               <dateline>
+                  <placeName ref="./Personography.xml#Edgeworthstown_IE">Edgeworth Town<lb/>
+                  </placeName>
+                  <date when="1833-05-17">May 17<hi rend="superscript">th</hi>1833</date>
+                  <lb/>
+               </dateline>
+               <salute>
+                  <choice>
+                     <orig>D<hi rend="superscript">r</hi>.</orig>
+                     <reg>Dear</reg>
+                  </choice>Sir<lb/>
+               </salute>
+            </opener>
+            <p>In the odd little case which<choice>
+                  <orig>accompa<lb/>nies</orig>
+                  <reg>accompanies</reg>
+               </choice>this letter you will find two<lb/>little drawings - they are done by<lb/>
+               <persName ref="./Personography.xml#EdgeF2">M<hi rend="superscript">rs</hi>Edgeworth</persName>- one<del>
+                  <unclear/>
+               </del>is the<choice>
+                  <orig>por<lb/>trait</orig>
+                  <reg>portrait</reg>
+               </choice>taken<hi rend="underline">from the life</hi>of<title ref="./Workography.xml#Garry1">the<hi rend="underline">Snow</hi>
+                  <lb/>
+                  <hi rend="underline">Woman</hi>
+               </title>whose history you<add>re</add>published<lb/>for young readers last Christmas -<lb/>If you think that it would add to the<lb/>interest of the story to know that it<lb/>is founded on fact -<del>that it is so<unclear>far</unclear>
+               </del>
+               <lb/>so far that a woman &amp; her children<lb/>were actually buried &amp; half famished<lb/>under the snow, I would certify<lb/>the fact for you in a preface to your<lb/>young readers next Christmas if<lb/>you would have the portrait of the<lb/>poor woman engraved for a<choice>
+                  <orig>frontis<lb/>piece</orig>
+                  <reg>frontispiece</reg>
+               </choice>-<lb/>The other drawing -<hi rend="underline">the chimney</hi>
+               <lb/>
+               <hi rend="underline">sweeper and the owl</hi>- this was taken<lb/>from the life a few days ago - And it<lb/>has just occurred to me that I could<lb/>work the incident to which it refers<lb/>into a continuation<add>or second volume</add>of the<title ref="./Workography.xml#Garry1">History of poor Bob<lb/>
+                  <pb n="2" facs="Edgeworth_NLS_42180_1833_05_17_page02.jpg"/>the chimney sweeper</title>which you thought<lb/>it worthwhile to reprint - I think I could<lb/>furnish about<del>40 or</del>
+               <add>or<unclear>8</unclear>0</add>pages so as to<lb/>make<add>Poor</add>Bob whom I wish to raise by<lb/>his own exertions into Happy Bob<lb/>a fit companion for the Snow woman<lb/>
+               <hi rend="underline">as to length</hi>-<lb/>I would<hi rend="underline">give</hi>you the end of the story<lb/>if you would have<persName ref="./Personography.xml#EdgeF2">M<hi rend="superscript"/>rs<choice>
+                     <orig>E</orig>
+                     <reg>Edgeworth</reg>
+                  </choice>
+               </persName>'s little<del>sketches</del>
+               <lb/>drawings well engraved for<del>frontis</del>
+               <lb/>
+               <del>piece</del>the story- I know engravings<lb/>by good hands are very expensive &amp;<lb/>I am not sure that you would find<lb/>it worth your while to have these<hi rend="underline">well</hi>
+               <lb/>
+               <hi rend="underline">engraved</hi>and I must distinctly say<lb/>that I would rather not have them<lb/>done at all than done by any inferior<lb/>hand- They must be by some of the<lb/>hands employed in<persName ref="./Personography.xml#ScotW1">Sir Walter<choice>
+                     <orig>Scotts</orig>
+                     <reg>Scott's</reg>
+                  </choice>
+               </persName>
+               <lb/>
+               <title ref="./Workography.xml#Waver1">Waverly</title>novels or his poetical works<lb/>Tell me frankly whether it be<lb/>worth your while to accept of my<choice>
+                  <orig>condi<lb/>tions</orig>
+                  <reg>conditions</reg>
+               </choice>- Of course I would wish to have<lb/>a few copies of the engravings for my<lb/>self and my friends - but for the number<lb/>
+               <pb n="3" facs="Edgeworth_NLS_42180_1833_05_17_page03.jpg"/>I make no bargaining I should leave<lb/>that entirely to your own liberality<lb/>- my object is plainly to have the drawings<lb/>well engraved<lb/>Answer me without delay<lb/>- because if you should not like to accept<lb/>My conditions I would turn my<lb/>story another way &amp; not make it a<lb/>Continuation or Sequel of Poor Bob -<lb/>And if you do accept I should sit down<lb/>&amp; write Happy Bob directly - before the ideas<lb/>go out of my head<lb/>I beg at all events that you<lb/>will take care of the drawings &amp; that<lb/>you will _ if they are to be engraved<choice>
+                  <orig>
+                     <hi rend="underline">Ad</hi>
+                     <lb/>
+                     <hi rend="underline">vise</hi>
+                  </orig>
+                  <reg>Advise</reg>
+               </choice>that they should not be spoilt in the<lb/>engravers hands - And if you return<lb/>them to me immediately let them<lb/>be packed in the same<hi rend="underline">little case</hi>
+               <lb/>in which I have packed them<lb/>M<hi rend="superscript">r</hi>. Wood (<choice>
+                  <orig>Sec<hi rend="superscript">y</hi>.</orig>
+                  <reg>Secretary</reg>
+               </choice>of the Treasury) will<lb/>frank the packet to me whenever you<lb/>apply to him &amp; by the same means<lb/>send your answer to this letter<lb/>
+            </p>
+            <closer>I am<choice>
+                  <orig>D<hi rend="superscript">r</hi>.</orig>
+                  <reg>Dear</reg>
+               </choice>Sir<lb/>Yours sincerely<lb/>
+               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
+               <lb/>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>
