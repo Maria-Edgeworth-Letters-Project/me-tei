@@ -2,6 +2,8 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/Maria-Edgeworth-Letters-Project/me-tei/refs/heads/main/melp.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+    ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -359,7 +361,7 @@
                   <orig>remem<lb/>
                      brance</orig>
                   <reg>remembrance</reg>
-                  </choice> of them and of your visit here - My <persName ref="./Personography.xml#RuxtM1">aunt<lb/>
+               </choice> of them and of your visit here - My <persName ref="./Personography.xml#RuxtM1">aunt<lb/>
                Ruxton</persName> bids me tell you that in your travels in <placeName ref="./Placeography.xml#SP"/>Spain she<lb/>
                found an account of a picture by <persName ref="./Personography.xml#CampP1"> Peatro di Campria</persName> in <placeName ref="./Placeography.xml#Seville_SP"/>Seville<lb/>
                of the taking down from the cross - from which she has an<lb/>

@@ -2,12 +2,16 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/Maria-Edgeworth-Letters-Project/me-tei/refs/heads/main/melp.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+    ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title>Letter from Maria Edgeworth to Mrs. Miles, February 20, 1812</title>
-            <author><persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName></author>
+            <author>
+               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
+            </author>
             <editor>
                <persName>Eliza Wilcox</persName>
             </editor>
@@ -22,7 +26,10 @@
                <persName>Eliza Wilcox</persName>
                <persName/>
             </respStmt>
-            <respStmt><resp>Reviewed by</resp><persName>Robin Runia</persName></respStmt>
+            <respStmt>
+               <resp>Reviewed by</resp>
+               <persName>Robin Runia</persName>
+            </respStmt>
          </titleStmt>
          <editionStmt>
             <edition>First digital edition in TEI, date: <date when="2022-08-02"> 2022-08-02 </date>
@@ -107,8 +114,11 @@
                     be so good to deliver the two<lb/>
                     black lace gowns made into<lb/>
                     as small &amp; neat a parcel in<lb/>
-                    thin paper as may be <choice><orig>conve<lb/>
-                       nient</orig><reg>convenient</reg></choice>, to <persName ref="./Personography.xml#HamiX1">M<hi rend="superscript">rs</hi>. Hamilton</persName>, <del>who</del>
+                    thin paper as may be <choice>
+                  <orig>conve<lb/>
+                       nient</orig>
+                  <reg>convenient</reg>
+               </choice>, to <persName ref="./Personography.xml#HamiX1">M<hi rend="superscript">rs</hi>. Hamilton</persName>, <del>who</del>
                <lb/>
                <del>is a</del> who will bring them<lb/>
                     over to <placeName ref="./Placeography.xml#IE">Ireland</placeName>.</p>
@@ -116,7 +126,8 @@
             <closer>
                <placeName ref="./Placeography.xml#Edgeworthstown_IE">Edgeworth Town</placeName>
                <lb/>
-               <date when="1812-02-20">Feb<hi rend="superscript">r</hi>: 20<hi rend="superscript">th</hi>.1812</date><lb/>
+               <date when="1812-02-20">Feb<hi rend="superscript">r</hi>: 20<hi rend="superscript">th</hi>.1812</date>
+               <lb/>
             </closer>
             <closer>
                <address>

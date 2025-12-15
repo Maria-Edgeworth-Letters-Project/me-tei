@@ -2,14 +2,19 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/Maria-Edgeworth-Letters-Project/me-tei/refs/heads/main/melp.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+    ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title>Letter from Maria Edgeworth to Samuel Curtis, May 16, 1848</title>
-            <author><persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName></author>
-            <editor><persName>Eliza Alexander Wilcox</persName>
-                    </editor>
+            <author>
+               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
+            </author>
+            <editor>
+               <persName>Eliza Alexander Wilcox</persName>
+            </editor>
             <sponsor>
                <orgName>Maria Edgeworth Letters Project</orgName>
             </sponsor>
@@ -95,7 +100,8 @@
             <pb n="1" facs="Edgeworth_Beinecke_1848-05-16_page01.jpg"/>
             <opener>
                <dateline>
-                  <placeName ref="./Placeography.xml#Edgeworthstown_IE">Edgeworths town</placeName><lb/>
+                  <placeName ref="./Placeography.xml#Edgeworthstown_IE">Edgeworths town</placeName>
+                  <lb/>
                   <date when="1848-05-16">May 16<hi rend="superscript">th</hi>. 1848</date>
                </dateline>
                <salute>

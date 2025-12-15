@@ -2,6 +2,8 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/Maria-Edgeworth-Letters-Project/me-tei/refs/heads/main/melp.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+    ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -151,10 +153,13 @@
                this will never be the case with us, but if it ever should<lb/>
                I shall be sincere enough to tell you so, and let me request<lb/>
                the same sincerity from you, for surely it will be better for<lb/>
-               both of us to stop, before we have <choice><orig>compleatly</orig><reg>completely</reg></choice> tired each other<lb/></p>
-               <pb n="2" facs="Edgeworth_Huntington_HM28586_1782-10-07_page02.jpg"/>
-               
-               <p>I hope what I have said will not lead you to suspect<lb/>
+               both of us to stop, before we have <choice>
+                  <orig>compleatly</orig>
+                  <reg>completely</reg>
+               </choice> tired each other<lb/>
+            </p>
+            <pb n="2" facs="Edgeworth_Huntington_HM28586_1782-10-07_page02.jpg"/>
+            <p>I hope what I have said will not lead you to suspect<lb/>
                that I am already tired of your correspondence for I assure<lb/>
                you I mean it should have a quite contrary Effect, I mean to<lb/>
                convince you that it is entirely through inclination I write to<lb/>
@@ -169,7 +174,8 @@
                of an ingenious man, if Abilities could be left like Elisha's<lb/>
                Mantle to a successor their prejudice would be justifiable<lb/>
                But Alas! I fear the Heir or relation of a celebrated man<lb/>
-               <del>often partial only of the esteemed resemblance</del><lb/>
+               <del>often partial only of the esteemed resemblance</del>
+               <lb/>
                seldom resembles him in any thing but a name or some<lb/>
                external peculiarity; but I think another and a more <choice>
                   <orig>rea-<lb/>
@@ -181,7 +187,8 @@
                   <reg>discover</reg>
                </choice> the private character of one whose writings have given<lb/>
                us pleasure, or whom we have admired in a public capacity<lb/>
-               <del>which</del><add>this</add> may be more readily discovered from little anecdotes<lb/>
+               <del>which</del>
+               <add>this</add> may be more readily discovered from little anecdotes<lb/>
                in his domestic life, than can be expected <add>from</add> the faint portrait<lb/>
                Historians have given us of him - <persName ref="./Personography.xml#GoldX1">M<hi rend="superscript">r</hi>. G.</persName> is a Cabinet Maker<lb/>
                and is esteemed ingenious in <hi rend="underline">his line of life</hi>. I fancy he is in<lb/>
@@ -191,7 +198,8 @@
                   <reg>ingenious</reg>
                </choice> a Man should<lb/>
                pass through life neglected and unknown we expect that<lb/>
-               one who was so nearly connected with <del>one</del><add>him</add> who has <choice>
+               one who was so nearly connected with <del>one</del>
+               <add>him</add> who has <choice>
                   <orig>render-<lb/>
                   -ed</orig>
                   <reg>rendered</reg>
@@ -200,7 +208,8 @@
                -tomed</orig>
                   <reg>accustomed</reg>
                </choice> to respect should share in that respect &amp; partake in<lb/>
-               <del>his</del><add>the</add> fame he has acquired. -<lb/>
+               <del>his</del>
+               <add>the</add> fame he has acquired. -<lb/>
             </p>
             <p>
                <persName ref="./Personography.xml#VanhX1">M<hi rend="superscript">rs</hi>.. Vanhock</persName> and <persName ref="./Personography.xml#VanX1">Miss Van</persName> often used to speak<lb/>
@@ -211,13 +220,21 @@
                <pb n="3" facs="Edgeworth_Huntington_HM28586_1782-10-07_page03.jpg"/>
                   
                myself, and even if I had, I should be very cautious of giving<lb/>
-               it, in <hi rend="underline">writing</hi> <choice><orig>untill</orig><reg>until</reg></choice> I was fearfully convinced it was a <hi rend="underline">just</hi>
+               it, in <hi rend="underline">writing</hi>
+               <choice>
+                  <orig>untill</orig>
+                  <reg>until</reg>
+               </choice> I was fearfully convinced it was a <hi rend="underline">just</hi>
                <lb/>
                one - A false fact may be asserted, a hasty character may be<lb/>
                given in <hi rend="underline">conversa</hi>tion and may be pardoned or at least<lb/>
                is soon forgotten, but a person's <hi rend="underline">writing</hi> always remains on<lb/>
                record and may be produced at any time against them<lb/>
-               You will then do me the justice my <choice><orig>d.<hi rend="superscript">r</hi></orig><reg>dear</reg></choice>
+               You will then do me the justice my <choice>
+                  <orig>d.<hi rend="superscript">r</hi>
+                  </orig>
+                  <reg>dear</reg>
+               </choice>
                <persName ref="./Personography.xml#HoarF1">Miss Robinson</persName>
                <del/>
                <lb/>
@@ -225,40 +242,49 @@
                to attribute it to motives of prudence - and not to any want<lb/>
                of friendship, or want of confidence in you. Reserve may<lb/>
                prevent a friendship <add>being</add> formed <hi rend="underline">suddenly</hi>, but I am inclined<lb/>
-               to believe that those friendships last longest which <del><unclear>which</unclear></del>
+               to believe that those friendships last longest which <del>
+                  <unclear>which</unclear>
+               </del>
                <lb/>
                <add>are</add> longest in forming and those friends are generally most<lb/>
                worth <del/> obtaining whose regard it requires most<lb/>
-               pains to gain.<lb/></p>
-            
-            <p><persName ref="./Personography.xml#IrwiE2" cert="low">M<hi rend="superscript">r</hi>. <damage>Ir<unclear>win <gap></gap></unclear></damage></persName>
+               pains to gain.<lb/>
+            </p>
+            <p>
+               <persName ref="./Personography.xml#IrwiE2" cert="low">M<hi rend="superscript">r</hi>. <damage>Ir<unclear>win <gap/>
+                     </unclear>
+                  </damage>
+               </persName>
 
-abroad at <placeName ref="./Placeography.xml#Mumbai_IN">Bombay</placeName> where it is probable he will <damage><gap></gap></damage>
+abroad at <placeName ref="./Placeography.xml#Mumbai_IN">Bombay</placeName> where it is probable he will <damage>
+                  <gap/>
+               </damage>
                <lb/>
-               my Brother - There are two <del>very</del> fine drawings at <persName ref="./Personography.xml#BroxX1">M<hi rend="superscript">rs</hi>. Bro<damage><gap></gap></damage>
+               my Brother - There are two <del>very</del> fine drawings at <persName ref="./Personography.xml#BroxX1">M<hi rend="superscript">rs</hi>. Bro<damage>
+                     <gap/>
+                  </damage>
                </persName>
                <lb/>
                his Mother in law's, drawn by his directions.<lb/>
             </p>
-            
             <p>I had a letter to day from <persName ref="./Personography.xml#PowyX1">Miss Powys</persName> she said <persName ref="./Personography.xml#SmytX1">Miss Smythes</persName>
                <lb/>
                had drank tea with her lately, they were well, I am sure they<lb/>
-               are very happy in having so good a friend.<lb/></p>
-            
-               <p>My eyes are not yet well but I shall have a tooth drawn <unclear>this</unclear>
+               are very happy in having so good a friend.<lb/>
+            </p>
+            <p>My eyes are not yet well but I shall have a tooth drawn <unclear>this</unclear>
                <lb/>
                Week, pour un dernier resort, which I hope will be of more service<lb/>
-               to me than any anything I have hitherto tried.<lb/></p>
-                  
-               <p>I must reproach you with having neglected to answer two questions<lb/>
+               to me than any anything I have hitherto tried.<lb/>
+            </p>
+            <p>I must reproach you with having neglected to answer two questions<lb/>
                I asked you in my last, but I fancy I must reproach myself<lb/>
-               for having written so long a letter.<lb/></p>
-            
-               <p>If you like political subjects I have a great deal to say to you<lb/>
-               on them but I will by no means force you to hear me.<lb/></p>
-               
-               <p>Do not fail to remember me kindly to all, or <hi rend="underline">any</hi> of my<lb/>
+               for having written so long a letter.<lb/>
+            </p>
+            <p>If you like political subjects I have a great deal to say to you<lb/>
+               on them but I will by no means force you to hear me.<lb/>
+            </p>
+            <p>Do not fail to remember me kindly to all, or <hi rend="underline">any</hi> of my<lb/>
                friends in <placeName ref="./Placeography.xml#Wimpole_ENK">Wimpole S<hi rend="superscript">t</hi>.</placeName> you may chance to meet. <persName ref="./Personography.xml#AmicX1">M<hi rend="superscript">r</hi>. <unclear>Amici</unclear>
                </persName>
                <lb/>
@@ -272,9 +298,9 @@ abroad at <placeName ref="./Placeography.xml#Mumbai_IN">Bombay</placeName> where
                I wish you would speak particularly kindly for me<lb/>
                   to <persName ref="./Personography.xml#DeviE1">M<hi rend="superscript">rs</hi>. Devis</persName> &amp; <persName ref="./Personography.xml#MoriX1">Miss Morison</persName> and pray tell me if you have<lb/>
                   heard any thing of <persName ref="./Personography.xml#DeviE1">M<hi rend="superscript">rs</hi>. D</persName>'s health. <persName ref="./Personography.xml#PowyX1">Miss Powys</persName> says it has<lb/>
-               been but indifferent for some time past.<lb/></p>
-               
-               <p>I do not know whether I who am myself too much inclined<lb/>
+               been but indifferent for some time past.<lb/>
+            </p>
+            <p>I do not know whether I who am myself too much inclined<lb/>
                to take no exercise can be allowed to observe that, <hi rend="underline">that</hi>
                <lb/>
                   may be one cause of <persName ref="./Personography.xml#DeviE1">M<hi rend="superscript">rs</hi>. Devis</persName>'s want of Health joined to<lb/>
