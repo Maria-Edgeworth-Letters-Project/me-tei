@@ -2,145 +2,145 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<?xml-model href="https://raw.githubusercontent.com/Maria-Edgeworth-Letters-Project/me-tei/refs/heads/main/melp.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
-    ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Letter from Maria Edgeworth to Frances Anne Edgeworth, September 8, 1818</title>
-            <author>Maria Edgeworth</author>
-            <editor>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter from Maria Edgeworth to Frances Anne Edgeworth, September 8, 1818</title>
+                <author>Maria Edgeworth</author>
+                <editor>
                     Paris Weber
                 </editor>
-            <sponsor>
-               <orgName>Maria Edgeworth Letters Project</orgName>
-            </sponsor>
-            <sponsor>Wake Forest University, University of Tennessee, Xavier University, Texas
+                <sponsor>
+                    <orgName>Maria Edgeworth Letters Project</orgName>
+                </sponsor>
+                <sponsor>Wake Forest University, University of Tennessee, Xavier University, Texas
                     A&amp;M University</sponsor>
-            <principal>Susan Egenolf, Meredith Hale, Hilary Havens, Jessica Richard, and Robin Runia</principal>
-            <respStmt>
-               <resp>Transcription  by
+                <principal>Susan Egenolf, Meredith Hale, Hilary Havens, Jessica Richard, and Robin Runia</principal>
+                <respStmt>
+                    <resp>Transcription  by
                         <persName>
                          Anna Grace Barnett
                         </persName> 
                         Coding by</resp>
-               <persName> Paris Weber </persName>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition>First digital edition in TEI, date: July 04, 2025 <date when="2025-07-04"/>
-            </edition>
-            <respStmt>
-               <orgName ref="/http://id.loc.gov/authorities/names/n80020306">Bodleian Library</orgName>
-               <resp> photos include:
+                    <persName> Paris Weber </persName>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>First digital edition in TEI, date: July 04, 2025 <date when="2025-07-04">
+                </date>
+                </edition>
+                <respStmt>
+                    <orgName 
+                        ref="/http://id.loc.gov/authorities/names/n80020306">Bodleian Library</orgName>
+                    <resp> photos include:
                         Edgeworth_Bodleian_696_1818-09-08_page01.jpg,
                         Edgeworth_Bodleian_696_1818-09-08_page02.jpg,
                         Edgeworth_Bodleian_696_1818-09-08_page03.jpg,
                         Edgeworth_Bodleian_696_1818-09-08_page04.jpg
                         
                     </resp>
-            </respStmt>
-         </editionStmt>
-         <publicationStmt>
-            <authority>Maria Edgeworth Letters Project</authority>
-            <date>2022</date>
-            <availability>
-               <p>Reproduced by courtesy of <orgName ref="http://id.loc.gov/authorities/names/n80020306"> Bodleian Library</orgName>
-               </p>
-               <licence target="https://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons Attribution 4.0 (CC BY 4.0) Unported License</licence>
-            </availability>
-            <idno>Edgeworth_Bodleian_696_1818-09-08</idno>
-         </publicationStmt>
-         <seriesStmt>
-            <title>Maria Edgeworth Letters Project</title>
-         </seriesStmt>
-         <sourceDesc>
-            <msDesc xml:lang="en">
-               <msIdentifier>
-                  <repository>Bodleian Library</repository>
-                  <collection>MS. Eng. lett. c. 696</collection>
-               </msIdentifier>
-               <head>Letter from 
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <authority>Maria Edgeworth Letters Project</authority>
+                <date>2022</date>
+                <availability>
+                    <p>Reproduced by courtesy of <orgName ref="http://id.loc.gov/authorities/names/n80020306"> Bodleian Library</orgName>
+                    </p>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons Attribution 4.0 (CC BY 4.0) Unported License</licence>
+                </availability>
+                <idno>Edgeworth_Bodleian_696_1818-09-08</idno> 
+            </publicationStmt>
+            <seriesStmt>
+                <title>Maria Edgeworth Letters Project</title>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc xml:lang="en">
+                    <msIdentifier>
+                        <repository>Bodleian Library</repository>
+                        <collection>MS. Eng. lett. c. 696</collection>
+                    </msIdentifier>
+                    <head>Letter from 
                         <persName xml:id="EdgeM1" from="1768" to="1849">
-                     <forename>Maria</forename>
-                     <surname>Edgeworth</surname>
-                     <date>1768-1849</date>
-                     <idno type="VIAF">71477273</idno>
-                     <idno type="SNAC">62567029</idno>
-                  </persName>
+                            <forename>Maria</forename>
+                            <surname>Edgeworth</surname>
+                            <date>1768-1849</date>
+                            <idno type="VIAF">71477273</idno>
+                            <idno type="SNAC">62567029</idno>
+                        </persName>
                         to <persName ref="./Personography.xml#EdgeF2">Frances Anne Edgeworth</persName>
-                  <date> 1769-1865</date>
-               </head>
-            </msDesc>
-            <bibl>In addition to our edited version, this letter was previously published in
-                    <!--complete bibiographical info if letter was published in a book here - if not delete--></bibl>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <editorialDecl>
-            <p>Edgeworth’s spelling and punctuation are retained in transcription, including non-standard spelling, line breaks, and hyphenation of words. The long s and ligatured forms are silently emended.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <profileDesc>
-         <correspDesc>
-            <correspAction type="sent">
-               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
-            </correspAction>
-            <correspAction type="received">
-               <persName ref="./Personography.xml#EdgeF2"> Frances Anne Edgeworth</persName>
-            </correspAction>
-         </correspDesc>
-      </profileDesc>
-      <revisionDesc>
-         <change when="2021-01-01" who="Id_who"/>
-      </revisionDesc>
-   </teiHeader>
-   <text>
-      <body>
-         <div type="letter">
-            <pb n="1" facs="Edgeworth_Bodleian_696_1818-09-08_page01.jpg"/>
-            <dateline>
-               <date when="1818-09-08"/>
-            </dateline>
-            <p>
-               <note>30</note>
-               <placeName ref="./Placeography.xml#Bowood-House_ENK">Bowood</placeName> Tuesday Sep<hi rend="superscript">r</hi>.<lb/>
-                    8<hi rend="superscript">th</hi>. - we arrived here <choice>
-                  <orig>yes-<lb/>
+                        <date> 1769-1865</date>              
+                    </head>
+                </msDesc>
+                <bibl>In addition to our edited version, this letter was previously published in
+                    <!--complete bibiographical info if letter was published in a book here - if not delete-->
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p>Edgeworth’s spelling and punctuation are retained in transcription, including non-standard spelling, line breaks, and hyphenation of words. The long s and ligatured forms are silently emended.</p>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="./Personography.xml#EdgeF2"> Frances Anne Edgeworth</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2021-01-01" who="Id_who">
+            </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="letter">
+                <pb n="1" facs="Edgeworth_Bodleian_696_1818-09-08_page01.jpg"/>
+                
+                <dateline>
+                    <date when="1818-09-08"></date></dateline>
+                   <p>
+                                                                                                    <note>30</note>
+                    <placeName ref="./Placeography.xml#Bowood-House_ENK">Bowood</placeName> Tuesday Sep<hi rend="superscript">r</hi>.<lb/>
+                    8<hi rend="superscript">th</hi>. - we arrived here <choice> 
+                    <orig>yes-<lb/>
                     terday</orig>
-                  <reg>yesterday</reg>
-               </choice>
+                    <reg>yesterday</reg>
+                    </choice>
                     to dinner &amp; were<lb/>
                     most cordially received<lb/>
-                    - no one here but <persName ref="./Personography.xml#DumoE1">M<hi rend="superscript">r</hi>. Dumont</persName>
-               <lb/>
+                    - no one here but <persName ref="./Personography.xml#DumoE1">M<hi rend="superscript">r</hi>. Dumont</persName><lb/>
                     - a young French <hi rend="underline">judge</hi> -<lb/>
                     and <persName ref="./Personography.xml#PaulG1">Sir George Paul</persName> - gone<lb/>
                     both this morning - no<lb/>
                     company expected for<lb/>
-                    some days -<lb/>
-            </p>
-            <p>
+                    some days -<lb/></p>
+                    
+                    <p>
                     Your letter to <persName ref="./Personography.xml#BeauH1">Honora</persName> of<lb/>
                     the 3<hi rend="superscript">d</hi>. Sep reached us just<lb/>
                     as we were getting into<lb/>
                     the carriage to come here<lb/>
                     - But yours &amp; <persName ref="./Personography.xml#EdgeL2">Lovells</persName> which<lb/>
                     you mention as having<lb/>
-                    sent by <persName ref="./Personography.xml#LeeX1">M<hi rend="superscript">r</hi>. Lees's</persName>
-               <persName ref="./Personography.xml#XxxxF2">frank</persName>
-               <lb/>
+                    sent by <persName ref="./Personography.xml#LeeX1">M<hi rend="superscript">r</hi>. Lees's</persName> <persName ref="./Personography.xml#XxxxF2">frank</persName><lb/>
                     has not yet reached us<lb/>
                     - and most anxious we<lb/>
-                    are to receive it - The <choice>
-                  <orig>mo<lb/>
+                    are to receive it - The <choice> 
+                    <orig>mo<lb/>
                      ment</orig>
-                  <reg>moment</reg>
-               </choice>
+                    <reg>moment</reg>
+                    </choice>
                     I receive it I will<lb/>
                     write<lb/>
-               <pb n="2" facs="Edgeworth_Bodleian_696_1818-09-08_page02.jpg"/>
+                
+                <pb n="2" facs="Edgeworth_Bodleian_696_1818-09-08_page02.jpg"/>
                     I now merely write this<lb/>
                     time in utmost haste to<lb/>
                     say we are at last where<lb/>
@@ -149,137 +149,131 @@
                     to be - <persName ref="./Personography.xml#BeauH1">Honora</persName> is well &amp;<lb/>
                     tho thin looked extremely<lb/>
                     pretty &amp; nice yesterday at<lb/>
-                    dinner - <persName ref="./Personography.xml#WilkP1" cert="low">Miss Wilkinson</persName>
-               <lb/>
+                    dinner - <persName ref="./Personography.xml#WilkP1" cert="low">Miss Wilkinson</persName><lb/>
                     &amp; <persName ref="./Personography.xml#BrisX1">Miss Briscoe</persName> have done<lb/>
                     all you could have wished<lb/>
-                    for her - <persName ref="./Personography.xml#LansL1">Lady Lansdowne</persName>
-               <lb/>
-                    is very kind in her <choice>
-                  <orig>man-<lb/>
+                    for her - <persName ref="./Personography.xml#LansL1">Lady Lansdowne</persName><lb/>
+                    is very kind in her <choice> 
+                    <orig>man-<lb/>
                     ner</orig>
-                  <reg>manner</reg>
-               </choice>
+                    <reg>manner</reg>
+                    </choice>
                     towards her - I think<lb/>
-               <persName ref="./Personography.xml#LansL1">Lady L</persName> just the same <choice>
-                  <orig>per<lb/>
+                    <persName ref="./Personography.xml#LansL1">Lady L</persName> just the same <choice> 
+                    <orig>per<lb/>
                      -son</orig>
-                  <reg>person</reg>
-               </choice>
+                     <reg>person</reg>
+                    </choice>
                     - only fatter &amp; more<lb/>
-                    formed in manner.<lb/>
-            </p>
-            <p>
+                    formed in manner.<lb/></p>
+                    
+                    <p>
                     This place as far as I can<lb/>
-                    judge not naturally <choice>
-                  <orig>hand<lb/>
+                    judge not naturally <choice> 
+                    <orig>hand<lb/>
                     some</orig>
-                  <reg>handsome</reg>
-               </choice>
-                    - the house <choice>
-                  <orig>magnifi<lb/>
+                    <reg>handsome</reg>
+                    </choice>
+                    - the house <choice> 
+                    <orig>magnifi<lb/>
                     cent</orig>
-                  <reg>magnificent</reg>
-               </choice>
+                    <reg>magnificent</reg>
+                    </choice>
                     - Our rooms opening<lb/>
                     one into another just what<lb/>
-               <pb n="3" facs="Edgeworth_Bodleian_696_1818-09-08_page03.jpg"/>
-               <note>31</note>
-               <lb/>
+                
+                <pb n="3" facs="Edgeworth_Bodleian_696_1818-09-08_page03.jpg"/>
+                                       <note>31</note><lb/>
                     you would wish for us -<lb/>
-               <persName ref="./Personography.xml#XxxxG2">George</persName> lodged near us -<lb/>
+                    <persName ref="./Personography.xml#XxxxG2">George</persName> lodged near us -<lb/>
                     He is well &amp; I believe happy<lb/>
-                    - and desires poor <persName ref="./Personography.xml#XxxxM1">Molly</persName>
-               <lb/>
-                    sh<hi rend="superscript">d</hi>. be told he is well.<lb/>
-            </p>
-            <p>
+                    - and desires poor <persName ref="./Personography.xml#XxxxM1">Molly</persName><lb/>
+                    sh<hi rend="superscript">d</hi>. be told he is well.<lb/></p>
+                    
+                    <p>
                     I send this note through<lb/>
-               <persName ref="./Personography.xml#WardX1">M<hi rend="superscript">r</hi>. Ward</persName> - and send many<lb/>
-                    letters as the shortest <choice>
-                  <orig>me-<lb/>
+                    <persName ref="./Personography.xml#WardX1">M<hi rend="superscript">r</hi>. Ward</persName> - and send many<lb/>
+                    letters as the shortest <choice> 
+                    <orig>me-<lb/>
                     thod</orig>
-                  <reg>method</reg>
-               </choice>
+                    <reg>method</reg>
+                    </choice>
                     of communicating<lb/>
                     many things to you which<lb/>
                     I literally have not time<lb/>
-                    to copy -<lb/>
-            </p>
-            <p>
+                    to copy -<lb/></p>
+                    
+                    <p>
                     I have just written to my<lb/>
-               <persName ref="./Personography.xml#RuxtM1">Aunt R.</persName> the first letter<lb/>
+                    <persName ref="./Personography.xml#RuxtM1">Aunt R.</persName> the first letter<lb/>
                     since one from <placeName ref="./Placeography.xml#Bangor_WLK">Bangor</placeName> ,<lb/>
                     - I have copied <hi rend="underline">for</hi> her from<lb/>
-               <persName ref="./Personography.xml#DumoE1">Dumonts</persName> letter all that<lb/>
-                    relates to the M<hi rend="superscript">s</hi>. -<lb/>
-            </p>
-            <p>
+                    <persName ref="./Personography.xml#DumoE1">Dumonts</persName> letter all that<lb/>
+                    relates to the M<hi rend="superscript">s</hi>. -<lb/></p>
+                    
+                    <p>
                     I long to rest my mind by<lb/>
-                    going to my <hi rend="underline">work</hi> again -<lb/>
-            </p>
-            <p>
+                    going to my <hi rend="underline">work</hi> again -<lb/></p>
+                    
+                    <p>
                     What a contrast between<lb/>
-                    all <del>the <unclear/>
-               </del> round us<lb/>
+                    all <del>the <unclear></unclear></del> round us<lb/>
                     at this moment and all at<lb/>
-               <pb n="4" facs="Edgeworth_Bodleian_696_1818-09-08_page04.jpg"/>
-                    home -!<lb/>
-            </p>
-            <p>
+                
+                <pb n="4" facs="Edgeworth_Bodleian_696_1818-09-08_page04.jpg"/>
+                    home -!<lb/></p>
+                    
+                    <p>
                     I <hi rend="underline">endeavor</hi> dear <persName ref="./Personography.xml#EdgeF2">mother</persName> to hope<lb/>
                     that this sleep so sound &amp;<lb/>
                     often repeated will restore<lb/>
                     him - But a secret feeling<lb/>
                     at the bottom of my mind<lb/>
-                    arising I believe from <persName ref="./Personography.xml#CramP1">
-                  <choice>
-                     <orig>Cramp<lb/>
+                    arising I believe from <persName ref="./Personography.xml#CramP1"><choice> 
+                    <orig>Cramp<lb/>
                     ton's</orig>
-                     <reg>Crampton's</reg>
-                  </choice>
-               </persName>
+                    <reg>Crampton's</reg>
+                    </choice></persName>
                     predictions &amp; <hi rend="underline">his</hi> likeness<lb/>
-                    to <persName ref="./Personography.xml#EdgeH2" cert="low">Henry</persName> make me tremble -<lb/>
-            </p>
-            <p>
+                    to <persName ref="./Personography.xml#EdgeH2" cert="low">Henry</persName> make me tremble -<lb/></p>
+                    
+                    <p>
                     I agree with you that if<lb/>
                     he does not recover it will<lb/>
-                    be better to place him in <placeName ref="./Placeography.xml#ENK">
-                  <choice>
-                     <orig>Eng-<lb/>
+                    be better to place him in <placeName ref="./Placeography.xml#ENK"><choice> 
+                    <orig>Eng-<lb/>
                     land</orig>
-                     <reg>England</reg>
-                  </choice>
-               </placeName>
+                    <reg>England</reg>
+                    </choice></placeName>
                     than any where in<lb/>
-               <placeName ref="./Placeography.xml#IE">Ireland</placeName> - the worst place in<lb/>
+                    <placeName ref="./Placeography.xml#IE">Ireland</placeName> - the worst place in<lb/>
                     the world for the reasons<lb/>
                     you mention would be<lb/>
-               <persName ref="./Personography.xml#FoxB1" cert="low">M<hi rend="superscript">r</hi>. Fox's</persName> -<lb/>
-            </p>
-            <closer>
+                    <persName ref="./Personography.xml#FoxB1" cert="low">M<hi rend="superscript">r</hi>. Fox's</persName> -<lb/></p>
+                
+                    <closer>
                     I am called away<lb/>
                     affec<hi rend="superscript">y</hi>. y<hi rend="superscript">s</hi>.<lb/>
-               <persName ref="./Personography.xml#EdgeM1">Maria E</persName>
-               <lb/>
-            </closer>
-            <postscript>
-               <p> 
-                    I find that <del>mem</del>
-                  <persName ref="./Personography.xml#GrenW1">Lord</persName> &amp; <persName ref="./Personography.xml#GrenA1">Lady<lb/>
+                    <persName ref="./Personography.xml#EdgeM1">Maria E</persName><lb/>
+                    </closer>
+                
+                
+                    <postscript> <p> 
+                    I find that <del>mem</del> <persName ref="./Personography.xml#GrenW1">Lord</persName> &amp; <persName ref="./Personography.xml#GrenA1">Lady<lb/>
                     Grenville</persName> are to be here<lb/>
                     tomorrow.<lb/>
                     I must answer that I cannot<lb/>
                     recommend a governess -<lb/>
                     for I dont know of a good<lb/>
                     one - <hi rend="underline">do you?</hi> - <hi rend="underline">answer</hi> this<lb/>
-                  <persName ref="./Personography.xml#EdgeM1">Maria</persName> Sept<hi rend="superscript">r</hi>.<lb/>
+                    <persName ref="./Personography.xml#EdgeM1">Maria</persName> Sept<hi rend="superscript">r</hi>.<lb/>
                     1818<lb/>
-               </p>
-            </postscript>
-         </div>
-      </body>
-      <back/>
-   </text>
+                   </p> </postscript>
+     
+                
+            </div>
+        </body>
+        <back> </back>
+    </text>
 </TEI>
+

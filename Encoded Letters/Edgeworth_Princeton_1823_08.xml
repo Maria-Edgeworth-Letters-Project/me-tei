@@ -2,8 +2,6 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<?xml-model href="https://raw.githubusercontent.com/Maria-Edgeworth-Letters-Project/me-tei/refs/heads/main/melp.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
-    ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -179,9 +177,7 @@
                <address>
                   <pb n="1" facs="Edgeworth_Princeton_1823_08_page04.jpg"/>
                   <note place="bottom">AM 19710</note>
-                  <addrLine>
-                     <persName ref="./Personography.xml#ConsA2">Archibald Constable Esq</persName>
-                     <hi rend="superscript">r</hi>
+                  <addrLine><persName ref="./Personography.xml#ConsA2">Archibald Constable Esq</persName><hi rend="superscript">r</hi>
                   </addrLine>
                </address>
             </closer>

@@ -2,8 +2,6 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<?xml-model href="https://raw.githubusercontent.com/Maria-Edgeworth-Letters-Project/me-tei/refs/heads/main/melp.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
-    ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -94,7 +92,7 @@
          <change when="2025-03-21" who="Id_who">
           Hilary Havens completed final editorial review on 03-21-2025.
           </change>
-      </revisionDesc>
+       </revisionDesc>
    </teiHeader>
    <text>
       <body>
@@ -105,9 +103,8 @@
                Received<lb/>
                March 20 1826</note>
                <salute>
-                  <persName ref="./Personography.xml#EdgeM1">Miss Edgeworth's</persName> Compliments</salute>
-            </opener>
-            <p>To Mr. <persName ref="./Personography.xml#WilmR1">W. Horton</persName> - She is going<lb/>
+                  <persName ref="./Personography.xml#EdgeM1">Miss Edgeworth's</persName> Compliments</salute></opener>  
+               <p>To Mr. <persName ref="./Personography.xml#WilmR1">W. Horton</persName> - She is going<lb/>
                to trouble him with 3 requests<lb/>
                which each of them require<lb/>
                at a moderate allowance<lb/>
@@ -117,11 +114,13 @@
                the trouble to Mr. <persName ref="./Personography.xml#WilmR1">Horton</persName>, <persName ref="./Personography.xml#EdgeM1">Miss<lb/>
                E</persName> will spare him the 3 pages<lb/>
                &amp; without preface make the 3 requests - </p>
+            
             <p>1<hi rend="superscript">st</hi>. that he would be so obliging<lb/>
                to frank or cause to be frank<lb/>
                to her his letter to the <persName ref="./Personography.xml#HowaH1">Duke<lb/>
                of Norfolk</persName> on the Catholic<lb/>
                question</p>
+            
             <p>2<hi rend="superscript">d</hi>. That he would inquire <choice>
                   <orig>whe-<lb/>
                ther</orig>
@@ -131,19 +130,16 @@
                   <pb n="2" facs="Edgeworth_Morgan_1826-03-14_page02.jpg"/>
                
                Bathurst</persName> ever reached her <choice>
-                  <orig>Lady-<lb/>
+                     <orig>Lady-<lb/>
                   -ship</orig>
-                  <reg>Ladyship</reg>
-               </choice>
+                     <reg>Ladyship</reg>
+                  </choice>
                ?</p>
+
             <p>3<hi rend="superscript">d</hi>.that Mr. <persName ref="./Personography.xml#WilmR1">Horton</persName> would let<lb/>
                <persName ref="./Personography.xml#EdgeM1">Miss E</persName> know whether she may<lb/>
                be permitted to transmit<lb/>
-               under <persName ref="./Personography.xml#BathH1">Earl <choice>
-                     <orig>Bathursts</orig>
-                     <reg>Bathurst's</reg>
-                  </choice>
-               </persName> frank<lb/>
+               under <persName ref="./Personography.xml#BathH1">Earl <choice><orig>Bathursts</orig><reg>Bathurst's</reg></choice></persName> frank<lb/>
                letters to a Correspondant<lb/>
                in <placeName ref="./Placeography.xml#Philadelphia_PA_US">
                   <hi rend="underline">Philadelphia</hi>

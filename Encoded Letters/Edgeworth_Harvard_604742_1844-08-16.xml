@@ -2,8 +2,6 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<?xml-model href="https://raw.githubusercontent.com/Maria-Edgeworth-Letters-Project/me-tei/refs/heads/main/melp.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
-    ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -142,9 +140,7 @@
                </choice> 1<hi rend="superscript">st</hi> first 43 many<lb/>
                     months ago - but I did not receive<lb/>
                     the books <title ref="./Workography.xml#Memoi7">
-                  <persName ref="./Personography.xml#TurnG1">
-                     <unclear cert="medium">Turnbulls</unclear>
-                  </persName> life</title> and the <choice>
+                       <persName ref="./Personography.xml#TurnG1"><unclear cert="medium">Turnbulls</unclear></persName> life</title> and the <choice>
                   <orig>
                      No<hi rend="superscript">s</hi>.
                   </orig>
@@ -266,14 +262,8 @@
                     was one worthy of credit and one able<lb/>
                     to judge herself a most amiable woman<lb/>
                <persName ref="./Personography.xml#BellM1">Lady Bell</persName> - widow of the celebrated <persName ref="./Personography.xml#BellC1">Sir<lb/>
-                  Charles Bell</persName> the Surgeon - <add>whose <choice>
-                     <orig>man<hi rend="superscript">s</hi>.</orig>
-                     <reg>manners</reg>
-                  </choice> are just <choice>
-                     <orig>re-<lb/>
-                  membered</orig>
-                     <reg>remembered</reg>
-                  </choice> by her<lb/>
+                  Charles Bell</persName> the Surgeon - <add>whose <choice><orig>man<hi rend="superscript">s</hi>.</orig><reg>manners</reg></choice> are just <choice><orig>re-<lb/>
+                  membered</orig><reg>remembered</reg></choice> by her<lb/>
                                 pray Read them<lb/>
                </add>
             </p>
@@ -337,8 +327,7 @@
             <p>You ask me about a forthcoming novel<lb/>
                     There is no <hi rend="underline">Forthcoming</hi> Novel by <persName ref="./Personography.xml#EdgeM1">Maria E</persName> - I am writing a tale<lb/>
                <add>but I have been so interrupted by illness - <placeName ref="./Placeography.xml#London_ENK">London</placeName> - &amp;c &amp;c &amp;c<lb/>
-                  <unclear> I know not</unclear> whether it will ever be finished -</add>
-               <lb/>
+                    <unclear> I know not</unclear> whether it will ever be finished -</add><lb/>
                <hi rend="underline">of which</hi> you say the newspapers assure - I believe
                     that paragraph must have been put into the paper<lb/>
                     by <persName ref="./Personography.xml#BentR1">Bentley</persName> who has just <hi rend="underline">re</hi>published in one volume<lb/>
@@ -488,11 +477,8 @@
                <lb/>
                     his shirt must turn down at the neck like school boys<lb/>
                     or I am told, in imitation of the ancient<lb/>
-               <hi rend="underline">Romans</hi> (who had no shirts) - If the <choice>
-                  <orig>gentle<lb/>
-                  man</orig>
-                  <reg>gentleman</reg>
-               </choice> does not chuse to bare his neck and<lb/>
+               <hi rend="underline">Romans</hi> (who had no shirts) - If the <choice><orig>gentle<lb/>
+                  man</orig><reg>gentleman</reg></choice> does not chuse to bare his neck and<lb/>
                     shews himself like <persName ref="./Personography.xml#ByroG1">Lord Byron</persName>s picture<lb/>
                     if he will wear a neck kerchief cravat or<lb/>
                <pb n="7" facs="Edgeworth_Harvard_604742_1844-08-16_page07.jpg"/>
@@ -562,11 +548,7 @@
             <p>-	I mean in the course of the story (if I can to<lb/>
                     shew that unless great precautions are taken<lb/>
                     in the preparation of the individual raised<lb/>
-               <hi rend="underline">per <choice>
-                     <orig>saltem</orig>
-                     <reg>saltum</reg>
-                  </choice>
-               </hi> in life, there is a bad chance of<lb/>
+               <hi rend="underline">per <choice><orig>saltem</orig><reg>saltum</reg></choice></hi> in life, there is a bad chance of<lb/>
                     the rise in condition being for their happiness<lb/>
             </p>
             <p>I shall touch upon the cure that ought<lb/>
@@ -574,11 +556,7 @@
                   <orig>charita<lb/>
                         ble</orig>
                   <reg>charitable</reg>
-               </choice> schools both to keep the moral <choice>
-                  <orig>ed.<hi rend="superscript">n</hi>
-                  </orig>
-                  <reg>education</reg>
-               </choice> equal<lb/>
+               </choice> schools both to keep the moral <choice><orig>ed.<hi rend="superscript">n</hi></orig><reg>education</reg></choice> equal<lb/>
                     to the intellectual and also to make the<lb/>
                     motives for industry and for the acquirement<lb/>
                     of knowledge, pure and good - not connected<lb/>
@@ -667,11 +645,9 @@
                <lb/>
             </closer>
             <postscript>
-               <p>I continue to find <title ref="./Workography.xml#Ameri1">Sillimans journal</title>
-                  <add>a</add> most interesting<lb/>
+               <p>I continue to find <title ref="./Workography.xml#Ameri1">Sillimans journal</title> <add>a</add> most interesting<lb/>
                             book - <persName ref="./Personography.xml#RobiT1">Doctor Robinson</persName> professor of astronomy and<lb/>
-                  <add>Astronomer Royal at</add>
-                  <placeName ref="./Placeography.xml#Armagh_IE">Armagh</placeName> and one of our first men of science and of<lb/>
+                  <add>Astronomer Royal at</add> <placeName ref="./Placeography.xml#Armagh_IE">Armagh</placeName> and one of our first men of science and of<lb/>
                             genius much admires this <title ref="./Workography.xml#Ameri1">American Journal</title> &amp;<lb/>
                     I have the pleasure of lending it to him - He is married<lb/>
                             to my sister <persName ref="./Personography.xml#EdgeL1">Lucy</persName> - married her last year - a marriage<lb/>
@@ -701,8 +677,7 @@
                      <persName ref="./Personography.xml#SpraW1">The Rev<hi rend="superscript">d</hi> Doctor Sprague</persName>
                   </addrLine>
                   <addrLine>
-                     <placeName ref="./Placeography.xml#Albany_US">Albany</placeName>
-                     <lb/>
+                     <placeName ref="./Placeography.xml#Albany_US">Albany</placeName><lb/>
                   </addrLine>
                </address>
                <stamp>

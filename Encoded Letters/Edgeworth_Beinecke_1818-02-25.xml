@@ -2,17 +2,14 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<?xml-model href="https://raw.githubusercontent.com/Maria-Edgeworth-Letters-Project/me-tei/refs/heads/main/melp.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
-    ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title>Letter from Maria Edgeworth to Mrs. Miles</title>
-            <author>
-               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
-            </author>
-            <editor/>
+            <author><persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName></author>
+            <editor>
+              </editor>
             <sponsor>
                <orgName>Maria Edgeworth Letters Project</orgName>
             </sponsor>
@@ -102,8 +99,7 @@
             <opener>
                <dateline>
                   <placeName ref="./Placeography.xml#Edgeworthstown_IE"/>Edgeworth Town 1818
-                  <date when="1818-02-25">Feb <hi rend="superscript">y</hi> 25</date>
-                  <lb/>
+                  <date when="1818-02-25">Feb <hi rend="superscript">y</hi> 25</date><lb/>
                </dateline>
                <salute>
                   <persName>
@@ -135,7 +131,7 @@
                   <orig>re<lb/>
             covered</orig>
                   <reg>recovered</reg>
-               </choice> I must set the loss down to the <unclear/>
+               </choice> I must set the loss down to the <unclear></unclear>
                <lb/>
             of my own childish impatience &amp; after<lb/>
             this seven guinea check resolve to be wiser<lb/>
@@ -169,7 +165,7 @@
             </p>
             <p>Do pray tell me something of the Man<lb/>
             who is going out to <placeName ref="./Placeography.xml#II">India</placeName> to improve the<lb/>
-               <unclear/> there? I have the great pleasure<lb/>
+               <unclear></unclear> there? I have the great pleasure<lb/>
             to tell you that my <persName ref="./Personography.xml#EdgeR1">father</persName> has been consider<lb/>
             ably better for the last two or three days.<lb/>
             I hope this may find <persName ref="./Personography.xml#MileJ1">M<hi rend="superscript">r.</hi> Miles</persName> as well<lb/>
@@ -190,8 +186,7 @@
                   <pb n="4" facs="Edgeworth_Beinecke_1818-02-25_page04.jpg"/>
                   <addrLine/>
                   <persName ref="./Personography.xml#MileX1">M<hi rend="superscript">rs</hi>. Miles</persName>
-                  <addrLine>West End</addrLine>
-                  <lb/>
+                  <addrLine>West End</addrLine><lb/>
                   <placeName ref="./Personography.xml#Hampstead_ENK">Hampstead</placeName>
                </address>
             </closer>

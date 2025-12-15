@@ -2,8 +2,6 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<?xml-model href="https://raw.githubusercontent.com/Maria-Edgeworth-Letters-Project/me-tei/refs/heads/main/melp.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
-    ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -11,8 +9,7 @@
             <title>Letter from Maria Edgeworth to Frances Anne Edgeworth, April 1, 1819</title>
             <author>Maria Edgeworth</author>
             <editor>
-               <persName>Eliza Alexander Wilcox</persName>
-            </editor>
+               <persName>Eliza Alexander Wilcox</persName></editor>
             <sponsor>
                <orgName>Maria Edgeworth Letters Project</orgName>
             </sponsor>
@@ -98,7 +95,7 @@
             <pb n="1" facs="Edgeworth_Bodleian_696_1819_04_01_page01.jpg"/>
             <opener>
                <dateline>
-                  <placeName/>
+                  <placeName></placeName>
                   <persName ref="./Personography.xml#CarrX1">J.W. Carr Esq<hi rend="superscript">re</hi>
                   </persName>
                   164
@@ -123,13 +120,7 @@
                </hi>
                <lb/>
                <hi rend="underline">in law of four families</hi>- a higher title<lb/>
-               to respect than mother of any <persName ref="./Personography.xml#Fatim1">
-                  <choice>
-                     <orig>Fatimia</orig>
-                     <reg>Fatimah</reg>
-                  </choice>
-               </persName>
-               <lb/>
+               to respect than mother of any <persName ref="./Personography.xml#Fatim1"><choice><orig>Fatimia</orig><reg>Fatimah</reg></choice></persName><lb/>
                sultan or emperor that ever existed<lb/>
             </p>
             <p>
@@ -192,11 +183,7 @@
                we do. Some time or other I hope this<lb/>
                will be -<lb/>
             </p>
-            <p>   Saturday <choice>
-                  <orig>morn<hi rend="superscript">g</hi>.</orig>
-                  <reg>morning</reg>
-               </choice>
-               <lb/>
+            <p>   Saturday <choice><orig>morn<hi rend="superscript">g</hi>.</orig><reg>morning</reg></choice><lb/>
                April 2<hi rend="superscript">d</hi>.<lb/>
             </p>
             <p>  How very fortunate we were in coming<lb/>
@@ -218,18 +205,11 @@
                   <unclear/>
                </del>tho' she laughed at me for it to send<lb/>
                for a physician - Before morning came<lb/>
-               the burning heat went off and <hi rend="underline">a <choice>
-                     <orig>circum
+               the burning heat went off and <hi rend="underline">a <choice><orig>circum
                <lb/>
-               stance</orig>
-                     <reg>circumstance</reg>
-                  </choice>
-               </hi> happened that made me hope<lb/>
-               she would be materially better. <choice>
-                  <orig>Never<lb/>
-                  theless</orig>
-                  <reg>Nevertheless</reg>
-               </choice> I determined to send for a <choice>
+               stance</orig><reg>circumstance</reg></choice></hi> happened that made me hope<lb/>
+               she would be materially better. <choice><orig>Never<lb/>
+                  theless</orig><reg>Nevertheless</reg></choice> I determined to send for a <choice>
                   <orig>physi-<lb/>
                cian</orig>
                   <reg>physician</reg>
@@ -257,6 +237,8 @@
                before last two doses of antimony -<lb/>
                advised a blister on her chest if the pain<lb/>
                continued - But it did not continue &amp;<lb/>
+               
+
                <pb n="4" facs="Edgeworth_Bodleian_696_1819_04_01_page04.jpg"/>
 
                I would not put on the blister - She perspired<lb/>
@@ -489,34 +471,23 @@
                Though he says his wife should not be<lb/>
                forced to live with them how <del>can</del> c<hi rend="superscript">d</hi>. it be<lb/>
                otherwise without his breaking all his<lb/>
-               family ties &amp; old intimacies . This <choice>
-                  <orig>w<hi rend="superscript">d</hi>.</orig>
-                  <reg/>
-               </choice>
-               <lb/>
+               family ties &amp; old intimacies . This <choice><orig>w<hi rend="superscript">d</hi>.</orig><reg></reg></choice><lb/>
                make him both despicable &amp; unhappy<lb/>
                - It must end by his wife's sinking to<lb/>
                their level in society &amp; <add>to their</add>
                <del>m</del> habits of<lb/>
                mind. This <persName ref="./Personography.xml#EdgeF3">Fanny</persName> feels &amp; she knows<lb/>
                that this would render her miserable<lb/>
-               - God forbid she <choice>
-                  <orig>sh<hi rend="superscript">d</hi>.</orig>
-                  <reg>should</reg>
-               </choice> be so sacrificed.<lb/>
+               - God forbid she <choice><orig>sh<hi rend="superscript">d</hi>.</orig><reg>should</reg></choice> be so sacrificed.<lb/>
             </p>
             <p>    Your brother <persName ref="./Personography.xml#BeauF1">Francis</persName> behaves with<lb/>
                all the candor &amp; impartiality that c<hi rend="superscript">d</hi>.<lb/>
                be expected from his character. He<lb/>
                <hi rend="underline">must</hi> be sorry for his friend. But he<lb/>
-               never advocates his cause. <persName ref="./Personography.xml#EdgeF3">Fanny</persName>
-               <lb/>
+               never advocates his cause. <persName ref="./Personography.xml#EdgeF3">Fanny</persName><lb/>
                has been left by him entirely to her<lb/>
                own decision - He now agrees with<lb/>
-               me that they <choice>
-                  <orig>sh<hi rend="superscript">d</hi>.</orig>
-                  <reg>should</reg>
-               </choice> separate as soon as<lb/>
+               me that they <choice><orig>sh<hi rend="superscript">d</hi>.</orig><reg>should</reg></choice> separate as soon as<lb/>
                possible -<lb/>
             </p>
             <p>     I fear I have been saying the same<lb/>
@@ -538,9 +509,7 @@
 
                To her as she lay in bed -<lb/>
             </p>
-            <p>
-               <persName ref="./Personography.xml#BinnX1">M<hi rend="superscript">r</hi>.</persName> &amp; <persName ref="./Personography.xml#BinnX2">M<hi rend="superscript">rs</hi>.</persName> &amp; <persName ref="./Personography.xml#BinnX3">Miss <hi rend="underline">Binnion</hi>
-               </persName> (Sunderland Binn<unclear>ion</unclear>)<lb/>
+            <p>    <persName ref="./Personography.xml#BinnX1">M<hi rend="superscript">r</hi>.</persName> &amp; <persName ref="./Personography.xml#BinnX2">M<hi rend="superscript">rs</hi>.</persName> &amp; <persName ref="./Personography.xml#BinnX3">Miss <hi rend="underline">Binnion</hi></persName> (Sunderland Binn<unclear>ion</unclear>)<lb/>
                in the evening - and at dinner - <hi rend="underline">She</hi> has<lb/>
                a nasty affected <hi rend="underline">company</hi> -voice- &amp; manner<lb/>
                &amp; I was tired to death of her .- Tho they<lb/>
@@ -627,7 +596,8 @@
                Baillie</persName> &amp; us - &amp; <persName ref="./Personography.xml#EdgeF3">Fanny</persName>will stay with us till<lb/>
                the tuesday following - This is the most <choice>
                   <orig>delight<lb/>
-                     <pb n="12" facs="Edgeworth_Bodleian_696_1819_04_01_page12.jpg"/>
+
+               <pb n="12" facs="Edgeworth_Bodleian_696_1819_04_01_page12.jpg"/>
 
                12
                ful</orig>
@@ -651,10 +621,7 @@
             <p>     I send <persName ref="./Personography.xml#EdgeL2">Lovell</persName> a pamphlet &amp; notes<lb/>
                <persName ref="./Personography.xml#RogeX2">D<hi rend="superscript">r</hi>. Roget</persName> left for him - I will send in a<lb/>
                day or two a <add>biographical</add> notice he has sent me of<lb/>
-               <persName ref="./Personography.xml#RomiS1">Sir <choice>
-                     <orig>S.</orig>
-                     <reg>Samuel</reg>
-                  </choice> Romilly</persName> -<lb/>
+               <persName ref="./Personography.xml#RomiS1">Sir <choice><orig>S.</orig><reg>Samuel</reg></choice> Romilly</persName> -<lb/>
             </p>
             <p>     Give my love to <persName ref="./Personography.xml#RuxtS1">Sophy</persName> I enclose two Parisian<lb/>
                visiting tickets elegant enough for her.<lb/>
@@ -672,15 +639,8 @@
                </placeName> in our way homewards.<lb/>
             </p>
             <p>     I have seen <persName ref="./Personography.xml#HuntR1">Hunter</persName> lately . Have<lb/>
-               agreed to give him the whole of the <choice>
-                  <orig>M<hi rend="superscript">s</hi>.</orig>
-                  <reg>manuscripts</reg>
-               </choice>
-               <lb/>
-               in <choice>
-                  <orig>Sep<hi rend="superscript">r</hi>.</orig>
-                  <reg>September</reg>
-               </choice>- He is to send me over the proof<lb/>
+               agreed to give him the whole of the <choice><orig>M<hi rend="superscript">s</hi>.</orig><reg>manuscripts</reg></choice><lb/>
+               in <choice><orig>Sep<hi rend="superscript">r</hi>.</orig><reg>September</reg></choice>- He is to send me over the proof<lb/>
                sheets. That operation will retard the<lb/>
                publication but is in my opinion quite<lb/>
                necessary. He means to have it out by Xmass<lb/>
@@ -732,6 +692,7 @@
                such a happy cultivated united family<lb/>
                - When he sits down to dinner in the midst<lb/>
                of his children he says he throws aside<lb/>
+
                <pb n="14" facs="Edgeworth_Bodleian_696_1819_04_01_page14.jpg"/>
 
                every care for the remainder <add>of the day</add> &amp; enjoys<lb/>
@@ -796,6 +757,6 @@
             </closer>
          </div>
       </body>
-      <back/>
+      <back> </back>
    </text>
 </TEI>

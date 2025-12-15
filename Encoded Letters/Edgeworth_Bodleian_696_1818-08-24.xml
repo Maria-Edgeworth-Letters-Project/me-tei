@@ -2,15 +2,13 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<?xml-model href="https://raw.githubusercontent.com/Maria-Edgeworth-Letters-Project/me-tei/refs/heads/main/melp.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
-    ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title>Letter from Maria Edgeworth to Frances Anne Edgeworth, August 24, 1818</title>
             <author>Maria Edgeworth</author>
-            <editor/>
+            <editor></editor>
             <sponsor>
                <orgName>Maria Edgeworth Letters Project</orgName>
             </sponsor>
@@ -60,11 +58,7 @@
                      <surname>Edgeworth</surname>
                   </persName>
                   to <persName ref="./Personography.xml#EdgeF2">Mrs. Edgeworth</persName>, <placeName ref="./Placeography.xml#Edgeworthstown_IE">Edgeworthstown</placeName>, 
-                  <date when="1818-08-24">
-                     <choice>
-                        <abbr>Aug<hi rend="superscript">st</hi>.</abbr>
-                        <reg>August</reg>
-                     </choice> 24<hi rend="superscript">th</hi>. 1818</date>
+                  <date when="1818-08-24"><choice><abbr>Aug<hi rend="superscript">st</hi>.</abbr><reg>August</reg></choice> 24<hi rend="superscript">th</hi>. 1818</date>
                </head>
                <physDesc>
                   <p>
@@ -95,7 +89,7 @@
          <change when="2024-08-21" who="Id_who">
                Robin Runia completed final editorial review on 08-21-2024.
           </change>
-      </revisionDesc>
+       </revisionDesc>
    </teiHeader>
    <text>
       <body>
@@ -103,10 +97,8 @@
             <pb n="1" facs="Edgeworth_Bodleian_696_1818-08-24_page01.jpg"/>
             <opener>
                <dateline>
-                  <placeName/>
-                  <placeName ref="./Placeography.xml#Nelson-Place-2_ENK">2 Nelson Place</placeName>
-                  <placeName ref="./Placeography.xml#Bath_ENK">Bath</placeName>
-                  <lb/>
+                  <placeName></placeName>
+                  <placeName ref="./Placeography.xml#Nelson-Place-2_ENK">2 Nelson Place</placeName> <placeName ref="./Placeography.xml#Bath_ENK">Bath</placeName><lb/>
                   <date when="1818-08-24">Aug<hi rend="superscript">st</hi>. 24<hi rend="superscript">th</hi>. 1818</date>
                </dateline>
                <salute>
@@ -274,8 +266,7 @@
                   <orig>There-<lb/>
                fore</orig>
                   <reg>Therefore</reg>
-               </choice>
-               <hi rend="underline">I</hi>  wish to put off the visit -<lb/>
+               </choice><hi rend="underline">I</hi>  wish to put off the visit -<lb/>
                <del>I will write</del> As soon as I get to <placeName ref="./Placeography.xml#Clifton_ENK">Clifton</placeName>
                <lb/>
                &amp; hear what my aunts say - I will<lb/>
@@ -291,10 +282,7 @@
                </choice>
                <lb/>
                or if he stays at <placeName ref="./Placeography.xml#Bowood-House_ENK">Bowood</placeName> suppose<lb/>
-               in <choice>
-                  <orig>Sep<hi rend="superscript">r</hi>.</orig>
-                  <reg>September</reg>
-               </choice>? <persName ref="./Personography.xml#EdgeA2">Anna</persName> asks us to stay<lb/>
+               in <choice><orig>Sep<hi rend="superscript">r</hi>.</orig><reg>September</reg></choice>? <persName ref="./Personography.xml#EdgeA2">Anna</persName> asks us to stay<lb/>
                here a fortnight &amp; promises she<lb/>
                will let no company in - that<lb/>
                she will say at once W. has a<lb/>
@@ -381,6 +369,6 @@
             </closer>
          </div>
       </body>
-      <back/>
+      <back> </back>
    </text>
 </TEI>

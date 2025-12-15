@@ -2,8 +2,6 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<?xml-model href="https://raw.githubusercontent.com/Maria-Edgeworth-Letters-Project/me-tei/refs/heads/main/melp.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
-    ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -147,12 +145,7 @@
                Storms arose - and we have had two cheerful letters<lb/>
                from him from <placeName ref="./Placeography.xml#Liverpool_ENK">Liverpool</placeName> where he will soon be very<lb/>
                busy - I rejoice that <persName ref="./Personography.xml#EdgeH1">Harriet</persName> had the happiness of<lb/>
-               meeting you at my <persName ref="./Personography.xml#WallE1" cert="high">
-                  <choice>
-                     <orig>aunts</orig>
-                     <reg>aunt's</reg>
-                  </choice>
-               </persName> - I had not a notion that<lb/>
+               meeting you at my <persName ref="./Personography.xml#WallE1" cert="high"><choice><orig>aunts</orig><reg>aunt's</reg></choice></persName> - I had not a notion that<lb/>
                so much time could have passed since she last saw<lb/>
                you - but since she says so it must be right - She seems<lb/>
                to have enjoyed the <add>meeting</add> very much<lb/>
@@ -251,6 +244,6 @@
             </closer>
          </div>
       </body>
-      <back/>
+      <back> </back>
    </text>
 </TEI>

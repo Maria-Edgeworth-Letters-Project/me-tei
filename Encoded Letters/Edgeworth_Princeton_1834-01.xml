@@ -2,8 +2,6 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<?xml-model href="https://raw.githubusercontent.com/Maria-Edgeworth-Letters-Project/me-tei/refs/heads/main/melp.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
-    ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -154,8 +152,7 @@
             <closer>
                <pb n="2" facs="Edgeworth_Princeton_1834-01_page02.jpg"/>
                <address>
-                  <addrLine>
-                     <persName ref="./Personography.xml#BentR1">R Bentley</persName> Esq<hi rend="superscript">r</hi>
+                  <addrLine><persName ref="./Personography.xml#BentR1">R Bentley</persName> Esq<hi rend="superscript">r</hi>
                      <lb/>
                   </addrLine>
                </address>

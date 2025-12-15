@@ -2,8 +2,6 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<?xml-model href="https://raw.githubusercontent.com/Maria-Edgeworth-Letters-Project/me-tei/refs/heads/main/melp.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
-    ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -97,36 +95,21 @@
       <body>
          <div type="letter">
             <pb n="1" facs="Edgeworth_Huntington_F15153_1845_05_16_page01.jpg"/>
-            <p>
-               <persName ref="./Personography.xml#EdgeM1">Miss Edgeworth</persName> understands<lb/>
-               from <persName ref="./Personography.xml#HervX1">D<hi rend="superscript">r</hi>. H<unclear>erve</unclear>
-               </persName> of <placeName ref="./Placeography.xml#Boston_MA_US">Boston</placeName> that<lb/>
+            <p> <persName ref="./Personography.xml#EdgeM1">Miss Edgeworth</persName> understands<lb/>
+               from <persName ref="./Personography.xml#HervX1">D<hi rend="superscript">r</hi>. H<unclear>erve</unclear></persName> of <placeName ref="./Placeography.xml#Boston_MA_US">Boston</placeName> that<lb/>
                he has sent the 13<hi rend="superscript">th</hi>. Report of<lb/>
                the <placeName ref="./Placeography.xml#Perkins-School_MA_US">Perkins Instruction for<lb/>
-                  the Blind</placeName> to Mess<hi rend="superscript">r</hi>. <persName ref="./Personography.xml#WileX1">Wiley</persName> &amp; <persName ref="./Personography.xml#PickX1">Pick<unclear>ram</unclear>
-               </persName>
-               <lb/>
+                  the Blind</placeName> to Mess<hi rend="superscript">r</hi>. <persName ref="./Personography.xml#WileX1">Wiley</persName> &amp; <persName ref="./Personography.xml#PickX1">Pick<unclear>ram</unclear></persName><lb/>
                for her— She requests that they<lb/>
                will be so good as to send it<lb/>
-               for her to care of <persName ref="./Personography.xml#WilsL1">
-                  <choice>
-                     <orig>L.</orig>
-                     <reg>Lestock</reg>
-                  </choice>
-                  <choice>
-                     <orig>P.</orig>
-                     <reg>Peach</reg>
-                  </choice> Wilson</persName> Esq<lb/>
-               <placeName ref="./Placeography.xml#North-Audley-Street-1_ENK">1 North Audley Street</placeName>
-               <lb/>
-            </p>
+               for her to care of <persName ref="./Personography.xml#WilsL1"><choice><orig>L.</orig><reg>Lestock</reg></choice> <choice><orig>P.</orig><reg>Peach</reg></choice> Wilson</persName> Esq<lb/>
+               <placeName ref="./Placeography.xml#North-Audley-Street-1_ENK">1 North Audley Street</placeName><lb/>
+</p>
             <closer>
                <dateline>
-                  <placeName ref="./Placeography.xml#Edgeworthstown_IE">Edgeworthstown</placeName>
-                  <lb/>
+                  <placeName ref="./Placeography.xml#Edgeworthstown_IE">Edgeworthstown</placeName><lb/>
                   <date when="1845-05-16"/>  16. May .45<lb/>
-               </dateline>
-            </closer>
+               </dateline></closer>
          </div>
       </body>
       <back/>

@@ -2,8 +2,6 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<?xml-model href="https://raw.githubusercontent.com/Maria-Edgeworth-Letters-Project/me-tei/refs/heads/main/melp.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
-    ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -88,7 +86,7 @@
             <pb n="1" facs="Edgeworth_Brown_25358_1841-04_page01.jpg"/>
             <opener>
                <dateline>
-                  <placeName/>
+                  <placeName></placeName>
                   <date when="1841-04-14">Wednesday, Apr. 14<hi rend="superscript">th</hi>
                   </date>
                   <lb/>

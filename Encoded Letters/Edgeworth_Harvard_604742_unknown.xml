@@ -2,8 +2,6 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<?xml-model href="https://raw.githubusercontent.com/Maria-Edgeworth-Letters-Project/me-tei/refs/heads/main/melp.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
-    ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -29,7 +27,8 @@
             </respStmt>
          </titleStmt>
          <editionStmt>
-            <edition>First digital edition in TEI, date: <date when="2023-12-01"/>
+            <edition>First digital edition in TEI, date: <date when="2023-12-01">
+            </date>
             </edition>
             <respStmt>
                <orgName type="naf" ref="http://id.loc.gov/authorities/names/n80097499">
@@ -116,26 +115,14 @@
                <persName ref="./Personography.xml#ConsB1">M. Constant</persName> might much improve<lb/>
                himself as a speaker &amp; a writer by studying<lb/>
                <persName ref="./Personography.xml#BurkE1">Burke</persName> whom he more resembles in<lb/>
-               manner than any of our speakers <damage>
-                  <unclear>or<gap/>
-                  </unclear>
-               </damage>
+               manner than any of our speakers <damage><unclear>or<gap></gap></unclear></damage>
                <lb/>
                writers - <del>But</del> he wants more of <persName ref="./Personography.xml#BurkE1">Burke</persName>
-               <damage>
-                  <unclear>'s<gap/>
-                  </unclear>
-               </damage>
+               <damage><unclear>'s<gap></gap></unclear></damage>
                <lb/>
-               strength and has too much of his ornament <damage>
-                  <unclear>-<gap/>
-                  </unclear>
-               </damage>
+               strength and has too much of his ornament <damage><unclear>-<gap></gap></unclear></damage>
                <lb/>
-               <add>- too much declamation - too many words - 10 times <damage>
-                     <gap/>
-                  </damage>
-               </add>
+               <add>- too much declamation - too many words - 10 times <damage><gap></gap></damage></add>
                <lb/>
             </p>
             <p>You oblige me much by sending <unclear/>
@@ -184,6 +171,6 @@
             </closer>
          </div>
       </body>
-      <back/>
+      <back> </back>
    </text>
 </TEI>

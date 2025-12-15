@@ -2,8 +2,6 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<?xml-model href="https://raw.githubusercontent.com/Maria-Edgeworth-Letters-Project/me-tei/refs/heads/main/melp.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
-    ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -27,6 +25,7 @@
                <resp>Reviewed by</resp>
                <persName>Robin Runia</persName>
             </respStmt>
+            
          </titleStmt>
          <editionStmt>
             <edition>First digital edition in TEI, date: October 22, 2023<date when="2023-10-22"/>
@@ -113,8 +112,8 @@
                <lb/>
             </p>
             <p>We have been offered <del>
-                  <unclear>three</unclear>
-               </del>
+               <unclear>three</unclear>
+            </del>
                <add>four</add> hundred <choice>
                   <orig>gui<lb/>
                      neas</orig>
@@ -141,10 +140,10 @@
                <lb/>
             </p>
             <p>Be so kind as to tell me your <choice>
-                  <orig>opi-<lb/>
+               <orig>opi-<lb/>
                   nion</orig>
-                  <reg>opinion</reg>
-               </choice> upon this subject.<lb/>
+               <reg>opinion</reg>
+            </choice> upon this subject.<lb/>
             </p>
             <closer>
                I am Dear Sir<lb/>

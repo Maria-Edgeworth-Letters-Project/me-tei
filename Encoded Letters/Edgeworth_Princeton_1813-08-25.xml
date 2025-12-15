@@ -2,8 +2,6 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<?xml-model href="https://raw.githubusercontent.com/Maria-Edgeworth-Letters-Project/me-tei/refs/heads/main/melp.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
-    ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -148,7 +146,7 @@
                      <reg>Helen's</reg>
                   </choice>
                </placeName>
-               <placeName ref="./Placeography.xml#Derby_ENK">Derby</placeName> I<lb/>
+               <placeName ref="./Placeography.xml#Derby_ENK">Derby</placeName> I<lb/>           
                <pb n="2" facs="Edgeworth_Princeton_1813-08-25_page02.jpg"/>
                I will write to <persName ref="./Personography.xml#StrutW1">M<hi rend="superscript">r</hi>. Strutt</persName> to have it sent over<lb/>
                from thence to me by my brother <persName ref="./Personography.xml#EdgeC1">Sneyd</persName> who<lb/>
@@ -194,17 +192,14 @@
                   </choice>
                </persName> of <placeName ref="./Placeography.xml#Derbyshire_ENK">Derbyshire</placeName> (sister of the member for<lb/>
                <placeName ref="./Placeography.xml#Weymouth_ENK">Weymouth</placeName>
-               <lb/>
+               <lb/>           
                <pb n="3" facs="Edgeworth_Princeton_1813-08-25_page03.jpg"/>
                lady of very amiable character, to whom he <del>has</del>
                <lb/>
                is much attached and who has besides other<lb/>
                good things a <hi rend="underline">reasonably</hi> good fortune of<lb/>
                I believe about a thousand a year - not enough<lb/>
-               to make him <damage>
-                  <unclear>
-                     <gap/> profession</unclear>
-               </damage> - but<lb/>
+               to make him <damage><unclear><gap></gap> profession</unclear></damage> - but<lb/>
                sufficient to enable him to marry without<lb/>
                imprudence<lb/>
             </p>
@@ -236,6 +231,6 @@
             </closer>
          </div>
       </body>
-      <back/>
+      <back> </back>
    </text>
 </TEI>

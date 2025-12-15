@@ -2,8 +2,6 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<?xml-model href="https://raw.githubusercontent.com/Maria-Edgeworth-Letters-Project/me-tei/refs/heads/main/melp.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
-    ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -138,11 +136,7 @@
                      eive</orig>
                   <reg>receive</reg>
                </choice>
-               <placeName ref="./Placeography.xml#Fleet-Street-37_ENK">Mess<hi rend="superscript">rs</hi>. <choice>
-                     <orig>Hoares</orig>
-                     <reg>Hoare's</reg>
-                  </choice>
-               </placeName> reply I will<lb/>
+               <placeName ref="./Placeography.xml#Fleet-Street-37_ENK">Mess<hi rend="superscript">rs</hi>. <choice><orig>Hoares</orig><reg>Hoare's</reg></choice></placeName> reply I will<lb/>
                not trouble you to send me a form<lb/>
                of affidavit of the loss of the <unclear>Scrip</unclear>
                <lb/>
@@ -156,6 +150,7 @@
                did not purpose transferring it<lb/>
                with the whole share to M<hi rend="superscript">rs</hi>
                <lb/>
+               
                <pb n="2" facs="Edgeworth_Iowa_0001_1844-12-18_page02.jpg"/>
                <persName ref="./Personography.xml#EdgeF2">Frances Edgeworth</persName>
                <lb/>
@@ -167,8 +162,7 @@
             <p>Be the same more or less <del>I <choice>
                      <orig>sh<hi rend="superscript">d</hi>.</orig>
                      <reg>should</reg>
-                  </choice>
-               </del>
+                  </choice></del>
                <lb/>
                within a few shillings or so<lb/>
                I request you will have the<lb/>
@@ -195,6 +189,7 @@
                   to <persName ref="./Personography.xml#LawrX1" cert="medium">M<hi rend="superscript">rs</hi>. Lawrence</persName>. I have now<lb/>
                recovered from illness sufficiently<lb/>
                to be allowed to come down to<lb/>
+               
                <pb n="3" facs="Edgeworth_Iowa_0001_1844-12-18_page03.jpg"/>
                <hi rend="underline">the Library</hi> our common sitting<lb/>
                room &amp; I have been permitted<lb/>
@@ -224,20 +219,16 @@
                good people - I am told that<lb/>
                this book is written by a very<lb/>
                young <del>Lady</del> - <add>Miss <persName ref="./Personography.xml#GoodX1">Goodrick</persName> of <placeName ref="./Placeography.xml#Beaufort_Cheltenham_ENK">
-                     <choice>
-                        <orig>Beau-<lb/>
+                  <choice>
+                     <orig>Beau-<lb/>
                fort</orig>
-                        <reg>Beaufort</reg>
-                     </choice> House</placeName>
-                  <placeName ref="./Placeography.xml#Cheltenham_ENK">Cheltenham</placeName> - Does <persName ref="./Personography.xml#LawrX1">M<hi rend="superscript">rs</hi>. L</persName>
-                  <lb/>
-                  <pb n="4" facs="Edgeworth_Iowa_0001_1844-12-18_page04.jpg"/>
-                  know any thing about her? Pray tell me. I am go<damage>
-                     <unclear>ing<gap/>
-                     </unclear>
-                  </damage>
-               </add>
+                     <reg>Beaufort</reg>
+                  </choice> House</placeName>
+               <placeName ref="./Placeography.xml#Cheltenham_ENK">Cheltenham</placeName> - Does <persName ref="./Personography.xml#LawrX1">M<hi rend="superscript">rs</hi>. L</persName>
                <lb/>
+               
+               <pb n="4" facs="Edgeworth_Iowa_0001_1844-12-18_page04.jpg"/>
+                  know any thing about her? Pray tell me. I am go<damage><unclear>ing<gap></gap></unclear></damage></add><lb/>
                to write to her as I can do so<lb/>
                with pleasure having heartfelt<lb/>
                praise to offer - I never <hi rend="underline">can</hi>

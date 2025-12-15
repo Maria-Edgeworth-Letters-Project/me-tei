@@ -2,37 +2,37 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<?xml-model href="https://raw.githubusercontent.com/Maria-Edgeworth-Letters-Project/me-tei/refs/heads/main/melp.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
-    ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Letter from Maria Edgeworth to Frances Anne Edgeworth, January 14, 1819</title>
-            <author>Maria Edgeworth</author>
-            <editor>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter from Maria Edgeworth to Frances Anne Edgeworth, January 14, 1819</title>
+                <author>Maria Edgeworth</author>
+                <editor>
                     Paris Weber
                 </editor>
-            <sponsor>
-               <orgName>Maria Edgeworth Letters Project</orgName>
-            </sponsor>
-            <sponsor>Wake Forest University, University of Tennessee, Xavier University, Texas
+                <sponsor>
+                    <orgName>Maria Edgeworth Letters Project</orgName>
+                </sponsor>
+                <sponsor>Wake Forest University, University of Tennessee, Xavier University, Texas
                     A&amp;M University</sponsor>
-            <principal>Susan Egenolf, Meredith Hale, Hilary Havens, Jessica Richard, and Robin Runia</principal>
-            <respStmt>
-               <resp>Transcription  by
+                <principal>Susan Egenolf, Meredith Hale, Hilary Havens, Jessica Richard, and Robin Runia</principal>
+                <respStmt>
+                    <resp>Transcription  by
                         <persName>Anna Grace Barnett
                         </persName> 
                         Coding by</resp>
-               <persName> Paris Weber </persName>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition>First digital edition in TEI, date: June 24,2025 <date when="2025-06-24"/>
-            </edition>
-            <respStmt>
-               <orgName ref="/http://id.loc.gov/authorities/names/n80020306">Bodleian Library</orgName>
-               <resp> photos include:
+                    <persName> Paris Weber </persName>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>First digital edition in TEI, date: June 24,2025 <date when="2025-06-24">
+                </date>
+                </edition>
+                <respStmt>
+                    <orgName 
+                        ref="/http://id.loc.gov/authorities/names/n80020306">Bodleian Library</orgName>
+                    <resp> photos include:
                         Edgeworth_Bodleian_696_1819-01-14_page01.jpg,
                         Edgeworth_Bodleian_696_1819-01-14_page02.jpg,
                         Edgeworth_Bodleian_696_1819-01-14_page03.jpg,
@@ -43,89 +43,88 @@
                         Edgeworth_Bodleian_696_1819-01-14_page08.jpg
                         
                     </resp>
-            </respStmt>
-         </editionStmt>
-         <publicationStmt>
-            <authority>Maria Edgeworth Letters Project</authority>
-            <date>2022</date>
-            <availability>
-               <p>Reproduced by courtesy of <orgName ref="http://id.loc.gov/authorities/names/n80020306"> Bodleian Library</orgName>
-               </p>
-               <licence target="https://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons Attribution 4.0 (CC BY 4.0) Unported License</licence>
-            </availability>
-            <idno>Edgeworth_Bodleian_702_1842-11</idno>
-         </publicationStmt>
-         <seriesStmt>
-            <title>Maria Edgeworth Letters Project</title>
-         </seriesStmt>
-         <sourceDesc>
-            <msDesc xml:lang="en">
-               <msIdentifier>
-                  <repository>Bodleian Library</repository>
-                  <collection>MS. Eng. lett. c. 696</collection>
-               </msIdentifier>
-               <head>Letter from 
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <authority>Maria Edgeworth Letters Project</authority>
+                <date>2022</date>
+                <availability>
+                    <p>Reproduced by courtesy of <orgName ref="http://id.loc.gov/authorities/names/n80020306"> Bodleian Library</orgName>
+                    </p>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons Attribution 4.0 (CC BY 4.0) Unported License</licence>
+                </availability>
+                <idno>Edgeworth_Bodleian_702_1842-11</idno> 
+            </publicationStmt>
+            <seriesStmt>
+                <title>Maria Edgeworth Letters Project</title>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc xml:lang="en">
+                    <msIdentifier>
+                        <repository>Bodleian Library</repository>
+                        <collection>MS. Eng. lett. c. 696</collection>
+                    </msIdentifier>
+                    <head>Letter from 
                         <persName xml:id="EdgeM1" from="1768" to="1849">
-                     <forename>Maria</forename>
-                     <surname>Edgeworth</surname>
-                     <date>1768-1849</date>
-                     <idno type="VIAF">71477273</idno>
-                     <idno type="SNAC">62567029</idno>
-                  </persName>
+                            <forename>Maria</forename>
+                            <surname>Edgeworth</surname>
+                            <date>1768-1849</date>
+                            <idno type="VIAF">71477273</idno>
+                            <idno type="SNAC">62567029</idno>
+                        </persName>
                         to <persName ref="./Personography.xml#EdgeF2">Frances Anne Edgeworth</persName>
-                  <date> 1769-1865</date>
-               </head>
-            </msDesc>
-            <bibl>In addition to our edited version, this letter was previously published in
-                    <!--complete bibiographical info if letter was published in a book here - if not delete--></bibl>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <editorialDecl>
-            <p>Edgeworth’s spelling and punctuation are retained in transcription, including non-standard spelling, line breaks, and hyphenation of words. The long s and ligatured forms are silently emended.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <profileDesc>
-         <correspDesc>
-            <correspAction type="sent">
-               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
-            </correspAction>
-            <correspAction type="received">
-               <persName ref="./Personography.xml#EdgeF2"> Frances Anne Edgeworth</persName>
-            </correspAction>
-         </correspDesc>
-      </profileDesc>
-      <revisionDesc>
-         <change when="2021-01-01" who="Id_who"/>
-      </revisionDesc>
-   </teiHeader>
-   <text>
-      <body>
-         <div type="letter">
-            <pb n="1" facs="Edgeworth_Bodleian_696_1819-01-14_page01.jpg"/>
-            <dateline>
-               <date when="1819-01-14"/>
-            </dateline>
-            <p>
-               <note>104</note>
-               <lb/>
-               <placeName ref="./Placeography.xml#Trentham_ENK">Trentham</placeName>
-               <lb/>
+                        <date> 1769-1865</date>              
+                    </head>
+                </msDesc>
+                <bibl>In addition to our edited version, this letter was previously published in
+                    <!--complete bibiographical info if letter was published in a book here - if not delete-->
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p>Edgeworth’s spelling and punctuation are retained in transcription, including non-standard spelling, line breaks, and hyphenation of words. The long s and ligatured forms are silently emended.</p>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="./Personography.xml#EdgeF2"> Frances Anne Edgeworth</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2021-01-01" who="Id_who">
+            </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="letter">
+                <pb n="1" facs="Edgeworth_Bodleian_696_1819-01-14_page01.jpg"/>
+                
+                <dateline>
+                    <date when="1819-01-14"></date></dateline>
+                
+                <p> 
+                    <note>104</note><lb/>
+                    <placeName ref="./Placeography.xml#Trentham_ENK">Trentham</placeName><lb/>
                     Thursday 14<hi rend="superscript">th</hi> . Jan<hi rend="superscript">y</hi> . 1819<lb/>
-                    You see we are here still - <persName ref="./Personography.xml#SneyE1">M<hi rend="superscript">r</hi>
-               </persName>. &amp; <persName ref="./Personography.xml#SneyM3">M<hi rend="superscript">rs</hi> .<lb/>
+                    You see we are here still - <persName ref="./Personography.xml#SneyE1">M<hi rend="superscript">r</hi> </persName>. &amp; <persName ref="./Personography.xml#SneyM3">M<hi rend="superscript">rs</hi> .<lb/>
                     Sneyd</persName> and <persName ref="./Personography.xml#SneyM2">Emma</persName> returned home<lb/>
-                    on tuesday - but <persName ref="./Personography.xml#GoweG1">Lord</persName> &amp; <persName ref="./Personography.xml#GoweE1">Lady Stafford</persName>
-               <lb/>
+                    on tuesday - but <persName ref="./Personography.xml#GoweG1">Lord</persName> &amp; <persName ref="./Personography.xml#GoweE1">Lady Stafford</persName><lb/>
                     expressed such an earnest wish that<lb/>
                     we should stay a little longer that<lb/>
                     finding <persName ref="./Personography.xml#SneyM3">M<hi rend="superscript">rs</hi> . Sneyd</persName> would not take<lb/>
                     it unkindly I consented - <persName ref="./Personography.xml#GoweE2">Lady<lb/>
-                    Elizabeth</persName> when I told her I had <choice>
-                  <orig>de<lb/>
+                    Elizabeth</persName> when I told her I had <choice> 
+                    <orig>de<lb/>
                     termined</orig>
-                  <reg>determined</reg>
-               </choice>
+                    <reg>determined</reg>
+                    </choice>
                     to stay leaped from the<lb/>
                     ground at least 18 inches &amp; no<lb/>
                     eyes could doubt the expression<lb/>
@@ -133,20 +132,19 @@
                     nor could any ear mistake the<lb/>
                     sound of the clapping of her hands<lb/>
                     - She is so kind to <persName ref="./Personography.xml#BeauH1">Honora</persName> and<lb/>
-               <persName ref="./Personography.xml#EdgeF3">Fanny</persName> &amp; seems to value them<lb/>
-                    so justly &amp; so to enjoy their <choice>
-                  <orig>compa<lb/>
+                    <persName ref="./Personography.xml#EdgeF3">Fanny</persName> &amp; seems to value them<lb/>
+                    so justly &amp; so to enjoy their <choice> 
+                    <orig>compa<lb/>
                     ny</orig>
-                  <reg>company</reg>
-               </choice>
+                    <reg>company</reg>
+                    </choice>
                     that even independently of<lb/>
-               <persName ref="./Personography.xml#GoweG1">L<hi rend="superscript">d</hi>
-               </persName> . &amp; <persName ref="./Personography.xml#GoweE1">Lady Stafford</persName> I would have staid<lb/>
+                    <persName ref="./Personography.xml#GoweG1">L<hi rend="superscript">d</hi></persName> . &amp; <persName ref="./Personography.xml#GoweE1">Lady Stafford</persName> I would have staid<lb/>
                     for her sake - But before I go<lb/>
-               <pb n="2" facs="Edgeworth_Bodleian_696_1819-01-14_page02.jpg"/>
+                
+                <pb n="2" facs="Edgeworth_Bodleian_696_1819-01-14_page02.jpg"/>
                     on any farther let me put your mind<lb/>
-                    at ease dearest <persName ref="./Personography.xml#EdgeF2">mother</persName> about <persName ref="./Personography.xml#EdgeF3">Fanny's</persName>
-               <lb/>
+                    at ease dearest <persName ref="./Personography.xml#EdgeF2">mother</persName> about <persName ref="./Personography.xml#EdgeF3">Fanny's</persName><lb/>
                     health - Her cold is going off - her<lb/>
                     own looks are coming on - The pink<lb/>
                     shell color is gaining &amp; spreading over<lb/>
@@ -155,56 +153,51 @@
                     of which <persName ref="./Personography.xml#PakeT2">Admiral Pakenham</persName> said -<lb/>
                     nothing but the truth - She has<lb/>
                     ridden out these last two mornings<lb/>
-                    on a nice pon<add>e</add> y with <persName ref="./Personography.xml#GoweE2">Lady Elizabeth</persName>
-               <lb/>
+                    on a nice pon<add>e</add> y with <persName ref="./Personography.xml#GoweE2">Lady Elizabeth</persName><lb/>
                     - the rest of the morning she has past<lb/>
                     in trying to take a likeness of <persName ref="./Personography.xml#GoweE2">Lady<lb/>
-                    Elizabeth</persName> - She &amp; I sit up in <persName ref="./Personography.xml#GoweE2">Lady E's</persName>
-               <lb/>
+                    Elizabeth</persName> - She &amp; I sit up in <persName ref="./Personography.xml#GoweE2">Lady E's</persName><lb/>
                     comfortable little room (about the<lb/>
                     size of your cabinet but very light) -<lb/>
                     and I talk while <persName ref="./Personography.xml#EdgeF3">Fanny</persName> draws &amp;<lb/>
                     we are all delightfully happy &amp;<lb/>
-                    agreeable of course - <persName ref="./Personography.xml#BeauH1">Honora</persName>
-               <choice>
-                  <orig>mean<lb/>
+                    agreeable of course - <persName ref="./Personography.xml#BeauH1">Honora</persName> <choice> 
+                    <orig>mean<lb/>
                     time</orig>
-                  <reg>meantime</reg>
-               </choice>
+                    <reg>meantime</reg>
+                    </choice>
                     is in the library drawing in<lb/>
                     water colors under <persName ref="./Personography.xml#GoweE1">Lady Stafford's</persName> eye<lb/>
                     &amp; instruction - <persName ref="./Personography.xml#GoweE1">Lady S.</persName> has been doing<lb/>
                     a drawing on purpose to shew her<lb/>
                     her method - She draws beautifully<lb/>
-               <pb n="3" facs="Edgeworth_Bodleian_696_1819-01-14_page03.jpg"/>
-               <note>105</note>
-               <lb/>
+                
+                <pb n="3" facs="Edgeworth_Bodleian_696_1819-01-14_page03.jpg"/>
+                    <note>105</note><lb/>
                     and is like yourself about her drawings<lb/>
                     perfectly free from all vanity or<lb/>
-                    care about them &amp; from all <choice>
-                  <orig>affecta-<lb/>
+                    care about them &amp; from all <choice> 
+                    <orig>affecta-<lb/>
                     tion</orig>
-                  <reg>affectation</reg>
-               </choice>
-               <lb/>
+                    <reg>affectation</reg>
+                    </choice><lb/>
                     of humility - I would not for<lb/>
                     any consideration have missed<lb/>
                     this near &amp; intimate view of her<lb/>
                     character &amp; domestic habits - What<lb/>
                     an instinct <add>for work &amp; genius - What an</add> an intuitive glance<lb/>
                     into both head &amp; heart that dear<lb/>
-                    father of mine possessed -<lb/>
-            </p>
-            <p>
+                    father of mine possessed -<lb/> </p>
+                
+                <p>
                     - It is impossible to tell you <hi rend="underline">how</hi> kind<lb/>
-               <persName ref="./Personography.xml#GoweE1">Lady Stafford</persName> has been to us - And<lb/>
+                    <persName ref="./Personography.xml#GoweE1">Lady Stafford</persName> has been to us - And<lb/>
                     you would be still more satisfied<lb/>
-                    - as I am - on <persName ref="./Personography.xml#BeauH1">Honora</persName> &amp; <persName ref="./Personography.xml#EdgeF3">Fanny's</persName>
-               <choice>
-                  <orig>ac-<lb/>
+                    - as I am - on <persName ref="./Personography.xml#BeauH1">Honora</persName> &amp; <persName ref="./Personography.xml#EdgeF3">Fanny's</persName><choice> 
+                    <orig>ac-<lb/>
                     count</orig>
-                  <reg>account</reg>
-               </choice>
+                    <reg>account</reg>
+                    </choice>
                     than on my own if you could<lb/>
                     see how <hi rend="underline">they</hi> are treated - not as<lb/>
                     appendages to an authoress - but<lb/>
@@ -214,77 +207,77 @@
                     society - <persName ref="./Personography.xml#GoweE1">Lady Stafford</persName> has found<lb/>
                     many most gratifying occasions<lb/>
                     for expressing this - She has repeatedly<lb/>
-               <pb n="4" facs="Edgeworth_Bodleian_696_1819-01-14_page04.jpg"/>
+                
+                <pb n="4" facs="Edgeworth_Bodleian_696_1819-01-14_page04.jpg"/>
                     said to me What amiable, sensible<lb/>
-                    pleasing young women those two <choice>
-                  <orig>sis-<lb/>
+                    pleasing young women those two <choice> 
+                    <orig>sis-<lb/>
                     ters</orig>
-                  <reg>sisters</reg>
-               </choice>
-                    of yours are - how unlike <choice>
-                  <orig>com<lb/>
+                    <reg>sisters</reg>
+                    </choice>
+                    of yours are - how unlike <choice> 
+                    <orig>com<lb/>
                     -mon</orig>
-                  <reg>common</reg>
-               </choice>
-                    missies ! -<lb/>
-            </p>
-            <p>
+                    <reg>common</reg>
+                    </choice>
+                    missies ! -<lb/> </p>
+                
+                <p>
                     of <persName ref="./Personography.xml#BeauH1">Honora</persName> she said to me - " She is I sh<hi rend="superscript">d</hi> .<lb/>
-                    think a most trust worthy young <choice>
-                  <orig>per-<lb/>
+                    think a most trust worthy young <choice> 
+                    <orig>per-<lb/>
                     son</orig>
-                  <reg>person</reg>
-               </choice>
+                    <reg>person</reg>
+                    </choice>
                     - one on whom one could depend<lb/>
-                    that her head w<hi rend="superscript">d</hi> . not turn in any <choice>
-                  <orig>si-<lb/>
+                    that her head w<hi rend="superscript">d</hi> . not turn in any <choice> 
+                    <orig>si-<lb/>
                     tuation</orig>
-                  <reg>situation</reg>
-               </choice>
+                    <reg>situation</reg>
+                    </choice>
                     - steady - sensible - - like<lb/>
                     her cousin <persName ref="./Personography.xml#SneyM2">Miss Sneyd</persName> in face &amp; figure<lb/>
-                    &amp; something in manner.<lb/>
-            </p>
-            <p>
-               <persName ref="./Personography.xml#EdgeF3">Fanny</persName> she <hi rend="superscript">particularly</hi> likes<lb/>
+                    &amp; something in manner.<lb/></p>
+                
+                <p>
+                    <persName ref="./Personography.xml#EdgeF3">Fanny</persName> she <hi rend="superscript">particularly</hi> likes<lb/>
                     - " She <del>answers one</del> gives one such<lb/>
                     sensible answers when one asks<lb/>
                     her any thing - She is a most pleasing<lb/>
                     intelligent person - And very pretty -<lb/>
-               <add>(disqualifying speech of mine)</add> - Oh more than that - She is certainly<lb/>
-               <hi rend="underline">very pretty</hi> - <persName ref="./Personography.xml#GoweG1">L<hi rend="superscript">d</hi> . Stafford</persName> says so - the<lb/>
-                    gentlemen all say so </p>
-            <lb/>
-            <p>
+                    <add>(disqualifying speech of mine)</add> - Oh more than that - She is certainly<lb/>
+                    <hi rend="underline">very pretty</hi> - <persName ref="./Personography.xml#GoweG1">L<hi rend="superscript">d</hi> . Stafford</persName> says so - the<lb/>
+                    gentlemen all say so </p><lb/>
+                
+                <p>
                     Then <persName ref="./Personography.xml#GoweG1">Lord Stafford</persName> found her like<lb/>
                     half a dozen Lady This's &amp; That's -<lb/>
                     " I hope those ladies are all people<lb/>
                     you like tolerably? "<lb/>
-                    " Tolerably! - <add>said <persName ref="./Personography.xml#GoweG1">Lord Stafford</persName>
-               </add> particularly - They<lb/>
-                    are some of our most admired <choice>
-                  <orig>beau-<lb/>
+                    " Tolerably! - <add>said <persName ref="./Personography.xml#GoweG1">Lord Stafford</persName></add> particularly - They<lb/>
+                    are some of our most admired <choice> 
+                    <orig>beau-<lb/>
                     ties"</orig>
-                  <reg>beauties</reg>
-               </choice>
+                    <reg>beauties</reg>
+                    </choice>
                     - Then liking that she should be<lb/>
-               <pb n="5" facs="Edgeworth_Bodleian_696_1819-01-14_page05.jpg"/>
+                
+                <pb n="5" facs="Edgeworth_Bodleian_696_1819-01-14_page05.jpg"/>
                     so much with <persName ref="./Personography.xml#GoweE2">Lady Elizabeth</persName> &amp; with<lb/>
-               <note>106</note>
-               <lb/>
-               <persName ref="./Personography.xml#EgerF1">Lord Francis</persName> says more than<lb/>
-                    all these compliments - </p>
-            <lb/>
-            <p>
-               <persName ref="./Personography.xml#EgerF1">Lord Francis</persName> is very clever and original<lb/>
+                    <note>106</note><lb/>
+                    <persName ref="./Personography.xml#EgerF1">Lord Francis</persName> says more than<lb/>
+                    all these compliments - </p><lb/>
+                
+                <p>
+                    <persName ref="./Personography.xml#EgerF1">Lord Francis</persName> is very clever and original<lb/>
                     &amp; simple &amp; affectionate &amp; fond of his<lb/>
-               <persName ref="./Personography.xml#GoweE2">sister</persName> &amp; as far from a dandy of any<lb/>
+                    <persName ref="./Personography.xml#GoweE2">sister</persName> &amp; as far from a dandy of any<lb/>
                     kind - solemn - or vain - as can be<lb/>
                     conceived - His drawings &amp; his poetry<lb/>
                     would both be excellent even if a<lb/>
-                    Lord did not own the happy lines<lb/>
-            </p>
-            <p>
+                    Lord did not own the happy lines<lb/></p>
+                
+                <p>
                     I am afraid you will think<lb/>
                     that I am exaggerating &amp; that I<lb/>
                     have fallen too suddenly in love<lb/>
@@ -293,28 +286,25 @@
                     life in representing their kindness<lb/>
                     - nor have I nor dare I repeat<lb/>
                     to you half the handsome things<lb/>
-               <persName ref="./Personography.xml#GoweE1">Lady S.</persName> has said to me of <persName ref="./Personography.xml#EdgeF3">Fanny</persName> .<lb/>
-            </p>
-            <p>
+                    <persName ref="./Personography.xml#GoweE1">Lady S.</persName> has said to me of <persName ref="./Personography.xml#EdgeF3">Fanny</persName> .<lb/></p>
+                
+                <p>
                     I am just returned from a walk<lb/>
-                    in which <persName ref="./Personography.xml#EdgeF3">Fanny</persName>
-               <add>&amp; her being so well informed</add> was great part of<lb/>
-                    the subject matter of <persName ref="./Personography.xml#GoweE1">Lady Staffords</persName>
-               <lb/>
+                    in which <persName ref="./Personography.xml#EdgeF3">Fanny</persName> <add>&amp; her being so well informed</add> was great part of<lb/>
+                    the subject matter of <persName ref="./Personography.xml#GoweE1">Lady Staffords</persName><lb/>
                     conversation - And she ended with<lb/>
-                    saying " <del/> - " That <persName ref="./Personography.xml#EdgeF2">M<hi rend="superscript">rs</hi> . <choice>
-                     <orig>Edge-<lb/>
+                    saying " <del></del> - " That <persName ref="./Personography.xml#EdgeF2">M<hi rend="superscript">rs</hi> . <choice> 
+                    <orig>Edge-<lb/>
                     worth"</orig>
-                     <reg>Edgeworth</reg>
-                  </choice>
-               </persName>
+                    <reg>Edgeworth</reg>
+                    </choice></persName>
                     must be a woman of great<lb/>
                     " merit " - These words were cetainly<lb/>
                     106<lb/>
-               <pb n="6" facs="Edgeworth_Bodleian_696_1819-01-14_page06.jpg"/>
-               <hi rend="underline">comfortable</hi> to me - for in the midst of<lb/>
-                    all the pleasure I had felt in <persName ref="./Personography.xml#EdgeF3">Fannys</persName>
-               <lb/>
+                
+                <pb n="6" facs="Edgeworth_Bodleian_696_1819-01-14_page06.jpg"/>
+                    <hi rend="underline">comfortable</hi> to me - for in the midst of<lb/>
+                    all the pleasure I had felt in <persName ref="./Personography.xml#EdgeF3">Fannys</persName><lb/>
                     praises I had one uneasy regret<lb/>
                     that they were not addressed to<lb/>
                     that dear <persName ref="./Personography.xml#EdgeF2">mother</persName> who best deserved<lb/>
@@ -322,20 +312,17 @@
                     hearing them - I seem to reap the<lb/>
                     harvest sown by another - But<lb/>
                     believe me though I am <add>proud</add> at the<lb/>
-                    harvest home <del>&amp; though you have</del>
-               <lb/>
-               <del>
-                  <unclear>trusted me with the</unclear>
-               </del> I have the<lb/>
+                    harvest home <del>&amp; though you have</del><lb/>
+                    <del><unclear>trusted me with the</unclear></del> I have the<lb/>
                     common honesty to say this rich<lb/>
-                    harvest is not of my sowing -<lb/>
-            </p>
-            <p>
-                    Every hour of every day <choice>
-                  <orig>apro-<lb/>
+                    harvest is not of my sowing -<lb/></p>
+                
+                <p>
+                    Every hour of every day <choice> 
+                    <orig>apro-<lb/>
                     pos</orig>
-                  <reg>apropos</reg>
-               </choice>
+                    <reg>apropos</reg>
+                    </choice>
                     to every thing picture, book<lb/>
                     tree shrub &amp; flower we wish you<lb/>
                     were here - There is so much you<lb/>
@@ -345,39 +332,35 @@
                     I will be content - God bless you<lb/>
                     dearest friend for trusting me with<lb/>
                     her - And hitherto at least this<lb/>
-                    beginning promises well - The <choice>
-                  <orig>plea<lb/>
+                    beginning promises well - The <choice> 
+                    <orig>plea<lb/>
                     sure</orig>
-                  <reg>pleasure</reg>
-               </choice>
-               <pb n="7" facs="Edgeworth_Bodleian_696_1819-01-14_page07.jpg"/>
-               <note>107</note>
-               <lb/>
+                    <reg>pleasure</reg>
+                    </choice>
+                
+                <pb n="7" facs="Edgeworth_Bodleian_696_1819-01-14_page07.jpg"/>
+                    <note>107</note><lb/>
                     I have felt and the success she<lb/>
                     has had is beyond my most sanguine<lb/>
-                    expectations - </p>
-            <lb/>
-            <p>
-                    I have not time to attempt any <choice>
-                  <orig>de-<lb/>
+                    expectations - </p><lb/>
+                
+                <p>
+                    I have not time to attempt any <choice> 
+                    <orig>de-<lb/>
                     scription</orig>
-                  <reg>description</reg>
-               </choice>
-                    of the beauties or <choice>
-                  <orig>magnifi<lb/>
+                    <reg>description</reg>
+                    </choice>
+                    of the beauties or <choice> 
+                    <orig>magnifi<lb/>
                     cence</orig>
-                  <reg>magnificence</reg>
-               </choice>
-                    of this <del>place</del>
-               <add>Park - or </add>House - <del>
-                  <unclear/>
-               </del>
-               <lb/>
-                    - pictures - and whole <choice>
-                  <orig>estabish-<lb/>
+                    <reg>magnificence</reg>
+                    </choice>
+                    of this <del>place</del> <add>Park - or </add>House - <del><unclear></unclear></del><lb/>
+                    - pictures - and whole <choice> 
+                    <orig>estabish-<lb/>
                     ment</orig>
-                  <reg>establishment</reg>
-               </choice>
+                   <reg>establishment</reg>
+                    </choice>
                     - that must be for hereafter<lb/>
                     - But just NB - 10 livery servants<lb/>
                     and four servants out of livery<lb/>
@@ -386,81 +369,72 @@
                     antichambers con-ti-nu-ally -<lb/>
                     - But the magnificence does not<lb/>
                     interfere with the comfort - It is<lb/>
-               <hi rend="underline">splendid happiness</hi> - not <hi rend="underline">splendid</hi>
-               <lb/>
-               <hi rend="underline">misery</hi>
-            </p>
-            <lb/>
-            <p>
-                    We go <hi rend="underline">home</hi> to <placeName ref="./Placeography.xml#Byrkley-Lodge_ENK">Byrkley Lodge</placeName>
-               <choice>
-                  <orig>tomor-<lb/>
+                    <hi rend="underline">splendid happiness</hi> - not <hi rend="underline">splendid</hi><lb/>
+                    <hi rend="underline">misery</hi></p><lb/>
+                
+                <p>
+                    We go <hi rend="underline">home</hi> to <placeName ref="./Placeography.xml#Byrkley-Lodge_ENK">Byrkley Lodge</placeName> <choice> 
+                    <orig>tomor-<lb/>
                     row</orig>
-                  <reg>tomorrow</reg>
-               </choice>
+                   <reg>tomorrow</reg>
+                    </choice>
                     - and <persName ref="./Personography.xml#GoweE1">Lady S</persName> sends her horses<lb/>
                     first stage with us - We shall<lb/>
-                    call to pay a visit to <persName ref="./Personography.xml#CameX1">M<hi rend="superscript">rs</hi> . Cameron</persName>
-               <lb/>
+                    call to pay a visit to <persName ref="./Personography.xml#CameX1">M<hi rend="superscript">rs</hi> . Cameron</persName><lb/>
                     who is at <persName ref="./Personography.xml#ButtX1">M<hi rend="superscript">r</hi> . Butts</persName> -<lb/>
                     These last 2 days quite alone -<lb/>
                     except <persName ref="./Personography.xml#RalpX1">M<hi rend="superscript">r</hi> . Ralph</persName> not <persName ref="./Personography.xml#SneyJ1" cert="medium">John Sneyd</persName> -<lb/>
-                    (dont like) -<lb/>
-            </p>
-            <p>   
+                    (dont like) -<lb/></p>
+                
+                <p>   
                     Send me news for <persName ref="./Personography.xml#SpenL1" cert="high">Lady Spencer</persName> about<lb/>
-               <placeName ref="./Placeography.xml#Saffron-Walden-Castle_ENK">Saffron Castle</placeName>
-               <lb/>
-               <pb n="8" facs="Edgeworth_Bodleian_696_1819-01-14_page08.jpg"/>
+                    <placeName ref="./Placeography.xml#Saffron-Walden-Castle_ENK">Saffron Castle</placeName><lb/>
+                
+                <pb n="8" facs="Edgeworth_Bodleian_696_1819-01-14_page08.jpg"/>
                     - and pray ask <persName ref="./Personography.xml#EdgeH1">Harriet</persName> to look for<lb/>
-                    any letters of <persName ref="./Personography.xml#ScotW1">Scotts</persName>or <persName ref="./Personography.xml#BannG1" cert="low">Bannatynes</persName>
-               <lb/>
+                    any letters of <persName ref="./Personography.xml#ScotW1">Scotts</persName>or <persName ref="./Personography.xml#BannG1" cert="low">Bannatynes</persName><lb/>
                     that she can find &amp; send them in<lb/>
                     the first packet to me for people are<lb/>
                     so curious to see anything of <persName ref="./Personography.xml#ScotW1">Walter<lb/>
                     Scotts</persName> that this gives me means of<lb/>
-                    obliging them<lb/>
-            </p>
-            <p>
-               <persName ref="./Personography.xml#HeapT1">Heaphy</persName> has written <persName ref="./Personography.xml#SneyM2">Miss Sneyd</persName> such<lb/>
-                    a letter about <persName ref="./Personography.xml#EdgeC2" cert="medium">
-                  <choice>
-                     <orig>Charlottes</orig>
-                     <reg>Charlotte's</reg>
-                  </choice>
-               </persName> drawings! -<lb/>
-               <add>I will send it you per first packet</add>Pray send me the drawing you<lb/>
+                    obliging them<lb/></p>
+                
+                <p>
+                    <persName ref="./Personography.xml#HeapT1">Heaphy</persName> has written <persName ref="./Personography.xml#SneyM2">Miss Sneyd</persName> such<lb/>
+                    a letter about <persName ref="./Personography.xml#EdgeC2" cert= "medium"><choice><orig>Charlottes</orig><reg>Charlotte's</reg></choice></persName> drawings! -<lb/>
+                    <add>I will send it you per first packet</add>Pray send me the drawing you<lb/>
                     promised to copy for <persName ref="./Personography.xml#BailJ1">Joanna<lb/>
-                    Baillie</persName> of <persName ref="./Personography.xml#EdgeH1">Harriet</persName> carrying <persName ref="./Personography.xml#PakeT2">Pakenham</persName>
-               <lb/>
-            </p>
-            <p>
+                    Baillie</persName> of <persName ref="./Personography.xml#EdgeH1">Harriet</persName> carrying <persName ref="./Personography.xml#PakeT2">Pakenham</persName> <lb/></p>
+                
+                <p>
                     - That careless <persName ref="./Personography.xml#EdgeF3">Fanny</persName> forgot<lb/>
                     to <del>forget</del> deliver to me a packet<lb/>
                     of letters till this moment<lb/>
-                    one from you - one from <persName ref="./Personography.xml#PakeT2">
-                  <choice>
-                     <orig>Paken<lb/>
+                    one from you - one from <persName ref="./Personography.xml#PakeT2"><choice> 
+                    <orig>Paken<lb/>
                     ham</orig>
-                     <reg>Pakenham</reg>
-                  </choice>
-               </persName>
+                    <reg>Pakenham</reg>
+                    </choice></persName>
                     on my birthday with his<lb/>
-                    wonderful <del>
-                  <unclear>little</unclear>
-               </del> lines - Thank him<lb/>
+                    wonderful <del><unclear>little</unclear></del> lines - Thank him<lb/>
                     dear little fellow - I will write to<lb/>
                     him in my next - At present I<lb/>
                     must say Goodbye for <persName ref="./Personography.xml#GoweG1">Lord S</persName> waits<lb/>
-                    to frank <lb/>
-            </p>
-            <closer>
+                    to frank <lb/></p>
+                
+                <closer>
                     y<hi rend="superscript">s</hi> . affec<hi rend="superscript">y</hi> .<lb/>
-               <persName ref="./Personography.xml#EdgeM1">Maria E</persName>
-               <lb/>
-            </closer>
-         </div>
-      </body>
-      <back/>
-   </text>
+                    <persName ref="./Personography.xml#EdgeM1">Maria E</persName><lb/>
+                </closer> 
+                
+                
+                
+                
+                
+                
+            </div>
+        </body>
+        <back> </back>
+    </text>
 </TEI>
+

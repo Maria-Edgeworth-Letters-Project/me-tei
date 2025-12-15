@@ -2,8 +2,6 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<?xml-model href="https://raw.githubusercontent.com/Maria-Edgeworth-Letters-Project/me-tei/refs/heads/main/melp.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
-    ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -24,7 +22,8 @@
             </respStmt>
          </titleStmt>
          <editionStmt>
-            <edition>First digital edition in TEI, date: <date when="2025-05-08"/>
+            <edition>First digital edition in TEI, date: <date when="2025-05-08">
+            </date>
             </edition>
             <respStmt>
                <orgName type="naf" ref="http://id.loc.gov/authorities/names/n80044899">National Library of Scotland
@@ -42,7 +41,7 @@
                </p>
                <licence target="https://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons Attribution 4.0 (CC BY 4.0) Unported License</licence>
             </availability>
-            <idno>Edgeworth_NLS_42180_1841-02-22</idno>
+            <idno>Edgeworth_NLS_42180_1841-02-22</idno> 
          </publicationStmt>
          <seriesStmt>
             <title>Maria Edgeworth Letters Project</title>
@@ -55,12 +54,14 @@
                </msIdentifier>
                <head>Letter from 
                   <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>,
-                  <date when="1841-02-22">Feb<hi rend="superscript">y</hi> 22<hi rend="superscript">d</hi> 1841</date>
+                  <date when="1841-02-22">Feb<hi rend= "superscript">y</hi> 22<hi rend= "superscript">d</hi> 1841</date>
                </head>
-               <physDesc/>
+               <physDesc>
+               </physDesc>
             </msDesc>
             <bibl>In addition to our edited version, this letter was previously published in
-               <!--complete bibiographical info if letter was published in a book here - if not delete--></bibl>
+               <!--complete bibiographical info if letter was published in a book here - if not delete-->
+            </bibl>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
@@ -79,7 +80,9 @@
          </correspDesc>
       </profileDesc>
       <revisionDesc>
-         <change when="2021-01-01" who="Id_who"><!--Brief description of what you did here.--></change>
+         <change when="2021-01-01" who="Id_who">
+            <!--Brief description of what you did here.-->
+         </change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -88,16 +91,8 @@
             <pb n="1" facs="Edgeworth_NLS_42180_1841_02_22_page01.jpg"/>
             <opener>
                <dateline>
-                  <placeName ref="North-Audley-Street-1_ENK">1 North Audley Street<lb/>
-                  </placeName>
-                  <date when="1841-02-22">
-                     <choice>
-                        <orig>Feb<hi rend="superscript">y</hi>
-                        </orig>
-                        <reg>February</reg>
-                     </choice> 22<hi rend="superscript">d</hi> 1841<lb/>
-                  </date>
-               </dateline>
+                  <placeName ref="North-Audley-Street-1_ENK">1 North Audley Street<lb/></placeName>
+                  <date when="1841-02-22"><choice><orig>Feb<hi rend= "superscript">y</hi></orig><reg>February</reg></choice> 22<hi rend= "superscript">d</hi> 1841<lb/></date></dateline>
                <salute>Dear Sir<lb/>
                </salute>
             </opener>
@@ -106,22 +101,15 @@
                for the copy right of a translation<lb/>
                by my sister <persName ref="EdgeL1">Lucy E</persName> from the<lb/>
                French of the three stories of<lb/>
-               <persName ref="DuroB1">Barnabe</persName> - <title ref="./Workography.xml#Pierr1">Pierre</title> &amp; <title ref="./Workography.xml#Pierr2">Pierrette</title>
-               <lb/>
+               <persName ref="DuroB1">Barnabe</persName> - <title ref="./Workography.xml#Pierr1">Pierre</title> &amp; <title ref="./Workography.xml#Pierr2">Pierrette</title><lb/>
                and <title ref="./Workography.xml#Margu1">Marguerite</title>, with a<lb/>
                preface, and explanatory<lb/>
                remarks for young English<lb/>
                readers to be written by me<lb/>
                I accept for <persName ref="EdgeL1">my sister</persName> and<lb/>
                myself and consider as<lb/>
-               liberal<lb/>
-            </p>
-            <p>I am <choice>
-                  <orig>
-                     <hi rend="underline">D<hi rend="superscript">r</hi> Sir</hi>
-                  </orig>
-                  <reg>Dear Sir</reg>
-               </choice> with the belief<lb/>
+               liberal<lb/></p>
+               <p>I am <choice><orig><hi rend= "underline">D<hi rend= "superscript">r</hi> Sir</hi></orig><reg>Dear Sir</reg></choice> with the belief<lb/>
                that the putting this our little<lb/>
                agreement thus carefully in<lb/>
                writing, trifling though it<lb/>
@@ -135,16 +123,11 @@
             </p>
             <closer>
               Yours sincerely<lb/>
-               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
-               <lb/>
-            </closer>
+               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName><lb/></closer>
             <closer>
                <address>
                   <addrLine>To</addrLine>
-                  <addrLine>
-                     <persName ref="./Personography.xml#MurrJ1">John Murray Esq</persName>
-                     <hi rend="superscript">re</hi>
-                  </addrLine>
+                  <addrLine><persName ref="./Personography.xml#MurrJ1">John Murray Esq</persName><hi rend= "superscript">re</hi></addrLine>
                </address>
             </closer>
          </div>

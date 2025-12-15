@@ -2,8 +2,6 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<?xml-model href="https://raw.githubusercontent.com/Maria-Edgeworth-Letters-Project/me-tei/refs/heads/main/melp.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
-    ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -102,11 +100,8 @@
          <div type="letter">
             <pb n="1" facs="Edgeworth_Harvard_604757_1845-04-08_page01.jpg"/>
             <p>that the publishers of New York<lb/>
-                    have sent <persName ref="./Personography.xml#PortJ1">Miss Porter</persName> a <choice>
-                  <orig>memo<lb/>
-                    rial</orig>
-                  <reg>memorial</reg>
-               </choice> of American gratitude<lb/>
+                    have sent <persName ref="./Personography.xml#PortJ1">Miss Porter</persName> a <choice><orig>memo<lb/>
+                    rial</orig><reg>memorial</reg></choice> of American gratitude<lb/>
                     and appreciation of <unclear>merit</unclear>
                <lb/>
                     - An arm chair I think the<lb/>
@@ -116,15 +111,11 @@
                <lb/>
                     a little table of American<lb/>
                     wood as a memorial of<lb/>
-               <damage>
-                  <unclear>
-                     <gap/>contribution</unclear>
-               </damage> of your Coun <damage>
-                  <gap/>
-               </damage>
+               <damage><unclear><gap></gap>contribution</unclear></damage> of your Coun <damage><gap></gap></damage>
                <lb/>
                <pb n="2" facs="Edgeworth_Harvard_604757_1845-04-08_page02.jpg"/>
-               <unclear>out</unclear> from the Board of Works<lb/>
+                    
+                    <unclear>out</unclear> from the Board of Works<lb/>
                     in <placeName ref="./Placeography.xml#London_ENK">London</placeName> to <placeName ref="./Placeography.xml#Hong-Kong_CN">
                   <choice>
                      <orig>Hong Cong</orig>

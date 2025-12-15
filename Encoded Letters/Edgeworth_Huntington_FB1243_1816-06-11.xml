@@ -2,8 +2,6 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<?xml-model href="https://raw.githubusercontent.com/Maria-Edgeworth-Letters-Project/me-tei/refs/heads/main/melp.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
-    ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -140,6 +138,7 @@
                   <unclear>Mudge</unclear>
                </persName>
                <lb/>
+               
                <pb n="2" facs="Edgeworth_Huntington_FB1243_1816-06-11_page02.jpg"/>          
           that two active companies might be formed<lb/>
                out of the present body, now employed in<lb/>
@@ -171,16 +170,13 @@
                <lb/>
                who are capable of carrying on, separately, a<lb/>
                distinct survey. The emulation that will<lb/>
+               
                <pb n="3" facs="Edgeworth_Huntington_FB1243_1816-06-11_page03.jpg"/>              
-               necessarily be <choice>
-                  <orig>exited</orig>
-                  <reg>excited</reg>
-               </choice> will be advantageous to<lb/>
+               necessarily be <choice><orig>exited</orig><reg>excited</reg></choice> will be advantageous to<lb/>
                both companies, and to the survey of the two<lb/>
                countries. Then we shall have a chance of their<lb/>
-               attempting some improvements.<lb/>
-            </p>
-            <p>The <title ref="./Workography.xml#Janus1">
+               attempting some improvements.<lb/></p>
+               <p>The <title ref="./Workography.xml#Janus1">
                   <choice>
                      <orig>Ed.</orig>
                      <reg>Edinburgh</reg>
@@ -193,18 +189,13 @@
                in the Scotch mountains. I do not in this plan<lb/>
                look forward to being employed under this new<lb/>
                Corps, because without I was well paid it would<lb/>
-               lead me <choice>
-                  <orig>intirely</orig>
-                  <reg>entirely</reg>
-               </choice> into one branch of my profession<lb/>
+               lead me <choice><orig>intirely</orig><reg>entirely</reg></choice> into one branch of my profession<lb/>
             </p>
             <p>This is what you said originally about my <del>being</del>
                <lb/>
                employment with you. And now I must<lb/>
                tell you that I am as little disappointed as<lb/>
-               the <damage>
-                  <gap/>
-               </damage> of a <hi rend="underline">philosopher</hi> and not of a <hi rend="underline">Genius</hi>
+               the <damage><gap></gap></damage> of a <hi rend="underline">philosopher</hi> and not of a <hi rend="underline">Genius</hi>
                <lb/>
                ought to be. And the chief cause of any sorrow<lb/>
                that I may feel, is from my not being likely to<lb/>
@@ -225,15 +216,12 @@
                </choice> General, for laying out two<lb/>
                   new lines of road chiefly thro' <placeName ref="./Placeography.xml#Roscommon_IE">Roscommon</placeName> and<lb/>
                <placeName ref="./Placeography.xml#Longford_IE">Longford</placeName>. This work, will not take up the whole<lb/>
+               
                <pb n="4" facs="Edgeworth_Huntington_FB1243_1816-06-11_page04.jpg"/>             
               of the summer, and as the Engineer is paid<lb/>
-               2 <choice>
-                  <orig>Gs.</orig>
-                  <reg>Guineas</reg>
-               </choice> a mile, it will just support me till I<lb/>
+               2 <choice><orig>Gs.</orig><reg>Guineas</reg></choice> a mile, it will just support me till I<lb/>
                   have finished the drawing of <placeName ref="./Placeography.xml#Roscommon_IE">Roscommon</placeName>. Can you<lb/>
-               find out for me <del>in</del>
-               <add>a</add> young drawer, who would look<lb/>
+               find out for me <del>in</del><add>a</add> young drawer, who would look<lb/>
                forward like myself to good payment by his <choice>
                   <orig>advance-<lb/>
                   -ment</orig>
@@ -261,11 +249,11 @@ Your most affectionate<lb/>
                   </choice> Edgeworth</persName>
                <lb/>
             </closer>
-            <pb n="1" facs="Edgeworth_Huntington_FB1243_1816-06-11_page01.jpg"/>
+            
+            <pb n="1" facs="Edgeworth_Huntington_FB1243_1816-06-11_page01.jpg"/> 
             <postscript>
-               <p>My dear <persName ref="./Personography.xml#BeauF1">Francis</persName>
-               </p>
-               <p>I trust you will not<lb/>
+            <p>My dear <persName ref="./Personography.xml#BeauF1">Francis</persName></p>
+            <p>I trust you will not<lb/>
                   think my interference<lb/>
                   troublesome but I cannot help saying that for<lb/>
                   your sake and for <persName ref="./Personography.xml#EdgeW1">William</persName> &amp; the public's I wish<lb/>
@@ -282,8 +270,8 @@ Your most affectionate<lb/>
                   as I do- <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
                   <lb/>
                </p>
-            </postscript>
-            <closer>
+            </postscript>     
+            <closer> 
                <address>
                   <addrLine/>
                   <persName ref="./Personography.xml#BeauF1">Captain Beaufort <choice>

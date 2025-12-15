@@ -2,15 +2,14 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<?xml-model href="https://raw.githubusercontent.com/Maria-Edgeworth-Letters-Project/me-tei/refs/heads/main/melp.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
-    ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title>Letter from Maria Edgeworth to Signora Majone, April 10, 1830</title>
             <author>Maria Edgeworth</author>
-            <editor/>
+            <editor>
+                    </editor>
             <sponsor>
                <orgName>Maria Edgeworth Letters Project</orgName>
             </sponsor>
@@ -100,7 +99,7 @@
             <pb n="1" facs="Edgeworth_Birmingham_1830_04_10_page01.jpg"/>
             <opener>
                <dateline>
-                  <placeName/>
+                  <placeName></placeName>
                   <placeName ref="./Placeography.xml#Edgeworthstown_IE">Edgeworth's Town</placeName>
                   <lb/>
                   <placeName ref="./Placeography.xml#IE">Ireland</placeName>
@@ -146,7 +145,7 @@
                     pleasure and as high gratification from seeing<lb/>
                     what you have written so graced by good <orig>transla<lb/>
                     -tion</orig>
-               <reg>translation</reg>
+                  <reg>translation</reg>
                 Unless you have been so fortunate, (and<lb/>
                     that is not probable,) you cannot from your<lb/>
                     own feelings judge now much I feel obliged<lb/>
@@ -220,19 +219,11 @@
                <unclear>fo</unclear> frontiere
                     <unclear>dl</unclear> Signora, <lb/>
                <persName ref="./Personography.xml#MajoX1">Signora Majone</persName>
-               <placeName ref="./Placeography.xml#Palazzo-Balbi_IT">Palazzo Balbi</placeName>
-               <lb/>
+               <placeName ref="./Placeography.xml#Palazzo-Balbi_IT">Palazzo Balbi</placeName><lb/>
                     Strada Balbi-. <lb/>
-               <hi rend="underline">
+                    <hi rend="underline">
                   <unclear>NB</unclear>
-               </hi>
-               <placeName ref="./Placeography.xml#Geneva_SZ">
-                  <choice>
-                     <orig>Gene.</orig>
-                     <reg>Geneva</reg>
-                  </choice>
-               </placeName>
-            </closer>
+                    </hi> <placeName ref="./Placeography.xml#Geneva_SZ"><choice><orig>Gene.</orig><reg>Geneva</reg></choice></placeName></closer>
          </div>
       </body>
       <back/>

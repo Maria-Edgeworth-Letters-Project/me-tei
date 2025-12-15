@@ -2,16 +2,12 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<?xml-model href="https://raw.githubusercontent.com/Maria-Edgeworth-Letters-Project/me-tei/refs/heads/main/melp.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
-    ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title>Letter from Maria Edgeworth to Mrs. Miles</title>
-            <author>
-               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
-            </author>
+            <author><persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName></author>
             <editor>Eliza Alexander Wilcox</editor>
             <sponsor>
                <orgName>Maria Edgeworth Letters Project</orgName>
@@ -121,9 +117,8 @@
                 in silver paper <lb/>
             </p>
             <p>Y<hi rend="superscript">s</hi> truly
-            <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
-               <lb/>
-            </p>
+            <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName><lb/></p>
+            
             <pb n="2" facs="Edgeworth_Beinecke_ME-to-MMiles_letter02_page02.jpg"/>
             <p>send between the leaves<lb/>
                 of these books any little<lb/>
@@ -131,16 +126,10 @@
                 &amp; I should be much obliged<lb/>
                 to you if you would add<lb/>
                 3 yards of nett about<lb/>
-               this breadth <figure>
-                  <figDesc>a open-ended box showing the desired breadth of the nett</figDesc>
-               </figure>
-               <lb/>
+               this breadth <figure><figDesc>a open-ended box showing the desired breadth of the nett</figDesc></figure><lb/>
                 and 1 &amp; 1/2 yard valenciennes<lb/>
                 edgings about this<lb/>
-                breadth <figure>
-                  <figDesc>a lace pattern with three holes and four scallops</figDesc>
-               </figure>
-               <lb/>
+                breadth <figure><figDesc>a lace pattern with three holes and four scallops</figDesc></figure><lb/>
             </p>
             <pb n="3" facs="Edgeworth_Beinecke_ME-to-MMiles_letter02_page03.jpg"/>
             <p>I hope your little ones<lb/>
@@ -159,15 +148,12 @@
                 My brother <persName ref="./Personography.xml#EdgeL2">Lovell</persName> much<lb/>
                 better - he sailed last night<lb/>
                 for <placeName ref="./Placeography.xml#ENK">England</placeName> - Whether he<lb/>
-               goes to <placeName ref="./Placeography.xml#Bath_ENK">Bath</placeName> or <placeName ref="./Placeography.xml#London_ENK">London</placeName>
-               <unclear>first</unclear>
-               <lb/>
+               goes to <placeName ref="./Placeography.xml#Bath_ENK">Bath</placeName> or <placeName ref="./Placeography.xml#London_ENK">London</placeName> <unclear>first</unclear><lb/>
             </p>
             <p/>
             <closer>
                Y<hi rend="superscript">s</hi> truly
-                <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
-               <lb/>
+                <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName><lb/>
                <address>
                   <pb n="4" facs="Edgeworth_Beinecke_ME-to-MMiles_letter02_page04.jpg"/>
                   <addrLine/>

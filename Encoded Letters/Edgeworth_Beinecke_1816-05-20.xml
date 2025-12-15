@@ -2,16 +2,12 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<?xml-model href="https://raw.githubusercontent.com/Maria-Edgeworth-Letters-Project/me-tei/refs/heads/main/melp.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
-    ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title>Letter from Maria Edgeworth to Mrs. Miles, May 20, 1816</title>
-            <author>
-               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
-            </author>
+            <author><persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName></author>
             <editor>
                <persName>Eliza Wilcox</persName>
             </editor>
@@ -107,7 +103,7 @@
                <salute>
                   My dear
                   <persName ref="./Personography.xml#MileX1">M<hi rend="superscript">rs</hi>.
-                     Miles</persName>
+                     Miles</persName> 
                </salute>
             </opener>
             <p>I should be much<lb/>
@@ -149,16 +145,12 @@
                book or pamphlet.<lb/>
                Which <persName ref="./Personography.xml#MileJ1" cert="high">M<hi rend="superscript">r</hi>.
                   Miles</persName>  may<lb/>
-               recommend &amp; direct<lb/>
+               recommend &amp; direct<lb/> 
                <pb n="3" facs="Edgeworth_Beinecke_1816-05-20_page03.jpg"/>
-               - 1<hi rend="superscript">st</hi>. cover to <persName ref="./Personography.xml#EdgeM1">Miss <choice>
-                     <orig>E.</orig>
-                     <reg>Edgeworth</reg>
-                  </choice>
-               </persName>
+               - 1<hi rend="superscript">st</hi>. cover to <persName ref="./Personography.xml#EdgeM1">Miss <choice><orig>E.</orig><reg>Edgeworth</reg></choice></persName>
                <lb/>
-               2<hi rend="superscript">d</hi> cover to <persName ref="./Personography.xml#FoxC1">CJ Fox Esq<hi rend="superscript">r</hi>
-               </persName>
+               2<hi rend="superscript">d</hi> cover to <persName ref="./Personography.xml#FoxC1">CJ Fox Esq<hi rend="superscript">r</hi></persName>
+               
                <lb/>
                3 cover to <persName ref="./Personography.xml#TaylW1">W Taylor Esq</persName>
                <lb/>
@@ -179,11 +171,7 @@
                <placeName ref="./Placeography.xml#Dublin_IE">Dublin</placeName> &amp; will be there<lb/>
                a few days - my <persName ref="./Personography.xml#EdgeR1">father</persName>
                <lb/>
-               is still trying <choice>
-                  <orig>Exp<hi rend="superscript">ts</hi>
-                  </orig>
-                  <reg>Experiments</reg>
-               </choice> on<lb/>
+               is still trying <choice><orig>Exp<hi rend="superscript">ts</hi></orig><reg>Experiments</reg></choice> on<lb/>
                wheel carriages - I wish<lb/>
                <persName ref="./Personography.xml#MileJ1">M<hi rend="superscript">r</hi>. Miles</persName> would sometimes<lb/>
                <pb n="4" facs="Edgeworth_Beinecke_1816-05-20_page04.jpg"/>
