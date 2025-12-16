@@ -48,7 +48,7 @@
         <!-- tests -->
         <sch:rule context="tei:TEI//tei:persName/@ref">
             <sch:let name="pe-id" value="substring-after(., '#')"/>
-            <sch:assert test="matches(., '[A-Z][a-z]{2,3}[A-Z][1-9][0-9]?')">The @ref attribute
+            <sch:assert test="matches(., '[A-Z][A-Za-z]{2,3}[A-Z][1-9][0-9]?')">The @ref attribute
                 value does not match the ID format in the Personography</sch:assert>
             <sch:assert test="$pe-id = $pe//tei:person/@xml:id" role="warning">Please confirm that
                 the ID <sch:value-of select="$pe-id"/> is listed in MELP's Personography</sch:assert>

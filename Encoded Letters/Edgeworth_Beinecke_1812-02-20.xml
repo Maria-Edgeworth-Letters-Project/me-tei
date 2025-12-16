@@ -96,14 +96,7 @@
    <text>
       <body>
          <div type="letter">
-            <opener>
-               <dateline>
-                  <date when="1812-02-20">February 20, 1812</date>
-               </dateline>
-               <salute> To <persName ref="./Personography.xml#MileX1">Mrs. Miles</persName>
-               </salute>
-            </opener>
-            <pb n="2" facs="Edgeworth_Beinecke_1812-02-20_page02.jpg"/>
+            <pb n="1" facs="Edgeworth_Beinecke_1812-02-20_page01.jpg"/>
             <p>
                <persName ref="./Personography.xml#EdgeM1">Miss <choice>
                      <orig>Edgeworths</orig>
@@ -131,14 +124,13 @@
             </closer>
             <closer>
                <address>
-                  <pb n="1" facs="Edgeworth_Beinecke_1812-02-20_page01.jpg"/>
-                  <persName ref="./Personography.xml#MileX1">M<hi rend="superscript">rs</hi> Miles</persName>
-                  <addrLine/>
-                  <persName>Johnson &amp; C<hi rend="superscript">o</hi>.</persName>
-                  <addrLine/>
-                  <placeName ref="./Placeography.xml#St-Pauls-Churchyard_ENK">S<hi rend="superscript">t</hi>. Pauls Church Yard
+                  <pb n="2" facs="Edgeworth_Beinecke_1812-02-20_page02.jpg"/>
+                  <addrLine>
+                  <persName ref="./Personography.xml#MileX1">M<hi rend="superscript">rs</hi> Miles</persName><lb/>
+                     Johnson &amp; C<hi rend="superscript">o</hi>.<lb/>
+                     <placeName ref="./Placeography.xml#St-Pauls-Churchyard_ENK">S<hi rend="superscript">t</hi>. Pauls Church yard<lb/>
                             London</placeName>
-                  <addrLine/>
+                  </addrLine>
                </address>
             </closer>
          </div>
