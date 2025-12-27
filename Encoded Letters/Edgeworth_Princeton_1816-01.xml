@@ -65,7 +65,7 @@
                </msIdentifier>
                <head>Letter from 
                   <persName ref="./Personography.xml#EdgeM1">Edgeworth, Maria, 1768-1849</persName>
-                  to <persName ref="MileJ1">Miles, John</persName>, <placeName>11 Corn Hill</placeName>, 
+                  to <persName ref="./Personography.xml#MileJ1">Miles, John</persName>, <placeName>11 Corn Hill</placeName>, 
                   <date when="1816-01"> Jan<hi rend="superscript">ry.</hi> 1816</date>
                </head>
                <physDesc/>
@@ -101,9 +101,7 @@
             <pb n="1" facs="Edgeworth_Princeton_1816-01_page01.jpg"/>
             <opener>
                <salute>
-                  <persName>
-                     My dear Sir
-                  </persName>
+                     My dear <persName ref="./Personography.xml#MileJ1">Sir</persName>
                </salute>
             </opener>
             <p>
@@ -166,7 +164,7 @@
                   <addrLine>M<hi rend="superscript">r.</hi> Chater</addrLine>
                   <lb/>
                   <addrLine>
-                     <placeName ref=".Placeography.xml#Corn-Hill_XX">11 Corn Hill</placeName>
+                     <placeName ref="./Placeography.xml#Corn-Hill_XX">11 Corn Hill</placeName>
                   </addrLine>
                   <lb/>
                </address>
