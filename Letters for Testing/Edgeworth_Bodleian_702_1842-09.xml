@@ -2,6 +2,8 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/Maria-Edgeworth-Letters-Project/me-tei/refs/heads/main/melp.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+    ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -102,8 +104,8 @@
             </opener>
             <p><note>62</note>
                <note>1842</note><lb/>
-               know then that <persName ref="./Personography.xml#EdgeL1">Lucy</persName>and<persName ref="./personography.xml#EdgeF3">Fanny</persName><lb/>
-               <persName ref="./personography.xml#EdgeF3">(M<hi rend="superscript">rs.</hi>Wilson)</persName> are now both well<lb/>
+               know then that <persName ref="./Personography.xml#EdgeL1">Lucy</persName>and<persName ref="./Personography.xml#EdgeF3">Fanny</persName><lb/>
+               <persName ref="./Personography.xml#EdgeF3">(M<hi rend="superscript">rs.</hi>Wilson)</persName> are now both well<lb/>
                and they and <persName ref="./Personography.xml#EdgeM2">Packenham</persName><lb/>
                and the Butlers &amp; the Fox<lb/>
                children all having been<lb/>
@@ -148,7 +150,7 @@
                <p>So much for boasting of<lb/>
                one's own family - please<lb/>
                to burn - &amp; consider it as<lb/>
-               not my own <persName ref="./Personography.xml/#EdgeA2">mother</persName> I am<lb/>
+               not my own <persName ref="./Personography.xml#EdgeA2">mother</persName> I am<lb/>
                boasting of but my<persName ref="./Personography.xml#EdgeF2"><choice><orig>stepmo-<lb/>
                   ther</orig>
                   <reg>stepmother</reg></choice></persName> - &amp; 

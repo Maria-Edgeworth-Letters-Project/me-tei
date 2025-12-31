@@ -2,6 +2,8 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/Maria-Edgeworth-Letters-Project/me-tei/refs/heads/main/melp.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+    ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -90,7 +92,7 @@
             <pb n="1" facs="Edgeworth_NLS_42180_1832_10_21_page01.jpg"/>
             <opener>
                <dateline>
-                  <placeName ref="./Personography.xml#Edgeworthstown_IE">Edgeworth Town<lb/></placeName>
+                  <placeName ref="./Placeography.xml#Edgeworthstown_IE">Edgeworth Town<lb/></placeName>
                   <date when="1832-10-21">Oct 21<hi rend= "superscript">s. </hi>1832</date><lb/></dateline>
                <salute>Sir<lb/>
                </salute>

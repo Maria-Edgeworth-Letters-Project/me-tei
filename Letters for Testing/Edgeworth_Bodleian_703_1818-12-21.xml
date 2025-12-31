@@ -2,6 +2,8 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/Maria-Edgeworth-Letters-Project/me-tei/refs/heads/main/melp.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+    ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -131,9 +133,9 @@
                   a complete set of copies of all the <title ref="./Workography.xml#Castl1">Castle<lb/>
                Rackrent</title> designs for me. - He next shewed<lb/>
                   us his designs for <title ref="./Workography.xml#TomJo1">Tom Jones</title> - Then a<lb/>
-                  set for <persName ref="./Personography.xml#CrabbG1">Crabbe</persName>’s tales- excellent - but I do not<lb/>
-                  know <persName ref="./Personography.xml#CrabbG1">Crabbe</persName> well enough to feel all their<lb/>
-                  merit. I will take a course of <persName ref="./Personography.xml#CrabbG1">Crabbe</persName> on <choice><orig>pur<lb/>
+                  set for <persName ref="./Personography.xml#CrabG1">Crabbe</persName>’s tales- excellent - but I do not<lb/>
+                  know <persName ref="./Personography.xml#CrabG1">Crabbe</persName> well enough to feel all their<lb/>
+                  merit. I will take a course of <persName ref="./Personography.xml#CrabG1">Crabbe</persName> on <choice><orig>pur<lb/>
                   pose</orig><reg>purpose</reg></choice> to understand these designs - Those he<lb/> 
                   has done for the <title ref="./Workography.xml#Bath1">Bath Guide</title> are admirable<lb/>
                - - How I wish we could have seen all<lb/>

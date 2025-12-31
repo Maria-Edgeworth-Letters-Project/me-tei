@@ -2,6 +2,8 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/Maria-Edgeworth-Letters-Project/me-tei/refs/heads/main/melp.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+    ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -93,7 +95,7 @@
             <pb n="1" facs="Edgeworth_NLS_42180_1833_05_09_page01.jpg"/>
             <opener>
                <dateline>
-                  <placeName ref="./Personography.xml#Edgeworthstown_IE">Edgeworth Town<lb/></placeName>
+                  <placeName ref="./Placeography.xml#Edgeworthstown_IE">Edgeworth Town<lb/></placeName>
                   <date when="1833-05-09">May <unclear>9</unclear> <hi rend="superscript">h</hi>. 1833</date><lb/></dateline>
                <salute><choice><orig>D<hi rend="superscript">r</hi>.</orig><reg>Dear</reg></choice> Sir<lb/>
                </salute>
@@ -109,7 +111,7 @@
                - the first drawing sent, is to be followed<lb/>
                in all other respects -<lb/></p>
                <p>You will be so good to send<lb/>
-                  us <title ref="./Workography.xml#">a proof</title> <del><unclear></unclear></del> <hi rend="underline">for correction</hi><lb/>
+                  us a proof <del><unclear></unclear></del> <hi rend="underline">for correction</hi><lb/>
                - Enclose to <persName ref="./Personography.xml#GosseW1">Sir William Gosset</persName><lb/>
                <placeName ref="./Placeography.xml#Castle-Dublin_IE">Castle Dublin</placeName> -<lb/></p>
                <p>I am much obliged by your having sent for<lb/>

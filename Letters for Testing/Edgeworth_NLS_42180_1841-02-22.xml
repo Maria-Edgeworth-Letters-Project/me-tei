@@ -2,6 +2,8 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/Maria-Edgeworth-Letters-Project/me-tei/refs/heads/main/melp.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+    ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -91,7 +93,7 @@
             <pb n="1" facs="Edgeworth_NLS_42180_1841_02_22_page01.jpg"/>
             <opener>
                <dateline>
-                  <placeName ref="North-Audley-Street-1_ENK">1 North Audley Street<lb/></placeName>
+                  <placeName ref="./Placeography.xml#North-Audley-Street-1_ENK">1 North Audley Street<lb/></placeName>
                   <date when="1841-02-22"><choice><orig>Feb<hi rend= "superscript">y</hi></orig><reg>February</reg></choice> 22<hi rend= "superscript">d</hi> 1841<lb/></date></dateline>
                <salute>Dear Sir<lb/>
                </salute>
@@ -99,14 +101,14 @@
             <p>Your offer of 50 guineas, at six<lb/>
                months date after publication<lb/>
                for the copy right of a translation<lb/>
-               by my sister <persName ref="EdgeL1">Lucy E</persName> from the<lb/>
+               by my sister <persName ref="./Personography.xml#EdgeL1">Lucy E</persName> from the<lb/>
                French of the three stories of<lb/>
-               <persName ref="DuroB1">Barnabe</persName> - <title ref="./Workography.xml#Pierr1">Pierre</title> &amp; <title ref="./Workography.xml#Pierr2">Pierrette</title><lb/>
+               <persName ref="./Personography.xml#DuroB1">Barnabe</persName> - <title ref="./Workography.xml#Pierr1">Pierre</title> &amp; <title ref="./Workography.xml#Pierr2">Pierrette</title><lb/>
                and <title ref="./Workography.xml#Margu1">Marguerite</title>, with a<lb/>
                preface, and explanatory<lb/>
                remarks for young English<lb/>
                readers to be written by me<lb/>
-               I accept for <persName ref="EdgeL1">my sister</persName> and<lb/>
+               I accept for <persName ref="./Personography.xml#EdgeL1">my sister</persName> and<lb/>
                myself and consider as<lb/>
                liberal<lb/></p>
                <p>I am <choice><orig><hi rend= "underline">D<hi rend= "superscript">r</hi> Sir</hi></orig><reg>Dear Sir</reg></choice> with the belief<lb/>
