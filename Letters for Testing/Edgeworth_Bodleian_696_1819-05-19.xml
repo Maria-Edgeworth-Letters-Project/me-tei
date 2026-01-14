@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/Maria-Edgeworth-Letters-Project/me-tei/refs/heads/main/melp.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter from Maria Edgeworth to Frances Anne Edgeworth, May 19, 1819</title>
+                <author>Maria Edgeworth</author>
+                <editor>
+                    <!--Editor on the Maria Edgeworth Letters Project overseeing the coding of this particular letter: FirstName LastName -->
+                </editor>
+                <sponsor>
+                    <orgName>Maria Edgeworth Letters Project</orgName>
+                </sponsor>
+                <sponsor>Wake Forest University, University of Tennessee, Xavier University, Texas
+                    A&amp;M University</sponsor>
+                <principal>Susan Egenolf, Meredith Hale, Hilary Havens, Jessica Richard, and Robin Runia</principal>
+                <respStmt>
+                    <resp>Transcription and coding by</resp>
+                    <persName>Paris Weber
+                    </persName>
+                    <!-- List all transcribers or coders here, editors and students alike, <persName> by <persName>.-->
+                    <persName><!--FirstName LastName--></persName>
+                    <!-- If you're the last person interacting with the file, enter your name last on the list -->
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>First digital edition in TEI, date: January 14, 2026 <date when="2026-01-14">
+                        
+                </date>
+                </edition>
+                <respStmt>
+                    <orgName ref="http://id.loc.gov/authorities/names/n80020306">Bodleian Library
+                    </orgName>
+                    <resp> photos include:
+                        Edgeworth_Bodleian_696_1819-05-19_page01.jpg
+                        Edgeworth_Bodleian_696_1819-05-19_page02.jpg
+                        Edgeworth_Bodleian_696_1819-05-19_page03.jpg
+                        Edgeworth_Bodleian_696_1819-05-19_page04.jpg
+                        Edgeworth_Bodleian_696_1819-05-19_page05.jpg
+                        Edgeworth_Bodleian_696_1819-05-19_page06.jpg
+                    </resp>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <authority>Maria Edgeworth Letters Project</authority>
+                <date>2022</date>
+                <availability>
+                    
+                    <p> Reproduced by courtesy of <orgName ref="http://id.loc.gov/authorities/names/n80020306"> Bodleian Library</orgName>
+                    </p>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons Attribution 4.0 (CC BY 4.0) Unported License</licence>
+                </availability>
+                <idno>Edgeworth_Bodleian_696_1819-05-19.jpg</idno> 
+            </publicationStmt>
+            <seriesStmt>
+                <title>Maria Edgeworth Letters Project</title>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc xml:lang="en">
+                    <msIdentifier>
+                        <repository>Bodleian Library</repository>
+                        <collection></collection>
+                        <idno>Edgeworth_Bodleian_696_1819-05-19.jpg</idno>
+                    </msIdentifier>
+                    <head>Letter from 
+                        <persName xml:id="EdgeM1" from="1768" to="1849">
+                            <forename>Maria</forename>
+                            <surname>Edgeworth</surname>
+                            <date>1768-1849</date>
+                            <idno type="VIAF">71477273</idno>
+                            <idno type="SNAC">62567029</idno>
+                        </persName>
+                        to <persName ref="./Personography.xml#EdgeF2">Frances Anne Edgeworth</persName>,
+                    </head>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p>Edgeworth’s spelling and punctuation are retained in transcription, including non-standard spelling, line breaks, and hyphenation of words. The long s and ligatured forms are silently emended.</p>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="./Personography.xml#EdgeF2">Frances Anne Edgeworth</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2021-01-01" who="Id_who">
+            </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="letter">
+                <pb n="1" facs="Edgeworth_Bodleian_696_1819-05-19_page01.jpg"/>
+                <opener> <placeName ref="./Placeography.xml#Byrkley-Lodge_ENK">Byrkley Lodge</placeName> <note>208</note>
+                    <dateline> May 19.<hi rend="superscript">h</hi> 1819
+                        <date when="1819-05-19">May 19, 1819</date>
+                       </dateline> </opener>
+                <p>
+                    Byrkley Lodge [LibNote]208[/LibNote]
+                    May 19.[superscript]h[/superscript] 1819
+                    How melancholy how dreadful
+                    my dearest mother is the account
+                    of all you have gone through this
+                    last fortnight. Will it be any com.
+                    fort to you or will it add to your
+                    pain to know how much I pity
+                    you and how excessively anxious
+                    we are and must be about you &amp;
+                    -about you all. I have no doubt
+                    that every possible prudent pre-
+                    caution has been taken by you &amp;
+                    dear Lovell but - it is a most
+                    horrible situation &amp; poor Lucy!
+                    What accumulated evils poured
+                    upon you all at once &amp; just at
+                    the moment when we flattered
+                    ourselves that you were all most
+                    happy enjoying Lovells well de-
+                    served praises &amp; gallant Sheriff's
+                    show.[insertion] I have rec.[superscript]d[/superscript] yours of the 7.t[superscript]h[/superscript] the 13.[superscript]th[/superscript] &amp;the 9.[superscript]th[/superscript] - in [underline]this order[/underline]. [/insertion] One letter of yours, the
+                    first you wrote giving an account
+                    (I suppose) of poor Mary Anne Fox's
+                    danger has never yet reached us
+                    - I conclude it came to Lord Carringtons
+                    
+                    <pb n="2" facs="Edgeworth_Bodleian_696_1819-05-19_page02.jpg"/>
+                    the day we left him &amp; that he forwarded
+                    it as he says he forwarded all letters
+                    for us to Knutsford. We shall find
+                    it there on our arrival. We leave
+                    this place tomorrow morning 11 o clock
+                    - shall be at M[superscript]r.[/superscript] &amp; M[superscript]rs.[/superscript] Wedgwoods to
+                    dinner. They no longer live at Etruria
+                    they have just changed to Maer
+                    [deletion]near[/deletion] about 8 or 9 miles from Woore their
+                    post town. We shall stay with them
+                    till saturday . drink tea on saturday
+                    with M[superscript]r[/superscript]. &amp; M[superscript]rs[/superscript]. Holland and spend
+                    4 days with them &amp; 4 with M[superscript]rs[/superscript]. M Proys
+                    - Then pursue our journey to Holyhead
+                    which we hope to reach by 29[superscript]th[/superscript]. or [underline]30[superscript]th[/superscript][/underline].
+                    - All this I have told you I believe before
+                    but I repeat to make sure of there
+                    being no mistakes on my part. I
+                    [insertion] will write to Mrs Waller from Knutsford.[/insertion]
+                    think of going round by Black Castle
+                    in my way home to spend one day
+                    with my dear aunt; because from
+                    the time I arrive at home I shall
+                    never stir or think of seeing her
+                    till I have completed my manu-
+                    script &amp; completed the correction
+                    of the proof sheets which cannot be till
+                    Xmass. One day would settle her
+                    mind &amp; mine &amp; I hope you will ap-
+                    
+                    <pb n="3" facs="Edgeworth_Bodleian_696_1819-05-19_page03.jpg"/>
+                    prove of this but I shall not mention [LibNote] 209 [/LibNote]
+                    it to my aunt till I have your
+                    answer dearest [underline]Mother [/underline]&amp; I entreat
+                    you will say exactly what you wish
+                    God knows I wish I was with you
+                    this moment &amp; regret heartily the
+                    cursed engagements which will de
+                    lay us this fortnight. I made only
+                    these Knutsford engagements when
+                    I first came to England &amp; they have
+                    hampered us ever since. When
+                    shall I learn sense enough never
+                    to make any promises - ?
+                    And now dear mother what
+                    will you think about Honora's
+                    determination to stay with her
+                    aunt. I thought I was quite sure
+                    that you would approve of it and
+                    I) consider it as I do the very best
+                    thing on every account that c.[superscript]d[/superscript] be
+                    done: but one line in the last
+                    letter of [insertion]yours of[/insertion] of the 9[superscript]th[/superscript]. which I did not receive
+                    till yesterday evening, throws me in
+                    to anxiety. You say you have a [underline]latent[/underline]
+                    [underline]fear [deletion]now[/deletion] of dear Honora's offering[/underline]
+                    [underline]to stay with her aunts".[/underline] Now it had
+                    all been settled before your letter came
+                    &amp; I never have shewn this line to any
+                    
+                    <pb n="4" facs="Edgeworth_Bodleian_696_1819-05-19_page04.jpg"/>
+                    one but Fanny because [insertion]as[/insertion] she agrees with
+                    me in thinking it would only give
+                    pain &amp; could [insertion]not[/insertion] now alter any thing -
+                    - My aunts were very unwilling to
+                    let Honora stay urging that it would
+                    be very dull for her &amp; too great a sacri
+                    fice &amp;c but she urged it so much &amp; I
+                    added in private converse with
+                    them that I dreaded much the effect
+                    [underline]upon Honora's mind of returning to[/underline]
+                    [underline]Edgeworth's Town[/underline]. Fanny joined me in
+                    this fear &amp; told me that you had the same
+                    I hope my dearest mother I have
+                    not done wrong for I certainly did use
+                    my utmost [deletion]power[/deletion] influence to pre-
+                    vail on my aunts to accept her offer
+                    - I further thought it would [underline]look well[/underline]
+                    for [insertion]M[superscript]r[/superscript]. [/insertion]M[superscript]rs[/superscript]. Sneyd that she sh[superscript]d[/superscript]. stay - for I
+                    know much has been said by that
+                    World which perhaps is not worth caring
+                    for but for which they [underline]do[/underline] care.
+                    M[superscript]rs[/superscript]. Sneyd in a letter to Honora distinctly
+                    says "[underline]she can have no objection to her[/underline]
+                    [underline]staying with her aunts[/underline]"
+                    In a previous letter to me this indeed
+                    was limitted by the words [underline]while we[/underline]
+                    [underline]are absent[/underline]. But as the limitation
+                    was omitted or withdrawn in M[superscript]rs[/superscript]. S's
+                    letter to Ho. she acted upon the [underline]letter[/underline]
+                    [underline]of the law[/underline]. We are all gasping with im-
+                    patience to know what she will
+                    an
+                    [Incorrect line]
+                    
+                    <pb n="5" facs="Edgeworth_Bodleian_696_1819-05-19_page05.jpg"/>
+                    say in reply to the letter [deletion]sent on monday[/deletion] announcing Honora's [LibNote]210[/LibNote]
+                    &amp; my aunts determination that she sh[superscript]d[/superscript]. stay. I am clear
+                    M[superscript]rs[/superscript]. Sneyd has no more expectation of it than of the Persian
+                    ambassador's being here. We depend upon Francis Beaufort
+                    for bringing her back to Ireland about August &amp; perhaps
+                    bringing little Francis with them. Francis B. had promised
+                    that at any time he w[superscript]ld[/superscript]. undertake her convoy &amp; therefore
+                    begged that the difficulty of transport might be no obstacle to
+                    any wish she might have to stay in England. - You may know
+                    by your own feelings what an agony I shall be in till I
+                    hear from you again &amp; find that you approve- - I have
+                    promised her that if M[superscript]rs[/superscript]. Sneyds answer does not come
+                    [deletion]to day[/deletion][insertion]till after I am gone[/insertion] &amp; that if it does not [underline]accept properly[/underline] I will return
+                    for her [deletion]at her[/deletion] or meet her at some appointed place - I
+                    will do any anything in short that is most for her happiness
+                    - [deletion]I know[/deletion] I personally sacrifice a great deal in giving
+                    up her company on my return home - especially
+                    in her sympathy &amp; assistance in finishing that manu-
+                    script every bit &amp; line of which she has gone over with
+                    me &amp; knows better than any one living. I know well
+                    too how much Fanny gives up - And what a groaning
+                    poor [damage]Ha[unclear]rri[/unclear]et[/damage] will make when she hears Honora is
+                    not [damage]coming[/coming] - I see her raging about the room. But still
+                    if it is for Honora's happiness &amp; for the happiness of these
+                    two dear excellent aunts surely you will all be satisfied.
+                    Poor Lucy!- I have never got the image of that
+                    poor creatures sufferings out of my head since I read [insertion]last night[/insertion] your des
+                    cription of them : How fortunate it was that Gardiner
+                    was [deletion]there [/deletion][insertion]with you[/insertion] &amp; that you consulted him : . There is hope that
+                    being taken in time all may be set to rights. - &amp; without
+                    injury to her shape . . I long to be with you more than
+                    pen or words can express.- Lady Granards note and offer was truly
+                    kind -
+                    Thank God, Fanny is well. There is that
+                    comfort for you, that delight in life . She is in much
+                    better health and looks that when she came to England
+                    and her mind is certainly satisfied &amp; at ease - And
+                    you will have her dear mother very soon - [underline]How[/underline]
+                    grateful I am to you for all the pleasure &amp; pride
+                    I have felt in her - perhaps you will never know
+                    because I can never fully say -
+                    Your letter about India is admirable - because
+                    
+                    <pb n="6" facs="Edgeworth_Bodleian_696_1819-05-19_page06.jpg"/>
+                    it entirely agrees in my own opinion - -both [deletion]about[/deletion] [insertion]as to[/insertion]
+                    [underline]India[/underline] &amp; [deletion]about[/deletion] the acceptance of pecuniary favor
+                    - I may venture to say this now; as I see how you
+                    will decide - Lovells simile - [underline]accepting the ladder[/underline]
+                    [underline]&amp; refusing the rungs is very witty &amp; apposite.[/underline] I w[superscript]d[/superscript]. there
+                    -fore refuse ladder &amp; rungs - upon the very reasons
+                    you &amp; Lovell have stated - and all which my father
+                    would have stated in the same circumstances -
+                    I will write to Lord C your thanks in your own
+                    words - and beg things may remain as they are
+                    - What you say about W. &amp; the tenaciousness he
+                    would feel about his guardianship had occurred to me
+                    - and is of consequence - The sense of dependance in
+                    dear little Francis's own mind too would be a strong objection
+                    - in short - [insertion]as[/insertion] there is no change to be made in the education imme
+                    diately you are right to leave things as they are - but I have
+                    no hesitation in deciding my own opinion that the offer
+                    should [underline]not[/underline] be accepted for Francis. - Taking in all his
+                    chances which Lovell so generously states - But which
+                    I sincerely hope [insertion]may be put off by[/insertion] Lovells marrying &amp; having a representative
+                    of his own - worthy of him, as he is of his father. 
+                    Tell that dear brother this with my most affectionate
+                    love &amp; high esteem - and now my eyeballs ache so
+                    I must have done. Thank you dearest friend for
+                    being whether in grief or joy ever the same kindest
+                    of friends &amp; mothers to your grateful daughter in law
+                    Thank God!
+                    Maria Edgeworth
+                    My aunts are wonderfully well &amp; much the better
+                    I think for having much more to do [deletion]&amp;[/deletion] more motive
+                    for exertion &amp; more sense of being of use &amp; [underline]substantive use[/underline]
+                    
+                    1819
+                    [deletion]no hesitation in deciding[/deletion]
+                    M[superscript]rs[/superscript]. Edgeworth.
+                </p>
+                  
+            </div>
+        </body>
+        <back> </back>
+    </text>
+</TEI>
+
