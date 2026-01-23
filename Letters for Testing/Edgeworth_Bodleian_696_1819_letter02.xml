@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/Maria-Edgeworth-Letters-Project/me-tei/refs/heads/main/melp.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from Maria Edgeworth to Frances Anne Edgeworth, 1819</title>
+            <author>Maria Edgeworth</author>
+            <editor>
+               Hilary Havens, Paris Weber, Alex LaGrand, Maggie Turbyfield, Meaghan Townsend, Susan Egenolf
+            </editor>
+            <sponsor>
+               <orgName>Maria Edgeworth Letters Project</orgName>
+            </sponsor>
+            <sponsor>Texas A &amp; M University, University of Tennessee, Wake Forest University, Xavier University of Louisiana, Southern Methodist University</sponsor>
+            <principal>Susan Egenolf, Meredith Hale, Hilary Havens, Jessica Richard, and Robin Runia</principal>
+            <respStmt>
+               <resp>Transcription and coding by</resp>
+               <persName>Paris Weber
+               </persName>
+               <persName>Hilary Havens, Paris Weber, Alex LaGrand, Maggie Turbyfield, Meaghan Townsend, Susan Egenolf</persName>
+               <!-- If you're the last person interacting with the file, enter your name last on the list -->
+            </respStmt>
+            <respStmt>
+               <resp>Additional contributions by</resp>
+               <persName>Judith B</persName>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>First digital edition in TEI, date: <date when="2026-01-23">
+            </date>
+            </edition>
+            <respStmt>
+               <orgName 
+                     ref="/http://id.loc.gov/authorities/names/n80020306">Bodleian Library</orgName>
+                  <resp> photos include:
+                     Edgeworth_Bodleian_696_1819_letter02_page01.jpg,
+                     Edgeworth_Bodleian_696_1819_letter02_page02.jpg,
+                     Edgeworth_Bodleian_696_1819_letter02_page03.jpg,
+                     Edgeworth_Bodleian_696_1819_letter02_page04.jpg
+               </resp>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Maria Edgeworth Letters Project</authority>
+            <date>2022</date>
+            <availability>
+               <p>Reproduced by courtesy of <orgName ref="http://id.loc.gov/authorities/names/n80020306"> Bodleian Library</orgName>
+               </p>
+            <licence target="https://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons Attribution 4.0 (CC BY 4.0) Unported License</licence>
+            </availability>
+            <idno>Edgeworth_Bodleian_696_1819_letter02</idno> 
+         </publicationStmt>
+         <seriesStmt>
+            <title>Maria Edgeworth Letters Project</title>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <!-- This section of the header identifies the original manuscript source. -->
+               <msIdentifier>
+                  <repository>Bodleian Library</repository>
+                  <collection>MS. Eng. lett. c. 696</collection>
+               </msIdentifier>
+               <head>Letter from 
+                  <persName xml:id="EdgeM1" from="1768" to="1849">
+                     <forename>Maria</forename>
+                     <surname>Edgeworth</surname>
+                     <date>1768-1849</date>
+                     <idno type="VIAF">71477273</idno>
+                     <idno type="SNAC">62567029</idno>
+                  </persName>
+                  to <persName ref="./Personography.xml#EdgeF2">Frances Anne Edgeworth, 1769-1865</persName>
+                  <date when="1819"></date>
+               </head>
+               <physDesc>
+               </physDesc>
+            </msDesc>
+            <bibl>In addition to our edited version, this letter was previously published in
+               <!--complete bibiographical info if letter was published in a book here - if not delete-->
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <!--Where Edgeworth uses nonstandard spelling and hyphenation of words, transcriber-coders 
+               should use TEI elements “choice," “sic," and “reg" to encode both Edgeworth’s 
+               spelling and the regular international standard of Oxford English spelling, 
+               following the first listed spelling in the Oxford English Dictionary. -->
+            <p>Edgeworth’s spelling and punctuation are retained in transcription, including non-standard spelling, line breaks, and hyphenation of words. The long s and ligatured forms are silently emended.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="./Personography.xml#EdgeM1">Edgeworth,Maria, 1768-1849</persName>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="./Personography.xml#EdgeF2">Edgeworth, Frances Anne, 1769-1865</persName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-01-01" who="Id_who">
+            <!--Brief description of what you did here.-->
+         </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <pb n="1" facs="Edgeworth_Bodleian_696_1819_letter02_page01.jpg"/>
+            <opener>
+               <dateline>
+                  Tuesday Morn<hi rend="superscript">g</hi>. <note place="bottom">146</note>
+               </dateline>
+            </opener>
+            <p>
+               Dearest <persName ref="./Personography.xml#EdgeF2">mother</persName> On our return<lb/>
+               from breakfasting with <persName ref="./Personography.xml#MarcJ1">M<hi rend="superscript">rs</hi>.<lb/>
+                  Marcet</persName> (where we met M[superscript]r[/superscript]. Muller)<lb/>
+               your packet of letters was put<lb/>
+               into our hands &amp; we ran to our<lb/>
+               own fireside to devour [deletion]the con[/deletion]
+               - Lest I should not have time
+               to say more let me make sure
+               of the most important thing
+               I have to say.
+               That I entirely agree with
+               you that it would neither
+               be prudent in her present cir-
+               cumstances nor [underline]proper[/underline] in the
+               eyes of the world for Fanny to
+               [underline]part[/underline] company from me to
+               go even for a few days alone
+               to 31 Harley St[superscript]r[/superscript]. - This having
+               been my opinion before I knew
+               it was yours and being streng-
+               thened by the decided expression
+               in your letter to Fanny just
+               rec[superscript]d[/superscript]. I have advised her by
+               no means to go there alone [deletion]till[/deletion]
+               at least till we hear again from
+               you - She will or has told you
+               what passed between M[superscript]r[/superscript]. L W
+               and her yesterday morning -           
+               <pb n="2" facs="image2.jpg"/>
+            
+            </p>
+            <p><!--More body paragraphs as needed.--></p>
+            <closer>
+               <!--include linebreaks, if used. example: <closer> Yours<lb/> Very sincerely<lb/> -->
+            </closer>
+            <postscript>
+               <p><!--A postscript goes here, outside the <closer>. --></p>
+            </postscript>
+            <!--You can include a <pb/> here, or inside the postScript.-->
+            <!-- Format for postscripts. 
+               Postscripts do NOT go inside closer tags. Adjust to take into account the order in your letter. 
+               Sometimes the signature is on page three, the address on page four, then the postscript follows back on the top of page one, for example.-->
+            <closer><!--Use the <closer> element again to hold Address Leaf information.-->
+               <address>
+                  <!--Include any text written on the address leaf; use a separate "addrLine" for each line and indicate line breaks. -->
+                  <addrLine/>
+                  <addrLine/>
+                  <addrLine/>
+               </address>
+            </closer>
+         </div>
+      </body>
+      <back> </back>
+   </text>
+</TEI>
