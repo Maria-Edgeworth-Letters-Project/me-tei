@@ -1,5 +1,5 @@
 # me-tei
-Repository holding TEI XML and documentation for MELP.
+Repository holding TEI XML, XSLT, and documentation for MELP.
 
 
 ## Running Tests

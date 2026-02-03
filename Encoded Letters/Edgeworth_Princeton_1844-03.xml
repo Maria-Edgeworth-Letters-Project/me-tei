@@ -2,6 +2,8 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/Maria-Edgeworth-Letters-Project/me-tei/refs/heads/main/melp.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+    ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -13,8 +15,7 @@
             <sponsor>
                <orgName>Maria Edgeworth Letters Project</orgName>
             </sponsor>
-            <sponsor>Wake Forest University, University of Tennessee, Xavier University, Texas
-                    A&amp;M University</sponsor>
+            <sponsor>Texas A &amp; M University, University of Tennessee, Wake Forest University, Xavier University of Louisiana, Southern Methodist University</sponsor>
             <principal>Susan Egenolf, Meredith Hale, Hilary Havens, Jessica Richard, and Robin Runia</principal>
             <respStmt>
                <resp>Transcription and coding by</resp>
@@ -98,18 +99,15 @@
             <pb n="2" facs="Edgeworth_Princeton_1844-03_page02.jpg"/>
             <opener>
                <dateline>
-                  <placeName ref="./Placeography.xml#North-Audley-Street-1_ENK">1 North Audley Street</placeName><lb/>
+                  <placeName ref="./Placeography.xml#North-Audley-Street-1_ENK">1 North Audley Street</placeName>
+                  <lb/>
                         Sunday Night<lb/>
                   <date when="1844-03-31">Mar 31<hi rend="superscript">st</hi>
                      <unclear>44</unclear>
                   </date>
                </dateline>
-               <lb/>
-               <salute>
-                  <persName/>
-               </salute>
             </opener>
-            <p>[<hi rend="underline">Alas!</hi> my dear <persName ref="./Personography.xml#CaveS1">Lady Dacre</persName>
+            <p><hi rend="underline">Alas!</hi> my dear <persName ref="./Personography.xml#CaveS1">Lady Dacre</persName>
                <lb/>
                     -- I need say no more --<lb/>
                     for the moment you see<lb/>

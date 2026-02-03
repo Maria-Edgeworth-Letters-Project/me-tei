@@ -2,6 +2,8 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/Maria-Edgeworth-Letters-Project/me-tei/refs/heads/main/melp.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+    ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -15,8 +17,7 @@
             <sponsor>
                <orgName>Maria Edgeworth Letters Project</orgName>
             </sponsor>
-            <sponsor>Wake Forest University, University of Tennessee, Xavier University, Texas
-                  A&amp;M University</sponsor>
+            <sponsor>Texas A &amp; M University, University of Tennessee, Wake Forest University, Xavier University of Louisiana, Southern Methodist University</sponsor>
             <principal>Susan Egenolf, Meredith Hale, Hilary Havens, Jessica Richard, and Robin Runia</principal>
             <respStmt>
                <resp>Transcription and coding by</resp>
@@ -118,7 +119,7 @@
             <note>2</note>
             <p>I promised you my dear <persName ref="./Personography.xml#HoarF1">Miss Robinson</persName> in <choice>
                   <orig>what-<lb/>
-                  -ever</orig>
+                  -ever</orig><reg>whatever</reg>
                </choice> part of the World I might chance to reside, that I would<lb/>
                give you some account of the manners of the people I lived<lb/>
                amongst &amp; that I would communicate to you all my<lb/>
@@ -311,7 +312,7 @@
                employments, my tastes, my pursuits every four months; or<lb/>
                that Proteus-like I assume different shapes; indeed from my letters<lb/>
                you would have some reason to suppose it; in one letter you find<lb/>
-               me enchanted with the hills &amp; dales &amp; woods of <placeName ref="./Placeography.xml#surrey_ENK">Surrey</placeName>, in my next<lb/>
+               me enchanted with the hills &amp; dales &amp; woods of <placeName ref="./Placeography.xml#Surrey_ENK">Surrey</placeName>, in my next<lb/>
                you ask me to send you a tale to amuse you, &amp; lo! you receive<lb/>
                a dialogue on happiness; "<hi rend="underline">I asked for bread &amp; she gave me a stone</hi>"<lb/>
                In a third you find me <hi rend="underline">immersed</hi> in Politics, amongst old<lb/>

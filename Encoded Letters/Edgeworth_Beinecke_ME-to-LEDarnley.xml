@@ -2,18 +2,21 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/Maria-Edgeworth-Letters-Project/me-tei/refs/heads/main/melp.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+    ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title>Letter from Maria Edgeworth to Lady Elizabeth Darnley</title>
-            <author><persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName></author>
+            <author>
+               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
+            </author>
             <editor/>
             <sponsor>
                <orgName>Maria Edgeworth Letters Project</orgName>
             </sponsor>
-            <sponsor>Wake Forest University, University of Tennessee, Xavier University, Texas
-               A&amp;M University</sponsor>
+            <sponsor>Texas A &amp; M University, University of Tennessee, Wake Forest University, Xavier University of Louisiana, Southern Methodist University</sponsor>
             <principal>Susan Egenolf, Meredith Hale, Hilary Havens, Jessica Richard, and Robin Runia</principal>
             <respStmt>
                <resp>Transcription and coding by</resp>
@@ -96,9 +99,7 @@
             <pb n="1" facs="Edgeworth_Beinecke_ME-to-LEDarnley_page01.jpg"/>
             <opener>
                <salute>
-                  <persName ref="./Personography.xml#DarnX1">
 			  my dear <persName ref="./Personography.xml#DarnE1">Lady Darnley</persName>
-                  </persName>
                </salute>
             </opener>
             <p>
@@ -125,7 +126,7 @@
             <p>It will give me pleasure<lb/>
                <pb n="2" facs="Edgeworth_Beinecke_ME-to-LEDarnley_page02.jpg"/>
                <del>with</del> I am now at<lb/>
-               <placeName ref="/.Placeography.xml#Black-Castle_IE">Black Castle</placeName> with <persName ref="./Personography.xml#RuxtM1">M<hi rend="superscript">rs</hi>.
+               <placeName ref="./Placeography.xml#Black-Castle_IE">Black Castle</placeName> with <persName ref="./Personography.xml#RuxtM1">M<hi rend="superscript">rs</hi>.
                   <lb/>
             Ruxton</persName> who desires<lb/>
             to be kindly remembered<lb/>

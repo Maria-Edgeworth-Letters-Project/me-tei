@@ -2,6 +2,8 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/Maria-Edgeworth-Letters-Project/me-tei/refs/heads/main/melp.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+    ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -11,8 +13,7 @@
             <sponsor>
                <orgName>Maria Edgeworth Letters Project</orgName>
             </sponsor>
-            <sponsor>Wake Forest University, University of Tennessee, Xavier University, Texas
-               A&amp;M University</sponsor>
+            <sponsor>Texas A &amp; M University, University of Tennessee, Wake Forest University, Xavier University of Louisiana, Southern Methodist University</sponsor>
             <principal>Susan Egenolf, Meredith Hale, Hilary Havens, Jessica Richard, and Robin Runia</principal>
             <respStmt>
                <resp>Transcription and coding by</resp>
@@ -48,7 +49,7 @@
                   <collection/>
                   <idno/>
                </msIdentifier>
-               <head>Letter from <persName ref="./Personography.xml#EdgeR1">Richard Lovell Edgeworth</persName> to <persName>Unknown</persName>, <date when="1816-11-26">November 26, 1816</date>
+               <head>Letter from <persName ref="./Personography.xml#EdgeR1">Richard Lovell Edgeworth</persName> to <persName type="unknown">Unknown</persName>, <date when="1816-11-26">November 26, 1816</date>
                </head>
                <physDesc/>
             </msDesc>
@@ -84,7 +85,7 @@
                      </choice> 26<hi rend="superscript">th</hi>, 1816.</date>
                </dateline>
                <salute>
-                  <persName>My dear Sir</persName>
+                  My dear <persName type="unknown">Sir</persName>
                </salute>
             </opener>
             <p>We heard with real concern<lb/>
@@ -213,6 +214,6 @@
             </p>
          </div>
       </body>
-      <back> </back>
+      <back/>
    </text>
 </TEI>

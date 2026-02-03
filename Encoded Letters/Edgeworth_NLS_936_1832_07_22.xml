@@ -2,6 +2,8 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/Maria-Edgeworth-Letters-Project/me-tei/refs/heads/main/melp.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+    ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -13,8 +15,7 @@
             <sponsor>
                <orgName>Maria Edgeworth Letters Project</orgName>
             </sponsor>
-            <sponsor>Wake Forest University, University of Tennessee, Xavier University, Texas
-                    A&amp;M University</sponsor>
+            <sponsor>Texas A &amp; M University, University of Tennessee, Wake Forest University, Xavier University of Louisiana, Southern Methodist University</sponsor>
             <principal>Susan Egenolf, Meredith Hale, Hilary Havens, Jessica Richard, and Robin Runia</principal>
             <respStmt>
                <resp>Transcription and coding by</resp>
@@ -94,12 +95,8 @@
             <pb n="1" facs="Edgeworth_NLS_936_1832_07_22_page01.jpg"/>
             <opener>
                <dateline>
-                  <placeName></placeName>
                   <date when="1816-08-04">July 22<hi rend="superscript">d</hi> 1832</date>
                </dateline>
-               <salute>
-                  <persName/>
-               </salute>
             </opener>
             <p>My very dear <persName ref="./Personography.xml#LockS1">M<hi rend="superscript">rs</hi> Lockhart</persName>. I have not<lb/>
                         written to you or <persName ref="./Personography.xml#LockJ1">M<hi rend="superscript">r</hi> Lockhart</persName> because I<lb/>

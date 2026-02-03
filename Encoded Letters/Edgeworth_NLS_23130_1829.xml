@@ -2,6 +2,8 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/Maria-Edgeworth-Letters-Project/me-tei/refs/heads/main/melp.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+    ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -12,8 +14,7 @@
             <sponsor>
                <orgName>Maria Edgeworth Letters Project</orgName>
             </sponsor>
-            <sponsor>Wake Forest University, University of Tennessee, Xavier University, Texas
-               A&amp;M University</sponsor>
+            <sponsor>Texas A &amp; M University, University of Tennessee, Wake Forest University, Xavier University of Louisiana, Southern Methodist University</sponsor>
             <principal>Susan Egenolf, Meredith Hale, Hilary Havens, Jessica Richard, and Robin Runia</principal>
             <respStmt>
                <resp>Transcription and coding by</resp>
@@ -86,7 +87,7 @@
             <pb n="1" facs="Edgeworth_NLS_23130_1829_page01.jpg"/>
             <opener>
                <salute>
-                  <persName>My dear Miss Edgeworth</persName>
+                  My dear <persName ref="./Personography.xml#EdgeM1">Miss Edgeworth</persName>
                </salute>
             </opener>
             <p>
@@ -139,7 +140,7 @@
             <p>
                <pb n="2" facs="Edgeworth_NLS_23130_1829_page02.jpg"/>
                those of my friends <persName ref="./Personography.xml#EdgeH1">M<hi rend="superscript">rs</hi> Butler</persName> and<lb/>
-               <persName ref="./Personography.xml#EdgeS2">M<hi rend="superscript">rs</hi>. Fox</persName>
+               <persName ref="./Personography.xml#EdgeS1">M<hi rend="superscript">rs</hi>. Fox</persName>
                <del>Lane</del> But I saw<lb/>
                enough of her (being your sister) when at <placeName ref="./Placeography.xml#Dublin_IE">Dublin</placeName> to feel most<lb/>
                sincerely interested in a young person whose exterior is so amiable<lb/>
@@ -285,7 +286,7 @@
                best feelings must be destroyed ere it can be eradicated What then<lb/>
                remains - The only <unclear>idea</unclear> I see is to permit importatation from other <choice>
                   <orig>coun<lb/>
-               tries</orig>
+               tries</orig><reg>countries</reg>
                </choice>
                <lb/>
             </p>
@@ -298,7 +299,7 @@
                in physiology. Something must be done for there is an end of the Cantabit<lb/>
                vacuus the last prerogative of beggary which entitled him to laugh at the <unclear>
                   <choice>
-                     <orig>risque</orig>
+                     <orig>risque</orig><reg>risk</reg>
                   </choice>
                </unclear>
                <lb/>
@@ -459,6 +460,6 @@
             </p>
          </div>
       </body>
-      <back> </back>
+      <back/>
    </text>
 </TEI>

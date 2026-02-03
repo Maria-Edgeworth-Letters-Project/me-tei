@@ -2,6 +2,8 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/Maria-Edgeworth-Letters-Project/me-tei/refs/heads/main/melp.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+    ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -12,8 +14,7 @@
             <sponsor>
                <orgName>Maria Edgeworth Letters Project</orgName>
             </sponsor>
-            <sponsor>Wake Forest University, University of Tennessee, Xavier University, Texas
-               A&amp;M University</sponsor>
+            <sponsor>Texas A &amp; M University, University of Tennessee, Wake Forest University, Xavier University of Louisiana, Southern Methodist University</sponsor>
             <principal>Susan Egenolf, Meredith Hale, Hilary Havens, Jessica Richard, and Robin Runia</principal>
             <respStmt>
                <resp>Transcription and coding by</resp>
@@ -86,7 +87,7 @@
                   <date when="1823-08-01">August 1. 1823</date>
                </dateline>
                <salute>
-                  <persName>My dear M<hi rend="superscript">rs</hi> Brinkley,</persName>
+                  <persName ref="./Personography.xml#BrinE1">My dear M<hi rend="superscript">rs</hi> Brinkley,</persName>
                </salute>
             </opener>
             <p>
@@ -165,7 +166,7 @@
                <persName ref="./Personography.xml#EdgeM1">Maria</persName> begs you will thank the <persName ref="./Personography.xml#BrinJ1">D<hi rend="superscript">r</hi>.</persName> for his note to her<lb/>
                &amp; desires me to tell you that all you need do about<lb/>
                coming here is to write from <placeName ref="./Placeography.xml#Edinburgh_STK">Edinburgh</placeName> to fix the day<lb/>
-               of your arrival here. For <persName ref="./Personography.xml#ScotW1">Sir Walter</persName> &amp; <persName ref="./Personography.xml#ScotS1">Lady Scott</persName>
+               of your arrival here. For <persName ref="./Personography.xml#ScotW1">Sir Walter</persName> &amp; <persName ref="./Personography.xml#ScotM1">Lady Scott</persName>
                <choice>
                   <orig>enquired</orig>
                   <reg>inquired</reg>
@@ -232,11 +233,7 @@
                does not shine. At <placeName ref="./Placeography.xml#Edinburgh_STK">Edinburgh</placeName> I think you will like to see the great<lb/>
                reservoir of water which is forming to supply the town &amp; which is not only curious<lb/>
                in itself, but is very near the scenes of the Gentle Shepherd. On the road to<lb/>
-               which is <placeName ref="./Placeography.xml#Merchistoun-Tower_STK">
-                  <choice>
-                     <orig>Merchiston</orig>
-                     <reg>Merchistoun</reg>
-                  </choice> Tower</placeName> where <add>
+               which is <placeName ref="./Placeography.xml#Merchiston-Tower_STK">Merchiston Tower</placeName> where <add>
                   <hi rend="underline">the</hi>
                </add>
                <lb/>
@@ -264,6 +261,6 @@
             </closer>
          </div>
       </body>
-      <back> </back>
+      <back/>
    </text>
 </TEI>

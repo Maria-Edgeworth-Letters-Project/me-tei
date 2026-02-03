@@ -2,6 +2,8 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/Maria-Edgeworth-Letters-Project/me-tei/refs/heads/main/melp.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+    ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -13,8 +15,7 @@
             <sponsor>
                <orgName>Maria Edgeworth Letters Project</orgName>
             </sponsor>
-            <sponsor>Wake Forest University, University of Tennessee, Xavier University, Texas
-               A&amp;M University</sponsor>
+            <sponsor>Texas A &amp; M University, University of Tennessee, Wake Forest University, Xavier University of Louisiana, Southern Methodist University</sponsor>
             <principal>Susan Egenolf, Meredith Hale, Hilary Havens, Jessica Richard, and Robin Runia</principal>
             <respStmt>
                <resp>Transcription and coding by</resp>
@@ -123,7 +124,7 @@
                <title ref="./Workography.xml#Janus1">Janus</title> published I think<lb/>
                in <placeName ref="./Placeography.xml#Edinburgh_STK">Edinburgh</placeName> in which<lb/>
                I see my <del>essay[</del>
-               <title ref="./Workography.xml#Though1">"Thoughts<lb/>
+               <title ref="./Workography.xml#Thoug1">"Thoughts<lb/>
                on Bores by a Bore</title> is<lb/>
                inserted - I wish you<lb/>
                to know that I did not<lb/>
@@ -149,7 +150,7 @@
             </p>
             <p>The friend to whom I<lb/>
                gave the <hi rend="underline">
-                  <title ref="./Workography.xml#Though1">bores</title>
+                  <title ref="./Workography.xml#Thoug1">bores</title>
                </hi> disposed<lb/>
                of them as he thought <choice>
                   <orig>pro<lb/>
@@ -198,7 +199,8 @@
             <closer>
                <pb n="4" facs="Edgeworth_Princeton_1825-12_page04.jpg"/>
                <address>
-                  <addrLine><persName ref="./Personography.xml#RelfL1">M<hi rend="superscript">r</hi> L. Relfe</persName> - Bookseller</addrLine>
+                  <addrLine>
+                     <persName ref="./Personography.xml#RelfL1">M<hi rend="superscript">r</hi> L. Relfe</persName> - Bookseller</addrLine>
                   <lb/>
                   <addrLine>Cornhill</addrLine>
                   <lb/>

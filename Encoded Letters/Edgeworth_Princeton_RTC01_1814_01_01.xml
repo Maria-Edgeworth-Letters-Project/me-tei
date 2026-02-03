@@ -2,6 +2,8 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/Maria-Edgeworth-Letters-Project/me-tei/refs/heads/main/melp.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+    ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -12,8 +14,7 @@
             <sponsor>
                <orgName>Maria Edgeworth Letters Project</orgName>
             </sponsor>
-            <sponsor>Wake Forest University, University of Tennessee, Xavier University, Texas
-               A&amp;M University</sponsor>
+            <sponsor>Texas A &amp; M University, University of Tennessee, Wake Forest University, Xavier University of Louisiana, Southern Methodist University</sponsor>
             <principal>Susan Egenolf, Meredith Hale, Hilary Havens, Jessica Richard, and Robin Runia</principal>
             <respStmt>
                <resp>Transcription and coding by</resp>
@@ -158,7 +159,7 @@
                the children of this family &amp; none were<lb/>
                inserted that were not completely understood<lb/>
             </p>
-            <p>Will you desire my friend in <placeName>London</placeName>
+            <p>Will you desire my friend in <placeName ref="./Placeography.xml#London_ENK">London</placeName>
                <lb/>
                to call for these tiny volumes as perhaps <persName ref="./Personography.xml#MileJ1">Miles</persName>
                <lb/>
@@ -188,9 +189,9 @@
                James M<hi rend="superscript">c</hi>Intosh</persName> gratified us highly when<lb/>
                were in <placeName ref="./Placeography.xml#London_ENK">London</placeName> by what he said of the first<lb/>
                <pb n="3" facs="Edgeworth_Princeton_RTC01_1814_01_01_page03.jpg"/>
-               book which he <add>told us he had</add> seen in <placeName ref="./Placeography.xml#II">India</placeName> - and I cannot<lb/>
+               book which he <add>told us he had</add> seen in <placeName ref="./Placeography.xml#IN">India</placeName> - and I cannot<lb/>
                help wishing that if <rs>he</rs> allows it a place in<lb/>
-               <rs>his</rs> library it should <del>at least</del>be in its least<lb/>
+               <rs>his</rs> library it should <del>at least</del> be in its least<lb/>
                imperfect state - Indeed it is presuming<lb/>
                a great deal to hope that one whose mind<lb/>
                is so full &amp; whose time is so incessantly<lb/>
@@ -217,12 +218,10 @@
                </choice> &amp; to which I wish to direct his attention<lb/>
             </p>
             <p>
-               <persName>Bernadette</persName>'s letter to <persName ref="./Personography.xml#CadeX1">Baron <unclear>Caderhead </unclear>
-               </persName>
+               <persName ref="./Personography.xml#Charl14">Bernadotte</persName>'s letter to <persName ref="./Personography.xml#CedeC1">Baron Cederhielm</persName>
                <lb/>
                <rs>his</rs> son's preceptor which we have just<lb/>
-               read in to day's paper recalled <title ref="./Workography.xml#Proff1">Prof Ed </title>
-               <hi rend="superscript">n</hi>
+               read in to day's paper recalled <title ref="./Workography.xml#Proff1"><choice><orig>Prof Ed<hi rend="superscript">n</hi></orig><reg>Professional Education</reg></choice></title>
                <lb/>
                to my mind - as there are so many <choice>
                   <orig>sen<lb/>
@@ -309,9 +308,10 @@
                   <lb/>
                   <addrLine>
                      <persName ref="./Personography.xml#WedgS1">M<hi rend="superscript">rs</hi> Jos. <choice>
-                        <orig>Wedgewood</orig>
-                        <reg>Wedgwood</reg>
-                     </choice></persName>
+                           <orig>Wedgewood</orig>
+                           <reg>Wedgwood</reg>
+                        </choice>
+                     </persName>
                   </addrLine>
                   <lb/>
                   <addrLine>

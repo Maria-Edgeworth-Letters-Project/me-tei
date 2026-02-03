@@ -2,6 +2,8 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/Maria-Edgeworth-Letters-Project/me-tei/refs/heads/main/melp.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+    ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -15,8 +17,7 @@
             <sponsor>
                <orgName>Maria Edgeworth Letters Project</orgName>
             </sponsor>
-            <sponsor>Wake Forest University, University of Tennessee, Xavier University, Texas
-               A&amp;M University</sponsor>
+            <sponsor>Texas A &amp; M University, University of Tennessee, Wake Forest University, Xavier University of Louisiana, Southern Methodist University</sponsor>
             <principal>Susan Egenolf, Meredith Hale, Hilary Havens, Jessica Richard, and Robin Runia</principal>
             <respStmt>
                <resp>Transcription and coding by</resp>
@@ -105,7 +106,7 @@
             <p>I am much obliged by your<lb/>
                present of the  New Edition<lb/>
                of <title ref="./Workography.xml#Lette2">
-                  <persName ref="./Personorgraphy.xml#MontM1">Lady Mary W. Montagu</persName>s<lb/>
+                  <persName ref="./Personography.xml#MontM1">Lady Mary W. Montagu</persName>s<lb/>
                   works</title>. - The biographical<lb/>
                <del>notice</del>
                <add>anecdotes</add> prefixed by <persName ref="./Personography.xml#StuaL1">Lady Louisa<lb/>
@@ -113,7 +114,7 @@
                written interesting, and<lb/>
                entertaining. -<lb/>
                I have requested my<lb/>
-               brother in law <persName ref="./Personorgraphy.xml#WilsL2"> M<hi rend="superscript">r</hi>. Lestock<lb/>
+               brother in law <persName ref="./Personography.xml#WilsL2"> M<hi rend="superscript">r</hi>. Lestock<lb/>
                   Wilson</persName> to answer you for<lb/>
                me respecting the new <choice>
                   <orig>Ed<hi rend="superscript">n</hi>
@@ -139,7 +140,7 @@
                   </persName>
                   <lb/>
                   <addrLine/>
-                  <placeName ref="./Placeography.xml#New-Burlington-Street_XX">New Burlington Street</placeName>
+                  <placeName ref="./Placeography.xml#New-Burlington-Street_ENK">New Burlington Street</placeName>
                   <lb/>
                   <addrLine/>
                </address>

@@ -2,6 +2,8 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/Maria-Edgeworth-Letters-Project/me-tei/refs/heads/main/melp.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+    ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -12,8 +14,7 @@
             <sponsor>
                <orgName>Maria Edgeworth Letters Project</orgName>
             </sponsor>
-            <sponsor>Wake Forest University, University of Tennessee, Xavier University, Texas
-               A&amp;M University</sponsor>
+            <sponsor>Texas A &amp; M University, University of Tennessee, Wake Forest University, Xavier University of Louisiana, Southern Methodist University</sponsor>
             <principal>Susan Egenolf, Meredith Hale, Hilary Havens, Jessica Richard, and Robin Runia</principal>
             <respStmt>
                <resp>Transcription and coding by</resp>
@@ -86,7 +87,7 @@
             <pb n="1" facs="Edgeworth_NLS_23130_1825_03_23_page01.jpg"/>
             <opener>
                <salute>
-                  <persName>My dear Miss Edgeworth</persName>
+                  My dear <persName ref="./Personography.xml#EdgeM1">Miss Edgeworth</persName>
                </salute>
             </opener>
             <p>
@@ -174,7 +175,7 @@
                kind to <persName ref="./Personography.xml#ScotJ1">Jane</persName>. I hope she will bring<lb/>
                some <placeName ref="./Placeography.xml#Venice_IT">
                   <unclear>Venetian</unclear>
-               </placeName> or <placeName ref="./Placeography.xml#Sicily_STK">
+               </placeName> or <placeName ref="./Placeography.xml#Sicily_IT">
                   <unclear>Sicilian</unclear>
                </placeName> ballads home<lb/>
                with her the prettiest musical <choice>
@@ -298,6 +299,6 @@
             </closer>
          </div>
       </body>
-      <back> </back>
+      <back/>
    </text>
 </TEI>

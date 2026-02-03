@@ -2,6 +2,8 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/Maria-Edgeworth-Letters-Project/me-tei/refs/heads/main/melp.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+    ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -12,8 +14,7 @@
             <sponsor>
                <orgName>Maria Edgeworth Letters Project</orgName>
             </sponsor>
-            <sponsor>Wake Forest University, University of Tennessee, Xavier University, Texas
-               A&amp;M University</sponsor>
+            <sponsor>Texas A &amp; M University, University of Tennessee, Wake Forest University, Xavier University of Louisiana, Southern Methodist University</sponsor>
             <principal>Susan Egenolf, Meredith Hale, Hilary Havens, Jessica Richard, and Robin Runia</principal>
             <respStmt>
                <resp>Transcription and coding by</resp>
@@ -90,8 +91,9 @@
             <pb n="1" facs="Edgeworth_Princeton_1802-05-30_page01.jpg"/>
             <opener>
                <dateline>
-                  <note><persName ref="./Personography.xml#JohnJ1">M<hi rend="superscript">r</hi> Johnson</persName></note>
-                  <placeName ref="Id_where"/>
+                  <note>
+                     <persName ref="./Personography.xml#JohnJ1">M<hi rend="superscript">r</hi> Johnson</persName>
+                  </note>
                   <placeName ref="./Placeography.xml#London_ENK">
                      <choice>
                         <orig>Lond.</orig>
@@ -102,7 +104,7 @@
                   </date>
                </dateline>
                <salute>
-                  <persName>My Dear Madam</persName>
+                  My Dear <persName ref="./Personography.xml#EdgeM1">Madam</persName>
                </salute>
             </opener>
             <p>Pay no regard to Imperial critics, a moral<lb/>
@@ -132,7 +134,7 @@
                <lb/>
             </p>
             <p>
-               There was a mistake, y<hi rend="superscript">r</hi>. copy of <title ref="./Workography.xml#Memoi9">Darwin's Life</title>
+               There was a mistake, y<hi rend="superscript">r</hi>. copy of <title ref="./Workography.xml#Memoi11">Darwin's Life</title>
                <lb/>
                with <hi rend="underline">from the author</hi> was not intended for <persName ref="./Personography.xml#EdgeR1">Mr. E</persName>.<lb/>
             </p>
@@ -163,9 +165,19 @@
             <p>
                Thank your father for his ready compliance with my request<lb/>
                respecting the Speaker, &amp; the ladies for thinking of <choice>
-                  <orig>y<hi rend="superscript">r.</hi></orig>
+                  <orig>y<hi rend="superscript">r.</hi>
+                  </orig>
                   <reg>your</reg>
-               </choice> <choice><orig>affec<hi rend="superscript">t</hi></orig><reg>affectionate</reg></choice> <choice><orig>hmble</orig><reg>humble</reg></choice>
+               </choice>
+               <choice>
+                  <orig>affec<hi rend="superscript">t</hi>
+                  </orig>
+                  <reg>affectionate</reg>
+               </choice>
+               <choice>
+                  <orig>hmble</orig>
+                  <reg>humble</reg>
+               </choice>
                <persName ref="./Personography.xml#JohnJ1">J. Johnson</persName>
                <lb/>
             </p>
@@ -175,20 +187,30 @@
                </persName> has lately <choice>
                   <orig>pub<hi rend="superscript">d</hi>.</orig>
                   <reg>published</reg>
-               </choice> at Paris <hi rend="underline"><title ref="./Workography.xml#Melan1">
-                  Melanges de Litterature</title></hi>
+               </choice> at Paris <hi rend="underline">
+                  <title ref="./Workography.xml#Melan1">
+                  Melanges de Litterature</title>
+               </hi>
                <lb/>
                in 3 Vol. 8<hi rend="superscript">o</hi>., in the work he has a letter from <placeName ref="./Placeography.xml#IE">Ireland</placeName>
                <lb/>
-               in which he gives the Substance of parts of <choice><orig><title ref="./Workography.xml#Castl1">Castle Rac</title></orig><reg>Castle Rackrent</reg></choice>
+               in which he gives the Substance of parts of <choice>
+                  <orig>
+                     <title ref="./Workography.xml#Castl1">Castle Rac</title>
+                  </orig>
+                  <reg>Castle Rackrent</reg>
+               </choice>
                but differs from many thieves for he acknowledges<lb/>
                the source of his information &amp; pays a tribute of<lb/>
                respect to the Author. I hardly think that you<lb/>
                need trouble yourself about sending <persName ref="./Personography.xml#PictC1">Pictet</persName>, information about<lb/>
-               anything that is <hi rend="underline">published</hi>, he has not doubt <choice><orig>pland</orig><reg>planned</reg></choice> sources of intelligence<lb/>
+               anything that is <hi rend="underline">published</hi>, he has not doubt <choice>
+                  <orig>pland</orig>
+                  <reg>planned</reg>
+               </choice> sources of intelligence<lb/>
             </p>
          </div>
       </body>
-      <back> </back>
+      <back/>
    </text>
 </TEI>

@@ -2,6 +2,8 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/Maria-Edgeworth-Letters-Project/me-tei/refs/heads/main/melp.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+    ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -13,8 +15,7 @@
             <sponsor>
                <orgName>Maria Edgeworth Letters Project</orgName>
             </sponsor>
-            <sponsor>Wake Forest University, University of Tennessee, Xavier University, Texas
-               A&amp;M University</sponsor>
+            <sponsor>Texas A &amp; M University, University of Tennessee, Wake Forest University, Xavier University of Louisiana, Southern Methodist University</sponsor>
             <principal>Susan Egenolf, Meredith Hale, Hilary Havens, Jessica Richard, and Robin Runia</principal>
             <respStmt>
                <resp>Transcription and coding by</resp>
@@ -94,10 +95,9 @@
                   <date when="1844-05-07">May 7<hi rend="superscript">h.</hi> 1844</date>
                </dateline>
                <salute>
-                  <persName>My dear <persName ref="./Personography.xml#HughX1">M<hi rend="superscript">
+                  My dear <persName ref="./Personography.xml#HughX1">M<hi rend="superscript">
                            <hi rend="superscript">rs</hi>
                         </hi>. Hughes</persName>
-                  </persName>
                </salute>
             </opener>
             <p>Your letter followed me to<lb/>
@@ -160,9 +160,9 @@
                home &amp; that I am well &amp; happy<lb/>
                myself and much the happier for <lb/>
                <pb n="3" facs="Edgeworth_Morgan_193158_1844_05_07_page03.jpg"/>
-               having <del>left and</del> found <persName>my sister</persName>
+               having <del>left and</del> found <persName ref="./Personography.xml#EdgeH1" cert="medium">my sister</persName>
                <lb/>
-               so well all he time I was with<lb/>
+               so well all the time I was with<lb/>
                her this winter &amp; spring - a most<lb/>
                happy time it was! meeting with<lb/>
                so many kind friends of long<lb/>
@@ -170,12 +170,12 @@
                among the number -</p>
             <p>
                <persName ref="./Personography.xml#EdgeF2">M<hi rend="superscript">rs</hi>. Edgeworth</persName> sets out this week<lb/>
-               for <placeName ref="./Placeography.xmlLondon_ENK">London</placeName> and will be <choice>
+               for <placeName ref="./Placeography.xml#London_ENK">London</placeName> and will be <choice>
                   <orig>con<lb/>
                   vyed</orig>
                   <reg>convyed</reg>
                </choice> to N<hi rend="superscript">p</hi>. <placeName ref="./Placeography.xml#North-Audley-Street-1_ENK">1 North Audley St</placeName>.<lb/> 
-               by her son <persName>Pakenham</persName>; they will<lb/>
+               by her son <persName  ref="./Personography.xml#EdgeM2">Pakenham</persName>; they will<lb/>
                I hope spend a happy summer<lb/>
                together with <persName ref="./Personography.xml#EdgeF3">Fanny</persName> &amp; <persName ref="./Personography.xml#WilsL2">Lestock<lb/>
                   Wilson</persName> - <lb/>

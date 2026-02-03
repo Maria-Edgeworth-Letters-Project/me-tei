@@ -2,20 +2,23 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/Maria-Edgeworth-Letters-Project/me-tei/refs/heads/main/melp.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+    ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title>Letter from Maria Edgeworth to Mrs. Miles, October 10, 1814</title>
-            <author><persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName></author>
+            <author>
+               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
+            </author>
             <editor>
                <persName>Eliza Wilcox</persName>
             </editor>
             <sponsor>
                <orgName>Maria Edgeworth Letters Project</orgName>
             </sponsor>
-            <sponsor>Wake Forest University, University of Tennessee, Xavier University, Texas
-                    A&amp;M University</sponsor>
+            <sponsor>Texas A &amp; M University, University of Tennessee, Wake Forest University, Xavier University of Louisiana, Southern Methodist University</sponsor>
             <principal>Susan Egenolf, Meredith Hale, Hilary Havens, Jessica Richard, and Robin Runia</principal>
             <respStmt>
                <resp>Transcription and coding by</resp>
@@ -118,7 +121,7 @@
                         proach</orig>
                   <reg>reproach</reg>
                </choice> her with sending the<lb/>
-                    dresses in a box to <placeName ref="http://vocab.getty.edu/tgn/7001181">Ireland in</placeName>
+               dresses in a box to <placeName  ref="./Placeography.xml#IE">Ireland in</placeName>
                <lb/>
                     stead of sending them to you as<lb/>
                     had been desired &amp; I have <choice>
@@ -139,7 +142,8 @@
                         sions</orig>
                   <reg>commissions</reg>
                </choice> with which I may trouble<lb/>
-               you - <hi rend="underline">Though</hi> <persName ref="./Personography.xml#MileJ1">Mr. Miles</persName> is so<lb/>
+               you - <hi rend="underline">Though</hi>
+               <persName ref="./Personography.xml#MileJ1">Mr. Miles</persName> is so<lb/>
                     very obliging to me, or rather<lb/>
                <hi rend="underline">because</hi> he is so obliging to me<lb/>
                     I wish to avoid calling upon<lb/>

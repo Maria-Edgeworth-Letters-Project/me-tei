@@ -2,6 +2,8 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/Maria-Edgeworth-Letters-Project/me-tei/refs/heads/main/melp.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+    ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -13,8 +15,7 @@
             <sponsor>
                <orgName>Maria Edgeworth Letters Project</orgName>
             </sponsor>
-            <sponsor>Wake Forest University, University of Tennessee, Xavier University, Texas
-               A&amp;M University</sponsor>
+            <sponsor>Texas A &amp; M University, University of Tennessee, Wake Forest University, Xavier University of Louisiana, Southern Methodist University</sponsor>
             <principal>Susan Egenolf, Meredith Hale, Hilary Havens, Jessica Richard, and Robin Runia</principal>
             <respStmt>
                <resp>Transcription and coding by</resp>
@@ -93,12 +94,8 @@
             <pb n="1" facs="Edgeworth_Huntington_XXXX_1817_05_23_page01.jpg"/>
             <opener>
                <dateline>
-                  <placeName></placeName>
                   <date when="1816-08-04">August 4, 1816.</date>
                </dateline>
-               <salute>
-                  <persName/>
-               </salute>
             </opener>
             <p>
                <note>
@@ -180,8 +177,7 @@
                  time. But if you prefer paying the whole at the end<lb/>
                  of one year we shall most willingly agree to that <choice>
                   <orig>ar-<lb/>
-                     rangement.<reg>arrangement</reg>
-                  </orig>
+                     rangement.</orig><reg>arrangement</reg>
                </choice>
                <lb/>
             </p>
@@ -202,7 +198,7 @@
             </p>
             <closer>
                 I am dear Sir, your Obed<hi rend="superscript">r</hi>. Servant<lb/>
-               <persName ref="./EdgeR1">R. L. Edgeworth</persName>
+               <persName ref="./Personography.xml#EdgeR1">R. L. Edgeworth</persName>
                <lb/> -</closer>
             <postscript>
                <p>You have not sent us <persName ref="./Personography.xml#WebbS1">M<hi rend="superscript">r</hi>. Webbe's</persName> music<lb/>
@@ -232,7 +228,7 @@
                   <hi rend="underline">break up</hi> with a person who was doing all he could<lb/>
                     to oblige me - From this you have saved me &amp; I<lb/>
                     leave it to you to judge how much I feel obliged<lb/>
-                  <persName ref="./Personograph.xml#EdgeM1">Maria Edgeworth</persName>
+                  <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
                   <lb/>
                </p>
                <p>  My dear <persName ref="./Personography.xml#BeauF1">Francis</persName> after all the Compliments you have received<lb/>

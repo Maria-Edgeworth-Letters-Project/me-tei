@@ -2,19 +2,23 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/Maria-Edgeworth-Letters-Project/me-tei/refs/heads/main/melp.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+    ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title>Letter from Maria Edgeworth to Mrs. Pakenham, January 19, 1841</title>
-            <author><persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName></author>
-            <editor><persName>Eliza Alexander Wilcox</persName>
-                    </editor>
+            <author>
+               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
+            </author>
+            <editor>
+               <persName>Eliza Alexander Wilcox</persName>
+            </editor>
             <sponsor>
                <orgName>Maria Edgeworth Letters Project</orgName>
             </sponsor>
-            <sponsor>Wake Forest University, University of Tennessee, Xavier University, Texas
-                    A&amp;M University</sponsor>
+            <sponsor>Texas A &amp; M University, University of Tennessee, Wake Forest University, Xavier University of Louisiana, Southern Methodist University</sponsor>
             <principal>Susan Egenolf, Meredith Hale, Hilary Havens, Jessica Richard, and Robin Runia</principal>
             <respStmt>
                <resp>Transcription and coding by</resp>
@@ -100,10 +104,8 @@
                   <unclear>19<hi rend="superscript">th</hi>
                   </unclear> 1841</dateline>
                <salute>
-                  <persName>
                             My dear <persName ref="./Personography.xml#PakeX2">M<hi rend="superscript">rs</hi>. Pakenham</persName>
                      <lb/>
-                  </persName>
                </salute>
             </opener>
             <p> My sister <persName ref="./Personography.xml#EdgeF3">M<hi rend="superscript">rs</hi>. Wilson</persName> is still I am<lb/>
@@ -132,10 +134,15 @@
                </choice> him to do my sister &amp; myself<lb/>
                     the pleasure of calling again whenever<lb/>
                     he can &amp; Believe me sincerely &amp;<lb/>
-               <choice><orig>affect<hi rend="superscript">ly</hi></orig><reg>affectionately</reg></choice> yours<lb/>
+               <choice>
+                  <orig>affect<hi rend="superscript">ly</hi>
+                  </orig>
+                  <reg>affectionately</reg>
+               </choice> yours<lb/>
             </p>
             <closer>
-               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName><lb/>
+               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
+               <lb/>
                <placeName ref="./Placeography.xml#North-Audley-Street-1_ENK">1 North Audley Street</placeName>
             </closer>
             <postscript>

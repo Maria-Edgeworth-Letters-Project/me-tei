@@ -2,6 +2,8 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/Maria-Edgeworth-Letters-Project/me-tei/refs/heads/main/melp.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+    ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -12,8 +14,7 @@
             <sponsor>
                <orgName>Maria Edgeworth Letters Project</orgName>
             </sponsor>
-            <sponsor>Wake Forest University, University of Tennessee, Xavier University, Texas
-               A&amp;M University</sponsor>
+            <sponsor>Texas A &amp; M University, University of Tennessee, Wake Forest University, Xavier University of Louisiana, Southern Methodist University</sponsor>
             <principal>Susan Egenolf, Meredith Hale, Hilary Havens, Jessica Richard, and Robin Runia</principal>
             <respStmt>
                <resp>Transcription and coding by</resp>
@@ -22,7 +23,7 @@
             <respStmt>
                <resp>Reviewed by</resp>
                <persName>Jessica Richard</persName>
-            </respStmt>            
+            </respStmt>
          </titleStmt>
          <editionStmt>
             <edition>First digital edition in TEI, date: <date when="2023-10-17">October 17, 2023</date>
@@ -90,7 +91,11 @@
             <pb n="1" facs="Edgeworth_Princeton_1811-04_page01.jpg"/>
             <opener>
                <dateline>
-                  <placeName ref="Edgeworthstown_IE"/> <choice><orig>Edgeworth Town</orig><reg>Edgeworthstown</reg></choice>
+                  <placeName ref="./Placeography.xml#Edgeworthstown_IE"/>
+                  <choice>
+                     <orig>Edgeworth Town</orig>
+                     <reg>Edgeworthstown</reg>
+                  </choice>
                   <date when="1811-04">April 1811</date>
                </dateline>
             </opener>
@@ -129,7 +134,7 @@
             </p>
             <p>
                <pb n="2" facs="Edgeworth_Princeton_1811-04_page01.jpg"/>
-               on his sisters with so good a grace that <persName ref="./Personography.xml#ClegX2">M<hi rend="superscript">r</hi> Cleghorn</persName> begged he would also put on his<lb/>
+               on his sisters with so good a grace that <title ref="./Workography.xml#Contr1">M<hi rend="superscript">r</hi> Cleghorn</title> begged he would also put on his<lb/>
                daughter's veil, that she might look as well as<lb/>
                the <title ref="./Workography.xml#Contr1">Franklands</title>. <persName ref="./Personography.xml#CrumJ1">Mr Jos <unclear>Crumpe</unclear>
                </persName> whose English<lb/>
@@ -149,9 +154,9 @@
                Gowns, hats, veils, gloves, shoes, stockings, nothing<lb/>
                wanting but white <unclear/> handkerchiefs, which<lb/>
                old <title ref="./Workography.xml#Contr1">Frankland</title>, who utterly detested shawls begged<lb/>
-               his girls would wear and <persName ref="./Personography.xml#ClegX1">Miss Cleghorn</persName> had<lb/>
+               his girls would wear and <title ref="./Workography.xml#Contr1">Miss Cleghorn</title> had<lb/>
                also the complaisance to wear one, tho' she had<lb/>
-               a fine French shawl, which the <persName ref="./Personography.xml#TipsX1">Admiral</persName> forced<lb/>
+               a fine French shawl, which the <title ref="./Workography.xml#Contr1">Admiral</title> forced<lb/>
                upon her acceptance. I cannot learn that they<lb/>
                had such necklaces, bracelets or baubles of any kind,<lb/>
                but they certainly had prayer books neatly<lb/>
@@ -169,7 +174,7 @@
                <pb n="3" facs="Edgeworth_Princeton_1811-04_page03.jpg"/>
                of the Biographers opinion, was in blue and<lb/>
                sister's Bridegrooms wore brown. <hi rend="underline">All</hi> certainly<lb/>
-               had Cambric cravats presented by <persName ref="./Personography.xml#ClegX2">Mr Cleghorn.</persName>
+               had Cambric cravats presented by <title ref="./Workography.xml#Contr1">Mr Cleghorn.</title>
                <lb/>
                <persName ref="./Personography.xml#BarlX1">M<hi rend="superscript">r</hi> Barlow</persName> provided each with a handsome<lb/>
                watch, chain and <unclear>sils</unclear>. These are all the <choice>

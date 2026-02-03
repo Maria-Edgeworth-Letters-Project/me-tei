@@ -2,6 +2,8 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/Maria-Edgeworth-Letters-Project/me-tei/refs/heads/main/melp.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+    ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -13,8 +15,7 @@
             <sponsor>
                <orgName>Maria Edgeworth Letters Project</orgName>
             </sponsor>
-            <sponsor>Wake Forest University, University of Tennessee, Xavier University, Texas
-               A&amp;M University</sponsor>
+            <sponsor>Texas A &amp; M University, University of Tennessee, Wake Forest University, Xavier University of Louisiana, Southern Methodist University</sponsor>
             <principal>Susan Egenolf, Meredith Hale, Hilary Havens, Jessica Richard, and Robin Runia</principal>
             <respStmt>
                <resp>Transcription and coding by</resp>
@@ -25,7 +26,6 @@
                <resp>Reviewed by</resp>
                <persName>Robin Runia</persName>
             </respStmt>
-            
          </titleStmt>
          <editionStmt>
             <edition>First digital edition in TEI, date: October 22, 2023<date when="2023-10-22"/>
@@ -64,7 +64,7 @@
                </msIdentifier>
                <head>Letter from 
                   <persName ref="./Personography.xml#EdgeM1">Edgeworth, Maria, 1768-1849</persName>
-                  to <persName ref="MileJ1">Miles, John</persName>, <placeName>11 Corn Hill</placeName>, 
+                  to <persName ref="./Personography.xml#MileJ1">Miles, John</persName>, <placeName>11 Corn Hill</placeName>, 
                   <date when="1816-01"> Jan<hi rend="superscript">ry.</hi> 1816</date>
                </head>
                <physDesc/>
@@ -100,9 +100,7 @@
             <pb n="1" facs="Edgeworth_Princeton_1816-01_page01.jpg"/>
             <opener>
                <salute>
-                  <persName>
-                     My dear Sir
-                  </persName>
+                     My dear <persName ref="./Personography.xml#MileJ1">Sir</persName>
                </salute>
             </opener>
             <p>
@@ -112,8 +110,8 @@
                <lb/>
             </p>
             <p>We have been offered <del>
-               <unclear>three</unclear>
-            </del>
+                  <unclear>three</unclear>
+               </del>
                <add>four</add> hundred <choice>
                   <orig>gui<lb/>
                      neas</orig>
@@ -140,10 +138,10 @@
                <lb/>
             </p>
             <p>Be so kind as to tell me your <choice>
-               <orig>opi-<lb/>
+                  <orig>opi-<lb/>
                   nion</orig>
-               <reg>opinion</reg>
-            </choice> upon this subject.<lb/>
+                  <reg>opinion</reg>
+               </choice> upon this subject.<lb/>
             </p>
             <closer>
                I am Dear Sir<lb/>
@@ -165,7 +163,7 @@
                   <addrLine>M<hi rend="superscript">r.</hi> Chater</addrLine>
                   <lb/>
                   <addrLine>
-                     <placeName ref=".Placeography.xml#Corn-Hill_XX">11 Corn Hill</placeName>
+                     <placeName ref="./Placeography.xml#Corn-Hill_XX">11 Corn Hill</placeName>
                   </addrLine>
                   <lb/>
                </address>

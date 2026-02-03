@@ -2,6 +2,8 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/Maria-Edgeworth-Letters-Project/me-tei/refs/heads/main/melp.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+    ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -12,8 +14,7 @@
             <sponsor>
                <orgName>Maria Edgeworth Letters Project</orgName>
             </sponsor>
-            <sponsor>Wake Forest University, University of Tennessee, Xavier University, Texas
-               A&amp;M University</sponsor>
+            <sponsor>Texas A &amp; M University, University of Tennessee, Wake Forest University, Xavier University of Louisiana, Southern Methodist University</sponsor>
             <principal>Susan Egenolf, Meredith Hale, Hilary Havens, Jessica Richard, and Robin Runia</principal>
             <respStmt>
                <resp>Transcription and coding by</resp>
@@ -93,8 +94,7 @@
             <pb n="2" facs="Edgeworth_Princeton_1826-05_page02.jpg"/>
             <opener>
                <salute>
-                  <persName>My dear <hi rend="underline">Cousin</hi>
-                  </persName>
+                  My dear <persName ref="./Personography.xml#EdgeX1"><hi rend="underline">Cousin</hi></persName>
                </salute>
             </opener>
             <p>Now that you are <hi rend="underline">a great man at the head</hi>
@@ -122,8 +122,8 @@
                I have never seen and of whom I know<lb/>
                nought excepting that he is nephew to a man<lb/>
                of whom I know a great deal of good -<lb/>
-               viz <persName ref="./Personography.xml#KellJ1">James Kelly</persName> of <placeName ref="./Placeography.xml#Gourte-and-Kilcoursey_IE">
-                  <unclear>Gourte</unclear> &amp; Kilcoursey</placeName> - one of<lb/>
+               viz <persName ref="./Personography.xml#KellJ1">James Kelly</persName> of <placeName ref="./Placeography.xml#Gort_IE">
+                  <unclear>Gourte</unclear></placeName> &amp; <placeName ref="./Placeography.xml#Kilcoursey_IE">Kilcoursey</placeName> - one of<lb/>
                our very best tenants - <persName ref="./Personography.xml#KellJ1">James Kelly</persName> entreats<lb/>
                me to write to you in favor of a nephew of his<lb/>
                <persName ref="./Personography.xml#JackR1">Mr. Richard Jackson</persName> - one of the Jacksons of<lb/>

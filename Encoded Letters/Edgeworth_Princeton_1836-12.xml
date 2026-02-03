@@ -2,6 +2,8 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/Maria-Edgeworth-Letters-Project/me-tei/refs/heads/main/melp.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+    ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -12,8 +14,7 @@
             <sponsor>
                <orgName>Maria Edgeworth Letters Project</orgName>
             </sponsor>
-            <sponsor>Wake Forest University, University of Tennessee, Xavier University, Texas
-               A&amp;M University</sponsor>
+            <sponsor>Texas A &amp; M University, University of Tennessee, Wake Forest University, Xavier University of Louisiana, Southern Methodist University</sponsor>
             <principal>Susan Egenolf, Meredith Hale, Hilary Havens, Jessica Richard, and Robin Runia</principal>
             <respStmt>
                <resp>Transcription and coding by</resp>
@@ -78,7 +79,7 @@
       <revisionDesc>
          <change when="2023-11-02" who="Id_who">Created file for letter, encoded letter</change>
          <change when="2023-11-28" who="Id_who">Updated taxonomy IDs for Lestock Peach Wilson and Black Castle</change>
-            <change when="2025-06-30" who="Jamie Kramer">Revised person tag for unknown Baldwin and Cradock to identify as publisher Robert Baldwin and Charles Cradock.</change> 
+         <change when="2025-06-30" who="Jamie Kramer">Revised person tag for unknown Baldwin and Cradock to identify as publisher Robert Baldwin and Charles Cradock.</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -121,7 +122,7 @@
                </choice>, I will not - They must say what no<lb/>
                their <choice>
                   <orig>Ed<hi rend="superscript">n</hi>
-                  </orig>
+                  </orig><reg>Edition</reg>
                </choice>. is to consist of &amp; which they do not in their letter state<lb/>
                the number &amp; price <hi rend="underline">proportionable I beg you</hi> to settle -<lb/>
                I would only observe that if they absolutely object to my<lb/>
@@ -201,9 +202,8 @@
                <p>
                   <del>I must decline <del>hav</del> giving <persName ref="./Personography.xml#BentR1">Bentley</persName>
                      <choice>
-                        <orig>permis</orig>
+                        <orig>permis</orig><reg>permission</reg>
                      </choice>
-                     <reg>permission</reg>
                   </del>
                   <lb/>
                   <del>

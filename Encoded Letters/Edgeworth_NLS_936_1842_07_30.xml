@@ -2,6 +2,8 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/Maria-Edgeworth-Letters-Project/me-tei/refs/heads/main/melp.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+    ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -12,8 +14,7 @@
             <sponsor>
                <orgName>Maria Edgeworth Letters Project</orgName>
             </sponsor>
-            <sponsor>Wake Forest University, University of Tennessee, Xavier University, Texas
-               A&amp;M University</sponsor>
+            <sponsor>Texas A &amp; M University, University of Tennessee, Wake Forest University, Xavier University of Louisiana, Southern Methodist University</sponsor>
             <principal>Susan Egenolf, Meredith Hale, Hilary Havens, Jessica Richard, and Robin Runia</principal>
             <respStmt>
                <resp>Transcription and coding by</resp>
@@ -32,7 +33,7 @@
             <authority>Maria Edgeworth Letters Project</authority>
             <date>2022</date>
             <availability>
-               <p>Reproduced by courtesy of the <orgName type= "naf" ref="http://id.loc.gov/authorities/names/n80044899">National Library of Scotland</orgName>
+               <p>Reproduced by courtesy of the <orgName type="naf" ref="http://id.loc.gov/authorities/names/n80044899">National Library of Scotland</orgName>
                </p>
                <licence target="https://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons Attribution 4.0 (CC BY 4.0) Unported License</licence>
             </availability>
@@ -88,8 +89,7 @@
                   <date when="1842-07-30">July 30. 1842</date>
                </dateline>
                <salute>
-                  <persName>My dear <persName ref="./Personography.xml#EdgeM1">Miss Edgeworth</persName>
-                  </persName>
+                  My dear <persName ref="./Personography.xml#EdgeM1">Miss Edgeworth</persName>
                </salute>
             </opener>
             <p>
@@ -144,7 +144,7 @@
                <lb/>
                Your kind messages affair shall<lb/>
                not be kept from <persName ref="./Personography.xml#LockC1">Charlotte</persName> &amp;<lb/>
-               <persName ref="./Personography.xml#WatKX1">Miss Watkins</persName>. They have been<lb/>
+               <persName ref="./Personography.xml#WatkX1">Miss Watkins</persName>. They have been<lb/>
                bathing at <placeName ref="./Placeography.xml#Scarborough_ENK">Scarborough</placeName> for<lb/>
                some weeks &amp; removed a day<lb/>
                or two ago to <placeName ref="./Placeography.xml#Rokeby_ENK">Rokeby</placeName> where I<lb/>
@@ -194,6 +194,6 @@
             </closer>
          </div>
       </body>
-      <back> </back>
+      <back/>
    </text>
 </TEI>

@@ -2,6 +2,8 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/Maria-Edgeworth-Letters-Project/me-tei/refs/heads/main/melp.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+    ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -13,8 +15,7 @@
             <sponsor>
                <orgName>Maria Edgeworth Letters Project</orgName>
             </sponsor>
-            <sponsor>Wake Forest University, University of Tennessee, Xavier University, Texas
-                    A&amp;M University</sponsor>
+            <sponsor>Texas A &amp; M University, University of Tennessee, Wake Forest University, Xavier University of Louisiana, Southern Methodist University</sponsor>
             <principal>Susan Egenolf, Meredith Hale, Hilary Havens, Jessica Richard, and Robin Runia</principal>
             <respStmt>
                <resp>Transcription and coding by</resp>
@@ -91,15 +92,12 @@
             <pb n="1" facs="Edgeworth_Morgan_157572_page01.jpg"/>
             <opener>
                <dateline>
-                  <placeName></placeName>
                   <placeName ref="./Placeography.xml#Kensington-Gore_ENK">Grove House<lb/>
                         Kensington Gore</placeName>
                         Sunday morn<hi rend="superscript">g</hi>
                </dateline>
                <salute>
-                  <persName>
-                            My dear M<hi rend="superscript">rs</hi>. Kater. - My friend<lb/>
-                  </persName>
+                  My dear <persName  ref="./Personography.xml#KateM1">M<hi rend="superscript">rs</hi>. Kater</persName>. - My friend<lb/>
                </salute>
             </opener>
             <p>
@@ -198,9 +196,9 @@
                <unclear>
                   <address>
                      <pb n="4" facs="Edgeworth_Morgan_157572_page04.jpg"/>
-                     <persName>M<hi rend="superscript">rs</hi> Thaler</persName>
+                     <persName ref="./Personography.xml#KateM1">M<hi rend="superscript">rs</hi> Thaler</persName>
                      <lb/>
-                     <placeName>Union Place</placeName>
+                     <placeName ref="./Placeography.xml#Union-Place_ENK">Union Place</placeName>
                   </address>
                </unclear>
             </closer>

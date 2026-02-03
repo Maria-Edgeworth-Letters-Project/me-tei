@@ -2,6 +2,8 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/Maria-Edgeworth-Letters-Project/me-tei/refs/heads/main/melp.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+    ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -14,8 +16,7 @@
             <sponsor>
                <orgName>Maria Edgeworth Letters Project</orgName>
             </sponsor>
-            <sponsor>Wake Forest University, University of Tennessee, Xavier University, Texas
-               A&amp;M University</sponsor>
+            <sponsor>Texas A &amp; M University, University of Tennessee, Wake Forest University, Xavier University of Louisiana, Southern Methodist University</sponsor>
             <principal>Susan Egenolf, Meredith Hale, Hilary Havens, Jessica Richard, and Robin Runia</principal>
             <respStmt>
                <resp>Transcription and coding by</resp>
@@ -179,7 +180,7 @@
                <del>Miss Edgew</del>
                <lb/>
                I hope he will not<lb/>
-               forget to call at <placeName ref="./Personography.xml#Edgeworthstown_IE">
+               forget to call at <placeName ref="./Placeography.xml#Edgeworthstown_IE">
                   <choice>
                      <orig>Edge-<lb/>
                   worth's-Town</orig>
@@ -212,7 +213,7 @@
                      <persName ref="./Personography.xml#RandJ1">J. Randolph</persName> Esqr</addrLine>
                   <addrLine>3 Warwick Street</addrLine>
                   <addrLine>
-                     <placeName>Spring Gardens</placeName>
+                     <placeName ref="./Placeography.xml#Spring-Gardens_ENK">Spring Gardens</placeName>
                   </addrLine>
                   <note place="bottom">[LibNote]Miss Edgworth<lb/>
                      June 13, 1812[/LibNote]</note>

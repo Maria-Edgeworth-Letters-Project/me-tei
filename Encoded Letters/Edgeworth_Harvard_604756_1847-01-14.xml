@@ -2,6 +2,8 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/Maria-Edgeworth-Letters-Project/me-tei/refs/heads/main/melp.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+    ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -16,8 +18,7 @@
             <sponsor>
                <orgName>Maria Edgeworth Letters Project</orgName>
             </sponsor>
-            <sponsor>Wake Forest University, University of Tennessee, Xavier University, Texas
-               A&amp;M University</sponsor>
+            <sponsor>Texas A &amp; M University, University of Tennessee, Wake Forest University, Xavier University of Louisiana, Southern Methodist University</sponsor>
             <principal>Susan Egenolf, Meredith Hale, Hilary Havens, Jessica Richard, and Robin Runia</principal>
             <respStmt>
                <resp>Transcription and coding by</resp>
@@ -253,7 +254,11 @@
                with me in this advice -<lb/>
                   "Courage <persName ref="./Personography.xml#Molie1">Moliere</persName>! voila de<lb/>
                la bonne comedie!<lb/>
-               was called out from the <choice><orig>pitt</orig><reg>pit</reg></choice><lb/>
+               was called out from the <choice>
+                  <orig>pitt</orig>
+                  <reg>pit</reg>
+               </choice>
+               <lb/>
                you remember - All can laugh<lb/>
                - Few can think - And the<lb/>
                few who do are glad to be<lb/>
@@ -369,7 +374,7 @@
                   of the childs progress -<lb/>
                <del>The Title of</del> The book in which this story<lb/>
                   is to be found is called -<lb/>
-               <title ref="./Workography.xml#Sketch1">"Flemish Tales"</title> - <choice>
+               <title ref="./Workography.xml#Sketc1">"Flemish Tales"</title> - <choice>
                   <orig>duod<hi rend="superscript">o</hi>.</orig>
                   <reg>duodecimo</reg>
                </choice> price 4/6<lb/>

@@ -2,6 +2,8 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/Maria-Edgeworth-Letters-Project/me-tei/refs/heads/main/melp.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+    ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -16,8 +18,7 @@ Hilary Havens
             <sponsor>
                <orgName>Maria Edgeworth Letters Project</orgName>
             </sponsor>
-            <sponsor>Wake Forest University, University of Tennessee, Xavier University, Texas
-               A&amp;M University</sponsor>
+            <sponsor>Texas A &amp; M University, University of Tennessee, Wake Forest University, Xavier University of Louisiana, Southern Methodist University</sponsor>
             <principal>Susan Egenolf, Meredith Hale, Hilary Havens, Jessica Richard, and Robin Runia</principal>
             <respStmt>
                <resp>Transcription and coding by</resp>
@@ -25,8 +26,7 @@ Hilary Havens
             </respStmt>
          </titleStmt>
          <editionStmt>
-            <edition>First digital edition in TEI, date: <date when="2024-01-05">
-            </date>
+            <edition>First digital edition in TEI, date: <date when="2024-01-05"/>
             </edition>
             <respStmt>
                <orgName type="naf" ref="http://id.loc.gov/authorities/names/n80044899">
@@ -72,8 +72,7 @@ Hilary Havens
                </physDesc>
             </msDesc>
             <bibl>In addition to our edited version, this letter was previously published in
-               <!--complete bibiographical info if letter was published in a book here - if not delete-->
-            </bibl>
+               <!--complete bibiographical info if letter was published in a book here - if not delete--></bibl>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
@@ -89,8 +88,7 @@ Hilary Havens
          </correspDesc>
       </profileDesc>
       <revisionDesc>
-         <change when="2021-01-01" who="Id_who">
-         </change>
+         <change when="2021-01-01" who="Id_who"/>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -156,7 +154,7 @@ Hilary Havens
                in this matter I shall take<lb/>
                it for granted that I may<lb/>
                send <placeName ref="./Placeography.xml#Garryowen_IE">Garryowen</placeName> &amp; Poor<lb/>
-               <persName ref="./Personography.xml#XxxxB1">Bob</persName> to M<hi rend="superscript">r</hi>. <persName ref="./Personography.xml#ChambX1">Chambers</persName> for his<lb/>
+               <persName ref="./Personography.xml#XxxxB1">Bob</persName> to M<hi rend="superscript">r</hi>. <persName ref="./Personography.xml#ChamX1">Chambers</persName> for his<lb/>
                Journal as he much desires<lb/>
             </p>
             <p>I shall wait a week <unclear>for</unclear>
@@ -164,7 +162,7 @@ Hilary Havens
                this date that you may object<lb/>
                if you please - But I hope<lb/>
                you will not <hi rend="underline">please</hi> to object<lb/>
-               as I wish to oblige <persName ref="./Personography.xml#ChambX1">Chambers</persName>
+               as I wish to oblige <persName ref="./Personography.xml#ChamX1">Chambers</persName>
                <lb/>
                when it can be done so easily<lb/>
                - Therefore if I have no <add>answer</add>
@@ -180,6 +178,6 @@ Hilary Havens
             <lb/>
          </div>
       </body>
-      <back> </back>
+      <back/>
    </text>
 </TEI>
