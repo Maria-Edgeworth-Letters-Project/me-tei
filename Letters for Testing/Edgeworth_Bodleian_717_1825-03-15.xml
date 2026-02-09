@@ -31,9 +31,10 @@
                     <orgName 
                         ref="/http://id.loc.gov/authorities/names/n80020306">Bodleian Library</orgName>
                     <resp> photos include:
-                        Edgeworth_Bodleian_696_1825-03-15_page01.jpg,
-                        Edgeworth_Bodleian_696_1825-03-15_page02.jpg,
-                        Edgeworth_Bodleian_696_1825-03-15_page03.jpg
+                        Edgeworth_Bodleian_717_1825-03-15_page01.jpg,
+                        Edgeworth_Bodleian_717_1825-03-15_page02.jpg,
+                        Edgeworth_Bodleian_717_1825-03-15_page03.jpg,
+                        Edgeworth_Bodleian_717_1825-03-15_page04.jpg
                     </resp>
                 </respStmt>
             </editionStmt>
@@ -47,17 +48,17 @@
                     </p>
                     <licence target="https://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons Attribution 4.0 (CC BY 4.0) Unported License</licence>
                 </availability>
-                <idno>Edgeworth_Bodleian_696_1825-03-15</idno> 
+                <idno>Edgeworth_Bodleian_717_1825-03-15</idno> 
             </publicationStmt>
             <seriesStmt>
                 <title>Maria Edgeworth Letters Project</title>
             </seriesStmt>
             <sourceDesc>
                 <msDesc xml:lang="en">
-                    <!-- This section of the header identifies the original manuscript source. -->
+                   
                     <msIdentifier>
                         <repository>Bodleian Library</repository>
-                        <collection>MS. Eng. lett. c. 696</collection>
+                        <collection>MS. Eng. lett. c. 717</collection>
                     </msIdentifier>
                     <head>Letter from 
                         <persName xml:id="EdgeM1" from="1768" to="1849">
@@ -92,7 +93,7 @@
                     <persName ref="./Personography.xml#EdgeM1">Edgeworth, Maria, 1768-1849</persName>
                 </correspAction>
                 <correspAction type="received">
-                    <persName ref="./Personography.xml#EdgeM1">Ruxton, Margaret 1746-1830</persName>
+                    <persName ref="./Personography.xml#RuxtM1">Ruxton, Margaret 1746-1830</persName>
                 </correspAction>
             </correspDesc>
         </profileDesc>
@@ -105,46 +106,124 @@
     <text>
         <body>
             <div type="letter">
-                <pb n="1" facs="Edgeworth_Bodleian_717_1825-03-15"/>
                 
-                <opener>
-                    M <hi rend="superscript">rs</hi> Ruxton <lb/>
-                    <placeName ref="./Placeography.xml#Black-Castle_IE">Black Cas</placeName><lb/>
-                    <placeName ref="./Placeography.xml#Navan_IE">Navan</placeName><lb/>
-          
+                <pb n="1" facs="Edgeworth_Bodleian_717_1825-03-15_page01.jpg"/>
+      
+               <opener><dateline><placeName ref="./Placeography.xml#Edgeworthstown_IE">Edgeworths Town</placeName><lb/>
+                <date>March 15 <hi rend="superscript">th</hi> 1825</date></dateline>
+                
                     <salute>
-                        My dearest <persName ref="./Personography.xml#EdgeM1">aunt</persName>
-                    </salute>
-                </opener>
-                <p><!-- Begin transcibing the body of the letter here. -->
-                </p>
-                <p>
-                    <!--More body paragraphs as needed.--></p>
-                <p>
-                    <!--More body paragraphs as needed.-->
-                    <!--Where there's a page break record it inside the relevant body paragraph like this, 
-                  with the self-closing page-break element. n="2" indicates the START of the second page.-->
-                    <pb n="2" facs="image2.jpg"/>
-                </p>
-                <p><!--More body paragraphs as needed.--></p>
-                <closer>
-                    <!--include linebreaks, if used. example: <closer> Yours<lb/> Very sincerely<lb/> -->
-                </closer>
-                <postscript>
-                    <p><!--A postscript goes here, outside the <closer>. --></p>
-                </postscript>
-                <!--You can include a <pb/> here, or inside the postScript.-->
-                <!-- Format for postscripts. 
-               Postscripts do NOT go inside closer tags. Adjust to take into account the order in your letter. 
-               Sometimes the signature is on page three, the address on page four, then the postscript follows back on the top of page one, for example.-->
-                <closer><!--Use the <closer> element again to hold Address Leaf information.-->
-                    <address>
-                        <!--Include any text written on the address leaf; use a separate "addrLine" for each line and indicate line breaks. -->
-                        <addrLine/>
-                        <addrLine/>
-                        <addrLine/>
-                    </address>
-                </closer>
+                    My dearest <persName ref="./Personography.xml#RuxtM1">aunt</persName><lb/>
+                    </salute></opener>
+                    <p>
+                    Even if it were not as it is my warmest wish<lb/>
+                    to be with you, what heart could resist<lb/>
+                    such a kind letter, such a touching appeal<lb/>
+                    as yours - On or before the 12<hi rend="superscript">th</hi>. of April your<lb/>
+                    birthday one of your two friends, either<lb/>
+                    your little <persName ref="./Personography.xml#EdgeM1">niece</persName> or her <persName ref="./Personography.xml#EdgeF2">mother</persName> will <choice> 
+                    <orig>assu-<lb/>
+                    redly</orig>
+                    <reg>assuredly</reg>
+                    </choice>
+                    be with you :- But which it shall be<lb/>
+                    or which first or last I cannot yet tell - all<lb/>
+                    I know is that setting all other things aside<lb/>
+                    <persName ref="./Personography.xml#EdgeF2"><choice><orig>M<hi rend="superscript">rs</hi>. E's</orig><reg>Mrs. Edgeworth's</reg></choice></persName> not yet effaced marks of the un-<lb/>
+                    <damage><unclear>ky</unclear></damage> termination of her last little visit to<lb/>
+                    <placeName ref="./Placeography.xml#Black-Castle_IE"><damage>B</damage> lack Castle</placeName> give her on the <hi rend="underline">face of the</hi> <choice> 
+                    <orig>mat<lb/>
+                     ter</orig>
+                     <reg>matter</reg>
+                    </choice>
+                    the first and best claim - We cannot<lb/>
+                    both be absent at once - She cannot leave home<lb/>
+                    now till her mother goes to <placeName ref="./Placeography.xml#Dublin_IE">Dublin</placeName> - Exactly<lb/>
+                    when that will be we do not know - <persName ref="./Personography.xml#EdgeL2">Lovell</persName><lb/>
+                    comes down he says on Thursday - When<lb/>
+                    Thursday comes I will tell you more about<lb/>
+                    it - If he comes I think it probable M<hi rend="superscript">rs</hi>. B &amp; <persName ref="./Personography.xml#EdgeL2"><choice><orig>L</orig><reg>Lovell</reg></choice></persName><lb/>
+                    will go up to <placeName ref="./Placeography.xml#Dublin_IE">Dublin</placeName> early next week - If he<lb/>
+                    is delayed I think they will delay to see him<lb/>
+                    a few days before they go - This is all <choice> 
+                    <orig>conjec<lb/>
+                    ture</orig>
+                    <reg>conjecture</reg>
+                    </choice>
+                    - The <persName ref="./Personography.xml#ScotX3">Scotts</persName> visit if it be at all must<lb/>
+                    be between the 20<hi rend="superscript">th</hi>. &amp; 24<hi rend="superscript">th</hi>. because he must be<lb/>
+                    with his reg<hi rend="superscript">t</hi>. on the 24<hi rend="superscript">th</hi>., but if she comes she will<lb/>
+                    stay <hi rend="underline">some days</hi> while he is at Quarters; how<lb/>
+                        
+                    <pb n="2" facs="Edgeworth_Bodleian_717_1825-03-15_page02.jpg"/>
+                    
+                    many unknown - Next Monday is the 21<hi rend="superscript">st</hi>- <note>180</note><lb/>
+                    - Put all these things together &amp; add that<lb/>
+                    <persName ref="./Personography.xml#BeddT1">Tom Beddoes</persName> is expected very soon &amp; then<lb/>
+                    <persName ref="./Personography.xml#XxxxA2">Anna</persName> &amp; <persName ref="./Personography.xml#SneyM1" cert="low">Mary's departure</persName> - I should make<lb/>
+                    no sort of scruple of leaving home at any time<lb/>
+                    except just when the Scotts are here or till I<lb/>
+                    am clear they do not come - I think I could<lb/>
+                    not after <persName ref="./Personography.xml#ScotW1">Sir Ws's</persName> letter leave the house just then<lb/>
+                    - What think you? - If the 24<hi rend="superscript">th</hi>. were once past<lb/>
+                    I think my mother then could go to you for a<lb/>
+                    week - But I must not <hi rend="underline">melon</hi> with other<lb/>
+                    peoples business only I can't for the life of<lb/>
+                    me help wishing to carve out for one I love so<lb/>
+                    well the nice morsel I sh<hi rend="superscript">d</hi> like myself<lb/></p>
+                
+                    <p>
+                    Depend upon it as soon as I see daylight<lb/>
+                    I will <del>fow</del> start -<lb/></p>
+                
+                    <p>
+                     You have probably seen in the papers<lb/>
+                     the death of our admirable friend <persName ref="./Personography.xml#BarbA1">M<hi rend="superscript">rs</hi>. Barbauld</persName><lb/>
+                    - I have copied for you her last letter to me<lb/>
+                     &amp; some beautiful lines written in her 80<hi rend="superscript">th</hi>.<lb/>
+                    year - There is a melancholy elegance &amp;<lb/>
+                    force of thought in both - Elegance &amp;<lb/>
+                    Strength <del><unclear></unclear></del> qualities rarely uniting<lb/>
+                    without injury to each other combine<lb/>
+                    most perfectly in her style &amp; this <del>rare</del><lb/>
+                    combination added to their classical<lb/>
+                    purity form perhaps the distinguishing<lb/>
+                    characteristic of her writings - <placeName ref="./Placeography.xml#ENK">England</placeName><lb/>
+                    <add>has</add> lost a great writer &amp; we a most sincere<lb/>
+                    friend - You always admired &amp; loved her<lb/>
+                
+                  <pb n="3" facs="Edgeworth_Bodleian_717_1825-03-15_page03.jpg"/>
+                    - Farewell my dearest <persName ref="./Personography.xml#RuxtM1">aunt</persName> - Soon very<lb/>
+                    soon I hope to be beside you -<lb/></p>
+                
+                    <p>
+                    <persName ref="./Personography.xml#EdgeH1" cert="medium"><choice><orig>M<hi rend="superscript">rs</hi>. B</orig><reg>Harriet Butler</reg></choice></persName> - <persName ref="./Personography.xml#EdgeF2" cert="medium"><choice><orig>M<hi rend="superscript">rs</hi>. E</orig><reg>Mrs. Edgeworth</reg></choice></persName> - <persName ref="./Personography.xml#EdgeL2" cert="medium"><choice><orig>L.</orig><reg>Lovell</reg></choice></persName> and A &amp; <persName ref="./Personography.xml#EdgeW1" cert="low"><choice><orig>W.</orig><reg>William</reg></choice></persName> are all dining<lb/>
+                    at <placeName ref="./Placeography.xml#Liss-Ard_IE">Lissard</placeName> - <persName ref="./Personography.xml#BeauH1">Honora</persName> is <hi rend="underline">talking</hi> so, <add>(but not feverish)</add> and <choice> 
+                    <orig>reproach<lb/>
+                    ing</orig>
+                    <reg>reproaching</reg>
+                    </choice>
+                    me with writing instead of drinking tea that<lb/>
+                    I cannot add more - Ever affec<hi rend="superscript">y</hi> yours<lb/>
+                    <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName><lb/>
+                     </p>
+                
+                <postscript><p>To <persName ref="./Personography.xml#RuxtS1">Sophy</persName><lb/>
+                    Pray my dear <persName ref="./Personography.xml#RuxtS1">Sophy</persName> make out how<lb/>
+                    the <hi rend="underline">two</hi> Inheritances went up for<lb/>
+                    one of the sets never reached <unclear></unclear><lb/>
+                    <unclear>that</unclear> <persName ref="./Personography.xml#EdgeH1" cert="medium"><choice><orig>H B</orig><reg>Harriet Butler</reg></choice></persName> says &amp; the upshot of the business<lb/>
+                    will be that said book will cost me £3 guineas<lb/>
+                    unless both copies be found - I long to be with<lb/>
+                    you I have much in <unclear>m</unclear><lb/>
+                    Post<lb/></p></postscript>
+                
+                <pb n="4" facs="Edgeworth_Bodleian_717_1825-03-15_page04.jpg"/>
+                <closer><address><addrLine><persName ref="./Personography.xml#RuxtM1">M <hi rend="superscript">rs</hi> Ruxton</persName></addrLine>
+                        <addrLine><placeName ref="./Placeography.xml#Black-Castle_IE">Black Cas</placeName></addrLine>
+                        <addrLine><placeName ref="./Placeography.xml#Navan_IE">Navan</placeName></addrLine>
+                        <addrLine><note>179</note></addrLine></address></closer>
+              
             </div>
         </body>
         <back> </back>
