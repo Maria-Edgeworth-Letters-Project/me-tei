@@ -72,6 +72,21 @@
 {{if(cells['Pages'].value==6, cells['Letter Identifier'].value + 
 '_page01.jpg' + ', ' + cells['Letter Identifier'].value + 
 '_page02.jpg' + ', ' + cells['Letter Identifier'].value + '_page03.jpg' + ', ' + cells['Letter Identifier'].value + '_page04.jpg' + ', ' + cells['Letter Identifier'].value + '_page05.jpg' + ', ' + cells['Letter Identifier'].value + '_page06.jpg', '')}}
+{{if(cells['Pages'].value==7, cells['Letter Identifier'].value + 
+'_page01.jpg' + ', ' + cells['Letter Identifier'].value + 
+'_page02.jpg' + ', ' + cells['Letter Identifier'].value + '_page03.jpg' + ', ' + cells['Letter Identifier'].value + '_page04.jpg' + ', ' + cells['Letter Identifier'].value + '_page05.jpg' + ', ' + cells['Letter Identifier'].value + '_page06.jpg' + ', ' + cells['Letter Identifier'].value + '_page07.jpg', '')}}
+{{if(cells['Pages'].value==8, cells['Letter Identifier'].value + 
+'_page01.jpg' + ', ' + cells['Letter Identifier'].value + 
+'_page02.jpg' + ', ' + cells['Letter Identifier'].value + '_page03.jpg' + ', ' + cells['Letter Identifier'].value + '_page04.jpg' + ', ' + cells['Letter Identifier'].value + '_page05.jpg' + ', ' + cells['Letter Identifier'].value + '_page06.jpg' + ', ' + cells['Letter Identifier'].value + '_page08.jpg', '')}}
+{{if(cells['Pages'].value==9, cells['Letter Identifier'].value + 
+'_page01.jpg' + ', ' + cells['Letter Identifier'].value + 
+'_page02.jpg' + ', ' + cells['Letter Identifier'].value + '_page03.jpg' + ', ' + cells['Letter Identifier'].value + '_page04.jpg' + ', ' + cells['Letter Identifier'].value + '_page05.jpg' + ', ' + cells['Letter Identifier'].value + '_page06.jpg' + ', ' + cells['Letter Identifier'].value + '_page08.jpg' + ', ' + cells['Letter Identifier'].value + '_page09.jpg', '')}}
+{{if(cells['Pages'].value==10, cells['Letter Identifier'].value + 
+'_page01.jpg' + ', ' + cells['Letter Identifier'].value + 
+'_page02.jpg' + ', ' + cells['Letter Identifier'].value + '_page03.jpg' + ', ' + cells['Letter Identifier'].value + '_page04.jpg' + ', ' + cells['Letter Identifier'].value + '_page05.jpg' + ', ' + cells['Letter Identifier'].value + '_page06.jpg' + ', ' + cells['Letter Identifier'].value + '_page08.jpg' + ', ' + cells['Letter Identifier'].value + '_page09.jpg' + ', ' + cells['Letter Identifier'].value + '_page010.jpg', '')}}
+{{if(cells['Pages'].value==11, cells['Letter Identifier'].value + 
+'_page01.jpg' + ', ' + cells['Letter Identifier'].value + 
+'_page02.jpg' + ', ' + cells['Letter Identifier'].value + '_page03.jpg' + ', ' + cells['Letter Identifier'].value + '_page04.jpg' + ', ' + cells['Letter Identifier'].value + '_page05.jpg' + ', ' + cells['Letter Identifier'].value + '_page06.jpg' + ', ' + cells['Letter Identifier'].value + '_page08.jpg' + ', ' + cells['Letter Identifier'].value + '_page09.jpg' + ', ' + cells['Letter Identifier'].value + '_page010.jpg' + ', ' + cells['Letter Identifier'].value + '_page011.jpg','')}}
                     </resp>
                 </respStmt>
             </editionStmt>
