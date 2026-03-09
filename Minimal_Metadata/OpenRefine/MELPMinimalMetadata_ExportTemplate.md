@@ -14,9 +14,9 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Birmingham minimal metadata</title>
+                <title>Minimal metadata</title>
             </titleStmt>
-            <publicationStmt><p>Records will be shared on https://melp.dh.tamu.edu/letters/</p></publicationStmt>
+            <publicationStmt><p>Records will be shared on https://mariaedgeworth.org/</p></publicationStmt>
             <sourceDesc><p>XML created by Meredith Hale using OpenRefine</p></sourceDesc>
         </fileDesc>
     </teiHeader>
