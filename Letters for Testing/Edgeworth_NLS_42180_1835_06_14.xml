@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/Maria-Edgeworth-Letters-Project/me-tei/refs/heads/main/melp.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter from Maria Edgeworth to <!--Recipient Name, Month Day, YYYY--></title>
+                <author>Maria Edgeworth</author>
+                <editor>Alexandra LaGrand</editor>
+                <sponsor>
+                    <orgName>Maria Edgeworth Letters Project</orgName>
+                </sponsor>
+                <sponsor>Texas A &amp; M University, University of Tennessee, Wake Forest University, Xavier University of Louisiana, Southern Methodist University</sponsor>
+                <principal>Susan Egenolf, Meredith Hale, Hilary Havens, Jessica Richard, and Robin Runia</principal>
+                <respStmt>
+                    <resp>Transcription and coding by</resp>
+                    <persName>Alexandra LaGrand</persName>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>First digital edition in TEI, date: <date when="2026-03-18"></date>
+                </edition>
+                <respStmt>
+                    <orgName type="naf" ref="http://id.loc.gov/authorities/names/n80044899">National Library of Scotland</orgName>
+                    <resp> photos include: Edgeworth_NLS_42180_1835_06_14_page01.jpg, Edgeworth_NLS_42180_1835_06_14_page02.jpg, Edgeworth_NLS_42180_1835_06_14_page03.jpg</resp>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <authority>Maria Edgeworth Letters Project</authority>
+                <date>2022</date>
+                <availability>
+                    <p>Reproduced by courtesy of the <orgName ref="http://id.loc.gov/authorities/names/n80044899">National Library of Scotland</orgName>
+                    </p>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons Attribution 4.0 (CC BY 4.0) Unported License</licence>
+                </availability>
+                <idno>Edgeworth_NLS_42180_unknown_01</idno> 
+            </publicationStmt>
+            <seriesStmt>
+                <title>Maria Edgeworth Letters Project</title>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc xml:lang="en">
+                    <msIdentifier>
+                        <repository>National Library of Scotland</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <head>Letter from 
+                        <persName xml:id="EdgeM1" from="1768" to="1849">
+                            <forename>Maria</forename>
+                            <surname>Edgeworth</surname>
+                            <date>1768-1849</date>
+                            <idno type="VIAF">71477273</idno>
+                            <idno type="SNAC">62567029</idno>
+                        </persName>
+                        to <persName><!--Recipient Name--></persName>, <placeName><!--Location where letter was sent--></placeName>, 
+                        <date when="1835-06-14">June 14<hi rend="superscript">h</hi>, 1835</date>
+                    </head>
+                    <physDesc>
+                        <p>Letter is written on paper that is embossed with design featuring "BATH" and crown above it, set within a rectangular shape.</p> 
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+               <p>Edgeworth’s spelling and punctuation are retained in transcription, including non-standard spelling, line breaks, and hyphenation of words. The long s and ligatured forms are silently emended.</p>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
+                </correspAction>
+                <correspAction type="received">
+                    <persName><!--RECIPIENT NAME--></persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2026-03-18" who="Id_who">Created XML file, encoded letter</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="letter">
+                <pb n="1" facs="Edgeworth_NLS_42180_1835_06_14_page01.jpg"/>
+                <opener>
+                    <dateline>
+                        <placeName ref="./Placeography.xml#Edgeworthstown_IE"/><choice><orig>Edgeworth town</orig><reg>Edgeworthstown</reg></choice>
+                        <date when="1835-06-14">June 14<hi rend="superscript">h</hi> 1835</date>
+                    </dateline>
+                    <salute>
+                        <choice><orig>D<hi rend="superscript">r</hi></orig><reg>Dear</reg></choice> Sir<lb/>
+                    </salute>
+                </opener>
+                <p>
+                    You may recollect that it was<lb/>
+                    I who had the honor of <choice><orig>re=<lb/>
+                    commending</orig><reg>recommending</reg></choice> it to you to<lb/>
+                    deal with the author of<lb/>
+                    <title ref="./Workography.xml#Berth1"><hi rend="underline">Bertha</hi></title> though I had not<lb/>
+                    seen the manuscript but<lb/>
+                    judged only from my general<lb/>
+                    knowledge of the abilities of<lb/>
+                    the author &amp; from a former<lb/>
+                    work - I believe you have<lb/>
+                    been satisfied with the result<lb/>
+                    and upon the strength of this<lb/>
+                    I now venture another <choice><orig>recom<lb/>
+                    mendation</orig><reg>recommendation</reg></choice> to you of a lady<lb/>
+                    who is personally a stranger<lb/>
+                    to me but who is known to<lb/>
+                    me and perhaps to you by<lb/>
+                    her work, <persName ref="./Personography.xml#CarmA1">M<hi rend="superscript">rs</hi> Carmichael</persName> -<lb/>
+                    author of <title ref="./Workography.xml#Domes1">"Domestic Manners<lb/>
+                    in the West Indies"</title> -- She<lb/>                    
+                </p>
+                <pb n="2" facs="Edgeworth_NLS_42180_1835_06_14_page02.jpg"/>
+                <p>
+                    has collected from long residence<lb/>
+                    in Trinidad &amp; <placeName ref="./Placeography.xml#St-Vincent_VC">St. Vincent</placeName><lb/>
+                    <del>collected</del> materials which<lb/>
+                    she purposes working up into<lb/>
+                    a book for young people which<lb/>
+                    will have the two great &amp;<lb/>
+                    rarely united advantages<lb/>
+                    which children (&amp; I believe<lb/>
+                    parents most desire) <del>of</del><lb/>
+                    It will be both <hi rend="underline">new</hi> &amp; <hi rend="underline">true</hi> -<lb/>
+                </p>
+                <p>
+                    "Tell me a <hi rend="underline">new</hi> story <choice><orig>Mam<lb/>
+                    <hi rend="underline">ma</hi></orig><reg>Mama</reg></choice> &amp; tell me a true story" - are<lb/>
+                    the most frequent requests<lb/>
+                    from young people - You or<lb/>
+                    your son if I am not <choice><orig>mista<lb/>
+                    ken</orig><reg>mistaken</reg></choice> are now engaged in<lb/>
+                    the line of publishing for<lb/>
+                    young people - <persName ref="./Personography.xml#CarmA1">M<hi rend="superscript">rs</hi>. Carmichael</persName><lb/>
+                    is ambitious of being published<lb/>
+                    by you - and I have promised<lb/>
+                    to obtain an answer from<lb/>
+                    you whether you wish to <choice><orig>en-<lb/>
+                    gage</orig><reg>engage</reg></choice> with her or not - which<lb/>
+                </p>
+                <pb n="3" facs="Edgeworth_NLS_42180_1835_06_14_page03.jpg"/>
+                <p>
+                    answer must be given before<lb/>
+                    the 20<hi rend="superscript">h</hi> of this month - for<lb/>
+                    reasons which I need not <choice><orig>ex=<lb/>
+                    plain</orig><reg>explain</reg></choice> to you - She would be<lb/>
+                    glad to know whether you<lb/>
+                    would rather have a book of<lb/>
+                    the size of <title ref="./Workography.xml#Berth1">Bertha</title> in one volume<lb/>
+                    or in 3<lb/>
+                </p>
+                <p>
+                    Perhaps it might be best<lb/>
+                    to begin with one volume &amp; try<lb/>
+                    how that takes - <persName ref="./Personography.xml#LockJ1">M<hi rend="superscript">r</hi> Lockhart</persName><lb/>
+                    will convey this note to you<lb/>
+                    and you will be so good to<lb/>
+                    <del>convey</del> give your answer to<lb/>
+                    him - who will make<lb/>
+                    no delay in transmitting<lb/>
+                    it to D<hi rend="superscript">r</hi> <unclear>Sir</unclear><lb/></p>
+                    <closer>
+                    Your <choice><orig>Obed<hi rend="superscript">t</hi></orig><reg>Obedient</reg></choice> Servant<lb/>
+                    <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName><lb/>
+                    </closer>
+             </div>
+        </body>
+        <back> </back>
+    </text>
+</TEI>
