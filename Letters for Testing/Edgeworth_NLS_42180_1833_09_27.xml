@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/Maria-Edgeworth-Letters-Project/me-tei/refs/heads/main/melp.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter from Maria Edgeworth, September 27, 1833</title>
+                <author>Maria Edgeworth</author>
+                <editor>Alexandra LaGrand</editor>
+                <sponsor>
+                    <orgName>Maria Edgeworth Letters Project</orgName>
+                </sponsor>
+                <sponsor>Texas A &amp; M University, University of Tennessee, Wake Forest University, Xavier University of Louisiana, Southern Methodist University</sponsor>
+                <principal>Susan Egenolf, Meredith Hale, Hilary Havens, Jessica Richard, and Robin Runia</principal>
+                <respStmt>
+                    <resp>Transcription and coding by</resp>
+                    <persName>Alexandra LaGrand</persName>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>First digital edition in TEI, date: <date when="2026-03-23">March 23, 2026</date>
+                </edition>
+                <respStmt>
+                    <orgName type="naf" ref="http://id.loc.gov/authorities/names/n80044899">National Library of Scotland</orgName>
+                    <resp> photos include: Edgeworth_NLS_42180_1833_09_27_page01.jpg, Edgeworth_NLS_42180_1833_09_27_page02.jpg, Edgeworth_NLS_42180_1833_09_27_page03.jpg, Edgeworth_NLS_42180_1833_09_27_page04.jpg</resp>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <authority>Maria Edgeworth Letters Project</authority>
+                <date>2022</date>
+                <availability>
+                    <p>Reproduced by courtesy of the <orgName ref="http://id.loc.gov/authorities/names/n80044899">National Library of Scotland</orgName>
+                    </p>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons Attribution 4.0 (CC BY 4.0) Unported License</licence>
+                </availability>
+                <idno>Edgeworth_NLS_42180_1833_09_27</idno> 
+            </publicationStmt>
+            <seriesStmt>
+                <title>Maria Edgeworth Letters Project</title>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc xml:lang="en">
+                    <msIdentifier>
+                        <repository>National Library of Scotland</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <head>Letter from 
+                        <persName xml:id="EdgeM1" from="1768" to="1849">
+                            <forename>Maria</forename>
+                            <surname>Edgeworth</surname>
+                            <date>1768-1849</date>
+                            <idno type="VIAF">71477273</idno>
+                            <idno type="SNAC">62567029</idno>
+                        </persName>, <date when="1833-09-27">Sep<hi rend="superscript">t</hi>. 27<hi rend="superscript">th</hi>. 1833</date>
+                    </head>
+                    <physDesc></physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+               <p>Edgeworth’s spelling and punctuation are retained in transcription, including non-standard spelling, line breaks, and hyphenation of words. The long s and ligatured forms are silently emended.</p>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
+                </correspAction>
+                <correspAction type="received">
+                    <persName><!--RECIPIENT NAME--></persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2026-03-23" who="Id_who">Created file for letter, encoded letter</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="letter">
+                <pb n="1" facs="Edgeworth_NLS_42180_1833_09_27_page01.jpg"/>
+                <opener>
+                    <dateline><!--If there's no date line, remove this element. Record in the order in which it is written on the letter.-->
+                        <placeName ref="./Placeography.xml#Edgeworthstown_IE"/><choice><orig>Edgeworth town</orig><reg>Edgeworthstown</reg></choice>
+                        <date when="1833-09-27">Sep<hi rend="superscript">t</hi>. 27<hi rend="superscript">th</hi>. 1833</date></dateline>
+                    <salute><choice><orig>D<hi rend="superscript">r</hi></orig><reg>Dear</reg></choice>. Sir</salute>
+                </opener>
+                <p>
+                    I wrote to you on the 6<hi rend="superscript">th</hi> <unclear>Ins<hi rend="superscript">t</hi></unclear><lb/>
+                    to inquire whether you<lb/>
+                    had or had not put the<lb/>
+                    drawings I sent you into<lb/>
+                    the hands of an engraver<lb/>
+                    If you have not I beg '<lb/>
+                    you will not <add>put the chimney sweeper <hi rend="underline">in hand</hi></add> - because<lb/>
+                    I have changed my <choice><orig>pur-<lb/>
+                    pose</orig><reg>purpose</reg></choice> as to the story I spoke<lb/>
+                    of to you and I now<lb/>
+                    beg you to understand<lb/>
+                    that it will not be a story<lb/>
+                    for young children and<lb/>
+                    short as the Snow woman<lb/>
+                    The subject has spread<lb/>
+                    out under my hands<lb/>
+                    and it will be more of<lb/>
+                    a moral &amp; popular tale<lb/>
+                </p>
+                <p>
+                    <!--More body paragraphs as needed.--></p>
+                <p>
+                    <!--More body paragraphs as needed.-->
+                    <!--Where there's a page break record it inside the relevant body paragraph like this, 
+                  with the self-closing page-break element. n="2" indicates the START of the second page.-->
+                    <pb n="2" facs="image2.jpg"/>
+                </p>
+                <p><!--More body paragraphs as needed.--></p>
+                <closer>
+                    <!--include linebreaks, if used. example: <closer> Yours<lb/> Very sincerely<lb/> -->
+                </closer>
+                <postscript>
+                    <p><!--A postscript goes here, outside the <closer>. --></p>
+                </postscript>
+                <!--You can include a <pb/> here, or inside the postScript.-->
+                <!-- Format for postscripts. 
+               Postscripts do NOT go inside closer tags. Adjust to take into account the order in your letter. 
+               Sometimes the signature is on page three, the address on page four, then the postscript follows back on the top of page one, for example.-->
+                <closer><!--Use the <closer> element again to hold Address Leaf information.-->
+                    <address>
+                        <!--Include any text written on the address leaf; use a separate "addrLine" for each line and indicate line breaks. -->
+                        <addrLine/>
+                        <addrLine/>
+                        <addrLine/>
+                    </address>
+                </closer>
+            </div>
+        </body>
+        <back> </back>
+    </text>
+</TEI>
+
