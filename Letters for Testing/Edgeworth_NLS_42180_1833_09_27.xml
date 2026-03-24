@@ -85,9 +85,9 @@
             <div type="letter">
                 <pb n="1" facs="Edgeworth_NLS_42180_1833_09_27_page01.jpg"/>
                 <opener>
-                    <dateline><!--If there's no date line, remove this element. Record in the order in which it is written on the letter.-->
+                    <dateline>
                         <placeName ref="./Placeography.xml#Edgeworthstown_IE"/><choice><orig>Edgeworth town</orig><reg>Edgeworthstown</reg></choice>
-                        <date when="1833-09-27">Sep<hi rend="superscript">t</hi>. 27<hi rend="superscript">th</hi>. 1833</date></dateline>
+                        <date when="1833-09-27"><choice><orig>Sep<hi rend="superscript">t</hi>.</orig><reg>September</reg></choice> 27<hi rend="superscript">th</hi>. 1833</date></dateline>
                     <salute><choice><orig>D<hi rend="superscript">r</hi></orig><reg>Dear</reg></choice>. Sir</salute>
                 </opener>
                 <p>
@@ -96,7 +96,9 @@
                     had or had not put the<lb/>
                     drawings I sent you into<lb/>
                     the hands of an engraver<lb/>
-                    If you have not I beg '<lb/>
+                </p>
+                <p>
+                    If you have not I beg<lb/>
                     you will not <add>put the chimney sweeper <hi rend="underline">in hand</hi></add> - because<lb/>
                     I have changed my <choice><orig>pur-<lb/>
                     pose</orig><reg>purpose</reg></choice> as to the story I spoke<lb/>
@@ -104,39 +106,95 @@
                     beg you to understand<lb/>
                     that it will not be a story<lb/>
                     for young children and<lb/>
-                    short as the Snow woman<lb/>
+                    short as <title ref="./Workography.xml#Garry1">the Snow woman</title><lb/>
+                </p>
+                <p>
                     The subject has spread<lb/>
                     out under my hands<lb/>
                     and it will be more of<lb/>
                     a moral &amp; popular tale<lb/>
                 </p>
                 <p>
-                    <!--More body paragraphs as needed.--></p>
-                <p>
-                    <!--More body paragraphs as needed.-->
-                    <!--Where there's a page break record it inside the relevant body paragraph like this, 
-                  with the self-closing page-break element. n="2" indicates the START of the second page.-->
-                    <pb n="2" facs="image2.jpg"/>
+                    <pb n="2" facs="Edgeworth_NLS_42180_1833_09_27_page02.jpg"/>
+                    about the length of one of<lb/>
+                    the little volumes of <hi rend="underline">"Sequel</hi><lb/>
+                    <hi rend="underline">to <title ref="./Workography.xml#Rosam1">Rosamond"</title></hi> - For those<lb/>
+                    volumes <persName ref="./Personography.xml#HuntW1" cert="medium">Hunter</persName> gave<lb/>
+                    me £200 apiece -<lb/>
                 </p>
-                <p><!--More body paragraphs as needed.--></p>
+                <p>
+                    I have not any doubt<lb/>
+                    that <persName ref="./Personography.xml#CradC1">Cradock</persName> and <persName ref="./Personography.xml#BaldR1"><choice><orig>Bald-<lb/>
+                    win</orig><reg>Baldwin</reg></choice></persName> who are <choice><orig>republish<lb/>
+                    ing</orig><reg>republishing</reg></choice> the books of mine of<lb/>
+                    which they have purchased<lb/>
+                    the copyright from <persName ref="./Personography.xml#HuntW1" cert="medium">Hunter</persName><lb/>
+                    would like to purchase<lb/>
+                    this volume from me at<lb/>
+                    the same rate - Perhaps<lb/>
+                    it would not be worth your<lb/>
+                    while as you have not the<lb/>
+                    others - <del>And</del> I beg you<lb/>
+                    will tell me frankly what<lb/>
+                    you wish - I have not<lb/>
+                    yet written to <persName ref="./Personography.xml#CradC1">Cradock</persName><lb/>
+                    &amp; <persName ref="./Personography.xml#BaldR1">Baldwin</persName> - as I hold<lb/>
+                </p>
+                <p>
+                    <pb n="3" facs="Edgeworth_NLS_42180_1833_09_27_page03.jpg"/>
+                    myself bound to you if<lb/>
+                    you desire me to be so<lb/>
+                </p>
+                <p>
+                    If not - you can have<lb/>
+                    no scruple in saying so<lb/>
+                    I will pay for the <choice><orig>engrav<lb/>
+                    ings</orig><reg>engravings</reg></choice> if you have <choice><orig>actualy</orig><reg>actually</reg></choice><lb/>
+                    engaged for them &amp;<lb/>
+                    wish me to take them<lb/>
+                    off your hands -<lb/>
+                </p>
+                <p>
+                    The story is a <choice><orig>conti<lb/>
+                            nuation</orig><reg>continuation</reg></choice> of <title ref="./Workography.xml#Garry1"><hi rend="underline">Poor Bob</hi></title> but<lb/>
+                    as it carries his history<lb/>
+                    on to 13 or 14 it can hard<lb/>
+                    ly be called <add>quite</add> a <choice><orig>childrens</orig><reg>children's</reg></choice><lb/>
+                    story - and might not<lb/>
+                    suit your views - Its <choice><orig>prin<lb/>
+                    cipal</orig><reg>principal</reg></choice> aim is point out the<lb/>
+                    follies of taking children<lb/>
+                    from the lower ranks &amp;<lb/>
+                    not giving them suitable<lb/>
+                    education for any station<lb/>
+                </p>
+                <pb n="4" facs="Edgeworth_NLS_42180_1833_09_27_page04.jpg"/>
+                <p>
+                    - giving knowledge without<lb/>
+                    <hi rend="underline">principle</hi><lb/>
+                </p>
+                <p>
+                    The title will be<lb/>
+                    <title ref="./Workography.xml#Garry1">Poor Bob</title> &amp; Louis le Debonnair<lb/>
+                    &amp; I should not wish it to<lb/>
+                    <del><unclear></unclear></del><lb/>
+                    come out before <choice><orig>midsum<lb/>
+                    mer</orig><reg>misdummer</reg></choice> or Christmas 183<hi rend="underline">4</hi><lb/>
+                </p>
                 <closer>
-                    <!--include linebreaks, if used. example: <closer> Yours<lb/> Very sincerely<lb/> -->
+                    I am <choice><orig>D<hi rend="superscript">r</hi>.</orig><reg>Dear</reg></choice> Sir<lb/>
+                    Yours sincerely<lb/>
+                    <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName><lb/>
+                    Pray mention the <persName ref="./Personography.xml#LockX1"><unclear>Lockharts</unclear></persName><lb/>
+                    to me when you answer<lb/>
+                    this<lb/>
                 </closer>
                 <postscript>
-                    <p><!--A postscript goes here, outside the <closer>. --></p>
+                    <p>
+                        <note place="bottom">1833 <choice><orig>Sept</orig><reg>September</reg></choice> 27<lb/>
+                        <persName ref="./Personography.xml#EdgeM1">Edgeworth Miss</persName></note><lb/>
+                    </p>
                 </postscript>
-                <!--You can include a <pb/> here, or inside the postScript.-->
-                <!-- Format for postscripts. 
-               Postscripts do NOT go inside closer tags. Adjust to take into account the order in your letter. 
-               Sometimes the signature is on page three, the address on page four, then the postscript follows back on the top of page one, for example.-->
-                <closer><!--Use the <closer> element again to hold Address Leaf information.-->
-                    <address>
-                        <!--Include any text written on the address leaf; use a separate "addrLine" for each line and indicate line breaks. -->
-                        <addrLine/>
-                        <addrLine/>
-                        <addrLine/>
-                    </address>
-                </closer>
             </div>
         </body>
         <back> </back>
