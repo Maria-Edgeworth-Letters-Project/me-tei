@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/Maria-Edgeworth-Letters-Project/me-tei/refs/heads/main/melp.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter from John Gibson Lockhart to Frances Maria Wilson, January 22, 1834</title>
+                <author>Maria Edgeworth</author>
+                <editor>Alexandra LaGrand</editor>
+                <sponsor>
+                    <orgName>Maria Edgeworth Letters Project</orgName>
+                </sponsor>
+                <sponsor>Texas A &amp; M University, University of Tennessee, Wake Forest University, Xavier University of Louisiana, Southern Methodist University</sponsor>
+                <principal>Susan Egenolf, Meredith Hale, Hilary Havens, Jessica Richard, and Robin Runia</principal>
+                <respStmt>
+                    <resp>Transcription and coding by</resp>
+                    <persName>Alexandra LaGrand</persName>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>First digital edition in TEI, date: <date when="2026-03-27">March 27, 2026</date>
+                </edition>
+                <respStmt>
+                    <orgName type="naf" ref="http://id.loc.gov/authorities/names/n80044899">National Library of Scotland</orgName>
+                    <resp> photos include: Edgeworth_NLS_23131_01_22_page01.jpg, Edgeworth_NLS_23131_01_22_page02.jpg</resp>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <authority>Maria Edgeworth Letters Project</authority>
+                <date>2022</date>
+                <availability>
+                    <p>Reproduced by courtesy of the <orgName ref="http://id.loc.gov/authorities/names/n80044899">National Library of Scotland</orgName>
+                    </p>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons Attribution 4.0 (CC BY 4.0) Unported License</licence>
+                </availability>
+                <idno>Edgeworth_NLS_23131_01_22</idno> 
+            </publicationStmt>
+            <seriesStmt>
+                <title>Maria Edgeworth Letters Project</title>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc xml:lang="en">
+                    <msIdentifier>
+                        <repository>National Library of Scotland</repository>
+                        <collection><!-- Enter specific archival collection if applicable--></collection>
+                        <idno><!--Consult library or WorldCat for this info--></idno>
+                    </msIdentifier>
+                    <head>Letter from 
+                        <persName xml:id="LockJ1">
+                            <forename>John Gibson</forename>
+                            <surname>Lockhart</surname></persName>
+                        to <persName xml:id="EdgeF3">Frances Maria Wilson</persName>, 
+                        <date when="1834-01-22">22 Jan<hi rend="superscript">y</hi></date>
+                    </head>
+                    <physDesc></physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+               <p>Edgeworth’s spelling and punctuation are retained in transcription, including non-standard spelling, line breaks, and hyphenation of words. The long s and ligatured forms are silently emended.</p>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="./Personography.xml#LockJ1">John Gibson Lockhart</persName>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="./Personography.xml#EdgeF3">Frances Maria Wilson</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2026-03-27" who="Id_who">Created file for letter, encoded letter</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="letter">
+                <pb n="1" facs="Edgeworth_NLS_23131_01_22_page01.jpg"/>
+                <opener>
+                    <dateline>
+                        <placeName ref="./Placeography.xml#Sussex-Place-24_ENK"/>24 Sussex Place</dateline>
+                    <salute>
+                        Dear <persName ref="./Personography.xml#EdgeF3">Mrs. Wilson.</persName>
+                    </salute>
+                </opener>
+                <p>
+                    Having been<lb/>
+                    much harassed here and latterly<lb/>
+                    called <del><unclear></unclear></del> for a time to <placeName ref="./Placeography.xml#STK">Scotland</placeName><lb/>
+                    I must beg your <persName ref="./Personography.xml#EdgeM1">sister's</persName> pardon<lb/>
+                    for not sending her until now the<lb/>
+                    <choice><orig>inclosed</orig><reg>enclosed</reg></choice> memorandum, the tenor<lb/>
+                    of which will I hope be found according<lb/>
+                    to her wishes and intentions. I have<lb/>
+                    no doubt the result will be £1200 in her<lb/>
+                    pocket before the year elapses<lb/>
+                </p>
+                <p>
+                    In what state is <title ref="./Workography.xml#Helen1">Helen</title>? . and<lb/>
+                    when may I hope for a copy. If it should<lb/>
+                    be thought that a good long article in the<lb/>
+                    <title ref="./Workography.xml#Quart1">Quarterly</title> would do better than the usual<lb/>
+                    preliminary notices of the weekly literary<lb/>
+                    papers, you could easily induce W. Bentley<lb/>
+                    to consult <choice><orig>w<hi rend="superscript">h</hi></orig><reg>with</reg></choice>. <del>you</del> me as to the exact time<lb/>
+                    of the publication - I mention this <choice><orig>be-<lb/>
+                            -cause</orig><reg>because</reg></choice> as <persName ref="./Personography.xml#EdgeM1">Miss E.</persName> will well understand<lb/>
+                    it is not always found convenient<lb/>
+                    in the <title ref="./Workography.xml#Quart1">Q R.</title> to insert <hi rend="underline">long</hi> papers on<lb/>
+                    works which have just been plundered<lb/>
+                    by the weekly journals; therefore I might<lb/>
+                </p>
+                <p>
+                    <pb n="2" facs="Edgeworth_NLS_23131_01_22_page02.jpg"/>
+                </p>
+                <p>
+                    be obliged, in case of an opposite course<lb/>
+                    being <del>taken</del> adopted, to defer handling<lb/>
+                    <title ref="./Workography.xml#Helen1">Helen</title> longer than would please my<lb/>
+                    own feelings<lb/>
+                </p>
+                <p>
+                    I see I have not mentioned the<lb/>
+                    sad cause of my absence in the<lb/>
+                    North. I have this morning <choice><orig>re<lb/>
+                    turned</orig><reg>returned</reg></choice> <unclear>thence</unclear> after burying a<lb/>
+                    most dear mother<lb/>
+                </p>
+                <closer>
+                    Ever yours sincerely<lb/>
+                    <persName ref="./Personography.xml#LockJ1">JG Lockhart</persName><lb/>
+                </closer>
+                <postscript>
+                    <p>
+                        Copy<lb/>
+                        22 Jan<hi rend="superscript">y</hi><lb/>
+                        1834 Jan<hi rend="superscript">y</hi><lb/>
+                        <persName ref="./Personography.xml#LockJ1"><hi rend="underline">Lockhart</hi></persName><lb/>
+                        <title ref="./Workography.xml#Helen1"><hi rend="underline">Helen</hi></title><lb/>
+                    </p>
+                </postscript>
+             </div>
+        </body>
+        <back> </back>
+    </text>
+</TEI>
