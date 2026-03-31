@@ -94,53 +94,32 @@
                     </salute>
                 </opener>
                 <p>
-                    Have you written yet to
-                    M[superscript]rs[/superscript]. Carmichael?
-                    If you have not I wish you
-                    would not delay longer to
-                    do so - for it is most cruel
-                    to keep her in suspense.
-                    You promised M[superscript]r[/superscript]. and
-                    M[superscript]rs[/superscript]. Lockhart that you would
-                    write directly -
-                    If you have written give
-                    me the satisfaction of a line
-                    to tell me so - &amp; direct under
-                    cover to T[superscript]s[/superscript] Drummond Esq
-                    Dublin Castle -
-                    Yours truly
-                    Maria Edgeworth
-                    M[superscript]rs[/superscript]. Carmichaels address is
-                    S[superscript]t[/superscript]. Helens Jersey
+                    Have you written yet to<lb/>
+                    <persName ref="./Personography.xml#CarmA1">M<hi rend="superscript">rs</hi>. Carmichael?</persName><lb/>
+                    If you have not I wish you<lb/>
+                    would not delay longer to<lb/>
+                    do so - for it is most cruel<lb/>
+                    to keep her in suspense.<lb/>
+                    You promised <persName ref="./Personography.xml#LockJ1">M<hi rend="superscript">r</hi>.</persName> and<lb/>
+                    <persName ref="./Personography.xml#LockS1">M<hi rend="superscript">rs</hi>. Lockhart</persName> that you would<lb/>
+                    write directly -<lb/>
+                    If you have written give<lb/>
+                    me the satisfaction of a line<lb/>
+                    to tell me so - &amp; direct under<lb/>
+                    cover to <persName ref="./Personography.xml#DrumT1"><choice><orig>T<hi rend="superscript">s</hi></orig><reg>Thomas</reg></choice> Drummond</persName> Esq<lb/>
+                    <placeName ref="./Placeography.xml#Dublin-Castle_IE">Dublin Castle</placeName> -<lb/>
                 </p>
-                <p>
-                    <!--More body paragraphs as needed.--></p>
-                <p>
-                    <!--More body paragraphs as needed.-->
-                    <!--Where there's a page break record it inside the relevant body paragraph like this, 
-                  with the self-closing page-break element. n="2" indicates the START of the second page.-->
-                    <pb n="2" facs="image2.jpg"/>
-                </p>
-                <p><!--More body paragraphs as needed.--></p>
                 <closer>
-                    <!--include linebreaks, if used. example: <closer> Yours<lb/> Very sincerely<lb/> -->
+                    Yours truly<lb/>
+                    <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName><lb/>
                 </closer>
                 <postscript>
-                    <p><!--A postscript goes here, outside the <closer>. --></p>
+                    <p>
+                        <persName ref="./Personography.xml#CarmA1">M<hi rend="superscript">rs</hi>. <choice><orig>Carmichaels</orig><reg>Carmichael's</reg></choice></persName> address is<lb/>
+                        S<hi rend="superscript">t</hi>. <choice><orig>Helens</orig><reg>Helen's</reg></choice> <placeName ref="./Placeography.xml#JE">Jersey</placeName><lb/>
+                    </p>
                 </postscript>
-                <!--You can include a <pb/> here, or inside the postScript.-->
-                <!-- Format for postscripts. 
-               Postscripts do NOT go inside closer tags. Adjust to take into account the order in your letter. 
-               Sometimes the signature is on page three, the address on page four, then the postscript follows back on the top of page one, for example.-->
-                <closer><!--Use the <closer> element again to hold Address Leaf information.-->
-                    <address>
-                        <!--Include any text written on the address leaf; use a separate "addrLine" for each line and indicate line breaks. -->
-                        <addrLine/>
-                        <addrLine/>
-                        <addrLine/>
-                    </address>
-                </closer>
-            </div>
+             </div>
         </body>
         <back> </back>
     </text>
