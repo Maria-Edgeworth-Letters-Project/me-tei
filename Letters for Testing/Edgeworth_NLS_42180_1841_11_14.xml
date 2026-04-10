@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/Maria-Edgeworth-Letters-Project/me-tei/refs/heads/main/melp.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter from Maria Edgeworth to John Murray, November 14, 1841</title>
+                <author>Maria Edgeworth</author>
+                <editor>
+                    
+                </editor>
+                <sponsor>
+                    <orgName>Maria Edgeworth Letters Project</orgName>
+                </sponsor>
+                <sponsor>Texas A &amp; M University, University of Tennessee, Wake Forest University, Xavier University of Louisiana, Southern Methodist University</sponsor>
+                <principal>Susan Egenolf, Meredith Hale, Hilary Havens, Jessica Richard, and Robin Runia</principal>
+                <respStmt>
+                    <resp>Transcription and coding by</resp>
+                    <persName>Paris Weber
+                    </persName>
+                    <!-- List all transcribers or coders here, editors and students alike, <persName> by <persName>.-->
+                    <persName><!--FirstName LastName--></persName>
+                    <!-- If you're the last person interacting with the file, enter your name last on the list -->
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>First digital edition in TEI,<date when="2026-04-09">April 9, 2026</date>
+                
+                </edition>
+                <respStmt>
+                    <orgName type="naf" ref="http://id.loc.gov/authorities/names/n80044899">National Library of Scotland</orgName>
+            
+                   
+                    <resp> photos include:
+                        Edgeworth_NLS_42180_1841_11_14_page01.jpg,
+                        Edgeworth_NLS_42180_1841_11_14_page02.jpg,
+                        Edgeworth_NLS_42180_1841_11_14_page03.jpg
+                    </resp>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <authority>Maria Edgeworth Letters Project</authority>
+                <date>2022</date>
+                <availability>
+                    <p>Reproduced by courtesy of the <orgName ref="http://id.loc.gov/authorities/names/n80044899">National Library of Scotland</orgName>
+                    </p>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons Attribution 4.0 (CC BY 4.0) Unported License</licence>
+                </availability>
+                <idno>Edgeworth_NLS_4218-_1841_11_14</idno> 
+            </publicationStmt>
+            <seriesStmt>
+                <title>Maria Edgeworth Letters Project</title>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc xml:lang="en">
+                  
+                    <msIdentifier>
+                        <repository>National Library of Scotland </repository>
+                       
+                    </msIdentifier>
+                    <head>Letter from 
+                        <persName xml:id="EdgeM1" from="1768" to="1849">
+                            <forename>Maria</forename>
+                            <surname>Edgeworth</surname>
+                            <date>1768-1849</date>
+                            <idno type="VIAF">71477273</idno>
+                            <idno type="SNAC">62567029</idno>
+                        </persName>
+                        to <persName ref="./Personography.xml#MurrJ3">John Murray</persName>, <placeName><!--Location where letter was sent--></placeName>, 
+                        <date when="1841-11-14">Nov<hi rend="superscript">r</hi>14.<hi rend="superscript">h</hi>1841</date>
+                        
+                    </head>
+                   
+                </msDesc>
+               
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p>Edgeworth’s spelling and punctuation are retained in transcription, including non-standard spelling, line breaks, and hyphenation of words. The long s and ligatured forms are silently emended.</p>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="./Personography.xml#MurrJ3">
+                        John Murray</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2021-01-01" who="Id_who">
+                <!--Brief description of what you did here.-->
+            </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="letter">
+                <pb n="1" facs="Edgeworth_NLS_42180_1841_11_14_page01.jpg"/>
+                
+                <opener>
+                    <dateline>
+                        <placeName ref="./Placeography.xml#Trim_IE">Trim</placeName>
+                        <date when="1841-11-14">Nov<hi rend="superscript">r</hi>14.<hi rend="superscript">h</hi>1841</date></dateline>
+                    <salute>
+                        Dear <persName ref="./Personography.xml#MurrJ3">M<hi rend="superscript">r</hi> Murray</persName>
+                    </salute>
+                </opener>
+                <p>
+                Sometime ago a German<lb/>
+                lady <persName ref="./Personography.xml#KohlX1">Miss Kohl</persName> who is a<lb/>
+                governess in a friends family<lb/>
+                in our neighbourhood &amp;<lb/>
+                a very respectable <choice> 
+                <orig>accomplish<lb/>
+                ed</orig>
+                <reg>accomplished</reg>
+                </choice>
+                person wrote to you<lb/>
+                using my name for her <choice> 
+                <orig>in<lb/>
+                troduction,</orig>
+                <reg>introduction</reg>
+                </choice>
+                <hi rend="underline">with my <choice> 
+                 <orig>permis<lb/>
+                 sion</orig>
+                 <reg>permission</reg>
+                 </choice></hi>
+                <add>or</add>or indeed at my suggestion<lb/>
+                <del>and</del>inquiring from you<lb/>
+                 whether you would <choice> 
+                 <orig>encou<lb/>
+                  rage</orig>
+                 <reg>encourage</reg>
+                 </choice>
+                her to translate from<lb/>
+                the German &amp; in short whether<lb/>
+                you would undertake the<lb/>
+                publication of a translation<lb/>
+                of a book of travels of her<lb/>
+                brothers <persName ref="./Personography.xml#KohlJ1">M<hi rend="superscript">r</hi>. Kohl</persName> a man famous in his<lb/>
+                own Country. I am not a German<lb/>
+                scholar and never read the<lb/>
+                book. - My brother <persName ref="./Personography.xml#EdgeF1">Francis</persName> a man<lb/>
+                who is a German scholar<lb/>
+               
+              
+                    <pb n="2" facs="Edgeworth_NLS_42180_1841_11_14_page02.jpg"/>
+                has read great part of <persName ref="./Personography.xml#KohlJ1">M<hi rend="superscript">r</hi>. Kohls</persName><lb/>
+                travels and I hear him<lb/>
+                pronounce them to be <choice> 
+                <orig>enter<lb/>
+                taining</orig>
+               <reg>entertaining</reg>
+                </choice>
+                and instructive<lb/></p>
+                <p>
+                <persName ref="./Personography.xml#KohlX1">Miss K</persName> I believe sent you<lb/>
+                specimens of translation<lb/>
+                of hers -<lb/></p>
+                <p>
+                Now my dear Sir<lb/>
+                Whatever you decide to do<lb/>
+                I pray you answer the lady<lb/>
+                and return her M<hi rend="superscript">t</hi> or<lb/>
+                <del>an</del> an engagement to keep<lb/>
+                it - And by so doing do justice<lb/>
+                to my <hi rend="underline">character</hi> of you &amp; your<lb/>
+                son to this foreigner, as the<lb/>
+                most liberal and polite of<lb/>
+                <placeName ref="./Placeography.xml#London_ENK">London</placeName> publishers<lb/></p>
+                <p>
+                I ask no more and<lb/>
+                you can do no less - So what<lb/>
+                is fit to be done do promptly<lb/>
+                &amp; either direct your answer<lb/>
+                to me at <placeName ref="./Placeography.xml#Edgeworthstown_IE">Edgeworthstown</placeName> <lb/>
+                    
+                    <pb n="3" facs="Edgeworth_NLS_42180_1841_11_14_page03.jpg"/>
+                    
+                or to <persName ref="./Personography.xml#KohlX1">Miss Kohl</persName><lb/>
+                at <persName ref="./Personography.xml#TuitJ1">HM Tuite Esq<hi rend="superscript">re</hi></persName><lb/>
+                <placeName ref="./Placeography.xml#Sonna-House_IE">Sonna</placeName><lb/>
+                <placeName ref="./Placeography.xml#Mullingar_IE">Mullingar Ireland</placeName><lb/>
+                as best suits your fancy<lb/></p>
+                <p>
+                Believe me truly y<hi rend="superscript">s</hi><lb/>
+                just now recove<hi rend="underline">red</hi> or recover<hi rend="superscript">ing</hi><lb/>
+                from a severe bilious<lb/>
+                attack -<lb/></p>
+                
+                <closer> <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName><lb/>
+                Pray send me by post<lb/>
+                <persName ref="./Personography.xml#SedgC1" cert="high">Miss Sedgwicks</persName> book<lb/>
+                if not past post weight<lb/>
+           
+                </closer>
+              
+            </div>
+        </body>
+        <back> </back>
+    </text>
+</TEI>
+
+
