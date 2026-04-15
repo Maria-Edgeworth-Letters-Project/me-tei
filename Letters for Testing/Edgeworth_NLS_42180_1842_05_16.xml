@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/Maria-Edgeworth-Letters-Project/me-tei/refs/heads/main/melp.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter from Maria Edgeworth, May 16, 1842</title>
+                <author>Maria Edgeworth</author>
+                <editor>Alexandra LaGrand</editor>
+                <sponsor>
+                    <orgName>Maria Edgeworth Letters Project</orgName>
+                </sponsor>
+                <sponsor>Texas A &amp; M University, University of Tennessee, Wake Forest University, Xavier University of Louisiana, Southern Methodist University</sponsor>
+                <principal>Susan Egenolf, Meredith Hale, Hilary Havens, Jessica Richard, and Robin Runia</principal>
+                <respStmt>
+                    <resp>Transcription and coding by</resp>
+                    <persName>Alexandra LaGrand</persName>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>First digital edition in TEI, date: <date when="2026-04-15">April 15, 2026</date>
+                </edition>
+                <respStmt>
+                    <orgName type="naf" ref="http://id.loc.gov/authorities/names/n80044899">National Library of Scotland</orgName>
+                    <resp> photos include: Edgeworth_NLS_42180_1842_05_16_page01.jpg, Edgeworth_NLS_42180_1842_05_16_page02.jpg, Edgeworth_NLS_42180_1842_05_16_page03.jpg</resp>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <authority>Maria Edgeworth Letters Project</authority>
+                <date>2022</date>
+                <availability>
+                    <p>Reproduced by courtesy of the <orgName ref="http://id.loc.gov/authorities/names/n80044899">National Library of Scotland</orgName>
+                    </p>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons Attribution 4.0 (CC BY 4.0) Unported License</licence>
+                </availability>
+                <idno>Edgeworth_NLS_42180_1842_05_16</idno> 
+            </publicationStmt>
+            <seriesStmt>
+                <title>Maria Edgeworth Letters Project</title>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc xml:lang="en">
+                    <msIdentifier>
+                        <repository>National Library of Scotland</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <head>Letter from 
+                        <persName xml:id="EdgeM1" from="1768" to="1849">
+                            <forename>Maria</forename>
+                            <surname>Edgeworth</surname>
+                            <date>1768-1849</date>
+                            <idno type="VIAF">71477273</idno>
+                            <idno type="SNAC">62567029</idno>
+                        </persName>, <date when="1842-05-16">May 16<hi rend="superscript">th</hi>. 1842</date>
+                    </head>
+                    <physDesc></physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+               <p>Edgeworth’s spelling and punctuation are retained in transcription, including non-standard spelling, line breaks, and hyphenation of words. The long s and ligatured forms are silently emended.</p>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Unknown</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2026-04-15" who="Id_who">Created file for letter, encoded letter</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="letter">
+                <pb n="1" facs="Edgeworth_NLS_42180_1842_05_16_page01.jpg"/>
+                <opener>
+                    <dateline>
+                        <placeName ref="./Placeography.xml#Edgeworthstown_IE"/><choice><orig>Edgeworths Town</orig><reg>Edgeworthstown</reg></choice>
+                        <date when="1842-05-16">May 16<hi rend="superscript">th</hi>. 1842</date></dateline>
+                    <salute>Dear Sir</salute>
+                </opener>
+                <p>
+                    You will do me a service<lb/>
+                    and a favor by affixing<lb/>
+                    my name to the petition<lb/>
+                    to the House of Lords in favor<lb/>
+                    of <persName ref="./Personography.xml#StanP1">Lord <choice><orig>Mahons</orig><reg>Mahon's</reg></choice></persName> Copyright<lb/>
+                    Bill -<lb/>
+                </p>
+                <p>
+                    I am obliged to <persName ref="./Personography.xml#StanP1">Lord<lb/>
+                    Mahon</persName> for suggesting to you<lb/>
+                    to write to me and thank<lb/>
+                    you for doing so - thus giving<lb/>
+                    me an opportunity of <choice><orig>express =<lb/>
+                    = ing</orig><reg>expressing</reg></choice> my sense of the public<lb/>
+                    advantage to the literary world<lb/>
+                    of the measure &amp; giving me also<lb/>
+                    the pleasure &amp; honor of having<lb/>
+                    my name in such good &amp;<lb/>
+                    high company as among<lb/>
+                    those you mention to me<lb/>
+                    who have already signed<lb/>
+                    this petition<lb/>
+                </p>
+                <closer>
+                    I am Dear Sir<lb/>
+                    Yours sincerely<lb/>
+                    <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName><lb/>
+                </closer>
+                <postscript>
+                    <p>
+                        <pb n="2" facs="Edgeworth_NLS_42180_1842_05_16_page02.jpg"/>
+                        Do you know <persName ref="./Personography.xml#CostL1">Miss Costello</persName><lb/>
+                        We have been much amused<lb/>
+                        by her <title ref="./Workography.xml#Pilgr1">Pilgrimage to <placeName ref="./Placeography.xml#Auvergne_FR">Auvergne</placeName></title><lb/>
+                    </p>
+                    <p>
+                        I have a curiosity to know<lb/>
+                        what sort of a rose it is which<lb/>
+                        she calls the <hi rend="underline">Provins</hi> = rose<lb/>
+                        and which she says was<lb/>
+                        brought over by the Crusaders<lb/>
+                        <del>&amp;</del> Is it like what we call in<lb/>
+                        <placeName ref="./Placeography.xml#ENK">England</placeName> the <placeName ref="./Placeography.xml#Provence_FR">Provence</placeName><lb/>
+                    </p>
+                    <p>
+                        Is it a pale pink or a<lb/>
+                        deep crimson - Did she bring<lb/>
+                        over any cuttings of it -<lb/>
+                        If you have any opportunity<lb/>
+                        of seeing her will you ask these<lb/>
+                        questions - Also will you<lb/>
+                        ask her where in <persName ref="./Personography.xml#Volta1"><choice><orig>Voltaires</orig><reg>Voltaire's</reg></choice></persName><lb/>
+                        works we can find mention<lb/>
+                        of <persName ref="./Personography.xml#Louis14"><choice><orig>Luois</orig><reg>Louis</reg></choice> the fourteenth's</persName> notice<lb/>
+                        and favors towards the <choice><orig>in<lb/>
+                        habitants</orig><reg>inhabitants</reg></choice> of a peculiar District<lb/>
+                        in <placeName ref="./Placeography.xml#Auvergne_FR">Auvergne</placeName> - <del></del><lb/>
+                        We have looked over <del><choice><orig>Voltaires</orig><reg>Voltaire's</reg></choice></del><lb/>
+                        General Index to <persName ref="./Personography.xml#Volta1"><choice><orig>Voltaires</orig><reg>Voltaire's</reg></choice></persName><lb/>
+                        <pb n="3" facs="Edgeworth_NLS_42180_1842_05_16_page03.jpg"/>
+                        Works and through his<lb/>
+                        <title ref="./Workography.xml#Ageof1"><choice><orig>Siecle de Louis Quatorze</orig><reg>Le Siecle de Louis XIV</reg></choice></title> in<lb/>
+                        vain -<lb/>
+                        May 16. 1842.<lb/>
+                        <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName><lb/>
+                    </p>
+                </postscript>
+            </div>
+        </body>
+        <back> </back>
+    </text>
+</TEI>
