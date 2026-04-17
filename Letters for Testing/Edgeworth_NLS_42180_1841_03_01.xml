@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/Maria-Edgeworth-Letters-Project/me-tei/refs/heads/main/melp.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter from Maria Edgeworth to Unknown, March 3, 1841</title>
+                <author>Maria Edgeworth</author>
+                <editor>
+                    
+                </editor>
+                <sponsor>
+                    <orgName>Maria Edgeworth Letters Project</orgName>
+                </sponsor>
+                <sponsor>Texas A &amp; M University, University of Tennessee, Wake Forest University, Xavier University of Louisiana, Southern Methodist University</sponsor>
+                <principal>Susan Egenolf, Meredith Hale, Hilary Havens, Jessica Richard, and Robin Runia</principal>
+                <respStmt>
+                    <resp>Transcription and coding by</resp>
+                    <persName>Paris Weber
+                    </persName>
+                    <!-- List all transcribers or coders here, editors and students alike, <persName> by <persName>.-->
+                    <persName><!--FirstName LastName--></persName>
+                    <!-- If you're the last person interacting with the file, enter your name last on the list -->
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>First digital edition in TEI,<date when="2026-04-09">April 9, 2026</date>
+                    
+                </edition>
+                <respStmt>
+                    <orgName type="naf" ref="http://id.loc.gov/authorities/names/n80044899">National Library of Scotland</orgName>
+                    
+                    
+                    <resp> photos include:
+                        Edgeworth_NLS_42180_1841_11_14_page01.jpg,
+                        Edgeworth_NLS_42180_1841_11_14_page02.jpg,
+                        Edgeworth_NLS_42180_1841_11_14_page03.jpg
+                    </resp>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <authority>Maria Edgeworth Letters Project</authority>
+                <date>2022</date>
+                <availability>
+                    <p>Reproduced by courtesy of the <orgName ref="http://id.loc.gov/authorities/names/n80044899">National Library of Scotland</orgName>
+                    </p>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons Attribution 4.0 (CC BY 4.0) Unported License</licence>
+                </availability>
+                <idno>Edgeworth_NLS_4218-_1841_11_14</idno> 
+            </publicationStmt>
+            <seriesStmt>
+                <title>Maria Edgeworth Letters Project</title>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc xml:lang="en">
+                    
+                    <msIdentifier>
+                        <repository>National Library of Scotland </repository>
+                        
+                    </msIdentifier>
+                    <head>Letter from 
+                        <persName xml:id="EdgeM1" from="1768" to="1849">
+                            <forename>Maria</forename>
+                            <surname>Edgeworth</surname>
+                            <date>1768-1849</date>
+                            <idno type="VIAF">71477273</idno>
+                            <idno type="SNAC">62567029</idno>
+                        </persName>
+                        to <persName ref="./Personography.xml#MurrJ3">John Murray</persName>, <placeName><!--Location where letter was sent--></placeName>, 
+                        <date when="1841-11-14">Nov<hi rend="superscript">r</hi>14.<hi rend="superscript">h</hi>1841</date>
+                        
+                    </head>
+                    
+                </msDesc>
+                
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p>Edgeworth’s spelling and punctuation are retained in transcription, including non-standard spelling, line breaks, and hyphenation of words. The long s and ligatured forms are silently emended.</p>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="./Personography.xml#MurrJ3">
+                        John Murray</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2021-01-01" who="Id_who">
+                <!--Brief description of what you did here.-->
+            </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="letter">
+                <pb n="1" facs="Edgeworth_NLS_42180_1841_11_14_page01.jpg"/>
+                
+                <opener>
+                    <dateline>
+                        <placeName ref="./Placeography.xml#Trim_IE">Trim</placeName>
+                        <date when="1841-11-14">Nov<hi rend="superscript">r</hi>14.<hi rend="superscript">h</hi>1841</date></dateline>
+                    <salute>
+                        Dear <persName ref="./Personography.xml#MurrJ3">M<hi rend="superscript">r</hi> Murray</persName>
+                    </salute>
+                </opener>
+                <p>
+                    
+                    1 North Audley Street
+                    March 1[superscript]t[/superscript] 1841
+                    Dear Sir
+                    I have before me a note of
+                    your daughters apologising
+                    for your not coming to see
+                    me - you and your son
+                    both owe me the courtesy
+                    of a visit - which I must
+                    have now or never as I
+                    have but this week more
+                    of London life - But it is
+                    not the mere ceremony of visit
+                    ing upon which I stand; I
+                    w[superscript]d[/superscript] not take you from solid
+                    business to empty morning
+                    visit - But I want to see
+                    I want to see
+                    you both or either to have
+                    a half hours [underline]talk[/underline] with you
+                    upon a literary project of
+                    my friend Madame Bellois
+                    -It is not about a book
+                    But tho I tell what it is not
+                    about I cannot tell you what
+                    it is about till [deletion]you[/deletion] we can talk
+                    it over - It is too long for
+                    
+                    <pb n="2" facs="Edgeworth_NLS_42180_1841_11_14_page02.jpg"/>
+                    
+                    
+                    writing notes upon
+                    I trust that either you or
+                    your son understand
+                    French & whichever under
+                    stands it best had best
+                    read Madame Bellois
+                    letter - or [unclear][/unclear] to the
+                    translation of
+                    D[superscript]r[/superscript] [/superscript]- <closer>Sir yours truly
+                    Maria Edgeworth</closer>
+                    <postscript>
+                        <p> [underline]P.S[/underline] Do not come to day!
+                            [deletion][unclear]even if you could[/unclear][deletion] because
+                            I am engaged all morning
+                            till four
+                            
+                            <pb n="3" facs="Edgeworth_NLS_42180_1841_11_14_page03.jpg"/>
+                            
+                            / Monday, unless you could come
+                            between 4 and 5 </p>
+                    </postscript>
+                   
+                    
+                  you could come
+                    between 4 and 5
+                
+                 
+                
+            </div>
+        </body>
+        <back> </back>
+    </text>
+</TEI>
+
+
+
+/ Monday, unless you could come
+between 4 and 5
