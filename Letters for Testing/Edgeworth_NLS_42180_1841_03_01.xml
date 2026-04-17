@@ -7,7 +7,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Letter from Maria Edgeworth to Unknown, March 3, 1841</title>
+                <title>Letter from Maria Edgeworth, March 3, 1841</title>
                 <author>Maria Edgeworth</author>
                 <editor>
                     
@@ -27,7 +27,7 @@
                 </respStmt>
             </titleStmt>
             <editionStmt>
-                <edition>First digital edition in TEI,<date when="2026-04-09">April 9, 2026</date>
+                <edition>First digital edition in TEI,<date when="2026-04-17">April 17, 2026</date>
                     
                 </edition>
                 <respStmt>
@@ -35,9 +35,9 @@
                     
                     
                     <resp> photos include:
-                        Edgeworth_NLS_42180_1841_11_14_page01.jpg,
-                        Edgeworth_NLS_42180_1841_11_14_page02.jpg,
-                        Edgeworth_NLS_42180_1841_11_14_page03.jpg
+                        Edgeworth_NLS_42180_1841_03_01_page01.jpg,
+                        Edgeworth_NLS_42180_1841_03_01_page02.jpg,
+                        Edgeworth_NLS_42180_1841_03_01_page03.jpg
                     </resp>
                 </respStmt>
             </editionStmt>
@@ -49,7 +49,7 @@
                     </p>
                     <licence target="https://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons Attribution 4.0 (CC BY 4.0) Unported License</licence>
                 </availability>
-                <idno>Edgeworth_NLS_4218-_1841_11_14</idno> 
+                <idno>Edgeworth_NLS_42180_1841_03_01</idno> 
             </publicationStmt>
             <seriesStmt>
                 <title>Maria Edgeworth Letters Project</title>
@@ -69,7 +69,7 @@
                             <idno type="VIAF">71477273</idno>
                             <idno type="SNAC">62567029</idno>
                         </persName>
-                        to <persName ref="./Personography.xml#MurrJ3">John Murray</persName>, <placeName><!--Location where letter was sent--></placeName>, 
+                        to <persName>Unknown</persName>,
                         <date when="1841-11-14">Nov<hi rend="superscript">r</hi>14.<hi rend="superscript">h</hi>1841</date>
                         
                     </head>
@@ -89,8 +89,7 @@
                     <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
                 </correspAction>
                 <correspAction type="received">
-                    <persName ref="./Personography.xml#MurrJ3">
-                        John Murray</persName>
+                    <persName>Unknown</persName>
                 </correspAction>
             </correspDesc>
         </profileDesc>
@@ -103,84 +102,80 @@
     <text>
         <body>
             <div type="letter">
-                <pb n="1" facs="Edgeworth_NLS_42180_1841_11_14_page01.jpg"/>
+                <pb n="1" facs="Edgeworth_NLS_42180_1841_03_01_page01.jpg"/>
                 
                 <opener>
                     <dateline>
-                        <placeName ref="./Placeography.xml#Trim_IE">Trim</placeName>
-                        <date when="1841-11-14">Nov<hi rend="superscript">r</hi>14.<hi rend="superscript">h</hi>1841</date></dateline>
+                        <placeName ref="./Placeography.xml#North-Audley-Street-1_ENK">1 North Audley Street</placeName>
+                        <date when="1841-03-01">March 1<hi rend="superscript">t</hi>1841</date></dateline>
                     <salute>
-                        Dear <persName ref="./Personography.xml#MurrJ3">M<hi rend="superscript">r</hi> Murray</persName>
+                        Dear Sir
                     </salute>
                 </opener>
                 <p>
-                    
-                    1 North Audley Street
-                    March 1[superscript]t[/superscript] 1841
-                    Dear Sir
-                    I have before me a note of
-                    your daughters apologising
-                    for your not coming to see
-                    me - you and your son
-                    both owe me the courtesy
-                    of a visit - which I must
-                    have now or never as I
-                    have but this week more
-                    of London life - But it is
-                    not the mere ceremony of visit
-                    ing upon which I stand; I
-                    w[superscript]d[/superscript] not take you from solid
-                    business to empty morning
-                    visit - But I want to see
-                    I want to see
-                    you both or either to have
-                    a half hours [underline]talk[/underline] with you
-                    upon a literary project of
-                    my friend Madame Bellois
-                    -It is not about a book
-                    But tho I tell what it is not
-                    about I cannot tell you what
-                    it is about till [deletion]you[/deletion] we can talk
-                    it over - It is too long for
-                    
-                    <pb n="2" facs="Edgeworth_NLS_42180_1841_11_14_page02.jpg"/>
-                    
-                    
-                    writing notes upon
-                    I trust that either you or
-                    your son understand
-                    French & whichever under
-                    stands it best had best
-                    read Madame Bellois
-                    letter - or [unclear][/unclear] to the
-                    translation of
-                    D[superscript]r[/superscript] [/superscript]- <closer>Sir yours truly
-                    Maria Edgeworth</closer>
-                    <postscript>
-                        <p> [underline]P.S[/underline] Do not come to day!
-                            [deletion][unclear]even if you could[/unclear][deletion] because
-                            I am engaged all morning
-                            till four
-                            
-                            <pb n="3" facs="Edgeworth_NLS_42180_1841_11_14_page03.jpg"/>
-                            
-                            / Monday, unless you could come
-                            between 4 and 5 </p>
-                    </postscript>
                    
+                    I have before me a note of<lb/>
+                    your daughters apologising<lb/>
+                    for your not coming to see<lb/>
+                    me - you and your son<lb/>
+                    both owe me the courtesy<lb/>
+                    of a visit - which I must<lb/>
+                    have now or never as I<lb/>
+                    have but this week more<lb/>
+                    of <placeName ref="./Placeography.xml#London_ENK">London</placeName> life - But it is<lb/>
+                    not the mere ceremony of <choice> 
+                    <orig>visit<lb/>
+                    ing</orig>
+                    <reg>visiting</reg>
+                    </choice>
+                    upon which I stand; I<lb/>
+                    w<hi rend="superscript">d</hi> not take you from solid<lb/>
+                    business to empty morning<lb/>
+                    visit - But I want to see<lb/>
+                    you both or either to have<lb/>
+                    a half hours <hi rend="underline">talk</hi> with you<lb/>
+                    upon a literary project of<lb/>
+                    my friend <persName ref="./Personography.xml#BellX2">Madame Bellois</persName><lb/>
+                    -It is not about a book<lb/></p>
+                
+                    <p>
+                    But tho I tell what it is not<lb/>
+                    about I cannot tell you what<lb/>
+                    it is about till <del>you</del> we can talk<lb/>
+                    it over - It is too long for<lb/>
                     
-                  you could come
-                    between 4 and 5
-                
-                 
-                
+                    <pb n="2" facs="Edgeworth_NLS_42180_1841_03_01_page02.jpg"/>
+                    
+                    
+                    writing notes upon<lb/></p>
+                    <p>
+                    I trust that either you or<lb/>
+                    your son understand<lb/>
+                    French &amp; whichever <choice> 
+                    <orig>under<lb/>
+                    stands</orig>
+                     <reg>understands</reg>
+                     </choice>
+                    it best had best<lb/>
+                    read <persName ref="./Personography.xml#BellX2">Madame Bellois</persName><lb/>
+                    letter - or <unclear></unclear> to the<lb/>
+                    translation of<lb/></p>
+                   <closer>D<hi rend="superscript">r</hi> Sir- yours truly<lb/>
+                    <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName><lb/></closer>
+                    <postscript>
+                    <p> <hi rend="underline">P.S</hi> Do not come to day!<lb/>
+                     <del><unclear>even if you could</unclear></del> because<lb/>
+                     I am engaged all morning<lb/>
+                     till four<lb/>
+                            
+                     <pb n="3" facs="Edgeworth_NLS_42180_1841_03_01_page03.jpg"/>
+                            
+                     / Monday, unless you could come<lb/>
+                       <hi rend="underline">between 4 and 5</hi><lb/> </p>
+                    </postscript>
+               
             </div>
         </body>
         <back> </back>
     </text>
 </TEI>
-
-
-
-/ Monday, unless you could come
-between 4 and 5
