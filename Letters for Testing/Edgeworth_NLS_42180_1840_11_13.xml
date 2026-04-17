@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/Maria-Edgeworth-Letters-Project/me-tei/refs/heads/main/melp.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter from Maria Edgeworth, November 13, 1840</title>
+                <author>Maria Edgeworth</author>
+                <editor>Alexandra LaGrand</editor>
+                <sponsor>
+                    <orgName>Maria Edgeworth Letters Project</orgName>
+                </sponsor>
+                <sponsor>Texas A &amp; M University, University of Tennessee, Wake Forest University, Xavier University of Louisiana, Southern Methodist University</sponsor>
+                <principal>Susan Egenolf, Meredith Hale, Hilary Havens, Jessica Richard, and Robin Runia</principal>
+                <respStmt>
+                    <resp>Transcription and coding by</resp>
+                    <persName>Alexandra LaGrand</persName>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>First digital edition in TEI, date: <date when="2026-04-17">April 17, 2026</date>
+                </edition>
+                <respStmt>
+                    <orgName type="naf" ref="http://id.loc.gov/authorities/names/n80044899">National Library of Scotland</orgName>
+                    <resp> photos include: Edgeworth_NLS_42180_1840_11_13_page01.jpg, Edgeworth_NLS_42180_1840_11_13_page02.jpg, Edgeworth_NLS_42180_1840_11_13_page03.jpg, Edgeworth_NLS_42180_1840_11_13_page04.jpg</resp>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <authority>Maria Edgeworth Letters Project</authority>
+                <date>2022</date>
+                <availability>
+                    <p>Reproduced by courtesy of the <orgName ref="http://id.loc.gov/authorities/names/n80044899">National Library of Scotland</orgName>
+                    </p>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons Attribution 4.0 (CC BY 4.0) Unported License</licence>
+                </availability>
+                <idno>Edgeworth_NLS_42180_1840_11_13</idno> 
+            </publicationStmt>
+            <seriesStmt>
+                <title>Maria Edgeworth Letters Project</title>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc xml:lang="en">
+                    <msIdentifier>
+                        <repository>National Library of Scotland</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <head>Letter from 
+                        <persName xml:id="EdgeM1" from="1768" to="1849">
+                            <forename>Maria</forename>
+                            <surname>Edgeworth</surname>
+                            <date>1768-1849</date>
+                            <idno type="VIAF">71477273</idno>
+                            <idno type="SNAC">62567029</idno>
+                        </persName>, <date when="1840-11-13">Nov. 13<hi rend="superscript">th</hi> 1840</date>
+                    </head>
+                    <physDesc></physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+               <p>Edgeworth’s spelling and punctuation are retained in transcription, including non-standard spelling, line breaks, and hyphenation of words. The long s and ligatured forms are silently emended.</p>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Unknown</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2026-04-17" who="Id_who">Created file for letter, encoded letter</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="letter">
+                <pb n="1" facs="Edgeworth_NLS_42180_1840_11_13_page01.jpg"/>
+                <opener>
+                    <dateline>
+                        <date when="1840-11-13">Nov. 13<hi rend="superscript">th</hi> 1840</date></dateline>
+                    <salute><choice><orig>D<hi rend="superscript">r</hi></orig><reg>Dear</reg></choice> Sir</salute>
+                </opener>
+                <p>
+                    The lady who will probably<lb/>
+                    present this note to you<lb/>
+                    is <persName ref="./Personography.xml#MoorL1">Mrs. Moore</persName>, the widow<lb/>
+                    of <persName ref="./Personography.xml#MoorG1">M<hi rend="superscript">r</hi>. G Moore</persName> of <placeName ref="./Placeography.xml#Moore-Hall_IE">Moore-Hall</placeName><lb/>
+                   (<placeName ref="./Placeography.xml#Mayo_IE">County of Mayo</placeName>, <placeName ref="./Placeography.xml#IE">Ireland</placeName>)<lb/>
+                    - Perhaps <persName ref="./Personography.xml#MoorG1">Mr. Moore's</persName><lb/>
+                    name may be known to<lb/>
+                    you, and may meet with<lb/>
+                    more consideration from<lb/>
+                    you as having been the<lb/>
+                    friend of <persName ref="./Personography.xml#McInJ1">Sir James <unclear><choice><orig>M<hi rend="superscript">c.</hi>In=<lb/>
+                    Tosh</orig><reg>McIntosh</reg><reg>Mackintosh</reg></choice></unclear></persName> than as having been<lb/>
+                    a <placeName ref="./Placeography.xml#Mayo_IE">Mayo</placeName> Squire of great estate<lb/>
+                    -(See - extract from the Diary<lb/>
+                    of <persName ref="./Personography.xml#MoorG1">G Moore</persName> <choice><orig>Esq<hi rend="superscript">re</hi></orig><reg>Esquire</reg></choice> in<lb/>
+                    <persName ref="./Personography.xml#McInJ1">M<hi rend="superscript">c</hi>.Intosh's</persName> <title ref="./Workography.xml#Memoi12">Memoirs</title> -<lb/>
+                </p>
+                <p>
+                    <persName ref="./Personography.xml#MoorG1">M<hi rend="superscript">r</hi>. George Moore</persName> may<lb/>
+                    be <add>known</add>, - or ought to be known to<lb/>
+                    you as an author - author<lb/>
+                    of the <title ref="./Workography.xml#Lives1">Lives of <persName ref="./Personography.xml#WillJ1">Ripperda</persName>, - of<lb/>
+                    <persName ref="./Personography.xml#JoseS1">Pombal</persName> &amp; of <persName ref="./Personography.xml#AlbeG1">Alberoni</persName></title> - <del>also</del><lb/>
+                </p>
+                <p>
+                    <pb n="2" facs="image2.jpg"/>
+                    He had been for some years<lb/>
+                    previous to his death engaged<lb/>
+                    in writing a history of the French<lb/>
+                    Revolution - I have never seen<lb/>
+                    the manuscript, but judging<lb/>
+                    from his previous works <hi rend="underline">and</hi><lb/>
+                    from his conversation <hi rend="underline">and</hi><lb/>
+                    the <choice><orig>correspondance</orig><reg>correspondence</reg></choice> abroad<lb/>
+                    <hi rend="underline">and</hi> sources of information<lb/>
+                    which I know he possessed <hi rend="underline">amp;</hi><lb/>
+                    an excellent library (though in<lb/>
+                    the <placeName ref="./Placeography.xml#Mayo_IE">County of Mayo</placeName>) I can ven<lb/>
+                    ture without fear of lowering<lb/>
+                    my own credit, or endangering<lb/>
+                    your interest to recommend<lb/>
+                    it to you receive the work of<lb/>
+                    his which will be offered to you<lb/>
+                    - at all events to give it your<lb/>
+                    consideration. <add>Whether it be finished or<lb/>
+                    a fragment I know not<lb/>
+                    all this for <choice><orig>y<hi rend="superscript">r</hi>.</orig><reg>your</reg></choice> examination</add><lb/>
+                    <persName ref="./Personography.xml#MoorL1">M<hi rend="superscript">rs</hi>. Moore</persName>, <persName ref="./Personography.xml#MoorG1">the <choice><orig>authors</orig><reg>author's</reg></choice></persName> widow<lb/>
+                    the person who wishes to speak<lb/>
+                    to you and to hear you speak<lb/>
+                    about it is a very clever woman<lb/>
+                    but not a literary lady, <del>though</del><lb/>
+                    and all unused to any<lb/>
+                </p>
+                <p>
+                    <!--More body paragraphs as needed.-->
+                </p>
+                <closer>
+                    <!--include linebreaks, if used. example: <closer> Yours<lb/> Very sincerely<lb/> -->
+                </closer>
+                <postscript>
+                    <p><!--A postscript goes here, outside the <closer>. --></p>
+                </postscript>
+                <!--You can include a <pb/> here, or inside the postScript.-->
+                <!-- Format for postscripts. 
+               Postscripts do NOT go inside closer tags. Adjust to take into account the order in your letter. 
+               Sometimes the signature is on page three, the address on page four, then the postscript follows back on the top of page one, for example.-->
+                <closer><!--Use the <closer> element again to hold Address Leaf information.-->
+                    <address>
+                        <!--Include any text written on the address leaf; use a separate "addrLine" for each line and indicate line breaks. -->
+                        <addrLine/>
+                        <addrLine/>
+                        <addrLine/>
+                    </address>
+                </closer>
+            </div>
+        </body>
+        <back> </back>
+    </text>
+</TEI>
