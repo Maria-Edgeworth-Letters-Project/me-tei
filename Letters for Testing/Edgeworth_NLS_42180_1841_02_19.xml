@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/Maria-Edgeworth-Letters-Project/me-tei/refs/heads/main/melp.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter from Maria Edgeworth to Maria Murray, February 19, 1841</title>
+                <author>Maria Edgeworth</author>
+                <editor>Alexandra LaGrand</editor>
+                <sponsor>
+                    <orgName>Maria Edgeworth Letters Project</orgName>
+                </sponsor>
+                <sponsor>Texas A &amp; M University, University of Tennessee, Wake Forest University, Xavier University of Louisiana, Southern Methodist University</sponsor>
+                <principal>Susan Egenolf, Meredith Hale, Hilary Havens, Jessica Richard, and Robin Runia</principal>
+                <respStmt>
+                    <resp>Transcription and coding by</resp>
+                    <persName>Alexandra LaGrand</persName>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>First digital edition in TEI, date: <date when="2026-04-22">April 22, 2026</date>
+                </edition>
+                <respStmt>
+                    <orgName type="naf" ref="http://id.loc.gov/authorities/names/n80044899">National Library of Scotland</orgName>
+                    <resp> photos include: Edgeworth_NLS_42180_1841_02_19_page01.jpg, Edgeworth_NLS_42180_1841_02_19_page02.jpg, Edgeworth_NLS_42180_1841_02_19_page03.jpg</resp>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <authority>Maria Edgeworth Letters Project</authority>
+                <date>2022</date>
+                <availability>
+                    <p>Reproduced by courtesy of the <orgName ref="http://id.loc.gov/authorities/names/n80044899">National Library of Scotland</orgName>
+                    </p>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons Attribution 4.0 (CC BY 4.0) Unported License</licence>
+                </availability>
+                <idno>Edgeworth_NLS_42180_1841_02_19</idno> 
+            </publicationStmt>
+            <seriesStmt>
+                <title>Maria Edgeworth Letters Project</title>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc xml:lang="en">
+                    <msIdentifier>
+                        <repository>National Library of Scotland</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <head>Letter from 
+                        <persName xml:id="EdgeM1" from="1768" to="1849">
+                            <forename>Maria</forename>
+                            <surname>Edgeworth</surname>
+                            <date>1768-1849</date>
+                            <idno type="VIAF">71477273</idno>
+                            <idno type="SNAC">62567029</idno>
+                        </persName>
+                        to <persName ref="./Personography.xml#MurrM1">Maria Murray</persName>, <date when="1841-02-19">Feb<hi rend="superscript">y</hi>. 19<hi rend="superscript">th</hi>. 1841</date>
+                    </head>
+                    <physDesc></physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p>Edgeworth’s spelling and punctuation are retained in transcription, including non-standard spelling, line breaks, and hyphenation of words. The long s and ligatured forms are silently emended.</p>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="./Personography.xml#MurrM1">Maria Murray</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2026-04-22" who="Id_who">Created file for letter, enocoded letter</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="letter">
+                <pb n="1" facs="Edgeworth_NLS_42180_1841_02_19_page01.jpg"/>
+                <opener>
+                    <dateline>
+                        <placeName ref="./Placeography.xml#North-Audley-Street-1_ENK"/>1 north Audley S<hi rend="superscript">t</hi>.
+                        <date when="1841-02-19">Feb<hi rend="superscript">y</hi>. 19<hi rend="superscript">th</hi>. 1841</date></dateline>
+                    <salute>
+                        Dear <persName ref="./Personography.xml#MurrM1">Miss Murray</persName>
+                    </salute>
+                </opener>
+                <p>
+                    I am sorry <persName ref="./Personography.xml#MurrJ1">M<hi rend="superscript">r</hi>. Murray</persName><lb/>
+                    is unwell - I had just<lb/>
+                    lain down as is my<lb/>
+                    Wont after dinner To sleep<lb/>
+                    When your messenger<lb/>
+                    came -<unclear>And</unclear> now but half<lb/>
+                    awake I write<lb/>
+                </p>
+                <p>
+                    I send 2 or 3 little Tales<lb/>
+                    That you may judge of the<lb/>
+                    size - There is one other<lb/>
+                    Which I have not to send<lb/>
+                    but you may judge by<lb/>
+                </p>
+                <p>
+                    <pb n="2" facs="Edgeworth_NLS_42180_1841_02_19_page02.jpg"/>
+                    the size of those I send<lb/>
+                    what another added<lb/>
+                    to them would make -<lb/>
+                </p>
+                <p>
+                    I am gratified by your<lb/>
+                    polite assurance that<lb/>
+                    you think it an honor<lb/>
+                    instead of a trouble to<lb/>
+                    write to me - <unclear>even</unclear> on<lb/>
+                    business -<lb/>
+                </p>
+                <closer>
+                    I am<lb/>
+                    Dear <persName ref="./Personography.xml#MurrM1">Miss Murray</persName><lb/>
+                    Yours sincerely<lb/>
+                    <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName><lb/>
+                </closer>
+                <postscript>
+                    <p>
+                        <persName ref="./Personography.xml#MurrJ1">M<hi rend="superscript">r</hi>. Murray</persName> will have<lb/>
+                        the goodness to return<lb/>
+                        The little books as they<lb/>
+                        <pb n="3" facs="Edgeworth_NLS_42180_1841_02_19_page03.jpg"/>
+                        are my <choice><orig>sisters</orig><reg>sister's</reg></choice><lb/>
+                        Has <persName ref="./Personography.xml#MurrJ1">M<hi rend="superscript">r</hi>. Murray</persName><lb/>
+                        yet, the new <choice><orig>Ed<hi rend="superscript">n</hi></orig><reg>Edition</reg></choice> <choice><orig>embellish<lb/>
+                                ed</orig><reg>embellished</reg></choice> of <persName ref="./Personography.xml#LockJ1"><choice><orig>Lockharts</orig><reg>Lockhart's</reg></choice></persName> <title ref="./Workography.xml#Ancie2">Spanish<lb/>
+                        Ballads</title> &amp; could he<lb/>
+                        lend them to us<lb/>
+                    </p>
+                </postscript>
+           </div>
+        </body>
+        <back> </back>
+    </text>
+</TEI>
