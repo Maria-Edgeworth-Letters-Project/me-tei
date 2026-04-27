@@ -24,9 +24,6 @@
         <sch:rule context="(tei:placeName | tei:persName | tei:title)/@ref">
             <sch:let name="parentName" value="name(..)"/>
             <sch:let name="ography" value="$ographyMap($parentName)"/>
-            <sch:assert test="matches(., 'Unknown')">
-                    Unidentified @ref attributes must have an "Unknown" value
-            </sch:assert>
             <sch:assert test="starts-with(., concat('./', $ography, '.xml#')) or matches(., 'Unknown')">@ref attributes on a
                     &lt;<sch:value-of select="$parentName"/>&gt; element must begin with a hash and
                 reference to the <sch:value-of select="$ography"/> file</sch:assert>
