@@ -13,7 +13,7 @@
     </sch:pattern>
 
 
-    <!-- Check that "ref" attributes are correctly formatted -->
+    <!-- Check that "ref" attributes are correctly formatted and give "Unknown" option -->
     <sch:pattern>
         <sch:let name="ographyMap" value="
                 map {
@@ -28,9 +28,9 @@
                     &lt;<sch:value-of select="$parentName"/>&gt; element must begin with a hash and
                 reference to the <sch:value-of select="$ography"/> file</sch:assert>
         </sch:rule>
-        <sch:rule context="(tei:placeName | tei:persName | tei:title)/@type">
-            <sch:assert test="matches(., 'unknown')">
-                @type attributes must have an "unknown" value
+        <sch:rule context="(tei:placeName | tei:persName | tei:title)/@ref">
+            <sch:assert test="matches(., 'Unknown')">
+                Unidentified @ref attributes must have an "Unknown" value
             </sch:assert>
         </sch:rule>
     </sch:pattern>
