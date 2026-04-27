@@ -2,8 +2,8 @@
 <sch:schema xmlns:sch="http://purl.oclc.org/dsdl/schematron" queryBinding="xslt3"
     xmlns:sqf="http://www.schematron-quickfix.com/validator/process">
     <sch:ns uri="http://www.tei-c.org/ns/1.0" prefix="tei"/>
-
-
+    
+    
     <!-- Check that "ref" attributes exist in all people, places, and works tags -->
     <sch:pattern>
         <sch:rule context="tei:text//(tei:persName | tei:placeName | title)">
@@ -11,26 +11,26 @@
                 @ref attribute</sch:assert>
         </sch:rule>
     </sch:pattern>
-
-
+    
+    
     <!-- Check that "ref" attributes are correctly formatted and give "Unknown" option -->
     <sch:pattern>
         <sch:let name="ographyMap" value="
-                map {
-                    'placeName': 'Placeography',
-                    'persName': 'Personography',
-                    'title': 'Workography'
-                }"/>
+            map {
+            'placeName': 'Placeography',
+            'persName': 'Personography',
+            'title': 'Workography'
+            }"/>
         <sch:rule context="(tei:placeName | tei:persName | tei:title)/@ref">
             <sch:let name="parentName" value="name(..)"/>
             <sch:let name="ography" value="$ographyMap($parentName)"/>
             <sch:assert test="starts-with(., concat('./', $ography, '.xml#')) or matches(., 'Unknown')">@ref attributes on a
-                    &lt;<sch:value-of select="$parentName"/>&gt; element must begin with a hash and
+                &lt;<sch:value-of select="$parentName"/>&gt; element must begin with a hash and
                 reference to the <sch:value-of select="$ography"/> file</sch:assert>
         </sch:rule>
     </sch:pattern>
-
-
+    
+    
     <!-- Check that "ref" IDs are the correct format. Then, issue a warning message if they are not in the taxonomy terms -->
     <sch:pattern>
         <!-- Global ography pointers -->
@@ -63,5 +63,5 @@
                 ID <sch:value-of select="$wo-id"/> is listed in MELP's Workography</sch:assert>
         </sch:rule>
     </sch:pattern>
-
+    
 </sch:schema>
