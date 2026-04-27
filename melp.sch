@@ -7,8 +7,8 @@
     <!-- Check that "ref" attributes exist in all people, places, and works tags -->
     <sch:pattern>
         <sch:rule context="tei:text//(tei:persName | tei:placeName | title)">
-            <sch:assert test="@ref or @type">&lt;<sch:value-of select="name()"/>&gt; elements must contain a
-                @ref or @type attribute</sch:assert>
+            <sch:assert test="@ref ">&lt;<sch:value-of select="name()"/>&gt; elements must contain a
+                @ref attribute</sch:assert>
         </sch:rule>
     </sch:pattern>
 
@@ -24,7 +24,7 @@
         <sch:rule context="(tei:placeName | tei:persName | tei:title)/@ref">
             <sch:let name="parentName" value="name(..)"/>
             <sch:let name="ography" value="$ographyMap($parentName)"/>
-            <sch:assert test="starts-with(., concat('./', $ography, '.xml#'))">@ref attributes on a
+            <sch:assert test="starts-with(., concat('./', $ography, '.xml#')) or matches(., 'Unknown')">@ref attributes on a
                     &lt;<sch:value-of select="$parentName"/>&gt; element must begin with a hash and
                 reference to the <sch:value-of select="$ography"/> file</sch:assert>
         </sch:rule>
@@ -55,14 +55,14 @@
         </sch:rule>
         <sch:rule context="tei:TEI//tei:placeName/@ref">
             <sch:let name="pl-id" value="substring-after(., '#')"/>
-            <sch:assert test="matches(., '[A-Za-z\-]*[0-9]*[_]?[A-Z]{2,3}')">The @ref attribute
+            <sch:assert test="matches(., '[A-Za-z\-]*[0-9]*[_]?[A-Z]{2,3}') or 'Unknown'">The @ref attribute
                 value does not match the ID format in the Placeography</sch:assert>
             <sch:assert test="$pl-id = $pl//tei:place/@xml:id" role="warning">Please confirm that
                 the ID <sch:value-of select="$pl-id"/> is listed in MELP's Placeography</sch:assert>
         </sch:rule>
         <sch:rule context="tei:TEI//tei:title/@ref">
             <sch:let name="wo-id" value="substring-after(., '#')"/>
-            <sch:assert test="matches(., '[A-Z][A-Za-z]{3,4}[1-9][0-9]?')">The @ref attribute value
+            <sch:assert test="matches(., '[A-Z][A-Za-z]{3,4}[1-9][0-9]?') or 'Unknown'">The @ref attribute value
                 does not match the ID format in the Workography</sch:assert>
             <sch:assert test="$wo-id = $wo//tei:bibl/@xml:id" role="warning">Please confirm that the
                 ID <sch:value-of select="$wo-id"/> is listed in MELP's Workography</sch:assert>
