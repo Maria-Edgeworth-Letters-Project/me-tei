@@ -92,36 +92,42 @@
                     </salute>
                 </opener>
                 <p>
-                    
+                    I am afraid that you must think<lb/>
+                    me very negligent with regard to <persName ref="./Personography.xml#LockJ3">Johnny</persName>. <hi rend="underline">Breeks.</hi><lb/>
+                    The man by whom I intended sending them was<lb/>
+                    going, just a going, for so long a time that my<lb/>
+                    patience at last went, and I sent of the above<lb/>
+                    mentioned <unclear>Breeks per Van</unclear>. As the <persName ref="./Personography.xml#LockX1">Lockharts</persName> left<lb/>
+                    <placeName ref="./Placeography.xml#Edinburgh_STK"><choice><orig>Edin<hi rend="superscript">gh</hi></orig><reg>Edinburgh</reg></choice></placeName> for town much sooner than we expected. I have<lb/>
+                    no doubt but that the box arrived three days after they<lb/>
+                    started and will follow them with their heavy<lb/>
+                    luggage. When I write home I shall make all<lb/>
+                    due enquiry after it - and let you know the result.<lb/>
+                    I regret very much not seeing <persName ref="./Personography.xml#EdgeF2">M<hi rend="superscript">rs</hi> Edgeworth</persName> whilst<lb/>
+                    she was in town but for the last four weeks<lb/>
                 </p>
                 <p>
-                    <!--More body paragraphs as needed.--></p>
-                <p>
-                    <!--More body paragraphs as needed.-->
-                    <!--Where there's a page break record it inside the relevant body paragraph like this, 
-                  with the self-closing page-break element. n="2" indicates the START of the second page.-->
-                    <pb n="2" facs="image2.jpg"/>
+                    <pb n="2" facs="Edgeworth_NLS_23131_1825_04_23_page02.jpg"/>
+                    I have been confined to my rooms and even<lb/>
+                    yesterday could not avail myself of <persName ref="./Personography.xml#WallE1">M<hi rend="superscript">rs</hi> <choice><orig>Wallers</orig><reg>Waller's</reg></choice></persName><lb/>
+                    kind invitation for <persName ref="./Personography.xml#ScotJ1">Jane</persName> and I. so much for<lb/>
+                    driving tandem. The <placeName ref="./Placeography.xml#Dublin_IE">Dublin</placeName> gaieties have not<lb/>
+                    begun, there is some affair at the <placeName ref="./Placeography.xml#Dublin-Castle_IE">Castle</placeName> on<lb/>
+                    Tuesday but I do not think I shall be well even<lb/>
+                    to go. <persName ref="./Personography.xml#ScotJ1">Jane</persName> joins me in best remembrance<lb/>
+                    to all of <placeName ref="./Placeography.xml#Edgeworthstown_IE"><choice><orig>Edgeworths Town</orig><reg>Edgeworthstown</reg></choice></placeName> and with all<lb/>
+                    <choice><orig>comp<hi rend="superscript">ts</hi></orig><reg>compliments</reg></choice> of the season<lb/>
                 </p>
-                <p><!--More body paragraphs as needed.--></p>
                 <closer>
-                    <!--include linebreaks, if used. example: <closer> Yours<lb/> Very sincerely<lb/> -->
+                    <unclear>believe me yours</unclear><lb/>
+                    <persName ref="./Personography.xml#ScotW4">Walter Scott</persName><lb/>
                 </closer>
                 <postscript>
-                    <p><!--A postscript goes here, outside the <closer>. --></p>
+                    <p>
+                        <note place="bottom"><persName ref="./Personography.xml#ScotW4"><hi rend="underline"><choice><orig>Capt</orig><reg>Captain</reg></choice></hi> Walter Scott</persName><lb/></note>
+                    </p>
                 </postscript>
-                <!--You can include a <pb/> here, or inside the postScript.-->
-                <!-- Format for postscripts. 
-               Postscripts do NOT go inside closer tags. Adjust to take into account the order in your letter. 
-               Sometimes the signature is on page three, the address on page four, then the postscript follows back on the top of page one, for example.-->
-                <closer><!--Use the <closer> element again to hold Address Leaf information.-->
-                    <address>
-                        <!--Include any text written on the address leaf; use a separate "addrLine" for each line and indicate line breaks. -->
-                        <addrLine/>
-                        <addrLine/>
-                        <addrLine/>
-                    </address>
-                </closer>
-            </div>
+             </div>
         </body>
         <back> </back>
     </text>
