@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/Maria-Edgeworth-Letters-Project/me-tei/refs/heads/main/melp.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter from Maria Edgeworth, March 23, 1843</title>
+                <author>Maria Edgeworth</author>
+                <editor>Alexandra LaGrand</editor>
+                <sponsor>
+                    <orgName>Maria Edgeworth Letters Project</orgName>
+                </sponsor>
+                <sponsor>Texas A &amp; M University, University of Tennessee, Wake Forest University, Xavier University of Louisiana, Southern Methodist University</sponsor>
+                <principal>Susan Egenolf, Meredith Hale, Hilary Havens, Jessica Richard, and Robin Runia</principal>
+                <respStmt>
+                    <resp>Transcription and coding by</resp>
+                    <persName>Alexandra LaGrand</persName>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>First digital edition in TEI, date: <date when="2026-04-30">April 30, 2026</date>
+                </edition>
+                <respStmt>
+                    <orgName type="naf" ref="http://id.loc.gov/authorities/names/n80044899">National Library of Scotland</orgName>
+                    <resp> photos include: Edgeworth_NLS_42180_1843_03_23_page01.jpg, Edgeworth_NLS_42180_1843_03_23_page02.jpg, Edgeworth_NLS_42180_1843_03_23_page03.jpg</resp>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <authority>Maria Edgeworth Letters Project</authority>
+                <date>2022</date>
+                <availability>
+                    <p>Reproduced by courtesy of the <orgName ref="http://id.loc.gov/authorities/names/n80044899">National Library of Scotland</orgName>
+                    </p>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons Attribution 4.0 (CC BY 4.0) Unported License</licence>
+                </availability>
+                <idno>Edgeworth_NLS_42180_1843_03_23</idno> 
+            </publicationStmt>
+            <seriesStmt>
+                <title>Maria Edgeworth Letters Project</title>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc xml:lang="en">
+                    <msIdentifier>
+                        <repository>National Library of Scotland</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <head>Letter from 
+                        <persName xml:id="EdgeM1" from="1768" to="1849">
+                            <forename>Maria</forename>
+                            <surname>Edgeworth</surname>
+                            <date>1768-1849</date>
+                            <idno type="VIAF">71477273</idno>
+                            <idno type="SNAC">62567029</idno>
+                        </persName>, <date when="1843-03-23">March 23 <hi rend="superscript">d</hi> - 43</date>
+                    </head>
+                    <physDesc></physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p>Edgeworth’s spelling and punctuation are retained in transcription, including non-standard spelling, line breaks, and hyphenation of words. The long s and ligatured forms are silently emended.</p>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Unknown</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2026-04-30" who="Id_who">Created file for letter, encoded letter</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="letter">
+                <pb n="1" facs="Edgeworth_NLS_42180_1843_03_23_page01.jpg"/>
+                <opener>
+                    <dateline>
+                        <placeName ref="./Placeography.xml#Trim_IE"/>Trim
+                        <date when="1843-03-23">March 23 <hi rend="superscript">d</hi> - 43</date>
+                        <note place="top">Put a way
+                        carefully</note>
+                    </dateline>
+                    <salute>Dear Sir</salute>
+                </opener>
+                <p>
+                    Try if you can<lb/>
+                    call to mind having<lb/>
+                    published in 1832 <add>with illustrations</add> two<lb/>
+                    tiny stories of mine in<lb/>
+                    one little vol called<lb/>
+                    <title ref="./Workography.xml#Garry1">"Garry Owen" &amp; "Poor Bob the Chimney<lb/>
+                    sweeper"</title> I forget everything<lb/>
+                    about their coming or going<lb/>
+                    into your hands and<lb/>
+                    all I want to know about<lb/>
+                    The matter is whether I am<lb/>
+                    at liberty for any thing you<lb/>
+                    care or have a right to care<lb/>
+                    to let <persName ref="./Personography.xml#ChamR1">Chambers</persName> of <placeName ref="./Placeography.xml#Edinburgh_STK"><choice><orig>Edinburg</orig><reg>Edinburgh</reg></choice></placeName><lb/>
+                    republish them as he wishes<lb/>
+                    to do in his <title ref="./Workography.xml#Chamb2">journal</title> - as I<lb/>
+                    should be very glad to let him<lb/>
+                    if he like it and if there is<lb/>
+                    no reason to the contrary<lb/>
+                    <hi rend="underline">in no ways notwithstanding"</hi><lb/>
+                    as the lawyers say -<lb/>
+                </p>
+                <p>
+                    When you answer this, as<lb/>
+                    notwithstanding your aversion to<lb/>
+                </p>
+                <p>
+                    <pb n="2" facs="Edgeworth_NLS_42180_1843_03_23_page02.jpg"/>
+                    answering letters, I take it<lb/>
+                    for granted that you or<lb/>
+                    your son (my friend or my<lb/>
+                    brother <persName ref="./Personography.xml#EdgeF1">Francis's</persName> friend &amp; <choice><orig>school-<lb/>
+                    fellow</orig><reg>schoolfellow</reg></choice>) certainly will, I beg<lb/>
+                    that you will tell me if you<lb/>
+                    know, who was the author<lb/>
+                </p>
+                <p>
+                    of <title ref="./Workography.xml#Memoi13">Memoirs of a Peeress<lb/>
+                    or<lb/>
+                    The days of Charles Fox<lb/>
+                    Edited by <persName ref="./Personography.xml#BuryC1">Lady Charlotte Bury</persName></title><lb/>
+                    <persName ref="./Personography.xml#ColbH1">colburn</persName> - 1837<lb/>
+                    <note>Though <persName ref="./Personography.xml#EdgeM1">Edgeworth</persName> does not know it here, the author of <title ref="./Workography.xml#Memoi13">Memoirs of a Peeress; Or the Days of Fox</title> was novelist and playwright<persName ref="./Personography.xml#GoreC1">Catherine Gore.</persName></note>
+                </p>
+                <p>
+                    In convalescence from a severe<lb/>
+                    illness. I have indulged <choice><orig>my,<lb/>
+                    self</orig><reg>myself</reg></choice> in reading all the <choice><orig>entertain<lb/>
+                    ing</orig><reg>entertaining</reg></choice> &amp; interesting fictions &amp;<lb/>
+                    true histories that came within<lb/>
+                    my reach.<lb/>
+                </p>
+                <p>
+                    And <persName ref="./Personography.xml#StanP1">Lord Mahons</persName> most<lb/>
+                    entertaining and interesting<lb/>
+                    <title ref="./Workography.xml#LifeL1">Life of the Grand Condé</title> and this<lb/>
+                    <hi rend="underline">novel</hi>, I do not blush to name<lb/>
+                    the <unclear>books</unclear> in the same breath<lb/>
+                    have been those which have<lb/>
+                    last and most recreated<lb/>
+                    me -<lb/>
+                </p>
+                <p>
+                    Edited by <persName ref="./Personography.xml#BuryC1">Lady <choice><orig>Char</orig><reg>Charlotte</reg></choice></persName><lb/>
+                </p>
+                <p>
+                    <pb n="3" facs="Edgeworth_NLS_42180_1843_03_23_page03.jpg"/>
+                    <persName ref="./Personography.xml#BuryC1"><choice><orig>lotte</orig><reg>Charlotte</reg></choice> Bury</persName> these <title ref="./Workography.xml#Memoi13">memoirs</title> might<lb/>
+                    be but written by her I am sure<lb/>
+                    they could not be any more than<lb/>
+                    by myself - no womans pen<lb/>
+                    - a master pen in a master<lb/>
+                    hand wrote the view of Paris<lb/>
+                    in 1803 &amp; <title ref="./Workography.xml#Memoi13">the death of Fox</title><lb/>
+                    and are the specimens or<lb/>
+                    imitations of his conversation<lb/>
+                </p>
+                <p>
+                    You must tell me who the<lb/>
+                    author was is or is reported<lb/>
+                    to be - 
+                </p>
+                <closer>
+                    and I shall be<lb/>
+                    Your truly obliged<lb/>
+                    <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName><lb/>
+                </closer>
+            </div>
+        </body>
+        <back> </back>
+    </text>
+</TEI>
