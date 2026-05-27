@@ -8,7 +8,9 @@
             <titleStmt>
                 <title>Maria Edgeworth Letters Project Personography</title>
                 <author>Meredith Hale</author>
-                <sponsor>Texas A &amp; M University, University of Tennessee, Wake Forest University, Xavier University of Louisiana, Southern Methodist University</sponsor>
+                <sponsor>Texas A &amp; M University, University of Tennessee, Wake Forest
+                    University, Xavier University of Louisiana, Southern Methodist
+                    University</sponsor>
                 <respStmt>
                     <resp>Contributors include:</resp>
                     <persName>Anna Grace Barnett</persName>
@@ -23,9 +25,11 @@
                     <persName>Jamie Kramer</persName>
                     <persName>Seolha Lee</persName>
                     <persName>Alexandra LaGrand</persName>
+                    <persName>Lexi Mitchell</persName>
                     <persName>Savannah Payne</persName>
                     <persName>Jessica Richard</persName>
                     <persName>Robin Runia</persName>
+                    <persName>Maggie Turbyfield</persName>
                     <persName>Eliza Alexander Wilcox</persName>
                     <persName>Paris Weber</persName>
                 </respStmt>
@@ -69,7 +73,7 @@
                     <country>France</country>
                 </place>
                 <place xml:id="New-Street-6_ENK">
-                    <placeName>6 New Street </placeName>
+                    <placeName>6 New Street</placeName>
                     <country>England</country>
                 </place>
                 <place xml:id="Somerset-Place-7">
@@ -80,7 +84,7 @@
                     <country>England</country>
                 </place>
                 <place xml:id="Hollis-Street-10_ENK">
-                    <placeName>10 Hollis Street </placeName>
+                    <placeName>10 Hollis Street</placeName>
                     <country>England</country>
                 </place>
                 <place xml:id="Hope-Square-14_ENK">
@@ -131,6 +135,10 @@
                     <placeName>32 Abercromby Place</placeName>
                     <country>STK</country>
                 </place>
+                <place xml:id="Fleet-Street-37_ENK">
+                    <placeName>37 Fleet Street</placeName>
+                    <country>ENK</country>
+                </place>
                 <place xml:id="Rutland-Square-45_IE">
                     <placeName>45 Rutland Sq, Dublin</placeName>
                     <country>Ireland</country>
@@ -159,7 +167,7 @@
                     <placeName>18 Rue d'Enfen, Saint-Michel, Paris</placeName>
                     <country>France</country>
                 </place>
-                <place xml:id="Abbotsfsord-House_STK">
+                <place xml:id="Abbotsford-House_STK">
                     <placeName>Abbotsford House</placeName>
                     <country>Scotland</country>
                     <location>
@@ -194,7 +202,7 @@
                     </location>
                 </place>
                 <place xml:id="Allenstown-Demesne_IE">
-                    <placeName>Allenstown Demesne </placeName>
+                    <placeName>Allenstown Demesne</placeName>
                     <country>Ireland</country>
                     <location>
                         <geo>53.67778, -6.81917</geo>
@@ -256,6 +264,14 @@
                     </location>
                     <idno type="URI">http://sws.geonames.org/2782113</idno>
                 </place>
+                <place xml:id="Auvergne_FR">
+                    <placeName>Auvergne</placeName>
+                    <country>France</country>
+                    <location>
+                        <geo>45.66667, 3.16667</geo>
+                    </location>
+                    <idno type="URI">http://sws.geonames.org/3035876</idno>
+                </place>
                 <place xml:id="Ballsbridge_IE">
                     <placeName>Ballsbridge</placeName>
                     <country>Ireland</country>
@@ -306,7 +322,7 @@
                     <location>
                         <geo>53.6925, -6.58139</geo>
                     </location>
-                    <idno type="URI">http://sws.geonames.org/2966269 </idno>
+                    <idno type="URI">http://sws.geonames.org/2966269</idno>
                 </place>
                 <place xml:id="Bedford-Square_ENK">
                     <placeName>Bedford Square, London</placeName>
@@ -513,16 +529,33 @@
                     </location>
                     <idno type="URI">http://sws.geonames.org/2654005</idno>
                 </place>
+                <place xml:id="Calne_ENK">
+                    <placeName>Calne</placeName>
+                    <country>England</country>
+                    <location>
+                        <geo>51.43879, -2.00571</geo>
+                    </location>
+                    <idno type="URI">http://sws.geonames.org/2653974</idno>
+                </place>
+                <place xml:id="Cambridge_ENK">
+                    <placeName>Cambridge (England)</placeName>
+                    <country>England</country>
+                    <location>
+                        <geo>52.2, 0.11667</geo>
+                    </location>
+                    <idno type="URI">http://sws.geonames.org/2653941</idno>
+                </place>
                 <place xml:id="Cambridge_MA_US">
-                    <placeName>Cambridge</placeName>
+                    <placeName>Cambridge (Massachusetts)</placeName>
                     <country>United States</country>
                     <location>
                         <geo>42.37582, -71.1184</geo>
                     </location>
                     <idno type="URI">http://sws.geonames.org/4932004</idno>
                 </place>
-                <place xml:id="XXC">
+                <place xml:id="CA">
                     <placeName>Canada</placeName>
+                    <country>Canada</country>
                     <location>
                         <geo>60.10867, -113.64258</geo>
                     </location>
@@ -568,6 +601,14 @@
                     </location>
                     <idno type="URI">http://sws.geonames.org/11710996</idno>
                 </place>
+                <place xml:id="Castle-Saffron_ENK">
+                    <placeName>Castle Saffron</placeName>
+                    <country>England</country>
+                    <location>
+                        <geo>52.02546, 0.24204</geo>
+                    </location>
+                    <idno type="URI">http://sws.geonames.org/6286843</idno>
+                </place>
                 <place xml:id="Castlepollard_IE">
                     <placeName>Castlepollard</placeName>
                     <country>Ireland</country>
@@ -583,6 +624,10 @@
                         <geo>53.77258, -8.50307</geo>
                     </location>
                     <idno type="URI">http://sws.geonames.org/2965570</idno>
+                </place>
+                <place xml:id="Catton_ENK">
+                    <placeName>Edgeworth_Bodleian_717_1825-07-09</placeName>
+                    <country>England</country>
                 </place>
                 <place xml:id="Cavan_IE">
                     <placeName>Cavan</placeName>
@@ -663,7 +708,7 @@
                     </location>
                     <idno type="URI">http://sws.geonames.org/1814991</idno>
                 </place>
-                <place xml:id="Clewer-ENK">
+                <place xml:id="Clewer_ENK">
                     <placeName>Clewer</placeName>
                     <country>England</country>
                     <location>
@@ -693,9 +738,6 @@
                         <geo>51.86278, -8.12444</geo>
                     </location>
                     <idno type="URI">http://sws.geonames.org/2965276</idno>
-                </place>
-                <place xml:id="Clullin-Cheltenham">
-                    <placeName>Clullin Cheltenham</placeName>
                 </place>
                 <place xml:id="Collon_IE">
                     <placeName>Collon</placeName>
@@ -754,6 +796,14 @@
                     </location>
                     <idno type="URI">http://sws.geonames.org/7290549</idno>
                 </place>
+                <place xml:id="County-Monaghan_IE">
+                    <placeName>County Monaghan</placeName>
+                    <country>Ireland</country>
+                    <location>
+                        <geo>54.25, -7</geo>
+                    </location>
+                    <idno type="URI">http://sws.geonames.org/2962567</idno>
+                </place>
                 <place xml:id="Cowgate_STK">
                     <placeName>Cowgate</placeName>
                     <country>Scotland</country>
@@ -766,6 +816,14 @@
                     </location>
                     <idno type="URI">http://sws.geonames.org/2652085</idno>
                 </place>
+                <place xml:id="Crieff_STK">
+                    <placeName>Crieff</placeName>
+                    <country>Scotland</country>
+                    <location>
+                        <geo>56.37268, -3.83891</geo>
+                    </location>
+                    <idno type="URI">http://sws.geonames.org/2651983</idno>
+                </place>
                 <place xml:id="Cupar_STK">
                     <placeName>Cupar</placeName>
                     <country>Scotland</country>
@@ -773,6 +831,14 @@
                         <geo>56.31876, -3.01204</geo>
                     </location>
                     <idno type="URI">http://sws.geonames.org/2651698</idno>
+                </place>
+                <place xml:id="Dead-Sea_JR">
+                    <placeName>Dead Sea</placeName>
+                    <country>Jordan</country>
+                    <location>
+                        <geo>31.55747, 35.49545</geo>
+                    </location>
+                    <idno type="URI">http://sws.geonames.org/295347</idno>
                 </place>
                 <place xml:id="Deep-Dene-Dorking_ENK">
                     <placeName>Deep Dene</placeName>
@@ -849,6 +915,14 @@
                         <geo>54.5, -6.83333</geo>
                     </location>
                     <idno type="URI">http://sws.geonames.org/2650730</idno>
+                </place>
+                <place xml:id="Dunleer_IE">
+                    <placeName>Dunleer</placeName>
+                    <country>Ireland</country>
+                    <location>
+                        <geo>53.835, -6.39611</geo>
+                    </location>
+                    <idno type="URI">http://sws.geonames.org/2964504</idno>
                 </place>
                 <place xml:id="Dunsink_IE">
                     <placeName>Dunsink</placeName>
@@ -1039,9 +1113,13 @@
                     <placeName>Glengore</placeName>
                     <country>Scotland</country>
                 </place>
-                <place xml:id="Goorte-and-Kilcoursey_IE">
-                    <placeName>Gourte and Kilcoursey</placeName>
+                <place xml:id="Gort_IE">
+                    <placeName>Gort</placeName>
                     <country>Ireland</country>
+                    <location>
+                        <geo>53.06639, -8.81667</geo>
+                    </location>
+                    <idno type="URI">http://sws.geonames.org/2963958</idno>
                 </place>
                 <place xml:id="Graigue_IE">
                     <placeName>Graigue</placeName>
@@ -1065,6 +1143,13 @@
                 </place>
                 <place xml:id="GT">
                     <placeName>Guatemala</placeName>
+                </place>
+                <place xml:id="Haileybury_ENK">
+                    <placeName>Haileybury</placeName>
+                    <country>England</country>
+                    <location>
+                        <geo>51.7787, 0.0333</geo>
+                    </location>
                 </place>
                 <place xml:id="Halifax_ENK">
                     <placeName>Halifax</placeName>
@@ -1171,6 +1256,22 @@
                     </location>
                     <idno type="URI">http://sws.geonames.org/6944334</idno>
                 </place>
+                <place xml:id="House-of-Commons_ENK">
+                    <placeName>House of Commons</placeName>
+                    <country>England</country>
+                    <location>
+                        <geo>51.49971, -0.12496</geo>
+                    </location>
+                    <idno type="URI">http://sws.geonames.org/6944334</idno>
+                </place>
+                <place xml:id="House-of-Lords_ENK">
+                    <placeName>House of Lords</placeName>
+                    <country>England</country>
+                    <location>
+                        <geo>51.49971, -0.12496</geo>
+                    </location>
+                    <idno type="URI">http://sws.geonames.org/6944334</idno>
+                </place>
                 <place xml:id="IC">
                     <placeName>Iceland</placeName>
                     <country>Iceland</country>
@@ -1246,6 +1347,14 @@
                     </location>
                     <idno type="URI">http://sws.geonames.org/3489940</idno>
                 </place>
+                <place xml:id="JE">
+                    <placeName>Jersey</placeName>
+                    <country>Jersey</country>
+                    <location>
+                        <geo>49.2167, -2.13753</geo>
+                    </location>
+                    <idno type="URI">http://sws.geonames.org/3042143</idno>
+                </place>
                 <place xml:id="Jerusalem">
                     <placeName>Jerusalem</placeName>
                     <location>
@@ -1300,6 +1409,13 @@
                         <geo>51.48165, -0.28749</geo>
                     </location>
                     <idno type="URI">http://sws.geonames.org/2645740</idno>
+                </place>
+                <place xml:id="Kilcoursey_IE">
+                    <placeName>Kilcoursey</placeName>
+                    <country>Ireland</country>
+                    <location>
+                        <geo>53.34390, -7.59464</geo>
+                    </location>
                 </place>
                 <place xml:id="Kildare-Place_IE">
                     <placeName>Kildare Place</placeName>
@@ -1356,8 +1472,16 @@
                     </location>
                     <idno type="URI">http://sws.geonames.org/2645093</idno>
                 </place>
+                <place xml:id="Kolkata_IN">
+                    <placeName>Kolkata</placeName>
+                    <country>India</country>
+                    <location>
+                        <geo>22.56263, 88.36304</geo>
+                    </location>
+                    <idno type="URI">http://sws.geonames.org/1275004</idno>
+                </place>
                 <place xml:id="Lac-de-Neuchâtel_SZ">
-                    <placeName>Lac de Neuchâtel </placeName>
+                    <placeName>Lac de Neuchâtel</placeName>
                     <country>Switzerland</country>
                     <location>
                         <geo>46.92518, 6.87572</geo>
@@ -1419,6 +1543,14 @@
                     </location>
                     <idno type="URI">http://sws.geonames.org/2644527</idno>
                 </place>
+                <place xml:id="Liss-Ard_IE">
+                    <placeName>Liss Ard</placeName>
+                    <country>Ireland</country>
+                    <location>
+                        <geo>51.53056, -9.25667</geo>
+                    </location>
+                    <idno type="URI">http://sws.geonames.org/3296431</idno>
+                </place>
                 <place xml:id="Liverpool_ENK">
                     <placeName>Liverpool</placeName>
                     <country>England</country>
@@ -1450,6 +1582,14 @@
                         <geo>56.95, -5.16667</geo>
                     </location>
                     <idno type="URI">http://sws.geonames.org/2643821</idno>
+                </place>
+                <place xml:id="Loch-Katrine_STK">
+                    <placeName>Loch Katrine</placeName>
+                    <country>Scotland</country>
+                    <location>
+                        <geo>56.25, -4.51667</geo>
+                    </location>
+                    <idno type="URI">http://sws.geonames.org/2645922</idno>
                 </place>
                 <place xml:id="Lombardy_IT">
                     <placeName>Lombardy</placeName>
@@ -1517,6 +1657,14 @@
                     </location>
                     <idno type="URI">http://sws.geonames.org/1264527</idno>
                 </place>
+                <place xml:id="Maer-Hall_ENK">
+                    <placeName>Maer Hall</placeName>
+                    <country>England</country>
+                    <location>
+                        <geo>52.9435 , -2.3065</geo>
+                    </location>
+                    <idno type="URI">http://sws.geonames.org/7292470</idno>
+                </place>
                 <place xml:id="Mainz_DE">
                     <placeName>Mainz</placeName>
                     <country>Germany</country>
@@ -1556,6 +1704,14 @@
                     </location>
                     <idno type="URI">http://sws.geonames.org/735308</idno>
                 </place>
+                <place xml:id="Mayo_IE">
+                    <placeName>Mayo (County)</placeName>
+                    <country>Ireland</country>
+                    <location>
+                        <geo>53.75977, -9.11719</geo>
+                    </location>
+                    <idno type="URI">http://sws.geonames.org/2962667</idno>
+                </place>
                 <place xml:id="Meath_IE">
                     <placeName>Meath</placeName>
                     <country>Ireland</country>
@@ -1572,10 +1728,10 @@
                     <idno type="URI">http://sws.geonames.org/2642769</idno>
                 </place>
                 <place xml:id="Merchiston-Tower_STK">
-                    <placeName>Merchistoun Tower</placeName>
+                    <placeName>Merchiston Tower</placeName>
                     <country>Scotland</country>
                 </place>
-                <place xml:id="Merrion-Square-IE">
+                <place xml:id="Merrion-Square_IE">
                     <placeName>Merrion Square</placeName>
                     <country>Ireland</country>
                     <location>
@@ -1613,6 +1769,14 @@
                         <geo>45.833, 6.864</geo>
                     </location>
                     <idno type="URI">http://sws.geonames.org/3181986</idno>
+                </place>
+                <place xml:id="Moore-Hall_IE">
+                    <placeName>Moore Hall, County Mayo</placeName>
+                    <country>Ireland</country>
+                    <location>
+                        <geo>53.71667, -9.21667</geo>
+                    </location>
+                    <idno type="URI">http://sws.geonames.org/2962533</idno>
                 </place>
                 <place xml:id="Moscow_RU">
                     <placeName>Moscow</placeName>
@@ -1741,7 +1905,7 @@
                         <geo>52.9536, -1.15047</geo>
                     </location>
                 </place>
-                <place xml:id="Old-Burling-Street_ENK">
+                <place xml:id="Old-Burlington-Street_ENK">
                     <placeName>Old Burlington Street</placeName>
                     <country>England</country>
                 </place>
@@ -1752,6 +1916,10 @@
                         <geo>51.75222, -1.25596</geo>
                     </location>
                     <idno type="URI">http://sws.geonames.org/2640729</idno>
+                </place>
+                <place xml:id="Oxford-Street_ENK">
+                    <placeName>Oxford Street</placeName>
+                    <country>England</country>
                 </place>
                 <place xml:id="Palais-Bourbon-FR">
                     <placeName>Palais Bourbon</placeName>
@@ -1816,6 +1984,14 @@
                 <place xml:id="PS">
                     <placeName>Persia</placeName>
                 </place>
+                <place xml:id="Perthshire_STK">
+                    <placeName>Perthshire</placeName>
+                    <country>Scotland</country>
+                    <location>
+                        <geo>56.5, -4</geo>
+                    </location>
+                    <idno type="URI">http://sws.geonames.org/2640357</idno>
+                </place>
                 <place xml:id="Petra_JO">
                     <placeName>Petra</placeName>
                     <country>Jordan</country>
@@ -1873,6 +2049,14 @@
                         <geo>46.23789, 6.14239</geo>
                     </location>
                     <idno type="URI">http://sws.geonames.org/2659140</idno>
+                </place>
+                <place xml:id="Provence_FR">
+                    <placeName>Provence</placeName>
+                    <country>France</country>
+                    <location>
+                        <geo>43.91667, 6.08333</geo>
+                    </location>
+                    <idno type="URI">http://sws.geonames.org/2985244</idno>
                 </place>
                 <place xml:id="Puducherry_IN">
                     <placeName>Puducherry</placeName>
@@ -2098,6 +2282,14 @@
                     <placeName>Snowtown</placeName>
                     <country>Ireland</country>
                 </place>
+                <place xml:id="Sonna-House_IE">
+                    <placeName>Sonna House</placeName>
+                    <country>Ireland</country>
+                    <location>
+                        <geo>53.56667, -7.46667</geo>
+                    </location>
+                    <idno type="URI">http://sws.geonames.org/2961403</idno>
+                </place>
                 <place xml:id="SP">
                     <placeName>Spain</placeName>
                     <location>
@@ -2179,6 +2371,38 @@
                 <place xml:id="St-Martin_XX">
                     <placeName>St. Martin</placeName>
                 </place>
+                <place xml:id="Strand_ENK">
+                    <placeName>The Strand, London</placeName>
+                    <country>England</country>
+                    <location>
+                        <geo>51.51126, -0.11924</geo>
+                    </location>
+                    <idno type="URI">http://sws.geonames.org/6640323</idno>
+                </place>
+                <place xml:id="St-Stephens-Green_IE">
+                    <placeName>St. Stephen's Green</placeName>
+                    <country>Ireland</country>
+                    <location>
+                        <geo>53.3381, -6.25917</geo>
+                    </location>
+                    <idno type="URI">http://sws.geonames.org/6949207</idno>
+                </place>
+                <place xml:id="St-Vincent_VC">
+                    <placeName>St. Vincent</placeName>
+                    <country>St. Vincent and Grenadines</country>
+                    <location>
+                        <geo>13.25355, -61.1841</geo>
+                    </location>
+                    <idno type="URI">http://sws.geonames.org/3577816</idno>
+                </place>
+                <place xml:id="VC">
+                    <placeName>St. Vincent and Grenadines</placeName>
+                    <country>St. Vincent and Grenadines</country>
+                    <location>
+                        <geo>13.08333, -61.2</geo>
+                    </location>
+                    <idno type="URI">http://sws.geonames.org/3577815</idno>
+                </place>
                 <place xml:id="Stoke-Newington_ENK">
                     <placeName>Stoke Newington</placeName>
                     <country>England</country>
@@ -2241,6 +2465,14 @@
                     </location>
                     <idno type="URI">http://sws.geonames.org/2961191</idno>
                 </place>
+                <place xml:id="Tonbridge_ENK">
+                    <placeName>Tonbridge</placeName>
+                    <country>England</country>
+                    <location>
+                        <geo>51.19532, 0.27363</geo>
+                    </location>
+                    <idno type="URI">http://sws.geonames.org/2635703</idno>
+                </place>
                 <place xml:id="Tower-of-London_ENK">
                     <placeName>Tower of London</placeName>
                     <country>England</country>
@@ -2293,7 +2525,11 @@
                     <location>
                         <geo>47, 11.5</geo>
                     </location>
-                    <idno type="URI">http://sws.geonames.org/2763587 </idno>
+                    <idno type="URI">http://sws.geonames.org/2763587</idno>
+                </place>
+                <place xml:id="Union-Place_ENK">
+                    <placeName>Union Place</placeName>
+                    <country>England</country>
                 </place>
                 <place xml:id="US">
                     <placeName>United States of America</placeName>
@@ -2301,6 +2537,14 @@
                         <geo>39.76, -98.5</geo>
                     </location>
                     <idno type="URI">http://sws.geonames.org/6252001</idno>
+                </place>
+                <place xml:id="University-of-Cambridge_ENK">
+                    <placeName>University of Cambridge</placeName>
+                    <country>England</country>
+                    <location>
+                        <geo>52.203, 0.12</geo>
+                    </location>
+                    <idno type="URI">http://sws.geonames.org/7288046</idno>
                 </place>
                 <place xml:id="Vaucluse_FR">
                     <placeName>Vaucluse</placeName>
@@ -2324,9 +2568,6 @@
                         <geo>45.43713, 12.33265</geo>
                     </location>
                     <idno type="URI">http://sws.geonames.org/3164603</idno>
-                </place>
-                <place xml:id="Vicarage-Town_XX">
-                    <placeName>Vicarage Town</placeName>
                 </place>
                 <place xml:id="Vienna_AT">
                     <placeName>Vienna</placeName>
@@ -2419,8 +2660,16 @@
                     </location>
                     <idno type="URI">http://sws.geonames.org/3333147</idno>
                 </place>
+                <place xml:id="Woore_ENK">
+                    <placeName>Woore</placeName>
+                    <country>England</country>
+                    <location>
+                        <geo>52.97701, -2.40235</geo>
+                    </location>
+                    <idno type="URI">http://sws.geonames.org/2633580</idno>
+                </place>
                 <place xml:id="Yverdon-les-Bains_SZ">
-                    <placeName>Yverdon-les-Bains </placeName>
+                    <placeName>Yverdon-les-Bains</placeName>
                     <country>Switzerland</country>
                     <location>
                         <geo>46.77852, 6.64115</geo>

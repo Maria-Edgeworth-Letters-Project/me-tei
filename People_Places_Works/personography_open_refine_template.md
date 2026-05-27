@@ -31,9 +31,11 @@
                     <persName>Jamie Kramer</persName>
                     <persName>Seolha Lee</persName>
                     <persName>Alexandra LaGrand</persName>
+                    <persName>Lexi Mitchell</persName>
                     <persName>Savannah Payne</persName>
                     <persName>Jessica Richard</persName>
                     <persName>Robin Runia</persName>
+                    <persName>Maggie Turbyfield</persName>
                     <persName>Eliza Alexander Wilcox</persName>
                     <persName>Paris Weber</persName>
                 </respStmt>

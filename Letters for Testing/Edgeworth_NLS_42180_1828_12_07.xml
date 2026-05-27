@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/Maria-Edgeworth-Letters-Project/me-tei/refs/heads/main/melp.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter from Maria Edgeworth to December 7, 1828</title>
+                <author>Maria Edgeworth</author>
+                <editor>Alexandra LaGrand</editor>
+                <sponsor>
+                    <orgName>Maria Edgeworth Letters Project</orgName>
+                </sponsor>
+                <sponsor>Texas A &amp; M University, University of Tennessee, Wake Forest University, Xavier University of Louisiana, Southern Methodist University</sponsor>
+                <principal>Susan Egenolf, Meredith Hale, Hilary Havens, Jessica Richard, and Robin Runia</principal>
+                <respStmt>
+                    <resp>Transcription and coding by</resp>
+                    <persName>Alexandra LaGrand</persName>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>First digital edition in TEI, date: <date when="2026-04-24">April 24, 2026</date>
+                </edition>
+                <respStmt>
+                    <orgName type="naf" ref="http://id.loc.gov/authorities/names/n80044899">National Library of Scotland</orgName>
+                    <resp> photos include: Edgeworth_NLS_42180_1828_12_07_page01.jpg, Edgeworth_NLS_42180_1828_12_07_page02.jpg</resp>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <authority>Maria Edgeworth Letters Project</authority>
+                <date>2022</date>
+                <availability>
+                    <p>Reproduced by courtesy of the <orgName ref="http://id.loc.gov/authorities/names/n80044899">National Library of Scotland</orgName>
+                    </p>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons Attribution 4.0 (CC BY 4.0) Unported License</licence>
+                </availability>
+                <idno>Edgeworth_NLS_42180_1828_12_07</idno> 
+            </publicationStmt>
+            <seriesStmt>
+                <title>Maria Edgeworth Letters Project</title>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc xml:lang="en">
+                    <msIdentifier>
+                        <repository>National Library of Scotland</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <head>Letter from 
+                        <persName xml:id="EdgeM1" from="1768" to="1849">
+                            <forename>Maria</forename>
+                            <surname>Edgeworth</surname>
+                            <date>1768-1849</date>
+                            <idno type="VIAF">71477273</idno>
+                            <idno type="SNAC">62567029</idno>
+                        </persName>, <date when="1828-12-07">Dec<hi rend="superscript">r</hi>. 7<hi rend="superscript">h</hi> 1828</date>
+                    </head>
+                    <physDesc></physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+               <p>Edgeworth’s spelling and punctuation are retained in transcription, including non-standard spelling, line breaks, and hyphenation of words. The long s and ligatured forms are silently emended.</p>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
+                </correspAction>
+                <correspAction type="received">
+                    <persName><!--RECIPIENT NAME--></persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2026-04-26" who="Id_who">Created file for letter, encoded letter</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="letter">
+                <pb n="1" facs="Edgeworth_NLS_42180_1828_12_07_page01.jpg"/>
+                <opener>
+                    <dateline>
+                        <placeName ref="./Placeography.xml#Edgeworthstown_IE"/>Edgeworths Town
+                        <date when="1828-12-07">Dec<hi rend="superscript">r</hi>. 7<hi rend="superscript">h</hi> 1828</date></dateline>
+                    <salute>Dear Sir</salute>
+                </opener>
+                <p>
+                    I send you a new translation of the<lb/>
+                    <title ref="./Workography.xml#Agame2">Agamemnon of <persName ref="./Personography.xml#Aesch1"><choice><orig>Aschylus</orig><reg>Aeschylus</reg></choice></persName></title> - by a <persName ref="./Personography.xml#HarfJ1"><choice><orig>gentle-<lb/>
+                    man</orig><reg>gentleman</reg></choice></persName> who is a friend of mine -<lb/>
+                </p>
+                <p>
+                    I am no scholar, and cannot<lb/>
+                    <del>therefore</del> give you any opinion <choice><orig>con-<lb/>
+                    cerning</orig><reg>concerning</reg></choice> the <hi rend="underline">fidelity</hi> of the translation<lb/>
+                    from the Greek - on that subject you<lb/>
+                    must consult some greek scholar<lb/>
+                </p>
+                <p>
+                    <hi rend="superscript">a</hi> But I can give you a decided<lb/>
+                    opinion concerning its merit as to<lb/>
+                    English composition - It reads like<lb/>
+                    an original - I had many years ago<lb/>
+                    read <persName ref="./Personography.xml#PottR1">Potter's</persName> translation of the <title ref="./Workography.xml#Trage1"><choice><orig>Agamem<lb/>
+                    -non</orig><reg>Agamemnon</reg></choice></title> &amp; would compare the impression<lb/>
+                    which that &amp; the present translation<lb/>
+                    made upon my mind - I have since<lb/>
+                    compared all the principal passages<lb/>
+                    and the <unclear>choruses</unclear> - I have no doubt<lb/>
+                    of the superiority of that which I now<lb/>
+                    send you - I have also compared it with<lb/>
+                </p>
+                <p>
+                    <pb n="2" facs="Edgeworth_NLS_42180_1828_12_07_page02.jpg"/>
+                    <persName ref="./Personography.xml#SymmJ1">Symmons</persName> translation made 3 or 4<lb/>
+                    years ago - the result has been the<lb/>
+                    same conviction that the superiority<lb/>
+                    rests with the last. <lb/>
+                </p>
+                <p>
+                    The author's own preface says all<lb/>
+                    that is to be said of the reasons for <choice><orig>sup<lb/>
+                    posing</orig><reg>supposing</reg></choice> that the public would be glad<lb/>
+                    to have a new translation if better than the old<lb/>
+                    ones - The only questions that remains<lb/>
+                    are plainly, would you like to have this?<lb/>
+                    And what would you give for it?<lb/>
+                </p>
+                <closer>
+                    I am <choice><orig>D<hi rend="superscript">r</hi></orig><reg>Dear</reg></choice> Sir<lb/>
+                    Yours sincerely<lb/>
+                    <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName><lb/>
+                </closer>
+            </div>
+        </body>
+        <back> </back>
+    </text>
+</TEI>
