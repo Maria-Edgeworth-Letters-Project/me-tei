@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/Maria-Edgeworth-Letters-Project/me-tei/refs/heads/main/melp.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+    ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from Maria Edgeworth to Sir Francis Beaufort, February 1827</title>
+            <author>
+               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
+            </author>
+            <editor>
+            Jamie Kramer
+            </editor>
+            <sponsor>
+               <orgName>Maria Edgeworth Letters Project</orgName>
+            </sponsor>
+            <sponsor>Texas A &amp; M University, University of Tennessee, Wake Forest University, Xavier University of Louisiana, Southern Methodist University</sponsor>
+            <principal>Susan Egenolf, Meredith Hale, Hilary Havens, Jessica Richard, and Robin Runia</principal>
+            <respStmt>
+               <resp>Transcription and coding by</resp>
+               <persName>Jamie Kramer</persName>
+               <persName/>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>First digital edition in TEI, date: <date when="2023-08-10"/>
+            </edition>
+            <respStmt>
+               <orgName type="naf" ref="http://id.loc.gov/authorities/names/n79049138">
+                  Henry E. Huntington Library and Art Gallery
+               </orgName>
+               <resp> photos include: 
+                  Edgeworth_Huntington_HM28608_1827_02_page01.jpg,
+                  Edgeworth_Huntington_HM28608_1827_02_page02.jpg
+                  
+               </resp>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Maria Edgeworth Letters Project</authority>
+            <date>2023</date>
+            <availability>
+               <p>Reproduced by courtesy of the <orgName ref="http://id.loc.gov/authorities/names/n79049138">
+                  Henry E. Huntington Library and Art Gallery</orgName>. 
+               </p>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons Attribution 4.0 (CC BY 4.0) Unported
+            License</licence>
+            </availability>
+            <idno>Edgeworth_Huntington_HM28608_1827_02</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Maria Edgeworth Letters Project</title>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <repository>Henry E. Huntington Library and Art Gallery</repository>
+                  <collection>Manuscripts, Huntington Digital Library, call number 	
+                     mssHM 28608, 	
+                     Manuscripts, Huntington Digital Library. System Identifier: 	
+                     622986, https://hdl.huntington.org/digital/collection/p15150coll7/id/55210</collection>
+                  <idno/>
+               </msIdentifier>
+               <head>Letter from 
+                  <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
+                  to <persName ref="./Personography.xml#BeauF1">Sir Francis Beaufort</persName>, 
+                  <date when="1827-02">Feb. 1827</date>
+                  <placeName ref="./Placeography.xml#London_ENK">London</placeName>
+               </head>
+               <physDesc/>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>Edgeworth’s spelling and punctuation are retained in transcription, including non-standard spelling, line breaks, and hyphenation of words. The long s and ligatured forms are silently emended.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="./Personography.xml#BeauF1">Sir Francis Beaufort</persName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-01-01" who="Id_who"/>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <pb n="1" facs="Edgeworth_Huntington_HM28608_1827_02_page01.jpg"/>
+            <p>I am weary of waiting for an answer from<lb/>
+               <persName ref="./Personography.xml#LockJ1">M<hi rend="superscript">r</hi>. Lockhart</persName> - I enclose a note to <persName ref="./Personography.xml#LockS1">M<hi rend="superscript">rs</hi>. <choice>
+                     <orig>Lock-<lb/>
+                  -hart</orig>
+                     <reg>Lockhart</reg>
+                  </choice>
+               </persName> who is a kind creature &amp; I have <choice>
+                  <orig>commis<lb/>
+                     sioned</orig>
+                  <reg>commissioned</reg>
+               </choice> her to shake the table on which her<lb/>
+               husband is writing or to take his darling<lb/>
+               boy from him till he has penned an<lb/>
+               answer to my letter - She will by these<lb/>
+               or some other means get it done -<lb/>
+            </p>
+            <p>Will you have the note delivered<lb/>
+                  at their house in <placeName ref="./Placeography.xml#London_ENK">Town</placeName> - or if they <choice>
+                  <orig>sh<hi rend="superscript">d</hi>
+                  </orig>
+                  <reg>should</reg>
+               </choice>
+               <lb/>
+                  be out of <placeName ref="./Placeography.xml#London_ENK">Town</placeName> have it directed &amp; forward<lb/>
+               ed to wherever they are-<lb/>
+            </p>
+            <p>If you <choice>
+                  <orig>sh.<hi rend="superscript">d</hi>
+                  </orig>
+                  <reg>should</reg>
+               </choice> wish to be introduced to<lb/>
+               <persName ref="./Personography.xml#LockJ1">M<hi rend="superscript">r</hi> Lockhart</persName> &amp; to settle the business <unclear/>
+               <lb/>
+               let me know &amp; I will pen you a note<lb/>
+               introductory - But remember I do<lb/>
+               not press or <hi rend="underline">advise</hi> it - I always say<lb/>
+               plainly whether I think persons would<lb/>
+               suit who are about to be introduced;<lb/>
+                  &amp; I do not think you &amp; <persName ref="./Personography.xml#LockJ1">M<hi rend="superscript">r</hi>. L</persName> would<lb/>
+               suit each other - But in this I may<lb/>
+               be quite wrong - I <choice>
+                  <orig>sh<hi rend="superscript">d</hi>
+                  </orig>
+                  <reg>should</reg>
+               </choice> have said the same<lb/>
+               of <persName ref="./Personography.xml#EdgeW1">William E</persName> &amp; <persName ref="./Personography.xml#LockJ1">M<hi rend="superscript">r</hi>. L</persName> - yet they agreed<lb/>
+               wondrous well &amp; liked each other for <hi rend="underline">two</hi>
+               <lb/>
+               <hi rend="underline">whole</hi> days at <placeName ref="./Placeography.xml#Killarney_IE"/>Killarney!! -<lb/>
+            </p>
+            <p>I wish you would be pleased to answer<lb/>
+               me about my own affair of <choice>
+                  <orig>Chilian</orig>
+                  <reg>Chilean</reg>
+               </choice> bonds<lb/>
+                  - I sent you <persName ref="./Personography.xml#MoilJ1">Moilliet</persName>s urgent letter to me advising<lb/>
+               immediate sale even at the expense of<lb/>
+               <pb n="2" facs="Edgeworth_Huntington_HM28608_1827_02_page02.jpg"/>
+               
+               losing half my 900£ - I told you moreover or<lb/>
+                  sent you <add>the prescient</add> M<hi rend="superscript">r</hi>. <persName ref="./Personography.xml#RicaD1">Ricardo</persName>'s information respecting<lb/>
+               <placeName ref="./Placeography.xml#CL">
+                  <choice>
+                     <orig>Chilian</orig>
+                     <reg>Chilean</reg>
+                  </choice>
+               </placeName> funds - viz that the stoppage in paying<lb/>
+                  the <choice>
+                  <orig>div<hi rend="superscript">ds</hi>.</orig>
+                  <reg>dividends</reg>
+               </choice> arises from a quarrel between the<lb/>
+                  merchants who supplied the loan to the <placeName ref="./Placeography.xml#CL">
+                  <choice>
+                     <orig>Chilian</orig>
+                     <reg>Chilean</reg>
+                  </choice>
+               </placeName>
+               <choice>
+                  <orig>Gov<hi rend="superscript">t</hi>
+                  </orig>
+                  <reg>Government</reg>
+               </choice>
+               <lb/>
+                  &amp; the <choice>
+                  <orig>Gov<hi rend="superscript">t</hi>.</orig>
+                  <reg>Government</reg>
+               </choice> - <choice>
+                  <orig>The Gov<hi rend="superscript">t</hi>.</orig>
+                  <reg>Government</reg>
+               </choice> had promised them certain<lb/>
+               commercial privileges which have not been granted<lb/>
+                  &amp; they in consequence withhold money for <choice>
+                  <orig>div<hi rend="superscript">ds</hi>.</orig>
+                  <reg>dividends</reg>
+               </choice> till<lb/>
+               they are granted - If this be fact - there would be<lb/>
+               reasonable hope that the quarrel might be settled<lb/>
+                  &amp; the <choice>
+                  <orig>div<hi rend="superscript">ds</hi>.</orig>
+                  <reg>dividends</reg>
+               </choice> paid in time &amp; it would be imprudent<lb/>
+               in me to sell now at great loss - On the other hand<lb/>
+               if the above story be only a stock exchange humbug<lb/>
+               the sooner I sell the better because it is better to lose<lb/>
+               half than the whole - I want you to tell me if any<lb/>
+               further information has been or can be obtained - I do<lb/>
+               not want to rack you to extort an opinion if you<lb/>
+               cannot give one - but an answer you <hi rend="underline">can</hi> give &amp; pray do</p>
+            <lb/>
+            <closer>
+                  ever affect<hi rend="superscript">ly</hi>
+               <persName ref="./Personography.xml#EdgeM1">ME</persName>
+               <lb/>
+               <address>
+                  <addrLine>
+                     <persName ref="./Personography.xml#BeauF1">Capt<hi rend="superscript">n</hi>.. Beaufort</persName>R.N.</addrLine>
+                  <addrLine>
+                     <placeName ref="./Placeography.xml#Manchester-Street_ENK">Manchester S<hi rend="superscript">t</hi>
+                     </placeName>
+                  </addrLine>
+                  <addrLine>
+                     <placeName ref="./Placeography.xml#London_ENK">London</placeName>
+                  </addrLine>
+               </address>
+               <note>Edgw<hi rend="superscript">h</hi>. Affair<lb/>
+                  Feb. 1827</note>
+               <lb/>
+            </closer>
+         </div>
+      </body>
+      <back/>
+   </text>
+</TEI>
