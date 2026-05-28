@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/Maria-Edgeworth-Letters-Project/me-tei/refs/heads/main/melp.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+    ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from Richard Lovell Edgeworth to Sir Francis Beaufort, May 8, 1817</title>
+            <author>Richard Lovell Edgeworth</author>
+            <editor>
+               Jamie Kramer
+            </editor>
+            <sponsor>
+               <orgName>Maria Edgeworth Letters Project</orgName>
+            </sponsor>
+            <sponsor>Texas A &amp; M University, University of Tennessee, Wake Forest University, Xavier University of Louisiana, Southern Methodist University</sponsor>
+            <principal>Susan Egenolf, Meredith Hale, Hilary Havens, Jessica Richard, and Robin Runia</principal>
+            <respStmt>
+               <resp>Transcription and coding by</resp>
+               <persName>Jamie Kramer</persName>
+               <persName/>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>First digital edition in TEI, date: <date when="2023-08-11"/>
+            </edition>
+            <respStmt>
+               <orgName type="naf" ref="http://id.loc.gov/authorities/names/n79049138">
+                  Henry E. Huntington Library and Art Gallery
+               </orgName>
+               <resp> photos include: Edgeworth_Huntington_1817_05_08_page01.jpg,
+                  Edgeworth_Huntington_1817_05_08_page02.jpg
+               </resp>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Maria Edgeworth Letters Project</authority>
+            <date>2023</date>
+            <availability>
+               <p>Reproduced by courtesy of the <orgName ref="http://id.loc.gov/authorities/names/n79049138">
+                  Henry E. Huntington Library and Art Gallery</orgName>. 
+               </p>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons Attribution 4.0 (CC BY 4.0) Unported
+            License</licence>
+            </availability>
+            <idno>Edgeworth_Huntington_1817_05_08</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Maria Edgeworth Letters Project</title>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <repository>Henry E. Huntington Library and Art Gallery</repository>
+                  <collection>Manuscripts, Huntington Digital Library, call number 	
+                     mssHM 28613, 	
+                     Manuscripts, Huntington Digital Library. System Identifier: 	
+                     
+                     623011, https://hdl.huntington.org/digital/collection/p15150coll7/id/55322</collection>
+                  <idno/>
+               </msIdentifier>
+               <head>Letter from 
+                  <persName ref="./Personography.xml#EdgeR1">Richard Lovell Edgeworth</persName> 
+                  to <persName ref="./Personography.xml#BeauF1">Sir Francis Beaufort</persName>
+                  <date when="1817-05-08">May 8, 1817</date>
+               </head>
+               <physDesc/>
+            </msDesc>
+            <bibl>In addition to our edited version, this letter was previously published in
+               </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>Edgeworth’s spelling and punctuation are retained in transcription, including non-standard spelling, line breaks, and hyphenation of words. The long s and ligatured forms are silently emended.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="./Personography.xml#EdgeR1">Richard Lovell Edgeworth</persName>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="./Personography.xml#BeauF1">Sir Francis Beaufort</persName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-01-01" who="Id_who"/>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <pb n="1" facs="Edgeworth_Huntington_1817_05_08_page01.jpg"/>
+            <opener>
+               <dateline>
+                  <placeName ref="./Placeography.xml#Edgeworthstown_IE">EdgeworthsTown</placeName>
+                  <date when="1817-05-08">May 8</date>
+                  <lb/>
+                  1817<lb/>
+               </dateline>
+               <salute>
+                  My dear <persName ref="./Personography.xml#BeauF1">Brother</persName>
+               </salute>
+            </opener>
+            <p>I will not scruple to put you<lb/>
+               to the expence of a letter, when I feel that it<lb/>
+               will save me some anxiety.<lb/>
+            </p>
+            <p>I wrote to you yesterday to beg<lb/>
+                  that you would get <title ref="./Workography.xml#Ormon1">Ormond</title> from <persName ref="./Personography.xml#HuntR1">Hunter</persName> -<lb/>
+               - Now I fear, that he might by soft words<lb/>
+               and delusive promises, prevail upon you<lb/>
+               to leave it with him - _. I therefore beg, that<lb/>
+               you will in the first place possess yourself of<lb/>
+               the manuscript. and inform me of it, before<lb/>
+                  we enter into any <choice>
+                  <orig>negociation</orig>
+                  <reg>negotation</reg>
+               </choice> with him or<lb/>
+               any body else - possession being nine points<lb/>
+               of the law. - .<lb/>
+            </p>
+            <p>What keeps your book in the<lb/>
+               dark? -. Don't forget my values -.</p>
+            <lb/>
+            <closer>
+               Yours sincerely<lb/>
+               <persName ref="./Personography.xml#EdgeR1">RLE</persName>
+               <lb/>
+               <pb n="2" facs="Edgeworth_Huntington_1817_05_08_page02.jpg"/>
+               <note>R L. E<lb/>
+                  8 May 1817</note>
+               <lb/>
+            </closer>
+         </div>
+      </body>
+      <back/>
+   </text>
+</TEI>
