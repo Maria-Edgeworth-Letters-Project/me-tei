@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/Maria-Edgeworth-Letters-Project/me-tei/refs/heads/main/melp.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter from Maria Edgeworth, April 24, 1831</title>
+                <author>Maria Edgeworth</author>
+                <editor>Alexandra LaGrand</editor>
+                <sponsor>
+                    <orgName>Maria Edgeworth Letters Project</orgName>
+                </sponsor>
+                <sponsor>Texas A &amp; M University, University of Tennessee, Wake Forest University, Xavier University of Louisiana, Southern Methodist University</sponsor>
+                <principal>Susan Egenolf, Meredith Hale, Hilary Havens, Jessica Richard, and Robin Runia</principal>
+                <respStmt>
+                    <resp>Transcription and coding by</resp>
+                    <persName>Alexandra LaGrand</persName>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>First digital edition in TEI, date: <date when="2026-04-29">April 29, 2026</date>
+                </edition>
+                <respStmt>
+                    <orgName type="naf" ref="http://id.loc.gov/authorities/names/n80044899">National Library of Scotland</orgName>
+                    <resp> photos include: Edgeworth_NLS_42180_1831_04_24_page01.jpg, Edgeworth_NLS_42180_1831_04_24_page02.jpg, Edgeworth_NLS_42180_1831_04_24_page03.jpg</resp>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <authority>Maria Edgeworth Letters Project</authority>
+                <date>2022</date>
+                <availability>
+                    <p>Reproduced by courtesy of the <orgName ref="http://id.loc.gov/authorities/names/n80044899">National Library of Scotland</orgName>
+                    </p>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons Attribution 4.0 (CC BY 4.0) Unported License</licence>
+                </availability>
+                <idno>Edgeworth_NLS_42180_1831_04_24</idno> 
+            </publicationStmt>
+            <seriesStmt>
+                <title>Maria Edgeworth Letters Project</title>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc xml:lang="en">
+                    <msIdentifier>
+                        <repository>National Library of Scotland</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <head>Letter from 
+                        <persName xml:id="EdgeM1" from="1768" to="1849">
+                            <forename>Maria</forename>
+                            <surname>Edgeworth</surname>
+                            <date>1768-1849</date>
+                            <idno type="VIAF">71477273</idno>
+                            <idno type="SNAC">62567029</idno>
+                        </persName>, <date when="1831-04-24">April 24<hi rend="superscript"><hi rend="underline">th</hi></hi> 1831</date>
+                    </head>
+                    <physDesc></physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+               <p>Edgeworth’s spelling and punctuation are retained in transcription, including non-standard spelling, line breaks, and hyphenation of words. The long s and ligatured forms are silently emended.</p>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Unknown</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2026-04-29" who="Id_who">Created file for letter, encoded letter</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="letter">
+                <pb n="1" facs="Edgeworth_NLS_42180_1831_04_24_page01.jpg"/>
+                <opener>
+                    <dateline>
+                        <placeName ref="./Placeography.xml#North-Audley-Street-1_ENK"/>1 North Audley Street
+                        <date when="1831-04-24">April 24<hi rend="superscript"><hi rend="underline">th</hi></hi> 1831</date></dateline>
+                    <salute>Dear Sir</salute>
+                </opener>
+                <p>
+                    You would oblige still<lb/>
+                    more than you have <choice><orig>al<lb/>
+                    ready</orig><reg>already</reg></choice> obliged me by <choice><orig>let<lb/>
+                    ting</orig><reg>letting</reg></choice> me know what I<lb/>
+                    am in your debt or in<lb/>
+                    some body else's for the<lb/>
+                    books you were so kind<lb/>
+                    to procure for me to send<lb/>
+                    over to my nieces at <choice><orig>Flo-<lb/>
+                    rence</orig><reg>Florence</reg></choice> -. Pray write one<lb/>
+                    line by 2<hi rend="superscript">d</hi>. post to let me<lb/>
+                    know because the time<lb/>
+                    for my going hence <choice><orig>ap-<lb/>
+                    proaches</orig><reg>approaches</reg></choice> &amp; I should be sorry<lb/>
+                    to depart in pounds &amp; <choice><orig>shil-<lb/>
+                    ling</orig><reg>shilling</reg></choice> &amp; pence debt, while<lb/>
+                    all debts of gratitude I<lb/>
+                    am glad to remain <del><unclear></unclear></del><lb/> 
+                    <add>under</add><lb/>
+                </p>
+                <p>
+                    <pb n="2" facs="Edgeworth_NLS_42180_1831_04_24_page01.jpg"/>
+                    under without feeling<lb/>
+                    them any weight<lb/>
+                    <persName ref="./Personography.xml#HersX1">M<hi rend="superscript">r</hi>. Herschel</persName> sent<lb/>
+                    me a book which he<lb/>
+                    thinks is out of print<lb/>
+                    &amp; which I have not been<lb/>
+                    able to find - Perhaps<lb/>
+                    you with your great<lb/>
+                    means &amp; great good will<lb/>
+                    could find it for me<lb/>
+                    Title -<lb/>
+                    <title ref="./Workography.xml#Thirt1">Thirty letters on<lb/>
+                    Various subjects</title><lb/>
+                    by<lb/>
+                    <persName ref="./Personography.xml#JackW1">William Jackson</persName><lb/>
+                    (3<hi rend="superscript">d</hi> <choice><orig>Ed<hi rend="superscript">n</hi></orig><reg>Edition</reg></choice> with considerable<lb/>
+                    additions<lb/>
+                    Printed for <persName ref="./Personography.xml#CadeT2">T Cadell</persName> <unclear><choice><orig>Jun</orig><reg>Junior</reg></choice></unclear><lb/>
+                    &amp; <persName ref="./Personography.xml#DaviW1">W <choice><orig>Davis</orig><reg>Davies</reg></choice></persName> <placeName ref="./Placeography.xml#Strand_ENK">Strand</placeName><lb/>
+                    1795<lb/>
+                </p>
+                <closer>
+                    <pb n="3" facs="Edgeworth_NLS_42180_1831_04_24_page03.jpg"/>
+                    With Compliments to<lb/>
+                    <persName ref="./Personography.xml#MurrJ1">M<hi rend="superscript">r</hi>. Murray</persName> I am<lb/>
+                    <choice><orig>D<hi rend="superscript">r</hi>.</orig><reg>Dear</reg></choice> Sir<lb/>
+                    Your obliged<lb/>
+                    humble <choice><orig>Serv<hi rend="superscript">t</hi></orig><reg>Servant</reg></choice><lb/>
+                    <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName><lb/>
+                </closer>
+                <postscript>
+                    <p>
+                        My youngest brother<lb/>
+                        <persName ref="./Personography.xml#EdgeM2">Pakenham</persName> who I<lb/>
+                        believe was at the<lb/>
+                        Charter house with you<lb/>
+                        is going to <placeName ref="./Placeography.xml#Kolkata_IN">Calcutta</placeName><note>Calcutta was known as Calcutta until 2001, when it was renamed as Kolkata.</note><lb/>
+                        in a few days -<lb/>
+                        Have you any <hi rend="underline">command</hi><lb/>
+                        there that he can execute<lb/>
+                    </p>
+                </postscript>
+            </div>
+        </body>
+        <back> </back>
+    </text>
+</TEI>

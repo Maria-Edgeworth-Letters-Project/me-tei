@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/Maria-Edgeworth-Letters-Project/me-tei/refs/heads/main/melp.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter from John Gibson Lockhart to Maria Edgeworth, <date cert="medium">July 2025</date></title>
+                <author>Maria Edgeworth</author>
+                <editor>
+                    
+                </editor>
+                <sponsor>
+                    <orgName>Maria Edgeworth Letters Project</orgName>
+                </sponsor>
+                <sponsor>Texas A &amp; M University, University of Tennessee, Wake Forest University, Xavier University of Louisiana, Southern Methodist University</sponsor>
+                <principal>Susan Egenolf, Meredith Hale, Hilary Havens, Jessica Richard, and Robin Runia</principal>
+                <respStmt>
+                    <resp>Transcription and coding by</resp>
+                    <persName>Paris Weber
+                    </persName>
+                    <!-- List all transcribers or coders here, editors and students alike, <persName> by <persName>.-->
+                    <persName><!--FirstName LastName--></persName>
+                    <!-- If you're the last person interacting with the file, enter your name last on the list -->
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>First digital edition in TEI,<date when="2026-04-17">April 17, 2026</date>
+                    
+                </edition>
+                <respStmt>
+                    <orgName type="naf" ref="http://id.loc.gov/authorities/names/n80044899">National Library of Scotland</orgName>
+                    
+                    
+                    <resp> photos include:
+                        Edgeworth_NLS_23131_1825_07_page01.jpg,
+                        Edgeworth_NLS_23131_1825_07_page02.jpg,
+                        Edgeworth_NLS_23131_1825_07_page03.jpg,
+                        Edgeworth_NLS_23131_1825_07_page04.jpg,
+                        
+                    </resp>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <authority>Maria Edgeworth Letters Project</authority>
+                <date>2022</date>
+                <availability>
+                    <p>Reproduced by courtesy of the <orgName ref="http://id.loc.gov/authorities/names/n80044899">National Library of Scotland</orgName>
+                    </p>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons Attribution 4.0 (CC BY 4.0) Unported License</licence>
+                </availability>
+                <idno>Edgeworth_NLS_23131_1825_07</idno> 
+            </publicationStmt>
+            <seriesStmt>
+                <title>Maria Edgeworth Letters Project</title>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc xml:lang="en">
+                    
+                    <msIdentifier>
+                        <repository>National Library of Scotland </repository>
+                        
+                    </msIdentifier>
+                    <head>Letter from 
+                        <persName xml:id="LockJ1" from="1794" to="1854">
+                            <forename>John</forename>
+                            <surname>Lockhart</surname>
+                            <date>1794-1854</date>
+                            <idno type="VIAF">32120479</idno>
+                            
+                        </persName>
+                        to <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>,
+                        <date when="1825-07"></date>
+                        
+                    </head>
+                    
+                </msDesc>
+                
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p>Edgeworth’s spelling and punctuation are retained in transcription, including non-standard spelling, line breaks, and hyphenation of words. The long s and ligatured forms are silently emended.</p>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="./Personography.xml#LockJ1">John Gibson Lockhart</persName>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2021-01-01" who="Id_who">
+                <!--Brief description of what you did here.-->
+            </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="letter">
+                <pb n="1" facs="Edgeworth_NLS_23131_1825_07_page01.jpg"/>
+                
+                <opener> <note>26</note>
+                    <dateline>
+                        <placeName ref="./Placeography.xml#Sussex-Place-24_ENK">24 Sussex Place</placeName>
+                        Sunday morning</dateline>
+                 
+                </opener>
+                <p>
+                    
+               
+                    Dear <persName ref="./Personography.xml#EdgeM1">Miss Edgeworth</persName> <persName ref="./Personography.xml#MurrJ1">Mr Murray</persName><lb/>
+                    hearing me laud your friends<lb/>
+                    My review of <title ref="./Workography.xml#Betro1">I Promessi Sposi</title><lb/>
+                    insisted on having it to read<lb/>
+                    and I trust he has already<lb/>
+                    forwarded it to you. I was<lb/>
+                    very much pleased with it<lb/>
+                    indeed — one sentence about<lb/>
+                    things being weeds &amp; stones to<lb/>
+                    the unitiated &amp; specimens to<lb/>
+                    others struck me as quite exquisite<lb/>
+                    — but after so great a lapse<lb/>
+                 
+                    <pb n="2" facs="Edgeworth_NLS_23131_1825_07_page02.jpg"/>
+                    
+                    
+                    of time it w<hi rend="superscript">d</hi> never suit the<lb/>
+                    Quarterley to bestow a considerable<lb/>
+                    space formally on <persName ref="./Personography.xml#ManzA1">Manzoni's</persName><lb/>
+                    novel — which by the bye has<lb/>
+                    been translated into English<lb/>
+                    some two years ago.<lb/></p>
+                <p>
+                    It wd give me great<lb/>
+                    pleasure to receive your<lb/>
+                    accomplished friends assistance<lb/>
+                    W respect to some <hi rend="underline">new</hi> book<lb/>
+                    and if she permit me I<lb/>
+                        
+                    <pb n="3" facs="Edgeworth_NLS_23131_1825_07_page03.jpg"/>
+                    
+                    <note>27</note>
+                    will presently hazard such<lb/>
+                    an application. Meantime<lb/>
+                    pray say something proper<lb/>
+                    in my name &amp; believe me<lb/></p>
+                   <closer>yours, as well as her much<lb/>
+                    obliged Servant<lb/>
+                    <hi rend="underline"><persName ref="./Personography.xml#LockJ1">J G Lockhart</persName></hi><lb/></closer>
+                     
+                    <pb n="4" facs="Edgeworth_NLS_23131_1825_07_page04.jpg"/>
+                <note>28</note>
+                <figure>
+                    <figDesc>a sketch of <persName ref="./Personography.xml#ScotW1">Sir Walter Scott</persName>, drawn by <persName ref="./Personography.xml#BeauH1">Honora</persName></figDesc>
+                </figure>
+             
+                    
+                <note>Sir W Scott<lb/>
+                    July 1825<lb/>
+                    at <placeName ref="./Placeography.xml#Edgeworthstown_IE">Edgeworthstown</placeName> July 1825<lb/>
+                    <persName ref="./Personography.xml#BeauH1">Honora</persName><lb/></note>
+                
+            </div>
+        </body>
+        <back> </back>
+    </text>
+</TEI>
+
+
+
+
+

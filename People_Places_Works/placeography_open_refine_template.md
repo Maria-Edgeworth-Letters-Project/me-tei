@@ -18,7 +18,7 @@
                 <author>Meredith Hale</author>
                 <sponsor>Texas A &amp; M University, University of Tennessee, Wake Forest University, Xavier University of Louisiana, Southern Methodist University</sponsor>
                 <respStmt>
-                    <resp>Contributors include:</resp>
+						<resp>Contributors include:</resp>
                     <persName>Anna Grace Barnett</persName>
                     <persName>Katie Haire</persName>
                     <persName>Meredith Hale</persName>
@@ -31,9 +31,11 @@
                     <persName>Jamie Kramer</persName>
                     <persName>Seolha Lee</persName>
                     <persName>Alexandra LaGrand</persName>
+                    <persName>Lexi Mitchell</persName>
                     <persName>Savannah Payne</persName>
                     <persName>Jessica Richard</persName>
                     <persName>Robin Runia</persName>
+                    <persName>Maggie Turbyfield</persName>
                     <persName>Eliza Alexander Wilcox</persName>
                     <persName>Paris Weber</persName>
                 </respStmt>

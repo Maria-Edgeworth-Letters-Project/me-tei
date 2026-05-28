@@ -1,0 +1,386 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/Maria-Edgeworth-Letters-Project/me-tei/refs/heads/main/melp.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter from Maria Edgeworth to Frances Anne Edgeworth, November 4, 1818</title>
+                <author>Maria Edgeworth</author>
+                <editor>
+                    
+                </editor>
+                <sponsor>
+                    <orgName>Maria Edgeworth Letters Project</orgName>
+                </sponsor>
+                <sponsor>Texas A &amp; M University, University of Tennessee, Wake Forest University, Xavier University of Louisiana, Southern Methodist University</sponsor>
+                <principal>Susan Egenolf, Meredith Hale, Hilary Havens, Jessica Richard, and Robin Runia</principal>
+                <respStmt>
+                    <resp>Transcription and coding by</resp>
+                    <persName>Paris Weber 
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>First digital edition in TEI, date: February 19, 2026 <date when="2026-02-19">
+                </date>
+                </edition>
+                <respStmt>
+                    <orgName 
+                        ref="/http://id.loc.gov/authorities/names/n80020306">Bodleian Library</orgName>
+                    <resp> photos include:
+                        Edgeworth_Bodleian_696_1818-11-04_page01.jpg,
+                        Edgeworth_Bodleian_696_1818-11-04_page02.jpg,
+                        Edgeworth_Bodleian_696_1818-11-04_page03.jpg,
+                        Edgeworth_Bodleian_696_1818-11-04_page04.jpg,
+                        Edgeworth_Bodleian_696_1818-11-04_page05.jpg,
+                        Edgeworth_Bodleian_696_1818-11-04_page06.jpg,
+                        Edgeworth_Bodleian_696_1818-11-04_page07.jpg,
+                        Edgeworth_Bodleian_696_1818-11-04_page08.jpg
+                        
+                    </resp>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <authority>Maria Edgeworth Letters Project</authority>
+                <date>2022</date>
+                <availability>
+                    
+                    <p>Reproduced by courtesy of<orgName ref="http://id.loc.gov/authorities/names/n80020306"> Bodleian Library</orgName>
+                        
+                    </p>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons Attribution 4.0 (CC BY 4.0) Unported License</licence>
+                </availability>
+                <idno>Edgeworth_Bodleian_696_1818-11-04</idno> 
+            </publicationStmt>
+            <seriesStmt>
+                <title>Maria Edgeworth Letters Project</title>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc xml:lang="en">
+                    
+                    <msIdentifier>
+                        <repository>Bodleian Library</repository>
+                        <collection>MS. Eng. lett. c. 696</collection>
+                    </msIdentifier>
+                    <head>Letter from 
+                        <persName xml:id="EdgeM1" from="1768" to="1849">
+                            <forename>Maria</forename>
+                            <surname>Edgeworth</surname>
+                            <date>1768-1849</date>
+                            <idno type="VIAF">71477273</idno>
+                            <idno type="SNAC">62567029</idno>
+                        </persName>
+                        to <persName ref="./Personography.xml#EdgeF2">Frances Anne Edgeworth, 1769-1865</persName>, <placeName></placeName>, 
+                        <date when="1818-11-04">Nov <hi rend="superscript">r</hi> 4<hi rend="superscript">th</hi>1818</date>
+                        
+                    </head>
+                    <physDesc>
+                        
+                    </physDesc>
+                </msDesc>
+                <bibl>In addition to our edited version, this letter was previously published in
+                    
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                
+                <p>Edgeworth’s spelling and punctuation are retained in transcription, including non-standard spelling, line breaks, and hyphenation of words. The long s and ligatured forms are silently emended.</p>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="./Personography.xml#EdgeM1">Edgeworth, Maria, 1768-1849</persName>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="./Personography.xml#EdgeF2">Edgeworth, Frances Anne, 1769-1865</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2021-01-01" who="Id_who">
+             
+            </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="letter">
+                
+                <pb n="1" facs="Edgeworth_Bodleian_696_1818-11-04_page01.jpg"/>
+                
+                <dateline><placeName ref="./Placeography.xml#Bowood-House_ENK">Bow Wood Park</placeName><lb/><note>73</note>
+                        <date>Nov<hi rend="superscript">r</hi> 4<hi rend="superscript">th</hi> 1818</date></dateline>
+                
+                <p>
+                    
+                        The newspapers have told you the<lb/>
+                        dreadful catastrophe - the death and<lb/>
+                        the manner of the death of that great<lb/>
+                        and good man - <persName ref="./Personography.xml#RomiS1">Sir Samuel Romilly</persName><lb/></p>
+                    <p>
+                        My dearest <persName ref="./Personography.xml#EdgeF2">mother</persName> there seems<lb/>
+                        no end of horrible calamities -<lb/>
+                        - there is no telling <del>the</del> how this<lb/>
+                        has been felt in this house - I did<lb/>
+                        not know till now that M<hi rend="superscript">r</hi>. <persName ref="./Personography.xml#StewD1">Dugald<lb/>
+                        Stewart</persName> had been so very intimate<lb/>
+                        with <persName ref="./Personography.xml#RomiS1">Sir Samuel</persName> and so much attached<lb/>
+                        to him - 40 years his friend! - and<lb/>
+                        now to lose him in this shocking man<lb/>
+                        ner at the moment most dangerous<lb/>
+                        for <persName ref="./Personography.xml#StewD1">M<hi rend="superscript">r</hi>. Stewarts</persName> own mind - <persName ref="./Personography.xml#StewD1">M<hi rend="superscript">r</hi>.<lb/>
+                        S</persName> - has been dreadfully shocked - he<lb/>
+                        has not been able to sleep these two<lb/>
+                        nights - he wanders about the house <add>walking most feebly, leaning on his <persName ref="./Personography.xml#StewM1">daughter</persName></add><lb/>
+                        a melancholy spectacle - He was just<lb/>
+                        getting better - enjoyed seeing us - con=<lb/>
+                        versed with me quite happily the first<lb/>
+                        evening &amp; <del>the</del> I felt reassured <hi rend="underline">as to his</hi><lb/>
+                        <hi rend="underline">mind</hi> - But what may be the consequence<lb/>
+                    
+                    <pb n="2" facs="Edgeworth_Bodleian_696_1818-11-04_page02.jpg"/>
+                        of this stroke none can tell - His amicable<lb/>
+                        <persName ref="./Personography.xml#StewM1">daughter</persName> &amp; <persName ref="./Personography.xml#StewH1">M<hi rend="superscript">rs</hi>. Stewart</persName> show great re-<lb/>
+                        solution and judgment - I rejoice that<lb/>
+                        we came - they say I am of use conversing<lb/>
+                        with him - The only thing to which he has<lb/>
+                        been able to turn his mind is the M<hi rend="superscript">s</hi><lb/>
+                        of my <persName ref="./Personography.xml#EdgeR1">fathers</persName> life - He says that is very<lb/>
+                        interesting to him - This morning he<lb/>
+                        read <del>all</del> the preface and all the history<lb/>
+                        of childhood - His affectionate manner<lb/>
+                        of speaking of him &amp; you at <hi rend="underline">this time</hi><lb/>
+                        is very touching - When he read the<lb/>
+                        account in the papers &amp; <persName ref="./Personography.xml#DumoE1">Dumonts</persName> evi<lb/>
+                        dence and <persName ref="./Personography.xml#RomiS1">Sir<hi rend="underline">Samuels</hi></persName> <hi rend="underline">letter to Dumont</hi><lb/>
+                        he cried bitterly and <persName ref="./Personography.xml#StewH1">M<hi rend="superscript">rs</hi>. S</persName>- said<lb/>
+                        that relieved him much - <persName ref="./Personography.xml#LansH1">Lord<lb/>
+                        Lansdowne</persName>, did not sleep <persName ref="./Personography.xml#LansL1">Lady L</persName>- says<lb/>
+                        and looks wretchedly - He was extreme<lb/>
+                        ly attached to <persName ref="./Personography.xml#RomiS1">Sir Samuel</persName> &amp; besides pri<lb/>
+                        vate friendship as he says the public<lb/>
+                        loss is irreparable - <persName ref="./Personography.xml#LansH1">Lord L</persName>- can hardly<lb/>
+                        speak on the subject without tears<lb/>
+                        notwithstanding all his efforts - <del>Both</del><lb/></p>
+                    <p>
+                        The first thought both of the <persName ref="./Personography.xml#Stewa1">Stewarts</persName><lb/>
+                        and ourselves was to leave this house<lb/>
+                        to leave <persName ref="./Personography.xml#LansH1">Lord</persName> &amp; <persName ref="./Personography.xml#LansL1">Lady L</persName> to themselves - But<lb/>
+                        <persName ref="./Personography.xml#LansH1">Lord L</persName> to whom I spoke directly assured me<lb/>
+                        in the most affectionate manner that<lb/>
+                    
+                  <pb n="3" facs="Edgeworth_Bodleian_696_1818-11-04_page03.jpg"/>
+                        
+                        
+                        instead of being any a constraint it was a<lb/> <note>74</note>
+                        comfort to him &amp; to <persName ref="./Personography.xml#LansL1">Lady L</persName> to have people<lb/>
+                        with him who as he knows feel as<lb/>
+                        they do - How excessively <persName ref="./Personography.xml#RomiS1">Sir Samuel<lb/>
+                        R</persName> was beloved as well as expected<lb/>
+                        - Poor <persName ref="./Personography.xml#DumoE1">Dumont!</persName> - how unjust to think<lb/>
+                        he wanted feeling - His letters to <persName ref="./Personography.xml#LansH1">Lord<lb/>
+                        L</persName>- during the time of <persName ref="./Personography.xml#RomiA1">Lady R's</persName> illness &amp;<lb/>
+                        all his conduct to them show the<lb/>
+                        tenderest feeling.<lb/>
+                        Nov<hi rend="superscript">r</hi>. 5<hi rend="superscript">th</hi>.<lb/>
+                        This morning <persName ref="./Personography.xml#LansH1">Lord L</persName> has shewn me<lb/>
+                        a letter <add>he has</add>he has just received from good <persName ref="./Personography.xml#WhisJ1">M<hi rend="superscript">r</hi>. Wish<lb/>
+                        -aw</persName> - <persName ref="./Personography.xml#RomiS1">Sir S</persName> on the 4<hi rend="superscript">th</hi>. Oct added a<lb/>
+                        codicil to his will appointing <add>M<hi rend="superscript">r</hi>. Waldegrave</add> Lady<lb/>
+                        <del>Lans</del> Romilly's brother his executor<lb/>
+                        &amp; guardian to his children - <persName ref="./Personography.xml#RomiA1">Lady R.</persName><lb/>
+                        had formerly been sole guardian -<lb/>
+                        In case of this gentleman's death or<lb/>
+                        declining to act <persName ref="./Personography.xml#RomiS1">Sir Samuel</persName> appoints<lb/>
+                        <persName ref="./Personography.xml#WhisJ1">M<hi rend="superscript">r</hi>. Wishaw</persName> &amp; <persName ref="./Personography.xml#LansH1">Lord Lansdowne</persName> his<lb/>
+                        executors &amp; guardians to his children<lb/>
+                        - M<hi rend="superscript">r</hi>. Waldegrave <add>he changed his name from <hi rend="underline">Garbet</hi> for some estate</add>, Lady Rs brother <del>it is</del><lb/>
+                        <del>tho</del> cannot act he is <add>in</add> such bad health<lb/>
+                        - it is thought he will die -<lb/>
+                        It is evident from this codicil that<lb/>
+                        <persName ref="./Personography.xml#RomiS1">Sir Samuel</persName> at that time gave up hope of<lb/>
+                        <persName ref="./Personography.xml#RomiA1">Lady R</persName> - What resolution he shewed in<lb/>
+                        writing it - he has settled all his affairs<lb/>
+                        properly - <del>It was feared</del> From his calling for <hi rend="underline"><unclear>that</unclear></hi><lb/>
+                        <hi rend="underline">sheet of paper</hi> <del>that</del> <add>&amp;</add> from his efforts to write it<lb/>
+                        
+                  <pb n="4" facs="Edgeworth_Bodleian_696_1818-11-04_page04.jpg"/>
+                            was feared that he had left no will --<lb/></p>
+                        <p>
+                            I know my dearest <persName ref="./Personography.xml#EdgeF2">mother</persName> how all<lb/>
+                            I this will shock you - I know every thought<lb/>
+                            that will rush on your mind - for the<lb/>
+                            <hi rend="underline">past</hi> &amp; for the <hi rend="underline">future</hi> ----<lb/></p>
+                        <p>
+                            <persName ref="./Personography.xml#StewH1">M<hi rend="superscript">rs</hi>. D. S</persName> <del>who</del> from her knowledge<lb/>
+                            of H- guessed the truth with regard to W<lb/>
+                            from the moment she heard of a brain<lb/>
+                            fever -- she tells me she has had great<lb/>
+                            experience in two different families <del>&amp;</del><lb/>
+                            of intimate friends and has had the<lb/>
+                            advice of the first medical men <persName ref="./Personography.xml#GregJ1" cert="low">D<hi rend="superscript">r.</hi> Gregory</persName><lb/>
+                            in particular - He was decidedly of opinion<lb/>
+                            that there was no chance of recovery for<lb/>
+                            a patient unless removed from their<lb/>
+                            friends &amp; their home - He says they compare<lb/>
+                            their actual with their past state at home<lb/>
+                            &amp; this with the worst effect -- But that<lb/>
+                            <hi rend="underline">elsewhere</hi> they compare themselves with<lb/>
+                            other patients &amp; have hope <add>of cure</add> &amp; motive for<lb/>
+                            exerting themselves to get well &amp; get home<lb/>
+                            again -- In short without <add>my</add> attempting to<lb/>
+                            detail the reasons <persName ref="./Personography.xml#GregJ1" cert="low">D<hi rend="superscript">r</hi>. G</persName> decidedly was of this<lb/>
+                            opinion &amp; in two cases where his opinion<lb/>
+                            was not followed from the injudicious tenderness<lb/>
+                            of friends the consequences were fatal<lb/>
+                            -- once to the patient herself -- and once to<lb/>
+                            &amp; sister - a girl of 15 who only from <hi rend="underline">seeing</hi><lb/>
+                            &amp; <hi rend="underline">hearing</hi> what passed with the patient went<lb/>
+                            raging mad - The best chance of preventing<lb/>
+                            any catastrophe <hi rend="underline">such as we fear from despair</hi><lb/>
+                            as <persName ref="./Personography.xml#StewH1">M<hi rend="superscript">rs.</hi> Stewart</persName> says the trusting to the <hi rend="underline">watching</hi> of<lb/>
+                  <pb n="5" facs="Edgeworth_Bodleian_696_1818-11-04_page05.jpg"/>
+                        
+                            persons habituated to such attendance - The<lb/>
+                            patient always finds means to deceive friends<lb/> <note>75</note>
+                            <del>The</del> His having spoken on that subject and<lb/>
+                            having suggested that it might come to that<lb/>
+                            is <persName ref="./Personography.xml#StewH1">M<hi rend="superscript">rs</hi>. D. S</persName> assures me the best proof that it<lb/>
+                            never will - Those who <hi rend="underline">say</hi>never <hi rend="underline">do</hi>it -<lb/>
+                            - She has had long experience for many<lb/>
+                            years in several cases -<lb/></p>
+                        <p>
+                            As I know the course of your mind<lb/>
+                            perfectly my dearest <persName ref="./Personography.xml#EdgeF2">mother</persName> I have an-<lb/>
+                            ticipated the painful thoughts which<lb/>
+                            will occur &amp; have offered all that has<lb/>
+                            given me any relief or hope - you know<lb/>
+                            <persName ref="./Personography.xml#StewH1">M<hi rend="superscript">rs</hi>. Stewarts</persName> affection &amp; discretion there<lb/>
+                            fore you will not have any fears <del>from</del><lb/>
+                            of her speaking on the subject.<lb/></p>
+                        <p>
+                            Tell <persName ref="./Personography.xml#EdgeL2">Lovell</persName>, my dear brother <persName ref="./Personography.xml#EdgeL2">Lovel</persName>l<lb/>
+                            <del>with</del> that <persName ref="./Personography.xml#StewD1">M<hi rend="superscript">r</hi>. Stewart</persName> remembers him<lb/>
+                            with great affection - <persName ref="./Personography.xml#StewM1">Maria Stewart</persName><lb/>
+                            is a charming girl - But I don't mean<lb/>
+                            anything by naming her so immediately<lb/>
+                            after <persName ref="./Personography.xml#EdgeL2">Lovell</persName> - My heart is too full of me<lb/>
+                            lancholy things at this moment even<lb/>
+                            look forward to <add>the pleasures of</add> <unclear>maneuvering</unclear> -<lb/></p>
+                
+                        <p>
+                            The <persName ref="./Personography.xml#Stewa1">Stewarts</persName> stay <add>here</add> till Monday -<lb/>
+                            - then they go to D<hi rend="superscript">r</hi>. Millar's Exeter -<lb/> &amp;
+                            look for a house for winter -<lb/></p>
+                        <p>
+                            We have written to Anna to say<lb/>
+                            that we will go to her on Monday for<lb/>
+                            a few days - I think my dearest<lb/>
+                  <pb n="6" facs="Edgeworth_Bodleian_696_1818-11-04_page06.jpg"/>
+                        
+                            <persName ref="./Personography.xml#EdgeF2">mother</persName><del>that</del> after weighing all the reasons<lb/>
+                            pro &amp; con, and after considering all the<lb/>
+                            chances of advantage to Honora and hearing<lb/>
+                            all her wishes and feelings I have<lb/>
+                            come to a decision that it is most prudent<lb/>
+                            as well as certainly most agreeable to us<lb/>
+                            both to return home instead of spending<lb/>
+                            the winter in England -<lb/></p>
+                        <p>
+                            However I will wait a few days<lb/>
+                            longer before I write to make irrevocable<lb/>
+                            engagements for our way home - I will<lb/>
+                            wait for some letter Conn or packet of<lb/>
+                            yours which has not yet reached me &amp;<lb/>
+                            in which perhaps there may be some<lb/>
+                            reasons or request from you which<lb/>
+                            ought to weigh with us<lb/></p>
+                        <p>
+                            At all events <del>we</del> I will decide not<lb/>
+                            to make any movement towards re-<lb/>
+                            turning till I hear that W. is safe at<lb/>
+                            Tunbridge -<lb/></p>
+                        <p>
+                            It is my present intention as soon as I hear<lb/>
+                            that he has set out on his journey to<lb/>
+                            write to M<hi rend="superscript">rs</hi>. E Sneyd to offer ourselves<lb/>
+                            to her - My aunts have written to Honora<lb/>
+                            to say that as we refused M<hi rend="superscript">rs</hi>. Sneyds first<lb/>
+                            
+                  <pb n="7" facs="Edgeworth_Bodleian_696_1818-11-04_page07.jpg"/>
+                            invitation it is now my business to<hi rend="underline">propose</hi><lb/> <note>76</note>
+                            a visit - So I shall - propose staying there<lb/>
+                            a fortnight - <del>a week</del>another fortnight<lb/>
+                            between M<hi rend="superscript">rs</hi>. M Powys and the Hol-<lb/>
+                            lands - You can calculate the rest<lb/>
+                            as well as I can -<lb/></p>
+                        <p>
+                            I believe I must give up going to<lb/>
+                            the Hopes tho it hurts my conscience<lb/>
+                            &amp; my inclinations to so but it w<hi rend="superscript">d</hi> be<lb/>
+                            such an immense round &amp; expense<lb/></p>
+                        <p>
+                            Adieu some carriage of I know<lb/>
+                            no<damage><unclear>t</unclear></damage> what visitors are just come &amp; I<lb/>
+                            must be ready for dinner<lb/></p>
+                        <p> I enclose a note from Tom B<lb/>
+                            which shews he is a good <add>natured tho silent</add> creature<lb/></p>
+                        <p>
+                            I beg to have the pleasure of<lb/>
+                            subscribing for that dear little Francis
+                            to Library &amp; newspapers - <add>as to</add> pocket<lb/>
+                            money I leave the pleasure <hi rend="underline">justly</hi> to<lb/>
+                            his dear <persName ref="./Personography.xml#EdgeF2">mother</persName><lb/>
+                            <persName ref="./Personography.xml#EdgeM1">Maria E</persName><lb/></p>
+                        <postscript><p>
+                            memorandum for future<lb/>
+                            The people that <hi rend="underline">have been</hi> here<lb/>
+                            young M<hi rend="superscript">r</hi>. Smiths relations of <persName ref="./Personography.xml#LansH1">Lord L's</persName><lb/>
+                            M<hi rend="superscript">r</hi>. &amp; <hi rend="underline">M<hi rend="superscript">rs</hi>. Ogden</hi> - he clever - &amp; rich<lb/>
+                            She - the strangest of beauties<lb/>
+                        
+                        <pb n="8" facs="Edgeworth_Bodleian_696_1818-11-04_page08.jpg"/>
+                           Pray get me a piece of bog oak for turning<lb/>
+                           for M<hi rend="superscript">r</hi>. J. Wilson - I have promised it -<lb/></p>
+                        <p>
+                            Pray write to your <del>father</del>brother William<lb/>
+                            &amp; ask him to inquire if a portrait of Spenser<lb/>
+                            can be had at a certain <hi rend="superscript">Castle Saffron</hi> near<lb/>
+                            Corke - now a ruin - but in wh<hi rend="superscript">h</hi>. there was the<lb/>
+                            only portrait known of Spenser except one<lb/>
+                            in some Scotchman's possession - Does D<hi rend="superscript">r</hi>. B<lb/>
+                            know of any other I promised Lady Spenser to<lb/>
+                            ask -<lb/></p>
+                        <p>    
+                            I have never received your drawings - I have<lb/>
+                            written to Ward -<lb/>
+                            <persName ref="./Personography.xml#StewH1">M<hi rend="superscript">rs</hi>. D S</persName> tells me that Wilkie saw the<lb/>
+                            sketch she has of the Irish dance &amp; was<lb/>
+                            delighted with it - did not know whose it<lb/>
+                            was - said it was <hi rend="underline">admirable</hi> -<lb/></p></postscript>
+                
+                            <closer>Calne November<lb/>
+                            fifth 1818<lb/>
+                            <persName ref="./Personography.xml#EdgeF2">M<hi rend="superscript">rs</hi>. Edgeworth</persName><lb/>
+                            Dr Beaufort's<lb/>
+                            <address><addrLine><del>Edgeworthstown</del><lb/>
+                            Ireland<lb/>
+                            <hi rend="underline">Lansdowne</hi><lb/>
+                            Near Dunleer<lb/></addrLine></address></closer>
+                
+                
+                
+                
+                
+            </div>
+        </body>
+        <back> </back>
+    </text>
+</TEI>
+

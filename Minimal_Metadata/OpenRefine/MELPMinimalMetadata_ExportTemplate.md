@@ -8,14 +8,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://raw.githubusercontent.com/Maria-Edgeworth-Letters-Project/me-tei/refs/heads/main/melp.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+    ?>
 	<teiCorpus xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Birmingham minimal metadata</title>
+                <title>Minimal metadata</title>
             </titleStmt>
-            <publicationStmt><p>Records will be shared on https://melp.dh.tamu.edu/letters/</p></publicationStmt>
+            <publicationStmt><p>Records will be shared on https://mariaedgeworth.org/</p></publicationStmt>
             <sourceDesc><p>XML created by Meredith Hale using OpenRefine</p></sourceDesc>
         </fileDesc>
     </teiHeader>
@@ -30,7 +31,7 @@
             <titleStmt>
                 <title>{{cells['Title'].value}}</title>
                 <author>{{cells['Creator'].value}}</author>
-                <editor ref="Id_who">
+                <editor>
                     <!--Editor on the Maria Edgeworth Letters Project overseeing the coding of this particular letter: FirstName LastName -->
                 </editor>
                 <sponsor>
@@ -40,18 +41,15 @@
                 <principal>Susan Egenolf, Meredith Hale, Hilary Havens, Jessica Richard, and Robin Runia</principal>
                 <respStmt>
                     <resp>Transcription and coding by</resp>
-                    <persName ref="Id_who"><!--FirstName LastName-->
+                    <persName><!--FirstName LastName-->
                     </persName>
                     <!-- List all transcribers or coders here, editors and students alike, <persName> by <persName>-->
-                    <persName ref="Id_who"><!--FirstName LastName--></persName>
+                    <persName><!--FirstName LastName--></persName>
                     <!-- If you are the last person interacting with the file, enter your name last on the list -->
                 </respStmt>
             </titleStmt>
                         <editionStmt>
-                <edition>First digital edition in TEI, date: <!-- <date when="1111-11-11"> -->
-                    <!--enter the date on which the first coder created and saved this XML file in google drive-->
-                <!-- </date> -->
-                </edition>
+                <edition>First digital edition in TEI, date: <date when="2026-03-10">March 10, 2026</date></edition>
                 <respStmt>
                     <orgName type="naf" ref="{{cells['org_URI'].value}}">{{cells['Holding Institution'].value}}</orgName>
                     <resp> photos include:
@@ -72,6 +70,21 @@
 {{if(cells['Pages'].value==6, cells['Letter Identifier'].value + 
 '_page01.jpg' + ', ' + cells['Letter Identifier'].value + 
 '_page02.jpg' + ', ' + cells['Letter Identifier'].value + '_page03.jpg' + ', ' + cells['Letter Identifier'].value + '_page04.jpg' + ', ' + cells['Letter Identifier'].value + '_page05.jpg' + ', ' + cells['Letter Identifier'].value + '_page06.jpg', '')}}
+{{if(cells['Pages'].value==7, cells['Letter Identifier'].value + 
+'_page01.jpg' + ', ' + cells['Letter Identifier'].value + 
+'_page02.jpg' + ', ' + cells['Letter Identifier'].value + '_page03.jpg' + ', ' + cells['Letter Identifier'].value + '_page04.jpg' + ', ' + cells['Letter Identifier'].value + '_page05.jpg' + ', ' + cells['Letter Identifier'].value + '_page06.jpg' + ', ' + cells['Letter Identifier'].value + '_page07.jpg', '')}}
+{{if(cells['Pages'].value==8, cells['Letter Identifier'].value + 
+'_page01.jpg' + ', ' + cells['Letter Identifier'].value + 
+'_page02.jpg' + ', ' + cells['Letter Identifier'].value + '_page03.jpg' + ', ' + cells['Letter Identifier'].value + '_page04.jpg' + ', ' + cells['Letter Identifier'].value + '_page05.jpg' + ', ' + cells['Letter Identifier'].value + '_page06.jpg' + ', ' + cells['Letter Identifier'].value + '_page08.jpg', '')}}
+{{if(cells['Pages'].value==9, cells['Letter Identifier'].value + 
+'_page01.jpg' + ', ' + cells['Letter Identifier'].value + 
+'_page02.jpg' + ', ' + cells['Letter Identifier'].value + '_page03.jpg' + ', ' + cells['Letter Identifier'].value + '_page04.jpg' + ', ' + cells['Letter Identifier'].value + '_page05.jpg' + ', ' + cells['Letter Identifier'].value + '_page06.jpg' + ', ' + cells['Letter Identifier'].value + '_page08.jpg' + ', ' + cells['Letter Identifier'].value + '_page09.jpg', '')}}
+{{if(cells['Pages'].value==10, cells['Letter Identifier'].value + 
+'_page01.jpg' + ', ' + cells['Letter Identifier'].value + 
+'_page02.jpg' + ', ' + cells['Letter Identifier'].value + '_page03.jpg' + ', ' + cells['Letter Identifier'].value + '_page04.jpg' + ', ' + cells['Letter Identifier'].value + '_page05.jpg' + ', ' + cells['Letter Identifier'].value + '_page06.jpg' + ', ' + cells['Letter Identifier'].value + '_page08.jpg' + ', ' + cells['Letter Identifier'].value + '_page09.jpg' + ', ' + cells['Letter Identifier'].value + '_page10.jpg', '')}}
+{{if(cells['Pages'].value==11, cells['Letter Identifier'].value + 
+'_page01.jpg' + ', ' + cells['Letter Identifier'].value + 
+'_page02.jpg' + ', ' + cells['Letter Identifier'].value + '_page03.jpg' + ', ' + cells['Letter Identifier'].value + '_page04.jpg' + ', ' + cells['Letter Identifier'].value + '_page05.jpg' + ', ' + cells['Letter Identifier'].value + '_page06.jpg' + ', ' + cells['Letter Identifier'].value + '_page08.jpg' + ', ' + cells['Letter Identifier'].value + '_page09.jpg' + ', ' + cells['Letter Identifier'].value + '_page10.jpg' + ', ' + cells['Letter Identifier'].value + '_page11.jpg','')}}
                     </resp>
                 </respStmt>
             </editionStmt>
@@ -98,8 +111,8 @@
                   <idno>{{cells['Letter Identifier'].value}}</idno>
                </msIdentifier>
                     <head>Letter from 
-                        <persName>{{cells['Creator'].value}}</persName>
-                        to <persName>{{cells['Recipient'].value}}</persName>, <placeName><!--Location where letter was sent--></placeName>, 
+                        <persName>{{if(isBlank(cells['Creator'].value), '', cells['Creator'].value)}}</persName>
+                        to <persName>{{if(isBlank(cells['Recipient'].value), '', cells['Recipient'].value)}}</persName>, <placeName><!--Location where letter was sent--></placeName>, 
 
 {{if(isBlank(cells['Date of Original'].value), '', '<date when="' + cells['Date of Original'].value + '">' + cells['Date Text'].value + '</date>')}}
                   <!-- <stamp>Enter description, if applicable</stamp>-->
@@ -184,7 +197,12 @@
 {{if(cells['Pages'].value==3, '<pb n="2" facs="' + cells['Letter Identifier'].value + '_page02.jpg"/>' + '<pb n="3" facs="' + cells['Letter Identifier'].value + '_page03.jpg"/>', '')}}
 {{if(cells['Pages'].value==4, '<pb n="2" facs="' + cells['Letter Identifier'].value + '_page02.jpg"/>' + '<pb n="3" facs="' + cells['Letter Identifier'].value + '_page03.jpg"/>' + '<pb n="4" facs="' + cells['Letter Identifier'].value + '_page04.jpg"/>', '')}}
 {{if(cells['Pages'].value==5, '<pb n="2" facs="' + cells['Letter Identifier'].value + '_page02.jpg"/>' + '<pb n="3" facs="' + cells['Letter Identifier'].value + '_page03.jpg"/>' + '<pb n="4" facs="' + cells['Letter Identifier'].value + '_page04.jpg"/>' + '<pb n="5" facs="' + cells['Letter Identifier'].value + '_page05.jpg"/>', '')}} 
-{{if(cells['Pages'].value==6, '<pb n="2" facs="' + cells['Letter Identifier'].value + '_page02.jpg"/>' + '<pb n="3" facs="' + cells['Letter Identifier'].value + '_page03.jpg"/>' + '<pb n="4" facs="' + cells['Letter Identifier'].value + '_page04.jpg"/>' + '<pb n="5" facs="' + cells['Letter Identifier'].value + '_page05.jpg"/>' + '<pb n="6" facs="' + cells['Letter Identifier'].value + '_page06.jpg"/>', '')}}               
+{{if(cells['Pages'].value==6, '<pb n="2" facs="' + cells['Letter Identifier'].value + '_page02.jpg"/>' + '<pb n="3" facs="' + cells['Letter Identifier'].value + '_page03.jpg"/>' + '<pb n="4" facs="' + cells['Letter Identifier'].value + '_page04.jpg"/>' + '<pb n="5" facs="' + cells['Letter Identifier'].value + '_page05.jpg"/>' + '<pb n="6" facs="' + cells['Letter Identifier'].value + '_page06.jpg"/>', '')}}
+{{if(cells['Pages'].value==7, '<pb n="2" facs="' + cells['Letter Identifier'].value + '_page02.jpg"/>' + '<pb n="3" facs="' + cells['Letter Identifier'].value + '_page03.jpg"/>' + '<pb n="4" facs="' + cells['Letter Identifier'].value + '_page04.jpg"/>' + '<pb n="5" facs="' + cells['Letter Identifier'].value + '_page05.jpg"/>' + '<pb n="6" facs="' + cells['Letter Identifier'].value + '_page06.jpg"/>' + '<pb n="7" facs="' + cells['Letter Identifier'].value + '_page07.jpg"/>', '')}}
+{{if(cells['Pages'].value==8, '<pb n="2" facs="' + cells['Letter Identifier'].value + '_page02.jpg"/>' + '<pb n="3" facs="' + cells['Letter Identifier'].value + '_page03.jpg"/>' + '<pb n="4" facs="' + cells['Letter Identifier'].value + '_page04.jpg"/>' + '<pb n="5" facs="' + cells['Letter Identifier'].value + '_page05.jpg"/>' + '<pb n="6" facs="' + cells['Letter Identifier'].value + '_page06.jpg"/>' + '<pb n="7" facs="' + cells['Letter Identifier'].value + '_page07.jpg"/>' + '<pb n="8" facs="' + cells['Letter Identifier'].value + '_page08.jpg"/>', '')}}
+{{if(cells['Pages'].value==9, '<pb n="2" facs="' + cells['Letter Identifier'].value + '_page02.jpg"/>' + '<pb n="3" facs="' + cells['Letter Identifier'].value + '_page03.jpg"/>' + '<pb n="4" facs="' + cells['Letter Identifier'].value + '_page04.jpg"/>' + '<pb n="5" facs="' + cells['Letter Identifier'].value + '_page05.jpg"/>' + '<pb n="6" facs="' + cells['Letter Identifier'].value + '_page06.jpg"/>' + '<pb n="7" facs="' + cells['Letter Identifier'].value + '_page07.jpg"/>' + '<pb n="8" facs="' + cells['Letter Identifier'].value + '_page08.jpg"/>' + '<pb n="9" facs="' + cells['Letter Identifier'].value + '_page09.jpg"/>', '')}}
+{{if(cells['Pages'].value==10, '<pb n="2" facs="' + cells['Letter Identifier'].value + '_page02.jpg"/>' + '<pb n="3" facs="' + cells['Letter Identifier'].value + '_page03.jpg"/>' + '<pb n="4" facs="' + cells['Letter Identifier'].value + '_page04.jpg"/>' + '<pb n="5" facs="' + cells['Letter Identifier'].value + '_page05.jpg"/>' + '<pb n="6" facs="' + cells['Letter Identifier'].value + '_page06.jpg"/>' + '<pb n="7" facs="' + cells['Letter Identifier'].value + '_page07.jpg"/>' + '<pb n="8" facs="' + cells['Letter Identifier'].value + '_page08.jpg"/>' + '<pb n="9" facs="' + cells['Letter Identifier'].value + '_page09.jpg"/>' + '<pb n="10" facs="' + cells['Letter Identifier'].value + '_page10.jpg"/>', '')}}
+{{if(cells['Pages'].value==11, '<pb n="2" facs="' + cells['Letter Identifier'].value + '_page02.jpg"/>' + '<pb n="3" facs="' + cells['Letter Identifier'].value + '_page03.jpg"/>' + '<pb n="4" facs="' + cells['Letter Identifier'].value + '_page04.jpg"/>' + '<pb n="5" facs="' + cells['Letter Identifier'].value + '_page05.jpg"/>' + '<pb n="6" facs="' + cells['Letter Identifier'].value + '_page06.jpg"/>' + '<pb n="7" facs="' + cells['Letter Identifier'].value + '_page07.jpg"/>' + '<pb n="8" facs="' + cells['Letter Identifier'].value + '_page08.jpg"/>' + '<pb n="9" facs="' + cells['Letter Identifier'].value + '_page09.jpg"/>' + '<pb n="10" facs="' + cells['Letter Identifier'].value + '_page10.jpg"/>' + '<pb n="11" facs="' + cells['Letter Identifier'].value + '_page11.jpg"/>', '')}}                
             </div>
         </body>
         <back> </back>

@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/Maria-Edgeworth-Letters-Project/me-tei/refs/heads/main/melp.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter from Maria Edgeworth to Frances Anne Edgeworth, January 23, 1844 </title>
+                <author>Maria Edgeworth</author>
+                <editor>
+                    <!--Editor on the Maria Edgeworth Letters Project overseeing the coding of this particular letter: FirstName LastName -->
+                </editor>
+                <sponsor>
+                    <orgName>Maria Edgeworth Letters Project</orgName>
+                </sponsor>
+                <sponsor>Wake Forest University, University of Tennessee, Xavier University, Texas
+                    A&amp;M University</sponsor>
+                <principal>Susan Egenolf, Meredith Hale, Hilary Havens, Jessica Richard, and Robin Runia</principal>
+                <respStmt>
+                    <resp>Transcription and coding by</resp>
+                    <persName>Paris Weber
+                    </persName>
+                    <!-- If you're the last person interacting with the file, enter your name last on the list -->
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>First digital edition in TEI, date: <date when="2025-11-17">
+                        
+                </date>
+                </edition>
+                <respStmt>
+                    <orgName ref="http://id.loc.gov/authorities/names/n80020306">Bodleian Library
+                    </orgName>
+                    <resp> photos include:
+                        Edgeworth_Bodleian_702_1844-01-23_page01.jpg
+                        Edgeworth_Bodleian_702_1844-01-23_page02.jpg
+                        Edgeworth_Bodleian_702_1844-01-23_page03.jpg
+                        Edgeworth_Bodleian_702_1844-01-23_page04.jpg
+                    </resp>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <authority>Maria Edgeworth Letters Project</authority>
+                <date>2022</date>
+                <availability>
+                    
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons Attribution 4.0 (CC BY 4.0) Unported License</licence>
+                    <p> Reproduced by courtesy of <orgName ref="http://id.loc.gov/authorities/names/n80020306"> Bodleian Library</orgName>
+                    </p>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons Attribution 4.0 (CC BY 4.0) Unported License</licence>
+                </availability>
+                <idno>Edgeworth_Bodleian_702_1844-01-23</idno> 
+            </publicationStmt>
+            <seriesStmt>
+                <title>Maria Edgeworth Letters Project</title>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc xml:lang="en">
+                    <msIdentifier>
+                        <repository>Bodleian Library</repository>
+                        <collection></collection>
+                        <idno>Edgeworth_Bodleian_702_1844-01-23</idno>
+                    </msIdentifier>
+                    <head>Letter from 
+                        <persName xml:id="EdgeM1" from="1768" to="1849">
+                            <forename>Maria</forename>
+                            <surname>Edgeworth</surname>
+                            <date>1768-1849</date>
+                            <idno type="VIAF">71477273</idno>
+                            <idno type="SNAC">62567029</idno>
+                        </persName>
+                        to <persName ref="./Personography.xml#EdgeF2">Frances Anne Edgeworth</persName>,
+                    </head>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>  <p>Edgeworth’s spelling and punctuation are retained in transcription, including non-standard spelling, line breaks, and hyphenation of words. The long s and ligatured forms are silently emended.</p>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="./Personography.xml#EdgeF2">Frances Anne Edgeworth</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2021-01-01" who="Id_who">
+               
+            </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="letter">
+                <pb n="1" facs="Edgeworth_Bodleian_702_1844-01-23_page01.jpg"/>
+                <opener>
+                    <dateline>
+                        <placeName ref="./Placeography.xml#North-Audley-Street-1_ENK">1)     1 North Audley</placeName>
+                        <date when="1844-01-23">Jan 23<hi rend="superscript">d</hi> 44</date></dateline>
+                    <salute>
+                        Dearest <persName ref="./Personography.xml#EdgeF2">mother</persName><lb/>
+                    </salute>
+                </opener>
+                <p> 
+                  
+                    <note>93</note>
+                    
+                    With respect to my rose<lb/>
+                    trellis -- there is no rose<lb/>
+                    without thorns ! --<lb/>
+                    Il n'y a ici qu'une petite<lb/> 
+                    difficulle - manque de<lb/>
+                    fonds --<lb/></p>
+                    <p>
+                    If you can afford to advance<lb/>
+                    three pounds for me till<lb/>
+                    I return home well &amp; good<lb/>
+                    I shall be glad to have the<lb/>
+                    new wire and new post<lb/>
+                    trellis - and moreover<lb/>
+                    I shall be obliged to you ma'am<lb/></p>
+                    <p>
+                    But if you cannot <choice> 
+                    <orig>with-<lb/>
+                    out</orig>
+                    <reg>without</reg>
+                    </choice>
+                    inconvenience do this<lb/>
+                    I would rather let the <choice> 
+                    <orig>con-<lb/>
+                    cern</orig>
+                    <reg>concern</reg>
+                    </choice>
+                    <hi rend="underline">wholly</hi> or brokenly quite<lb/>
+                    alone till I return, when in<lb/>
+                    the course of time &amp; <unclear> sucking my<lb/>
+                    paws</unclear> at economic home I shall<lb/>
+                    be able to pay for <hi rend="underline">all</hi> - <choice> 
+                    <orig>includ<lb/>
+                    ing</orig>
+                    <reg>including</reg>
+                    </choice>
+                    L50 which I have borrowed<lb/>
+                    &amp; must pay in May to the good<lb/>
+                    <unclear></unclear><lb/>
+                    
+                    <pb n="2" facs="Edgeworth_Bodleian_702_1844-01-23_page02.jpg"/>
+                    2)
+                    Every guinea shilling or<lb/>
+                    penny that I can rap or<lb/>
+                    run I shall want to get<lb/>
+                    me over Easter, whether<lb/>
+                   in <placeName ref="./Placeography.xml#London_ENK">London</placeName> most expensive<lb/>
+                    or on the road almost<lb/>
+                    equally expensive visiting<lb/>
+                    friends &amp; bails to servants<lb/>
+                    vous comprenez <unclear></unclear> or in<lb/>
+                    M<hi rend="superscript">r</hi> . -'s phrase " Do I make <choice> 
+                    <orig>my=<lb/>
+                    self</orig>
+                    <reg>myself</reg>
+                    </choice>
+                    understood "<lb/></p>
+                    <p>
+                    I know you will at<lb/>
+                    this moment or perhaps<lb/>
+                    before this moment say to<lb/>
+                    yourself that on or about<lb/>
+                    Feb<hi rend="superscript">y</hi> . 9 - or 10t<hi rend="superscript">h</hi> . <persName ref="./Personography.xml#EdgeM1">Maria</persName> will<lb/>
+                    have Quarter Ann<hi rend="superscript">y</hi> . (due Jan<hi rend="superscript">y</hi> -) £85,,10,,0<lb/>
+                    <add>out of</add> which surely she can afford<lb/>
+                    this poor little £3 for her rose trellis<lb/></p>
+                    <p>
+                    But dear <persName ref="./Personography.xml#EdgeF2">madam</persName> please<lb/>
+                    comprehend that the above named<lb/>
+                    £85,,10 - plus £21,,10- must go to<lb/>
+                    your Ladyship for House acct<lb/>
+                    On the first of March next - And<lb/>
+                    if I touch or devour any part of it<lb/>
+                    
+                    <pb n="3" facs="Edgeworth_Bodleian_702_1844-01-23_page03.jpg"/>
+                    (3
+                    now I cannot replace it then<lb/>
+                    without pinching difficulty<lb/>
+                    to my clearing out of <placeName ref="./Placeography.xml#London_ENK">London</placeName> -<lb/> </p> <note>94</note>
+                    <p>
+                    I hate pinching difficulties &amp;<lb/>
+                    always avoid them to the best of<lb/>
+                    my capacity &amp; discretion<lb/></p>
+                    <p>
+                    Nota bene I am indulging<lb/>
+                    myself in setting up 35 West Indian<lb/>
+                    beautiful birds (just received<lb/>
+                    from <persName ref="./Personography.xml#CarmA1" cert="medium">M<hi rend="superscript">rs</hi> Carmichael</persName>) and which<lb/>
+                    I have destined for a recess in<lb/>
+                    <persName ref="./Personography.xml#EdgeF3">Fannys</persName> drawing room where they<lb/>
+                    will look beautiful &amp; she likes the<lb/>
+                    thought - The mere setting up will<lb/>
+                    cost £5 - the glass and frame<lb/>
+                    work habitation for the beauties<lb/>
+                    will come to about £5.10 -<lb/>
+                    <persName ref="./Personography.xml#EdgeF3">Fanny</persName> insists upon paying for<lb/>
+                    the house - I for the birds -<lb/>
+                    " Each pleasure has its price " &amp;c<lb/></p>
+                    <p>
+                    <del>I have had</del> My old <choice> 
+                    <orig>embroider<lb/>
+                    ed</orig>
+                    <reg>embroidered</reg>
+                    </choice>
+                    skreens or rather my dear<lb/>
+                    mother <hi rend="underline">your</hi> old embroidered<lb/>
+                    skreens which I gave you &amp; took<lb/>
+                    back from you <unclear></unclear> gold ring<lb/> 
+                    fashion I have had elegantly<lb/>
+                    mounted by Law, with gilt<lb/>
+                    framer &amp; plate glass and<lb/>
+                    
+                    <pb n="4" facs="Edgeworth_Bodleian_702_1844-01-23_page04.jpg"/>
+                    <unclear></unclear><lb/>
+                    We go to <persName ref="./Personography.xml#RaffS1" cert="medium">Lady Raffles</persName> on Friday<lb/>
+                    morning - return same day -<lb/>
+                    Tea at <persName ref="./Personography.xml#DenmA1" cert="medium">Lady Dinman's</persName>Lady Dinman's on<lb/>
+                    Saturday to meet my Lord whom<lb/>
+                    I much like or admire - else I<lb/>
+                    would not stir a foot for him and<lb/>
+                    would rather take tea at home<lb/></p>
+                    <p>
+                    Sunday to <persName ref="./Personography.xml#GrifF1" cert="medium">Capt<hi rend="superscript">n</hi> . Griffths</persName> <persName ref="./Personography.xml#WilsL1">Lestocks</persName><lb/>
+                    friend - and the friend of Order<lb/>
+                    wrote the <unclear>mel</unclear><hi rend="superscript">g</hi> . regulation book you know<lb/>
+                    or if you don't <unclear>vide</unclear> <unclear>Hall closet</unclear><lb/>
+                    if you care to know -<lb/></p>
+                    <p>
+                    He has been very kind to me &amp; I know that<lb/>
+                    15. <add>Instant</add> Monday - I believe I shall dine<lb/>
+                    for the last time - with <persName ref="./Personography.xml#BeauH1">Honora</persName> &amp; <persName ref="./Personography.xml#BeauF1">Capt B</persName><lb/>
+                    and see the baby &amp; <persName ref="./Personography.xml#RuxtS1">Sophy</persName> whom<lb/>
+                    we have never yet seen -<lb/></p>
+                    <p>
+                    They have very judiciously kept,<lb/>
+                    her perfectly quiet - Oh how wish<lb/>
+                    but malheur passé - &amp;c -<lb/></p>
+                    <p>
+                    I cannot yet positively say on which<lb/>
+                    day tuesday wednesday thursday<lb/>
+                    we go to the <persName ref="./Personography.xml#Moill1">Moillets</persName> but will<lb/>
+                    write again when quite near my<lb/>
+                    projection<lb/></p>
+                    <p>
+                    Mean time Dearest<lb/>
+                    <persName ref="./Personography.xml#EdgeF2">mother</persName> your poor poor little pencil<lb/>
+                    commission shall be cared for<lb/>
+                    and is that all! you can think of<lb/>
+                    for me to do for you my dearest<lb/>
+                    madam -<lb/></p>
+                    <p>
+                    I do not know when <persName ref="./Personography.xml#EdgeF3"><choice> <orig>FME</orig><reg>Frances Maria Edgeworth</reg></choice></persName><lb/>
+                    wrote to you last or whether she told<lb/>
+                    you our history up to the day we<lb/>
+                    came here - But for fear of missing<lb/>
+                    so important an event I must (go to page<lb/>
+                    second<lb/></p>
+            </div>
+        </body>
+        <back> </back>
+    </text>
+</TEI>
+

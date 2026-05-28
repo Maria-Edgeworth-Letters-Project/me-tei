@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/Maria-Edgeworth-Letters-Project/me-tei/refs/heads/main/melp.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter from Maria Edgeworth to Sir Walter Scott, July 6, 1824</title>
+                <author>Maria Edgeworth</author>
+                <editor>
+                    
+                </editor>
+                <sponsor>
+                    <orgName>Maria Edgeworth Letters Project</orgName>
+                </sponsor>
+                <sponsor>Texas A &amp; M University, University of Tennessee, Wake Forest University, Xavier University of Louisiana, Southern Methodist University</sponsor>
+                <principal>Susan Egenolf, Meredith Hale, Hilary Havens, Jessica Richard, and Robin Runia</principal>
+                <respStmt>
+                    <resp>Transcription and coding by</resp>
+                    <persName>Paris Weber
+                    </persName>
+                    <!-- List all transcribers or coders here, editors and students alike, <persName> by <persName>.-->
+                    <persName><!--FirstName LastName--></persName>
+                    <!-- If you're the last person interacting with the file, enter your name last on the list -->
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>First digital edition in TEI,<date when="2026-04-09">April 30, 2026</date>
+                    
+                </edition>
+                <respStmt>
+                    <orgName type="naf" ref="http://id.loc.gov/authorities/names/n80044899">National Library of Scotland</orgName>
+                    
+                    
+                    <resp> photos include:
+                        Edgeworth_NLS_3899_1824_07_06_page01.jpg,
+                        Edgeworth_NLS_3899_1824_07_06_page02.jpg,
+                        Edgeworth_NLS_3899_1824_07_06_page03.jpg,
+                        Edgeworth_NLS_3899_1824_07_06_page04.jpg
+                    </resp>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <authority>Maria Edgeworth Letters Project</authority>
+                <date>2022</date>
+                <availability>
+                    <p>Reproduced by courtesy of the <orgName ref="http://id.loc.gov/authorities/names/n80044899">National Library of Scotland</orgName>
+                    </p>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons Attribution 4.0 (CC BY 4.0) Unported License</licence>
+                </availability>
+                <idno>Edgeworth_NLS_3899_1824_07_06</idno> 
+            </publicationStmt>
+            <seriesStmt>
+                <title>Maria Edgeworth Letters Project</title>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc xml:lang="en">
+                    
+                    <msIdentifier>
+                        <repository>National Library of Scotland </repository>
+                        
+                    </msIdentifier>
+                    <head>Letter from 
+                        <persName xml:id="EdgeM1" from="1768" to="1849">
+                            <forename>Maria</forename>
+                            <surname>Edgeworth</surname>
+                            <date>1768-1849</date>
+                            <idno type="VIAF">71477273</idno>
+                            <idno type="SNAC">62567029</idno>
+                        </persName>
+                        to <persName ref="./Personography.xml#ScotW1">Sir Walter Scott</persName>, <placeName><!--Location where letter was sent--></placeName>, 
+                        <date when="1824-07-06">July 6.<hi rend="superscript">th</hi>1824</date>
+                        
+                    </head>
+                    
+                </msDesc>
+                
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p>Edgeworth’s spelling and punctuation are retained in transcription, including non-standard spelling, line breaks, and hyphenation of words. The long s and ligatured forms are silently emended.</p>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="./Personography.xml#ScotW1">
+                        Sir Walter Scott</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2021-01-01" who="Id_who">
+                <!--Brief description of what you did here.-->
+            </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="letter">
+                <pb n="1" facs="Edgeworth_NLS_42180_1841_11_14_page01.jpg"/>
+                
+                <opener>
+                    <dateline> <note>(107)</note>
+                        <note>3</note>
+                        <placeName ref="./Placeography.xml#Edgeworthstown_IE">Edgeworths Town</placeName>
+                        <date when="1824-07-06">July 6.<hi rend="superscript">th</hi>1824</date></dateline>
+                    <salute>
+                        My dear <persName ref="./Personography.xml#ScotW1">Sir Walter Scott</persName>,
+                    </salute>
+                </opener>
+                <p>
+                     
+                    The enclosed specimen<lb/>
+                    of Irish vituperation is<lb/>
+                    warranted genuine<lb/>
+                    by the gentleman who<lb/>
+                    gave it to me - He declares<lb/>
+                    that he wrote it down word<lb/>
+                    word for word as he heard<lb/>
+                    it and I declare that I be-<lb/>
+                    lieve he could not have<lb/>
+                    altered it if he would - and<lb/>
+                    that he would not if he<lb/>
+                    could - There are "some<lb/>
+                    "things I think I could<lb/>
+                    "have made better" - But<lb/>
+                    even in my infinite conceit<lb/>
+                    I respect the truth of Na<lb/> 
+                    ture &amp; leave it all to<lb/>
+                    your Honor's honor-<lb/></p>
+                    <p>
+                    I doubted whether<lb/>
+                    Paddy's land was a ge<lb/>
+                    nuine expression, not<lb/>
+                    
+                    <pb n="2" facs="Edgeworth_NLS_3899_1824_07_06_page02.jpg"/>
+                    having happened to hear<lb/>
+                    it in our parts - &amp; I could<lb/>
+                    have wished to have<lb/>
+                    substituted - the <hi rend="underline"><unclear></unclear>King</hi><lb/>
+                    <hi rend="underline">doms</hi> - or the <hi rend="underline">United</hi><lb/>
+                    <hi rend="underline">Kingdom</hi> - or <hi rend="underline">dear little</hi><lb/>
+                    <hi rend="underline">Dublin</hi> - or in the last<lb/>
+                    <del></del>extreme <hi rend="underline">Dunleary</hi><lb/>
+                    <hi rend="underline">- itself!</hi>- which according<lb/>
+                    to my notions would<lb/>
+                    have sounded more<lb/>
+                    natural - But upon<lb/>
+                    strict inquiry - (and I<lb/>
+                    have not <hi rend="underline">spared diligence</hi><lb/>
+                    as D.<hi rend="superscript">r</hi> Johnson would boast)<lb/>
+                    I have satisfied myself<lb/>
+                    that Paddy's Land is the<lb/>
+                    true reading - or the true<lb/>
+                    speaking - and I have<lb/>
+                    restored the original - sub<lb/>
+                    mitting contrary to my<lb/>
+                    Irish nature to a Scottish<lb/>
+                    proverb -<lb/>
+                    <hi rend="underline">Let well alone</hi> - A proverb<lb/>
+                    
+                    <pb n="3" facs="Edgeworth_NLS_3899_1824_07_06_page03.jpg"/>
+                    <note>4</note>4
+                    I first heard from Joanna<lb/>
+                    Baillie -<lb/></p>
+                    <p>
+                    I have just been reading<lb/>
+                    Reginald Dalton for<lb/>
+                    the second time - with<lb/>
+                    very great pleasure - to<lb/>
+                    some friends to whom<lb/>
+                    it was new <add>The story of this novel is so constructed that</add>- The charac<lb/>
+                    ter of Macdonald the<lb/>
+                    father is admirable - There<lb/>
+                    <add>just</add> is a depth of knowledge<lb/>
+                    is a depth of knowledge<lb/>
+                    of human nature and<lb/>
+                    exquisite humor - The<lb/>
+                    author probably would<lb/>
+                    shrink &amp; writhe at the<lb/>
+                    idea of trusting it to the<lb/>
+                    reading of an Irish woman<lb/>
+                    but give my services to<lb/>
+                    him and assure him<lb/>
+                    that My Macdonald<lb/>
+                    was heard with unbound<lb/>
+                    ed applause - Like Irish<lb/>
+                    <unclear>Macklin</unclear> of yore I ruled<lb/>
+                    (not swore) that it <hi rend="underline">should</hi><lb/>
+                    be Scotch, whatever it was<lb/></p>
+                    <p>
+                    There was <add>in the author of Reg Dalton</add> great boldness<lb/>
+                    curiosity is kept up &amp; baffled till the last<lb/>
+                    
+                    <pb n="4" facs="Edgeworth_NLS_3899_1824_07_06_page04.jpg"/>
+                    - the boldness of a mind se<lb/>
+                    cure of original genius, in<lb/>
+                    daring this character after<lb/>
+                    Sir Pertinax McSycophant<lb/>
+                    - It recalls Sir Partinax <hi rend="underline">only</hi><lb/>
+                    by the excellence of the<lb/>
+                    drawing of the master<lb/>
+                    strokes, while it is open essential<lb/>
+                    ly different, &amp; a perfectly<lb/>
+                    new character - It is in beautiful &amp;<lb/>
+                    natural contrast with the amiable vicar-<lb/></p>
+                    <p>
+                    Tell me how your dear<lb/>
+                    Sophia does and little<lb/>
+                    Johnny - our Sophy is<lb/>
+                    now at Cheltenham with<lb/>
+                    her beloved &amp; has her sister<lb/>
+                    Franny with her - in<lb/>
+                    a pretty cottage trellised<lb/>
+                    with roses which she writes<lb/>
+                    me word puts her in mind<lb/>
+                    of Chiefs Wood - her words are<lb/>
+                    "How little I thought when<lb/>
+                    "I was at dear Chiefs Wood<lb/>
+                    "last year that I should<lb/>
+                    "myself so soon be enjoying<lb/>
+                    the same sort of happiness<lb/></p>
+                    <p>
+                    Pray write &amp; tell me how<lb/>
+                    you are all going on - I have<lb/>
+                    had a great loss since I wrote<lb/>
+                    to you last - my sister <unclear>Bedo</unclear><lb/>
+          
+                </p>
+            </div>
+        </body>
+        <back> </back>
+    </text>
+</TEI>
+
+
+
+

@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/Maria-Edgeworth-Letters-Project/me-tei/refs/heads/main/melp.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter from Walter Scott to Maria Edgeworth, April 23, 1825</title>
+                <author>Maria Edgeworth</author>
+                <editor>Alexandra LaGrand</editor>
+                <sponsor>
+                    <orgName>Maria Edgeworth Letters Project</orgName>
+                </sponsor>
+                <sponsor>Texas A &amp; M University, University of Tennessee, Wake Forest University, Xavier University of Louisiana, Southern Methodist University</sponsor>
+                <principal>Susan Egenolf, Meredith Hale, Hilary Havens, Jessica Richard, and Robin Runia</principal>
+                <respStmt>
+                    <resp>Transcription and coding by</resp>
+                    <persName>Alexandra LaGrand</persName>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>First digital edition in TEI, date: <date when="2026-04-26">April 26, 2026</date>
+                </edition>
+                <respStmt>
+                    <orgName type="naf" ref="http://id.loc.gov/authorities/names/n80044899">National Library of Scotland</orgName>
+                    <resp> photos include: Edgeworth_NLS_23131_1825_04_23_page01.jpg, Edgeworth_NLS_23131_1825_04_23_page02.jpg</resp>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <authority>Maria Edgeworth Letters Project</authority>
+                <date>2022</date>
+                <availability>
+                    <p>Reproduced by courtesy of the <orgName ref="http://id.loc.gov/authorities/names/n80044899">National Library of Scotland</orgName>
+                    </p>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons Attribution 4.0 (CC BY 4.0) Unported License</licence>
+                </availability>
+                <idno>Edgeworth_NLS_23131_1825_04_23</idno> 
+            </publicationStmt>
+            <seriesStmt>
+                <title>Maria Edgeworth Letters Project</title>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc xml:lang="en">
+                    <msIdentifier>
+                        <repository>National Library of Scotland</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <head>Letter from 
+                        <persName xml:id="ScotW4" from="1801" to="1847">
+                            <forename>Walter</forename>
+                            <surname>Scott</surname>
+                            <date>1801-1847</date>
+                        </persName>
+                        to <persName ref="./Personography.xml#EdgeM1">Walter Scott</persName>, <date when="1825-04-23">Dec. 23<hi rend="superscript">d</hi> 1825</date>
+                    </head>
+                    <physDesc></physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p>Edgeworth’s spelling and punctuation are retained in transcription, including non-standard spelling, line breaks, and hyphenation of words. The long s and ligatured forms are silently emended.</p>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="./Personography.xml#ScotW4">Walter Scott</persName>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2026-04-26" who="Id_who">Created file for letter</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="letter">
+                <pb n="1" facs="Edgeworth_NLS_23131_1825_04_23_page01.jpg"/>
+                <opener>
+                    <dateline>
+                        <placeName ref="./Placeography.xml#St-Stephens-Green_IE"/>St Stephens Green N.
+                        <date when="1825-12-23">Dec. 23<hi rend="superscript">d</hi> 1825</date></dateline>
+                    <salute>
+                        Dear <persName ref="./Personography.xml#EdgeM1">Miss Edgeworth</persName>
+                    </salute>
+                </opener>
+                <p>
+                    I am afraid that you must think<lb/>
+                    me very negligent with regard to <persName ref="./Personography.xml#LockJ3">Johnny</persName>. <hi rend="underline">Breeks.</hi><lb/>
+                    The man by whom I intended sending them was<lb/>
+                    going, just a going, for so long a time that my<lb/>
+                    patience at last went, and I sent of the above<lb/>
+                    mentioned <unclear>Breeks per Van</unclear>. As the <persName ref="./Personography.xml#Lockh1">Lockharts</persName> left<lb/>
+                    <placeName ref="./Placeography.xml#Edinburgh_STK"><choice><orig>Edin<hi rend="superscript">gh</hi></orig><reg>Edinburgh</reg></choice></placeName> for town much sooner than we expected. I have<lb/>
+                    no doubt but that the box arrived three days after they<lb/>
+                    started and will follow them with their heavy<lb/>
+                    luggage. When I write home I shall make all<lb/>
+                    due enquiry after it - and let you know the result.<lb/>
+                    I regret very much not seeing <persName ref="./Personography.xml#EdgeF2">M<hi rend="superscript">rs</hi> Edgeworth</persName> whilst<lb/>
+                    she was in town but for the last four weeks<lb/>
+                </p>
+                <p>
+                    <pb n="2" facs="Edgeworth_NLS_23131_1825_04_23_page02.jpg"/>
+                    I have been confined to my rooms and even<lb/>
+                    yesterday could not avail myself of <persName ref="./Personography.xml#WallE1">M<hi rend="superscript">rs</hi> <choice><orig>Wallers</orig><reg>Waller's</reg></choice></persName><lb/>
+                    kind invitation for <persName ref="./Personography.xml#ScotJ1">Jane</persName> and I. so much for<lb/>
+                    driving tandem. The <placeName ref="./Placeography.xml#Dublin_IE">Dublin</placeName> gaieties have not<lb/>
+                    begun, there is some affair at the <placeName ref="./Placeography.xml#Dublin-Castle_IE">Castle</placeName> on<lb/>
+                    Tuesday but I do not think I shall be well even<lb/>
+                    to go. <persName ref="./Personography.xml#ScotJ1">Jane</persName> joins me in best remembrance<lb/>
+                    to all of <placeName ref="./Placeography.xml#Edgeworthstown_IE"><choice><orig>Edgeworths Town</orig><reg>Edgeworthstown</reg></choice></placeName> and with all<lb/>
+                    <choice><orig>comp<hi rend="superscript">ts</hi></orig><reg>compliments</reg></choice> of the season<lb/>
+                </p>
+                <closer>
+                    <unclear>believe me yours</unclear><lb/>
+                    <persName ref="./Personography.xml#ScotW4">Walter Scott</persName><lb/>
+                </closer>
+                <postscript>
+                    <p>
+                        <note place="bottom"><persName ref="./Personography.xml#ScotW4"><hi rend="underline"><choice><orig>Capt</orig><reg>Captain</reg></choice></hi> Walter Scott</persName><lb/></note>
+                    </p>
+                </postscript>
+             </div>
+        </body>
+        <back> </back>
+    </text>
+</TEI>

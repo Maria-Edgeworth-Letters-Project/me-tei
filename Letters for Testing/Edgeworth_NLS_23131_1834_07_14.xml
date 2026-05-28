@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/Maria-Edgeworth-Letters-Project/me-tei/refs/heads/main/melp.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter from John Gibson Lockhart to Maria Edgeworth, July 14, 1834</title>
+                <author>Maria Edgeworth</author>
+                <editor>Alexandra LaGrand</editor>
+                <sponsor>
+                    <orgName>Maria Edgeworth Letters Project</orgName>
+                </sponsor>
+                <sponsor>Texas A &amp; M University, University of Tennessee, Wake Forest University, Xavier University of Louisiana, Southern Methodist University</sponsor>
+                <principal>Susan Egenolf, Meredith Hale, Hilary Havens, Jessica Richard, and Robin Runia</principal>
+                <respStmt>
+                    <resp>Transcription and coding by</resp>
+                    <persName>Alexandra LaGrand</persName>
+               </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>First digital edition in TEI, date: <date when="2026-04-23">April 23, 2026</date>
+                </edition>
+                <respStmt>
+                    <orgName type="naf" ref="http://id.loc.gov/authorities/names/n80044899">National Library of Scotland</orgName>
+                    <resp> photos include: Edgeworth_NLS_23131_1834_07_14_page01.jpg, Edgeworth_NLS_23131_1834_07_14_page02.jpg, Edgeworth_NLS_23131_1834_07_14_page03.jpg, Edgeworth_NLS_23131_1834_07_14_page04.jpg</resp>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <authority>Maria Edgeworth Letters Project</authority>
+                <date>2022</date>
+                <availability>
+                    <p>Reproduced by courtesy of the <orgName ref="http://id.loc.gov/authorities/names/n80044899">National Library of Scotland</orgName>
+                    </p>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons Attribution 4.0 (CC BY 4.0) Unported License</licence>
+                </availability>
+                <idno>Edgeworth_NLS_23131_1834_07_14</idno> 
+            </publicationStmt>
+            <seriesStmt>
+                <title>Maria Edgeworth Letters Project</title>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc xml:lang="en">
+                    <msIdentifier>
+                        <repository>National Library of Scotland</repository>
+                        <collection/>
+                        <idno/>
+                    </msIdentifier>
+                    <head>Letter from <persName ref="./Personography.xml#LockJ1">John Gibson Lockhart</persName> to <persName xml:id="EdgeM1" from="1768" to="1849">
+                            <forename>Maria</forename>
+                            <surname>Edgeworth</surname>
+                            <date>1768-1849</date>
+                            <idno type="VIAF">71477273</idno>
+                            <idno type="SNAC">62567029</idno>
+                        </persName>, <date when="1834-07-14">July 14. 1834</date>
+                    </head>
+                    <physDesc></physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p>Edgeworth’s spelling and punctuation are retained in transcription, including non-standard spelling, line breaks, and hyphenation of words. The long s and ligatured forms are silently emended.</p>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="./Personography.xml#LockJ1">John Gibson Lockhart</persName>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2026-04-23" who="Id_who">Created file for letter, encoded letter</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="letter">
+                <pb n="1" facs="Edgeworth_NLS_23131_1834_07_14_page01.jpg"/>
+                <opener>
+                    <dateline>
+                        <placeName ref="./Placeography.xml#London_ENK"/>London
+                        <date when="1834-07-14">July 14. 1834</date></dateline>
+                    <salute>
+                        <persName ref="./Personography.xml#EdgeM1">Dear Miss Edgeworth</persName>
+                    </salute>
+                </opener>
+                <p>
+                    I have<lb/>
+                    received at length a copy<lb/>
+                    of <title ref="./Workography.xml#Helen1">Helen</title> &amp; must not delay<lb/>
+                    &amp; thank you for the pleasantest<lb/>
+                    evening that has for many<lb/>
+                    a day fallen to my<lb/>
+                    lot. I don't believe there<lb/>
+                    will be any considerable<lb/>
+                    division of opinion about this<lb/>
+                    novel - at least I fancy<lb/>
+                    they must be terribly<lb/>
+                    obtuse folks indeed who<lb/>
+                </p>
+                <p>
+                    <pb n="2" facs="Edgeworth_NLS_23131_1834_07_14_page02.jpg"/>
+                    don't perceive the mighty<lb/>
+                    gulf between the delicate<lb/>
+                    delineation &amp; nicely<lb/>
+                    shaded <hi rend="underline">contrasts</hi> of such<lb/>
+                    characters as yours &amp;<lb/>
+                    the scene painting style<lb/>
+                    of even the best of the<lb/>
+                    recent adventures in<lb/>
+                    this branch of literature.<lb/>
+                    May you <unclear>now</unclear> you have found<lb/>
+                    that you have at least<lb/>
+                </p>
+                <p>
+                    <pb n="3" facs="Edgeworth_NLS_23131_1834_07_14_page03.jpg"/>
+                    lost nothing of the old<lb/>
+                    craft be emboldened<lb/>
+                    &amp; refuse yourself any<lb/>
+                    further pause!<lb/>
+                </p>
+                <p>
+                    May we hope to see you in<lb/>
+                    town this season? How<lb/>
+                    well you know <placeName ref="./Placeography.xml#London_ENK">London</placeName><lb/>
+                    how much better than any<lb/>
+                    that live constantly there.<lb/>
+                    <persName ref="./Personography.xml#LockS1">Sophia</persName> &amp; the children are<lb/>
+                    well &amp; so I trust are all<lb/>
+                    under your roof<lb/>
+                </p>
+                <p>
+                    <pb n="4" facs="Edgeworth_NLS_23131_1834_07_14_page04.jpg"/>
+                    I am sure they will all be<lb/>
+                    made happy by &amp; bye<lb/>
+                    with the general<lb/>
+                    reception of Miss Helen<lb/>
+                    &amp; Miss Edgeworth<lb/>
+                </p>
+                <closer>
+                    Yours most Sincerely<lb/>
+                    <persName ref="./Personography.xml#LockJ1"><hi rend="underline">JGLockhart</hi></persName><lb/>
+                </closer>
+            </div>
+        </body>
+        <back> </back>
+    </text>
+</TEI>
