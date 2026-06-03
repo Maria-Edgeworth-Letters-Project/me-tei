@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/Maria-Edgeworth-Letters-Project/me-tei/refs/heads/main/melp.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter from Richard Lovell Edgeworth to Étienne Dumont, July 5, 1809</title>
+                <author>Richard Lovell Edgeworth</author>
+                <editor>
+                    
+                </editor>
+                <sponsor>
+                    <orgName>Maria Edgeworth Letters Project</orgName>
+                </sponsor>
+                <sponsor>Texas A &amp; M University, University of Tennessee, Wake Forest University, Xavier University of Louisiana, Southern Methodist University</sponsor>
+                <principal>Susan Egenolf, Meredith Hale, Hilary Havens, Jessica Richard, and Robin Runia</principal>
+                <respStmt>
+                    <resp>Transcription and coding by</resp>
+                    <persName>Paris Weber
+                    </persName>
+                    
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>First digital edition in TEI,<date when="2026-06-03">June 03, 2026</date>
+                    
+                </edition>
+                <respStmt>
+                    <orgName type="naf" ref="https://d-nb.info/gnd/5075238-8">
+                        Bibliothèques municipales de la Ville de Genève</orgName>
+                    
+                    
+                    <resp> photos include:
+                        Edgeworth_Geneve_33_2_1809_07_05_page01.jpg,
+                        Edgeworth_Geneve_33_2_1809_07_05_page02.jpg,
+                        Edgeworth_Geneve_33_2_1809_07_05_page03.jpg
+                    </resp>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <authority>Maria Edgeworth Letters Project</authority>
+                <date>2022</date>
+                <availability>
+                    <p>Reproduced by courtesy of the <orgName ref="https://d-nb.info/gnd/5075238-8">Bibliothèques municipales de la Ville de Genève</orgName>
+                    </p>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons Attribution 4.0 (CC BY 4.0) Unported License</licence>
+                </availability>
+                <idno>Edgeworth_Geneve_33_2_1809_07_05</idno> 
+            </publicationStmt>
+            <seriesStmt>
+                <title>Maria Edgeworth Letters Project</title>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc xml:lang="en">
+                    
+                    <msIdentifier>
+                        <repository>Bibliotheque de Geneve</repository>
+                        
+                    </msIdentifier>
+                    <head>Letter from 
+                        <persName xml:id="EdgeR1" from="1744" to="1817">
+                            <forename>Richard Lovell</forename>
+                            <surname>Edgeworth</surname>
+                            <date>1744-1817</date>
+                            <idno type="VIAF">66511092</idno>
+                            
+                        </persName>
+                        to <persName ref="./Personography.xml#DumoE1">Étienne Dumont</persName>,  
+                        <date when="1809-07-05">July 5<hi rend="superscript">th</hi>1809</date>
+                        
+                    </head>
+                    
+                </msDesc>
+                
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p>Edgeworth’s spelling and punctuation are retained in transcription, including non-standard spelling, line breaks, and hyphenation of words. The long s and ligatured forms are silently emended.</p>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="./Personography.xml#EdgeR1">Richard Lovell Edgeworth</persName>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="./Personography.xml#DumoE1">
+                        Étienne Dumont</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2021-01-01" who="Id_who">
+                <!--Brief description of what you did here.-->
+            </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="letter">
+                <pb n="1" facs="Edgeworth_Geneve_33_2_1809_07_05_page01.jpg"/>
+                
+                <opener>
+                    <dateline> 
+                        <note>11</note>
+                        <placeName ref="./Placeography.xml#Edgeworthstown_IE">Edgeworths Town</placeName>
+                        <date when="1809-07-05">July 5<hi rend="superscript">th</hi> 1809</date></dateline></opener>
+                
+                        <p>
+                    
+                        My dear <persName ref="./Personography.xml#DumoE1">Sir</persName><lb/>
+                        You see, that I do not trouble you with<lb/>
+                        frequent letters - your last I could <choice><orig>an-<lb/>
+                        swer</orig><reg>answer</reg></choice> only like Echo, for it contained <choice><orig>al-<lb/>
+                        most</orig><reg>almost</reg></choice> verbatim my own sentiments as they<lb/>
+                        have been delivered in public and private.<lb/></p>
+                        <p>
+                        Your proposed method of <choice><orig>pay-<lb/>
+                        ing</orig><reg>paying</reg></choice> schoolmasters is, in its principle, the<lb/>
+                        same as that, which I had recommended<lb/>
+                        except that I would have had part of the salary certain<lb/>
+                        in this <placeName ref="./Placeography.xml#IE">country,</placeName> in parliament in the year<lb/>
+                        1798, and since at the Board of Education<lb/>
+                        - You have I hope seen our reports? The last<lb/>
+                        on "Wilson's Hospital" the Board did me the<lb/>
+                        honor to commit to my hands; it was sent<lb/>
+                    
+                        <pb n="2" facs="Edgeworth_Geneve_33_2_1809_07_05_page02.jpg"/>
+                         before parliament was prorogued, but I am<lb/>
+                         not sure, that it arrived in time to be <choice><orig>print-<lb/>
+                         ed.</orig><reg>printed</reg></choice> - I trouble you at present<lb/>
+                         to inform me whether my good, but <choice><orig>care-<lb/>
+                         -less</orig><reg>careless</reg></choice> publisher <persName ref="./Personography.xml#JohnJ1">Johnson</persName> has sent you <title ref="./Workography.xml#Essay3">"Essays<lb/>
+                         on Professional Education",</title> which I begged<lb/>
+                         he would present to you from the author<lb/>
+                         If he has not I shall be much displeased<lb/>
+                         with him, for I wished, that it should reach<lb/>
+                         you before the book should be published.<lb/></p>
+                        <p>
+                         In <persName ref="./Personography.xml#EdgeM1">Maria's</persName> <title ref="./Workography.xml#Taleo1">"Tales of fashionable life"</title><lb/>
+                         you will recognise in Madame de Fleury<lb/>
+                         the charming <persName ref="./Personography.xml#PastA1">Madame Pastoret</persName> at whose<lb/>
+                         house we first had the pleasure of meeting<lb/>
+                         you. My <persName ref="./Personography.xml#EdgeM1">daughter</persName> takes singular <choice><orig>plea-<lb/>
+                         -sure</orig><reg>pleasure</reg></choice> in recording generous actions and<lb/>
+                         she was peculiarly desirous of paying<lb/>
+                    
+                          <pb n="3" facs="Edgeworth_Geneve_33_2_1809_07_05_page03.jpg"/>
+                          <note>12</note>
+                          a tribute of gratitude to one of the many<lb/>
+                          friends at <placeName ref="./Placeography.xml#Paris_FR">Paris</placeName> who shewed us real<lb/>
+                         <hi rend="underline">friendship</hi> in the most comprehensive<lb/>
+                          English acceptation of the word - Do me<lb/>
+                          the favor to repeat to us an anecdote of<lb/>
+                          a servant &amp; child of <persName ref="./Personography.xml#PastA1">Madame Pastorets</persName><lb/>
+                          which you told to our friend <persName ref="./Personography.xml#WellC1" cert="high">Lady Wellesley</persName><lb/></p>
+                          <closer>
+                          I am Dear Sir<lb/>
+                          Your faithful Servant<lb/>
+                          <persName ref="./Personography.xml#EdgeR1">Rich<hi rend="superscript">d</hi>Lovell Edgeworth</persName><lb/></closer>
+                
+            </div>
+        </body>
+        <back> </back>
+    </text>
+</TEI>
+
