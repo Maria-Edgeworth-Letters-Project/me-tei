@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/Maria-Edgeworth-Letters-Project/me-tei/refs/heads/main/melp.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter from Maria Edgeworth to Étienne Dumont, August 2, 1807</title>
+                <author>Maria Edgeworth</author>
+                <editor>
+                    
+                </editor>
+                <sponsor>
+                    <orgName>Maria Edgeworth Letters Project</orgName>
+                </sponsor>
+                <sponsor>Texas A &amp; M University, University of Tennessee, Wake Forest University, Xavier University of Louisiana, Southern Methodist University</sponsor>
+                <principal>Susan Egenolf, Meredith Hale, Hilary Havens, Jessica Richard, and Robin Runia</principal>
+                <respStmt>
+                    <resp>Transcription and coding by</resp>
+                    <persName>Paris Weber
+                    </persName>
+                    
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>First digital edition in TEI,<date when="2026-06-02">June 02, 2026</date>
+                    
+                </edition>
+                <respStmt>
+                    <orgName type="naf" ref="https://d-nb.info/gnd/5075238-8">
+                        Bibliothèques municipales de la Ville de Genève</orgName>
+                    
+                    
+                    <resp> photos include:
+                        Edgeworth_Geneve_33_2_1807_08_02_page01.jpg,
+                        Edgeworth_Geneve_33_2_1807_08_02_page02.jpg
+                    </resp>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <authority>Maria Edgeworth Letters Project</authority>
+                <date>2022</date>
+                <availability>
+                    <p>Reproduced by courtesy of the <orgName ref="https://d-nb.info/gnd/5075238-8">Bibliothèques municipales de la Ville de Genève</orgName>
+                    </p>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons Attribution 4.0 (CC BY 4.0) Unported License</licence>
+                </availability>
+                <idno>Edgeworth_Geneve_33_2_1807_08_02</idno> 
+            </publicationStmt>
+            <seriesStmt>
+                <title>Maria Edgeworth Letters Project</title>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc xml:lang="en">
+                    
+                    <msIdentifier>
+                        <repository>Bibliotheque de Geneve</repository>
+                        
+                    </msIdentifier>
+                    <head>Letter from 
+                        <persName xml:id="EdgeM1" from="1768" to="1849">
+                            <forename>Maria</forename>
+                            <surname>Edgeworth</surname>
+                            <date>1768-1849</date>
+                            <idno type="VIAF">71477273</idno>
+                            <idno type="SNAC">62567029</idno>
+                        </persName>
+                        to <persName ref="./Personography.xml#DumoE1">Étienne Dumont</persName>,  
+                        <date when="1807-08-02">Aug. 2<hi rend="superscript">s</hi>1807</date>
+                        
+                    </head>
+                    
+                </msDesc>
+                
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p>Edgeworth’s spelling and punctuation are retained in transcription, including non-standard spelling, line breaks, and hyphenation of words. The long s and ligatured forms are silently emended.</p>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="./Personography.xml#DumoE1">
+                        Étienne Dumont</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2021-01-01" who="Id_who">
+                <!--Brief description of what you did here.-->
+            </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="letter">
+                <pb n="1" facs="Edgeworth_Geneve_33_2_1807_08_02_page01.jpg"/>
+                
+                <opener>
+                    <dateline> 
+                        <note>9</note>
+                        <placeName ref="./Placeography.xml#Edgeworthstown_IE">Edgeworths Town</placeName>
+                        <date when="1807-08-02">Aug<hi rend="superscript">st</hi> 2<hi rend="superscript">d</hi> 1807.</date></dateline></opener>
+                  
+            <p>
+                As my <persName ref="./Personography.xml#EdgeR1">father's</persName> secretary I have just<lb/>
+                received a commission, which I execute<lb/>
+                with much pleasure. He commissions<lb/>
+                me, <persName ref="./Personography.xml#DumoE1">Sir,</persName> to say, that if you could be <choice><orig>pre-<lb/>
+                vailed</orig><reg>prevailed</reg></choice> upon to come to <placeName ref="./Placeography.xml#IE">Ireland,</placeName> to spend<lb/>
+                some months in this family, he would<lb/>
+                use his utmost endeavors to make<lb/>
+                your time pass agreeably, &amp;, as it is your<lb/>
+                wish to know something of the manners<lb/>
+                of the lower classes of the people of this <placeName ref="./Placeography.xml#IE">country,</placeName><lb/>
+                he may add, not unprofitably. <persName ref="./Personography.xml#EdgeF2">M<hi rend="superscript">rs</hi>. <choice><orig>Edge-<lb/>
+                worth</orig><reg>Edgeworth</reg></choice></persName> joins in the same hopes, and <choice><orig>as-<lb/>
+                -sures</orig><reg>assures</reg></choice> you, that you should have an <choice><orig>a-<lb/>
+                -partment</orig><reg>apartment</reg></choice> in which you could enjoy<lb/>
+                learned leisure at any hour when you<lb/>
+                might wish to retire from our family<lb/>
+                society. You would not be tormented<lb/>
+                with idle visitors, as we endeavor to <choice><orig>cul-<lb/>
+                -tivate</orig><reg>cultivate</reg></choice> friendship, and not acquaintance.<lb/>
+                
+                <pb n="2" facs="Edgeworth_Geneve_33_2_1807_08_02_page02.jpg"/>
+                My brother <persName ref="./Personography.xml#EdgeC1">Sneyd</persName> tells us, that you are<lb/>
+                occupied in some literary work, at which<lb/>
+                we rejoice, for the sake of the public, and<lb/>
+                for our own. Your visit to <placeName ref="./Placeography.xml#Edgeworthstown_IE"><choice><orig>Edgeworth's<lb/>
+                -town</orig><reg>Edgeworthstown</reg></choice></placeName> would not delay this work; because<lb/>
+                you could in this retired place, go on<lb/>
+                with it perhaps better than in <placeName ref="./Placeography.xml#London_ENK">London.</placeName><lb/>
+                My father is also engaged in a work on<lb/>
+                education; and your conversations<lb/>
+                on literary subjects would be mutually<lb/>
+                advantageous and agreeable. Permit<lb/>
+                me to express my own anxious wishes<lb/>
+                to profit by them.<lb/></p>
+                
+                <p>
+                 We are truly obliged to you, Sir, for your<lb/>
+                 kindness to my brother <persName ref="./Personography.xml#EdgeC1">Sneyd,</persName> and he<lb/>
+                 is fully sensible of the value of your<lb/>
+                 approbation, and regard.<lb/></p>
+                <closer>
+                 I am with much respect<lb/>
+                 Your obliged Serv<hi rend="superscript">t</hi>.<lb/>
+                 <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth.</persName><lb/> </closer>
+            </div>
+        </body>
+        <back> </back>
+    </text>
+</TEI>
+
