@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/Maria-Edgeworth-Letters-Project/me-tei/refs/heads/main/melp.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter from Richard Lovell Edgeworth to Étienne Dumont, May 6, 1816</title>
+                <author>Richard Lovell Edgeworth</author>
+                <editor>
+                    
+                </editor>
+                <sponsor>
+                    <orgName>Maria Edgeworth Letters Project</orgName>
+                </sponsor>
+                <sponsor>Texas A &amp;M University, University of Tennessee, Wake Forest University, Xavier University of Louisiana, Southern Methodist University</sponsor>
+                <principal>Susan Egenolf, Meredith Hale, Hilary Havens, Jessica Richard, and Robin Runia</principal>
+                <respStmt>
+                    <resp>Transcription and coding by</resp>
+                    <persName>Paris Weber
+                    </persName>
+                    
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>First digital edition in TEI,<date when="2026-06-19">June 19, 2026</date>
+                    
+                </edition>
+                <respStmt>
+                    <orgName type="naf" ref="https://d-nb.info/gnd/5075238-8">
+                        Bibliothèques municipales de la Ville de Genève</orgName>
+                    
+                    
+                    <resp> photos include:
+                        Edgeworth_Geneve_33_2_1816_05_06_page01.jpg,
+                        Edgeworth_Geneve_33_2_1816_05_06_page02.jpg
+                        
+                    </resp>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <authority>Maria Edgeworth Letters Project</authority>
+                <date>2022</date>
+                <availability>
+                    <p>Reproduced by courtesy of the <orgName ref="https://d-nb.info/gnd/5075238-8">Bibliothèques municipales de la Ville de Genève</orgName>
+                    </p>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons Attribution 4.0 (CC BY 4.0) Unported License</licence>
+                </availability>
+                <idno>Edgeworth_Geneve_33_2_1816_05_06</idno> 
+            </publicationStmt>
+            <seriesStmt>
+                <title>Maria Edgeworth Letters Project</title>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc xml:lang="en">
+                    
+                    <msIdentifier>
+                        <repository>Bibliotheque de Geneve</repository>
+                        
+                    </msIdentifier>
+                    <head>Letter from 
+                        <persName xml:id="EdgeR1" from="1744" to="1817">
+                            <forename>Richard Lovell</forename>
+                            <surname>Edgeworth</surname>
+                            <date>1744-1817</date>
+                            <idno type="VIAF">66511092</idno>
+                            
+                        </persName>
+                        to <persName ref="./Personography.xml#DumoE1">Étienne Dumont</persName>,  
+                        <date when="1816-05-06">May 6, 1816</date> 
+                        
+                    </head>
+                    
+                </msDesc>
+                
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p>Edgeworth’s spelling and punctuation are retained in transcription, including non-standard spelling, line breaks, and hyphenation of words. The long s and ligatured forms are silently emended.</p>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="./Personography.xml#EdgeR1">Richard Lovell Edgeworth</persName>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="./Personography.xml#DumoE1">
+                        Étienne Dumont</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2021-01-01" who="Id_who">
+                <!--Brief description of what you did here.-->
+            </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="letter">
+                <pb n="1" facs="Edgeworth_Geneve_33_2_1816_05_06_page01.jpg"/>
+                
+                <opener>
+                    <dateline> 
+                     <date when="1816-05-06">6. May 16</date><note>41</note>
+                     <placeName ref="./Placeography.xml#Edgeworthstown_IE">Edgeworthstown</placeName></dateline>
+                
+                        My Dear Sir</opener>
+                        <p>
+                        I trouble you with<lb/>
+                        a line to express my satis-<lb/>
+                        -faction upon the [insertion]temporary[/insertion] failure of<lb/>
+                        Sir Samuel Romillys bill.<lb/>
+                        The admirable speech of<lb/>
+                        the master of the Rolls would<lb/>
+                        never have been published if<lb/>
+                        there had not been a party<lb/>
+                        opposition - Such a collect<lb/>
+                        -ion of miserable stuff as fell<lb/>
+                        from Gibbs &amp; Plumer I never<lb/>
+                        read! - My friend Giddy has<lb/>
+                        fallen off prodigiously - .<lb/>
+                        The production of the Judges against<lb/>
+                        the bill was as feeble an attempt<lb/>
+                        as could be made - It dared not<lb/>
+                    
+                        <pb n="2" facs="Edgeworth_Geneve_33_2_1816_05_06_page02.jpg"/>
+                        be said that they wished to<lb/>
+                        preserve the arbitrary power<lb/>
+                        of dispensing life or death<lb/>
+                        but their opinions were brought<lb/>
+                        into court - Now the sense<lb/>
+                        of the whole nation will<lb/>
+                        go with the bill and the<lb/>
+                        opposition to it will reflect<lb/>
+                        disgrace and odium upon<lb/>
+                        the party who brought their<lb/>
+                        wretched daily [unclear]wailers[/unclear] to stifle<lb/>
+                        reason &amp; humanity -<lb/></p>
+                        <p>
+                        Alas! .. 60 .. constitutes a<lb/>
+                        house of commons when<lb/>
+                        the lives &amp; liberties of the<lb/>
+                        nation are discussed and<lb/>
+                        3 or 400 attend upon an<lb/>
+                        alteration in the game laws<lb/></p>
+                        
+                        <closer>Yours truly<lb/>
+                        Rich[superscript]d[/superscript] Lovell Edgeworth<lb/></closer>
+                
+                
+                
+            </div>
+        </body>
+        <back> </back>
+    </text>
+</TEI>
+
