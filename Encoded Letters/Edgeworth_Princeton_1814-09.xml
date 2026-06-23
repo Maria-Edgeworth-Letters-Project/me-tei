@@ -8,9 +8,10 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Letter signed by Maria Edgeworth from Richard Lovell Edgeworth to William Roscoe, September 1, 1814</title>
+            <title>Letter written by Maria Edgeworth, signed by Richard Lovell Edgeworth to William Roscoe, September 1, 1814</title>
             <author>Maria Edgeworth</author>
             <editor>Alexandra LaGrand</editor>
+            <editor>Jessica Richard</editor>
             <sponsor>
                <orgName>Maria Edgeworth Letters Project</orgName>
             </sponsor>
@@ -19,6 +20,10 @@
             <respStmt>
                <resp>Transcription and coding by</resp>
                <persName>Alexandra LaGrand</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Reviewed by</resp>
+               <persName>Jessica Richard</persName>
             </respStmt>
          </titleStmt>
          <editionStmt>
@@ -56,13 +61,7 @@
                      <surname>Edgeworth</surname>
                   </persName>
                   to <persName ref="./Personography.xml#RoscW1">William Roscoe</persName>, <placeName/>, 
-                  <date when="1814-09-01">
-                     <choice>
-                        <orig>
-                           <hi rend="superscript">tr</hi>
-                        </orig>
-                        <reg>September</reg>
-                     </choice>. 1<hi rend="superscript">st</hi>. 1814</date>
+                  <date when="1814-09-01">September 1, 1814</date>
                </head>
                <physDesc/>
             </msDesc>
@@ -83,8 +82,10 @@
             </correspAction>
          </correspDesc>
       </profileDesc>
-      <revisionDesc>
+      <revisionDesc status="approved">
          <change when="2023-12-13" who="Id_who">Created file for letter, encoded letter</change>
+         <change when="2026-06-22" who="Id_who">Jessica Richard corrected transcription, resolved various unclear words, fixed TEI errors, final editorial review</change>
+         <change when="2026-06-23"> Jessica Richard completed final editorial review on 6-23-2026. </change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -103,7 +104,7 @@
                   </add>
                   <date when="1814-09-01">
                      <choice>
-                        <orig>
+                        <orig>Sep
                            <hi rend="superscript">tr</hi>
                         </orig>
                         <reg>September</reg>
@@ -165,7 +166,7 @@
                <lb/>
             </closer>
             <postscript>
-               <p>please to address your letter under<lb/>
+               <p>Please to address your letter under<lb/>
                   cover to the <persName ref="./Personography.xml#FostJ2">
                      <choice>
                         <orig>R<hi rend="superscript">t</hi>.</orig>
