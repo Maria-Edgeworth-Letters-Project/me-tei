@@ -82,18 +82,21 @@
             </correspAction>
          </correspDesc>
       </profileDesc>
-      <revisionDesc>
+      <revisionDesc status="approved">
          <change when="2023-12-22" who="Id_who">Created file for letter, encoded letter</change>
+         <change when="2026-06-22" who="Id_who">Jessica Richard corrected TEI, added coding</change>
+         <change when="2026-06-22"> Jessica Richard completed final editorial review on 6-22-2026. </change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <div type="letter">
             <pb n="1" facs="Edgeworth_Princeton_1813-08-25_page01.jpg"/>
+            <head><hi rend="underline">For <persName ref="./Personography.xml#MileX1">M<hi rend="superscript">rs</hi>..Miles</persName>,</hi></head>
             <opener>
                <dateline>
                   <placeName ref="./Placeography.xml#Edgeworthstown_IE">Edgeworth Town</placeName>
-                  <date when="1813-08-25">Aug<hi rend="superscript">st</hi>. 25<hi rend="superscript">th</hi>.. 1813
+                  <date when="1813-08-25">Aug<hi rend="superscript">st</hi>. 25<hi rend="superscript">th</hi>.. 1813.
                </date>
                </dateline>
                <salute>
@@ -176,7 +179,10 @@
                </title> to<lb/>
                correct I fear it will be impossible for me<lb/>
                even if I should at last receive it safely to<lb/>
-               return it corrected in time for Xmas<lb/>
+               return it corrected in time for <choice>
+                  <orig>Xmas<lb/></orig>
+                  <reg>Christmas</reg>
+               </choice>
                publication -<lb/>
             </p>
             <p>
@@ -202,12 +208,12 @@
                I believe about a thousand a year - not enough<lb/>
                to make him <damage>
                   <unclear>
-                     <gap/> profession</unclear>
+                     <gap/> his profession</unclear>
                </damage> - but<lb/>
                sufficient to enable him to marry without<lb/>
                imprudence<lb/>
             </p>
-            <closer>
+               <closer>
                With best wishes for your health &amp; hap-<lb/>
                piness &amp; that of <persName ref="./Personography.xml#MileJ1">M<hi rend="superscript">r</hi>. Miles</persName> &amp; your children<lb/>
                I am Dear Madam<lb/>
@@ -223,7 +229,7 @@
                <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
                <lb/>
             </closer>
-            <closer>
+            <pb n="3" facs="Edgeworth_Princeton_1813-08-25_page04.jpg"/>
                <address>
                   <addrLine>
                      <persName ref="./Personography.xml#MileJ1">M<hi rend="superscript">r</hi> Miles</persName>
@@ -232,9 +238,9 @@
                   </addrLine>
                   <lb/>
                </address>
-            </closer>
          </div>
       </body>
       <back/>
+      
    </text>
 </TEI>
