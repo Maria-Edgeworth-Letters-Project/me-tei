@@ -8,7 +8,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Letter from Maria Edgeworth to Madam Miles, December 28, 1816</title>
+            <title>Letter from Maria Edgeworth to Mrs. Miles, December 28, 1816</title>
             <author>Maria Edgeworth</author>
             <editor>Alexandra LaGrand</editor>
             <sponsor>
@@ -55,7 +55,7 @@
                      <forename>Maria</forename>
                      <surname>Edgeworth</surname>
                   </persName>
-                  to <persName ref="./Personography.xml#MileX1">Madam Miles</persName>, <placeName ref="./Placeography.xml#West-End-Hampstead_ENK">West End</placeName>, <placeName ref="./Placeography.xml#London_ENK">London</placeName>, 
+                  to <persName ref="./Personography.xml#MileX1">Mrs. Miles</persName>, <placeName ref="./Placeography.xml#West-End-Hampstead_ENK">West End</placeName>, <placeName ref="./Placeography.xml#London_ENK">London</placeName>, 
                   <date when="1816-12-28">December 28, 1816</date>
                </head>
             </msDesc>
@@ -72,13 +72,15 @@
                <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
             </correspAction>
             <correspAction type="received">
-               <persName ref="./Personography.xml#MileX1">Madam Miles</persName>
+               <persName ref="./Personography.xml#MileX1">Mrs. Miles</persName>
             </correspAction>
          </correspDesc>
       </profileDesc>
       <revisionDesc>
          <change when="2023-11-03" who="Id_who">Created file for letter, encoded letter</change>
          <change when="2023-11-10" who="Id_who">Removed extra comments</change>
+         <change when="2026-06-24" who="Id_who">Jessica Richard made various updates</change>
+         <change when="2026-06-24"> Jessica Richard completed final editorial review on 6-24-2026 </change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -178,6 +180,7 @@
                Maria Edgeworth<lb/>
             </closer>
             <closer>
+               <pb n="4" facs="Edgeworth_Princeton_1816-12_page01.jpg"/>
                <address>
                   <addrLine>
                      <persName ref="./Personography.xml#MileX1">M<hi rend="superscript">rs</hi>. Miles</persName>
