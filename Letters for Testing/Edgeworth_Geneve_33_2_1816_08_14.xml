@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/Maria-Edgeworth-Letters-Project/me-tei/refs/heads/main/melp.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from Maria Edgeworth to Lady Lansdowne, August 14, 1816</title>
+            <author>Maria Edgeworth</author>
+            <editor>
+               Maggie Turbyfield
+            </editor>
+            <sponsor>
+               <orgName>Maria Edgeworth Letters Project</orgName>
+            </sponsor>
+            <sponsor>Texas A &amp; M University, University of Tennessee, Wake Forest University, Xavier University of Louisiana, Southern Methodist University</sponsor>
+            <principal>Susan Egenolf, Meredith Hale, Hilary Havens, Jessica Richard, and Robin Runia</principal>
+            <respStmt>
+               <resp>Transcription and coding by</resp>
+               <persName>Maggie Turbyfield
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>First digital edition in TEI, date: <date when="2026-06-25">June 25, 2026</date>
+            </edition>
+            <respStmt>
+               <orgName type="naf" ref="https://d-nb.info/gnd/5075238-8">
+                  Bibliothèques municipales de la Ville de Genève
+               </orgName>
+               <resp> photos include:
+                  Edgeworth_Geneve_33_2_1816_08_14_page01.jpg
+                  Edgeworth_Geneve_33_2_1816_08_14_page02.jpg
+                  Edgeworth_Geneve_33_2_1816_08_14_page03.jpg
+                  Edgeworth_Geneve_33_2_1816_08_14_page04.jpg
+                  Edgeworth_Geneve_33_2_1816_08_14_page05.jpg
+                  Edgeworth_Geneve_33_2_1816_08_14_page06.jpg
+               </resp>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Maria Edgeworth Letters Project</authority>
+            <date>2022</date>
+            <availability>
+               <p>Reproduced by courtesy of the <orgName ref="https://d-nb.info/gnd/5075238-8">Bibliothèques municipales de la Ville de Genève</orgName>
+               </p>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons Attribution 4.0 (CC BY 4.0) Unported License</licence>
+            </availability>
+            <idno>Edgeworth_Geneve_33_2_1816_08_14</idno> 
+         </publicationStmt>
+         <seriesStmt>
+            <title>Maria Edgeworth Letters Project</title>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <!-- This section of the header identifies the original manuscript source. -->
+               <msIdentifier>
+                  <repository>Bibliotheque de Geneve</repository>
+                 
+               </msIdentifier>
+               <head>Letter from 
+                  <persName xml:id="EdgeM1" from="1768" to="1849">
+                     <forename>Maria</forename>
+                     <surname>Edgeworth</surname>
+                     <date>1768-1849</date>
+                     <idno type="VIAF">71477273</idno>
+                     <idno type="SNAC">62567029</idno>
+                  </persName>
+                  to <persName ref="./Personography.xml#LansL1">Lady Lansdowne</persName>, 
+                  <date when="1816-08-14"><!-- Transcribe the date as it appears on the letter itself. Enter a numeric standardized date value in @when. --></date>
+                  <!-- <stamp>Enter description, if applicable</stamp>-->
+               </head>
+               <physDesc>
+                  <!-- optional physical description of the letter goes here: paper size and condition, seal, postmarks, etc.-->
+               </physDesc>
+            </msDesc>
+            <bibl>In addition to our edited version, this letter was previously published in
+               <!--complete bibiographical info if letter was published in a book here - if not delete-->
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <!--Where Edgeworth uses nonstandard spelling and hyphenation of words, transcriber-coders 
+               should use TEI elements “choice," “sic," and “reg" to encode both Edgeworth’s 
+               spelling and the regular international standard of Oxford English spelling, 
+               following the first listed spelling in the Oxford English Dictionary. -->
+            <p>Edgeworth’s spelling and punctuation are retained in transcription, including non-standard spelling, line breaks, and hyphenation of words. The long s and ligatured forms are silently emended.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="./Personography.xml#LansL1">Lady Lansdowne</persName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-01-01" who="Id_who">
+            <!--Brief description of what you did here.-->
+         </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <pb n="1" facs="Edgeworth_Geneve_33_2_1816_08_14_page01.jpg"/>
+            <!--filenames for photos associated with this letter. Example: <pb n="1" facs="image1.jpg image2.jpg image3.jpg"/> -->
+            <opener>
+               <dateline><!--If there's no date line, remove this element. Record in the order in which it is written on the letter.-->
+                  <placeName ref="./Placeography.xml#Edgeworthstown_IE">Edgeworth's Town</placeName>
+                  <date when="1816-08-14">Aug<hi rend="superscript">st</hi> 14<hi rend="superscript">th</hi>. 1816</date></dateline>
+              
+            </opener>
+            <p>
+               My dear <persName ref="./Personography.xml#LansL1">Lady Lansdowne</persName>
+               <hi rend="underline">Can</hi> you think of me when
+               you are so far away? - Yes
+               I must believe that you
+               <hi rend="underline">can</hi> since you were so <choice><orig>incre<lb/>dibly</orig><reg>incredibly</reg></choice>
+               kind as to write to
+               me the very day before you
+               left <placeName ref="./Placeography.xml#ENK">England</placeName> - I assure you
+               that if you had not written
+               I never should have <choice><orig>sus-<lb/>pected</orig><reg>suspected</reg></choice>
+               you of neglecting
+               either my father or myself
+               so firm is my opinion of
+               the constancy of your <choice><orig>re-<lb/>gard</orig><reg>regard</reg></choice>
+               for those whom you
+               have once honored with
+               any portion of your great esteem.
+            </p>
+            <p>
+               I regret that letter of yours
+               which is lying at the dead
+               letter office at <placeName ref="./Placeography.xml#Canterbury_ENK">Canterbury</placeName>
+               <note place="top">119</note>
+               
+               <pb n="2" facs="Edgeworth_Geneve_33_2_1816_08_14_page02.jpg"/>
+               I rather think that one of
+               mine has not reached you
+               but I cannot recollect any
+               thing it contained except
+               a translation of some French
+               lines of <persName ref="./Personography.xml#BerqA1">Arnauds</persName> <hi rend="underline">on a leaf</hi>
+               which my <persName ref="./Personography.xml#EdgeR1">father</persName> sent.
+            </p>
+            <p>
+               This note probably will
+               find you at <placeName ref="./Placeography.xml#Geneva_SZ">Geneva</placeName>. I hope
+               you will have the goodness
+               to remember us <choice><orig>affectionate<lb/>=ly</orig><reg>affectionately</reg></choice>
+               to our friends there -
+               especially to excellent <persName ref="./Personography.xml#DumoE1">M. <lb/>Dumont</persName>
+               . - tho he has been
+               very naughty about writing
+               - not one letter have we
+               received from him since
+               he went to <placeName ref="./Placeography.xml#Geneva_SZ">Geneva</placeName> - Is he so
+               taken up in making <add>new</add> <choice><orig>consti<lb/>-tutions</orig><reg>constitutions</reg></choice>
+               that he cannot write
+               a letter to his old friends ? -
+            </p>
+            <p>
+               - But I have no right to reproach
+               my friends much for not
+               writing as I am so very <hi rend="underline">lazy</hi>
+               myself - I enclose a <hi rend="underline">notice</hi>
+               
+               <pb n="3" facs="Edgeworth_Geneve_33_2_1816_08_14_page03.jpg"/>
+               which I wrote <del>for</del> as a tribute
+               of regard to my friend <persName ref="./Personography.xml#HamiE1">M<hi rend="superscript">rs</hi>.<lb/>Elizabeth Hamilton</persName>
+               whose
+               death probably you have
+               seen in the papers - I <choice><orig>remem<lb/>ber</orig><reg>remember</reg></choice>
+               10 or 12 years ago M.
+               [unclear]Pictet[/unclear] gave a very good ac
+               count in his journal Bri ..
+               =tannique of <persName ref="./Personography.xml#HamiE1">M<hi rend="superscript">rs</hi>. Hamilton's</persName>
+               letters on Education - Per,,
+               haps he may now like
+               to see this <hi rend="underline">notice</hi> &amp; I hope he
+               will take some means
+               of doing justice to her <choice><orig>me<lb/>-mory</orig><reg>memory</reg></choice>
+               either in the French
+               papers or journals - <del><unclear>Does</unclear></del>
+               Is the Journal Britannique
+               still continued ? -
+            </p>
+            <p>
+               I hope my dear <persName ref="./Personography.xml#LansL1">Lady<lb/> Lansdowne</persName>
+               you will do
+               me the favor to write and
+               tell me <del>the</del> how you like
+               <placeName ref="./Placeography.xml#SZ">Switzerland</placeName> - &amp; <placeName ref="./Placeography.xml#IT">Italy</placeName> -
+               I hope you will not see <hi rend="underline">all</hi>
+               the churches &amp; palaces which
+               
+              <note place="top">120</note>
+               
+               <pb n="4" facs="Edgeworth_Geneve_33_2_1816_08_14_page04.jpg"/>
+               <persName ref="./Personography.xml#EustJ1">Eustace</persName> describes - Half of them
+               I think would be quite enough
+               for me - That <title ref="./Workography.xml#Class1">book</title> gave me
+               an indigestion a surfeit of
+               churches &amp; palaces - And I
+               thought I never should have
+               got alive out of the <placeName ref="./Placeography.xml#Vatican-City_IT">Vatican</placeName>
+               I was so tired of it - Nevertheless
+               I acknowledge that many parts
+               of the book are very eloquent -
+               - But there is too much of every
+               thing - &amp; especially too much <hi rend="underline">fine</hi>
+               <hi rend="underline">writing</hi> -
+            </p>
+            <p>
+               I think Lord &amp; Lady Byron's <choice><orig>af-<lb/>fair</orig><reg>affair</reg></choice>
+               was all settled before
+               you left <placeName ref="./Placeography.xml#ENK">England</placeName> &amp; that he
+               had gone off with the <choice><orig>univer<lb/>sal</orig><reg>universal</reg></choice>
+               execration of <placeName ref="./Placeography.xml#ENK">England</placeName>.
+            </p>
+            <p>
+               - Perhaps you will meet
+               him again in <placeName ref="./Placeography.xml#SZ"><choice><orig>Swisserland</orig><reg>Switzerland</reg></choice></placeName>
+               I hear he is now at <placeName ref="./Placeography.xml#Geneva_SZ">Geneva</placeName>
+            </p>
+            <p>
+               - How <persName ref="./Personography.xml#StaeA1">Madame de Stael</persName> &amp; he
+               will talk - I wish I could hear
+               them provided I could be
+               now &amp; then relieved &amp; refresh
+               ed with a little common-
+               sense from you &amp; <persName ref="./Personography.xml#LansH1">Lord Lans-<lb/>downe</persName>
+               - <persName ref="./Personography.xml#LambC1">Lady Caroline Lamb</persName>
+               has just published a <title ref="./Workography.xml#Glena1">book</title> in
+               which there is not one grain
+               of common sense &amp; no [unclear]pretine[/unclear]
+               
+            </p>
+            <p>
+               <!--More body paragraphs as needed.--></p>
+            <p>
+               <!--More body paragraphs as needed.-->
+               <!--Where there's a page break record it inside the relevant body paragraph like this, 
+                  with the self-closing page-break element. n="2" indicates the START of the second page.-->
+               <pb n="2" facs="image2.jpg"/>
+            </p>
+            <p><!--More body paragraphs as needed.--></p>
+            <closer>
+               <!--include linebreaks, if used. example: <closer> Yours<lb/> Very sincerely<lb/> -->
+            </closer>
+            <postscript>
+               <p><!--A postscript goes here, outside the <closer>. --></p>
+            </postscript>
+            <!--You can include a <pb/> here, or inside the postScript.-->
+            <!-- Format for postscripts. 
+               Postscripts do NOT go inside closer tags. Adjust to take into account the order in your letter. 
+               Sometimes the signature is on page three, the address on page four, then the postscript follows back on the top of page one, for example.-->
+            <closer><!--Use the <closer> element again to hold Address Leaf information.-->
+               <address>
+                  <!--Include any text written on the address leaf; use a separate "addrLine" for each line and indicate line breaks. -->
+                  <addrLine/>
+                  <addrLine/>
+                  <addrLine/>
+               </address>
+            </closer>
+         </div>
+      </body>
+      <back> </back>
+   </text>
+</TEI>

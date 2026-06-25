@@ -54,7 +54,7 @@
                      <forename>Maria</forename>
                      <surname>Edgeworth</surname>
                   </persName>
-                  to <persName ref="./Personography.xml#MileX1">Madam Miles</persName>, <placeName ref="./Placeography.xml#Baggot-Street-15_IE">15 Baggot Street, Dublin</placeName>, 
+                  to <persName ref="./Personography.xml#MileX1">Mrs. Miles</persName>, <placeName ref="./Placeography.xml#Baggot-Street-15_IE">15 Baggot Street, Dublin</placeName>, 
                   <date when="1815-03-14">March 14, 1815</date>
                </head>
                <physDesc/>
@@ -72,13 +72,15 @@
                <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
             </correspAction>
             <correspAction type="received">
-               <persName ref="./Personography.xml#MileX1">Madam Miles</persName>
+               <persName ref="./Personography.xml#MileX1">Mrs. Miles</persName>
             </correspAction>
          </correspDesc>
       </profileDesc>
-      <revisionDesc>
+      <revisionDesc status="approved">
          <change when="2023-12-01" who="Id_who">Created file for letter, encoded letter</change>
          <change when="2023-12-05" who="Id_who">Updated Marseilla cloth</change>
+         <change when="2026-06-24"> Jessica Richard added missing image for page 3, coded placenames and updated other code </change>
+         <change when="2026-06-24"> Jessica Richard completed final editorial review on 6-24-2026 </change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -103,7 +105,7 @@
                </choice> and white gauze<lb/>
                gown are all equal to our most <choice>
                   <orig>san<lb/>
-               =guine</orig>
+               -guine</orig>
                   <reg>sanguine</reg>
                </choice> expectations &amp; we thank you for<lb/>
                having taken so much trouble and for<lb/>
@@ -120,8 +122,8 @@
                border does not suit my fancy &amp; moreover<lb/>
                I am told does not wash well I avail<lb/>
                myself of your permission to return it<lb/>
-               -- I need not say I hope that it has never<lb/>
-               been worn -- Instead of it I should like<lb/>
+               - I need not say I hope that it has never<lb/>
+               been worn - Instead of it I should like<lb/>
                to have a bobbinet veil a yard <del>square</del>
                <add>wide</add>
                <lb/>
@@ -129,12 +131,12 @@
             </p>
             <p>
                <pb n="2" facs="Edgeworth_Princeton_1815-03_page02.jpg"/>
-               The corners &amp; a simple chain border some<lb/>
+               the corners &amp; a simple chain border some<lb/>
                thing like this <figure>
                   <figDesc>Hand drawing of circular fabric pattern</figDesc>
                </figure>
                <lb/>
-               If i must take lace to make up the difference<lb/>
+               If I must take lace to make up the difference<lb/>
                of price I wish you would <choice>
                   <orig>chuse</orig>
                   <reg>choose</reg>
@@ -161,7 +163,7 @@
                between the price of the two veils in<lb/>
                money I beg you will pay <persName ref="./Personography.xml#SorrX1">Miss Sorrels</persName>
                <lb/>
-               bill for my stay, &amp; if any balance remains<lb/>
+               bill for my stays, &amp; if any balance remains<lb/>
                give it to <persName ref="./Personography.xml#EdgeC1">Sneyd</persName> or his <persName ref="./Personography.xml#EdgeH3">wife</persName> who are now<lb/>
                in London &amp; who desired that we should<lb/>
                direct to them at <placeName ref="./Placeography.xml#St-Pauls-Churchyard_ENK">St. Pauls Church yard.</placeName>
@@ -176,11 +178,12 @@
                <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
                <lb/>
             </closer>
+            <pb n="3" facs="Edgeworth_Princeton_1815-03_page03.jpg"/>
             <postscript>
                <p>2 <hi rend="superscript">yd</hi>
                   <choice>
                      <orig>
-                        <unclear>Marseilla</unclear>
+                        <unclear>Merseilla</unclear>
                      </orig>
                      <reg>Marseilles</reg>
                   </choice>
@@ -191,12 +194,19 @@
                   10 1/2 Holland<lb/>
                   Shawl<lb/>
                   Cravats<lb/>
-                  <unclear>Hand <hi rend="superscript">do</hi>
-                  </unclear>
+                  <unclear>Hand <hi rend="superscript">fs</hi>
+                        </unclear>
                   <lb/>
-                  Huckabac<lb/>
+                  <choice>
+                     <orig>
+                        <unclear>Huckabac</unclear>
+                     </orig>
+                     <reg>Huckaback</reg>
+                  </choice><lb/>
                   Table cloths<lb/>
-                  2 <unclear>House</unclear> cloths<lb/>
+                  Tea <unclear>Ds</unclear><lb/>
+                  Dusters<lb/>
+                  2 Housecloths<lb/>
                   Muslin<lb/>
                </p>
                <p>
@@ -207,13 +217,13 @@
                   </unclear>
                   <lb/>
                   Tape &amp; Needles<lb/>
-                  Flower --<lb/>
+                  Flowers <lb/>
                   Sock-Garters<lb/>
                   B frock -<lb/>
                </p>
                <p>
-                  104 Picadilly<lb/>
-                  28 Hatton Garden<lb/>
+                  <placeName ref="./Placeography.xml#Piccadilly-104_ENK">104 Picadilly</placeName><lb/>
+                  <placeName ref="./Placeography.xml#Hatton-Garden-28_ENK">28 Hatton Garden</placeName><lb/>
                </p>
             </postscript>
             <closer>
