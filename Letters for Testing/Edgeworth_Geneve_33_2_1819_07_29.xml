@@ -1,0 +1,397 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/Maria-Edgeworth-Letters-Project/me-tei/refs/heads/main/melp.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from Maria Edgeworth to <!--Recipient Name, Month Day, YYYY--></title>
+            <author>Maria Edgeworth</author>
+            <editor>
+              Maggie Turbyfield
+            </editor>
+            <sponsor>
+               <orgName>Maria Edgeworth Letters Project</orgName>
+            </sponsor>
+            <sponsor>Texas A &amp; M University, University of Tennessee, Wake Forest University, Xavier University of Louisiana, Southern Methodist University</sponsor>
+            <principal>Susan Egenolf, Meredith Hale, Hilary Havens, Jessica Richard, and Robin Runia</principal>
+            <respStmt>
+               <resp>Transcription and coding by</resp>
+               <persName>Maggie Turbyfield
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>First digital edition in TEI, date: June 30, 2026 <date when="2026-06-30">
+            </date>
+            </edition>
+            <respStmt>
+               <orgName type="naf" ref="https://d-nb.info/gnd/5075238-8">
+                  Bibliothèques municipales de la Ville de Genève</orgName>
+               <resp> photos include:
+                  Edgeworth_Geneve_33_2_1819_07_29_page01.jpg
+                  Edgeworth_Geneve_33_2_1819_07_29_page02.jpg
+                  Edgeworth_Geneve_33_2_1819_07_29_page03.jpg
+                  Edgeworth_Geneve_33_2_1819_07_29_page04.jpg
+                  Edgeworth_Geneve_33_2_1819_07_29_page05.jpg
+                  Edgeworth_Geneve_33_2_1819_07_29_page06.jpg
+                  Edgeworth_Geneve_33_2_1819_07_29_page07.jpg
+                  Edgeworth_Geneve_33_2_1819_07_29_page08.jpg
+                  Edgeworth_Geneve_33_2_1819_07_29_page09.jpg
+                  Edgeworth_Geneve_33_2_1819_07_29_page10.jpg
+                  <!-- Make a comma-separated list of each .jpg photo file name associated with your letter. 
+                     For example: DSCF9476.jpg, DSCF9477.jpg, DSCF9478.jpg-->
+               </resp>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Maria Edgeworth Letters Project</authority>
+            <date>2022</date>
+            <availability>
+               <p>Reproduced by courtesy of the <orgName ref="https://d-nb.info/gnd/5075238-8">Bibliothèques municipales de la Ville de Genève</orgName>
+               </p>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons Attribution 4.0 (CC BY 4.0) Unported License</licence>
+            </availability>
+            <idno><!--Change to match the file name and current naming standards, i.e. "Edgeworth_Beinecke_330_1817_01_24" if file name is "Edgeworth_Beinecke_330_1817_01_24.xml"--></idno> 
+         </publicationStmt>
+         <seriesStmt>
+            <title>Maria Edgeworth Letters Project</title>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <!-- This section of the header identifies the original manuscript source. -->
+               <msIdentifier>
+                  <repository>Bibliotheque de Geneve</repository>
+                  <collection><!-- Enter specific archival collection if applicable--></collection>
+                  <idno><!--Consult library or WorldCat for this info--></idno>
+               </msIdentifier>
+               <head>Letter from 
+                  <persName xml:id="EdgeM1" from="1768" to="1849">
+                     <forename>Maria</forename>
+                     <surname>Edgeworth</surname>
+                     <date>1768-1849</date>
+                     <idno type="VIAF">71477273</idno>
+                     <idno type="SNAC">62567029</idno>
+                  </persName>
+                  to <persName ref="./Personography.xml#DumoE1">Étienne Dumont</persName>, <placeName><!--Location where letter was sent--></placeName>, 
+                  <date when="1819-07-29">July 29<hi rend="superscript">th</hi> 1819</date>
+                  <!-- <stamp>Enter description, if applicable</stamp>-->
+               </head>
+               <physDesc>
+                  <!-- optional physical description of the letter goes here: paper size and condition, seal, postmarks, etc.-->
+               </physDesc>
+            </msDesc>
+            <bibl>In addition to our edited version, this letter was previously published in
+               <!--complete bibiographical info if letter was published in a book here - if not delete-->
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <!--Where Edgeworth uses nonstandard spelling and hyphenation of words, transcriber-coders 
+               should use TEI elements “choice," “sic," and “reg" to encode both Edgeworth’s 
+               spelling and the regular international standard of Oxford English spelling, 
+               following the first listed spelling in the Oxford English Dictionary. -->
+            <p>Edgeworth’s spelling and punctuation are retained in transcription, including non-standard spelling, line breaks, and hyphenation of words. The long s and ligatured forms are silently emended.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="./Personography.xml#DumoE1">Etienne Dumont</persName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-01-01" who="Id_who">
+            <!--Brief description of what you did here.-->
+         </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <pb n="1" facs="Edgeworth_Geneve_33_2_1819_07_29_page01.jpg"/>
+            <opener>
+               <dateline>
+                  <placeName ref="./Placeography.xml#Edgeworthstown_IE">Edgeworth Town</placeName>
+                  <date when="1819-07-29">July 29<hi rend="superscript">th</hi> 1819</date></dateline>
+            </opener>
+            <p>
+               Your most touching and affectionate letter<lb/>
+               reached me long since, and had I had any<lb/>
+               thing new or interesting public or private to<lb/>
+               communicate <add>to</add> you my dear and excellent<lb/>
+               <persName ref="./Personography.xml#DumoE1">friend</persName> should have sooner heard from me: but<lb/>
+               as you so justly say the recollections and<lb/>
+               thoughts that we have in common with<lb/>
+               each other do not depend upon the passing<lb/>
+               moment for their interest. Though no letter<lb/>
+               from me has told you so I hope you must be<lb/>
+               certain that I thought of you <del>and of the</del> when<lb/>
+               I lately read <persName ref="./Personography.xml#MackR1">M<hi rend="superscript">c</hi>.Intosh's</persName> admirable speech<lb/>
+               on the penal laws of <placeName ref="./Placeography.xml#ENK">England</placeName>. I wished to<lb/>
+               have been near you that I might have <choice><orig>enjoy-<lb/>ed</orig><reg>enjoyed</reg></choice>
+               the sight of the exquisite pleasure which<lb/>
+               I know that triumph of reason and eloquence<lb/>
+               must have given you - both as it regards<lb/>
+               the living - and the dead. There cannot<lb/>
+               be a finer tribute to the memory of him who<lb/>
+               first began who so long so steadily carried<lb/>
+               on that attack upon antient prejudice - And<lb/><lb/>
+               now that the finest body of evidence, has been<lb/>
+               produced, upon the largest scale which Time<lb/>
+               and numbers can afford in the support of<lb/>
+               truth it will be impossible in future to recur<lb/>
+               to the old evasion of - " This is all very fine in<lb/>
+               <hi rend="underline">theory</hi>, but it will not do in <hi rend="underline">practice</hi>. "<lb/>
+               
+               <note place="top">131</note>
+               
+               <pb n="2" facs="Edgeworth_Geneve_33_2_1819_07_29_page02.jpg"/>
+               I do not recollect any instance in these or former<lb/>
+               times of so large a view of legislative <unclear>truths</unclear><lb/>
+               being presented to the mind by any statesman <add>much less by any <hi rend="underline">orator</hi></add><lb/>
+               - nor was the subject ever before so successfully<lb/>
+               treated as an experimental science. The <choice><orig>expe-<lb/>rience</orig><reg>experience</reg></choice>
+                of <del>many</del> ages was drawn <del>into one</del><lb/>
+               to one point and from the focus of his <choice><orig>elo-<lb/>quence</orig><reg>eloquence</reg></choice>
+                the light and warmth spread far<lb/>
+               and wide - to the eye and to the heart.<lb/>
+            </p>
+            <p>
+               I own I never had such a high opinion as<lb/>
+               you always expressed of <persName ref="./Personography.xml#MackR1">M<hi rend="superscript">c</hi>.Intosh</persName> <hi rend="underline">till I read</hi><lb/>
+               <hi rend="underline">that speech</hi> - and another of his on the <placeName ref="./Placeography.xml#BR">Brazil</placeName><lb/>
+               war. - I am heartily glad that the review<lb/>
+               of your last volume <title ref="./Workography.xml#Ratio1">Sur les peines &amp; les <choice><orig>recom-<lb/>-penses</orig><reg>recompenses</reg></choice></title>
+               is still to be written. Those who have<lb/>
+               read that book or the essays on legislation<lb/>
+               must now look back to them with new<lb/>
+               satisfaction - the satisfaction of being able<lb/>
+               to support by notorious facts, the truth of <add>great &amp;</add><lb/>
+               useful principles - All who cannot <choice><orig>under-<lb/>stand</orig><reg>understand</reg></choice>
+               , or who will not attend to <choice><orig>demonstra-<lb/>-tion</orig><reg>demonstration</reg></choice>
+               &amp; who affect to despise theory, are compelled<lb/>
+               to listen to evidence &amp; are charmed to have a fact<lb/>
+               to repeat in writing or conversation because<lb/>
+               this carries with it the glory of authority -<lb/>
+            </p>
+            <p>
+               I certainly was deeply interested when I first<lb/>
+               read those books, and so was my dear <persName ref="./Personography.xml#EdgeR1">father</persName><lb/>
+               - But I did not think that interest could <hi rend="underline">now</hi><lb/>
+               have been so warmly received as I feel it has<lb/>
+               been - There is no danger my dear <persName ref="./Personography.xml#DumoE1">friend</persName> that<lb/>
+               this should exhaust itself and cool before I<lb/>
+               can put it to any good use - I know that at least<lb/>
+               where my friends &amp; truth are concerned I am firm <unclear>of purpose</unclear><lb/>
+               
+               <pb n="3" facs="Edgeworth_Geneve_33_2_1819_07_29_page03.jpg"/>
+               - that much of my <persName ref="./Personography.xml#EdgeR1">father</persName> still remains with me.<lb/>
+            </p>
+            <p>
+               Before this reaches you I think I shall<lb/>
+               have his <title ref="./Workography.xml#Memoi1">memoirs</title> nearly ready for the press.<lb/>
+               - The first volume is half printed but the printing<lb/>
+               goes on slowly because I have the proof sheets<lb/>
+               sent to me here - I find it a great advantage - not<lb/>
+               merely to verbal correction - I hope you will see<lb/>
+               that I have improved what I had written by <choice><orig>re-<lb/>-vision</orig><reg>revision</reg></choice>
+               after letting it lie by 6 months. All<lb/>
+               the corrections and alterations have been<lb/>
+               made on the general principles you pointed<lb/>
+               out to me. I have not taken away any thing<lb/>
+               that could interest the public for him, but<lb/>
+               I have cut away much of the expression of my<lb/>
+               own feelings in which the public could not<lb/>
+               sympathise - I have taken away all direct praise<lb/>
+               - all repetitions (I hope) And compression has given<lb/>
+               strength - I hope I have also infused into it some<lb/>
+               life which I felt that it wanted &amp; which at the<lb/>
+               time I wrote it first I had not the power to give.<lb/>
+               - About Xmass it will be printed - I hope it will<lb/>
+               not be published till spring - because I should<lb/>
+               like to be abroad when it comes out.<lb/>
+            </p>
+            <p>
+               I am not yet able to determine more<lb/>
+               than I have stated in a note I have just written<lb/>
+               to <persName ref="./Personography.xml#PictM1">Pictet</persName> to which I refer you to avoid tiresome<lb/>
+               repetitions - Upon second thoughts I recollect that<lb/>
+               <persName ref="./Personography.xml#PictM1">Pictet</persName> will not probably receive the note for some weeks<lb/>
+               <del>perhaps months</del> after this letter may reach you. I have<lb/>
+               sent it by a gentleman who takes this to <placeName ref="./Placeography.xml#FR">France</placeName> &amp;<lb/>
+               who has directions to forward it by the post; but he<lb/>
+               will keep the note to <persName ref="./Personography.xml#PictM1">Pictet</persName> which is a note of intro<lb/>
+               duction till he reaches <placeName ref="./Placeography.xml#Geneva_SZ">Geneva</placeName> himself &amp; he means to<lb/>
+               make some stay at <placeName ref="./Placeography.xml#Paris_FR">Paris</placeName>. This gentleman &amp; his wife<lb/>
+               
+               <note place="top">132</note>
+               
+               <pb n="4" facs="Edgeworth_Geneve_33_2_1819_07_29_page04.jpg"/>
+               <persName ref="./Personography.xml#LucaX2">M<hi rend="superscript">r</hi>.</persName> and <persName ref="./Personography.xml#LucaX1">M<hi rend="superscript">rs</hi>. Lucas</persName> are friends of my friends but not<lb/>
+               personally known to me - therefore I would not<lb/>
+               though they wished it give them any introduction<lb/>
+               to you - Your time is too precious &amp; your mind engaged<lb/>
+               too deeply to be squandered on every traveller who<lb/>
+               may wish to have the honor of seeing you - For<lb/>
+               the same reason I would not give an <choice><orig>introduc-<lb/>tion</orig><reg>introduction</reg></choice>
+               to <persName ref="./Personography.xml#MarcJ1">M<hi rend="superscript">rs</hi>. Marcet</persName>. But I could not refuse one<lb/>
+               to <persName ref="./Personography.xml#PictM1">Pictet</persName> - I know they are people he would like &amp;<lb/>
+               that no one can be better suited to please them &amp;<lb/>
+               to do the honors of his own country to them &amp;<lb/>
+               so my conscience is clear &amp; your time your own<lb/>
+            </p>
+            <p>
+               - Give my affectionate &amp; grateful love &amp; <persName ref="./Personography.xml#EdgeF3">Fannys</persName><lb/>
+               to <persName ref="./Personography.xml#MarcJ1">M<hi rend="superscript">rs</hi>. Marcet</persName> - <hi rend="underline">She</hi> knows &amp; <del>only</del>we know how<lb/>
+               very much we have cause to bless her for her<lb/>
+               kindness to us in <placeName ref="./Placeography.xml#London_ENK">London</placeName>. When you read<lb/>
+               this to her; she will say "No really I did nothing<lb/>
+               at all for them I don't know what <persName ref="./Personography.xml#EdgeM1">Miss E.</persName> means"<lb/>
+            </p>
+            <p>
+               And you will not believe her - Tell her<lb/>
+               that <persName ref="./Personography.xml#EdgeF3">Fanny</persName> is well and perfectly happy and<lb/>
+               decided in her determination - And I hope to<lb/>
+               have the delight next year of presenting her<lb/>
+               to <persName ref="./Personography.xml#MarcJ1">M<hi rend="superscript">rs</hi>. Marcet</persName> at <placeName ref="./Placeography.xml#Geneva_SZ">Geneva</placeName> in full bloom of health<lb/>
+               and happiness. - I will write to <persName ref="./Personography.xml#MarcJ1">M<hi rend="superscript">rs</hi>. Marcet</persName> &amp; when<lb/>
+               I have received the work which she has been so kind<lb/>
+               to send me - of which I expect the arrival every<lb/>
+               day - As you are together it is better not to give<lb/>
+               you two letters at once.<lb/>
+            </p>
+            <p>
+               <persName ref="./Personography.xml#BeauH1">Honora</persName> is still with her two good <persName ref="./Personography.xml#SneyX3">aunts</persName> in <placeName ref="./Placeography.xml#ENK">England</placeName><lb/>
+               they will bring her back to us this autumn.<lb/>
+               Though you do not know these <persName ref="./Personography.xml#SneyX3">aunts</persName>, you know<lb/>
+               I believe that we are much attached to them &amp;<lb/>
+               that they lived with us for 25 years <del>part</del> during<lb/>
+               our happiest days; You will therefore rejoice<lb/>
+               with us that they are coming back to <hi rend="underline">live</hi> with<lb/>
+               us again after having spent two years with other<lb/>
+               
+               <pb n="5" facs="Edgeworth_Geneve_33_2_1819_07_29_page05.jpg"/>
+               friends in England. If my <persName ref="./Personography.xml#EdgeR1">father</persName> could <del>look</del> see this<lb/>
+               what pleasure it would give him to see the <choice><orig>con-<lb/>tinued</orig><reg>continued</reg></choice>
+               union of all those whom he united<lb/>
+               in esteem &amp; affection. Besides he would feel<lb/>
+               it as the strongest testimony to the <add>kindness of</add> conduct &amp;<lb/>
+               superior character of the <persName ref="./Personography.xml#EdgeF2">wife</persName> he loved - the<lb/>
+               <persName ref="./Personography.xml#SneyX3">sisters</persName> of a former wife returning after he is no<lb/>
+               more to live with her &amp; her children - To my<lb/>
+               eldest <persName ref="./Personography.xml#EdgeL2">brother</persName> his representative it is also <choice><orig>hono-<lb/>rable</orig><reg>honorable</reg></choice>
+                - And - I am very absurd &amp; <choice><orig>unconsciona-<lb/>ble</orig><reg>unconscionable</reg></choice>
+               to expect you to sympathise in all this - Pardon<lb/>
+               and tell me any thing in revenge that <choice><orig>con-<lb/>cerns</orig><reg>concerns</reg></choice>
+               your private family affairs -<lb/>
+            </p>
+            <p>
+               <persName ref="./Personography.xml#EdgeL2">Lovell</persName> (my eldest brother) has set an <choice><orig>ex-<lb/>cellent</orig><reg>excellent</reg></choice>
+               example in this part of the country this<lb/>
+               year as sheriff: by doing all that was formerly<lb/>
+               done by military force, by <add>the</add> civil power only -<lb/>
+               - he walked himself with constables, without soldiers<lb/>
+               to conduct the prisoners through an immense<lb/>
+               crowd in the town of <placeName ref="./Placeography.xml#Longford_IE">Longford</placeName> to and from the<lb/>
+               jail - and when he as sheriff executed his<lb/>
+               dreadful duty of attending the executions of<lb/>
+               the condemned, he attended without any of<lb/>
+               the military, <del>with</del> - There was perfect tranquillity<lb/>
+               - and aweful silence - very unusual in such<lb/>
+               cases in <placeName ref="./Placeography.xml#IE">Ireland</placeName> - ten or twelve thousand people<lb/>
+               assembled - The <hi rend="underline">solemnity</hi> of these executions &amp; the<lb/>
+               impression made by the example were <choice><orig>strik-<lb/>ing</orig><reg>striking</reg></choice>
+               - in contrast to the too common &amp; shocking<lb/>
+               sacrifices <add>&amp; waste</add> of human life seen often with <choice><orig>indiffer-<lb/>ence</orig><reg>indifference</reg></choice>
+                in this country or with a spirit of <choice><orig>ven-<lb/></orig><reg>vengeance</reg></choice>
+               by surviving accomplices &amp; relations<lb/>
+            </p>
+            <p>
+               The silence of the crowd who followed one<lb/>
+               of the prisoners when my <persName ref="./Personography.xml#EdgeL2">brother</persName> was conducting<lb/>
+               him back to the jail after sentence of death had<lb/>
+               been pronounced, was once interrupted by deep sobs<lb/>
+               
+               <note place="top">133</note>
+               
+               <pb n="6" facs="Edgeworth_Geneve_33_2_1819_07_29_page06.jpg"/>
+               - My <persName ref="./Personography.xml#EdgeL2">brother</persName> looked to see from whence they came &amp;
+               <del>found</del> saw a little <persName ref="./Personography.xml#BarnX1">boy</persName> of ten or eleven years old
+               who was struggling through the crowd to get to
+               his father the condemned prisoner. The <persName ref="./Personography.xml#BarnX1">boy</persName> as
+               all the neighbors who knew him attested was <del>of</del>
+               an excellent <persName ref="./Personography.xml#BarnX1">boy</persName> - Lovell after the execution of the
+               father who was condemned for stealing a horse,
+               brought the son home with him to <placeName ref="./Placeography.xml#Edgeworthstown_IE">Edgeworth Town</placeName>
+               &amp; put him to a school he has established for the
+               sons of the poor. The school contains above a hun-
+               dred boys from 7 - to 12 years old - They one &amp;
+               all received the poor little ragged creature, who
+               was brought amongst them with kindness - never
+               alluded to the disgrace of his father's having been
+               hanged - <persName ref="./Personography.xml#EdgeL2">Lovell</persName> had desired that they should not
+               call him by his fathers name - but by his own
+               christian name <hi rend="underline"><persName ref="./Personography.xml#BarnX1">Barney</persName></hi>. They never failed to
+               do so - The boys all joined to earn a suit of clothes
+               for him - They said each earned the sum of sixpence
+               by working out of school hours, pounding stones
+               for the roads &amp;c till they had made up the neces-
+               sary sum - One little creature of 8 years old
+               got up at 3 o clock in the morning to work for
+               his share - When the clothes were bought &amp; made
+               they were carried by the boys, <add>who hung them</add> on the top of a pole
+               one of them a little <hi rend="underline">fifer</hi> playing an Irish tune
+               to <hi rend="underline"><persName ref="./Personography.xml#BarnX1">Barney</persName></hi> - When he received them he burst
+               into tears and said
+               <hi rend="underline">I hope I will never do any thing bad</hi>
+               This I <hi rend="underline">warrant</hi> to you for <hi rend="underline">plain truth</hi>
+               Indeed you will feel that it is too good for
+               fiction - For a person of good taste it is impossi-
+               ble to make any thing " plus belle que la Verite"
+               Now I will tell you something too bad
+               for fiction. - She would hardly dare to in
+               -vent such a circumstance and expect
+               to be believed. [insertion]I had it from[/insertion] One of the Judges who dined
+               
+               
+            </p>
+            <p>
+               <!--More body paragraphs as needed.--></p>
+            <p>
+               <!--More body paragraphs as needed.-->
+               <!--Where there's a page break record it inside the relevant body paragraph like this, 
+                  with the self-closing page-break element. n="2" indicates the START of the second page.-->
+               <pb n="2" facs="image2.jpg"/>
+            </p>
+            <p><!--More body paragraphs as needed.--></p>
+            <closer>
+               <!--include linebreaks, if used. example: <closer> Yours<lb/> Very sincerely<lb/> -->
+            </closer>
+            <postscript>
+               <p><!--A postscript goes here, outside the <closer>. --></p>
+            </postscript>
+            <!--You can include a <pb/> here, or inside the postScript.-->
+            <!-- Format for postscripts. 
+               Postscripts do NOT go inside closer tags. Adjust to take into account the order in your letter. 
+               Sometimes the signature is on page three, the address on page four, then the postscript follows back on the top of page one, for example.-->
+            <closer><!--Use the <closer> element again to hold Address Leaf information.-->
+               <address>
+                  <!--Include any text written on the address leaf; use a separate "addrLine" for each line and indicate line breaks. -->
+                  <addrLine/>
+                  <addrLine/>
+                  <addrLine/>
+               </address>
+            </closer>
+         </div>
+      </body>
+      <back> </back>
+   </text>
+</TEI>

@@ -8,7 +8,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Letter from Maria Edgeworth, September 5, 1817</title>
+            <title>Letter from Maria Edgeworth to Rowland Hunter, September 5, 1817</title>
             <author>Maria Edgeworth</author>
             <editor>Alexandra LaGrand</editor>
             <sponsor>
@@ -19,6 +19,7 @@
             <respStmt>
                <resp>Transcription and coding by</resp>
                <persName>Alexandra LaGrand</persName>
+               <persName>Jessica Richard</persName>
             </respStmt>
          </titleStmt>
          <editionStmt>
@@ -54,7 +55,7 @@
                      <forename>Maria</forename>
                      <surname>Edgeworth</surname>
                   </persName>
-                   to <persName ref="Unknown">Unknown</persName>, <placeName/>, 
+                  to <persName ref="./Personography.xml#HuntR1">Hunter</persName>, <placeName ref="./Placeography.xml#Edgeworthstown_IE">Edgeworthstown</placeName>, 
                   <date when="1817-09-05">
                      <choice>
                         <orig>Sept<hi rend="superscript">r</hi>.</orig>
@@ -75,11 +76,15 @@
             <correspAction type="sent">
                <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
             </correspAction>
+            <correspAction type="received">
+               <persName ref="./Personography.xml#HuntR1">Rowland Hunter</persName>
+            </correspAction>
          </correspDesc>
       </profileDesc>
-      <revisionDesc>
+      <revisionDesc status="approved">
          <change when="2023-12-13" who="Id_who">Created file for letter, encoded letter</change>
-         <change when="2026-06-25" who="Id_who">Jessica Richard checked transcription and coding</change>
+         <change when="2026-06-25" who="Id_who">Jessica Richard corrected transcription and coding</change>
+         <change when="2026-06-30"> Jessica Richard completed final editorial review on 6-30-2026 </change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -88,7 +93,7 @@
             <pb n="1" facs="Edgeworth_Princeton_1817_09_page01.jpg"/>
             <opener>
                <dateline>
-                  <placeName ref="./Placeography.xml#Edgeworthstown_IE">Edgeworthstown</placeName>
+                  <placeName ref="./Placeography.xml#Edgeworthstown_IE">Edgeworthstown</placeName><lb/>
                   <date when="1817-09-05">
                      <choice>
                         <orig>Sept<hi rend="superscript">r</hi>.</orig>
@@ -96,7 +101,7 @@
                      </choice> 5<hi rend="superscript">th</hi>. 1817</date>
                </dateline>
                <salute>
-                  Dear <persName ref="Unknown">Sir</persName>
+                  Dear <persName ref="./Personography.xml#HuntR1">Sir</persName>
                </salute>
             </opener>
             <p>I have just received the account which<lb/>
@@ -225,17 +230,17 @@
                </choice> of his <title ref="./Workography.xml#Essay2">work</title> at <hi rend="underline">his</hi> expense or that<lb/>
                you would not offer him any <choice>
                   <orig>renumera<lb/>
-               =tion</orig>
+               -tion</orig>
                   <reg>renumeration</reg>
                </choice> for it - One or other I think ought<lb/>
                to be done - If I do not mistake entirely<lb/>
                in my judgment of your character it <choice>
                   <orig>can<lb/>
-               =not</orig>
+               -not</orig>
                   <reg>cannot</reg>
                </choice> - when you have read so far in my<lb/>
                letter occur to you Sir, to suspect that the thirty<lb/>
-               points in question is my object - You are<lb/>
+               pounds in question is my object - You are<lb/>
                at liberty to charge the same sum in any<lb/>
                form <hi rend="underline">but</hi> this, which both hurts my feelings<lb/>
                as a daughter and my sense of justice -<lb/>
@@ -258,7 +263,7 @@
                   <reg>account</reg>
                </choice> - And I likewise beg<lb/>
                that you will charge the additional <choice>
-                  <orig>ex=<lb/>
+                  <orig>ex-<lb/>
                pense</orig>
                   <reg>expense</reg>
                </choice> to which I am aware you must have<lb/>
@@ -266,8 +271,7 @@
                of <title ref="./Workography.xml#Harri1">
                   <choice>
                      <orig>Har<hi rend="superscript">on</hi>.</orig>
-                     <reg>Harrington</reg>
-                  </choice> &amp; Ormond.</title> - Believe me I am as grateful<lb/>
+                     <reg>Harrington</reg></choice></title> &amp; <title ref="./Workography.xml#Ormon1">Ormond</title>. - Believe me I am as grateful<lb/>
                for those exertions as I was at the time I so<lb/>
                anxiously urged them. - You will not find<lb/>
                that <del>you</del> I shall object to any thing that you<lb/>
@@ -295,7 +299,7 @@
                   <orig>Mi-<lb/>
                chaelmas</orig>
                   <reg>Michaelmas</reg>
-               </choice> you will send me &amp; £315<lb/>
+               </choice> you will send me £315<lb/>
                for the copy right of <title ref="./Workography.xml#Comic1">Comic Dramas</title> --<lb/>
                But I find in one of my dear <hi rend="underline">just</hi>
                <del>fath</del>
@@ -322,6 +326,7 @@
                <lb/>
             </closer>
             <closer>
+               <pb n="5" facs="Edgeworth_Princeton_1817_09_page06.jpg"/>
                <address>
                   <addrLine>copy</addrLine>
                   <lb/>

@@ -27,6 +27,7 @@
                <resp>Reviewed by</resp>
                <persName>Hilary Havens</persName>
                <persName>Robin Runia</persName>
+               <persName>Jessica Richard</persName>
             </respStmt>
          </titleStmt>
          <editionStmt>
@@ -66,7 +67,7 @@
                </msIdentifier>
                <head>Letter from 
                   <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
-                   to <persName ref="./Personography.xml#MileX1">Mrs. Miles</persName>
+                   to <persName ref="./Personography.xml#MileA1">Mrs. Miles</persName>
                </head>
                <physDesc/>
             </msDesc>
@@ -85,7 +86,7 @@
                <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
             </correspAction>
             <correspAction type="received">
-               <persName ref="./Personography.xml#MileX1">Mrs. Miles</persName>
+               <persName ref="./Personography.xml#MileA1">Mrs. Miles</persName>
             </correspAction>
          </correspDesc>
       </profileDesc>
@@ -93,6 +94,7 @@
          <change when="2024-08-21" who="Id_who">
             Robin Runia completed final editorial review on 08-21-2024.
          </change>
+         <change when="2026-07-01" who="Id_who"> Jessica Richard updated Mrs. Miles tags </change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -101,7 +103,7 @@
             <pb n="1" facs="Edgeworth_Beinecke_ME-to-MMiles_letter02_page01.jpg"/>
             <opener>
                <salute>
-                  <persName ref="./Personography.xml#EdgeM1">
+                  <persName ref="./Personography.xml#MileA1">
                      Dear Madam,</persName>
                </salute>
             </opener>
@@ -150,7 +152,7 @@
                   M<hi rend="superscript">r</hi>. Miles</persName> has<lb/>
                 quite left off tumbling<lb/>
                 from gigs or horses?<lb/>
-                My father is perfectly <choice>
+               My <persName ref="./Personography.xml#EdgeR1">father</persName> is perfectly <choice>
                   <orig>re<lb/>
                 established</orig>
                   <reg>re-established</reg>
@@ -170,7 +172,7 @@
                <address>
                   <pb n="4" facs="Edgeworth_Beinecke_ME-to-MMiles_letter02_page04.jpg"/>
                   <addrLine/>
-                  <persName ref="./Personography.xml#EdgeM1">M<hi rend="superscript">rs</hi>. Miles</persName>
+                  <persName ref="./Personography.xml#MileA1">M<hi rend="superscript">rs</hi>. Miles</persName>
                   <addrLine/>
                   <addrLine/>
                </address>

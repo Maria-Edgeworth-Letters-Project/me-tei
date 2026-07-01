@@ -7,10 +7,11 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Letter from Maria Edgeworth to <!--Recipient Name, Month Day, YYYY--></title>
+            <title>Letter from Maria Edgeworth and Richard Lovell Edgeworth to Etienne Dumont February 24, 1811</title>
             <author>Maria Edgeworth</author>
+            <author>Richard Lovell Edgeworth</author>
             <editor>
-               <!--Editor on the Maria Edgeworth Letters Project overseeing the coding of this particular letter: FirstName LastName -->
+               Maggie Turbyfield
             </editor>
             <sponsor>
                <orgName>Maria Edgeworth Letters Project</orgName>
@@ -19,41 +20,40 @@
             <principal>Susan Egenolf, Meredith Hale, Hilary Havens, Jessica Richard, and Robin Runia</principal>
             <respStmt>
                <resp>Transcription and coding by</resp>
-               <persName><!--FirstName LastName-->
+               <persName>Maggie Turbyfield
                </persName>
-               <!-- List all transcribers or coders here, editors and students alike, <persName> by <persName>.-->
-               <persName><!--FirstName LastName--></persName>
-               <!-- If you're the last person interacting with the file, enter your name last on the list -->
             </respStmt>
          </titleStmt>
          <editionStmt>
-            <edition>First digital edition in TEI, date: <date when="2022-01-01">
-                  <!--enter the date on which the first coder created and saved this XML file-->
+            <edition>First digital edition in TEI, date: June 18, 2026<date when="2026-06-18">
             </date>
             </edition>
             <respStmt>
-               <orgName type="naf" ref="Id_who">
-                  <!--who digitized the letter or gave us permission for to use the file?-->
+               <orgName type="naf" ref="https://d-nb.info/gnd/5075238-8">
+                  Bibliothèques municipales de la Ville de Genève
                </orgName>
                <resp> photos include:
-                  <!-- Make a comma-separated list of each .jpg photo file name associated with your letter. 
-                     For example: DSCF9476.jpg, DSCF9477.jpg, DSCF9478.jpg-->
+                  Edgeworth_Geneve_33_2_1811_02_24_image01.jpg
+                  Edgeworth_Geneve_33_2_1811_02_24_image02.jpg
+                  Edgeworth_Geneve_33_2_1811_02_24_image03.jpg
+                  Edgeworth_Geneve_33_2_1811_02_24_image04.jpg
+                  Edgeworth_Geneve_33_2_1811_02_24_image05.jpg
+                  Edgeworth_Geneve_33_2_1811_02_24_image06.jpg
+                  Edgeworth_Geneve_33_2_1811_02_24_image07.jpg
+                  Edgeworth_Geneve_33_2_1811_02_24_image08.jpg
+                  Edgeworth_Geneve_33_2_1811_02_24_image09.jpg
                </resp>
             </respStmt>
          </editionStmt>
          <publicationStmt>
             <authority>Maria Edgeworth Letters Project</authority>
-            <date>2022</date>
+            <date>2026</date>
             <availability>
-               <!--Uncomment the appropriate line, based on the archive that holds the physical copy of this letter, 
-                  and delete the other comment line(s).-->
-               <p><!--Reproduced by courtesy of the <orgName ref="#ReadingCL">Reading Central Library</orgName>.-->
-                  <!--or -->
-                  <!--Courtesy of <orgName ref="#Rylands">The University of Manchester</orgName>.-->
+               <p>Reproduced by courtesy of the <orgName ref="https://d-nb.info/gnd/5075238-8">Bibliothèques municipales de la Ville de Genève</orgName>
                </p>
                <licence target="https://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons Attribution 4.0 (CC BY 4.0) Unported License</licence>
             </availability>
-            <idno><!--Change to match the file name and current naming standards, i.e. "Edgeworth_Beinecke_330_1817_01_24" if file name is "Edgeworth_Beinecke_330_1817_01_24.xml"--></idno> 
+            <idno>Edgeworth_Geneve_33_2_1811_02_24</idno> 
          </publicationStmt>
          <seriesStmt>
             <title>Maria Edgeworth Letters Project</title>
@@ -74,8 +74,16 @@
                      <idno type="VIAF">71477273</idno>
                      <idno type="SNAC">62567029</idno>
                   </persName>
-                  to <persName><!--Recipient Name--></persName>, <placeName><!--Location where letter was sent--></placeName>, 
-                  <date when="1111-01-01"><!-- Transcribe the date as it appears on the letter itself. Enter a numeric standardized date value in @when. --></date>
+                  and
+                  <persName xml:id="EdgeR1" from="1744" to="1817">
+                     <forename>Richard Lovell</forename>
+                     <surname>Edgeworth</surname>
+                     <date>1744-1817</date>
+                     <idno type="VIAF">66511092</idno>
+                     <idno type="SNAC">36015579</idno>
+                  </persName>
+                  to <persName ref="./Personography.xml#DumoE1"> Etienne Dumont</persName>, <placeName><!--Location where letter was sent--></placeName>, 
+                  <date when="1811-02-24">Feb<hi rend="superscript">y</hi>. 24<hi rend="superscript">th</hi>. 1811</date>
                   <!-- <stamp>Enter description, if applicable</stamp>-->
                </head>
                <physDesc>
@@ -99,10 +107,13 @@
       <profileDesc>
          <correspDesc>
             <correspAction type="sent">
-               <persName><!--SENDER NAME--></persName>
+               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
+            </correspAction>
+            <correspAction type="sent">
+               <persName ref="./Personography.xml#EdgeR1">Richard Lovell Edgeworth</persName>
             </correspAction>
             <correspAction type="received">
-               <persName><!--RECIPIENT NAME--></persName>
+               <persName ref="./Personography.xml#DumoE1">Etienne Dumont</persName>
             </correspAction>
          </correspDesc>
       </profileDesc>
@@ -115,45 +126,261 @@
    <text>
       <body>
          <div type="letter">
-            <pb n="1" facs="image1.jpg"/>
-            <!--filenames for photos associated with this letter. Example: <pb n="1" facs="image1.jpg image2.jpg image3.jpg"/> -->
+            <pb n="1" facs="Edgeworth_Geneve_33_2_1811_02_24_image01.jpg"/>
             <opener>
-               <dateline><!--If there's no date line, remove this element. Record in the order in which it is written on the letter.-->
-                  <placeName ref="Id_where"/>
-                  <date when="1111-11-11">Month DD, YYYY</date></dateline>
-               <salute>
-                  <persName ref="Id_who">
-                     <!-- Use if letter has a saluation ("Dear Sir," for example). If not, delete this line.-->
-                  </persName>
-               </salute>
+               <dateline>
+                  <placeName ref="./Placeography.xml#Edgeworthstown_IE">Edgeworth Town</placeName>
+                  <date when="1811-02-24">Feb<hi rend="superscript">y</hi>. 24<hi rend="superscript">th</hi>. 1811</date></dateline>
             </opener>
-            <p><!-- Begin transcibing the body of the letter here. -->
+            <p>
+               Our friend <persName ref="./Personography.xml#ChenR1">M<hi rend="superscript">r</hi>. Chenevix</persName> has just written to me and<lb/>
+               is anxious for immediate intelligence of the<lb/>
+               health of his sister and her family, but <add>he</add> has omitted<lb/>
+               to tell me where to direct my answer. He tells<lb/>
+               me however that you have called upon him <choice><orig>there-<lb/>fore</orig><reg>therefore</reg></choice>
+               you know where he is, and I take the <choice><orig>liber<lb/>ty</orig><reg>liberty</reg></choice>
+               of troubling you to convey the enclosed note<lb/>
+               to him.<lb/>
             </p>
             <p>
-               <!--More body paragraphs as needed.--></p>
-            <p>
-               <!--More body paragraphs as needed.-->
-               <!--Where there's a page break record it inside the relevant body paragraph like this, 
-                  with the self-closing page-break element. n="2" indicates the START of the second page.-->
-               <pb n="2" facs="image2.jpg"/>
+               It seems a great while since we had the luxury<lb/>
+               of a letter from you my dear <persName ref="./Personography.xml#DumoE1">Sir</persName> - I know your<lb/>
+               head must now be full of politics and regency<lb/>
+               &amp;c but I wish you could find a happy moment<lb/>
+               for literature and friendship - better things - at<lb/>
+               least we who are only lookers-on, in retirement<lb/>
+               think so - Pray when you have a moment's <choice><orig>lei-<lb/>sure</orig><reg>leisure</reg></choice>
+               write and let me have the pleasure of <choice><orig>greet-<lb/>ing</orig><reg>greeting</reg></choice>
+               my <persName ref="./Personography.xml#EdgeR1">father</persName> when he returns home, with a<lb/>
+               letter from his good friend <persName ref="./Personography.xml#DumoE1">M. Dumont</persName>. He is now<lb/>
+               in <placeName ref="./Placeography.xml#Dublin_IE">Dublin</placeName> attending the Board of Education - of<lb/>
+               the proceedings of which we will send you an<lb/>
+               account when anything worthy of your attention<lb/>
+               has been done -<lb/>
             </p>
-            <p><!--More body paragraphs as needed.--></p>
+            <p>
+               I see <persName ref="./Personography.xml#DumoE1">you</persName> and <persName ref="./Personography.xml#BentJ1">Bentham</persName> mentioned <hi rend="underline">as you ought</hi><lb/>
+               and as <hi rend="underline">you ought not to be mentioned</hi> in the last<lb/>
+               <note place="top">44</note>
+               
+               <pb n="2" facs="Edgeworth_Geneve_33_2_1811_02_24_image02.jpg"/>  
+               Review - of the new code of <add>French</add> laws - Whilst they bow to<lb/>
+               superiority these critics cannot refrain, even at that moment<lb/>
+               from giving a cut and a taunt - No matter if public<lb/>
+               attention to be thus directed from time to time to that<lb/>
+               book it will rise to its just height in the opinion of all<lb/>
+               those who can judge - The author might say like the beauty<lb/>
+            </p>
+            <p>
+               "Let me be seen! Could I that wish obtain<lb/>
+            </p>
+            <p>
+               "All other wishes my own power would gain" -<lb/>
+            </p>
+            <p>
+               Pray tell me what you think of <persName ref="./Personography.xml#KirwR1">M<hi rend="superscript">r</hi>. Kirwan's</persName> <title ref="./Workography.xml#Essay4"><hi rend="underline">Essay on</hi><lb/>
+               <hi rend="underline">happiness</hi></title>, which we sent you, and of the pamphlet<lb/>
+               <hi rend="underline">On the policy of sending troops abroad</hi>, which <persName ref="./Personography.xml#ChenR1">M<hi rend="superscript">r</hi>. Che-<lb/>nevix</persName>
+               brought you - You will find <persName ref="./Personography.xml#ChenR1">M<hi rend="superscript">r</hi>. Chenevix</persName><lb/>
+               conversation, I think, peculiarly entertaining &amp;<lb/>
+               interesting to you, from his having lived so much<lb/>
+               on the Continent &amp; from his having lately returned<lb/>
+               with such a vast <del>&amp; various</del> assortment of anecdotes<lb/>
+               French, Spanish, and German of living &amp; distinguished<lb/>
+               characters - I could wish however, that his assortment<lb/>
+               had, even for variety's sake some few anecdotes of good<lb/>
+               as well as bad people - for <add>hearing of</add> - vice - vice - vice crimes<lb/>
+               crimes - crimes fatigues and depresses the mind<lb/>
+               - It is a monotony which is as bad for taste as for morals<lb/>
+               - both indignation &amp; attention are worn out for want<lb/>
+               of the relief of contrast - I hope as he acknowledges that<lb/>
+               there are good people in <placeName ref="./Placeography.xml#ENK">England</placeName> that he will lay in<lb/>
+               a store of <hi rend="underline">good</hi> anecdotes for the honor of poor human<lb/>
+               nature and for the credit of his own taste -<lb/>
+            </p>
+            <p>
+               Do tell me if you have heard lately <hi rend="underline">from</hi><lb/>
+               or <hi rend="underline">of</hi> any of our friends in <placeName ref="./Placeography.xml#Paris_FR">Paris</placeName> - <persName ref="./Personography.xml#GautX1">Madame Gautier</persName><lb/>
+               <persName ref="./Personography.xml#PastA1">Madame Pastoret</persName> - <persName ref="./Personography.xml#PictM1">Pictet</persName> or that poor <persName ref="./Personography.xml#LavoM1">Comtesse <choice><orig>Rum-<lb/>
+               
+               <pb n="3" facs="Edgeworth_Geneve_33_2_1811_02_24_image03.jpg"/>
+               ford</orig><reg>Rumford</reg></choice></persName> - Has she beaten at last - or is she beaten? has she bought<lb/>
+               her separation from her philosophic tyrant? - or is she<lb/>
+               still bargaining for her liberty -<lb/>
+            </p>
+            <p>
+               I have lately heard from <placeName ref="./Placeography.xml#Edinburgh_STK">Edinburgh</placeName> a high<lb/>
+               character of a <persName ref="./Personography.xml#SimoL1">M. Simonde</persName> &amp; his <persName ref="./Personography.xml#SimoF1">wife</persName> and <persName ref="./Personography.xml#SimoX1">sister</persName>, travellers<lb/>
+               who have lately returned from <placeName ref="./Placeography.xml#US">America</placeName>, - originally<lb/>
+               French or Swiss - with all the amiable parts as I am<lb/>
+               told of the French character free from its common <choice><orig>de-<lb/>fects</orig><reg>defects</reg></choice>
+               - Do you know anything of them - and have they<lb/>
+               any thing to say to <hi rend="underline"><persName ref="./Personography.xml#SismJ1">Simonde</persName> sur <title ref="./Workography.xml#Riche1">la Richesse <choice><orig>commer-<lb/>-ciale</orig><reg>commerciale</reg></choice></title></hi>
+               which we have just got from your <choice><orig>recommen-<lb/>-dation -</orig><reg>recommendation</reg></choice>
+            </p>
+            <p>
+               I hear that <persName ref="./Personography.xml#ScotW1">Scott</persName> is now at work upon a new <title ref="./Workography.xml#Lordo1" cert="medium">poem</title><lb/>
+               - in which I am told <add>by some</add> that Scotch &amp; Irish history or legends<lb/>
+               are to be blended - by others I am told that the Pretend<lb/>
+               history is to be the groundwork of the fable - At all counts<lb/>
+               I hope it will be free from the <hi rend="underline">papillotage</hi> with which<lb/>
+               you so justly reproach the <title ref="./Workography.xml#Ladyo1">Lady of the lake</title> - How much<lb/>
+               excellent criticism <persName ref="./Personography.xml#ScotW1">M<hi rend="superscript">r</hi>. Scott</persName> has called forth &amp; of how much<lb/>
+               service his popular poems are to the public <del><unclear/> <unclear>la</unclear></del> even<lb/>
+               in this point of view - I wish for his own sake, that he<lb/>
+               <del>had</del> could read your last letter to my <persName ref="./Personography.xml#EdgeR1">father</persName> before he<lb/>
+               finishes his new poem -<lb/>
+            </p>
+            <p>
+               We hear with joy that <persName ref="./Personography.xml#StewD1">M<hi rend="superscript">r</hi>. Dugald Stewart</persName> has <choice><orig>recover-<lb/>ed</orig><reg>recovered</reg></choice>
+               his health and spirits and that he &amp; <persName ref="./Personography.xml#StewH1">M<hi rend="superscirpt">rs</hi>. Stewart</persName><lb/>
+               have lately mixed again for a few days at a time,<lb/>
+               in the Society of their friends at <placeName ref="./Placeography.xml#Edinburgh_STK">Edinburgh</placeName> - I entirely<lb/>
+               agree with you in thinking that the essays on taste, the<lb/>
+               concluding essays of his last work are far preferable to<lb/>
+               the first part - Certainly those first essays are on subjects<lb/>
+               where as you say - <hi rend="underline">on ne trouvera jamais le dernier</hi><lb/>
+               <hi rend="underline">mot</hi> - but can you tell me why people are so apt to grow<lb/>
+               
+               <note place="top">44</note>
+               
+               <pb n="4" facs="Edgeworth_Geneve_33_2_1811_02_24_image04.jpg"/>
+               angry on metaphysical subjects - Why to doubt <add>on subjects where demonstration cannot be had</add> is so often<lb/>
+               <add><choice><orig>accounted</orig><reg>unaccounted</reg></choice></add> criminal - And what are all those terrible dangers <add>with</add> which<lb/>
+               <persName ref="./Personography.xml#StewD1">M<hi rend="superscript">r</hi>. Stewart</persName> alarms himself and his readers. - I wish the world<lb/>
+               had no other dangers to fear but those which <persName ref="./Personography.xml#HartD1">Hartley's</persName> <choice><orig>vi-<lb/>-bratiuncles</orig><reg>vibratiuncles</reg></choice>
+               -or <persName ref="./Personography.xml#TookJ1">Tooke's</persName> etymologies might produce -<lb/>
+            </p>
+            <p>
+               I stop short - for I am ashamed to find myself<lb/>
+               writing common place trash to <persName ref="./Personography.xml#DumoE1">M. Dumont</persName>.<lb/>
+            </p>
+            <p>
+               Let me however thank him, - and not<lb/>
+               with common place thanks, for his kindness to my <persName ref="./Personography.xml#EdgeC1">brother</persName><lb/>
+               <persName ref="./Personography.xml#EdgeC1">Sneyd</persName> - He and all his <persName ref="./Personography.xml#EdgeX2">family</persName> are fully &amp; gratefully<lb/>
+               sensible of your goodness to him - and <hi rend="underline">I</hi> am in <choice><orig>particu-<lb/>larly</orig><reg>particularly</reg></choice>
+               highly gratified by the interest with which he<lb/>
+               has inspired you &amp; the - something approaching to<lb/>
+               affection, which you express for him - In a few days<lb/>
+               he will come to us from <placeName ref="./Placeography.xml#Dublin_IE">Dublin</placeName> &amp; begin his first <choice><orig>cir-<lb/>cuit</orig><reg>circuit</reg></choice>
+               - well armed with patience &amp; resolved to <choice><orig>perse-<lb/>-vere</orig><reg>persevere</reg></choice>,
+               - &amp; to bear being <hi rend="underline">nobody</hi> till he has opportunity<lb/>
+               to prove that he is <hi rend="underline">somebody</hi>.<lb/>
+            </p>
+            <p>
+               Pray if you have not yet seen <persName ref="./Personography.xml#HardF1">Hardy's</persName><lb/>
+               <title ref="./Workography.xml#Memoi15">life of Lord Charlemont</title> look at it whenever it falls in<lb/>
+               you way - It is a spirited, entertaining &amp; well written<lb/>
+               piece of biography - mixed with interesting parts of<lb/>
+               modern Irish political history &amp; characters -<lb/>
+            </p>
+            <p>
+               Adieu my dear <persName ref="./Personography.xml#DumoE1">Sir</persName> - believe me neither<lb/>
+               I nor any one in this family have the least fear<lb/>
+               of revenans - when they are friends like you -<lb/>
+               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName><lb/>
+            </p>
+            <p>
+               <pb n="5" facs="Edgeworth_Geneve_33_2_1811_02_24_image05.jpg"/>
+               I live in hopes - unreasonable hopes<lb/>
+               I own - of hearing from you again &amp; receiving<lb/>
+               more riches for <title ref="./Workography.xml#Proff1">Prof Ed.</title><lb/>
+               Your obliged friend-<lb/>
+               <persName ref="./Personography.xml#EdgeR1">Rich<hi rend="superscript">d</hi>. Lovell Edgeworth</persName><lb/>
+            </p>
+            <p>
+               Several years ago when I saw <placeName ref="./Placeography.xml#Lord-Mansfields-Monument_ENK">Lord<lb/> Mansfield's monument</placeName><lb/>
+               in <placeName ref="./Placeography.xml#Westminster-Abbey_ENK">Westmin-<lb/>ster Abbey</placeName><lb/>
+               where his <persName ref="./Personography.xml#MansW1">Lordship</persName> is <choice><orig>repre-<lb/>sented</orig><reg>represented</reg></choice>
+               holding a Roman steelyard, I <damage><unclear>iw</unclear><gap></gap></damage><lb/>
+               or rather spoke the following epitaph<lb/>
+            </p>
+            <p>
+               "High o'er our Courts see sculptured Justice stand"<lb/>
+            </p>
+            <p>
+               "Poising an even balance in her hand -<lb/>
+            </p>
+            <p>
+               "But <persName ref="./Personography.xml#MansW1">Mansfield</persName> scorning English law at home<lb/>
+            </p>
+            <p>
+               "The shifting steelyard brought from tyrant <placeName ref="./Placeography.xml#Rome_IT">Rome</placeName><lb/>
+           
+               <note place="top">45</note>
+            </p>
+            <p>
+               <pb n="6" facs="Edgeworth_Geneve_33_2_1811_02_24_image06.jpg"/>
+               <hi rend="underline">Postscript</hi><lb/>
+               Just as I finished this long letter I find<lb/>
+               that I have been appointed by the <persName ref="./Personography.xml#RichC1">Lord<lb/> Lieutenant</persName><lb/>
+               of <placeName ref="./Placeography.xml#IE">Ireland</placeName> one of the <choice><orig>Commis-<lb/>-sioners</orig><reg>Commissioners</reg></choice>
+               to enquire into the funds for the<lb/>
+               education of the people. That prodigious<lb/>
+               frauds have been committed, by the<lb/>
+               persons who hold these funds, I am<lb/>
+               certain, as I had occasion, when I, some<lb/>
+               years ago, brought a bill into parliament<lb/>
+               for the education of the people, to collect<lb/>
+               information upon this subject. You may<lb/>
+               judge of the amount of the embezzlements<lb/>
+               when I tell you that within these few<lb/>
+               <del>years</del> days £1500 a year of which I had<lb/>
+               never before heard are embezzled in a <choice><orig>sin-<lb/>-gle</orig><reg>single</reg></choice>
+               parish; funds therefore will not be<lb/>
+               wanting; but to apply them <choice><orig>advantageous-<lb/>-ly</orig><reg>advantageously</reg></choice>
+               will be difficult. Religious, and party<lb/>
+               prejudices are not only strong, but they<lb/>
+               cross each other in a thousand unforeseen<lb/>
+               directions. As the commissioners are to<lb/>
+               act without fee or reward, and as many<lb/>
+               expensive duties will be enjoined them,<lb/>
+               such as employing surveyors to visit <choice><orig>es-<lb/>
+               
+               <note place="top">46</note>
+               
+               <pb n="7" facs="Edgeworth_Geneve_33_2_1811_02_24_image07.jpg"/>
+               tates</orig><reg>estates</reg></choice> in remote parts of the country I fear that<lb/>
+               few men properly qualified will act <choice><orig>ef-<lb/>-fectively</orig><reg>effectively</reg></choice>.
+               I will however do all in my<lb/>
+               power for a short time. I believe that before<lb/>
+               the sitting of parliament the necessary <choice><orig>in-<lb/>-formation</orig><reg>information</reg></choice>
+               can be obtained; but if any<lb/>
+               thing more is intended than catching hold<lb/>
+               of the funds a very different system must<lb/>
+               be pursued. Enthusiasts might be found<lb/>
+               who to accomplish some favorite theory<lb/>
+               might sacrifice their health, or leisure;<lb/>
+               interested or corrupt men might likewise<lb/>
+               be found, who would be ready to accept<lb/>
+               the administration of large sums; but a<lb/>
+               business of this sort must not be committed<lb/>
+               to enthusiasm or peculation. What I<lb/>
+               most fear is that the meaning of the word<lb/>
+               education may be confined to the art of<lb/>
+               teaching children how to write &amp; read.<lb/>
+            </p>
+            <p>
+               I hope that I have in some degree a claim<lb/>
+               upon your public feelings for whatever<lb/>
+               hints may occur to you on this important<lb/>
+               subject. I know well that the opposition<lb/>
+               sedulously give out that ministers have<lb/>
+               entered upon this subject merely par<lb/>
+               <hi rend="unnderline">maniere d'acquit</hi> - That they mean only<lb/>
+               
+               <pb n="8" facs="Edgeworth_Geneve_33_2_1811_02_24_image08.jpg"/>
+               to get back their pledge without redeeming<lb/>
+               it - this I do not believe.<lb/>
+            </p>
+              <note place="top">47</note>
+               
+               <pb n="9" facs="Edgeworth_Geneve_33_2_1811_02_24_image09.jpg"/>
             <closer>
-               <!--include linebreaks, if used. example: <closer> Yours<lb/> Very sincerely<lb/> -->
-            </closer>
-            <postscript>
-               <p><!--A postscript goes here, outside the <closer>. --></p>
-            </postscript>
-            <!--You can include a <pb/> here, or inside the postScript.-->
-            <!-- Format for postscripts. 
-               Postscripts do NOT go inside closer tags. Adjust to take into account the order in your letter. 
-               Sometimes the signature is on page three, the address on page four, then the postscript follows back on the top of page one, for example.-->
-            <closer><!--Use the <closer> element again to hold Address Leaf information.-->
+               To<lb/>
                <address>
-                  <!--Include any text written on the address leaf; use a separate "addrLine" for each line and indicate line breaks. -->
-                  <addrLine/>
-                  <addrLine/>
-                  <addrLine/>
+               <addrLine/><persName ref="./Personography.xml#DumoE1">S. Dumont Esq<hi rend="superscript">re</hi>.</persName><lb/>
                </address>
             </closer>
          </div>
