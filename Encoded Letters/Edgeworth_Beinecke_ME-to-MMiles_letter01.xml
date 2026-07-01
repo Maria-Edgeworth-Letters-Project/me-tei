@@ -27,6 +27,7 @@
                <resp>Reviewed by</resp>
                <persName>Robin Runia</persName>
                <persName>Hilary Havens</persName>
+               <persName>Jessica Richard</persName>
             </respStmt>
          </titleStmt>
          <editionStmt>
@@ -64,7 +65,7 @@
                </msIdentifier>
                <head>Letter from 
                   <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
-                        to <persName ref="./Personography.xml#MileX1">Mrs. Miles</persName>
+                        to <persName ref="./Personography.xml#MileA1">Mrs. Miles</persName>
                </head>
                <physDesc/>
             </msDesc>
@@ -83,7 +84,7 @@
                <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
             </correspAction>
             <correspAction type="received">
-               <persName ref="./Personography.xml#MileX1">Mrs. Miles</persName>
+               <persName ref="./Personography.xml#MileA1">Mrs. Miles</persName>
             </correspAction>
          </correspDesc>
       </profileDesc>
@@ -91,6 +92,7 @@
          <change when="2024-08-21" who="Id_who">
             Robin Runia completed final editorial review on 08-21-2024.  
          </change>
+         <change when="2026-07-01" who="Id_who">Jessica Richard updated tags for Mrs Ann Miles, Hoare, Robert Ward</change>
          </revisionDesc>
    </teiHeader>
    <text>
@@ -99,7 +101,7 @@
             <pb n="1" facs="Edgeworth_Beinecke_ME-to-MMiles_letter01_page01.jpg"/>
             <opener>
                <salute>
-                  My dear <persName ref="./Personography.xml#MileX1">Madam</persName>
+                  My dear <persName ref="./Personography.xml#MileA1">Madam</persName>
                      <lb/>
                </salute>
             </opener>
@@ -156,7 +158,7 @@
                <hi rend="underline">pasteboard</hi> covers of<lb/>
                      a large octavo - or pasteboard cut to that<lb/>
                      size - &amp; <add>send it</add> in a cover directed to<lb/>
-               <persName ref="./Personography.xml#WardX1">R Ward Esq<hi rend="superscript">re</hi>
+               <persName ref="./Personography.xml#WardR1">R Ward Esq<hi rend="superscript">re</hi>
                </persName>
                <lb/>
                      Ordnance Office<lb/>
@@ -183,13 +185,13 @@
             <postscript>
                <p> The moment you tell me the price of<lb/>
                         the shawl I will send a draft on <lb/>
-                  Hoare for the amount<lb/>
+                  <persName ref="./Personography.xml#HoarC1">Hoare</persName> for the amount<lb/>
                </p>
             </postscript>
             <closer>
                <address>
                   <pb n="3" facs="Edgeworth_Beinecke_ME-to-MMiles_letter01_page03.jpg"/>
-                  <persName ref="./Personography.xml#MileX1">M<hi rend="superscript">rs</hi> Miles
+                  <persName ref="./Personography.xml#MileA1">M<hi rend="superscript">rs</hi> Miles
                   </persName>
                   <lb/>
                   <placeName ref="./Placeography.xml#West-End-Hampstead_ENK">West End<lb/>
