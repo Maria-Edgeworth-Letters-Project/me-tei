@@ -22,6 +22,10 @@
                <persName>Eliza Wilcox</persName>
                <persName/>
             </respStmt>
+            <respStmt>
+               <resp>Reviewed by</resp>
+               <persName>Susan Egenolf</persName>
+            </respStmt>
          </titleStmt>
          <editionStmt>
             <edition>First digital edition in TEI, date: November 26, 2022<date when="2022-11-26"/>
@@ -82,8 +86,10 @@
             </correspAction>
          </correspDesc>
       </profileDesc>
-      <revisionDesc>
-         <change when="2021-01-01" who="Id_who"/>
+      <revisionDesc status="approved">
+         <change when="2026-07-01">
+            Susan Egenolf completed final editorial review on 07-01-2026.
+         </change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -93,7 +99,7 @@
             <opener>
                <dateline>
                   <placeName ref="./Placeography.xml#Kensington-Gore_ENK">Grove House<lb/>
-                        Kensington Gore</placeName>
+                     Kensington Gore</placeName><lb/>
                         Sunday morn<hi rend="superscript">g</hi>
                </dateline>
                <salute>
@@ -110,7 +116,7 @@
                     -er</orig>
                   <reg>sooner</reg>
                </choice> heard me speak of<lb/>
-                    you and <persName ref="./Personography.xml#KateH1">Cap<hi rend="superscript">n</hi>. Kater</persName> and<lb/>
+                    you and <persName ref="./Personography.xml#KateH1">Capt<hi rend="superscript">n</hi>. Kater</persName> and<lb/>
                     of any regret at leaving<lb/>
                     Town without seeing you<lb/>
                     than she begged to be the<lb/>
@@ -134,7 +140,7 @@
                   <reg>commissions</reg>
                </choice> me to ask if you<lb/>
                <pb n="2" facs="Edgeworth_Morgan_157572_page02.jpg"/> 
-                    and <persName ref="./Personography.xml#KateH1">Cap<hi rend="superscript">n</hi>. Kater</persName> will do<lb/>
+                    and <persName ref="./Personography.xml#KateH1">Capt<hi rend="superscript">n</hi>. Kater</persName> will do<lb/>
                     her the pleasure to dine here<lb/>
                     on friday? -- <persName ref="./Personography.xml#WhitE1">Lady Elizabeth<lb/>
                         Whitbread</persName> seldom goes out<lb/>
@@ -152,7 +158,7 @@
             </p>
             <p>But if I am not much<lb/>
                     mistaken in your characters<lb/>
-                    You and <persName ref="./Personography.xml#KateH1">Cap<hi rend="superscript">n</hi>. Kater</persName> will<lb/>
+                    You and <persName ref="./Personography.xml#KateH1">Capt<hi rend="superscript">n</hi>. Kater</persName> will<lb/>
                     not mind the form when<lb/>
                     you are certain of the <choice>
                   <orig>sub-<lb/>
@@ -165,7 +171,7 @@
                     write now &amp; not wait till<lb/>
                <pb n="3" facs="Edgeworth_Morgan_157572_page03.jpg"/> 
                     I should see you on <choice>
-                  <orig>Thurs-<lb/>
+                  <orig>thurs-<lb/>
                         day</orig>
                   <reg>Thursday</reg>
                </choice> lest you should in<lb/>
@@ -188,7 +194,7 @@
                   <hi rend="underline">for it ourselves</hi> - The<lb/>
                   <hi rend="underline">English</hi> compliment --<lb/>
                         -- I have not yet learned<lb/>
-                        to pay French <hi rend="underline">compliments</hi>
+                  to pay French <damage><unclear>compliments<gap></gap></unclear></damage>
                   <lb/>
                </p>
             </postscript>
@@ -196,7 +202,7 @@
                <unclear>
                   <address>
                      <pb n="4" facs="Edgeworth_Morgan_157572_page04.jpg"/>
-                     <persName ref="./Personography.xml#KateM1">M<hi rend="superscript">rs</hi> Thaler</persName>
+                     <persName ref="./Personography.xml#KateM1">M<hi rend="superscript">rs</hi> Kater</persName>
                      <lb/>
                      <placeName ref="./Placeography.xml#Union-Place_ENK">Union Place</placeName>
                   </address>
