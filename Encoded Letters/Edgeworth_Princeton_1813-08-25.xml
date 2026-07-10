@@ -58,7 +58,7 @@
                      <forename>Maria</forename>
                      <surname>Edgeworth</surname>
                   </persName>
-                  to <persName ref="./Personography.xml#MileX1">Madam Miles</persName>, <placeName ref="./Placeography.xml#St-Pauls-Churchyard_ENK">St. Paul's Churchyard, London</placeName>, 
+                  to <persName ref="./Personography.xml#MileA1">Madam Miles</persName>, <placeName ref="./Placeography.xml#St-Pauls-Churchyard_ENK">St. Paul's Churchyard, London</placeName>, 
                   <date when="1813-08-25">Aug<hi rend="superscript">st</hi>. 25<hi rend="superscript">th</hi>.. 1813</date>
                </head>
                <physDesc>
@@ -78,21 +78,23 @@
                <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
             </correspAction>
             <correspAction type="received">
-               <persName ref="./Personography.xml#MileX1">Mrs. Miles</persName>
+               <persName ref="./Personography.xml#MileA1">Mrs. Miles</persName>
             </correspAction>
          </correspDesc>
       </profileDesc>
       <revisionDesc status="approved">
          <change when="2023-12-22" who="Id_who">Created file for letter, encoded letter</change>
          <change when="2026-06-22" who="Id_who">Jessica Richard corrected TEI, added coding</change>
-         <change when="2026-06-22"> Jessica Richard completed final editorial review on 6-22-2026. </change>
+         <change when="2026-06-22" who="Id_who">Jessica Richard completed final editorial review on 6-22-2026. </change>
+         <change when="2026-07-09" who="Id_who">Jessica Richard updated Mrs. Miles persName tags on 07-09-2026.</change>
+         <change when="2026-07-010" who="Id_who">Jessica Richard updated Broadhurst persName tags and fixed p4 display on 07-10-2026.</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <div type="letter">
             <pb n="1" facs="Edgeworth_Princeton_1813-08-25_page01.jpg"/>
-            <head><hi rend="underline">For <persName ref="./Personography.xml#MileX1">M<hi rend="superscript">rs</hi>..Miles</persName>,</hi></head>
+            <head><hi rend="underline">For <persName ref="./Personography.xml#MileA1">M<hi rend="superscript">rs</hi>..Miles</persName>,</hi></head>
             <opener>
                <dateline>
                   <placeName ref="./Placeography.xml#Edgeworthstown_IE">Edgeworth Town</placeName>
@@ -100,7 +102,7 @@
                </date>
                </dateline>
                <salute>
-                  Dear <persName ref="./Personography.xml#MileX1">Madam</persName>
+                  Dear <persName ref="./Personography.xml#MileA1">Madam</persName>
                </salute>
             </opener>
             <p>I am not sure whether your present <choice>
@@ -197,7 +199,7 @@
                      <orig>Broadhearst</orig>
                      <reg>Broadhurst</reg>
                   </choice>
-               </persName> of <placeName ref="./Placeography.xml#Derbyshire_ENK">Derbyshire</placeName> (sister of the member for<lb/>
+               </persName> of <placeName ref="./Placeography.xml#Derbyshire_ENK">Derbyshire</placeName> (sister of the <persName ref="./Personography.xml#BroaJ1">member</persName> for<lb/>
                <placeName ref="./Placeography.xml#Weymouth_ENK">Weymouth</placeName>
                <lb/>
                <pb n="3" facs="Edgeworth_Princeton_1813-08-25_page03.jpg"/>
@@ -208,7 +210,7 @@
                I believe about a thousand a year - not enough<lb/>
                to make him <damage>
                   <unclear>
-                     <gap/> his profession</unclear>
+                     <gap/> in his profession</unclear>
                </damage> - but<lb/>
                sufficient to enable him to marry without<lb/>
                imprudence<lb/>
@@ -229,7 +231,7 @@
                <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
                <lb/>
             </closer>
-            <pb n="3" facs="Edgeworth_Princeton_1813-08-25_page04.jpg"/>
+            <pb n="4" facs="Edgeworth_Princeton_1813-08-25_page04.jpg"/>
                <address>
                   <addrLine>
                      <persName ref="./Personography.xml#MileJ1">M<hi rend="superscript">r</hi> Miles</persName>

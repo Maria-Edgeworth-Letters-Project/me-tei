@@ -28,6 +28,7 @@
             <respStmt>
                <resp>Reviewed by</resp>
                <persName>Robin Runia</persName>
+               <persName>Jessica Richard</persName>
             </respStmt>
          </titleStmt>
          <editionStmt>
@@ -37,6 +38,8 @@
                <orgName ref="http://id.loc.gov/authorities/names/n80097790">Beinecke Rare Book and Manuscript Library</orgName>
                <resp> photos include: Edgeworth_Beinecke_1812-08-14_page01
                         Edgeworth_Beinecke_1812-08-14_page02
+                        Edgeworth_Beinecke_1812-08-14_page03
+                        Edgeworth_Beinecke_1812-08-14_page04
                     </resp>
             </respStmt>
          </editionStmt>
@@ -63,7 +66,7 @@
                <head>Letter from <persName ref="./Personography.xml#EdgeM1">
                      <forename>Maria</forename>
                      <surname>Edgeworth</surname>
-                  </persName> to <persName ref="./Personography.xml#MileX1">Mrs. Miles</persName>,
+                  </persName> to <persName ref="./Personography.xml#MileA1">Mrs. Miles</persName>,
                         <placeName/>, <date when="1812-08-14">August 14, 1812</date>
                </head>
                <physDesc/>
@@ -81,7 +84,7 @@
                <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
             </correspAction>
             <correspAction type="received">
-               <persName ref="./Personography.xml#MileX1">Mrs. Miles</persName>
+               <persName ref="./Personography.xml#MileA1">Mrs. Miles</persName>
             </correspAction>
          </correspDesc>
       </profileDesc>
@@ -89,6 +92,7 @@
          <change when="2024-08-02" who="Id_who">
             Robin Runia completed final editorial review on 08-02-2024.
          </change>
+         <change when="2026-07-08" who="Id_who"> Jessica Richard updated various persName tags, corrected TEI on 07-08-2026.</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -98,10 +102,10 @@
             <opener>
                <dateline>
                   <placeName ref="./Placeography.xml#Edgeworthstown_IE"/>Edgeworths Town<lb/>
-                  <date when="1812-07-22">August 14, 1812</date>
+                  <date when="1812-08-14">August 14, 1812</date>
                   <lb/>
                </dateline>
-               <salute> Dear <persName ref="./Personography.xml#MileX1">Madam</persName>,<lb/>
+               <salute> Dear <persName ref="./Personography.xml#MileA1">Madam</persName>,<lb/>
                </salute>
             </opener>
             <p> I felt <choice>
@@ -121,15 +125,15 @@
                     of our Irish fingers I enclose<lb/>
                     the whole of the lace is it came<lb/>
                     to us- It never was in any<lb/>
-                    hands but those of <persName ref="./Personography.xml#LongX1">Lord <choice>
+                    hands but those of <persName ref="./Personography.xml#LongT1">Lord <choice>
                      <orig>Long<lb/>
                         ford</orig>
                      <reg>Longford</reg>
                   </choice>
                </persName>
                <lb/>
-                    ford or his sister <persName ref="./Personography.xml#HamiX1">M<hi rend="superscript">rs</hi>rs. Hamilton</persName>
-               <lb/>
+                    ford or his sister <persName ref="./Personography.xml#HamiC1">M<hi rend="superscript">rs.</hi> Hamilton</persName>
+               <lb/> 
                     who brought it over -<lb/>
             </p>
             <p> We were obliged to get other<lb/>
@@ -140,9 +144,9 @@
                     &amp; a quarter pieced-on would<lb/>
                     look ugly &amp; <add>as</add> we don't want the<lb/>
                     narrow now, we should like<lb/>
-                    to take any pretty <add>fine</add>white edging<lb/>
+                    to take any pretty <add>fine</add> white edging<lb/>
                     of any breadth, in exchange<lb/>
-                    for <add>all</add>the lace, if the shopkeeper<lb/>
+                    for <add>all</add> the lace, if the shopkeeper<lb/>
                     who sold it is willing to settle<lb/>
                     it in this manner - If not -<lb/>
                     we are quite <hi rend="underline">resigned</hi>, and<lb/>
@@ -150,30 +154,34 @@
                   <orig>con<lb/>
                         -cerned</orig>
                   <reg>concerned</reg>
-               </choice>about it , for such things<lb/>
+               </choice> about it , for such things<lb/>
                     do not weigh heavily upon<lb/>
                     our spirits -<lb/>
             </p>
             <p> If you get the edging send it<lb/>
                <pb n="3" facs="Edgeworth_Beinecke_1812-08-14_page03.jpg"/>
                wrapped in silver paper in<lb/>
-               the first frank Mr. Miles can<lb/>
-               procure - not by Sir E B Little-<lb/>
-               hales for I have promised<lb/>
+               the first frank <persName ref="./Personography.xml#MileJ1">Mr. Miles</persName> can<lb/>
+               procure - not by <persName ref="./Personography.xml#LittE2">Sir E B <choice>
+                  <orig>Little-<lb/>
+                     -hales</orig>
+                  <reg>Littlehales</reg>
+               </choice></persName>
+               for I have promised<lb/>
                never to use his franking<lb/>
                privilege for any article of<lb/>
                dress --<lb/>
                Will you be so good my dear<lb/>
-               Madame to write me a line<lb/>
+               Madam to write me a line<lb/>
                to say what the <hi rend="underline">gowns</hi> cost<lb/>
                exactly, as I am to divide the<lb/>
-               piece with Mrs. E - and let<lb/>
+               price with <persName ref="./Personography.xml#EdgeF2">Mrs. E</persName> - and let<lb/>
                me know if I am any thing<lb/>
                in your debt.<lb/>
                <pb/>
                Though you say that we<lb/>
                must not hope to see you and<lb/>
-               Mr. Miles this summer we<lb/>
+               <persName ref="./Personography.xml#MileJ1">Mr. Miles</persName> this summer we<lb/>
                are persuaded that you will<lb/>
                take the first opportunity in<lb/>
                your power of coming to us<lb/>
@@ -181,12 +189,20 @@
                &amp; we thank you for saying that<lb/>
                our little dirty channel shall<lb/>
                be no impediment<lb/>
-               I am Dear Madame<lb/>
+               I am Dear Madam<lb/>
             </p>
             <closer> Yours sincerely<lb/>
                <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
                <lb/>
                <lb/>
+            </closer>
+            <closer>
+               <address>
+                  <addrLine>
+                     To <persName ref="./Personography.xml#MileA1">M<hi rend="superscript">rs</hi>. Miles</persName>
+                     <lb/>
+                  </addrLine>
+               </address>
             </closer>
          </div>
       </body>

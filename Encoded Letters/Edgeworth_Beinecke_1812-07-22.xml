@@ -8,7 +8,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Letter from Maria Edgeworth to Mrs. Miles, July 22, 1812</title>
+            <title>Letter from Maria Edgeworth to Mrs. Miles, July 24, 1812</title>
             <author>
                <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
             </author>
@@ -66,8 +66,8 @@
                <head>Letter from <persName ref="./Personography.xml#EdgeM1">
                      <forename>Maria</forename>
                      <surname>Edgeworth</surname>
-                  </persName> to <persName ref="./Personography.xml#MileX1">Mrs. Miles</persName>,
-                     <placeName/>, <date when="1812-07-22">July 22, 1812</date>
+                  </persName> to <persName ref="./Personography.xml#MileA1">Mrs. Miles</persName>,
+                     <placeName/>, <date when="1812-07-24">July 24, 1812</date>
                </head>
                <physDesc/>
             </msDesc>
@@ -84,34 +84,30 @@
                <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
             </correspAction>
             <correspAction type="received">
-               <persName ref="./Personography.xml#MileX1">Mrs. Miles</persName>
+               <persName ref="./Personography.xml#MileA1">Mrs. Miles</persName>
             </correspAction>
          </correspDesc>
       </profileDesc>
       <revisionDesc status="approved">
          <change when="2024-08-02" who="Id_who">
-            Robin Runia completed final editorial review on 08-02-2024.
+            Robin Runia completed final editorial review on 08-02-2024. </change>
+            <change when="2026-07-08" who="Id_who">
+               Jessica Richard updated tags for Mrs. Miles, updated pages and TEI so address is at end, changed dates in TEI to reflect date in letter and transcription on 07-08-2026. 
          </change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <div type="letter">
-            <pb n="1" facs="Edgeworth_Beinecke_1812-07-22_page01.jpg"/>
-            <opener>
-               <salute> To <persName ref="./Personography.xml#MileX1">Mrs. Miles</persName>
-                  <lb/>
-               </salute>
-            </opener>
-            <pb n="2" facs="Edgeworth_Beinecke_1812-07-22_page02.jpg"/>
-            <p> Dear Madam, with many<lb/> thanks for the trouble you<lb/> took in dressing our
+            <pb n="1" facs="Edgeworth_Beinecke_1812-07-22_page02.jpg"/>
+            <p> Dear <persName ref="./Personography.xml#MileA1">Madam</persName>, with many<lb/> thanks for the trouble you<lb/> took in dressing our
                pretty<lb/> black lace gowns I now<lb/> send you the amount<lb/> of our debt <add>for
                   them</add>, which I believe<lb/> was £7. 10 — I have not the<lb/> letter in which
                the sum<lb/> was mentioned under<lb/> my hand &amp; if I should<lb/> have mistaken
                you will<lb/> have the goodness to set<lb/> me right —<lb/>
             </p>
             <p>May I further trouble<lb/>
-               <pb n="3" facs="Edgeworth_Beinecke_1812-07-22_page03.jpg"/> you to try if you
+               <pb n="2" facs="Edgeworth_Beinecke_1812-07-22_page03.jpg"/> you to try if you
                can<lb/> recollect whether you<lb/> sent black lace for the<lb/> bosom &amp; sleeves
                of <hi rend="underline">two</hi>
                <lb/> gowns or only of <hi rend="underline">one</hi>
@@ -122,8 +118,8 @@
                   Miles</persName>
                <lb/> will be prevailed upon<lb/> to make the excursion<lb/> my
                father has proposed<lb/> to him, and that we<lb/> shall have the pleasure of<lb/>
-               <pb n="4" facs="Edgeworth_Beinecke_1812-07-22_page04.jpg"/> seeing you both at<lb/>
-               <placeName ref="./Placeography.xml#Edgeworthstown_IE">Edgeworth Town</placeName>
+               <pb n="3" facs="Edgeworth_Beinecke_1812-07-22_page04.jpg"/> seeing you both at<lb/>
+               <placeName ref="./Placeography.xml#Edgeworthstown_IE">Edgeworth Town</placeName>.
                <persName ref="./Personography.xml#EdgeF2">M<hi rend="superscript">rs.</hi>
                   <lb/> Edgeworth</persName> joins
                heartily<lb/> in this wish with<lb/> Dear Madam<lb/>
@@ -132,10 +128,19 @@
                <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
                <lb/>
                <dateline>
-                  <date when="1812-07-22">July 24<hi rend="superscript">th</hi>. 1812</date>
+                  <date when="1812-07-24">July 24<hi rend="superscript">th</hi>. 1812</date>
                </dateline>
-               <lb/>
             </closer>
+               <lb/>
+               <pb n="4" facs="Edgeworth_Beinecke_1812-07-22_page01.jpg"/>
+               <closer>
+                  <address>
+                     <addrLine>
+                        To <persName ref="./Personography.xml#MileA1">M<hi rend="superscript">rs</hi>. Miles</persName>
+                        <lb/>
+                     </addrLine>
+                  </address>
+               </closer>
          </div>
       </body>
       <back/>
