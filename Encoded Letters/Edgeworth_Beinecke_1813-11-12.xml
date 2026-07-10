@@ -64,7 +64,7 @@
                <head>Letter from <persName ref="./Personography.xml#EdgeM1">
                      <forename>Maria</forename>
                      <surname>Edgeworth</surname>
-                  </persName> to <persName ref="./Personography.xml#MileX1">Mrs. Miles</persName>,
+                  </persName> to <persName ref="./Personography.xml#MileA1">Mrs. Miles</persName>,
                         <placeName/>, <date when="1813-11-12">November 12, 1813</date>
                </head>
                <physDesc/>
@@ -82,14 +82,14 @@
                <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
             </correspAction>
             <correspAction type="received">
-               <persName ref="./Personography.xml#MileX1">Mrs. Miles</persName>
+               <persName ref="./Personography.xml#MileA1">Mrs. Miles</persName>
             </correspAction>
          </correspDesc>
       </profileDesc>
       <revisionDesc status="approved">
          <change when="2024-08-08" who="Id_who">
-            Robin Runia completed final editorial review on 08-02-2024.
-         </change>
+            Robin Runia completed final editorial review on 08-02-2024.</change>
+            <change when="2026-07-10" who="Id_who"> Jessica Richard updated Mrs Miles persName tags, other corrections on 07-10-2026. </change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -98,10 +98,10 @@
             <pb n="1" facs="Edgeworth_Beinecke_1813-11-12_page01.jpg"/>
             <opener>
                <dateline>
-                  <date when="1813-11-12">November 13, 1813</date>
+                  <date when="1813-11-12">November 12, 1813</date>
                   <lb/>
                </dateline>
-               <salute> Dear <persName ref="./Personography.xml#MileX1">Madam</persName>,<lb/>
+               <salute> Dear <persName ref="./Personography.xml#MileA1">Madam</persName>,<lb/>
                </salute>
             </opener>
             <p> Last monday I received <add>quite safely</add> the<lb/>
@@ -109,7 +109,10 @@
                     gown - which I think is a<lb/>
                     beautiful color and I am<lb/>
                     much obliged to you for<lb/>
-                    chusing it and for all the<lb/>
+               <choice>
+                  <orig>chusing</orig>
+                  <reg>choosing</reg>
+               </choice> it and for all the<lb/>
                     trouble you took in procuring<lb/>
                     and sending my various<lb/>
                     things which were all exactly<lb/>
@@ -131,7 +134,7 @@
                </persName> will I believe in a<lb/>
                     few days send us a pamph<lb/>
                     let under a government<lb/>
-                    frank - M<hi rend="superscript">rs</hi>. Edgeworth would<lb/>
+               frank - <persName ref="./Personography.xml#EdgeF2">M<hi rend="superscript">rs</hi>. Edgeworth</persName> would<lb/>
                     be much obliged to you if you<lb/>
                     would buy for her six yards<lb/>
                     of trimming for her pelisse<lb/>
@@ -152,9 +155,9 @@
                     ravel or <hi rend="underline">fuzz</hi> she would like<lb/>
                     &amp; begs to leave it to your taste<lb/>
                     You can send it between the<lb/>
-                    leaves of the pamphlet Perhaps -<lb/>
+                    leaves of the pamphlet <add>Perhaps -<lb/>
                     you could also send me 6 yards of ribbon same as<lb/>
-                    the pattern which you bought at <persName ref="./Personography.xml#EyleX1">Eyles's</persName>
+                    the pattern which you bought at <persName ref="./Personography.xml#EyleX1">Eyles's</persName></add>
                <lb/>
                     Tell me whether you have any<lb/>
                     friend who ever attends India sales<lb/>
@@ -163,15 +166,15 @@
                     after real India muslin<lb/>
             </p>
             <closer> 
-                    Truly yours<lb/>
+                    Truly Yours<lb/>
                <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
                <lb/>
             </closer>
             <postscript>
                <pb n="3" facs="Edgeworth_Beinecke_1813-11-12_page03.jpg"/>
-               <p>List of bills paid by <persName ref="./Personography.xml#MileX1">M<hi rend="superscript">rs</hi>. Miles</persName>
+               <p>List of bills paid by <persName ref="./Personography.xml#MileA1">M<hi rend="superscript">rs</hi>. Miles</persName>
                   <lb/>
-                        for <persName ref="./Personography.xml#BeauH1">Miss Edgeworth</persName>
+                        for <persName ref="./Personography.xml#EdgeM1">Miss Edgeworth</persName>
                   <lb/>
                </p>
                <p>
