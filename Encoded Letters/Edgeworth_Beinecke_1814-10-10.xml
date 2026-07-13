@@ -65,7 +65,7 @@
                <head>Letter from <persName ref="./Personography.xml#EdgeM1">
                      <forename>Maria</forename>
                      <surname>Edgeworth</surname>
-                  </persName> to <persName ref="./Personography.xml#MileX1">Mrs. Miles</persName>,
+                  </persName> to <persName ref="./Personography.xml#MileA1">Mrs. Miles</persName>,
                         <placeName/>, <date when="1814-10-10">October 10, 1814</date>
                </head>
                <physDesc/>
@@ -83,7 +83,7 @@
                <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
             </correspAction>
             <correspAction type="received">
-               <persName ref="./Personography.xml#MileX1">Mrs. Miles</persName>
+               <persName ref="./Personography.xml#MileA1">Mrs. Miles</persName>
             </correspAction>
          </correspDesc>
       </profileDesc>
@@ -91,6 +91,7 @@
          <change when="2024-08-08" who="Id_who">
             Robin Runia completed final editorial review on 08-02-2024.
          </change>
+         <change when="2026-07-10" who= "Id_who">Jessica Richard updates Mrs. Miles, Mrs. Moutray persName tags and Robin's Petition tag on 07-10-2026 </change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -104,7 +105,7 @@
                   <date when="1814-10-10">October 10, 1814</date>
                   <lb/>
                </dateline>
-               <salute> Dear <persName ref="./Personography.xml#MileX1">Madam</persName>,<lb/>
+               <salute> Dear <persName ref="./Personography.xml#MileA1">Madam</persName>,<lb/>
                </salute>
             </opener>
             <p> Inclosed I send a draft<lb/>
@@ -135,7 +136,7 @@
                     Which will remain after<lb/>
                <persName ref="./Personography.xml#FarrX1">Miss Farrell</persName> is paid I request<lb/>
                <pb n="2" facs="Edgeworth_Beinecke_1814-10-10_page02.jpg"/>                      
-                    My dear <persName ref="./Personography.xml#MileX1">Madam</persName> you will<lb/>
+                    My dear <persName ref="./Personography.xml#MileA1">Madam</persName> you will<lb/>
                     be so kind to keep in your<lb/>
                     hands to pay for any <choice>
                   <orig>commis<lb/>
@@ -154,12 +155,11 @@
                   <reg>inclose</reg>
                </choice> with many thanks a<lb/>
                     draft for the £2..14..0. which<lb/>
-                    Line out of place<lb/>
-                    he paid <persName ref="./Personography.xml#MoutX1">M<hi rend="superscript">rs</hi>. Moutray</persName> for me<lb/>
+                    he paid <persName ref="./Personography.xml#MoutM1">M<hi rend="superscript">rs</hi>. Moutray</persName> for me<lb/>
             </p>
             <p> I regret that he was not in<lb/>
-                    the way when <persName ref="./Personography.xml#MoutX1">M<hi rend="superscript">rs</hi>. Moutray</persName> &amp;<lb/>
-                    her daughter called as they<lb/>
+                    the way when <persName ref="./Personography.xml#MoutM1">M<hi rend="superscript">rs</hi>. Moutray</persName> &amp;<lb/>
+               her <persName ref="./Personography.xml#DelaC1">daughter</persName> called as they<lb/>
                     are two of the most amiable<lb/>
                     &amp; charming of our friends, whom<lb/>
                     I should have been proud that<lb/>
@@ -189,13 +189,13 @@
                     good mothers who are interestd<lb/>
                     upon the education of their children<lb/>
             </p>
-            <p> Pray if the <title ref="./Workography.xml#Robin1">
+            <p> Pray if the <title ref="./Workography.xml#Robin2">
                   <hi rend="underline">Robins petition</hi>
                </title> or the<lb/>
                songs in the <title ref="./Workography.xml#Knaps1">
                   <hi rend="underline">Knapsack</hi>
                </title> have been set to<lb/>
-                    music make <persName ref="./Personography.xml#MileX1">M<hi rend="superscript">rs</hi>. Miles</persName> send them to<lb/>
+                    music make <persName ref="./Personography.xml#MileJ1">M<hi rend="superscript">r</hi>. Miles</persName> send them to<lb/>
                     me as a Christmas box for one of my<lb/>
                     little sisters <persName ref="./Personography.xml#RuxtS1">(Sophy)</persName> who has an agreeable<lb/>
                     voice &amp; will take pleasure &amp; pride in<lb/>
@@ -203,7 +203,7 @@
                <lb/>
             </p>
             <closer> 
-               I am dear <persName ref="./Personography.xml#MileX1">Madam</persName>
+               I am dear <persName ref="./Personography.xml#MileA1">Madam</persName>
                <lb/>
                     Sincerely yours<lb/>
                <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
@@ -214,8 +214,6 @@
             <postscript>
                <pb n="4" facs="Edgeworth_Beinecke_1814-10-10_page04.jpg"/>
                <p>
-                  <persName ref="./Personography.xml#MileX1">M<hi rend="superscript">rs</hi>. Miles</persName>
-                  <lb/>
                     I will further trouble you to<lb/>
                     buy for me a dozen gilt <hi rend="underline">catches</hi>
                   <lb/>
@@ -234,6 +232,8 @@
                         two cards in one or two common franks<lb/>
                </p>
             </postscript>
+            <address>
+            <persName ref="./Personography.xml#MileX1">M<hi rend="superscript">rs</hi>. Miles</persName></address>
          </div>
       </body>
       <back/>
