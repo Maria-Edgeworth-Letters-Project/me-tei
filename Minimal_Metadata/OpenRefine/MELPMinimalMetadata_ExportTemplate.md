@@ -132,9 +132,11 @@
          <correspDesc>
             <correspAction type="sent">
                <persName>{{cells['Creator'].value}}</persName>
+               {{if(isBlank(cells['Creator2'].value), '', '<persName>' + cells['Creator2'].value + '</persName>')}}
             </correspAction>
             <correspAction type="received">
                <persName>{{cells['Recipient'].value}}</persName>
+               {{if(isBlank(cells['Recipient2'].value), '', '<persName>' + cells['Recipient2'].value + '</persName>')}}
             </correspAction>
          </correspDesc>
       </profileDesc>
