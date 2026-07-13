@@ -6,10 +6,6 @@
 
 ```
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://raw.githubusercontent.com/Maria-Edgeworth-Letters-Project/me-tei/refs/heads/main/melp.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
-    ?>
 	<teiCorpus xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -158,7 +154,7 @@
                         <name type="place" ref="Id_where"/>
                         {{if(isBlank(cells['Date of Original'].value), '<date/>', '<date when="' + cells['Date of Original'].value + '">' + cells['Date Text'].value + '</date>')}}</dateline>
                     <salute>
-                        <persName>
+                        <persName ref="./Personography.xml#XxxxX1">
                             <!-- Use if letter has a saluation ("Dear Sir," for example). If not, delete this line.-->
                         </persName>
                     </salute>
