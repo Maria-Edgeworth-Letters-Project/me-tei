@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/Maria-Edgeworth-Letters-Project/me-tei/refs/heads/main/melp.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from Richard Lovell Edgeworth to Etienne Dumont, August 3, 1812!</title>
+            <author>Richard Lovell Edgeworth</author>
+            <editor>
+               Maggie Turbyfield
+            </editor>
+            <sponsor>
+               <orgName>Maria Edgeworth Letters Project</orgName>
+            </sponsor>
+            <sponsor>Texas A &amp; M University, University of Tennessee, Wake Forest University, Xavier University of Louisiana, Southern Methodist University</sponsor>
+            <principal>Susan Egenolf, Meredith Hale, Hilary Havens, Jessica Richard, and Robin Runia</principal>
+            <respStmt>
+               <resp>Transcription and coding by</resp>
+               <persName>Maggie Turbyfield
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>First digital edition in TEI, date: June 3, 2026 <date when="2026-06-03">
+            </date>
+            </edition>
+            <respStmt>
+               <orgName type="naf" ref="https://d-nb.info/gnd/5075238-8">
+                  Bibliothèques municipales de la Ville de Genève</orgName>
+               <resp> photos include:
+                  Edgeworth_Geneve_1812-08-03_page01.jpg, 
+                  Edgeworth_Geneve_1812-08-03_page02.jpg, 
+                  Edgeworth_Geneve_1812-08-03_page03.jpg, 
+                  Edgeworth_Geneve_1812-08-03_page04.jpg
+               </resp>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Maria Edgeworth Letters Project</authority>
+            <date>2026</date>
+            <availability>
+               <p>Reproduced by courtesy of the <orgName ref="https://d-nb.info/gnd/5075238-8">Bibliothèques municipales de la Ville de Genève</orgName>
+               </p>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons Attribution 4.0 (CC BY 4.0) Unported License</licence>
+            </availability>
+            <idno>Edgeworth_Geneve_1812-08-03</idno> 
+         </publicationStmt>
+         <seriesStmt>
+            <title>Maria Edgeworth Letters Project</title>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <!-- This section of the header identifies the original manuscript source. -->
+               <msIdentifier>
+                  <repository>Bibliothèques municipales de la Ville de Genève</repository>
+                  <collection><!-- Enter specific archival collection if applicable--></collection>
+                  <idno><!--Consult library or WorldCat for this info--></idno>
+               </msIdentifier>
+               <head>Letter from 
+                  <persName xml:id="EdgeR1" from="1744" to="1817">
+                     <forename>Richard Lovell</forename>
+                     <surname>Edgeworth</surname>
+                     <date>1744-1817</date>
+                     <idno type="VIAF">66511092</idno>
+                     <idno type="SNAC">36015579</idno>
+                  </persName>
+                  to <persName ref="./Personography.xml#DumoE1"> Etienne Dumont</persName>, <placeName><!--Location where letter was sent--></placeName>, 
+                  <date when="1812-08-03">3<hi rend="superscript">th</hi> August 12</date>
+                  <!-- <stamp>Enter description, if applicable</stamp>-->
+               </head>
+               <physDesc>
+                  <!-- optional physical description of the letter goes here: paper size and condition, seal, postmarks, etc.-->
+               </physDesc>
+            </msDesc>
+            <bibl>In addition to our edited version, this letter was previously published in
+               <!--complete bibiographical info if letter was published in a book here - if not delete-->
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <!--Where Edgeworth uses nonstandard spelling and hyphenation of words, transcriber-coders 
+               should use TEI elements “choice," “sic," and “reg" to encode both Edgeworth’s 
+               spelling and the regular international standard of Oxford English spelling, 
+               following the first listed spelling in the Oxford English Dictionary. -->
+            <p>Edgeworth’s spelling and punctuation are retained in transcription, including non-standard spelling, line breaks, and hyphenation of words. The long s and ligatured forms are silently emended.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="./Personography.xml#EdgeR1">Richard Lovell Edgeworth</persName>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="./Personography.xml#DumoE1"> Etienne Dumont</persName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-01-01" who="Id_who">
+            <!--Brief description of what you did here.-->
+         </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <pb n="1" facs="Edgeworth_Geneve_1812-08-03_page01.jpg"/>
+            <!--filenames for photos associated with this letter. Example: <pb n="1" facs="image1.jpg image2.jpg image3.jpg"/> -->
+            <opener>
+               <dateline><!--If there's no date line, remove this element. Record in the order in which it is written on the letter.-->
+                  <placeName ref="./Placeography.xml#Edgeworthstown_IE">Edgeworthtown</placeName>
+                  <date when="1812-08-03">August 03, 1812</date></dateline>
+            </opener>
+            <p>
+               I will not heap coals of fire upon your<lb/>
+               head by telling you how much we are<lb/>
+               not only disappointed but mortified by<lb/>
+               your letter - <placeName ref="./Placeography.xml#Bowood-House_ENK">Bowood!</placeName> <placeName ref="./Placeography.xml#Bowood-House_ENK">Bowood!</placeName> -<lb/>
+               Why you can be at <placeName ref="./Placeography.xml#Bowood-House_ENK">Bowood</placeName> any <choice><orig>sum-<lb/>-mer</orig><reg>summer</reg></choice>
+               of your life - but at my advanced<lb/>
+               age it should have been <hi rend="underline">this</hi> summer<lb/>
+               for <placeName ref="./Placeography.xml#Edgeworthstown_IE">Edgeworthtown</placeName> - for the coming<lb/>
+               of another summer for me is not<lb/>
+               what I depend upon -<lb/>
+            </p>
+            <p>
+               Your habits of a <hi rend="underline">French man of Letters</hi><lb/>
+               have taken strange hold of you -<lb/>
+               <persName ref="./Personography.xml#EdgeF2"> M<hi rend="superscript">rs</hi> E.</persName> laughed, <persName ref="./Personography.xml#EdgeM1">Maria</persName> scolded, &amp; I<lb/>
+               pitied you -<lb/>
+            </p>
+            <p>
+               Your original mistake in the whole<lb/>
+               business was laying in <unclear>silence</unclear> so come<lb/>
+               here for a few days - what we wished<lb/>
+               I dare not say expected, was that you<lb/>
+               would come &amp; stay some time with<lb/>
+               us - that we might really enjoy your<lb/>
+               conversation, not be, merely <hi rend="underline">flattered</hi><lb/>
+               by your visit - I had stored up<lb/>
+               for myself the pleasure of telling you<lb/>
+               that your <title ref="./Workography.xml#Theor3" cert="medium">second volume</title> is delightfully<lb/>
+               <note place="top">14</note>
+               
+               <pb n="2" facs="Edgeworth_Geneve_1812-08-03_page02.jpg"/>
+               written, <del><unclear>of silly</unclear></del> as lively as we could <unclear>wish</unclear><lb/>
+               it to be, and to convince you that we<lb/>
+               thought so you would have seen your<lb/>
+               book full of <hi rend="underline">marks</hi> and our minds<lb/>
+               full of all your useful lessons.<lb/>
+            </p>
+            <p>
+               We had put off all engagements<lb/>
+               &amp; would permit nobody to come to<lb/>
+               see us, till we had seen you -<lb/>
+            </p>
+            <p>
+               Travelling by night in a mail coach<lb/>
+               is fit only for a postman - but by a<lb/>
+               little contrivance a man may travel<lb/>
+               by day in different coaches &amp; may<lb/>
+               stop in different towns on his journey<lb/>
+               &amp; may see &amp; hear a great deal of what<lb/>
+               is useful &amp; entertaining - your<lb/>
+               journey <del><unclear>here wa</unclear></del> in <placeName ref="./Placeography.xml#IE">Ireland</placeName> would<lb/>
+               have been quite easy - you would<lb/>
+               have reached this place in one day<lb/>
+               from <placeName ref="./Placeography.xml#Dublin_IE">Dublin</placeName> with great ease-<lb/>
+            </p>
+            <p>
+               You say that <persName ref="./Personography.xml#LansH1">Lord Lansdowne</persName><lb/>
+               had thoughts of visiting <placeName ref="./Placeography.xml#IE">Ireland</placeName>.<lb/>
+               - How can statesmen talk so much<lb/>
+               about <placeName ref="./Placeography.xml#IE">Ireland</placeName> and take so little trouble<lb/>
+               to see it ? His <persName ref="./Personography.xml#LansH1">Lordship</persName> gave it under<lb/>
+               the hand of a Peer that he would come<lb/>
+               to see us if he should ever come to<lb/>
+               
+               <pb n="3" facs="Edgeworth_Geneve_1812-08-03_page03.jpg"/>
+               <placeName ref="./Placeography.xml#IE">Ireland</placeName> - and <persName ref="./Personography.xml#LansL1">Lady L.</persName> told my son <persName ref="./Personography.xml#EdgeC1">Sneyd</persName><lb/>
+               that she had no objection to be of the<lb/>
+               party -<lb/>
+            </p>
+            <p>
+               I am determined to cultivate <hi rend="underline">Egoism</hi><lb/>
+               for the rest of my life!<lb/>
+               <persName ref="./Personography.xml#Volta1">Voltaire</persName> &amp; <persName ref="./Personography.xml#SwifJ1">Swift</persName> cried vive la bagatelle<lb/>
+               I exclaim Vive le' Egoisme.<lb/>
+            </p>
+            <p>
+               You speak of <persName ref="./Personography.xml#StaeA1">Madame de Stael</persName><lb/>
+               but not of her admirable book <del><unclear>Som</unclear></del><lb/>
+               <title ref="./Workography.xml#Litte1">Influence de la Literature'</title> &amp;c.<lb/>
+               You talk <add>of sending</add> to us <del><unclear>of extracts of</unclear></del> morsels<lb/>
+               of literature &amp; morality - We will have<lb/>
+               none of them but from your lips!!<lb/>
+            </p>
+            <p>
+               What you say of <persName ref="./Personography.xml#EdgeM1">Marias</persName> tales<lb/>
+               is just - But they are not given<lb/>
+               as Epics but simply as <hi rend="underline">tales</hi>. -<lb/>
+               and to make them better for the<lb/>
+               best tastes would be to make<lb/>
+               them worse for general <hi rend="underline">consumption</hi><lb/>
+            </p>
+            <p>
+               She has another tale to finish - in<lb/>
+               three volumes - this will be of a higher<lb/>
+               flight - but it will perhaps be not so<lb/>
+               popular - adieu -<lb/>
+            </p>
+            <p>
+               I would not, at near seventy years of<lb/>
+               age, be encumbered with so much<lb/>
+               
+               <pb n="4" facs="Edgeworth_Geneve_1812-08-03_page04.jpg"/>
+               vis inertia as you are loaded with,<lb/>
+               for a Dukedom!<lb/>
+               
+               
+            </p>
+            
+            <closer>
+               Yours truly - <persName ref="./Personography.xml#EdgeR1">Rich <hi rend="superscript">d</hi> Lovell Edgeworth</persName>
+            </closer>
+            
+            <closer><!--Use the <closer> element again to hold Address Leaf information.-->
+               <address>
+                  <!--Include any text written on the address leaf; use a separate "addrLine" for each line and indicate line breaks. -->
+                  <addrLine/>
+                  <addrLine/>
+                  <addrLine/>
+               </address>
+            </closer>
+         </div>
+      </body>
+      <back> </back>
+   </text>
+</TEI>
