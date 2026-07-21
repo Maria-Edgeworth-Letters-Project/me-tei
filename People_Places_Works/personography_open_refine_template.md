@@ -62,7 +62,7 @@
 ####Body
 
 ```  
-{{if(isBlank(cells['PersonGrp'].value), '<person xml:id="' + cells['ID'].value + '">' + '<persName>' + cells['Term'].value + '</persName>' + if(isBlank(cells['VIAF URI'].value), '', '<idno type="VIAF">' + cells['VIAF URI'].value + '</idno>') + '</person>', '<personGrp xml:id="' + cells['ID'].value + '">' + '<persName>' + cells['Term'].value + '</persName></personGrp>')}}
+{{if(isBlank(cells['PersonGrp'].value), '<person xml:id="' + cells['ID'].value + '">' + '<persName>' + cells['Term'].value + '</persName>' + if(isBlank(cells['Variant'].value), '', '<persName type="variant">' + cells['Variant'].value + '</persName>') + if(isBlank(cells['Variant2'].value), '', '<persName type="variant">' + cells['Variant2'].value + '</persName>') + if(isBlank(cells['VIAF URI'].value), '', '<idno type="VIAF">' + cells['VIAF URI'].value + '</idno>') + '</person>', '<personGrp xml:id="' + cells['ID'].value + '">' + '<persName>' + cells['Term'].value + '</persName></personGrp>')}}
 
 
 ```

@@ -81,7 +81,7 @@
                <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
             </correspAction>
             <correspAction type="received">
-               <persName ref="./Personography.xml#MileX1">Mrs. Miles</persName>
+               <persName ref="./Personography.xml#MileA1">Mrs. Miles</persName>
             </correspAction>
          </correspDesc>
       </profileDesc>
@@ -89,6 +89,8 @@
          <change when="2024-08-08" who="Id_who">
             Robin Runia completed final editorial review on 08-08-2024.
          </change>
+         <change when="2026-07-20" who="Id_who">
+            Jessica Richard updated Mrs. Miles tags on 07-20-2026.</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -97,15 +99,15 @@
             <pb n="1" facs="Edgeworth_Beinecke_1816-05-06_page01.jpg"/>
             <opener>
                <dateline>
-                  <date when="1816-05-06">May 06, 1816</date>
+                  <date when="1816-05-06">May 6<hi rend="superscript">th.</hi> 1816</date>
                   <lb/>
                </dateline>
             </opener>
-            <p> My dear Madam, I am <choice>
+            <p> My dear  <persName ref="./Personography.xml#MileA1">Madam</persName>, I am <choice>
                   <orig>asham<lb/>
                 ed</orig>
                   <reg>ashamed</reg>
-               </choice>of having kept you so long<lb/>
+               </choice> of having kept you so long<lb/>
                 in ignorance of what you<lb/>
                 must be anxious to know<lb/>
                 the safe arrival of the two<lb/>
@@ -139,7 +141,7 @@
                </placeName>and he was so much<lb/>
                 in misery about the<lb/>
                <pb n="2" facs="Edgeworth_Beinecke_1816-05-06_page02.jpg"/>              
-                health of his wife that he<lb/>
+               health of his <persName ref="./Personography.xml#EdgeH3">wife</persName> that he<lb/>
                 would never answer this<lb/>
                 simple question <quote>"Are the<lb/>
                     shawls safe at your house<lb/>
@@ -212,7 +214,7 @@
                   <orig>your<lb/>
                 self</orig>
                   <reg>yourself</reg>
-               </choice>at having missed one<lb/>
+               </choice> at having missed one<lb/>
                 opportunity for I know<lb/>
                 it was not likely they could<lb/>
                 be in time for that &amp; am<lb/>
@@ -229,7 +231,7 @@
                     coming out - Let him call at<lb/>
                <persName ref="./Personography.xml#HuntW1" cert="medium">Hunters</persName>
          for a copy for you<lb/>
-                    or for himself -- The same thing <lb/>
+                    or for himself - The same thing <lb/>
             </p>
             <p>
                <persName ref="./Personography.xml#EdgeR1">My father</persName> has been rather<lb/>
@@ -237,8 +239,8 @@
             </p>
             <closer> 
                  I am Dear Madam yours sincerely<lb/>
-               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth<lb/>
-               </persName>
+               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth
+               </persName><lb/>
             </closer>
          </div>
       </body>

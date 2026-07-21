@@ -67,7 +67,7 @@
                <head>Letter from <persName ref="./Personography.xml#EdgeM1">
                      <forename>Maria</forename>
                      <surname>Edgeworth</surname>
-                  </persName> to <persName ref="./Personography.xml#MileX1">Mrs. Miles</persName>,
+                  </persName> to <persName ref="./Personography.xml#MileA1">Mrs. Miles</persName>,
                         <placeName/>, <date when="1815-03-01">March 01, 1815</date>
                </head>
                <physDesc/>
@@ -85,7 +85,7 @@
                <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
             </correspAction>
             <correspAction type="received">
-               <persName ref="./Personography.xml#MileX1">Mrs. Miles</persName>
+               <persName ref="./Personography.xml#MileA1">Mrs. Miles</persName>
             </correspAction>
          </correspDesc>
       </profileDesc>
@@ -93,6 +93,7 @@
          <change when="2024-08-08" who="Id_who">
             Robin Runia completed final editorial review on 08-08-2024.
          </change>
+         <change when="2026-07-20"> Jessica Richard updated Mrs. Miles persName tags on 7-20-2026. </change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -101,12 +102,12 @@
             <pb n="1" facs="Edgeworth_Beinecke_1815-03-01_page01.jpg"/>
             <opener>
                <dateline>
-                  <placeName ref="./Placeography.xml#Dublin_IE"/>15 Baggot Street<lb/>
-                        Dublin<lb/>
+                  15 Baggot Street<lb/>
+                  <placeName ref="./Placeography.xml#Dublin_IE">Dublin</placeName><lb/>
                   <date when="1815-03-01">March 1, 1815</date>
                   <lb/>
                </dateline>
-               <salute> My dear <persName ref="./Personography.xml#MileX1">Madam</persName>
+               <salute> My dear <persName ref="./Personography.xml#MileA1">Madam</persName>
                   <lb/>
                </salute>
             </opener>
@@ -159,10 +160,11 @@
                     to try to obtain the direction<lb/>
                         to <persName ref="./Personography.xml#McCaX1">M<hi rend="superscript">r</hi>. M<hi rend="superscript">c</hi>Cann</persName> but fear it<lb/>
                     will be too late<lb/>
-                  tell <persName ref="Unknown">M<hi rend="superscript">r</hi>. <damage><unclear>Hu</unclear><gap></gap></damage>
+                  tell <persName ref="./Personography.xml#Unknown">M<hi rend="superscript">r</hi>. <damage><unclear>Hu</unclear><gap></gap></damage>
                   </persName> ask for<lb/>
-                  <persName ref="./Personography.xml#MileX1">M<hi rend="superscript">rs</hi>. Miles</persName>
+                  <persName ref="./Personography.xml#MileA1">M<hi rend="superscript">rs</hi>. Miles</persName>
                   <lb/>
+                  <note>what appeares to be doodling in another hand, variations of Miss Chater 11 Cornhill -- this was the location of Mrs. Miles's father's business.</note>
                </p>
             </postscript>
          </div>
