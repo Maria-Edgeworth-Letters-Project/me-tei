@@ -7,7 +7,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Letter from Richard Lovell Edgeworth to Étienne Dumont, May 6, 1816</title>
+                <title>Letter from Richard Lovell Edgeworth to Étienne Dumont, January 25, 1807</title>
                 <author>Richard Lovell Edgeworth</author>
                 <editor>
                     
@@ -15,7 +15,7 @@
                 <sponsor>
                     <orgName>Maria Edgeworth Letters Project</orgName>
                 </sponsor>
-                <sponsor>Texas A &amp;M University, University of Tennessee, Wake Forest University, Xavier University of Louisiana, Southern Methodist University</sponsor>
+                <sponsor>Texas A &amp; M University, University of Tennessee, Wake Forest University, Xavier University of Louisiana, Southern Methodist University</sponsor>
                 <principal>Susan Egenolf, Meredith Hale, Hilary Havens, Jessica Richard, and Robin Runia</principal>
                 <respStmt>
                     <resp>Transcription and coding by</resp>
@@ -25,7 +25,7 @@
                 </respStmt>
             </titleStmt>
             <editionStmt>
-                <edition>First digital edition in TEI,<date when="2026-06-19">June 19, 2026</date>
+                <edition>First digital edition in TEI,<date when="2026-06-10">June 10, 2026</date>
                     
                 </edition>
                 <respStmt>
@@ -34,8 +34,7 @@
                     
                     
                     <resp> photos include:
-                        Edgeworth_Geneve_33_2_1816_05_06_page01.jpg,
-                        Edgeworth_Geneve_33_2_1816_05_06_page02.jpg
+                        Edgeworth_Geneve_33_2_1807_01_25_page01.jpg
                         
                     </resp>
                 </respStmt>
@@ -48,7 +47,7 @@
                     </p>
                     <licence target="https://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons Attribution 4.0 (CC BY 4.0) Unported License</licence>
                 </availability>
-                <idno>Edgeworth_Geneve_33_2_1816_05_06</idno> 
+                <idno>Edgeworth_Geneve_33_2_1807_01_25</idno> 
             </publicationStmt>
             <seriesStmt>
                 <title>Maria Edgeworth Letters Project</title>
@@ -61,7 +60,7 @@
                         
                     </msIdentifier>
                     <head>Letter from 
-                        <persName ref="./Personography.xml#EdgeR1">
+                        <persName xml:id="EdgeR1" from="1744" to="1817">
                             <forename>Richard Lovell</forename>
                             <surname>Edgeworth</surname>
                             <date>1744-1817</date>
@@ -69,7 +68,7 @@
                             
                         </persName>
                         to <persName ref="./Personography.xml#DumoE1">Étienne Dumont</persName>,  
-                        <date when="1816-05-06">May 6, 1816</date> 
+                        <date when="1807-01-25">25 Jan<hi rend="superscript">y</hi> 7.</date>
                         
                     </head>
                     
@@ -102,61 +101,51 @@
     <text>
         <body>
             <div type="letter">
-                <pb n="1" facs="Edgeworth_Geneve_33_2_1816_05_06_page01.jpg"/>
+                <pb n="1" facs="Edgeworth_Geneve_33_2_1807_01_25_page01.jpg"/>
                 
                 <opener>
                     <dateline> 
-                     <date when="1816-05-06">6. May 16</date><note>41</note>
-                     <placeName ref="./Placeography.xml#Edgeworthstown_IE">Edgeworthstown</placeName></dateline>
-                
-                        My Dear <persName ref="./Personography.xml#DumoE1">Sir</persName></opener>
-                        <p>
-                        I trouble you with<lb/>
-                        a line to express my <choice><orig>satis-<lb/>
-                        -faction</orig><reg>satisfaction</reg></choice> upon the <add>temporary</add> failure of<lb/>
-                        <persName ref="./Personography.xml#RomiS1">Sir Samuel Romillys</persName> bill.<lb/>
-                        The admirable speech of<lb/>
-                        the master of the Rolls would<lb/>
-                        never have been published if<lb/>
-                        there had not been a party<lb/>
-                        opposition - Such a <choice><orig>collect<lb/>
-                        -ion</orig><reg>collection</reg></choice> of miserable stuff as fell<lb/>
-                        from <persName ref="./Personography.xml#GibbV1">Gibbs</persName> &amp; <persName ref="./Personography.xml#PlumT1">Plumer</persName> I never<lb/>
-                        read! - My friend <persName ref="./Personography.xml#GilbD1">Giddy</persName> has<lb/>
-                        fallen off prodigiously - .<lb/>
-                        The production of the Judges against<lb/>
-                        the bill was as feeble an attempt<lb/>
-                        as could be made - It dared not<lb/>
+                        <placeName ref="./Placeography.xml#Edgeworthstown_IE">Edgeworthstown</placeName> <note>7</note>
+                        <placeName ref="./Placeography.xml#IE">Ireland</placeName>
+                        <date when="1807-01-25">25 Jan<hi rend="superscript">y </hi> 7. </date></dateline> 
                     
-                        <pb n="2" facs="Edgeworth_Geneve_33_2_1816_05_06_page02.jpg"/>
-                        be said that they wished to<lb/>
-                        preserve the arbitrary power<lb/>
-                        of dispensing life or death<lb/>
-                        but their opinions were brought<lb/>
-                        into court - Now the sense<lb/>
-                        of the whole nation will<lb/>
-                        go with the bill and the<lb/>
-                        opposition to it will reflect<lb/>
-                        disgrace and odium upon<lb/>
-                        the party who brought their<lb/>
-                        wretched daily <unclear>wailers</unclear> to stifle<lb/>
-                        reason &amp; humanity -<lb/></p>
+                        D<hi rend="superscript">r</hi> . <persName ref="./Personography.xml#DumoE1">Sir</persName></opener>
+                        <p> 
+                    
+                        I take the liberty of introducing to<lb/>
+                        you my son <persName ref="./Personography.xml#EdgeC1">C. Sneyd Edgeworth</persName>: He intends to<lb/>
+                        go to the Bar; and during the time that he is<lb/>
+                        eating his way to the Courts I cannot procure for<lb/>
+                        him any advantage so great, as the conversation of<lb/>
+                        such men as <persName ref="./Personography.xml#DumoE1">Monsieur Dumont.</persName><lb/></p>
                         <p>
-                        Alas! .. 60 .. constitutes a<lb/>
-                        house of commons when<lb/>
-                        the lives &amp; liberties of the<lb/>
-                        nation are discussed and<lb/>
-                        3 or 400 attend upon an<lb/>
-                        alteration in the game laws<lb/></p>
+                        Were he entirely ignorant of preliminary<lb/>
+                        studies even your conversation could not serve<lb/>
+                        him; but, if the partiality of a father has not<lb/>
+                        blinded me, I think you will find him to be<lb/>
+                        a young man of uncorrupted morals, good<lb/>
+                        manners, and free from that presumption<lb/>
+                        which frequently accompanies early talents.<lb/></p>
+                        <p>
+                        I hope that he has sufficient prudence to<lb/>
+                        restrain him from intruding too often, or<lb/>
+                        too long, upon your time: If from your<lb/>
+                        politeness or his indiscretion the contrary<lb/>
+                        should happen, I shall heartily regret having<lb/>
+                        written this letter.<lb/></p>
+                        <closer>
+                        I have the honour to be<lb/>
+                        my D<hi rend="superscript">r</hi> Sir<lb/>
+                        Your obedient &amp; humble<lb/>
+                        Servant<lb/>
+                        Rich<hi rend="superscript">d</hi> Lovell Edgeworth<lb/></closer>
                         
-                        <closer>Yours truly<lb/>
-                        <persName ref="./Personography.xml#EdgeR1">Rich<hi rend="superscript">d</hi> Lovell Edgeworth</persName><lb/></closer>
-                
-                
-                
+                   
+                    
             </div>
         </body>
         <back> </back>
     </text>
 </TEI>
+
 
