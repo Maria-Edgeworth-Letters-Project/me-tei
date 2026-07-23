@@ -27,7 +27,7 @@
                 </respStmt>
             </titleStmt>
             <editionStmt>
-                <edition>First digital edition in TEI,<date when="2026-04-09">April 30, 2026</date>
+                <edition>First digital edition in TEI,<date when="2026-07-23">July 23, 2026</date>
                     
                 </edition>
                 <respStmt>
@@ -59,7 +59,7 @@
                 <msDesc xml:lang="en">
                     
                     <msIdentifier>
-                        <repository>National Library of Scotland </repository>
+                        <repository>National Library of Scotland</repository>
                         
                     </msIdentifier>
                     <head>Letter from 
@@ -70,7 +70,7 @@
                             <idno type="VIAF">71477273</idno>
                             <idno type="SNAC">62567029</idno>
                         </persName>
-                        to <persName ref="./Personography.xml#ScotW1">Sir Walter Scott</persName>, <placeName><!--Location where letter was sent--></placeName>, 
+                        to <persName ref="./Personography.xml#ScotW1">Sir Walter Scott</persName> 
                         <date when="1824-07-06">July 6, 1824</date>
                         
                     </head>
@@ -117,7 +117,7 @@
                 </opener>
                 <p>
                      
-                    The enclosed specimen<lb/>
+                    The enclosed <title ref="./Workography.xml#Langa1">specimen</title><lb/>
                     of Irish vituperation is<lb/>
                     warranted genuine<lb/>
                     by the gentleman who<lb/>
@@ -134,21 +134,21 @@
                     even in my infinite conceit<lb/>
                     I respect the truth of <choice><orig>Na<lb/> 
                     ture</orig><reg>Nature</reg></choice> &amp; leave it all to<lb/>
-                    your Honor's honor-<lb/></p>
+                    your <persName ref="./Personography.xml#ScotW1">Honor's</persName> honor-<lb/></p>
                     <p>
                     I doubted whether<lb/>
-                    Paddy's land was a <choice><orig>ge<lb/>
+                    <placeName ref="./Placeography.xml#IE" cert="medium">Paddy's land</placeName> was a <choice><orig>ge<lb/>
                     nuine</orig><reg>genuine</reg></choice> expression, not<lb/>
                     
                     <pb n="2" facs="Edgeworth_NLS_3899_1824_07_06_page02.jpg"/>
                     having happened to hear<lb/>
                     it in our parts - &amp; I could<lb/>
                     have wished to have<lb/>
-                    substituted - the <hi rend="underline"><unclear></unclear>King</hi><lb/>
-                    <hi rend="underline">doms</hi> - or the <hi rend="underline">United</hi><lb/>
-                    <hi rend="underline">Kingdom</hi> - or <hi rend="underline">dear little</hi><lb/>
-                    <hi rend="underline">Dublin</hi> - or in the last<lb/>
-                    <del></del>extreme <hi rend="underline">Dunleary</hi><lb/>
+                    substituted - the <hi rend="underline">t'ree King</hi><lb/>
+                    <hi rend="underline">doms</hi> - or the <placeName ref="./Placeography.xml#GB"><hi rend="underline">United</hi><lb/>
+                    <hi rend="underline">Kingdom</hi></placeName> - or <hi rend="underline">dear little</hi><lb/>
+                    <placeName ref="./Placeography.xml#Dublin_IE"><hi rend="underline">Dublin</hi></placeName> - or in the last<lb/>
+                    <del></del>extreme <placeName ref="./Placeography.xml#Dún-Laoghaire_IE"><hi rend="underline">Dunleary</hi></placeName><lb/>
                     <hi rend="underline">- itself!</hi>- which according<lb/>
                     to my notions would<lb/>
                     have sounded more<lb/>
@@ -157,7 +157,7 @@
                     have not <hi rend="underline">spared diligence</hi><lb/>
                     as <persName ref="./Personography.xml#JohnS1">D.<hi rend="superscript">r</hi> Johnson</persName> would boast)<lb/>
                     I have satisfied myself<lb/>
-                    that Paddy's Land is the<lb/>
+                    that <placeName ref="./Placeography.xml#IE" cert="medium">Paddy's Land</placeName> is the<lb/>
                     true reading - or the true<lb/>
                     speaking - and I have<lb/>
                     restored the original - <choice><orig>sub<lb/>
@@ -167,17 +167,17 @@
                     <hi rend="underline">Let well alone</hi> - A proverb<lb/>
                     
                     <pb n="3" facs="Edgeworth_NLS_3899_1824_07_06_page03.jpg"/>
-                    <note>4</note>4
+                    <note>4</note>
                     I first heard from <persName ref="./Personography.xml#BailJ1">Joanna<lb/>
                     Baillie</persName> -<lb/></p>
                     <p>
                     I have just been reading<lb/>
-                    Reginald Dalton for<lb/>
+                    <title ref="./Workography.xml#Regin1">Reginald Dalton</title> for<lb/>
                     the second time - with<lb/>
                     very great pleasure - to<lb/>
                     some friends to whom<lb/>
-                    it was new <add>The story of this novel is so constructed that</add>- The <choice><orig>charac<lb/>
-                    ter</orig><reg>character</reg></choice> of Macdonald the<lb/>
+                    it was new <add>The story of this <title ref="./Workography.xml#Regin1">novel</title> is so constructed that</add>- The <choice><orig>charac<lb/>
+                    ter</orig><reg>character</reg></choice> of <title ref="./Workography.xml#Regin1">Macdonald</title> the<lb/>
                     father is admirable - There<lb/>
                     <add>just</add> is a depth of knowledge<lb/>
                     of human nature and<lb/>
@@ -185,25 +185,25 @@
                     <persName ref="./Personography.xml#LockJ1">author</persName> probably would<lb/>
                     shrink &amp; writhe at the<lb/>
                     idea of trusting it to the<lb/>
-                    reading of an Irish woman<lb/>
+                    reading of an <persName ref="./Personography.xml#EdgeM1">Irish woman</persName><lb/>
                     but give my services to<lb/>
                     him and assure him<lb/>
-                    that My Macdonald<lb/>
+                    that My <title ref="./Workography.xml#Regin1">Macdonald</title><lb/>
                     was heard with <choice><orig>unbound<lb/>
                     ed</orig><reg>unbounded</reg></choice> applause - Like Irish<lb/>
                     <persName ref="./Personography.xml#MackC1">Macklin</persName> of yore I ruled<lb/>
                     (not swore) that it <hi rend="underline">should</hi><lb/>
                     be Scotch, whatever it was<lb/></p>
                     <p>
-                    There was <add>in the <persName ref="./Personography.xml#LockJ1">author</persName> of Reg Dalton</add> great boldness<lb/>
+                    There was <add>in the <persName ref="./Personography.xml#LockJ1">author</persName> of <title ref="./Workography.xml#Regin1">Reg Dalton</title></add> great boldness<lb/>
                     curiosity is kept up &amp; baffled till the last<lb/>
                     
                     <pb n="4" facs="Edgeworth_NLS_3899_1824_07_06_page04.jpg"/>
                     - the boldness of a mind <choice><orig>se<lb/>
                     cure</orig><reg>secure</reg></choice> of original genius, in<lb/>
                     daring this character after<lb/>
-                    Sir Pertinax McSycophant<lb/>
-                    - It recalls Sir Partinax <hi rend="underline">only</hi><lb/>
+                    <title ref="./Workography.xml#Manof1">Sir Pertinax McSycophant</title><lb/>
+                    - It recalls <title ref="./Workography.xml#Manof1">Sir Pertinax</title> <hi rend="underline">only</hi><lb/>
                     by the excellence of the<lb/>
                     drawing of the master<lb/>
                     strokes, while it is open <choice><orig>essential<lb/>
@@ -213,16 +213,16 @@
                     <p>
                     Tell me how your dear<lb/>
                     <persName ref="./Personography.xml#LockS1">Sophia</persName> does and little<lb/>
-                    Johnny - our <persName ref="./Personography.xml#EdgeS1">Sophy</persName> is<lb/>
-                    now at Cheltenham with<lb/>
-                    her beloved &amp; has her sister<lb/>
+                    <persName ref="./Personography.xml#LockJ3">Johnny</persName> - our <persName ref="./Personography.xml#EdgeS1">Sophy</persName> is<lb/>
+                    now at  <placeName ref="./Placeography.xml#Cheltenham_ENK">Cheltenham</placeName> with<lb/>
+                    her <persName ref="./Personography.xml#FoxB1">beloved</persName> &amp; has her sister<lb/>
                     <persName ref="./Personography.xml#EdgeF3">Fanny</persName> with her - in<lb/>
                     a pretty cottage trellised<lb/>
                     with roses which she writes<lb/>
                     me word puts her in mind<lb/>
-                    of Chiefs Wood - her words are<lb/>
+                    of <placeName ref="./Placeography.xml#Chiefswood_STK">Chiefs Wood</placeName> - her words are<lb/>
                     "How little I thought when<lb/>
-                    "I was at dear Chiefs Wood<lb/>
+                    "I was at dear <placeName ref="./Placeography.xml#Chiefswood_STK">Chiefs Wood</placeName><lb/>
                     "last year that I should<lb/>
                     "myself so soon be enjoying<lb/>
                     the same sort of happiness<lb/></p>
