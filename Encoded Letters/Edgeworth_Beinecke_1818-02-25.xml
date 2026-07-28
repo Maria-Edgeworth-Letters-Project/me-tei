@@ -8,7 +8,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Letter from Maria Edgeworth to Mrs. Miles</title>
+            <title>Letter from Maria Edgeworth to Mrs. Miles, February 25, 1818</title>
             <author>
                <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
             </author>
@@ -27,6 +27,7 @@
             <respStmt>
                <resp>Reviewed by</resp>
                <persName>Robin Runia</persName>
+               <persName>Jessica Richard</persName>
             </respStmt>
          </titleStmt>
          <editionStmt>
@@ -92,6 +93,8 @@
          <change when="2024-08-09" who="Id_who">
             Robin Runia completed final editorial review on 08-09-2024.
          </change>
+         <change when="2026-07-28" who="Id_who">
+            Jessica Richard corrected transcription errors and TEI place name tags on 07-28-2026. </change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -100,7 +103,7 @@
             <pb n="1" facs="Edgeworth_Beinecke_1818-02-25_page01.jpg"/>
             <opener>
                <dateline>
-                  <placeName ref="./Placeography.xml#Edgeworthstown_IE"/>Edgeworth Town 1818
+                  <placeName ref="./Placeography.xml#Edgeworthstown_IE">Edgeworthstown</placeName> 1818
                   <date when="1818-02-25">Feb <hi rend="superscript">y</hi> 25</date>
                   <lb/>
                </dateline>
@@ -122,17 +125,17 @@
             you from the Post office, it is notwithstanding<lb/>
                <persName ref="./Personography.xml#WardX1">M<hi rend="superscript">r</hi> Wards</persName> believe to the contrary, most<lb/>
             probable that the packet never was franked<lb/>
-            by <persName ref="./Personography.xml#CrewX1">M<hi rend="superscript">r</hi> Crewe</persName> and was never put into the<lb/>
+            by <persName ref="./Personography.xml#CrewX1">M<hi rend="superscript">r</hi> Crewe</persName> and never was put into the<lb/>
                <pb n="2" facs="Edgeworth_Beinecke_1818-02-25_page02.jpg"/>
             Post office. My only remaining chance<lb/>
-            is to your having it to your own messenger or<lb/>
+            is to your tracing it to your own messenger or<lb/>
             to his own immaculate messenger -- <lb/>
             </p>
             <p>If as I believe that shawl cannot be <choice>
                   <orig>re<lb/>
             covered</orig>
                   <reg>recovered</reg>
-               </choice> I must set the loss down to the <unclear/>
+               </choice> I must set the loss down to the <unclear cert="low">anxiety</unclear>
                <lb/>
             of my own childish impatience &amp; after<lb/>
             this seven guinea check resolve to be wiser<lb/>
@@ -140,7 +143,7 @@
             else. My <hi rend="underline">eagerness</hi> however, (I won't call<lb/>
             it impatience this time) to present a shawl<lb/>
             to my dear Aunt, is yet unabated, but I will<lb/>
-            be wise and patient this time as to the means of getting it over - A friend<lb/>
+            be wise and patient this time as to the means of getting it over - A friend will<lb/>
             come over, in the course of the next month who<lb/>
             will bring it over &amp; in the course of the<lb/>
             next fortnight I will send you accurate<lb/>
@@ -150,12 +153,15 @@
             again, thus, Buy me a Crimson or a<lb/>
             </p>
             <pb n="3" facs="Edgeworth_Beinecke_1818-02-25_page03.jpg"/>
-            <p>Morone Colour, the border narrow, the border<lb/>
+            <p><choice>
+                  <orig>Morone</orig>
+                  <reg>maroon</reg>
+            </choice> Colour, the border narrow, the border<lb/>
             of the first white shawl you sent me, was<lb/>
             elegant, &amp; well put on, the border of the last<lb/>
             Green Shawl, was ill put on &amp; the corners<lb/>
             ill turned down, so that it betrayed it to be<lb/>
-            an imitation - I think more of the <unclear/>
+            an imitation - I think more of the <unclear>boaditng</unclear>
                <lb/>
             of the colour &amp; of the elegance of the border than<lb/>
             the size, the white shawl was quite large<lb/>
@@ -166,17 +172,14 @@
             </p>
             <p>Do pray tell me something of the Man<lb/>
             who is going out to <placeName ref="./Placeography.xml#IN">India</placeName> to improve the<lb/>
-               <unclear/> there? I have the great pleasure<lb/>
+               looms there? I have the great pleasure<lb/>
             to tell you that my <persName ref="./Personography.xml#EdgeR1">father</persName> has been consider<lb/>
             ably better for the last two or three days.<lb/>
             I hope this may find <persName ref="./Personography.xml#MileJ1">M<hi rend="superscript">r.</hi> Miles</persName> as well<lb/>
             as we wish him to be. I hope you received<lb/>
-            the draught for £6..10..0 - <lb/>
-            </p>
-            <closer>
-            I am dear<lb/>
+            the draught for £6..10..0 - I am dear<lb/>
             Madam <add>your</add> obliged and troublesome Servant<lb/>
-               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
+               </p> <closer><persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
                <lb/>
             </closer>
             <postscript>
@@ -185,12 +188,9 @@
             <closer>
                <address>
                   <pb n="4" facs="Edgeworth_Beinecke_1818-02-25_page04.jpg"/>
-                  <addrLine/>
-                  <persName ref="./Personography.xml#MileA1">M<hi rend="superscript">rs</hi>. Miles</persName>
-                  <addrLine>West End</addrLine>
-                  <lb/>
-                  <placeName ref="./Placeography.xml#Hampstead_ENK">Hampstead</placeName>
-               </address>
+                  <persName ref="./Personography.xml#MileA1">M<hi rend="superscript">rs</hi>. Miles</persName><lb/>
+                  <placeName ref="./Placeography.xml#West-End-Hampstead_ENK">West End</placeName><lb/>
+                  <placeName ref="./Placeography.xml#West-End-Hampstead_ENK">Hampstead</placeName></address>
             </closer>
          </div>
       </body>
