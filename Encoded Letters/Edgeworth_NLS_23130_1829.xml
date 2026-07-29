@@ -4,6 +4,8 @@
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="https://raw.githubusercontent.com/Maria-Edgeworth-Letters-Project/me-tei/refs/heads/main/melp.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
     ?>
+<?xml-model href="https://raw.githubusercontent.com/Maria-Edgeworth-Letters-Project/me-tei/refs/heads/main/melp_odd.rng" type="application/xml"​​ schematypens="http://relaxng.org/ns/structure/1.0"
+    ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -286,7 +288,8 @@
                best feelings must be destroyed ere it can be eradicated What then<lb/>
                remains - The only <unclear>idea</unclear> I see is to permit importatation from other <choice>
                   <orig>coun<lb/>
-               tries</orig><reg>countries</reg>
+               tries</orig>
+                  <reg>countries</reg>
                </choice>
                <lb/>
             </p>
@@ -299,7 +302,8 @@
                in physiology. Something must be done for there is an end of the Cantabit<lb/>
                vacuus the last prerogative of beggary which entitled him to laugh at the <unclear>
                   <choice>
-                     <orig>risque</orig><reg>risk</reg>
+                     <orig>risque</orig>
+                     <reg>risk</reg>
                   </choice>
                </unclear>
                <lb/>

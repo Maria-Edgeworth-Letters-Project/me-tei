@@ -4,6 +4,8 @@
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="https://raw.githubusercontent.com/Maria-Edgeworth-Letters-Project/me-tei/refs/heads/main/melp.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
     ?>
+<?xml-model href="https://raw.githubusercontent.com/Maria-Edgeworth-Letters-Project/me-tei/refs/heads/main/melp_odd.rng" type="application/xml"​​ schematypens="http://relaxng.org/ns/structure/1.0"
+    ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -306,11 +308,13 @@
             </p>
             <p>
                <persName ref="./Personography.xml#StaeA1">Madame de Stael</persName> said <add>to <persName ref="./Personography.xml#DumoE1">Dumont</persName>
-               </add> of <persName ref="./Personography.xml#MackJ2"><choice>
-                  <orig>M<hi rend="superscript">c</hi>.<lb/>
+               </add> of <persName ref="./Personography.xml#MackJ2">
+                  <choice>
+                     <orig>M<hi rend="superscript">c</hi>.<lb/>
                   Intosh</orig>
-                  <reg>McIntosh</reg>
-               </choice></persName> - " Vous ne pouvez' lui<lb/>
+                     <reg>McIntosh</reg>
+                  </choice>
+               </persName> - " Vous ne pouvez' lui<lb/>
                "faire un plus grand plaisir que<lb/>
                "lui voler une matinee" !! -<lb/>
             </p>

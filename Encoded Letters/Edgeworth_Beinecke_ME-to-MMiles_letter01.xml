@@ -4,6 +4,8 @@
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="https://raw.githubusercontent.com/Maria-Edgeworth-Letters-Project/me-tei/refs/heads/main/melp.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
     ?>
+<?xml-model href="https://raw.githubusercontent.com/Maria-Edgeworth-Letters-Project/me-tei/refs/heads/main/melp_odd.rng" type="application/xml"​​ schematypens="http://relaxng.org/ns/structure/1.0"
+    ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -93,7 +95,7 @@
             Robin Runia completed final editorial review on 08-21-2024.  
          </change>
          <change when="2026-07-01" who="Id_who">Jessica Richard updated tags for Mrs Ann Miles, Hoare, Robert Ward</change>
-         </revisionDesc>
+      </revisionDesc>
    </teiHeader>
    <text>
       <body>
@@ -102,7 +104,7 @@
             <opener>
                <salute>
                   My dear <persName ref="./Personography.xml#MileA1">Madam</persName>
-                     <lb/>
+                  <lb/>
                </salute>
             </opener>
             <p>We are most sincerely concerned for<lb/>

@@ -4,6 +4,8 @@
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="https://raw.githubusercontent.com/Maria-Edgeworth-Letters-Project/me-tei/refs/heads/main/melp.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
     ?>
+<?xml-model href="https://raw.githubusercontent.com/Maria-Edgeworth-Letters-Project/me-tei/refs/heads/main/melp_odd.rng" type="application/xml"​​ schematypens="http://relaxng.org/ns/structure/1.0"
+    ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -173,7 +175,8 @@
                my loves to carry to <persName ref="./Personography.xml#HoarF1">Miss<lb/>
                Robinson</persName> lest they should<lb/>
                trouble you or you <choice>
-                  <orig>sh<hi rend="superscript">d</hi></orig>
+                  <orig>sh<hi rend="superscript">d</hi>
+                  </orig>
                   <reg>should</reg>
                </choice> forget<lb/>
                them - </p>

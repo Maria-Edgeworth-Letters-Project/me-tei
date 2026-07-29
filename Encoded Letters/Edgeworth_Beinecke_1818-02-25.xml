@@ -4,6 +4,8 @@
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="https://raw.githubusercontent.com/Maria-Edgeworth-Letters-Project/me-tei/refs/heads/main/melp.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
     ?>
+<?xml-model href="https://raw.githubusercontent.com/Maria-Edgeworth-Letters-Project/me-tei/refs/heads/main/melp_odd.rng" type="application/xml"​​ schematypens="http://relaxng.org/ns/structure/1.0"
+    ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -153,15 +155,17 @@
             again, thus, Buy me a Crimson or a<lb/>
             </p>
             <pb n="3" facs="Edgeworth_Beinecke_1818-02-25_page03.jpg"/>
-            <p><choice>
+            <p>
+               <choice>
                   <orig>Morone</orig>
                   <reg>maroon</reg>
-            </choice> Colour, the border narrow, the border<lb/>
+               </choice> Colour, the border narrow, the border<lb/>
             of the first white shawl you sent me, was<lb/>
             elegant, &amp; well put on, the border of the last<lb/>
             Green Shawl, was ill put on &amp; the corners<lb/>
             ill turned down, so that it betrayed it to be<lb/>
-               an imitation - I think more of the <del/><unclear>beauty</unclear>
+               an imitation - I think more of the <del/>
+               <unclear>beauty</unclear>
                <lb/>
             of the colour &amp; of the elegance of the border than<lb/>
             the size, the white shawl was quite large<lb/>
@@ -177,20 +181,23 @@
             ably better for the last two or three days.<lb/>
             I hope this may find <persName ref="./Personography.xml#MileJ1">M<hi rend="superscript">r.</hi> Miles</persName> as well<lb/>
             as we wish him to be. I hope you received<lb/>
-            the draught for £6..10..0 - I am dear<lb/></p>
-               <closer>Madam <add>your</add> obliged and troublesome Servant<lb/>
-            <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName></closer>
-              
-            
+            the draught for £6..10..0 - I am dear<lb/>
+            </p>
+            <closer>Madam <add>your</add> obliged and troublesome Servant<lb/>
+               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
+            </closer>
             <postscript>
                <p/>
             </postscript>
             <closer>
                <address>
                   <pb n="4" facs="Edgeworth_Beinecke_1818-02-25_page04.jpg"/>
-                  <persName ref="./Personography.xml#MileA1">M<hi rend="superscript">rs</hi>. Miles</persName><lb/>
-                  <placeName ref="./Placeography.xml#West-End-Hampstead_ENK">West End</placeName><lb/>
-                  <placeName ref="./Placeography.xml#West-End-Hampstead_ENK">Hampstead</placeName></address>
+                  <persName ref="./Personography.xml#MileA1">M<hi rend="superscript">rs</hi>. Miles</persName>
+                  <lb/>
+                  <placeName ref="./Placeography.xml#West-End-Hampstead_ENK">West End</placeName>
+                  <lb/>
+                  <placeName ref="./Placeography.xml#West-End-Hampstead_ENK">Hampstead</placeName>
+               </address>
             </closer>
          </div>
       </body>

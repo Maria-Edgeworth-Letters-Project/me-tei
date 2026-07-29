@@ -4,6 +4,8 @@
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="https://raw.githubusercontent.com/Maria-Edgeworth-Letters-Project/me-tei/refs/heads/main/melp.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
     ?>
+<?xml-model href="https://raw.githubusercontent.com/Maria-Edgeworth-Letters-Project/me-tei/refs/heads/main/melp_odd.rng" type="application/xml"​​ schematypens="http://relaxng.org/ns/structure/1.0"
+    ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -119,7 +121,8 @@
             <note>2</note>
             <p>I promised you my dear <persName ref="./Personography.xml#HoarF1">Miss Robinson</persName> in <choice>
                   <orig>what-<lb/>
-                  -ever</orig><reg>whatever</reg>
+                  -ever</orig>
+                  <reg>whatever</reg>
                </choice> part of the World I might chance to reside, that I would<lb/>
                give you some account of the manners of the people I lived<lb/>
                amongst &amp; that I would communicate to you all my<lb/>

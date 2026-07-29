@@ -4,6 +4,8 @@
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="https://raw.githubusercontent.com/Maria-Edgeworth-Letters-Project/me-tei/refs/heads/main/melp.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
     ?>
+<?xml-model href="https://raw.githubusercontent.com/Maria-Edgeworth-Letters-Project/me-tei/refs/heads/main/melp_odd.rng" type="application/xml"​​ schematypens="http://relaxng.org/ns/structure/1.0"
+    ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -97,10 +99,10 @@
                   <date when="1816-08-04">August 4, 1816.</date>
                </dateline>
                <salute>
-                     <placeName ref="./Placeography.xml#Edinburgh_STK">Edin</placeName> - 10th November,
+                  <placeName ref="./Placeography.xml#Edinburgh_STK">Edin</placeName> - 10th November,
                             1814.
                             <persName ref="./Personography.xml#EdgeM1">Madam,</persName>
-                     <lb/>
+                  <lb/>
                </salute>
             </opener>
             <p>

@@ -4,6 +4,8 @@
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="https://raw.githubusercontent.com/Maria-Edgeworth-Letters-Project/me-tei/refs/heads/main/melp.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
     ?>
+<?xml-model href="https://raw.githubusercontent.com/Maria-Edgeworth-Letters-Project/me-tei/refs/heads/main/melp_odd.rng" type="application/xml"​​ schematypens="http://relaxng.org/ns/structure/1.0"
+    ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -93,7 +95,8 @@
             <pb n="1" facs="Edgeworth_Princeton_1817-09-05_page01.jpg"/>
             <opener>
                <dateline>
-                  <placeName ref="./Placeography.xml#Edgeworthstown_IE">Edgeworthstown</placeName><lb/>
+                  <placeName ref="./Placeography.xml#Edgeworthstown_IE">Edgeworthstown</placeName>
+                  <lb/>
                   <date when="1817-09-05">
                      <choice>
                         <orig>Sept<hi rend="superscript">r</hi>.</orig>
@@ -271,7 +274,9 @@
                of <title ref="./Workography.xml#Harri1">
                   <choice>
                      <orig>Har<hi rend="superscript">on</hi>.</orig>
-                     <reg>Harrington</reg></choice></title> &amp; <title ref="./Workography.xml#Ormon1">Ormond</title>. - Believe me I am as grateful<lb/>
+                     <reg>Harrington</reg>
+                  </choice>
+               </title> &amp; <title ref="./Workography.xml#Ormon1">Ormond</title>. - Believe me I am as grateful<lb/>
                for those exertions as I was at the time I so<lb/>
                anxiously urged them. - You will not find<lb/>
                that <del>you</del> I shall object to any thing that you<lb/>

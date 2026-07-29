@@ -3,6 +3,8 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="https://raw.githubusercontent.com/Maria-Edgeworth-Letters-Project/me-tei/refs/heads/main/melp.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/Maria-Edgeworth-Letters-Project/me-tei/refs/heads/main/melp_odd.rng" type="application/xml"​​ schematypens="http://relaxng.org/ns/structure/1.0"
+    ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -48,17 +50,15 @@
                </p>
                <licence target="https://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons Attribution 4.0 (CC BY 4.0) Unported License</licence>
             </availability>
-            <idno>Edgeworth_Geneve_33_2_1816_08_14</idno> 
+            <idno>Edgeworth_Geneve_33_2_1816_08_14</idno>
          </publicationStmt>
          <seriesStmt>
             <title>Maria Edgeworth Letters Project</title>
          </seriesStmt>
          <sourceDesc>
-            <msDesc xml:lang="en">
-               <!-- This section of the header identifies the original manuscript source. -->
+            <msDesc xml:lang="en"><!-- This section of the header identifies the original manuscript source. -->
                <msIdentifier>
                   <repository>Bibliotheque de Geneve</repository>
-                 
                </msIdentifier>
                <head>Letter from 
                   <persName xml:id="EdgeM1" from="1768" to="1849">
@@ -72,18 +72,14 @@
                   <date when="1816-08-14"><!-- Transcribe the date as it appears on the letter itself. Enter a numeric standardized date value in @when. --></date>
                   <!-- <stamp>Enter description, if applicable</stamp>-->
                </head>
-               <physDesc>
-                  <!-- optional physical description of the letter goes here: paper size and condition, seal, postmarks, etc.-->
-               </physDesc>
+               <physDesc><!-- optional physical description of the letter goes here: paper size and condition, seal, postmarks, etc.--></physDesc>
             </msDesc>
             <bibl>In addition to our edited version, this letter was previously published in
-               <!--complete bibiographical info if letter was published in a book here - if not delete-->
-            </bibl>
+               <!--complete bibiographical info if letter was published in a book here - if not delete--></bibl>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <editorialDecl>
-            <!--Where Edgeworth uses nonstandard spelling and hyphenation of words, transcriber-coders 
+         <editorialDecl><!--Where Edgeworth uses nonstandard spelling and hyphenation of words, transcriber-coders 
                should use TEI elements “choice," “sic," and “reg" to encode both Edgeworth’s 
                spelling and the regular international standard of Oxford English spelling, 
                following the first listed spelling in the Oxford English Dictionary. -->
@@ -101,9 +97,7 @@
          </correspDesc>
       </profileDesc>
       <revisionDesc>
-         <change when="2021-01-01" who="Id_who">
-            <!--Brief description of what you did here.-->
-         </change>
+         <change when="2021-01-01" who="Id_who"><!--Brief description of what you did here.--></change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -114,24 +108,34 @@
             <opener>
                <dateline><!--If there's no date line, remove this element. Record in the order in which it is written on the letter.-->
                   <placeName ref="./Placeography.xml#Edgeworthstown_IE">Edgeworth's Town</placeName>
-                  <date when="1816-08-14">Aug<hi rend="superscript">st</hi> 14<hi rend="superscript">th</hi>. 1816</date></dateline>
-              
+                  <date when="1816-08-14">Aug<hi rend="superscript">st</hi> 14<hi rend="superscript">th</hi>. 1816</date>
+               </dateline>
             </opener>
             <p>
-               My dear <persName ref="./Personography.xml#LansL1">Lady Lansdowne</persName><lb/>
+               My dear <persName ref="./Personography.xml#LansL1">Lady Lansdowne</persName>
+               <lb/>
                <hi rend="underline">Can</hi> you think of me when<lb/>
                you are so far away? - Yes<lb/>
                I must believe that you<lb/>
-               <hi rend="underline">can</hi> since you were so <choice><orig>incre<lb/>dibly</orig><reg>incredibly</reg></choice>
+               <hi rend="underline">can</hi> since you were so <choice>
+                  <orig>incre<lb/>dibly</orig>
+                  <reg>incredibly</reg>
+               </choice>
                kind as to write to<lb/>
                me the very day before you<lb/>
                left <placeName ref="./Placeography.xml#ENK">England</placeName> - I assure you<lb/>
                that if you had not written<lb/>
-               I never should have <choice><orig>sus-<lb/>pected</orig><reg>suspected</reg></choice>
+               I never should have <choice>
+                  <orig>sus-<lb/>pected</orig>
+                  <reg>suspected</reg>
+               </choice>
                you of neglecting<lb/>
                either my father or myself<lb/>
                so firm is my opinion of<lb/>
-               the constancy of your <choice><orig>re-<lb/>gard</orig><reg>regard</reg></choice>
+               the constancy of your <choice>
+                  <orig>re-<lb/>gard</orig>
+                  <reg>regard</reg>
+               </choice>
                for those whom you<lb/>
                have once honored with<lb/>
                any portion of your great esteem.<lb/>
@@ -139,23 +143,28 @@
             <p>
                I regret that letter of yours<lb/>
                which is lying at the dead<lb/>
-               letter office at <placeName ref="./Placeography.xml#Canterbury_ENK">Canterbury</placeName><lb/>
+               letter office at <placeName ref="./Placeography.xml#Canterbury_ENK">Canterbury</placeName>
+               <lb/>
                <note place="top">119</note>
-               
                <pb n="2" facs="Edgeworth_Geneve_33_2_1816_08_14_page02.jpg"/>
                I rather think that one of<lb/>
                mine has not reached you<lb/>
                but I cannot recollect any<lb/>
                thing it contained except<lb/>
                a translation of some French<lb/>
-               lines of <persName ref="./Personography.xml#BerqA1">Arnauds</persName> <hi rend="underline">on a leaf</hi><lb/>
+               lines of <persName ref="./Personography.xml#BerqA1">Arnauds</persName>
+               <hi rend="underline">on a leaf</hi>
+               <lb/>
                which my <persName ref="./Personography.xml#EdgeR1">father</persName> sent.<lb/>
             </p>
             <p>
                This note probably will<lb/>
                find you at <placeName ref="./Placeography.xml#Geneva_SZ">Geneva</placeName>. I hope<lb/>
                you will have the goodness<lb/>
-               to remember us <choice><orig>affectionate<lb/>=ly</orig><reg>affectionately</reg></choice>
+               to remember us <choice>
+                  <orig>affectionate<lb/>=ly</orig>
+                  <reg>affectionately</reg>
+               </choice>
                to our friends there -<lb/>
                especially to excellent <persName ref="./Personography.xml#DumoE1">M. <lb/>Dumont</persName>
                . - tho he has been<lb/>
@@ -163,47 +172,74 @@
                - not one letter have we<lb/>
                received from him since<lb/>
                he went to <placeName ref="./Placeography.xml#Geneva_SZ">Geneva</placeName> - Is he so<lb/>
-               taken up in making <add>new</add> <choice><orig>consti<lb/>-tutions</orig><reg>constitutions</reg></choice>
+               taken up in making <add>new</add>
+               <choice>
+                  <orig>consti<lb/>-tutions</orig>
+                  <reg>constitutions</reg>
+               </choice>
                that he cannot write<lb/>
                a letter to his old friends ? -<lb/>
             </p>
             <p>
                - But I have no right to reproach<lb/>
                my friends much for not<lb/>
-               writing as I am so very <hi rend="underline">lazy</hi><lb/>
-               myself - I enclose a <hi rend="underline">notice</hi><lb/>
-               
+               writing as I am so very <hi rend="underline">lazy</hi>
+               <lb/>
+               myself - I enclose a <hi rend="underline">notice</hi>
+               <lb/>
                <pb n="3" facs="Edgeworth_Geneve_33_2_1816_08_14_page03.jpg"/>
                which I wrote <del>for</del> as a tribute<lb/>
                of regard to my friend <persName ref="./Personography.xml#HamiE1">M<hi rend="superscript">rs</hi>.<lb/>Elizabeth Hamilton</persName>
                whose<lb/>
                death probably you have<lb/>
-               seen in the papers - I <choice><orig>remem<lb/>ber</orig><reg>remember</reg></choice>
+               seen in the papers - I <choice>
+                  <orig>remem<lb/>ber</orig>
+                  <reg>remember</reg>
+               </choice>
                10 or 12 years ago <persName ref="./Personography.xml#PictM1">M.<lb/> Pictet</persName>
-                gave a very good <choice><orig>ac<lb/>count</orig><reg>account</reg></choice>
-               in his journal <title ref="./Workography.xml#Bibli2"><choice><orig>Bri-<lb/>-tannique</orig><reg>Britannique</reg></choice></title>
-               of <persName ref="./Personography.xml#HamiE1">M<hi rend="superscript">rs</hi>. Hamilton's</persName><lb/>
-               letters on Education - <choice><orig>Per-<lb/>haps></orig><reg>Perhaps</reg></choice>
+                gave a very good <choice>
+                  <orig>ac<lb/>count</orig>
+                  <reg>account</reg>
+               </choice>
+               in his journal <title ref="./Workography.xml#Bibli2">
+                  <choice>
+                     <orig>Bri-<lb/>-tannique</orig>
+                     <reg>Britannique</reg>
+                  </choice>
+               </title>
+               of <persName ref="./Personography.xml#HamiE1">M<hi rend="superscript">rs</hi>. Hamilton's</persName>
+               <lb/>
+               letters on Education - <choice>
+                  <orig>Per-<lb/>haps&gt;</orig>
+                  <reg>Perhaps</reg>
+               </choice>
                he may now like<lb/>
                to see this <hi rend="underline">notice</hi> &amp; I hope he<lb/>
                will take some means<lb/>
-               of doing justice to her <choice><orig>me<lb/>-mory</orig><reg>memory</reg></choice>
+               of doing justice to her <choice>
+                  <orig>me<lb/>-mory</orig>
+                  <reg>memory</reg>
+               </choice>
                either in the French<lb/>
-               papers or journals - <del><unclear>Does</unclear></del><lb/>
-               Is the <title ref="./Workography.xml#Bibli2">Journal Britannique</title><lb/>
+               papers or journals - <del>
+                  <unclear>Does</unclear>
+               </del>
+               <lb/>
+               Is the <title ref="./Workography.xml#Bibli2">Journal Britannique</title>
+               <lb/>
                still continued ? -<lb/>
             </p>
             <p>
-               I hope my dear <persName ref="./Personography.xml#LansL1">Lady<lb/> Lansdowne</persName><lb/>
+               I hope my dear <persName ref="./Personography.xml#LansL1">Lady<lb/> Lansdowne</persName>
+               <lb/>
                you will do<lb/>
                me the favor to write and<lb/>
                tell me <del>the</del> how you like<lb/>
                <placeName ref="./Placeography.xml#SZ">Switzerland</placeName> - &amp; <placeName ref="./Placeography.xml#IT">Italy</placeName> -<lb/>
-               I hope you will not see <hi rend="underline">all</hi><lb/>
+               I hope you will not see <hi rend="underline">all</hi>
+               <lb/>
                the churches &amp; palaces which<lb/>
-               
-              <note place="top">120</note>
-               
+               <note place="top">120</note>
                <pb n="4" facs="Edgeworth_Geneve_33_2_1816_08_14_page04.jpg"/>
                <persName ref="./Personography.xml#EustJ1">Eustace</persName> describes - Half of them<lb/>
                I think would be quite enough<lb/>
@@ -211,25 +247,41 @@
                an indigestion a surfeit of<lb/>
                churches &amp; palaces - And I<lb/>
                thought I never should have<lb/>
-               got alive out of the <placeName ref="./Placeography.xml#Vatican-City_IT">Vatican</placeName><lb/>
+               got alive out of the <placeName ref="./Placeography.xml#Vatican-City_IT">Vatican</placeName>
+               <lb/>
                I was so tired of it - Nevertheless<lb/>
                I acknowledge that many parts<lb/>
                of the <title ref="./Workography.xml#Class1">book</title> are very eloquent -<lb/>
                - But there is too much of every<lb/>
-               thing - &amp; especially too much <hi rend="underline">fine</hi><lb/>
+               thing - &amp; especially too much <hi rend="underline">fine</hi>
+               <lb/>
                <hi rend="underline">writing</hi> -<lb/>
             </p>
             <p>
-               I think <persName ref="./Personography.xml#ByroG1">Lord</persName> &amp; <persName ref="./Personography.xml#ByroA1">Lady Byron's</persName> <choice><orig>af-<lb/>fair</orig><reg>affair</reg></choice>
+               I think <persName ref="./Personography.xml#ByroG1">Lord</persName> &amp; <persName ref="./Personography.xml#ByroA1">Lady Byron's</persName>
+               <choice>
+                  <orig>af-<lb/>fair</orig>
+                  <reg>affair</reg>
+               </choice>
                was all settled before<lb/>
                you left <placeName ref="./Placeography.xml#ENK">England</placeName> &amp; that he<lb/>
-               had gone off with the <choice><orig>univer<lb/>sal</orig><reg>universal</reg></choice>
+               had gone off with the <choice>
+                  <orig>univer<lb/>sal</orig>
+                  <reg>universal</reg>
+               </choice>
                execration of <placeName ref="./Placeography.xml#ENK">England</placeName>.<lb/>
             </p>
             <p>
                - Perhaps you will meet<lb/>
-               him again in <placeName ref="./Placeography.xml#SZ"><choice><orig>Swisserland</orig><reg>Switzerland</reg></choice></placeName><lb/>
-               I hear he is now at <placeName ref="./Placeography.xml#Geneva_SZ">Geneva</placeName><lb/>
+               him again in <placeName ref="./Placeography.xml#SZ">
+                  <choice>
+                     <orig>Swisserland</orig>
+                     <reg>Switzerland</reg>
+                  </choice>
+               </placeName>
+               <lb/>
+               I hear he is now at <placeName ref="./Placeography.xml#Geneva_SZ">Geneva</placeName>
+               <lb/>
             </p>
             <p>
                - How <persName ref="./Personography.xml#StaeA1">Madame de Stael</persName> &amp; he<lb/>
@@ -238,13 +290,19 @@
                now &amp; then relieved &amp; refresh<lb/>
                ed with a little common-<lb/>
                sense from you &amp; <persName ref="./Personography.xml#LansH1">Lord Lans-<lb/>downe</persName>
-               - <persName ref="./Personography.xml#LambC1">Lady Caroline Lamb</persName><lb/>
+               - <persName ref="./Personography.xml#LambC1">Lady Caroline Lamb</persName>
+               <lb/>
                has just published a <title ref="./Workography.xml#Glena1">book</title> in<lb/>
                which there is not one grain<lb/>
-               of common sense &amp; no <unclear>pretence</unclear><lb/>
-               
+               of common sense &amp; no <unclear>pretence</unclear>
+               <lb/>
                <pb n="5" facs="Edgeworth_Geneve_33_2_1816_08_14_page05.jpg"/>
-               - something a little unintelligible about <hi rend="underline"><choice><orig>aberra-<lb/>-tions</orig><reg>aberrations</reg></choice></hi>
+               - something a little unintelligible about <hi rend="underline">
+                  <choice>
+                     <orig>aberra-<lb/>-tions</orig>
+                     <reg>aberrations</reg>
+                  </choice>
+               </hi>
                &amp; radiance &amp; gas &amp; sparks &amp; corrosive<lb/>
                air oxydating the brain - but if men of science<lb/>
                will not insist upon exactness or sense it will<lb/>
@@ -253,7 +311,8 @@
                <persName ref="./Personography.xml#LansL1">Lady L</persName> give any copy of the lines because<lb/>
                I promised that you sh<hi rend="superscript">d</hi> not - The lines are<lb/>
                not written by any of my <persName ref="./Personography.xml#EdgeX3">family</persName> I assure<lb/>
-               you upon my word &amp; I trust you believe I w<hi rend="superscript">d</hi><lb/>
+               you upon my word &amp; I trust you believe I w<hi rend="superscript">d</hi>
+               <lb/>
                not put my <hi rend="underline">word</hi> to a falsehood. They were<lb/>
                written by a young gentleman whom I never<lb/>
                saw &amp; whose name I have not been able<lb/>
@@ -283,9 +342,11 @@
                All the young people of this <persName ref="./Personography.xml#EdgeX3">family</persName> remember<lb/>
                you with pleasure as lively as if they had seen<lb/>
                you but yesterday - There is one walk you went<lb/>
-               with us which has ever since been called the <persName ref="./Personography.xml#LansL1"><hi rend="underline">Lansdowne</hi></persName><lb/>
+               with us which has ever since been called the <persName ref="./Personography.xml#LansL1">
+                  <hi rend="underline">Lansdowne</hi>
+               </persName>
+               <lb/>
                walk - &amp; a stool you sat on in my room goes by<lb/>
-               
                <pb n="6" facs="Edgeworth_Geneve_33_2_1816_08_14_page06.jpg"/>
                the name of the <persName ref="./Personography.xml#LansL1">Lansdowne</persName> stool - your dear<lb/>
                <hi rend="underline">first happy home after your marriage</hi> hangs over<lb/>
@@ -298,10 +359,13 @@
             </p>
             <p>
                <persName ref="./Personography.xml#EdgeF2">M<hi rend="superscript">rs</hi>. Edgeworth</persName> &amp; my <persName ref="./Personography.xml#EdgeR1">father</persName> present their<lb/>
-               affectionate respects to you &amp; to <persName ref="./Personography.xml#LansH1">Lord Lansdowne</persName><lb/>
+               affectionate respects to you &amp; to <persName ref="./Personography.xml#LansH1">Lord Lansdowne</persName>
+               <lb/>
             </p>
             <p>
-               I <del><unclear>rather</unclear></del> flatter myself that he does not<lb/>
+               I <del>
+                  <unclear>rather</unclear>
+               </del> flatter myself that he does not<lb/>
                quite forget me - If he could know with what<lb/>
                delight my <persName ref="./Personography.xml#EdgeR1">father</persName> in the midst of his worst<lb/>
                illness last <del>year</del> Session read <persName ref="./Personography.xml#LansH1">Lord L's</persName> speeches<lb/>
@@ -311,28 +375,25 @@
                Pray write to me &amp; convince me<lb/>
                that my letters are not troublesome<lb/>
                to you abroad<lb/>
-               
                <note place="top">121</note>
-               
-               
-            
             </p>
-            
             <closer>
-               Your <persName ref="./Personography.xml#LansL1">Ladyship</persName><lb/>
+               Your <persName ref="./Personography.xml#LansL1">Ladyship</persName>
+               <lb/>
                affectionate &amp;<lb/>
                sincere<lb/>
-               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName><lb/>
+               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
+               <lb/>
             </closer>
-           
             <closer><!--Use the <closer> element again to hold Address Leaf information.-->
                <address>
-                  <addrLine/><persName ref="./Personography.xml#LansL1">the Marchioness of Lansdowne</persName>
+                  <addrLine/>
+                  <persName ref="./Personography.xml#LansL1">the Marchioness of Lansdowne</persName>
                   <addrLine/>
                </address>
             </closer>
          </div>
       </body>
-      <back> </back>
+      <back/>
    </text>
 </TEI>
