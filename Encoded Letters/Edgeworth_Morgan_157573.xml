@@ -4,6 +4,8 @@
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="https://raw.githubusercontent.com/Maria-Edgeworth-Letters-Project/me-tei/refs/heads/main/melp.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
     ?>
+<?xml-model href="https://raw.githubusercontent.com/Maria-Edgeworth-Letters-Project/me-tei/refs/heads/main/melp_odd.rng" type="application/xml"​​ schematypens="http://relaxng.org/ns/structure/1.0"
+    ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -105,10 +107,10 @@
                     he was so kind whenever<lb/>
                     he saw them at <persName ref="./Personography.xml#BumfM1">Madame<lb/>
                         de Bumford's</persName>--at the <choice>
-                     <orig>Ob-<lb/>
+                  <orig>Ob-<lb/>
                             servatory</orig>
-                     <reg>Observatory</reg>
-                  </choice>
+                  <reg>Observatory</reg>
+               </choice>
                 - and at <placeName ref="./Placeography.xml#Chamousey_XX">
                   <unclear>Chamousey</unclear>
                </placeName>

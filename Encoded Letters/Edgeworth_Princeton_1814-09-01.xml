@@ -4,6 +4,8 @@
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="https://raw.githubusercontent.com/Maria-Edgeworth-Letters-Project/me-tei/refs/heads/main/melp.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
     ?>
+<?xml-model href="https://raw.githubusercontent.com/Maria-Edgeworth-Letters-Project/me-tei/refs/heads/main/melp_odd.rng" type="application/xml"​​ schematypens="http://relaxng.org/ns/structure/1.0"
+    ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -92,11 +94,11 @@
       <body>
          <div type="letter">
             <pb n="1" facs="Edgeworth_Princeton_1814-09-01_page01.jpg"/>
-               <head>
+            <head>
                   Written by <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
                   Signed by <persName ref="./Personography.xml#EdgeR1">R.L. Edgeworth</persName>
-               </head>
-               <opener>
+            </head>
+            <opener>
                <dateline>
                   <placeName ref="./Placeography.xml#Edgeworthstown_IE">Edgeworths Town</placeName>
                   <add>

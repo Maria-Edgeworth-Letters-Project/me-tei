@@ -3,120 +3,112 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="https://raw.githubusercontent.com/Maria-Edgeworth-Letters-Project/me-tei/refs/heads/main/melp.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/Maria-Edgeworth-Letters-Project/me-tei/refs/heads/main/melp_odd.rng" type="application/xml"​​ schematypens="http://relaxng.org/ns/structure/1.0"
+    ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>Letter from Richard Lovell Edgeworth to Étienne Dumont, April 23, 1810</title>
-                <author>Richard Lovell Edgeworth</author>
-                <editor>
-                    
-                </editor>
-                <sponsor>
-                    <orgName>Maria Edgeworth Letters Project</orgName>
-                </sponsor>
-                <sponsor>Texas A &amp;M University, University of Tennessee, Wake Forest University, Xavier University of Louisiana, Southern Methodist University</sponsor>
-                <principal>Susan Egenolf, Meredith Hale, Hilary Havens, Jessica Richard, and Robin Runia</principal>
-                <respStmt>
-                    <resp>Transcription and coding by</resp>
-                    <persName>Paris Weber
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from Richard Lovell Edgeworth to Étienne Dumont, April 23, 1810</title>
+            <author>Richard Lovell Edgeworth</author>
+            <editor/>
+            <sponsor>
+               <orgName>Maria Edgeworth Letters Project</orgName>
+            </sponsor>
+            <sponsor>Texas A &amp;M University, University of Tennessee, Wake Forest University, Xavier University of Louisiana, Southern Methodist University</sponsor>
+            <principal>Susan Egenolf, Meredith Hale, Hilary Havens, Jessica Richard, and Robin Runia</principal>
+            <respStmt>
+               <resp>Transcription and coding by</resp>
+               <persName>Paris Weber
                     </persName>
-                    
-                </respStmt>
-            </titleStmt>
-            <editionStmt>
-                <edition>First digital edition in TEI,<date when="2026-06-17">June 17, 2026</date>
-                    
-                </edition>
-                <respStmt>
-                    <orgName type="naf" ref="https://d-nb.info/gnd/5075238-8">
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>First digital edition in TEI,<date when="2026-06-17">June 17, 2026</date>
+            </edition>
+            <respStmt>
+               <orgName type="naf" ref="https://d-nb.info/gnd/5075238-8">
                         Bibliothèques municipales de la Ville de Genève</orgName>
-                    
-                    
-                    <resp> photos include:
+               <resp> photos include:
                         Edgeworth_Geneve_33_2_1810_04_23_page01.jpg,
                         Edgeworth_Geneve_33_2_1810_04_23_page02.jpg,
                         Edgeworth_Geneve_33_2_1810_04_23_page03.jpg,
                         Edgeworth_Geneve_33_2_1810_04_23_page04.jpg
                         
                     </resp>
-                </respStmt>
-            </editionStmt>
-            <publicationStmt>
-                <authority>Maria Edgeworth Letters Project</authority>
-                <date>2022</date>
-                <availability>
-                    <p>Reproduced by courtesy of the <orgName ref="https://d-nb.info/gnd/5075238-8">Bibliothèques municipales de la Ville de Genève</orgName>
-                    </p>
-                    <licence target="https://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons Attribution 4.0 (CC BY 4.0) Unported License</licence>
-                </availability>
-                <idno>Edgeworth_Geneve_33_2_1810_04_23</idno> 
-            </publicationStmt>
-            <seriesStmt>
-                <title>Maria Edgeworth Letters Project</title>
-            </seriesStmt>
-            <sourceDesc>
-                <msDesc xml:lang="en">
-                    
-                    <msIdentifier>
-                        <repository>Bibliotheque de Geneve</repository>
-                        
-                    </msIdentifier>
-                    <head>Letter from 
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Maria Edgeworth Letters Project</authority>
+            <date>2022</date>
+            <availability>
+               <p>Reproduced by courtesy of the <orgName ref="https://d-nb.info/gnd/5075238-8">Bibliothèques municipales de la Ville de Genève</orgName>
+               </p>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons Attribution 4.0 (CC BY 4.0) Unported License</licence>
+            </availability>
+            <idno>Edgeworth_Geneve_33_2_1810_04_23</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Maria Edgeworth Letters Project</title>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <repository>Bibliotheque de Geneve</repository>
+               </msIdentifier>
+               <head>Letter from 
                         <persName ref="./Personography.xml#EdgeR1">
-                            <forename>Richard Lovell</forename>
-                            <surname>Edgeworth</surname>
-                            <date>1744-1817</date>
-                            <idno type="VIAF">66511092</idno>
-                            
-                        </persName>
+                     <forename>Richard Lovell</forename>
+                     <surname>Edgeworth</surname>
+                     <date>1744-1817</date>
+                     <idno type="VIAF">66511092</idno>
+                  </persName>
                         to <persName ref="./Personography.xml#DumoE1">Étienne Dumont</persName>,  
-                        <date when="1810-04-23">April 23, 1810</date> 
-                        
-                    </head>
-                    
-                </msDesc>
-                
-            </sourceDesc>
-        </fileDesc>
-        <encodingDesc>
-            <editorialDecl>
-                <p>Edgeworth’s spelling and punctuation are retained in transcription, including non-standard spelling, line breaks, and hyphenation of words. The long s and ligatured forms are silently emended.</p>
-            </editorialDecl>
-        </encodingDesc>
-        <profileDesc>
-            <correspDesc>
-                <correspAction type="sent">
-                    <persName ref="./Personography.xml#EdgeR1">Richard Lovell Edgeworth</persName>
-                </correspAction>
-                <correspAction type="received">
-                    <persName ref="./Personography.xml#DumoE1">
+                        <date when="1810-04-23">April 23, 1810</date>
+               </head>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>Edgeworth’s spelling and punctuation are retained in transcription, including non-standard spelling, line breaks, and hyphenation of words. The long s and ligatured forms are silently emended.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="./Personography.xml#EdgeR1">Richard Lovell Edgeworth</persName>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="./Personography.xml#DumoE1">
                         Étienne Dumont</persName>
-                </correspAction>
-            </correspDesc>
-        </profileDesc>
-        <revisionDesc>
-            <change when="2021-01-01" who="Id_who">
-                <!--Brief description of what you did here.-->
-            </change>
-        </revisionDesc>
-    </teiHeader>
-    <text>
-        <body>
-            <div type="letter">
-                <pb n="1" facs="Edgeworth_Geneve_33_2_1810_04_23_page01.jpg"/>
-                
-                <opener>
-                    <dateline> 
-                        <note>39</note>
-                        <placeName ref="./Placeography.xml#Edgeworthstown_IE">Edgeworth Town</placeName>
-                        <placeName ref="./Placeography.xml#IE">Ireland</placeName>
-                        <date when="1810-04-23">April 23<hi rend="superscript">d</hi></date></dateline></opener> 
-                  
-                   <p>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-01-01" who="Id_who"><!--Brief description of what you did here.--></change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <pb n="1" facs="Edgeworth_Geneve_33_2_1810_04_23_page01.jpg"/>
+            <opener>
+               <dateline>
+                  <note>39</note>
+                  <placeName ref="./Placeography.xml#Edgeworthstown_IE">Edgeworth Town</placeName>
+                  <placeName ref="./Placeography.xml#IE">Ireland</placeName>
+                  <date when="1810-04-23">April 23<hi rend="superscript">d</hi>
+                  </date>
+               </dateline>
+            </opener>
+            <p>
                        My dear <persName ref="./Personography.xml#DumoE1">Sir,</persName> and kind critic, <hi rend="underline">Why</hi> you<lb/>
-                       should bestow so much of your <choice><orig>inestima<lb/>
-                       ble</orig><reg>inestimable</reg></choice> time upon us is a question which I<lb/>
+                       should bestow so much of your <choice>
+                  <orig>inestima<lb/>
+                       ble</orig>
+                  <reg>inestimable</reg>
+               </choice> time upon us is a question which I<lb/>
                        cannot answer. To attribute it to your<lb/>
                        good nature would be sinning against<lb/>
                        the fundamental principles of our sect<lb/>
@@ -124,8 +116,9 @@
                        it was occasioned by our own deservings<lb/>
                        would be truly monstrous - So I will accept<lb/>
                        it purely as a favour &amp; as a great favour<lb/>
-                       I consider it.<lb/></p>
-                    <p>
+                       I consider it.<lb/>
+            </p>
+            <p>
                         The only return in my power for your<lb/>
                         kindness is to shew you that it has not<lb/>
                         been thrown away; I therefore trouble you<lb/>
@@ -133,53 +126,74 @@
                         minute more upon your leisure but<lb/>
                         to shew that I &amp; my little sect have<lb/>
                         spared no pains to improve the Chapter on<lb/>
-                    
-                    <pb n="2" facs="Edgeworth_Geneve_33_2_1810_04_23_page02.jpg"/>
-                        on statesmen from the judicious &amp; <choice><orig>com-<lb/>
-                        prehensive</orig><reg>comprehensive</reg></choice> remarks you had made.<lb/></p>
-                    <p>
-                        Beside the obligation which <del>you</del><lb/>
+               <pb n="2" facs="Edgeworth_Geneve_33_2_1810_04_23_page02.jpg"/>
+                        on statesmen from the judicious &amp; <choice>
+                  <orig>com-<lb/>
+                        prehensive</orig>
+                  <reg>comprehensive</reg>
+               </choice> remarks you had made.<lb/>
+            </p>
+            <p>
+                        Beside the obligation which <del>you</del>
+               <lb/>
                         I feel from the sacrifice you have made<lb/>
                         of your labor &amp; skill I have to redouble<lb/>
                         my thanks for your turning your thoughts<lb/>
                         towards us at a moment of the tenderest<lb/>
                         interest - I have also to thank you for<lb/>
-                        your kindness, your condescenscion <choice><orig>to.<lb/>
-                        wards</orig><reg>towards</reg></choice> <persName ref="./Personography.xml#EdgeC1">Sneyd</persName> - His mind is open to <choice><orig>know.<lb/>
-                        ledge</orig><reg>knowledge</reg></choice> &amp; counsel (and <add><unclear/></add> <persName ref="./Personography.xml#EdgeM1">Maria</persName> <del>adds</del><add>interpolates</add> he is of a most <choice><orig>affec.<lb/>
-                        tionate</orig><reg>affectionate</reg></choice> temper)- you know my agriculture<lb/>
+                        your kindness, your condescenscion <choice>
+                  <orig>to.<lb/>
+                        wards</orig>
+                  <reg>towards</reg>
+               </choice>
+               <persName ref="./Personography.xml#EdgeC1">Sneyd</persName> - His mind is open to <choice>
+                  <orig>know.<lb/>
+                        ledge</orig>
+                  <reg>knowledge</reg>
+               </choice> &amp; counsel (and <add>
+                  <unclear/>
+               </add>
+               <persName ref="./Personography.xml#EdgeM1">Maria</persName>
+               <del>adds</del>
+               <add>interpolates</add> he is of a most <choice>
+                  <orig>affec.<lb/>
+                        tionate</orig>
+                  <reg>affectionate</reg>
+               </choice> temper)- you know my agriculture<lb/>
                         for mental soil is to prepare it for the<lb/>
                         reception of good seed more than to<lb/>
                         plant it with any peculiar crop - To be<lb/>
                         able to think &amp; to take pleasure in the<lb/>
                         exercise of thought is not very common<lb/>
                         at present, every body remembers &amp; quotes<lb/>
-                        - few reflect -<lb/></p>
-                    <closer>
+                        - few reflect -<lb/>
+            </p>
+            <closer>
                         Your truly obliged friend<lb/>
-                        <persName ref="./Personography.xml#EdgeR1">Rich<hi rend="superscript">d</hi> Lovell Edgeworth</persName><lb/></closer>
-                    
-                <pb n="3" facs="Edgeworth_Geneve_33_2_1810_04_23_page03.jpg"/>
-                <note>40</note>
-                <postscript><p>
-                        <persName ref="./Personography.xml#EdgeM1">Maria</persName> is much flattered by your message to her<lb/>
+               <persName ref="./Personography.xml#EdgeR1">Rich<hi rend="superscript">d</hi> Lovell Edgeworth</persName>
+               <lb/>
+            </closer>
+            <pb n="3" facs="Edgeworth_Geneve_33_2_1810_04_23_page03.jpg"/>
+            <note>40</note>
+            <postscript>
+               <p>
+                  <persName ref="./Personography.xml#EdgeM1">Maria</persName> is much flattered by your message to her<lb/>
                         but she says she can consider it only as a polite<lb/>
-                        compliment till she sees you here<lb/></p></postscript>
-                    
-                <pb n="4" facs="Edgeworth_Geneve_33_2_1810_04_23_page04.jpg"/>
-                <closer>
+                        compliment till she sees you here<lb/>
+               </p>
+            </postscript>
+            <pb n="4" facs="Edgeworth_Geneve_33_2_1810_04_23_page04.jpg"/>
+            <closer>
                         To<lb/>
-                        <address>
-                            <persName ref="./Personography.xml#DumoE1">E. Dumont Esq<hi rend="superscript">re</hi>,</persName><addrLine/>
-                            <placeName ref="./Placeography.xml#Haymarket-19_ENK">19. Haymarket-</placeName> <addrLine/></address>
-                    </closer>
-                    
-                
-                
-                
-            </div>
-        </body>
-        <back> </back>
-    </text>
+               <address>
+                  <persName ref="./Personography.xml#DumoE1">E. Dumont Esq<hi rend="superscript">re</hi>,</persName>
+                  <addrLine/>
+                  <placeName ref="./Placeography.xml#Haymarket-19_ENK">19. Haymarket-</placeName>
+                  <addrLine/>
+               </address>
+            </closer>
+         </div>
+      </body>
+      <back/>
+   </text>
 </TEI>
-

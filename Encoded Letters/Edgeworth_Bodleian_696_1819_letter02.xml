@@ -3,6 +3,8 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="https://raw.githubusercontent.com/Maria-Edgeworth-Letters-Project/me-tei/refs/heads/main/melp.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/Maria-Edgeworth-Letters-Project/me-tei/refs/heads/main/melp_odd.rng" type="application/xml"​​ schematypens="http://relaxng.org/ns/structure/1.0"
+    ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -28,13 +30,11 @@
             </respStmt>
          </titleStmt>
          <editionStmt>
-            <edition>First digital edition in TEI, date: <date when="2026-01-23">
-            </date>
+            <edition>First digital edition in TEI, date: <date when="2026-01-23"/>
             </edition>
             <respStmt>
-               <orgName 
-                     ref="/http://id.loc.gov/authorities/names/n80020306">Bodleian Library</orgName>
-                  <resp> photos include:
+               <orgName ref="/http://id.loc.gov/authorities/names/n80020306">Bodleian Library</orgName>
+               <resp> photos include:
                      Edgeworth_Bodleian_696_1819_letter02_page01.jpg,
                      Edgeworth_Bodleian_696_1819_letter02_page02.jpg,
                      Edgeworth_Bodleian_696_1819_letter02_page03.jpg,
@@ -48,16 +48,15 @@
             <availability>
                <p>Reproduced by courtesy of <orgName ref="http://id.loc.gov/authorities/names/n80020306"> Bodleian Library</orgName>
                </p>
-            <licence target="https://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons Attribution 4.0 (CC BY 4.0) Unported License</licence>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons Attribution 4.0 (CC BY 4.0) Unported License</licence>
             </availability>
-            <idno>Edgeworth_Bodleian_696_1819_letter02</idno> 
+            <idno>Edgeworth_Bodleian_696_1819_letter02</idno>
          </publicationStmt>
          <seriesStmt>
             <title>Maria Edgeworth Letters Project</title>
          </seriesStmt>
          <sourceDesc>
-            <msDesc xml:lang="en">
-               <!-- This section of the header identifies the original manuscript source. -->
+            <msDesc xml:lang="en"><!-- This section of the header identifies the original manuscript source. -->
                <msIdentifier>
                   <repository>Bodleian Library</repository>
                   <collection>MS. Eng. lett. c. 696</collection>
@@ -71,19 +70,16 @@
                      <idno type="SNAC">62567029</idno>
                   </persName>
                   to <persName ref="./Personography.xml#EdgeF2">Frances Anne Edgeworth, 1769-1865</persName>
-                  <date when="1819"></date>
+                  <date when="1819"/>
                </head>
-               <physDesc>
-               </physDesc>
+               <physDesc/>
             </msDesc>
             <bibl>In addition to our edited version, this letter was previously published in
-               <!--complete bibiographical info if letter was published in a book here - if not delete-->
-            </bibl>
+               <!--complete bibiographical info if letter was published in a book here - if not delete--></bibl>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <editorialDecl>
-            <!--Where Edgeworth uses nonstandard spelling and hyphenation of words, transcriber-coders 
+         <editorialDecl><!--Where Edgeworth uses nonstandard spelling and hyphenation of words, transcriber-coders 
                should use TEI elements “choice," “sic," and “reg" to encode both Edgeworth’s 
                spelling and the regular international standard of Oxford English spelling, 
                following the first listed spelling in the Oxford English Dictionary. -->
@@ -101,9 +97,7 @@
          </correspDesc>
       </profileDesc>
       <revisionDesc>
-         <change when="2021-01-01" who="Id_who">
-            <!--Brief description of what you did here.-->
-         </change>
+         <change when="2021-01-01" who="Id_who"><!--Brief description of what you did here.--></change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -121,30 +115,39 @@
                   Marcet</persName> (where we met <persName ref="./Personography.xml#MullF1" cert="low">M<hi rend="superscript">r</hi>. Muller</persName>)<lb/>
                your packet of letters was put<lb/>
                into our hands &amp; we ran to our<lb/>
-               own fireside to devour <del>the con</del><lb/>
+               own fireside to devour <del>the con</del>
+               <lb/>
                - Lest I should not have time<lb/>
                to say more let me make sure<lb/>
                of the most important thing<lb/>
-               I have to say.<lb/></p>
+               I have to say.<lb/>
+            </p>
             <p>That I entirely agree with<lb/>
                you that it would neither<lb/>
-               be prudent in her present <choice><orig>cir-<lb/>
-                     cumstances</orig><reg>circumstances</reg></choice> nor <hi rend="underline">proper</hi> in the<lb/>
+               be prudent in her present <choice>
+                  <orig>cir-<lb/>
+                     cumstances</orig>
+                  <reg>circumstances</reg>
+               </choice> nor <hi rend="underline">proper</hi> in the<lb/>
                eyes of the world for <persName ref="./Personography.xml#EdgeF3">Fanny</persName> to<lb/>
                <hi rend="underline">part</hi> company from me to<lb/>
                go even for a few days alone<lb/>
                to <placeName ref="./Placeography.xml#Harley-Street-31_ENK">31 Harley St<hi rend="superscript">t</hi>.</placeName> - This having<lb/>
                been my opinion before I knew<lb/>
-               it was yours and being <choice><orig>streng-<lb/>
-                     thened</orig><reg>strengthened</reg></choice> by the decided expression<lb/>
+               it was yours and being <choice>
+                  <orig>streng-<lb/>
+                     thened</orig>
+                  <reg>strengthened</reg>
+               </choice> by the decided expression<lb/>
                in your letter to <persName ref="./Personography.xml#EdgeF3">Fanny</persName> just<lb/>
                rec<hi rend="superscript">d</hi>. I have advised her by<lb/>
-               no means to go there alone <del>till</del><lb/>
+               no means to go there alone <del>till</del>
+               <lb/>
                at least till we hear again from<lb/>
                you - She will or has told you<lb/>
-               what passed between <persName ref="./Personography.xml#WilsL1">M<hi rend="superscript">r</hi>. L W</persName><lb/>
-               and her yesterday morning -<lb/> 
-               
+               what passed between <persName ref="./Personography.xml#WilsL1">M<hi rend="superscript">r</hi>. L W</persName>
+               <lb/>
+               and her yesterday morning -<lb/>
                <pb n="2" facs="Edgeworth_Bodleian_696_1819_letter02_page02.jpg"/>     
             in consequence of his promise<lb/> 
                that if she were in the house<lb/> 
@@ -152,17 +155,23 @@
                behave to her as a lover or<lb/> 
                pay her any peculiar attention<lb/> 
                she wished to spend some<lb/> 
-               days at <placeName ref="./Placeography.xml#Harley-Street-31_ENK">Harley S<hi rend="superscript">t</hi>.</placeName> without <persName ref="./Personography.xml#BeauH1"><choice><orig>Ho<lb/> 
-                  nora</orig><reg>Honora</reg></choice></persName> or me that she might<lb/> 
+               days at <placeName ref="./Placeography.xml#Harley-Street-31_ENK">Harley S<hi rend="superscript">t</hi>.</placeName> without <persName ref="./Personography.xml#BeauH1">
+                  <choice>
+                     <orig>Ho<lb/> 
+                  nora</orig>
+                     <reg>Honora</reg>
+                  </choice>
+               </persName> or me that she might<lb/> 
             see &amp; judge for herself.</p>
             <p>When I told her my<lb/> 
                reasons against this - &amp; in<lb/> 
                particular <del>stated</del> repeated<lb/> 
-               to her the advice <persName ref="./Personography.xml#EdgeR1">my father</persName><lb/> 
+               to her the advice <persName ref="./Personography.xml#EdgeR1">my father</persName>
+               <lb/> 
                gave me not to trust myself<lb/> 
-               alone with a man in whose<lb/> 
+               alone with a man in whose<lb/>
                <unclear>favor</unclear> my inclinations spoke<lb/> 
-               more than my judgment<lb/> 
+               more than my judgment<lb/>
                <persName ref="./Personography.xml#EdgeF3">Fanny</persName> most prudently &amp;<lb/> 
                kindly has yielded to me<lb/> 
                her wish &amp; says she is quite<lb/> 
@@ -170,26 +179,34 @@
                therefore was unwilling to<lb/> 
                write to ask your opinion<lb/> 
                further - That is to ask you<lb/> 
-               whether in consequence of<lb/> 
-            
+               whether in consequence of<lb/>
                <pb n="3" facs="Edgeworth_Bodleian_696_1819_letter02_page03.jpg"/>
-               has since passed between her &amp; <note>147</note><lb/> 
+               has since passed between her &amp; <note>147</note>
+               <lb/>
                <persName ref="./Personography.xml#WilsL1">L W</persName> the circumstances are<lb/> 
                so far altered that you would<lb/> 
                advise her to go there by her-<lb/> 
                self -</p>
             <p>They have but one small<lb/> 
-               spare room &amp; therefore <persName ref="./Personography.xml#EdgeF3"><choice><orig>F<add>anny</add></orig><reg>Fanny</reg></choice></persName> says<lb/> 
+               spare room &amp; therefore <persName ref="./Personography.xml#EdgeF3">
+                  <choice>
+                     <orig>F<add>anny</add>
+                     </orig>
+                     <reg>Fanny</reg>
+                  </choice>
+               </persName> says<lb/> 
                cannot ask us to be with her<lb/> 
                but that objection c<hi rend="superscript">d</hi>. I think be<lb/> 
                easily waived for I don't care<lb/> 
                into what space I am crammed<lb/> 
                - I can sleep in the bed with her<lb/> 
                - <persName ref="./Personography.xml#BeauH1">Honora</persName> could for a week<lb/> 
-               &amp; would I am sure go to <persName ref="./Personography.xml#EdgeC1">Sneyd</persName><lb/> 
+               &amp; would I am sure go to <persName ref="./Personography.xml#EdgeC1">Sneyd</persName>
+               <lb/> 
                - we cannot all have at<lb/> 
                every moment what is most<lb/> 
-               agreeable <del>But</del> <persName ref="./Personography.xml#BeauH1">Honora</persName> I am<lb/> 
+               agreeable <del>But</del>
+               <persName ref="./Personography.xml#BeauH1">Honora</persName> I am<lb/> 
                sure would be as willing<lb/> 
                as I am to do what may<lb/> 
                not be agreeable for the time<lb/> 
@@ -199,24 +216,33 @@
                be to thrust myself into a<lb/> 
                house Duenna = ways - the<lb/> 
                maiden's steps to haunt<lb/> 
-               &amp; in society that cannot<lb/> 
-            
+               &amp; in society that cannot<lb/>
                <pb n="4" facs="Edgeworth_Bodleian_696_1819_letter02_page04.jpg"/>
-               relish <hi rend="underline">me</hi> at any time - but<lb/> 
-               <del><unclear>all</unclear></del> this is to me as a feather<lb/> 
+               relish <hi rend="underline">me</hi> at any time - but<lb/>
+               <del>
+                  <unclear>all</unclear>
+               </del> this is to me as a feather<lb/> 
                in the balance compared<lb/> 
             with the object in view -</p>
             <p>I advise that she should<lb/> 
                remain with me to the<lb/> 
                end of the fortnight at <persName ref="./Personography.xml#WhitE1">Lady<lb/> 
-                  EW's</persName> - that she sh<hi rend="superscript">d</hi>. <del>dine</del><lb/> 
-               then go with me to <persName ref="./Personography.xml#CarrF1" cert="medium">M<hi rend="superscript">rs</hi>. Carr's</persName><lb/> 
-               <placeName ref="./Placeography.xml#Hampstead_ENK">Hampstead</placeName> or <persName ref="./Personography.xml#BailJ1">M<hi rend="superscript">rs</hi>. Baillie's</persName><lb/> 
+                  EW's</persName> - that she sh<hi rend="superscript">d</hi>. <del>dine</del>
+               <lb/> 
+               then go with me to <persName ref="./Personography.xml#CarrF1" cert="medium">M<hi rend="superscript">rs</hi>. Carr's</persName>
+               <lb/>
+               <placeName ref="./Placeography.xml#Hampstead_ENK">Hampstead</placeName> or <persName ref="./Personography.xml#BailJ1">M<hi rend="superscript">rs</hi>. Baillie's</persName>
+               <lb/> 
                or wherever we next deter-<lb/> 
                mine to go for another week<lb/> 
-               or so - and then if <persName ref="./Personography.xml#Wilso1">the Wilsons</persName><lb/> 
-               ask me to go with her to <placeName ref="./Placeography.xml#Harley-Street-31_ENK"><choice><orig>Har<lb/> 
-                  ley</orig><reg>Harley</reg></choice> S<hi rend="superscript">t</hi>.</placeName> I am ready to go<lb/> 
+               or so - and then if <persName ref="./Personography.xml#Wilso1">the Wilsons</persName>
+               <lb/> 
+               ask me to go with her to <placeName ref="./Placeography.xml#Harley-Street-31_ENK">
+                  <choice>
+                     <orig>Har<lb/> 
+                  ley</orig>
+                     <reg>Harley</reg>
+                  </choice> S<hi rend="superscript">t</hi>.</placeName> I am ready to go<lb/> 
                if you approve &amp; to stay<lb/> 
                as long or as short a time<lb/> 
                as <persName ref="./Personography.xml#EdgeF3">Fanny</persName> wishes.</p>
@@ -227,13 +253,14 @@
                with <persName ref="./Personography.xml#EdgeF3">F</persName> to <placeName ref="./Placeography.xml#Harley-Street-31_ENK">31 Harley S<hi rend="superscript">t</hi>.</placeName> to stay<lb/> 
                some time -<lb/> 
                or<lb/> 
-               Do you approve or not of<lb/> 
+               Do you approve or not of<lb/>
                <persName ref="./Personography.xml#EdgeF3">Fanny's</persName> going there by herself<lb/> 
                - I cannot write or think<lb/> 
             on any other subject at present</p>
-            <closer>truly affectionately y<hi rend="superscript">r</hi>. <persName ref="./Personography.xml#EdgeM1">Maria E.</persName></closer>
+            <closer>truly affectionately y<hi rend="superscript">r</hi>. <persName ref="./Personography.xml#EdgeM1">Maria E.</persName>
+            </closer>
          </div>
       </body>
-      <back> </back>
+      <back/>
    </text>
 </TEI>

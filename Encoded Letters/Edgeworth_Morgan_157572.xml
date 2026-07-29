@@ -4,6 +4,8 @@
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="https://raw.githubusercontent.com/Maria-Edgeworth-Letters-Project/me-tei/refs/heads/main/melp.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
     ?>
+<?xml-model href="https://raw.githubusercontent.com/Maria-Edgeworth-Letters-Project/me-tei/refs/heads/main/melp_odd.rng" type="application/xml"​​ schematypens="http://relaxng.org/ns/structure/1.0"
+    ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -99,11 +101,12 @@
             <opener>
                <dateline>
                   <placeName ref="./Placeography.xml#Kensington-Gore_ENK">Grove House<lb/>
-                     Kensington Gore</placeName><lb/>
+                     Kensington Gore</placeName>
+                  <lb/>
                         Sunday morn<hi rend="superscript">g</hi>
                </dateline>
                <salute>
-                  My dear <persName  ref="./Personography.xml#KateM1">M<hi rend="superscript">rs</hi>. Kater</persName>. - My friend<lb/>
+                  My dear <persName ref="./Personography.xml#KateM1">M<hi rend="superscript">rs</hi>. Kater</persName>. - My friend<lb/>
                </salute>
             </opener>
             <p>
@@ -194,7 +197,10 @@
                   <hi rend="underline">for it ourselves</hi> - The<lb/>
                   <hi rend="underline">English</hi> compliment --<lb/>
                         -- I have not yet learned<lb/>
-                  to pay French <damage><unclear>compliments<gap></gap></unclear></damage>
+                  to pay French <damage>
+                     <unclear>compliments<gap/>
+                     </unclear>
+                  </damage>
                   <lb/>
                </p>
             </postscript>

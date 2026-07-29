@@ -4,6 +4,8 @@
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="https://raw.githubusercontent.com/Maria-Edgeworth-Letters-Project/me-tei/refs/heads/main/melp.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
     ?>
+<?xml-model href="https://raw.githubusercontent.com/Maria-Edgeworth-Letters-Project/me-tei/refs/heads/main/melp_odd.rng" type="application/xml"​​ schematypens="http://relaxng.org/ns/structure/1.0"
+    ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -163,10 +165,11 @@
                wrapped in silver paper in<lb/>
                the first frank <persName ref="./Personography.xml#MileJ1">Mr. Miles</persName> can<lb/>
                procure - not by <persName ref="./Personography.xml#LittE2">Sir E B <choice>
-                  <orig>Little-<lb/>
+                     <orig>Little-<lb/>
                      -hales</orig>
-                  <reg>Littlehales</reg>
-               </choice></persName>
+                     <reg>Littlehales</reg>
+                  </choice>
+               </persName>
                for I have promised<lb/>
                never to use his franking<lb/>
                privilege for any article of<lb/>

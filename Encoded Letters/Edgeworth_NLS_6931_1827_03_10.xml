@@ -4,6 +4,8 @@
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="https://raw.githubusercontent.com/Maria-Edgeworth-Letters-Project/me-tei/refs/heads/main/melp.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
     ?>
+<?xml-model href="https://raw.githubusercontent.com/Maria-Edgeworth-Letters-Project/me-tei/refs/heads/main/melp_odd.rng" type="application/xml"​​ schematypens="http://relaxng.org/ns/structure/1.0"
+    ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -132,7 +134,8 @@
                </placeName> - But what is worse many <del/> wretched <choice>
                   <orig>crea<lb/>
                      <pb n="2" facs="Edgeworth_NLS_6931_1827_03_10_page02.jpg"/>
-               tures</orig><reg>creatures</reg>
+               tures</orig>
+                  <reg>creatures</reg>
                </choice> who have the fever and had taken shelter in<lb/>
                huts by the side of a limekiln or hedge have<lb/>
                been nearly snowed up or covered with Snow drifts -<lb/>

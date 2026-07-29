@@ -4,6 +4,8 @@
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="https://raw.githubusercontent.com/Maria-Edgeworth-Letters-Project/me-tei/refs/heads/main/melp.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
     ?>
+<?xml-model href="https://raw.githubusercontent.com/Maria-Edgeworth-Letters-Project/me-tei/refs/heads/main/melp_odd.rng" type="application/xml"​​ schematypens="http://relaxng.org/ns/structure/1.0"
+    ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -159,7 +161,8 @@
                <placeName ref="./Placeography.xml#Piccadilly-104_ENK">N<hi rend="superscript">o</hi> 104 Piccadilly</placeName> -<lb/>
             </p>
             <p>It is for the sake of your taste in the choice<lb/>
-               of the edge that I trouble you with this <choice><orig>com-<lb/>
+               of the edge that I trouble you with this <choice>
+                  <orig>com-<lb/>
                mission</orig>
                   <reg>commission</reg>
                </choice>

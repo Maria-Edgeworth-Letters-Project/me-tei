@@ -4,6 +4,8 @@
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="https://raw.githubusercontent.com/Maria-Edgeworth-Letters-Project/me-tei/refs/heads/main/melp.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
     ?>
+<?xml-model href="https://raw.githubusercontent.com/Maria-Edgeworth-Letters-Project/me-tei/refs/heads/main/melp_odd.rng" type="application/xml"​​ schematypens="http://relaxng.org/ns/structure/1.0"
+    ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -158,10 +160,11 @@
                </p>
                <p>I beg you to frank the<lb/>
                   letter to<lb/>
-                  <persName ref="./Personography.xml#HillA1" cert="high">A Hill Esq</persName><lb/>
-                     <placeName ref="./Placeography.xml#Hazelwood_ENK">Hazlewood</placeName>
-                     <lb/>
-                     <placeName ref="./Placeography.xml#Birmingham_ENK">Burmingham</placeName>
+                  <persName ref="./Personography.xml#HillA1" cert="high">A Hill Esq</persName>
+                  <lb/>
+                  <placeName ref="./Placeography.xml#Hazelwood_ENK">Hazlewood</placeName>
+                  <lb/>
+                  <placeName ref="./Placeography.xml#Birmingham_ENK">Burmingham</placeName>
                   <lb/>
                </p>
                <p>Letters to <persName ref="./Personography.xml#EdgeF3">M<hi rend="superscript">rs</hi> Wilson</persName> will<lb/>

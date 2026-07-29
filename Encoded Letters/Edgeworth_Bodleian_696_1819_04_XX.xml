@@ -4,6 +4,8 @@
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="https://raw.githubusercontent.com/Maria-Edgeworth-Letters-Project/me-tei/refs/heads/main/melp.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
     ?>
+<?xml-model href="https://raw.githubusercontent.com/Maria-Edgeworth-Letters-Project/me-tei/refs/heads/main/melp_odd.rng" type="application/xml"​​ schematypens="http://relaxng.org/ns/structure/1.0"
+    ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -95,7 +97,8 @@
                   <date when="1819-04">April 1819</date>
                </dateline>
                <salute>
-                            My dearest <persName ref="./Personography.xml#EdgeF2">Mother,</persName><lb/>
+                            My dearest <persName ref="./Personography.xml#EdgeF2">Mother,</persName>
+                  <lb/>
                </salute>
             </opener>
             <p>

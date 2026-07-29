@@ -4,6 +4,8 @@
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="https://raw.githubusercontent.com/Maria-Edgeworth-Letters-Project/me-tei/refs/heads/main/melp.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
     ?>
+<?xml-model href="https://raw.githubusercontent.com/Maria-Edgeworth-Letters-Project/me-tei/refs/heads/main/melp_odd.rng" type="application/xml"​​ schematypens="http://relaxng.org/ns/structure/1.0"
+    ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -89,7 +91,7 @@
       <revisionDesc status="approved">
          <change when="2024-08-08" who="Id_who">
             Robin Runia completed final editorial review on 08-02-2024.</change>
-            <change when="2026-07-10" who="Id_who"> Jessica Richard updated Mrs Miles persName tags, other corrections on 07-10-2026. </change>
+         <change when="2026-07-10" who="Id_who"> Jessica Richard updated Mrs Miles persName tags, other corrections on 07-10-2026. </change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -157,7 +159,8 @@
                     You can send it between the<lb/>
                     leaves of the pamphlet <add>Perhaps -<lb/>
                     you could also send me 6 yards of ribbon same as<lb/>
-                    the pattern which you bought at <persName ref="./Personography.xml#EyleX1">Eyles's</persName></add>
+                    the pattern which you bought at <persName ref="./Personography.xml#EyleX1">Eyles's</persName>
+               </add>
                <lb/>
                     Tell me whether you have any<lb/>
                     friend who ever attends India sales<lb/>

@@ -4,6 +4,8 @@
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="https://raw.githubusercontent.com/Maria-Edgeworth-Letters-Project/me-tei/refs/heads/main/melp.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
     ?>
+<?xml-model href="https://raw.githubusercontent.com/Maria-Edgeworth-Letters-Project/me-tei/refs/heads/main/melp_odd.rng" type="application/xml"​​ schematypens="http://relaxng.org/ns/structure/1.0"
+    ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -91,7 +93,7 @@
       <revisionDesc status="approved">
          <change when="2024-08-02" who="Id_who">
             Robin Runia completed final editorial review on 08-02-2024. </change>
-            <change when="2026-07-08" who="Id_who">
+         <change when="2026-07-08" who="Id_who">
                Jessica Richard updated tags for Mrs. Miles, updated pages and TEI so address is at end, changed dates in TEI to reflect date in letter and transcription on 07-08-2026. 
          </change>
       </revisionDesc>
@@ -131,16 +133,16 @@
                   <date when="1812-07-24">July 24<hi rend="superscript">th</hi>. 1812</date>
                </dateline>
             </closer>
-               <lb/>
-               <pb n="4" facs="Edgeworth_Beinecke_1812-07-24_page01.jpg"/>
-               <closer>
-                  <address>
-                     <addrLine>
+            <lb/>
+            <pb n="4" facs="Edgeworth_Beinecke_1812-07-24_page01.jpg"/>
+            <closer>
+               <address>
+                  <addrLine>
                         To <persName ref="./Personography.xml#MileA1">M<hi rend="superscript">rs</hi>. Miles</persName>
-                        <lb/>
-                     </addrLine>
-                  </address>
-               </closer>
+                     <lb/>
+                  </addrLine>
+               </address>
+            </closer>
          </div>
       </body>
       <back/>

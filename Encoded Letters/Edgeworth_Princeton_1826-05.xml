@@ -4,6 +4,8 @@
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="https://raw.githubusercontent.com/Maria-Edgeworth-Letters-Project/me-tei/refs/heads/main/melp.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
     ?>
+<?xml-model href="https://raw.githubusercontent.com/Maria-Edgeworth-Letters-Project/me-tei/refs/heads/main/melp_odd.rng" type="application/xml"​​ schematypens="http://relaxng.org/ns/structure/1.0"
+    ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -94,7 +96,9 @@
             <pb n="2" facs="Edgeworth_Princeton_1826-05_page02.jpg"/>
             <opener>
                <salute>
-                  My dear <persName ref="./Personography.xml#EdgeX1"><hi rend="underline">Cousin</hi></persName>
+                  My dear <persName ref="./Personography.xml#EdgeX1">
+                     <hi rend="underline">Cousin</hi>
+                  </persName>
                </salute>
             </opener>
             <p>Now that you are <hi rend="underline">a great man at the head</hi>
@@ -123,7 +127,8 @@
                nought excepting that he is nephew to a man<lb/>
                of whom I know a great deal of good -<lb/>
                viz <persName ref="./Personography.xml#KellJ1">James Kelly</persName> of <placeName ref="./Placeography.xml#Gort_IE">
-                  <unclear>Gourte</unclear></placeName> &amp; <placeName ref="./Placeography.xml#Kilcoursey_IE">Kilcoursey</placeName> - one of<lb/>
+                  <unclear>Gourte</unclear>
+               </placeName> &amp; <placeName ref="./Placeography.xml#Kilcoursey_IE">Kilcoursey</placeName> - one of<lb/>
                our very best tenants - <persName ref="./Personography.xml#KellJ1">James Kelly</persName> entreats<lb/>
                me to write to you in favor of a nephew of his<lb/>
                <persName ref="./Personography.xml#JackR1">Mr. Richard Jackson</persName> - one of the Jacksons of<lb/>

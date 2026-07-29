@@ -4,6 +4,8 @@
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="https://raw.githubusercontent.com/Maria-Edgeworth-Letters-Project/me-tei/refs/heads/main/melp.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
     ?>
+<?xml-model href="https://raw.githubusercontent.com/Maria-Edgeworth-Letters-Project/me-tei/refs/heads/main/melp_odd.rng" type="application/xml"​​ schematypens="http://relaxng.org/ns/structure/1.0"
+    ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -177,7 +179,7 @@
                <persName ref="./Personography.xml#MackJ2">James
                      <choice>
                      <orig>M<hi rend="superscript">c</hi>Intosh</orig>
-                        <reg>Mackintosh</reg>
+                     <reg>Mackintosh</reg>
                   </choice>
                </persName>. I am particularly <choice>
                   <orig>an<lb/>
@@ -186,7 +188,11 @@
                </choice> that <rs>he</rs> should see the second edition<lb/>
                of this book because three chapters of it were<lb/>
                   entirely rewritten &amp; I hope improved - <persName ref="./Personography.xml#MackJ2">Sir <lb/>
-                     James <choice><orig>M<hi rend="superscript">c</hi>Intosh</orig><reg>Mackintosh</reg></choice></persName> gratified us highly when<lb/>
+                     James <choice>
+                     <orig>M<hi rend="superscript">c</hi>Intosh</orig>
+                     <reg>Mackintosh</reg>
+                  </choice>
+               </persName> gratified us highly when<lb/>
                were in <placeName ref="./Placeography.xml#London_ENK">London</placeName> by what he said of the first<lb/>
                <pb n="3" facs="Edgeworth_Princeton_RTC01_1814_01_01_page03.jpg"/>
                book which he <add>told us he had</add> seen in <placeName ref="./Placeography.xml#IN">India</placeName> - and I cannot<lb/>
@@ -221,7 +227,13 @@
                <persName ref="./Personography.xml#Charl14">Bernadotte</persName>'s letter to <persName ref="./Personography.xml#CedeC1">Baron Cederhielm</persName>
                <lb/>
                <rs>his</rs> son's preceptor which we have just<lb/>
-               read in to day's paper recalled <title ref="./Workography.xml#Proff1"><choice><orig>Prof Ed<hi rend="superscript">n</hi></orig><reg>Professional Education</reg></choice></title>
+               read in to day's paper recalled <title ref="./Workography.xml#Proff1">
+                  <choice>
+                     <orig>Prof Ed<hi rend="superscript">n</hi>
+                     </orig>
+                     <reg>Professional Education</reg>
+                  </choice>
+               </title>
                <lb/>
                to my mind - as there are so many <choice>
                   <orig>sen<lb/>

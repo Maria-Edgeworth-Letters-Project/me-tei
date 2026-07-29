@@ -4,6 +4,8 @@
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="https://raw.githubusercontent.com/Maria-Edgeworth-Letters-Project/me-tei/refs/heads/main/melp.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
     ?>
+<?xml-model href="https://raw.githubusercontent.com/Maria-Edgeworth-Letters-Project/me-tei/refs/heads/main/melp_odd.rng" type="application/xml"​​ schematypens="http://relaxng.org/ns/structure/1.0"
+    ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -258,13 +260,15 @@
                       proportion to the extent of my property and these operations require<lb/>
                       a good deal of personal superintendence.<lb/>
             </p>
-            <p> A clergyman in your neighbourhood by name a gallant <persName ref="./Personography.xml#GrahX1"><choice>
-                  <orig>Gra-<lb/>
+            <p> A clergyman in your neighbourhood by name a gallant <persName ref="./Personography.xml#GrahX1">
+                  <choice>
+                     <orig>Gra-<lb/>
                     ham</orig>
-                  <reg>
+                     <reg>
                      Graham
                   </reg>
-               </choice></persName> applied to me some time since wishing to connect himself with<lb/>
+                  </choice>
+               </persName> applied to me some time since wishing to connect himself with<lb/>
                     the border tribe of that name &amp; willing to forward so reasonable &amp; <choice>
                   <orig>lau-<lb/>
                         dable</orig>

@@ -3,147 +3,144 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="https://raw.githubusercontent.com/Maria-Edgeworth-Letters-Project/me-tei/refs/heads/main/melp.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/Maria-Edgeworth-Letters-Project/me-tei/refs/heads/main/melp_odd.rng" type="application/xml"​​ schematypens="http://relaxng.org/ns/structure/1.0"
+    ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>Letter from Maria Edgeworth to Étienne Dumont, November 1, 1825</title>
-                <author>Maria Edgeworth</author>
-                <editor>
-                    
-                </editor>
-                <sponsor>
-                    <orgName>Maria Edgeworth Letters Project</orgName>
-                </sponsor>
-                <sponsor>Texas A &amp; M University, University of Tennessee, Wake Forest University, Xavier University of Louisiana, Southern Methodist University</sponsor>
-                <principal>Susan Egenolf, Meredith Hale, Hilary Havens, Jessica Richard, and Robin Runia</principal>
-                <respStmt>
-                    <resp>Transcription and coding by</resp>
-                    <persName>Paris Weber
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from Maria Edgeworth to Étienne Dumont, November 1, 1825</title>
+            <author>Maria Edgeworth</author>
+            <editor/>
+            <sponsor>
+               <orgName>Maria Edgeworth Letters Project</orgName>
+            </sponsor>
+            <sponsor>Texas A &amp; M University, University of Tennessee, Wake Forest University, Xavier University of Louisiana, Southern Methodist University</sponsor>
+            <principal>Susan Egenolf, Meredith Hale, Hilary Havens, Jessica Richard, and Robin Runia</principal>
+            <respStmt>
+               <resp>Transcription and coding by</resp>
+               <persName>Paris Weber
                     </persName>
-                    
-                </respStmt>
-            </titleStmt>
-            <editionStmt>
-                <edition>First digital edition in TEI,<date when="2026-07-10">July 10, 2026</date>
-                    
-                </edition>
-                <respStmt>
-                    <orgName type="naf" ref="https://d-nb.info/gnd/5075238-8">
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>First digital edition in TEI,<date when="2026-07-10">July 10, 2026</date>
+            </edition>
+            <respStmt>
+               <orgName type="naf" ref="https://d-nb.info/gnd/5075238-8">
                         Bibliothèques municipales de la Ville de Genève</orgName>
-                    
-                    
-                    <resp> photos include:
+               <resp> photos include:
                         Edgeworth_Geneve_75_1825_11_01_page01.jpg,
                         Edgeworth_Geneve_75_1825_11_01_page02.jpg,
                         Edgeworth_Geneve_75_1825_11_01_page03.jpg,
                         Edgeworth_Geneve_75_1825_11_01_page04.jpg
                     </resp>
-                </respStmt>
-            </editionStmt>
-            <publicationStmt>
-                <authority>Maria Edgeworth Letters Project</authority>
-                <date>2022</date>
-                <availability>
-                    <p>Reproduced by courtesy of the <orgName ref="https://d-nb.info/gnd/5075238-8">Bibliothèques municipales de la Ville de Genève</orgName>
-                    </p>
-                    <licence target="https://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons Attribution 4.0 (CC BY 4.0) Unported License</licence>
-                </availability>
-                <idno>Edgeworth_Geneve_75_1825_11_01</idno> 
-            </publicationStmt>
-            <seriesStmt>
-                <title>Maria Edgeworth Letters Project</title>
-            </seriesStmt>
-            <sourceDesc>
-                <msDesc xml:lang="en">
-                    
-                    <msIdentifier>
-                        <repository>Bibliotheque de Geneve</repository>
-                        
-                    </msIdentifier>
-                    <head>Letter from 
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Maria Edgeworth Letters Project</authority>
+            <date>2022</date>
+            <availability>
+               <p>Reproduced by courtesy of the <orgName ref="https://d-nb.info/gnd/5075238-8">Bibliothèques municipales de la Ville de Genève</orgName>
+               </p>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons Attribution 4.0 (CC BY 4.0) Unported License</licence>
+            </availability>
+            <idno>Edgeworth_Geneve_75_1825_11_01</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Maria Edgeworth Letters Project</title>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <repository>Bibliotheque de Geneve</repository>
+               </msIdentifier>
+               <head>Letter from 
                         <persName xml:id="EdgeM1" from="1768" to="1849">
-                            <forename>Maria</forename>
-                            <surname>Edgeworth</surname>
-                            <date>1768-1849</date>
-                            <idno type="VIAF">71477273</idno>
-                            <idno type="SNAC">62567029</idno>
-                        </persName>
+                     <forename>Maria</forename>
+                     <surname>Edgeworth</surname>
+                     <date>1768-1849</date>
+                     <idno type="VIAF">71477273</idno>
+                     <idno type="SNAC">62567029</idno>
+                  </persName>
                         to <persName ref="./Personography.xml#DumoE1">Étienne Dumont</persName>,  
                         <date when="1825-11-01">November 1, 1825</date>
-                        
-                    </head>
-                    
-                </msDesc>
-                
-            </sourceDesc>
-        </fileDesc>
-        <encodingDesc>
-            <editorialDecl>
-                <p>Edgeworth’s spelling and punctuation are retained in transcription, including non-standard spelling, line breaks, and hyphenation of words. The long s and ligatured forms are silently emended.</p>
-            </editorialDecl>
-        </encodingDesc>
-        <profileDesc>
-            <correspDesc>
-                <correspAction type="sent">
-                    <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
-                </correspAction>
-                <correspAction type="received">
-                    <persName ref="./Personography.xml#DumoE1">
+               </head>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>Edgeworth’s spelling and punctuation are retained in transcription, including non-standard spelling, line breaks, and hyphenation of words. The long s and ligatured forms are silently emended.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="./Personography.xml#DumoE1">
                         Étienne Dumont</persName>
-                </correspAction>
-            </correspDesc>
-        </profileDesc>
-        <revisionDesc>
-            <change when="2021-01-01" who="Id_who">
-                <!--Brief description of what you did here.-->
-            </change>
-        </revisionDesc>
-    </teiHeader>
-    <text>
-        <body>
-            <div type="letter">
-                <pb n="1" facs="Edgeworth_Geneve_75_1825_11_01_page01.jpg"/>
-                
-                <opener>
-                    <dateline>  
-                        <note>16</note>
-                        <placeName ref="./Placeography.xml#Edgeworthstown_IE">Edgeworths Town</placeName>
-                        <date when="1825-11-01">Nov.<hi rend="superscript">r</hi> 1<hi rend="superscript">st.</hi> 1825</date>
-                        <note>4</note>
-                       
-                    </dateline></opener>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-01-01" who="Id_who"><!--Brief description of what you did here.--></change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <pb n="1" facs="Edgeworth_Geneve_75_1825_11_01_page01.jpg"/>
+            <opener>
+               <dateline>
+                  <note>16</note>
+                  <placeName ref="./Placeography.xml#Edgeworthstown_IE">Edgeworths Town</placeName>
+                  <date when="1825-11-01">Nov.<hi rend="superscript">r</hi> 1<hi rend="superscript">st.</hi> 1825</date>
+                  <note>4</note>
+               </dateline>
+            </opener>
             <p>
                     My dear <persName ref="./Personography.xml#DumoE1">friend</persName> - Though<lb/>
                     - <hi rend="underline">you</hi> do not deserve that I<lb/>
-                    should write to you, <hi rend="underline">your</hi><lb/>
+                    should write to you, <hi rend="underline">your</hi>
+               <lb/>
                     ward <persName ref="./Personography.xml#ChauD1" cert="high">M<hi rend="superscript">r</hi> . Chauvet</persName> does -<lb/>
-                    And I cannot on his <choice><orig>ac-<lb/>
-                    =count</orig><reg>account</reg></choice> refrain from telling<lb/>
+                    And I cannot on his <choice>
+                  <orig>ac-<lb/>
+                    =count</orig>
+                  <reg>account</reg>
+               </choice> refrain from telling<lb/>
                     you how much we all<lb/>
                     like him- <del>and</del> Thank you<lb/>
                     for introducing him to us -<lb/>
                     - He is full of information<lb/>
                     yet desirous to obtain more<lb/>
                     - <del>and</del> the enlargement<lb/>
-                    of his understanding <choice><orig>libera<lb/>
-                    lity</orig><reg>liberality</reg></choice> of his views and<lb/>
+                    of his understanding <choice>
+                  <orig>libera<lb/>
+                    lity</orig>
+                  <reg>liberality</reg>
+               </choice> of his views and<lb/>
                     warmth of his affections<lb/>
-                    are all worthy of you<lb/></p>
-                <p>
+                    are all worthy of you<lb/>
+            </p>
+            <p>
                     He will tell you better<lb/>
                     than I can <hi rend="underline">how we all do</hi> -<lb/>
                     -Strangers are often much<lb/>
                     better judges of these things<lb/>
-                
-                <pb n="2" facs="Edgeworth_Geneve_75_1825_11_01_page02.jpg"/>
+               <pb n="2" facs="Edgeworth_Geneve_75_1825_11_01_page02.jpg"/>
                     than those who see each other<lb/>
                     every day &amp; are prejudiced<lb/>
-                    by their fears &amp; hopes -<lb/></p>
-                <p>
+                    by their fears &amp; hopes -<lb/>
+            </p>
+            <p>
                     I was much alarmed by<lb/>
                     the first sight of the pale<lb/>
-                    thin figures &amp; faces of <persName ref="./Personography.xml#EdgeF3">Fanny</persName><lb/>
+                    thin figures &amp; faces of <persName ref="./Personography.xml#EdgeF3">Fanny</persName>
+               <lb/>
                     and <persName ref="./Personography.xml#EdgeS1">Sophy</persName> when they returned<lb/>
                     from their travels - But<lb/>
                     they are now in better<lb/>
@@ -159,15 +156,17 @@
                     without your kindness<lb/>
                     &amp; delightful conversation<lb/>
                     she could never have borne<lb/>
-                    <persName ref="./Personography.xml#EdgeS1">Sophy's</persName> illness and all her<lb/>
+               <persName ref="./Personography.xml#EdgeS1">Sophy's</persName> illness and all her<lb/>
                     fears &amp; all her<lb/>
-                
-                <pb n="3" facs="Edgeworth_Geneve_75_1825_11_01_page03.jpg"/>
-                    <note>17</note>
+               <pb n="3" facs="Edgeworth_Geneve_75_1825_11_01_page03.jpg"/>
+               <note>17</note>
                     own weakness. - She has<lb/>
                     given me a pretty little<lb/>
-                    drawing of your <choice><orig>country<lb/>
-                    =house</orig><reg>country house</reg></choice> &amp; has described it<lb/>
+                    drawing of your <choice>
+                  <orig>country<lb/>
+                    =house</orig>
+                  <reg>country house</reg>
+               </choice> &amp; has described it<lb/>
                     so well that we are all<lb/>
                     sure we have been aux<lb/>
                     philosophes &amp; have seen<lb/>
@@ -176,53 +175,73 @@
                     are almost credulous<lb/>
                     enough to believe that<lb/>
                     you will really come<lb/>
-                    next year-<lb/></p>
-                <p>
-                    <persName ref="./Personography.xml#EdgeF2">M<hi rend="superscript">rs</hi> . Edgeworth</persName> &amp; my brothers<lb/>
+                    next year-<lb/>
+            </p>
+            <p>
+               <persName ref="./Personography.xml#EdgeF2">M<hi rend="superscript">rs</hi> . Edgeworth</persName> &amp; my brothers<lb/>
                     and all my innumerable<lb/>
-                    sisters - <hi rend="underline">4</hi> of whom you <choice><orig>al-<lb/>
-                    ready</orig><reg>already</reg></choice> know &amp; love - viz<lb/>
-                    <persName ref="./Personography.xml#BeauH1">Honora,</persName> <persName ref="./Personography.xml#EdgeF3">Fanny,</persName> <persName ref="./Personography.xml#EdgeS1">Sophy</persName> - <persName ref="./Personography.xml#EdgeH1">Harriet</persName><lb/>
+                    sisters - <hi rend="underline">4</hi> of whom you <choice>
+                  <orig>al-<lb/>
+                    ready</orig>
+                  <reg>already</reg>
+               </choice> know &amp; love - viz<lb/>
+               <persName ref="./Personography.xml#BeauH1">Honora,</persName>
+               <persName ref="./Personography.xml#EdgeF3">Fanny,</persName>
+               <persName ref="./Personography.xml#EdgeS1">Sophy</persName> - <persName ref="./Personography.xml#EdgeH1">Harriet</persName>
+               <lb/>
                     join in earnest entreaties<lb/>
                     that you will not disappoint<lb/>
                     them - and <persName ref="./Personography.xml#EdgeL1">Lucy</persName> whom<lb/>
                     you will love too when you<lb/>
                     know <add>her</add> adds her sweet feeble<lb/>
-                
-                
-                <pb n="4" facs="Edgeworth_Geneve_75_1825_11_01_page04.jpg"/>
+               <pb n="4" facs="Edgeworth_Geneve_75_1825_11_01_page04.jpg"/>
                     voice - She is <hi rend="underline">now</hi> recovering<lb/>
                     fast - can stand -&amp; walk<lb/>
                     a few steps - and will be<lb/>
-                    able to walk to meet <add><persName ref="./Personography.xml#DumoE1">M. Dumont</persName></add> - next<lb/>
-                    year -<lb/></p>
-                <p>
-                    When you have writt<unclear>en</unclear><lb/>
+                    able to walk to meet <add>
+                  <persName ref="./Personography.xml#DumoE1">M. Dumont</persName>
+               </add> - next<lb/>
+                    year -<lb/>
+            </p>
+            <p>
+                    When you have writt<unclear>en</unclear>
+               <lb/>
                     to me &amp; deserve to hear more,<lb/>
-                    perhaps I may tell you <choice><orig>some<lb/>
-                    -thing</orig><reg>something</reg></choice> more that may interest<lb/>
+                    perhaps I may tell you <choice>
+                  <orig>some<lb/>
+                    -thing</orig>
+                  <reg>something</reg>
+               </choice> more that may interest<lb/>
                     you concerning your friends<lb/>
-                    here - But no more at <choice><orig>pre-<lb/>
-                    sent</orig><reg>present</reg></choice> from<lb/></p>
-                <closer>
+                    here - But no more at <choice>
+                  <orig>pre-<lb/>
+                    sent</orig>
+                  <reg>present</reg>
+               </choice> from<lb/>
+            </p>
+            <closer>
                     y<hi rend="superscript">s</hi> . affectionately<lb/>
-                    <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName><lb/></closer>
-                <postscript><p>
-                   <title ref="./Workography.xml#Harry1">Harry &amp; Lucy</title> will soon reach<lb/>
+               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
+               <lb/>
+            </closer>
+            <postscript>
+               <p>
+                  <title ref="./Workography.xml#Harry1">Harry &amp; Lucy</title> will soon reach<lb/>
                     you if is has not already<lb/>
-                    got to you -<lb/></p>
-                <p>
+                    got to you -<lb/>
+               </p>
+               <p>
                     I have just read &amp; very much<lb/>
                     like most part of <persName ref="./Personography.xml#StaeA2">M. de<lb/>
-                    Staels</persName> <title ref="./Workography.xml#Lette6">Lettres sur l'Angleterre</title><lb/>
+                    Staels</persName>
+                  <title ref="./Workography.xml#Lette6">Lettres sur l'Angleterre</title>
+                  <lb/>
                     - I have written a long<lb/>
-                    criticism to him -<lb/></p></postscript>
-                
-                
-            </div>
-        </body>
-        <back> </back>
-    </text>
+                    criticism to him -<lb/>
+               </p>
+            </postscript>
+         </div>
+      </body>
+      <back/>
+   </text>
 </TEI>
-
-
