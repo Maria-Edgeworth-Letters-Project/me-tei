@@ -8,7 +8,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Letter from Maria Edgeworth to Richard Bentley, January 24, 1834</title>
+            <title>Letter from Maria Edgeworth to William Strutt, November 18, 1829</title>
             <author>Maria Edgeworth</author>
             <editor>Lindsey Jones
             </editor>
@@ -25,15 +25,16 @@
             </respStmt>
          </titleStmt>
          <editionStmt>
-            <edition>First digital edition in TEI, date: October 15, 2023<date when="2023-10-15"/>
+            <edition>First digital edition in TEI, date: November 3, 2023<date when="2023-11-03"/>
             </edition>
             <respStmt>
                <orgName type="naf" ref="http://id.loc.gov/authorities/names/n82003163">
                   Princeton University. Library
                   </orgName>
-               <resp> photos include: 
-                  Edgeworth_Princeton_1834-01_page01.jpg,
-                  Edgeworth_Princeton_1834-01_page02.jpg
+               <resp> photos include:
+                  Edgeworth_Princeton_1829-11-18_page01.jpg,
+                  Edgeworth_Princeton_1829-11-18_page02.jpg,
+                  Edgeworth_Princeton_1829-11-18_page03.jpg
                   </resp>
             </respStmt>
          </editionStmt>
@@ -47,7 +48,7 @@
                <licence target="https://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons Attribution 4.0 (CC BY 4.0) Unported
             License</licence>
             </availability>
-            <idno>Edgeworth_Princeton_1834-01</idno>
+            <idno>Edgeworth_Princeton_1829-11-18</idno>
          </publicationStmt>
          <seriesStmt>
             <title>Maria Edgeworth Letters Project</title>
@@ -57,7 +58,7 @@
                <msIdentifier>
                   <repository>Princeton University. Library</repository>
                   <collection/>
-                  <idno>Edgeworth_Princeton_1834-01</idno>
+                  <idno>Edgeworth_Princeton_1829-11-18</idno>
                </msIdentifier>
                <head>Letter from 
                      <persName xml:id="EdgeM1" from="1768" to="1849">
@@ -67,13 +68,11 @@
                      <idno type="VIAF">71477273</idno>
                      <idno type="SNAC">62567029</idno>
                   </persName>
-                  to <persName ref="./Personography.xml#BentR1">Richard Bentley</persName>, <placeName ref="./Placeography.xml#Edgeworthstown_IE">Edgeworthtown</placeName>, 
-                  <date when="1834-01-24">Jan<hi rend="superscript">y</hi> 24<hi rend="superscript">th</hi>. 1834</date>
+                  to <persName ref="./Personography.xml#StruW1">William Strutt</persName>,
+                  <date when="1829-11-18">Nov<hi rend="superscript">r</hi>. 18<hi rend="superscript">th</hi> 1829</date>
                </head>
                <physDesc/>
             </msDesc>
-            <bibl>In addition to our edited version, this letter was previously published in
-               </bibl>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
@@ -87,74 +86,88 @@
                <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
             </correspAction>
             <correspAction type="received">
-               <persName ref="./Personography.xml#BentR1">Richard Bentley</persName>
+               <persName ref="./Personography.xml#StruW1">William Strutt</persName>
             </correspAction>
          </correspDesc>
       </profileDesc>
    </teiHeader>
    <text>
+      <pb n="1" facs="Edgeworth_Princeton_1829-11-18_page01.jpg"/>
       <body>
          <div type="letter">
-            <pb n="1" facs="Edgeworth_Princeton_1834-01_page01.jpg"/>
             <opener>
                <dateline>
-                  <placeName ref="./Placeography.xml#Edgeworthstown_IE">Edgeworthstown</placeName>
-                  <lb/>
-                  <date when="1834-01-24">January 24, 1834.</date>
+                  <date when="1829-11-18">November 18, 1829</date>
                </dateline>
                <salute>
-                  Sir
+                  My dear <persName ref="./Personography.xml#StruW1">Mr. Strutt</persName>
                </salute>
             </opener>
             <p>
-               I approve of the title page<lb/>
-               for <title ref="./Workography.xml#Helen1">Helen</title>
+               I have been far from well this week past<lb/>
+               or you should sooner have received my<lb/>
+               thanks for your kind letter and my<lb/>
+               answer respecting your kind &amp; valuable<lb/>
+               present. I should think the best way<lb/>
+               of sending it to me is by <placeName ref="./Placeography.xml#Liverpool_ENK">Liverpool</placeName> - by<lb/>
+               water carriage - you best know the means<lb/>
+               of so doing - If the clock be packed in a<lb/>
+               case and directed <hi rend="underline">For <persName ref="./Personography.xml#EdgeM1">Miss Edgeworth</persName>
+               </hi>
                <lb/>
-            </p>
-            <p>I beg you will send the<lb/>
-               first copy you can have<lb/>
-               stitched together to<lb/>
-               <placeName ref="./Placeography.xml#North-Audley-Street-1_ENK">
-                  <choice>
-                     <orig>N<hi rend="superscript">o</hi>.</orig>
-                     <reg>Number</reg>
-                  </choice> 1 North Audley Street</placeName>
+               <hi rend="underline">to the care of Mess<hi rend="superscript">rs</hi>. <persName ref="./Personography.xml#BrowJ1">J</persName> &amp; <persName ref="./Personography.xml#BrowW1">W Brown</persName>
+               </hi>
                <lb/>
-               to <persName ref="./Personography.xml#EdgeF3">M<hi rend="superscript">rs</hi>. Lestock Wilson</persName>
+               <hi rend="underline">
+                  <placeName ref="./Placeography.xml#Liverpool_ENK">Liverpool</placeName>
+               </hi> -<lb/>
+            </p>
+            <p>
+               <hi rend="underline">to be forwarded to <placeName ref="./Placeography.xml#Dublin_IE">Dublin</placeName> to <persName ref="./Personography.xml#WillC1">M<hi rend="superscript">r</hi>. William's</persName>
+               </hi>
                <lb/>
+               <hi rend="underline">packet-office</hi> -<lb/>
             </p>
-            <p>Also I request that instead<lb/>
-               of 9 copies as ordered in<lb/>
-               my last to be sent to<lb/>
-               <persName ref="./Personography.xml#EdgeF3">M<hi rend="superscript">rs</hi>. L Wilson</persName> you will<lb/>
-               send her <hi rend="underline">ten</hi> - independent<lb/>
-               of that stitched copy mentioned<lb/>
-               above<lb/>
-            </p>
-            <p>I am anxious that you<lb/>
-               should send the <hi rend="underline">revises</hi> of<lb/>
-               the last sheets to <persName ref="./Personography.xml#EdgeF3">M<hi rend="superscript">rs</hi>. L Wilson</persName>
+            <p>it will reach me safely and soon -<lb/>
+               I am very impatient to see it and to try<lb/>
+               if I can understand its principle with<lb/>
+               the help of your explanation. I hope I shal<unclear>l</unclear>
                <lb/>
             </p>
             <closer>
-               I am Sir<lb/>
-               Your <choice>
-                  <orig>Obed<hi rend="superscript">t</hi>.</orig>
-                  <reg>Obedient</reg>
-               </choice>
-               <choice>
-                  <orig>Serv<hi rend="superscript">t</hi>.</orig>
-                  <reg>Servant</reg>
+               - I am well now &amp; ever your obliged &amp; <choice>
+                  <orig>affec</orig>
+                  <reg>affectionate</reg>
                </choice>
                <lb/>
                <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
-               <lb/>
             </closer>
+            <postscript>
+               <pb n="2" facs="Edgeworth_Princeton_1829-11-18_page02.jpg"/>
+               <p>given by <persName ref="./Personography.xml#StruW1">Wm Strutt Esqr</persName>
+                  <lb/>
+                  To G <unclear>??ynell</unclear>
+                  <lb/>
+               </p>
+               <pb n="3" facs="Edgeworth_Princeton_1829-11-18_page03.jpg"/>
+               <p>Gift of <persName ref="./Personography.xml#StruW1">Wm Strutt Esqr</persName>
+                  <lb/>
+                  G. M.<lb/>
+               </p>
+            </postscript>
             <closer>
-               <pb n="2" facs="Edgeworth_Princeton_1834-01_page02.jpg"/>
                <address>
+                  <addrLine>N<hi rend="superscript">o</hi>2<lb/>
+                  </addrLine>
                   <addrLine>
-                     <persName ref="./Personography.xml#BentR1">R Bentley</persName> Esq<hi rend="superscript">r</hi>
+                     <persName ref="./Personography.xml#StruW1">William Strutt Esq<hi rend="superscript">re</hi>
+                     </persName>
+                     <lb/>
+                  </addrLine>
+                  <addrLine>S<hi rend="superscript">t</hi>. Hellens<lb/>
+                  </addrLine>
+                  <addrLine>
+                     <placeName ref="./Placeography.xml#Derby_ENK">Derby</placeName>
                      <lb/>
                   </addrLine>
                </address>
