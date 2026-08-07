@@ -26,11 +26,9 @@
             </edition>
             <respStmt>
                <orgName ref="http://id.loc.gov/authorities/names/n82003163">Princeton University. Library</orgName>
-               <resp> photos include: 
-                  Edgeworth_Princeton_1834_06_30_page01.jpg,
-                  Edgeworth_Princeton_1834_06_30_page02.jpg,
-                  Edgeworth_Princeton_1834_06_30_page03.jpg
-               </resp>
+               <resp> photos include: Edgeworth_Princeton_1834-06-30_page01.jpg, 
+                  Edgeworth_Princeton_1834-06-30_page02.jpg, 
+                  Edgeworth_Princeton_1834-06-30_page03.jpg</resp>
             </respStmt>
          </editionStmt>
          <publicationStmt>
@@ -42,7 +40,7 @@
                <licence target="https://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons Attribution 4.0 (CC BY 4.0) Unported
             License</licence>
             </availability>
-            <idno>Edgeworth_Princeton_1834_06_30</idno>
+            <idno>Edgeworth_Princeton_1834-06-30</idno>
          </publicationStmt>
          <seriesStmt>
             <title>Maria Edgeworth Letters Project</title>
@@ -82,13 +80,12 @@
       <revisionDesc>
          <change when="2023-10-25" who="Id_who">Created file for letter; encoded letter</change>
          <change when="2023-10-27" who="Id_who">Updated choice tags</change>
-         <change when="2023-11-10" who="Id+who">Removed extra comments</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <div type="letter">
-            <pb n="2" facs="Edgeworth_Princeton_1834_06_30_page01.jpg"/>
+            <pb n="2" facs="Edgeworth_Princeton_1834-06-30_page02.jpg"/>
             <opener>
                <dateline>
                   <placeName ref="./Placeography.xml#New-Burlington-Street_ENK"/>New Burlington Street
@@ -118,7 +115,7 @@
             <p>As I trust that you will consider that<lb/>
             </p>
             <p>
-               <pb n="3" facs="Edgeworth_Princeton_1834_06_30_page02.jpg"/>
+               <pb n="3" facs="Edgeworth_Princeton_1834-06-30_page03.jpg"/>
             </p>
             <p>the publication of their Work has, in my hands,<lb/>
                been followed up with zeal and activity, and<lb/>
@@ -139,7 +136,7 @@
             </p>
             <closer>
                I have the honor to be,<lb/>
-               Madam,<lb/>
+               <persName ref="./Personography.xml#EdgeM1">Madam</persName>,<lb/>
                with great respect,<lb/>
                Your most <choice>
                   <orig>obed<hi rend="superscript">t</hi>
@@ -150,7 +147,7 @@
             </closer>
             <closer>
                <address>
-                  <pb n="1" facs="Edgeworth_Princeton_1834_06_30_page03.jpg"/>
+                  <pb n="1" facs="Edgeworth_Princeton_1834-06-30_page01.jpg"/>
                   <addrLine>
                      <persName ref="./Personography.xml#EdgeM1">Miss Edgeworth</persName>
                   </addrLine>
