@@ -15,12 +15,13 @@
             <sponsor>
                <orgName>Maria Edgeworth Letters Project</orgName>
             </sponsor>
-            <sponsor>Texas A &amp; M University, University of Tennessee, Wake Forest University, Xavier University of Louisiana, Southern Methodist University</sponsor>
-            <principal>Susan Egenolf, Meredith Hale, Hilary Havens, Jessica Richard, and Robin Runia</principal>
+            <sponsor>Texas A &amp; M University, University of Tennessee, Wake Forest University,
+               Xavier University of Louisiana, Southern Methodist University</sponsor>
+            <principal>Susan Egenolf, Meredith Hale, Hilary Havens, Jessica Richard, and Robin
+               Runia</principal>
             <respStmt>
                <resp>Transcription and coding by</resp>
-               <persName>Paris Weber
-                    </persName>
+               <persName>Paris Weber </persName>
                <!-- List all transcribers or coders here, editors and students alike, <persName> by <persName>.-->
                <persName><!--FirstName LastName--></persName>
                <!-- If you're the last person interacting with the file, enter your name last on the list -->
@@ -30,22 +31,24 @@
             <edition>First digital edition in TEI,<date when="2026-07-23">July 23, 2026</date>
             </edition>
             <respStmt>
-               <orgName type="naf" ref="http://id.loc.gov/authorities/names/n80044899">National Library of Scotland</orgName>
-               <resp> photos include:
-                        Edgeworth_NLS_3899_1824_07_06_page01.jpg,
-                        Edgeworth_NLS_3899_1824_07_06_page02.jpg,
-                        Edgeworth_NLS_3899_1824_07_06_page03.jpg,
-                        Edgeworth_NLS_3899_1824_07_06_page04.jpg
-                    </resp>
+               <orgName type="naf" ref="http://id.loc.gov/authorities/names/n80044899">National
+                  Library of Scotland</orgName>
+               <resp> photos include: Edgeworth_NLS_3899_1824_07_06_page01.jpg,
+                  Edgeworth_NLS_3899_1824_07_06_page02.jpg,
+                  Edgeworth_NLS_3899_1824_07_06_page03.jpg, Edgeworth_NLS_3899_1824_07_06_page04.jpg
+               </resp>
             </respStmt>
          </editionStmt>
          <publicationStmt>
             <authority>Maria Edgeworth Letters Project</authority>
             <date>2022</date>
             <availability>
-               <p>Reproduced by courtesy of the <orgName ref="http://id.loc.gov/authorities/names/n80044899">National Library of Scotland</orgName>
+               <p>Reproduced by courtesy of the <orgName
+                     ref="http://id.loc.gov/authorities/names/n80044899">National Library of
+                     Scotland</orgName>
                </p>
-               <licence target="https://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons Attribution 4.0 (CC BY 4.0) Unported License</licence>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">Distributed under a
+                  Creative Commons Attribution 4.0 (CC BY 4.0) Unported License</licence>
             </availability>
             <idno>Edgeworth_NLS_3899_1824_07_06</idno>
          </publicationStmt>
@@ -57,15 +60,14 @@
                <msIdentifier>
                   <repository>National Library of Scotland</repository>
                </msIdentifier>
-               <head>Letter from 
-                        <persName xml:id="EdgeM1" from="1768" to="1849">
+               <head>Letter from <persName xml:id="EdgeM1" from="1768" to="1849">
                      <forename>Maria</forename>
                      <surname>Edgeworth</surname>
                      <date>1768-1849</date>
                      <idno type="VIAF">71477273</idno>
                      <idno type="SNAC">62567029</idno>
-                  </persName>
-                        to <persName ref="./Personography.xml#ScotW1">Sir Walter Scott</persName>
+                  </persName> to <persName ref="./Personography.xml#ScotW1">Sir Walter
+                     Scott</persName>
                   <date when="1824-07-06">July 6, 1824</date>
                </head>
             </msDesc>
@@ -73,7 +75,9 @@
       </fileDesc>
       <encodingDesc>
          <editorialDecl>
-            <p>Edgeworth’s spelling and punctuation are retained in transcription, including non-standard spelling, line breaks, and hyphenation of words. The long s and ligatured forms are silently emended.</p>
+            <p>Edgeworth’s spelling and punctuation are retained in transcription, including
+               non-standard spelling, line breaks, and hyphenation of words. The long s and
+               ligatured forms are silently emended.</p>
          </editorialDecl>
       </encodingDesc>
       <profileDesc>
@@ -82,13 +86,13 @@
                <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
             </correspAction>
             <correspAction type="received">
-               <persName ref="./Personography.xml#ScotW1">
-                        Sir Walter Scott</persName>
+               <persName ref="./Personography.xml#ScotW1"> Sir Walter Scott</persName>
             </correspAction>
          </correspDesc>
       </profileDesc>
       <revisionDesc>
-         <change when="2021-01-01" who="Id_who"><!--Brief description of what you did here.--></change>
+         <change when="2021-01-01" who="Id_who"
+            ><!--Brief description of what you did here.--></change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -102,50 +106,31 @@
                   <placeName ref="./Placeography.xml#Edgeworthstown_IE">Edgeworths Town</placeName>
                   <date when="1824-07-06">July 6.<hi rend="superscript">th</hi>1824</date>
                </dateline>
-               <salute>
-                        My dear <persName ref="./Personography.xml#ScotW1">Sir Walter Scott</persName>,
-                    </salute>
+               <salute> My dear <persName ref="./Personography.xml#ScotW1">Sir Walter
+                     Scott</persName>, </salute>
             </opener>
-            <p>
-                     
-                    The enclosed <title ref="./Workography.xml#Langa1">specimen</title>
-               <lb/>
-                    of Irish vituperation is<lb/>
-                    warranted genuine<lb/>
-                    by the gentleman who<lb/>
-                    gave it to me - He declares<lb/>
-                    that he wrote it down word<lb/>
-                    word for word as he heard<lb/>
-                    it and I declare that I <choice>
-                  <orig>be-<lb/>
-                    lieve</orig>
+            <p> The enclosed <title ref="./Workography.xml#Langa1">specimen</title>
+               <lb/> of Irish vituperation is<lb/> warranted genuine<lb/> by the gentleman who<lb/>
+               gave it to me - He declares<lb/> that he wrote it down word<lb/> word for word as he
+               heard<lb/> it and I declare that I <choice>
+                  <orig>be-<lb/> lieve</orig>
                   <reg>believe</reg>
-               </choice> he could not have<lb/>
-                    altered it if he would - and<lb/>
-                    that he would not if he<lb/>
-                    could - There are "some<lb/>
-                    "things I think I could<lb/>
-                    "have made better" - But<lb/>
-                    even in my infinite conceit<lb/>
-                    I respect the truth of <choice>
-                  <orig>Na<lb/> 
-                    ture</orig>
+               </choice> he could not have<lb/> altered it if he would - and<lb/> that he would not
+               if he<lb/> could - There are "some<lb/> "things I think I could<lb/> "have made
+               better" - But<lb/> even in my infinite conceit<lb/> I respect the truth of <choice>
+                  <orig>Na<lb/> ture</orig>
                   <reg>Nature</reg>
-               </choice> &amp; leave it all to<lb/>
-                    your <persName ref="./Personography.xml#ScotW1">Honor's</persName> honor-<lb/>
+               </choice> &amp; leave it all to<lb/> your <persName ref="./Personography.xml#ScotW1"
+                  >Honor's</persName> honor-<lb/>
             </p>
-            <p>
-                    I doubted whether<lb/>
+            <p> I doubted whether<lb/>
                <placeName ref="./Placeography.xml#IE" cert="medium">Paddy's land</placeName> was a <choice>
-                  <orig>ge<lb/>
-                    nuine</orig>
+                  <orig>ge<lb/> nuine</orig>
                   <reg>genuine</reg>
                </choice> expression, not<lb/>
-               <pb n="2" facs="Edgeworth_NLS_3899_1824_07_06_page02.jpg"/>
-                    having happened to hear<lb/>
-                    it in our parts - &amp; I could<lb/>
-                    have wished to have<lb/>
-                    substituted - the <hi rend="underline">t'ree King</hi>
+               <pb n="2" facs="Edgeworth_NLS_3899_1824_07_06_page02.jpg"/> having happened to
+               hear<lb/> it in our parts - &amp; I could<lb/> have wished to have<lb/> substituted -
+               the <hi rend="underline">t'ree King</hi>
                <lb/>
                <hi rend="underline">doms</hi> - or the <placeName ref="./Placeography.xml#GB">
                   <hi rend="underline">United</hi>
@@ -160,114 +145,78 @@
                   <hi rend="underline">Dunleary</hi>
                </placeName>
                <lb/>
-               <hi rend="underline">- itself!</hi>- which according<lb/>
-                    to my notions would<lb/>
-                    have sounded more<lb/>
-                    natural - But upon<lb/>
-                    strict inquiry - (and I<lb/>
-                    have not <hi rend="underline">spared diligence</hi>
-               <lb/>
-                    as <persName ref="./Personography.xml#JohnS1">D.<hi rend="superscript">r</hi> Johnson</persName> would boast)<lb/>
-                    I have satisfied myself<lb/>
-                    that <placeName ref="./Placeography.xml#IE" cert="medium">Paddy's Land</placeName> is the<lb/>
-                    true reading - or the true<lb/>
-                    speaking - and I have<lb/>
-                    restored the original - <choice>
-                  <orig>sub<lb/>
-                    mitting</orig>
+               <hi rend="underline">- itself!</hi>- which according<lb/> to my notions would<lb/>
+               have sounded more<lb/> natural - But upon<lb/> strict inquiry - (and I<lb/> have not
+                  <hi rend="underline">spared diligence</hi>
+               <lb/> as <persName ref="./Personography.xml#JohnS1">D.<hi rend="superscript">r</hi>
+                  Johnson</persName> would boast)<lb/> I have satisfied myself<lb/> that <placeName
+                  ref="./Placeography.xml#IE" cert="medium">Paddy's Land</placeName> is the<lb/>
+               true reading - or the true<lb/> speaking - and I have<lb/> restored the original - <choice>
+                  <orig>sub<lb/> mitting</orig>
                   <reg>submitting</reg>
-               </choice> contrary to my<lb/>
-                    Irish nature to a Scottish<lb/>
-                    proverb -<lb/>
+               </choice> contrary to my<lb/> Irish nature to a Scottish<lb/> proverb -<lb/>
                <hi rend="underline">Let well alone</hi> - A proverb<lb/>
                <pb n="3" facs="Edgeworth_NLS_3899_1824_07_06_page03.jpg"/>
-               <note>4</note>
-                    I first heard from <persName ref="./Personography.xml#BailJ1">Joanna<lb/>
-                    Baillie</persName> -<lb/>
+               <note>4</note> I first heard from <persName ref="./Personography.xml#BailJ1"
+                  >Joanna<lb/> Baillie</persName> -<lb/>
             </p>
-            <p>
-                    I have just been reading<lb/>
-               <title ref="./Workography.xml#Regin1">Reginald Dalton</title> for<lb/>
-                    the second time - with<lb/>
-                    very great pleasure - to<lb/>
-                    some friends to whom<lb/>
-                    it was new <add>The story of this <title ref="./Workography.xml#Regin1">novel</title> is so constructed that</add>- The <choice>
-                  <orig>charac<lb/>
-                    ter</orig>
+            <p> I have just been reading<lb/>
+               <title ref="./Workography.xml#Regin1">Reginald Dalton</title> for<lb/> the second
+               time - with<lb/> very great pleasure - to<lb/> some friends to whom<lb/> it was new
+                  <add>The story of this <title ref="./Workography.xml#Regin1">novel</title> is so
+                  constructed that</add>- The <choice>
+                  <orig>charac<lb/> ter</orig>
                   <reg>character</reg>
-               </choice> of <title ref="./Workography.xml#Regin1">Macdonald</title> the<lb/>
-                    father is admirable - There<lb/>
-               <add>just</add> is a depth of knowledge<lb/>
-                    of human nature and<lb/>
-                    exquisite humor - The<lb/>
+               </choice> of <title ref="./Workography.xml#Regin1">Macdonald</title> the<lb/> father
+               is admirable - There<lb/>
+               <add>just</add> is a depth of knowledge<lb/> of human nature and<lb/> exquisite humor
+               - The<lb/>
                <persName ref="./Personography.xml#LockJ1">author</persName> probably would<lb/>
-                    shrink &amp; writhe at the<lb/>
-                    idea of trusting it to the<lb/>
-                    reading of an <persName ref="./Personography.xml#EdgeM1">Irish woman</persName>
-               <lb/>
-                    but give my services to<lb/>
-                    him and assure him<lb/>
-                    that My <title ref="./Workography.xml#Regin1">Macdonald</title>
-               <lb/>
-                    was heard with <choice>
-                  <orig>unbound<lb/>
-                    ed</orig>
+               shrink &amp; writhe at the<lb/> idea of trusting it to the<lb/> reading of an
+                  <persName ref="./Personography.xml#EdgeM1">Irish woman</persName>
+               <lb/> but give my services to<lb/> him and assure him<lb/> that My <title
+                  ref="./Workography.xml#Regin1">Macdonald</title>
+               <lb/> was heard with <choice>
+                  <orig>unbound<lb/> ed</orig>
                   <reg>unbounded</reg>
                </choice> applause - Like Irish<lb/>
                <persName ref="./Personography.xml#MackC1">Macklin</persName> of yore I ruled<lb/>
-                    (not swore) that it <hi rend="underline">should</hi>
-               <lb/>
-                    be Scotch, whatever it was<lb/>
+               (not swore) that it <hi rend="underline">should</hi>
+               <lb/> be Scotch, whatever it was<lb/>
             </p>
-            <p>
-                    There was <add>in the <persName ref="./Personography.xml#LockJ1">author</persName> of <title ref="./Workography.xml#Regin1">Reg Dalton</title>
-               </add> great boldness<lb/>
-                    curiosity is kept up &amp; baffled till the last<lb/>
-               <pb n="4" facs="Edgeworth_NLS_3899_1824_07_06_page04.jpg"/>
-                    - the boldness of a mind <choice>
-                  <orig>se<lb/>
-                    cure</orig>
+            <p> There was <add>in the <persName ref="./Personography.xml#LockJ1">author</persName>
+                  of <title ref="./Workography.xml#Regin1">Reg Dalton</title>
+               </add> great boldness<lb/> curiosity is kept up &amp; baffled till the last<lb/>
+               <pb n="4" facs="Edgeworth_NLS_3899_1824_07_06_page04.jpg"/> - the boldness of a mind <choice>
+                  <orig>se<lb/> cure</orig>
                   <reg>secure</reg>
-               </choice> of original genius, in<lb/>
-                    daring this character after<lb/>
+               </choice> of original genius, in<lb/> daring this character after<lb/>
                <title ref="./Workography.xml#Manof1">Sir Pertinax McSycophant</title>
-               <lb/>
-                    - It recalls <title ref="./Workography.xml#Manof1">Sir Pertinax</title>
+               <lb/> - It recalls <title ref="./Workography.xml#Manof1">Sir Pertinax</title>
                <hi rend="underline">only</hi>
-               <lb/>
-                    by the excellence of the<lb/>
-                    drawing of the master<lb/>
-                    strokes, while it is open <choice>
-                  <orig>essential<lb/>
-                    ly</orig>
+               <lb/> by the excellence of the<lb/> drawing of the master<lb/> strokes, while it is
+               open <choice>
+                  <orig>essential<lb/> ly</orig>
                   <reg>essentially</reg>
-               </choice> different, &amp; a perfectly<lb/>
-                    new character - It is in beautiful &amp;<lb/>
-                    natural contrast with the amiable vicar-<lb/>
+               </choice> different, &amp; a perfectly<lb/> new character - It is in beautiful
+               &amp;<lb/> natural contrast with the amiable vicar-<lb/>
             </p>
-            <p>
-                    Tell me how your dear<lb/>
+            <p> Tell me how your dear<lb/>
                <persName ref="./Personography.xml#LockS1">Sophia</persName> does and little<lb/>
-               <persName ref="./Personography.xml#LockJ3">Johnny</persName> - our <persName ref="./Personography.xml#EdgeS1">Sophy</persName> is<lb/>
-                    now at  <placeName ref="./Placeography.xml#Cheltenham_ENK">Cheltenham</placeName> with<lb/>
-                    her <persName ref="./Personography.xml#FoxB1">beloved</persName> &amp; has her sister<lb/>
-               <persName ref="./Personography.xml#EdgeF3">Fanny</persName> with her - in<lb/>
-                    a pretty cottage trellised<lb/>
-                    with roses which she writes<lb/>
-                    me word puts her in mind<lb/>
-                    of <placeName ref="./Placeography.xml#Chiefswood_STK">Chiefs Wood</placeName> - her words are<lb/>
-                    "How little I thought when<lb/>
-                    "I was at dear <placeName ref="./Placeography.xml#Chiefswood_STK">Chiefs Wood</placeName>
-               <lb/>
-                    "last year that I should<lb/>
-                    "myself so soon be enjoying<lb/>
-                    the same sort of happiness<lb/>
+               <persName ref="./Personography.xml#LockJ3">Johnny</persName> - our <persName
+                  ref="./Personography.xml#EdgeS1">Sophy</persName> is<lb/> now at <placeName
+                  ref="./Placeography.xml#Cheltenham_ENK">Cheltenham</placeName> with<lb/> her
+                  <persName ref="./Personography.xml#FoxB1">beloved</persName> &amp; has her sister<lb/>
+               <persName ref="./Personography.xml#EdgeF3">Fanny</persName> with her - in<lb/> a
+               pretty cottage trellised<lb/> with roses which she writes<lb/> me word puts her in
+               mind<lb/> of <placeName ref="./Placeography.xml#Chiefswood_STK">Chiefs
+                  Wood</placeName> - her words are<lb/> "How little I thought when<lb/> "I was at
+               dear <placeName ref="./Placeography.xml#Chiefswood_STK">Chiefs Wood</placeName>
+               <lb/> "last year that I should<lb/> "myself so soon be enjoying<lb/> the same sort of
+               happiness<lb/>
             </p>
-            <p>
-                    Pray write &amp; tell me how<lb/>
-                    you are all going on - I have<lb/>
-                    had a great loss since I wrote<lb/>
-                    to you last - my sister <unclear>Bedo</unclear>
+            <p> Pray write &amp; tell me how<lb/> you are all going on - I have<lb/> had a great
+               loss since I wrote<lb/> to you last - my sister <unclear>Bedo</unclear>
                <lb/>
             </p>
          </div>
