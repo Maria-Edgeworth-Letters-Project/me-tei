@@ -8,78 +8,112 @@
       <publicationStmt>
         <publisher>TEI Consortium</publisher>
         <availability status="free">
-          <p>TEI material can be licensed differently depending on the
-          use you intend to make of it. Hence it is made available
-          under both the CC+BY and BSD-2 licences. The CC+BY licence
-          is generally appropriate for usages which treat TEI content
-          as data or documentation. The BSD-2 licence is generally
-          appropriate for usage of TEI content in a software
-          environment. For further information or clarification,
-          please contact the TEI Consortium (info@tei-c.org).</p>
+          <p>TEI material can be licensed differently depending on the use you intend to make of it.
+            Hence it is made available under both the CC+BY and BSD-2 licences. The CC+BY licence is
+            generally appropriate for usages which treat TEI content as data or documentation. The
+            BSD-2 licence is generally appropriate for usage of TEI content in a software
+            environment. For further information or clarification, please contact the TEI Consortium
+            (info@tei-c.org).</p>
         </availability>
       </publicationStmt>
       <sourceDesc>
-        <p>Written from scratch.</p>
+        <p>MELP ODD file produced through Roma.</p>
       </sourceDesc>
-    </fileDesc><encodingDesc><appInfo><application ident="RomaJS" version="1.3.2" when="2026-07-22T01:55:05.008Z"><desc>File edited with <ref target="https://github.com/TEIC/romajs">RomaJS</ref></desc></application></appInfo></encodingDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="RomaJS" version="1.3.2" when="2026-07-22T01:55:05.008Z">
+          <desc>File edited with <ref target="https://github.com/TEIC/romajs">RomaJS</ref></desc>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <listChange>
+        <change when="2026-08-10">Adjusted schema and added headers</change>
+      </listChange>
+    </revisionDesc>
   </teiHeader>
   <text>
     <body>
-      <head>TEI Complete</head>
-      <p>This TEI customization describes a schema that includes
-      <emph>all</emph> of the TEI P5 modules. This is a very useful
-      starting place for manually creating your own customizations —
-      it is much easier to delete the modules you do not want than to
-      add the modules you do. Furthermore this customization often
-      proves helpful for testing TEI software.</p>
-      <p>However, this particular TEI customization is <emph>not
-      recommended</emph> for actual use for encoding documents. It
-      produces schemas and reference documentation that will be much
-      larger and include many more elements than almost anyone could
-      conceivably ever need. Tempting though it may be simply to have
-      absolutely everything, and <q>just ignore</q> elements not
-      required, experience has shown that their presence makes the
-      documentation harder to read and use, and makes a schema that is
-      far more lax than desired.</p>
-      <p>The <att>n</att> attribute of each <gi>moduleRef</gi> below
-      reflects the chapter number of the TEI <title>Guidelines</title>
-      in which the module being referenced is defined. Note that the
-      modules are generally referred to in the order defined, with the
-      exception that the module for <title level="a">Simple Analytic
-      Mechanisms</title> is referred to before the module for <title level="a">Dictionaries</title>. This is because the class <name type="class">att.lexicographic.normalized</name> (which is
-      defined in <name type="module">analysis</name>) needs to be
-      specified before the class <name type="class">att.lexicographic</name> (which is defined in <name type="module">dictionaries</name>).</p>
-      <p>The first four modules are often
-      called the <soCalled>required</soCalled> modules. However, these
-      modules are not themselves technically required to create a TEI
-      conformant markup language (let alone a useful non-TEI
-      conformant markup language). Rather, they each contain one or
-      more <emph>elements</emph> which are required for TEI
-      conformance.</p>
+      <head>MELP TEI</head>
+      <p>With gratitude to Elisa Beshero-Bondar, who introduced us to ODD files and provided
+        guidance on using Roma, MELP created an ODD file to limit the elements encoders use to the
+        elements that we use in MELP, thereby excluding all other elements from our schema. Since
+        many researchers and students work on this project, by carefully controlling the elements we
+        use, MELP can streamline and avoid introducing errors to the encoding process. </p>
+      <p>Since this ODD file was created using Roma, the <att>n</att> attribute of each
+          <gi>moduleRef</gi> below reflects the chapter number of the TEI <title>Guidelines</title>
+        in which the module being referenced is defined. Note that the modules are generally
+        referred to in the order defined, with the exception that the module for <title level="a"
+          >Simple Analytic Mechanisms</title> is referred to before the module for <title level="a"
+          >Dictionaries</title>. This is because the class <name type="class"
+          >att.lexicographic.normalized</name> (which is defined in <name type="module"
+          >analysis</name>) needs to be specified before the class <name type="class"
+          >att.lexicographic</name> (which is defined in <name type="module"
+        >dictionaries</name>).</p>
+      <p>The first four modules are often called the <soCalled>required</soCalled> modules. However,
+        these modules are not themselves technically required to create a TEI conformant markup
+        language (let alone a useful non-TEI conformant markup language). Rather, they each contain
+        one or more <emph>elements</emph> which are required for TEI conformance.</p>
       <schemaSpec ident="melp_odd" start="TEI teiCorpus" prefix="tei_" targetLang="en" docLang="en">
         <moduleRef n="01" key="tei"/>
-        <moduleRef n="02" key="header" except="abstract appInfo application biblFull cRefPattern calendar calendarDesc catDesc catRef category citeData citeStructure classCode classDecl conversion correction creation distributor extent funder geoDecl hyphenation interpretation keywords langUsage language listChange listPrefixDef namespace normalization prefixDef projectDesc punctuation quotation refState refsDecl rendition samplingDecl schemaRef scriptNote segmentation stdVals styleDefDecl tagUsage tagsDecl taxonomy textClass unitDecl unitDef xenoData"/>
-        <moduleRef n="03" key="core" except="abbr analytic biblScope biblStruct binaryObject cb cit citedRange corr desc distinct divGen ellipsis email emph expan gb gloss graphic headItem headLabel imprint item label list listBibl measure measureGrp media meeting mentioned milestone monogr noteGrp num postBox postCode ptr pubPlace publisher q quote rb ref relatedItem rt ruby said series sic soCalled sp speaker stage street term textLang time unit"/>
-        <moduleRef n="04" key="textstructure" except="argument byline div1 div2 div3 div4 div5 div6 div7 docAuthor docDate docEdition docImprint docTitle epigraph floatingText front group imprimatur signed titlePage titlePart trailer"/>
-        
-        
-        
-        
-        
-        
-        
-        <moduleRef n="11" key="msdescription" except="accMat acquisition additional additions adminInfo altIdentifier binding bindingDesc catchwords collation colophon condition custEvent custodialHist depth dim dimensions explicit filiation finalRubric foliation height heraldry history incipit layout layoutDesc locus locusGrp material musicNotation objectDesc objectType origDate origPlace origin provenance recordHist rubric scriptDesc secFol signatures source summary support supportDesc surrogates typeDesc typeNote width"/>
-        <moduleRef n="12" key="transcr" except="addSpan am ex facsimile fw line listTranspose metamark mod path redo restore retrace secl sourceDoc space subst substJoin supplied surface surfaceGrp surplus transpose undo zone"/>
-        
-        <moduleRef n="14" key="namesdates" except="addName affiliation age birth bloc climate country death district event eventName faith floruit genName gender geo geogFeat geogName langKnowledge langKnown listEvent listNym listObject listOrg listPerson listPlace listRelation location nameLink nationality nym object objectIdentifier objectName occupation offset persPronouns person persona place population region relation residence roleName settlement sex socecStatus state terrain trait"/>
+        <moduleRef n="02" key="header"
+          except="abstract appInfo application biblFull cRefPattern calendar calendarDesc catDesc catRef category citeData citeStructure classCode classDecl conversion correction creation distributor extent funder geoDecl hyphenation interpretation keywords langUsage language listChange listPrefixDef namespace normalization prefixDef projectDesc punctuation quotation refState refsDecl rendition samplingDecl schemaRef scriptNote segmentation stdVals styleDefDecl tagUsage tagsDecl taxonomy textClass unitDecl unitDef xenoData"/>
+        <moduleRef n="03" key="core"
+          except="abbr analytic biblScope biblStruct binaryObject cb cit citedRange corr desc distinct divGen ellipsis email emph expan gb gloss graphic headItem headLabel imprint item label list listBibl measure measureGrp media meeting mentioned milestone monogr noteGrp num postBox postCode ptr pubPlace publisher q quote rb ref relatedItem rt ruby said series sic soCalled sp speaker stage street term textLang time unit"/>
+        <moduleRef n="04" key="textstructure"
+          except="argument byline div1 div2 div3 div4 div5 div6 div7 docAuthor docDate docEdition docImprint docTitle epigraph floatingText front group imprimatur signed titlePage titlePart trailer"/>
+
+
+
+
+
+
+
+        <moduleRef n="11" key="msdescription"
+          except="accMat acquisition additional additions adminInfo altIdentifier binding bindingDesc catchwords collation colophon condition custEvent custodialHist depth dim dimensions explicit filiation finalRubric foliation height heraldry history incipit layout layoutDesc locus locusGrp material musicNotation objectDesc objectType origDate origPlace origin provenance recordHist rubric scriptDesc secFol signatures source summary support supportDesc surrogates typeDesc typeNote width"/>
+        <moduleRef n="12" key="transcr"
+          except="addSpan am ex facsimile fw line listTranspose metamark mod path redo restore retrace secl sourceDoc space subst substJoin supplied surface surfaceGrp surplus transpose undo zone"/>
+
+        <moduleRef n="14" key="namesdates"
+          except="addName affiliation age birth bloc climate country death district event eventName faith floruit genName gender geo geogFeat geogName langKnowledge langKnown listEvent listNym listObject listOrg listPerson listPlace listRelation location nameLink nationality nym object objectIdentifier objectName occupation offset persPronouns person persona place population region relation residence roleName settlement sex socecStatus state terrain trait"/>
         <moduleRef n="15" key="figures" except="cell formula notatedMusic"/>
-        
-        
-        
-        
+
+
+
+
         <moduleRef n="22" key="certainty" except="precision respons"/>
-        
-      <elementSpec ident="forename" mode="change"><classes mode="change"><memberOf key="att.cmc" mode="delete"/></classes></elementSpec><classRef key="att.gaijiProp"/><classRef key="att.identified"/><classRef key="att.lexicographic"/><classRef key="att.deprecated"/><classRef key="att.dimensions"/><classRef key="att.anchoring"/><classRef key="att.ascribed"/><classRef key="att.ascribed.directed"/><classRef key="att.breaking"/><classRef key="att.calendarSystem"/><classRef key="att.canonical"/><classRef key="att.citeStructurePart"/><classRef key="att.citing"/><classRef key="att.cmc"/><classRef key="att.combinable"/><classRef key="att.coordinated"/><classRef key="att.cReferencing"/><classRef key="att.declaring"/><classRef key="att.declarable"/><classRef key="att.datcat"/><classRef key="att.datable.w3c"/><classRef key="att.datable.iso"/><classRef key="att.datable.custom"/><classRef key="att.datable"/></schemaSpec>
+
+        <elementSpec ident="forename" mode="change">
+          <classes mode="change">
+            <memberOf key="att.cmc" mode="delete"/>
+          </classes>
+        </elementSpec>
+        <classRef key="att.gaijiProp"/>
+        <classRef key="att.identified"/>
+        <classRef key="att.lexicographic"/>
+        <classRef key="att.deprecated"/>
+        <classRef key="att.dimensions"/>
+        <classRef key="att.anchoring"/>
+        <classRef key="att.ascribed"/>
+        <classRef key="att.ascribed.directed"/>
+        <classRef key="att.breaking"/>
+        <classRef key="att.calendarSystem"/>
+        <classRef key="att.canonical"/>
+        <classRef key="att.citeStructurePart"/>
+        <classRef key="att.citing"/>
+        <classRef key="att.cmc"/>
+        <classRef key="att.combinable"/>
+        <classRef key="att.coordinated"/>
+        <classRef key="att.cReferencing"/>
+        <classRef key="att.declaring"/>
+        <classRef key="att.declarable"/>
+        <classRef key="att.datcat"/>
+        <classRef key="att.datable.w3c"/>
+        <classRef key="att.datable.iso"/>
+        <classRef key="att.datable.custom"/>
+        <classRef key="att.datable"/>
+      </schemaSpec>
     </body>
   </text>
 </TEI>
