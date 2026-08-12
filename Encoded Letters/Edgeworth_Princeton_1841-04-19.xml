@@ -14,30 +14,38 @@
             <sponsor>
                <orgName>Maria Edgeworth Letters Project</orgName>
             </sponsor>
-            <sponsor>Texas A &amp; M University, University of Tennessee, Wake Forest University, Xavier University of Louisiana, Southern Methodist University</sponsor>
-            <principal>Susan Egenolf, Meredith Hale, Hilary Havens, Jessica Richard, and Robin Runia</principal>
+            <sponsor>Texas A &amp; M University, University of Tennessee, Wake Forest University,
+               Xavier University of Louisiana, Southern Methodist University</sponsor>
+            <principal>Susan Egenolf, Meredith Hale, Hilary Havens, Jessica Richard, and Robin
+               Runia</principal>
             <respStmt>
                <resp>Transcription and coding by</resp>
                <persName>Alexandra LaGrand</persName>
             </respStmt>
          </titleStmt>
          <editionStmt>
-            <edition>First digital edition in TEI, date: <date when="2023-12-01">December 1, 2023</date>
+            <edition>First digital edition in TEI, date: <date when="2023-12-01">December 1,
+                  2023</date>
             </edition>
             <respStmt>
-               <orgName ref="http://id.loc.gov/authorities/names/n82003163">Princeton University. Library</orgName>
-               <resp> photos include: Edgeworth_Princeton_1841-04_page001.jpg, Edgeworth_Princeton_1841-04_page002.jpg</resp>
+               <orgName ref="http://id.loc.gov/authorities/names/n82003163">Princeton University.
+                  Library</orgName>
+               <resp> photos include: Edgeworth_Princeton_1841-04-19_page01.jpg,
+                  Edgeworth_Princeton_1841-04-19_page02.jpg</resp>
             </respStmt>
          </editionStmt>
          <publicationStmt>
             <authority>Maria Edgeworth Letters Project</authority>
             <date>2022</date>
             <availability>
-               <p>Reproduced by courtesy of <orgName ref="http://id.loc.gov/authorities/names/n82003163">Princeton University. Library</orgName>
+               <p>Reproduced by courtesy of <orgName
+                     ref="http://id.loc.gov/authorities/names/n82003163">Princeton University.
+                     Library</orgName>
                </p>
-               <licence target="https://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons Attribution 4.0 (CC BY 4.0) Unported License</licence>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">Distributed under a
+                  Creative Commons Attribution 4.0 (CC BY 4.0) Unported License</licence>
             </availability>
-            <idno>Edgeworth_Princeton_1841-04_page001</idno>
+            <idno>Edgeworth_Princeton_1841-04-19</idno>
          </publicationStmt>
          <seriesStmt>
             <title>Maria Edgeworth Letters Project</title>
@@ -49,12 +57,11 @@
                   <collection/>
                   <idno/>
                </msIdentifier>
-               <head>Letter from 
-                  <persName ref="./Personography.xml#EdgeM1">
+               <head>Letter from <persName ref="./Personography.xml#EdgeM1">
                      <forename>Maria</forename>
                      <surname>Edgeworth</surname>
-                  </persName>
-                   to <persName>Unknown</persName>, <date when="1841-04-19">April 19, 1841</date>
+               </persName> to <persName ref="./Personography.xml#BailJ1">Joanna Baillie</persName>, <date when="1841-04-19">April 19,
+                     1841</date>
                </head>
                <physDesc/>
             </msDesc>
@@ -62,7 +69,9 @@
       </fileDesc>
       <encodingDesc>
          <editorialDecl>
-            <p>Edgeworth’s spelling and punctuation are retained in transcription, including non-standard spelling, line breaks, and hyphenation of words. The long s and ligatured forms are silently emended.</p>
+            <p>Edgeworth’s spelling and punctuation are retained in transcription, including
+               non-standard spelling, line breaks, and hyphenation of words. The long s and
+               ligatured forms are silently emended.</p>
          </editorialDecl>
       </encodingDesc>
       <profileDesc>
@@ -70,17 +79,21 @@
             <correspAction type="sent">
                <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
             </correspAction>
+            <correspAction type="received">
+               <persName ref="./Personography.xml#BailJ1">Joanna Baillie, 1762-1851</persName>
+            </correspAction>
          </correspDesc>
       </profileDesc>
       <revisionDesc>
          <change when="2023-12-01" who="Id_who">Created file for letter, encoded letter</change>
-         <change when="2023-12-05" who="Id_who">Updated archival note at end; added ID for Mrs. E.</change>
+         <change when="2023-12-05" who="Id_who">Updated archival note at end; added ID for Mrs.
+            E.</change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <div type="letter">
-            <pb n="1" facs="Edgeworth_Princeton_1841-04_page001.jpg"/>
+            <pb n="1" facs="Edgeworth_Princeton_1841-04-19_page01.jpg"/>
             <opener>
                <dateline>
                   <date when="1841-04-19">Monday <choice>
@@ -91,30 +104,24 @@
                </dateline>
             </opener>
             <p>
-               <persName ref="./Personography.xml#BailJ1">M<hi rend="superscript">rs</hi> Baillie</persName> My sister<lb/>
-               is going on pretty well<lb/>
-               - has had a good<lb/>
-               night - pain not<lb/>
-               yet quite gone - but<lb/>
-               <hi rend="underline">much lessened</hi> - and<lb/>
-               altogether she is improv<lb/>
-               ing - <unclear>frail</unclear> safe<lb/>
-               Thank God<lb/>
+               Thank you my dear <persName ref="./Personography.xml#BailJ1">M<hi rend="superscript">rs</hi>
+                  Baillie</persName> <persName ref="./Personography.xml#Edgew1">My sister</persName><lb/> is going on pretty well<lb/> - has had a
+               good<lb/> night - pain not<lb/> yet quite gone - but<lb/>
+               <hi rend="underline">much lessened</hi> - and<lb/> altogether she is improv<lb/> ing
+               - <unclear>frail</unclear> safe<lb/> Thank God<lb/>
             </p>
             <postscript>
                <p>Yours affec<hi rend="superscript">ly</hi>
-                  <lb/>
-               Maria E<lb/>
+                  <lb/><persName ref="./Personography.xml#EdgeM1">Maria E</persName><lb/>
                </p>
-               <p>
-               Now of <persName ref="./Personography.xml#EdgeF2">M<hi rend="superscript">rs</hi> E</persName> improving<lb/>
-               too - I know not how<lb/>
-               much longer <unclear>Delay</unclear>
+               <p> Now of <persName ref="./Personography.xml#EdgeF2">M<hi rend="superscript">rs</hi>
+                     E</persName> improving<lb/> too - I know not how<lb/> much longer
+                     <unclear>Delay</unclear>
                   <lb/>
                </p>
             </postscript>
             <closer>
-               <pb n="2" facs="Edgeworth_Princeton_1841-04_page002.jpg"/>
+               <pb n="2" facs="Edgeworth_Princeton_1841-04-19_page02.jpg"/>
                <note place="bottom">April 19<hi rend="superscript">th</hi> 1841</note>
                <lb/>
                <address>
