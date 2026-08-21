@@ -4,6 +4,8 @@
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="https://raw.githubusercontent.com/Maria-Edgeworth-Letters-Project/me-tei/refs/heads/main/melp.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
     ?>
+<?xml-model href="https://raw.githubusercontent.com/Maria-Edgeworth-Letters-Project/me-tei/refs/heads/main/melp_odd.rng" type="application/xml"​​ schematypens="http://relaxng.org/ns/structure/1.0"
+    ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -195,7 +197,8 @@
                      <orig>Dom<lb/>
                   inick</orig>
                      <reg>Dominick</reg>
-                  </choice></title>
+                  </choice>
+               </title>
                 found it to learn the lattin grammar. I can assure you<lb/>
                that it is much more difficult to people to learn it after they<lb/>
                grow old than whilst they are young. (After I had grown up quite<lb/>

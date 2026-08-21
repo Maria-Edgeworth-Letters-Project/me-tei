@@ -4,6 +4,8 @@
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="https://raw.githubusercontent.com/Maria-Edgeworth-Letters-Project/me-tei/refs/heads/main/melp.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
     ?>
+<?xml-model href="https://raw.githubusercontent.com/Maria-Edgeworth-Letters-Project/me-tei/refs/heads/main/melp_odd.rng" type="application/xml"​​ schematypens="http://relaxng.org/ns/structure/1.0"
+    ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -47,8 +49,7 @@
             <authority>Maria Edgeworth Letters Project</authority>
             <date>2023</date>
             <availability>
-               <p>Reproduced by courtesy of the <orgName
-                     ref="http://id.loc.gov/authorities/names/n79049138"> Henry E. Huntington
+               <p>Reproduced by courtesy of the <orgName ref="http://id.loc.gov/authorities/names/n79049138"> Henry E. Huntington
                      Library and Art Gallery</orgName>. </p>
                <licence target="https://creativecommons.org/licenses/by/4.0/">Distributed under a
                   Creative Commons Attribution 4.0 (CC BY 4.0) Unported License</licence>
@@ -130,8 +131,7 @@
                hope by this time you have rec.<hi rend="superscript">d</hi>
                <del/>
                <add>either</add>
-               <lb/> one of mine which will prove to you that I had not <hi rend="underline"
-                  >forgotten</hi> you<lb/> It seems as if both our last letters had been copied from
+               <lb/> one of mine which will prove to you that I had not <hi rend="underline">forgotten</hi> you<lb/> It seems as if both our last letters had been copied from
                each other<lb/> the ideas are so very similar, and yet we are at least a hundred<lb/>
                miles distant from one another! <del> Sympathy then <unclear/>
                </del>
@@ -162,18 +162,15 @@
                least desirable part<lb/> about her, (if I am unjust let me again beg you to tell me
                so for I am<lb/> sure I should be very sorry to be so) - I had no reason to suppose
                that<lb/> she had any partiality for me, and I doubt whether if she had been<lb/>
-               asked the same question she would have given the same answer you<lb/> gave <persName
-                  ref="./Personography.xml#VanX1">Miss Van</persName>; an answer which flattering as
+               asked the same question she would have given the same answer you<lb/> gave <persName ref="./Personography.xml#VanX1">Miss Van</persName>; an answer which flattering as
                it was I thought too<lb/> kind even to forget - In short I never could depend much on
                friends<lb/> who lavished <add>such</add> hyperbolical protestations of love as I
                have seen in<lb/> some of <persName ref="./Personography.xml#HartX1">Miss
-                  H</persName>'s letters - the superlatives <hi rend="underline">dearest</hi>, <hi
-                  rend="underline">Best</hi>
+                  H</persName>'s letters - the superlatives <hi rend="underline">dearest</hi>, <hi rend="underline">Best</hi>
                <hi rend="underline">most</hi>
                <hi rend="underline">amiable</hi>
                <lb/> applied indiscrimonately on all her various <hi rend="underline">Loves</hi>
-               don't strike me<lb/> as expressions of real feeling but as words to <hi
-                  rend="underline">fill up a sentence</hi>
+               don't strike me<lb/> as expressions of real feeling but as words to <hi rend="underline">fill up a sentence</hi>
                <lb/>
                <hi rend="underline">or harmonize a period</hi> - the three or four lines in the
                postcript<lb/> of your kind letter made more impression on my mind <del>than</del>, <choice>
@@ -228,22 +225,18 @@
                   <orig>finish-<lb/> -ed</orig>
                   <reg>finished</reg>
                </choice>
-               <persName ref="./Personography.xml#RollC1">Rollin</persName>'s <title
-                  ref="./Workography.xml#Ancie1">Ancient History</title> yet and how do you like it?
-               - I am reading<lb/> the History of the only Conqueror I ever liked - <persName
-                  ref="./Personography.xml#Peter1">Peter</persName> justly stiled<lb/> the Great - I
+               <persName ref="./Personography.xml#RollC1">Rollin</persName>'s <title ref="./Workography.xml#Ancie1">Ancient History</title> yet and how do you like it?
+               - I am reading<lb/> the History of the only Conqueror I ever liked - <persName ref="./Personography.xml#Peter1">Peter</persName> justly stiled<lb/> the Great - I
                shall read the life of <persName ref="./Personography.xml#Charl12">Charles the
                   twelfth</persName> as soon as I<lb/> have finished it but I am afraid all
-                  <persName ref="./Personography.xml#Volta1">Voltaire</persName>'s <title
-                  ref="./Workography.xml#Eloqu1">Eloquence</title> will<lb/> not prevent my wishing
+                  <persName ref="./Personography.xml#Volta1">Voltaire</persName>'s <title ref="./Workography.xml#Eloqu1">Eloquence</title> will<lb/> not prevent my wishing
                his hero to lose every Battle &amp; fail in every<lb/> attack upon <add>his</add>
                generous &amp; moderate Adversary - I have finished<lb/>
                <persName ref="./Personography.xml#Molie1">Moliere</persName>'s &amp; have began
                   <persName ref="./Personography.xml#MariP1">Marivaux</persName>'s
                   <add>Theatre</add>
                <persName ref="./Personography.xml#Molie1">Moliere</persName>s entertained me<lb/>
-               very much, the plots of all I have yet read of <persName
-                  ref="./Personography.xml#MariP1">Marivaux</persName> I think too<lb/> much alike
+               very much, the plots of all I have yet read of <persName ref="./Personography.xml#MariP1">Marivaux</persName> I think too<lb/> much alike
                &amp; too uninteresting; indeed that <del>I think</del> is a fault<lb/> I have met
                with in most french plays - the waiting women &amp; valets<lb/> are mere machinery to
                help the Author through his plot &amp; to bring<lb/> their Masters &amp; Mistresses
@@ -253,8 +246,7 @@
                If you won't think you are reading a review instead of a letter I should add<lb/> one
                Book more to this long Catalogue - I don't know whether you are fond of<lb/> such
                Subjects, but if you are I think you would be very much pleased with<lb/>
-               <persName ref="./Personography.xml#SmitA1"> Smith</persName>'s <title
-                  ref="./Workography.xml#Theor1">Theory of moral Sentiments</title> - It is neither
+               <persName ref="./Personography.xml#SmitA1"> Smith</persName>'s <title ref="./Workography.xml#Theor1">Theory of moral Sentiments</title> - It is neither
                abstruse pendantic<lb/> or prolix - the language is easy &amp; elegant &amp; an
                appearance of<lb/>
                <pb n="14" facs="Edgeworth_Huntington_HM28590_1783_09_15_page04.jpg"/> Benevolence in
@@ -262,8 +254,7 @@
                indeed I dont know any Book which gave me so high an <choice>
                   <orig>opi-<lb/> -nion</orig>
                   <reg>opinion</reg>
-               </choice> of the private character of the writer as this, except <persName
-                  ref="./Personography.xml#GregJ1">
+               </choice> of the private character of the writer as this, except <persName ref="./Personography.xml#GregJ1">
                   <choice>
                      <orig>D<hi rend="superscript">r</hi>.</orig>
                      <reg>Doctor</reg>
@@ -271,8 +262,7 @@
                   <choice>
                      <orig>ad-<lb/> -vice</orig>
                      <reg>advice</reg>
-                  </choice> to his Daughters</title> which you may remember lending me at <persName
-                  ref="./Personography.xml#DeviE1"> M<hi rend="superscript">rs</hi>..
+                  </choice> to his Daughters</title> which you may remember lending me at <persName ref="./Personography.xml#DeviE1"> M<hi rend="superscript">rs</hi>..
                D</persName>'s<lb/> &amp; whether it was the time at which I read it, as I was then
                allowed to<lb/> read very little, or the instrinsic merit of the book I can't tell
                but it made<lb/> an impression upon me which I have never forgotten - how I have<lb/>
@@ -319,8 +309,7 @@
                   </orig>
                   <reg>October</reg>
                </choice> 28<hi rend="superscript">th</hi>.. have I delayed sending my letter<lb/> in
-               hopes of hearing from you my dear <persName ref="./Personography.xml#HoarF1"
-                  >Fanny</persName> - but I have no right to<lb/> complain I confess upon
+               hopes of hearing from you my dear <persName ref="./Personography.xml#HoarF1">Fanny</persName> - but I have no right to<lb/> complain I confess upon
                Recollection - <choice>
                   <orig>to night</orig>
                   <reg>tonight</reg>
@@ -335,8 +324,7 @@
                   <orig>rec.<hi rend="superscript">d</hi>
                   </orig>
                   <reg>received</reg>
-               </choice> your most entertaining letter<lb/> (I hate the word <hi rend="underline"
-                  >Epistle</hi> though it is a favorite of your's) and though I<lb/> think I seldom
+               </choice> your most entertaining letter<lb/> (I hate the word <hi rend="underline">Epistle</hi> though it is a favorite of your's) and though I<lb/> think I seldom
                if ever was more anxious about anything in my<lb/> life, you contrived to make me
                forget my disappointment about<lb/>
                <persName ref="./Personography.xml#BurnF1">Miss Burney</persName> entirely - How much
@@ -353,8 +341,7 @@
                good!; but I assure you if I wished to conceal it from you it was<lb/> merely for
                fear of exposing myself - I had hastily sketched<lb/>
                <pb n="6" facs="Edgeworth_Huntington_HM28590_1783_09_15_page06.jpg"/> a plan of a
-               play <add>in</add> which with my <persName ref="./Personography.xml#EdgeR1"
-                  >father</persName>'s Assistance - I afterwards<lb/> continued to discover such
+               play <add>in</add> which with my <persName ref="./Personography.xml#EdgeR1">father</persName>'s Assistance - I afterwards<lb/> continued to discover such
                Egregious absurdities that I was<lb/> absolutely ashamed of having written it -
                That's all -<lb/> But I will now send you over a Scene or two &amp; more of the<lb/>
                <add>new</add> plan to morrow - - Yes and to morrow by the Blessing of<lb/> God you
@@ -371,10 +358,8 @@
                great step towards discovering the causes - Naturalists<lb/> and Philosophers too
                often err from that impatience of Genius<lb/> which soars into the lofty regions of
                Immagination regardless<lb/> of the plain &amp; narrow but certain path of truth -
-               there's a fine<lb/> sentence! and as many Epithets as <persName
-                  ref="./Personography.xml#JohnS1">D<hi rend="superscript">r</hi>.
-                  Johnson</persName> himself could<lb/> cram into it - <persName
-                  ref="./Personography.xml#EdgeR1">My father</persName> was returning home from
+               there's a fine<lb/> sentence! and as many Epithets as <persName ref="./Personography.xml#JohnS1">D<hi rend="superscript">r</hi>.
+                  Johnson</persName> himself could<lb/> cram into it - <persName ref="./Personography.xml#EdgeR1">My father</persName> was returning home from
                   <persName ref="./Personography.xml#ForbG1">Lord<lb/> Granard</persName>'s who
                lives about nine Miles off, between ten &amp; eleven or<lb/> nine &amp; ten at night,
                in a phaeton with the head up - when just<lb/> over his horses head he perceived a
@@ -404,15 +389,13 @@
                   <reg>tonight</reg>
                </choice>? - In troth and please your honor<lb/> I was so scared I did not mind
                   <add>it</add> much; but I think to the best<lb/> of my knowledge it seemed to be
-               as big as a <add>coach</add> House! <persName ref="./Personography.xml#XxxxJ2"
-                  >John</persName>
+               as big as a <add>coach</add> House! <persName ref="./Personography.xml#XxxxJ2">John</persName>
                <lb/> was the coachman what a characteristical Allusion! <del>I think</del>
                <lb/>
                <del/>
                <lb/> In the Drummer I remember to have met with a similar<lb/> humorous stroke- The
                house maid thinks the apparition<lb/> was like a Broom, the Coach man like a Coach
-               House &amp;<lb/> the Cook like a Spit; by the bye <title
-                  ref="./Workography.xml#Drumm1">the Drummer</title> contains more<lb/> humor of a
+               House &amp;<lb/> the Cook like a Spit; by the bye <title ref="./Workography.xml#Drumm1">the Drummer</title> contains more<lb/> humor of a
                   <hi rend="underline">certain style</hi> than many plays which are more<lb/>
                celebrated - <persName ref="./Personography.xml#AddiJ1">Addison</persName> they say
                borrowed or rather translated<lb/> it from a french play - I forget who was the
@@ -423,8 +406,7 @@
                   <reg>complaint</reg>
                </choice> to <persName ref="./Personography.xml#EdgeR1">my father</persName> &amp;
                concluded with these words "&amp; He<lb/> "bid me go to the Devil &amp; I came
-               straight to your Honor"<lb/> Lubin, in <persName ref="./Personography.xml#MarmJ1"
-                  >Marmontel</persName>'s <title ref="./Workography.xml#Moral3">tales</title> makes
+               straight to your Honor"<lb/> Lubin, in <persName ref="./Personography.xml#MarmJ1">Marmontel</persName>'s <title ref="./Workography.xml#Moral3">tales</title> makes
                exactly the same <choice>
                   <orig>Blun-<lb/> -der</orig>
                   <reg>Blunder</reg>
@@ -435,8 +417,7 @@
                they must be <choice>
                   <orig>ele-<lb/> -gant</orig>
                   <reg>elegant</reg>
-               </choice> indeed &amp; the sister arts often go together - I wish <persName
-                  ref="./Personography.xml#RxxxX1">M<hi rend="superscript">s</hi>.<lb/>
+               </choice> indeed &amp; the sister arts often go together - I wish <persName ref="./Personography.xml#RxxxX1">M<hi rend="superscript">s</hi>.<lb/>
                   R.</persName> could take even the faintest Resemblance of you; I <choice>
                   <orig>dare<lb/> say</orig>
                   <reg>daresay</reg>
@@ -476,8 +457,7 @@
                present state of Politics<lb/> here - What should you think of a civil War? upon my
                word<lb/> there's danger - The people are in a <add>state of</add> universal
                Fermentation<lb/> The Counties, Corps, Provinces, are all sending Delegates
-               &amp;<lb/> making what they call <hi rend="underline">spirited</hi> Resolutions - <hi
-                  rend="underline">A free</hi>
+               &amp;<lb/> making what they call <hi rend="underline">spirited</hi> Resolutions - <hi rend="underline">A free</hi>
                <lb/>
                <choice>
                   <orig>
@@ -488,8 +468,7 @@
                <pb n="9" facs="Edgeworth_Huntington_HM28590_1783_09_15_page09.jpg"/> or none at all
                - There is to be one of the greatest and <add>most</add> Respectable<lb/> Meetings
                held on Monday Next (To decide on some plan to be support<lb/> -ed by the united
-               Exertions of all the Volunteers of <placeName ref="./Placeography.xml#IE"
-                  >Ireland</placeName>) that<lb/> ever was seen in this or perhaps in any other
+               Exertions of all the Volunteers of <placeName ref="./Placeography.xml#IE">Ireland</placeName>) that<lb/> ever was seen in this or perhaps in any other
                Country - My <persName ref="./Personography.xml#EdgeR1">
                   <choice>
                      <orig>Fa-<lb/> -ther</orig>
@@ -507,26 +486,19 @@
                   while the Iron</hi>
                <lb/>
                <hi rend="underline">is hot</hi>, give the people time to cool &amp; it's all over -
-               They say<lb/> your Ministry in <placeName ref="./Placeography.xml#ENK"
-                  >England</placeName> mean to oppose it with<del/> all there<lb/> strength &amp;
+               They say<lb/> your Ministry in <placeName ref="./Placeography.xml#ENK">England</placeName> mean to oppose it with<del/> all there<lb/> strength &amp;
                the Catholics here hint that if they are not allowed<lb/> the right of voting they
                will join them - But I cant believe<lb/> it, The <choice>
                   <orig>Mi<add>ni</add>sters</orig>
                   <reg>Ministers</reg>
-               </choice> of <placeName ref="./Placeography.xml#ENK"
-               >England</placeName>/placeName&gt; must be too well informed to think<lb/> the <hi
-                  rend="underline">Volunteer Army</hi> nothing but a Name, or to venture to <choice>
+               </choice> of <placeName ref="./Placeography.xml#ENK">England</placeName>/placeName&gt; must be too well informed to think<lb/> the <hi rend="underline">Volunteer Army</hi> nothing but a Name, or to venture to <choice>
                   <orig>tri-<lb/> -fle</orig>
                   <reg>trifle</reg>
-               </choice> with several 1000 Men in Arms with a <persName
-                  ref="./Personography.xml#CharX2">Charlemont</persName> an <persName
-                  ref="./Personography.xml#OgleX1">Ogle</persName>
+               </choice> with several 1000 Men in Arms with a <persName ref="./Personography.xml#CharX2">Charlemont</persName> an <persName ref="./Personography.xml#OgleX1">Ogle</persName>
                <lb/> and a <persName ref="./Personography.xml#FlooX1">Flood</persName> at their
                head - besides the opposition are ready<lb/> to step into their places &amp; help us
-               whenever we call upon them -<lb/> I tell you what my dear <persName
-                  ref="./Personography.xml#HoarF1">Fanny</persName>, I am not too proud to be
-               vain<lb/> and so let me praise my <persName ref="./Personography.xml#EdgeR1"
-                  >father</persName>, for <add>for</add> the soul of me I can't help it -<lb/> This
+               whenever we call upon them -<lb/> I tell you what my dear <persName ref="./Personography.xml#HoarF1">Fanny</persName>, I am not too proud to be
+               vain<lb/> and so let me praise my <persName ref="./Personography.xml#EdgeR1">father</persName>, for <add>for</add> the soul of me I can't help it -<lb/> This
                Speech to the <placeName ref="./Placeography.xml#Leinster_IE">Leinster</placeName>
                Delegates was <choice>
                   <orig>rec.<hi rend="superscript">d</hi>
@@ -563,24 +535,18 @@
                </choice> who can laugh at their <add>own</add> vanity - Not so neither, for I'll
                answer<lb/> for it I can laugh as heartily at mine as you can - There's for<lb/> you
                - So don't be proud or I'll be proud too &amp; I'll always<lb/> write to you in full
-               dress - <lb/> Give my love to <persName ref="./Personography.xml#XxxxP1"
-                  >Penelope</persName> and tell her I shall always be very<lb/> glad for her to see
+               dress - <lb/> Give my love to <persName ref="./Personography.xml#XxxxP1">Penelope</persName> and tell her I shall always be very<lb/> glad for her to see
                my letters (if you please) &amp; hope nay expect<lb/> she will add a line in your's
                whenever she is at home if it be<lb/> only to say "I'm alive ho!- Laugh her out of
-               her fears and Ask<lb/> her as <persName ref="./Personography.xml#AmicX1">M<hi
-                     rend="superscript">r</hi>. Amici</persName> used to ask us "<hi
-                  rend="underline">Me croyez vous donc un ours?"</hi>
+               her fears and Ask<lb/> her as <persName ref="./Personography.xml#AmicX1">M<hi rend="superscript">r</hi>. Amici</persName> used to ask us "<hi rend="underline">Me croyez vous donc un ours?"</hi>
                <lb/> Pray how came you to stop just when you had raised my<lb/> Curiosity about
                   <persName ref="./Personography.xml#EkinL1">Miss Ekins</persName>.? do you mean
                   <persName ref="./Personography.xml#EkinL1">Louisa Ekins</persName>? I was<lb/> at
                school with her for a twelve-Month - "I thought her to use<lb/>
                <persName ref="./Personography.xml#BurnF1">Miss Burney</persName>'s words (who you
-               see still runs in my head, <title ref="./Workography.xml#Eveli1">a <hi
-                     rend="underline">pretty</hi>
+               see still runs in my head, <title ref="./Workography.xml#Eveli1">a <hi rend="underline">pretty</hi>
                   <lb/> but <hi rend="underline">affected</hi> Young Lady"</title>- I suppose she
-               does not say much<lb/> more for <hi rend="underline">me</hi>, but <hi
-                  rend="underline">you</hi> know me my dear <persName
-                  ref="./Personography.xml#HoarF1">Fanny</persName> &amp; I flatter myself<lb/> you
+               does not say much<lb/> more for <hi rend="underline">me</hi>, but <hi rend="underline">you</hi> know me my dear <persName ref="./Personography.xml#HoarF1">Fanny</persName> &amp; I flatter myself<lb/> you
                will not suffer any one to usurp my place in your heart or judge<lb/> me without a
                hearing - Pray if I have tired you to death throw<lb/> all this into the fire &amp;
                forget every thing in it except that I am my dear<lb/> girl with increasing
@@ -592,8 +558,7 @@
             <pb n="11" facs="Edgeworth_Huntington_HM28590_1783_09_15_page11.jpg"/>
             <postscript>
                <p>PS - <lb/> 10 Ten Pages!<lb/> Oh! about the sentence of which you so gravely ask
-                  me my<lb/> opinion, I think it neither like <persName
-                     ref="./Personography.xml#JohnS1">D<hi rend="superscript">r</hi>. J.</persName>s
+                  me my<lb/> opinion, I think it neither like <persName ref="./Personography.xml#JohnS1">D<hi rend="superscript">r</hi>. J.</persName>s
                   language or like any<lb/> body else's - for it appears to me neither more or less than<lb/>
                   <choice>
                      <orig>compleat</orig>
@@ -633,8 +598,7 @@
                      <orig>Ser- vice</orig>
                      <reg>Service</reg>
                   </choice> to her, but I am <add>afraid</add> she had recourse to<lb/> Exercise too
-                  late - Nervous habits last - <lb/> Present my Respectful compliments to <persName
-                     ref="./Personography.xml#RobiD1">Lady Robinson</persName>
+                  late - Nervous habits last - <lb/> Present my Respectful compliments to <persName ref="./Personography.xml#RobiD1">Lady Robinson</persName>
                   <lb/> her Ladyship is very obliging to furnish me with franks - <lb/> You will
                   think me very Extravagant in using two at a<lb/> time, indeed I believe if I had
                      <unclear>two dozen</unclear> I should fill them<lb/> all - <lb/>
@@ -654,10 +618,8 @@
                <p>Besides a postscript is a most convenient <unclear/> for <choice>
                      <orig>ques-<lb/> tions</orig>
                      <reg>questions</reg>
-                  </choice> &amp; odd thoughts - pell mell - <lb/> To <persName
-                     ref="./Personography.xml#BurlX1">Miss <unclear>Burlton's</unclear>
-                  </persName> gone or going - You know she was always very fond of<lb/> singing <hi
-                     rend="underline">"When I am a Widow Oh then! Oh then!</hi> - <unclear/>! Was
+                  </choice> &amp; odd thoughts - pell mell - <lb/> To <persName ref="./Personography.xml#BurlX1">Miss <unclear>Burlton's</unclear>
+                  </persName> gone or going - You know she was always very fond of<lb/> singing <hi rend="underline">"When I am a Widow Oh then! Oh then!</hi> - <unclear/>! Was
                   there <unclear/>prophetic in the<lb/> Song. - <lb/>
                </p>
             </postscript>

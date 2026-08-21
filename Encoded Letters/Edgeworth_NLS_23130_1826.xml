@@ -4,6 +4,8 @@
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="https://raw.githubusercontent.com/Maria-Edgeworth-Letters-Project/me-tei/refs/heads/main/melp.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
     ?>
+<?xml-model href="https://raw.githubusercontent.com/Maria-Edgeworth-Letters-Project/me-tei/refs/heads/main/melp_odd.rng" type="application/xml"​​ schematypens="http://relaxng.org/ns/structure/1.0"
+    ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -128,9 +130,9 @@
                to be lifted out of the carriage so compleatly were my joints<lb/>
                disabled by the rheumatism. But the hot bath &amp; <del>opost</del> opodeledic<lb/>
                have put a little verve in Harlequin <unclear/> day I would have<lb/>
-               
                <pb n="2" facs="Edgeworth_NLS_23130_1826_page02.jpg"/>   
-               however pressure to scale <persName ref="./Personography.xml#KevaS1">Sam Kevans</persName> bed for a fortnight to come <persName ref="./Personography.xml#ScotW2" cert="medium">Walter</persName><lb/>
+               however pressure to scale <persName ref="./Personography.xml#KevaS1">Sam Kevans</persName> bed for a fortnight to come <persName ref="./Personography.xml#ScotW2" cert="medium">Walter</persName>
+               <lb/>
                is going about the house wearing the little harness in memoriam<lb/>
                because none of the cavalry <unclear>immediately</unclear> on the run for <placeName ref="./Placeography.xml#PO">Portugal</placeName>
                <unclear>believes</unclear>

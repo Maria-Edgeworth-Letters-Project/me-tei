@@ -4,6 +4,8 @@
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="https://raw.githubusercontent.com/Maria-Edgeworth-Letters-Project/me-tei/refs/heads/main/melp.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
     ?>
+<?xml-model href="https://raw.githubusercontent.com/Maria-Edgeworth-Letters-Project/me-tei/refs/heads/main/melp_odd.rng" type="application/xml"​​ schematypens="http://relaxng.org/ns/structure/1.0"
+    ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -122,7 +124,8 @@
                </choice>, I will not - They must say what no<lb/>
                their <choice>
                   <orig>Ed<hi rend="superscript">n</hi>
-                  </orig><reg>Edition</reg>
+                  </orig>
+                  <reg>Edition</reg>
                </choice>. is to consist of &amp; which they do not in their letter state<lb/>
                the number &amp; price <hi rend="underline">proportionable I beg you</hi> to settle -<lb/>
                I would only observe that if they absolutely object to my<lb/>
@@ -202,7 +205,8 @@
                <p>
                   <del>I must decline <del>hav</del> giving <persName ref="./Personography.xml#BentR1">Bentley</persName>
                      <choice>
-                        <orig>permis</orig><reg>permission</reg>
+                        <orig>permis</orig>
+                        <reg>permission</reg>
                      </choice>
                   </del>
                   <lb/>

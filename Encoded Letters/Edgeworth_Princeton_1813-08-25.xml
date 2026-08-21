@@ -4,6 +4,8 @@
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="https://raw.githubusercontent.com/Maria-Edgeworth-Letters-Project/me-tei/refs/heads/main/melp.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
     ?>
+<?xml-model href="https://raw.githubusercontent.com/Maria-Edgeworth-Letters-Project/me-tei/refs/heads/main/melp_odd.rng" type="application/xml"​​ schematypens="http://relaxng.org/ns/structure/1.0"
+    ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -94,7 +96,9 @@
       <body>
          <div type="letter">
             <pb n="1" facs="Edgeworth_Princeton_1813-08-25_page01.jpg"/>
-            <head><hi rend="underline">For <persName ref="./Personography.xml#MileA1">M<hi rend="superscript">rs</hi>..Miles</persName>,</hi></head>
+            <head>
+               <hi rend="underline">For <persName ref="./Personography.xml#MileA1">M<hi rend="superscript">rs</hi>..Miles</persName>,</hi>
+            </head>
             <opener>
                <dateline>
                   <placeName ref="./Placeography.xml#Edgeworthstown_IE">Edgeworth Town</placeName>
@@ -182,7 +186,8 @@
                correct I fear it will be impossible for me<lb/>
                even if I should at last receive it safely to<lb/>
                return it corrected in time for <choice>
-                  <orig>Xmas<lb/></orig>
+                  <orig>Xmas<lb/>
+                  </orig>
                   <reg>Christmas</reg>
                </choice>
                publication -<lb/>
@@ -215,7 +220,7 @@
                sufficient to enable him to marry without<lb/>
                imprudence<lb/>
             </p>
-               <closer>
+            <closer>
                With best wishes for your health &amp; hap-<lb/>
                piness &amp; that of <persName ref="./Personography.xml#MileJ1">M<hi rend="superscript">r</hi>. Miles</persName> &amp; your children<lb/>
                I am Dear Madam<lb/>
@@ -232,17 +237,16 @@
                <lb/>
             </closer>
             <pb n="4" facs="Edgeworth_Princeton_1813-08-25_page04.jpg"/>
-               <address>
-                  <addrLine>
-                     <persName ref="./Personography.xml#MileJ1">M<hi rend="superscript">r</hi> Miles</persName>
-                     <placeName ref="./Placeography.xml#St-Pauls-Churchyard_ENK">S<hi rend="superscript">t</hi>. <unclear>Paul</unclear>'s Church Yard</placeName>
-                     <placeName ref="./Placeography.xml#London_ENK">London</placeName>
-                  </addrLine>
-                  <lb/>
-               </address>
+            <address>
+               <addrLine>
+                  <persName ref="./Personography.xml#MileJ1">M<hi rend="superscript">r</hi> Miles</persName>
+                  <placeName ref="./Placeography.xml#St-Pauls-Churchyard_ENK">S<hi rend="superscript">t</hi>. <unclear>Paul</unclear>'s Church Yard</placeName>
+                  <placeName ref="./Placeography.xml#London_ENK">London</placeName>
+               </addrLine>
+               <lb/>
+            </address>
          </div>
       </body>
       <back/>
-      
    </text>
 </TEI>

@@ -4,6 +4,8 @@
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="https://raw.githubusercontent.com/Maria-Edgeworth-Letters-Project/me-tei/refs/heads/main/melp.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
     ?>
+<?xml-model href="https://raw.githubusercontent.com/Maria-Edgeworth-Letters-Project/me-tei/refs/heads/main/melp_odd.rng" type="application/xml"​​ schematypens="http://relaxng.org/ns/structure/1.0"
+    ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -98,12 +100,12 @@
             <pb n="1" facs="Edgeworth_Morgan_422515_1844_05_02_page01.jpg"/>
             <opener>
                <salute>
-                     <persName ref="./Personography.xml#EdgeM1">Miss Edgeworth</persName>s <choice>
-                        <orig>Compts</orig>
-                        <reg>Compliments</reg>
-                     </choice> to<lb/>
-                     <persName ref="./Personography.xml#ConoX1">M<hi rend="superscript">r</hi>. Conolly.</persName>
-                     <lb/>
+                  <persName ref="./Personography.xml#EdgeM1">Miss Edgeworth</persName>s <choice>
+                     <orig>Compts</orig>
+                     <reg>Compliments</reg>
+                  </choice> to<lb/>
+                  <persName ref="./Personography.xml#ConoX1">M<hi rend="superscript">r</hi>. Conolly.</persName>
+                  <lb/>
                </salute>
             </opener>
             <p>She believes that <persName ref="./Personography.xml#BaldR1">Baldwin</persName>

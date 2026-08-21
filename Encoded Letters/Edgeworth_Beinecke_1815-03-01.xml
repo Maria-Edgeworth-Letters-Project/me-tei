@@ -4,6 +4,8 @@
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="https://raw.githubusercontent.com/Maria-Edgeworth-Letters-Project/me-tei/refs/heads/main/melp.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
     ?>
+<?xml-model href="https://raw.githubusercontent.com/Maria-Edgeworth-Letters-Project/me-tei/refs/heads/main/melp_odd.rng" type="application/xml"​​ schematypens="http://relaxng.org/ns/structure/1.0"
+    ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -103,7 +105,8 @@
             <opener>
                <dateline>
                   15 Baggot Street<lb/>
-                  <placeName ref="./Placeography.xml#Dublin_IE">Dublin</placeName><lb/>
+                  <placeName ref="./Placeography.xml#Dublin_IE">Dublin</placeName>
+                  <lb/>
                   <date when="1815-03-01">March 1, 1815</date>
                   <lb/>
                </dateline>
@@ -160,7 +163,10 @@
                     to try to obtain the direction<lb/>
                         to <persName ref="./Personography.xml#McCaX1">M<hi rend="superscript">r</hi>. M<hi rend="superscript">c</hi>Cann</persName> but fear it<lb/>
                     will be too late<lb/>
-                  tell <persName ref="./Personography.xml#Unknown">M<hi rend="superscript">r</hi>. <damage><unclear>Hu</unclear><gap></gap></damage>
+                  tell <persName ref="./Personography.xml#Unknown">M<hi rend="superscript">r</hi>. <damage>
+                        <unclear>Hu</unclear>
+                        <gap/>
+                     </damage>
                   </persName> ask for<lb/>
                   <persName ref="./Personography.xml#MileA1">M<hi rend="superscript">rs</hi>. Miles</persName>
                   <lb/>

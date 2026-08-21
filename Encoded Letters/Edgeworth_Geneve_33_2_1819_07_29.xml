@@ -3,6 +3,8 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="https://raw.githubusercontent.com/Maria-Edgeworth-Letters-Project/me-tei/refs/heads/main/melp.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/Maria-Edgeworth-Letters-Project/me-tei/refs/heads/main/melp_odd.rng" type="application/xml"​​ schematypens="http://relaxng.org/ns/structure/1.0"
+    ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -24,8 +26,7 @@
             </respStmt>
          </titleStmt>
          <editionStmt>
-            <edition>First digital edition in TEI, date: June 30, 2026 <date when="2026-06-30">
-            </date>
+            <edition>First digital edition in TEI, date: June 30, 2026 <date when="2026-06-30"/>
             </edition>
             <respStmt>
                <orgName type="naf" ref="https://d-nb.info/gnd/5075238-8">
@@ -52,14 +53,13 @@
                </p>
                <licence target="https://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons Attribution 4.0 (CC BY 4.0) Unported License</licence>
             </availability>
-            <idno>Edgeworth_Geneve_33_2_1819_07_29</idno> 
+            <idno>Edgeworth_Geneve_33_2_1819_07_29</idno>
          </publicationStmt>
          <seriesStmt>
             <title>Maria Edgeworth Letters Project</title>
          </seriesStmt>
          <sourceDesc>
-            <msDesc xml:lang="en">
-               <!-- This section of the header identifies the original manuscript source. -->
+            <msDesc xml:lang="en"><!-- This section of the header identifies the original manuscript source. -->
                <msIdentifier>
                   <repository>Bibliothèques municipales de la Ville de Genève</repository>
                   <collection><!-- Enter specific archival collection if applicable--></collection>
@@ -77,18 +77,14 @@
                   <date when="1819-07-29">July 29<hi rend="superscript">th</hi> 1819</date>
                   <!-- <stamp>Enter description, if applicable</stamp>-->
                </head>
-               <physDesc>
-                  <!-- optional physical description of the letter goes here: paper size and condition, seal, postmarks, etc.-->
-               </physDesc>
+               <physDesc><!-- optional physical description of the letter goes here: paper size and condition, seal, postmarks, etc.--></physDesc>
             </msDesc>
             <bibl>In addition to our edited version, this letter was previously published in
-               <!--complete bibiographical info if letter was published in a book here - if not delete-->
-            </bibl>
+               <!--complete bibiographical info if letter was published in a book here - if not delete--></bibl>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <editorialDecl>
-            <!--Where Edgeworth uses nonstandard spelling and hyphenation of words, transcriber-coders 
+         <editorialDecl><!--Where Edgeworth uses nonstandard spelling and hyphenation of words, transcriber-coders 
                should use TEI elements “choice," “sic," and “reg" to encode both Edgeworth’s 
                spelling and the regular international standard of Oxford English spelling, 
                following the first listed spelling in the Oxford English Dictionary. -->
@@ -106,9 +102,7 @@
          </correspDesc>
       </profileDesc>
       <revisionDesc>
-         <change when="2021-01-01" who="Id_who">
-            <!--Brief description of what you did here.-->
-         </change>
+         <change when="2021-01-01" who="Id_who"><!--Brief description of what you did here.--></change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -118,7 +112,8 @@
             <opener>
                <dateline>
                   <placeName ref="./Placeography.xml#Edgeworthstown_IE">Edgeworth Town</placeName>
-                  <date when="1819-07-29">July 29<hi rend="superscript">th</hi> 1819</date></dateline>
+                  <date when="1819-07-29">July 29<hi rend="superscript">th</hi> 1819</date>
+               </dateline>
             </opener>
             <p>
                Your most touching and affectionate letter<lb/>
@@ -134,47 +129,73 @@
                certain that I thought of you <del>and of the</del> when<lb/>
                I lately read <persName ref="./Personography.xml#MackR1">M<hi rend="superscript">c</hi>.Intosh's</persName> admirable speech<lb/>
                on the penal laws of <placeName ref="./Placeography.xml#ENK">England</placeName>. I wished to<lb/>
-               have been near you that I might have <choice><orig>enjoy-<lb/>ed</orig><reg>enjoyed</reg></choice>
+               have been near you that I might have <choice>
+                  <orig>enjoy-<lb/>ed</orig>
+                  <reg>enjoyed</reg>
+               </choice>
                the sight of the exquisite pleasure which<lb/>
                I know that triumph of reason and eloquence<lb/>
                must have given you - both as it regards<lb/>
                the living - and the dead. There cannot<lb/>
                be a finer tribute to the memory of him who<lb/>
                first began who so long so steadily carried<lb/>
-               on that attack upon antient prejudice - And<lb/><lb/>
+               on that attack upon antient prejudice - And<lb/>
+               <lb/>
                now that the finest body of evidence, has been<lb/>
                produced, upon the largest scale which Time<lb/>
                and numbers can afford in the support of<lb/>
                truth it will be impossible in future to recur<lb/>
                to the old evasion of - " This is all very fine in<lb/>
                <hi rend="underline">theory</hi>, but it will not do in <hi rend="underline">practice</hi>. "<lb/>
-               
                <note place="top">131</note>
-               
                <pb n="2" facs="Edgeworth_Geneve_33_2_1819_07_29_page02.jpg"/>
                I do not recollect any instance in these or former<lb/>
-               times of so large a view of legislative <unclear>truths</unclear><lb/>
-               being presented to the mind by any statesman <add>much less by any <hi rend="underline">orator</hi></add><lb/>
+               times of so large a view of legislative <unclear>truths</unclear>
+               <lb/>
+               being presented to the mind by any statesman <add>much less by any <hi rend="underline">orator</hi>
+               </add>
+               <lb/>
                - nor was the subject ever before so successfully<lb/>
-               treated as an experimental science. The <choice><orig>expe-<lb/>rience</orig><reg>experience</reg></choice>
-                of <del>many</del> ages was drawn <del>into one</del><lb/>
-               to one point and from the focus of his <choice><orig>elo-<lb/>quence</orig><reg>eloquence</reg></choice>
+               treated as an experimental science. The <choice>
+                  <orig>expe-<lb/>rience</orig>
+                  <reg>experience</reg>
+               </choice>
+                of <del>many</del> ages was drawn <del>into one</del>
+               <lb/>
+               to one point and from the focus of his <choice>
+                  <orig>elo-<lb/>quence</orig>
+                  <reg>eloquence</reg>
+               </choice>
                 the light and warmth spread far<lb/>
                and wide - to the eye and to the heart.<lb/>
             </p>
             <p>
                I own I never had such a high opinion as<lb/>
-               you always expressed of <persName ref="./Personography.xml#MackR1">M<hi rend="superscript">c</hi>.Intosh</persName> <hi rend="underline">till I read</hi><lb/>
-               <hi rend="underline">that speech</hi> - and another of his on the <placeName ref="./Placeography.xml#BR">Brazil</placeName><lb/>
+               you always expressed of <persName ref="./Personography.xml#MackR1">M<hi rend="superscript">c</hi>.Intosh</persName>
+               <hi rend="underline">till I read</hi>
+               <lb/>
+               <hi rend="underline">that speech</hi> - and another of his on the <placeName ref="./Placeography.xml#BR">Brazil</placeName>
+               <lb/>
                war. - I am heartily glad that the review<lb/>
-               of your last volume <title ref="./Workography.xml#Ratio1">Sur les peines &amp; les <choice><orig>recom-<lb/>-penses</orig><reg>recompenses</reg></choice></title>
+               of your last volume <title ref="./Workography.xml#Ratio1">Sur les peines &amp; les <choice>
+                     <orig>recom-<lb/>-penses</orig>
+                     <reg>recompenses</reg>
+                  </choice>
+               </title>
                is still to be written. Those who have<lb/>
                read that book or the essays on legislation<lb/>
                must now look back to them with new<lb/>
                satisfaction - the satisfaction of being able<lb/>
-               to support by notorious facts, the truth of <add>great &amp;</add><lb/>
-               useful principles - All who cannot <choice><orig>under-<lb/>stand</orig><reg>understand</reg></choice>
-               , or who will not attend to <choice><orig>demonstra-<lb/>-tion</orig><reg>demonstration</reg></choice>
+               to support by notorious facts, the truth of <add>great &amp;</add>
+               <lb/>
+               useful principles - All who cannot <choice>
+                  <orig>under-<lb/>stand</orig>
+                  <reg>understand</reg>
+               </choice>
+               , or who will not attend to <choice>
+                  <orig>demonstra-<lb/>-tion</orig>
+                  <reg>demonstration</reg>
+               </choice>
                &amp; who affect to despise theory, are compelled<lb/>
                to listen to evidence &amp; are charmed to have a fact<lb/>
                to repeat in writing or conversation because<lb/>
@@ -182,14 +203,16 @@
             </p>
             <p>
                I certainly was deeply interested when I first<lb/>
-               read those books, and so was my dear <persName ref="./Personography.xml#EdgeR1">father</persName><lb/>
-               - But I did not think that interest could <hi rend="underline">now</hi><lb/>
+               read those books, and so was my dear <persName ref="./Personography.xml#EdgeR1">father</persName>
+               <lb/>
+               - But I did not think that interest could <hi rend="underline">now</hi>
+               <lb/>
                have been so warmly received as I feel it has<lb/>
                been - There is no danger my dear <persName ref="./Personography.xml#DumoE1">friend</persName> that<lb/>
                this should exhaust itself and cool before I<lb/>
                can put it to any good use - I know that at least<lb/>
-               where my friends &amp; truth are concerned I am firm <unclear>of purpose</unclear><lb/>
-               
+               where my friends &amp; truth are concerned I am firm <unclear>of purpose</unclear>
+               <lb/>
                <pb n="3" facs="Edgeworth_Geneve_33_2_1819_07_29_page03.jpg"/>
                - that much of my <persName ref="./Personography.xml#EdgeR1">father</persName> still remains with me.<lb/>
             </p>
@@ -200,7 +223,10 @@
                goes on slowly because I have the proof sheets<lb/>
                sent to me here - I find it a great advantage - not<lb/>
                merely to verbal correction - I hope you will see<lb/>
-               that I have improved what I had written by <choice><orig>re-<lb/>-vision</orig><reg>revision</reg></choice>
+               that I have improved what I had written by <choice>
+                  <orig>re-<lb/>-vision</orig>
+                  <reg>revision</reg>
+               </choice>
                after letting it lie by 6 months. All<lb/>
                the corrections and alterations have been<lb/>
                made on the general principles you pointed<lb/>
@@ -229,9 +255,7 @@
                will keep the note to <persName ref="./Personography.xml#PictM1">Pictet</persName> which is a note of intro<lb/>
                duction till he reaches <placeName ref="./Placeography.xml#Geneva_SZ">Geneva</placeName> himself &amp; he means to<lb/>
                make some stay at <placeName ref="./Placeography.xml#Paris_FR">Paris</placeName>. This gentleman &amp; his wife<lb/>
-               
                <note place="top">132</note>
-               
                <pb n="4" facs="Edgeworth_Geneve_33_2_1819_07_29_page04.jpg"/>
                <persName ref="./Personography.xml#LucaX2">M<hi rend="superscript">r</hi>.</persName> and <persName ref="./Personography.xml#LucaX1">M<hi rend="superscript">rs</hi>. Lucas</persName> are friends of my friends but not<lb/>
                personally known to me - therefore I would not<lb/>
@@ -239,7 +263,10 @@
                to you - Your time is too precious &amp; your mind engaged<lb/>
                too deeply to be squandered on every traveller who<lb/>
                may wish to have the honor of seeing you - For<lb/>
-               the same reason I would not give an <choice><orig>introduc-<lb/>tion</orig><reg>introduction</reg></choice>
+               the same reason I would not give an <choice>
+                  <orig>introduc-<lb/>tion</orig>
+                  <reg>introduction</reg>
+               </choice>
                to <persName ref="./Personography.xml#MarcJ1">M<hi rend="superscript">rs</hi>. Marcet</persName>. But I could not refuse one<lb/>
                to <persName ref="./Personography.xml#PictM1">Pictet</persName> - I know they are people he would like &amp;<lb/>
                that no one can be better suited to please them &amp;<lb/>
@@ -247,7 +274,8 @@
                so my conscience is clear &amp; your time your own<lb/>
             </p>
             <p>
-               - Give my affectionate &amp; grateful love &amp; <persName ref="./Personography.xml#EdgeF3">Fannys</persName><lb/>
+               - Give my affectionate &amp; grateful love &amp; <persName ref="./Personography.xml#EdgeF3">Fannys</persName>
+               <lb/>
                to <persName ref="./Personography.xml#MarcJ1">M<hi rend="superscript">rs</hi>. Marcet</persName> - <hi rend="underline">She</hi> knows &amp; <del>only</del>we know how<lb/>
                very much we have cause to bless her for her<lb/>
                kindness to us in <placeName ref="./Placeography.xml#London_ENK">London</placeName>. When you read<lb/>
@@ -267,7 +295,8 @@
                you two letters at once.<lb/>
             </p>
             <p>
-               <persName ref="./Personography.xml#BeauH1">Honora</persName> is still with her two good <rs ref="./Personography.xml#SneyC1 ./Personography.xml#SneyM1">aunts</rs> in <placeName ref="./Placeography.xml#ENK">England</placeName><lb/>
+               <persName ref="./Personography.xml#BeauH1">Honora</persName> is still with her two good <rs ref="./Personography.xml#SneyC1 ./Personography.xml#SneyM1">aunts</rs> in <placeName ref="./Placeography.xml#ENK">England</placeName>
+               <lb/>
                they will bring her back to us this autumn.<lb/>
                Though you do not know these <persName ref="./Personography.xml#SneyC1 ./Personography.xml#SneyM1">aunts</persName>, you know<lb/>
                I believe that we are much attached to them &amp;<lb/>
@@ -275,24 +304,38 @@
                our happiest days; You will therefore rejoice<lb/>
                with us that they are coming back to <hi rend="underline">live</hi> with<lb/>
                us again after having spent two years with other<lb/>
-               
                <pb n="5" facs="Edgeworth_Geneve_33_2_1819_07_29_page05.jpg"/>
                friends in England. If my <persName ref="./Personography.xml#EdgeR1">father</persName> could <del>look</del> see this<lb/>
-               what pleasure it would give him to see the <choice><orig>con-<lb/>tinued</orig><reg>continued</reg></choice>
+               what pleasure it would give him to see the <choice>
+                  <orig>con-<lb/>tinued</orig>
+                  <reg>continued</reg>
+               </choice>
                union of all those whom he united<lb/>
                in esteem &amp; affection. Besides he would feel<lb/>
                it as the strongest testimony to the <add>kindness of</add> conduct &amp;<lb/>
                superior character of the <persName ref="./Personography.xml#EdgeF2">wife</persName> he loved - the<lb/>
                <rs ref="./Personography.xml#SneyC1 ./Personography.xml#SneyM1">sisters</rs> of a former <persName ref="./Personography.xml#EdgeE1">wife</persName> returning after he is no<lb/>
                more to live with her &amp; her children - To my<lb/>
-               eldest <persName ref="./Personography.xml#EdgeL2">brother</persName> his representative it is also <choice><orig>hono-<lb/>rable</orig><reg>honorable</reg></choice>
-                - And - I am very absurd &amp; <choice><orig>unconsciona-<lb/>ble</orig><reg>unconscionable</reg></choice>
+               eldest <persName ref="./Personography.xml#EdgeL2">brother</persName> his representative it is also <choice>
+                  <orig>hono-<lb/>rable</orig>
+                  <reg>honorable</reg>
+               </choice>
+                - And - I am very absurd &amp; <choice>
+                  <orig>unconsciona-<lb/>ble</orig>
+                  <reg>unconscionable</reg>
+               </choice>
                to expect you to sympathise in all this - Pardon<lb/>
-               and tell me any thing in revenge that <choice><orig>con-<lb/>cerns</orig><reg>concerns</reg></choice>
+               and tell me any thing in revenge that <choice>
+                  <orig>con-<lb/>cerns</orig>
+                  <reg>concerns</reg>
+               </choice>
                your private family affairs -<lb/>
             </p>
             <p>
-               <persName ref="./Personography.xml#EdgeL2">Lovell</persName> (my eldest brother) has set an <choice><orig>ex-<lb/>cellent</orig><reg>excellent</reg></choice>
+               <persName ref="./Personography.xml#EdgeL2">Lovell</persName> (my eldest brother) has set an <choice>
+                  <orig>ex-<lb/>cellent</orig>
+                  <reg>excellent</reg>
+               </choice>
                example in this part of the country this<lb/>
                year as sheriff: by doing all that was formerly<lb/>
                done by military force, by <add>the</add> civil power only -<lb/>
@@ -306,10 +349,20 @@
                - and aweful silence - very unusual in such<lb/>
                cases in <placeName ref="./Placeography.xml#IE">Ireland</placeName> - ten or twelve thousand people<lb/>
                assembled - The <hi rend="underline">solemnity</hi> of these executions &amp; the<lb/>
-               impression made by the example were <choice><orig>strik-<lb/>ing</orig><reg>striking</reg></choice>
+               impression made by the example were <choice>
+                  <orig>strik-<lb/>ing</orig>
+                  <reg>striking</reg>
+               </choice>
                - in contrast to the too common &amp; shocking<lb/>
-               sacrifices <add>&amp; waste</add> of human life seen often with <choice><orig>indiffer-<lb/>ence</orig><reg>indifference</reg></choice>
-                in this country or with a spirit of <choice><orig>ven-<lb/></orig><reg>vengeance</reg></choice>
+               sacrifices <add>&amp; waste</add> of human life seen often with <choice>
+                  <orig>indiffer-<lb/>ence</orig>
+                  <reg>indifference</reg>
+               </choice>
+                in this country or with a spirit of <choice>
+                  <orig>ven-<lb/>
+                  </orig>
+                  <reg>vengeance</reg>
+               </choice>
                by surviving accomplices &amp; relations<lb/>
             </p>
             <p>
@@ -317,89 +370,133 @@
                of the prisoners when my <persName ref="./Personography.xml#EdgeL2">brother</persName> was conducting<lb/>
                him back to the jail after sentence of death had<lb/>
                been pronounced, was once interrupted by deep sobs<lb/>
-               
                <note place="top">133</note>
-               
                <pb n="6" facs="Edgeworth_Geneve_33_2_1819_07_29_page06.jpg"/>
                - My <persName ref="./Personography.xml#EdgeL2">brother</persName> looked to see from whence they came &amp;<lb/>
                <del>found</del> saw a little <persName ref="./Personography.xml#BarnX1">boy</persName> of ten or eleven years old<lb/>
                who was struggling through the crowd to get to<lb/>
                his father the condemned prisoner. The <persName ref="./Personography.xml#BarnX1">boy</persName> as<lb/>
-               all the neighbors who knew him attested was <del>of</del><lb/>
+               all the neighbors who knew him attested was <del>of</del>
+               <lb/>
                an excellent <persName ref="./Personography.xml#BarnX1">boy</persName> - <persName ref="./Personography.xml#EdgeL2">Lovell</persName> after the execution of the<lb/>
                father who was condemned for stealing a horse,<lb/>
-               brought the son home with him to <placeName ref="./Placeography.xml#Edgeworthstown_IE">Edgeworth Town</placeName><lb/>
+               brought the son home with him to <placeName ref="./Placeography.xml#Edgeworthstown_IE">Edgeworth Town</placeName>
+               <lb/>
                &amp; put him to a <placeName ref="./Placeography.xml#Edgeworthstown-School_IE">school</placeName> he has established for the<lb/>
-               sons of the poor. The <placeName ref="./Placeography.xml#Edgeworthstown-School_IE">school</placeName> contains above a <choice><orig>hun-<lb/>dred</orig><reg>hundred</reg></choice>
+               sons of the poor. The <placeName ref="./Placeography.xml#Edgeworthstown-School_IE">school</placeName> contains above a <choice>
+                  <orig>hun-<lb/>dred</orig>
+                  <reg>hundred</reg>
+               </choice>
                boys from 7 - to 12 years old - They one &amp;<lb/>
                all received the poor little ragged creature, who<lb/>
                was brought amongst them with kindness - never<lb/>
                alluded to the disgrace of his father's having been<lb/>
                hanged - <persName ref="./Personography.xml#EdgeL2">Lovell</persName> had desired that they should not<lb/>
                call him by his fathers name - but by his own<lb/>
-               christian name <hi rend="underline"><persName ref="./Personography.xml#BarnX1">Barney</persName></hi>. They never failed to<lb/>
+               christian name <hi rend="underline">
+                  <persName ref="./Personography.xml#BarnX1">Barney</persName>
+               </hi>. They never failed to<lb/>
                do so - The boys all joined to earn a suit of clothes<lb/>
                for him - They said each earned the sum of sixpence<lb/>
                by working out of school hours, pounding stones<lb/>
-               for the roads &amp;c till they had made up the <choice><orig>neces-<lb/>sary</orig><reg>necessary</reg></choice>
+               for the roads &amp;c till they had made up the <choice>
+                  <orig>neces-<lb/>sary</orig>
+                  <reg>necessary</reg>
+               </choice>
                sum - One little creature of 8 years old<lb/>
                got up at 3 o clock in the morning to work for<lb/>
                his share - When the clothes were bought &amp; made<lb/>
                they were carried by the boys, <add>who hung them</add> on the top of a pole<lb/>
                one of them a little <hi rend="underline">fifer</hi> playing an Irish tune<lb/>
-               to <hi rend="underline"><persName ref="./Personography.xml#BarnX1">Barney</persName></hi> - When he received them he burst<lb/>
+               to <hi rend="underline">
+                  <persName ref="./Personography.xml#BarnX1">Barney</persName>
+               </hi> - When he received them he burst<lb/>
                into tears and said<lb/>
             </p>
             <p>
-               <hi rend="underline">I hope I will never do any thing bad</hi><lb/>
+               <hi rend="underline">I hope I will never do any thing bad</hi>
+               <lb/>
             </p>
             <p>
-               This I <hi rend="underline">warrant</hi> to you for <hi rend="underline">plain truth</hi><lb/>
+               This I <hi rend="underline">warrant</hi> to you for <hi rend="underline">plain truth</hi>
+               <lb/>
                Indeed you will feel that it is too good for<lb/>
-               fiction - For a person of good taste it is <choice><orig>impossi-<lb/>ble</orig><reg>impossible</reg></choice>
+               fiction - For a person of good taste it is <choice>
+                  <orig>impossi-<lb/>ble</orig>
+                  <reg>impossible</reg>
+               </choice>
                to make any thing " plus belle que la Verite"<lb/>
             </p>
             <p>
                Now I will tell you something too bad<lb/>
-               for fiction. - She would hardly dare to <choice><orig>in<lb/>-vent</orig><reg>invent</reg></choice>
+               for fiction. - She would hardly dare to <choice>
+                  <orig>in<lb/>-vent</orig>
+                  <reg>invent</reg>
+               </choice>
                such a circumstance and expect<lb/>
                to be believed. <add>I had it from</add> One of the Judges who dined<lb/>
-               
                <pb n="7" facs="Edgeworth_Geneve_33_2_1819_07_29_page07.jpg"/>
-               with us <del>this</del> a few days ago. He told me <del>that</del><lb/>
+               with us <del>this</del> a few days ago. He told me <del>that</del>
+               <lb/>
                <del>as an instance</del> that a year or two ago when<lb/>
                he <del>was</del> was going circuit as a judge in this<lb/>
                country, he inquired as it is the duty of<lb/>
-               a judge to do whether there were any <choice><orig>prison<lb/>ers</orig><reg>prisoners</reg></choice>
+               a judge to do whether there were any <choice>
+                  <orig>prison<lb/>ers</orig>
+                  <reg>prisoners</reg>
+               </choice>
                still confined in the county Town at<lb/>
                which he had held his assize - Among others<lb/>
-               he found one prisoner who had been <choice><orig>con-<lb/>fined</orig><reg>confined</reg></choice>
-               in prison <hi rend="underline">nine months</hi> - for having <add>stolen</add><lb/>
-               or rather on suspicion of having in a <choice><orig>drun-<lb/>-ken</orig><reg>drunken</reg></choice>
+               he found one prisoner who had been <choice>
+                  <orig>con-<lb/>fined</orig>
+                  <reg>confined</reg>
+               </choice>
+               in prison <hi rend="underline">nine months</hi> - for having <add>stolen</add>
+               <lb/>
+               or rather on suspicion of having in a <choice>
+                  <orig>drun-<lb/>-ken</orig>
+                  <reg>drunken</reg>
+               </choice>
                dispute carried off another man's hat.<lb/>
                - The loss &amp; the suspicion of theft were sworn<lb/>
-               to &amp; the value of the hat <hi rend="underline">mercifully</hi> laid <del>at</del><lb/>
-               under 40 sh<hi rend="superscript">s</hi>. else it might have been a <choice><orig>hang<lb/>ing</orig><reg>hanging</reg></choice>
+               to &amp; the value of the hat <hi rend="underline">mercifully</hi> laid <del>at</del>
+               <lb/>
+               under 40 sh<hi rend="superscript">s</hi>. else it might have been a <choice>
+                  <orig>hang<lb/>ing</orig>
+                  <reg>hanging</reg>
+               </choice>
                matter - You will easily guess it was<lb/>
-               an affair of party - between Catholic &amp; <choice><orig>Protes-<lb/>-tant</orig><reg>Protestant</reg></choice>
+               an affair of party - between Catholic &amp; <choice>
+                  <orig>Protes-<lb/>-tant</orig>
+                  <reg>Protestant</reg>
+               </choice>
                - <hi rend="underline">Croppy</hi> &amp; <hi rend="underline">Orangeman</hi> - Whether the<lb/>
                man accused of hat stealing - or his accuser was<lb/>
                Croppy or orangeman I forget.<lb/>
             </p>
             <p>
-               <persName ref="./Personography.xml#HuntH1">M<hi rend="superscript">r</hi>. Hunt</persName> who seemed to have <choice><orig>deser<lb/>vedly</orig><reg>deservedly</reg></choice>
+               <persName ref="./Personography.xml#HuntH1">M<hi rend="superscript">r</hi>. Hunt</persName> who seemed to have <choice>
+                  <orig>deser<lb/>vedly</orig>
+                  <reg>deservedly</reg>
+               </choice>
                lost all favor even with the lowest<lb/>
                of the people of the <placeName ref="./Placeography.xml#London_ENK">London</placeName> mob has as you<lb/>
                will see by the <placeName ref="./Placeography.xml#London_ENK">London</placeName> papers (if they reach<lb/>
-               you) regained his influence - He was <choice><orig>harangu<lb/>-ing</orig><reg>haranguing</reg></choice>
+               you) regained his influence - He was <choice>
+                  <orig>harangu<lb/>-ing</orig>
+                  <reg>haranguing</reg>
+               </choice>
                 last week a mob of many thousands at <placeName ref="./Placeography.xml#Smithfield-Market_ENK">Smith<lb/>field</placeName>
                <del>upon</del>, It is curious that this modern<lb/>
                <persName ref="./Personography.xml#CadeJ1">Jack Cade</persName> is haranguing on the spot where<lb/>
                his predecessor assembled a <add>great</add> multitude but<lb/>
                where such a multitude has never since<lb/>
                been assembled except at the great burning<lb/>
-               match which our <persName ref="./Personography.xml#Mary1">bloody queen Mary</persName><lb/>
-               <del><unclear/></del> held there - She made fire and<lb/>
+               match which our <persName ref="./Personography.xml#Mary1">bloody queen Mary</persName>
+               <lb/>
+               <del>
+                  <unclear/>
+               </del> held there - She made fire and<lb/>
                faggots blaze to burn protestants - and now<lb/>
                the cry of the modern <persName ref="./Personography.xml#CadeJ1">Jack Cade</persName> is in favor<lb/>
                of Catholics! - I fear they will much hurt<lb/>
@@ -407,20 +504,29 @@
                more discretion to be a good friend, than a<lb/>
                good enemy.<lb/>
             </p>
-               
-               <note place="top">134</note>
-               
-               <pb n="8" facs="Edgeworth_Geneve_33_2_1819_07_29_page08.jpg"/>
+            <note place="top">134</note>
+            <pb n="8" facs="Edgeworth_Geneve_33_2_1819_07_29_page08.jpg"/>
             <p>
-               You will think perhaps that I am <choice><orig>grow-<lb/>ing</orig><reg>growing</reg></choice>
-               a great politician - not at all. I have <hi rend="underline">naturally</hi><lb/>
+               You will think perhaps that I am <choice>
+                  <orig>grow-<lb/>ing</orig>
+                  <reg>growing</reg>
+               </choice>
+               a great politician - not at all. I have <hi rend="underline">naturally</hi>
+               <lb/>
                I mean <hi rend="underline">habitually</hi> no taste even for reading the<lb/>
-               newspapers; but my <persName ref="./Personography.xml#EdgeR1">father</persName> strongly <choice><orig>recommend<lb/>-ed</orig><reg>recommended</reg></choice>
+               newspapers; but my <persName ref="./Personography.xml#EdgeR1">father</persName> strongly <choice>
+                  <orig>recommend<lb/>-ed</orig>
+                  <reg>recommended</reg>
+               </choice>
                it to me to read them constantly that I might<lb/>
                keep up <add>some</add> knowledge of what is going on in the<lb/>
-               world of realities &amp; not live in a world of <choice><orig>imagi-<lb/>nation</orig><reg>imagination</reg></choice>
+               world of realities &amp; not live in a world of <choice>
+                  <orig>imagi-<lb/>nation</orig>
+                  <reg>imagination</reg>
+               </choice>
                of my own - more agreeable but more<lb/>
-               dangerous. Fortunately for me my sister <persName ref="./Personography.xml#EdgeF3">Fanny</persName><lb/>
+               dangerous. Fortunately for me my sister <persName ref="./Personography.xml#EdgeF3">Fanny</persName>
+               <lb/>
                has <del>really</del> a genuine taste for politics &amp; reads<lb/>
                the newspapers &amp; all the parliamentary debates<lb/>
                with avidity very uncommon for so young<lb/>
@@ -429,17 +535,25 @@
                keeps alive my interest, - saves my eyes - and<lb/>
                my understanding the labor of sieving the<lb/>
                sense from the nonsense - How I shall delight<lb/>
-               in making <persName ref="./Personography.xml#EdgeF3">Fanny</persName> known to you - She <choice><orig>remem<lb/>bers</orig><reg>remembers</reg></choice>
+               in making <persName ref="./Personography.xml#EdgeF3">Fanny</persName> known to you - She <choice>
+                  <orig>remem<lb/>bers</orig>
+                  <reg>remembers</reg>
+               </choice>
                with a feeling of gratitude the kind manner<lb/>
                in which you spoke to her mother when she<lb/>
                met you but for a very short time two years ago<lb/>
                in <placeName ref="./Placeography.xml#London_ENK">London</placeName> - We are reading together at a snails<lb/>
-               pace <persName ref="./Personography.xml#RicaD1">Ricardo's</persName> <title ref="./Workography.xml#Princ1">political economy</title> - There is<lb/>
+               pace <persName ref="./Personography.xml#RicaD1">Ricardo's</persName>
+               <title ref="./Workography.xml#Princ1">political economy</title> - There is<lb/>
                some puzzle in his book about the rent of land<lb/>
                which I think I shall never understand till<lb/>
                <persName ref="./Personography.xml#MarcJ1">M<hi rend="superscript">rs</hi>. Marcet</persName> explains it to me - Where does he<lb/>
                find that Number 1 of his divisions of land<lb/>
-               cultivated which pays no rent - <hi rend="underline">By the <choice><orig>sup<lb/>position</orig><reg>supposition</reg></choice></hi>
+               cultivated which pays no rent - <hi rend="underline">By the <choice>
+                     <orig>sup<lb/>position</orig>
+                     <reg>supposition</reg>
+                  </choice>
+               </hi>
                I grant it to all his problems &amp; it seems<lb/>
                necessary to all his demonstrations, but on<lb/>
                this habitable globe or in all the parts I know<lb/>
@@ -455,29 +569,41 @@
                rather for notoriety - His <title ref="./Workography.xml#Mazep1">Mazeppa</title> does not seem<lb/>
                to have pleased the <placeName ref="./Placeography.xml#London_ENK">London</placeName> world much The day<lb/>
                after it<lb/>
-               
                <pb n="9" facs="Edgeworth_Geneve_33_2_1819_07_29_page09.jpg"/>
                was published <persName ref="./Personography.xml#LansH1">Lord Lansdowne</persName> wrote to me &amp; he<lb/>
                concluded with "<persName ref="./Personography.xml#ByroG1">Lord Byrons</persName> readers are<lb/>
                surprised, I must not say disappointed to<lb/>
-               find <del>that</del> <add>in</add> <title ref="./Workography.xml#Mazep1">Mazeppa</title> <del>is</del> neither <del>satire</del> <add>scandal</add> nor<lb/>
+               find <del>that</del>
+               <add>in</add>
+               <title ref="./Workography.xml#Mazep1">Mazeppa</title>
+               <del>is</del> neither <del>satire</del>
+               <add>scandal</add> nor<lb/>
                licentiousness - but some pretty descriptions<lb/>
                tacked to a strange story" - I have not heard a<lb/>
                better description of it - The argument of the poem<lb/>
                is given in ten lines of <persName ref="./Personography.xml#Volta1">Voltaire's</persName> inimitable<lb/>
-               prose - from his <title ref="./Workography.xml#Histo3">history of Charles 12<hi rend="superscript">th</hi>.</title><lb/>
+               prose - from his <title ref="./Workography.xml#Histo3">history of Charles 12<hi rend="superscript">th</hi>.</title>
+               <lb/>
             </p>
             <p>
-               Another poem of <persName ref="./Personography.xml#ByroG1">Lord Byron's</persName> <title ref="./Workography.xml#DonJu1">Don Juan</title> has<lb/>
-               just appeared. It is said that it is not fit to <choice><orig>ap-<lb/>-pear</orig><reg>appear</reg></choice>
-                before any lady; whether this be the puff <choice><orig>abu-<lb/>sive</orig><reg>abusive</reg></choice>
+               Another poem of <persName ref="./Personography.xml#ByroG1">Lord Byron's</persName>
+               <title ref="./Workography.xml#DonJu1">Don Juan</title> has<lb/>
+               just appeared. It is said that it is not fit to <choice>
+                  <orig>ap-<lb/>-pear</orig>
+                  <reg>appear</reg>
+               </choice>
+                before any lady; whether this be the puff <choice>
+                  <orig>abu-<lb/>sive</orig>
+                  <reg>abusive</reg>
+               </choice>
                or not I cannot say. It has not yet reached<lb/>
                ultimate <placeName ref="./Placeography.xml#IE">Ireland</placeName>. I am told that <persName ref="./Personography.xml#MurrJ1">Murray</persName> found<lb/>
                it so abusive that he refused to publish it. The<lb/>
                present publisher whose name I forget objected<lb/>
                to many passages &amp; a long correspondance has<lb/>
                been going on between the author &amp; the friends<lb/>
-               - there were some lines against <persName ref="./Personography.xml#CastR1">Lord Castlereagh</persName><lb/>
+               - there were some lines against <persName ref="./Personography.xml#CastR1">Lord Castlereagh</persName>
+               <lb/>
                which <persName ref="./Personography.xml#ByroG1">Lord B</persName> was prevailed upon to leave out<lb/>
                by his friends representing that if he published<lb/>
                them he must return to <placeName ref="./Placeography.xml#ENK">England</placeName> to be ready<lb/>
@@ -487,25 +613,36 @@
             </p>
             <p>
                Some attack on the <persName ref="./Personography.xml#Georg1">Prince Regent</persName> has been<lb/>
-               suppressed - and poor <persName ref="./Personography.xml#SoutR1">Southey</persName> has been <choice><orig>some-<lb/>how</orig><reg>somehow</reg></choice>
+               suppressed - and poor <persName ref="./Personography.xml#SoutR1">Southey</persName> has been <choice>
+                  <orig>some-<lb/>how</orig>
+                  <reg>somehow</reg>
+               </choice>
                or other snatched from his claws - But<lb/>
                there was one object on which he had fastened<lb/>
-               his talons, from which he would not be <choice><orig>terri-<lb/>fied</orig><reg>terrified</reg></choice>
+               his talons, from which he would not be <choice>
+                  <orig>terri-<lb/>fied</orig>
+                  <reg>terrified</reg>
+               </choice>
                even though he knew he must perish<lb/>
                in the attempt to wreak his vengeance there-<lb/>
             </p>
             <p>
-               - He had written some bitter lines on <persName ref="./Personography.xml#RomiS1">Sir Samuel<lb/> Romilly</persName><lb/>
-               - In reply to the publisher &amp; to <persName ref="./Personography.xml#HobhJ1">M<hi rend="superscript">r</hi>. Hobhouse's</persName><lb/>
+               - He had written some bitter lines on <persName ref="./Personography.xml#RomiS1">Sir Samuel<lb/> Romilly</persName>
+               <lb/>
+               - In reply to the publisher &amp; to <persName ref="./Personography.xml#HobhJ1">M<hi rend="superscript">r</hi>. Hobhouse's</persName>
+               <lb/>
                entreaties that he would leave them out <persName ref="./Personography.xml#ByroG1">Lord By-<lb/>ron</persName>
                refused - saying that alive or dead he detested <persName ref="./Personography.xml#RomiS1">Sir<lb/> Samuel Romilly</persName>
                &amp; would not relinquish his vengeance<lb/>
-               
                <note place="top">135</note>
-               
                <pb n="10" facs="Edgeworth_Geneve_33_2_1819_07_29_page10.jpg"/>
-               - <del>Lord</del> <persName ref="./Personography.xml#HobhJ1">Hobhouse</persName> has at his own peril taken them<lb/>
-               out. - He has done well for <del><persName ref="./Personography.xml#ByroG1">Lord Byron</persName></del> <add>his friend</add>- As to <hi rend="underline">our</hi><lb/>
+               - <del>Lord</del>
+               <persName ref="./Personography.xml#HobhJ1">Hobhouse</persName> has at his own peril taken them<lb/>
+               out. - He has done well for <del>
+                  <persName ref="./Personography.xml#ByroG1">Lord Byron</persName>
+               </del>
+               <add>his friend</add>- As to <hi rend="underline">our</hi>
+               <lb/>
                friend <persName ref="./Personography.xml#ByroG1">Lord Byron</persName> could not touch his fame<lb/>
                There is in his reputation a living principle<lb/>
                <del>of truth</del> which the animals that prey upon the<lb/>
@@ -521,19 +658,18 @@
                balls whenever they are tired -<lb/>
             </p>
             <p>
-               <persName ref="./Personography.xml#EdgeF2">M<hi rend="superscript">rs</hi>. Edgeworth</persName> desires to be most <choice><orig>affection-<lb/>ately</orig><reg>affectionately</reg></choice>
+               <persName ref="./Personography.xml#EdgeF2">M<hi rend="superscript">rs</hi>. Edgeworth</persName> desires to be most <choice>
+                  <orig>affection-<lb/>ately</orig>
+                  <reg>affectionately</reg>
+               </choice>
                remembered to you<lb/>
-               
             </p>
-            
             <closer>
                I am your obliged &amp; grateful friend<lb/>
                <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>.<lb/>
             </closer>
-           
-              
          </div>
       </body>
-      <back> </back>
+      <back/>
    </text>
 </TEI>

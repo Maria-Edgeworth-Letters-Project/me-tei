@@ -4,6 +4,8 @@
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="https://raw.githubusercontent.com/Maria-Edgeworth-Letters-Project/me-tei/refs/heads/main/melp.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
     ?>
+<?xml-model href="https://raw.githubusercontent.com/Maria-Edgeworth-Letters-Project/me-tei/refs/heads/main/melp_odd.rng" type="application/xml"​​ schematypens="http://relaxng.org/ns/structure/1.0"
+    ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -161,7 +163,9 @@
                <address>
                   <addrLine>Copy to <persName ref="./Personography.xml#MileJ1">M<hi rend="superscript">r.</hi> Miles</persName> Jan<hi rend="superscript">ry.</hi> 1816</addrLine>
                   <lb/>
-                  <addrLine><persName ref="./Personography.xml#ChatE1">M<hi rend="superscript">r.</hi> Chater</persName></addrLine>
+                  <addrLine>
+                     <persName ref="./Personography.xml#ChatE1">M<hi rend="superscript">r.</hi> Chater</persName>
+                  </addrLine>
                   <lb/>
                   <addrLine>
                      <placeName ref="./Placeography.xml#Corn-Hill_ENK">11 Corn Hill</placeName>

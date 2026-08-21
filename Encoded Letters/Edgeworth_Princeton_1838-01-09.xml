@@ -4,6 +4,8 @@
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="https://raw.githubusercontent.com/Maria-Edgeworth-Letters-Project/me-tei/refs/heads/main/melp.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
     ?>
+<?xml-model href="https://raw.githubusercontent.com/Maria-Edgeworth-Letters-Project/me-tei/refs/heads/main/melp_odd.rng" type="application/xml"​​ schematypens="http://relaxng.org/ns/structure/1.0"
+    ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -214,7 +216,8 @@
                   <reg>availed</reg>
                </choice> myself of <choice>
                   <orig>y<hi rend="superscript">r</hi>
-                  </orig><reg>your</reg>
+                  </orig>
+                  <reg>your</reg>
                </choice>
                <lb/>
                <unclear/> to <persName ref="./Personography.xml#LeBrL1">M<hi rend="superscript">r</hi> Le Breton</persName>, as I have not yet <unclear>been</unclear>

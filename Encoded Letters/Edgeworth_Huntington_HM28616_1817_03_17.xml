@@ -4,6 +4,8 @@
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="https://raw.githubusercontent.com/Maria-Edgeworth-Letters-Project/me-tei/refs/heads/main/melp.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
     ?>
+<?xml-model href="https://raw.githubusercontent.com/Maria-Edgeworth-Letters-Project/me-tei/refs/heads/main/melp_odd.rng" type="application/xml"​​ schematypens="http://relaxng.org/ns/structure/1.0"
+    ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -471,7 +473,8 @@
                   <unclear>Earle</unclear>
                </persName> examine it - <lb/>
                &amp; I do not see why you should object to<lb/>
-               it - provided always that the <persName ref="./Personography.xml#Griff1">Griffith's</persName><lb/>
+               it - provided always that the <persName ref="./Personography.xml#Griff1">Griffith's</persName>
+               <lb/>
                may not be amazed - but they need not<lb/>
                be told. - Are you sure that he sees<lb/>
                with the right eye? - The great Point<lb/>

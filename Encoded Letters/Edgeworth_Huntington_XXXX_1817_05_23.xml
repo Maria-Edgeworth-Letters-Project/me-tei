@@ -4,6 +4,8 @@
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="https://raw.githubusercontent.com/Maria-Edgeworth-Letters-Project/me-tei/refs/heads/main/melp.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
     ?>
+<?xml-model href="https://raw.githubusercontent.com/Maria-Edgeworth-Letters-Project/me-tei/refs/heads/main/melp_odd.rng" type="application/xml"​​ schematypens="http://relaxng.org/ns/structure/1.0"
+    ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -177,7 +179,8 @@
                  time. But if you prefer paying the whole at the end<lb/>
                  of one year we shall most willingly agree to that <choice>
                   <orig>ar-<lb/>
-                     rangement.</orig><reg>arrangement</reg>
+                     rangement.</orig>
+                  <reg>arrangement</reg>
                </choice>
                <lb/>
             </p>

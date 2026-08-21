@@ -4,6 +4,8 @@
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="https://raw.githubusercontent.com/Maria-Edgeworth-Letters-Project/me-tei/refs/heads/main/melp.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
     ?>
+<?xml-model href="https://raw.githubusercontent.com/Maria-Edgeworth-Letters-Project/me-tei/refs/heads/main/melp_odd.rng" type="application/xml"​​ schematypens="http://relaxng.org/ns/structure/1.0"
+    ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -98,12 +100,13 @@
                   <date when="1823-08-13">August 13, 1823</date>
                </dateline>
                <salute>
-                     <choice>
-                        <orig>D<hi rend="superscropt">r</hi>
-                        </orig>
-                        <reg>Dear</reg>
-                     </choice> <persName ref="./Personography.xml#ConsA2">Sir</persName>
-                     <note place="bottom">Cert</note>
+                  <choice>
+                     <orig>D<hi rend="superscropt">r</hi>
+                     </orig>
+                     <reg>Dear</reg>
+                  </choice>
+                  <persName ref="./Personography.xml#ConsA2">Sir</persName>
+                  <note place="bottom">Cert</note>
                </salute>
             </opener>
             <p>

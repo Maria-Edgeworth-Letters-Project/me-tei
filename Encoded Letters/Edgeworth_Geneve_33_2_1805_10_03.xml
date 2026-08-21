@@ -3,165 +3,153 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="https://raw.githubusercontent.com/Maria-Edgeworth-Letters-Project/me-tei/refs/heads/main/melp.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/Maria-Edgeworth-Letters-Project/me-tei/refs/heads/main/melp_odd.rng" type="application/xml"​​ schematypens="http://relaxng.org/ns/structure/1.0"
+    ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>Letter from Richard Lovell Edgeworth to Étienne Dumont, October 3, 1805</title>
-                <author>Richard Lovell Edgeworth</author>
-                <editor>
-                    
-                </editor>
-                <sponsor>
-                    <orgName>Maria Edgeworth Letters Project</orgName>
-                </sponsor>
-                <sponsor>Texas A &amp; M University, University of Tennessee, Wake Forest University, Xavier University of Louisiana, Southern Methodist University</sponsor>
-                <principal>Susan Egenolf, Meredith Hale, Hilary Havens, Jessica Richard, and Robin Runia</principal>
-                <respStmt>
-                    <resp>Transcription and coding by</resp>
-                    <persName>Paris Weber
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from Richard Lovell Edgeworth to Étienne Dumont, October 3, 1805</title>
+            <author>Richard Lovell Edgeworth</author>
+            <editor/>
+            <sponsor>
+               <orgName>Maria Edgeworth Letters Project</orgName>
+            </sponsor>
+            <sponsor>Texas A &amp; M University, University of Tennessee, Wake Forest University, Xavier University of Louisiana, Southern Methodist University</sponsor>
+            <principal>Susan Egenolf, Meredith Hale, Hilary Havens, Jessica Richard, and Robin Runia</principal>
+            <respStmt>
+               <resp>Transcription and coding by</resp>
+               <persName>Paris Weber
                     </persName>
-                    
-                </respStmt>
-            </titleStmt>
-            <editionStmt>
-                <edition>First digital edition in TEI,<date when="2026-06-09">June 09, 2026</date>
-                    
-                </edition>
-                <respStmt>
-                    <orgName type="naf" ref="https://d-nb.info/gnd/5075238-8">
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>First digital edition in TEI,<date when="2026-06-09">June 09, 2026</date>
+            </edition>
+            <respStmt>
+               <orgName type="naf" ref="https://d-nb.info/gnd/5075238-8">
                         Bibliothèques municipales de la Ville de Genève</orgName>
-                    
-                    
-                    <resp> photos include:
+               <resp> photos include:
                         Edgeworth_Geneve_33_2_1805_10_03_page01.jpg,
                         Edgeworth_Geneve_33_2_1805_10_03_page02.jpg,
                         Edgeworth_Geneve_33_2_1805_10_03_page03.jpg
                     </resp>
-                </respStmt>
-            </editionStmt>
-            <publicationStmt>
-                <authority>Maria Edgeworth Letters Project</authority>
-                <date>2022</date>
-                <availability>
-                    <p>Reproduced by courtesy of the <orgName ref="https://d-nb.info/gnd/5075238-8">Bibliothèques municipales de la Ville de Genève</orgName>
-                    </p>
-                    <licence target="https://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons Attribution 4.0 (CC BY 4.0) Unported License</licence>
-                </availability>
-                <idno>Edgeworth_Geneve_33_2_1805_10_03</idno> 
-            </publicationStmt>
-            <seriesStmt>
-                <title>Maria Edgeworth Letters Project</title>
-            </seriesStmt>
-            <sourceDesc>
-                <msDesc xml:lang="en">
-                    
-                    <msIdentifier>
-                        <repository>Bibliotheque de Geneve</repository>
-                        
-                    </msIdentifier>
-                    <head>Letter from 
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Maria Edgeworth Letters Project</authority>
+            <date>2022</date>
+            <availability>
+               <p>Reproduced by courtesy of the <orgName ref="https://d-nb.info/gnd/5075238-8">Bibliothèques municipales de la Ville de Genève</orgName>
+               </p>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons Attribution 4.0 (CC BY 4.0) Unported License</licence>
+            </availability>
+            <idno>Edgeworth_Geneve_33_2_1805_10_03</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Maria Edgeworth Letters Project</title>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <repository>Bibliotheque de Geneve</repository>
+               </msIdentifier>
+               <head>Letter from 
                         <persName ref="./Personography.xml#EdgeR1">
-                            <forename>Richard Lovell</forename>
-                            <surname>Edgeworth</surname>
-                            <date>1744-1817</date>
-                            <idno type="VIAF">66511092</idno>
-                            
-                        </persName>
+                     <forename>Richard Lovell</forename>
+                     <surname>Edgeworth</surname>
+                     <date>1744-1817</date>
+                     <idno type="VIAF">66511092</idno>
+                  </persName>
                         to <persName ref="./Personography.xml#DumoE1">Étienne Dumont</persName>,  
                         <date when="1805-10-03">Oct 3<hi rend="superscript">d. </hi>1805</date>
-                        
-                    </head>
-                    
-                </msDesc>
-                
-            </sourceDesc>
-        </fileDesc>
-        <encodingDesc>
-            <editorialDecl>
-                <p>Edgeworth’s spelling and punctuation are retained in transcription, including non-standard spelling, line breaks, and hyphenation of words. The long s and ligatured forms are silently emended.</p>
-            </editorialDecl>
-        </encodingDesc>
-        <profileDesc>
-            <correspDesc>
-                <correspAction type="sent">
-                    <persName ref="./Personography.xml#EdgeR1">Richard Lovell Edgeworth</persName>
-                </correspAction>
-                <correspAction type="received">
-                    <persName ref="./Personography.xml#DumoE1">
+               </head>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>Edgeworth’s spelling and punctuation are retained in transcription, including non-standard spelling, line breaks, and hyphenation of words. The long s and ligatured forms are silently emended.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="./Personography.xml#EdgeR1">Richard Lovell Edgeworth</persName>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="./Personography.xml#DumoE1">
                         Étienne Dumont</persName>
-                </correspAction>
-            </correspDesc>
-        </profileDesc>
-        <revisionDesc>
-            <change when="2021-01-01" who="Id_who">
-                <!--Brief description of what you did here.-->
-            </change>
-        </revisionDesc>
-    </teiHeader>
-    <text>
-        <body>
-            <div type="letter">
-                <pb n="1" facs="Edgeworth_Geneve_33_2_1805_10_03_page01.jpg"/>
-                
-                        <opener>
-                        <dateline> 
-                        <note>1</note>
-                       <date when="1805-10-03">Oct 3<hi rend="superscript">d. </hi> 1805</date></dateline>
-                        <placeName ref="./Placeography.xml#Edgeworthstown_IE">Edgeworthstown</placeName>
-                        D<hi rend="superscript">r</hi> . <persName ref="./Personography.xml#DumoE1">Sir</persName></opener>
-                        <p>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-01-01" who="Id_who"><!--Brief description of what you did here.--></change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <pb n="1" facs="Edgeworth_Geneve_33_2_1805_10_03_page01.jpg"/>
+            <opener>
+               <dateline>
+                  <note>1</note>
+                  <date when="1805-10-03">Oct 3<hi rend="superscript">d. </hi> 1805</date>
+               </dateline>
+               <placeName ref="./Placeography.xml#Edgeworthstown_IE">Edgeworthstown</placeName>
+                        D<hi rend="superscript">r</hi> . <persName ref="./Personography.xml#DumoE1">Sir</persName>
+            </opener>
+            <p>
                         I took much pains<lb/>
                         to find you in <placeName ref="./Placeography.xml#London_ENK">London</placeName> last<lb/>
                         June &amp; July; I hear that you<lb/>
                         are now in <placeName ref="./Placeography.xml#IE">Ireland</placeName> &amp; I send<lb/>
                         this letter to take its chance<lb/>
                         of finding you - I begged<lb/>
-                        <persName ref="./Personography.xml#GratH1" cert="medium">M<hi rend="superscript">r</hi>Grattan</persName> to remind <persName ref="./Personography.xml#LansH1">Sir<lb/>
+               <persName ref="./Personography.xml#GratH1" cert="medium">M<hi rend="superscript">r</hi>Grattan</persName> to remind <persName ref="./Personography.xml#LansH1">Sir<lb/>
                         Henry Petty</persName> of our family,<lb/>
-                        who was <add><unclear>at Parsson</unclear></add> <del>at</del> a glimpse of what<lb/>
+                        who was <add>
+                  <unclear>at Parsson</unclear>
+               </add>
+               <del>at</del> a glimpse of what<lb/>
                         all the world now see in full<lb/>
                         blaze - I do assure you my<lb/>
                         D<hi rend="superscript">r</hi> Sir that we value you most<lb/>
                         highly &amp; that we should be truly<lb/>
                         proud &amp; what is better truly hap-<lb/>
                         py to see you here - a large<lb/>
-                    
-                    <pb n="2" facs="Edgeworth_Geneve_33_2_1805_10_03_page02.jpg"/>
-                        <add>family</add> fond of literature &amp; some of them<lb/>
+               <pb n="2" facs="Edgeworth_Geneve_33_2_1805_10_03_page02.jpg"/>
+               <add>family</add> fond of literature &amp; some of them<lb/>
                         known in its republic, who live<lb/>
                         from choice in retirement is<lb/>
                         a spectacle which neither you<lb/>
-                        nor <persName ref="./Personography.xml#LansH1">L<hi rend="superscript">d</hi> Henry</persName> can often see -<lb/></p>
-                        <p>
+                        nor <persName ref="./Personography.xml#LansH1">L<hi rend="superscript">d</hi> Henry</persName> can often see -<lb/>
+            </p>
+            <p>
                         We live within a days<lb/>
                         journey of <placeName ref="./Placeography.xml#Dublin_IE">Dublin</placeName> &amp; I am<lb/>
-                        seldom from home<lb/></p>
-                        <closer>
+                        seldom from home<lb/>
+            </p>
+            <closer>
                         I am D<hi rend="superscript">r</hi> Sir<lb/>
                         Yours sincerely<lb/>
-                        <persName ref="./Personography.xml#EdgeR1">Rich<hi rend="superscript">d</hi> Lovell Edgeworth</persName><lb/></closer>
-                    
-                    <pb n="3" facs="Edgeworth_Geneve_33_2_1805_10_03_page03.jpg"/>
-                      
-                      <closer>
-                        <address>
-                        <addrLine><persName ref="./Personography.xml#DumoE1">a Monsieur</persName></addrLine>
-                        <addrLine><persName ref="./Personography.xml#DumoE1">Monsieur Dumont</persName></addrLine>
-                       <addrLine>&amp;c &amp;c &amp;c</addrLine>
-                      </address></closer>
-                
-
-                        
-                    
-                
-                    
-                  
-                
-            </div>
-        </body>
-        <back> </back>
-    </text>
+               <persName ref="./Personography.xml#EdgeR1">Rich<hi rend="superscript">d</hi> Lovell Edgeworth</persName>
+               <lb/>
+            </closer>
+            <pb n="3" facs="Edgeworth_Geneve_33_2_1805_10_03_page03.jpg"/>
+            <closer>
+               <address>
+                  <addrLine>
+                     <persName ref="./Personography.xml#DumoE1">a Monsieur</persName>
+                  </addrLine>
+                  <addrLine>
+                     <persName ref="./Personography.xml#DumoE1">Monsieur Dumont</persName>
+                  </addrLine>
+                  <addrLine>&amp;c &amp;c &amp;c</addrLine>
+               </address>
+            </closer>
+         </div>
+      </body>
+      <back/>
+   </text>
 </TEI>
-
-

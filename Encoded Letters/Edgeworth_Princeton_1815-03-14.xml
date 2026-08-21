@@ -4,6 +4,8 @@
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="https://raw.githubusercontent.com/Maria-Edgeworth-Letters-Project/me-tei/refs/heads/main/melp.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
     ?>
+<?xml-model href="https://raw.githubusercontent.com/Maria-Edgeworth-Letters-Project/me-tei/refs/heads/main/melp_odd.rng" type="application/xml"​​ schematypens="http://relaxng.org/ns/structure/1.0"
+    ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -196,16 +198,18 @@
                   Shawl<lb/>
                   Cravats<lb/>
                   <unclear>Hand <hi rend="superscript">fs</hi>
-                        </unclear>
+                  </unclear>
                   <lb/>
                   <choice>
                      <orig>
                         <unclear>Huckabac</unclear>
                      </orig>
                      <reg>Huckaback</reg>
-                  </choice><lb/>
+                  </choice>
+                  <lb/>
                   Table cloths<lb/>
-                  Tea <unclear>Ds</unclear><lb/>
+                  Tea <unclear>Ds</unclear>
+                  <lb/>
                   Dusters<lb/>
                   2 Housecloths<lb/>
                   Muslin<lb/>
@@ -223,8 +227,10 @@
                   B frock -<lb/>
                </p>
                <p>
-                  <placeName ref="./Placeography.xml#Piccadilly-104_ENK">104 Picadilly</placeName><lb/>
-                  <placeName ref="./Placeography.xml#Hatton-Garden-28_ENK">28 Hatton Garden</placeName><lb/>
+                  <placeName ref="./Placeography.xml#Piccadilly-104_ENK">104 Picadilly</placeName>
+                  <lb/>
+                  <placeName ref="./Placeography.xml#Hatton-Garden-28_ENK">28 Hatton Garden</placeName>
+                  <lb/>
                </p>
             </postscript>
             <closer>

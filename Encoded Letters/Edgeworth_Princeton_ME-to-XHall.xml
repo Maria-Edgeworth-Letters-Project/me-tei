@@ -4,6 +4,8 @@
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="https://raw.githubusercontent.com/Maria-Edgeworth-Letters-Project/me-tei/refs/heads/main/melp.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
     ?>
+<?xml-model href="https://raw.githubusercontent.com/Maria-Edgeworth-Letters-Project/me-tei/refs/heads/main/melp_odd.rng" type="application/xml"​​ schematypens="http://relaxng.org/ns/structure/1.0"
+    ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -87,11 +89,12 @@
             <pb n="2" facs="Edgeworth_Princeton_ME-to-XHall_page02.jpg"/>
             <opener>
                <salute>
-                     <choice>
-                        <orig>D<hi rend="superscript">r.</hi>
-                        </orig>
-                        <reg>Dear</reg>
-                     </choice> <persName ref="./Personography.xml#HallX2">Madam</persName>
+                  <choice>
+                     <orig>D<hi rend="superscript">r.</hi>
+                     </orig>
+                     <reg>Dear</reg>
+                  </choice>
+                  <persName ref="./Personography.xml#HallX2">Madam</persName>
                </salute>
             </opener>
             <p>You have brought trouble on<lb/>
