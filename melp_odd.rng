@@ -5,7 +5,7 @@
          xmlns:xlink="http://www.w3.org/1999/xlink"
          datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"
          ns="http://www.tei-c.org/ns/1.0"><!--
-Schema generated from ODD source 2026-08-10T14:26:55Z. . 
+Schema generated from ODD source 2026-08-24T12:34:49Z. . 
 TEI Edition: P5 Version 4.11.0. Last updated on 18th February 2026, revision 358d2e48e 
 TEI Edition Location: https://www.tei-c.org/Vault/P5/4.11.0/ 
   
@@ -290,6 +290,19 @@ Suggested values include: 1] internal; 2] external; 3] conjecture</a:documentati
             </sch:report>
       </sch:rule>
    </pattern>
+   <define name="tei_att.notated.attributes">
+      <ref name="tei_att.notated.attribute.notation"/>
+   </define>
+   <define name="tei_att.notated.attribute.notation">
+      <optional>
+         <attribute name="notation">
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">names the notation used for the content of the element.</a:documentation>
+            <data type="token">
+               <param name="pattern">[^\p{C}\p{Z}]+</param>
+            </data>
+         </attribute>
+      </optional>
+   </define>
    <define name="tei_att.placement.attributes">
       <ref name="tei_att.placement.attribute.place"/>
    </define>
@@ -1983,22 +1996,32 @@ Sample values include: 1] rubbing; 2] mildew; 3] smoke</a:documentation>
       <notAllowed/>
    </define>
    <define name="tei_model.quoteLike">
-      <notAllowed/>
+      <choice>
+         <ref name="tei_quote"/>
+      </choice>
    </define>
    <define name="tei_model.quoteLike_alternation">
-      <notAllowed/>
+      <choice>
+         <ref name="tei_quote"/>
+      </choice>
    </define>
    <define name="tei_model.quoteLike_sequence">
-      <empty/>
+      <ref name="tei_quote"/>
    </define>
    <define name="tei_model.quoteLike_sequenceOptional">
-      <empty/>
+      <optional>
+         <ref name="tei_quote"/>
+      </optional>
    </define>
    <define name="tei_model.quoteLike_sequenceOptionalRepeatable">
-      <empty/>
+      <zeroOrMore>
+         <ref name="tei_quote"/>
+      </zeroOrMore>
    </define>
    <define name="tei_model.quoteLike_sequenceRepeatable">
-      <notAllowed/>
+      <oneOrMore>
+         <ref name="tei_quote"/>
+      </oneOrMore>
    </define>
    <define name="tei_model.attributable">
       <choice>
@@ -2237,6 +2260,7 @@ Sample values include: 1] rubbing; 2] mildew; 3] smoke</a:documentation>
       <choice>
          <ref name="tei_model.respLike"/>
          <ref name="tei_model.imprintPart"/>
+         <ref name="tei_quote"/>
          <ref name="tei_bibl"/>
          <ref name="tei_edition"/>
          <ref name="tei_availability"/>
@@ -2525,6 +2549,18 @@ Sample values include: 1] rubbing; 2] mildew; 3] smoke</a:documentation>
          <ref name="tei_att.global.attributes"/>
          <ref name="tei_att.cmc.attributes"/>
          <ref name="tei_att.written.attributes"/>
+         <empty/>
+      </element>
+   </define>
+   <define name="tei_quote">
+      <element name="quote">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(quotation) contains a phrase or passage attributed by the narrator or author to some agency external to the text. [3.3.3. Quotation 4.3.1. Grouped Texts]</a:documentation>
+         <ref name="tei_macro.specialPara"/>
+         <ref name="tei_att.global.attributes"/>
+         <ref name="tei_att.cmc.attributes"/>
+         <ref name="tei_att.msExcerpt.attributes"/>
+         <ref name="tei_att.notated.attributes"/>
+         <ref name="tei_att.typed.attributes"/>
          <empty/>
       </element>
    </define>
