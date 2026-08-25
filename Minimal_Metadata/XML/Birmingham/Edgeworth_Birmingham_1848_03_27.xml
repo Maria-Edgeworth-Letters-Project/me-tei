@@ -5,6 +5,80 @@
 <?xml-model href="https://raw.githubusercontent.com/Maria-Edgeworth-Letters-Project/me-tei/refs/heads/main/melp_odd.rng" type="application/xml"​​ schematypens="http://relaxng.org/ns/structure/1.0"
     ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from Maria Edgeworth to Unknown, March 27, 1848</title>
+            <author>Edgeworth, Maria, 1768-1849</author>
+            <editor><!--Editor on the Maria Edgeworth Letters Project overseeing the coding of this particular letter: FirstName LastName --></editor>
+            <sponsor>
+               <orgName>Maria Edgeworth Letters Project</orgName>
+            </sponsor>
+            <sponsor>Texas A &amp; M University, University of Tennessee, Wake Forest University, Xavier University of Louisiana, Southern Methodist University</sponsor>
+            <principal>Susan Egenolf, Meredith Hale, Hilary Havens, Jessica Richard, and Robin Runia</principal>
+            <respStmt>
+               <resp>Transcription and coding by</resp>
+               <persName><!--FirstName LastName--></persName>
+               <!-- List all transcribers or coders here, editors and students alike, <persName> by <persName>-->
+               <persName><!--FirstName LastName--></persName>
+               <!-- If you are the last person interacting with the file, enter your name last on the list -->
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>First digital edition in TEI, date:<date when="2024-07-24">July 24, 2024</date>
+            </edition>
+            <respStmt>
+               <orgName type="naf" ref="http://id.loc.gov/authorities/names/n83137759">University of Birmingham. Library</orgName>
+               <resp>photos include: Edgeworth_Birmingham_1848_03_27_page01.jpg, Edgeworth_Birmingham_1848_03_27_page02.jpg</resp>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Maria Edgeworth Letters Project</authority>
+            <date>2024</date>
+            <availability><!--Uncomment the appropriate line, based on the archive that holds the physical copy of this letter, 
+                  and delete the other comment line(s).-->
+               <p>Reproduced by courtesy of<orgName ref="http://id.loc.gov/authorities/names/n83137759">University of Birmingham. Library</orgName>.</p>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons Attribution 4.0 (CC BY 4.0) Unported License</licence>
+            </availability>
+            <idno>Edgeworth_Birmingham_1848_03_27</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Maria Edgeworth Letters Project</title>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en"><!-- This section of the header identifies the original manuscript source. -->
+               <msIdentifier>
+                  <repository ref="http://id.loc.gov/authorities/names/n83137759">University of Birmingham. Library</repository>
+                  <collection><!-- Enter specific archival collection if applicable--></collection>
+                  <idno>Edgeworth_Birmingham_1848_03_27</idno>
+               </msIdentifier>
+               <head>Letter from<persName>Edgeworth, Maria, 1768-1849</persName>to<persName>Unknown</persName>,<placeName><!--Location where letter was sent--></placeName>,<date when="1817-08-17">August 17, 1817</date>
+                  <!-- <stamp>Enter description, if applicable</stamp>-->
+               </head>
+               <physDesc><!-- optional physical description of the letter goes here: paper size and condition, seal, postmarks, etc.--></physDesc>
+            </msDesc>
+            <bibl>In addition to our edited version, this letter was previously published in<!--complete bibiographical info if letter was published in a book here - if not delete--></bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl><!--Where Edgeworth uses nonstandard spelling and hyphenation of words, transcriber-coders should use TEI elements “choice," “sic," and “reg" to encode both Edgeworth’s spelling and the regular international standard of Oxford English spelling, following the first listed spelling in the Oxford English Dictionary. -->
+            <p>Edgeworth’s spelling and punctuation are retained in transcription, including non-standard spelling, line breaks, and hyphenation of words. The long s and ligatured forms are silently emended.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName>Edgeworth, Maria, 1768-1849</persName>
+            </correspAction>
+            <correspAction type="received">
+               <persName>Unknown</persName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-01-01" who="Id_who"><!--Brief description of what you did here.--></change>
+      </revisionDesc>
+   </teiHeader>
    <text>
       <body>
          <div type="letter">
