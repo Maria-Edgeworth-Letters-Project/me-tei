@@ -16,29 +16,40 @@
             <sponsor>
                <orgName>Maria Edgeworth Letters Project</orgName>
             </sponsor>
-            <sponsor>Texas A &amp; M University, University of Tennessee, Wake Forest University, Xavier University of Louisiana, Southern Methodist University</sponsor>
-            <principal>Susan Egenolf, Meredith Hale, Hilary Havens, Jessica Richard, and Robin Runia</principal>
+            <sponsor>Texas A &amp; M University, University of Tennessee, Wake Forest University,
+               Xavier University of Louisiana, Southern Methodist University</sponsor>
+            <principal>Susan Egenolf, Meredith Hale, Hilary Havens, Jessica Richard, and Robin
+               Runia</principal>
             <respStmt>
                <resp>Transcription and coding by</resp>
                <persName>Alexandra LaGrand</persName>
             </respStmt>
+            <respStmt>
+               <resp>Reviewed by</resp>
+               <persName>Hilary Havens</persName>
+            </respStmt>
          </titleStmt>
          <editionStmt>
-            <edition>First digital edition in TEI, date: <date when="2023-10-13">October 13, 2022</date>
+            <edition>First digital edition in TEI, date: <date when="2023-10-13">October 13,
+                  2022</date>
             </edition>
             <respStmt>
-               <orgName ref="http://id.loc.gov/authorities/names/n82003163">Princeton University. Library</orgName>
-               <resp> photos include: Edgeworth_Princeton_1838-01-15_page01.jpg, Edgeworth_Princeton_1838-01-15_page02.jpg</resp>
+               <orgName ref="http://id.loc.gov/authorities/names/n82003163">Princeton University.
+                  Library</orgName>
+               <resp> photos include: Edgeworth_Princeton_1838-01-15_page01.jpg,
+                  Edgeworth_Princeton_1838-01-15_page02.jpg</resp>
             </respStmt>
          </editionStmt>
          <publicationStmt>
             <authority>Maria Edgeworth Letters Project</authority>
             <date>2022</date>
             <availability>
-               <p>Reproduced by courtesy of <orgName ref="http://id.loc.gov/authorities/names/n82003163">Princeton University. Library</orgName>
+               <p>Reproduced by courtesy of <orgName
+                     ref="http://id.loc.gov/authorities/names/n82003163">Princeton University.
+                     Library</orgName>
                </p>
-               <licence target="https://creativecommons.org/licenses/by/4.0/">Distributed under a Creative Commons Attribution 4.0 (CC BY 4.0) Unported
-            License</licence>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">Distributed under a
+                  Creative Commons Attribution 4.0 (CC BY 4.0) Unported License</licence>
             </availability>
             <idno>Edgeworth_Princeton_1838-01-15</idno>
          </publicationStmt>
@@ -52,13 +63,11 @@
                   <collection/>
                   <idno/>
                </msIdentifier>
-               <head>Letter from 
-                     <persName ref="./Personography.xml#EdgeM1">
+               <head>Letter from <persName ref="./Personography.xml#EdgeM1">
                      <forename>Maria</forename>
                      <surname>Edgeworth</surname>
-                  </persName>
-                   to <persName>Unknown</persName>, <placeName/>, 
-                  <date when="1838-01-15">January 15, 1838</date>
+               </persName> to <persName ref="./Personography.xml#EdgeF3">Frances Anne Edgeworth</persName>, <placeName/>, <date when="1838-01-15"
+                     >January 15, 1838</date>
                </head>
                <physDesc/>
             </msDesc>
@@ -66,7 +75,9 @@
       </fileDesc>
       <encodingDesc>
          <editorialDecl>
-            <p>Edgeworth’s spelling and punctuation are retained in transcription, including non-standard spelling, line breaks, and hyphenation of words. The long s and ligatured forms are silently emended.</p>
+            <p>Edgeworth’s spelling and punctuation are retained in transcription, including
+               non-standard spelling, line breaks, and hyphenation of words. The long s and
+               ligatured forms are silently emended.</p>
          </editorialDecl>
       </encodingDesc>
       <profileDesc>
@@ -74,14 +85,20 @@
             <correspAction type="sent">
                <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
             </correspAction>
+            <correspAction type="received">
+               <persName ref="./Personography.xml#EdgeF3">Frances Anne Edgeworth, 1799-1848</persName>
+            </correspAction>
          </correspDesc>
       </profileDesc>
-      <revisionDesc>
-         <change when="2023-10-13" who="Id_who">Created file for letter and began to fill out TEI template</change>
-         <change when="2023-10-15" who="Id_who">Double-checked and edited letter template</change>
-         <change when="2023-10-19" who="Id_who">Edited encoded letter based on suggested edits by EAW</change>
-         <change when="2023-10-27" who="Id_who">Updated choice tags</change>
-         <change when="2023-11-10" who="Id_who">Removed extra comments</change>
+      <revisionDesc status="approved">
+         <change when="2023-10-13">Created file for letter and began to fill out TEI
+            template</change>
+         <change when="2023-10-15">Double-checked and edited letter template</change>
+         <change when="2023-10-19">Edited encoded letter based on suggested edits by
+            EAW</change>
+         <change when="2023-10-27">Updated choice tags</change>
+         <change when="2023-11-10">Removed extra comments</change>
+         <change when="2026-09-05">Hilary Havens completed final editorial review on 09-05-2026</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -90,73 +107,52 @@
             <pb n="1" facs="Edgeworth_Princeton_1838-01-15_page01.jpg"/>
             <opener>
                <dateline>
-                  <placeName ref="./Placeography.xml#Edgeworthstown_IE"/>Edgeworthstown
-                  <date when="1816-08-04">Jan<hi rend="superscript">y</hi> 15<hi rend="superscript">h</hi> 1838.</date>
+                  <placeName ref="./Placeography.xml#Edgeworthstown_IE"/>Edgeworthstown <date
+                     when="1816-08-04">Jan<hi rend="superscript">y</hi> 15<hi rend="superscript"
+                        >h</hi> 1838.</date>
                </dateline>
             </opener>
-            <p>It is wonderful to me to feel<lb/>
-               that I have so much left to love<lb/>
-               after having lost so much and <lb/>
-               often as I feel this with <choice>
-                  <orig>gra<lb/>
-               titude</orig>
+            <p>It is wonderful to me to feel<lb/> that I have so much left to love<lb/> after having
+               lost so much and <lb/> often as I feel this with <choice>
+                  <orig>gra-<lb/> titude</orig>
                   <reg>gratitude</reg>
-               </choice> to Heaven never did<lb/>
-               I feel is more than on read<lb/>
-               ing your most kind letter<lb/>
-               dearest child, sister and friend<lb/>
+               </choice> to Heaven never did<lb/> I feel is more than on <choice>
+                  <orig>read-<lb/> ing</orig>
+                  <reg>reading</reg>
+               </choice> your most kind letter my<lb/> dearest child, sister and friend<lb/>
             </p>
-            <p>Well might my father say<lb/>
-               Well did he prophecy, that<lb/>
-               you dear <unclear/>
-               <unclear/> as<lb/>
-               then you were would be one<lb/>
-               of the greatest blessings of my<lb/>
-               life if prolonged to age -<lb/>
-               God bless and preserve you<lb/>
-               My dearest -- not <hi rend="underline">merely</hi>
+            <p>Well might my father say<lb/> Well did he prophecy, that<lb/> you dear <unclear><hi
+                     rend="underline">little</hi></unclear> <persName ref="./Personography.xml#EdgeF3">Fanny</persName> as<lb/> then you were would be
+               one<lb/> of the greatest blessings of my<lb/> life if prolonged to age -<lb/> God
+               bless and preserve you<lb/> my dearest - not <hi rend="underline">merely</hi>
                <choice>
-                  <orig>sel<lb/>
-               fishly</orig>
+                  <orig>sel-<lb/> fishly</orig>
                   <reg>selfishly</reg>
-               </choice> do I breathe this prayer<lb/>
-               -- <persName ref="./Personography.xml#EdgeL1">Lucy's</persName> account &amp; <persName ref="./Personography.xml#WilsL1">Lestocks</persName> her<lb/>
-               opinion of you are good and<lb/>
-               for this I am thankful &amp; hopeful<lb/>
+               </choice> do I breathe this prayer<lb/> - <persName ref="./Personography.xml#EdgeL1"
+                  >Lucys</persName> account &amp; <persName ref="./Personography.xml#WilsL1"
+                  >Lestocks</persName> her<lb/> opinion of you are good and<lb/> for this I am
+               thankful &amp; hopeful<lb/>
+       
+               <pb n="2" facs="Edgeworth_Princeton_1838-01-15_page02.jpg"/> I am glad you will not
+               rack<lb/> yourself by driving or being<lb/> driven out till the weather is<lb/> finer
+               and you stronger.<lb/>
             </p>
-            <p>
-               <pb n="2" facs="Edgeworth_Princeton_1838-01-15_page02.jpg"/>
-               I am glad you will not each<lb/>
-               yourself by driving or being<lb/>
-               driven out till the weather is<lb/>
-               finer and you stronger.<lb/>
+            <p>What a dreadful fire - The<lb/> 200 year old <placeName
+                  ref="./Placeography.xml#Royal-Exchange_ENK">Greshams Exchange</placeName>
+               <lb/> gone in a few hours - contents<lb/> of the iron chest and all!<lb/> I hope
+                  <persName ref="./Personography.xml#WilsL1">Lestock</persName> and his
+               partners<lb/> will not suffer by it <del>personall</del>
+               <lb/> either in Insurance or any<lb/> other way - I do not like to write<lb/> to
+               trouble him with inquiries or<lb/> condolence -- I trust we shall hear<lb/> from you
+               all that concerns him<lb/> - He is to be with you on the 27<hi rend="superscript"
+                  >h</hi>
+               <lb/> I think - you need not plague<lb/> him with any question about<lb/> that old 13<add>2</add>
+               draft - your mother<lb/> has had <persName ref="./Personography.xml#HoarC1"
+                  >Hoare's</persName> account this<lb/> morning which has settled the<lb/> point no
+               more about that -<lb/>
             </p>
-            <p>What a dreadful fire - The<lb/>
-               200 year old <placeName ref="./Placeography.xml#Royal-Exchange_ENK">Gresham Exchange</placeName>
-               <lb/>
-               gone in a few hours - contents<lb/>
-               of the iron chest and all!<lb/>
-               I hope <persName ref="./Personography.xml#WilsL1">Lestock</persName> and his partners<lb/>
-               will not suffer by it <del/>
-               <lb/>
-               either in Insurance or any<lb/>
-               other way - I do not like to write<lb/>
-               to trouble him with inquiries or<lb/>
-               condolence -- I trust we shall hear<lb/>
-               from you all that concerns him<lb/>
-               -- He is to be with you on the 27<hi rend="superscript">h</hi>
-               <lb/>
-               I think-you need not plague<lb/>
-               him with any question about<lb/>
-               that old 13 draft - your mother<lb/>
-               has had <persName ref="./Personography.xml#HoarC1">Hoare's</persName> account this<lb/>
-               morning which has settled the<lb/>
-               point no more about that -<lb/>
-            </p>
-            <p>I have gathered together all<lb/>
-               the letters received since my last<lb/>
-               Envoie which I think could<lb/>
-               Interest you my dear &amp; if those<lb/>
+            <p>I have gathered together all<lb/> the letters received since my last<lb/> Envoie
+               which I think could<lb/> Interest you my dear &amp; if those<lb/>
             </p>
          </div>
       </body>
