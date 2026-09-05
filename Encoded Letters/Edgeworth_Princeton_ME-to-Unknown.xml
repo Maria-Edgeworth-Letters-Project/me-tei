@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/Maria-Edgeworth-Letters-Project/me-tei/refs/heads/main/melp.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/Maria-Edgeworth-Letters-Project/me-tei/refs/heads/main/melp_odd.rng" type="application/xml"​​ schematypens="http://relaxng.org/ns/structure/1.0"
+    ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from Maria Edgeworth to Unknown</title>
+            <author>Maria Edgeworth</author>
+            <editor> Hilary Havens </editor>
+            <sponsor>
+               <orgName>Maria Edgeworth Letters Project</orgName>
+            </sponsor>
+            <sponsor>Texas A &amp; M University, University of Tennessee, Wake Forest University,
+               Xavier University of Louisiana, Southern Methodist University</sponsor>
+            <principal>Susan Egenolf, Meredith Hale, Hilary Havens, Jessica Richard, and Robin
+               Runia</principal>
+            <respStmt>
+               <resp>Transcription by</resp>
+               <persName>Alexandra LaGrand </persName>
+            </respStmt>
+            <respStmt>
+               <resp>Encoding by</resp>
+               <persName>Hilary Havens</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Reviewed by</resp>
+               <persName>Hilary Havens</persName>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>First digital edition in TEI, date: <date when="2026-09-05"> </date>
+            </edition>
+            <respStmt>
+               <orgName type="naf" ref="Id_who"> Princeton University. Library </orgName>
+               <resp> photos include: Edgeworth_Princeton_ME-to-Unknown_page01.jpg, Edgeworth_Princeton_ME-to-Unknown_page02.jpg</resp>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Maria Edgeworth Letters Project</authority>
+            <date>2022</date>
+            <availability>
+               <p>Reproduced by the coutesty of the <orgName ref="Princeton">Princeton University
+                     Library</orgName>
+               </p>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">Distributed under a
+                  Creative Commons Attribution 4.0 (CC BY 4.0) Unported License</licence>
+            </availability>
+            <idno>Edgeworth_Princeton_ME-to-Unknown</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Maria Edgeworth Letters Project</title>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <repository>Princeton University. Library</repository>
+                  <collection/>
+                  <idno/>
+               </msIdentifier>
+               <head>Letter from <persName xml:id="EdgeM1" from="1768" to="1849">
+                     <forename>Maria</forename>
+                     <surname>Edgeworth</surname>
+                     <date>1768-1849</date>
+                     <idno type="VIAF">71477273</idno>
+                     <idno type="SNAC">62567029</idno>
+                  </persName> to <persName ref="./Personography.xml#Unknown">Unknown</persName>
+               </head>
+               <physDesc>
+                  <p>Fragment from the end of a letter.  The date on the verso is in pencil and in a different hand.</p>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>Edgeworth’s spelling and punctuation are retained in transcription, including
+               non-standard spelling, line breaks, and hyphenation of words. The long s and
+               ligatured forms are silently emended.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth, 1768-1849</persName>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="./Personography.xml#Unknown">Unknown</persName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+      <revisionDesc status="approved">
+         <change when="2026-09-05"> Hilary Havens encoded and reviewed the file on September 5,
+            2026. </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <pb n="1" facs="Edgeworth_Princeton_ME-to-Unknown_page01.jpg"/>
+            <p>for 3 - And this minute
+               are<lb/> coming<persName ref="./Personography.xml#MurpX1">M<hi rend="superscript"
+                     >r</hi> Murphy</persName> &amp; <persName ref="./Personography.xml#BishK1">M<hi
+                     rend="superscript">r</hi> Knox<lb/> Bishops</persName>
+               <persName ref="./Personography.xml#BishX1">2<hi rend="superscript">d</hi>
+                  son</persName> to dinner</p>
+
+            <p>Is it possible that I have<lb/> again forgotten to mention<lb/>
+               <persName ref="./Personography.xml#EdgeF1" cert="medium">Francis Es</persName>
+               portraits<lb/> I have been so full of them! And<lb/> admire them both so very
+               much<lb/> The most smiling is that I<lb/> like the best - <hi rend="underline"
+                  >That</hi> one would<lb/> speak the best - and I should<lb/> not wonder if it did
+               speak<lb/> &amp; like <persName ref="./Personography.xml#EdgeF1" cert="medium"
+                  >Francis</persName> - <del>af</del> not <unclear>fasting</unclear></p>
+
+            <p>But the other would think<lb/> the deepest and like <persName
+                  ref="./Personography.xml#EdgeF1" cert="medium">Francis</persName><lb/> fasting to
+               whom you might<lb/> appeal for judgement assumed<lb/> some of his own paradoxes<lb/>
+               or Platonisms</p>
+            <closer> Ever affectionately yours<lb/>
+               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName><lb/>
+            </closer>
+            <postscript>
+               <p><persName ref="./Personography.xml#RuxtM2">Margaret Ruxton</persName> shall
+                  have<lb/> the consolation of your<lb/> kind feelings for her</p>
+            </postscript>
+            <pb n="2" facs="Edgeworth_Princeton_ME-to-Unknown_page02.jpg"/>
+            <note place="bottom">15 Jan 38</note>
+         </div>
+      </body>
+      <back> </back>
+   </text>
+</TEI>
