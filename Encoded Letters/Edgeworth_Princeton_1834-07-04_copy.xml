@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/Maria-Edgeworth-Letters-Project/me-tei/refs/heads/main/melp.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+    ?>
+<?xml-model href="https://raw.githubusercontent.com/Maria-Edgeworth-Letters-Project/me-tei/refs/heads/main/melp_odd.rng" type="application/xml"​​ schematypens="http://relaxng.org/ns/structure/1.0"
+    ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Copy of a letter from Maria Edgeworth to Richard Bentley, July 4, 1834</title>
+            <author>Maria Edgeworth</author>
+            <editor>Hilary Havens</editor>
+            <sponsor>
+               <orgName>Maria Edgeworth Letters Project</orgName>
+            </sponsor>
+            <sponsor>Texas A &amp; M University, University of Tennessee, Wake Forest University,
+               Xavier University of Louisiana, Southern Methodist University</sponsor>
+            <principal>Susan Egenolf, Meredith Hale, Hilary Havens, Jessica Richard, and Robin
+               Runia</principal>
+            <respStmt>
+               <resp>Transcription and coding by</resp>
+               <persName>Hilary Havens</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Reviewed by</resp>
+               <persName>Hilary Havens</persName>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>First digital edition in TEI, date: <date when="2026-09-10">September 10,
+                  2026</date>
+            </edition>
+            <respStmt>
+               <orgName ref="http://id.loc.gov/authorities/names/n82003163">Princeton University.
+                  Library</orgName>
+               <resp> photos include: Edgeworth_Princeton_1834-07-04_copy_page01.pdf</resp>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Maria Edgeworth Letters Project</authority>
+            <date>2026</date>
+            <availability>
+               <p>Reproduced by courtesy of <orgName
+                     ref="http://id.loc.gov/authorities/names/n82003163">Princeton University.
+                     Library</orgName>
+               </p>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">Distributed under a
+                  Creative Commons Attribution 4.0 (CC BY 4.0) Unported License</licence>
+            </availability>
+            <idno>Edgeworth_Princeton_1834-07-04_copy</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Maria Edgeworth Letters Project</title>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <repository>Princeton University. Library</repository>
+                  <collection/>
+                  <idno/>
+               </msIdentifier>
+               <head>Copy of a letter from <persName ref="./Personography.xml#EdgeM1">
+                     <forename>Maria</forename>
+                     <surname>Edgeworth</surname>
+                  </persName> to <persName ref="./Personography.xml#BentR1" cert="high">Richard
+                     Bentley</persName>, <placeName/>, <date when="1834-07-04">July 4, 1834</date>
+               </head>
+               <physDesc/>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>Edgeworth’s spelling and punctuation are retained in transcription, including
+               non-standard spelling, line breaks, and hyphenation of words. The long s and
+               ligatured forms are silently emended.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="copied">
+               <persName ref="./Personography.xml#EdgeM1">Maria Edgeworth</persName>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="./Personography.xml#BentR1" cert="high">Richard Bentley</persName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+      <revisionDesc status="approved">
+         <change when="2026-09-10">Hilary Havens completed final editorial review on
+            09-10-2026</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <pb n="1" facs="Edgeworth_Princeton_1834-07-04_copy_page01.pdf"/>
+            <opener>
+               <salute> Copy of <persName ref="./Personography.xml#EdgeM1">ME's</persName><lb/>
+                  <persName ref="./Personography.xml#BentR1" cert="high">Sir</persName>
+               </salute>
+            </opener>
+            <p>I am glad to hear that you approve all the sale<lb/> of the number of copies of
+                  <title ref="./Workography.xml#Helen1">Helen</title> which enable<lb/> you to
+               transmit to me the promissory note<lb/> you mention for £200 Whenever you are
+               ready<lb/> I beg you will give the note to my brother in<lb/> law <persName
+                  ref="./Personography.xml#WilsL1">L. P. Wilson</persName> by <placeName
+                  ref="./Placeography.xml#North-Audley-Street-1_ENK">N<hi rend="superscript">o</hi>.
+                  1 North Audley Street</placeName><lb/> or to <persName
+                  ref="./Personography.xml#EdgeF3">M<hi rend="superscript">rs</hi>.
+                  Wilson</persName> whichever of them happen to<lb/> be at home - Either of them
+               will give you a rec<hi rend="superscript">t</hi><lb/> for me.</p>
+
+            <p>I have every reason to be satisfied with the manner<lb/> in which you have brought
+               out this book<lb/> and am obliged by the <del>readiness</del>
+               <add>promptness</add> and<lb/> care with which you have can complied with<lb/> my
+               wishes as to presentation copies and<lb/> on all of other points as well as with
+               your<lb/> punctuality in fulfilling your agreement<lb/> as to money matters</p>
+
+            <p>I will let you know whenever I am<lb/> again ready to go to press But I make it
+               a<lb/> rule never to enter into any agreement<lb/> or to give any promise for a manuscript<lb/>
+               <unclear>till</unclear> it is absolutely finished - I have none<lb/> at present even
+               approaching to that condition<lb/> nor can I tell when I may be ready to publish<lb/>
+               again</p>
+            <closer> I am Sir<lb/> Your <choice>
+                  <orig>obed</orig>
+                  <reg>obedient</reg>
+               </choice> humble Servant<lb/>
+               <persName ref="./Personography.xml#EdgeM1">ME</persName>
+            </closer>
+            <closer>
+               <dateline>
+                  <date when="1834-07-04">July 4 1834</date></dateline>
+            </closer>
+         </div>
+      </body>
+      <back> </back>
+   </text>
+</TEI>
