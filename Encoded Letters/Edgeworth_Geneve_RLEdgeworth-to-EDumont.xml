@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/Maria-Edgeworth-Letters-Project/me-tei/refs/heads/main/melp.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/Maria-Edgeworth-Letters-Project/me-tei/refs/heads/main/melp_odd.rng" type="application/xml"​​ schematypens="http://relaxng.org/ns/structure/1.0"
+    ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from Richard Lovell Edgeworth to Étienne Dumont</title>
+            <author>Richard Lovell Edgeworth</author>
+            <editor/>
+            <sponsor>
+               <orgName>Maria Edgeworth Letters Project</orgName>
+            </sponsor>
+            <sponsor>Texas A &amp;M University, University of Tennessee, Wake Forest University,
+               Xavier University of Louisiana, Southern Methodist University</sponsor>
+            <principal>Susan Egenolf, Meredith Hale, Hilary Havens, Jessica Richard, and Robin
+               Runia</principal>
+            <respStmt>
+               <resp>Transcription and coding by</resp>
+               <persName>Hilary Havens</persName>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>First digital edition in TEI,<date when="2026-10-08">October 8, 2026</date>
+            </edition>
+            <respStmt>
+               <orgName type="naf" ref="https://d-nb.info/gnd/5075238-8"> Bibliothèques municipales
+                  de la Ville de Genève</orgName>
+               <resp> photos include: Edgeworth_Geneve_RLEdgeworth-to-EDumont_page01.jpg,
+                  Edgeworth_Geneve_RLEdgeworth-to-EDumont_page02.jpg,
+                  Edgeworth_Geneve_RLEdgeworth-to-EDumont_page03.jpg,
+                  Edgeworth_Geneve_RLEdgeworth-to-EDumont_page04.jpg </resp>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Maria Edgeworth Letters Project</authority>
+            <date>2022</date>
+            <availability>
+               <p>Reproduced by courtesy of the <orgName ref="https://d-nb.info/gnd/5075238-8"
+                     >Bibliothèques municipales de la Ville de Genève</orgName>
+               </p>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">Distributed under a
+                  Creative Commons Attribution 4.0 (CC BY 4.0) Unported License</licence>
+            </availability>
+            <idno>Edgeworth_Geneve_RLEdgeworth-to-EDumont</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Maria Edgeworth Letters Project</title>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <repository>Bibliothèques municipales de la Ville de Genève</repository>
+               </msIdentifier>
+               <head>Letter from <persName ref="./Personography.xml#EdgeR1">
+                     <forename>Richard Lovell</forename>
+                     <surname>Edgeworth</surname>
+                     <date>1744-1817</date>
+                     <idno type="VIAF">66511092</idno>
+               </persName> to <persName ref="./Personography.xml#DumoE1">Étienne
+                  Dumont</persName>
+               </head>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>Edgeworth’s spelling and punctuation are retained in transcription, including
+               non-standard spelling, line breaks, and hyphenation of words. The long s and
+               ligatured forms are silently emended.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="./Personography.xml#EdgeR1">Richard Lovell Edgeworth</persName>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="./Personography.xml#DumoE1"> Étienne Dumont</persName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-01-01" who="Id_who"
+            ><!--Brief description of what you did here.--></change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <pb n="1" facs="Edgeworth_Geneve_RLEdgeworth-to-EDumont_page01.jpg"/>
+            <opener>
+               <salute>
+                  My dear <persName ref="./Personography.xml#DumoE1">Sir</persName>
+               </salute>
+            </opener>
+            <p><persName ref="./Personography.xml#ChenR1">M<hi rend="superscript">r</hi>. Chenevix</persName> who presents this letter must be<lb/>
+               known to you by reputation - I beg leave to<lb/>
+               introduce him to you - He knows several of<lb/>
+               your friends in <placeName ref="./Placeography.xml#Paris_FR">Paris</placeName> - &amp; I know him to be a<lb/>
+               man of virtue and honour.</p>
+            <p>He will give you a pamphlet <del><unclear>on the</unclear></del> of<lb/>
+               which we think highly - let us know your opinion<lb/>
+               of it - I also send you a paper of <persName ref="./Personography.xml#KirwR1">M<hi rend="superscript">r</hi>. Kirwan's</persName><lb/>
+               of which I say nothing - but hope that you will<lb/>
+               say a great deal.</p>
+            <p>We were glad to see your hand once more<lb/>
+               - Whether travelling or stationary your letters<lb/>
+               are always instructive and entertaining<lb/>
+               - beside the value which we annex to them<lb/>
+               from the belief that they are meant as instances
+               of kindness -</p>
+            <p>You mention <persName ref="./Personography.xml#StewD1">Stewarts</persName> work with great de-<lb/>
+               licacy &amp; kindness - <persName ref="./Personography.xml#StewD1">M<hi rend="superscript">r</hi>. Stewart</persName> is a gentleman<lb/>
+               to whom my family is under great obligations<lb/>
+               - He was a father almost to <persName ref="./Personography.xml#EdgeL2" cert="high">one of my sons</persName><lb/>
+               who was a student at <placeName ref="./Placeography.xml#Edinburgh_STK">Edinburgh</placeName> and a kind<lb/>
+               friend to <persName ref="./Personography.xml#Edgew1">two more of my sons</persName> when they were<lb/>
+               resident in <placeName ref="./Placeography.xml#Edinburgh_STK">that city</placeName> - It is therefore with great<lb/>
+               reluctance that I express any dissent to doc-<lb/>
+               trines which he speaks of with so much partia-<lb/>
+               lity in <title ref="./Workography.xml#Philo1" cert="medium">his last book</title> - I cannot however perceive<lb/>
+               
+               <pb n="2" facs="Edgeworth_Geneve_RLEdgeworth-to-EDumont_page02.jpg"/>
+               distinctly in what he differs from those who assert<lb/>
+               the existence of <hi rend="underline">innate ideas</hi>: perhaps you can<lb/>
+               show me the difference before I add some notes on<lb/>
+               <title ref="./Workography.xml#Pract1">"Practical Education"</title> <del>to</del> - I shall not mention his<lb/>
+               name, but I must support the doctrine, which I<lb/>
+               believe to be the best -</p>
+            <p>I am surprised, that with <persName ref="./Personography.xml#StewD1">M<hi rend="superscript">r</hi>. Stewarts</persName> system,<lb/>
+               he did not advert to <persName ref="./Personography.xml#GallF1">Gall,</persName> who says that he has<lb/>
+               discovered that nerves from each of the several<lb/>
+               organs of sense coalesce in particular parts of the<lb/>
+               brain - &amp; that they may be there distinguished -<lb/>
+               I am told from good authority that <persName ref="./Personography.xml#CuviG1">Cuvier</persName> assents to<lb/>
+               this - (Talk to <persName ref="./Personography.xml#ChenR1">Chenevix</persName> about it) - Now, though the<lb/>
+               rest of <persName ref="./Personography.xml#GallF1">Gall's</persName> system may be, and in my opinion<lb/>
+               are absurd, yet all, that can be supported by facts,<lb/>
+               should be attended to.</p>
+            <p>We are it is true, after all, as much at a loss to ac-<lb/>
+               count for the perceptive faculty; but if <persName ref="./Personography.xml#GallF1">Gall</persName> is right<lb/>
+               we may conclude, that the brain is not an homo-<lb/>
+               -geneous <del>fluid</del> substance, and that some of the<lb/>
+               extraordinary hallucinations of intellect may<lb/>
+               appear less mysterious than formerly -</p>
+            <p>As to materiality and immateriality I never<lb/>
+               could comprehend how Religion was supported<lb/>
+               by one belief or destroyed by the other - <persName ref="./Personography.xml#TookJ1">M<hi rend="superscript">r</hi>. Tooke</persName> &amp;<lb/>
+               <persName ref="./Personography.xml#StewD1">M<hi rend="superscript">r</hi>. Stewart</persName> set out in exactly opposite directions<lb/>
+               but, as they must argue in a circle they will <choice><orig>neces<lb/>
+               
+              <pb n="3" facs="Edgeworth_Geneve_RLEdgeworth-to-EDumont_page03.jpg"/>
+               sarily</orig><reg>necessarily</reg></choice> meet - and even, when they do, very little <choice><orig>prac-<lb/>
+               -tical</orig><reg>practical</reg></choice> utility can follow -</p>
+            <p>Not so my dear <persName ref="./Personography.xml#DumoE1">Sir</persName> from your admira<lb/>
+               ble and useful <title ref="./Workography.xml#Ratio1" cert="medium">book</title> - yours I must call it for<lb/>
+               without you it never would have been read &amp;<lb/>
+               consequently never could have been useful -<lb/>
+               - We prize the work the more the more we study<lb/>
+               it - <persName ref="./Personography.xml#EdgeM1">Maria</persName> is beginning it a third time -<lb/>
+               - There is a passage in your 3<hi rend="superscript">d</hi>. vol page 198 in<lb/>
+               Italics which she thinks requires to be dilated &amp;<lb/>
+               explained - I understand what you mean, but<lb/>
+               I wish that an exception should be there repeated<lb/>
+               of certain crimes that do not admit of pecuniary<lb/>
+               remuneration - murder - maiming - &amp;c -</p>
+            <p>In <persName ref="./Personography.xml#StewD1">M<hi rend="superscript">r</hi>. Stewarts</persName> <title ref="./Workography.xml#Essay5">Essays on taste</title> I admire<lb/>
+               with you the <choice><orig>aimiable</orig><reg>amiable</reg></choice> candor of the author<lb/>
+               Indeed upon all occasions <persName ref="./Personography.xml#StewD1">M<hi rend="superscript">r</hi>. Stewart</persName><lb/>
+               shews a generous &amp; kind disposition - I think<lb/>
+               however, that most of what he says was familiar<lb/>
+               to literary men before he wrote this last quarto -<lb/>
+               and I fear that another quarto to illustrate &amp;<lb/>
+               <hi rend="underline">follow out</hi> as the Scotch say the conclusions that<lb/>
+               he wishes to draw will appear too much for the<lb/>
+               subject.</p>
+            <p>We have <hi rend="underline">long</hi> projected a <hi rend="underline">short</hi> book<lb/>
+               
+               <pb n="4" facs="Edgeworth_Geneve_RLEdgeworth-to-EDumont_page04.jpg"/>
+               under the title of <title ref="./Workography.xml#Unknown">Popular Metaphysics</title> - in which<lb/>
+               we did not mean to combat seriatim the opinions<lb/>
+               of <persName  ref="./Personography.xml#DescR1">Descartes,</persName> <persName ref="./Personography.xml#LockJ2">Locke,</persName> <persName ref="./Personography.xml#BerkG1"><choice><orig>Berkely</orig><reg>Berkeley</reg></choice>,</persName> <persName ref="./Personography.xml#HumeD1">Hume,</persName> <persName ref="./Personography.xml#HartD1">Hartley</persName> &amp; <persName ref="./Personography.xml#StewD1">Stewart</persName><lb/>
+               but to shew what is known in useful metaphysics<lb/>
+               &amp; to point out the limits within which, were we<lb/>
+               to write &amp; talk forever our speculations must<lb/>
+               be confined - use <add>(consciousness of)</add> what words we may the con-<lb/>
+               nexion between our senses &amp; our perceptions<lb/>
+               must I fear forever remain a mystery - You would<lb/>
+               write popular metaphysics infinitely better that we<lb/>
+               could - will you? -</p>
+            <p>We wish exceedingly well to your Quakers but really<lb/>
+               <add>we</add> have not time to contribute with our pens - Are there<lb/>
+               subscribers to the work? if there are pray subscribe for <persName ref="./Personography.xml#EdgeM1">Maria</persName> &amp; me.<lb/>
+               I hope, that your intended visit to this place will<lb/>
+               not be frustrated by political bouleversement!</p>
+               <closer> yours truly
+                  <persName ref="./Personography.xml#EdgeR1">Rich<hi rend="superscript">d</hi> Lovell <choice><orig>Edgewor</orig><reg>Edgeworth</reg></choice></persName></closer>
+ <closer><!--Use the <closer> element again to hold Address Leaf information.-->
+               <address>
+                  <addrLine><persName ref="./Personography.xml#DumoE1">S. Dumont</persName> Esq<hi rend="superscript">r</hi></addrLine>
+                  <addrLine><placeName ref="./Placeography.xml#Haymarket-19_ENK">19 Haymarket</placeName></addrLine>
+                  <addrLine><unclear>b<hi rend="superscript">y</hi></unclear> favor of</addrLine>
+                  <addrLine><persName ref="./Personography.xml#ChenR1">M<hi rend="superscript">r</hi>. Chenivix</persName></addrLine>               
+               </address>
+            </closer>
+         </div>
+      </body>
+      <back> </back>
+   </text>
+</TEI>
