@@ -84,6 +84,7 @@
          <change when="2023-11-30" who="Id_who">Created file for letter, encoded letter</change>
          <change when="2026-09-08" who="Id_who">Jessica Richard corrected transcription, resolved various unclear words, fixed TEI errors, final editorial review</change>
          <change when="2026-09-08"> Jessica Richard completed final editorial review on 9-08-2026. </change>
+         <change when="2026-10-20"> Jessica Richard updated persname tags on 10-20-2026. </change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -171,14 +172,14 @@
             <p>
                I beg you will send me by post 
                <title ref="./Workography.xml#Usefu1"><hi rend="underline">"Bingley's <lb/>
-                     Useful Knowledge</hi></title> under cover to <persName ref="./Personography.xml#MangA1">A Mangin</persName>
+                     Useful Knowledge</hi></title> under cover to <persName cert="medium" ref="./Personography.xml#MangA1">A Mangin</persName>
                <lb/>
                <placeName ref="./Placeography.xml#Castle-Dublin_IE">Castle Dublin</placeName>
                <lb/>
             </p>
             <p>
                If it is necessary that I should return<lb/>
-               <persName cert="medium" ref="./Personography.xml#TaylJ1">Miss Taylor's</persName> interleaved book let me<lb/>
+               <persName cert="medium" ref="./Personography.xml#TaylJ1">Miss Taylors</persName> interleaved book let me<lb/>
                know &amp; you shall have it -<lb/>
             </p>
             <closer>
@@ -203,7 +204,7 @@
                         <unclear>encreasing</unclear>
                      </orig>
                      <reg>increasing</reg>
-                  </choice> the geographical knowledge of her Norfolk<lb/>
+                  </choice> the geographical knowledge of her <placeName ref="./Placeography.xml#Norfolk_ENK">Norfolk</placeName><lb/>
                   "<unclear>readers</unclear> - or even giving them the trouble of seeing
                   <lb/>
                   "words of three syllables - much good may her<lb/>
@@ -221,10 +222,10 @@
                </p>
                <p>
                   Put the letter to <persName ref="./Personography.xml#GranJ1">Miss Grant</persName> into 3<hi rend="superscript">d.</hi> Part &amp;<lb/>
-                  Send the enclosed letter to Francis to<lb/>
+                  Send the enclosed letter to <persName cert="medium" ref="./Personography.xml#EdgeF1">Francis</persName> to<lb/>
                   <persName ref="./Personography.xml#WilsL1">M<hi rend="superscript">r</hi>. L. Wilson's</persName> house who will take<lb/>
                   it with him to <placeName ref="./Placeography.xml#Epping_ENK">Epping</placeName> where I suppose<lb/>
-                  Francis now is<lb/>
+                  <persName ref="./Personography.xml#EdgeF1">Francis</persName> now is<lb/>
                </p>
             </postscript>
             <closer>
